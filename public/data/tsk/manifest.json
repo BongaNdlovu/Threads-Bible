@@ -1,0 +1,266 @@
+{
+  "gen": {
+    "totalVersesWithRefs": 1351,
+    "totalAnchors": 2530
+  },
+  "exo": {
+    "totalVersesWithRefs": 1071,
+    "totalAnchors": 1944
+  },
+  "lev": {
+    "totalVersesWithRefs": 716,
+    "totalAnchors": 1183
+  },
+  "num": {
+    "totalVersesWithRefs": 998,
+    "totalAnchors": 1649
+  },
+  "deu": {
+    "totalVersesWithRefs": 905,
+    "totalAnchors": 1669
+  },
+  "jos": {
+    "totalVersesWithRefs": 595,
+    "totalAnchors": 1151
+  },
+  "jdg": {
+    "totalVersesWithRefs": 534,
+    "totalAnchors": 984
+  },
+  "rut": {
+    "totalVersesWithRefs": 78,
+    "totalAnchors": 146
+  },
+  "1sa": {
+    "totalVersesWithRefs": 731,
+    "totalAnchors": 1438
+  },
+  "2sa": {
+    "totalVersesWithRefs": 635,
+    "totalAnchors": 1333
+  },
+  "1ki": {
+    "totalVersesWithRefs": 744,
+    "totalAnchors": 1547
+  },
+  "2ki": {
+    "totalVersesWithRefs": 676,
+    "totalAnchors": 1488
+  },
+  "1ch": {
+    "totalVersesWithRefs": 739,
+    "totalAnchors": 1573
+  },
+  "2ch": {
+    "totalVersesWithRefs": 792,
+    "totalAnchors": 1849
+  },
+  "ezr": {
+    "totalVersesWithRefs": 245,
+    "totalAnchors": 534
+  },
+  "neh": {
+    "totalVersesWithRefs": 363,
+    "totalAnchors": 889
+  },
+  "est": {
+    "totalVersesWithRefs": 149,
+    "totalAnchors": 330
+  },
+  "job": {
+    "totalVersesWithRefs": 1030,
+    "totalAnchors": 1964
+  },
+  "psa": {
+    "totalVersesWithRefs": 2441,
+    "totalAnchors": 5477
+  },
+  "pro": {
+    "totalVersesWithRefs": 900,
+    "totalAnchors": 1634
+  },
+  "ecc": {
+    "totalVersesWithRefs": 220,
+    "totalAnchors": 471
+  },
+  "sng": {
+    "totalVersesWithRefs": 117,
+    "totalAnchors": 327
+  },
+  "isa": {
+    "totalVersesWithRefs": 1277,
+    "totalAnchors": 3248
+  },
+  "jer": {
+    "totalVersesWithRefs": 1318,
+    "totalAnchors": 3175
+  },
+  "lam": {
+    "totalVersesWithRefs": 152,
+    "totalAnchors": 349
+  },
+  "ezk": {
+    "totalVersesWithRefs": 1168,
+    "totalAnchors": 2559
+  },
+  "dan": {
+    "totalVersesWithRefs": 340,
+    "totalAnchors": 854
+  },
+  "hos": {
+    "totalVersesWithRefs": 196,
+    "totalAnchors": 580
+  },
+  "jol": {
+    "totalVersesWithRefs": 73,
+    "totalAnchors": 198
+  },
+  "amo": {
+    "totalVersesWithRefs": 145,
+    "totalAnchors": 388
+  },
+  "oba": {
+    "totalVersesWithRefs": 21,
+    "totalAnchors": 62
+  },
+  "jon": {
+    "totalVersesWithRefs": 48,
+    "totalAnchors": 115
+  },
+  "mic": {
+    "totalVersesWithRefs": 104,
+    "totalAnchors": 321
+  },
+  "nam": {
+    "totalVersesWithRefs": 47,
+    "totalAnchors": 126
+  },
+  "hab": {
+    "totalVersesWithRefs": 56,
+    "totalAnchors": 152
+  },
+  "zep": {
+    "totalVersesWithRefs": 53,
+    "totalAnchors": 163
+  },
+  "hag": {
+    "totalVersesWithRefs": 37,
+    "totalAnchors": 80
+  },
+  "zec": {
+    "totalVersesWithRefs": 204,
+    "totalAnchors": 568
+  },
+  "mal": {
+    "totalVersesWithRefs": 55,
+    "totalAnchors": 172
+  },
+  "mat": {
+    "totalVersesWithRefs": 1035,
+    "totalAnchors": 2169
+  },
+  "mrk": {
+    "totalVersesWithRefs": 646,
+    "totalAnchors": 1186
+  },
+  "luk": {
+    "totalVersesWithRefs": 1102,
+    "totalAnchors": 2114
+  },
+  "joh": {
+    "totalVersesWithRefs": 846,
+    "totalAnchors": 1711
+  },
+  "act": {
+    "totalVersesWithRefs": 966,
+    "totalAnchors": 2261
+  },
+  "rom": {
+    "totalVersesWithRefs": 429,
+    "totalAnchors": 1131
+  },
+  "1co": {
+    "totalVersesWithRefs": 423,
+    "totalAnchors": 951
+  },
+  "2co": {
+    "totalVersesWithRefs": 254,
+    "totalAnchors": 684
+  },
+  "gal": {
+    "totalVersesWithRefs": 147,
+    "totalAnchors": 386
+  },
+  "eph": {
+    "totalVersesWithRefs": 155,
+    "totalAnchors": 461
+  },
+  "php": {
+    "totalVersesWithRefs": 104,
+    "totalAnchors": 321
+  },
+  "col": {
+    "totalVersesWithRefs": 95,
+    "totalAnchors": 316
+  },
+  "1th": {
+    "totalVersesWithRefs": 89,
+    "totalAnchors": 262
+  },
+  "2th": {
+    "totalVersesWithRefs": 47,
+    "totalAnchors": 135
+  },
+  "1ti": {
+    "totalVersesWithRefs": 112,
+    "totalAnchors": 390
+  },
+  "2ti": {
+    "totalVersesWithRefs": 83,
+    "totalAnchors": 281
+  },
+  "tit": {
+    "totalVersesWithRefs": 46,
+    "totalAnchors": 163
+  },
+  "phm": {
+    "totalVersesWithRefs": 25,
+    "totalAnchors": 54
+  },
+  "heb": {
+    "totalVersesWithRefs": 297,
+    "totalAnchors": 864
+  },
+  "jam": {
+    "totalVersesWithRefs": 107,
+    "totalAnchors": 281
+  },
+  "1pe": {
+    "totalVersesWithRefs": 105,
+    "totalAnchors": 404
+  },
+  "2pe": {
+    "totalVersesWithRefs": 61,
+    "totalAnchors": 207
+  },
+  "1jn": {
+    "totalVersesWithRefs": 105,
+    "totalAnchors": 315
+  },
+  "2jn": {
+    "totalVersesWithRefs": 13,
+    "totalAnchors": 35
+  },
+  "3jn": {
+    "totalVersesWithRefs": 14,
+    "totalAnchors": 35
+  },
+  "jud": {
+    "totalVersesWithRefs": 25,
+    "totalAnchors": 92
+  },
+  "rev": {
+    "totalVersesWithRefs": 401,
+    "totalAnchors": 1239
+  }
+}
