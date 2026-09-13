@@ -1,3 +1,10 @@
+/**
+ * Threads Bible — local dev/test server (NOT used in production).
+ *
+ * The production deployment is the static build on GitHub Pages. This Express
+ * app exists for local development and for the data-audit endpoints under
+ * /api/test/*, which verify the tier datasets without touching the client.
+ */
 import express, { Request, Response } from 'express';
 import path from 'path';
 import fs from 'fs';
@@ -137,6 +144,12 @@ app.get('/api/test/verse/:verseId', (req: Request, res: Response) => {
   }
 
   const slug = parts[0].toLowerCase();
+  // SECURITY: whitelist the slug against the book registry. Without this, an
+  // encoded slug could traverse out of the TSK data directory when joined below.
+  if (!BOOK_REGISTRY.some(b => b.slug.toLowerCase() === slug)) {
+    res.status(400).json({ error: `Unknown book slug: ${slug}` });
+    return;
+  }
   const bookTsk = getServerTskForBook(slug);
   const tskRefs = bookTsk[verseId] || [];
   const citations = getCitationsForVerse(verseId);
@@ -215,14 +228,19 @@ app.get('*', (_req: Request, res: Response) => {
 });
 
 // ── SERVER INITIALIZATION ──────────────────────────────────────────────────
+//
+// DEV/TEST TOOL ONLY. The production deployment is the static GitHub Pages
+// build (`npm run build` → dist/); nothing here is exposed publicly. It binds
+// to localhost by default; set HOST=0.0.0.0 to reach it from another device
+// on your network.
 
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
+const HOST = process.env.HOST || '127.0.0.1';
 
-export const server = app.listen(PORT, '0.0.0.0', () => {
+export const server = app.listen(PORT, HOST, () => {
   console.log(`\n======================================================`);
-  console.log(` Threads Bible Test Server listening on:`);
-  console.log(` -> http://localhost:${PORT}`);
-  console.log(` -> http://127.0.0.1:${PORT}`);
+  console.log(` Threads Bible dev/test server (NOT for production)`);
+  console.log(` -> http://localhost:${PORT}  (bound to ${HOST})`);
   console.log(` Mode: ${fs.existsSync(distDir) ? 'Production (serving dist)' : 'Public fallback'}`);
   console.log(` Diagnostic Endpoints:`);
   console.log(` -> http://localhost:${PORT}/api/health`);
