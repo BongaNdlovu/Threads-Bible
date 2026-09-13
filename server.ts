@@ -108,7 +108,7 @@ app.get('/api/test/tiers', (_req: Request, res: Response) => {
       sample: MESSIANIC_PROPHECIES.slice(0, 3).map(m => ({
         id: m.id,
         title: m.title,
-        otPassage: m.otPassage,
+        otPassage: m.prophecyRef,
         category: m.category,
         fulfillmentRefsCount: m.fulfillmentRefs.length,
       })),
