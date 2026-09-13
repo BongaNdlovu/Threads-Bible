@@ -1,0 +1,174 @@
+# Threads Bible — Bug & Security Audit (2026-09-13)
+
+Scope: full repository scan — client (`src/`, `components/`), data layer
+(`src/data/`), dev server (`server.ts`), build pipeline (`scripts/`, vite
+config), deployment workflow, dependencies, and git history.
+
+Verdict legend: **FIXED** (applied in this pass) · **VERIFIED** (checked, clean)
+· **OPEN** (documented recommendation, intentionally not changed).
+
+---
+
+## 1. Security
+
+| # | Severity | Finding | Status |
+|---|---|---|---|
+| S1 | High | `vite.config.ts` inlined `process.env.GEMINI_API_KEY` into the public JS bundle via `define`. Any build with the key set would publish it to GitHub Pages. No key was ever committed (git history scanned), and the bundle contained none at audit time — but the mechanism was live. | **FIXED** — define removed with an explanatory comment; `@google/genai` dependency and AI-Studio `.env.example` removed; `.env.example` now documents only PORT/HOST/BASE_PATH |
+| S2 | Medium | Path traversal in `server.ts` `GET /api/test/verse/:verseId`: the book slug taken from the URL was joined into a filesystem path (`tskDir/<slug>.json`). A percent-encoded slug could escape the data directory and return arbitrary `.json` file contents. | **FIXED** — slug is whitelisted against `BOOK_REGISTRY` before use |
+| S3 | Medium | Dev/test server bound to `0.0.0.0` (LAN-exposed by default), as did `npm run dev`. | **FIXED** — both default to localhost; `HOST` env override documented; server banner marks it "dev/test, NOT for production" |
+| S4 | Medium | 20 npm-audit vulnerabilities (11 high) in the dependency tree (vite/ws/qs chains). | **FIXED** — down to **1 low**: `esbuild` under `tsx` (dev-only script runner, no network exposure; accepted). `qs` pinned via package `overrides` |
+| S5 | — | XSS surface: `dangerouslySetInnerHTML`, `innerHTML`, `eval`, `window.open`, `target="_blank"` — none present anywhere in `src/`. | **VERIFIED** |
+| S6 | — | Secrets in git history (API-key patterns, `.env` files): none found; `.env.example` was the only env file ever committed. | **VERIFIED** |
+| S7 | — | Client-side fetch hardening in `library.ts`: slug validated against registry (path traversal), payload bounded at 50k verses. Correct. | **VERIFIED** |
+| S8 | — | GitHub Pages workflow: least-privilege permissions, no secret exposure. | **VERIFIED** |
+
+---
+
+## 2. Bugs — critical & high impact
+
+| # | Severity | Finding | Status |
+|---|---|---|---|
+| B1 | Critical | `TheMargin` defined its entire panel as a React component *inside* the render body. Every store change (e.g. one keystroke in Notes) recreated the component type → full unmount/remount → **the notes textarea lost focus after every character**. | **FIXED** — panel is plain JSX now (no component boundary) |
+| B2 | High | Margin badge→tab routing defeated itself: routing a tab also nulled `marginActiveTab`, re-ran the effect, and the default-tab branch overrode the explicit route (e.g. clicking the TSK button on a verse with citations flipped to "Citations"). | **FIXED** — verse-initialization ref separates first-open defaults from badge routing |
+| B3 | High | Stale async TSK responses could overwrite the margin with cross-references for the *previous* verse when navigating quickly. | **FIXED** — cancellation flag per load |
+| B4 | High | Navigating from the margin (`preserveMargin`) silently **closed any open/pinned thread**, because `setReadingLocation` unconditionally reset the selected thread. | **FIXED** — margin navigation preserves the thread |
+| B5 | High | Notes were written to IndexedDB **on every keystroke** (write amplification, out-of-order puts). | **FIXED** — 500 ms debounce, flushed on close, verse switch, and unmount |
+| B6 | High | Threads panel chapter list read the book cache non-reactively: opening the panel before the book JSON finished loading showed "No threads" forever. | **FIXED** — `isBookLoading` added to the memo dependencies |
+| B7 | Medium | `selectedChainId` was never consumed, so re-selecting the same chain from the margin couldn't re-scroll the panel to it. | **FIXED** — consumed after scroll |
+| B8 | Medium | Clicking a thread verse while Reading was fullscreen did nothing (the thread opened invisibly). | **FIXED** — fullscreen reading exits first |
+| B9 | Medium | `loadBook` failure handler checked only the book, not the chapter — a late failure could blank the chapter the user had since moved to. | **FIXED** |
+| B10 | Medium | Un-bookmarking set `bookmarks[id] = false` and clearing a note stored `""` — the maps grew forever and diverged from the DB-backed map. | **FIXED** — keys deleted, matching the DB state |
+| B11 | Medium | All Dexie (IndexedDB) operations had no error handling — private-mode/quota failures became unhandled rejections with silent UI no-ops. | **FIXED** — try/catch with console errors |
+| B12 | Medium | `closeAllStudyPanes` (R key / "Reading only") left an in-progress verse-linking session running. | **FIXED** — linking state reset |
+| B13 | Medium | Escape didn't close the margin or cancel an active link session — inconsistent with every other overlay. | **FIXED** — Esc closes topmost layer: link session → margin → fullscreen → overlays |
+| B14 | Low | Reading streak used UTC day boundaries ("today" rolled over at the wrong time for users). | **FIXED** — local calendar day |
+| B15 | Low | Multiple verses could show the highlight palette at once; palettes never closed. | **FIXED** — opening another verse closes the previous palette |
+| B16 | Low | `P` (split) / `E` (explanation) shortcuts mutated invisible state with no thread open, surprising users later. | **FIXED** — guarded on an open thread |
+| B17 | Low | Footer had conflicting `flex` + `hidden md:flex` classes; "of 0" chapter counter rendered for unknown books; `B` shortcut doc-comment didn't match behavior; `/` search shortcut used a fragile placeholder-text selector. | **FIXED** — all corrected (stable `#global-search-input`) |
+
+---
+
+## 3. "One language" unification (Threads vocabulary)
+
+The app mixed three vocabularies: **Threads** (brand/UI), **prophecy**
+(store/data identifiers), and **tiers/chains/citations** (data layer with no UI
+translation). Unification applied, per the approved direction:
+
+- `selectedProphecy` → **`selectedThread`** (store + App, Header, TheThread,
+  ThreadPanel, VerseText, keyboard hook, verification script).
+- `Verse.isProphecy` → **`Verse.isThread`** — including the 66 generated book
+  files and all 6 generator scripts, so the pipeline emits the new name.
+- `mockData.ts` compatibility shim **deleted**; every importer now points at
+  `types.ts` / `library.ts` directly (one import path per concept).
+- User-visible copy unified: "Stick to Bible" → **"Reading only"** (4 renderings
+  collapsed to 1); "Prophecies Identified" → **"Threads Mapped"**;
+  "Prophecy Source" → "Thread Source"; "No prophecy threads in…" → "No threads
+  in…"; "Thread chain · from" → "Chain · from".
+- Hardcoded counts ("42 Chains", "28 Beliefs" — 9 occurrences) now render from
+  `MASTER_CHAINS.length` / `FUNDAMENTAL_BELIEFS.length`, so they can't drift.
+- Duplicated resize-handle class constant deduplicated into
+  `PaneChrome.RESIZE_HANDLE_CLASS`.
+- AI-Studio remnants removed: `metadata.json`, Gemini env docs, boilerplate
+  README, `package.json` name `react-example` → `threads-bible`.
+- Dead code deleted: `BOOK_BY_SLUG`, `genesisProphecyCount`,
+  `fulfillmentVerseById`, `getMasterChainById`/`getAllMasterChains` +
+  `MASTER_CHAIN_BY_ID`, `loadTskManifest`/`getUnifiedTierData`,
+  `getFulfillmentVerses`, unused imports, dead JSX conditions, empty Dexie
+  upgrade callback, stale comments.
+- `npm run audit` → **`npm run audit:data`** (avoids confusion with `npm audit`).
+
+The full glossary lives in [ARCHITECTURE.md](ARCHITECTURE.md).
+
+---
+
+## 4. Remaining recommendations (OPEN, by design)
+
+1. **Code-split the bundle** — 1.5 MB minified / 452 KB gzip single chunk. The
+   Threads-panel datasets (beliefs, LDE, tier 3/4) could be dynamic imports;
+   book text and TSK already lazy-load.
+2. **Generate or drift-check `threadDetails.ts`** — its 173 keys are a
+   hand-maintained 1:1 shadow of the Genesis thread map; silent drift is
+   possible. A pipeline check (or generation) would close that.
+3. **Retire or rename the five thread-map files** — if the generation pipeline
+   is retired, consolidate them into one `threadMap.ts`; if kept, rename via
+   the generators (e.g. `prophecies.ts` → `threadMapGenesis.ts`).
+4. **Real test framework** — `npm test` runs a bespoke script; there are no
+   `*.test.*` files. Vitest would fit the Vite setup.
+5. **Cross-book chapter navigation** — Genesis 50 → Exodus 1 is a dead end
+   (intra-book only). Suggested: continue to the next book.
+6. **Search UX** — a bare book-name result always jumps to chapter 1, resetting
+   position if already reading that book; unresolvable margin refs fail
+   silently (one known case: tier-2 `cit-luk-24-44`, a descriptive ref).
+7. **Minor**: weekly chapter counter goes stale across week boundaries in very
+   long sessions; `useMediaQuery` initializes `false` causing a one-frame
+   Drawer→Sheet flash on desktop cold open; `db.links` uses full-table filters
+   instead of its indexes (negligible at personal scale).
+
+---
+
+## 5. Verification performed
+
+- `tsc --noEmit` — clean
+- `npm test` (store/data verification) — all assertions pass
+- `npm run audit:data` — all 4 tiers validate 100% (108 citations, 40
+  Messianic prophecies, 42 chains / 277 steps, TSK keys)
+- `npm run build` — production build succeeds
+- `npm audit` — 1 low-severity dev-only residual (accepted, documented above)
+- Built bundle greps — no key patterns, no GEMINI references
+
+---
+
+## 6. Addendum — thread & connection accuracy pass (same day)
+
+A second pass asked a different question: not "does everything resolve?" but
+"is everything *right*?" — anchor validity, KJV text fidelity, and the
+connections themselves. New permanent tool: `npm run verify:accuracy`
+(`scripts/accuracyCheck.ts`).
+
+### What was verified clean
+
+- **All 1,342 thread anchors** are unique (zero cross-map duplicates), point at
+  real verses, and every fulfillment reference resolves — 100%.
+- **`threadDetails.ts` keyset is exactly identical** to the 173 Genesis thread
+  anchors; all 162 `bookThreadDetails` entries are real verses.
+- **Tier 2 (108 citations), Tier 3 (40 prophecies), Tier 4 (42 chains / 277
+  steps), 28 Beliefs, 19 LDE phases**: every `verseId` matches its human-readable
+  ref and exists in the canon — zero inconsistencies.
+- **KJV text fidelity**: 31,102 verses (exact standard KJV total) after repairs
+  below; all Textus-Receptus–distinctive passages present (1 John 5:7 Comma,
+  Mark 16:9–20, John 7:53–8:11, Matt 17:21/18:11/23:14, Acts 8:37, Rom 16:24);
+  KJV verse numbering used consistently (Joel 2:28–32, Malachi 4, Psalm 22:16).
+- **Connection spot-checks**: ~30 of the highest-profile threads (Gen 3:15,
+  12:3, 22:18; Deut 18:15; Ps 16:10, 22:16/18, 34:20, 41:9; Isa 7:14, 9:6,
+  53:5/7/9, 61:1; Jer 31:31; Dan 9:26; Hos 11:1; Joel 2:28; Amos 9:11; Jonah
+  1:17; Mic 5:2; Zech 9:9, 11:12, 12:10; Mal 3:1, 4:5) reviewed verse-by-verse —
+  all accurate. The full Tier-2 citation list was reviewed: it is the standard
+  scholarly catalog, including correct composite handling (Matt 21:4–5 =
+  Zech 9:9 + Isa 62:11; Matt 27:9–10 = Zech 11:12–13 + Jer 32:6–9; the Rom 3
+  and Heb 1 catenas).
+
+### Found and fixed
+
+| # | Finding | Fix |
+|---|---|---|
+| A1 | **Two dead threads**: anchor keys `2ch-20:20` and `isa-55:10` in `otProphecies.ts` used colons instead of dashes — invalid verse ids, so `2 Chron 20:20` and `Isa 55:10` never carried their threads at runtime. | Keys corrected to `2ch-20-20` / `isa-55-10` (connections themselves were sound). |
+| A2 | **Two KJV verses missing from the source dataset** (`scripts/kjv.json`, thiagobodruk dump): Matt 22:40 and Matt 26:68 were dropped upstream, shifting verse numbering for the tail of both chapters — which put thread/citation/TSK connections pointing into those ranges (e.g. Ps 110:1 → "Matt 22:44", TSK keys mat-22-40…46) one verse off. | Repair logic added to `scripts/exportBookJson.ts` (following the existing Matt 2:16 repair); books/registry/verse-counts regenerated; standard KJV text restored. |
+| A3 | **Edition mixing in Revelation**: the dump carried "And I stood upon the sand of the sea." as a separate 12:18 (critical-text placement) instead of the KJV's opening of 13:1, inflating the canon by one verse (31,103). | `repairRevelation()` merges the phrase into Rev 13:1 per the KJV; canon now exactly 31,102 verses. |
+| A4 | **Stale fallback text**: `fulfillments.ts` carried KJV Matt 22:45's text under the id `mat-22-44` (the in-memory fulfillment index used before a book loads). | Entry corrected to the true Matt 22:44 text. |
+
+### Known, documented, intentional
+
+- `cit-luk-24-44` ("Luke 24:44–46 ← Genesis to Malachi (Law, Prophets, Psalms)")
+  is the one Tier-2 entry whose `otRef` is a descriptive phrase rather than a
+  citation; `psa-22-1` serves as its representative anchor verse.
+- Chain #18's display anchor ("Isaiah 42:1-4; 52:13–53:12") uses a composite,
+  book-less continuation; navigation correctly uses its `primaryAnchorVerseId`
+  (`isa-53-5`), which is valid.
+- `src/data/matthewData.ts` / `revelationData.ts` (script-input copies, never
+  bundled) predate the repairs; the generator scripts do not regenerate them
+  with repairs. Not client-affecting.
+- Honest scope note: every connection was validated *mechanically* (100%) and
+  ~30 high-profile threads plus the full Tier-2 catalog were reviewed *by
+  content*. A complete doctrinal review of all 1,342 threads remains scholarly
+  work no script can do.
+
