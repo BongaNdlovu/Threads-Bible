@@ -141,7 +141,7 @@ export const otProphecies: Record<string, BookProphecyThread> = {
   '2ch-7-16': { fulfillmentRefs: ['1 Kings 9:3', 'Psalm 132:13-14'] },
   '2ch-16-9': { fulfillmentRefs: ['Proverbs 15:3', 'Zechariah 4:10', 'Hebrews 4:13'] },
   '2ch-20-15': { fulfillmentRefs: ['1 Samuel 17:47', 'Psalm 46:1', 'Ephesians 6:10'] },
-  '2ch-20:20': { fulfillmentRefs: ['Isaiah 7:9', 'John 20:31'] },
+  '2ch-20-20': { fulfillmentRefs: ['Isaiah 7:9', 'John 20:31'] },
   '2ch-36-23': { fulfillmentRefs: ['Ezra 1:2', 'Isaiah 44:28', 'Jeremiah 25:12'] },
 
   // Ezra / Nehemiah
@@ -386,7 +386,7 @@ export const otProphecies: Record<string, BookProphecyThread> = {
   'isa-54-13': { fulfillmentRefs: ['John 6:45', 'Jeremiah 31:34', 'Isaiah 54:11'] },
   'isa-55-1': { fulfillmentRefs: ['John 4:10', 'John 4:14', 'John 7:37', 'Revelation 22:17'] },
   'isa-55-3': { fulfillmentRefs: ['Acts 13:34', 'Psalm 16:10', 'Hebrews 13:20'] },
-  'isa-55:10': { fulfillmentRefs: ['Isaiah 55:11', 'Matthew 24:35', '1 Peter 1:25'] },
+  'isa-55-10': { fulfillmentRefs: ['Isaiah 55:11', 'Matthew 24:35', '1 Peter 1:25'] },
   'isa-56-7': { fulfillmentRefs: ['Matthew 21:13', 'Mark 11:17', 'Luke 19:46', 'Isaiah 56:8'] },
   'isa-57-1': { fulfillmentRefs: ['Psalm 12:1', 'Isaiah 57:2', 'Revelation 14:13'] },
   'isa-58-6': { fulfillmentRefs: ['Luke 4:18', 'Isaiah 61:1', 'Matthew 25:36'] },

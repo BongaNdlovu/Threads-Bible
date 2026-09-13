@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "lint": "tsc --noEmit",
     "audit:data": "tsx scripts/auditAllTiers.ts",
+    "verify:accuracy": "tsx scripts/accuracyCheck.ts",
     "test": "tsx scripts/verifyAuditImprovements.ts",
     "server": "tsx server.ts"
   },

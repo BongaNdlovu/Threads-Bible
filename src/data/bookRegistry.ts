@@ -245,7 +245,7 @@ export const BOOK_REGISTRY: BookMeta[] = [
     "slug": "mat",
     "name": "Matthew",
     "chapters": 28,
-    "verses": 1069
+    "verses": 1071
   },
   {
     "slug": "mrk",
@@ -401,7 +401,7 @@ export const BOOK_REGISTRY: BookMeta[] = [
     "slug": "rev",
     "name": "Revelation",
     "chapters": 22,
-    "verses": 405
+    "verses": 404
   }
 ];
 
@@ -409,6 +409,3 @@ export const BOOK_BY_NAME: Record<string, BookMeta> = Object.fromEntries(
   BOOK_REGISTRY.map(b => [b.name, b])
 );
 
-export const BOOK_BY_SLUG: Record<string, BookMeta> = Object.fromEntries(
-  BOOK_REGISTRY.map(b => [b.slug, b])
-);

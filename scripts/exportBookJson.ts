@@ -51,16 +51,52 @@ const SLUG: Record<string, string> = {
 const MATT_2_16 =
   'Then Herod, when he saw that he was mocked of the wise men, was exceeding wroth, and sent forth, and slew all the children that were in Bethlehem, and in all the coasts thereof, from two years old and under, according to the time which he had diligently enquired of the wise men.';
 
+/** Standard KJV Matt 22:40 — omitted by the source dump (chapter 22 has 45 verses; tail shifted by one). */
+const MATT_22_40 = 'On these two commandments hang all the law and the prophets.';
+
+/** Standard KJV Matt 26:68 — omitted by the source dump (chapter 26 has 74 verses; tail shifted by one). */
+const MATT_26_68 = 'Saying, Prophesy unto us, thou Christ, Who is he that smote thee?';
+
 type JsonVerse = { id: string; chapter: number; verse: number; text: string };
 
 function repairMatthew(chapters: string[][]): string[][] {
-  const ch2 = chapters[1];
-  if (!ch2 || ch2.length !== 22) return chapters;
-  // Dump is missing the slaughter of the innocents between v15 and current v16.
-  const fixed = [...ch2];
-  fixed.splice(15, 0, MATT_2_16);
-  chapters[1] = fixed;
-  return chapters;
+  const fixed = chapters.map(c => [...c]);
+  const ch2 = fixed[1];
+  if (ch2 && ch2.length === 22) {
+    // Dump is missing the slaughter of the innocents between v15 and current v16.
+    ch2.splice(15, 0, MATT_2_16);
+  }
+  const ch22 = fixed[21];
+  if (ch22 && ch22.length === 45 && ch22[39].startsWith('While the Pharisees')) {
+    // Dump is missing Matt 22:40 — from here to the end of the chapter the
+    // numbering is shifted one verse early.
+    ch22.splice(39, 0, MATT_22_40);
+  }
+  const ch26 = fixed[25];
+  if (ch26 && ch26.length === 74 && ch26[67].startsWith('Now Peter sat')) {
+    // Dump is missing Matt 26:68 — same one-verse shift to the end of the chapter.
+    ch26.splice(67, 0, MATT_26_68);
+  }
+  return fixed;
+}
+
+function repairRevelation(chapters: string[][]): string[][] {
+  const fixed = chapters.map(c => [...c]);
+  const ch12 = fixed[11];
+  const ch13 = fixed[12];
+  if (
+    ch12 && ch13 &&
+    ch12.length === 18 &&
+    ch12[17] === 'And I stood upon the sand of the sea.' &&
+    ch13[0].startsWith('And saw a beast')
+  ) {
+    // The dump splits the phrase critical-text style (12:18 + "And saw…" in 13:1).
+    // The KJV reads it as the opening of 13:1: "And I stood upon the sand of the
+    // sea, and saw a beast rise up out of the sea…" — merge and drop the extra verse.
+    ch13[0] = ch13[0].replace(/^And saw/, 'And I stood upon the sand of the sea, and saw');
+    ch12.pop();
+  }
+  return fixed;
 }
 
 fs.mkdirSync(outDir, { recursive: true });
@@ -80,6 +116,7 @@ for (const src of bible) {
   }
   let chapters = src.chapters.map(c => [...c]);
   if (src.name === 'Matthew') chapters = repairMatthew(chapters);
+  if (src.name === 'Revelation') chapters = repairRevelation(chapters);
 
   const verses: JsonVerse[] = [];
   chapters.forEach((chapter, cIdx) => {
@@ -127,9 +164,6 @@ export const BOOK_BY_NAME: Record<string, BookMeta> = Object.fromEntries(
   BOOK_REGISTRY.map(b => [b.name, b])
 );
 
-export const BOOK_BY_SLUG: Record<string, BookMeta> = Object.fromEntries(
-  BOOK_REGISTRY.map(b => [b.slug, b])
-);
 `;
 
 fs.writeFileSync(path.join(root, 'src', 'data', 'bookRegistry.ts'), registryTs);
