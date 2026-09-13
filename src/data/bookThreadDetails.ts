@@ -1,6 +1,7 @@
 /**
- * Thread details for Exodus, Daniel, and Revelation sources.
- * Merged into lookup via getThreadDetail.
+ * Hand-written thread details for books NOT covered by threadDetails.ts
+ * (Genesis has its own 1:1 map there). Merged into the unified lookup via
+ * getThreadDetail.
  */
 import type { ThreadDetail } from './threadDetails';
 

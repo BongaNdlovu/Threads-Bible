@@ -1185,4 +1185,3 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
 };
 
-export const genesisProphecyCount = Object.keys(genesisProphecies).length;

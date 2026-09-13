@@ -886,11 +886,5 @@ export function getMasterChainsForVerse(verseId: string): MasterChain[] {
   return CHAINS_BY_VERSE.get(verseId) || [];
 }
 
-export function getMasterChainById(id: string): MasterChain | undefined {
-  return MASTER_CHAIN_BY_ID.get(id);
-}
 
-export function getAllMasterChains(): MasterChain[] {
-  return MASTER_CHAINS;
-}
 

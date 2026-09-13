@@ -49,24 +49,6 @@ export function getTskCacheStats() {
   return { size: tskBookCache.size, lru: [...tskLru] };
 }
 
-/** Manifest cache for quick counts */
-let manifestCache: Record<string, { totalVersesWithRefs: number; totalAnchors: number }> | null = null;
-
-export async function loadTskManifest() {
-  if (manifestCache) return manifestCache;
-  try {
-    const basePath = (import.meta.env?.BASE_URL ?? '/').replace(/\/+$/, '') + '/';
-    const res = await fetch(`${basePath}data/tsk/manifest.json`);
-    if (res.ok) {
-      manifestCache = await res.json();
-      return manifestCache;
-    }
-  } catch (e) {
-    console.warn('Failed to load TSK manifest:', e);
-  }
-  return null;
-}
-
 export async function loadTskForBook(slug: string): Promise<BookTskMap> {
   const cached = tskBookCache.get(slug);
   if (cached) {
@@ -105,37 +87,6 @@ export async function getTskForVerse(verseId: string): Promise<VerseAnchorRef[]>
   const slug = parts[0];
   const bookMap = await loadTskForBook(slug);
   return bookMap[verseId] || [];
-}
-
-export interface VerseTierData {
-  verseId: string;
-  tsk: VerseAnchorRef[];
-  citations: NtCitation[];
-  messianic: MessianicProphecy[];
-  chains: MasterChain[];
-  totalTierLinks: number;
-}
-
-/** Retrieve unified data across all 4 tiers for an active verse */
-export async function getUnifiedTierData(verseId: string): Promise<VerseTierData> {
-  const tsk = await getTskForVerse(verseId);
-  const citations = getCitationsForVerse(verseId);
-  const messianic = getMessianicPropheciesForVerse(verseId);
-  const chains = getMasterChainsForVerse(verseId);
-
-  let totalTskRefs = 0;
-  for (const item of tsk) totalTskRefs += item.refs.length;
-
-  const totalTierLinks = totalTskRefs + citations.length + messianic.length + chains.length;
-
-  return {
-    verseId,
-    tsk,
-    citations,
-    messianic,
-    chains,
-    totalTierLinks,
-  };
 }
 
 export {
