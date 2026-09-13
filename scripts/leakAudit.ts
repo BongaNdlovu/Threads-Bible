@@ -108,7 +108,7 @@ console.log('=== SECURITY AUDIT ===');
   const lib = sources.find(x => x.f.endsWith('library.ts'));
   if (!lib) fail('Path traversal', 'library.ts missing');
   else {
-    const validatesSlug = /BOOK_REGISTRY\.find/.test(lib.s) && /fetch\(`\/books\/\$\{meta\.slug\}/.test(lib.s);
+    const validatesSlug = /BOOK_REGISTRY\.find/.test(lib.s) && /fetch\(`(?:\$\{basePath\})?(\/)?books\/\$\{meta\.slug\}/.test(lib.s);
     const userSlug = /fetch\([^)]*\$\{slug\}/.test(lib.s) && !/meta\.slug/.test(lib.s);
     if (validatesSlug) pass('Path traversal', 'loadBookBySlug only fetches registry slugs (not raw user input)');
     else if (userSlug) fail('Path traversal', 'fetch interpolates unvalidated slug');

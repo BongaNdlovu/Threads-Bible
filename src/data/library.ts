@@ -92,7 +92,8 @@ export async function loadBookBySlug(slug: string): Promise<Verse[]> {
   const pending = inflight.get(slug);
   if (pending) return pending;
 
-  const p = fetch(`/books/${meta.slug}.json`)
+  const basePath = (import.meta.env?.BASE_URL ?? '/').replace(/\/+$/, '') + '/';
+  const p = fetch(`${basePath}books/${meta.slug}.json`)
     .then(async r => {
       if (!r.ok) throw new Error(`Failed to load ${slug}: ${r.status}`);
       const json = (await r.json()) as BookJson;

@@ -190,11 +190,13 @@ app.get('/api/test/books', (_req: Request, res: Response) => {
 
 // Serve static assets from dist (production build) if available
 if (fs.existsSync(distDir)) {
+  app.use('/Threads-Bible', express.static(distDir));
   app.use(express.static(distDir));
 }
 
 // Fallback to public folder for static assets (books, data, etc.)
 if (fs.existsSync(publicDir)) {
+  app.use('/Threads-Bible', express.static(publicDir));
   app.use(express.static(publicDir));
 }
 

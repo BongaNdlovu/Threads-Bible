@@ -55,7 +55,8 @@ let manifestCache: Record<string, { totalVersesWithRefs: number; totalAnchors: n
 export async function loadTskManifest() {
   if (manifestCache) return manifestCache;
   try {
-    const res = await fetch('/data/tsk/manifest.json');
+    const basePath = (import.meta.env?.BASE_URL ?? '/').replace(/\/+$/, '') + '/';
+    const res = await fetch(`${basePath}data/tsk/manifest.json`);
     if (res.ok) {
       manifestCache = await res.json();
       return manifestCache;
@@ -76,7 +77,8 @@ export async function loadTskForBook(slug: string): Promise<BookTskMap> {
   const inflight = tskInflight.get(slug);
   if (inflight) return inflight;
 
-  const p = fetch(`/data/tsk/${slug}.json`)
+  const basePath = (import.meta.env?.BASE_URL ?? '/').replace(/\/+$/, '') + '/';
+  const p = fetch(`${basePath}data/tsk/${slug}.json`)
     .then(async r => {
       if (!r.ok) return {};
       const data = (await r.json()) as BookTskMap;
