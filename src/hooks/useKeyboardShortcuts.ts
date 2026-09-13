@@ -1,7 +1,12 @@
 import { useEffect } from 'react';
 import { useStore } from '../store/useStore';
 
-/** Global keyboard shortcuts: J/K chapters, B books, T threads, C grid, / search, +/- font, Esc fullscreen. */
+/**
+ * Global keyboard shortcuts:
+ *   J/K next/prev chapter · B book+chapter jump (opens the chapter grid)
+ *   T threads panel · P split view · E explanation · R reading only
+ *   C chapter grid · 1/2/3 fullscreen panes · +/- font size · / search · Esc close
+ */
 export function useKeyboardShortcuts() {
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -19,6 +24,18 @@ export function useKeyboardShortcuts() {
       const mod = e.metaKey || e.ctrlKey;
 
       if (e.key === 'Escape') {
+        // Close the topmost layer: pending link session, then the margin,
+        // then fullscreen, then any open overlay.
+        if (s.linkingState.mode === 'linking') {
+          s.cancelLinking();
+          e.preventDefault();
+          return;
+        }
+        if (s.selectedMarginVerse) {
+          s.setSelectedMarginVerse(null);
+          e.preventDefault();
+          return;
+        }
         if (s.focusPane) {
           s.setFocusPane(null);
           e.preventDefault();
@@ -35,17 +52,18 @@ export function useKeyboardShortcuts() {
       switch (e.key) {
         case 'j':
         case 'J':
-          if (!s.selectedProphecy) s.nextChapter();
+          if (!s.selectedThread) s.nextChapter();
           e.preventDefault();
           break;
         case 'k':
         case 'K':
-          if (!s.selectedProphecy) s.prevChapter();
+          if (!s.selectedThread) s.prevChapter();
           e.preventDefault();
           break;
         case 'b':
         case 'B':
-          // Focus is in header book menu via click; open chapter grid as keyboard stand-in for book jump
+          // Book jump: the chapter grid doubles as the keyboard path (the book
+          // dropdown in the header is click-only).
           s.setChapterGridOpen(true);
           e.preventDefault();
           break;
@@ -61,12 +79,14 @@ export function useKeyboardShortcuts() {
           break;
         case 'p':
         case 'P':
-          s.toggleThreadPane();
+          // Split view only makes sense with a thread open; don't mutate
+          // invisible state that would surprise the user later.
+          if (s.selectedThread) s.toggleThreadPane();
           e.preventDefault();
           break;
         case 'e':
         case 'E':
-          s.toggleExplanation();
+          if (s.selectedThread) s.toggleExplanation();
           e.preventDefault();
           break;
         case 'r':
@@ -96,10 +116,11 @@ export function useKeyboardShortcuts() {
           s.decreaseFontSize();
           e.preventDefault();
           break;
-        case '/':
-          document.querySelector<HTMLInputElement>('input[placeholder*="Book"]')?.focus();
+        case '/': {
+          document.getElementById('global-search-input')?.focus();
           e.preventDefault();
           break;
+        }
         default:
           break;
       }

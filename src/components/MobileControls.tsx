@@ -80,7 +80,7 @@ export function MobileControls() {
               className="w-full h-11 rounded-xl bg-accent/15 border border-accent/30 text-accent flex items-center justify-center gap-2 text-sm font-semibold hover:bg-accent hover:text-accent-foreground transition-colors cursor-pointer"
             >
               <BookOpen className="h-4 w-4" />
-              <span>Stick to Bible (Reading only)</span>
+              <span>Reading only</span>
             </button>
           )}
 

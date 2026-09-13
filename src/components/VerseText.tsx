@@ -1,4 +1,4 @@
-import { Verse } from '../data/mockData';
+import { Verse } from '../data/types';
 import { useStore } from '../store/useStore';
 import { cn } from '@/lib/utils';
 import React, { useState, useRef, useEffect } from 'react';
@@ -64,13 +64,10 @@ export function highlightText(text: string, keywords: string[]): React.ReactNode
   });
 }
 
-export const VerseText: React.FC<{
-  verse: Verse;
-  highlightKeywords?: string[];
-}> = ({ verse, highlightKeywords }) => {
+export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
   const {
     showVerseNumbers,
-    setSelectedProphecy,
+    setSelectedThread,
     setSelectedMarginVerse,
     selectedMarginVerse,
     bookmarks,
@@ -82,6 +79,8 @@ export const VerseText: React.FC<{
     userHighlights,
     toggleUserHighlight,
     setThreadPaneOpen,
+    focusPane,
+    setFocusPane,
   } = useStore();
 
   const [showActions, setShowActions] = useState(false);
@@ -103,9 +102,13 @@ export const VerseText: React.FC<{
   const messianicProphecies = getMessianicPropheciesForVerse(verse.id);
   const masterChains = getMasterChainsForVerse(verse.id);
 
-  const keywords =
-    highlightKeywords ??
-    (highlightFromThread ? highlightFromThread[verse.id] : undefined);
+  const keywords = highlightFromThread ? highlightFromThread[verse.id] : undefined;
+
+  // Only the most recently opened verse shows the highlight palette; picking
+  // another verse (or closing the margin) hides the previous palette row.
+  useEffect(() => {
+    if (selectedMarginVerse?.id !== verse.id) setShowActions(false);
+  }, [selectedMarginVerse, verse.id]);
 
   const handleClick = (e: React.MouseEvent) => {
     if (linkingState.mode === 'linking') {
@@ -114,8 +117,11 @@ export const VerseText: React.FC<{
       return;
     }
 
-    if (verse.isProphecy) {
-      setSelectedProphecy(verse);
+    if (verse.isThread) {
+      // If the reading pane is fullscreen, opening a thread must leave
+      // fullscreen or the click would visibly do nothing.
+      if (focusPane === 'reading') setFocusPane(null);
+      setSelectedThread(verse);
       setThreadPaneOpen(true);
     } else {
       setSelectedMarginVerse(verse);
@@ -154,7 +160,7 @@ export const VerseText: React.FC<{
       onClick={handleClick}
       className={cn(
         'cursor-pointer transition-colors duration-200 group/verse',
-        verse.isProphecy
+        verse.isThread
           ? 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
           : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
         isSelectedMargin && 'ring-2 ring-accent/70 bg-accent/15 rounded-sm',
@@ -234,13 +240,13 @@ export const VerseText: React.FC<{
         <sup
           className={cn(
             'font-sans font-bold pr-1 text-[10px] select-none',
-            verse.isProphecy ? 'text-accent' : 'opacity-50'
+            verse.isThread ? 'text-accent' : 'opacity-50'
           )}
         >
           {verse.verseNumber}
         </sup>
       )}
-      <span className={cn(!verse.isProphecy && 'opacity-90')}>
+      <span className={cn(!verse.isThread && 'opacity-90')}>
         {keywords && keywords.length > 0 ? highlightText(verse.text, keywords) : verse.text}
       </span>{' '}
       {showActions && (

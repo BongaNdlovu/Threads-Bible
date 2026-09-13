@@ -171,7 +171,7 @@ const afterOpen = useStore.getState();
 assert(afterOpen.threadsPanelOpen === true, 'Thread panel is open');
 assert(afterOpen.threadPanelTab === 'chains', 'Thread panel tab is "chains"');
 assert(afterOpen.selectedChainId === 'heavenly-sanctuary', 'selectedChainId is "heavenly-sanctuary"');
-assert(afterOpen.selectedProphecy === null, 'selectedProphecy is untouched (not corrupted)');
+assert(afterOpen.selectedThread === null, 'selectedThread is untouched (not corrupted)');
 
 // Test navigateToVerse with preserveMargin
 await useStore.getState().navigateToVerse('gen-3-15', { preserveMargin: true, targetTab: 'chains' });

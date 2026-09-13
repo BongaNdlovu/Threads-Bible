@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../store/useStore';
-import { getChapterVerses, resolveRefs, type Verse } from '../data/mockData';
+import { resolveRefs, getChapterVersesFromLoaded } from '../data/library';
+import type { Verse } from '../data/types';
 import { getThreadDetail } from '../data/threadDetails';
 import { ZenReader } from './ZenReader';
 import { ThreadExplanation } from './ThreadExplanation';
-import { PaneChrome } from './PaneChrome';
+import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
 import { X, BookOpen, Columns2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
@@ -13,13 +14,6 @@ import {
   ResizableHandle,
 } from '@/components/ui/resizable';
 import { cn } from '@/lib/utils';
-
-const handleClass =
-  'w-3 shrink-0 bg-transparent hover:bg-accent/10 data-[resize-handle-active]:bg-accent/20 ' +
-  'after:w-px after:bg-foreground/20 hover:after:bg-accent ' +
-  'aria-[orientation=horizontal]:h-3 aria-[orientation=horizontal]:w-full ' +
-  'aria-[orientation=horizontal]:after:h-px aria-[orientation=horizontal]:after:w-full ' +
-  'aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:top-1/2';
 
 export function TheThread({
   embedded = false,
@@ -31,51 +25,51 @@ export function TheThread({
   explanationOnly?: boolean;
 }) {
   const {
-    selectedProphecy,
-    setSelectedProphecy,
+    selectedThread,
+    setSelectedThread,
     setHighlightFromThread,
     setThreadPaneOpen,
-    focusPane,
     explanationOpen,
     closeAllStudyPanes,
   } = useStore();
 
   const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment'>('both');
 
-  const fulfillmentVerses = selectedProphecy ? resolveRefs(selectedProphecy.fulfillmentRefs) : [];
-  const sourceVerses = selectedProphecy
-    ? getChapterVerses(selectedProphecy.book, selectedProphecy.chapter)
+  const fulfillmentVerses = selectedThread ? resolveRefs(selectedThread.fulfillmentRefs) : [];
+  const sourceVerses = selectedThread
+    ? getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter)
     : [];
-  const primaryRef = selectedProphecy?.fulfillmentRefs?.[0] || 'Fulfillment';
-  const detail = selectedProphecy ? getThreadDetail(selectedProphecy.id) : null;
+  const primaryRef = selectedThread?.fulfillmentRefs?.[0] || 'Fulfillment';
+  const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
 
   useEffect(() => {
-    if (!selectedProphecy || !detail) {
+    if (!selectedThread || !detail) {
       setHighlightFromThread({});
       return;
     }
     const map: Record<string, string[]> = {};
     sourceVerses.forEach((v: Verse) => {
-      if (v.id === selectedProphecy.id) map[v.id] = detail.sourceKeywords;
+      if (v.id === selectedThread.id) map[v.id] = detail.sourceKeywords;
     });
     fulfillmentVerses.forEach((v: Verse) => {
       map[v.id] = detail.fulfillmentKeywords;
     });
     setHighlightFromThread(map);
     return () => setHighlightFromThread({});
-  }, [selectedProphecy?.id, detail, setHighlightFromThread]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- recompute when the thread changes or its detail becomes available
+  }, [selectedThread?.id, detail, setHighlightFromThread]);
 
-  if (!selectedProphecy) return null;
+  if (!selectedThread) return null;
 
   const closeThread = () => {
-    setSelectedProphecy(null);
+    setSelectedThread(null);
     setThreadPaneOpen(false);
   };
 
   if (explanationOnly) {
     return (
       <div className="h-full overflow-y-auto bg-foreground/[0.02] px-6 md:px-8 py-6">
-        <ThreadExplanation verseId={selectedProphecy.id} detail={detail} />
+        <ThreadExplanation verseId={selectedThread.id} detail={detail} />
       </div>
     );
   }
@@ -83,8 +77,8 @@ export function TheThread({
   const SourcePane = (
     <ZenReader
       verses={sourceVerses}
-      title={`${selectedProphecy.book} ${selectedProphecy.chapter}`}
-      label="Prophecy Source"
+      title={`${selectedThread.book} ${selectedThread.chapter}`}
+      label="Thread Source"
       indicator={
         <div className="flex items-center gap-4 py-6 border-t border-foreground/5">
           <div className="w-10 h-[1px] bg-accent"></div>
@@ -154,7 +148,7 @@ export function TheThread({
             {SourcePane}
           </div>
         </ResizablePanel>
-        <ResizableHandle withHandle className={handleClass} />
+        <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
         <ResizablePanel defaultSize={50} minSize={25}>
           <div className="h-full bg-foreground/[0.04] relative flex flex-col">
             <div className="absolute top-3 right-3 z-20">
@@ -195,10 +189,10 @@ export function TheThread({
           size="sm"
           onClick={closeAllStudyPanes}
           className="rounded-full bg-accent/10 border border-accent/25 text-accent hover:bg-accent hover:text-accent-foreground text-xs font-semibold gap-1.5 h-8 px-3 shadow-sm cursor-pointer"
-          title="Stick to Bible (close all study panes)"
+          title="Reading only — close all study panes"
         >
           <BookOpen className="w-3.5 h-3.5" />
-          <span className="hidden sm:inline">Stick to Bible</span>
+          <span className="hidden sm:inline">Reading only</span>
         </Button>
         <Button
           variant="ghost"
@@ -219,7 +213,7 @@ export function TheThread({
             </ResizablePanel>
             {explanationOpen && (
               <>
-                <ResizableHandle withHandle className={handleClass} />
+                <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
                 <ResizablePanel defaultSize={45} minSize={15}>
                   <div className="relative h-full min-h-0">
                     <PaneChrome
@@ -228,7 +222,7 @@ export function TheThread({
                       onClose={() => useStore.getState().setExplanationOpen(false)}
                     />
                     <div className="h-full overflow-y-auto bg-foreground/[0.02] px-6 md:px-8 py-6">
-                      <ThreadExplanation verseId={selectedProphecy.id} detail={detail} />
+                      <ThreadExplanation verseId={selectedThread.id} detail={detail} />
                     </div>
                   </div>
                 </ResizablePanel>
@@ -237,8 +231,6 @@ export function TheThread({
           </ResizablePanelGroup>
         </div>
       </div>
-
-      {focusPane === null && null}
     </div>
   );
 }

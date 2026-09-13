@@ -4,6 +4,14 @@ import { cn } from '@/lib/utils';
 
 export type PaneId = 'reading' | 'thread' | 'explanation';
 
+/** Shared styling for ResizableHandle grips (used by App and TheThread). */
+export const RESIZE_HANDLE_CLASS =
+  'w-3 shrink-0 bg-transparent hover:bg-accent/10 data-[resize-handle-active]:bg-accent/20 ' +
+  'after:w-px after:bg-foreground/20 hover:after:bg-accent ' +
+  'aria-[orientation=horizontal]:h-3 aria-[orientation=horizontal]:w-full ' +
+  'aria-[orientation=horizontal]:after:h-px aria-[orientation=horizontal]:after:w-full ' +
+  'aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:top-1/2';
+
 export function PaneChrome({
   paneId,
   title,
@@ -31,12 +39,12 @@ export function PaneChrome({
       {hasStudyPanes() && (
         <button
           onClick={closeAllStudyPanes}
-          aria-label="Stick to Bible (close all study panes)"
-          title="Stick to Bible / Reading only"
+          aria-label="Reading only — close all study panes"
+          title="Reading only — close all study panes"
           className="h-7 px-2 sm:px-2.5 rounded-full bg-accent/10 border border-accent/25 flex items-center gap-1 text-[11px] font-semibold text-accent hover:bg-accent hover:text-accent-foreground transition-colors cursor-pointer shadow-sm"
         >
           <BookOpen className="h-3 w-3 sm:h-3.5 sm:w-3.5" />
-          <span className="hidden sm:inline">Stick to Bible</span>
+          <span className="hidden sm:inline">Reading only</span>
         </button>
       )}
       <button

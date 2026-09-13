@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   getThreadDetail,
   getChainForVerse,
@@ -13,7 +12,7 @@ function ChainTimeline({ chain }: { chain: ThreadChain }) {
       <div className="flex items-center gap-2 mb-3">
         <Link2 className="h-3.5 w-3.5 text-accent shrink-0" />
         <span className="text-[10px] uppercase tracking-widest font-bold text-accent">
-          Thread chain · from {chain.origin}
+          Chain · from {chain.origin}
         </span>
       </div>
       <p className="text-xs text-foreground/55 mb-4 leading-relaxed">

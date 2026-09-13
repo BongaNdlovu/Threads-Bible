@@ -312,7 +312,7 @@ for (const book of order) {
   for (const v of list) {
     const textEscaped = v.text.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
     lines.push(
-      `  { id: '${v.id}', book: '${v.book.replace(/'/g, "\\'")}', chapter: ${v.chapter}, verseNumber: ${v.verseNumber}, text: '${textEscaped}', isProphecy: false },`
+      `  { id: '${v.id}', book: '${v.book.replace(/'/g, "\\'")}', chapter: ${v.chapter}, verseNumber: ${v.verseNumber}, text: '${textEscaped}', isThread: false },`
     );
   }
 }

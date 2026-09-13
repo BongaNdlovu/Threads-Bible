@@ -20,7 +20,7 @@ type VerseLike = {
   chapter: number;
   verseNumber: number;
   text: string;
-  isProphecy: boolean;
+  isThread: boolean;
   fulfillmentRefs?: string[];
 };
 
@@ -386,7 +386,7 @@ for (const thread of Object.values(mergedThreads)) {
         chapter: parsed.chapter,
         verseNumber: v,
         text: cleanText(text),
-        isProphecy: false,
+        isThread: false,
       });
       seenIds.add(id);
     }
@@ -451,7 +451,6 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
 ${formatThreads(mergedThreads)}
 };
 
-export const genesisProphecyCount = Object.keys(genesisProphecies).length;
 `;
 
 fs.writeFileSync(path.join(__dirname, '../src/data/prophecies.ts'), propheciesTs);
@@ -491,7 +490,7 @@ for (const book of order) {
   for (const v of list) {
     const textEscaped = v.text.replace(/\\/g, '\\\\').replace(/'/g, "\\'");
     newLines.push(
-      `  { id: '${v.id}', book: '${v.book.replace(/'/g, "\\'")}', chapter: ${v.chapter}, verseNumber: ${v.verseNumber}, text: '${textEscaped}', isProphecy: false },`
+      `  { id: '${v.id}', book: '${v.book.replace(/'/g, "\\'")}', chapter: ${v.chapter}, verseNumber: ${v.verseNumber}, text: '${textEscaped}', isThread: false },`
     );
   }
 }

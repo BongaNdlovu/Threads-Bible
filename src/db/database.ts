@@ -28,7 +28,5 @@ db.version(2).stores({
   bookmarks: 'verseId, createdAt',
   notes: 'verseId, updatedAt',
   links: '++id, verse1Id, verse2Id'
-}).upgrade(tx => {
-  // handled automatically for new tables
 });
 

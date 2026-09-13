@@ -13,25 +13,17 @@ import { Footer } from './components/Footer';
 import { ChapterGrid } from './components/ChapterGrid';
 import { ThreadPanel } from './components/ThreadPanel';
 import { MobileControls } from './components/MobileControls';
-import { PaneChrome } from './components/PaneChrome';
+import { PaneChrome, RESIZE_HANDLE_CLASS } from './components/PaneChrome';
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import {
   ResizablePanelGroup,
   ResizablePanel,
   ResizableHandle,
 } from '@/components/ui/resizable';
-import { cn } from '@/lib/utils';
-
-const handleClass =
-  'w-3 shrink-0 bg-transparent hover:bg-accent/10 data-[resize-handle-active]:bg-accent/20 ' +
-  'after:w-px after:bg-foreground/20 hover:after:bg-accent ' +
-  'aria-[orientation=horizontal]:h-3 aria-[orientation=horizontal]:w-full ' +
-  'aria-[orientation=horizontal]:after:h-px aria-[orientation=horizontal]:after:w-full ' +
-  'aria-[orientation=horizontal]:after:left-0 aria-[orientation=horizontal]:after:top-1/2';
 
 export default function App() {
   const {
-    selectedProphecy,
+    selectedThread,
     loadBookmarks,
     loadNotes,
     loadLinks,
@@ -66,19 +58,14 @@ export default function App() {
   }, [theme]);
 
   const readingPane = (
-    <div
-      className={cn(
-        'relative h-full min-h-0 flex flex-col bg-background',
-        focusPane && focusPane !== 'reading' && 'hidden'
-      )}
-    >
+    <div className="relative h-full min-h-0 flex flex-col bg-background">
       <PaneChrome
         paneId="reading"
         title="Reading"
         onClose={
           focusPane === 'reading'
             ? () => setFocusPane(null)
-            : selectedProphecy && threadPaneOpen
+            : selectedThread && threadPaneOpen
             ? () => setFocusPane('thread')
             : undefined
         }
@@ -98,18 +85,13 @@ export default function App() {
     </div>
   );
 
-  const threadPane = selectedProphecy ? (
-    <div
-      className={cn(
-        'relative h-full min-h-0 flex flex-col',
-        focusPane && focusPane !== 'thread' && focusPane !== 'explanation' && 'hidden'
-      )}
-    >
+  const threadPane = selectedThread ? (
+    <div className="relative h-full min-h-0 flex flex-col">
       <TheThread embedded />
     </div>
   ) : (
     <div className="hidden md:flex flex-1 items-center justify-center text-sm text-foreground/40 border-l border-foreground/10">
-      Select a prophecy verse to open a thread
+      Select a verse to open a thread
     </div>
   );
 
@@ -120,8 +102,8 @@ export default function App() {
         <Header />
         <main className="flex-1 w-full flex overflow-hidden relative">
           {focusPane === 'reading' && readingPane}
-          {focusPane === 'thread' && selectedProphecy && threadPane}
-          {focusPane === 'explanation' && selectedProphecy && (
+          {focusPane === 'thread' && selectedThread && threadPane}
+          {focusPane === 'explanation' && selectedThread && (
             <div className="relative h-full min-h-0 flex flex-col w-full">
               <PaneChrome
                 paneId="explanation"
@@ -131,7 +113,7 @@ export default function App() {
               <TheThread explanationOnly />
             </div>
           )}
-          {focusPane !== 'reading' && !selectedProphecy && (
+          {focusPane !== 'reading' && !selectedThread && (
             <div className="flex-1 flex items-center justify-center text-sm text-foreground/50">
               Open a thread first, or press Esc to return.
             </div>
@@ -160,25 +142,21 @@ export default function App() {
         </div>
       )}
       <main className="flex-1 w-full flex overflow-hidden relative">
-        {selectedProphecy && threadPaneOpen ? (
+        {selectedThread && threadPaneOpen ? (
           <ResizablePanelGroup direction="horizontal" className="h-full w-full">
             <ResizablePanel defaultSize={50} minSize={25}>
               {readingPane}
             </ResizablePanel>
-            <ResizableHandle withHandle className={handleClass} />
+            <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
             <ResizablePanel defaultSize={50} minSize={25}>
-              {focusPane === 'explanation' || explanationOpen ? (
+              {explanationOpen ? (
                 <ResizablePanelGroup direction="vertical" className="h-full w-full">
                   <ResizablePanel defaultSize={55} minSize={25}>
                     {threadPane}
                   </ResizablePanel>
-                  <ResizableHandle withHandle className={handleClass} />
+                  <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
                   <ResizablePanel defaultSize={45} minSize={15}>
-                    <div
-                      className={cn(
-                        'relative h-full min-h-0 overflow-hidden border-t border-foreground/10'
-                      )}
-                    >
+                    <div className="relative h-full min-h-0 overflow-hidden border-t border-foreground/10">
                       <PaneChrome
                         paneId="explanation"
                         title="Explanation"
@@ -193,7 +171,7 @@ export default function App() {
               )}
             </ResizablePanel>
           </ResizablePanelGroup>
-        ) : selectedProphecy ? (
+        ) : selectedThread ? (
           // Thread open but not pinned: full-width thread (previous behavior)
           <div className="relative flex-1 min-h-0">
             <PaneChrome

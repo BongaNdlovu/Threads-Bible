@@ -70,7 +70,7 @@ for (const book of books) {
   }
   const slug = SLUG[book.name];
   const lines: string[] = [];
-  lines.push(`import { Verse } from './mockData';`);
+  lines.push(`import { Verse } from './types';`);
   lines.push('');
   lines.push(`/** Full KJV text of ${book.name} (${src.chapters.length} chapters). */`);
   lines.push(`export const ${book.exportName}: Verse[] = [`);
@@ -82,7 +82,7 @@ for (const book of books) {
       const v = vIdx + 1;
       const text = cleanText(verseText).replace(/\\/g, '\\\\').replace(/'/g, "\\'");
       lines.push(
-        `  { id: '${slug}-${ch}-${v}', book: '${book.name}', chapter: ${ch}, verseNumber: ${v}, text: '${text}', isProphecy: false },`
+        `  { id: '${slug}-${ch}-${v}', book: '${book.name}', chapter: ${ch}, verseNumber: ${v}, text: '${text}', isThread: false },`
       );
     });
   });

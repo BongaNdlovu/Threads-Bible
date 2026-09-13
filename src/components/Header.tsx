@@ -25,7 +25,7 @@ export function Header() {
   const {
     showVerseNumbers,
     toggleVerseNumbers,
-    selectedProphecy,
+    selectedThread,
     currentReadingBook,
     currentReadingChapter,
     nextChapter,
@@ -82,7 +82,7 @@ export function Header() {
           <span className="text-xs font-bold tracking-[0.2em] uppercase text-accent hidden md:inline">Threads Bible</span>
         </div>
 
-        {!selectedProphecy && (
+        {!selectedThread && (
           <div className="flex items-center gap-1 shrink-0">
             <div className="relative" ref={bookRef}>
               <button
@@ -180,11 +180,11 @@ export function Header() {
           </div>
         )}
 
-        {selectedProphecy && (
+        {selectedThread && (
            <nav className="hidden lg:flex items-center gap-4 text-sm font-medium text-foreground/60 min-w-0">
-             <span className="text-foreground truncate">{selectedProphecy.book} {selectedProphecy.chapter}:{selectedProphecy.verseNumber}</span>
+             <span className="text-foreground truncate">{selectedThread.book} {selectedThread.chapter}:{selectedThread.verseNumber}</span>
              <span className="opacity-30">/</span>
-             <span className="truncate">{selectedProphecy.fulfillmentRefs?.[0]}</span>
+             <span className="truncate">{selectedThread.fulfillmentRefs?.[0]}</span>
            </nav>
         )}
       </div>
@@ -194,7 +194,7 @@ export function Header() {
 
         <button
           onClick={() => setThreadsPanelOpen(true)}
-          aria-label="Threads in this chapter"
+          aria-label="Open the Threads panel"
           title="Threads (T)"
           className="h-8 w-8 rounded-full flex items-center justify-center bg-foreground/5 hover:bg-foreground/10 transition-colors cursor-pointer shrink-0 text-foreground/70 hover:text-foreground"
         >
@@ -263,7 +263,7 @@ export function Header() {
           onClick={toggleTextAlign}
           aria-label={textAlign === 'center' ? 'Full width (stretch to screen)' : 'Center column (comfortable reading measure)'}
           title={textAlign === 'center' ? 'Full width (widescreen)' : 'Center column (shorter readable lines)'}
-          className={`hidden sm:flex h-8 w-8 rounded-full items-center justify-center transition-colors cursor-pointer shrink-0 ${
+          className={`hidden md:flex h-8 w-8 rounded-full items-center justify-center transition-colors cursor-pointer shrink-0 ${
             textAlign === 'center'
               ? 'bg-accent/15 text-accent'
               : 'bg-foreground/5 hover:bg-foreground/10 text-foreground/70 hover:text-foreground'
@@ -271,7 +271,7 @@ export function Header() {
         >
           {textAlign === 'center' ? <AlignCenter className="h-4 w-4" /> : <AlignLeft className="h-4 w-4" />}
         </button>
-        <button onClick={toggleVerseNumbers} className="hidden sm:flex items-center gap-2 bg-foreground/5 px-3 py-1.5 rounded-full hover:bg-foreground/10 transition-colors cursor-pointer shrink-0">
+        <button onClick={toggleVerseNumbers} className="hidden md:flex items-center gap-2 bg-foreground/5 px-3 py-1.5 rounded-full hover:bg-foreground/10 transition-colors cursor-pointer shrink-0">
           <span className="text-[10px] uppercase tracking-wider font-bold opacity-50 hidden sm:inline">Numbers</span>
           <div className={`w-8 h-4 rounded-full flex items-center px-0.5 transition-colors ${showVerseNumbers ? 'bg-accent' : 'bg-foreground/20'}`}>
             <div className={`w-3 h-3 bg-white rounded-full shadow-sm transition-transform ${showVerseNumbers ? 'translate-x-4' : 'translate-x-0'}`}></div>

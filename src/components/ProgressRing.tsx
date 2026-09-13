@@ -1,15 +1,21 @@
 import { useStore } from '../store/useStore';
 
+/** Local calendar day key — must match the store's todayKey (not UTC). */
+function localDayKey(d: Date): string {
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${m}-${day}`;
+}
+
 function streakOf(days: string[]): number {
   if (days.length === 0) return 0;
   const set = new Set(days);
   const d = new Date();
   let streak = 0;
   // If today not read yet, start from yesterday
-  const today = d.toISOString().slice(0, 10);
-  if (!set.has(today)) d.setDate(d.getDate() - 1);
+  if (!set.has(localDayKey(d))) d.setDate(d.getDate() - 1);
   for (;;) {
-    const key = d.toISOString().slice(0, 10);
+    const key = localDayKey(d);
     if (!set.has(key)) break;
     streak++;
     d.setDate(d.getDate() - 1);

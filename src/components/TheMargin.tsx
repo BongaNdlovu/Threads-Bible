@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useStore } from '../store/useStore';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/ui/drawer';
@@ -40,16 +40,39 @@ export function TheMargin() {
   const [chains, setChains] = useState<MasterChain[]>([]);
   const [isLoadingTsk, setIsLoadingTsk] = useState(false);
   const [activeTab, setActiveTab] = useState('tsk');
+  const [noteDraft, setNoteDraft] = useState('');
+
+  // Debounced note persistence: keep typing responsive in local state, flush
+  // to IndexedDB after a short idle (or on close / verse switch).
+  const noteTimerRef = useRef<number | null>(null);
+  const pendingNoteRef = useRef<{ verseId: string; text: string } | null>(null);
+
+  const flushNote = () => {
+    if (noteTimerRef.current !== null) {
+      window.clearTimeout(noteTimerRef.current);
+      noteTimerRef.current = null;
+    }
+    const pending = pendingNoteRef.current;
+    pendingNoteRef.current = null;
+    if (pending) void setNote(pending.verseId, pending.text);
+  };
 
   const isOpen = selectedMarginVerse !== null;
   const onOpenChange = (open: boolean) => {
     if (!open) {
+      flushNote();
       setSelectedMarginVerse(null);
     }
   };
 
+  // Verse data + tab selection. A verse is "initialized" once; later re-runs
+  // of this effect (e.g. after a badge consumes marginActiveTab) must not
+  // override the routed tab with the default one.
+  const initializedVerseRef = useRef<string | null>(null);
+
   useEffect(() => {
     if (!selectedMarginVerse) {
+      initializedVerseRef.current = null;
       setTskRefs([]);
       setCitations([]);
       setMessianic([]);
@@ -58,6 +81,8 @@ export function TheMargin() {
     }
 
     const verseId = selectedMarginVerse.id;
+    const isFirstForVerse = initializedVerseRef.current !== verseId;
+
     const cits = getCitationsForVerse(verseId);
     const mess = getMessianicPropheciesForVerse(verseId);
     const chs = getMasterChainsForVerse(verseId);
@@ -66,38 +91,69 @@ export function TheMargin() {
     setMessianic(mess);
     setChains(chs);
 
-    setIsLoadingTsk(true);
-    getTskForVerse(verseId)
-      .then(res => setTskRefs(res))
-      .catch(() => setTskRefs([]))
-      .finally(() => setIsLoadingTsk(false));
+    if (isFirstForVerse) {
+      // Stale-response guard: a slow TSK fetch for an earlier verse must not
+      // overwrite the refs shown for the verse now open.
+      let cancelled = false;
+      setIsLoadingTsk(true);
+      getTskForVerse(verseId)
+        .then(res => {
+          if (!cancelled) setTskRefs(res);
+        })
+        .catch(() => {
+          if (!cancelled) setTskRefs([]);
+        })
+        .finally(() => {
+          if (!cancelled) setIsLoadingTsk(false);
+        });
 
-    // Badge-to-tab routing and tab preservation
-    if (marginActiveTab) {
+      if (marginActiveTab) {
+        initializedVerseRef.current = verseId;
+        setActiveTab(marginActiveTab);
+        setMarginActiveTab(null);
+      } else {
+        initializedVerseRef.current = verseId;
+        setActiveTab(prev => {
+          // Preserve the user's own notes/links tab across verse switches.
+          if (prev === 'notes' || prev === 'links') return prev;
+          if (cits.length > 0) return 'citations';
+          if (mess.length > 0) return 'messianic';
+          if (chs.length > 0) return 'chains';
+          return 'tsk';
+        });
+      }
+    } else if (marginActiveTab) {
+      // Same verse reopened with an explicit routed tab (badge click).
       setActiveTab(marginActiveTab);
       setMarginActiveTab(null);
-    } else if (activeTab === 'notes' || activeTab === 'links') {
-      // Preserve manual user selection if user is in 'notes' or 'links'
-    } else {
-      // Choose the most informative default tab
-      if (cits.length > 0) {
-        setActiveTab('citations');
-      } else if (mess.length > 0) {
-        setActiveTab('messianic');
-      } else if (chs.length > 0) {
-        setActiveTab('chains');
-      } else {
-        setActiveTab('tsk');
-      }
     }
   }, [selectedMarginVerse, marginActiveTab, setMarginActiveTab]);
 
-  const currentNote = selectedMarginVerse ? notes[selectedMarginVerse.id] || '' : '';
+  // Sync the note draft when the margin verse changes (notes is deliberately
+  // not a dependency — store updates during typing must not clobber the draft).
+  useEffect(() => {
+    flushNote();
+    setNoteDraft(selectedMarginVerse ? notes[selectedMarginVerse.id] || '' : '');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selectedMarginVerse?.id]);
+
+  // Flush a pending note when the margin unmounts.
+  useEffect(() => {
+    return () => {
+      if (noteTimerRef.current !== null) window.clearTimeout(noteTimerRef.current);
+      const pending = pendingNoteRef.current;
+      pendingNoteRef.current = null;
+      if (pending) void useStore.getState().setNote(pending.verseId, pending.text);
+    };
+  }, []);
 
   const handleNoteChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
-    if (selectedMarginVerse) {
-      setNote(selectedMarginVerse.id, e.target.value);
-    }
+    if (!selectedMarginVerse) return;
+    const text = e.target.value;
+    setNoteDraft(text);
+    pendingNoteRef.current = { verseId: selectedMarginVerse.id, text };
+    if (noteTimerRef.current !== null) window.clearTimeout(noteTimerRef.current);
+    noteTimerRef.current = window.setTimeout(flushNote, 500);
   };
 
   const handleStartLinking = () => {
@@ -123,15 +179,14 @@ export function TheMargin() {
     }
   };
 
-  const Content = () => {
-    if (!selectedMarginVerse) return null;
+  // Plain JSX (not a component!) — defining it as a component would remount the
+  // whole subtree on every store change (e.g. losing textarea focus per keystroke).
+  const verseLinks = selectedMarginVerse ? links[selectedMarginVerse.id] || [] : [];
+  const totalTskCount = tskRefs.reduce((acc, a) => acc + a.refs.length, 0);
 
-    const verseLinks = links[selectedMarginVerse.id] || [];
-    const totalTskCount = tskRefs.reduce((acc, a) => acc + a.refs.length, 0);
-
-    return (
-      <div className="h-full flex flex-col">
-        {/* Verse Reference Header Banner */}
+  const content = selectedMarginVerse ? (
+    <div className="h-full flex flex-col">
+      {/* Verse Reference Header Banner */}
         <div className="p-4 border-b border-foreground/10 bg-foreground/[0.02] shrink-0">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -577,15 +632,14 @@ export function TheMargin() {
               <textarea
                 className="w-full flex-1 bg-transparent border-none text-xs leading-relaxed focus:ring-0 p-0 resize-none font-sans outline-none"
                 placeholder="Record your insights and Bible cross-references in the margin..."
-                value={currentNote}
+                value={noteDraft}
                 onChange={handleNoteChange}
               />
             </div>
           </TabsContent>
         </Tabs>
       </div>
-    );
-  };
+  ) : null;
 
   if (isDesktop) {
     return (
@@ -597,7 +651,7 @@ export function TheMargin() {
             </SheetTitle>
           </SheetHeader>
           <div className="flex-1 overflow-hidden">
-            <Content />
+            {content}
           </div>
           <div
             onClick={() => onOpenChange(false)}
@@ -622,7 +676,7 @@ export function TheMargin() {
             </DrawerTitle>
           </DrawerHeader>
           <div className="flex-1 overflow-hidden pb-8">
-            <Content />
+            {content}
           </div>
         </div>
       </DrawerContent>

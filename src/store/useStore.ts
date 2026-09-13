@@ -1,6 +1,5 @@
 import { create } from 'zustand';
 import {
-  resolveRefs,
   loadBook,
   getLoadedBook,
   getAvailableChapters,
@@ -67,7 +66,11 @@ const READ_DAYS_KEY = 'threads-bible-read-days';
 const WEEK_KEY = 'threads-bible-week-chapters';
 
 function todayKey(): string {
-  return new Date().toISOString().slice(0, 10);
+  // Local calendar day (not UTC) so "read today" matches the user's day.
+  const d = new Date();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${d.getFullYear()}-${m}-${day}`;
 }
 
 function weekKey(): string {
@@ -120,8 +123,9 @@ interface AppState {
   nextChapter: () => void;
   prevChapter: () => void;
 
-  selectedProphecy: Verse | null;
-  setSelectedProphecy: (verse: Verse | null) => void;
+  /** The verse whose thread is open (source verse of the thread). */
+  selectedThread: Verse | null;
+  setSelectedThread: (verse: Verse | null) => void;
 
   highlightFromThread: Record<string, string[]>;
   setHighlightFromThread: (map: Record<string, string[]>) => void;
@@ -148,8 +152,6 @@ interface AppState {
   removeLink: (verse1Id: string, verse2Id: string) => Promise<void>;
 
   navigateToVerse: (verseId: string, options?: { preserveMargin?: boolean; targetTab?: string }) => Promise<void>;
-
-  getFulfillmentVerses: (refs: string[]) => Verse[];
 
   // ── Layout: split view, open/close, fullscreen ──────────────────────────
   /** Which pane is maximized, if any */
@@ -265,10 +267,12 @@ export const useStore = create<AppState>((set, get) => ({
     const base: Partial<AppState> = {
       currentReadingBook: book,
       currentReadingChapter: chapter,
-      selectedProphecy: null,
       highlightFromThread: {},
     };
+    // Navigating from the margin (preserveMargin) must not close an open
+    // thread or the margin itself — only plain navigation resets those.
     if (!options?.preserveMargin) {
+      base.selectedThread = null;
       base.selectedMarginVerse = null;
       base.marginActiveTab = null;
     }
@@ -294,7 +298,11 @@ export const useStore = create<AppState>((set, get) => ({
         });
       })
       .catch(() => {
-        if (get().currentReadingBook === book) set({ isBookLoading: false, currentReadingVerses: [] });
+        // Guard the chapter too: the user may have moved to another chapter of
+        // the same book while this fetch was in flight.
+        if (get().currentReadingBook === book && get().currentReadingChapter === chapter) {
+          set({ isBookLoading: false, currentReadingVerses: [] });
+        }
       });
   },
 
@@ -315,8 +323,8 @@ export const useStore = create<AppState>((set, get) => ({
     }
   },
 
-  selectedProphecy: null,
-  setSelectedProphecy: verse => set({ selectedProphecy: verse, highlightFromThread: {} }),
+  selectedThread: null,
+  setSelectedThread: verse => set({ selectedThread: verse, highlightFromThread: {} }),
 
   highlightFromThread: {},
   setHighlightFromThread: map => set({ highlightFromThread: map }),
@@ -333,38 +341,73 @@ export const useStore = create<AppState>((set, get) => ({
   bookmarks: {},
   toggleBookmark: async verseId => {
     const isBookmarked = !!get().bookmarks[verseId];
-    if (isBookmarked) {
-      await db.bookmarks.delete(verseId);
-      set(state => ({ bookmarks: { ...state.bookmarks, [verseId]: false } }));
-    } else {
-      await db.bookmarks.put({ verseId, createdAt: Date.now() });
-      set(state => ({ bookmarks: { ...state.bookmarks, [verseId]: true } }));
+    try {
+      if (isBookmarked) {
+        await db.bookmarks.delete(verseId);
+      } else {
+        await db.bookmarks.put({ verseId, createdAt: Date.now() });
+      }
+    } catch (err) {
+      console.error('Failed to toggle bookmark:', err);
+      return;
     }
+    set(state => {
+      const bookmarks = { ...state.bookmarks };
+      if (isBookmarked) {
+        delete bookmarks[verseId];
+      } else {
+        bookmarks[verseId] = true;
+      }
+      return { bookmarks };
+    });
   },
   loadBookmarks: async () => {
-    const all = await db.bookmarks.toArray();
-    const map: Record<string, boolean> = {};
-    all.forEach(b => {
-      map[b.verseId] = true;
-    });
+    let map: Record<string, boolean> = {};
+    try {
+      const all = await db.bookmarks.toArray();
+      map = {};
+      all.forEach(b => {
+        map[b.verseId] = true;
+      });
+    } catch (err) {
+      console.error('Failed to load bookmarks:', err);
+    }
     set({ bookmarks: map });
   },
 
   notes: {},
   setNote: async (verseId, note) => {
-    if (!note) {
-      await db.notes.delete(verseId);
-    } else {
-      await db.notes.put({ verseId, text: note, updatedAt: Date.now() });
+    try {
+      if (!note) {
+        await db.notes.delete(verseId);
+      } else {
+        await db.notes.put({ verseId, text: note, updatedAt: Date.now() });
+      }
+    } catch (err) {
+      console.error('Failed to save note:', err);
+      return;
     }
-    set(state => ({ notes: { ...state.notes, [verseId]: note } }));
+    set(state => {
+      const notes = { ...state.notes };
+      if (!note) {
+        delete notes[verseId];
+      } else {
+        notes[verseId] = note;
+      }
+      return { notes };
+    });
   },
   loadNotes: async () => {
-    const all = await db.notes.toArray();
-    const map: Record<string, string> = {};
-    all.forEach(n => {
-      map[n.verseId] = n.text;
-    });
+    let map: Record<string, string> = {};
+    try {
+      const all = await db.notes.toArray();
+      map = {};
+      all.forEach(n => {
+        map[n.verseId] = n.text;
+      });
+    } catch (err) {
+      console.error('Failed to load notes:', err);
+    }
     set({ notes: map });
   },
 
@@ -378,16 +421,20 @@ export const useStore = create<AppState>((set, get) => ({
       return;
     }
 
-    const existing = await db.links
-      .filter(
-        l =>
-          (l.verse1Id === sourceVerseId && l.verse2Id === targetVerseId) ||
-          (l.verse1Id === targetVerseId && l.verse2Id === sourceVerseId)
-      )
-      .first();
+    try {
+      const existing = await db.links
+        .filter(
+          l =>
+            (l.verse1Id === sourceVerseId && l.verse2Id === targetVerseId) ||
+            (l.verse1Id === targetVerseId && l.verse2Id === sourceVerseId)
+        )
+        .first();
 
-    if (!existing) {
-      await db.links.put({ verse1Id: sourceVerseId, verse2Id: targetVerseId, createdAt: Date.now() });
+      if (!existing) {
+        await db.links.put({ verse1Id: sourceVerseId, verse2Id: targetVerseId, createdAt: Date.now() });
+      }
+    } catch (err) {
+      console.error('Failed to save link:', err);
     }
 
     set({ linkingState: { mode: 'idle' } });
@@ -395,25 +442,34 @@ export const useStore = create<AppState>((set, get) => ({
   },
   cancelLinking: () => set({ linkingState: { mode: 'idle' } }),
   loadLinks: async () => {
-    const all = await db.links.toArray();
-    const map: Record<string, string[]> = {};
-    all.forEach(l => {
-      if (!map[l.verse1Id]) map[l.verse1Id] = [];
-      if (!map[l.verse2Id]) map[l.verse2Id] = [];
-      if (!map[l.verse1Id].includes(l.verse2Id)) map[l.verse1Id].push(l.verse2Id);
-      if (!map[l.verse2Id].includes(l.verse1Id)) map[l.verse2Id].push(l.verse1Id);
-    });
+    let map: Record<string, string[]> = {};
+    try {
+      const all = await db.links.toArray();
+      map = {};
+      all.forEach(l => {
+        if (!map[l.verse1Id]) map[l.verse1Id] = [];
+        if (!map[l.verse2Id]) map[l.verse2Id] = [];
+        if (!map[l.verse1Id].includes(l.verse2Id)) map[l.verse1Id].push(l.verse2Id);
+        if (!map[l.verse2Id].includes(l.verse1Id)) map[l.verse2Id].push(l.verse1Id);
+      });
+    } catch (err) {
+      console.error('Failed to load links:', err);
+    }
     set({ links: map });
   },
   removeLink: async (v1, v2) => {
-    const links = await db.links
-      .filter(
-        l =>
-          (l.verse1Id === v1 && l.verse2Id === v2) || (l.verse1Id === v2 && l.verse2Id === v1)
-      )
-      .toArray();
-    for (const l of links) {
-      if (l.id) await db.links.delete(l.id);
+    try {
+      const links = await db.links
+        .filter(
+          l =>
+            (l.verse1Id === v1 && l.verse2Id === v2) || (l.verse1Id === v2 && l.verse2Id === v1)
+        )
+        .toArray();
+      for (const l of links) {
+        if (l.id) await db.links.delete(l.id);
+      }
+    } catch (err) {
+      console.error('Failed to remove link:', err);
     }
     await get().loadLinks();
   },
@@ -458,18 +514,18 @@ export const useStore = create<AppState>((set, get) => ({
 
     const thread = threadFor(verse.id);
     const detail = getThreadDetail(verse.id);
-    const hasThread = verse.isProphecy || !!thread || !!detail;
+    const hasThread = verse.isThread || !!thread || !!detail;
 
     if (hasThread) {
       const enrichedVerse: Verse = {
         ...verse,
-        isProphecy: true,
+        isThread: true,
         fulfillmentRefs:
           verse.fulfillmentRefs && verse.fulfillmentRefs.length > 0
             ? verse.fulfillmentRefs
             : (thread?.fulfillmentRefs ?? []),
       };
-      set({ selectedProphecy: enrichedVerse, selectedMarginVerse: null, threadPaneOpen: true });
+      set({ selectedThread: enrichedVerse, selectedMarginVerse: null, threadPaneOpen: true });
     } else {
       set({ selectedMarginVerse: verse });
     }
@@ -477,27 +533,22 @@ export const useStore = create<AppState>((set, get) => ({
     scheduleScrollToVerse(verse.id);
   },
 
-  getFulfillmentVerses: refs => resolveRefs(refs),
-
   focusPane: null,
   setFocusPane: pane => set({ focusPane: pane }),
   toggleFullscreen: pane => set(s => ({ focusPane: s.focusPane === pane ? null : pane })),
 
   threadPaneOpen: false,
   setThreadPaneOpen: open => set({ threadPaneOpen: open }),
-  toggleThreadPane: () =>
-    set(s => ({
-      threadPaneOpen: !s.threadPaneOpen,
-      // Closing the pinned pane also closes a pinned thread selection if user wants clean reading
-      // (keep selectedProphecy so pane content stays when reopening)
-    })),
+  // Toggling the pinned pane keeps selectedThread so the pane content is
+  // still there when the user reopens the split.
+  toggleThreadPane: () => set(s => ({ threadPaneOpen: !s.threadPaneOpen })),
 
   explanationOpen: true,
   setExplanationOpen: open => set({ explanationOpen: open }),
   toggleExplanation: () => set(s => ({ explanationOpen: !s.explanationOpen })),
   closeAllStudyPanes: () =>
     set({
-      selectedProphecy: null,
+      selectedThread: null,
       selectedMarginVerse: null,
       highlightFromThread: {},
       threadPaneOpen: false,
@@ -506,10 +557,11 @@ export const useStore = create<AppState>((set, get) => ({
       threadsPanelOpen: false,
       mobileControlsOpen: false,
       chapterGridOpen: false,
+      linkingState: { mode: 'idle' },
     }),
   hasStudyPanes: () => {
     const s = get();
-    return !!(s.selectedProphecy || s.threadPaneOpen || s.focusPane || s.threadsPanelOpen);
+    return !!(s.selectedThread || s.threadPaneOpen || s.focusPane || s.threadsPanelOpen);
   },
 
   chapterGridOpen: false,

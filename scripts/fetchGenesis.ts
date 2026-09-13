@@ -31,7 +31,7 @@ https.get(url, (res) => {
               chapter: cIdx + 1,
               verseNumber: vIdx + 1,
               text: verseText,
-              isProphecy: isGen3_15 || isGen12_3,
+              isThread: isGen3_15 || isGen12_3,
               fulfillmentRefs: refs
             });
           });
@@ -46,7 +46,7 @@ https.get(url, (res) => {
           chapter: 4,
           verseNumber: 4,
           text: "But when the fulness of the time was come, God sent forth his Son, made of a woman, made under the law,",
-          isProphecy: false
+          isThread: false
         },
         {
           id: "gal-4-5",
@@ -54,7 +54,7 @@ https.get(url, (res) => {
           chapter: 4,
           verseNumber: 5,
           text: "To redeem them that were under the law, that we might receive the adoption of sons.",
-          isProphecy: false
+          isThread: false
         },
         {
           id: "gal-3-8",
@@ -62,7 +62,7 @@ https.get(url, (res) => {
           chapter: 3,
           verseNumber: 8,
           text: "And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed.",
-          isProphecy: false
+          isThread: false
         },
         {
           id: "acts-3-25",
@@ -70,13 +70,13 @@ https.get(url, (res) => {
           chapter: 3,
           verseNumber: 25,
           text: "Ye are the children of the prophets, and of the covenant which God made with our fathers, saying unto Abraham, And in thy seed shall all the kindreds of the earth be blessed.",
-          isProphecy: false
+          isThread: false
         }
       ];
       
       verses.push(...otherVerses);
       
-      const fileContent = `import { Verse } from './mockData';\n\nexport const genesisVersesAndFulfillments: Verse[] = ${JSON.stringify(verses, null, 2)};\n`;
+      const fileContent = `import { Verse } from './types';\n\nexport const genesisVersesAndFulfillments: Verse[] = ${JSON.stringify(verses, null, 2)};\n`;
       fs.writeFileSync('./src/data/genesisData.ts', fileContent);
       console.log('Successfully generated genesisData.ts');
     } catch (e) {

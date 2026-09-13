@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef, useMemo } from 'react';
+import { useState, useEffect, useRef, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import { BOOK_REGISTRY, BOOK_BY_NAME } from '../data/bookRegistry';
 import { fulfillmentVerses } from '../data/fulfillments';
@@ -116,6 +116,7 @@ export function SearchBar() {
           <Search className="w-4 h-4 text-foreground/40" />
         </div>
         <input
+          id="global-search-input"
           type="text"
           className="w-full py-1.5 pl-9 pr-4 text-sm bg-foreground/5 border border-transparent rounded-full focus:outline-none focus:ring-1 focus:ring-accent focus:border-transparent transition-all placeholder:text-foreground/40"
           placeholder="Book, chapter, or text…"

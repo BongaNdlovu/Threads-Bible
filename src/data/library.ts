@@ -12,7 +12,7 @@ export type { Verse } from './types';
 type JsonVerse = { id: string; chapter: number; verse: number; text: string };
 type BookJson = { slug: string; name: string; chapters: number; verses: number; data: JsonVerse[] };
 
-/** All curated prophecy / reference maps. */
+/** All curated thread maps (verse id → fulfillment refs), partitioned by book. */
 export const allThreadMaps = [
   genesisProphecies,
   exodusProphecies,
@@ -67,7 +67,7 @@ function applyThreadsTo(verses: Verse[]): Verse[] {
   return verses.map(v => {
     const t = threadFor(v.id);
     if (!t) return v;
-    return { ...v, isProphecy: true, fulfillmentRefs: t.fulfillmentRefs };
+    return { ...v, isThread: true, fulfillmentRefs: t.fulfillmentRefs };
   });
 }
 
@@ -107,7 +107,7 @@ export async function loadBookBySlug(slug: string): Promise<Verse[]> {
         chapter: v.chapter,
         verseNumber: v.verse,
         text: v.text,
-        isProphecy: false,
+        isThread: false,
       }));
       const withThreads = applyThreadsTo(verses);
       bookCache.set(slug, withThreads);

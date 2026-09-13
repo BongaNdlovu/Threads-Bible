@@ -9,7 +9,6 @@ import { LAST_DAY_EVENTS, LDE_ERAS, type LastDayEventPhase, type LdeEra } from '
 import {
   X,
   ListTree,
-  Columns3,
   BookOpen,
   Clock,
   ShieldCheck,
@@ -48,9 +47,11 @@ export function ThreadPanel() {
     threadPanelTab,
     setThreadPanelTab,
     selectedChainId,
+    setSelectedChainId,
     currentReadingBook,
     currentReadingChapter,
-    setSelectedProphecy,
+    isBookLoading,
+    setSelectedThread,
     setThreadPaneOpen,
     navigateToVerse,
   } = useStore();
@@ -96,10 +97,12 @@ export function ThreadPanel() {
         if (el) {
           el.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
+        // Consume the request so re-selecting the same chain can trigger again.
+        setSelectedChainId(null);
       }, 100);
       return () => clearTimeout(timer);
     }
-  }, [selectedChainId, threadsPanelOpen, setThreadPanelTab]);
+  }, [selectedChainId, threadsPanelOpen, setThreadPanelTab, setSelectedChainId]);
 
   const handleNavigate = (verseId: string) => {
     void navigateToVerse(verseId);
@@ -116,16 +119,18 @@ export function ThreadPanel() {
     }
   };
 
-  // Chapter prophecies
+  // Chapter threads. isBookLoading is a dependency on purpose: the book cache
+  // is read non-reactively, so the memo must re-run once the current book has
+  // finished loading (e.g. panel opened via `T` before the fetch completed).
   const chapterThreads = useMemo(() => {
     const verses = getChapterVersesFromLoaded(currentReadingBook, currentReadingChapter);
     return verses
-      .filter(v => v.isProphecy && v.fulfillmentRefs?.length)
+      .filter(v => v.isThread && v.fulfillmentRefs?.length)
       .map(v => {
         const detail = getThreadDetail(v.id);
         return { verse: v, title: detail?.title ?? `${v.book} ${v.chapter}:${v.verseNumber}` };
       });
-  }, [currentReadingBook, currentReadingChapter, threadsPanelOpen]);
+  }, [currentReadingBook, currentReadingChapter, isBookLoading, threadsPanelOpen]);
 
   // Filtered 42 Master Chains
   const filteredChains = useMemo(() => {
@@ -204,9 +209,9 @@ export function ThreadPanel() {
             </div>
             <div className="text-sm font-medium truncate">
               {activeTab === 'chapter' && `${currentReadingBook} ${currentReadingChapter}`}
-              {activeTab === 'chains' && '42 Master Canonical Redemptive Chains (Tier 4)'}
-              {activeTab === 'messianic' && 'Messianic Prophecies & Fulfillments (Tier 3)'}
-              {activeTab === 'beliefs' && '28 Fundamental Beliefs (Scripture Proofs)'}
+              {activeTab === 'chains' && `${MASTER_CHAINS.length} Master Canonical Redemptive Chains (Tier 4)`}
+              {activeTab === 'messianic' && `Messianic Prophecies & Fulfillments (Tier 3)`}
+              {activeTab === 'beliefs' && `${FUNDAMENTAL_BELIEFS.length} Fundamental Beliefs (Scripture Proofs)`}
               {activeTab === 'lde' && 'Great Controversy & Last Day Events'}
             </div>
           </div>
@@ -244,7 +249,7 @@ export function ThreadPanel() {
           )}
         >
           <Network className="h-3.5 w-3.5" />
-          <span>42 Chains</span>
+          <span>{MASTER_CHAINS.length} Chains</span>
         </button>
         <button
           onClick={() => setActiveTab('messianic')}
@@ -268,7 +273,7 @@ export function ThreadPanel() {
           )}
         >
           <BookOpen className="h-3.5 w-3.5" />
-          <span>28 Beliefs</span>
+          <span>{FUNDAMENTAL_BELIEFS.length} Beliefs</span>
         </button>
         <button
           onClick={() => setActiveTab('lde')}
@@ -295,11 +300,11 @@ export function ThreadPanel() {
               onChange={e => setSearchQuery(e.target.value)}
               placeholder={
                 activeTab === 'chains'
-                  ? 'Search 42 master chains, texts, topics...'
+                  ? `Search ${MASTER_CHAINS.length} master chains, texts, topics...`
                   : activeTab === 'messianic'
                   ? 'Search Messianic prophecies, fulfillments...'
                   : activeTab === 'beliefs'
-                  ? 'Search 28 beliefs, doctrines, verses...'
+                  ? `Search ${FUNDAMENTAL_BELIEFS.length} beliefs, doctrines, verses...`
                   : 'Search Last Day Events, timeline, phases...'
               }
               className="w-full pl-8 pr-8 py-1.5 text-xs rounded-lg border border-foreground/15 bg-background text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent/60"
@@ -326,7 +331,7 @@ export function ThreadPanel() {
                     : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
                 )}
               >
-                All (42)
+                All ({MASTER_CHAINS.length})
               </button>
               {CHAIN_CATEGORIES.map(cat => (
                 <button
@@ -388,7 +393,7 @@ export function ThreadPanel() {
                     : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
                 )}
               >
-                All (28)
+                All ({FUNDAMENTAL_BELIEFS.length})
               </button>
               {BELIEF_CATEGORIES.map(cat => (
                 <button
@@ -446,13 +451,13 @@ export function ThreadPanel() {
         {activeTab === 'chapter' && (
           chapterThreads.length === 0 ? (
             <div className="p-6 text-center text-foreground/50 text-sm space-y-3">
-              <p>No prophecy threads in {currentReadingBook} {currentReadingChapter}.</p>
+              <p>No threads in {currentReadingBook} {currentReadingChapter}.</p>
               <div className="flex flex-col gap-2 items-center">
                 <button
                   onClick={() => setActiveTab('chains')}
                   className="text-xs text-accent font-medium hover:underline inline-flex items-center gap-1 cursor-pointer"
                 >
-                  <span>Browse 42 Master Canonical Chains</span>
+                  <span>Browse {MASTER_CHAINS.length} Master Canonical Chains</span>
                   <ChevronRight className="h-3 w-3" />
                 </button>
                 <button
@@ -470,7 +475,7 @@ export function ThreadPanel() {
                 <li key={verse.id}>
                   <button
                     onClick={() => {
-                      setSelectedProphecy(verse);
+                      setSelectedThread(verse);
                       setThreadPaneOpen(true);
                       setThreadsPanelOpen(false);
                     }}
@@ -508,7 +513,7 @@ export function ThreadPanel() {
                 Overarching theological rivers running from Genesis to Revelation, grounded in Sola Scriptura, Sanctuary typology, and the Great Controversy.
               </p>
               <div className="text-[10px] uppercase font-bold tracking-wider text-accent/90 pt-1 border-t border-accent/15 flex items-center justify-between">
-                <span>42 Master Chains • Genesis to Revelation</span>
+                <span>{MASTER_CHAINS.length} Master Chains • Genesis to Revelation</span>
                 <span className="text-[9px] text-foreground/50 normal-case">Historicist Fulfillment</span>
               </div>
             </div>
@@ -708,7 +713,7 @@ export function ThreadPanel() {
             <div className="p-3.5 rounded-xl bg-accent/10 border border-accent/25 text-foreground/80 text-xs space-y-1.5 shadow-sm">
               <div className="flex items-center gap-1.5 font-bold text-accent">
                 <BookOpen className="h-4 w-4 shrink-0" />
-                <span>28 Fundamental Beliefs • Sola Scriptura</span>
+                <span>{FUNDAMENTAL_BELIEFS.length} Fundamental Beliefs • Sola Scriptura</span>
               </div>
               <p className="italic text-foreground/80 text-[11px] leading-relaxed">
                 Seventh-day Adventists accept the Bible as their only creed and hold certain fundamental beliefs to be the teaching of the Holy Scriptures.

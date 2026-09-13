@@ -12,7 +12,7 @@ type Verse = {
   chapter: number;
   verseNumber: number;
   text: string;
-  isProphecy: boolean;
+  isThread: boolean;
   fulfillmentRefs?: string[];
 };
 

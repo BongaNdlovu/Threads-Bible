@@ -103,7 +103,9 @@ export function ZenReader({
                 <span className="text-lg font-semibold text-accent tabular-nums">
                   {currentReadingChapter}
                 </span>
-                <span className="text-[10px] text-foreground/40 tabular-nums">of {maxChapter}</span>
+                {maxChapter > 0 && (
+                  <span className="text-[10px] text-foreground/40 tabular-nums">of {maxChapter}</span>
+                )}
               </div>
 
               <button
