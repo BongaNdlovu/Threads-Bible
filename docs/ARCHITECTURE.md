@@ -103,7 +103,7 @@ improvement opportunity — see audit.)
 | `src/data/threadDetails.ts` | Genesis thread details + pillar chains (hand-written) | no |
 | `src/data/bookThreadDetails.ts` | Thread details for the other books (hand-written) | no |
 | `src/data/tier2NtCitations.ts` | 108 NT citations/allusions (hand-written) | no |
-| `src/data/tier3Messianic.ts` | 40 Messianic prophecies, Edersheim-harmonized (hand-written) | no |
+| `src/data/tier3Messianic.ts` | 78 Messianic prophecies (Jesus Christ threads), Edersheim-harmonized (hand-written) | no |
 | `src/data/tier4MasterChains.ts` | 42 master chains, 277 steps (hand-written) | no |
 | `src/data/fundamentalBeliefs.ts` | 28 beliefs with scripture anchors (hand-written) | no |
 | `src/data/lastDayEvents.ts` | 19 LDE phases across 6 eras (hand-written) | no |

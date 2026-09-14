@@ -210,7 +210,7 @@ export function ThreadPanel() {
             <div className="text-sm font-medium truncate">
               {activeTab === 'chapter' && `${currentReadingBook} ${currentReadingChapter}`}
               {activeTab === 'chains' && `${MASTER_CHAINS.length} Master Canonical Redemptive Chains (Tier 4)`}
-              {activeTab === 'messianic' && `Messianic Prophecies & Fulfillments (Tier 3)`}
+              {activeTab === 'messianic' && `${MESSIANIC_PROPHECIES.length} Messianic Prophecies & Fulfillments (Tier 3)`}
               {activeTab === 'beliefs' && `${FUNDAMENTAL_BELIEFS.length} Fundamental Beliefs (Scripture Proofs)`}
               {activeTab === 'lde' && 'Great Controversy & Last Day Events'}
             </div>
@@ -261,7 +261,7 @@ export function ThreadPanel() {
           )}
         >
           <Sparkles className="h-3.5 w-3.5" />
-          <span>Messianic</span>
+          <span>Messianic ({MESSIANIC_PROPHECIES.length})</span>
         </button>
         <button
           onClick={() => setActiveTab('beliefs')}
@@ -645,32 +645,36 @@ export function ThreadPanel() {
           </div>
         )}
 
-        {/* MESSIANIC PROPHECIES (TIER 3) */}
+        {/* MESSIANIC PROPHECIES (TIER 3) — Jesus Christ threads, light red */}
         {activeTab === 'messianic' && (
           <div className="space-y-3">
-            <div className="p-3.5 rounded-xl bg-accent/10 border border-accent/25 text-foreground/80 text-xs space-y-1.5 shadow-sm">
-              <div className="flex items-center gap-1.5 font-bold text-accent">
+            <div className="p-3.5 rounded-xl bg-red-100/60 dark:bg-red-500/10 border border-red-300/50 dark:border-red-500/25 text-foreground/80 text-xs space-y-1.5 shadow-sm">
+              <div className="flex items-center gap-1.5 font-bold text-red-600 dark:text-red-300">
                 <Sparkles className="h-4 w-4 shrink-0" />
                 <span>Tier 3: Specific Messianic Prophecies</span>
               </div>
               <p className="italic text-foreground/80 text-[11px] leading-relaxed">
                 Direct prophecies of the Messiah in the Old Testament fulfilled in Jesus Christ, harmonizing Alfred Edersheim\'s classical catalog with Sola Scriptura fulfillment.
               </p>
+              <div className="text-[10px] uppercase font-bold tracking-wider text-red-600/90 dark:text-red-300/90 pt-1 border-t border-red-300/30 dark:border-red-500/20 flex items-center justify-between">
+                <span>{MESSIANIC_PROPHECIES.length} Jesus Christ Threads • Genesis to Malachi</span>
+                <span className="text-[9px] text-foreground/50 normal-case">Light-Red Marked</span>
+              </div>
             </div>
 
             <div className="space-y-3">
               {filteredMessianic.map(m => (
                 <div
                   key={m.id}
-                  className="p-3.5 rounded-xl border border-foreground/10 bg-background hover:border-accent/40 transition-colors shadow-sm space-y-2"
+                  className="p-3.5 rounded-xl border border-red-200 dark:border-red-500/20 bg-red-50/50 dark:bg-red-500/[0.06] hover:border-red-300 dark:hover:border-red-500/40 transition-colors shadow-sm space-y-2"
                 >
                   <div className="flex items-center justify-between">
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                    <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-red-100 dark:bg-red-500/15 text-red-600 dark:text-red-300">
                       {m.category}
                     </span>
                     <button
                       onClick={() => handleNavigate(m.otVerseId)}
-                      className="text-[11px] text-accent hover:underline inline-flex items-center gap-1 font-mono cursor-pointer"
+                      className="text-[11px] text-red-500 dark:text-red-300 hover:underline inline-flex items-center gap-1 font-mono cursor-pointer"
                     >
                       <span>{m.prophecyRef}</span>
                       <ArrowUpRight className="h-3 w-3" />
@@ -690,7 +694,7 @@ export function ThreadPanel() {
                         <button
                           key={idx}
                           onClick={() => handleNavigateRef(ref)}
-                          className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                          className="px-2 py-0.5 rounded bg-red-100/80 dark:bg-red-500/15 hover:bg-red-400 hover:text-white dark:hover:bg-red-500 dark:hover:text-white text-red-600 dark:text-red-300 font-mono text-[10px] transition-colors cursor-pointer"
                         >
                           {ref}
                         </button>

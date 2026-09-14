@@ -153,6 +153,9 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
   };
 
   const isSelectedMargin = selectedMarginVerse?.id === verse.id;
+  // Every verse tied to a Jesus Christ thread (Messianic prophecy source or NT
+  // fulfillment) is highlighted light red, instead of the default accent.
+  const isMessianic = messianicProphecies.length > 0;
 
   return (
     <span
@@ -161,8 +164,12 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
       className={cn(
         'cursor-pointer transition-colors duration-200 group/verse',
         verse.isThread
-          ? 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
-          : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
+          ? isMessianic
+            ? 'border-b-2 border-dashed border-red-300/70 bg-red-100/50 py-1 px-1 dark:border-red-400/40 dark:bg-red-400/10'
+            : 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
+          : isMessianic
+            ? 'border-b-2 border-dashed border-red-300/60 bg-red-100/40 py-1 px-1 dark:border-red-400/35 dark:bg-red-400/10'
+            : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
         isSelectedMargin && 'ring-2 ring-accent/70 bg-accent/15 rounded-sm',
         isLinkingSource && 'ring-2 ring-accent ring-offset-2 ring-offset-background rounded-sm',
         userHl && HL_COLORS[userHl]
@@ -214,12 +221,12 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         </span>
       )}
 
-      {/* Tier 3: Messianic Prophecy Badge */}
+      {/* Tier 3: Messianic Prophecy Badge (Jesus Christ thread — light red) */}
       {messianicProphecies.length > 0 && (
         <span
           onClick={e => handleOpenMargin(e, 'messianic')}
           title={`Tier 3: Messianic Prophecy - ${messianicProphecies[0].title}`}
-          className="inline-flex items-center align-middle mr-1 cursor-pointer text-accent hover:opacity-80"
+          className="inline-flex items-center align-middle mr-1 cursor-pointer text-red-400 hover:text-red-500 dark:text-red-300 dark:hover:text-red-200"
         >
           <Sparkles className="w-[13px] h-[13px]" />
         </span>
@@ -240,7 +247,7 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         <sup
           className={cn(
             'font-sans font-bold pr-1 text-[10px] select-none',
-            verse.isThread ? 'text-accent' : 'opacity-50'
+            isMessianic ? 'text-red-500 dark:text-red-300' : verse.isThread ? 'text-accent' : 'opacity-50'
           )}
         >
           {verse.verseNumber}
