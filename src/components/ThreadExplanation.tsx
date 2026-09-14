@@ -98,8 +98,13 @@ export function ThreadExplanation({
         <div className="flex items-center gap-2 mb-2">
           <BookMarked className="h-3.5 w-3.5 text-accent" />
           <span className="text-[10px] uppercase tracking-widest font-bold text-accent">
-            Biblical first principles
+            {detail.draft ? 'Thread connection note' : 'Biblical first principles'}
           </span>
+          {detail.draft && (
+            <span className="text-[9px] uppercase tracking-wider px-1.5 py-0.5 rounded-full bg-foreground/10 text-foreground/50">
+              draft
+            </span>
+          )}
         </div>
         <h3 className="font-serif text-lg md:text-xl text-foreground mb-2">{detail.title}</h3>
         <p className="text-sm md:text-[15px] leading-relaxed text-foreground/80">

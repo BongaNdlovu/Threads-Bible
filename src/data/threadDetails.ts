@@ -3,6 +3,7 @@
  * for Genesis prophecy threads.
  */
 import { bookThreadDetails } from './bookThreadDetails';
+import { draftThreadDetails } from './draftThreadDetails';
 
 export interface OriginalLanguageTerm {
   term: string;
@@ -38,6 +39,8 @@ export interface ThreadDetail {
   sameTestamentLinks?: { ref: string; connection: string }[];
   /** Ordered chain starting at the earliest related thread */
   chainId?: string;
+  /** True for generated draft details (draftThreadDetails.ts) awaiting hand-writing */
+  draft?: boolean;
 }
 
 export const threadDetails: Record<string, ThreadDetail> = {
@@ -2371,7 +2374,12 @@ for (const chain of threadChains) {
 }
 
 export function getThreadDetail(verseId: string): ThreadDetail | null {
-  return threadDetails[verseId] ?? bookThreadDetails[verseId] ?? null;
+  return (
+    threadDetails[verseId] ??
+    bookThreadDetails[verseId] ??
+    draftThreadDetails[verseId] ??
+    null
+  );
 }
 
 export function getChainForVerse(verseId: string): ThreadChain | null {

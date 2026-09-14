@@ -5,6 +5,7 @@ import { BOOK_REGISTRY } from '../src/data/bookRegistry';
 import { allThreadMaps } from '../src/data/threadMap';
 import { threadDetails } from '../src/data/threadDetails';
 import { bookThreadDetails } from '../src/data/bookThreadDetails';
+import { draftThreadDetails } from '../src/data/draftThreadDetails';
 import { NT_CITATIONS, NT_LOOKUP, OT_LOOKUP } from '../src/data/tier2NtCitations';
 import { MESSIANIC_PROPHECIES, MESSIANIC_BY_VERSE, NT_MESSIANIC_LOOKUP } from '../src/data/tier3Messianic';
 import { MASTER_CHAINS, CHAINS_BY_VERSE } from '../src/data/tier4MasterChains';
@@ -228,11 +229,27 @@ if (detailOnlyVerses.length > 0) {
 
 const hasDetail = (id: string) => !!(threadDetails[id] || bookThreadDetails[id]);
 const coveredAnchors = [...threadAnchors].filter(hasDetail);
+const draftKeys = Object.keys(draftThreadDetails);
+const draftOnly = draftKeys.filter(id => threadAnchors.has(id) && !hasDetail(id));
 const pct = Math.round((coveredAnchors.length / threadAnchors.size) * 100);
 console.log(`Detail coverage: ${coveredAnchors.length}/${threadAnchors.size} anchors (${pct}%) have hand-written titles/explanations.`);
+
+// Draft invariants: drafts exist only for uncovered anchors and never shadow
+// a hand-written detail (hand entries always win at lookup time).
+const draftErrors: string[] = [];
+for (const key of draftKeys) {
+  if (!threadAnchors.has(key)) draftErrors.push(`draft key "${key}" is not a thread anchor`);
+  if (hasDetail(key)) draftErrors.push(`draft key "${key}" shadows a hand-written detail`);
+}
+if (draftErrors.length === 0) {
+  console.log(`Draft details: ${draftOnly.length} drafts cover all remaining anchors — total coverage ${threadAnchors.size}/${threadAnchors.size} (100%).`);
+} else {
+  hasErrors = true;
+  for (const e of draftErrors) console.error(`[DRAFTS ERROR] ${e}. Re-run: npm run generate:drafts`);
+}
 const tier3Missing = MESSIANIC_PROPHECIES.map(p => p.otVerseId).filter(id => !hasDetail(id));
 console.log(
-  `Tier 3 (Jesus Christ thread) anchors missing details: ${tier3Missing.length}` +
+  `Tier 3 (Jesus Christ thread) anchors missing HAND-written details: ${tier3Missing.length}` +
     (tier3Missing.length ? ` → ${tier3Missing.join(', ')}` : '')
 );
 

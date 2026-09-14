@@ -132,6 +132,7 @@ controls sheet (mobile).
 | `src/data/fulfillments.ts` | 1,203 KJV fulfillment verses, always in memory | **yes** — `completeThreads.ts`, `fillMissingVerses.ts`, `finalizeThreads.ts` |
 | `src/data/threadDetails.ts` | Genesis thread details + pillar chains (hand-written; lazy chunk) | no |
 | `src/data/bookThreadDetails.ts` | Thread details for the other books incl. every Tier 3 anchor (hand-written; lazy chunk) | no |
+| `src/data/draftThreadDetails.ts` | Generated draft details for every remaining anchor (`npm run generate:drafts`) | **yes** |
 | `src/data/tier2NtCitations.ts` | 108 NT citations/allusions (hand-written) | no |
 | `src/data/tier3Messianic.ts` | 78 Messianic prophecies (Jesus Christ threads), Edersheim-harmonized (hand-written) | no |
 | `src/data/tier4MasterChains.ts` | 42 master chains, 277 steps (hand-written) | no |

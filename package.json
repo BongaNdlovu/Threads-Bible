@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "lint": "tsc --noEmit",
     "audit:data": "tsx scripts/auditAllTiers.ts",
+    "generate:drafts": "tsx scripts/generateDraftDetails.ts",
     "verify:accuracy": "tsx scripts/accuracyCheck.ts",
     "test": "vitest run",
     "test:watch": "vitest",

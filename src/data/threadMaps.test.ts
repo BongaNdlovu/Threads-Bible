@@ -67,4 +67,22 @@ describe('thread detail service (lazy)', () => {
     expect(api.getThreadDetail('gen-3-15')?.title).toBeTruthy();
     expect(getThreadDetail('gen-3-15')).not.toBeNull();
   });
+
+  it('gives every thread anchor a detail (hand-written or draft)', async () => {
+    await import('./threadDetailService').then(m => m.ensureThreadDetails());
+    const { allThreadMaps } = await import('./threadMap');
+    let hand = 0;
+    let draft = 0;
+    for (const map of allThreadMaps) {
+      for (const key of Object.keys(map)) {
+        const detail = getThreadDetail(key);
+        expect(detail, `anchor ${key} has no detail`).not.toBeNull();
+        expect(detail!.title.length).toBeGreaterThan(0);
+        if (detail!.draft) draft++;
+        else hand++;
+      }
+    }
+    expect(hand).toBeGreaterThan(300);
+    expect(hand + draft).toBe(1342);
+  });
 });
