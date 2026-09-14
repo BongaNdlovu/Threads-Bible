@@ -7,6 +7,7 @@ import {
   type ThreadDetail,
 } from '../data/threadDetailService';
 import { createDeferredDataset, useDatasetReady } from '../data/deferred';
+import type { SymbolEntry, TypeEntry } from '../data/symbolsTypes';
 import { MASTER_CHAINS, type MasterChain } from '../data/tier4MasterChains';
 import { MESSIANIC_PROPHECIES, type MessianicProphecy } from '../data/tier3Messianic';
 import type { FundamentalBelief, BeliefCategory } from '../data/fundamentalBeliefs';
@@ -23,10 +24,11 @@ import {
   Search,
   Network,
   ArrowUpRight,
+  ScrollText,
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-type ActiveTab = 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde';
+type ActiveTab = 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde' | 'symbols';
 
 /** Beliefs and LDE datasets ship in their own lazy chunks, fetched the first
  * time the threads panel opens (they are used nowhere else in the app). */
@@ -50,6 +52,29 @@ function useLdeData(): { events: LastDayEventPhase[]; eras: readonly LdeEra[] } 
   useDatasetReady(ldeDataset);
   return ldeDataset.get();
 }
+
+/** Symbols & Types reference loads with the panel (one lazy chunk). */
+const symbolsDataset = createDeferredDataset(() =>
+  import('../data/symbolsTypes').then(m => ({
+    symbols: m.SYMBOLS,
+    types: m.TYPES,
+    symbolCategories: m.SYMBOL_CATEGORIES,
+    typeCategories: m.TYPE_CATEGORIES,
+  }))
+);
+
+function useSymbolsData(): {
+  symbols: SymbolEntry[];
+  types: TypeEntry[];
+  symbolCategories: readonly SymbolCategoryAlias[];
+  typeCategories: readonly TypeCategoryAlias[];
+} | null {
+  useDatasetReady(symbolsDataset);
+  return symbolsDataset.get();
+}
+
+type SymbolCategoryAlias = string;
+type TypeCategoryAlias = string;
 
 const CHAIN_CATEGORIES = [
   'Sanctuary & Priesthood',
@@ -102,6 +127,7 @@ export function ThreadPanel() {
   const [selectedMessianicCategory, setSelectedMessianicCategory] = useState<string>('All');
   const [selectedCategory, setSelectedCategory] = useState<BeliefCategory | 'All'>('All');
   const [selectedEra, setSelectedEra] = useState<LdeEra | 'All'>('All');
+  const [selectedSymbolCategory, setSelectedSymbolCategory] = useState<string>('All');
 
   const [expandedChains, setExpandedChains] = useState<Record<string, boolean>>({});
   const [expandedBeliefs, setExpandedBeliefs] = useState<Record<string, boolean>>({});
@@ -113,6 +139,11 @@ export function ThreadPanel() {
   const beliefCategories = beliefsData?.categories ?? [];
   const ldeEvents = ldeData?.events ?? [];
   const ldeEras = ldeData?.eras ?? [];
+  const symbolsData = useSymbolsData();
+  const symbols = symbolsData?.symbols ?? [];
+  const types = symbolsData?.types ?? [];
+  const symbolCategories = symbolsData?.symbolCategories ?? [];
+  const typeCategories = symbolsData?.typeCategories ?? [];
   const detailsReady = useThreadDetailsReady();
 
   // Beliefs/LDE chunks load on first panel open (not at boot).
@@ -120,6 +151,7 @@ export function ThreadPanel() {
     if (threadsPanelOpen) {
       beliefsDataset.preload();
       ldeDataset.preload();
+      symbolsDataset.preload();
     }
   }, [threadsPanelOpen]);
 
@@ -254,6 +286,36 @@ export function ThreadPanel() {
     });
   }, [ldeEvents, searchQuery, selectedEra]);
 
+  // Filtered Symbols & Types
+  const filteredSymbols = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return symbols.filter(m => {
+      if (selectedSymbolCategory !== 'All' && m.category !== selectedSymbolCategory) return false;
+      if (!q) return true;
+      return (
+        m.symbol.toLowerCase().includes(q) ||
+        m.meaning.toLowerCase().includes(q) ||
+        (m.scriptureInterpretation ?? '').toLowerCase().includes(q) ||
+        m.proofRefs.some(r => r.toLowerCase().includes(q))
+      );
+    });
+  }, [symbols, searchQuery, selectedSymbolCategory]);
+
+  const filteredTypes = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return types.filter(t => {
+      if (selectedSymbolCategory !== 'All' && t.category !== selectedSymbolCategory) return false;
+      if (!q) return true;
+      return (
+        t.type.toLowerCase().includes(q) ||
+        t.antitype.toLowerCase().includes(q) ||
+        t.meaning.toLowerCase().includes(q) ||
+        t.typeRefs.some(r => r.toLowerCase().includes(q)) ||
+        t.fulfillmentRefs.some(r => r.toLowerCase().includes(q))
+      );
+    });
+  }, [types, searchQuery, selectedSymbolCategory]);
+
   if (!threadsPanelOpen) return null;
 
   return (
@@ -272,6 +334,7 @@ export function ThreadPanel() {
               {activeTab === 'messianic' && `${MESSIANIC_PROPHECIES.length} Messianic Prophecies & Fulfillments (Tier 3)`}
               {activeTab === 'beliefs' && `${beliefs.length} Fundamental Beliefs (Scripture Proofs)`}
               {activeTab === 'lde' && 'Great Controversy & Last Day Events'}
+              {activeTab === 'symbols' && `${symbols.length} Symbols & ${types.length} Types — Scripture's Own Interpretations`}
             </div>
           </div>
         </div>
@@ -346,6 +409,18 @@ export function ThreadPanel() {
           <Clock className="h-3.5 w-3.5" />
           <span>LDE Timeline</span>
         </button>
+        <button
+          onClick={() => setActiveTab('symbols')}
+          className={cn(
+            'py-2 px-2.5 text-xs font-semibold rounded-t-lg transition-colors border-b-2 flex items-center justify-center gap-1 cursor-pointer whitespace-nowrap',
+            activeTab === 'symbols'
+              ? 'border-accent text-accent bg-background'
+              : 'border-transparent text-foreground/60 hover:text-foreground hover:bg-foreground/5'
+          )}
+        >
+          <ScrollText className="h-3.5 w-3.5" />
+          <span>Symbols{symbols.length + types.length > 0 ? ` (${symbols.length + types.length})` : ''}</span>
+        </button>
       </div>
 
       {/* Search & Category Filter Bar (when not in chapter tab) */}
@@ -364,7 +439,9 @@ export function ThreadPanel() {
                   ? 'Search Messianic prophecies, fulfillments...'
                   : activeTab === 'beliefs'
                   ? `Search ${beliefs.length} beliefs, doctrines, verses...`
-                  : 'Search Last Day Events, timeline, phases...'
+                  : activeTab === 'lde'
+                  ? 'Search Last Day Events, timeline, phases...'
+                  : 'Search symbols, types, meanings...'
               }
               className="w-full pl-8 pr-8 py-1.5 text-xs rounded-lg border border-foreground/15 bg-background text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent/60"
             />
@@ -969,6 +1046,168 @@ export function ThreadPanel() {
                 );
               })}
             </div>
+          </div>
+        )}
+
+        {/* SYMBOLS & TYPES TAB */}
+        {activeTab === 'symbols' && (
+          <div className="space-y-3">
+            <div className="p-3.5 rounded-xl bg-accent/10 border border-accent/25 text-foreground/80 text-xs space-y-1.5 shadow-sm">
+              <div className="flex items-center gap-1.5 font-bold text-accent">
+                <ScrollText className="h-4 w-4 shrink-0" />
+                <span>Symbols &amp; Types — Scripture Decoded by Scripture</span>
+              </div>
+              <p className="italic text-foreground/80 text-[11px] leading-relaxed">
+                Prophetic symbols are interpreted where Scripture itself explains them (beast = kingdom, Daniel 7:23; waters = peoples, Revelation 17:15), and Old Testament types are traced to their New Testament antitypes in Christ.
+              </p>
+              <div className="text-[10px] uppercase font-bold tracking-wider text-accent/90 pt-1 border-t border-accent/15 flex items-center justify-between">
+                <span>{symbols.length} Symbols • {types.length} Types</span>
+                <span className="text-[9px] text-foreground/50 normal-case">Sola Scriptura Historicist</span>
+              </div>
+            </div>
+
+            {!symbolsData && (
+              <div className="p-4 text-center text-xs text-foreground/50">Loading symbols & types…</div>
+            )}
+
+            {activeTab === 'symbols' && (
+              <div className="flex gap-1 overflow-x-auto pb-1 text-[11px] scrollbar-none">
+                <button
+                  onClick={() => setSelectedSymbolCategory('All')}
+                  className={cn(
+                    'px-2 py-0.5 rounded-full whitespace-nowrap transition-colors cursor-pointer',
+                    selectedSymbolCategory === 'All'
+                      ? 'bg-accent text-accent-foreground font-semibold'
+                      : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                  )}
+                >
+                  All ({symbols.length + types.length})
+                </button>
+                {symbolCategories.map(cat => (
+                  <button
+                    key={cat}
+                    onClick={() => setSelectedSymbolCategory(cat)}
+                    className={cn(
+                      'px-2 py-0.5 rounded-full whitespace-nowrap transition-colors cursor-pointer',
+                      selectedSymbolCategory === cat
+                        ? 'bg-accent text-accent-foreground font-semibold'
+                        : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                    )}
+                  >
+                    {cat}
+                  </button>
+                ))}
+                {typeCategories.map(cat => (
+                  <button
+                    key={cat}
+                    onClick={() => setSelectedSymbolCategory(cat)}
+                    className={cn(
+                      'px-2 py-0.5 rounded-full whitespace-nowrap transition-colors cursor-pointer',
+                      selectedSymbolCategory === cat
+                        ? 'bg-accent text-accent-foreground font-semibold'
+                        : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                    )}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {filteredSymbols.length > 0 && (
+              <div className="space-y-2">
+                <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/40 pt-1">
+                  Prophetic Symbols ({filteredSymbols.length})
+                </div>
+                {filteredSymbols.map(m => (
+                  <div
+                    key={m.id}
+                    className="p-3.5 rounded-xl border border-foreground/10 bg-background hover:border-accent/40 transition-colors shadow-sm space-y-2"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                        {m.category}
+                      </span>
+                      {m.scriptureInterpretation && (
+                        <span className="text-[9px] uppercase tracking-wider text-foreground/40">
+                          Scripture-defined
+                        </span>
+                      )}
+                    </div>
+                    <div className="text-sm font-bold text-foreground">{m.symbol}</div>
+                    <p className="text-xs text-foreground/80 leading-relaxed">{m.meaning}</p>
+                    {m.scriptureInterpretation && (
+                      <div className="text-[11px] text-accent/90 italic">
+                        Defined: {m.scriptureInterpretation}
+                      </div>
+                    )}
+                    <div className="flex flex-wrap gap-1">
+                      {m.proofRefs.map((ref, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => handleNavigateRef(ref)}
+                          className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                        >
+                          {ref}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+
+            {filteredTypes.length > 0 && (
+              <div className="space-y-2">
+                <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/40 pt-1">
+                  Types & Antitypes ({filteredTypes.length})
+                </div>
+                {filteredTypes.map(t => (
+                  <div
+                    key={t.id}
+                    className="p-3.5 rounded-xl border border-foreground/10 bg-background hover:border-accent/40 transition-colors shadow-sm space-y-2"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                        {t.category}
+                      </span>
+                    </div>
+                    <div className="text-sm font-bold text-foreground">
+                      {t.type} <span className="text-accent">→</span> <span className="text-accent/90">{t.antitype}</span>
+                    </div>
+                    <p className="text-xs text-foreground/80 leading-relaxed">{t.meaning}</p>
+                    <div className="text-xs text-foreground/70 space-y-1">
+                      <div className="flex flex-wrap gap-1 items-center">
+                        <span className="text-foreground/40 uppercase text-[10px] font-bold">Type:</span>
+                        {t.typeRefs.map((ref, idx) => (
+                          <button
+                            key={idx}
+                            onClick={() => handleNavigateRef(ref)}
+                            className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                          >
+                            {ref}
+                          </button>
+                        ))}
+                      </div>
+                      {t.fulfillmentRefs.length > 0 && (
+                        <div className="flex flex-wrap gap-1 items-center">
+                          <span className="text-foreground/40 uppercase text-[10px] font-bold">Fulfilled:</span>
+                          {t.fulfillmentRefs.map((ref, idx) => (
+                            <button
+                              key={idx}
+                              onClick={() => handleNavigateRef(ref)}
+                              className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                            >
+                              {ref}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         )}
       </div>

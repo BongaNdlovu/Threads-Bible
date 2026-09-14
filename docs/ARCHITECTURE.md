@@ -86,6 +86,7 @@ on first panel open — never blocking first paint):
 | `threadDetails.ts` + `bookThreadDetails.ts` | 114 KB | boot (`preloadThreadDetails`) |
 | `fundamentalBeliefs.ts` | 12 KB | first Threads-panel open |
 | `lastDayEvents.ts` | 11 KB | first Threads-panel open |
+| `symbolsTypes.ts` (symbols & types reference) | ~25 KB | first Threads-panel open |
 
 Book text and TSK data are lazily fetched from `public/`. TheThread additionally
 loads any book referenced by a thread's fulfillment refs on demand, so
@@ -122,6 +123,7 @@ controls sheet (mobile).
 | `src/db/backupFormat.ts` | Backup JSON format + canonical validation (pure) | no |
 | `src/db/backup.ts` | Backup export/import I/O + file download | no |
 | `src/components/ErrorBoundary.tsx` | Render-error containment (app + per-pane) | no |
+| `src/data/symbolsTypes.ts` | Symbols & Types reference (91 symbols, 48 types; lazy chunk) | no |
 | `src/data/bookRegistry.ts` | 66-book registry (name, slug, chapters, verses) | **yes** — `scripts/exportBookJson.ts` |
 | `src/data/verseCounts.ts` | Per-chapter verse counts | **yes** — `scripts/generateVerseCounts.ts` |
 | `src/data/prophecies.ts` | Thread map: Genesis (173 anchors) | **yes** — `scripts/completeThreads.ts`, `finalizeThreads.ts` |

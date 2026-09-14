@@ -221,6 +221,16 @@ offline reading. All four were implemented.
    JSONs and 66 TSK files CacheFirst on first use (immutable per release).
    Installable via `manifest.webmanifest` (SVG icon, standalone display).
 
+4. **Offline (PWA)** — `vite-plugin-pwa` with an auto-updating service worker:
+   precaches the app shell + all data chunks (~1.6 MB), and caches the 66 book
+   JSONs and 66 TSK files CacheFirst on first use (immutable per release).
+   Installable via `manifest.webmanifest` (SVG icon, standalone display).
+5. **Symbols & Types reference** — a new curated study dataset
+   (`src/data/symbolsTypes.ts`, 91 prophetic symbols + 48 types/antitypes,
+   historicist framework) with a searchable **Symbols** tab in the Threads
+   panel; all proof/type/fulfillment refs are clickable and verified
+   canonical by the test suite.
+
 New tests cover the hash codec (round trips, malformed input) and backup
 validation (foreign files, malformed rows, self-links, non-canonical ids).
 CI (deploy workflow) runs `audit:data`, Vitest, and `tsc` before every deploy.
