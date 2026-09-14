@@ -1690,7 +1690,561 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
       { term: 'shall roar', original: 'יִשְׁאָג', translit: 'yishʾag', gloss: 'shall roar like a mighty lion', note: 'The sovereign majesty of God intervening on behalf of His saints.' },
     ],
   },
+  // ── Messianic Prophecy Anchors (Tier 3 Jesus Christ threads) ──────────────
+  // Hand-written details for every Tier 3 anchor not covered by the sections
+  // above; kept in sync with tier3Messianic.ts by `npm run audit:data`.
+  'num-24-17': {
+    title: 'A Star out of Jacob, a Sceptre out of Israel',
+    principle:
+      'Balaam, hired to curse Israel, can only bless: I shall see him, but not now... there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel. First principle: God turns every curse of the enemy into messianic blessing; the promised Ruler appears at God\'s appointed time, not nigh but certain.',
+    sourceKeywords: ['Star out of Jacob', 'Sceptre rise out of Israel', 'see him, but not now', 'smite the corners of Moab'],
+    fulfillmentKeywords: ['star', 'worship', 'King of the Jews', 'bright and morning star'],
+    terms: [
+      { term: 'star', original: 'כּוֹכָב', translit: 'kokhab', gloss: 'star, blazing light', note: 'The Magi followed His star (Matt 2:2); Christ names Himself the bright and morning star (Rev 22:16).' },
+    ],
+  },
+  'isa-7-14': {
+    title: 'The Virgin Shall Conceive — Immanuel',
+    principle:
+      'Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel. The sign is God\'s own: a child whose very name is God with us. First principle: the Messiah enters humanity by divine initiative, not human generation, uniting deity and manhood in one Person.',
+    sourceKeywords: ['a virgin shall conceive', 'bear a son', 'Immanuel', 'butter and honey shall he eat'],
+    fulfillmentKeywords: ['virgin', 'bring forth a son', 'call his name JESUS', 'God with us'],
+    terms: [
+      { term: 'virgin', original: 'עַלְמָה', translit: 'almah', gloss: 'maiden of marriageable age, virgin', note: 'Rendered ἡ παρθένος (the virgin) in the LXX; Matthew quotes it of Mary (Matt 1:23).' },
+    ],
+  },
+  'isa-9-6': {
+    title: 'Unto Us a Child Is Born — The Mighty God',
+    principle:
+      'Unto us a child is born, unto us a son is given: and the government shall be upon his shoulder: and his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace. First principle: the born Child is the given Son — truly human, truly divine, the rightful Bearer of government.',
+    sourceKeywords: ['child is born', 'son is given', 'government upon his shoulder', 'Prince of Peace', 'of the increase of his government'],
+    fulfillmentKeywords: ['Saviour', 'Christ the Lord', 'Word was God', 'in him dwelleth all the fulness'],
+    terms: [
+      { term: 'Wonderful', original: 'פֶּלֶא', translit: 'pele', gloss: 'wonder, miracle, beyond comprehension', note: 'The same root names the Angel called Wonderful in Judges 13:18 — a divine title.' },
+    ],
+  },
+  'isa-11-1': {
+    title: 'A Rod out of the Stem of Jesse',
+    principle:
+      'And there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots. From the felled stump of David\'s house God raises living growth. First principle: the Messianic line survives every pruning by grace, and the Branch reigns by the sevenfold Spirit, not by human might.',
+    sourceKeywords: ['rod out of the stem of Jesse', 'Branch grow out of his roots', 'spirit of the LORD shall rest upon him', 'righteousness shall be the girdle of his loins'],
+    fulfillmentKeywords: ['son of David', 'root of Jesse', 'Root and Offspring of David', 'reign'],
+    terms: [
+      { term: 'Branch', original: 'נֵצֶר', translit: 'netser', gloss: 'sprout, shoot from a stump', note: 'Echoed in Nazaret (Nazareth); Revelation joins root and offspring of David in one Person (Rev 22:16).' },
+    ],
+  },
+  'jer-23-5': {
+    title: 'A Righteous Branch — The LORD Our Righteousness',
+    principle:
+      'Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch, and a King shall reign and prosper, and shall execute judgment and justice in the earth... and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS. First principle: the King Himself is our righteousness — justification by a Person, not a performance.',
+    sourceKeywords: ['righteous Branch', 'King shall reign and prosper', 'judgment and justice in the earth', 'THE LORD OUR RIGHTEOUSNESS'],
+    fulfillmentKeywords: ['made unto us righteousness', 'wisdom, and righteousness', 'sanctification, and redemption'],
+    terms: [
+      { term: 'Branch', original: 'צֶמַח', translit: 'tsemach', gloss: 'sprout, growth of a plant', note: 'The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.' },
+    ],
+  },
+  'mic-5-2': {
+    title: 'Bethlehem — Goings Forth from Everlasting',
+    principle:
+      'But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting. First principle: the Ruler has a birthplace in time and an origin in eternity — uncreated, yet born of a woman.',
+    sourceKeywords: ['Bethlehem Ephratah', 'little among the thousands of Judah', 'ruler in Israel', 'from everlasting'],
+    fulfillmentKeywords: ['Bethlehem of Judaea', 'shepherds', 'born in Bethlehem', 'not least among the princes of Judah'],
+    terms: [
+      { term: 'goings forth', original: 'מוֹצָאוֹת', translit: 'motza\'ot', gloss: 'origins, outgoings, springs', note: 'Plural of ongoing emergence — the preexistent One whose Bethlehem appearing was one going-forth of many.' },
+    ],
+  },
+  'hos-11-1': {
+    title: 'Called My Son out of Egypt',
+    principle:
+      'When Israel was a child, then I loved him, and called my son out of Egypt. What Israel embodied poorly, the true Son embodies perfectly: God calls His Son up out of Egypt after Herod\'s wrath. First principle: Israel\'s history is prophetic pattern; Christ relives and fulfills it.',
+    sourceKeywords: ['Israel was a child', 'I loved him', 'called my son out of Egypt', 'they sacrificed unto Baalim'],
+    fulfillmentKeywords: ['arise, and take the young child', 'out of Egypt', 'that it might be fulfilled'],
+    terms: [
+      { term: 'my son', original: 'בְּנִי', translit: 'veni', gloss: 'my son', note: 'Exodus 4:22 names Israel my son, my firstborn; Hosea 11:1 renews the call, and Matthew hears the greater Son in it (Matt 2:15).' },
+    ],
+  },
+  'jer-31-15': {
+    title: 'Rachel Weeping for Her Children',
+    principle:
+      'A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not. Matthew\'s link to the Bethlehem massacre is no license for despair: the same chapter promises a new covenant and that Rachel shall return. First principle: sorrow in God\'s plan is never the last word.',
+    sourceKeywords: ['voice was heard in Ramah', 'bitter weeping', 'Rahel weeping for her children', 'refused to be comforted'],
+    fulfillmentKeywords: ['Herod', 'slew all the children', 'lamentation', 'weeping, and great mourning'],
+    terms: [
+      { term: 'lamentation', original: 'בְּכִי תַמְרוּרִים', translit: 'vekhi tamrurim', gloss: 'weeping of bitternesses', note: 'The plural intensity matches Matthew\'s great mourning in the region of Rachel\'s tomb.' },
+    ],
+  },
+  'zec-2-10': {
+    title: 'Lo, I Come, and I Will Dwell in the Midst of Thee',
+    principle:
+      'Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD. The One speaking is Yahweh Himself, yet He comes — incarnation foretold. First principle: God\'s dwelling with man is not a metaphor but a Person tabernacling among us.',
+    sourceKeywords: ['Sing and rejoice', 'daughter of Zion', 'I come, and I will dwell in the midst of thee', 'many nations shall be joined to the LORD'],
+    fulfillmentKeywords: ['Word was made flesh', 'dwelt among us', 'tabernacle of God is with men'],
+    terms: [
+      { term: 'dwell', original: 'שָׁכַנְתִּי', translit: 'shakhanti', gloss: 'I have tabernacled, taken up residence', note: 'Root of mishkan (tabernacle); John 1:14 uses eskēnōsen — tabernacled — of the Word made flesh.' },
+    ],
+  },
+  'psa-40-6': {
+    title: 'Mine Ears Hast Thou Opened — Lo, I Come',
+    principle:
+      'Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt offering and sin offering hast thou not required. Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy will, O my God. First principle: obedience from a prepared heart outweighs the whole sacrificial system — and Hebrews puts the words in the mouth of the Son entering the world.',
+    sourceKeywords: ['Sacrifice and offering thou didst not desire', 'mine ears hast thou opened', 'Lo, I come', 'I delight to do thy will'],
+    fulfillmentKeywords: ['a body hast thou prepared me', 'by the which will we are sanctified', 'taketh away the first'],
+    terms: [
+      { term: 'opened', original: 'כָּרִיתָ', translit: 'karita', gloss: 'you have dug out, bored open', note: 'Of a bored-open ear marking willing servanthood (Exod 21:6); Hebrews reads it as a body prepared for the will of God (Heb 10:5).' },
+    ],
+  },
+  'psa-45-7': {
+    title: 'Anointed with the Oil of Gladness Above Thy Fellows',
+    principle:
+      'Thou lovest righteousness, and hatest wickedness: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. The Psalm addresses the King as God (thy throne, O God, is for ever) and then distinguishes Him from God His God. First principle: the anointed One is divine yet anointed — the Spirit-rested Son, glad beyond all companions.',
+    sourceKeywords: ['lovest righteousness', 'hatest wickedness', 'oil of gladness above thy fellows', 'thy throne, O God'],
+    fulfillmentKeywords: ['anointed with the Holy Ghost', 'without measure', 'God, even thy God, hath anointed thee'],
+    terms: [
+      { term: 'anointed', original: 'מָשַׁחְתָּ', translit: 'mashakhta', gloss: 'you have smeared with oil, consecrated', note: 'Root of Mashiach/Messiah; Hebrews 1:9 applies the verse directly to the Son.' },
+    ],
+  },
+  'isa-42-1': {
+    title: 'Behold My Servant — My Soul Delighteth in Him',
+    principle:
+      'Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him: he shall bring forth judgment to the Gentiles. Strength without harshness: a bruised reed shall he not break. First principle: divine election expresses itself in gentle, world-mending justice.',
+    sourceKeywords: ['Behold my servant', 'mine elect, in whom my soul delighteth', 'I have put my spirit upon him', 'bruised reed shall he not break'],
+    fulfillmentKeywords: ['This is my beloved Son, in whom I am well pleased', 'not quench', 'judgment unto victory'],
+    terms: [
+      { term: 'my servant', original: 'עַבְדִּי', translit: '\'avdi', gloss: 'my servant, bondservant', note: 'Targum Jonathan: Behold, My Servant, the Messiah — the title taken up in the Baptism voice of Matt 3:17.' },
+    ],
+  },
+  'isa-61-1': {
+    title: 'The Spirit of the Lord GOD Is upon Me',
+    principle:
+      'The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek... to bind up the brokenhearted, to proclaim liberty to the captives... to comfort all that mourn. First principle: the anointing has an agenda — good news, release, and comfort for the least able to help themselves.',
+    sourceKeywords: ['Spirit of the Lord GOD is upon me', 'anointed me to preach good tidings unto the meek', 'liberty to the captives', 'the acceptable year of the LORD'],
+    fulfillmentKeywords: ['This day is this scripture fulfilled', 'anointed with the Holy Ghost', 'preach the gospel to the poor'],
+    terms: [
+      { term: 'anointed me', original: 'מָשַׁח', translit: 'mashakh', gloss: 'to smear, consecrate with oil', note: 'Jesus applies this exact verse to Himself in Nazareth (Luke 4:18-21) — the clearest self-declared fulfillment in the Gospels.' },
+    ],
+  },
+  'isa-9-1': {
+    title: 'Galilee of the Nations Sees a Great Light',
+    principle:
+      'Nevertheless the dimness shall not be such as was in her vexation... The land of Zebulun, and the land of Naphtali... Galilee of the nations. The people that walked in darkness have seen a great light. First principle: God\'s light dawns first where contempt is thickest — Galilee, despised as the Gentile frontier.',
+    sourceKeywords: ['Galilee of the nations', 'people that walked in darkness', 'great light', 'they that dwell in the land of the shadow of death'],
+    fulfillmentKeywords: ['Galilee of the Gentiles', 'light is sprung up', 'from that time Jesus began to preach'],
+    terms: [
+      { term: 'light', original: 'אוֹר', translit: 'or', gloss: 'light, illumination', note: 'Matthew quotes the verse verbatim of Jesus settling in Capernaum (Matt 4:14-16).' },
+    ],
+  },
+  'isa-35-4': {
+    title: 'Your God Will Come — Then the Blind See',
+    principle:
+      'Behold, your God will come with vengeance, even God with a recompence; he will come and save you. Then the eyes of the blind shall be opened, and the ears of the deaf shall be unstopped... the lame man shall leap as an hart, and the tongue of the dumb sing. First principle: when God comes, creation itself is mended — the credentials of the Advent are healings.',
+    sourceKeywords: ['your God will come', 'eyes of the blind shall be opened', 'ears of the deaf unstopped', 'lame man shall leap'],
+    fulfillmentKeywords: ['the blind receive their sight', 'the lame walk', 'the dead are raised up', 'shewed them of all his miracles'],
+    terms: [
+      { term: 'shall be opened', original: 'תִּפָּקַחְנָה', translit: 'tipaqakhnah', gloss: 'shall be opened (divine passivity)', note: 'Jesus answers John\'s doubt with these very works (Matt 11:4-5) — the Isaiah checklist as messianic proof.' },
+    ],
+  },
+  'isa-42-6': {
+    title: 'A Covenant of the People, a Light of the Gentiles',
+    principle:
+      'I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison. First principle: the Servant is not only bearer of light — He is Himself the covenant, the divine commitment personified.',
+    sourceKeywords: ['called thee in righteousness', 'a covenant of the people', 'a light of the Gentiles', 'open the blind eyes'],
+    fulfillmentKeywords: ['A light to lighten the Gentiles', 'glory of thy people Israel', 'turn them from darkness to light'],
+    terms: [
+      { term: 'covenant', original: 'בְּרִית', translit: 'berit', gloss: 'covenant, binding pledge', note: 'The Messiah is given AS the covenant — Simeon blesses the infant as God\'s light for the nations (Luke 2:32).' },
+    ],
+  },
+  'isa-49-6': {
+    title: 'My Salvation unto the End of the Earth',
+    principle:
+      'It is a light thing that thou shouldest be my servant to raise up the tribes of Jacob... I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth. First principle: restoring Israel is too small a mission for the Servant — the gospel is worldwide by divine design, not afterthought.',
+    sourceKeywords: ['a light thing', 'raise up the tribes of Jacob', 'a light to the Gentiles', 'my salvation unto the end of the earth'],
+    fulfillmentKeywords: ['we turn to the Gentiles', 'ordained for eternal life', 'light of the world'],
+    terms: [
+      { term: 'light thing', original: 'קָל', translit: 'qal', gloss: 'light, slight, too small a thing', note: 'Paul and Barnabas quote the verse in Antioch as warrant for turning to the Gentiles (Acts 13:47).' },
+    ],
+  },
+  'hag-2-7': {
+    title: 'The Desire of All Nations Shall Come',
+    principle:
+      'For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth... and the desire of all nations shall come: and I will fill this house with glory. The second temple\'s glory exceeded Solomon\'s because the Desire Himself walked its courts. First principle: God\'s greatest glory in a place arrives quietly, in a Person.',
+    sourceKeywords: ['I will shake all nations', 'the desire of all nations shall come', 'fill this house with glory', 'peace in this place'],
+    fulfillmentKeywords: ['mine eyes have seen thy salvation', 'cast out them that sold', 'the Word was made flesh'],
+    terms: [
+      { term: 'desire', original: 'חֶמְדָּה', translit: 'chemdah', gloss: 'desire, delight, precious thing', note: 'Simeon, holding the infant in the temple courts, embodies the promise fulfilled (Luke 2:29-32).' },
+    ],
+  },
+  'zec-3-8': {
+    title: 'I Will Bring Forth My Servant the BRANCH',
+    principle:
+      'Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH. The cleansing of the high priest with filthy garments taken away previews what the Branch accomplishes. First principle: God answers iniquity with a Person — a Servant-King who removes sin in one day.',
+    sourceKeywords: ['Joshua the high priest', 'men wondered at', 'my servant the BRANCH', 'I will remove the iniquity of that land in one day'],
+    fulfillmentKeywords: ['took upon him the form of a servant', 'obedient unto death', 'minister unto you'],
+    terms: [
+      { term: 'the BRANCH', original: 'צֶמַח', translit: 'tsemach', gloss: 'sprout, growth', note: 'Targum Jonathan inserts the name directly: I will bring forth My servant the Messiah.' },
+    ],
+  },
+  'psa-34-20': {
+    title: 'He Keepeth All His Bones: Not One Is Broken',
+    principle:
+      'Many are the afflictions of the righteous: but the LORD delivereth him out of them all. He keepeth all his bones: not one of them is broken. The righteous sufferer passes through affliction with an unbroken body — the Passover-lamb pattern. First principle: God preserves His sacrifice whole even in death.',
+    sourceKeywords: ['afflictions of the righteous', 'keepeth all his bones', 'not one of them is broken', 'evildoers shall be cut off'],
+    fulfillmentKeywords: ['brake not his legs', 'a bone of him shall not be broken', 'already dead'],
+    terms: [
+      { term: 'keepeth', original: 'שֹׁמֵר', translit: 'shomer', gloss: 'one keeping, guarding', note: 'John 19:36 joins this verse with Exodus 12:46 at the cross: that the scripture should be fulfilled.' },
+    ],
+  },
+  'psa-41-9': {
+    title: 'Mine Own Familiar Friend Hath Lifted Up His Heel',
+    principle:
+      'Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me. Betrayal comes not from a stranger but from table fellowship. First principle: the deepest wound of the righteous sufferer is treachery at the table — and Jesus applies the verse to Judas Himself.',
+    sourceKeywords: ['mine own familiar friend', 'in whom I trusted', 'did eat of my bread', 'lifted up his heel against me'],
+    fulfillmentKeywords: ['he that eateth bread with me', 'hath lifted up his heel', 'Judas Iscariot', 'dipped his hand with me'],
+    terms: [
+      { term: 'hath lifted up his heel', original: 'הִגְדִּיל עָקֵב', translit: 'higdil aqev', gloss: 'has made great the heel against me', note: 'Jesus quotes the verse in the upper room: that the scripture may be fulfilled (John 13:18).' },
+    ],
+  },
+  'psa-69-21': {
+    title: 'Gall for Meat; Vinegar for Thirst',
+    principle:
+      'Reproach hath broken my heart; and I am full of heaviness... They gave me also gall for my meat; and in my thirst they gave me vinegar to drink. Every kindness refused to the righteous sufferer becomes a registered detail of the Passion. First principle: the cross fulfilled scripture down to the drink offered and refused.',
+    sourceKeywords: ['gall for my meat', 'vinegar to drink', 'reproach hath broken my heart', 'I looked for some to take pity'],
+    fulfillmentKeywords: ['vinegar to drink mingled with gall', 'I thirst', 'filled a sponge with vinegar'],
+    terms: [
+      { term: 'gall', original: 'רֹאשׁ', translit: 'rosh', gloss: 'gall, poison, bitter herb', note: 'Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34); John records the hyssop-borne vinegar.' },
+    ],
+  },
+  'isa-50-6': {
+    title: 'I Gave My Back to the Smiters',
+    principle:
+      'I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting. This is not a victim dragged to suffering but a Servant who sets His face like a flint. First principle: the Passion is voluntary obedience — each humiliation accepted on purpose.',
+    sourceKeywords: ['I gave my back to the smiters', 'cheeks to them that plucked off the hair', 'hid not my face from shame and spitting', 'set my face like a flint'],
+    fulfillmentKeywords: ['did spit in his face', 'buffeted him', 'scourged him', 'smote him with their hands'],
+    terms: [
+      { term: 'I gave', original: 'נָתַתִּי', translit: 'natatti', gloss: 'I gave, handed over', note: 'First-person voluntariness: Gethsemane\'s not my will is already present in the Servant\'s grammar.' },
+    ],
+  },
+  'zec-11-12': {
+    title: 'Thirty Pieces of Silver Cast to the Potter',
+    principle:
+      'So they weighed for my price thirty pieces of silver... a goodly price that I was prised at of them! And I took the thirty pieces of silver, and cast them to the potter in the house of the LORD. The Shepherd of Israel is valued at a slave-price and the money ends in potter\'s-field soil. First principle: rejecting the Shepherd has a price tag — and it buys a graveyard.',
+    sourceKeywords: ['weighed for my price thirty pieces of silver', 'cast them to the potter', 'in the house of the LORD', 'my shepherd'],
+    fulfillmentKeywords: ['thirty pieces of silver', 'valued him whom I have prised', 'potter\'s field', 'the price of him that was valued'],
+    terms: [
+      { term: 'thirty pieces of silver', original: 'שְׁלֹשִׁים כָּסֶף', translit: 'sheloshim kesef', gloss: 'thirty of silver (shekels)', note: 'The legal price of a gored slave (Exod 21:32); Judas negotiated exactly this sum (Matt 26:15).' },
+    ],
+  },
+  'num-21-8': {
+    title: 'The Fiery Serpent upon a Pole',
+    principle:
+      'Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live. Remedy mirrors plague: what killed becomes the instrument of life when lifted up. First principle: salvation is by looking — faith fastened on the God-provided object.',
+    sourceKeywords: ['fiery serpent', 'set it upon a pole', 'when he looketh upon it, shall live', 'much people of Israel died'],
+    fulfillmentKeywords: ['as Moses lifted up the serpent', 'even so must the Son of man be lifted up', 'whosoever believeth', 'I, if I be lifted up'],
+    terms: [
+      { term: 'pole', original: 'נֵס', translit: 'nes', gloss: 'banner, standard, elevated signal', note: 'The same word for the ensign to which nations gather (Isa 11:10); Jesus uses hupsothen — lifted up — of His cross (John 3:14).' },
+    ],
+  },
+  'deu-21-23': {
+    title: 'Cursed Is Every One That Hangeth on a Tree',
+    principle:
+      'His body shall not remain all night upon the tree... for he that is hanged is accursed of God. Paul reads the gallows-law as gospel: Christ hath redeemed us from the curse of the law, being made a curse for us. First principle: the Messiah takes the covenant curse onto Himself so the blessing of Abraham can flow to all nations.',
+    sourceKeywords: ['his body shall not remain all night', 'he that is hanged is accursed of God', 'thy land which the LORD thy God giveth thee'],
+    fulfillmentKeywords: ['being made a curse for us', 'hanged on a tree', 'the blessing of Abraham', 'receive the promise of the Spirit'],
+    terms: [
+      { term: 'accursed', original: 'קִלְלַת', translit: 'qilllat', gloss: 'curse of God', note: 'Galatians 3:13 quotes the verse verbatim — the pillars of Galatians rest on a Deuteronomy gallows-law.' },
+    ],
+  },
+  'gen-49-11': {
+    title: 'Binding His Foal unto the Vine',
+    principle:
+      'Binding his foal unto the vine, and his ass\'s colt unto the choice vine; he washed his garments in wine, and his clothes in the blood of grapes. Judah\'s blessing pictures a King so prosperous that the vine serves as his hitching post — and a colt-led procession enters Jerusalem. First principle: the lowly mount and the overflowing wine belong to the same King.',
+    sourceKeywords: ['Binding his foal unto the vine', 'ass\'s colt unto the choice vine', 'washed his garments in wine', 'blood of grapes'],
+    fulfillmentKeywords: ['find an ass tied', 'loose them, and bring them', 'Hosanna', 'I am the true vine'],
+    terms: [
+      { term: 'foal', original: 'עִיר', translit: '\'ir', gloss: 'young donkey, colt', note: 'Targum Onkelos reads the passage of King Messiah; the colt of Bethany fulfills it to the letter (Mark 11:2-7).' },
+    ],
+  },
+  'zec-9-9': {
+    title: 'Thy King Cometh, Lowly, Riding upon an Ass',
+    principle:
+      'Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass. First principle: the world-conquering King arrives unarmed and humble — justice and salvation, not cavalry.',
+    sourceKeywords: ['Rejoice greatly, O daughter of Zion', 'thy King cometh unto thee', 'just, and having salvation', 'riding upon an ass'],
+    fulfillmentKeywords: ['All this was done', 'Daughter of Sion', 'sitting upon an ass', 'Hosanna to the Son of David'],
+    terms: [
+      { term: 'lowly', original: 'עָנִי', translit: '\'ani', gloss: 'afflicted, humble, poor', note: 'The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King\'s uniform.' },
+    ],
+  },
+  'psa-118-26': {
+    title: 'Blessed Is He That Cometh in the Name of the LORD',
+    principle:
+      'Save now, I beseech thee: O LORD, I beseech thee, send now prosperity. Blessed be he that cometh in the name of the LORD. The Hallel psalm sung at every feast became the street acclamation when the King rode into Jerusalem. First principle: the psalms of Israel put the words of welcome on the lips of the people before the King appears.',
+    sourceKeywords: ['Save now, I beseech thee', 'Blessed be he that cometh in the name of the LORD', 'the stone which the builders refused', 'bind the sacrifice with cords'],
+    fulfillmentKeywords: ['Hosanna', 'Blessed is he that cometh', 'in the name of the Lord', 'the whole multitude of the disciples'],
+    terms: [
+      { term: 'Save now', original: 'הוֹשִׁיעָה נָּא', translit: 'hoshi\'ah na', gloss: 'save, we pray, now!', note: 'Hebrew hoshi\'ah na is exactly what the crowds shouted — Hosanna (Matt 21:9; John 12:13).' },
+    ],
+  },
+  'psa-31-5': {
+    title: 'Into Thine Hand I Commend My Spirit',
+    principle:
+      'Into thine hand I commend my spirit: thou hast redeemed me, O LORD God of truth. The evening prayer of trusting surrender becomes the dying word of the Christ. First principle: the righteous commit spirit, times, and enemies into God\'s hand — and redemption is confessed at the moment of release.',
+    sourceKeywords: ['Into thine hand I commend my spirit', 'thou hast redeemed me', 'O LORD God of truth', 'I have hated them that regard lying vanities'],
+    fulfillmentKeywords: ['Father, into thy hands I commend my spirit', 'gave up the ghost', 'Lord Jesus, receive my spirit'],
+    terms: [
+      { term: 'I commend', original: 'פָּקַדְתִּי', translit: 'paqadti', gloss: 'I entrust, commit for safekeeping', note: 'Stephen dies with the same entrusting on his lips (Acts 7:59) — the prayer became a Christian death-song.' },
+    ],
+  },
+  'psa-35-11': {
+    title: 'False Witnesses Did Rise Up',
+    principle:
+      'False witnesses did rise up; they laid to my charge things that I knew not. They rewarded me evil for good to the spoiling of my soul. The righteous sufferer is tried by perjury. First principle: when truth is on trial, God Himself is the advocate — and the innocence of the Sufferer is the point of the charge being false.',
+    sourceKeywords: ['False witnesses did rise up', 'laid to my charge things that I knew not', 'rewarded me evil for good', 'Lord, how long wilt thou look on'],
+    fulfillmentKeywords: ['sought false witness', 'found none', 'two false witnesses', 'This fellow said, I am able'],
+    terms: [
+      { term: 'false witnesses', original: 'עֵדֵי חָמָס', translit: '\'edei khamas', gloss: 'witnesses of violence, malicious testimony', note: 'The Sanhedrin sought such testimony against Jesus, and the law required two agreeing witnesses (Matt 26:59-61).' },
+    ],
+  },
+  'psa-69-4': {
+    title: 'They Hate Me Without a Cause; Zeal Eats Me Up',
+    principle:
+      'They that hate me without a cause are more than the hairs of mine head... For the zeal of thine house hath eaten me up; and the reproaches of them that reproached thee are fallen upon me. First principle: the Sufferer is hated innocently and consumed devotionally — both halves fulfilled by Christ, in the temple courts and at the cross.',
+    sourceKeywords: ['hate me without a cause', 'more than the hairs of mine head', 'zeal of thine house hath eaten me up', 'reproaches of them that reproached thee'],
+    fulfillmentKeywords: ['without a cause', 'that the scripture might be fulfilled', 'The zeal of thine house hath eaten me up', 'reproaches of them fell on me'],
+    terms: [
+      { term: 'without a cause', original: 'חִנָּם', translit: 'khinnam', gloss: 'gratis, for nothing, causelessly', note: 'Jesus uses the identical word of the world\'s hatred of Himself and the Father (John 15:24-25).' },
+    ],
+  },
+  'psa-109-25': {
+    title: 'They Shake Their Heads at Me',
+    principle:
+      'I became also a reproach unto them: when they looked upon me they shaked their heads. The scorned sufferer becomes a byword among mockers. First principle: ridicule is a predicted instrument of the Passion — even the gesture of the head is scripted before Golgotha.',
+    sourceKeywords: ['I became also a reproach', 'when they looked upon me', 'shaked their heads', 'I am poor and needy'],
+    fulfillmentKeywords: ['they that passed by reviled him', 'wagging their heads', 'He saved others; himself he cannot save'],
+    terms: [
+      { term: 'shaked their heads', original: 'יְנִידוּ רֹאשׁ', translit: 'yenidu rosh', gloss: 'wagged, moved to and fro the head', note: 'Matthew uses the same gesture of the passers-by at the cross (Matt 27:39) — mockery with a Hebrew posture.' },
+    ],
+  },
+  'zec-13-1': {
+    title: 'A Fountain Opened for Sin and Uncleanness',
+    principle:
+      'In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness. The same prophecy that names the pierced Shepherd names this fountain. First principle: cleansing comes from an opened wound — blood and water testify together.',
+    sourceKeywords: ['a fountain opened', 'house of David', 'for sin and for uncleanness', 'the idols shall utterly pass away'],
+    fulfillmentKeywords: ['blood and water came out', 'cleanse us from all sin', 'washed their robes', 'fountain of the water of life'],
+    terms: [
+      { term: 'fountain', original: 'מָקוֹר', translit: 'maqor', gloss: 'spring, fountain, source', note: 'John 19:34 places the opening at the pierced side; 1 John 1:7 names the blood that keeps cleansing.' },
+    ],
+  },
+  'psa-16-10': {
+    title: 'Thou Wilt Not Leave My Soul in Hell',
+    principle:
+      'I have set the LORD always before me... Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption. First principle: the Holy One passes through the grave without decay — Peter and Paul both preach the resurrection from this verse.',
+    sourceKeywords: ['my flesh also shall rest in hope', 'not leave my soul in hell', 'neither wilt thou suffer', 'thine Holy One to see corruption'],
+    fulfillmentKeywords: ['his soul was not left in hell', 'his flesh did see corruption', 'This Jesus hath God raised up', 'he whom God raised again saw no corruption'],
+    terms: [
+      { term: 'hell', original: 'שְׁאוֹל', translit: 'she\'ol', gloss: 'the grave, realm of the dead', note: 'Acts 2:31 renders it hades and insists David\'s tomb still holds him while Christ\'s does not.' },
+    ],
+  },
+  'psa-24-7': {
+    title: 'Lift Up Your Heads, O Ye Gates',
+    principle:
+      'Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in. Who is this King of glory? The LORD strong and mighty. The victory procession of a warrior-King entering His citadel. First principle: after the battle comes the triumphal entry — heaven\'s gates open for the victorious Christ.',
+    sourceKeywords: ['Lift up your heads, O ye gates', 'everlasting doors', 'King of glory shall come in', 'LORD strong and mighty'],
+    fulfillmentKeywords: ['ascended up on high', 'led captivity captive', 'sat down on the right hand', 'Worthy is the Lamb'],
+    terms: [
+      { term: 'King of glory', original: 'מֶלֶךְ הַכָּבוֹד', translit: 'melekh hakavod', gloss: 'King of glory, weightiness of splendor', note: 'Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah; the entry is His heavenly reception, not an earthly parade.' },
+    ],
+  },
+  'psa-68-18': {
+    title: 'Thou Hast Ascended on High, Led Captivity Captive',
+    principle:
+      'Thou hast ascended on high, thou hast led captivity captive: thou hast received gifts for men; yea, for the rebellious also, that the LORD God might dwell among them. The conquest parade climbs to the sanctuary and showers the conquered with gifts. First principle: Christ\'s ascension is a victory procession in which the spoils — the Spirit and offices — are given to rebels made friends.',
+    sourceKeywords: ['ascended on high', 'led captivity captive', 'received gifts for men', 'that the LORD God might dwell among them'],
+    fulfillmentKeywords: ['when he ascended up on high', 'gave gifts unto men', 'having received of the Father', 'shed forth this, which ye now see'],
+    terms: [
+      { term: 'ascended on high', original: 'עָלִיתָ מָרוֹם', translit: '\'alita marom', gloss: 'you have gone up to the height', note: 'Ephesians 4:8-11 quotes the verse and names the gifts: apostles, prophets, evangelists, pastors, teachers.' },
+    ],
+  },
+  'psa-118-22': {
+    title: 'The Stone the Builders Refused Is Head of the Corner',
+    principle:
+      'The stone which the builders refused is become the head stone of the corner. This is the LORD\'s doing; it is marvellous in our eyes. Rejection by the professionals becomes God\'s appointment. First principle: exaltation follows rejection — the crucified One is the foundation of all God\'s building.',
+    sourceKeywords: ['stone which the builders refused', 'head stone of the corner', 'This is the LORD\'s doing', 'marvellous in our eyes'],
+    fulfillmentKeywords: ['the stone which the builders rejected', 'is become the head of the corner', 'marvellous in our eyes', 'no other name'],
+    terms: [
+      { term: 'head of the corner', original: 'רֹאשׁ פִּנָּה', translit: 'rosh pinnah', gloss: 'head of the corner, capstone/cornerstone', note: 'Jesus quotes it against the chief priests (Matt 21:42); Peter preaches it before the Sanhedrin (Acts 4:11).' },
+    ],
+  },
+  'jon-1-17': {
+    title: 'Three Days and Three Nights in the Fish\'s Belly',
+    principle:
+      'Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights. A divinely appointed descent and rescue — Jonah himself prays it: thou hadst cast me into the deep... yet hast thou brought up my life from corruption. First principle: God signs the resurrection with a type before He performs it in His Son.',
+    sourceKeywords: ['prepared a great fish', 'swallow up Jonah', 'three days and three nights', 'brought up my life from corruption'],
+    fulfillmentKeywords: ['as Jonas was three days', 'in the whale\'s belly', 'so shall the Son of man be', 'the sign of the prophet Jonas'],
+    terms: [
+      { term: 'three days and three nights', original: 'שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילוֹת', translit: 'sheloshah yamim usheloshah lelot', gloss: 'three days and three nights — a complete entombment', note: 'Jesus names this the only sign given to an evil generation (Matt 12:39-40).' },
+    ],
+  },
+  'hos-6-2': {
+    title: 'In the Third Day He Will Raise Us Up',
+    principle:
+      'After two days will he revive us: in the third day he will raise us up, and we shall live in his sight. Israel\'s national revival is couched in resurrection rhythm. First principle: the third day is God\'s appointed turning point — and the early church confessed it as according to the scriptures.',
+    sourceKeywords: ['After two days will he revive us', 'in the third day he will raise us up', 'we shall live in his sight', 'as the latter and former rain'],
+    fulfillmentKeywords: ['rose again the third day', 'according to the scriptures', 'be killed, and after three days rise again', 'the third day rise again'],
+    terms: [
+      { term: 'revive', original: 'יְחַיֵּנוּ', translit: 'yehayyenu', gloss: 'he will make us alive', note: 'The intensive stem of khayah — to give life — the verb of resurrection hope long before the empty tomb.' },
+    ],
+  },
+  'psa-110-1': {
+    title: 'The LORD Said unto My Lord, Sit Thou at My Right Hand',
+    principle:
+      'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool. David calls his descendant my Lord — a Son greater than David. First principle: the Messiah is enthroned at God\'s right hand as both King and Priest (after Melchizedek), while enemies become a footstool in time.',
+    sourceKeywords: ['The LORD said unto my Lord', 'Sit thou at my right hand', 'enemies thy footstool', 'a priest for ever after the order of Melchizedek'],
+    fulfillmentKeywords: ['David himself saith... The LORD said', 'sat down on the right hand of God', 'from henceforth expecting', 'sat down at his own right hand'],
+    terms: [
+      { term: 'my Lord', original: 'לַאדֹנִי', translit: 'la\'adhoni', gloss: 'to my Lord (Adonai)', note: 'Jesus builds His whole argument on this single word (Matt 22:44-45): How then is he his son?' },
+    ],
+  },
+  'zec-6-12': {
+    title: 'The Man Whose Name Is the BRANCH — Priest on His Throne',
+    principle:
+      'Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD... and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne. First principle: in one Person the offices split since Saul and Uzziah reunite — King and Priest crowned together, the counsel of peace between them both.',
+    sourceKeywords: ['Behold the man whose name is The BRANCH', 'build the temple of the LORD', 'bear the glory', 'a priest upon his throne'],
+    fulfillmentKeywords: ['Apostle and High Priest', 'builded the house', 'sat down on the right hand of the Majesty', 'we have such an high priest'],
+    terms: [
+      { term: 'the counsel of peace', original: 'עֲצַת שָׁלוֹם', translit: '\'atzat shalom', gloss: 'counsel of peace, harmonious design', note: 'Hebrews crowns the two offices in one: our High Priest sits — a Priest upon a throne (Heb 8:1).' },
+    ],
+  },
+  '1sa-2-10': {
+    title: 'He Shall Exalt the Horn of His Anointed',
+    principle:
+      'The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah\'s song closes with the first occurrence of Mashiach in Scripture — centuries before a king exists in Israel. First principle: the anointed King is a promise before He is a person on a throne; broken adversaries and exalted strength converge on Christ.',
+    sourceKeywords: ['adversaries of the LORD broken to pieces', 'thunder upon them', 'give strength unto his king', 'horn of his anointed'],
+    fulfillmentKeywords: ['horn of his salvation', 'raised up an horn of salvation', 'of the house of David', 'a Saviour, Jesus'],
+    terms: [
+      { term: 'his anointed', original: 'מְשִׁיחוֹ', translit: 'meshikho', gloss: 'his anointed one (Mashiach)', note: 'First Scripture use of the title Messiah; Mary and Zacharias echo Hannah\'s song almost clause for clause (Luke 1-2).' },
+    ],
+  },
+  'psa-2-1': {
+    title: 'Why Do the Heathen Rage Against the Anointed?',
+    principle:
+      'Why do the heathen rage, and the people imagine a vain thing? The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed... Yet have I set my king upon my holy hill of Zion. First principle: human conspiracy against God is real but doomed; the decree stands — Thou art my Son; this day have I begotten thee.',
+    sourceKeywords: ['heathen rage', 'people imagine a vain thing', 'against his anointed', 'Thou art my Son; this day have I begotten thee'],
+    fulfillmentKeywords: ['with one accord', 'against his holy child Jesus', 'Thou art my Son', 'this day have I begotten thee'],
+    terms: [
+      { term: 'rage', original: 'רָגַשׁ', translit: 'ragash', gloss: 'to throng, assemble tumultuously', note: 'The Jerusalem church quotes the psalm as fulfilled in Herod, Pilate, and the nations against Jesus (Acts 4:25-27).' },
+    ],
+  },
+  'psa-8-4': {
+    title: 'Made a Little Lower Than the Angels, Crowned with Glory',
+    principle:
+      'What is man, that thou art mindful of him? and the son of man, that thou visitest him? For thou hast made him a little lower than the angels, and hast crowned him with glory and honour. First principle: humanity\'s intended dominion, lost by Adam, is seen fulfilled in Jesus — made lower for a little while, now crowned, all things under His feet.',
+    sourceKeywords: ['What is man, that thou art mindful of him', 'son of man', 'a little lower than the angels', 'crowned him with glory and honour'],
+    fulfillmentKeywords: ['we see Jesus', 'made a little lower than the angels', 'crowned with glory and honour', 'hast put all things in subjection'],
+    terms: [
+      { term: 'a little lower', original: 'מְעַט', translit: 'me\'at', gloss: 'a little, briefly, for a little while', note: 'Hebrews 2:9 reads both dimensions: lacking-by-a-little in rank and for-a-little-while in time — the incarnation and the cross in one word.' },
+    ],
+  },
+  'psa-89-27': {
+    title: 'My Firstborn, Higher Than the Kings of the Earth',
+    principle:
+      'Also I will make him my firstborn, higher than the kings of the earth. My covenant will I not break, nor alter the thing that is gone out of my lips. David\'s seed is divinely adopted into firstborn rank. First principle: the oath to David is unbreakable; the firstborn is preeminent — heir of everything, King above every king.',
+    sourceKeywords: ['I will make him my firstborn', 'higher than the kings of the earth', 'my covenant will I not break', 'his seed also will I make to endure'],
+    fulfillmentKeywords: ['firstborn of every creature', 'firstborn from the dead', 'prince of the kings of the earth', 'faithful and true witness'],
+    terms: [
+      { term: 'firstborn', original: 'בְּכוֹר', translit: 'bekhor', gloss: 'firstborn — rank and heirship, not origin', note: 'Paul and John apply the rank to Christ (Col 1:18; Rev 1:5): preeminence, not a beginning.' },
+    ],
+  },
+  'psa-132-11': {
+    title: 'Of the Fruit of Thy Body Will I Set upon Thy Throne',
+    principle:
+      'The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne. The ark\'s journey to Zion recalls the oath that outlives the exile. First principle: God swears what He will not revoke — a physical descendant reigns, and Peter preached the oath fulfilled in the resurrection (Acts 2:30-31).',
+    sourceKeywords: ['The LORD hath sworn in truth unto David', 'he will not turn from it', 'fruit of thy body', 'set upon thy throne'],
+    fulfillmentKeywords: ['he being a prophet', 'God had sworn with an oath', 'of the fruit of his loins', 'raise up unto Israel a Saviour'],
+    terms: [
+      { term: 'hath sworn', original: 'נִשְׁבַּע', translit: 'nishba\'', gloss: 'has sworn an oath', note: 'Paul\'s word in Acts 13:23: of this man\'s seed hath God according to his promise raised unto Israel a Saviour, Jesus.' },
+    ],
+  },
+  'isa-28-16': {
+    title: 'I Lay in Zion a Tried, Precious Corner Stone',
+    principle:
+      'Therefore thus saith the Lord GOD, Behold, I lay in Zion for a foundation a stone, a tried stone, a precious corner stone, a sure foundation: he that believeth shall not make haste. God lays the stone; unbelief stumbles over it. First principle: the same Stone saves the believing and shatters the disbelieving — there is no neutral contact with Christ.',
+    sourceKeywords: ['I lay in Zion for a foundation', 'a tried stone', 'a precious corner stone', 'he that believeth shall not make haste'],
+    fulfillmentKeywords: ['living stone', 'disallowed of men', 'chosen of God and precious', 'a rock of offence'],
+    terms: [
+      { term: 'shall not make haste', original: 'לֹא יָחִישׁ', translit: 'lo\' yakhish', gloss: 'shall not hasten, panic, flee', note: 'Paul fuses this verse with Isaiah 8:14: whosoever believeth on him shall not be ashamed (Rom 9:33).' },
+    ],
+  },
+  'ezk-34-23': {
+    title: 'One Shepherd: My Servant David over the Flock',
+    principle:
+      'And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd. Spoken against the failed shepherds of Israel who fed themselves. First principle: God answers negligent leadership with a single faithful Shepherd of David\'s line — and the flock is known by name.',
+    sourceKeywords: ['set up one shepherd', 'my servant David', 'he shall feed them', 'I the LORD will be their God'],
+    fulfillmentKeywords: ['I am the good shepherd', 'lay down my life for the sheep', 'other sheep I have', 'great shepherd of the sheep'],
+    terms: [
+      { term: 'feed', original: 'וּרְעָם', translit: 'ur\'am', gloss: 'and he shall shepherd them', note: 'The verb ra\'ah means both to shepherd and to associate with; Jesus claims the verse in John 10:11-16 and Hebrews 13:20 crowns it.' },
+    ],
+  },
+  'isa-25-8': {
+    title: 'He Will Swallow Up Death in Victory',
+    principle:
+      'He will swallow up death in victory; and the Lord GOD will wipe away tears from off all faces; and the rebuke of his people shall he take away from off all the earth. First principle: death is not managed or postponed but swallowed — devoured by a stronger destiny, and grief itself is ended by God\'s own hand.',
+    sourceKeywords: ['swallow up death in victory', 'wipe away tears from off all faces', 'rebuke of his people', 'Lo, this is our God'],
+    fulfillmentKeywords: ['Death is swallowed up in victory', 'O death, where is thy sting', 'no more death', 'God shall wipe away all tears'],
+    terms: [
+      { term: 'swallow up', original: 'בִּלַּע', translit: 'billa\'', gloss: 'to swallow, engulf completely', note: 'Paul quotes the verse at the mystery of the last trump (1 Cor 15:54); John shows the tear-wiping in the New Jerusalem (Rev 21:4).' },
+    ],
+  },
+  'mal-4-2': {
+    title: 'The Sun of Righteousness with Healing in His Wings',
+    principle:
+      'But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall. For the wicked the day burns; for the fearing it dawns. First principle: the same coming is noon-darkness to one and sunrise to the other — the dividing line is the fear of His name.',
+    sourceKeywords: ['unto you that fear my name', 'Sun of righteousness', 'healing in his wings', 'go forth, and grow up as calves of the stall'],
+    fulfillmentKeywords: ['dayspring from on high', 'the day so cometh', 'morning star', 'healing to all'],
+    terms: [
+      { term: 'wings', original: 'כְּנָפַיִם', translit: 'kenafayim', gloss: 'wings, extremities, corners of a garment', note: 'The woman who touched the border (kenaf) of His garment was healed — the sunrise ray from the hem of the Sun (Luke 8:43-48).' },
+    ],
+  },
+  'isa-59-20': {
+    title: 'The Redeemer Shall Come to Zion',
+    principle:
+      'And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the LORD. The context is dark — no intercessor, truth fallen in the street — so God\'s own arm brings salvation. First principle: deliverance arrives when human mediation fails; the Kinsman-Redeemer comes to those who turn from transgression.',
+    sourceKeywords: ['the Redeemer shall come to Zion', 'turn from transgression in Jacob', 'my spirit that is upon thee', 'my words which I have put in thy mouth'],
+    fulfillmentKeywords: ['all Israel shall be saved', 'shall come out of Sion the Deliverer', 'fulness of the Gentiles', 'fullness of time'],
+    terms: [
+      { term: 'Redeemer', original: 'גּוֹאֵל', translit: 'go\'el', gloss: 'kinsman-redeemer, restorer of inheritance', note: 'Paul quotes the verse of the Deliverer out of Zion (Rom 11:26) — the go\'el duty applied to Israel\'s salvation.' },
+    ],
+  },
+  'isa-63-1': {
+    title: 'Treading the Winepress Alone — Mighty to Save',
+    principle:
+      'Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save... I have trodden the winepress alone; and of the people there was none with me. First principle: the day of vengeance is a work God performs unassisted — the Warrior\'s garments are dyed by treading, and none shares the press.',
+    sourceKeywords: ['cometh from Edom', 'dyed garments from Bozrah', 'mighty to save', 'I have trodden the winepress alone'],
+    fulfillmentKeywords: ['clothed with a vesture dipped in blood', 'his name is called The Word of God', 'treadeth the winepress', 'KING OF KINGS, AND LORD OF LORDS'],
+    terms: [
+      { term: 'winepress', original: 'פּוּרָה', translit: 'purah', gloss: 'wine-vat, press where grapes are trodden', note: 'Revelation 19:15 adopts the image verbatim for the returning Word of God — the treader of Isa 63 stands in the clouds of Rev 19.' },
+    ],
+  },
+  'amo-9-11': {
+    title: 'I Will Raise Up the Tabernacle of David That Is Fallen',
+    principle:
+      'In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof... that they may possess the remnant of Edom, and of all the heathen, which are called by my name. First principle: the dynasty reduced to a collapsed hut is rebuilt by God — and the rebuilt house is wide enough for the heathen to seek the LORD.',
+    sourceKeywords: ['raise up the tabernacle of David', 'close up the breaches', 'remnant of Edom', 'all the heathen, which are called by my name'],
+    fulfillmentKeywords: ['James answered', 'to this agree the words of the prophets', 'God at the first did visit the Gentiles', 'known unto God are all his works'],
+    terms: [
+      { term: 'tabernacle', original: 'סֻכַּת', translit: 'sukkat', gloss: 'booth, hut, shelter of branches', note: 'James cites Amos at the Jerusalem council as the prophetic warrant for Gentile inclusion (Acts 15:16-17).' },
+    ],
+  },
+  'zec-14-4': {
+    title: 'His Feet Shall Stand upon the Mount of Olives',
+    principle:
+      'And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east... and the mount of Olives shall cleave in the midst thereof. The LORD becomes King over all the earth, and His name one. First principle: the place of the ascension is the place of return — the Olivet descent of Acts 1 completes the Zechariah schedule.',
+    sourceKeywords: ['his feet shall stand', 'mount of Olives', 'the LORD my God shall come', 'the LORD shall be king over all the earth'],
+    fulfillmentKeywords: ['this same Jesus', 'come in like manner', 'as ye have seen him go', 'behold, he cometh with clouds'],
+    terms: [
+      { term: 'shall cleave', original: 'וְנִבְקַע', translit: 'venivqa\'', gloss: 'shall be split, rift open', note: 'The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.' },
+    ],
+  },
 };
+
 
 export function getBookThreadDetail(verseId: string): ThreadDetail | null {
   return bookThreadDetails[verseId] ?? null;

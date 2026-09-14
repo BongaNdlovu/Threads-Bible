@@ -2,6 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { BOOK_REGISTRY } from '../src/data/bookRegistry';
+import { allThreadMaps } from '../src/data/threadMap';
+import { threadDetails } from '../src/data/threadDetails';
+import { bookThreadDetails } from '../src/data/bookThreadDetails';
 import { NT_CITATIONS, NT_LOOKUP, OT_LOOKUP } from '../src/data/tier2NtCitations';
 import { MESSIANIC_PROPHECIES, MESSIANIC_BY_VERSE, NT_MESSIANIC_LOOKUP } from '../src/data/tier3Messianic';
 import { MASTER_CHAINS, CHAINS_BY_VERSE } from '../src/data/tier4MasterChains';
@@ -179,6 +182,59 @@ if (t4ExpandedErrors === 0) {
 } else {
   hasErrors = true;
 }
+
+// ── AUDIT THREAD DETAILS (drift & coverage) ─────────────────────────────
+// threadDetails.ts is a hand-maintained 1:1 shadow of the Genesis thread map —
+// the strict check is exact keyset equality in both directions. bookThreadDetails
+// keys may legally point at non-anchor "detail-only thread" verses (reachable
+// via navigateToVerse), so the strict check there is that every key is a valid
+// canonical verse id (catches silent typo drift like "2ch-20:20").
+console.log('\n--- AUDITING THREAD DETAILS (drift & coverage) ---');
+const threadAnchors = new Set<string>();
+for (const map of allThreadMaps) {
+  for (const key of Object.keys(map)) threadAnchors.add(key);
+}
+const genesisAnchors = new Set(Object.keys(allThreadMaps[0]));
+
+const genesisDetailKeys = Object.keys(threadDetails);
+const genesisMissingDetails = [...genesisAnchors].filter(id => !threadDetails[id]);
+const genesisOrphanDetails = genesisDetailKeys.filter(id => !genesisAnchors.has(id));
+if (genesisMissingDetails.length === 0 && genesisOrphanDetails.length === 0) {
+  console.log(`Genesis shadow map: exact 1:1 — ${genesisDetailKeys.length} details ↔ ${genesisAnchors.size} Genesis anchors.`);
+} else {
+  hasErrors = true;
+  for (const id of genesisMissingDetails) {
+    console.error(`[DETAILS ERROR] Genesis anchor "${id}" has no entry in threadDetails.ts.`);
+  }
+  for (const id of genesisOrphanDetails) {
+    console.error(`[DETAILS ERROR] threadDetails.ts key "${id}" is not a Genesis thread anchor.`);
+  }
+}
+
+const bookDetailKeys = Object.keys(bookThreadDetails);
+const invalidBookDetailKeys = bookDetailKeys.filter(id => !validVerseIds.has(id));
+if (invalidBookDetailKeys.length === 0) {
+  console.log(`Book details: all ${bookDetailKeys.length} keys are valid canonical verse ids.`);
+} else {
+  hasErrors = true;
+  for (const id of invalidBookDetailKeys) {
+    console.error(`[DETAILS ERROR] bookThreadDetails key "${id}" is not a valid verse id.`);
+  }
+}
+const detailOnlyVerses = bookDetailKeys.filter(id => !threadAnchors.has(id));
+if (detailOnlyVerses.length > 0) {
+  console.log(`Detail-only thread verses (non-anchor, intentional): ${detailOnlyVerses.join(', ')}`);
+}
+
+const hasDetail = (id: string) => !!(threadDetails[id] || bookThreadDetails[id]);
+const coveredAnchors = [...threadAnchors].filter(hasDetail);
+const pct = Math.round((coveredAnchors.length / threadAnchors.size) * 100);
+console.log(`Detail coverage: ${coveredAnchors.length}/${threadAnchors.size} anchors (${pct}%) have hand-written titles/explanations.`);
+const tier3Missing = MESSIANIC_PROPHECIES.map(p => p.otVerseId).filter(id => !hasDetail(id));
+console.log(
+  `Tier 3 (Jesus Christ thread) anchors missing details: ${tier3Missing.length}` +
+    (tier3Missing.length ? ` → ${tier3Missing.join(', ')}` : '')
+);
 
 console.log('\n========================================');
 if (hasErrors) {

@@ -83,26 +83,43 @@ The full glossary lives in [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ## 4. Remaining recommendations (OPEN, by design)
 
-1. **Code-split the bundle** — 1.5 MB minified / 452 KB gzip single chunk. The
-   Threads-panel datasets (beliefs, LDE, tier 3/4) could be dynamic imports;
-   book text and TSK already lazy-load.
-2. **Generate or drift-check `threadDetails.ts`** — its 173 keys are a
-   hand-maintained 1:1 shadow of the Genesis thread map; silent drift is
-   possible. A pipeline check (or generation) would close that.
-3. **Retire or rename the five thread-map files** — if the generation pipeline
-   is retired, consolidate them into one `threadMap.ts`; if kept, rename via
-   the generators (e.g. `prophecies.ts` → `threadMapGenesis.ts`).
-4. **Real test framework** — `npm test` runs a bespoke script; there are no
-   `*.test.*` files. Vitest would fit the Vite setup.
-5. **Cross-book chapter navigation** — Genesis 50 → Exodus 1 is a dead end
-   (intra-book only). Suggested: continue to the next book.
-6. **Search UX** — a bare book-name result always jumps to chapter 1, resetting
-   position if already reading that book; unresolvable margin refs fail
-   silently (one known case: tier-2 `cit-luk-24-44`, a descriptive ref).
-7. **Minor**: weekly chapter counter goes stale across week boundaries in very
-   long sessions; `useMediaQuery` initializes `false` causing a one-frame
-   Drawer→Sheet flash on desktop cold open; `db.links` uses full-table filters
-   instead of its indexes (negligible at personal scale).
+Status update 2026-09-14: items 1, 4, 5, 6 (partly), 7 and the thread-map
+consolidation/drift-check half of 3 were addressed in the code-splitting pass
+(described below). Remaining OPEN: 2 (full detail authoring is ongoing
+content work — Tier 3 anchors are now 100% covered, overall 28%), 3 (the
+rename-by-generator option), and the ESLint suggestion from the follow-up
+review.
+
+1. **Code-split the bundle** — ✅ **DONE.** `src/data/deferred.ts` provides a
+   deferred-dataset primitive; `fulfillments.ts`, `threadDetails.ts` +
+   `bookThreadDetails.ts`, `fundamentalBeliefs.ts`, and `lastDayEvents.ts`
+   now ship as lazy chunks (fulfillments + details fetched at boot, beliefs +
+   LDE on first Threads-panel open). Initial bundle: 1,528 KB → 921 KB
+   minified (458 → 273 KB gzip). TheThread also loads the books a thread's
+   fulfillment refs point into, fixing empty fulfillment panes for
+   non-Genesis threads.
+2. **Generate or drift-check `threadDetails.ts`** — partly done: the Genesis
+   1:1 keyset check and canonical-id check for `bookThreadDetails` now run in
+   `npm run audit:data`, and detail coverage (376/1,342 anchors, including
+   100% of Tier 3 anchors) is reported on every audit. Authoring the
+   remaining ~966 details remains open content work.
+3. **Retire or rename the five thread-map files** — partially: app code now
+   imports maps only through `src/data/threadMap.ts`, so a future
+   consolidation touches one module. The generated files themselves are
+   unchanged.
+4. **Real test framework** — ✅ **DONE.** Vitest (`npm test`, 24 data-layer
+   tests in `src/data/*.test.ts`); the bespoke script moved to
+   `npm run test:legacy`. The deploy workflow gates on `audit:data`, `test`,
+   and `lint` before building.
+5. **Cross-book chapter navigation** — ✅ **DONE.** `nextChapterLocation` /
+   `prevChapterLocation` in `library.ts` cross book boundaries
+   (Genesis 50 → Exodus 1 → …).
+6. **Search UX** — ✅ bare book-name results no longer reset reading position
+   when that book is already open; ✅ unresolvable margin/panel refs now show
+   a transient notice (store `notice`/`showNotice`, toast in App) instead of
+   failing silently.
+7. **Minor**: weekly chapter counter staleness and the one-frame
+   Drawer→Sheet flash remain open; `db.links` full-table filters unchanged.
 
 ---
 

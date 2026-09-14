@@ -1,11 +1,16 @@
 import { useMemo, useState, useEffect } from 'react';
 import { useStore } from '../store/useStore';
 import { getChapterVersesFromLoaded, parseRef, BOOK_BY_NAME } from '../data/library';
-import { getThreadDetail } from '../data/threadDetails';
+import {
+  getThreadDetail,
+  useThreadDetailsReady,
+  type ThreadDetail,
+} from '../data/threadDetailService';
+import { createDeferredDataset, useDatasetReady } from '../data/deferred';
 import { MASTER_CHAINS, type MasterChain } from '../data/tier4MasterChains';
 import { MESSIANIC_PROPHECIES, type MessianicProphecy } from '../data/tier3Messianic';
-import { FUNDAMENTAL_BELIEFS, BELIEF_CATEGORIES, type FundamentalBelief, type BeliefCategory } from '../data/fundamentalBeliefs';
-import { LAST_DAY_EVENTS, LDE_ERAS, type LastDayEventPhase, type LdeEra } from '../data/lastDayEvents';
+import type { FundamentalBelief, BeliefCategory } from '../data/fundamentalBeliefs';
+import type { LastDayEventPhase, LdeEra } from '../data/lastDayEvents';
 import {
   X,
   ListTree,
@@ -22,6 +27,29 @@ import {
 import { cn } from '@/lib/utils';
 
 type ActiveTab = 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde';
+
+/** Beliefs and LDE datasets ship in their own lazy chunks, fetched the first
+ * time the threads panel opens (they are used nowhere else in the app). */
+const beliefsDataset = createDeferredDataset(() =>
+  import('../data/fundamentalBeliefs').then(m => ({
+    beliefs: m.FUNDAMENTAL_BELIEFS,
+    categories: m.BELIEF_CATEGORIES,
+  }))
+);
+
+const ldeDataset = createDeferredDataset(() =>
+  import('../data/lastDayEvents').then(m => ({ events: m.LAST_DAY_EVENTS, eras: m.LDE_ERAS }))
+);
+
+function useBeliefsData(): { beliefs: FundamentalBelief[]; categories: readonly BeliefCategory[] } | null {
+  useDatasetReady(beliefsDataset);
+  return beliefsDataset.get();
+}
+
+function useLdeData(): { events: LastDayEventPhase[]; eras: readonly LdeEra[] } | null {
+  useDatasetReady(ldeDataset);
+  return ldeDataset.get();
+}
 
 const CHAIN_CATEGORIES = [
   'Sanctuary & Priesthood',
@@ -40,6 +68,17 @@ const MESSIANIC_CATEGORIES = [
   'Second Coming & Kingdom',
 ] as const;
 
+/** Readable fallback title for anchors without a hand-written ThreadDetail:
+ * the verse's own opening words instead of a bare "Book C:V" repeat. */
+function verseSnippet(text: string): string {
+  const clean = text.trim().replace(/\s+/g, ' ');
+  const cut = clean.slice(0, 56);
+  if (cut.length < clean.length) {
+    return cut.slice(0, cut.lastIndexOf(' ')) + '…';
+  }
+  return clean;
+}
+
 export function ThreadPanel() {
   const {
     threadsPanelOpen,
@@ -54,6 +93,7 @@ export function ThreadPanel() {
     setSelectedThread,
     setThreadPaneOpen,
     navigateToVerse,
+    showNotice,
   } = useStore();
 
   const [activeTab, setActiveTab] = useState<ActiveTab>('chapter');
@@ -66,6 +106,22 @@ export function ThreadPanel() {
   const [expandedChains, setExpandedChains] = useState<Record<string, boolean>>({});
   const [expandedBeliefs, setExpandedBeliefs] = useState<Record<string, boolean>>({});
   const [expandedLde, setExpandedLde] = useState<Record<string, boolean>>({});
+
+  const beliefsData = useBeliefsData();
+  const ldeData = useLdeData();
+  const beliefs = beliefsData?.beliefs ?? [];
+  const beliefCategories = beliefsData?.categories ?? [];
+  const ldeEvents = ldeData?.events ?? [];
+  const ldeEras = ldeData?.eras ?? [];
+  const detailsReady = useThreadDetailsReady();
+
+  // Beliefs/LDE chunks load on first panel open (not at boot).
+  useEffect(() => {
+    if (threadsPanelOpen) {
+      beliefsDataset.preload();
+      ldeDataset.preload();
+    }
+  }, [threadsPanelOpen]);
 
   const toggleChainExpanded = (id: string) => {
     setExpandedChains(prev => ({ ...prev, [id]: !prev[id] }));
@@ -111,26 +167,29 @@ export function ThreadPanel() {
 
   const handleNavigateRef = (refStr: string) => {
     const parsed = parseRef(refStr);
-    if (parsed) {
-      const meta = BOOK_BY_NAME[parsed.book];
-      if (meta) {
-        handleNavigate(`${meta.slug}-${parsed.chapter}-${parsed.startVerse}`);
-      }
+    const meta = parsed ? BOOK_BY_NAME[parsed.book] : undefined;
+    if (!parsed || !meta) {
+      // Descriptive refs (e.g. tier-2 "Genesis to Malachi") have no single
+      // target verse — surface that instead of failing silently.
+      showNotice(`Couldn't navigate to "${refStr}" — no single target verse.`);
+      return;
     }
+    handleNavigate(`${meta.slug}-${parsed.chapter}-${parsed.startVerse}`);
   };
 
   // Chapter threads. isBookLoading is a dependency on purpose: the book cache
   // is read non-reactively, so the memo must re-run once the current book has
   // finished loading (e.g. panel opened via `T` before the fetch completed).
+  // detailsReady re-runs the memo when the lazy detail titles arrive.
   const chapterThreads = useMemo(() => {
     const verses = getChapterVersesFromLoaded(currentReadingBook, currentReadingChapter);
     return verses
       .filter(v => v.isThread && v.fulfillmentRefs?.length)
       .map(v => {
         const detail = getThreadDetail(v.id);
-        return { verse: v, title: detail?.title ?? `${v.book} ${v.chapter}:${v.verseNumber}` };
+        return { verse: v, title: detail?.title ?? verseSnippet(v.text) };
       });
-  }, [currentReadingBook, currentReadingChapter, isBookLoading, threadsPanelOpen]);
+  }, [currentReadingBook, currentReadingChapter, isBookLoading, threadsPanelOpen, detailsReady]);
 
   // Filtered 42 Master Chains
   const filteredChains = useMemo(() => {
@@ -165,7 +224,7 @@ export function ThreadPanel() {
   // Filtered Beliefs
   const filteredBeliefs = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
-    return FUNDAMENTAL_BELIEFS.filter(b => {
+    return beliefs.filter(b => {
       if (selectedCategory !== 'All' && b.category !== selectedCategory) return false;
       if (!q) return true;
       return (
@@ -176,12 +235,12 @@ export function ThreadPanel() {
         b.scriptureRefs.some(r => r.toLowerCase().includes(q))
       );
     });
-  }, [searchQuery, selectedCategory]);
+  }, [beliefs, searchQuery, selectedCategory]);
 
   // Filtered Last Day Events
   const filteredEvents = useMemo(() => {
     const q = searchQuery.trim().toLowerCase();
-    return LAST_DAY_EVENTS.filter(e => {
+    return ldeEvents.filter(e => {
       if (selectedEra !== 'All' && e.era !== selectedEra) return false;
       if (!q) return true;
       return (
@@ -193,7 +252,7 @@ export function ThreadPanel() {
         e.scriptureSequence.some(s => s.title.toLowerCase().includes(q) || s.ref.toLowerCase().includes(q))
       );
     });
-  }, [searchQuery, selectedEra]);
+  }, [ldeEvents, searchQuery, selectedEra]);
 
   if (!threadsPanelOpen) return null;
 
@@ -211,7 +270,7 @@ export function ThreadPanel() {
               {activeTab === 'chapter' && `${currentReadingBook} ${currentReadingChapter}`}
               {activeTab === 'chains' && `${MASTER_CHAINS.length} Master Canonical Redemptive Chains (Tier 4)`}
               {activeTab === 'messianic' && `${MESSIANIC_PROPHECIES.length} Messianic Prophecies & Fulfillments (Tier 3)`}
-              {activeTab === 'beliefs' && `${FUNDAMENTAL_BELIEFS.length} Fundamental Beliefs (Scripture Proofs)`}
+              {activeTab === 'beliefs' && `${beliefs.length} Fundamental Beliefs (Scripture Proofs)`}
               {activeTab === 'lde' && 'Great Controversy & Last Day Events'}
             </div>
           </div>
@@ -273,7 +332,7 @@ export function ThreadPanel() {
           )}
         >
           <BookOpen className="h-3.5 w-3.5" />
-          <span>{FUNDAMENTAL_BELIEFS.length} Beliefs</span>
+          <span>Beliefs{beliefs.length > 0 ? ` (${beliefs.length})` : ''}</span>
         </button>
         <button
           onClick={() => setActiveTab('lde')}
@@ -304,7 +363,7 @@ export function ThreadPanel() {
                   : activeTab === 'messianic'
                   ? 'Search Messianic prophecies, fulfillments...'
                   : activeTab === 'beliefs'
-                  ? `Search ${FUNDAMENTAL_BELIEFS.length} beliefs, doctrines, verses...`
+                  ? `Search ${beliefs.length} beliefs, doctrines, verses...`
                   : 'Search Last Day Events, timeline, phases...'
               }
               className="w-full pl-8 pr-8 py-1.5 text-xs rounded-lg border border-foreground/15 bg-background text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-accent/60"
@@ -393,9 +452,9 @@ export function ThreadPanel() {
                     : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
                 )}
               >
-                All ({FUNDAMENTAL_BELIEFS.length})
+                All ({beliefs.length})
               </button>
-              {BELIEF_CATEGORIES.map(cat => (
+              {beliefCategories.map(cat => (
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
@@ -424,9 +483,9 @@ export function ThreadPanel() {
                     : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
                 )}
               >
-                All ({LDE_ERAS.length} Eras)
+                All ({ldeEras.length} Eras)
               </button>
-              {LDE_ERAS.map(era => (
+              {ldeEras.map(era => (
                 <button
                   key={era}
                   onClick={() => setSelectedEra(era)}
@@ -717,7 +776,7 @@ export function ThreadPanel() {
             <div className="p-3.5 rounded-xl bg-accent/10 border border-accent/25 text-foreground/80 text-xs space-y-1.5 shadow-sm">
               <div className="flex items-center gap-1.5 font-bold text-accent">
                 <BookOpen className="h-4 w-4 shrink-0" />
-                <span>{FUNDAMENTAL_BELIEFS.length} Fundamental Beliefs • Sola Scriptura</span>
+                <span>{beliefs.length} Fundamental Beliefs • Sola Scriptura</span>
               </div>
               <p className="italic text-foreground/80 text-[11px] leading-relaxed">
                 Seventh-day Adventists accept the Bible as their only creed and hold certain fundamental beliefs to be the teaching of the Holy Scriptures.
@@ -725,6 +784,9 @@ export function ThreadPanel() {
             </div>
 
             <div className="space-y-3">
+              {!beliefsData && (
+                <div className="p-4 text-center text-xs text-foreground/50">Loading beliefs…</div>
+              )}
               {filteredBeliefs.map(b => {
                 const isExpanded = !!expandedBeliefs[b.id];
                 return (
@@ -811,6 +873,9 @@ export function ThreadPanel() {
             </div>
 
             <div className="space-y-3">
+              {!ldeData && (
+                <div className="p-4 text-center text-xs text-foreground/50">Loading timeline…</div>
+              )}
               {filteredEvents.map(ev => {
                 const isExpanded = !!expandedLde[ev.id];
                 return (

@@ -6,11 +6,14 @@ import {
   getMaxChapter,
   getChapterVersesFromLoaded,
   threadFor,
+  ensureFulfillmentsLoaded,
+  nextChapterLocation,
+  prevChapterLocation,
   type Verse,
 } from '../data/library';
 import { BOOK_REGISTRY } from '../data/bookRegistry';
-import { fulfillmentVerses } from '../data/fulfillments';
-import { getThreadDetail } from '../data/threadDetails';
+import { getMessianicPropheciesForVerse } from '../data/tier3Messianic';
+import { ensureThreadDetails, getThreadDetail } from '../data/threadDetailService';
 import { db } from '../db/database';
 
 function bookNameForSlug(slug: string): string {
@@ -97,6 +100,8 @@ function writeJson(key: string, value: unknown) {
 
 export { getAvailableChapters, getMaxChapter };
 
+let noticeTimer: number | null = null;
+
 interface AppState {
   showVerseNumbers: boolean;
   toggleVerseNumbers: () => void;
@@ -122,6 +127,11 @@ interface AppState {
   setReadingLocation: (book: string, chapter: number, options?: { preserveMargin?: boolean }) => void;
   nextChapter: () => void;
   prevChapter: () => void;
+
+  /** Transient user-facing notice (e.g. an unresolvable reference), auto-cleared. */
+  notice: string | null;
+  showNotice: (message: string) => void;
+  clearNotice: () => void;
 
   /** The verse whose thread is open (source verse of the thread). */
   selectedThread: Verse | null;
@@ -308,19 +318,27 @@ export const useStore = create<AppState>((set, get) => ({
 
   nextChapter: () => {
     const { currentReadingBook, currentReadingChapter, setReadingLocation } = get();
-    const chapters = getAvailableChapters(currentReadingBook);
-    const idx = chapters.indexOf(currentReadingChapter);
-    if (idx >= 0 && idx < chapters.length - 1) {
-      setReadingLocation(currentReadingBook, chapters[idx + 1]);
-    }
+    const next = nextChapterLocation(currentReadingBook, currentReadingChapter);
+    if (next) setReadingLocation(next.book, next.chapter);
   },
   prevChapter: () => {
     const { currentReadingBook, currentReadingChapter, setReadingLocation } = get();
-    const chapters = getAvailableChapters(currentReadingBook);
-    const idx = chapters.indexOf(currentReadingChapter);
-    if (idx > 0) {
-      setReadingLocation(currentReadingBook, chapters[idx - 1]);
+    const prev = prevChapterLocation(currentReadingBook, currentReadingChapter);
+    if (prev) setReadingLocation(prev.book, prev.chapter);
+  },
+
+  notice: null,
+  showNotice: message => {
+    set({ notice: message });
+    if (noticeTimer !== null) window.clearTimeout(noticeTimer);
+    noticeTimer = window.setTimeout(() => set({ notice: null }), 3500);
+  },
+  clearNotice: () => {
+    if (noticeTimer !== null) {
+      window.clearTimeout(noticeTimer);
+      noticeTimer = null;
     }
+    set({ notice: null });
   },
 
   selectedThread: null,
@@ -494,7 +512,7 @@ export const useStore = create<AppState>((set, get) => ({
 
     const verse =
       getChapterVersesFromLoaded(name, chapter).find(v => v.id === verseId) ??
-      fulfillmentVerses.find(v => v.id === verseId);
+      (await ensureFulfillmentsLoaded()).find(v => v.id === verseId);
 
     if (!verse) return;
 
@@ -513,17 +531,26 @@ export const useStore = create<AppState>((set, get) => ({
     }
 
     const thread = threadFor(verse.id);
+    // Awaiting the lazy detail chunk keeps verse→thread routing correct even
+    // if navigation happens before the background load finishes.
+    await ensureThreadDetails();
     const detail = getThreadDetail(verse.id);
-    const hasThread = verse.isThread || !!thread || !!detail;
+    // Detail-only verses (thread map has no anchor) still carry a thread when
+    // their detail supplies fulfillments — Tier 3 anchors in particular.
+    const messianicRefs = getMessianicPropheciesForVerse(verse.id).flatMap(p => p.fulfillmentRefs);
+    const refs =
+      verse.fulfillmentRefs && verse.fulfillmentRefs.length > 0
+        ? verse.fulfillmentRefs
+        : thread?.fulfillmentRefs && thread.fulfillmentRefs.length > 0
+          ? thread.fulfillmentRefs
+          : messianicRefs;
+    const hasThread = verse.isThread || !!thread || !!detail || messianicRefs.length > 0;
 
-    if (hasThread) {
+    if (hasThread && refs.length > 0) {
       const enrichedVerse: Verse = {
         ...verse,
         isThread: true,
-        fulfillmentRefs:
-          verse.fulfillmentRefs && verse.fulfillmentRefs.length > 0
-            ? verse.fulfillmentRefs
-            : (thread?.fulfillmentRefs ?? []),
+        fulfillmentRefs: refs,
       };
       set({ selectedThread: enrichedVerse, selectedMarginVerse: null, threadPaneOpen: true });
     } else {

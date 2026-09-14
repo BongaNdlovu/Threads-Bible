@@ -13,7 +13,7 @@ connection between verses. All naming follows this vocabulary:
 | Term | Meaning | Canonical identifiers |
 |---|---|---|
 | **Thread** | A connection from a source verse to one or more fulfillment passages | `selectedThread`, `threadFor()`, `TheThread`, `isThread` (Verse flag) |
-| **Thread map** | `verseId → fulfillmentRefs` lookup that marks which verses carry threads | `allThreadMaps` in `library.ts`; the five generated map files |
+| **Thread map** | `verseId → fulfillmentRefs` lookup that marks which verses carry threads | `allThreadMaps` in `threadMap.ts` (over the five generated files) |
 | **Thread detail** | Hand-written explanation of a thread: title, principle, original-language terms, keywords | `ThreadDetail`, `getThreadDetail()` |
 | **Cross-references (TSK)** | Treasury of Scripture Knowledge phrase-anchored references (data layer: "Tier 1") | `getTskForVerse()`, `public/data/tsk/` |
 | **Citation** | NT apostolic quotation/allusion of an OT passage (data layer: "Tier 2") | `NT_CITATIONS`, `getCitationsForVerse()` |
@@ -75,11 +75,22 @@ Legacy names that were **retired** in the 2026-09 unification:
 5. Clicking any verse's margin icon → `selectedMarginVerse` → `TheMargin`
    loads TSK (async fetch), citations, Messianic, chains (synchronous maps).
 
-**Bundling**: thread maps, `fulfillments.ts` (1,203 fulfillment verses),
-`threadDetails.ts`, `bookThreadDetails.ts`, tier 2/3/4, beliefs, and LDE ship in
-the initial bundle (~1.5 MB / ~450 KB gzip). Book text and TSK data are lazily
-fetched from `public/`. (Code-splitting the panel datasets is a known
-improvement opportunity — see audit.)
+**Bundling**: the app shell + thread maps + tier 2/3/4 ship in the initial
+bundle (~920 KB / ~273 KB gzip). Four heavy datasets are code-split into
+deferred chunks via `src/data/deferred.ts` (loaded in the background at boot or
+on first panel open — never blocking first paint):
+
+| Chunk | Size (gzip) | Loaded when |
+|---|---|---|
+| `fulfillments.ts` (1,203 verses) | 70 KB | boot (`preloadFulfillments`) |
+| `threadDetails.ts` + `bookThreadDetails.ts` | 114 KB | boot (`preloadThreadDetails`) |
+| `fundamentalBeliefs.ts` | 12 KB | first Threads-panel open |
+| `lastDayEvents.ts` | 11 KB | first Threads-panel open |
+
+Book text and TSK data are lazily fetched from `public/`. TheThread additionally
+loads any book referenced by a thread's fulfillment refs on demand, so
+fulfillment panes are complete even when the partial fulfillment index misses
+them.
 
 ---
 
@@ -92,6 +103,9 @@ improvement opportunity — see audit.)
 | `src/components/*` | UI components (`components/ui/*` = shadcn/base-ui primitives) | no |
 | `src/data/types.ts` | `Verse`, `ThreadMapEntry` | no |
 | `src/data/library.ts` | Book loading, thread overlay, ref resolution (runtime hub) | no |
+| `src/data/threadMap.ts` | Single import surface over the five generated thread maps | no |
+| `src/data/deferred.ts` | Deferred-dataset primitive (code splitting) + React hook | no |
+| `src/data/threadDetailService.ts` | Lazy facade over threadDetails/bookThreadDetails | no |
 | `src/data/bookRegistry.ts` | 66-book registry (name, slug, chapters, verses) | **yes** — `scripts/exportBookJson.ts` |
 | `src/data/verseCounts.ts` | Per-chapter verse counts | **yes** — `scripts/generateVerseCounts.ts` |
 | `src/data/prophecies.ts` | Thread map: Genesis (173 anchors) | **yes** — `scripts/completeThreads.ts`, `finalizeThreads.ts` |
@@ -100,8 +114,8 @@ improvement opportunity — see audit.)
 | `src/data/ntProphecies.ts` | Thread map: NT (non-Pauline) (250) | **yes** — `scripts/generateNtBooks.ts` |
 | `src/data/paulineProphecies.ts` | Thread map: 13 Pauline epistles (254) | **yes** — `scripts/generatePaulineBooks.ts` |
 | `src/data/fulfillments.ts` | 1,203 KJV fulfillment verses, always in memory | **yes** — `completeThreads.ts`, `fillMissingVerses.ts`, `finalizeThreads.ts` |
-| `src/data/threadDetails.ts` | Genesis thread details + pillar chains (hand-written) | no |
-| `src/data/bookThreadDetails.ts` | Thread details for the other books (hand-written) | no |
+| `src/data/threadDetails.ts` | Genesis thread details + pillar chains (hand-written; lazy chunk) | no |
+| `src/data/bookThreadDetails.ts` | Thread details for the other books incl. every Tier 3 anchor (hand-written; lazy chunk) | no |
 | `src/data/tier2NtCitations.ts` | 108 NT citations/allusions (hand-written) | no |
 | `src/data/tier3Messianic.ts` | 78 Messianic prophecies (Jesus Christ threads), Edersheim-harmonized (hand-written) | no |
 | `src/data/tier4MasterChains.ts` | 42 master chains, 277 steps (hand-written) | no |
@@ -116,7 +130,9 @@ improvement opportunity — see audit.)
 | `server.ts` | Local dev/test server with `/api/test/*` diagnostics | no |
 
 The thread-map keyspaces are **disjoint partitions by book** (no verse id
-appears in two maps); together they hold 1,342 thread anchors.
+appears in two maps); together they hold 1,342 thread anchors. App code imports
+them only through `threadMap.ts` — never from the generated files directly —
+so consolidating the five files later touches one module.
 
 ---
 
@@ -125,8 +141,12 @@ appears in two maps); together they hold 1,342 thread anchors.
 - **Verse ids**: `<slug>-<chapter>-<verse>`; slugs match `BOOK_REGISTRY`
   exactly; ref parsing must go through `refParser.ts`, never ad-hoc regex.
 - **Verification**: after touching thread data, run `npm run audit:data`
-  (validates every reference in every tier resolves to a canonical verse) and
-  `npm test`. Before committing, run `npm run lint` and `npm run build`.
+  (validates every reference in every tier, checks threadDetails 1:1 drift
+  against the Genesis map, and reports detail coverage) and `npm test`
+  (Vitest data-layer suite: ref parsing, thread-map invariants, tier shapes).
+  `npm run test:legacy` runs the store-behavior verification script. Before
+  committing, run `npm run lint` and `npm run build`; CI gates the deploy on
+  all four.
 - **Generated files**: edit the generator script, re-run it, commit both.
 - **State**: everything UI lives in `useStore`; localStorage keys are prefixed
   `threads-bible-`; the only IndexedDB is `ThreadsBibleDatabase`.

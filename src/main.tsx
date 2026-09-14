@@ -2,6 +2,8 @@ import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
+import {preloadFulfillments} from './data/library';
+import {preloadThreadDetails} from './data/threadDetailService';
 
 // Apply stored theme before first paint to avoid flash
 const stored = localStorage.getItem('threads-bible-theme');
@@ -17,3 +19,9 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>,
 );
+
+// Fetch the deferred data chunks (fulfillment index, thread details) in the
+// background right after first paint; they are needed for the first thread
+// open but must not block the initial bundle.
+preloadFulfillments();
+preloadThreadDetails();

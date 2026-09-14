@@ -41,6 +41,8 @@ export default function App() {
     setThreadPaneOpen,
     explanationOpen,
     setExplanationOpen,
+    notice,
+    clearNotice,
   } = useStore();
 
   useKeyboardShortcuts();
@@ -56,6 +58,23 @@ export default function App() {
     document.documentElement.classList.toggle('dark', theme === 'dark');
     document.documentElement.style.colorScheme = theme;
   }, [theme]);
+
+  // Transient toast for non-blocking feedback (e.g. unresolvable references).
+  const noticeBanner = notice ? (
+    <div
+      className="fixed bottom-16 left-1/2 -translate-x-1/2 z-[200] max-w-[90vw] px-4 py-2 rounded-full bg-foreground text-background text-xs shadow-lg flex items-center gap-2"
+      role="status"
+    >
+      <span className="truncate">{notice}</span>
+      <button
+        onClick={clearNotice}
+        aria-label="Dismiss notice"
+        className="opacity-60 hover:opacity-100 cursor-pointer font-bold"
+      >
+        ×
+      </button>
+    </div>
+  ) : null;
 
   const readingPane = (
     <div className="relative h-full min-h-0 flex flex-col bg-background">
@@ -124,6 +143,7 @@ export default function App() {
         <ChapterGrid />
         <ThreadPanel />
         <MobileControls />
+        {noticeBanner}
       </div>
     );
   }
@@ -192,6 +212,7 @@ export default function App() {
       <ChapterGrid />
       <ThreadPanel />
       <MobileControls />
+      {noticeBanner}
     </div>
   );
 }

@@ -1,9 +1,10 @@
 import {
   getThreadDetail,
   getChainForVerse,
+  useThreadDetailsReady,
   type ThreadDetail,
   type ThreadChain,
-} from '../data/threadDetails';
+} from '../data/threadDetailService';
 import { BookMarked, ChevronRight, Link2 } from 'lucide-react';
 
 function ChainTimeline({ chain }: { chain: ThreadChain }) {
@@ -68,6 +69,9 @@ export function ThreadExplanation({
   verseId: string;
   detail?: ThreadDetail | null;
 }) {
+  // Re-render once the lazily imported details chunk arrives (the detail prop
+  // path from TheThread also re-renders via its own ready hook).
+  useThreadDetailsReady();
   const detail = detailProp ?? getThreadDetail(verseId);
   const chain = getChainForVerse(verseId);
 

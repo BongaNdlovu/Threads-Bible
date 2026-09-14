@@ -1,8 +1,17 @@
 import { useEffect, useState } from 'react';
 import { useStore } from '../store/useStore';
-import { resolveRefs, getChapterVersesFromLoaded } from '../data/library';
+import {
+  resolveRefs,
+  getChapterVersesFromLoaded,
+  ensureFulfillmentsLoaded,
+  expandVerseRange,
+  isBookLoaded,
+  loadBook,
+  useFulfillmentsReady,
+  BOOK_REGISTRY,
+} from '../data/library';
 import type { Verse } from '../data/types';
-import { getThreadDetail } from '../data/threadDetails';
+import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { ZenReader } from './ZenReader';
 import { ThreadExplanation } from './ThreadExplanation';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
@@ -35,12 +44,52 @@ export function TheThread({
 
   const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment'>('both');
 
-  const fulfillmentVerses = selectedThread ? resolveRefs(selectedThread.fulfillmentRefs) : [];
+  // Re-render when the lazily imported fulfillment / detail chunks arrive.
+  const fulfillmentsReady = useFulfillmentsReady();
+  const detailsReady = useThreadDetailsReady();
+
   const sourceVerses = selectedThread
     ? getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter)
     : [];
   const primaryRef = selectedThread?.fulfillmentRefs?.[0] || 'Fulfillment';
   const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
+
+  // The fulfillment index is only a partial cache of fulfillment verses, so
+  // also load every book a fulfillment reference points into before resolving.
+  const [fulfillmentVerses, setFulfillmentVerses] = useState<Verse[]>([]);
+  useEffect(() => {
+    if (!selectedThread) {
+      setFulfillmentVerses([]);
+      return;
+    }
+    let cancelled = false;
+    void (async () => {
+      await ensureFulfillmentsLoaded();
+      const refs = selectedThread.fulfillmentRefs ?? [];
+      const slugs = new Set<string>();
+      for (const ref of refs) {
+        for (const id of expandVerseRange(ref)) {
+          const m = id.match(/^([a-z0-9]+)-(\d+)-(\d+)$/);
+          if (m) slugs.add(m[1].toLowerCase());
+        }
+      }
+      for (const slug of slugs) {
+        const meta = BOOK_REGISTRY.find(b => b.slug === slug);
+        if (meta && !isBookLoaded(meta.name)) {
+          try {
+            await loadBook(meta.name);
+          } catch {
+            // A failed book load just means those verses won't render.
+          }
+        }
+      }
+      if (!cancelled) setFulfillmentVerses(resolveRefs(refs));
+    })();
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- keyed on the thread identity; fulfillmentRefs is stable per thread
+  }, [selectedThread?.id, fulfillmentsReady]);
 
   useEffect(() => {
     if (!selectedThread || !detail) {
@@ -56,8 +105,8 @@ export function TheThread({
     });
     setHighlightFromThread(map);
     return () => setHighlightFromThread({});
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- recompute when the thread changes or its detail becomes available
-  }, [selectedThread?.id, detail, setHighlightFromThread]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- recompute when the thread changes, its detail arrives, or fulfillments finish loading
+  }, [selectedThread?.id, detail, setHighlightFromThread, fulfillmentsReady, detailsReady, fulfillmentVerses]);
 
   if (!selectedThread) return null;
 

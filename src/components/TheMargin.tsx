@@ -31,6 +31,7 @@ export function TheMargin() {
     removeLink,
     navigateToVerse,
     openThreadPanelWithTab,
+    showNotice,
   } = useStore();
   const isDesktop = useMediaQuery('(min-width: 768px)');
 
@@ -170,13 +171,13 @@ export function TheMargin() {
 
   const handleNavigateRef = (refStr: string, targetTab?: string) => {
     const parsed = parseRef(refStr);
-    if (parsed) {
-      const meta = BOOK_BY_NAME[parsed.book];
-      if (meta) {
-        const targetId = `${meta.slug}-${parsed.chapter}-${parsed.startVerse}`;
-        void navigateToVerse(targetId, { preserveMargin: true, targetTab });
-      }
+    const meta = parsed ? BOOK_BY_NAME[parsed.book] : undefined;
+    if (!parsed || !meta) {
+      showNotice(`Couldn't navigate to "${refStr}" — no single target verse.`);
+      return;
     }
+    const targetId = `${meta.slug}-${parsed.chapter}-${parsed.startVerse}`;
+    void navigateToVerse(targetId, { preserveMargin: true, targetTab });
   };
 
   // Plain JSX (not a component!) — defining it as a component would remount the

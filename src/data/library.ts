@@ -1,27 +1,40 @@
 import type { Verse } from './types';
 import { BOOK_REGISTRY, BOOK_BY_NAME, type BookMeta } from './bookRegistry';
-import { fulfillmentVerses } from './fulfillments';
-import { genesisProphecies } from './prophecies';
-import { exodusProphecies, danielProphecies, revelationProphecies } from './bookProphecies';
-import { paulineProphecies } from './paulineProphecies';
-import { ntProphecies } from './ntProphecies';
-import { otProphecies } from './otProphecies';
+import { allThreadMaps } from './threadMap';
+import { createDeferredDataset, useDatasetReady } from './deferred';
 
 export type { Verse } from './types';
 
 type JsonVerse = { id: string; chapter: number; verse: number; text: string };
 type BookJson = { slug: string; name: string; chapters: number; verses: number; data: JsonVerse[] };
 
-/** All curated thread maps (verse id → fulfillment refs), partitioned by book. */
-export const allThreadMaps = [
-  genesisProphecies,
-  exodusProphecies,
-  danielProphecies,
-  revelationProphecies,
-  paulineProphecies,
-  ntProphecies,
-  otProphecies,
-] as const;
+/** The 271 KB fulfillment index ships as a separate lazy chunk, fetched at
+ * boot (preloadFulfillments). Until it arrives, resolveRefs still resolves
+ * against loaded books; components re-render via useFulfillmentsReady(). */
+let fulfillmentById: Map<string, Verse> | null = null;
+
+const fulfillmentsDataset = createDeferredDataset(async () => {
+  const verses = await import('./fulfillments').then(m => m.fulfillmentVerses);
+  fulfillmentById = new Map(verses.map(v => [v.id, v]));
+  return verses;
+});
+
+export function preloadFulfillments(): void {
+  fulfillmentsDataset.preload();
+}
+
+export function ensureFulfillmentsLoaded(): Promise<Verse[]> {
+  return fulfillmentsDataset.ensure();
+}
+
+export function useFulfillmentsReady(): boolean {
+  return useDatasetReady(fulfillmentsDataset);
+}
+
+/** Synchronous snapshot of the fulfillment index (empty before it loads). */
+export function getFulfillmentVerses(): Verse[] {
+  return fulfillmentsDataset.get() ?? [];
+}
 
 export const totalThreadCount = allThreadMaps.reduce((n, map) => n + Object.keys(map).length, 0);
 
@@ -161,9 +174,6 @@ export function getChapterVersesFromLoaded(bookName: string, chapter: number): V
   return book.filter(v => v.chapter === chapter);
 }
 
-/** Index of fulfillment verses for resolveRefs (always in memory). */
-const fulfillmentById = new Map(fulfillmentVerses.map(v => [v.id, v]));
-
 import { parseRef, expandVerseRange, normalizeBookName, type ParsedRef } from './refParser';
 export { parseRef, expandVerseRange, normalizeBookName, type ParsedRef };
 
@@ -193,7 +203,7 @@ export function resolveRefs(refs: string[] | undefined | null): Verse[] {
           verse = loaded?.find(x => x.id === id);
         }
         if (!verse) {
-          verse = fulfillmentById.get(id);
+          verse = fulfillmentById?.get(id);
         }
         if (verse) {
           seen.add(id);
@@ -211,7 +221,7 @@ export function resolveRefs(refs: string[] | undefined | null): Verse[] {
         const id = `${slug}-${parsed.chapter}-${v}`;
         if (seen.has(id)) continue;
         const loaded = getLoadedBook(parsed.book);
-        const verse = loaded?.find(x => x.id === id) ?? fulfillmentById.get(id);
+        const verse = loaded?.find(x => x.id === id) ?? fulfillmentById?.get(id);
         if (verse) {
           seen.add(id);
           result.push(verse);
@@ -225,3 +235,23 @@ export function resolveRefs(refs: string[] | undefined | null): Verse[] {
 
 export { BOOK_REGISTRY, BOOK_BY_NAME } from './bookRegistry';
 export type { BookMeta } from './bookRegistry';
+
+/** Next reading location, crossing book boundaries (Genesis 50 → Exodus 1). */
+export function nextChapterLocation(bookName: string, chapter: number): { book: string; chapter: number } | null {
+  const meta = BOOK_BY_NAME[bookName];
+  if (!meta) return null;
+  if (chapter < meta.chapters) return { book: bookName, chapter: chapter + 1 };
+  const idx = BOOK_REGISTRY.findIndex(b => b.slug === meta.slug);
+  const next = idx >= 0 ? BOOK_REGISTRY[idx + 1] : undefined;
+  return next ? { book: next.name, chapter: 1 } : null;
+}
+
+/** Previous reading location, crossing book boundaries (Exodus 1 → Genesis 50). */
+export function prevChapterLocation(bookName: string, chapter: number): { book: string; chapter: number } | null {
+  const meta = BOOK_BY_NAME[bookName];
+  if (!meta) return null;
+  if (chapter > 1) return { book: bookName, chapter: chapter - 1 };
+  const idx = BOOK_REGISTRY.findIndex(b => b.slug === meta.slug);
+  const prev = idx > 0 ? BOOK_REGISTRY[idx - 1] : undefined;
+  return prev ? { book: prev.name, chapter: prev.chapters } : null;
+}

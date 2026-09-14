@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef, useMemo } from 'react';
 import { Search } from 'lucide-react';
 import { BOOK_REGISTRY, BOOK_BY_NAME } from '../data/bookRegistry';
-import { fulfillmentVerses } from '../data/fulfillments';
-import { getLoadedBooks, type Verse } from '../data/library';
+import { getFulfillmentVerses, getLoadedBooks, useFulfillmentsReady, type Verse } from '../data/library';
 import { useStore } from '../store/useStore';
 
 /** Parse "Genesis 1", "gen 1:5", "Matthew 5" style queries against the registry. */
@@ -30,7 +29,8 @@ export function SearchBar() {
   const [query, setQuery] = useState('');
   const [debounced, setDebounced] = useState('');
   const [isOpen, setIsOpen] = useState(false);
-  const { setReadingLocation, navigateToVerse } = useStore();
+  const { setReadingLocation, navigateToVerse, currentReadingBook, currentReadingChapter } = useStore();
+  const fulfillmentsReady = useFulfillmentsReady();
   const wrapperRef = useRef<HTMLDivElement>(null);
 
   // Debounce keystrokes so we do not scan the pool on every character
@@ -73,12 +73,12 @@ export function SearchBar() {
         kind: 'nav',
         label: `Open ${parsed.book}`,
         book: parsed.book,
-        chapter: 1,
+        chapter: undefined,
       });
     }
 
     // Only fulfillments + books currently in the LRU cache (not the whole Bible)
-    const pool: Verse[] = [...fulfillmentVerses, ...getLoadedBooks()];
+    const pool: Verse[] = [...(fulfillmentsReady ? getFulfillmentVerses() : []), ...getLoadedBooks()];
 
     const seen = new Set<string>();
     for (const v of pool) {
@@ -96,11 +96,19 @@ export function SearchBar() {
     }
 
     return out.slice(0, 40);
-  }, [debounced]);
+  }, [debounced, fulfillmentsReady]);
 
   const handleSelect = (item: (typeof results)[number]) => {
     if (item.kind === 'nav' && item.book) {
-      setReadingLocation(item.book, item.chapter ?? 1);
+      // A bare book-name result must not reset reading position when that book
+      // (and chapter) is already open; an explicit chapter equal to the current
+      // one is a no-op too.
+      const alreadyThere =
+        item.book === currentReadingBook &&
+        (item.chapter === undefined || item.chapter === currentReadingChapter);
+      if (!alreadyThere) {
+        setReadingLocation(item.book, item.chapter ?? (item.book === currentReadingBook ? currentReadingChapter : 1));
+      }
     } else if (item.verse) {
       setReadingLocation(item.verse.book, item.verse.chapter);
       void navigateToVerse(item.verse.id);
