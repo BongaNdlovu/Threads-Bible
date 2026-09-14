@@ -14,10 +14,18 @@ import {
   History,
   AlignLeft,
   AlignCenter,
+  Download,
+  Upload,
 } from 'lucide-react';
 import { SearchBar } from './SearchBar';
 import React, { useEffect, useRef, useState } from 'react';
 import { BOOK_REGISTRY } from '../data/bookRegistry';
+import {
+  downloadBackupFile,
+  exportBackup,
+  importBackup,
+  readBackupFile,
+} from '../db/backup';
 
 const READING_BOOKS = BOOK_REGISTRY.map(b => b.name);
 
@@ -47,10 +55,51 @@ export function Header() {
     toggleTextAlign,
     closeAllStudyPanes,
     hasStudyPanes,
+    showNotice,
+    loadBookmarks,
+    loadNotes,
+    loadLinks,
   } = useStore();
 
   const [bookOpen, setBookOpen] = useState(false);
   const bookRef = useRef<HTMLDivElement>(null);
+  const backupInputRef = useRef<HTMLInputElement>(null);
+
+  const handleExportBackup = async () => {
+    try {
+      const payload = await exportBackup();
+      downloadBackupFile(payload);
+      showNotice(
+        `Backup downloaded — ${payload.bookmarks.length} bookmarks, ${payload.notes.length} notes, ${payload.links.length} links.`
+      );
+    } catch (err) {
+      console.error('Backup export failed:', err);
+      showNotice('Backup failed — could not read your data.');
+    }
+  };
+
+  const handleImportBackup = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = ''; // allow re-selecting the same file later
+    if (!file) return;
+    try {
+      const parsed = await readBackupFile(file);
+      if (!parsed.payload) {
+        showNotice(parsed.error ?? 'That file is not a valid Threads Bible backup.');
+        return;
+      }
+      const counts = await importBackup(parsed.payload);
+      loadBookmarks();
+      loadNotes();
+      loadLinks();
+      showNotice(
+        `Restored ${counts.bookmarks} bookmarks, ${counts.notes} notes, ${counts.links} new links.`
+      );
+    } catch (err) {
+      console.error('Backup import failed:', err);
+      showNotice('Import failed — could not read that backup file.');
+    }
+  };
 
   // Scroll the current book into view when the list opens
   useEffect(() => {
@@ -252,6 +301,30 @@ export function Header() {
           </button>
         </div>
 
+        <button
+          onClick={handleExportBackup}
+          aria-label="Export backup"
+          title="Export backup — download your bookmarks, notes, and links as JSON"
+          className="hidden md:flex h-8 w-8 rounded-full items-center justify-center bg-foreground/5 hover:bg-foreground/10 transition-colors cursor-pointer shrink-0 text-foreground/70 hover:text-foreground"
+        >
+          <Download className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => backupInputRef.current?.click()}
+          aria-label="Import backup"
+          title="Import backup — restore bookmarks, notes, and links from a JSON file"
+          className="hidden md:flex h-8 w-8 rounded-full items-center justify-center bg-foreground/5 hover:bg-foreground/10 transition-colors cursor-pointer shrink-0 text-foreground/70 hover:text-foreground"
+        >
+          <Upload className="h-4 w-4" />
+        </button>
+        <input
+          ref={backupInputRef}
+          type="file"
+          accept="application/json,.json"
+          onChange={handleImportBackup}
+          className="hidden"
+          aria-hidden="true"
+        />
         <button
           onClick={toggleTheme}
           aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}

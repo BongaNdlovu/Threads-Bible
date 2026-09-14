@@ -1,5 +1,26 @@
+import { useRef } from 'react';
 import { useStore, FONT_SIZE_MIN, FONT_SIZE_MAX } from '../store/useStore';
-import { X, Minus, Plus, Moon, Sun, Hash, ListTree, AlignLeft, AlignCenter, BookOpen } from 'lucide-react';
+import {
+  X,
+  Minus,
+  Plus,
+  Moon,
+  Sun,
+  Hash,
+  ListTree,
+  AlignLeft,
+  AlignCenter,
+  BookOpen,
+  Download,
+  Upload,
+} from 'lucide-react';
+import {
+  downloadBackupFile,
+  exportBackup,
+  importBackup,
+  readBackupFile,
+} from '../db/backup';
+import type React from 'react';
 
 export function MobileControls() {
   const {
@@ -21,7 +42,49 @@ export function MobileControls() {
     toggleTextAlign,
     closeAllStudyPanes,
     hasStudyPanes,
+    showNotice,
+    loadBookmarks,
+    loadNotes,
+    loadLinks,
   } = useStore();
+
+  const backupInputRef = useRef<HTMLInputElement>(null);
+
+  const handleExportBackup = async () => {
+    try {
+      const payload = await exportBackup();
+      downloadBackupFile(payload);
+      showNotice(
+        `Backup downloaded — ${payload.bookmarks.length} bookmarks, ${payload.notes.length} notes, ${payload.links.length} links.`
+      );
+    } catch (err) {
+      console.error('Backup export failed:', err);
+      showNotice('Backup failed — could not read your data.');
+    }
+  };
+
+  const handleImportBackup = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    try {
+      const parsed = await readBackupFile(file);
+      if (!parsed.payload) {
+        showNotice(parsed.error ?? 'That file is not a valid Threads Bible backup.');
+        return;
+      }
+      const counts = await importBackup(parsed.payload);
+      loadBookmarks();
+      loadNotes();
+      loadLinks();
+      showNotice(
+        `Restored ${counts.bookmarks} bookmarks, ${counts.notes} notes, ${counts.links} new links.`
+      );
+    } catch (err) {
+      console.error('Backup import failed:', err);
+      showNotice('Import failed — could not read that backup file.');
+    }
+  };
 
   if (!mobileControlsOpen) return null;
 
@@ -126,6 +189,31 @@ export function MobileControls() {
               Chapters
             </button>
           </div>
+
+          <div className="grid grid-cols-2 gap-2">
+            <button
+              onClick={handleExportBackup}
+              className="h-11 rounded-xl bg-foreground/5 flex items-center justify-center gap-2 text-sm font-medium"
+            >
+              <Download className="h-4 w-4" />
+              Export backup
+            </button>
+            <button
+              onClick={() => backupInputRef.current?.click()}
+              className="h-11 rounded-xl bg-foreground/5 flex items-center justify-center gap-2 text-sm font-medium"
+            >
+              <Upload className="h-4 w-4" />
+              Import backup
+            </button>
+          </div>
+          <input
+            ref={backupInputRef}
+            type="file"
+            accept="application/json,.json"
+            onChange={handleImportBackup}
+            className="hidden"
+            aria-hidden="true"
+          />
 
           {recentReadings.length > 0 && (
             <div>

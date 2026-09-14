@@ -4,6 +4,7 @@ import App from './App.tsx';
 import './index.css';
 import {preloadFulfillments} from './data/library';
 import {preloadThreadDetails} from './data/threadDetailService';
+import {registerSW} from 'virtual:pwa-register';
 
 // Apply stored theme before first paint to avoid flash
 const stored = localStorage.getItem('threads-bible-theme');
@@ -25,3 +26,7 @@ createRoot(document.getElementById('root')!).render(
 // open but must not block the initial bundle.
 preloadFulfillments();
 preloadThreadDetails();
+
+// PWA service worker (production builds only): precaches the app shell and
+// data chunks, caches book/TSK JSONs on first use, and auto-updates.
+registerSW({immediate: true});

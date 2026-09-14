@@ -92,6 +92,16 @@ loads any book referenced by a thread's fulfillment refs on demand, so
 fulfillment panes are complete even when the partial fulfillment index misses
 them.
 
+**Deep links & offline.** `hashSync.ts` mirrors reading position, the selected
+verse, and pane flags into the URL hash (`#zec-9-9;tx`), giving every study
+position a shareable URL and native back/forward behavior. The production build
+is an installable PWA (`vite-plugin-pwa`, `registerType: 'autoUpdate'`): the
+service worker precaches the app shell and all data chunks, and caches book/TSK
+JSONs CacheFirst on first use — after visiting a chapter once, it reads
+offline. User data (bookmarks, notes, links) lives in IndexedDB and can be
+exported/imported as a versioned JSON backup from the header (desktop) or the
+controls sheet (mobile).
+
 ---
 
 ## 3. Source map
@@ -106,6 +116,12 @@ them.
 | `src/data/threadMap.ts` | Single import surface over the five generated thread maps | no |
 | `src/data/deferred.ts` | Deferred-dataset primitive (code splitting) + React hook | no |
 | `src/data/threadDetailService.ts` | Lazy facade over threadDetails/bookThreadDetails | no |
+| `src/hash.ts` | URL-hash codec for deep links (pure) | no |
+| `src/hashSync.ts` | Two-way store ↔ URL-hash sync (deep links, back/forward) | no |
+| `src/db/database.ts` | Dexie/IndexedDB: bookmarks, notes, links | no |
+| `src/db/backupFormat.ts` | Backup JSON format + canonical validation (pure) | no |
+| `src/db/backup.ts` | Backup export/import I/O + file download | no |
+| `src/components/ErrorBoundary.tsx` | Render-error containment (app + per-pane) | no |
 | `src/data/bookRegistry.ts` | 66-book registry (name, slug, chapters, verses) | **yes** — `scripts/exportBookJson.ts` |
 | `src/data/verseCounts.ts` | Per-chapter verse counts | **yes** — `scripts/generateVerseCounts.ts` |
 | `src/data/prophecies.ts` | Thread map: Genesis (173 anchors) | **yes** — `scripts/completeThreads.ts`, `finalizeThreads.ts` |

@@ -189,3 +189,33 @@ connections themselves. New permanent tool: `npm run verify:accuracy`
   content*. A complete doctrinal review of all 1,342 threads remains scholarly
   work no script can do.
 
+---
+
+## 7. Addendum — resilience pass (2026-09-14)
+
+Follow-up review items: user-data loss, shareable URLs, crash recovery, and
+offline reading. All four were implemented.
+
+1. **Backup/restore** — `src/db/backup.ts` + pure `backupFormat.ts`. Export
+   downloads a versioned JSON of bookmarks/notes/links; import validates
+   against the book registry (slug, chapter, verse bounds), de-duplicates
+   links, and merges without deleting. UI: header buttons (desktop) and the
+   controls sheet (mobile); results/confirmations surface via the app notice.
+2. **Deep links** — `hashSync.ts` syncs reading position, selected verse, and
+   pane flags to the URL hash (`#zec-9-9;tx`) with pushState per change, so
+   every study position is shareable and back/forward walks through history.
+   Boot applies a present hash instead of the Genesis default; a bare
+   chapter hash clears study overlays.
+3. **Error boundary** — `ErrorBoundary` wraps the app root (full-page
+   fallback) plus the reading/thread/margin/panel panes (inline "Try again").
+   Crashes are logged and persisted to localStorage `threads-bible-last-crash`
+   (static site — no telemetry endpoint by design).
+4. **Offline (PWA)** — `vite-plugin-pwa` with an auto-updating service worker:
+   precaches the app shell + all data chunks (~1.6 MB), and caches the 66 book
+   JSONs and 66 TSK files CacheFirst on first use (immutable per release).
+   Installable via `manifest.webmanifest` (SVG icon, standalone display).
+
+New tests cover the hash codec (round trips, malformed input) and backup
+validation (foreign files, malformed rows, self-links, non-canonical ids).
+CI (deploy workflow) runs `audit:data`, Vitest, and `tsc` before every deploy.
+
