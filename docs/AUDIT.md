@@ -98,15 +98,16 @@ review.
    minified (458 → 273 KB gzip). TheThread also loads the books a thread's
    fulfillment refs point into, fixing empty fulfillment panes for
    non-Genesis threads.
-2. **Generate or drift-check `threadDetails.ts`** — ✅ **coverage complete.**
-   The Genesis 1:1 keyset check, canonical-id checks, and hand-vs-draft
-   shadowing checks run in `npm run audit:data`. 376 anchors have
-   hand-written details (100% of Tier 3); the remaining 966 have generated
-   drafts (`src/data/draftThreadDetails.ts`, `npm run generate:drafts`)
-   whose titles/keywords come from the verse's own KJV words and whose
-   connection notes quote the curated thread's actual fulfillment passages.
-   Hand entries always win at lookup; drafts are flagged `draft: true` (and
-   labelled in the UI) so future authoring passes can target them.
+2. **Generate or drift-check `threadDetails.ts`** — ✅ **coverage complete;**
+   hand-writing is ongoing in priority order. The Genesis 1:1 keyset check,
+   canonical-id checks, and hand-vs-draft shadowing checks run in
+   `npm run audit:data`. As of 2026-09-14: **719/1,342 anchors (54%) have
+   hand-written details** — all 173 Genesis, all 78 Tier 3, the Gospels, Acts,
+   Romans, Hebrews, Revelation, Daniel, and the expanded Exodus anchors. The
+   remaining 623 anchors (Isaiah, Psalms, and the rest) carry generated drafts
+   (`src/data/draftThreadDetails.ts`, `npm run generate:drafts` re-prunes
+   shadowed drafts after every authoring pass). Hand entries always win at
+   lookup; drafts are flagged `draft: true` and labelled in the UI.
 3. **Retire or rename the five thread-map files** — partially: app code now
    imports maps only through `src/data/threadMap.ts`, so a future
    consolidation touches one module. The generated files themselves are

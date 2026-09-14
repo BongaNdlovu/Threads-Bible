@@ -21,25 +21,21 @@ interface BibleBook {
   chapters: string[][];
 }
 
-const bible: BibleBook[] = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'kjv.json'), 'utf8').trim().replace(/^\uFEFF/, '')
-);
-
-// Map of all valid verse IDs in KJV canon
+// Map of all valid verse IDs in KJV canon — read from the REPAIRED served
+// text (public/books), which is the app's source of truth (31,102 verses
+// after the A2/A3 repairs; the raw kjv.json dump is missing two verses).
 const validVerseIds = new Set<string>();
 const bookNameToMeta = new Map<string, typeof BOOK_REGISTRY[0]>();
 for (const b of BOOK_REGISTRY) {
   bookNameToMeta.set(b.name, b);
 }
 
-for (const book of bible) {
-  const meta = bookNameToMeta.get(book.name);
-  if (!meta) continue;
-  book.chapters.forEach((chapter, chIdx) => {
-    chapter.forEach((_, vIdx) => {
-      validVerseIds.add(`${meta.slug}-${chIdx + 1}-${vIdx + 1}`);
-    });
-  });
+for (const meta of BOOK_REGISTRY) {
+  const file = path.join(booksDir, `${meta.slug}.json`);
+  const json = JSON.parse(fs.readFileSync(file, 'utf8')) as { data: { id: string }[] };
+  for (const v of json.data) {
+    validVerseIds.add(v.id);
+  }
 }
 
 console.log(`Loaded KJV canon: ${validVerseIds.size} verses indexed.`);

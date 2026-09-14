@@ -2243,6 +2243,2766 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
       { term: 'shall cleave', original: 'וְנִבְקַע', translit: 'venivqa\'', gloss: 'shall be split, rift open', note: 'The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.' },
     ],
   },
+  // ── Hand-written expansion: John ────────────────────────────────────────
+  'joh-1-1': {
+    title: 'In the Beginning Was the Word',
+    principle:
+      'The Word was with God, and the Word was God; without him was not any thing made that was made. First principle: the Christ at the center of every thread is the divine Creator, so promise-and-fulfillment runs from the Author of Genesis to the flesh He took on.',
+    sourceKeywords: ['the Word was God', 'with God', 'was made by him'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-1-3': {
+    title: 'All Things Were Made by Him',
+    principle:
+      'Without Him was not any thing made that was made. First principle: the Agent of creation is the same Son who redeems — Colossians joins the two: by Him were all things created, and by His blood we have redemption.',
+    sourceKeywords: ['All things were made by him', 'not any thing made'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-1-29': {
+    title: 'Behold the Lamb of God',
+    principle:
+      'John names Jesus the Lamb of God, which taketh away the sin of the world. First principle: the whole sacrificial system — Passover lamb, daily lamb, Isaiah 53\'s silent lamb — converges on this one Man.',
+    sourceKeywords: ['Lamb of God', 'taketh away the sin', 'the world'],
+    fulfillmentKeywords: ['lamb without blemish', 'Christ our passover'],
+    terms: [],
+  },
+  'joh-1-45': {
+    title: 'We Have Found Him of Whom Moses Wrote',
+    principle:
+      'Philip tells Nathanael that Jesus of Nazareth is Him of whom Moses in the law and the prophets did write. First principle: the Old Testament is a written expectation that the apostles claim is met in one Person.',
+    sourceKeywords: ['found him', 'Moses in the law', 'Jesus of Nazareth'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-2-17': {
+    title: 'The Zeal of Thine House Hath Eaten Me Up',
+    principle:
+      'At the temple cleansing the disciples remember Psalm 69:9. First principle: Christ\'s consuming devotion to His Father\'s house was prophecy in motion — and the reproaches of God fell on Him.',
+    sourceKeywords: ['zeal of thine house', 'hath eaten me up', 'it was written'],
+    fulfillmentKeywords: ['zeal of thine house', 'reproaches of them'],
+    terms: [],
+  },
+  'joh-3-16': {
+    title: 'For God So Loved the World',
+    principle:
+      'God gave His only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. First principle: the gospel in one verse — divine love expressed as a gift, faith as the receiving hand, eternal life as the result.',
+    sourceKeywords: ['God so loved the world', 'only begotten Son', 'everlasting life', 'believeth in him'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-6-45': {
+    title: 'They Shall Be All Taught of God',
+    principle:
+      'Jesus quotes Isaiah\'s promise that all shall be taught of God: every one that hath heard and learned of the Father cometh unto me. First principle: coming to Christ is the Father\'s own teaching fulfilled.',
+    sourceKeywords: ['It is written in the prophets', 'taught of God', 'cometh unto me'],
+    fulfillmentKeywords: ['all thy children shall be taught of the LORD'],
+    terms: [],
+  },
+  'joh-10-11': {
+    title: 'I Am the Good Shepherd',
+    principle:
+      'The good shepherd giveth his life for the sheep. First principle: Ezekiel 34\'s promise that God Himself would shepherd His scattered flock is answered by Christ laying down His life.',
+    sourceKeywords: ['good shepherd', 'giveth his life', 'for the sheep'],
+    fulfillmentKeywords: ['one shepherd', 'my servant David', 'feed them'],
+    terms: [],
+  },
+  'joh-10-34': {
+    title: 'I Said, Ye Are Gods',
+    principle:
+      'Jesus defends His unity with the Father from Psalm 82\'s Ye are gods — lesser judges called gods in the law. First principle: if Scripture could so name men, how could it be blasphemy for the Sent One to say I am the Son of God?',
+    sourceKeywords: ['Is it not written in your law', 'Ye are gods', 'scripture cannot be broken'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-12-15': {
+    title: 'Thy King Cometh, Sitting on an Ass\'s Colt',
+    principle:
+      'John quotes Zechariah 9:9 at the triumphal entry: Fear not, daughter of Sion. First principle: the King arrives in humility exactly as written — the colt is the credential.',
+    sourceKeywords: ['daughter of Sion', 'thy King cometh', 'ass\'s colt'],
+    fulfillmentKeywords: ['riding upon an ass', 'lowly', 'having salvation'],
+    terms: [],
+  },
+  'joh-12-38': {
+    title: 'Who Hath Believed Our Report?',
+    principle:
+      'John ties Israel\'s unbelief to Isaiah 53:1 — Lord, who hath believed our report? First principle: rejection of Christ was itself foretold; even unbelief fulfills the arm-of-the-LORD prophecy.',
+    sourceKeywords: ['Esaias the prophet', 'who hath believed our report', 'the arm of the Lord'],
+    fulfillmentKeywords: ['who hath believed our report', 'to whom is the arm revealed'],
+    terms: [],
+  },
+  'joh-12-40': {
+    title: 'He Hath Blinded Their Eyes',
+    principle:
+      'Judicial hardening: Isaiah 6 saw this day — eyes that will not see, hearts that will not be converted. First principle: persistent refusal becomes settled blindness; the rejected Light finally seals the choice.',
+    sourceKeywords: ['blinded their eyes', 'hardened their heart', 'be converted', 'I should heal them'],
+    fulfillmentKeywords: ['hear indeed, but understand not', 'make the heart fat'],
+    terms: [],
+  },
+  'joh-13-18': {
+    title: 'He That Eateth Bread with Me Hath Lifted Up His Heel',
+    principle:
+      'At the Last Supper Jesus applies Psalm 41:9 to His betrayer. First principle: treachery at the table was scripted centuries ahead — nothing in the Passion was improvised.',
+    sourceKeywords: ['the scripture may be fulfilled', 'eateth bread with me', 'lifted up his heel'],
+    fulfillmentKeywords: ['mine own familiar friend', 'in whom I trusted'],
+    terms: [],
+  },
+  'joh-15-25': {
+    title: 'They Hated Me Without a Cause',
+    principle:
+      'The world\'s causeless hatred of Christ fulfills Psalm 69:4. First principle: the sinlessness of the Sufferer is proved by the causelessness of the hatred — hatred without charge, foretold in their own law.',
+    sourceKeywords: ['the word might be fulfilled', 'hated me without a cause', 'their law'],
+    fulfillmentKeywords: ['hate me without a cause', 'more than the hairs'],
+    terms: [],
+  },
+  'joh-17-12': {
+    title: 'None of Them Is Lost, but the Son of Perdition',
+    principle:
+      'Christ kept all the Father gave Him except Judas — that the scripture might be fulfilled. First principle: preserving grace is personal and complete; even the apostasy inside the Twelve served written prophecy.',
+    sourceKeywords: ['none of them is lost', 'son of perdition', 'the scripture might be fulfilled'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'joh-19-24': {
+    title: 'They Cast Lots for My Vesture',
+    principle:
+      'The soldiers gamble for the seamless coat — Psalm 22:18 to the letter. First principle: prophecy runs to the smallest detail of the cross, down to a dice game at the foot of it.',
+    sourceKeywords: ['cast lots', 'that the scripture might be fulfilled', 'parted my raiment'],
+    fulfillmentKeywords: ['parted my raiment', 'did cast lots'],
+    terms: [],
+  },
+  'joh-19-28': {
+    title: 'I Thirst',
+    principle:
+      'Knowing all things were now accomplished, Jesus says I thirst — that scripture might be fulfilled. First principle: even the thirst of the cross was written; He asks, receives vinegar, and finishes.',
+    sourceKeywords: ['all things were now accomplished', 'the scripture might be fulfilled', 'I thirst'],
+    fulfillmentKeywords: ['in my thirst', 'vinegar to drink'],
+    terms: [],
+  },
+  'joh-19-36': {
+    title: 'A Bone of Him Shall Not Be Broken',
+    principle:
+      'The soldiers break the thieves\' legs but not Christ\'s — Exodus 12:46 and Psalm 34:20 fulfilled. First principle: the Passover Lamb dies whole; God preserves the integrity of His sacrifice.',
+    sourceKeywords: ['that the scripture should be fulfilled', 'A bone of him shall not be broken'],
+    fulfillmentKeywords: ['not one of them is broken', 'neither shall ye break a bone'],
+    terms: [],
+  },
+  'joh-19-37': {
+    title: 'They Shall Look on Him Whom They Pierced',
+    principle:
+      'John cites Zechariah 12:10 of the spear-thrust. First principle: the pierced One is the LORD Himself in the prophecy — and one day every eye shall look on Him and mourn.',
+    sourceKeywords: ['another scripture saith', 'look on him whom they pierced'],
+    fulfillmentKeywords: ['they shall look upon me', 'whom they have pierced', 'mourn for him'],
+    terms: [],
+  },
+  'joh-20-9': {
+    title: 'He Must Rise Again from the Dead',
+    principle:
+      'The empty tomb stuns the disciples because as yet they knew not the scripture that He must rise. First principle: the third day was written — Psalm 16, Hosea 6, Jonah — before anyone believed it.',
+    sourceKeywords: ['knew not the scripture', 'must rise again from the dead'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Luke ────────────────────────────────────────
+  'luk-1-32': {
+    title: 'The Throne of His Father David',
+    principle:
+      'Gabriel announces the Son of the Highest receiving David\'s throne. First principle: Gabriel fuses 2 Samuel 7 and Isaiah 9 into one announcement — the covenant Son is both God\'s Son and David\'s heir.',
+    sourceKeywords: ['Son of the Highest', 'throne of his father David'],
+    fulfillmentKeywords: ['thy throne shall be established', 'unto us a child is born'],
+    terms: [],
+  },
+  'luk-1-33': {
+    title: 'Of His Kingdom There Shall Be No End',
+    principle:
+      'He shall reign over the house of Jacob for ever. First principle: the Davidic kingdom, cut down like a stump, grows into an everlasting dominion in the Son of Mary.',
+    sourceKeywords: ['reign over the house of Jacob', 'no end'],
+    fulfillmentKeywords: ['he shall reign for ever', 'increase of his government'],
+    terms: [],
+  },
+  'luk-1-69': {
+    title: 'An Horn of Salvation in the House of David',
+    principle:
+      'Zacharias blesses God for raising up an horn of salvation in the house of his servant David. First principle: Hannah\'s horn of His anointed and the Davidic covenant meet in the newborn Christ.',
+    sourceKeywords: ['horn of salvation', 'house of his servant David'],
+    fulfillmentKeywords: ['exalt the horn of his anointed', 'strength unto his king'],
+    terms: [],
+  },
+  'luk-1-76': {
+    title: 'The Prophet of the Highest Preparing His Ways',
+    principle:
+      'Zacharias names his son the prophet of the Highest, going before the Lord to prepare His ways. First principle: Malachi\'s messenger stands in the birth narrative — John is written prophecy made a crying infant.',
+    sourceKeywords: ['prophet of the Highest', 'go before the face of the Lord', 'prepare his ways'],
+    fulfillmentKeywords: ['I send my messenger', 'before thee'],
+    terms: [],
+  },
+  'luk-2-23': {
+    title: 'Every Male That Openeth the Womb',
+    principle:
+      'The presentation obeys the law of the LORD: Every male that openeth the womb shall be called holy. First principle: the Redeemer lives under the law He gave — Exodus 13\'s claim on the firstborn kept to the letter in His own presentation.',
+    sourceKeywords: ['As it is written in the law', 'openeth the womb', 'holy to the Lord'],
+    fulfillmentKeywords: ['Sanctify unto me all the firstborn'],
+    terms: [],
+  },
+  'luk-2-32': {
+    title: 'A Light to Lighten the Gentiles',
+    principle:
+      'Simeon holds the infant and quotes Isaiah: a light to lighten the Gentiles, and the glory of thy people Israel. First principle: salvation prepared before the face of all people is now carried in two arms.',
+    sourceKeywords: ['A light to lighten the Gentiles', 'glory of thy people Israel'],
+    fulfillmentKeywords: ['a light of the Gentiles', 'my salvation'],
+    terms: [],
+  },
+  'luk-3-4': {
+    title: 'The Voice Crying in the Wilderness',
+    principle:
+      'Luke quotes Isaiah 40:3 over John\'s ministry: make his paths straight. First principle: the forerunner is literature before he is a man — the wilderness voice written seven centuries earlier.',
+    sourceKeywords: ['Esaias the prophet', 'voice of one crying in the wilderness', 'make his paths straight'],
+    fulfillmentKeywords: ['prepare ye the way of the LORD', 'every valley shall be exalted'],
+    terms: [],
+  },
+  'luk-4-4': {
+    title: 'Man Shall Not Live by Bread Alone',
+    principle:
+      'Christ answers the tempter from Deuteronomy: man lives by every word of God. First principle: Israel failed in the wilderness; the true Israel wins there by the written Word.',
+    sourceKeywords: ['It is written', 'not live by bread alone', 'every word of God'],
+    fulfillmentKeywords: ['by every word that proceedeth out of the mouth'],
+    terms: [],
+  },
+  'luk-4-8': {
+    title: 'Thou Shalt Worship the Lord Thy God Only',
+    principle:
+      'The kingdoms of the world are refused with Deuteronomy 6:13. First principle: worship is God\'s alone — Christ will take the kingdoms, but by the cross, never by the devil\'s shortcut.',
+    sourceKeywords: ['Get thee behind me, Satan', 'worship the Lord thy God', 'him only shalt thou serve'],
+    fulfillmentKeywords: ['thou shalt fear the LORD thy God', 'serve him'],
+    terms: [],
+  },
+  'luk-4-12': {
+    title: 'Thou Shalt Not Tempt the Lord Thy God',
+    principle:
+      'The third wilderness test — throw Yourself down — is refused with Deuteronomy 6:16. First principle: the Messiah will not manufacture proof of Sonship; Israel tested God at Massah, and the true Israel would not.',
+    sourceKeywords: ['It is said', 'Thou shalt not tempt the Lord thy God'],
+    fulfillmentKeywords: ['Ye shall not tempt the LORD your God', 'as ye tempted him in Massah'],
+    terms: [],
+  },
+  'luk-4-18': {
+    title: 'The Spirit of the Lord Is upon Me',
+    principle:
+      'In Nazareth Jesus reads Isaiah 61 and sits down: This day is this scripture fulfilled. First principle: the clearest self-declared fulfillment in Scripture — anointing, gospel, healing, liberty, all in one sentence.',
+    sourceKeywords: ['The Spirit of the Lord is upon me', 'anointed me to preach the gospel', 'liberty them that are bruised'],
+    fulfillmentKeywords: ['anointed me to preach good tidings', 'proclaim liberty to the captives'],
+    terms: [],
+  },
+  'luk-4-21': {
+    title: 'This Day Is This Scripture Fulfilled',
+    principle:
+      'The eyes of all in the synagogue are fastened on Him as He closes the book. First principle: fulfillment is not merely coming — it stands in the room, today.',
+    sourceKeywords: ['This day is this scripture fulfilled', 'in your ears'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-7-27': {
+    title: 'I Send My Messenger Before Thy Face',
+    principle:
+      'Jesus tells John\'s disciples who He is by deeds, then tells the crowd who John is — Malachi 3:1\'s messenger. First principle: the forerunner\'s identity certifies the identity of the One preceded.',
+    sourceKeywords: ['of whom it is written', 'I send my messenger', 'prepare thy way before thee'],
+    fulfillmentKeywords: ['the messenger of the covenant', 'suddenly come to his temple'],
+    terms: [],
+  },
+  'luk-8-10': {
+    title: 'Unto You It Is Given to Know the Mysteries',
+    principle:
+      'Parables both reveal and conceal — Isaiah 6\'s judicial blindness fulfilled. First principle: the same word softens the willing and hardens the unwilling; the difference is the heart that hears.',
+    sourceKeywords: ['mysteries of the kingdom of God', 'seeing they might not see'],
+    fulfillmentKeywords: ['hear indeed, but understand not', 'make the heart fat'],
+    terms: [],
+  },
+  'luk-18-8': {
+    title: 'Shall He Find Faith on the Earth?',
+    principle:
+      'God will avenge His elect speedily — yet the Son of man asks whether faith will remain. First principle: the end-time question is not whether God will act, but whether anyone is still praying when He does.',
+    sourceKeywords: ['avenge them speedily', 'the Son of man cometh', 'find faith'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-18-31': {
+    title: 'All Things Written Concerning the Son of Man',
+    principle:
+      'Going up to Jerusalem, Jesus says everything written by the prophets concerning the Son of man shall be accomplished — betrayal, mock, scourge, death, resurrection. First principle: the Passion week is the most predicted week in history.',
+    sourceKeywords: ['written by the prophets', 'shall be accomplished', 'Son of man'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-20-17': {
+    title: 'The Stone Which the Builders Rejected',
+    principle:
+      'Jesus quotes Psalm 118 against the chief priests. First principle: the rejected Stone becomes the head of the corner — rejection is the very road to exaltation.',
+    sourceKeywords: ['that is written', 'the builders rejected', 'head of the corner'],
+    fulfillmentKeywords: ['the stone which the builders refused'],
+    terms: [],
+  },
+  'luk-20-42': {
+    title: 'The LORD Said unto My Lord',
+    principle:
+      'David in the Psalms calls his descendant Lord. First principle: Psalm 110 leaves the scribes speechless — the Christ is greater than David, Son yet Sovereign.',
+    sourceKeywords: ['David himself saith', 'The LORD said unto my Lord', 'Sit thou on my right hand'],
+    fulfillmentKeywords: ['The LORD said unto my Lord', 'Sit thou at my right hand'],
+    terms: [],
+  },
+  'luk-21-24': {
+    title: 'Jerusalem Trodden Down Until the Times of the Gentiles',
+    principle:
+      'Destruction, captivity, and a bounded timespan: until the times of the Gentiles be fulfilled. First principle: prophecy gives even Jerusalem\'s humiliation an expiration date.',
+    sourceKeywords: ['led away captive', 'trodden down of the Gentiles', 'times of the Gentiles'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-21-27': {
+    title: 'The Son of Man Coming in a Cloud with Power',
+    principle:
+      'After distress of nations, the Sign appears: the Son of man coming in a cloud with power and great glory. First principle: Daniel 7\'s Son of man receives the kingdom publicly at the end — redemption draweth nigh.',
+    sourceKeywords: ['Son of man coming in a cloud', 'power and great glory', 'redemption draweth nigh'],
+    fulfillmentKeywords: ['one like the Son of man came with the clouds'],
+    terms: [],
+  },
+  'luk-22-37': {
+    title: 'He Was Reckoned Among the Transgressors',
+    principle:
+      'Isaiah 53:12 must be accomplished in Me, says Jesus — numbered with criminals, yet ending the law\'s regime. First principle: Christ dies among the guilty as Scripture said, and the things concerning me have an end.',
+    sourceKeywords: ['this that is written', 'reckoned among the transgressors', 'have an end'],
+    fulfillmentKeywords: ['numbered with the transgressors', 'bare the sin of many'],
+    terms: [],
+  },
+  'luk-24-26': {
+    title: 'Ought Not Christ to Have Suffered These Things?',
+    principle:
+      'The risen Christ teaches that suffering was the required road to glory. First principle: the cross was not an accident of politics but an ought of prophecy.',
+    sourceKeywords: ['Ought not Christ to have suffered', 'enter into his glory'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-24-27': {
+    title: 'Beginning at Moses He Expounded Concerning Himself',
+    principle:
+      'From Moses through all the prophets, Christ expounds the things concerning Himself. First principle: the whole Old Testament is Christological — He is its subject, not its appendix.',
+    sourceKeywords: ['beginning at Moses', 'all the prophets', 'the things concerning himself'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-24-44': {
+    title: 'Law, Prophets, and Psalms Concerning Me',
+    principle:
+      'The risen Lord divides the whole canon — the law of Moses, the prophets, and the psalms — as written concerning Him. First principle: every section of the Old Testament carries the thread of Christ.',
+    sourceKeywords: ['all things must be fulfilled', 'law of Moses', 'psalms, concerning me'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'luk-24-46': {
+    title: 'Thus It Behoved Christ to Suffer and to Rise',
+    principle:
+      'Thus it is written: suffer, rise the third day, and repentance and remission preached among all nations. First principle: the gospel pattern — death, resurrection, worldwide preaching — is itself the fulfillment of Scripture.',
+    sourceKeywords: ['Thus it is written', 'to suffer, and to rise', 'the third day'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Mark ────────────────────────────────────────
+  'mrk-1-2': {
+    title: 'As It Is Written in the Prophets',
+    principle:
+      'Mark opens his gospel by quoting the promise of the messenger — Behold, I send my messenger before thy face. First principle: the good news begins with a prophecy kept.',
+    sourceKeywords: ['As it is written in the prophets', 'my messenger', 'prepare thy way'],
+    fulfillmentKeywords: ['Behold, I will send my messenger'],
+    terms: [],
+  },
+  'mrk-1-3': {
+    title: 'Prepare Ye the Way of the Lord',
+    principle:
+      'Isaiah 40:3 is John\'s job description in the wilderness. First principle: the way prepared is the way of the LORD Himself — John baptizes the God whose road he levels.',
+    sourceKeywords: ['voice of one crying in the wilderness', 'Prepare ye the way of the Lord'],
+    fulfillmentKeywords: ['prepare ye the way of the LORD'],
+    terms: [],
+  },
+  'mrk-1-11': {
+    title: 'Thou Art My Beloved Son',
+    principle:
+      'The voice from heaven at the Jordan joins Psalm 2 and Isaiah 42: Thou art my beloved Son, in whom I am well pleased. First principle: the baptism is a coronation — the anointed Son presented by the Father\'s own word.',
+    sourceKeywords: ['a voice from heaven', 'Thou art my beloved Son', 'well pleased'],
+    fulfillmentKeywords: ['Thou art my Son', 'Behold my servant'],
+    terms: [],
+  },
+  'mrk-1-15': {
+    title: 'The Time Is Fulfilled',
+    principle:
+      'Jesus preaches: The time is fulfilled, and the kingdom of God is at hand. First principle: Daniel\'s clock has run out — prophecy is not merely written, it has arrived, and the answer is repent and believe.',
+    sourceKeywords: ['The time is fulfilled', 'kingdom of God is at hand', 'repent ye, and believe'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'mrk-2-7': {
+    title: 'Who Can Forgive Sins but God Only?',
+    principle:
+      'The scribes ask the right question about the wrong Man. First principle: the forgiveness Christ speaks is a divine prerogative — the healing proves the authority is real.',
+    sourceKeywords: ['speak blasphemies', 'forgive sins but God only'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'mrk-2-27': {
+    title: 'The Sabbath Was Made for Man',
+    principle:
+      'The Sabbath was made for man, and not man for the sabbath: therefore the Son of man is Lord also of it. First principle: the rest-day is a gift from creation week, and its Lord was there when it was made.',
+    sourceKeywords: ['The sabbath was made for man', 'Lord also of the sabbath'],
+    fulfillmentKeywords: ['he rested on the seventh day', 'blessed the sabbath day'],
+    terms: [],
+  },
+  'mrk-7-6': {
+    title: 'This People Honoureth Me with Their Lips',
+    principle:
+      'Jesus applies Isaiah 29 to the tradition-keepers: lips near, heart far. First principle: worship by ordinance while the heart is absent is the prophecy of vain religion, fulfilled in every generation.',
+    sourceKeywords: ['Well hath Esaias prophesied', 'honoureth me with their lips', 'heart is far from me'],
+    fulfillmentKeywords: ['draw near with their mouth', 'their fear toward me is taught'],
+    terms: [],
+  },
+  'mrk-7-10': {
+    title: 'Moses Said, Honour Thy Father and Mother',
+    principle:
+      'Tradition that voids the fifth commandment meets the written law. First principle: the Word of God stands over custom — honour and care for parents is not negotiable by corban.',
+    sourceKeywords: ['For Moses said', 'Honour thy father and thy mother', 'let him die the death'],
+    fulfillmentKeywords: ['Honour thy father and thy mother'],
+    terms: [],
+  },
+  'mrk-9-12': {
+    title: 'Elias Cometh First — and the Son of Man Must Suffer',
+    principle:
+      'Jesus holds two Scriptures together: Elijah restores first, and the Son of man suffers and is set at nought. First principle: glory and suffering are both written; the disciples kept only the glory part.',
+    sourceKeywords: ['Elias verily cometh first', 'restoreth all things', 'he must suffer many things'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'mrk-12-10': {
+    title: 'Have Ye Not Read This Scripture?',
+    principle:
+      'Psalm 118\'s rejected Stone is quoted in the temple courts. First principle: the leaders holding the building reject the cornerstone — and God builds on the Stone they refuse.',
+    sourceKeywords: ['Have ye not read this scripture', 'rejected is become the head of the corner'],
+    fulfillmentKeywords: ['the stone which the builders refused'],
+    terms: [],
+  },
+  'mrk-12-29': {
+    title: 'Hear, O Israel; The Lord Our God Is One Lord',
+    principle:
+      'Asked for the first commandment, Jesus recites the Shema. First principle: undivided love for the one God — heart, soul, mind, strength — is the summary of all law, fulfilled in Christ\'s own devotion.',
+    sourceKeywords: ['The first of all the commandments', 'The Lord our God is one Lord'],
+    fulfillmentKeywords: ['Hear, O Israel'],
+    terms: [],
+  },
+  'mrk-12-36': {
+    title: 'David Said by the Holy Ghost',
+    principle:
+      'Psalm 110 is David\'s Spirit-inspired words about his Lord enthroned till enemies become a footstool. First principle: the Spirit authored prophecy — and it names David\'s Son as David\'s Lord.',
+    sourceKeywords: ['David himself said by the Holy Ghost', 'The LORD said to my Lord', 'footstool'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
+    terms: [],
+  },
+  'mrk-13-14': {
+    title: 'The Abomination of Desolation Spoken by Daniel',
+    principle:
+      'Jesus points readers back to Daniel for the standing desecration in the holy place — then commands flight. First principle: Daniel 8–12 is Jesus\' own reference library for the end; read it before you need it.',
+    sourceKeywords: ['abomination of desolation', 'spoken of by Daniel', 'flee to the mountains'],
+    fulfillmentKeywords: ['take away the daily sacrifice', 'abomination that maketh desolate'],
+    terms: [],
+  },
+  'mrk-13-26': {
+    title: 'Coming in the Clouds with Great Power and Glory',
+    principle:
+      'The Son of man appears as Daniel 7 saw Him — in the clouds with power and great glory, gathering His elect. First principle: the second coming is Daniel 7 with the sky torn open.',
+    sourceKeywords: ['see the Son of man coming in the clouds', 'great power and glory'],
+    fulfillmentKeywords: ['one like the Son of man', 'came with the clouds of heaven'],
+    terms: [],
+  },
+  'mrk-14-27': {
+    title: 'I Will Smite the Shepherd',
+    principle:
+      'On the way to Gethsemane Jesus quotes Zechariah 13:7 — smite the shepherd, and the sheep scatter. First principle: even the disciples\' panic was in the script; the smitten Shepherd is the LORD\'s own Fellow.',
+    sourceKeywords: ['All ye shall be offended', 'it is written', 'smite the shepherd', 'sheep shall be scattered'],
+    fulfillmentKeywords: ['smite the shepherd', 'the sheep shall be scattered'],
+    terms: [],
+  },
+  'mrk-15-34': {
+    title: 'My God, My God, Why Hast Thou Forsaken Me?',
+    principle:
+      'The ninth-hour cry opens Psalm 22 on the cross. First principle: the forsakenness is real and foretold — the righteous Sufferer bears abandonment so the forsaken need never be alone.',
+    sourceKeywords: ['ninth hour', 'Eloi, Eloi, lama sabachthani', 'why hast thou forsaken me'],
+    fulfillmentKeywords: ['My God, my God, why hast thou forsaken me'],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Acts ────────────────────────────────────────
+  'act-1-8': {
+    title: 'Witnesses unto the Uttermost Part of the Earth',
+    principle:
+      'Power from the Holy Ghost sends witnesses from Jerusalem to the ends of the earth. First principle: Isaiah 49\'s salvation-to-the-ends becomes the church\'s marching order — the Spirit is the engine of prophecy.',
+    sourceKeywords: ['receive power', 'the Holy Ghost is come upon you', 'uttermost part of the earth'],
+    fulfillmentKeywords: ['my salvation unto the end of the earth'],
+    terms: [],
+  },
+  'act-1-11': {
+    title: 'This Same Jesus Shall So Come',
+    principle:
+      'The angels fix the ascension as the pattern of return: this same Jesus shall so come in like manner. First principle: the clouds that received Him are the clouds that will bring Him — Zechariah 14\'s Olivet schedule holds.',
+    sourceKeywords: ['shall so come in like manner', 'taken up from you into heaven', 'men of Galilee'],
+    fulfillmentKeywords: ['his feet shall stand', 'upon the mount of Olives'],
+    terms: [],
+  },
+  'act-1-16': {
+    title: 'This Scripture Must Needs Have Been Fulfilled',
+    principle:
+      'Peter reads Judas\'s betrayal from David\'s own words. First principle: even treachery inside the Twelve moved along rails Scripture had already laid.',
+    sourceKeywords: ['this scripture must needs have been fulfilled', 'by the mouth of David', 'concerning Judas'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'act-1-20': {
+    title: 'His Bishoprick Let Another Take',
+    principle:
+      'Psalm 69 and 109 govern the choice of a twelfth witness — habitation desolate, another takes his office. First principle: the apostles resolve even church order by written prophecy.',
+    sourceKeywords: ['it is written in the book of Psalms', 'let his habitation be desolate', 'let another take'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'act-2-17': {
+    title: 'I Will Pour Out of My Spirit in the Last Days',
+    principle:
+      'Peter opens Joel 2 at Pentecost: sons and daughters prophesy, young men see visions. First principle: the last days begin at the cross and the Spirit — the prophecy Peter quotes is still running.',
+    sourceKeywords: ['in the last days', 'pour out of my Spirit upon all flesh', 'dream dreams'],
+    fulfillmentKeywords: ['I will pour out my spirit upon all flesh', 'prophesy'],
+    terms: [],
+  },
+  'act-2-34': {
+    title: 'David Is Not Ascended — but He Said',
+    principle:
+      'Peter argues from Psalm 110: David did not ascend, yet spoke of enthronement — fulfilled in Jesus. First principle: the prophecy outruns its author; the Lord at God\'s right hand is David\'s Son.',
+    sourceKeywords: ['David is not ascended', 'The LORD said unto my Lord', 'Sit thou on my right hand'],
+    fulfillmentKeywords: ['Sit thou at my right hand'],
+    terms: [],
+  },
+  'act-3-18': {
+    title: 'What God Before Had Shewed by the Prophets',
+    principle:
+      'The sufferings of Christ were shewn by all the prophets beforehand — and God hath so fulfilled them. First principle: the cross is God\'s foretold plan, executed on schedule through guilty hands.',
+    sourceKeywords: ['God before had shewed', 'that Christ should suffer', 'he hath so fulfilled'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'act-3-25': {
+    title: 'In Thy Seed Shall All Kindreds Be Blessed',
+    principle:
+      'Peter preaches to Israel as children of the covenant — Abraham\'s seed blessing all kindreds. First principle: the gospel to Jerusalem is Genesis 12 arriving on schedule, first to the covenant family.',
+    sourceKeywords: ['children of the prophets', 'covenant', 'in thy seed shall all the kindreds'],
+    fulfillmentKeywords: ['in thy seed shall all the nations'],
+    terms: [],
+  },
+  'act-4-11': {
+    title: 'Set at Nought of You Builders',
+    principle:
+      'Peter, standing in the Sanhedrin, quotes the Stone psalm against the builders themselves. First principle: salvation is in no other name — the Stone you rejected is the only foundation God laid.',
+    sourceKeywords: ['set at nought of you builders', 'head of the corner', 'no other name'],
+    fulfillmentKeywords: ['the stone which the builders refused'],
+    terms: [],
+  },
+  'act-4-26': {
+    title: 'Against the Lord, and Against His Christ',
+    principle:
+      'The church prays Psalm 2 over the threats of rulers: kings stood up, rulers gathered — against the Lord and His Christ. First principle: opposition to the gospel is the prophesied rage of kings; the heavens answer with boldness, not retreat.',
+    sourceKeywords: ['kings of the earth stood up', 'against his Christ', 'with one accord'],
+    fulfillmentKeywords: ['Why do the heathen rage', 'kings of the earth set themselves'],
+    terms: [],
+  },
+  'act-7-3': {
+    title: 'Get Thee Out of Thy Country',
+    principle:
+      'Stephen recounts the call of Abraham: leave kindred, come into the land I shew thee. First principle: the covenant story begins with a departure on promise — faith walks before it sees.',
+    sourceKeywords: ['Get thee out of thy country', 'the land which I shall shew thee'],
+    fulfillmentKeywords: ['Get thee out of thy country'],
+    terms: [],
+  },
+  'act-7-7': {
+    title: 'The Nation Will I Judge — Then Come Forth',
+    principle:
+      'God tells Abraham of bondage, judgment, and a fourth-generation exodus. First principle: prophecy names the oppression and its end before either exists — and God keeps the calendar.',
+    sourceKeywords: ['will I judge', 'after that shall they come forth', 'serve me in this place'],
+    fulfillmentKeywords: ['I will judge', 'come out with great substance'],
+    terms: [],
+  },
+  'act-7-32': {
+    title: 'I Am the God of Abraham, Isaac, and Jacob',
+    principle:
+      'At the bush, God names Himself the God of the patriarchs — and Moses trembles. First principle: the covenant God binds Himself to generations; the resurrection hope is folded into His very self-identification.',
+    sourceKeywords: ['I am the God of thy fathers', 'God of Abraham', 'Moses trembled'],
+    fulfillmentKeywords: ['I am the God of thy father'],
+    terms: [],
+  },
+  'act-7-37': {
+    title: 'A Prophet Like unto Me, Him Shall Ye Hear',
+    principle:
+      'Stephen quotes Deuteronomy 18 and applies it: the Prophet God would raise up has come. First principle: Deuteronomy 18 is a messianic office, and refusing to hear Him is the judgment it warns of.',
+    sourceKeywords: ['A prophet shall the Lord your God raise up', 'like unto me', 'him shall ye hear'],
+    fulfillmentKeywords: ['I will raise them up a Prophet', 'like unto thee'],
+    terms: [],
+  },
+  'act-7-49': {
+    title: 'Heaven Is My Throne, Earth My Footstool',
+    principle:
+      'Stephen closes with Isaiah 66: the Most High dwells not in temples made with hands. First principle: God cannot be housed — the accusation against the temple is that its makers trusted the building, not the Presence.',
+    sourceKeywords: ['Heaven is my throne', 'earth is my footstool', 'what house will ye build me'],
+    fulfillmentKeywords: ['heaven is my throne', 'the earth is my footstool'],
+    terms: [],
+  },
+  'act-7-50': {
+    title: 'Hath Not My Hand Made All These Things?',
+    principle:
+      'The Maker of all needs no house of stone. First principle: creation precedes temple; the God whose hand made everything cannot be contained by anything His hand has made.',
+    sourceKeywords: ['Hath not my hand made', 'all these things'],
+    fulfillmentKeywords: ['my hand made all these things'],
+    terms: [],
+  },
+  'act-8-32': {
+    title: 'Led as a Sheep to the Slaughter',
+    principle:
+      'The Ethiopian eunuch reads Isaiah 53; Philip preaches Jesus from that very text. First principle: Isaiah 53 is the key that opens the Old Testament — and Philip uses it for personal evangelism.',
+    sourceKeywords: ['The place of the scripture', 'led as a sheep to the slaughter', 'opened he not his mouth'],
+    fulfillmentKeywords: ['he is brought as a lamb', 'dumb before his shearers'],
+    terms: [],
+  },
+  'act-10-43': {
+    title: 'To Him Give All the Prophets Witness',
+    principle:
+      'Peter\'s summary to Cornelius: all the prophets witness that through Christ\'s name whosoever believeth receives remission of sins. First principle: the prophetic corpus has one subject and one offer — forgiveness through the Name.',
+    sourceKeywords: ['all the prophets witness', 'through his name', 'whosoever believeth'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'act-13-33': {
+    title: 'Thou Art My Son; This Day Have I Begotten Thee',
+    principle:
+      'Paul reads Psalm 2 of the resurrection: God fulfilled the promise by raising Jesus. First principle: the resurrection is the enthronement decree — begotten again, as firstborn from the dead.',
+    sourceKeywords: ['raised up Jesus again', 'in the second psalm', 'this day have I begotten thee'],
+    fulfillmentKeywords: ['Thou art my Son', 'this day have I begotten thee'],
+    terms: [],
+  },
+  'act-13-34': {
+    title: 'The Sure Mercies of David',
+    principle:
+      'Isaiah 55\'s sure mercies are read of the Holy One who sees no corruption. First principle: the covenant mercies promised to David are delivered as an incorruptible, risen Savior.',
+    sourceKeywords: ['raised him up from the dead', 'return to corruption', 'sure mercies of David'],
+    fulfillmentKeywords: ['I will make an everlasting covenant', 'sure mercies of David'],
+    terms: [],
+  },
+  'act-13-47': {
+    title: 'I Have Set Thee to Be a Light of the Gentiles',
+    principle:
+      'Paul and Barnabas quote Isaiah 49 as their commission to turn to the Gentiles. First principle: the Servant\'s worldwide salvation is carried forward by His witnesses — ordained for eternal life, not an afterthought.',
+    sourceKeywords: ['the Lord hath commanded us', 'a light of the Gentiles', 'salvation unto the ends of the earth'],
+    fulfillmentKeywords: ['a light to the Gentiles', 'end of the earth'],
+    terms: [],
+  },
+  'act-15-16': {
+    title: 'I Will Build Again the Tabernacle of David',
+    principle:
+      'James settles the Gentile question with Amos: God returns and rebuilds David\'s fallen booth so the residue of men may seek the Lord. First principle: Gentile inclusion is not a plan B — it is the rebuilt tabernacle, prophesied.',
+    sourceKeywords: ['After this I will return', 'tabernacle of David, which is fallen down', 'I will set it up'],
+    fulfillmentKeywords: ['raise up the tabernacle of David'],
+    terms: [],
+  },
+  'act-17-31': {
+    title: 'He Will Judge the World by That Man Whom He Hath Ordained',
+    principle:
+      'God has fixed a day and a Judge, giving assurance to all by raising Him from the dead. First principle: the resurrection is the receipt of future judgment — the ordained Man will judge in righteousness.',
+    sourceKeywords: ['appointed a day', 'judge the world in righteousness', 'he hath raised him from the dead'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'act-28-26': {
+    title: 'Hearing Ye Shall Hear, and Shall Not Understand',
+    principle:
+      'Paul closes Acts with Isaiah 6 over the Jews in Rome: hearing, not perceiving — and turns to the Gentiles, who will hear. First principle: the book that opened with Israel ends with the light going to the nations, exactly as written.',
+    sourceKeywords: ['Go unto this people', 'Hearing ye shall hear', 'not perceive'],
+    fulfillmentKeywords: ['hear indeed, and understand not', 'see ye indeed, but perceive not'],
+    terms: [],
+  },
+  // ── Hand-written expansion: Matthew ─────────────────────────────────────
+  'mat-1-1': {
+    title: 'The Son of David, the Son of Abraham',
+    principle:
+      'Matthew\'s first line indexes the whole book: Jesus Christ is David\'s royal heir and Abraham\'s promised Seed. First principle: the two great covenant threads — kingship and worldwide blessing — open the genealogy.',
+    sourceKeywords: ['generation of Jesus Christ', 'son of David', 'son of Abraham'],
+    fulfillmentKeywords: ['thy seed', 'I will establish the throne'],
+    terms: [],
+  },
+  'mat-2-2': {
+    title: 'Where Is He That Is Born King of the Jews?',
+    principle:
+      'Magi follow His star from the east to worship the newborn King. First principle: Balaam\'s Star out of Jacob and Isaiah\'s nations coming to His light begin their fulfillment with Gentile pilgrims and a celestial sign.',
+    sourceKeywords: ['born King of the Jews', 'seen his star in the east', 'worship him'],
+    fulfillmentKeywords: ['a Star out of Jacob', 'nations shall come to thy light'],
+    terms: [],
+  },
+  'mat-2-15': {
+    title: 'Out of Egypt Have I Called My Son',
+    principle:
+      'The flight and return fulfill Hosea 11:1. First principle: Israel\'s history is prophetic pattern — the Son relives the nation\'s exodus, embodying what Israel could only foreshadow.',
+    sourceKeywords: ['that it might be fulfilled', 'Out of Egypt have I called my son'],
+    fulfillmentKeywords: ['called my son out of Egypt'],
+    terms: [],
+  },
+  'mat-2-18': {
+    title: 'Rachel Weeping for Her Children',
+    principle:
+      'Herod\'s massacre fulfills Jeremiah 31:15 at Ramah\'s border. First principle: even the grief of Bethlehem was written — and the same chapter that weeps promises the new covenant.',
+    sourceKeywords: ['lamentation, and weeping', 'Rachel weeping for her children', 'would not be comforted'],
+    fulfillmentKeywords: ['Rahel weeping for her children', 'refused to be comforted'],
+    terms: [],
+  },
+  'mat-2-23': {
+    title: 'He Shall Be Called a Nazarene',
+    principle:
+      'Settling in Nazareth fulfills the prophets\' pattern of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner — contempt of Nazareth is itself consonant with prophecy.',
+    sourceKeywords: ['dwelt in a city called Nazareth', 'spoken by the prophets', 'a Nazarene'],
+    fulfillmentKeywords: ['a Branch grow out of his roots'],
+    terms: [],
+  },
+  'mat-3-3': {
+    title: 'The Voice of One Crying in the Wilderness',
+    principle:
+      'John is Isaiah 40:3 in person — the preparer of the Lord\'s way. First principle: before the King comes, the road is preached; repentance is the leveling of valleys.',
+    sourceKeywords: ['spoken of by the prophet Esaias', 'voice of one crying in the wilderness', 'make his paths straight'],
+    fulfillmentKeywords: ['prepare ye the way of the LORD'],
+    terms: [],
+  },
+  'mat-3-17': {
+    title: 'This Is My Beloved Son',
+    principle:
+      'The Father\'s voice joins Psalm 2\'s decree to Isaiah 42\'s delight in the Servant. First principle: Son and Servant are one Person — crowned King and gentle Redeemer in a single sentence from heaven.',
+    sourceKeywords: ['a voice from heaven', 'This is my beloved Son', 'in whom I am well pleased'],
+    fulfillmentKeywords: ['Thou art my Son', 'Behold my servant'],
+    terms: [],
+  },
+  'mat-4-6': {
+    title: 'He Shall Give His Angels Charge Concerning Thee',
+    principle:
+      'Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture — but omits to tempt the Lord thy God; promise twisted becomes presumption.',
+    sourceKeywords: ['If thou be the Son of God', 'He shall give his angels charge', 'bear thee up'],
+    fulfillmentKeywords: ['he shall give his angels charge over thee'],
+    terms: [],
+  },
+  'mat-4-7': {
+    title: 'Thou Shalt Not Tempt the Lord Thy God',
+    principle:
+      'Jesus answers the second temptation with Deuteronomy 6:16 — It is written again. First principle: Scripture balances Scripture; faith trusts God without forcing Him to prove Himself.',
+    sourceKeywords: ['It is written again', 'Thou shalt not tempt the Lord thy God'],
+    fulfillmentKeywords: ['Ye shall not tempt the LORD your God'],
+    terms: [],
+  },
+  'mat-4-10': {
+    title: 'Thou Shalt Worship the Lord Thy God Only',
+    principle:
+      'The kingdoms-for-worship trade is refused with Deuteronomy 6:13. First principle: God alone receives worship — Christ wins the kingdoms legally at Calvary instead of illegally at the mountain.',
+    sourceKeywords: ['Get thee hence, Satan', 'worship the Lord thy God', 'him only shalt thou serve'],
+    fulfillmentKeywords: ['him shalt thou serve'],
+    terms: [],
+  },
+  'mat-4-14': {
+    title: 'That It Might Be Fulfilled by Esaias',
+    principle:
+      'Matthew marks the move to Capernaum as Isaiah 9 underway. First principle: geography is prophecy — where the Light chooses to shine was written before the move.',
+    sourceKeywords: ['that it might be fulfilled', 'Esaias the prophet', 'Galilee'],
+    fulfillmentKeywords: ['the land of Zebulun', 'way of the sea'],
+    terms: [],
+  },
+  'mat-4-16': {
+    title: 'The People Which Sat in Darkness Saw Great Light',
+    principle:
+      'Isaiah 9:2 fulfilled over Galilee: light sprung up in death\'s shadow. First principle: dawn begins where darkness sat longest — and from that light the kingdom is preached.',
+    sourceKeywords: ['sat in darkness', 'saw great light', 'light is sprung up'],
+    fulfillmentKeywords: ['the people that walked in darkness', 'seen a great light'],
+    terms: [],
+  },
+  'mat-5-3': {
+    title: 'Blessed Are the Poor in Spirit',
+    principle:
+      'The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes are Isaiah 61\'s good-news-to-the-meek restated as covenant blessings — the anointed One now preaches His own charter.',
+    sourceKeywords: ['Blessed are the poor in spirit', 'kingdom of heaven'],
+    fulfillmentKeywords: ['preach good tidings unto the meek', 'bind up the brokenhearted'],
+    terms: [],
+  },
+  'mat-5-5': {
+    title: 'Blessed Are the Meek, for They Inherit the Earth',
+    principle:
+      'Psalm 37:11 is folded into the Beatitudes verbatim. First principle: the earth is inherited not by grasp but by meekness — the psalm\'s order of the kingdom, kept by the meek King.',
+    sourceKeywords: ['Blessed are the meek', 'inherit the earth'],
+    fulfillmentKeywords: ['the meek shall inherit the earth', 'delight thyself in the LORD'],
+    terms: [],
+  },
+  'mat-5-8': {
+    title: 'Blessed Are the Pure in Heart, for They Shall See God',
+    principle:
+      'Psalm 24\'s ascent question — who shall ascend into the hill of the LORD? — answered in beatitude form. First principle: the clean hands and pure heart that see God are given, not earned; Christ is the open vision.',
+    sourceKeywords: ['Blessed are the pure in heart', 'they shall see God'],
+    fulfillmentKeywords: ['pure heart', 'who shall ascend into the hill'],
+    terms: [],
+  },
+  'mat-5-17': {
+    title: 'I Am Not Come to Destroy, but to Fulfil',
+    principle:
+      'The law and prophets stand until all is fulfilled — in Him. First principle: Christ is the law\'s goal, not its opponent; every jot and tittle finds its meaning in His obedience and teaching.',
+    sourceKeywords: ['destroy the law, or the prophets', 'but to fulfil', 'one jot or one tittle'],
+    fulfillmentKeywords: ['I delight to do thy will', 'the law is in his heart'],
+    terms: [],
+  },
+  'mat-5-21': {
+    title: 'Ye Have Heard... Thou Shalt Not Kill',
+    principle:
+      'The sixth commandment is deepened to include causeless anger. First principle: the law written on stone Christ writes on the heart — obedience becomes a matter of the temper, not merely the act.',
+    sourceKeywords: ['said of them of old time', 'Thou shalt not kill', 'without a cause'],
+    fulfillmentKeywords: ['Thou shalt not kill'],
+    terms: [],
+  },
+  'mat-5-27': {
+    title: 'Thou Shalt Not Commit Adultery',
+    principle:
+      'The seventh commandment reaches the look of lust. First principle: the covenant law governs the inner man; purity of heart is the truest chastity.',
+    sourceKeywords: ['Thou shalt not commit adultery', 'looketh on a woman'],
+    fulfillmentKeywords: ['Thou shalt not commit adultery'],
+    terms: [],
+  },
+  'mat-5-33': {
+    title: 'Thou Shalt Not Forswear Thyself',
+    principle:
+      'Oath-law from Leviticus and Numbers is restored to simplicity: yes and no. First principle: truthfulness needs no sworn scaffolding — the law\'s aim is a heart whose word is always true.',
+    sourceKeywords: ['Thou shalt not forswear thyself', 'perform unto the Lord thine oaths'],
+    fulfillmentKeywords: ['thou shalt not take the name of the LORD in vain'],
+    terms: [],
+  },
+  'mat-5-38': {
+    title: 'An Eye for an Eye, and a Tooth for a Tooth',
+    principle:
+      'The lex talionis was a judge\'s limit on vengeance; Jesus turns the other cheek. First principle: civil justice restrains evil, but the disciple\'s personal rule is grace that absorbs wrong.',
+    sourceKeywords: ['An eye for an eye', 'a tooth for a tooth'],
+    fulfillmentKeywords: ['eye for an eye', 'life for life'],
+    terms: [],
+  },
+  'mat-5-43': {
+    title: 'Love Thy Neighbour — and Hate Thine Enemy',
+    principle:
+      'Leviticus 19:18 stands; the appended hatred was never written. First principle: the law\'s love was always meant to reach the enemy — love for neighbour is defined by God, not by proximity.',
+    sourceKeywords: ['Thou shalt love thy neighbour', 'hate thine enemy'],
+    fulfillmentKeywords: ['thou shalt love thy neighbour as thyself'],
+    terms: [],
+  },
+  'mat-8-17': {
+    title: 'Himself Took Our Infirmities',
+    principle:
+      'Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the atonement\'s compassion touches body as well as soul; the Sin-Bearer carries the whole burden of the fall.',
+    sourceKeywords: ['that it might be fulfilled', 'took our infirmities', 'bare our sicknesses'],
+    fulfillmentKeywords: ['bare our sicknesses', 'carried our sorrows'],
+    terms: [],
+  },
+  'mat-9-13': {
+    title: 'I Will Have Mercy, and Not Sacrifice',
+    principle:
+      'Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the law\'s own heart — God\'s priority is covenant love, and He extends it to sinners at table.',
+    sourceKeywords: ['go ye and learn what that meaneth', 'I will have mercy, and not sacrifice'],
+    fulfillmentKeywords: ['I desired mercy, and not sacrifice', 'knowledge of God more than burnt offerings'],
+    terms: [],
+  },
+  'mat-11-10': {
+    title: 'Behold, I Send My Messenger Before Thy Face',
+    principle:
+      'John is Malachi 3:1\'s messenger, identified by Jesus Himself. First principle: the forerunner prophecy anchors the Messiah\'s arrival in history — two figures, one written plan.',
+    sourceKeywords: ['of whom it is written', 'I send my messenger before thy face', 'prepare thy way'],
+    fulfillmentKeywords: ['Behold, I will send my messenger'],
+    terms: [],
+  },
+  'mat-12-7': {
+    title: 'If Ye Had Known What This Meaneth',
+    principle:
+      'Mercy over sacrifice, again from Hosea — the guiltless are condemned by ritualists. First principle: Sabbath and sacrament serve mercy; the Lord of the Sabbath defines the weightier matter.',
+    sourceKeywords: ['if ye had known what this meaneth', 'I will have mercy, and not sacrifice', 'the guiltless'],
+    fulfillmentKeywords: ['I desired mercy, and not sacrifice'],
+    terms: [],
+  },
+  'mat-12-17': {
+    title: 'That It Might Be Fulfilled by Esaias the Prophet',
+    principle:
+      'Matthew quotes the Servant Song as the key to Christ\'s withdrawn, gentle ministry. First principle: Messiah\'s manner — no striving, no breaking bruised reeds — was as prophesied as His miracles.',
+    sourceKeywords: ['that it might be fulfilled', 'Esaias the prophet'],
+    fulfillmentKeywords: ['Behold my servant', 'a bruised reed shall he not break'],
+    terms: [],
+  },
+  'mat-12-18': {
+    title: 'Behold My Servant, Whom I Have Chosen',
+    principle:
+      'Isaiah 42:1 quoted nearly verbatim: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the Baptism voice and the Servant Song are the same appointment.',
+    sourceKeywords: ['Behold my servant, whom I have chosen', 'judgment to the Gentiles', 'well pleased'],
+    fulfillmentKeywords: ['Behold my servant, whom I uphold', 'mine elect'],
+    terms: [],
+  },
+  'mat-12-40': {
+    title: 'As Jonas Was Three Days and Three Nights',
+    principle:
+      'The sign of Jonah: entombment and emergence after three days. First principle: the resurrection was given as the standing sign to a doubting generation — and it is still the only sign that matters.',
+    sourceKeywords: ['as Jonas was three days', 'in the whale\'s belly', 'so shall the Son of man be'],
+    fulfillmentKeywords: ['in the belly of the fish', 'three days and three nights'],
+    terms: [],
+  },
+  'mat-13-14': {
+    title: 'In Them Is Fulfilled the Prophecy of Esaias',
+    principle:
+      'Isaiah 6\'s hardening is fulfilled in parable-hearing Israel. First principle: revelation resisted becomes judicial dullness — hearing without understanding is a judgment, not an accident.',
+    sourceKeywords: ['in them is fulfilled', 'By hearing ye shall hear', 'shall not understand'],
+    fulfillmentKeywords: ['Go, and tell this people', 'hear ye indeed'],
+    terms: [],
+  },
+  'mat-13-35': {
+    title: 'I Will Open My Mouth in Parables',
+    principle:
+      'Psalm 78\'s Asaph is quoted of Jesus\' parabolic teaching — secrets kept from the foundation of the world now uttered in stories. First principle: the parables are themselves prophecy fulfilled — old words finding final voice.',
+    sourceKeywords: ['that it might be fulfilled', 'I will open my mouth in parables', 'kept secret from the foundation'],
+    fulfillmentKeywords: ['I will open my mouth in a parable', 'dark sayings of old'],
+    terms: [],
+  },
+  'mat-15-4': {
+    title: 'For God Commanded, Honour Thy Father and Mother',
+    principle:
+      'The fifth commandment is set against corban tradition. First principle: God\'s commandment, not human convention, defines honor — and tradition that cancels it is null.',
+    sourceKeywords: ['For God commanded', 'Honour thy father and mother', 'let him die the death'],
+    fulfillmentKeywords: ['Honour thy father and thy mother'],
+    terms: [],
+  },
+  'mat-15-8': {
+    title: 'This People Draweth Nigh unto Me with Their Mouth',
+    principle:
+      'Isaiah 29:13 again: lips close, heart far; doctrine taught as the commandments of men. First principle: proximity of vocabulary is not nearness of heart — vain worship can quote Scripture fluently.',
+    sourceKeywords: ['draweth nigh unto me with their mouth', 'honoureth me with their lips', 'heart is far from me'],
+    fulfillmentKeywords: ['draw near with their mouth', 'removed their heart far from me'],
+    terms: [],
+  },
+  'mat-17-5': {
+    title: 'Hear Ye Him',
+    principle:
+      'On the mount of transfiguration the Father repeats the Baptism formula and adds the Deuteronomic command: hear ye Him. First principle: the Prophet like Moses is present — hear Him above Moses and Elijah themselves.',
+    sourceKeywords: ['a voice out of the cloud', 'This is my beloved Son', 'hear ye him'],
+    fulfillmentKeywords: ['Unto him ye shall hearken', 'Thou art my Son'],
+    terms: [],
+  },
+  'mat-19-4': {
+    title: 'He Which Made Them at the Beginning',
+    principle:
+      'On divorce, Jesus appeals to creation order — male and female from the beginning. First principle: Genesis is the standing authority for marriage; the Creator\'s original design settles the question.',
+    sourceKeywords: ['Have ye not read', 'made them at the beginning', 'male and female'],
+    fulfillmentKeywords: ['male and female created he them'],
+    terms: [],
+  },
+  'mat-19-5': {
+    title: 'They Twain Shall Be One Flesh',
+    principle:
+      'Genesis 2:24 is quoted as God\'s own speech about marriage. First principle: the one-flesh bond is a creation ordinance — what God joined, no committee or custom may sever.',
+    sourceKeywords: ['leave father and mother', 'one flesh'],
+    fulfillmentKeywords: ['they shall be one flesh'],
+    terms: [],
+  },
+  'mat-19-18': {
+    title: 'Thou Shalt Do No Murder',
+    principle:
+      'To the rich young ruler Jesus cites the Decalogue\'s table of love. First principle: the law was never a ladder to heaven but a mirror for the neighbor — and its full weight is love.',
+    sourceKeywords: ['Thou shalt do no murder', 'Thou shalt not steal', 'bear false witness'],
+    fulfillmentKeywords: ['Thou shalt not kill', 'Thou shalt not steal'],
+    terms: [],
+  },
+  'mat-21-5': {
+    title: 'Thy King Cometh unto Thee, Meek',
+    principle:
+      'Zechariah 9:9 and Isaiah 62:11 are joined at the triumphal entry. First principle: salvation comes riding a donkey — meekness is not the absence of majesty but its manner.',
+    sourceKeywords: ['Tell ye the daughter of Sion', 'thy King cometh unto thee', 'sitting upon an ass'],
+    fulfillmentKeywords: ['riding upon an ass', 'thy salvation cometh'],
+    terms: [],
+  },
+  'mat-21-13': {
+    title: 'My House Shall Be Called the House of Prayer',
+    principle:
+      'Isaiah 56 for all nations versus Jeremiah 7\'s den of thieves. First principle: the temple\'s purpose is prayer for the nations — commerce that excludes them makes it a robbers\' cave.',
+    sourceKeywords: ['It is written', 'house of prayer', 'den of thieves'],
+    fulfillmentKeywords: ['house of prayer for all people', 'den of robbers'],
+    terms: [],
+  },
+  'mat-21-16': {
+    title: 'Out of the Mouth of Babes and Sucklings',
+    principle:
+      'Children\'s Hosannas fulfill Psalm 8:2 — perfected praise. First principle: God ordains praise from the least; when critics object, the psalm answers.',
+    sourceKeywords: ['Out of the mouth of babes', 'thou hast perfected praise'],
+    fulfillmentKeywords: ['out of the mouth of babes', 'hast thou ordained strength'],
+    terms: [],
+  },
+  'mat-21-42': {
+    title: 'Did Ye Never Read in the Scriptures?',
+    principle:
+      'Psalm 118 and Isaiah 28 converge on the rejected Stone. First principle: the kingdom is taken from those who will not build on God\'s Stone and given to a nation bringing forth fruit.',
+    sourceKeywords: ['Did ye never read in the scriptures', 'the builders rejected', 'head of the corner'],
+    fulfillmentKeywords: ['the stone which the builders refused', 'a sure foundation'],
+    terms: [],
+  },
+  'mat-22-32': {
+    title: 'God Is Not the God of the Dead, but of the Living',
+    principle:
+      'I AM the God of Abraham — covenant grammar implies resurrection. First principle: God\'s relationship to His saints cannot terminate in the grave; the patriarchs live to Him.',
+    sourceKeywords: ['I am the God of Abraham', 'not the God of the dead', 'but of the living'],
+    fulfillmentKeywords: ['I am the God of thy father', 'I AM THAT I AM'],
+    terms: [],
+  },
+  'mat-22-37': {
+    title: 'Thou Shalt Love the Lord Thy God',
+    principle:
+      'The Shema plus Leviticus 19:18 hang all the law and prophets. First principle: love for God and neighbor is the law distilled — not a replacement of commandments but their heart.',
+    sourceKeywords: ['love the Lord thy God', 'all thy heart', 'all the law and the prophets'],
+    fulfillmentKeywords: ['thou shalt love the LORD thy God', 'with all thine heart'],
+    terms: [],
+  },
+  'mat-22-44': {
+    title: 'The LORD Said unto My Lord',
+    principle:
+      'Psalm 110 silences the Sadducees and scribes: David\'s Lord sits at God\'s right hand. First principle: Christ\'s lordship over David is the key to His person — Son by birth, Lord by throne.',
+    sourceKeywords: ['The LORD said unto my Lord', 'Sit thou on my right hand', 'footstool'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
+    terms: [],
+  },
+  'mat-24-15': {
+    title: 'The Abomination of Desolation, Spoken of by Daniel',
+    principle:
+      'Jesus names Daniel as the read-ahead for the temple\'s desolation. First principle: apocalyptic reading is Jesus\' own preparation plan — whoso readeth, let him understand.',
+    sourceKeywords: ['abomination of desolation', 'spoken of by Daniel the prophet', 'stand in the holy place'],
+    fulfillmentKeywords: ['abomination that maketh desolate', 'take away the daily sacrifice'],
+    terms: [],
+  },
+  'mat-24-21': {
+    title: 'Great Tribulation, Such as Was Not Since the Beginning',
+    principle:
+      'Daniel 12\'s unparalleled time of trouble is quoted for the coming climax. First principle: the tribulation has a named intensity and a named limit — for the elect\'s sake those days are shortened.',
+    sourceKeywords: ['great tribulation', 'such as was not since the beginning', 'should be shortened'],
+    fulfillmentKeywords: ['a time of trouble', 'such as never was since there was a nation'],
+    terms: [],
+  },
+  'mat-24-31': {
+    title: 'His Angels with a Great Sound of a Trumpet',
+    principle:
+      'The elect are gathered from the four winds — Isaiah 27\'s trumpet and Deuteronomy 30\'s regathering. First principle: the same trumpet that scattered Israel\'s promises gathers Christ\'s elect; no elect one is left behind.',
+    sourceKeywords: ['great sound of a trumpet', 'gather together his elect', 'from the four winds'],
+    fulfillmentKeywords: ['shall be gathered', 'from the uttermost part of the earth'],
+    terms: [],
+  },
+  'mat-26-28': {
+    title: 'This Is My Blood of the New Testament',
+    principle:
+      'The cup quotes Jeremiah 31 and applies Exodus 24: blood-sealed covenant, remission of sins. First principle: the new covenant is not inked but bled — and the Supper is its ongoing memorial.',
+    sourceKeywords: ['my blood of the new testament', 'shed for many', 'remission of sins'],
+    fulfillmentKeywords: ['I will make a new covenant', 'I will forgive their iniquity'],
+    terms: [],
+  },
+  'mat-26-31': {
+    title: 'I Will Smite the Shepherd, and the Sheep Scatter',
+    principle:
+      'Zechariah 13:7 quoted over Gethsemane\'s night. First principle: the sword of the LORD wakes against the Shepherd who is God\'s equal — the scattering proves who He is even as it wounds them.',
+    sourceKeywords: ['All ye shall be offended', 'it is written', 'I will smite the shepherd'],
+    fulfillmentKeywords: ['smite the shepherd', 'sheep shall be scattered'],
+    terms: [],
+  },
+  'mat-26-56': {
+    title: 'All This Was Done, That the Scriptures Might Be Fulfilled',
+    principle:
+      'Arrest, abandonment, flight — all within the writings of the prophets. First principle: the disciples\' desertion does not derail the plan; even desertion fulfills it.',
+    sourceKeywords: ['all this was done', 'the scriptures of the prophets might be fulfilled', 'forsook him, and fled'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'mat-27-9': {
+    title: 'They Took the Thirty Pieces of Silver',
+    principle:
+      'Zechariah 11 and Jeremiah 32-33 converge on the potter\'s-field price. First principle: the composite quotation is exact in substance — betrayal money buys a burial ground for strangers.',
+    sourceKeywords: ['Then was fulfilled', 'thirty pieces of silver', 'potter'],
+    fulfillmentKeywords: ['thirty pieces of silver', 'cast them to the potter'],
+    terms: [],
+  },
+  'mat-27-35': {
+    title: 'They Parted His Garments, Casting Lots',
+    principle:
+      'The crucifixion proceeds as Psalm 22:18 wrote it. First principle: at the cross, the soldiers fulfill Scripture involuntarily — the plan needs no conscious cooperation.',
+    sourceKeywords: ['parted his garments', 'casting lots', 'that it might be fulfilled'],
+    fulfillmentKeywords: ['parted my raiment', 'did cast lots'],
+    terms: [],
+  },
+  'mat-27-46': {
+    title: 'Eli, Eli, Lama Sabachthani?',
+    principle:
+      'Psalm 22:1 cried at the ninth hour in Hebrew. First principle: the crucified One prays the psalm that maps His own agony — forsaken that we might be received.',
+    sourceKeywords: ['ninth hour', 'My God, my God', 'why hast thou forsaken me'],
+    fulfillmentKeywords: ['My God, my God, why hast thou forsaken me'],
+    terms: [],
+  },
+  'mat-27-48': {
+    title: 'Vinegar on a Reed',
+    principle:
+      'The sponge of vinegar answers Psalm 69:21. First principle: the last act of the Passion was hospitality twisted into mockery — and written beforehand.',
+    sourceKeywords: ['took a spunge', 'filled it with vinegar', 'gave him to drink'],
+    fulfillmentKeywords: ['in my thirst', 'gave me vinegar to drink'],
+    terms: [],
+  },
+  'mat-28-18': {
+    title: 'All Power Is Given unto Me',
+    principle:
+      'The risen Christ receives Daniel 7\'s dominion and Psalm 2\'s possession. First principle: the Great Commission rests on universal authority — mission is the announcement of a throne, not a request.',
+    sourceKeywords: ['All power is given unto me', 'in heaven and in earth', 'Go ye therefore'],
+    fulfillmentKeywords: ['dominion and glory, and a kingdom', 'I shall give thee the uttermost parts'],
+    terms: [],
+  },
+  'mat-28-20': {
+    title: 'Lo, I Am with You Alway',
+    principle:
+      'To the end of the world, the Immanuel of chapter 1 remains. First principle: the book that opened with God-with-us closes with God-with-always — the promise that outlasts every generation.',
+    sourceKeywords: ['I am with you alway', 'even unto the end of the world'],
+    fulfillmentKeywords: ['I will strengthen thee', 'I will help thee'],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Romans ──────────────────────────────────────
+  'rom-1-2': {
+    title: 'Promised Afore by His Prophets',
+    principle:
+      'The gospel was promised before through the prophets in holy scriptures. First principle: the good news is not a new invention but an old promise — the Son announced in David\'s line and David\'s throne.',
+    sourceKeywords: ['promised afore', 'his prophets', 'holy scriptures'],
+    fulfillmentKeywords: ['Thou art my Son', 'unto us a son is given'],
+    terms: [],
+  },
+  'rom-1-4': {
+    title: 'Declared the Son of God by the Resurrection',
+    principle:
+      'Raised from the dead, Jesus is marked out as Son with power — Psalm 2\'s decree enacted. First principle: the resurrection is the public investiture of the Son; the seed of David is demonstrated Lord.',
+    sourceKeywords: ['declared to be the Son of God', 'by the resurrection from the dead', 'spirit of holiness'],
+    fulfillmentKeywords: ['Thou art my Son', 'wilt not leave my soul in hell'],
+    terms: [],
+  },
+  'rom-1-16': {
+    title: 'The Power of God unto Salvation',
+    principle:
+      'The gospel saves every believer, Jew first and also Greek. First principle: Isaiah 49\'s light to the nations is the gospel\'s scope — power for anyone who believes, shame for no one who preaches it.',
+    sourceKeywords: ['not ashamed of the gospel', 'power of God unto salvation', 'Jew first, and also to the Greek'],
+    fulfillmentKeywords: ['my salvation unto the end of the earth'],
+    terms: [],
+  },
+  'rom-1-20': {
+    title: 'His Eternal Power and Godhead Are Clearly Seen',
+    principle:
+      'Creation reveals the invisible God so that unbelief is without excuse. First principle: the heavens declare — general revelation leaves no atheist safe, and the written law leaves no conscience clean apart from Christ.',
+    sourceKeywords: ['clearly seen', 'things that are made', 'without excuse'],
+    fulfillmentKeywords: ['the heavens declare the glory of God'],
+    terms: [],
+  },
+  'rom-3-10': {
+    title: 'There Is None Righteous, No, Not One',
+    principle:
+      'The psalmist\'s verdict is universalized: none righteous, none seeketh after God. First principle: the doctrine of universal sin is not Paul\'s opinion — it is a catena of Scripture gathered against the whole world.',
+    sourceKeywords: ['As it is written', 'none righteous', 'none that understandeth'],
+    fulfillmentKeywords: ['there is none that doeth good', 'the fool hath said in his heart'],
+    terms: [],
+  },
+  'rom-3-13': {
+    title: 'Their Throat Is an Open Sepulchre',
+    principle:
+      'The Psalms catalogue sinful speech: deceitful tongues, asp poison, cursing lips. First principle: sin is most audible in the mouth — the anatomy of guilt is drawn from Israel\'s own hymnbook.',
+    sourceKeywords: ['open sepulchre', 'used deceit', 'poison of asps'],
+    fulfillmentKeywords: ['the poison of asps', 'speaketh lies'],
+    terms: [],
+  },
+  'rom-3-15': {
+    title: 'Swift to Shed Blood',
+    principle:
+      'Isaiah 59\'s indictment of feet running to evil is applied to all. First principle: violence is the visible fruit of inner ruin — the feet are swift because the heart is far.',
+    sourceKeywords: ['swift to shed blood', 'destruction and misery'],
+    fulfillmentKeywords: ['their feet run to evil', 'they are swift to shed innocent blood'],
+    terms: [],
+  },
+  'rom-3-18': {
+    title: 'No Fear of God Before Their Eyes',
+    principle:
+      'Psalm 36\'s final diagnosis: unbelief is not intellectual failure but moral rebellion. First principle: the root of sin is the absence of reverent fear — every other sin grows from this soil.',
+    sourceKeywords: ['no fear of God', 'before their eyes'],
+    fulfillmentKeywords: ['there is no fear of God before his eyes'],
+    terms: [],
+  },
+  'rom-3-20': {
+    title: 'By the Law Is the Knowledge of Sin',
+    principle:
+      'No flesh is justified by deeds of the law — the law diagnoses, it does not cure. First principle: the law is a mirror, not a launderer; righteousness must come from another quarter entirely.',
+    sourceKeywords: ['deeds of the law', 'no flesh be justified', 'knowledge of sin'],
+    fulfillmentKeywords: ['in thy sight shall no man living be justified'],
+    terms: [],
+  },
+  'rom-4-13': {
+    title: 'Heir of the World Through the Righteousness of Faith',
+    principle:
+      'Abraham\'s promise of world-inheritance came apart from law, through faith. First principle: the land promise was always a down payment on a worldwide inheritance — received by believing, not by lawkeeping.',
+    sourceKeywords: ['heir of the world', 'through the righteousness of faith', 'not through the law'],
+    fulfillmentKeywords: ['unto thy seed will I give this land'],
+    terms: [],
+  },
+  'rom-4-17': {
+    title: 'A Father of Many Nations Have I Made Thee',
+    principle:
+      'God calls things that are not as though they were — Abraham believed the Life-giver. First principle: faith trusts the finished speech of God; the title father of nations was given before the first child existed.',
+    sourceKeywords: ['father of many nations', 'quickeneth the dead', 'calleth those things which be not'],
+    fulfillmentKeywords: ['a father of many nations have I made thee'],
+    terms: [],
+  },
+  'rom-4-18': {
+    title: 'Against Hope Believed in Hope',
+    principle:
+      'A hundred-year-old man embraces So shall thy seed be. First principle: hope against hope is still hope on the Word — the stars of Genesis 15 remain the measure of the promise.',
+    sourceKeywords: ['against hope believed in hope', 'So shall thy seed be'],
+    fulfillmentKeywords: ['tell the stars', 'so shall thy seed be'],
+    terms: [],
+  },
+  'rom-4-25': {
+    title: 'Delivered for Our Offences, Raised for Our Justification',
+    principle:
+      'Isaiah 53\'s transactions are summarized in two clauses: delivered and raised. First principle: the cross pays the debt; the resurrection announces the receipt — justification is certified by an empty tomb.',
+    sourceKeywords: ['delivered for our offences', 'raised again for our justification'],
+    fulfillmentKeywords: ['was wounded for our transgressions', 'shall justify many'],
+    terms: [],
+  },
+  'rom-5-14': {
+    title: 'Adam Is the Figure of Him That Was to Come',
+    principle:
+      'Death reigned from Adam, a pattern pointing forward to Christ. First principle: history splits into two headships — in Adam all die; the second Adam headships a race of life.',
+    sourceKeywords: ['death reigned', 'the figure of him that was to come', 'Adam\'s transgression'],
+    fulfillmentKeywords: ['in Adam all die', 'a living soul'],
+    terms: [],
+  },
+  'rom-5-15': {
+    title: 'Much More the Grace of God Hath Abounded',
+    principle:
+      'One offense brought death; one Man\'s gift abounds to many. First principle: grace is not symmetry but superabundance — what the fall lost, the gift outweighs.',
+    sourceKeywords: ['the free gift', 'abounded unto many', 'grace of God'],
+    fulfillmentKeywords: ['shall justify many', 'he shall see of the travail of his soul'],
+    terms: [],
+  },
+  'rom-5-19': {
+    title: 'By the Obedience of One Shall Many Be Made Righteous',
+    principle:
+      'Adam\'s disobedience versus Christ\'s obedience unto death. First principle: salvation is headship exchange — the many are counted righteous because the One was obedient in their place.',
+    sourceKeywords: ['by one man\'s disobedience', 'the obedience of one', 'made righteous'],
+    fulfillmentKeywords: ['by his knowledge shall my righteous servant justify many', 'obedient unto death'],
+    terms: [],
+  },
+  'rom-6-23': {
+    title: 'The Wages of Sin Is Death',
+    principle:
+      'Sin pays death; God gives eternal life through Christ. First principle: two economies — earned wages versus unearned gift — and the gift wins because another earned it for us.',
+    sourceKeywords: ['wages of sin is death', 'the gift of God is eternal life'],
+    fulfillmentKeywords: ['thou shalt surely die', 'the soul that sinneth, it shall die'],
+    terms: [],
+  },
+  'rom-8-11': {
+    title: 'He That Raised Up Christ Shall Quicken Your Mortal Bodies',
+    principle:
+      'The Spirit who raised Jesus will resurrect believers. First principle: Ezekiel\'s dry-bones question is answered by the indwelling Spirit — the same power that raised Christ will raise you.',
+    sourceKeywords: ['raised up Jesus from the dead', 'quicken your mortal bodies', 'his Spirit that dwelleth in you'],
+    fulfillmentKeywords: ['I will cause breath to enter into you', 'ye shall live'],
+    terms: [],
+  },
+  'rom-8-29': {
+    title: 'Firstborn Among Many Brethren',
+    principle:
+      'The predestined are conformed to the image of God\'s Son. First principle: Psalm 89\'s firstborn title belongs to Christ, and salvation\'s goal is family resemblance to Him.',
+    sourceKeywords: ['conformed to the image of his Son', 'firstborn among many brethren'],
+    fulfillmentKeywords: ['I will make him my firstborn', 'higher than the kings'],
+    terms: [],
+  },
+  'rom-8-34': {
+    title: 'Christ That Died, Yea Rather, That Is Risen Again',
+    principle:
+      'No condemnation stands while the risen Christ intercedes at God\'s right hand. First principle: the defense in the courtroom of heaven is the Lamb who died — Psalm 110 enthroned, Isaiah 53 interceding.',
+    sourceKeywords: ['It is Christ that died', 'risen again', 'maketh intercession for us'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'made intercession for the transgressors'],
+    terms: [],
+  },
+  'rom-9-7': {
+    title: 'In Isaac Shall Thy Seed Be Called',
+    principle:
+      'Abraham\'s children are counted through promise, not merely flesh. First principle: the covenant line runs by election and faith — Isaac, not Ishmael, carries the seed of the world-blessing.',
+    sourceKeywords: ['the seed of Abraham', 'In Isaac shall thy seed be called'],
+    fulfillmentKeywords: ['in Isaac shall thy seed be called'],
+    terms: [],
+  },
+  'rom-9-9': {
+    title: 'At This Time Will I Come, and Sara Shall Have a Son',
+    principle:
+      'The word of promise came with a divine timetable. First principle: God\'s promises come with God\'s seasons — the impossible birth at the appointed time is the pattern of the Incarnation itself.',
+    sourceKeywords: ['the word of promise', 'At this time will I come', 'Sara shall have a son'],
+    fulfillmentKeywords: ['At the time appointed', 'Sarah thy wife shall have a son'],
+    terms: [],
+  },
+  'rom-9-12': {
+    title: 'The Elder Shall Serve the Younger',
+    principle:
+      'Rebekah\'s twins carry the election pattern. First principle: God\'s choice runs against birth order and human expectation — grace is sovereign over seniority.',
+    sourceKeywords: ['The elder shall serve the younger', 'Rebekah'],
+    fulfillmentKeywords: ['the elder shall serve the younger'],
+    terms: [],
+  },
+  'rom-9-13': {
+    title: 'Jacob Have I Loved, but Esau Have I Hated',
+    principle:
+      'Malachi\'s later words are cited as God\'s settled choice across generations. First principle: election is God\'s love set before desert — Jacob\'s line carries the Messiah, whatever Esau\'s prosperity.',
+    sourceKeywords: ['Jacob have I loved', 'Esau have I hated', 'As it is written'],
+    fulfillmentKeywords: ['Jacob have I loved', 'Esau have I hated'],
+    terms: [],
+  },
+  'rom-9-15': {
+    title: 'I Will Have Mercy on Whom I Will Have Mercy',
+    principle:
+      'Moses at the cleft learns God\'s sovereign compassion. First principle: mercy by definition cannot be owed — it is God\'s free self-disclosure, the glory He showed Moses and shows in Christ.',
+    sourceKeywords: ['I will have mercy on whom I will have mercy', 'compassion on whom I will have compassion'],
+    fulfillmentKeywords: ['I will make all my goodness pass before thee', 'shew mercy'],
+    terms: [],
+  },
+  'rom-9-17': {
+    title: 'Even for This Same Purpose Have I Raised Thee Up',
+    principle:
+      'Pharaoh\'s hardened throne served the declaration of God\'s name in all the earth. First principle: even opposition is harnessed — God\'s power is displayed through the rulers who refuse Him.',
+    sourceKeywords: ['the scripture saith unto Pharaoh', 'I might shew my power in thee', 'declared throughout all the earth'],
+    fulfillmentKeywords: ['for to shew in thee my power', 'my name may be declared'],
+    terms: [],
+  },
+  'rom-9-25': {
+    title: 'I Will Call Them My People, Which Were Not My People',
+    principle:
+      'Hosea\'s Lo-ammi reversal is quoted for Gentile grace. First principle: the God who renames the unloved is still renaming — not-my-people become sons of the living God.',
+    sourceKeywords: ['in Osee', 'my people, which were not my people', 'beloved, which was not beloved'],
+    fulfillmentKeywords: ['I will say to them which were not my people', 'Thou art my people'],
+    terms: [],
+  },
+  'rom-9-26': {
+    title: 'Children of the Living God',
+    principle:
+      'In the very place of rejection, adoption is proclaimed. First principle: Hosea\'s geography of grace — the same ground of unbelief becomes the ground of belonging.',
+    sourceKeywords: ['in the place where it was said', 'not my people', 'children of the living God'],
+    fulfillmentKeywords: ['Ye are the sons of the living God'],
+    terms: [],
+  },
+  'rom-9-27': {
+    title: 'A Remnant Shall Be Saved',
+    principle:
+      'Isaiah\'s cry: though Israel be as the sand, only a remnant returns. First principle: salvation is never statistical — the promise survives in the remnant God keeps for Himself.',
+    sourceKeywords: ['Esaias also crieth', 'a remnant shall be saved', 'as the sand of the sea'],
+    fulfillmentKeywords: ['a remnant shall return', 'the remnant according to the election of grace'],
+    terms: [],
+  },
+  'rom-9-29': {
+    title: 'Except the Lord of Sabaoth Had Left Us a Seed',
+    principle:
+      'Without divine reserve, Israel would be as Sodom. First principle: a saved seed is mercy\'s evidence — what remains is what grace left, not what man preserved.',
+    sourceKeywords: ['Lord of Sabaoth', 'left us a seed', 'as Sodoma'],
+    fulfillmentKeywords: ['except the LORD of hosts had left'],
+    terms: [],
+  },
+  'rom-10-5': {
+    title: 'The Man Which Doeth Those Things Shall Live by Them',
+    principle:
+      'Moses describes law-righteousness: do and live. First principle: the law offers life to perfect performance — a standard that indicts, because none has performed.',
+    sourceKeywords: ['Moses describeth', 'the righteousness which is of the law', 'shall live by them'],
+    fulfillmentKeywords: ['Ye shall therefore keep my statutes', 'which if a man do, he shall live'],
+    terms: [],
+  },
+  'rom-10-6': {
+    title: 'Say Not in Thine Heart, Who Shall Ascend into Heaven?',
+    principle:
+      'Deuteronomy 30\'s near word is read of Christ — no climb, no descent required. First principle: righteousness by faith is proximity, not pilgrimage; the Word is near, in mouth and heart.',
+    sourceKeywords: ['the righteousness which is of faith', 'Who shall ascend into heaven', 'bring Christ down'],
+    fulfillmentKeywords: ['it is not in heaven', 'very nigh unto thee'],
+    terms: [],
+  },
+  'rom-10-11': {
+    title: 'Whosoever Believeth on Him Shall Not Be Ashamed',
+    principle:
+      'Isaiah 28\'s foundation Stone carries a promise: no shame for the believer. First principle: the Stone laid in Zion secures the unhurried — he that believeth shall not make haste, nor be put to flight.',
+    sourceKeywords: ['the scripture saith', 'Whosoever believeth on him', 'shall not be ashamed'],
+    fulfillmentKeywords: ['he that believeth shall not make haste', 'a tried stone'],
+    terms: [],
+  },
+  'rom-10-15': {
+    title: 'How Beautiful Are the Feet of Them That Preach',
+    principle:
+      'Isaiah 52\'s mountain-runner is the gospel preacher. First principle: glad tidings require sent feet — the beauty is in the message carried, not the messenger\'s merit.',
+    sourceKeywords: ['except they be sent', 'beautiful are the feet', 'glad tidings of good things'],
+    fulfillmentKeywords: ['How beautiful upon the mountains', 'that bringeth good tidings'],
+    terms: [],
+  },
+  'rom-10-16': {
+    title: 'Lord, Who Hath Believed Our Report?',
+    principle:
+      'Isaiah 53\'s opening lament is quoted of Israel\'s unbelief. First principle: the report has been published in every generation — and the arm of the LORD is revealed only to faith.',
+    sourceKeywords: ['they have not all obeyed the gospel', 'Esaias saith', 'who hath believed our report'],
+    fulfillmentKeywords: ['Who hath believed our report'],
+    terms: [],
+  },
+  'rom-10-18': {
+    title: 'Their Sound Went into All the Earth',
+    principle:
+      'Psalm 19\'s creation-sermon is applied to the gospel\'s reach. First principle: as the heavens needed no interpreter, so the gospel voice travels — the question is not hearing but heeding.',
+    sourceKeywords: ['Have they not heard', 'their sound went into all the earth', 'ends of the world'],
+    fulfillmentKeywords: ['their line is gone out through all the earth'],
+    terms: [],
+  },
+  'rom-10-19': {
+    title: 'I Will Provoke You to Jealousy by Them That Are No People',
+    principle:
+      'Moses\' song warns Israel with a foolish nation\'s favor. First principle: jealousy-provoking grace is an old covenant tool — Gentile blessing is the sermon Israel was told to expect.',
+    sourceKeywords: ['First Moses saith', 'provoke you to jealousy', 'a foolish nation'],
+    fulfillmentKeywords: ['I will provoke them to jealousy', 'a foolish nation'],
+    terms: [],
+  },
+  'rom-10-20': {
+    title: 'I Was Found of Them That Sought Me Not',
+    principle:
+      'Isaiah 65\'s bold paradox: found by non-seekers, manifest to the unasking. First principle: grace initiates — the God found by Gentiles who never sought Him is the scandal and glory of the gospel.',
+    sourceKeywords: ['Esaias is very bold', 'found of them that sought me not', 'asked not after me'],
+    fulfillmentKeywords: ['I am sought of them that asked not for me', 'I am found of them'],
+    terms: [],
+  },
+  'rom-10-21': {
+    title: 'All Day Long I Have Stretched Forth My Hands',
+    principle:
+      'To Israel: outstretched hands met disobedience and contradiction. First principle: rejection is not the failure of God\'s patience but the abuse of it — the hands stayed open all day.',
+    sourceKeywords: ['to Israel he saith', 'stretched forth my hands', 'disobedient and gainsaying people'],
+    fulfillmentKeywords: ['I have spread out my hands all the day'],
+    terms: [],
+  },
+  'rom-11-3': {
+    title: 'They Have Killed Thy Prophets; I Am Left Alone',
+    principle:
+      'Elijah\'s complaint is quoted in Romans\' remnant argument. First principle: even when faith feels extinct, God keeps a reserve of seven thousand — despondency misreads the census.',
+    sourceKeywords: ['killed thy prophets', 'digged down thine altars', 'I am left alone'],
+    fulfillmentKeywords: ['I, even I only, am left', 'seven thousand that have not bowed'],
+    terms: [],
+  },
+  'rom-11-8': {
+    title: 'God Hath Given Them the Spirit of Slumber',
+    principle:
+      'Isaiah\'s judicial sleep and David\'s table-snare are joined. First principle: continued refusal invites given blindness — eyes that close themselves are finally closed for them.',
+    sourceKeywords: ['the spirit of slumber', 'eyes that they should not see', 'unto this day'],
+    fulfillmentKeywords: ['the spirit of deep sleep', 'poured out upon you'],
+    terms: [],
+  },
+  'rom-11-9': {
+    title: 'Let Their Table Be Made a Snare',
+    principle:
+      'Psalm 69\'s imprecation lands on the rejectors of the Messiah. First principle: prosperity without faith becomes a trap — the table itself can catch the ungrateful.',
+    sourceKeywords: ['David saith', 'their table be made a snare', 'a recompence unto them'],
+    fulfillmentKeywords: ['let their table become a snare', 'a trap'],
+    terms: [],
+  },
+  'rom-11-10': {
+    title: 'Let Their Eyes Be Darkened',
+    principle:
+      'Psalm 69:23 continues: bowing backs and darkened eyes. First principle: the imprecation shows the cost of spurning the suffering King — spiritual sight is forfeited where He is refused.',
+    sourceKeywords: ['Let their eyes be darkened', 'that they may not see', 'bow down their back'],
+    fulfillmentKeywords: ['their eyes are darkened', 'that they see not'],
+    terms: [],
+  },
+  'rom-11-26': {
+    title: 'There Shall Come out of Sion the Deliverer',
+    principle:
+      'All Israel\'s salvation is anchored in the coming Redeemer who turns away ungodliness. First principle: the covenant\'s climax is not ethnicity but Deliverance personified — the go\'el from Zion, as Isaiah wrote.',
+    sourceKeywords: ['all Israel shall be saved', 'out of Sion the Deliverer', 'turn away ungodliness from Jacob'],
+    fulfillmentKeywords: ['the Redeemer shall come to Zion', 'turn from transgression in Jacob'],
+    terms: [],
+  },
+  'rom-11-27': {
+    title: 'This Is My Covenant, When I Shall Take Away Their Sins',
+    principle:
+      'Isaiah 59 and Jeremiah 31 are fused: covenant equals sin removed. First principle: the new covenant\'s charter is forgiveness written in hearts — the Deliverer\'s one achievement.',
+    sourceKeywords: ['this is my covenant unto them', 'take away their sins'],
+    fulfillmentKeywords: ['this is my covenant with them', 'I will forgive their iniquity'],
+    terms: [],
+  },
+  'rom-12-19': {
+    title: 'Vengeance Is Mine; I Will Repay',
+    principle:
+      'Believers renounce self-vengeance and yield to God\'s written prerogative. First principle: justice delegated is justice secured — the Song of Moses assigns repayment to God alone.',
+    sourceKeywords: ['avenge not yourselves', 'give place unto wrath', 'Vengeance is mine; I will repay'],
+    fulfillmentKeywords: ['To me belongeth vengeance and recompence'],
+    terms: [],
+  },
+  'rom-14-11': {
+    title: 'Every Knee Shall Bow, Every Tongue Shall Confess',
+    principle:
+      'Isaiah 45\'s universal oath grounds mutual forbearance — we will all stand before God. First principle: the coming universal confession makes judging one another unnecessary; the Judge is certain.',
+    sourceKeywords: ['As I live, saith the Lord', 'every knee shall bow to me', 'confess to God'],
+    fulfillmentKeywords: ['unto me every knee shall bow', 'every tongue shall swear'],
+    terms: [],
+  },
+  'rom-15-3': {
+    title: 'The Reproaches of Them That Reproached Thee Fell on Me',
+    principle:
+      'Christ pleased not Himself — Psalm 69\'s insults land on the Servant. First principle: the self-pleasing One absorbed reproach for others; strong believers bear with the weak in the same pattern.',
+    sourceKeywords: ['Christ pleased not himself', 'as it is written', 'fell on me'],
+    fulfillmentKeywords: ['the reproaches of them that reproached thee', 'fallen upon me'],
+    terms: [],
+  },
+  'rom-15-9': {
+    title: 'I Will Confess to Thee among the Gentiles',
+    principle:
+      'Psalm 18 is cited as Gentile praise foretold. First principle: the mercy shown to Israel was always designed for Gentile song — David\'s victory psalm becomes the nations\' doxology.',
+    sourceKeywords: ['the Gentiles might glorify God for his mercy', 'I will confess to thee among the Gentiles'],
+    fulfillmentKeywords: ['I will confess thee among the nations', 'sing unto thy name'],
+    terms: [],
+  },
+  'rom-15-10': {
+    title: 'Rejoice, Ye Gentiles, with His People',
+    principle:
+      'Moses\' final song commands Gentile joy alongside Israel. First principle: the Song of Moses already imagined Jew and Gentile rejoicing together — the church is that reunion.',
+    sourceKeywords: ['Rejoice, ye Gentiles, with his people'],
+    fulfillmentKeywords: ['Rejoice, O ye nations, with his people'],
+    terms: [],
+  },
+  'rom-15-11': {
+    title: 'Praise the Lord, All Ye Gentiles',
+    principle:
+      'Psalm 117 — the shortest psalm, the widest invitation. First principle: two verses summon the whole world to praise; the mercy toward us is great, and it is universal in reach.',
+    sourceKeywords: ['Praise the Lord, all ye Gentiles', 'laud him, all ye people'],
+    fulfillmentKeywords: ['O praise the LORD, all ye nations'],
+    terms: [],
+  },
+  'rom-15-21': {
+    title: 'To Whom He Was Not Spoken of, They Shall See',
+    principle:
+      'Isaiah 52:15 justifies Paul\'s pioneer preaching to unreached regions. First principle: mission strategy follows prophecy — the message moves toward those who have never heard His name.',
+    sourceKeywords: ['To whom he was not spoken of', 'they shall see', 'shall understand'],
+    fulfillmentKeywords: ['so shall he sprinkle many nations', 'kings shall shut their mouths'],
+    terms: [],
+  },
+  'rom-16-20': {
+    title: 'The God of Peace Shall Bruise Satan Under Your Feet',
+    principle:
+      'Genesis 3:15 closes the epistle: the serpent-crushing promise turns to believers\' feet, shortly. First principle: the Seed\'s victory becomes the church\'s participation — peace with God ends in Satan underfoot.',
+    sourceKeywords: ['God of peace', 'bruise Satan under your feet', 'shortly'],
+    fulfillmentKeywords: ['it shall bruise thy head'],
+    terms: [],
+  },
+  'rom-16-25': {
+    title: 'The Revelation of the Mystery Kept Secret Since the World Began',
+    principle:
+      'The doxology reveals a mystery long hidden — the preaching of Jesus Christ. First principle: the gospel is the unsealed secret; what the ages whispered in types is now announced plainly.',
+    sourceKeywords: ['the revelation of the mystery', 'kept secret since the world began', 'my gospel'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'rom-16-26': {
+    title: 'Made Known to All Nations for the Obedience of Faith',
+    principle:
+      'By prophetic scriptures the mystery goes to all nations. First principle: the promise to Abraham, the light of Isaiah, and the command of the everlasting God converge — one obedience of faith, worldwide.',
+    sourceKeywords: ['by the scriptures of the prophets', 'made known to all nations', 'obedience of faith'],
+    fulfillmentKeywords: ['in thy seed shall all nations', 'my salvation unto the end'],
+    terms: [],
+  },
+  // ── Hand-written expansion: Hebrews ─────────────────────────────────────
+  'heb-1-1': {
+    title: 'God Who Spake at Sundry Times by the Prophets',
+    principle:
+      'The God who spoke in fragments to the fathers has spoken finally in His Son. First principle: the prophets are real revelation in portions; the Son is the whole — every thread converges on His speech.',
+    sourceKeywords: ['sundry times and in divers manners', 'spake in time past', 'by the prophets'],
+    fulfillmentKeywords: ['hath in these last days spoken unto us by his Son'],
+    terms: [],
+  },
+  'heb-1-3': {
+    title: 'The Express Image of His Person',
+    principle:
+      'The brightness of God\'s glory, upholding all things, purged our sins by Himself and sat down on the right hand of the Majesty on high. First principle: priest, sacrifice, and throne unite in one Person — purification finished, session begun.',
+    sourceKeywords: ['brightness of his glory', 'purged our sins', 'sat down on the right hand'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'he shall not fail'],
+    terms: [],
+  },
+  'heb-1-5': {
+    title: 'Unto Which of the Angels Said He, Thou Art My Son?',
+    principle:
+      'Psalm 2 and Nathan\'s word to David are quoted to rank the Son above angels. First principle: sonship by decree and dynasty — I will be to him a Father — is higher than any angelic office.',
+    sourceKeywords: ['Thou art my Son', 'this day have I begotten thee', 'a Father, and he shall be to me a Son'],
+    fulfillmentKeywords: ['Thou art my Son', 'he shall build an house for my name'],
+    terms: [],
+  },
+  'heb-1-6': {
+    title: 'Let All the Angels of God Worship Him',
+    principle:
+      'When the First-begotten comes into the world, heaven\'s order commands angels to worship. First principle: the Son receives the worship Deuteronomy 32 reserves for God — His deity is the letter\'s first argument.',
+    sourceKeywords: ['when he bringeth in the firstbegotten', 'let all the angels of God worship him'],
+    fulfillmentKeywords: ['Rejoice, O ye nations, with his people', 'worship him, all ye gods'],
+    terms: [],
+  },
+  'heb-1-8': {
+    title: 'Thy Throne, O God, Is for Ever and Ever',
+    principle:
+      'The Father addresses the Son as God, enthroned with a sceptre of righteousness. First principle: Psalm 45\'s wedding hymn is God\'s own testimony to the Son\'s deity and just reign.',
+    sourceKeywords: ['Thy throne, O God', 'for ever and ever', 'sceptre of righteousness'],
+    fulfillmentKeywords: ['thy throne, O God, is for ever', 'God, thy God, hath anointed thee'],
+    terms: [],
+  },
+  'heb-1-10': {
+    title: 'Thou, Lord, in the Beginning Hast Laid the Foundation',
+    principle:
+      'Psalm 102 — a prayer to the unchanging Creator — is addressed to the Son. First principle: the One who laid earth\'s foundations is the same yesterday, today, and forever; creation names Him Lord.',
+    sourceKeywords: ['laid the foundation of the earth', 'the works of thine hands', 'shall perish'],
+    fulfillmentKeywords: ['Of old hast thou laid the foundation of the earth'],
+    terms: [],
+  },
+  'heb-1-13': {
+    title: 'Sit on My Right Hand Until Thine Enemies',
+    principle:
+      'No angel ever heard Psalm 110\'s invitation. First principle: the enthroned Man waits in majesty — the footstool promise belongs to the Son alone.',
+    sourceKeywords: ['Sit on my right hand', 'thine enemies thy footstool', 'to which of the angels'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
+    terms: [],
+  },
+  'heb-2-6': {
+    title: 'What Is Man, That Thou Art Mindful of Him?',
+    principle:
+      'Psalm 8 is expounded of Jesus — made a little lower than the angels for suffering, now crowned. First principle: the son-of-man question finds its answer in the One now crowned with glory, all things under His feet.',
+    sourceKeywords: ['What is man', 'the son of man', 'visitest him'],
+    fulfillmentKeywords: ['made him a little lower than the angels', 'crownedst him with glory'],
+    terms: [],
+  },
+  'heb-2-12': {
+    title: 'In the Midst of the Church Will I Sing Praise',
+    principle:
+      'The crucified Psalm 22 ends in congregation-song: I will declare thy name unto my brethren. First principle: the Sufferer of Psalm 22 becomes the worship leader of His brothers — the cross births the church\'s praise.',
+    sourceKeywords: ['I will declare thy name', 'unto my brethren', 'in the midst of the church'],
+    fulfillmentKeywords: ['I will declare thy name unto my brethren'],
+    terms: [],
+  },
+  'heb-2-13': {
+    title: 'I Will Put My Trust in Him',
+    principle:
+      'Isaiah\'s trusting remnant becomes the Son\'s own confession, with the children God gave Him. First principle: the Messiah lived by faith among His own — sanctified companionship with the children of promise.',
+    sourceKeywords: ['I will put my trust in him', 'Behold I and the children', 'which God hath given me'],
+    fulfillmentKeywords: ['I will wait upon the LORD', 'the children whom the LORD hath given me'],
+    terms: [],
+  },
+  'heb-3-7': {
+    title: 'To Day If Ye Will Hear His Voice',
+    principle:
+      'Psalm 95 is quoted as the Holy Ghost\'s present warning: harden not your hearts. First principle: the gospel has a Today attached — Israel\'s Kadesh failure is the standing caution for every generation.',
+    sourceKeywords: ['the Holy Ghost saith', 'To day if ye will hear his voice', 'harden not your hearts'],
+    fulfillmentKeywords: ['To day if ye will hear his voice'],
+    terms: [],
+  },
+  'heb-3-11': {
+    title: 'They Shall Not Enter into My Rest',
+    principle:
+      'God\'s oath barred that generation from Canaan-rest. First principle: unbelief forfeits the promised rest — the oath is as real as the promise it vetoed.',
+    sourceKeywords: ['So I sware in my wrath', 'They shall not enter into my rest'],
+    fulfillmentKeywords: ['unto whom I sware in my wrath', 'they shall not enter'],
+    terms: [],
+  },
+  'heb-4-7': {
+    title: 'He Limiteth a Certain Day, Saying in David',
+    principle:
+      'A rest remains because David, long after Joshua, still says Today. First principle: the psalm reopens the offer — the Sabbath-rest of God outlasts Canaan and stands open now.',
+    sourceKeywords: ['he limiteth a certain day', 'saying in David', 'harden not your hearts'],
+    fulfillmentKeywords: ['To day if ye will hear his voice'],
+    terms: [],
+  },
+  'heb-5-5': {
+    title: 'Christ Glorified Not Himself to Be Made High Priest',
+    principle:
+      'Priesthood came by the Father\'s decree: Thou art my Son. First principle: every office of Christ is conferred, not seized — glory by appointment, in God\'s time and voice.',
+    sourceKeywords: ['glorified not himself', 'made an high priest', 'Thou art my Son'],
+    fulfillmentKeywords: ['Thou art my Son', 'this day have I begotten thee'],
+    terms: [],
+  },
+  'heb-5-6': {
+    title: 'A Priest for Ever After the Order of Melchisedec',
+    principle:
+      'Psalm 110:4 gives the Son a priesthood older than Aaron\'s. First principle: royal priesthood — king on the throne and priest at the altar — is Christ\'s by oath, not genealogy.',
+    sourceKeywords: ['a priest for ever', 'order of Melchisedec'],
+    fulfillmentKeywords: ['Thou art a priest for ever', 'after the order of Melchizedek'],
+    terms: [],
+  },
+  'heb-6-14': {
+    title: 'Surely Blessing I Will Bless Thee',
+    principle:
+      'The doubled oath to Abraham makes God\'s promise immutable. First principle: God swore by Himself because none was greater — the multiplied seed rests on an unchangeable oath.',
+    sourceKeywords: ['Surely blessing I will bless thee', 'multiplying I will multiply thee'],
+    fulfillmentKeywords: ['by myself have I sworn', 'I will multiply thy seed'],
+    terms: [],
+  },
+  'heb-7-1': {
+    title: 'Melchisedec, Priest of the Most High God',
+    principle:
+      'Genesis 14\'s king of Salem blessed Abraham returning from war. First principle: the type appears suddenly — no lineage, no ending — because it pictures an endless priesthood.',
+    sourceKeywords: ['king of Salem', 'priest of the most high God', 'blessed him'],
+    fulfillmentKeywords: ['Melchizedek king of Salem', 'priest of the most high God'],
+    terms: [],
+  },
+  'heb-7-17': {
+    title: 'Thou Art a Priest for Ever',
+    principle:
+      'The oath of Psalm 110:4 is repeated to nail down the eternal priesthood. First principle: another priest arises after the similitude of Melchisedec — the law\'s Aaronic line was never the end of the story.',
+    sourceKeywords: ['he testifieth', 'a priest for ever', 'order of Melchisedec'],
+    fulfillmentKeywords: ['the LORD hath sworn', 'thou art a priest for ever'],
+    terms: [],
+  },
+  'heb-8-12': {
+    title: 'Their Sins and Iniquities Will I Remember No More',
+    principle:
+      'The new covenant\'s climax is divine forgetting. First principle: forgiveness under the new covenant is not amnesia\'s accident but mercy\'s decision — sins remembered no more.',
+    sourceKeywords: ['merciful to their unrighteousness', 'sins and their iniquities', 'remember no more'],
+    fulfillmentKeywords: ['I will forgive their iniquity', 'remember their sin no more'],
+    terms: [],
+  },
+  'heb-9-20': {
+    title: 'This Is the Blood of the Testament',
+    principle:
+      'Exodus 24\'s Sinai sprinkling is quoted to explain a better blood. First principle: every covenant runs on blood — the old with animals, the new with the Testator Himself.',
+    sourceKeywords: ['the blood of the testament', 'which God hath enjoined unto you'],
+    fulfillmentKeywords: ['the blood of the covenant', 'sprinkled on the people'],
+    terms: [],
+  },
+  'heb-10-5': {
+    title: 'A Body Hast Thou Prepared Me',
+    principle:
+      'Psalm 40 is placed in the mouth of the incarnate Son: Lo, I come to do thy will. First principle: the Incarnation is the answer to sacrifice\'s insufficiency — a body prepared for total obedience.',
+    sourceKeywords: ['when he cometh into the world', 'a body hast thou prepared me', 'Sacrifice and offering thou wouldest not'],
+    fulfillmentKeywords: ['mine ears hast thou opened', 'I delight to do thy will'],
+    terms: [],
+  },
+  'heb-10-16': {
+    title: 'I Will Put My Laws into Their Hearts',
+    principle:
+      'Jeremiah 31\'s internal law is quoted as the covenant\'s present reality. First principle: the law moves from stone to heart — obedience becomes the Spirit\'s work inside us.',
+    sourceKeywords: ['the covenant that I will make', 'my laws into their hearts', 'in their minds will I write them'],
+    fulfillmentKeywords: ['I will put my law in their inward parts', 'write it in their hearts'],
+    terms: [],
+  },
+  'heb-10-30': {
+    title: 'Vengeance Belongeth unto Me',
+    principle:
+      'The Song of Moses warns apostates: the Lord shall judge His people. First principle: the same covenant God who avenges His people judges those who trample His Son — fear and comfort are two sides of one oath.',
+    sourceKeywords: ['Vengeance belongeth unto me', 'I will recompense', 'The Lord shall judge his people'],
+    fulfillmentKeywords: ['To me belongeth vengeance', 'the LORD shall judge his people'],
+    terms: [],
+  },
+  'heb-10-38': {
+    title: 'The Just Shall Live by Faith',
+    principle:
+      'Habakkuk\'s line becomes the letter\'s watchword: if any draw back, my soul shall have no pleasure. First principle: life is by believing endurance — the vision tarries, but the just keep trusting.',
+    sourceKeywords: ['the just shall live by faith', 'if any man draw back', 'no pleasure in him'],
+    fulfillmentKeywords: ['the just shall live by his faith'],
+    terms: [],
+  },
+  'heb-11-5': {
+    title: 'Enoch Was Translated That He Should Not See Death',
+    principle:
+      'Enoch walked with God and was not, for God took him. First principle: before the law, a man pleased God and skipped death — the firstfruits of translation hope.',
+    sourceKeywords: ['By faith Enoch was translated', 'should not see death', 'he pleased God'],
+    fulfillmentKeywords: ['Enoch walked with God', 'he was not; for God took him'],
+    terms: [],
+  },
+  'heb-11-7': {
+    title: 'Noah Prepared an Ark to the Saving of His House',
+    principle:
+      'Noah acted on things not seen as yet and condemned the world. First principle: faith builds before the rain — obedience to warning is righteousness inherited.',
+    sourceKeywords: ['warned of God of things not seen as yet', 'prepared an ark', 'saving of his house'],
+    fulfillmentKeywords: ['Noah found grace', 'thus did Noah'],
+    terms: [],
+  },
+  'heb-11-8': {
+    title: 'He Went Out, Not Knowing Whither He Went',
+    principle:
+      'Abraham obeyed the call to an unseen inheritance. First principle: faith is obedience without a map — the promise is the destination enough.',
+    sourceKeywords: ['when he was called', 'a place which he should after receive', 'not knowing whither he went'],
+    fulfillmentKeywords: ['Get thee out of thy country', 'unto a land that I will shew thee'],
+    terms: [],
+  },
+  'heb-11-11': {
+    title: 'Sara Received Strength to Conceive Seed',
+    principle:
+      'The barren mother judged Him faithful who had promised. First principle: faith laughs at impossibility after it judges the Promiser — strength came because the Word was believed.',
+    sourceKeywords: ['received strength to conceive seed', 'past age', 'judged him faithful who had promised'],
+    fulfillmentKeywords: ['At the time appointed will I return', 'Is any thing too hard for the LORD?'],
+    terms: [],
+  },
+  'heb-11-12': {
+    title: 'As the Stars of the Sky in Multitude',
+    principle:
+      'From one as good as dead sprang the star-and-sand multitude. First principle: the promises of Genesis 15 and 22 outgrew their hearer — life from the dead is the seed\'s origin story.',
+    sourceKeywords: ['him as good as dead', 'stars of the sky in multitude', 'sand which is by the sea shore'],
+    fulfillmentKeywords: ['look now toward heaven', 'so shall thy seed be'],
+    terms: [],
+  },
+  'heb-11-17': {
+    title: 'He That Had Received the Promises Offered Up Isaac',
+    principle:
+      'The trial of Moriah: the only begotten offered, the promises believed. First principle: Abraham reasoned that God could raise the dead — promise and sacrifice met on one altar.',
+    sourceKeywords: ['when he was tried', 'offered up Isaac', 'his only begotten son'],
+    fulfillmentKeywords: ['Take now thy son, thine only son Isaac'],
+    terms: [],
+  },
+  'heb-11-18': {
+    title: 'In Isaac Shall Thy Seed Be Called',
+    principle:
+      'The offering contradicted the covenant word — yet Abraham accounted God faithful. First principle: when sacrifice seems to erase the promise, faith holds both: God keeps His word through the knife.',
+    sourceKeywords: ['Of whom it was said', 'In Isaac shall thy seed be called'],
+    fulfillmentKeywords: ['for in Isaac shall thy seed be called'],
+    terms: [],
+  },
+  'heb-12-2': {
+    title: 'The Author and Finisher of Our Faith',
+    principle:
+      'For the joy set before Him, Jesus endured the cross, despised the shame, and sat down at the throne. First principle: Psalm 22\'s suffering and Psalm 110\'s session are one arc — endure by looking at the end from the beginning.',
+    sourceKeywords: ['author and finisher', 'endured the cross', 'despising the shame', 'right hand of the throne of God'],
+    fulfillmentKeywords: ['Sit thou at my right hand', 'he shall see of the travail'],
+    terms: [],
+  },
+  'heb-12-5': {
+    title: 'Despise Not Thou the Chastening of the Lord',
+    principle:
+      'Proverbs 3 is quoted to reframe suffering as sonship. First principle: chastening is proof of love, not evidence of rejection — scourging marks every legitimate child.',
+    sourceKeywords: ['My son, despise not thou the chastening', 'nor faint when thou art rebuked'],
+    fulfillmentKeywords: ['despise not the chastening of the LORD', 'delight in him'],
+    terms: [],
+  },
+  'heb-12-20': {
+    title: 'If So Much as a Beast Touch the Mountain',
+    principle:
+      'Sinai\'s boundary of death is recalled before Zion\'s open invitation. First principle: the old mountain\'s terror measures the new mountain\'s grace — both are real; approach God His way.',
+    sourceKeywords: ['they could not endure', 'a beast touch the mountain', 'stoned, or thrust through'],
+    fulfillmentKeywords: ['whosoever toucheth the mount', 'surely be put to death'],
+    terms: [],
+  },
+  'heb-12-26': {
+    title: 'Yet Once More I Shake Not the Earth Only, but Also Heaven',
+    principle:
+      'Haggai\'s shaking is escalated: the final quake removes what is shakeable. First principle: created things tremble so the unshakeable kingdom may stand — Haggai\'s promise reaches past Sinai to the end.',
+    sourceKeywords: ['Whose voice then shook the earth', 'Yet once more I shake', 'not the earth only, but also heaven'],
+    fulfillmentKeywords: ['I will shake all nations', 'the desire of all nations'],
+    terms: [],
+  },
+  'heb-12-29': {
+    title: 'Our God Is a Consuming Fire',
+    principle:
+      'The flame on Sinai and over Egypt is our God. First principle: the fire that consumes sacrifice consumes refusal — worship acceptably, with reverence and godly fear.',
+    sourceKeywords: ['our God is a consuming fire'],
+    fulfillmentKeywords: ['the LORD thy God is a consuming fire'],
+    terms: [],
+  },
+  'heb-13-5': {
+    title: 'I Will Never Leave Thee, nor Forsake Thee',
+    principle:
+      'Contentment leans on God\'s presence-promise from Moses and Joshua. First principle: the antidote to covetousness is a promise of company — He is with us, so He is enough.',
+    sourceKeywords: ['without covetousness', 'be content', 'I will never leave thee, nor forsake thee'],
+    fulfillmentKeywords: ['he will not fail thee, nor forsake thee'],
+    terms: [],
+  },
+  'heb-13-6': {
+    title: 'The Lord Is My Helper; I Will Not Fear',
+    principle:
+      'Psalm 118 becomes bold speech against the fear of man. First principle: confidence against man rests on the Lord as helper — the Stone-casting psalm frees us from dread.',
+    sourceKeywords: ['we may boldly say', 'The Lord is my helper', 'what man shall do unto me'],
+    fulfillmentKeywords: ['The LORD is on my side', 'I will not fear'],
+    terms: [],
+  },
+  'heb-13-11': {
+    title: 'The Bodies of Those Beasts Are Burned Without the Camp',
+    principle:
+      'Day-of-atonement carcasses were carried outside. First principle: sin-bearing blood required removal from the holy — preparing the geography for the cross.',
+    sourceKeywords: ['bodies of those beasts', 'brought into the sanctuary', 'burned without the camp'],
+    fulfillmentKeywords: ['burn them without the camp'],
+    terms: [],
+  },
+  'heb-13-12': {
+    title: 'Jesus Suffered Without the Gate',
+    principle:
+      'The atonement pattern lands on Golgotha: sanctifying blood shed outside Jerusalem. First principle: the exile of the sin-offering is the address of the cross — let us go forth to Him without the camp.',
+    sourceKeywords: ['sanctify the people with his own blood', 'suffered without the gate'],
+    fulfillmentKeywords: ['burn them without the camp'],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Daniel ──────────────────────────────────────
+  'dan-2-35': {
+    title: 'The Stone That Smote the Image Became a Great Mountain',
+    principle:
+      'The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue; God\'s kingdom is a growing mountain — cut without hands, unstoppable in growth.',
+    sourceKeywords: ['broken to pieces together', 'became like the chaff', 'filled the whole earth'],
+    fulfillmentKeywords: ['shall the God of heaven set up a kingdom'],
+    terms: [],
+  },
+  'dan-2-45': {
+    title: 'A Stone Cut Out Without Hands',
+    principle:
+      'The interpretation is certain: God makes known what shall come hereafter. First principle: the kingdom is divine work — without hands — and the dream\'s certainty anchors faith against empire\'s confidence.',
+    sourceKeywords: ['cut out of the mountain without hands', 'the dream is certain', 'the interpretation thereof sure'],
+    fulfillmentKeywords: ['a stone cut out without hands'],
+    terms: [],
+  },
+  'dan-7-10': {
+    title: 'The Judgment Was Set, and the Books Were Opened',
+    principle:
+      'The Ancient of Days sits: thousand thousands minister, and the books open. First principle: heaven\'s courtroom precedes the kingdom — the record is read before the verdict and dominion are given to the Son.',
+    sourceKeywords: ['thousand thousands ministered', 'ten thousand times ten thousand', 'the books were opened'],
+    fulfillmentKeywords: ['the judgment was set', 'the books were opened'],
+    terms: [],
+  },
+  'dan-7-18': {
+    title: 'The Saints Shall Take the Kingdom',
+    principle:
+      'The saints of the Most High possess the kingdom for ever. First principle: persecution\'s arc ends in possession — the little horn loses, the saints inherit.',
+    sourceKeywords: ['saints of the most High', 'take the kingdom', 'for ever and ever'],
+    fulfillmentKeywords: ['the saints of the most High shall take'],
+    terms: [],
+  },
+  'dan-7-21': {
+    title: 'The Horn Made War with the Saints',
+    principle:
+      'The boastful horn prevails against the saints — for a time. First principle: the war against the saints is real, violent, and temporary; it is written so the suffering will not surprise us.',
+    sourceKeywords: ['the same horn made war', 'prevailed against them'],
+    fulfillmentKeywords: ['to make war with the saints', 'prevailed against them'],
+    terms: [],
+  },
+  'dan-7-25': {
+    title: 'He Shall Think to Change Times and Laws',
+    principle:
+      'The little power speaks against the Most High, wears out the saints, and holds sway for a time, times, and a dividing of time. First principle: prophetic time is bounded — the wear-out has a stopwatch on it.',
+    sourceKeywords: ['speak great words', 'wear out the saints', 'a time and times and the dividing of time'],
+    fulfillmentKeywords: ['time, times, and an half'],
+    terms: [],
+  },
+  'dan-7-26': {
+    title: 'The Judgment Shall Sit, and They Shall Take Away His Dominion',
+    principle:
+      'The court sits; the persecutor\'s dominion is consumed unto the end. First principle: every blasphemous power has a scheduled end — the same judgment that vindicates saints removes beasts.',
+    sourceKeywords: ['the judgment shall sit', 'take away his dominion', 'consume and destroy it unto the end'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-7-27': {
+    title: 'The Kingdom Given to the People of the Saints',
+    principle:
+      'Dominion under the whole heaven passes to the saints of the Most High — an everlasting kingdom, all dominions serving Him. First principle: the end is not the beast\'s empire but the saints\' inheritance under the Son of man.',
+    sourceKeywords: ['kingdom and dominion', 'people of the saints of the most High', 'everlasting kingdom'],
+    fulfillmentKeywords: ['given to the saints', 'everlasting kingdom'],
+    terms: [],
+  },
+  'dan-8-11': {
+    title: 'He Magnified Himself to the Prince of the Host',
+    principle:
+      'The daily sacrifice is taken away and the sanctuary cast down by the self-exalting power. First principle: the war against God wears a religious face — the desecration of worship is prophecy\'s center stage.',
+    sourceKeywords: ['magnified himself', 'the prince of the host', 'the place of his sanctuary was cast down'],
+    fulfillmentKeywords: ['stand in the holy place'],
+    terms: [],
+  },
+  'dan-8-17': {
+    title: 'Understand, O Son of Man: at the Time of the End',
+    principle:
+      'Gabriel lifts the fallen Daniel: the vision belongs to the time of the end. First principle: apocalyptic vision is for understanding, not entertainment — the appointed time makes sense of the symbols.',
+    sourceKeywords: ['Understand, O son of man', 'at the time of the end shall be the vision'],
+    fulfillmentKeywords: ['the vision is for an appointed time'],
+    terms: [],
+  },
+  'dan-10-6': {
+    title: 'His Face as the Appearance of Lightning',
+    principle:
+      'The glorious man by the river — beryl body, fiery eyes, brass feet, multitude voice. First principle: theophany before the apocalypse: the messenger\'s glory certifies the message\'s weight.',
+    sourceKeywords: ['appearance of lightning', 'eyes as lamps of fire', 'voice of his words like the voice of a multitude'],
+    fulfillmentKeywords: ['countenance like lightning', 'eyes as lamps of fire'],
+    terms: [],
+  },
+  'dan-10-13': {
+    title: 'The Prince of Persia Withstood Me One and Twenty Days',
+    principle:
+      'Behind the curtain of empires, princes contend — Michael comes to help. First principle: prayer on earth touches war in heaven; the delay of answers is not the absence of angels.',
+    sourceKeywords: ['the prince of the kingdom of Persia', 'withstood me', 'Michael came to help me'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-10-21': {
+    title: 'That Which Is Noted in the Scripture of Truth',
+    principle:
+      'Gabriel will show what is written in the true record; Michael stands as your prince. First principle: history is written down before it happens — the scripture of truth is the script empires must play out.',
+    sourceKeywords: ['the scripture of truth', 'none that holdeth with me', 'Michael your prince'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-11-31': {
+    title: 'They Shall Place the Abomination That Maketh Desolate',
+    principle:
+      'Arms pollute the sanctuary and end the daily sacrifice — the desecration Jesus tells readers to watch for. First principle: Daniel 11 is Matthew 24\'s source text; the abomination is scheduled, and flight is commanded.',
+    sourceKeywords: ['pollute the sanctuary of strength', 'take away the daily sacrifice', 'abomination that maketh desolate'],
+    fulfillmentKeywords: ['abomination of desolation'],
+    terms: [],
+  },
+  'dan-12-1': {
+    title: 'A Time of Trouble Such as Never Was',
+    principle:
+      'Michael stands up; unparalleled trouble comes; everyone written in the book is delivered. First principle: the worst time in history has a register of names — deliverance is written, not random.',
+    sourceKeywords: ['Michael stand up', 'a time of trouble', 'found written in the book'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-12-4': {
+    title: 'Shut Up the Words and Seal the Book',
+    principle:
+      'The book is sealed until the time of the end, when knowledge runs to and fro. First principle: prophecy has a shelf-life of obscurity — the seal opens when the world is ready to run with it.',
+    sourceKeywords: ['shut up the words', 'seal the book', 'knowledge shall be increased'],
+    fulfillmentKeywords: ['seal the book, even to the time of the end'],
+    terms: [],
+  },
+  'dan-12-7': {
+    title: 'A Time, Times, and an Half',
+    principle:
+      'The oath-sworn duration: when the scattering of the holy people\'s power is accomplished, all is finished. First principle: the man in linen swears the end of persecution — three-and-a-half times, then done.',
+    sourceKeywords: ['sware by him that liveth for ever', 'a time, times, and an half', 'all these things shall be finished'],
+    fulfillmentKeywords: ['time, and times, and an half'],
+    terms: [],
+  },
+  'dan-12-11': {
+    title: 'From the Daily Sacrifice Taken Away — a Thousand Two Hundred and Ninety Days',
+    principle:
+      'The abomination\'s setup begins a counted span. First principle: God numbers the desolation — day counts mean the horror has measurable, curfew-able bounds.',
+    sourceKeywords: ['the daily sacrifice shall be taken away', 'abomination that maketh desolate', 'thousand two hundred and ninety days'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-12-12': {
+    title: 'Blessed Is He That Waiteth',
+    principle:
+      'A beatitude attaches to those who endure to the thousand three hundred and five and thirty days. First principle: waiting is blessedness when the timeline is God\'s — endurance has a numbered horizon.',
+    sourceKeywords: ['Blessed is he that waiteth', 'thousand three hundred and five and thirty days'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'dan-12-13': {
+    title: 'Thou Shalt Rest, and Stand in Thy Lot',
+    principle:
+      'Daniel is dismissed to rest and to rise for his portion at the end of days. First principle: the faithful die with a reserved lot — rest now, standing at the end.',
+    sourceKeywords: ['go thou thy way till the end be', 'thou shalt rest', 'stand in thy lot'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+
+  // ── Hand-written expansion: Exodus (added anchors) ──────────────────────
+  'exo-3-2': {
+    title: 'The Bush Burned with Fire, and Was Not Consumed',
+    principle:
+      'The Angel of the LORD appears in flame that does not devour. First principle: God dwells with the afflicted without being burned by their fire — the church\'s bush and the covenant\'s endurance are one picture.',
+    sourceKeywords: ['angel of the LORD', 'flame of fire', 'the bush was not consumed'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'exo-3-6': {
+    title: 'I Am the God of Abraham, Isaac, and Jacob',
+    principle:
+      'God names Himself by covenant generations; Moses hides his face. First principle: the God of the living patriarchs binds Himself to a family line that runs to Christ — and reverence is the first response.',
+    sourceKeywords: ['the God of thy father', 'God of Abraham', 'hid his face'],
+    fulfillmentKeywords: ['I am the God of Abraham'],
+    terms: [],
+  },
+  'exo-3-13': {
+    title: 'What Is His Name? What Shall I Say?',
+    principle:
+      'Moses asks for the Name; the answer is I AM THAT I AM. First principle: the self-existent God gives a name that outlasts every crisis — and Jesus claims it: before Abraham was, I AM.',
+    sourceKeywords: ['What is his name', 'what shall I say unto them'],
+    fulfillmentKeywords: ['I AM THAT I AM', 'before Abraham was, I am'],
+    terms: [],
+  },
+  'exo-3-15': {
+    title: 'This Is My Name for Ever, My Memorial to All Generations',
+    principle:
+      'The LORD of the fathers is the perpetual memorial-name. First principle: deliverance comes in the name that never changes — the memorial every generation must remember.',
+    sourceKeywords: ['this is my name for ever', 'my memorial unto all generations'],
+    fulfillmentKeywords: ['this is my name for ever'],
+    terms: [],
+  },
+  'exo-4-22': {
+    title: 'Israel Is My Son, Even My Firstborn',
+    principle:
+      'God names the nation His firstborn before Pharaoh. First principle: sonship is the ground of exodus demands — and the title, kept in Israel, finds its fullness in the only-begotten Son called out of Egypt.',
+    sourceKeywords: ['Israel is my son', 'my firstborn', 'let my son go'],
+    fulfillmentKeywords: ['Out of Egypt have I called my son'],
+    terms: [],
+  },
+  'exo-12-5': {
+    title: 'Your Lamb Shall Be Without Blemish',
+    principle:
+      'The Passover lamb must be perfect, male, first-year. First principle: substitution requires spotlessness — the blood that saves is the blood of the unblemished.',
+    sourceKeywords: ['without blemish', 'a male of the first year', 'from the sheep, or from the goats'],
+    fulfillmentKeywords: ['lamb without blemish and without spot'],
+    terms: [],
+  },
+  'exo-12-6': {
+    title: 'The Whole Assembly Shall Kill It in the Evening',
+    principle:
+      'Kept until the fourteenth day, slain by all Israel at evening. First principle: the lamb is examined, then slain by the congregation — and the hours match the cross to the minute.',
+    sourceKeywords: ['until the fourteenth day', 'the whole assembly', 'kill it in the evening'],
+    fulfillmentKeywords: ['the preparation of the passover'],
+    terms: [],
+  },
+  'exo-12-21': {
+    title: 'Draw Out and Take You a Lamb',
+    principle:
+      'Moses commands each household to take the Passover lamb. First principle: deliverance is by applied sacrifice — a lamb taken, killed, and trusted in every home of faith.',
+    sourceKeywords: ['Draw out and take you a lamb', 'kill the passover'],
+    fulfillmentKeywords: ['Christ our passover is sacrificed for us'],
+    terms: [],
+  },
+  'exo-12-27': {
+    title: 'It Is the Sacrifice of the LORD\'S Passover',
+    principle:
+      'The memorial speech: He passed over the houses and delivered us — and the people bowed and worshipped. First principle: the passover is teaching by rehearsal — every generation tells the story of the blood that spared them.',
+    sourceKeywords: ['the sacrifice of the LORD\'S passover', 'he passed over the houses', 'bowed the head and worshipped'],
+    fulfillmentKeywords: ['Christ our passover'],
+    terms: [],
+  },
+  'exo-14-21': {
+    title: 'The Waters Were Divided',
+    principle:
+      'Moses stretches out his hand; the east wind parts the sea all night. First principle: salvation\'s impossible moments are wind-and-obedience moments — God makes a road where there is no road.',
+    sourceKeywords: ['stretched out his hand over the sea', 'a strong east wind', 'the waters were divided'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'exo-14-22': {
+    title: 'The Waters Were a Wall unto Them',
+    principle:
+      'Israel walks through the sea on dry ground, walls of water on either side. First principle: baptism into the deliverer — Paul says they were baptized in the cloud and sea — is passage between held-back judgments.',
+    sourceKeywords: ['went into the midst of the sea', 'upon the dry ground', 'a wall unto them'],
+    fulfillmentKeywords: ['baptized unto Moses in the cloud and in the sea'],
+    terms: [],
+  },
+  'exo-15-25': {
+    title: 'The LORD Shewed Him a Tree',
+    principle:
+      'Bitter waters made sweet by a cast-in tree; a statute proved there. First principle: the tree turns Marah sweet — the first wilderness test answered by wood, the pattern of the cross\'s remedy.',
+    sourceKeywords: ['shewed him a tree', 'the waters were made sweet', 'there he proved them'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'exo-16-14': {
+    title: 'A Small Round Thing, as Small as the Hoar Frost',
+    principle:
+      'Bread from heaven lies on the wilderness floor each morning. First principle: daily bread is heaven\'s humility — small, round, sufficient; Jesus calls Himself the true manna.',
+    sourceKeywords: ['upon the face of the wilderness', 'a small round thing', 'hoar frost'],
+    fulfillmentKeywords: ['He gave them bread from heaven'],
+    terms: [],
+  },
+  'exo-16-35': {
+    title: 'They Did Eat Manna Forty Years',
+    principle:
+      'The supply held until the borders of Canaan. First principle: grace is tested by duration — the bread never failed for four decades, until the promised land replaced it.',
+    sourceKeywords: ['did eat manna forty years', 'until they came unto the borders'],
+    fulfillmentKeywords: ['and did eat manna', 'the true bread from heaven'],
+    terms: [],
+  },
+  'exo-17-12': {
+    title: 'Aaron and Hur Stayed Up His Hands',
+    principle:
+      'Moses\' lifted hands are supported until sunset, and the battle is won. First principle: intercession is corporate — the war is carried by held-up hands, not solo heroics.',
+    sourceKeywords: ['Moses\' hands were heavy', 'stayed up his hands', 'steady until the going down of the sun'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'exo-19-5': {
+    title: 'Ye Shall Be a Peculiar Treasure unto Me',
+    principle:
+      'Obedience to the covenant voice makes Israel God\'s treasure above all people. First principle: the covenant formula — obey, belong — is transferred in Christ to a people bought with blood.',
+    sourceKeywords: ['if ye will obey my voice', 'keep my covenant', 'a peculiar treasure unto me'],
+    fulfillmentKeywords: ['a peculiar people'],
+    terms: [],
+  },
+  'exo-20-3': {
+    title: 'Thou Shalt Have No Other Gods Before Me',
+    principle:
+      'The first commandment stakes exclusive worship. First principle: God begins the law where idolatry begins — with rival trust; Christ answers Satan with this very word.',
+    sourceKeywords: ['no other gods before me'],
+    fulfillmentKeywords: ['him only shalt thou serve'],
+    terms: [],
+  },
+  'exo-25-8': {
+    title: 'Let Them Make Me a Sanctuary, That I May Dwell Among Them',
+    principle:
+      'The tabernacle is God\'s invitation to neighborhood. First principle: the sanctuary is not for God\'s benefit but for nearness — the type of the Word tabernacling among us.',
+    sourceKeywords: ['make me a sanctuary', 'that I may dwell among them'],
+    fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
+    terms: [],
+  },
+  'exo-28-36': {
+    title: 'HOLINESS TO THE LORD Engraved on Gold',
+    principle:
+      'The high priest wears the engraved plate on his forehead. First principle: the priest carries holiness visibly for the people — Christ the High Priest bears the name perfectly.',
+    sourceKeywords: ['a plate of pure gold', 'like the engravings of a signet', 'HOLINESS TO THE LORD'],
+    fulfillmentKeywords: ['holy, harmless, undefiled'],
+    terms: [],
+  },
+  'exo-29-45': {
+    title: 'I Will Dwell Among the Children of Israel',
+    principle:
+      'The covenant summit: God dwelling with His redeemed. First principle: all the sacrifices and furnishings aim at one sentence — I will be their God; the tabernacle is friendship in architecture.',
+    sourceKeywords: ['I will dwell among', 'and will be their God'],
+    fulfillmentKeywords: ['God with them'],
+    terms: [],
+  },
+  'exo-30-30': {
+    title: 'Anoint Aaron and His Sons for the Priest\'s Office',
+    principle:
+      'Oil consecrates the priesthood. First principle: ministry is by anointing, not appointment alone — the Spirit sets apart, as Christ was anointed to preach and to priest.',
+    sourceKeywords: ['anoint Aaron and his sons', 'consecrate them', 'the priest\'s office'],
+    fulfillmentKeywords: ['The Spirit of the Lord is upon me'],
+    terms: [],
+  },
+  'exo-31-18': {
+    title: 'Tables of Stone, Written with the Finger of God',
+    principle:
+      'The law comes from God\'s own finger on stone. First principle: the writing would move from stone to flesh — tablets of the heart by the Spirit, promised through the prophets.',
+    sourceKeywords: ['two tables of testimony', 'tables of stone', 'written with the finger of God'],
+    fulfillmentKeywords: ['written not with ink, but with the Spirit'],
+    terms: [],
+  },
+  'exo-33-18': {
+    title: 'I Beseech Thee, Shew Me Thy Glory',
+    principle:
+      'Moses asks for more than mission — he asks for God. First principle: the greatest request a believer can make is to see glory; the answer is goodness proclaimed and a cleft-rock hiding.',
+    sourceKeywords: ['I beseech thee', 'shew me thy glory'],
+    fulfillmentKeywords: ['we beheld his glory', 'the glory as of the only begotten'],
+    terms: [],
+  },
+  'exo-33-19': {
+    title: 'I Will Proclaim the Name of the LORD Before Thee',
+    principle:
+      'Goodness passes by; grace and mercy are declared as God\'s sovereign character. First principle: the Name is preached before it is seen — and Paul quotes it to defend God\'s freedom in election.',
+    sourceKeywords: ['all my goodness pass before thee', 'proclaim the name of the LORD', 'shew mercy on whom I will shew mercy'],
+    fulfillmentKeywords: ['I will have mercy on whom I will have mercy'],
+    terms: [],
+  },
+  'exo-34-6': {
+    title: 'The LORD God, Merciful and Gracious',
+    principle:
+      'The thirteen-attribute proclamation: compassionate, longsuffering, abundant in goodness and truth. First principle: this is the Bible\'s central self-portrait of God — repeated across Scripture and fulfilled in Christ\'s face.',
+    sourceKeywords: ['The LORD, The LORD God', 'merciful and gracious', 'abundant in goodness and truth'],
+    fulfillmentKeywords: ['the fullness of the Godhead bodily'],
+    terms: [],
+  },
+  'exo-34-28': {
+    title: 'Forty Days and Forty Nights Without Bread',
+    principle:
+      'Moses fasts with the LORD and receives the covenant words. First principle: the lawgiver\'s fast foreshadows the greater Lawgiver\'s forty days — both sustained by the Word of the covenant.',
+    sourceKeywords: ['forty days and forty nights', 'neither eat bread', 'the ten commandments'],
+    fulfillmentKeywords: ['fasted forty days and forty nights'],
+    terms: [],
+  },
+  'exo-34-34': {
+    title: 'He Took the Vail Off Until He Came Out',
+    principle:
+      'Moses unveils before the LORD, veils before the people. First principle: the ministry of the fading glory gives way to the Spirit\'s lasting glory — in Christ the vail is done away.',
+    sourceKeywords: ['he took the vail off', 'spake unto the children of Israel', 'which he was commanded'],
+    fulfillmentKeywords: ['the vail is done away in Christ'],
+    terms: [],
+  },
+  'exo-40-34': {
+    title: 'The Glory of the LORD Filled the Tabernacle',
+    principle:
+      'The cloud covers the finished tent; the glory fills it. First principle: when the dwelling is done as directed, the Presence moves in — obedience completes into Shekinah.',
+    sourceKeywords: ['a cloud covered the tent', 'the glory of the LORD filled the tabernacle'],
+    fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
+    terms: [],
+  },
+  // ── Hand-written expansion: Revelation ──────────────────────────────────
+  'rev-1-5': {
+    title: 'The Faithful Witness, First Begotten of the Dead',
+    principle:
+      'Jesus is named faithful witness, first-begotten from the dead, prince of earth\'s kings — loving us and washing us in His own blood. First principle: three titles, one Person — prophet, risen firstfruits, sovereign heir.',
+    sourceKeywords: ['faithful witness', 'first begotten of the dead', 'prince of the kings', 'washed us from our sins'],
+    fulfillmentKeywords: ['firstborn of every creature', 'the firstfruits of them that slept'],
+    terms: [],
+  },
+  'rev-1-6': {
+    title: 'Hath Made Us Kings and Priests',
+    principle:
+      'The washing Lamb makes a kingdom of priests to His God and Father. First principle: Exodus 19\'s covenant vocation transfers to the church — a blood-bought people given both throne and altar roles.',
+    sourceKeywords: ['kings and priests unto God', 'to him be glory and dominion'],
+    fulfillmentKeywords: ['a kingdom of priests, and an holy nation'],
+    terms: [],
+  },
+  'rev-1-8': {
+    title: 'I Am Alpha and Omega, the Almighty',
+    principle:
+      'The Lord who is, was, and is to come names Himself the alphabet and the end of all things. First principle: the God of Isaiah\'s titles is the speaker here — beginning and ending are His alone.',
+    sourceKeywords: ['Alpha and Omega', 'the beginning and the ending', 'the Almighty'],
+    fulfillmentKeywords: ['I the LORD, the first, and with the last'],
+    terms: [],
+  },
+  'rev-1-11': {
+    title: 'What Thou Seest, Write in a Book',
+    principle:
+      'The voice commands the writing and names the seven churches of Asia. First principle: revelation is entrusted to writing and to churches — the canon cycle begins and ends with a book.',
+    sourceKeywords: ['I am Alpha and Omega', 'write in a book', 'the seven churches'],
+    fulfillmentKeywords: [],
+    terms: [],
+  },
+  'rev-1-13': {
+    title: 'One Like unto the Son of Man',
+    principle:
+      'Among the candlesticks walks a Son-of-man figure in priestly garment and golden girdle — Daniel 7 and Ezekiel 1 fused. First principle: the glorified Christ is both Priest tending lamps and Judge walking among His churches.',
+    sourceKeywords: ['one like unto the Son of man', 'garment down to the foot', 'a golden girdle'],
+    fulfillmentKeywords: ['one like the Son of man came with the clouds', 'his body also was like the beryl'],
+    terms: [],
+  },
+  'rev-1-17': {
+    title: 'Fear Not; I Am the First and the Last',
+    principle:
+      'John falls as dead; the glorified Christ lays a right hand on him and speaks Isaiah\'s self-title. First principle: the same hand that touched Daniel and the disciples touches the seer — divine identity plus personal tenderness.',
+    sourceKeywords: ['I fell at his feet as dead', 'Fear not', 'I am the first and the last'],
+    fulfillmentKeywords: ['Fear not, Daniel', 'I the LORD, the first'],
+    terms: [],
+  },
+  'rev-2-7': {
+    title: 'To Him That Overcometh Will I Give the Tree of Life',
+    principle:
+      'The Eden tree, guarded since the fall, is promised to overcomers. First principle: the church\'s promises are Genesis promises — paradise regained by the Conqueror for the conquering.',
+    sourceKeywords: ['he that hath an ear', 'to him that overcometh', 'the tree of life'],
+    fulfillmentKeywords: ['the tree of life also in the midst of the garden', 'lest he put forth his hand'],
+    terms: [],
+  },
+  'rev-2-17': {
+    title: 'The Hidden Manna and a White Stone with a New Name',
+    principle:
+      'Overcomers eat from the hidden store and receive a private name. First principle: wilderness bread preserved in heaven, and an identity known between God and the receiver.',
+    sourceKeywords: ['the hidden manna', 'a white stone', 'a new name written'],
+    fulfillmentKeywords: ['I will rain bread from heaven'],
+    terms: [],
+  },
+  'rev-2-23': {
+    title: 'I Am He Which Searcheth the Reins and Hearts',
+    principle:
+      'The Son claims the searcher-of-hearts title and repays according to works. First principle: God\'s incommunicable knowledge of hearts belongs to Jesus — the churches are searched, not surveyed.',
+    sourceKeywords: ['searcheth the reins and hearts', 'give unto every one of you according to your works'],
+    fulfillmentKeywords: ['I the LORD search the heart'],
+    terms: [],
+  },
+  'rev-2-27': {
+    title: 'He Shall Rule Them with a Rod of Iron',
+    principle:
+      'Psalm 2\'s iron scepter is delegated to the overcomer — even as I received of my Father. First principle: messianic dominion is shared with the faithful; the Son\'s inheritance includes co-regents.',
+    sourceKeywords: ['rule them with a rod of iron', 'vessels of a potter', 'even as I received of my Father'],
+    fulfillmentKeywords: ['thou shalt break them with a rod of iron'],
+    terms: [],
+  },
+  'rev-2-28': {
+    title: 'And I Will Give Him the Morning Star',
+    principle:
+      'Balaam\'s star out of Jacob is Christ\'s gift to victors. First principle: the Star promised over Israel becomes the dawn-pledge given to every overcomer — He gives Himself.',
+    sourceKeywords: ['I will give him the morning star'],
+    fulfillmentKeywords: ['there shall come a Star out of Jacob', 'a light that shineth'],
+    terms: [],
+  },
+  'rev-3-5': {
+    title: 'I Will Not Blot Out His Name out of the Book of Life',
+    principle:
+      'White raiment, an unblotted name, and confession before the Father. First principle: the Lamb keeps a book and speaks names aloud in heaven — the register is as personal as it is permanent.',
+    sourceKeywords: ['clothed in white raiment', 'the book of life', 'I will confess his name'],
+    fulfillmentKeywords: ['whosoever was not found written in the book of life'],
+    terms: [],
+  },
+  'rev-3-7': {
+    title: 'He That Hath the Key of David',
+    principle:
+      'The holy and true One holds Eliakim\'s key — open, and none shut. First principle: the door of the kingdom answers to David\'s throne; Christ opens what no opposition can close.',
+    sourceKeywords: ['he that is holy, he that is true', 'the key of David', 'openeth, and no man shutteth'],
+    fulfillmentKeywords: ['the key of the house of David'],
+    terms: [],
+  },
+  'rev-3-18': {
+    title: 'Buy of Me Gold Tried in the Fire',
+    principle:
+      'Laodicea is counselled to real wealth, white raiment, and eyesalve. First principle: the self-rich church needs purchased grace — garments for shame, sight for blindness, gold for poverty.',
+    sourceKeywords: ['gold tried in the fire', 'white raiment', 'anoint thine eyes with eyesalve'],
+    fulfillmentKeywords: ['he hath clothed me with the garments of salvation'],
+    terms: [],
+  },
+  'rev-3-21': {
+    title: 'I Will Grant to Sit with Me in My Throne',
+    principle:
+      'As Christ overcame and sat with the Father, overcomers sit with Him. First principle: the throne is shared the way the suffering was shared — the overcomer\'s seat is purchased by the Overcomer.',
+    sourceKeywords: ['to him that overcometh', 'sit with me in my throne', 'as I also overcame'],
+    fulfillmentKeywords: ['Sit thou at my right hand'],
+    terms: [],
+  },
+  'rev-4-8': {
+    title: 'Holy, Holy, Holy, Lord God Almighty',
+    principle:
+      'The four living creatures rest not day and night, chanting Isaiah\'s trisagion. First principle: heaven\'s liturgy is timeless and triple-holy — the which-was-and-is-and-is-to-come God of Exodus and Isaiah.',
+    sourceKeywords: ['Holy, holy, holy', 'rest not day and night', 'which was, and is, and is to come'],
+    fulfillmentKeywords: ['Holy, holy, holy, is the LORD of hosts'],
+    terms: [],
+  },
+  'rev-5-6': {
+    title: 'A Lamb as It Had Been Slain',
+    principle:
+      'In the throne\'s midst stands a slain Lamb with seven horns and seven eyes. First principle: the throne\'s center is a sacrifice — omnipotence and offering are one sight.',
+    sourceKeywords: ['a Lamb as it had been slain', 'seven horns', 'seven eyes'],
+    fulfillmentKeywords: ['he is brought as a lamb to the slaughter'],
+    terms: [],
+  },
+  'rev-5-9': {
+    title: 'Thou Hast Redeemed Us to God by Thy Blood',
+    principle:
+      'The new song names the purchase: slain, redeeming out of every kindred, tongue, people, and nation. First principle: the worthiness of the Lamb is a redemption song with a global roster.',
+    sourceKeywords: ['Thou art worthy', 'hast redeemed us to God by thy blood', 'every kindred, and tongue'],
+    fulfillmentKeywords: ['he shall see of the travail', 'purchased with his own blood'],
+    terms: [],
+  },
+  'rev-5-10': {
+    title: 'Kings and Priests, and We Shall Reign on the Earth',
+    principle:
+      'The redeemed are made a reigning priesthood. First principle: Eden\'s commission and Sinai\'s calling conclude in earth-reign — not escape from the world but lordship restored in it.',
+    sourceKeywords: ['made us unto our God kings and priests', 'we shall reign on the earth'],
+    fulfillmentKeywords: ['a kingdom of priests, and an holy nation'],
+    terms: [],
+  },
+  'rev-5-12': {
+    title: 'Worthy Is the Lamb That Was Slain',
+    principle:
+      'Seven-fold praise answers the slain Lamb: power, riches, wisdom, strength, honour, glory, blessing. First principle: heaven\'s arithmetic — the Lamb who lost everything receives everything.',
+    sourceKeywords: ['Worthy is the Lamb that was slain', 'power, and riches, and wisdom'],
+    fulfillmentKeywords: ['Judah is a lion\'s whelp', 'he shall have dominion'],
+    terms: [],
+  },
+  'rev-5-13': {
+    title: 'Every Creature... Blessing, and Honour, and Glory',
+    principle:
+      'All creation joins the doxology to the Enthroned and the Lamb. First principle: the end of prophecy is universal worship — Philippians 2\'s every-tongue confession in apocalyptic panorama.',
+    sourceKeywords: ['every creature', 'Blessing, and honour, and glory, and power', 'unto the Lamb for ever'],
+    fulfillmentKeywords: ['every thing that hath breath praise the LORD'],
+    terms: [],
+  },
+  'rev-7-9': {
+    title: 'A Great Multitude of All Nations',
+    principle:
+      'The uncountable multitude — every nation, kindred, people, tongue — stands before the throne with palms. First principle: Abraham\'s stars-and-sand promise fills a throne room; the covenant reached the whole world.',
+    sourceKeywords: ['a great multitude, which no man could number', 'all nations, and kindreds', 'clothed with white robes'],
+    fulfillmentKeywords: ['in thy seed shall all the nations', 'look toward heaven and tell the stars'],
+    terms: [],
+  },
+  'rev-7-14': {
+    title: 'Washed Their Robes in the Blood of the Lamb',
+    principle:
+      'The great-tribulation multitude comes out with white robes. First principle: stain removal is by blood, not by suffering — tribulation marks the path, the Lamb\'s blood does the washing.',
+    sourceKeywords: ['came out of great tribulation', 'washed their robes', 'made them white in the blood'],
+    fulfillmentKeywords: ['though your sins be as scarlet', 'they shall be white as snow'],
+    terms: [],
+  },
+  'rev-7-17': {
+    title: 'The Lamb Shall Feed Them',
+    principle:
+      'The throne-Lamb shepherds to living fountains, and God wipes away tears. First principle: the Shepherd of Psalm 23 is the Lamb on the throne — every tear has an appointed end.',
+    sourceKeywords: ['the Lamb... shall feed them', 'living fountains of waters', 'wipe away all tears'],
+    fulfillmentKeywords: ['He maketh me to lie down in green pastures', 'He will swallow up death in victory'],
+    terms: [],
+  },
+  'rev-11-15': {
+    title: 'The Kingdoms of This World Are Become His',
+    principle:
+      'The seventh trumpet announces the transfer: our Lord\'s and His Christ\'s, reigning for ever. First principle: the direction of history is announced, not negotiated — Daniel 2 and 7 arrive on schedule.',
+    sourceKeywords: ['the seventh angel sounded', 'kingdoms of this world are become', 'he shall reign for ever and ever'],
+    fulfillmentKeywords: ['shall the God of heaven set up a kingdom', 'dominion... was given him'],
+    terms: [],
+  },
+  'rev-12-5': {
+    title: 'She Brought Forth a Man Child',
+    principle:
+      'The woman\'s child rules all nations with a rod of iron and is caught up to God\'s throne. First principle: Genesis 3:15\'s Seed and Psalm 2\'s Son are the same Man — born, caught up, destined to rule.',
+    sourceKeywords: ['a man child', 'to rule all nations with a rod of iron', 'caught up unto God, and to his throne'],
+    fulfillmentKeywords: ['it shall bruise thy head', 'thou shalt break them with a rod of iron'],
+    terms: [],
+  },
+  'rev-12-9': {
+    title: 'That Old Serpent, Called the Devil',
+    principle:
+      'The dragon is unmasked: the ancient serpent of Genesis, the deceiver of the whole world, cast out with his angels. First principle: Revelation names the snake behind every deception — and announces his eviction.',
+    sourceKeywords: ['that old serpent', 'the Devil, and Satan', 'deceiveth the whole world', 'cast out'],
+    fulfillmentKeywords: ['the serpent was more subtil', 'It shall bruise thy head'],
+    terms: [],
+  },
+  'rev-12-10': {
+    title: 'Now Is Come Salvation — the Accuser Is Cast Down',
+    principle:
+      'Heaven voices the verdict: salvation, strength, kingdom, and the power of His Christ. First principle: the accuser\'s fall is the believer\'s assurance — the courtroom is won before the battle ends.',
+    sourceKeywords: ['Now is come salvation', 'the power of his Christ', 'the accuser of our brethren is cast down'],
+    fulfillmentKeywords: ['Satan also came among them', 'The LORD rebuke thee, O Satan'],
+    terms: [],
+  },
+  'rev-12-11': {
+    title: 'They Overcame Him by the Blood of the Lamb',
+    principle:
+      'Victory over the dragon: the blood, the testimony, and lives not loved unto death. First principle: conquest is cruciform — blood applied, word spoken, life surrendered.',
+    sourceKeywords: ['overcame him by the blood of the Lamb', 'the word of their testimony', 'loved not their lives'],
+    fulfillmentKeywords: ['in all these things we are more than conquerors'],
+    terms: [],
+  },
+  'rev-14-1': {
+    title: 'The Lamb on Mount Sion, 144,000 with His Name',
+    principle:
+      'The sealed stand with the Lamb on Zion, His Father\'s name in their foreheads. First principle: the anti-mark — God\'s name where the beast writes his — marks the remnant as possession.',
+    sourceKeywords: ['a Lamb stood on the mount Sion', 'an hundred forty and four thousand', 'his Father\'s name written in their foreheads'],
+    fulfillmentKeywords: ['set a mark upon their foreheads'],
+    terms: [],
+  },
+  'rev-14-4': {
+    title: 'These Follow the Lamb Whithersoever He Goeth',
+    principle:
+      'The redeemed are undefiled, firstfruits to God and the Lamb. First principle: the mark of the sealed is mobility — following the Lamb anywhere — and consecration, firstfruits for God.',
+    sourceKeywords: ['not defiled', 'follow the Lamb whithersoever he goeth', 'the firstfruits unto God'],
+    fulfillmentKeywords: ['a chaste virgin unto Christ'],
+    terms: [],
+  },
+  'rev-14-11': {
+    title: 'The Smoke of Their Torment Ascendeth for Ever',
+    principle:
+      'Worship of the beast has unending consequence. First principle: the eternity of the warning is part of its mercy — Isaiah and Daniel\'s worm and fire frame the choice as ultimate.',
+    sourceKeywords: ['the smoke of their torment', 'for ever and ever', 'the mark of his name'],
+    fulfillmentKeywords: ['their worm shall not die', 'some to shame and everlasting contempt'],
+    terms: [],
+  },
+  'rev-14-13': {
+    title: 'Blessed Are the Dead Which Die in the Lord',
+    principle:
+      'The Spirit blesses the resting dead whose works follow. First principle: death in the Lord is not loss but rest with memory — labor ended, works accompanying.',
+    sourceKeywords: ['Write, Blessed are the dead', 'die in the Lord', 'their works do follow them'],
+    fulfillmentKeywords: ['thou shalt rest, and stand in thy lot'],
+    terms: [],
+  },
+  'rev-15-3': {
+    title: 'The Song of Moses and the Song of the Lamb',
+    principle:
+      'Sea-of-glass victors sing both songs: great and marvellous are thy works. First principle: the two covenants sing one doxology — the exodus song and the redemption song are finally one hymn.',
+    sourceKeywords: ['the song of Moses the servant of God', 'the song of the Lamb', 'King of saints'],
+    fulfillmentKeywords: ['Then sang Moses and the children of Israel'],
+    terms: [],
+  },
+  'rev-15-4': {
+    title: 'All Nations Shall Come and Worship Before Thee',
+    principle:
+      'Who shall not fear? The holiness of the Lord draws the nations\' worship. First principle: judgments are evangelistic — made manifest, they gather worshipers from every nation.',
+    sourceKeywords: ['Who shall not fear thee', 'thou only art holy', 'all nations shall come and worship'],
+    fulfillmentKeywords: ['all nations shall flow unto it'],
+    terms: [],
+  },
+  'rev-19-7': {
+    title: 'The Marriage of the Lamb Is Come',
+    principle:
+      'Heaven rejoices: the Wife has made herself ready. First principle: redemption\'s finale is a wedding — the betrothed, granted fine linen, the righteousness of saints.',
+    sourceKeywords: ['the marriage of the Lamb is come', 'his wife hath made herself ready'],
+    fulfillmentKeywords: ['as the bridegroom rejoiceth over the bride'],
+    terms: [],
+  },
+  'rev-19-11': {
+    title: 'Heaven Opened: a White Horse, Called Faithful and True',
+    principle:
+      'The Rider judges and makes war in righteousness. First principle: the Second Coming is not a repeat of Bethlehem — the faithful Witness returns as the righteous Warrior.',
+    sourceKeywords: ['heaven opened', 'a white horse', 'Faithful and True', 'in righteousness he doth judge'],
+    fulfillmentKeywords: ['he shall smite the earth with the rod of his mouth'],
+    terms: [],
+  },
+  'rev-19-13': {
+    title: 'His Name Is Called The Word of God',
+    principle:
+      'The vesture dipped in blood bears the oldest name of the Son. First principle: John\'s Gospel and John\'s apocalypse agree — the Rider is the preexistent Word, now revealed in war garb.',
+    sourceKeywords: ['vesture dipped in blood', 'his name is called The Word of God'],
+    fulfillmentKeywords: ['In the beginning was the Word'],
+    terms: [],
+  },
+  'rev-19-15': {
+    title: 'He Shall Rule Them with a Rod of Iron',
+    principle:
+      'A sword from His mouth smites nations; the winepress of God\'s wrath is trodden. First principle: Psalm 2 and Isaiah 63 converge on the day of the Lord — Shepherding and treading are the same scepter.',
+    sourceKeywords: ['a sharp sword', 'smite the nations', 'rod of iron', 'treadeth the winepress'],
+    fulfillmentKeywords: ['thou shalt break them with a rod of iron', 'I have trodden the winepress alone'],
+    terms: [],
+  },
+  'rev-19-16': {
+    title: 'KING OF KINGS, AND LORD OF LORDS',
+    principle:
+      'The name is written on vesture and thigh. First principle: every other crown in history is subordinate — the title is a verdict on all rival sovereignties.',
+    sourceKeywords: ['KING OF KINGS, AND LORD OF LORDS', 'on his vesture and on his thigh'],
+    fulfillmentKeywords: ['THE LORD OUR RIGHTEOUSNESS', 'the blessed and only Potentate'],
+    terms: [],
+  },
+  'rev-20-2': {
+    title: 'He Laid Hold on the Dragon and Bound Him',
+    principle:
+      'The old serpent is chained a thousand years. First principle: Genesis\'s head-crushing advances to a binding — deception of the nations suspended by an angelic key and chain.',
+    sourceKeywords: ['laid hold on the dragon', 'that old serpent', 'bound him a thousand years'],
+    fulfillmentKeywords: ['it shall bruise thy head'],
+    terms: [],
+  },
+  'rev-20-6': {
+    title: 'Blessed and Holy Is He That Hath Part in the First Resurrection',
+    principle:
+      'First-resurrection saints escape the second death and reign a thousand years as priests. First principle: resurrection order decides destiny — the first is priestly reign; the second is judicial death.',
+    sourceKeywords: ['the first resurrection', 'the second death hath no power', 'reign with him a thousand years'],
+    fulfillmentKeywords: ['many of them that sleep in the dust shall awake'],
+    terms: [],
+  },
+  'rev-20-11': {
+    title: 'A Great White Throne, and Him That Sat on It',
+    principle:
+      'Earth and heaven flee from the Judge\'s face; no place remains for them. First principle: the final judgment is a throne before it is a sentence — purity itself presides.',
+    sourceKeywords: ['a great white throne', 'him that sat on it', 'the earth and the heaven fled away'],
+    fulfillmentKeywords: ['the judgment was set, and the books were opened'],
+    terms: [],
+  },
+  'rev-20-12': {
+    title: 'The Books Were Opened, and Another Book, the Book of Life',
+    principle:
+      'The dead are judged by the books; the saved by the book of life. First principle: two registries — works recorded, names written — and the second decides the first.',
+    sourceKeywords: ['the books were opened', 'the book of life', 'judged out of those things written'],
+    fulfillmentKeywords: ['the books were opened'],
+    terms: [],
+  },
+  'rev-21-2': {
+    title: 'New Jerusalem Prepared as a Bride',
+    principle:
+      'The holy city descends from God, adorned for her husband. First principle: the end is not heaven going quiet but a city coming down — covenant union made municipal.',
+    sourceKeywords: ['the holy city, new Jerusalem', 'coming down from God out of heaven', 'a bride adorned for her husband'],
+    fulfillmentKeywords: ['as the bridegroom rejoiceth over the bride', 'thou shalt be called Hephzibah'],
+    terms: [],
+  },
+  'rev-21-4': {
+    title: 'God Shall Wipe Away All Tears',
+    principle:
+      'No death, sorrow, crying, or pain — former things passed away. First principle: Isaiah\'s swallow-up promise is personalized: tears are wiped by God\'s own hand, one grief at a time.',
+    sourceKeywords: ['God shall wipe away all tears', 'no more death', 'former things are passed away'],
+    fulfillmentKeywords: ['He will swallow up death in victory'],
+    terms: [],
+  },
+  'rev-21-9': {
+    title: 'Come Hither, I Will Shew Thee the Bride, the Lamb\'s Wife',
+    principle:
+      'The angel offers to show a bride and shows a city. First principle: the church is architecture in the end — people made place, covenant made city.',
+    sourceKeywords: ['I will shew thee the bride', 'the Lamb\'s wife'],
+    fulfillmentKeywords: ['thy Maker is thine husband'],
+    terms: [],
+  },
+  'rev-21-14': {
+    title: 'Twelve Foundations, the Apostles of the Lamb',
+    principle:
+      'The city wall rests on apostolic names. First principle: the church\'s foundation is historical — named men, once weak, now load-bearing forever.',
+    sourceKeywords: ['twelve foundations', 'the names of the twelve apostles of the Lamb'],
+    fulfillmentKeywords: ['built upon the foundation of the apostles and prophets'],
+    terms: [],
+  },
+  'rev-21-23': {
+    title: 'The Lamb Is the Light Thereof',
+    principle:
+      'No sun or moon is needed; God\'s glory lights the city. First principle: creation\'s lamps are retired — Isaiah 60 fulfilled in a Lamb-lit, ever-shining city.',
+    sourceKeywords: ['no need of the sun', 'the glory of God did lighten it', 'the Lamb is the light thereof'],
+    fulfillmentKeywords: ['the sun shall be no more thy light by day', 'the LORD shall be unto thee an everlasting light'],
+    terms: [],
+  },
+  'rev-21-27': {
+    title: 'There Shall in No Wise Enter Any Thing That Defileth',
+    principle:
+      'Only those written in the Lamb\'s book of life enter. First principle: the city\'s gate is a register — purity required, purity provided, names checked.',
+    sourceKeywords: ['in no wise enter', 'whatsoever worketh abomination', 'the Lamb\'s book of life'],
+    fulfillmentKeywords: ['there shall no more come into thee the uncircumcised'],
+    terms: [],
+  },
+  'rev-22-1': {
+    title: 'A Pure River of Water of Life',
+    principle:
+      'From the throne of God and the Lamb flows a crystal river. First principle: Eden\'s rivers and Ezekiel\'s temple stream converge — life now flows from a throne, not a garden.',
+    sourceKeywords: ['a pure river of water of life', 'clear as crystal', 'out of the throne of God and of the Lamb'],
+    fulfillmentKeywords: ['a river went out of Eden', 'waters of life'],
+    terms: [],
+  },
+  'rev-22-2': {
+    title: 'The Tree of Life, Yielding Fruit Every Month',
+    principle:
+      'The tree returns, twelve fruits, leaves for the healing of nations. First principle: what was guarded is granted — the forbidden tree becomes the free tree, its leaves for healing.',
+    sourceKeywords: ['the tree of life', 'twelve manner of fruits', 'leaves... for the healing of the nations'],
+    fulfillmentKeywords: ['the tree of life also in the midst of the garden'],
+    terms: [],
+  },
+  'rev-22-3': {
+    title: 'There Shall Be No More Curse',
+    principle:
+      'The curse of Eden is gone; the throne of God and the Lamb is in it. First principle: the Bible ends where it began, minus the curse — servants serve, faces are seen.',
+    sourceKeywords: ['no more curse', 'the throne of God and of the Lamb', 'his servants shall serve him'],
+    fulfillmentKeywords: ['cursed is the ground for thy sake'],
+    terms: [],
+  },
+  'rev-22-4': {
+    title: 'They Shall See His Face',
+    principle:
+      'His name is in their foreheads. First principle: the Moses-limit — no man can see My face — is lifted for the redeemed; the beatitude of purity becomes sight.',
+    sourceKeywords: ['they shall see his face', 'his name shall be in their foreheads'],
+    fulfillmentKeywords: ['Thou canst not see my face', 'there shall no man see me and live'],
+    terms: [],
+  },
+  'rev-22-5': {
+    title: 'No Night There; They Reign for Ever and Ever',
+    principle:
+      'No candle, no sun — the Lord God gives light, and they reign. First principle: the light of the first creation week never needed a sunset; now it never sets again.',
+    sourceKeywords: ['no night there', 'the Lord God giveth them light', 'reign for ever and ever'],
+    fulfillmentKeywords: ['the LORD shall be unto thee an everlasting light'],
+    terms: [],
+  },
+  'rev-22-12': {
+    title: 'I Come Quickly; and My Reward Is with Me',
+    principle:
+      'The coming One brings recompense according to work. First principle: the return is a payroll event — reward carried personally by the Returning One, as Isaiah promised.',
+    sourceKeywords: ['I come quickly', 'my reward is with me', 'according as his work shall be'],
+    fulfillmentKeywords: ['behold, his reward is with him', 'his work before him'],
+    terms: [],
+  },
+  'rev-22-13': {
+    title: 'I Am Alpha and Omega, the First and the Last',
+    principle:
+      'The title-bookends meet: the alphabet of creation is the punctuation of the end. First principle: the Lord of Isaiah 44 and 48 speaks in Revelation\'s last chapter — the book\'s claims are divine claims.',
+    sourceKeywords: ['Alpha and Omega', 'the beginning and the end', 'the first and the last'],
+    fulfillmentKeywords: ['I am the first, I also am the last'],
+    terms: [],
+  },
+  'rev-22-14': {
+    title: 'Blessed Are They That Do His Commandments',
+    principle:
+      'Right to the tree of life and entry through the gates. First principle: obedience is the key-ring of the new Eden — doing His commandments and living by His tree.',
+    sourceKeywords: ['do his commandments', 'right to the tree of life', 'enter in through the gates'],
+    fulfillmentKeywords: ['to him that overcometh will I give to eat'],
+    terms: [],
+  },
+  'rev-22-17': {
+    title: 'The Spirit and the Bride Say, Come',
+    principle:
+      'Whosoever will may take the water of life freely. First principle: the prophecy ends with an invitation, not a threat — thirst, come, drink, freely.',
+    sourceKeywords: ['the Spirit and the bride say, Come', 'whosoever will', 'the water of life freely'],
+    fulfillmentKeywords: ['Ho, every one that thirsteth, come ye to the waters'],
+    terms: [],
+  },
+  'rev-22-18': {
+    title: 'If Any Man Shall Add unto These Things',
+    principle:
+      'The prophecy closes with a plenary guard: no adding, no subtracting. First principle: Deuteronomy\'s warning is renewed over the completed canon — the book is whole, and its words are weighty.',
+    sourceKeywords: ['If any man shall add', 'the plagues that are written in this book'],
+    fulfillmentKeywords: ['Ye shall not add unto the word which I command you'],
+    terms: [],
+  },
 };
 
 
