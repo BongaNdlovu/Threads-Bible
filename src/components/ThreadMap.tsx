@@ -12,6 +12,7 @@ import {
   ChevronUp,
   Landmark,
   Sparkles,
+  Heart,
   BookOpen,
   X,
   ZoomIn,
@@ -35,19 +36,21 @@ import {
   computeThreadLayout,
 } from './threadMapModel';
 import { cn } from '@/lib/utils';
+import { parsePersonalRelevance } from './HistoricalContextPage';
 
 /**
- * Ordo — the cinematic mindmap view of a single biblical thread.
+ * Ordo Redemptoris — The Architecture of Redemption.
+ * Full-featured Biblical Typology & Prophecy Graph Mindmap.
  *
- * Upgraded with:
- *  1. Collision-free dynamic layout engine (Column, Radial Arc, Two-Column Grid)
+ * Core Features:
+ *  1. Canonical & aesthetic visual positioning for all graph topologies
  *  2. Non-overlapping staggered SVG edge label badges with readability clamping
  *  3. Non-overlapping minimap dynamically positioned above collapsible dossier
  *  4. Unified floating controls with integrated step scrubber & tour speed
  *  5. Full-featured in-map node search & filter (with `/` shortcut & match cycle)
  *  6. Zoom In, Zoom Out, Auto-Fit All (`0`), Focus Node (`F`), and Reset View
  *  7. Multi-touch pinch-to-zoom and drag panning for mobile/tablet devices
- *  8. Collapsible 5-pillar interrogation dossier (Ultimate Point, What, When, How, Why)
+ *  8. Collapsible 6-pillar interrogation dossier (Ultimate Point, Personal Life, What, When, How, Why)
  *  9. Fullscreen canvas mode toggle
  * 10. Persistent preferences across sessions
  */
@@ -279,7 +282,7 @@ export function ThreadMap({
 
   /* Store integration */
   const { setHistoricalContextOpen } = useStore();
-  const [dossierTab, setDossierTab] = useState<'ultimate' | 'what' | 'when' | 'how' | 'why'>('ultimate');
+  const [dossierTab, setDossierTab] = useState<'ultimate' | 'personal' | 'what' | 'when' | 'how' | 'why'>('ultimate');
   const [scholarlyModalOpen, setScholarlyModalOpen] = useState(false);
 
   // Click-outside listener for layout mode dropdown
@@ -864,6 +867,8 @@ export function ThreadMap({
     switch (dossierTab) {
       case 'ultimate':
         return inter.ultimatePoint;
+      case 'personal':
+        return inter.personalRelevance;
       case 'what':
         return inter.what;
       case 'when':
@@ -1678,7 +1683,7 @@ export function ThreadMap({
                 className="text-[10px] px-2 py-0.5 rounded border uppercase font-mono font-semibold shrink-0"
                 style={{ borderColor: `${P.gold}44`, background: `${P.gold}14`, color: P.gold }}
               >
-                {dossierTab}
+                {dossierTab === 'personal' ? 'Personal Life' : dossierTab}
               </span>
               <p className="text-xs truncate" style={{ color: P.dim }}>
                 {narratedText}
@@ -1774,6 +1779,19 @@ export function ThreadMap({
                       <Sparkles className="h-3 w-3" />
                       <span>Ultimate Point</span>
                     </button>
+                    <button
+                      onClick={() => setDossierTab('personal')}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] flex items-center gap-1 cursor-pointer transition-all shrink-0"
+                      style={{
+                        background: dossierTab === 'personal' ? `${P.gold}28` : 'transparent',
+                        color: dossierTab === 'personal' ? P.gold : P.dim,
+                        border: dossierTab === 'personal' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: dossierTab === 'personal' ? 700 : 500,
+                      }}
+                    >
+                      <Heart className="h-3 w-3" />
+                      <span>Personal Life</span>
+                    </button>
                     {(['what', 'when', 'how', 'why'] as const).map(tab => (
                       <button
                         key={tab}
@@ -1797,7 +1815,7 @@ export function ThreadMap({
                       onClick={() => setScholarlyModalOpen(true)}
                       className="h-7 px-2.5 rounded-md border text-[10px] font-medium flex items-center gap-1 cursor-pointer hover:opacity-90 transition-colors"
                       style={{ borderColor: P.ctrlBorder, color: P.text }}
-                      title="Open the full 5-part scholarly dossier"
+                      title="Open the full scholarly dossier"
                     >
                       <BookOpen className="h-3 w-3" />
                       <span>Full Dossier</span>
@@ -1826,8 +1844,13 @@ export function ThreadMap({
                 {/* Active Content Display with Typewriter Effect */}
                 {dossierTab === 'ultimate' ? (
                   <div
-                    className="p-3 rounded-lg border flex items-start gap-2.5 min-h-[3.4em]"
+                    onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                    className={cn(
+                      "p-3 rounded-lg border flex items-start gap-2.5 min-h-[3.4em]",
+                      typing && "cursor-pointer"
+                    )}
                     style={{ borderColor: `${P.gold}44`, background: `${P.gold}0e` }}
+                    title={typing ? "Click to reveal complete text immediately" : undefined}
                   >
                     <Sparkles className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
                     <p className="font-serif text-[13.5px] font-medium leading-relaxed" style={{ color: P.text }}>
@@ -1835,8 +1858,67 @@ export function ThreadMap({
                       {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
                     </p>
                   </div>
+                ) : dossierTab === 'personal' ? (
+                  (() => {
+                    const parsed = !typing ? parsePersonalRelevance(activeEdge.interrogation.personalRelevance) : null;
+                    return (
+                      <div
+                        onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                        className={cn(
+                          "p-3 rounded-lg border flex items-start gap-2.5 min-h-[3.4em]",
+                          typing && "cursor-pointer"
+                        )}
+                        style={{ borderColor: `${P.gold}44`, background: `${P.gold}0e` }}
+                        title={typing ? "Click to reveal complete text immediately" : undefined}
+                      >
+                        <Heart className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
+                        <div className="flex-1 min-w-0">
+                          <div className="font-mono text-[9px] uppercase tracking-wider mb-1 font-bold" style={{ color: P.gold }}>
+                            Personal Relevance · Your Walk with Jesus
+                          </div>
+                          {parsed ? (
+                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-0.5">
+                              <div className="p-2 rounded border space-y-0.5" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                <div className="font-mono text-[8.5px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                  1. Why You Need to Know This
+                                </div>
+                                <p className="font-serif text-[12px] leading-relaxed" style={{ color: P.text }}>
+                                  {parsed.why}
+                                </p>
+                              </div>
+                              <div className="p-2 rounded border space-y-0.5" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                <div className="font-mono text-[8.5px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                  2. What It Does For You
+                                </div>
+                                <p className="font-serif text-[12px] leading-relaxed" style={{ color: P.text }}>
+                                  {parsed.what}
+                                </p>
+                              </div>
+                              <div className="p-2 rounded border space-y-0.5" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                <div className="font-mono text-[8.5px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                  3. Your Relationship With Jesus
+                                </div>
+                                <p className="font-serif text-[12px] leading-relaxed" style={{ color: P.text }}>
+                                  {parsed.relationship}
+                                </p>
+                              </div>
+                            </div>
+                          ) : (
+                            <p className="font-serif text-[13px] font-medium leading-relaxed" style={{ color: P.text }}>
+                              {typed}
+                              {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                            </p>
+                          )}
+                        </div>
+                      </div>
+                    );
+                  })()
                 ) : (
-                  <div className="min-h-[3.4em] px-1">
+                  <div
+                    onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                    className={cn("min-h-[3.4em] px-1", typing && "cursor-pointer")}
+                    title={typing ? "Click to reveal complete text immediately" : undefined}
+                  >
                     <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
                       {dossierTab === 'what' && '1. Textual & Thematic Parallelism'}
                       {dossierTab === 'when' && '2. Chronological Dating & Redemptive Horizons'}
@@ -1934,6 +2016,51 @@ export function ThreadMap({
                   {activeEdge.interrogation.ultimatePoint}
                 </p>
               </div>
+
+              {/* Personal Relevance & Walk with Jesus */}
+              {(() => {
+                const parsed = parsePersonalRelevance(activeEdge.interrogation.personalRelevance);
+                return (
+                  <div className="p-4 rounded-xl border space-y-3" style={{ borderColor: `${P.gold}66`, background: `${P.gold}0e` }}>
+                    <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                      <Heart className="h-3.5 w-3.5" />
+                      <span>Personal Relevance & Your Walk with Jesus</span>
+                    </div>
+                    {parsed ? (
+                      <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
+                        <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                          <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                            1. Why You Need to Know This
+                          </div>
+                          <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                            {parsed.why}
+                          </p>
+                        </div>
+                        <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                          <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                            2. What It Does For You
+                          </div>
+                          <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                            {parsed.what}
+                          </p>
+                        </div>
+                        <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                          <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                            3. Your Relationship With Jesus
+                          </div>
+                          <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                            {parsed.relationship}
+                          </p>
+                        </div>
+                      </div>
+                    ) : (
+                      <p className="font-serif text-xs font-medium leading-relaxed" style={{ color: P.text }}>
+                        {activeEdge.interrogation.personalRelevance}
+                      </p>
+                    )}
+                  </div>
+                );
+              })()}
 
               {/* What */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>

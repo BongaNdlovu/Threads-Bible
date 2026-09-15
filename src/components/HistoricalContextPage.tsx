@@ -7,6 +7,7 @@ import {
   BookOpen,
   ArrowRight,
   Sparkles,
+  Heart,
   Sun,
   Moon,
   Compass,
@@ -27,6 +28,22 @@ import {
 import { threadFor, parseRef, BOOK_REGISTRY, getChapterVersesFromLoaded } from '../data/library';
 import { generateConnectionInterrogation, getAuthorForRef } from '../data/connectionInterrogation';
 import { getThreadDetail } from '../data/threadDetailService';
+
+export function parsePersonalRelevance(text: string): { why: string; what: string; relationship: string } | null {
+  if (!text) return null;
+  const whyMatch = text.match(/Why you need to know this:\s*([^]*?)(?=What it does for you:|$)/i);
+  const whatMatch = text.match(/What it does for you:\s*([^]*?)(?=Relationship with Jesus:|$)/i);
+  const relMatch = text.match(/Relationship with Jesus:\s*([^]*)$/i);
+
+  if (whyMatch && whatMatch && relMatch) {
+    return {
+      why: whyMatch[1].trim(),
+      what: whatMatch[1].trim(),
+      relationship: relMatch[1].trim(),
+    };
+  }
+  return null;
+}
 
 export function HistoricalContextPage() {
   const {
@@ -120,6 +137,7 @@ export function HistoricalContextPage() {
       fulfillmentSetting: hc?.fulfillmentSetting || fulfillmentEra.geopoliticalBackdrop,
       redemptiveBridge: hc?.redemptiveBridge || 'Progressive redemptive revelation bridging the Old Testament foundation to its New Testament culmination.',
       ultimatePoint: inter.ultimatePoint,
+      personalRelevance: inter.personalRelevance,
       what: inter.what,
       when: inter.when,
       how: inter.how,
@@ -147,6 +165,7 @@ export function HistoricalContextPage() {
         c.sourceAuthor.toLowerCase().includes(q) ||
         c.fulfillmentAuthor.toLowerCase().includes(q) ||
         c.ultimatePoint.toLowerCase().includes(q) ||
+        c.personalRelevance.toLowerCase().includes(q) ||
         c.what.toLowerCase().includes(q) ||
         c.sourceEra.name.toLowerCase().includes(q) ||
         c.fulfillmentEra.name.toLowerCase().includes(q);
@@ -470,6 +489,57 @@ export function HistoricalContextPage() {
                           {conn.ultimatePoint}
                         </p>
                       </div>
+
+                      {/* Personal Relevance / Walk with Jesus Banner */}
+                      {(() => {
+                        const parsed = parsePersonalRelevance(conn.personalRelevance);
+                        return (
+                          <div
+                            className="p-4 rounded-xl border space-y-3"
+                            style={{
+                              borderColor: `${P.gold}55`,
+                              background: `linear-gradient(135deg, ${P.gold}14, transparent)`,
+                            }}
+                          >
+                            <div className="flex items-center gap-2 font-mono text-[10px] tracking-widest uppercase font-bold" style={{ color: P.gold }}>
+                              <Heart className="h-3.5 w-3.5" />
+                              <span>Personal Relevance · Your Walk with Jesus</span>
+                            </div>
+                            {parsed ? (
+                              <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-0.5">
+                                <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                  <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                    1. Why You Need to Know This
+                                  </div>
+                                  <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                                    {parsed.why}
+                                  </p>
+                                </div>
+                                <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                  <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                    2. What It Does For You
+                                  </div>
+                                  <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                                    {parsed.what}
+                                  </p>
+                                </div>
+                                <div className="p-3 rounded-lg border space-y-1" style={{ borderColor: `${P.gold}30`, background: `${P.gold}08` }}>
+                                  <div className="font-mono text-[9px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                                    3. Your Relationship With Jesus
+                                  </div>
+                                  <p className="font-serif text-xs leading-relaxed" style={{ color: P.text }}>
+                                    {parsed.relationship}
+                                  </p>
+                                </div>
+                              </div>
+                            ) : (
+                              <p className="font-serif text-sm leading-relaxed" style={{ color: P.text }}>
+                                {conn.personalRelevance}
+                              </p>
+                            )}
+                          </div>
+                        );
+                      })()}
 
                       {/* Side-by-side Historical Settings */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

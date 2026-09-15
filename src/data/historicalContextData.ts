@@ -121,6 +121,7 @@ export interface HistoricalConnectionItem {
   fulfillmentSetting: string;
   redemptiveBridge: string;
   ultimatePoint: string;
+  personalRelevance: string;
   what: string;
   when: string;
   how: string;
@@ -214,11 +215,22 @@ export const ANCHOR_TEXTS: Record<string, string> = {
   'gen-1-26': 'And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.',
   'gen-3-15': 'And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.',
   'gen-12-3': 'And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.',
+  'gen-22-2': 'And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.',
+  'gen-22-8': 'And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.',
   'exo-12-46': 'In one house shall it be eaten; thou shalt not carry forth ought of the flesh abroad out of the house; neither shall ye break a bone thereof.',
+  'num-21-8': 'And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.',
+  'num-21-9': 'And Moses made a serpent of brass, and put it upon a pole, and it came to pass, that if a serpent had bitten any man, when he beheld the serpent of brass, he lived.',
+  'jos-5-13': 'And it came to pass, when Joshua was by Jericho, that he lifted up his eyes and looked, and, behold, there stood a man over against him with his sword drawn in his hand: and Joshua went unto him, and said unto him, Art thou for us, or for our adversaries?',
   'jos-5-14': 'And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?',
+  'jos-5-15': 'And the captain of the LORD\'s host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest is holy. And Joshua did so.',
   '2sa-7-12': 'And when thy days be fulfilled, and thou shalt sleep with thy fathers, I will set up thy seed after thee, which shall proceed out of thy bowels, and I will establish his kingdom.',
+  'psa-110-1': 'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool.',
+  'psa-110-4': 'The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.',
   'isa-53-5': 'But he was wounded for our transgressions, he was bruised for our iniquities: the chastisement of our peace was upon him; and with his stripes we are healed.',
+  'jer-31-31': 'Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah:',
   'dan-7-13': 'I saw in the night visions, and, behold, one like the Son of man came with the clouds of heaven, and came to the Ancient of days, and they brought him near before him.',
+  'zec-12-10': 'And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son, and shall be in bitterness for him, as one that is in bitterness for his firstborn.',
+  'mal-4-2': 'But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall.',
   'mal-4-5': 'Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:',
   'mat-1-22': 'Now all this was done, that it might be fulfilled which was spoken of the Lord by the prophet, saying,',
   'mat-1-23': 'Behold, a virgin shall be with child, and shall bring forth a son, and they shall call his name Emmanuel, which being interpreted is, God with us.',
@@ -258,6 +270,7 @@ export function getAllHistoricalConnections(): HistoricalConnectionItem[] {
       fulfillmentSetting: hc?.fulfillmentSetting || fulfillmentEra.geopoliticalBackdrop,
       redemptiveBridge: hc?.redemptiveBridge || 'Progressive redemptive revelation bridging the Old Testament foundation to its New Testament culmination.',
       ultimatePoint: inter.ultimatePoint,
+      personalRelevance: inter.personalRelevance,
       what: inter.what,
       when: inter.when,
       how: inter.how,

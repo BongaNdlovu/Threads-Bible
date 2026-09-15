@@ -41,7 +41,7 @@ export interface MapEdge {
   step: number;
   label: string;
   why: string;
-  /** Complete 5-part biblical interrogation (What, When, How, Why, Ultimate Point). */
+  /** Complete 6-part biblical interrogation (What, When, How, Why, Ultimate Point, Personal Relevance). */
   interrogation: ConnectionInterrogation;
 }
 

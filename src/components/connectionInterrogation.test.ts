@@ -14,6 +14,7 @@ import {
   getAllHistoricalConnections,
 } from '../data/historicalContextData';
 import { buildThreadGraph } from './threadMapModel';
+import { parsePersonalRelevance } from './HistoricalContextPage';
 
 describe('Connection Interrogation Architecture', () => {
   it('correctly retrieves curated interrogation for Genesis 1:1 -> John 1:1-3 with Christ as Creative Agent', () => {
@@ -26,12 +27,18 @@ describe('Connection Interrogation Architecture', () => {
     );
 
     expect(inter).toBeDefined();
-    // Verify all 5 interrogation pillars are non-empty
+    // Verify all 6 interrogation pillars are non-empty
     expect(inter.what).toBeTruthy();
     expect(inter.when).toBeTruthy();
     expect(inter.how).toBeTruthy();
     expect(inter.why).toBeTruthy();
     expect(inter.ultimatePoint).toBeTruthy();
+    expect(inter.personalRelevance).toBeTruthy();
+
+    // Verify personal relevance answers the 3 core questions
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
 
     // Verify biblical interrogation content on creative agency
     expect(inter.ultimatePoint).toContain('Creative Agent');
@@ -65,9 +72,11 @@ describe('Connection Interrogation Architecture', () => {
     expect(inter.ultimatePoint).toContain('Word of God');
     expect(inter.how).toContain('baraʾ');
     expect(inter.what).toContain('creatio ex nihilo');
+    expect(inter.personalRelevance).toBeTruthy();
+    expect(inter.personalRelevance).toContain('creatio ex nihilo');
   });
 
-  it('generates a robust 5-part interrogation for any arbitrary connection via fallback', () => {
+  it('generates a robust 6-part interrogation for any arbitrary connection via fallback', () => {
     const inter = generateConnectionInterrogation({
       anchorId: 'psa-22-1',
       anchorRef: 'Psalm 22:1',
@@ -83,6 +92,9 @@ describe('Connection Interrogation Architecture', () => {
     expect(inter.how).toContain('Christological');
     expect(inter.why).toContain('The righteous sufferer cry is fulfilled on Calvary.');
     expect(inter.ultimatePoint).toContain('Jesus Christ is the ultimate fulfillment');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
   });
 
   it('correctly classifies numbered books (1 Corinthians, 1 John, 1 Peter) as NT', () => {
@@ -238,6 +250,9 @@ describe('Historical Context Dataset', () => {
     });
     expect(otToNt.what).toContain('Old Testament foundation');
     expect(otToNt.when).toContain('apostolic New Testament era');
+    expect(otToNt.personalRelevance).toContain('Why you need to know this');
+    expect(otToNt.personalRelevance).toContain('What it does for you');
+    expect(otToNt.personalRelevance).toContain('Relationship with Jesus');
 
     // Mode 2: NT ➔ OT (Apostolic Retrospective)
     const ntToOt = generateConnectionInterrogation({
@@ -249,6 +264,9 @@ describe('Historical Context Dataset', () => {
     });
     expect(ntToOt.what).toContain('Apostolic retrospective');
     expect(ntToOt.when).toContain('Apostolic Retrospective');
+    expect(ntToOt.personalRelevance).toContain('Why you need to know this');
+    expect(ntToOt.personalRelevance).toContain('What it does for you');
+    expect(ntToOt.personalRelevance).toContain('Relationship with Jesus');
 
     // Mode 3: NT ➔ NT (Apostolic Harmony)
     const ntToNt = generateConnectionInterrogation({
@@ -260,6 +278,9 @@ describe('Historical Context Dataset', () => {
     });
     expect(ntToNt.what).toContain('Apostolic doctrinal consistency');
     expect(ntToNt.when).toContain('Apostolic Era (1st Century AD)');
+    expect(ntToNt.personalRelevance).toContain('Why you need to know this');
+    expect(ntToNt.personalRelevance).toContain('What it does for you');
+    expect(ntToNt.personalRelevance).toContain('Relationship with Jesus');
 
     // Mode 4: OT ➔ OT (Covenant Progression)
     const otToOt = generateConnectionInterrogation({
@@ -271,11 +292,128 @@ describe('Historical Context Dataset', () => {
     });
     expect(otToOt.what).toContain('Canonical progression within the Hebrew Scriptures');
     expect(otToOt.when).toContain('Old Testament Theocratic Era');
+    expect(otToOt.personalRelevance).toContain('Why you need to know this');
+    expect(otToOt.personalRelevance).toContain('What it does for you');
+    expect(otToOt.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('ensures all historical connections have personalRelevance answering all 3 questions', () => {
+    const connections = getAllHistoricalConnections();
+    expect(connections.length).toBeGreaterThan(0);
+    for (const conn of connections) {
+      expect(conn.personalRelevance, `Expected connection ${conn.id} to have personalRelevance`).toBeTruthy();
+      expect(conn.personalRelevance).toContain('Why you need to know this');
+      expect(conn.personalRelevance).toContain('What it does for you');
+      expect(conn.personalRelevance).toContain('Relationship with Jesus');
+    }
+  });
+
+  it('includes newly added major typological anchors in historical connections', () => {
+    const connections = getAllHistoricalConnections();
+    const anchorRefs = new Set(connections.map(c => c.anchorRef));
+    expect(anchorRefs.has('Genesis 22:2')).toBe(true);
+    expect(anchorRefs.has('Numbers 21:9')).toBe(true);
+    expect(anchorRefs.has('Psalm 110:4')).toBe(true);
+    expect(anchorRefs.has('Jeremiah 31:31')).toBe(true);
+    expect(anchorRefs.has('Zechariah 12:10')).toBe(true);
+    expect(anchorRefs.has('Malachi 4:2')).toBe(true);
+  });
+});
+
+describe('Curated Typological & Prophetic Threads', () => {
+  it('curates Abraham offering Isaac on Moriah (Gen 22:2 -> Heb 11:17) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'gen-22-2',
+      'Hebrews 11:17',
+      'Genesis 22:2',
+      'Take now thy son, thine only son Isaac, whom thou lovest...',
+      'By faith Abraham, when he was tried, offered up Isaac...'
+    );
+    expect(inter.what).toContain('Akedah');
+    expect(inter.how).toContain('Moriah');
+    expect(inter.ultimatePoint).toContain('only begotten Son');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+    expect(inter.personalRelevance).toContain('Romans 8:32');
+  });
+
+  it('curates the Bronze Serpent (Num 21:9 -> John 3:14-15) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'num-21-9',
+      'John 3:14-15',
+      'Numbers 21:9',
+      'And Moses made a serpent of brass, and put it upon a pole...',
+      'And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up...'
+    );
+    expect(inter.what).toContain('bronze serpent');
+    expect(inter.ultimatePoint).toContain('lifted up');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('curates the Melchizedekian Royal Priesthood (Psa 110:4 -> Heb 7:17) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'psa-110-4',
+      'Hebrews 7:17',
+      'Psalm 110:4',
+      'The LORD hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.',
+      'Thou art a priest for ever after the order of Melchisedec.'
+    );
+    expect(inter.what).toContain('Melchizedek');
+    expect(inter.ultimatePoint).toContain('High Priest');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('curates the New Covenant Ratified in Blood (Jer 31:31 -> Heb 8:8) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'jer-31-31',
+      'Hebrews 8:8',
+      'Jeremiah 31:31',
+      'Behold, the days come, saith the LORD, that I will make a new covenant...',
+      'Behold, the days come, saith the Lord, when I will make a new covenant...'
+    );
+    expect(inter.what).toContain('New Covenant');
+    expect(inter.ultimatePoint).toContain('heart');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('curates the Pierced Shepherd-God (Zec 12:10 -> John 19:37) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'zec-12-10',
+      'John 19:37',
+      'Zechariah 12:10',
+      'they shall look upon me whom they have pierced...',
+      'They shall look on him whom they pierced.'
+    );
+    expect(inter.what).toContain('pierced');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('curates the Sun of Righteousness (Mal 4:2 -> Luke 1:78-79) with personal relevance', () => {
+    const inter = getConnectionInterrogation(
+      'mal-4-2',
+      'Luke 1:78-79',
+      'Malachi 4:2',
+      'Unto you that fear my name shall the Sun of righteousness arise with healing in his wings...',
+      'Through the tender mercy of our God; whereby the dayspring from on high hath visited us...'
+    );
+    expect(inter.what).toContain('Sun of righteousness');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
   });
 });
 
 describe('Thread Graph Model Integration', () => {
-  it('attaches full 5-part interrogation to every edge in buildThreadGraph', () => {
+  it('attaches full 6-part interrogation to every edge in buildThreadGraph', () => {
     const graph = buildThreadGraph({
       anchorId: 'gen-1-1',
       anchorRef: 'Genesis 1:1',
@@ -297,5 +435,31 @@ describe('Thread Graph Model Integration', () => {
     expect(edge.interrogation.ultimatePoint).toContain('Creative Agent');
     expect(edge.interrogation.what).toContain('Logos');
     expect(edge.interrogation.how).toContain("di' autou");
+    expect(edge.interrogation.personalRelevance).toBeTruthy();
+    expect(edge.interrogation.personalRelevance).toContain('Why you need to know this');
+    expect(edge.interrogation.personalRelevance).toContain('What it does for you');
+    expect(edge.interrogation.personalRelevance).toContain('Relationship with Jesus');
+  });
+
+  it('preserves exactly 41 distinct historical connections without ID collisions', () => {
+    const connections = getAllHistoricalConnections();
+    expect(connections).toHaveLength(41);
+
+    // Verify all IDs are unique
+    const idSet = new Set(connections.map(c => c.id));
+    expect(idSet.size).toBe(41);
+  });
+
+  it('correctly parses structured personal relevance text into 3 distinct sections', () => {
+    const sample = 'Why you need to know this: God keeps His covenants. What it does for you: Delivers from fear. Relationship with Jesus: Jesus is our eternal King.';
+    const parsed = parsePersonalRelevance(sample);
+    expect(parsed).not.toBeNull();
+    expect(parsed?.why).toBe('God keeps His covenants.');
+    expect(parsed?.what).toBe('Delivers from fear.');
+    expect(parsed?.relationship).toBe('Jesus is our eternal King.');
+
+    // Malformed/missing returns null
+    expect(parsePersonalRelevance('')).toBeNull();
+    expect(parsePersonalRelevance('Just some text without structured markers')).toBeNull();
   });
 });
