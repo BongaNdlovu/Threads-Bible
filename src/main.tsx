@@ -30,3 +30,35 @@ preloadThreadDetails();
 // PWA service worker (production builds only): precaches the app shell and
 // data chunks, caches book/TSK JSONs on first use, and auto-updates.
 registerSW({immediate: true});
+
+// Self-heal across deploys: a still-running session can reference chunk
+// hashes that a newer deploy replaced, and the service worker purges the old
+// precache on activation — lazy imports then 404. Vite reports those as
+// vite:preloadError; reload once to pick up the new build (guarded so an
+// offline session never reload-loops — the ErrorBoundary covers the rest).
+const DEPLOY_RELOAD_KEY = 'threads-bible-deploy-reload';
+window.addEventListener('vite:preloadError', () => {
+  if (!navigator.onLine) return;
+  try {
+    if (sessionStorage.getItem(DEPLOY_RELOAD_KEY)) return;
+    sessionStorage.setItem(DEPLOY_RELOAD_KEY, '1');
+  } catch {
+    // Storage unavailable: reload unconditionally, still once per session.
+  }
+  window.location.reload();
+});
+
+// When a freshly deployed service worker takes control of an existing tab,
+// reload once so the new build replaces the stale one immediately. The
+// first-ever claim (initial install) is exempt via the session flag.
+navigator.serviceWorker?.addEventListener('controllerchange', () => {
+  try {
+    if (!sessionStorage.getItem('threads-bible-claimed')) {
+      sessionStorage.setItem('threads-bible-claimed', '1');
+      return;
+    }
+  } catch {
+    return;
+  }
+  window.location.reload();
+});

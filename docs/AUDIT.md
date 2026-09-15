@@ -231,6 +231,14 @@ offline reading. All four were implemented.
    panel; all proof/type/fulfillment refs are clickable and verified
    canonical by the test suite.
 
+6. **Self-heal across deploys** — a still-running session referencing chunk
+   hashes replaced by a newer deploy (service worker purges the old precache
+   on activation) now reloads once automatically: `vite:preloadError` and the
+   service worker `controllerchange` both trigger a session-guarded reload,
+   so a stale tab recovers into the new build instead of showing the thread
+   pane's error boundary. Offline sessions never reload-loop (the handler
+   checks `navigator.onLine`).
+
 New tests cover the hash codec (round trips, malformed input) and backup
 validation (foreign files, malformed rows, self-links, non-canonical ids).
 CI (deploy workflow) runs `audit:data`, Vitest, and `tsc` before every deploy.
