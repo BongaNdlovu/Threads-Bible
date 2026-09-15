@@ -47,6 +47,19 @@ describe('buildThreadGraph', () => {
     expect(g.edges.find(e => e.to === isaNode!.id)).toBeDefined();
   });
 
+  it('carries the full untruncated verse text for the inline reader', () => {
+    const g = buildThreadGraph(BASE);
+    const source = g.nodes[0];
+    expect(source.fullText).toBe(
+      'Rejoice greatly, O daughter of Zion; behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass.'
+    );
+    const isa = g.nodes.find(n => n.ref === 'Isaiah 9:1-2')!;
+    expect(isa.fullText).toContain('Nevertheless the dimness');
+    expect(isa.fullText).toContain('The people that walked in darkness');
+    // fullText is never truncated — no ellipsis even when body is
+    expect(isa.fullText).not.toContain('…');
+  });
+
   it('composes every edge why from the hand-written principle plus both verse ends', () => {
     const g = buildThreadGraph(BASE);
     for (const e of g.edges) {

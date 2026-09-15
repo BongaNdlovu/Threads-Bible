@@ -20,6 +20,8 @@ export interface MapNode {
   ref: string;
   title: string;
   body: string;
+  /** The full, untruncated verse text for the node's inline reader. */
+  fullText: string;
   strand: 'gold' | 'steel';
   x: number;
   y: number;
@@ -107,6 +109,7 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
     ref: input.anchorRef,
     title: input.anchorTitle,
     body: anchorSnippet,
+    fullText: input.anchorVerseText,
     strand: 'gold',
     x: 40,
     y: 40,
@@ -126,6 +129,7 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       ref: group.ref,
       title: snippet(group.ref, 40),
       body,
+      fullText: group.verses.map(v => v.text).join(' '),
       strand: 'steel',
       x: 40 + NODE_GAP_X,
       y: 40 + i * NODE_GAP_Y,

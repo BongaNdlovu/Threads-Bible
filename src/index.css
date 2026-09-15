@@ -128,3 +128,28 @@
     @apply font-sans;
     }
 }
+/* ── Ordo mindmap atmosphere ─────────────────────────────────────────── */
+@keyframes ordo-flow {
+  to { stroke-dashoffset: -28; }
+}
+.ordo-flow {
+  stroke-dasharray: 5 9;
+  animation: ordo-flow 0.9s linear infinite;
+}
+@keyframes ordo-breathe {
+  0%, 100% { filter: brightness(1); }
+  50% { filter: brightness(1.16); }
+}
+.ordo-breathe {
+  animation: ordo-breathe 2.6s ease-in-out infinite;
+}
+@keyframes ordo-caret {
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
+}
+.ordo-caret {
+  animation: ordo-caret 0.9s step-end infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .ordo-flow, .ordo-breathe, .ordo-caret { animation: none; }
+}
