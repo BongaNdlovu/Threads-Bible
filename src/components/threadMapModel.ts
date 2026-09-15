@@ -168,3 +168,141 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
 
   return { nodes, edges, totalSteps: 1 + groups.length };
 }
+
+export type MapLayoutMode = 'column' | 'radial' | 'grid';
+export type MapSpacingMode = 'compact' | 'normal' | 'relaxed';
+
+export interface NodePosition {
+  x: number;
+  y: number;
+}
+
+export interface LayoutOptions {
+  mode?: MapLayoutMode;
+  spacing?: MapSpacingMode;
+  nodeSizes?: Record<string, { w: number; h: number }>;
+  nodeWidth?: number;
+  defaultNodeHeight?: number;
+}
+
+/**
+ * Computes collision-free positions for all nodes in the thread graph.
+ * Dynamically accounts for measured node dimensions and card expansion.
+ */
+export function computeThreadLayout(
+  graph: ThreadGraph,
+  options?: LayoutOptions
+): Record<string, NodePosition> {
+  const positions: Record<string, NodePosition> = {};
+  if (graph.nodes.length === 0) return positions;
+
+  const mode = options?.mode ?? 'column';
+  const spacing = options?.spacing ?? 'normal';
+  const nodeSizes = options?.nodeSizes ?? {};
+  const nodeW = options?.nodeWidth ?? NODE_W;
+  const defaultH = options?.defaultNodeHeight ?? 180;
+
+  // Spacing gaps based on mode
+  let vGap = 38;
+  let hGap = 120;
+  if (spacing === 'compact') {
+    vGap = 24;
+    hGap = 85;
+  } else if (spacing === 'relaxed') {
+    vGap = 64;
+    hGap = 160;
+  }
+
+  const sourceNode = graph.nodes[0];
+  const fulfillmentNodes = graph.nodes.slice(1);
+
+  const getH = (id: string) => nodeSizes[id]?.h ?? defaultH;
+
+  if (fulfillmentNodes.length === 0) {
+    positions[sourceNode.id] = { x: 50, y: 50 };
+    return positions;
+  }
+
+  if (mode === 'radial') {
+    const count = fulfillmentNodes.length;
+    const totalNeededArc = fulfillmentNodes.reduce((sum, n) => sum + getH(n.id) + vGap, 0);
+    const arcAngle = Math.min(Math.PI * 0.75, Math.max(Math.PI * 0.42, (count - 1) * 0.28));
+    const radius = Math.max(380, totalNeededArc / arcAngle);
+
+    const allHalfHeights = [getH(sourceNode.id) / 2, ...fulfillmentNodes.map(n => getH(n.id) / 2)];
+    const maxHalfH = Math.max(...allHalfHeights);
+    const anchorX = 50;
+    const centerY = radius * Math.sin(arcAngle / 2) + maxHalfH + 50;
+    positions[sourceNode.id] = { x: anchorX, y: Math.round(centerY - getH(sourceNode.id) / 2) };
+
+    const startAngle = -arcAngle / 2;
+    const angleStep = count > 1 ? arcAngle / (count - 1) : 0;
+
+    let prevBottomY = -Infinity;
+
+    fulfillmentNodes.forEach((node, i) => {
+      const theta = count === 1 ? 0 : startAngle + i * angleStep;
+      const h = getH(node.id);
+      let nx = anchorX + nodeW + hGap + radius * Math.cos(theta);
+      let ny = centerY + radius * Math.sin(theta) - h / 2;
+
+      // Absolute collision avoidance: enforce disjoint Y-spans between adjacent fulfillment cards
+      if (ny < prevBottomY + vGap) {
+        ny = prevBottomY + vGap;
+      }
+      prevBottomY = ny + h;
+
+      positions[node.id] = { x: Math.round(nx), y: Math.round(ny) };
+    });
+
+    return positions;
+  }
+
+  if (mode === 'grid' && fulfillmentNodes.length >= 2) {
+    // Split Bilateral Layout: Anchor in center, Left Column (odd/alt) and Right Column (even/alt)
+    // Guarantees edges never cross through other cards
+    const colLeftX = 50;
+    const anchorX = colLeftX + nodeW + hGap;
+    const colRightX = anchorX + nodeW + hGap;
+
+    let curYLeft = 50;
+    let curYRight = 50;
+
+    fulfillmentNodes.forEach((node, idx) => {
+      const h = getH(node.id);
+      // Alternate between Left and Right columns (or balance heights)
+      const isLeft = idx % 2 === 0;
+      if (isLeft) {
+        positions[node.id] = { x: colLeftX, y: curYLeft };
+        curYLeft += h + vGap;
+      } else {
+        positions[node.id] = { x: colRightX, y: curYRight };
+        curYRight += h + vGap;
+      }
+    });
+
+    const maxColH = Math.max(curYLeft - 50 - vGap, curYRight - 50 - vGap);
+    const sourceH = getH(sourceNode.id);
+    const anchorY = Math.max(50, 50 + (maxColH - sourceH) / 2);
+    positions[sourceNode.id] = { x: anchorX, y: Math.round(anchorY) };
+
+    return positions;
+  }
+
+  // Default: Column Layout with Dynamic Collision-Free Spacing
+  const colX = 50 + nodeW + hGap;
+  let curY = 50;
+
+  fulfillmentNodes.forEach((node) => {
+    const h = getH(node.id);
+    positions[node.id] = { x: colX, y: curY };
+    curY += h + vGap;
+  });
+
+  const totalColH = curY - 50 - vGap;
+  const sourceH = getH(sourceNode.id);
+  const anchorY = Math.max(50, 50 + (totalColH - sourceH) / 2);
+  positions[sourceNode.id] = { x: 50, y: Math.round(anchorY) };
+
+  return positions;
+}

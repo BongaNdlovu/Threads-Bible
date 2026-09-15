@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildThreadGraph, chunkVersesByRefs, snippet } from './threadMapModel';
+import { buildThreadGraph, chunkVersesByRefs, computeThreadLayout, snippet } from './threadMapModel';
 
 const EXPAND: Record<string, string[]> = {
   'Matthew 21:5': ['mat-21-5'],
@@ -110,3 +110,132 @@ describe('snippet', () => {
     expect(out).not.toMatch(/\s$/);
   });
 });
+
+describe('computeThreadLayout', () => {
+  it('positions nodes in column mode with guaranteed collision-free vertical gaps', () => {
+    const g = buildThreadGraph(BASE);
+    const sizes = {
+      [g.nodes[1].id]: { w: 250, h: 180 },
+      [g.nodes[2].id]: { w: 250, h: 220 },
+      [g.nodes[3].id]: { w: 250, h: 160 },
+    };
+    const pos = computeThreadLayout(g, { mode: 'column', spacing: 'normal', nodeSizes: sizes });
+
+    // Fulfillment nodes should be in the column
+    expect(pos[g.nodes[1].id].x).toBe(pos[g.nodes[2].id].x);
+    expect(pos[g.nodes[2].id].x).toBe(pos[g.nodes[3].id].x);
+
+    // Node 2 must start strictly after Node 1 bottom + gap (38)
+    const n1Bottom = pos[g.nodes[1].id].y + sizes[g.nodes[1].id].h;
+    expect(pos[g.nodes[2].id].y).toBeGreaterThanOrEqual(n1Bottom + 38);
+
+    // Node 3 must start strictly after Node 2 bottom + gap (38)
+    const n2Bottom = pos[g.nodes[2].id].y + sizes[g.nodes[2].id].h;
+    expect(pos[g.nodes[3].id].y).toBeGreaterThanOrEqual(n2Bottom + 38);
+  });
+
+  it('shifts subsequent nodes down dynamically when a card expands', () => {
+    const g = buildThreadGraph(BASE);
+    const unexpandedSizes = {
+      [g.nodes[1].id]: { w: 250, h: 180 },
+      [g.nodes[2].id]: { w: 250, h: 180 },
+    };
+    const posBefore = computeThreadLayout(g, { mode: 'column', nodeSizes: unexpandedSizes });
+
+    // Expand node 1 (e.g. from 180 to 360)
+    const expandedSizes = {
+      [g.nodes[1].id]: { w: 250, h: 360 },
+      [g.nodes[2].id]: { w: 250, h: 180 },
+    };
+    const posAfter = computeThreadLayout(g, { mode: 'column', nodeSizes: expandedSizes });
+
+    // Node 2 should be pushed down by exactly 180px, avoiding any collision
+    expect(posAfter[g.nodes[2].id].y - posBefore[g.nodes[2].id].y).toBe(180);
+  });
+
+  it('supports two-column grid layout for fulfillment nodes', () => {
+    const g = buildThreadGraph(BASE);
+    const pos = computeThreadLayout(g, { mode: 'grid', spacing: 'normal' });
+
+    // Should have 2 distinct column X positions for fulfillments
+    const fXPositions = new Set([
+      pos[g.nodes[1].id].x,
+      pos[g.nodes[2].id].x,
+      pos[g.nodes[3].id].x,
+    ]);
+    expect(fXPositions.size).toBe(2);
+
+    // Anchor node should be centered horizontally between the left and right fulfillment columns
+    const leftX = Math.min(...fXPositions);
+    const rightX = Math.max(...fXPositions);
+    const anchorX = pos[g.nodes[0].id].x;
+    expect(anchorX).toBeGreaterThan(leftX);
+    expect(anchorX).toBeLessThan(rightX);
+
+    // Verify all nodes in grid have zero bounding-box overlaps
+    for (let i = 0; i < g.nodes.length; i++) {
+      for (let j = i + 1; j < g.nodes.length; j++) {
+        const p1 = pos[g.nodes[i].id];
+        const p2 = pos[g.nodes[j].id];
+        const overlapX = Math.max(0, Math.min(p1.x + 250, p2.x + 250) - Math.max(p1.x, p2.x));
+        const overlapY = Math.max(0, Math.min(p1.y + 180, p2.y + 180) - Math.max(p1.y, p2.y));
+        expect(overlapX > 0 && overlapY > 0, `Grid collision between ${g.nodes[i].id} and ${g.nodes[j].id}`).toBe(false);
+      }
+    }
+  });
+
+  it('supports radial arc layout and calculates non-zero positive coordinates', () => {
+    const g = buildThreadGraph(BASE);
+    const pos = computeThreadLayout(g, { mode: 'radial' });
+    for (const node of g.nodes) {
+      expect(pos[node.id].x).toBeGreaterThan(0);
+      expect(pos[node.id].y).toBeGreaterThan(0);
+    }
+  });
+
+  it('guarantees no node collisions in radial layout for multi-node graphs', () => {
+    const multiVerseBase = {
+      ...BASE,
+      fulfillmentRefs: ['Matt 21:5', 'John 12:15', 'Isa 9:1', 'Isa 9:2', 'Micah 5:2', 'Psa 22:1', 'Psa 110:1', 'Isa 53:5'],
+      fulfillmentVerses: [
+        { id: '1', text: 'v1' },
+        { id: '2', text: 'v2' },
+        { id: '3', text: 'v3' },
+        { id: '4', text: 'v4' },
+        { id: '5', text: 'v5' },
+        { id: '6', text: 'v6' },
+        { id: '7', text: 'v7' },
+        { id: '8', text: 'v8' },
+      ],
+      expand: () => [],
+    };
+    const g = buildThreadGraph(multiVerseBase);
+    // Give some nodes expanded heights (e.g. 300px)
+    const sizes: Record<string, { w: number; h: number }> = {};
+    g.nodes.forEach((n, idx) => {
+      sizes[n.id] = { w: 250, h: idx % 2 === 0 ? 300 : 180 };
+    });
+
+    const pos = computeThreadLayout(g, { mode: 'radial', nodeSizes: sizes });
+    const nodes = g.nodes;
+    for (let i = 0; i < nodes.length; i++) {
+      for (let j = i + 1; j < nodes.length; j++) {
+        const p1 = pos[nodes[i].id];
+        const p2 = pos[nodes[j].id];
+        const h1 = sizes[nodes[i].id].h;
+        const h2 = sizes[nodes[j].id].h;
+        const overlapX = Math.max(0, Math.min(p1.x + 250, p2.x + 250) - Math.max(p1.x, p2.x));
+        const overlapY = Math.max(0, Math.min(p1.y + h1, p2.y + h2) - Math.max(p1.y, p2.y));
+        const collides = overlapX > 0 && overlapY > 0;
+        expect(collides, `Collision between ${nodes[i].id} and ${nodes[j].id}: overlapX=${overlapX}, overlapY=${overlapY}`).toBe(false);
+      }
+    }
+  });
+
+  it('handles single-node graph gracefully', () => {
+    const g = buildThreadGraph({ ...BASE, fulfillmentVerses: [] });
+    const pos = computeThreadLayout(g);
+    expect(pos[g.nodes[0].id]).toEqual({ x: 50, y: 50 });
+  });
+});
+

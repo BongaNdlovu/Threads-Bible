@@ -56,22 +56,45 @@ export function ThreadMapPage() {
     setThreadPaneOpen(true);
   };
 
+  const [isFullscreen, setIsFullscreen] = useState(false);
+  useEffect(() => {
+    const onFs = () => setIsFullscreen(!!document.fullscreenElement);
+    document.addEventListener('fullscreenchange', onFs);
+    return () => document.removeEventListener('fullscreenchange', onFs);
+  }, []);
+
+  const toggleFullscreen = () => {
+    if (!document.fullscreenElement) {
+      document.documentElement.requestFullscreen?.().catch(() => {});
+    } else {
+      document.exitFullscreen?.().catch(() => {});
+    }
+  };
+
   const P = mapTheme === 'dark' ? DARK_PAGE : LIGHT_PAGE;
 
   return (
     <div className="fixed inset-0 z-[90] flex flex-col" style={{ background: P.bg }}>
       {/* Page header */}
       <header
-        className="flex items-center justify-between gap-3 px-5 py-3 border-b shrink-0"
+        className="flex items-center justify-between gap-3 px-5 py-2.5 border-b shrink-0"
         style={{ borderColor: P.border, background: P.headerBg }}
       >
-        <div className="min-w-0">
-          <div className="font-mono text-[10px] tracking-[0.2em] uppercase" style={{ color: P.gold }}>
-            Ordo · {selectedThread.book} {selectedThread.chapter}:{selectedThread.verseNumber}
+        <div className="min-w-0 flex items-center gap-3">
+          <div>
+            <div className="font-mono text-[10px] tracking-[0.2em] uppercase" style={{ color: P.gold }}>
+              Ordo · {selectedThread.book} {selectedThread.chapter}:{selectedThread.verseNumber}
+            </div>
+            <div className="font-serif text-sm font-medium truncate max-w-[280px] sm:max-w-md" style={{ color: P.text }}>
+              {detail?.title ?? 'Thread'}
+            </div>
           </div>
-          <div className="font-serif text-sm font-medium truncate" style={{ color: P.text }}>
-            {detail?.title ?? 'Thread'}
-          </div>
+          <span
+            className="hidden sm:inline-block px-2 py-0.5 rounded-full border text-[10px] font-mono font-semibold shrink-0"
+            style={{ borderColor: P.border, color: P.gold }}
+          >
+            {threadGraph.edges.length} connection{threadGraph.edges.length === 1 ? '' : 's'}
+          </span>
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
           <button
@@ -116,7 +139,12 @@ export function ThreadMapPage() {
 
       {/* The map fills the rest of the page */}
       <div className="flex-1 min-h-0">
-        <ThreadMap graph={threadGraph} theme={mapTheme} />
+        <ThreadMap
+          graph={threadGraph}
+          theme={mapTheme}
+          isFullscreen={isFullscreen}
+          onToggleFullscreen={toggleFullscreen}
+        />
       </div>
     </div>
   );
