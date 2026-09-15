@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Suspense, lazy, useEffect, useMemo, useState } from 'react';
 import { useStore } from '../store/useStore';
 import {
   resolveRefs,
@@ -12,10 +12,15 @@ import {
 } from '../data/library';
 import type { Verse } from '../data/types';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
+import { snippet } from './threadMapModel';
+
+// The Ordo mindmap viewer is a separate chunk, loaded on first Map use.
+const ThreadMap = lazy(() => import('./ThreadMap').then(m => ({ default: m.ThreadMap })));
 import { ZenReader } from './ZenReader';
 import { ThreadExplanation } from './ThreadExplanation';
+import { buildThreadGraph } from './threadMapModel';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
-import { X, BookOpen, Columns2 } from 'lucide-react';
+import { X, BookOpen, Columns2, Waypoints } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   ResizablePanelGroup,
@@ -42,7 +47,7 @@ export function TheThread({
     closeAllStudyPanes,
   } = useStore();
 
-  const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment'>('both');
+  const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment' | 'map'>('both');
 
   // Re-render when the lazily imported fulfillment / detail chunks arrive.
   const fulfillmentsReady = useFulfillmentsReady();
@@ -51,12 +56,33 @@ export function TheThread({
   const sourceVerses = selectedThread
     ? getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter)
     : [];
+
   const primaryRef = selectedThread?.fulfillmentRefs?.[0] || 'Fulfillment';
   const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
 
   // The fulfillment index is only a partial cache of fulfillment verses, so
   // also load every book a fulfillment reference points into before resolving.
   const [fulfillmentVerses, setFulfillmentVerses] = useState<Verse[]>([]);
+
+  // Ordo graph — the thread as a cinematic mindmap with per-edge whys,
+  // composed from the thread's hand-written principle plus both verse ends.
+  const threadGraph = useMemo(() => {
+    if (!selectedThread) return null;
+    const anchorVerse = sourceVerses.find(v => v.id === selectedThread.id);
+    return buildThreadGraph({
+      anchorId: selectedThread.id,
+      anchorRef: `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`,
+      anchorTitle: detail?.title ?? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`,
+      anchorVerseText: anchorVerse?.text ?? selectedThread.text ?? '',
+      principle:
+        detail?.principle ??
+        snippet(selectedThread.text ?? '', 220),
+      fulfillmentRefs: selectedThread.fulfillmentRefs ?? [],
+      fulfillmentVerses: fulfillmentVerses.map(v => ({ id: v.id, text: v.text })),
+      expand: expandVerseRange,
+    });
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild when thread, detail, or resolved verses change
+  }, [selectedThread?.id, detail, fulfillmentsReady, detailsReady, fulfillmentVerses]);
   useEffect(() => {
     if (!selectedThread) {
       setFulfillmentVerses([]);
@@ -162,6 +188,30 @@ export function TheThread({
       );
     }
 
+    if (subPaneMode === 'map') {
+      return (
+        <div className="h-full w-full relative flex flex-col">
+          <div className="absolute top-3 left-4 z-20 flex items-center gap-2">
+            <button
+              onClick={() => setSubPaneMode('both')}
+              className="h-7 px-2.5 rounded-full bg-background/80 backdrop-blur border border-foreground/10 text-xs font-medium text-foreground/70 hover:text-foreground flex items-center gap-1.5 shadow-sm cursor-pointer"
+              title="Back to split view (Show both source & fulfillment)"
+            >
+              <Columns2 className="h-3.5 w-3.5" />
+              <span>Split View</span>
+            </button>
+          </div>
+          <div className="flex-1 min-h-0">
+            {threadGraph && (
+              <Suspense fallback={<div className="h-full flex items-center justify-center text-sm text-foreground/50">Preparing the map…</div>}>
+                <ThreadMap graph={threadGraph} />
+              </Suspense>
+            )}
+          </div>
+        </div>
+      );
+    }
+
     if (subPaneMode === 'fulfillment') {
       return (
         <div className="h-full w-full relative flex flex-col bg-foreground/[0.04]">
@@ -184,6 +234,16 @@ export function TheThread({
       <ResizablePanelGroup direction="horizontal">
         <ResizablePanel defaultSize={50} minSize={25}>
           <div className="h-full text-foreground relative flex flex-col">
+            <div className="absolute top-3 left-1/2 -translate-x-1/2 z-20">
+              <button
+                onClick={() => setSubPaneMode('map')}
+                className="h-7 px-2.5 rounded-full bg-background/80 backdrop-blur border border-foreground/10 text-xs font-medium text-foreground/70 hover:text-foreground flex items-center gap-1.5 shadow-sm cursor-pointer"
+                title="Open the thread as an Ordo mindmap — every connection explained"
+              >
+                <Waypoints className="h-3.5 w-3.5" />
+                <span>Map View</span>
+              </button>
+            </div>
             <div className="absolute top-3 right-3 z-20">
               <button
                 onClick={() => setSubPaneMode('fulfillment')}

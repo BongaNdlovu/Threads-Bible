@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sh
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/ui/drawer';
 import { useMediaQuery } from '../hooks/use-media-query';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { LinkIcon, Trash2, BookOpen, Quote, Sparkles, Network, ExternalLink, ArrowRight, X, ChevronRight } from 'lucide-react';
+import { LinkIcon, Trash2, BookOpen, Quote, Sparkles, Network, ScrollText, ExternalLink, ArrowRight, X, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { parseRef, BOOK_BY_NAME, expandVerseRange } from '../data/library';
 import {
@@ -17,6 +17,12 @@ import {
   type MessianicProphecy,
   type MasterChain,
 } from '../data/crossRefService';
+import {
+  getSymbolsForVerse,
+  getTypesForVerse,
+  type SymbolEntry,
+  type TypeEntry,
+} from '../data/symbolsTypes';
 
 export function TheMargin() {
   const {
@@ -39,6 +45,8 @@ export function TheMargin() {
   const [citations, setCitations] = useState<NtCitation[]>([]);
   const [messianic, setMessianic] = useState<MessianicProphecy[]>([]);
   const [chains, setChains] = useState<MasterChain[]>([]);
+  const [symbols, setSymbols] = useState<SymbolEntry[]>([]);
+  const [types, setTypes] = useState<TypeEntry[]>([]);
   const [isLoadingTsk, setIsLoadingTsk] = useState(false);
   const [activeTab, setActiveTab] = useState('tsk');
   const [noteDraft, setNoteDraft] = useState('');
@@ -78,6 +86,8 @@ export function TheMargin() {
       setCitations([]);
       setMessianic([]);
       setChains([]);
+      setSymbols([]);
+      setTypes([]);
       return;
     }
 
@@ -87,10 +97,14 @@ export function TheMargin() {
     const cits = getCitationsForVerse(verseId);
     const mess = getMessianicPropheciesForVerse(verseId);
     const chs = getMasterChainsForVerse(verseId);
+    const syms = getSymbolsForVerse(verseId);
+    const typs = getTypesForVerse(verseId);
 
     setCitations(cits);
     setMessianic(mess);
     setChains(chs);
+    setSymbols(syms);
+    setTypes(typs);
 
     if (isFirstForVerse) {
       // Stale-response guard: a slow TSK fetch for an earlier verse must not
@@ -119,6 +133,7 @@ export function TheMargin() {
           if (prev === 'notes' || prev === 'links') return prev;
           if (cits.length > 0) return 'citations';
           if (mess.length > 0) return 'messianic';
+          if (syms.length > 0 || typs.length > 0) return 'symbols';
           if (chs.length > 0) return 'chains';
           return 'tsk';
         });
@@ -245,6 +260,15 @@ export function TheMargin() {
                 className="flex-1 py-3 text-[10px] uppercase tracking-wider font-bold rounded-none border-b-2 border-transparent data-[state=active]:border-accent data-[state=active]:text-accent bg-transparent"
               >
                 Chains {chains.length > 0 ? `(${chains.length})` : ''}
+              </TabsTrigger>
+            )}
+
+            {(symbols.length > 0 || types.length > 0 || activeTab === 'symbols') && (
+              <TabsTrigger
+                value="symbols"
+                className="flex-1 py-3 text-[10px] uppercase tracking-wider font-bold rounded-none border-b-2 border-transparent data-[state=active]:border-yellow-500 data-[state=active]:text-yellow-600 dark:data-[state=active]:text-yellow-400 bg-transparent"
+              >
+                Symbols {(symbols.length + types.length) > 0 ? `(${symbols.length + types.length})` : ''}
               </TabsTrigger>
             )}
 
@@ -555,6 +579,102 @@ export function TheMargin() {
                       <ExternalLink className="h-3.5 w-3.5" />
                       <span>Open Master Timeline in Thread Pane</span>
                     </Button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </TabsContent>
+
+          {/* PROPHETIC SYMBOLS & TYPES — Light yellow */}
+          <TabsContent value="symbols" className="flex-1 overflow-y-auto p-5 space-y-4 my-0 border-none outline-none">
+            <div className="flex items-center justify-between pb-2 border-b border-foreground/10">
+              <div className="flex items-center gap-1.5 text-xs font-bold text-foreground/70">
+                <ScrollText className="h-3.5 w-3.5 text-yellow-600 dark:text-yellow-400" />
+                <span>Prophetic Symbols & Types</span>
+              </div>
+              <span className="text-[10px] font-mono text-yellow-700 dark:text-yellow-300 bg-yellow-100 dark:bg-yellow-500/20 px-2 py-0.5 rounded-full">
+                Symbols
+              </span>
+            </div>
+
+            {symbols.length === 0 && types.length === 0 ? (
+              <div className="py-8 text-center text-xs text-foreground/50">
+                No prophetic symbols or types associated with this verse.
+              </div>
+            ) : (
+              <div className="space-y-3">
+                {symbols.map(s => (
+                  <div key={s.id} className="p-3.5 rounded-xl border border-yellow-200 dark:border-yellow-500/20 bg-yellow-50/60 dark:bg-yellow-500/[0.06] space-y-2.5 shadow-sm">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-yellow-100 dark:bg-yellow-500/20 text-yellow-800 dark:text-yellow-300">
+                        {s.category}
+                      </span>
+                      {s.scriptureInterpretation && (
+                        <span className="text-[9px] uppercase tracking-wider text-yellow-700/70 dark:text-yellow-400/70">
+                          Scripture-defined
+                        </span>
+                      )}
+                    </div>
+                    <div className="text-sm font-bold text-foreground">{s.symbol}</div>
+                    <p className="text-xs text-foreground/80 leading-relaxed">{s.meaning}</p>
+                    {s.scriptureInterpretation && (
+                      <div className="text-[11px] text-yellow-800 dark:text-yellow-300/90 italic">
+                        Defined: {s.scriptureInterpretation}
+                      </div>
+                    )}
+                    <div className="flex flex-wrap gap-1 items-center">
+                      <span className="text-foreground/40 uppercase text-[10px] font-bold">Proof:</span>
+                      {s.proofRefs.map((ref, idx) => (
+                        <button
+                          key={idx}
+                          onClick={() => handleNavigateRef(ref, 'symbols')}
+                          className="px-2 py-0.5 rounded bg-yellow-100/90 dark:bg-yellow-500/20 text-yellow-800 dark:text-yellow-200 font-mono text-[11px] hover:bg-yellow-400 hover:text-white dark:hover:bg-yellow-500 dark:hover:text-white transition-colors cursor-pointer"
+                        >
+                          {ref}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+                {types.map(t => (
+                  <div key={t.id} className="p-3.5 rounded-xl border border-yellow-200 dark:border-yellow-500/20 bg-yellow-50/60 dark:bg-yellow-500/[0.06] space-y-2.5 shadow-sm">
+                    <div className="flex items-center justify-between">
+                      <span className="text-[10px] uppercase tracking-wider font-bold px-2 py-0.5 rounded-full bg-yellow-100 dark:bg-yellow-500/20 text-yellow-800 dark:text-yellow-300">
+                        {t.category}
+                      </span>
+                    </div>
+                    <div className="text-sm font-bold text-foreground">
+                      {t.type} <span className="text-yellow-600 dark:text-yellow-400">→</span> <span className="text-yellow-700 dark:text-yellow-300">{t.antitype}</span>
+                    </div>
+                    <p className="text-xs text-foreground/80 leading-relaxed">{t.meaning}</p>
+                    <div className="text-xs text-foreground/70 space-y-1">
+                      <div className="flex flex-wrap gap-1 items-center">
+                        <span className="text-foreground/40 uppercase text-[10px] font-bold">Type:</span>
+                        {t.typeRefs.map((ref, idx) => (
+                          <button
+                            key={idx}
+                            onClick={() => handleNavigateRef(ref, 'symbols')}
+                            className="px-2 py-0.5 rounded bg-yellow-100/90 dark:bg-yellow-500/20 text-yellow-800 dark:text-yellow-200 font-mono text-[11px] hover:bg-yellow-400 hover:text-white dark:hover:bg-yellow-500 dark:hover:text-white transition-colors cursor-pointer"
+                          >
+                            {ref}
+                          </button>
+                        ))}
+                      </div>
+                      {t.fulfillmentRefs.length > 0 && (
+                        <div className="flex flex-wrap gap-1 items-center">
+                          <span className="text-foreground/40 uppercase text-[10px] font-bold">Fulfilled:</span>
+                          {t.fulfillmentRefs.map((ref, idx) => (
+                            <button
+                              key={idx}
+                              onClick={() => handleNavigateRef(ref, 'symbols')}
+                              className="px-2 py-0.5 rounded bg-yellow-100/90 dark:bg-yellow-500/20 text-yellow-800 dark:text-yellow-200 font-mono text-[11px] hover:bg-yellow-400 hover:text-white dark:hover:bg-yellow-500 dark:hover:text-white transition-colors cursor-pointer"
+                            >
+                              {ref}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 ))}
               </div>

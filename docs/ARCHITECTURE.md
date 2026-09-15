@@ -123,6 +123,8 @@ controls sheet (mobile).
 | `src/db/backupFormat.ts` | Backup JSON format + canonical validation (pure) | no |
 | `src/db/backup.ts` | Backup export/import I/O + file download | no |
 | `src/components/ErrorBoundary.tsx` | Render-error containment (app + per-pane) | no |
+| `src/components/ThreadMap.tsx` | Ordo mindmap viewer (cinematic thread graph; lazy chunk) | no |
+| `src/components/threadMapModel.ts` | Pure thread-graph builder + per-edge why composition | no |
 | `src/data/symbolsTypes.ts` | Symbols & Types reference (91 symbols, 48 types; lazy chunk) | no |
 | `src/data/bookRegistry.ts` | 66-book registry (name, slug, chapters, verses) | **yes** — `scripts/exportBookJson.ts` |
 | `src/data/verseCounts.ts` | Per-chapter verse counts | **yes** — `scripts/generateVerseCounts.ts` |

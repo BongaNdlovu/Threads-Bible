@@ -14,6 +14,8 @@
  * to a canonical verse.
  */
 
+import { expandVerseRange } from './refParser';
+
 export type SymbolCategory =
   | 'Beasts & Creatures'
   | 'Elements & Nature'
@@ -231,3 +233,459 @@ export const TYPES: TypeEntry[] = [
   { id: 'typ-pillar-cloud', type: 'The Pillar of Cloud and Fire', antitype: 'The Spirit\'s guidance of the redeemed journey', category: 'Object & Event Types', meaning: 'The presence that led by day and defended by night — the moving headquarters of Israel.', typeRefs: ['Exodus 13:21-22'], fulfillmentRefs: ['John 16:13'] },
   { id: 'typ-sinai', type: 'Sinai', antitype: 'The giving of the law and the terror that drives to grace', category: 'Object & Event Types', meaning: 'The mountain of fire, boundaries, and trumpet — "which gendereth to bondage," contrasted with the mount of promise in Paul\'s allegory.', typeRefs: ['Exodus 19:16-18'], fulfillmentRefs: ['Galatians 4:24-25', 'Hebrews 12:18-21'] },
 ];
+
+// ── Verse index & Symbol keywords lookup ────────────────────────────────────
+
+export function extractSymbolKeywords(s: SymbolEntry): string[] {
+  const name = s.symbol.trim();
+  const kws = new Set<string>();
+
+  const clean = name.replace(/\([^)]*\)/g, '').trim();
+  const parts = clean.split(/\s*[\/,]\s*|\s+and\s+/i);
+  for (const p of parts) {
+    const w = p.trim().toLowerCase();
+    if (!w || w === 'the') continue;
+    kws.add(w);
+    if (w.endsWith('ies')) {
+      kws.add(w.slice(0, -3) + 'y');
+    } else if (w.endsWith('es') && (w.endsWith('shes') || w.endsWith('ches') || w.endsWith('sses') || w.endsWith('xes'))) {
+      kws.add(w.slice(0, -2));
+    } else if (w.endsWith('s') && !w.endsWith('ss')) {
+      kws.add(w.slice(0, -1));
+    } else {
+      kws.add(w + 's');
+    }
+  }
+
+  const lower = name.toLowerCase();
+  if (lower.includes('beast')) {
+    kws.add('beast');
+    kws.add('beasts');
+  }
+  if (lower.includes('sea') || lower.includes('waters')) {
+    kws.add('sea');
+    kws.add('seas');
+    kws.add('waters');
+    kws.add('water');
+  }
+  if (lower.includes('earth')) {
+    kws.add('earth');
+  }
+  if (lower.includes('lamb')) {
+    kws.add('lamb');
+    kws.add('lambs');
+  }
+  if (lower.includes('dragon')) {
+    kws.add('dragon');
+    kws.add('dragons');
+  }
+  if (lower.includes('serpent')) {
+    kws.add('serpent');
+    kws.add('serpents');
+  }
+  if (lower.includes('lion')) {
+    kws.add('lion');
+    kws.add('lions');
+  }
+  if (lower.includes('bear')) {
+    kws.add('bear');
+    kws.add('bears');
+  }
+  if (lower.includes('leopard')) {
+    kws.add('leopard');
+    kws.add('leopards');
+  }
+  if (lower.includes('goat')) {
+    kws.add('goat');
+    kws.add('goats');
+  }
+  if (lower.includes('eagle')) {
+    kws.add('eagle');
+    kws.add('eagles');
+  }
+  if (lower.includes('wolf')) {
+    kws.add('wolf');
+    kws.add('wolves');
+  }
+  if (lower.includes('frogs')) {
+    kws.add('frog');
+    kws.add('frogs');
+  }
+  if (lower.includes('locusts')) {
+    kws.add('locust');
+    kws.add('locusts');
+  }
+  if (lower.includes('scorpions')) {
+    kws.add('scorpion');
+    kws.add('scorpions');
+  }
+  if (lower.includes('doves')) {
+    kws.add('dove');
+    kws.add('doves');
+  }
+  if (lower.includes('sheep')) {
+    kws.add('sheep');
+  }
+  if (lower.includes('wind')) {
+    kws.add('wind');
+    kws.add('winds');
+  }
+  if (lower.includes('fire')) {
+    kws.add('fire');
+  }
+  if (lower.includes('star')) {
+    kws.add('star');
+    kws.add('stars');
+  }
+  if (lower.includes('sun')) {
+    kws.add('sun');
+  }
+  if (lower.includes('moon')) {
+    kws.add('moon');
+  }
+  if (lower.includes('mountain')) {
+    kws.add('mountain');
+    kws.add('mountains');
+  }
+  if (lower.includes('island') || lower.includes('isle')) {
+    kws.add('isles');
+    kws.add('isle');
+    kws.add('island');
+    kws.add('islands');
+  }
+  if (lower.includes('earthquake')) {
+    kws.add('earthquake');
+    kws.add('earthquakes');
+  }
+  if (lower.includes('thunder')) {
+    kws.add('thunder');
+    kws.add('thunders');
+  }
+  if (lower.includes('hail')) {
+    kws.add('hail');
+  }
+  if (lower.includes('light')) {
+    kws.add('light');
+  }
+  if (lower.includes('darkness')) {
+    kws.add('darkness');
+  }
+  if (lower.includes('rain') || lower.includes('dew')) {
+    kws.add('rain');
+    kws.add('dew');
+  }
+  if (lower.includes('woman')) {
+    kws.add('woman');
+    kws.add('women');
+  }
+  if (lower.includes('harlot')) {
+    kws.add('harlot');
+    kws.add('harlots');
+  }
+  if (lower.includes('man child')) {
+    kws.add('man child');
+    kws.add('child');
+  }
+  if (lower.includes('virgin')) {
+    kws.add('virgin');
+    kws.add('virgins');
+  }
+  if (lower.includes('shepherd')) {
+    kws.add('shepherd');
+    kws.add('shepherds');
+  }
+  if (lower.includes('watchman')) {
+    kws.add('watchman');
+    kws.add('watchmen');
+  }
+  if (lower.includes('king')) {
+    kws.add('king');
+    kws.add('kings');
+  }
+  if (lower.includes('priest')) {
+    kws.add('priest');
+    kws.add('priests');
+  }
+  if (lower.includes('remnant')) {
+    kws.add('remnant');
+  }
+  if (lower.includes('bride')) {
+    kws.add('bride');
+  }
+  if (lower.includes('firstborn')) {
+    kws.add('firstborn');
+  }
+  if (lower.includes('servant')) {
+    kws.add('servant');
+    kws.add('servants');
+  }
+  if (lower.includes('horn')) {
+    kws.add('horn');
+    kws.add('horns');
+  }
+  if (lower.includes('crown') || lower.includes('diadem')) {
+    kws.add('crown');
+    kws.add('crowns');
+    kws.add('diadems');
+    kws.add('diadem');
+  }
+  if (lower.includes('iron')) {
+    kws.add('iron');
+  }
+  if (lower.includes('stone') || lower.includes('rock')) {
+    kws.add('stone');
+    kws.add('stones');
+    kws.add('rock');
+    kws.add('rocks');
+  }
+  if (lower.includes('yoke')) {
+    kws.add('yoke');
+    kws.add('yokes');
+  }
+  if (lower.includes('balance') || lower.includes('scale')) {
+    kws.add('balance');
+    kws.add('balances');
+    kws.add('scales');
+  }
+  if (lower.includes('wing')) {
+    kws.add('wing');
+    kws.add('wings');
+  }
+  if (lower.includes('book') || lower.includes('scroll')) {
+    kws.add('book');
+    kws.add('books');
+    kws.add('scroll');
+  }
+  if (lower.includes('candlestick') || lower.includes('lampstand')) {
+    kws.add('candlestick');
+    kws.add('candlesticks');
+    kws.add('lampstand');
+    kws.add('lamps');
+  }
+  if (lower.includes('oil')) {
+    kws.add('oil');
+  }
+  if (lower.includes('incense')) {
+    kws.add('incense');
+  }
+  if (lower.includes('leaven')) {
+    kws.add('leaven');
+  }
+  if (lower.includes('bread')) {
+    kws.add('bread');
+  }
+  if (lower.includes('wine')) {
+    kws.add('wine');
+  }
+  if (lower.includes('salt')) {
+    kws.add('salt');
+  }
+  if (lower.includes('raiment')) {
+    kws.add('raiment');
+    kws.add('white raiment');
+    kws.add('linen');
+  }
+  if (lower.includes('white stone')) {
+    kws.add('white stone');
+  }
+  if (lower.includes('seal')) {
+    kws.add('seal');
+    kws.add('seals');
+    kws.add('sealed');
+  }
+  if (lower.includes('mark of the beast')) {
+    kws.add('mark');
+    kws.add('mark of the beast');
+  }
+  if (lower.includes('sword')) {
+    kws.add('sword');
+    kws.add('swords');
+  }
+  if (lower.includes('rainbow')) {
+    kws.add('rainbow');
+  }
+  if (lower.includes('altar')) {
+    kws.add('altar');
+    kws.add('altars');
+  }
+  if (lower.includes('veil')) {
+    kws.add('veil');
+    kws.add('vail');
+  }
+  if (lower.includes('foundation')) {
+    kws.add('foundation');
+    kws.add('foundations');
+  }
+  if (lower.includes('babylon')) {
+    kws.add('babylon');
+    kws.add('babel');
+  }
+  if (lower.includes('egypt')) {
+    kws.add('egypt');
+  }
+  if (lower.includes('zion') || lower.includes('jerusalem')) {
+    kws.add('zion');
+    kws.add('sion');
+    kws.add('jerusalem');
+  }
+  if (lower.includes('wilderness')) {
+    kws.add('wilderness');
+  }
+  if (lower.includes('pit')) {
+    kws.add('pit');
+    kws.add('bottomless pit');
+  }
+  if (lower.includes('garden')) {
+    kws.add('garden');
+  }
+  if (lower.includes('threshing floor')) {
+    kws.add('threshingfloor');
+    kws.add('threshing floor');
+    kws.add('floor');
+  }
+  if (lower.includes('winepress')) {
+    kws.add('winepress');
+  }
+  if (lower.includes('holy city')) {
+    kws.add('holy city');
+    kws.add('city');
+  }
+  if (lower.includes('gate')) {
+    kws.add('gate');
+    kws.add('gates');
+  }
+  if (lower.includes('harvest')) {
+    kws.add('harvest');
+  }
+  if (lower.includes('shaking')) {
+    kws.add('shake');
+    kws.add('shaking');
+  }
+  if (lower.includes('sifting')) {
+    kws.add('sift');
+    kws.add('sifting');
+  }
+  if (lower.includes('birth pangs')) {
+    kws.add('travail');
+    kws.add('sorrows');
+  }
+  if (lower.includes('marriage')) {
+    kws.add('marriage');
+  }
+  if (lower.includes('anointing')) {
+    kws.add('anoint');
+    kws.add('anointed');
+    kws.add('anointing');
+  }
+  if (lower.includes('sleep')) {
+    kws.add('sleep');
+    kws.add('sleepeth');
+    kws.add('asleep');
+  }
+  if (lower.includes('baptism')) {
+    kws.add('baptism');
+    kws.add('baptize');
+    kws.add('baptized');
+  }
+  if (lower.includes('trumpet')) {
+    kws.add('trumpet');
+    kws.add('trumpets');
+    kws.add('trump');
+  }
+
+  return Array.from(kws).filter(k => k.length >= 3);
+}
+
+export function extractTypeKeywords(t: TypeEntry): string[] {
+  const kws = new Set<string>();
+  const clean = t.type.replace(/^The\s+/i, '').replace(/\([^)]*\)/g, '').trim();
+  const parts = clean.split(/\s*[\/,]\s*|\s+and\s+/i);
+  for (const p of parts) {
+    const w = p.trim().toLowerCase();
+    if (w && w.length >= 3 && w !== 'the') {
+      kws.add(w);
+      if (w.endsWith('s')) kws.add(w.slice(0, -1));
+      else kws.add(w + 's');
+    }
+  }
+  return Array.from(kws).filter(k => k.length >= 3);
+}
+
+const SYMBOLS_BY_VERSE = new Map<string, SymbolEntry[]>();
+const TYPES_BY_VERSE = new Map<string, TypeEntry[]>();
+const SYMBOL_KEYWORDS_BY_VERSE = new Map<string, string[]>();
+
+function registerSymbolVerse(verseId: string, s: SymbolEntry, keywords: string[]) {
+  if (!SYMBOLS_BY_VERSE.has(verseId)) SYMBOLS_BY_VERSE.set(verseId, []);
+  const list = SYMBOLS_BY_VERSE.get(verseId)!;
+  if (!list.some(x => x.id === s.id)) list.push(s);
+
+  if (!SYMBOL_KEYWORDS_BY_VERSE.has(verseId)) SYMBOL_KEYWORDS_BY_VERSE.set(verseId, []);
+  const kwList = SYMBOL_KEYWORDS_BY_VERSE.get(verseId)!;
+  for (const kw of keywords) {
+    if (!kwList.includes(kw)) kwList.push(kw);
+  }
+}
+
+function registerTypeVerse(verseId: string, t: TypeEntry, keywords: string[]) {
+  if (!TYPES_BY_VERSE.has(verseId)) TYPES_BY_VERSE.set(verseId, []);
+  const list = TYPES_BY_VERSE.get(verseId)!;
+  if (!list.some(x => x.id === t.id)) list.push(t);
+
+  if (!SYMBOL_KEYWORDS_BY_VERSE.has(verseId)) SYMBOL_KEYWORDS_BY_VERSE.set(verseId, []);
+  const kwList = SYMBOL_KEYWORDS_BY_VERSE.get(verseId)!;
+  for (const kw of keywords) {
+    if (!kwList.includes(kw)) kwList.push(kw);
+  }
+}
+
+for (const s of SYMBOLS) {
+  const kws = extractSymbolKeywords(s);
+  for (const r of s.proofRefs) {
+    const verseIds = expandVerseRange(r);
+    for (const vId of verseIds) {
+      registerSymbolVerse(vId, s, kws);
+    }
+  }
+  if (s.scriptureInterpretation) {
+    for (const chunk of s.scriptureInterpretation.split(';')) {
+      const verseIds = expandVerseRange(chunk.trim());
+      for (const vId of verseIds) {
+        registerSymbolVerse(vId, s, kws);
+      }
+    }
+  }
+}
+
+for (const t of TYPES) {
+  const kws = extractTypeKeywords(t);
+  for (const r of t.typeRefs) {
+    const verseIds = expandVerseRange(r);
+    for (const vId of verseIds) {
+      registerTypeVerse(vId, t, kws);
+    }
+  }
+  for (const r of t.fulfillmentRefs) {
+    const verseIds = expandVerseRange(r);
+    for (const vId of verseIds) {
+      registerTypeVerse(vId, t, kws);
+    }
+  }
+}
+
+export function getSymbolsForVerse(verseId: string): SymbolEntry[] {
+  return SYMBOLS_BY_VERSE.get(verseId) || [];
+}
+
+export function getTypesForVerse(verseId: string): TypeEntry[] {
+  return TYPES_BY_VERSE.get(verseId) || [];
+}
+
+export function getSymbolKeywordsForVerse(verseId: string): string[] {
+  return SYMBOL_KEYWORDS_BY_VERSE.get(verseId) || [];
+}
+
+export function isSymbolVerse(verseId: string): boolean {
+  return SYMBOLS_BY_VERSE.has(verseId) || TYPES_BY_VERSE.has(verseId);
+}
+

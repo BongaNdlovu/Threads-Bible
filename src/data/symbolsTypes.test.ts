@@ -1,7 +1,16 @@
 import { describe, expect, it } from 'vitest';
 import { expandVerseRange } from './refParser';
 import { getVerseCount } from './verseCounts';
-import { SYMBOLS, TYPES, SYMBOL_CATEGORIES, TYPE_CATEGORIES } from './symbolsTypes';
+import {
+  SYMBOLS,
+  TYPES,
+  SYMBOL_CATEGORIES,
+  TYPE_CATEGORIES,
+  getSymbolsForVerse,
+  getTypesForVerse,
+  getSymbolKeywordsForVerse,
+  isSymbolVerse,
+} from './symbolsTypes';
 
 /** A ref is navigable when it parses to at least one canonical verse id. */
 function refsResolve(refs: string[]): boolean {
@@ -52,4 +61,28 @@ describe('Symbols & Types reference', () => {
       expect(t.antitype.length).toBeGreaterThan(0);
     }
   });
+
+  it('indexes symbols and types by canonical verse id and extracts keywords', () => {
+    // Dan 7:23 has sym-beast
+    expect(isSymbolVerse('dan-7-23')).toBe(true);
+    const danSymbols = getSymbolsForVerse('dan-7-23');
+    expect(danSymbols.some(s => s.id === 'sym-beast')).toBe(true);
+    const danKeywords = getSymbolKeywordsForVerse('dan-7-23');
+    expect(danKeywords).toContain('beast');
+
+    // Rev 13:1 has sea, beast, horns, crowns
+    expect(isSymbolVerse('rev-13-1')).toBe(true);
+    const revSymbols = getSymbolsForVerse('rev-13-1');
+    expect(revSymbols.some(s => s.id === 'sym-beast' || s.id === 'sym-beast-sea')).toBe(true);
+    const revKeywords = getSymbolKeywordsForVerse('rev-13-1');
+    expect(revKeywords).toContain('beast');
+    expect(revKeywords).toContain('sea');
+
+    // Passover type on Exo 12:5 and 1 Cor 5:7
+    expect(isSymbolVerse('exo-12-5')).toBe(true);
+    expect(getTypesForVerse('exo-12-5').some(t => t.id === 'typ-passover')).toBe(true);
+    expect(isSymbolVerse('1co-5-7')).toBe(true);
+    expect(getTypesForVerse('1co-5-7').some(t => t.id === 'typ-passover')).toBe(true);
+  });
 });
+

@@ -2,10 +2,11 @@ import { Verse } from '../data/types';
 import { useStore } from '../store/useStore';
 import { cn } from '@/lib/utils';
 import React, { useState, useRef, useEffect } from 'react';
-import { Bookmark, Link as LinkIcon, Copy, Check, Palette, BookOpen, Quote, Sparkles, Network } from 'lucide-react';
+import { Bookmark, Link as LinkIcon, Copy, Check, Palette, BookOpen, Quote, Sparkles, Network, ScrollText } from 'lucide-react';
 import { getCitationsForVerse } from '../data/tier2NtCitations';
 import { getMessianicPropheciesForVerse } from '../data/tier3Messianic';
 import { getMasterChainsForVerse } from '../data/crossRefService';
+import { getSymbolsForVerse, getTypesForVerse, getSymbolKeywordsForVerse } from '../data/symbolsTypes';
 
 const HL_COLORS = {
   yellow: 'bg-yellow-200/60 dark:bg-yellow-400/20',
@@ -55,8 +56,8 @@ export function highlightText(text: string, keywords: string[]): React.ReactNode
     return (
       <mark
         key={i}
-        className="bg-amber-200/70 dark:bg-amber-400/25 text-inherit px-[1px] rounded-sm"
-        style={{ WebkitBoxShadow: '0 0 0 1px rgba(245, 158, 11, 0.35)' }}
+        className="bg-yellow-200/90 dark:bg-yellow-400/35 text-inherit px-[1px] rounded-sm font-medium"
+        style={{ WebkitBoxShadow: '0 0 0 1px rgba(234, 179, 8, 0.4)' }}
       >
         {part}
       </mark>
@@ -101,8 +102,19 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
   const citations = getCitationsForVerse(verse.id);
   const messianicProphecies = getMessianicPropheciesForVerse(verse.id);
   const masterChains = getMasterChainsForVerse(verse.id);
+  const symbols = getSymbolsForVerse(verse.id);
+  const types = getTypesForVerse(verse.id);
+  const isSymbol = symbols.length > 0 || types.length > 0;
+  const symbolKeywords = getSymbolKeywordsForVerse(verse.id);
 
-  const keywords = highlightFromThread ? highlightFromThread[verse.id] : undefined;
+  const threadKeywords = highlightFromThread ? highlightFromThread[verse.id] : undefined;
+  const keywords = React.useMemo(() => {
+    if (!threadKeywords && symbolKeywords.length === 0) return undefined;
+    const combined = new Set<string>();
+    if (threadKeywords) threadKeywords.forEach(k => combined.add(k));
+    if (symbolKeywords) symbolKeywords.forEach(k => combined.add(k));
+    return Array.from(combined);
+  }, [threadKeywords, symbolKeywords]);
 
   // Only the most recently opened verse shows the highlight palette; picking
   // another verse (or closing the margin) hides the previous palette row.
@@ -166,10 +178,14 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         verse.isThread
           ? isMessianic
             ? 'border-b-2 border-dashed border-red-300/70 bg-red-100/50 py-1 px-1 dark:border-red-400/40 dark:bg-red-400/10'
-            : 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
+            : isSymbol
+              ? 'border-b-2 border-dashed border-yellow-400/70 bg-yellow-100/60 py-1 px-1 dark:border-yellow-400/40 dark:bg-yellow-400/15'
+              : 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
           : isMessianic
             ? 'border-b-2 border-dashed border-red-300/60 bg-red-100/40 py-1 px-1 dark:border-red-400/35 dark:bg-red-400/10'
-            : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
+            : isSymbol
+              ? 'border-b-2 border-dashed border-yellow-300/70 bg-yellow-100/45 py-1 px-1 dark:border-yellow-400/35 dark:bg-yellow-400/15'
+              : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
         isSelectedMargin && 'ring-2 ring-accent/70 bg-accent/15 rounded-sm',
         isLinkingSource && 'ring-2 ring-accent ring-offset-2 ring-offset-background rounded-sm',
         userHl && HL_COLORS[userHl]
@@ -243,11 +259,28 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         </span>
       )}
 
+      {/* Symbols & Types Badge (Light yellow) */}
+      {isSymbol && (
+        <span
+          onClick={e => handleOpenMargin(e, 'symbols')}
+          title={`Symbols & Types: ${symbols.length} Symbol${symbols.length === 1 ? '' : 's'}${types.length > 0 ? `, ${types.length} Type${types.length === 1 ? '' : 's'}` : ''}`}
+          className="inline-flex items-center align-middle mr-1 cursor-pointer text-yellow-600 hover:text-yellow-700 dark:text-yellow-400 dark:hover:text-yellow-300"
+        >
+          <ScrollText className="w-[13px] h-[13px]" />
+        </span>
+      )}
+
       {showVerseNumbers && (
         <sup
           className={cn(
             'font-sans font-bold pr-1 text-[10px] select-none',
-            isMessianic ? 'text-red-500 dark:text-red-300' : verse.isThread ? 'text-accent' : 'opacity-50'
+            isMessianic
+              ? 'text-red-500 dark:text-red-300'
+              : isSymbol
+                ? 'text-yellow-600 dark:text-yellow-400'
+                : verse.isThread
+                  ? 'text-accent'
+                  : 'opacity-50'
           )}
         >
           {verse.verseNumber}
