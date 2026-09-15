@@ -47,7 +47,8 @@ export function TheThread({
     closeAllStudyPanes,
   } = useStore();
 
-  const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment' | 'map'>('both');
+  // Clicking a thread verse opens straight into the Ordo mindmap.
+  const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment' | 'map'>('map');
 
   // Re-render when the lazily imported fulfillment / detail chunks arrive.
   const fulfillmentsReady = useFulfillmentsReady();
@@ -182,6 +183,14 @@ export function TheThread({
               <Columns2 className="h-3.5 w-3.5" />
               <span>Split Fulfillment</span>
             </button>
+            <button
+              onClick={() => setSubPaneMode('map')}
+              className="h-7 px-2.5 rounded-full bg-background/80 backdrop-blur border border-foreground/10 text-xs font-medium text-foreground/70 hover:text-foreground flex items-center gap-1.5 shadow-sm cursor-pointer"
+              title="Open the thread as an Ordo mindmap"
+            >
+              <Waypoints className="h-3.5 w-3.5" />
+              <span>Map View</span>
+            </button>
           </div>
           <div className="flex-1 min-h-0 text-foreground relative flex flex-col">{SourcePane}</div>
         </div>
@@ -223,6 +232,14 @@ export function TheThread({
             >
               <Columns2 className="h-3.5 w-3.5" />
               <span>Split Source</span>
+            </button>
+            <button
+              onClick={() => setSubPaneMode('map')}
+              className="h-7 px-2.5 rounded-full bg-background/80 backdrop-blur border border-foreground/10 text-xs font-medium text-foreground/70 hover:text-foreground flex items-center gap-1.5 shadow-sm cursor-pointer"
+              title="Open the thread as an Ordo mindmap"
+            >
+              <Waypoints className="h-3.5 w-3.5" />
+              <span>Map View</span>
             </button>
           </div>
           <div className="flex-1 min-h-0">{FulfillmentPane}</div>

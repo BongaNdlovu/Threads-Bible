@@ -75,8 +75,11 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const nodeRefs = useRef(new Map<string, HTMLElement>());
   const [sizes, setSizes] = useState<Record<string, SizeEntry>>({});
+  const reduceMotion =
+    typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const [step, setStep] = useState(1);
-  const [playing, setPlaying] = useState(false);
+  // Clicking a verse should open the thread already telling its story.
+  const [playing, setPlaying] = useState(!reduceMotion);
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 });
   const dragRef = useRef<{ sx: number; sy: number; ox: number; oy: number } | null>(null);
 
@@ -204,10 +207,16 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
   const sourceNode = graph.nodes[0];
   const currentNode = graph.nodes.find(n => n.step === step) ?? sourceNode;
 
-  const reduceMotion = typeof window !== 'undefined' && window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+  // A new thread restarts the walkthrough from the beginning, playing.
+  const threadKey = graph.nodes[0]?.id ?? '';
+  const prevThreadKey = useRef(threadKey);
   useEffect(() => {
-    if (reduceMotion) setPlaying(false);
-  }, [reduceMotion]);
+    if (prevThreadKey.current !== threadKey) {
+      prevThreadKey.current = threadKey;
+      setStep(1);
+      setPlaying(!reduceMotion);
+    }
+  }, [threadKey, reduceMotion]);
 
   return (
     <div className="relative h-full w-full overflow-hidden bg-[#0B0B0D] select-none">
