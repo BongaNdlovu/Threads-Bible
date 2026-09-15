@@ -17,6 +17,7 @@ import { PaneChrome, RESIZE_HANDLE_CLASS } from './components/PaneChrome';
 import { ErrorBoundary } from './components/ErrorBoundary';
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import { initHashSync } from './hashSync';
+import { ThreadMapPage } from './components/ThreadMapPage';
 import {
   ResizablePanelGroup,
   ResizablePanel,
@@ -44,6 +45,7 @@ export default function App() {
     setExplanationOpen,
     notice,
     clearNotice,
+    threadMapOpen,
   } = useStore();
 
   useKeyboardShortcuts();
@@ -199,6 +201,7 @@ export default function App() {
         </ErrorBoundary>
         <MobileControls />
         {noticeBanner}
+        {threadMapOpen && selectedThread && <ThreadMapPage />}
         </div>
       </ErrorBoundary>
     );
@@ -274,6 +277,7 @@ export default function App() {
         </ErrorBoundary>
         <MobileControls />
         {noticeBanner}
+        {threadMapOpen && selectedThread && <ThreadMapPage />}
       </div>
     </ErrorBoundary>
   );

@@ -1,24 +1,82 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Pause, Play, SkipBack, SkipForward, Focus, RotateCcw } from 'lucide-react';
 import { snippet, type ThreadGraph, type MapNode, type MapEdge } from './threadMapModel';
-import { cn } from '@/lib/utils';
 
 /**
  * Ordo — the cinematic mindmap view of a single thread.
  *
- * Ported from the "Ordo Propheticus" design language: ink-dark starfield,
- * cinematic node cards, gradient edges with animated reveal and traveling
- * dots, step-synced playback, and a dossier panel that explains the active
+ * Ported from the "Ordo Propheticus" design language: starfield, cinematic
+ * node cards, gradient edges with animated reveal and traveling dots,
+ * step-synced playback, and a dossier panel that explains the active
  * connection — the space where a thread shows WHY it is a thread.
+ * Ships in light (parchment) and dark (ink) palettes.
  */
 
-const GOLD = '#C8A24B';
-const STEEL = '#7FA0C4';
-const BONE = '#EAE6DA';
+export type MapTheme = 'dark' | 'light';
 
-const STRAND_COLOR: Record<MapNode['strand'], string> = { gold: GOLD, steel: STEEL };
+interface Palette {
+  bg: string;
+  cardBg: string;
+  text: string;
+  dim: string;
+  mute: string;
+  border: string;
+  gold: string;
+  goldBright: string;
+  steel: string;
+  starRGBA: string;
+  starAlpha: number;
+  dossierBg: string;
+  ctrlBorder: string;
+  watermark: string;
+}
 
-function useStarfield(canvasRef: React.RefObject<HTMLCanvasElement | null>, boxRef: React.RefObject<HTMLDivElement | null>) {
+const PALETTES: Record<MapTheme, Palette> = {
+  dark: {
+    bg: '#0B0B0D',
+    cardBg: 'linear-gradient(160deg, rgba(25,25,32,.92), rgba(11,11,13,.96))',
+    text: '#EAE6DA',
+    dim: 'rgba(166,161,150,.95)',
+    mute: '#6E695F',
+    border: 'rgba(234,230,218,.14)',
+    gold: '#C8A24B',
+    goldBright: '#E8CF8F',
+    steel: '#7FA0C4',
+    starRGBA: '234, 230, 218',
+    starAlpha: 0.35,
+    dossierBg: 'rgba(16,16,19,.95)',
+    ctrlBorder: 'rgba(255,255,255,.15)',
+    watermark: 'rgba(255,255,255,.05)',
+  },
+  light: {
+    bg: '#FAF9F6',
+    cardBg: 'linear-gradient(160deg, #FFFFFF, #F5F3EC)',
+    text: '#2C2C2C',
+    dim: '#5A564E',
+    mute: '#8A857B',
+    border: 'rgba(44,44,44,.16)',
+    gold: '#A67C2E',
+    goldBright: '#8A6A24',
+    steel: '#3C5168',
+    starRGBA: '44, 44, 44',
+    starAlpha: 0.1,
+    dossierBg: 'rgba(255,255,255,.95)',
+    ctrlBorder: 'rgba(44,44,44,.22)',
+    watermark: 'rgba(44,44,44,.05)',
+  },
+};
+
+const NODE_W = 250;
+
+function strandColor(strand: MapNode['strand'], P: Palette): string {
+  return strand === 'gold' ? P.gold : P.steel;
+}
+
+function useStarfield(
+  canvasRef: React.RefObject<HTMLCanvasElement | null>,
+  boxRef: React.RefObject<HTMLDivElement | null>,
+  P: Palette
+) {
   useEffect(() => {
     const canvas = canvasRef.current;
     const box = boxRef.current;
@@ -52,10 +110,10 @@ function useStarfield(canvasRef: React.RefObject<HTMLCanvasElement | null>, boxR
       for (const s of stars) {
         s.x += s.drift * 0.02;
         if (s.x > 1.02) s.x = -0.02;
-        const twinkle = 0.35 + 0.3 * Math.sin(t * 0.0012 + s.tw);
+        const twinkle = P.starAlpha + P.starAlpha * 0.8 * Math.sin(t * 0.0012 + s.tw);
         ctx.beginPath();
         ctx.arc(s.x * w, s.y * h, s.r, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(234, 230, 218, ${twinkle.toFixed(3)})`;
+        ctx.fillStyle = `rgba(${P.starRGBA}, ${twinkle.toFixed(3)})`;
         ctx.fill();
       }
       raf = requestAnimationFrame(draw);
@@ -65,12 +123,13 @@ function useStarfield(canvasRef: React.RefObject<HTMLCanvasElement | null>, boxR
       cancelAnimationFrame(raf);
       ro.disconnect();
     };
-  }, [canvasRef, boxRef]);
+  }, [canvasRef, boxRef, P]);
 }
 
 interface SizeEntry { w: number; h: number }
 
-export function ThreadMap({ graph }: { graph: ThreadGraph }) {
+export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme?: MapTheme }) {
+  const P = useMemo(() => PALETTES[theme], [theme]);
   const boxRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const nodeRefs = useRef(new Map<string, HTMLElement>());
@@ -78,12 +137,12 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
   const reduceMotion =
     typeof window !== 'undefined' && !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
   const [step, setStep] = useState(1);
-  // Clicking a verse should open the thread already telling its story.
+  // Opening the map should already be telling the thread's story.
   const [playing, setPlaying] = useState(!reduceMotion);
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 });
   const dragRef = useRef<{ sx: number; sy: number; ox: number; oy: number } | null>(null);
 
-  useStarfield(canvasRef, boxRef);
+  useStarfield(canvasRef, boxRef, P);
 
   // Measure node cards (transform-independent offsets) for edge geometry.
   useEffect(() => {
@@ -107,6 +166,17 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
     }, 4200);
     return () => window.clearInterval(t);
   }, [playing, graph.totalSteps]);
+
+  // A new thread restarts the walkthrough from the beginning, playing.
+  const threadKey = graph.nodes[0]?.id ?? '';
+  const prevThreadKey = useRef(threadKey);
+  useEffect(() => {
+    if (prevThreadKey.current !== threadKey) {
+      prevThreadKey.current = threadKey;
+      setStep(1);
+      setPlaying(!reduceMotion);
+    }
+  }, [threadKey, reduceMotion]);
 
   const goToStep = (k: number) => {
     setStep(Math.min(graph.totalSteps, Math.max(1, k)));
@@ -163,9 +233,9 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
       }
       const active = e.step <= step;
       const current = e.step === step;
-      return { edge: e, d, color: STEEL, active, current };
+      return { edge: e, d, active, current };
     });
-    return paths.filter(Boolean) as { edge: MapEdge; d: string; color: string; active: boolean; current: boolean }[];
+    return paths.filter(Boolean) as { edge: MapEdge; d: string; active: boolean; current: boolean }[];
   }, [graph, sizes, step]);
 
   // Animated reveal of newly activated edges (dash draw + traveling dot).
@@ -207,19 +277,16 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
   const sourceNode = graph.nodes[0];
   const currentNode = graph.nodes.find(n => n.step === step) ?? sourceNode;
 
-  // A new thread restarts the walkthrough from the beginning, playing.
-  const threadKey = graph.nodes[0]?.id ?? '';
-  const prevThreadKey = useRef(threadKey);
-  useEffect(() => {
-    if (prevThreadKey.current !== threadKey) {
-      prevThreadKey.current = threadKey;
-      setStep(1);
-      setPlaying(!reduceMotion);
-    }
-  }, [threadKey, reduceMotion]);
+  const focusCurrent = () => {
+    const n = currentNode;
+    if (!n) return;
+    const w = boxRef.current?.clientWidth ?? 600;
+    const h = boxRef.current?.clientHeight ?? 400;
+    setView(v => ({ ...v, x: -(n.x * v.scale) + w / 2 - NODE_W / 2, y: -(n.y * v.scale) + h / 2 - 80 }));
+  };
 
   return (
-    <div className="relative h-full w-full overflow-hidden bg-[#0B0B0D] select-none">
+    <div className="relative h-full w-full overflow-hidden select-none" style={{ background: P.bg }}>
       <canvas ref={canvasRef} className="absolute inset-0" />
       <div
         className="absolute inset-0 cursor-grab active:cursor-grabbing"
@@ -237,14 +304,14 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
               {graph.edges.map(e => {
                 const from = graph.nodes[0];
                 const to = graph.nodes.find(n => n.id === e.to);
-                const fs = sizes[from.id] ?? { w: 250, h: 160 };
-                const ts = sizes[to?.id ?? ''] ?? { w: 250, h: 160 };
+                const fs = sizes[from.id] ?? { w: NODE_W, h: 160 };
+                const ts = sizes[to?.id ?? ''] ?? { w: NODE_W, h: 160 };
                 return (
                   <linearGradient key={e.id} id={`eg-${e.id}`} gradientUnits="userSpaceOnUse"
                     x1={from.x + fs.w / 2} y1={from.y + fs.h / 2}
                     x2={(to?.x ?? 0) + ts.w / 2} y2={(to?.y ?? 0) + ts.h / 2}>
-                    <stop offset="0%" stopColor={GOLD} />
-                    <stop offset="100%" stopColor={STEEL} />
+                    <stop offset="0%" stopColor={P.gold} />
+                    <stop offset="100%" stopColor={P.steel} />
                   </linearGradient>
                 );
               })}
@@ -262,10 +329,10 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
                 />
                 <defs>
                   <marker id={`mk-${g.edge.id}`} viewBox="0 0 10 10" refX={7.5} refY={5} markerWidth={6.5} markerHeight={6.5} orient="auto-start-reverse">
-                    <path d="M0,0 L10,5 L0,10 z" fill={STEEL} />
+                    <path d="M0,0 L10,5 L0,10 z" fill={P.steel} />
                   </marker>
                 </defs>
-                <circle data-dot={g.edge.id} r={5} fill={STEEL} style={{ opacity: 0 }} />
+                <circle data-dot={g.edge.id} r={5} fill={P.steel} style={{ opacity: 0 }} />
               </React.Fragment>
             ))}
           </svg>
@@ -273,7 +340,7 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
           {graph.nodes.map(n => {
             const visible = n.step <= step;
             const active = n.step === step;
-            const color = STRAND_COLOR[n.strand];
+            const color = strandColor(n.strand, P);
             return (
               <article
                 key={n.id}
@@ -282,31 +349,31 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
                   else nodeRefs.current.delete(n.id);
                 }}
                 onClick={() => goToStep(n.step)}
-                className="pcard absolute rounded-xl border backdrop-blur-[2px] transition-all duration-500 cursor-pointer"
+                className="absolute rounded-xl border backdrop-blur-[2px] transition-all duration-500 cursor-pointer"
                 style={{
                   left: n.x,
                   top: n.y,
-                  width: 250,
-                  borderColor: active ? color : 'rgba(234,230,218,.14)',
+                  width: NODE_W,
+                  borderColor: active ? color : P.border,
                   boxShadow: active ? `0 0 34px -12px ${color}` : 'none',
-                  background: 'linear-gradient(160deg, rgba(25,25,32,.92), rgba(11,11,13,.96))',
+                  background: P.cardBg,
                   opacity: visible ? 1 : 0,
                   transform: visible ? 'translateY(0)' : 'translateY(14px)',
                 }}
               >
-                <span className="absolute font-serif font-light text-white/[.05] select-none" style={{ fontSize: 78, right: 10, top: -6 }}>
+                <span className="absolute font-serif font-light select-none" style={{ fontSize: 78, right: 10, top: -6, color: P.watermark }}>
                   {String(n.step).padStart(2, '0')}
                 </span>
                 <div className="relative px-4 pt-3 flex items-center justify-between font-mono text-[10px] tracking-[0.2em]">
                   <span style={{ color }} className="font-semibold">◆ {String(n.step).padStart(2, '0')}</span>
-                  <span className="uppercase" style={{ color: 'rgba(166,161,150,.85)' }}>
+                  <span className="uppercase" style={{ color: P.mute }}>
                     {n.kind === 'source' ? 'Thread Source' : 'Connection'}
                   </span>
                 </div>
-                <h3 className="relative font-serif font-medium text-[16px] leading-snug px-4 pt-2 pr-10" style={{ color: BONE }}>
+                <h3 className="relative font-serif font-medium text-[16px] leading-snug px-4 pt-2 pr-10" style={{ color: P.text }}>
                   {n.kind === 'source' ? n.title : n.ref}
                 </h3>
-                <p className="relative px-4 pt-1.5 text-[11.5px] leading-relaxed" style={{ color: 'rgba(166,161,150,.95)' }}>
+                <p className="relative px-4 pt-1.5 text-[11.5px] leading-relaxed" style={{ color: P.dim }}>
                   {n.body || '…'}
                 </p>
                 <div className="relative px-4 pb-3 pt-2.5 flex items-center justify-between gap-2 font-mono text-[9px] tracking-[0.14em]">
@@ -323,40 +390,45 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
         <button
           onClick={() => goToStep(step - 1)}
           aria-label="Previous step"
-          className="h-8 w-8 rounded-full flex items-center justify-center border border-white/15 text-[#EAE6DA]/80 hover:bg-white/10 cursor-pointer transition-colors"
+          className="h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer transition-colors"
+          style={{ borderColor: P.ctrlBorder, color: P.text }}
         >
           <SkipBack className="h-3.5 w-3.5" />
         </button>
         <button
           onClick={() => setPlaying(p => !p)}
           aria-label={playing ? 'Pause playback' : 'Play the thread as a cinematic walkthrough'}
-          className="h-8 w-8 rounded-full flex items-center justify-center border bg-[#C8A24B]/20 text-[#E8CF8F] border-[#C8A24B]/50 hover:bg-[#C8A24B]/30 cursor-pointer transition-colors"
+          className="h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer transition-colors"
+          style={{ borderColor: P.gold, color: P.goldBright, background: `${P.gold}33` }}
         >
           {playing ? <Pause className="h-3.5 w-3.5" /> : <Play className="h-3.5 w-3.5" />}
         </button>
         <button
           onClick={() => goToStep(step + 1)}
           aria-label="Next step"
-          className="h-8 w-8 rounded-full flex items-center justify-center border border-white/15 text-[#EAE6DA]/80 hover:bg-white/10 cursor-pointer transition-colors"
+          className="h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer transition-colors"
+          style={{ borderColor: P.ctrlBorder, color: P.text }}
         >
           <SkipForward className="h-3.5 w-3.5" />
         </button>
-        <span className="ml-1 font-mono text-[10px] tracking-[0.2em] text-[#EAE6DA]/60">
+        <span className="ml-1 font-mono text-[10px] tracking-[0.2em]" style={{ color: P.mute }}>
           {String(step).padStart(2, '0')} / {String(graph.totalSteps).padStart(2, '0')}
         </span>
         <button
           onClick={() => setView({ x: 0, y: 0, scale: 1 })}
           aria-label="Reset view"
           title="Reset view"
-          className="ml-2 h-8 w-8 rounded-full flex items-center justify-center border border-white/15 text-[#EAE6DA]/60 hover:bg-white/10 cursor-pointer transition-colors"
+          className="ml-2 h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer transition-colors"
+          style={{ borderColor: P.ctrlBorder, color: P.dim }}
         >
           <RotateCcw className="h-3 w-3" />
         </button>
         <button
-          onClick={() => { const n = currentNode; if (n) setView(v => ({ ...v, x: -(n.x * v.scale) + (boxRef.current?.clientWidth ?? 600) / 2 - 125, y: -(n.y * v.scale) + (boxRef.current?.clientHeight ?? 400) / 2 - 80 })); }}
+          onClick={focusCurrent}
           aria-label="Focus current node"
           title="Focus current node"
-          className="h-8 w-8 rounded-full flex items-center justify-center border border-white/15 text-[#EAE6DA]/60 hover:bg-white/10 cursor-pointer transition-colors"
+          className="h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer transition-colors"
+          style={{ borderColor: P.ctrlBorder, color: P.dim }}
         >
           <Focus className="h-3.5 w-3.5" />
         </button>
@@ -373,34 +445,34 @@ export function ThreadMap({ graph }: { graph: ThreadGraph }) {
             style={{
               width: k === step ? 18 : 7,
               height: 7,
-              background: k <= step ? GOLD : 'rgba(234,230,218,.25)',
+              background: k <= step ? P.gold : P.mute,
             }}
           />
         ))}
       </div>
 
       {/* Dossier — the WHY panel */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 border-t border-white/10 bg-[#101013]/95 backdrop-blur px-5 py-4">
+      <div className="absolute bottom-0 left-0 right-0 z-10 border-t px-5 py-4 backdrop-blur" style={{ borderColor: P.border, background: P.dossierBg }}>
         {activeEdge ? (
           <div className="max-w-4xl">
             <div className="flex items-center gap-2 font-mono text-[10px] tracking-[0.2em]">
-              <span style={{ color: GOLD }}>◆ {activeEdge.label}</span>
-              <span className="text-[#6E695F] uppercase">Why this connection</span>
+              <span style={{ color: P.gold }}>◆ {activeEdge.label}</span>
+              <span className="uppercase" style={{ color: P.mute }}>Why this connection</span>
             </div>
-            <p className="mt-1.5 text-[13px] leading-relaxed text-[#EAE6DA]/90">{activeEdge.why}</p>
+            <p className="mt-1.5 text-[13px] leading-relaxed" style={{ color: P.text }}>{activeEdge.why}</p>
           </div>
         ) : (
           <div className="max-w-4xl">
             <div className="flex items-center gap-2 font-mono text-[10px] tracking-[0.2em]">
-              <span style={{ color: GOLD }}>◆ {sourceNode.ref}</span>
-              <span className="text-[#6E695F] uppercase">Why this thread is a thread</span>
+              <span style={{ color: P.gold }}>◆ {sourceNode.ref}</span>
+              <span className="uppercase" style={{ color: P.mute }}>Why this thread is a thread</span>
             </div>
-            <p className="mt-1.5 text-[13px] leading-relaxed text-[#EAE6DA]/90">
+            <p className="mt-1.5 text-[13px] leading-relaxed" style={{ color: P.text }}>
               {snippet(sourceNode.body, 260)}
             </p>
           </div>
         )}
-        <div className="mt-2 text-[10px] font-mono tracking-[0.14em] text-[#6E695F]">
+        <div className="mt-2 text-[10px] font-mono tracking-[0.14em]" style={{ color: P.mute }}>
           Drag to pan · Scroll to zoom · Click a node to travel
         </div>
       </div>

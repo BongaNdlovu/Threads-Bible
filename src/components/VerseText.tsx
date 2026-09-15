@@ -79,7 +79,7 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
     highlightFromThread,
     userHighlights,
     toggleUserHighlight,
-    setThreadPaneOpen,
+    setThreadMapOpen,
     focusPane,
     setFocusPane,
   } = useStore();
@@ -130,11 +130,10 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
     }
 
     if (verse.isThread) {
-      // If the reading pane is fullscreen, opening a thread must leave
-      // fullscreen or the click would visibly do nothing.
+      // Thread verses open straight into the Ordo mindmap page.
       if (focusPane === 'reading') setFocusPane(null);
       setSelectedThread(verse);
-      setThreadPaneOpen(true);
+      setThreadMapOpen(true);
     } else {
       setSelectedMarginVerse(verse);
       setShowActions(a => !a);

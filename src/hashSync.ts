@@ -28,7 +28,7 @@ function buildHashFromState(): string {
       slug: parts[0],
       chapter: Number.parseInt(parts[1], 10),
       verse: Number.parseInt(parts[2], 10),
-      threadPane: s.threadPaneOpen,
+      threadPane: s.threadMapOpen || s.threadPaneOpen,
       explanation: s.explanationOpen,
     });
   }
@@ -62,7 +62,7 @@ export async function applyHashToStore(hash: string): Promise<boolean> {
       after.showNotice(`Verse "${verseId}" is not in the Bible canon.`);
       return false;
     }
-    if (parsed.threadPane) after.setThreadPaneOpen(true);
+    if (parsed.threadPane) after.setThreadMapOpen(true);
     if (parsed.explanation) after.setExplanationOpen(true);
   } else {
     useStore.getState().setReadingLocation(bookName, parsed.chapter);

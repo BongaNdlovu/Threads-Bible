@@ -133,6 +133,10 @@ interface AppState {
   showNotice: (message: string) => void;
   clearNotice: () => void;
 
+  /** The Ordo mindmap page — opens for a thread verse instead of the split. */
+  threadMapOpen: boolean;
+  setThreadMapOpen: (open: boolean) => void;
+
   /** The verse whose thread is open (source verse of the thread). */
   selectedThread: Verse | null;
   setSelectedThread: (verse: Verse | null) => void;
@@ -326,6 +330,9 @@ export const useStore = create<AppState>((set, get) => ({
     const prev = prevChapterLocation(currentReadingBook, currentReadingChapter);
     if (prev) setReadingLocation(prev.book, prev.chapter);
   },
+
+  threadMapOpen: false,
+  setThreadMapOpen: open => set({ threadMapOpen: open }),
 
   notice: null,
   showNotice: message => {
@@ -552,7 +559,7 @@ export const useStore = create<AppState>((set, get) => ({
         isThread: true,
         fulfillmentRefs: refs,
       };
-      set({ selectedThread: enrichedVerse, selectedMarginVerse: null, threadPaneOpen: true });
+      set({ selectedThread: enrichedVerse, selectedMarginVerse: null, threadMapOpen: true });
     } else {
       set({ selectedMarginVerse: verse });
     }
@@ -579,6 +586,7 @@ export const useStore = create<AppState>((set, get) => ({
       selectedMarginVerse: null,
       highlightFromThread: {},
       threadPaneOpen: false,
+      threadMapOpen: false,
       explanationOpen: false,
       focusPane: null,
       threadsPanelOpen: false,
@@ -588,7 +596,7 @@ export const useStore = create<AppState>((set, get) => ({
     }),
   hasStudyPanes: () => {
     const s = get();
-    return !!(s.selectedThread || s.threadPaneOpen || s.focusPane || s.threadsPanelOpen);
+    return !!(s.selectedThread || s.threadPaneOpen || s.threadMapOpen || s.focusPane || s.threadsPanelOpen);
   },
 
   chapterGridOpen: false,

@@ -36,6 +36,11 @@ export function useKeyboardShortcuts() {
           e.preventDefault();
           return;
         }
+        if (s.threadMapOpen) {
+          s.setThreadMapOpen(false);
+          e.preventDefault();
+          return;
+        }
         if (s.focusPane) {
           s.setFocusPane(null);
           e.preventDefault();

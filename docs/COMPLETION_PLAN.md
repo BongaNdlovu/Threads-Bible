@@ -44,12 +44,14 @@ nodes, gradient edges with animated reveal, step playback, edge `why` fields).
   play/pause/prev/next) plus a dossier panel that displays the **active
   edge's why** — the space to explain not only the thread but the connection.
   ✅
-- **A4 · Integration** — TheThread pane gains a **Map** mode (Waypoints
-  toggle) beside Split Fulfillment / Split Source. **The workflow is one
-  click**: tapping a thread verse in the reading view opens the Ordo mindmap
-  for that thread directly (map is the default mode) and auto-plays the
-  walkthrough; Split View, Split Fulfillment, and Split Source remain one
-  click away from every mode. ✅
+- **A4 · Integration** — The Ordo mindmap opens as **its own page**
+  (`ThreadMapPage`, full-screen with its own chrome: theme toggle, Split
+  View, close). The workflow is one click: tapping a thread verse in the
+  reading view opens the map page directly and auto-plays the walkthrough;
+  Esc closes it. The classic split view (source & fulfillment side by side)
+  opens only from the map page's Split View button — never automatically.
+  The map carries **light and dark palettes** (defaults to the app theme,
+  switchable from the page header). ✅
 - **A5 · Tests** — `threadMapModel.test.ts`: node/edge counts, per-ref
   grouping of resolved verses, why composition, anchor/fulfillment snippets,
   sequential steps. ✅
