@@ -137,6 +137,11 @@ interface AppState {
   threadMapOpen: boolean;
   setThreadMapOpen: (open: boolean) => void;
 
+  /** The Historical Context page — separate page for historical context of all connections */
+  historicalContextOpen: boolean;
+  focusedHistoricalConnectionId: string | null;
+  setHistoricalContextOpen: (open: boolean, connectionId?: string | null) => void;
+
   /** The verse whose thread is open (source verse of the thread). */
   selectedThread: Verse | null;
   setSelectedThread: (verse: Verse | null) => void;
@@ -333,6 +338,14 @@ export const useStore = create<AppState>((set, get) => ({
 
   threadMapOpen: false,
   setThreadMapOpen: open => set({ threadMapOpen: open }),
+
+  historicalContextOpen: false,
+  focusedHistoricalConnectionId: null,
+  setHistoricalContextOpen: (open, connectionId = null) =>
+    set({
+      historicalContextOpen: open,
+      focusedHistoricalConnectionId: open ? (connectionId ?? null) : null,
+    }),
 
   notice: null,
   showNotice: message => {
@@ -587,6 +600,8 @@ export const useStore = create<AppState>((set, get) => ({
       highlightFromThread: {},
       threadPaneOpen: false,
       threadMapOpen: false,
+      historicalContextOpen: false,
+      focusedHistoricalConnectionId: null,
       explanationOpen: false,
       focusPane: null,
       threadsPanelOpen: false,
@@ -596,7 +611,7 @@ export const useStore = create<AppState>((set, get) => ({
     }),
   hasStudyPanes: () => {
     const s = get();
-    return !!(s.selectedThread || s.threadPaneOpen || s.threadMapOpen || s.focusPane || s.threadsPanelOpen);
+    return !!(s.selectedThread || s.threadPaneOpen || s.threadMapOpen || s.historicalContextOpen || s.focusPane || s.threadsPanelOpen);
   },
 
   chapterGridOpen: false,

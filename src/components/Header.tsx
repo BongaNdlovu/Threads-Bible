@@ -10,6 +10,7 @@ import {
   Grid3x3,
   ListTree,
   Columns2,
+  Landmark,
   SlidersHorizontal,
   History,
   AlignLeft,
@@ -50,6 +51,8 @@ export function Header() {
     setMobileControlsOpen,
     toggleThreadPane,
     threadPaneOpen,
+    historicalContextOpen,
+    setHistoricalContextOpen,
     recentReadings,
     textAlign,
     toggleTextAlign,
@@ -248,6 +251,18 @@ export function Header() {
           className="h-8 w-8 rounded-full flex items-center justify-center bg-foreground/5 hover:bg-foreground/10 transition-colors cursor-pointer shrink-0 text-foreground/70 hover:text-foreground"
         >
           <ListTree className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => setHistoricalContextOpen(!historicalContextOpen)}
+          aria-label={historicalContextOpen ? 'Close Historical Context' : 'Open Historical Context'}
+          title="Historical Context (H) — chronological eras & geopolitical backdrops"
+          className={`h-8 w-8 rounded-full flex items-center justify-center transition-colors cursor-pointer shrink-0 ${
+            historicalContextOpen
+              ? 'bg-accent/15 text-accent'
+              : 'bg-foreground/5 hover:bg-foreground/10 text-foreground/70 hover:text-foreground'
+          }`}
+        >
+          <Landmark className="h-4 w-4" />
         </button>
         <button
           onClick={toggleThreadPane}

@@ -36,6 +36,11 @@ export function useKeyboardShortcuts() {
           e.preventDefault();
           return;
         }
+        if (s.historicalContextOpen) {
+          s.setHistoricalContextOpen(false);
+          e.preventDefault();
+          return;
+        }
         if (s.threadMapOpen) {
           s.setThreadMapOpen(false);
           e.preventDefault();
@@ -80,6 +85,11 @@ export function useKeyboardShortcuts() {
         case 't':
         case 'T':
           s.setThreadsPanelOpen(!s.threadsPanelOpen);
+          e.preventDefault();
+          break;
+        case 'h':
+        case 'H':
+          s.setHistoricalContextOpen(!s.historicalContextOpen);
           e.preventDefault();
           break;
         case 'p':

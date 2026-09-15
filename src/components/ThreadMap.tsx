@@ -9,7 +9,13 @@ import {
   Captions,
   Camera,
   ChevronDown,
+  Landmark,
+  Sparkles,
+  BookOpen,
+  ExternalLink,
+  X,
 } from 'lucide-react';
+import { useStore } from '../store/useStore';
 import { snippet, type ThreadGraph, type MapNode, type MapEdge } from './threadMapModel';
 import { cn } from '@/lib/utils';
 
@@ -202,6 +208,24 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
   const [hoveredEdge, setHoveredEdge] = useState<string | null>(null);
   const [edgeMids, setEdgeMids] = useState<Record<string, EdgeMid>>({});
   const [boxSize, setBoxSize] = useState({ w: 0, h: 0 });
+  const { setHistoricalContextOpen } = useStore();
+  const [dossierTab, setDossierTab] = useState<'ultimate' | 'what' | 'when' | 'how' | 'why'>('ultimate');
+  const [scholarlyModalOpen, setScholarlyModalOpen] = useState(false);
+
+  // Captured Escape listener: intercepts Escape before bubble listeners to prevent closing ThreadMapPage
+  useEffect(() => {
+    if (!scholarlyModalOpen) return;
+    const onEscapeCapture = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        e.stopPropagation();
+        e.preventDefault();
+        setScholarlyModalOpen(false);
+      }
+    };
+    window.addEventListener('keydown', onEscapeCapture, true);
+    return () => window.removeEventListener('keydown', onEscapeCapture, true);
+  }, [scholarlyModalOpen]);
+
   const dragRef = useRef<{ sx: number; sy: number; ox: number; oy: number } | null>(null);
   const glideRef = useRef<number>(0);
   const viewRef = useRef(view);
@@ -315,6 +339,7 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
     const h = (e: KeyboardEvent) => {
       const t = e.target as HTMLElement | null;
       if (t && (t.tagName === 'INPUT' || t.tagName === 'TEXTAREA' || t.isContentEditable)) return;
+      if (scholarlyModalOpen) return;
       switch (e.key) {
         case 'ArrowRight':
           e.preventDefault();
@@ -349,7 +374,7 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
     window.addEventListener('keydown', h);
     return () => window.removeEventListener('keydown', h);
     // eslint-disable-next-line react-hooks/exhaustive-deps -- handlers read the current step
-  }, [step, settings, graph.totalSteps]);
+  }, [step, settings, graph.totalSteps, scholarlyModalOpen]);
 
   // Pan / zoom — native non-passive wheel listener (React wheel is passive).
   useEffect(() => {
@@ -468,9 +493,32 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
   const sourceNode = graph.nodes[0];
   const currentNode = graph.nodes.find(n => n.step === step) ?? sourceNode;
 
-  /* 5 · typewriter narration — the dossier types the active why */
+  useEffect(() => {
+    setDossierTab('ultimate');
+  }, [step]);
+
+  /* 5 · typewriter narration — the dossier types the active interrogation dimension */
   const introText = `The thread begins at ${sourceNode.ref} — “${sourceNode.body}”. ${graph.edges.length} connection${graph.edges.length === 1 ? '' : 's'} lead${graph.edges.length === 1 ? 's' : ''} from here.`;
-  const narratedText = activeEdge ? activeEdge.why : introText;
+  const getDossierText = () => {
+    if (!activeEdge) return introText;
+    const inter = activeEdge.interrogation;
+    if (!inter) return activeEdge.why;
+    switch (dossierTab) {
+      case 'ultimate':
+        return inter.ultimatePoint;
+      case 'what':
+        return inter.what;
+      case 'when':
+        return inter.when;
+      case 'how':
+        return inter.how;
+      case 'why':
+        return inter.why;
+      default:
+        return inter.ultimatePoint;
+    }
+  };
+  const narratedText = getDossierText();
   const [typedCount, setTypedCount] = useState(narratedText.length);
   useEffect(() => {
     if (!settings.narration || reduceMotion) {
@@ -808,7 +856,7 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
       {/* 8 · overview minimap */}
       {world && graph.nodes.length > 1 && (
         <svg
-          className="absolute right-4 z-10 rounded-lg border cursor-pointer shadow-lg"
+          className="hidden sm:block absolute right-4 z-10 rounded-lg border cursor-pointer shadow-lg"
           style={{
             bottom: 118,
             width: minimapW,
@@ -879,18 +927,135 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
         </div>
       )}
 
-      {/* 5 · dossier — the WHY panel with typewriter narration */}
-      <div className="absolute bottom-0 left-0 right-0 z-10 border-t px-5 py-4 backdrop-blur" style={{ borderColor: P.border, background: P.dossierBg }}>
+      {/* 5 · dossier — the Interrogation panel with typewriter narration */}
+      <div className="absolute bottom-0 left-0 right-0 z-10 border-t px-5 py-3.5 backdrop-blur transition-all" style={{ borderColor: P.border, background: P.dossierBg }}>
         {activeEdge ? (
-          <div className="max-w-4xl">
-            <div className="flex items-center gap-2 font-mono text-[10px] tracking-[0.2em]">
-              <span style={{ color: P.gold }}>◆ {activeEdge.label}</span>
-              <span className="uppercase" style={{ color: P.mute }}>Why this connection</span>
+          <div className="max-w-5xl mx-auto">
+            {/* Header: Connection Label, Interrogation Tabs, and Actions */}
+            <div className="flex flex-wrap items-center justify-between gap-2.5 mb-2.5">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="font-mono text-[11px] font-bold tracking-[0.12em]" style={{ color: P.gold }}>
+                  ◆ {activeEdge.label}
+                </span>
+
+                {/* Interrogation Quick Tabs */}
+                <div
+                  className="flex items-center gap-1 p-0.5 rounded-lg border"
+                  style={{ borderColor: P.border, background: `${P.gold}0d` }}
+                >
+                  <button
+                    onClick={() => setDossierTab('ultimate')}
+                    className="px-2.5 py-1 rounded-md text-[10.5px] flex items-center gap-1 cursor-pointer transition-all"
+                    style={{
+                      background: dossierTab === 'ultimate' ? `${P.gold}28` : 'transparent',
+                      color: dossierTab === 'ultimate' ? P.gold : P.dim,
+                      border: dossierTab === 'ultimate' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                      fontWeight: dossierTab === 'ultimate' ? 700 : 500,
+                    }}
+                  >
+                    <Sparkles className="h-3 w-3" />
+                    <span>Ultimate Point</span>
+                  </button>
+                  <button
+                    onClick={() => setDossierTab('what')}
+                    className="px-2 py-1 rounded-md text-[10.5px] cursor-pointer transition-all"
+                    style={{
+                      background: dossierTab === 'what' ? `${P.gold}20` : 'transparent',
+                      color: dossierTab === 'what' ? P.gold : P.dim,
+                      border: dossierTab === 'what' ? `1px solid ${P.gold}38` : '1px solid transparent',
+                      fontWeight: dossierTab === 'what' ? 700 : 500,
+                    }}
+                  >
+                    What
+                  </button>
+                  <button
+                    onClick={() => setDossierTab('when')}
+                    className="px-2 py-1 rounded-md text-[10.5px] cursor-pointer transition-all"
+                    style={{
+                      background: dossierTab === 'when' ? `${P.gold}20` : 'transparent',
+                      color: dossierTab === 'when' ? P.gold : P.dim,
+                      border: dossierTab === 'when' ? `1px solid ${P.gold}38` : '1px solid transparent',
+                      fontWeight: dossierTab === 'when' ? 700 : 500,
+                    }}
+                  >
+                    When
+                  </button>
+                  <button
+                    onClick={() => setDossierTab('how')}
+                    className="px-2 py-1 rounded-md text-[10.5px] cursor-pointer transition-all"
+                    style={{
+                      background: dossierTab === 'how' ? `${P.gold}20` : 'transparent',
+                      color: dossierTab === 'how' ? P.gold : P.dim,
+                      border: dossierTab === 'how' ? `1px solid ${P.gold}38` : '1px solid transparent',
+                      fontWeight: dossierTab === 'how' ? 700 : 500,
+                    }}
+                  >
+                    How
+                  </button>
+                  <button
+                    onClick={() => setDossierTab('why')}
+                    className="px-2 py-1 rounded-md text-[10.5px] cursor-pointer transition-all"
+                    style={{
+                      background: dossierTab === 'why' ? `${P.gold}20` : 'transparent',
+                      color: dossierTab === 'why' ? P.gold : P.dim,
+                      border: dossierTab === 'why' ? `1px solid ${P.gold}38` : '1px solid transparent',
+                      fontWeight: dossierTab === 'why' ? 700 : 500,
+                    }}
+                  >
+                    Why
+                  </button>
+                </div>
+              </div>
+
+              {/* Action Buttons: Full Dossier & Historical Context */}
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => setScholarlyModalOpen(true)}
+                  className="h-7 px-2.5 rounded-md border text-[10px] font-medium flex items-center gap-1 cursor-pointer transition-colors"
+                  style={{ borderColor: P.ctrlBorder, color: P.text }}
+                  title="Open the full 5-part scholarly dossier"
+                >
+                  <BookOpen className="h-3 w-3" />
+                  <span>Full Dossier</span>
+                </button>
+                <button
+                  onClick={() => setHistoricalContextOpen(true, activeEdge.interrogation.id)}
+                  className="h-7 px-2.5 rounded-md border text-[10px] font-semibold flex items-center gap-1 cursor-pointer transition-colors"
+                  style={{ borderColor: P.gold, color: P.gold, background: `${P.gold}14` }}
+                  title="Open historical context for this connection"
+                >
+                  <Landmark className="h-3 w-3" />
+                  <span>Historical Context ↗</span>
+                </button>
+              </div>
             </div>
-            <p className="mt-1.5 text-[13px] leading-relaxed min-h-[2.6em]" style={{ color: P.text }}>
-              {typed}
-              {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-            </p>
+
+            {/* Active Content Display */}
+            {dossierTab === 'ultimate' ? (
+              <div
+                className="p-2.5 rounded-lg border flex items-start gap-2.5 min-h-[3.2em]"
+                style={{ borderColor: `${P.gold}44`, background: `${P.gold}0e` }}
+              >
+                <Sparkles className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
+                <p className="font-serif text-[13.5px] font-medium leading-relaxed" style={{ color: P.text }}>
+                  {typed}
+                  {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                </p>
+              </div>
+            ) : (
+              <div className="min-h-[3.2em] px-1">
+                <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5" style={{ color: P.mute }}>
+                  {dossierTab === 'what' && '1. Textual & Thematic Parallelism'}
+                  {dossierTab === 'when' && '2. Chronological Dating & Redemptive Horizons'}
+                  {dossierTab === 'how' && '3. Exegesis & Hermeneutical Mechanics'}
+                  {dossierTab === 'why' && '4. Divine Purpose & Theological Necessity'}
+                </div>
+                <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
+                  {typed}
+                  {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                </p>
+              </div>
+            )}
           </div>
         ) : (
           <div className="max-w-4xl">
@@ -904,11 +1069,120 @@ export function ThreadMap({ graph, theme = 'dark' }: { graph: ThreadGraph; theme
             </p>
           </div>
         )}
+
         {/* 9 · keyboard help */}
         <div className="mt-2 text-[10px] font-mono tracking-[0.14em]" style={{ color: P.mute }}>
           ←/→ steps · Space plays · Home/End jumps · F focuses · hover an arrow for its why
         </div>
       </div>
+
+      {/* 11 · Scholarly Dossier Modal */}
+      {scholarlyModalOpen && activeEdge && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
+          onClick={e => {
+            if (e.target === e.currentTarget) setScholarlyModalOpen(false);
+          }}
+        >
+          <div
+            className="w-full max-w-2xl max-h-[85vh] flex flex-col rounded-2xl border shadow-2xl overflow-hidden"
+            style={{ borderColor: P.border, background: P.dossierBg, color: P.text }}
+          >
+            {/* Modal Header */}
+            <div className="flex items-center justify-between px-6 py-4 border-b shrink-0" style={{ borderColor: P.border }}>
+              <div className="flex items-center gap-2.5">
+                <div
+                  className="h-8 w-8 rounded-lg flex items-center justify-center border"
+                  style={{ borderColor: P.gold, background: `${P.gold}1a`, color: P.gold }}
+                >
+                  <BookOpen className="h-4 w-4" />
+                </div>
+                <div>
+                  <h3 className="font-serif text-base font-bold">Biblical Connection Scholarly Dossier</h3>
+                  <div className="font-mono text-[10px] tracking-wider" style={{ color: P.gold }}>
+                    {activeEdge.interrogation.anchorRef} ➔ {activeEdge.interrogation.targetRef}
+                  </div>
+                </div>
+              </div>
+              <button
+                onClick={() => setScholarlyModalOpen(false)}
+                className="h-8 w-8 rounded-full flex items-center justify-center border cursor-pointer hover:opacity-80 transition-opacity"
+                style={{ borderColor: P.ctrlBorder, color: P.text }}
+              >
+                <X className="h-4 w-4" />
+              </button>
+            </div>
+
+            {/* Modal Scrollable Body */}
+            <div className="flex-1 overflow-y-auto p-6 space-y-5 text-xs leading-relaxed">
+              {/* Ultimate Point */}
+              <div className="p-4 rounded-xl border space-y-1.5" style={{ borderColor: P.gold, background: `${P.gold}14` }}>
+                <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  <Sparkles className="h-3.5 w-3.5" />
+                  <span>The Ultimate Redemptive Climax</span>
+                </div>
+                <p className="font-serif text-sm font-semibold leading-relaxed" style={{ color: P.text }}>
+                  {activeEdge.interrogation.ultimatePoint}
+                </p>
+              </div>
+
+              {/* What */}
+              <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
+                <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  1. WHAT: The Textual & Thematic Parallelism
+                </div>
+                <p style={{ color: P.dim }}>{activeEdge.interrogation.what}</p>
+              </div>
+
+              {/* When */}
+              <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
+                <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  2. WHEN: Chronological Dating & Redemptive Timeline
+                </div>
+                <p style={{ color: P.dim }}>{activeEdge.interrogation.when}</p>
+              </div>
+
+              {/* How */}
+              <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
+                <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  3. HOW: Exegesis & Hermeneutical Mechanics
+                </div>
+                <p style={{ color: P.dim }}>{activeEdge.interrogation.how}</p>
+              </div>
+
+              {/* Why */}
+              <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
+                <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  4. WHY: Divine Necessity & Theological Purpose
+                </div>
+                <p style={{ color: P.dim }}>{activeEdge.interrogation.why}</p>
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div className="px-6 py-3.5 border-t flex items-center justify-between shrink-0" style={{ borderColor: P.border }}>
+              <button
+                onClick={() => {
+                  setScholarlyModalOpen(false);
+                  setHistoricalContextOpen(true, activeEdge.interrogation.id);
+                }}
+                className="h-8 px-3 rounded-lg border text-xs font-semibold flex items-center gap-1.5 cursor-pointer"
+                style={{ borderColor: P.gold, color: P.gold, background: `${P.gold}14` }}
+              >
+                <Landmark className="h-3.5 w-3.5" />
+                <span>Open Historical Context Page ↗</span>
+              </button>
+              <button
+                onClick={() => setScholarlyModalOpen(false)}
+                className="h-8 px-4 rounded-lg border text-xs font-medium cursor-pointer"
+                style={{ borderColor: P.ctrlBorder, color: P.text }}
+              >
+                Done
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

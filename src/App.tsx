@@ -18,6 +18,7 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import { initHashSync } from './hashSync';
 import { ThreadMapPage } from './components/ThreadMapPage';
+import { HistoricalContextPage } from './components/HistoricalContextPage';
 import {
   ResizablePanelGroup,
   ResizablePanel,
@@ -46,6 +47,7 @@ export default function App() {
     notice,
     clearNotice,
     threadMapOpen,
+    historicalContextOpen,
   } = useStore();
 
   useKeyboardShortcuts();
@@ -202,6 +204,7 @@ export default function App() {
         <MobileControls />
         {noticeBanner}
         {threadMapOpen && selectedThread && <ThreadMapPage />}
+        {historicalContextOpen && <HistoricalContextPage />}
         </div>
       </ErrorBoundary>
     );
@@ -278,6 +281,7 @@ export default function App() {
         <MobileControls />
         {noticeBanner}
         {threadMapOpen && selectedThread && <ThreadMapPage />}
+        {historicalContextOpen && <HistoricalContextPage />}
       </div>
     </ErrorBoundary>
   );

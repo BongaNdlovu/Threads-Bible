@@ -27,6 +27,12 @@ export interface MapNode {
   y: number;
 }
 
+import {
+  getConnectionInterrogation,
+  type ConnectionInterrogation,
+} from '../data/connectionInterrogation';
+import { expandVerseRange } from '../data/refParser';
+
 export interface MapEdge {
   id: string;
   from: string;
@@ -35,6 +41,8 @@ export interface MapEdge {
   step: number;
   label: string;
   why: string;
+  /** Complete 5-part biblical interrogation (What, When, How, Why, Ultimate Point). */
+  interrogation: ConnectionInterrogation;
 }
 
 export interface ThreadGraph {
@@ -96,7 +104,7 @@ export function chunkVersesByRefs(
 export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
   const nodes: MapNode[] = [];
   const edges: MapEdge[] = [];
-  const expand = input.expand ?? (() => []);
+  const expand = input.expand ?? expandVerseRange;
 
   const anchorSnippet = snippet(input.anchorVerseText, 110);
   const principle = input.principle.trim();
@@ -134,6 +142,16 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       x: 40 + NODE_GAP_X,
       y: 40 + i * NODE_GAP_Y,
     });
+    const targetVerseText = group.verses.map(v => v.text).join(' ');
+    const interrogation = getConnectionInterrogation(
+      input.anchorId,
+      group.ref,
+      input.anchorRef,
+      input.anchorVerseText,
+      targetVerseText,
+      input.principle
+    );
+
     edges.push({
       id: `${input.anchorId}-e${i}`,
       from: input.anchorId,
@@ -144,6 +162,7 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
         `${principle} ` +
         `This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — ` +
         `to ${group.ref}: “${fulfillmentSnippet}.”`,
+      interrogation,
     });
   });
 

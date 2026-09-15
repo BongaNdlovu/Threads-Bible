@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Columns2, Moon, Sun, X } from 'lucide-react';
+import { Columns2, Landmark, Moon, Sun, X } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import { expandVerseRange, getChapterVersesFromLoaded } from '../data/library';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
@@ -18,6 +18,7 @@ export function ThreadMapPage() {
     theme: appTheme,
     setThreadMapOpen,
     setThreadPaneOpen,
+    setHistoricalContextOpen,
   } = useStore();
 
   const [mapTheme, setMapTheme] = useState<MapTheme>(appTheme);
@@ -83,7 +84,18 @@ export function ThreadMapPage() {
             {mapTheme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </button>
           <button
+            onClick={() => setHistoricalContextOpen(true, selectedThread.id)}
+            aria-label="Historical Context"
+            className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
+            style={{ borderColor: P.ctrlBorder, color: P.text }}
+            title="Open historical context for this connection and all biblical threads"
+          >
+            <Landmark className="h-3.5 w-3.5" style={{ color: P.gold }} />
+            <span className="hidden sm:inline">Historical Context</span>
+          </button>
+          <button
             onClick={openSplit}
+            aria-label="Split View"
             className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
             style={{ borderColor: P.ctrlBorder, color: P.text }}
             title="Open the classic split view (source & fulfillment side by side)"
