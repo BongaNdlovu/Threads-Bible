@@ -1,4 +1,9 @@
-# CP-02 · Exodus Summary (Draft — DO NOT APPLY)
+# CP-02 · Exodus Summary — SIGNED-OFF
+
+Operator theology sign-off (Exodus only): ACCEPTED (CP-02 → apply CP-03)
+- Signer: Bonga Ndlovu (operator)
+- Date: 2026-09-17 (Africa/Johannesburg)
+- Reference: PR #4 (branch `cursor/plain-lang-cp01-cp02-genesis-ebb9`)
 
 - Entries: 39
 - Fields (total considered): 118

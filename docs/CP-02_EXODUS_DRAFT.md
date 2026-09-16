@@ -1,4 +1,9 @@
-# CP-02 · Exodus Draft Rewrites (AI-DRAFT — DO NOT APPLY)
+# CP-02 · Exodus Draft Rewrites — SIGNED-OFF
+
+Operator theology sign-off (Exodus only): ACCEPTED (CP-02 → apply CP-03)
+- Signer: Bonga Ndlovu (operator)
+- Date: 2026-09-17 (Africa/Johannesburg)
+- Reference: PR #4 (branch `cursor/plain-lang-cp01-cp02-genesis-ebb9`)
 
 > BEFORE (current) and AFTER (draft or VERIFY-ONLY) for every in-scope prose field of each Exodus entry in `bookThreadDetails`. AFTER prefers plain-language sentence splits; citations and original-language content are preserved. Operator theology sign-off is required before CP-03 apply.
 
