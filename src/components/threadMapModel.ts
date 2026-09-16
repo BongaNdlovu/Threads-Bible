@@ -4,10 +4,10 @@
  * buildThreadGraph turns a thread (anchor verse + hand-written detail +
  * resolved fulfillment verses) into a cinematic node graph:
  *   node 0        = the anchor verse (source of the thread)
- *   nodes 1..n    = one node per fulfillment reference
- *   edge i        = anchor → fulfillment i, carrying the edge's WHY —
- *                   composed from the thread's hand-written principle plus
- *                   both verse ends, so every connection is explained.
+ *   nodes 1..n    = one node per fulfillment reference (playback order)
+ *   edge i        = previous node → fulfillment i (progressive chain),
+ *                   carrying the edge's WHY from the hand-written principle
+ *                   plus both verse ends, so OT→OT→NT walks stay coherent.
  *
  * No DOM, no React — testable in node.
  */
@@ -264,16 +264,24 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       who: interrogation.who,
     });
 
+    const fromId = i === 0 ? input.anchorId : `${input.anchorId}-f${i - 1}`;
+    const fromRef = i === 0 ? input.anchorRef : groups[i - 1].ref;
+    const fromSnippet =
+      i === 0
+        ? anchorSnippet
+        : snippet(groups[i - 1].verses[0]?.text ?? '', 90);
+    const why =
+      i === 0
+        ? `${principle} This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — to ${group.ref}: “${fulfillmentSnippet}.”`
+        : `${principle} This connection continues the thread from ${fromRef} — “${fromSnippet}” — to ${group.ref}: “${fulfillmentSnippet}.”`;
+
     edges.push({
       id: `${input.anchorId}-e${i}`,
-      from: input.anchorId,
+      from: fromId,
       to: `${input.anchorId}-f${i}`,
       step,
       label: `Thread → ${group.ref}`,
-      why:
-        `${principle} ` +
-        `This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — ` +
-        `to ${group.ref}: “${fulfillmentSnippet}.”`,
+      why,
       interrogation,
     });
   });

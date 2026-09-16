@@ -1,5 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { getThreadDetail } from '../data/threadDetails';
+import { threadFor } from '../data/library';
+import { expandVerseRange } from '../data/refParser';
+import { isNewTestament, isOldTestament } from '../data/connectionInterrogation';
 import { buildThreadGraph, chunkVersesByRefs, computeThreadLayout, snippet } from './threadMapModel';
 import { parseWho } from './HistoricalContextPage';
 
@@ -66,11 +69,26 @@ describe('buildThreadGraph', () => {
     const g = buildThreadGraph(BASE);
     for (const e of g.edges) {
       expect(e.why).toContain(BASE.principle);
-      expect(e.why).toContain('Rejoice greatly');
       expect(e.why).toContain(e.label.replace('Thread → ', ''));
     }
     const first = g.edges[0];
+    expect(first.why).toContain('Rejoice greatly');
     expect(first.why).toContain('Tell ye the daughter of Sion');
+    const second = g.edges[1];
+    expect(second.why).toContain('Tell ye the daughter of Sion');
+    expect(second.why).toContain('Fear not, daughter of Sion');
+  });
+
+  it('chains edges from the previous node so playback can walk OT→OT→NT', () => {
+    const g = buildThreadGraph(BASE);
+    expect(g.edges).toHaveLength(g.nodes.length - 1);
+    g.edges.forEach((e, i) => {
+      expect(e.from).toBe(g.nodes[i].id);
+      expect(e.to).toBe(g.nodes[i + 1].id);
+      expect(e.step).toBe(i + 2);
+    });
+    expect(g.edges[0].from).toBe(BASE.anchorId);
+    expect(g.edges[1].from).not.toBe(BASE.anchorId);
   });
 
   it('keeps steps sequential: source 1, fulfillments 2..n, edges in lockstep', () => {
@@ -391,10 +409,10 @@ describe('Phase 1 golden live-ref cumulative principles and authored Who', () =>
       anchorTitle: exo.title,
       anchorVerseText: 'neither shall ye break a bone thereof.',
       principle: exo.principle,
-      fulfillmentRefs: ['John 19:36', 'Numbers 9:12'],
+      fulfillmentRefs: ['Numbers 9:12', 'John 19:36'],
       fulfillmentVerses: [
-        { id: 'joh-19-36', text: 'For these things were done, that the scripture should be fulfilled, A bone of him shall not be broken.' },
         { id: 'num-9-12', text: 'They shall leave none of it unto the morning, nor break any bone of it.' },
+        { id: 'joh-19-36', text: 'For these things were done, that the scripture should be fulfilled, A bone of him shall not be broken.' },
       ],
       expand: ref =>
         ref === 'John 19:36' ? ['joh-19-36'] : ref === 'Numbers 9:12' ? ['num-9-12'] : [],
@@ -403,9 +421,44 @@ describe('Phase 1 golden live-ref cumulative principles and authored Who', () =>
       cumulativePrinciples: exo.cumulativePrinciples,
     });
     expect(exoGraph.nodes).toHaveLength(3);
+    expect(exoGraph.nodes[1].ref).toBe('Numbers 9:12');
     expect(exoGraph.nodes[1].threadPrinciple).toBe(exo.cumulativePrinciples![1]);
-    expect(exoGraph.nodes[2].threadPrinciple).toContain('Numbers 9:12');
+    expect(exoGraph.nodes[1].threadPrinciple).toContain('Numbers 9:12');
+    expect(exoGraph.nodes[2].ref).toBe('John 19:36');
+    expect(exoGraph.nodes[2].threadPrinciple).toContain('John 19:36');
     expect(parseWho(exoGraph.nodes[0].who!)?.number).toBe('singular');
+    expect(exoGraph.edges[0].from).toBe('exo-12-46');
+    expect(exoGraph.edges[1].from).toBe(exoGraph.nodes[1].id);
+  });
+
+  it('walks gen-2-2 as chained OT Sinai then NT Hebrews', () => {
+    const refs = threadFor('gen-2-2')!.fulfillmentRefs;
+    const detail = getThreadDetail('gen-2-2')!;
+    const fulfillmentVerses = refs.flatMap(ref =>
+      expandVerseRange(ref).map(id => ({ id, text: `stub ${id}` }))
+    );
+    const g = buildThreadGraph({
+      anchorId: 'gen-2-2',
+      anchorRef: 'Genesis 2:2',
+      anchorTitle: detail.title,
+      anchorVerseText:
+        'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
+      principle: detail.principle,
+      fulfillmentRefs: refs,
+      fulfillmentVerses,
+      expand: expandVerseRange,
+    });
+    expect(g.nodes.length).toBeGreaterThanOrEqual(3);
+    expect(isOldTestament(g.nodes[1].ref)).toBe(true);
+    expect(isNewTestament(g.nodes[1].ref)).toBe(false);
+    expect(g.nodes[1].ref).toMatch(/Exodus 20/);
+    const last = g.nodes[g.nodes.length - 1];
+    expect(last.ref).toMatch(/Hebrews 4/);
+    expect(isNewTestament(last.ref)).toBe(true);
+    g.edges.forEach((e, i) => {
+      expect(e.from).toBe(g.nodes[i].id);
+      expect(e.to).toBe(g.nodes[i + 1].id);
+    });
   });
 });
 

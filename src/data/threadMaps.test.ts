@@ -4,6 +4,7 @@ import { getVerseCount } from './verseCounts';
 import { allThreadMaps, threadMaps, type ThreadMap } from './threadMap';
 import { threadFor, totalThreadCount } from './library';
 import { getThreadDetail } from './threadDetailService';
+import { isNewTestament, isOldTestament } from './connectionInterrogation';
 
 /** A verse id is canonical when the verse count for its chapter covers it. */
 function isValidVerseId(id: string): boolean {
@@ -84,5 +85,67 @@ describe('thread detail service (lazy)', () => {
     }
     expect(hand).toBeGreaterThan(300);
     expect(hand + draft).toBe(1342);
+  });
+});
+
+function firstNtIndex(refs: string[]): number {
+  const idx = refs.findIndex(r => isNewTestament(r));
+  return idx === -1 ? refs.length : idx;
+}
+
+describe('Phase 1B OT-first Sabbath spine', () => {
+  it('puts Exodus 20:8 and/or 20:11 on gen-2-2 before any NT', () => {
+    const refs = threadFor('gen-2-2')!.fulfillmentRefs;
+    expect(refs.length).toBeGreaterThan(0);
+    expect(isOldTestament(refs[0])).toBe(true);
+    expect(isNewTestament(refs[0])).toBe(false);
+    const exoIdx = refs.findIndex(r => /Exodus 20:(8|11|8-11)\b/.test(r));
+    expect(exoIdx).toBeGreaterThanOrEqual(0);
+    expect(exoIdx).toBeLessThan(firstNtIndex(refs));
+    expect(refs.some(r => r.includes('Hebrews 4'))).toBe(true);
+  });
+
+  it('walks creation → Sinai → prophets → Hebrews on the Sabbath spine', () => {
+    const gen22 = threadFor('gen-2-2')!.fulfillmentRefs;
+    const gen23 = threadFor('gen-2-3')!.fulfillmentRefs;
+    const exo8 = threadFor('exo-20-8')!.fulfillmentRefs;
+    const exo11 = threadFor('exo-20-11')!.fulfillmentRefs;
+
+    expect(gen23[0]).toMatch(/Exodus 20:11/);
+    expect(isNewTestament(gen23[0])).toBe(false);
+    expect(gen23.some(r => r.includes('Hebrews 4'))).toBe(true);
+
+    expect(gen22[0]).toMatch(/Exodus 20/);
+    expect(gen22.some(r => r.includes('Hebrews 4'))).toBe(true);
+
+    expect(isOldTestament(exo8[0])).toBe(true);
+    expect(exo8[0]).toMatch(/Genesis 2:2/);
+    const exo8Isa = exo8.findIndex(r => r.includes('Isaiah 58'));
+    expect(exo8Isa).toBeGreaterThanOrEqual(0);
+    expect(exo8Isa).toBeLessThan(firstNtIndex(exo8));
+    expect(exo8.some(r => r.includes('Hebrews 4'))).toBe(true);
+
+    expect(exo11[0]).toMatch(/Genesis 2:2/);
+    for (let i = 0; i < firstNtIndex(exo11); i++) {
+      expect(isNewTestament(exo11[i]), `exo-20-11[${i}] = ${exo11[i]} is NT before later OT`).toBe(false);
+    }
+    expect(exo11.some(r => r.includes('Ezekiel 20:12'))).toBe(true);
+    expect(exo11.some(r => r.includes('Ezekiel 20:20'))).toBe(true);
+    expect(exo11.some(r => r.includes('Hebrews 4'))).toBe(true);
+  });
+
+  it('orders exo-12-46 Numbers 9:12 before John 19:36', () => {
+    const refs = threadFor('exo-12-46')!.fulfillmentRefs;
+    expect(refs[0]).toBe('Numbers 9:12');
+    expect(refs).toContain('John 19:36');
+    expect(refs.indexOf('Numbers 9:12')).toBeLessThan(refs.indexOf('John 19:36'));
+  });
+
+  it('documents gen-1-1 and zec-9-9 as intentional NT-only goldens (no invented OT)', () => {
+    for (const id of ['gen-1-1', 'zec-9-9'] as const) {
+      const refs = threadFor(id)!.fulfillmentRefs;
+      expect(refs.length).toBeGreaterThan(0);
+      expect(refs.every(r => isNewTestament(r)), `${id} unexpectedly has an OT fulfillmentRef`).toBe(true);
+    }
   });
 });

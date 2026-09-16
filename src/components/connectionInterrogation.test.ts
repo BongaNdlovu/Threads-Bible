@@ -757,7 +757,7 @@ const GOLDEN_ANCHORS = ['gen-1-1', 'zec-9-9', 'exo-12-46'] as const;
 const GOLDEN_LIVE_REFS: Record<(typeof GOLDEN_ANCHORS)[number], string[]> = {
   'gen-1-1': ['John 1:1-3', 'Hebrews 11:3'],
   'zec-9-9': ['Matthew 21:5', 'John 12:15', 'Mark 11:7', 'Luke 19:38'],
-  'exo-12-46': ['John 19:36', 'Numbers 9:12'],
+  'exo-12-46': ['Numbers 9:12', 'John 19:36'],
 };
 
 describe('Phase 1 golden Who facets', () => {
