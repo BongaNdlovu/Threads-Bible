@@ -462,4 +462,288 @@ describe('Thread Graph Model Integration', () => {
     expect(parsePersonalRelevance('')).toBeNull();
     expect(parsePersonalRelevance('Just some text without structured markers')).toBeNull();
   });
+
+  it('ensures all curated interrogations have a non-empty Who dimension answering authorship, characters, and Christological referent', () => {
+    for (const [key, ci] of Object.entries(CURATED_INTERROGATIONS)) {
+      expect(ci.who, `Curated interrogation ${key} missing 'who'`).toBeTruthy();
+      expect(ci.who).toContain('Authorship & Context:');
+      expect(ci.who).toContain('Identified Characters:');
+      expect(ci.who).toContain('Christological Subject & Referent:');
+      expect(ci.who).toContain('Redemptive Purpose:');
+    }
+  });
+
+  it('ensures all historical connections returned by getAllHistoricalConnections include the Who dimension', () => {
+    const connections = getAllHistoricalConnections();
+    expect(connections).toHaveLength(41);
+    for (const c of connections) {
+      expect(c.who, `Historical connection ${c.id} missing 'who'`).toBeTruthy();
+      expect(c.who).toContain('Authorship');
+      expect(c.who).toContain('Characters');
+    }
+  });
+
+  it('generates rich Who analysis across all 4 canonical modes in generateConnectionInterrogation', () => {
+    // Mode 1: OT -> NT
+    const m1 = generateConnectionInterrogation({
+      anchorId: 'gen-3-15',
+      anchorRef: 'Genesis 3:15',
+      targetRef: 'Romans 16:20',
+      anchorVerseText: 'And I will put enmity...',
+      targetVerseText: 'And the God of peace shall bruise Satan under your feet shortly.',
+    });
+    expect(m1.who).toContain('Authorship & Context:');
+    expect(m1.who).toContain('Moses');
+    expect(m1.who).toContain('Apostle Paul');
+    expect(m1.who).toContain('Identified Characters:');
+    expect(m1.who).toContain('Christological Subject & Referent:');
+
+    // Mode 2: NT -> OT
+    const m2 = generateConnectionInterrogation({
+      anchorId: 'act-2-16',
+      anchorRef: 'Acts 2:16',
+      targetRef: 'Joel 2:28',
+      anchorVerseText: 'This is that which was spoken...',
+      targetVerseText: 'I will pour out my spirit...',
+    });
+    expect(m2.who).toContain('Luke the Evangelist');
+    expect(m2.who).toContain('Prophet Joel');
+    expect(m2.who).toContain('Christological Subject & Referent:');
+
+    // Mode 3: NT -> NT
+    const m3 = generateConnectionInterrogation({
+      anchorId: 'eph-2-8',
+      anchorRef: 'Ephesians 2:8',
+      targetRef: 'Romans 3:24',
+      anchorVerseText: 'For by grace are ye saved...',
+      targetVerseText: 'Being justified freely...',
+    });
+    expect(m3.who).toContain('Apostle Paul');
+    expect(m3.who).toContain('Christological Subject & Referent:');
+
+    // Mode 4: OT -> OT
+    const m4 = generateConnectionInterrogation({
+      anchorId: 'gen-15-6',
+      anchorRef: 'Genesis 15:6',
+      targetRef: 'Habakkuk 2:4',
+      anchorVerseText: 'And he believed in the LORD...',
+      targetVerseText: 'The just shall live by his faith...',
+    });
+    expect(m4.who).toContain('Moses');
+    expect(m4.who).toContain('Habakkuk');
+    expect(m4.who).toContain('Christological Subject & Referent:');
+  });
+
+  it('deeply expounds Greek and Hebrew terminology in literary and canonical context across curated connections', () => {
+    // 1. Genesis 1:1 -> John 1:1-3 (Bereshit, Bara, En arche, Logos, di' autou, choris autou, en vs egeneto)
+    const genJohn = CURATED_INTERROGATIONS['gen-1-1_John 1:1-3'];
+    expect(genJohn.what).toContain('בְּרֵאשִׁית');
+    expect(genJohn.what).toContain('Bereshit');
+    expect(genJohn.what).toContain('Ἐν ἀρχῇ');
+    expect(genJohn.what).toContain('En archē');
+    expect(genJohn.what).toContain('ὁ Λόγος');
+    expect(genJohn.what).toContain('ho Logos');
+    expect(genJohn.how).toContain('בָּרָא');
+    expect(genJohn.how).toContain('baraʾ');
+    expect(genJohn.how).toContain('עָשָׂה');
+    expect(genJohn.how).toContain("di' autou");
+    expect(genJohn.how).toContain('χωρὶς αὐτοῦ');
+    expect(genJohn.how).toContain('ἦν');
+    expect(genJohn.how).toContain('ἐγένετο');
+
+    // 2. Genesis 1:26 -> Colossians 1:16-17 (Na'aseh Adam, tselem, demut, eikon tou Theou, prototokos, synesteken)
+    const genCol = CURATED_INTERROGATIONS['gen-1-26_Colossians 1:16-17'];
+    expect(genCol.how).toContain('נַעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ');
+    expect(genCol.how).toContain('צֶלֶם');
+    expect(genCol.how).toContain('tselem');
+    expect(genCol.how).toContain('דְּמוּת');
+    expect(genCol.how).toContain('demut');
+    expect(genCol.how).toContain('εἰκὼν τοῦ Θεοῦ τοῦ ἀοράτου');
+    expect(genCol.how).toContain('eikōn tou Theou tou aoratou');
+    expect(genCol.how).toContain('πρωτότοκος πάσης κτίσεως');
+    expect(genCol.how).toContain('prōtotokos pasēs ktiseōs');
+    expect(genCol.how).toContain('συνέστηκεν');
+    expect(genCol.how).toContain('synestēken');
+
+    // 3. Genesis 3:15 -> Galatians 4:4-5 (Zera, hu, pleroma tou chronou, genomenon ek gynaikos, exagorasē, huiothesian)
+    const protoevangelium = CURATED_INTERROGATIONS['gen-3-15_Galatians 4:4-5'];
+    expect(protoevangelium.how).toContain('זֶרַע');
+    expect(protoevangelium.how).toContain('zeraʿ');
+    expect(protoevangelium.how).toContain('הוּא');
+    expect(protoevangelium.how).toContain('hu');
+    expect(protoevangelium.how).toContain('τὸ πλήρωμα τοῦ χρόνου');
+    expect(protoevangelium.how).toContain('to plērōma tou chronou');
+    expect(protoevangelium.how).toContain('γενόμενον ἐκ γυναικός');
+    expect(protoevangelium.how).toContain('genomenon ek gynaikos');
+    expect(protoevangelium.how).toContain('ἐξαγοράσῃ');
+    expect(protoevangelium.how).toContain('exagorasē');
+    expect(protoevangelium.how).toContain('υἱοθεσίαν');
+    expect(protoevangelium.how).toContain('huiothesian');
+
+    // 4. Genesis 12:3 -> Galatians 3:8,16 (venivrekhu, proeuēngelisato, sperma vs spermasin)
+    const abraham = CURATED_INTERROGATIONS['gen-12-3_Galatians 3:8,16'];
+    expect(abraham.how).toContain('וְנִבְרְכוּ בְךָ כֹּל מִשְׁפְּחֹת הָאֲדָמָה');
+    expect(abraham.how).toContain('venivrekhu');
+    expect(abraham.how).toContain('προευηγγελίσατο');
+    expect(abraham.how).toContain('proeuēngelisato');
+    expect(abraham.how).toContain('σπέρμασιν');
+    expect(abraham.how).toContain('spermasin');
+    expect(abraham.how).toContain('σπέρματί');
+
+    // 5. Genesis 22:2 -> Hebrews 11:17 (yachid, ahav, monogene, en parabole)
+    const akedah = CURATED_INTERROGATIONS['gen-22-2_Hebrews 11:17'];
+    expect(akedah.how).toContain('יָחִיד');
+    expect(akedah.how).toContain('yachid');
+    expect(akedah.how).toContain('אָהַב');
+    expect(akedah.how).toContain('ʾahav');
+    expect(akedah.how).toContain('τὸν μονογενῆ');
+    expect(akedah.how).toContain('ton monogenē');
+    expect(akedah.how).toContain('ἐν παραβολῇ');
+    expect(akedah.how).toContain('en parabolē');
+
+    // 6. Exodus 12:46 -> John 19:36 (ve'etsem lo-tishberu-vo, syntribesetai)
+    const paschal = CURATED_INTERROGATIONS['exo-12-46_John 19:36'];
+    expect(paschal.how).toContain('וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ');
+    expect(paschal.how).toContain('ve\'etsem lo-tishberu-vo');
+    expect(paschal.how).toContain('Ὀστοῦν οὐ συντριβήσεται αὐτοῦ');
+    expect(paschal.how).toContain('Ostoun ou syntribēsetai autou');
+    expect(paschal.how).toContain('syntribō');
+
+    // 7. Numbers 21:9 -> John 3:14-15 (nechash nechoshet, al-nes, hypsothenai dei)
+    const serpent = CURATED_INTERROGATIONS['num-21-9_John 3:14-15'];
+    expect(serpent.how).toContain('נְחַשׁ נְחֹשֶׁת');
+    expect(serpent.how).toContain('nechash nechoshet');
+    expect(serpent.how).toContain('עַל־נֵס');
+    expect(serpent.how).toContain('ʿal-nes');
+    expect(serpent.how).toContain('ὑψωθῆναι δεῖ');
+    expect(serpent.how).toContain('hypsōthēnai dei');
+
+    // 8. Joshua 5:13-15 -> Revelation 19:11-16 (Sar-Tseva-Yahweh, qodesh, Pistos kai Alethinos, Ho Logos tou Theou, Basileus basileon)
+    const captain = CURATED_INTERROGATIONS['jos-5-14_Revelation 19:11-16'];
+    expect(captain.how).toContain('שַׂר־צְבָא־יְהוָה');
+    expect(captain.how).toContain('Sar-Tsevaʾ-Yahweh');
+    expect(captain.how).toContain('קֹדֶשׁ');
+    expect(captain.how).toContain('qodesh');
+    expect(captain.how).toContain('Πιστὸς καὶ Ἀληθινός');
+    expect(captain.how).toContain('Pistos kai Alēthinos');
+    expect(captain.how).toContain('Βασιλεὺς βασιλέων');
+    expect(captain.how).toContain('Basileus basileōn');
+
+    // 9. 2 Samuel 7:12-16 -> Luke 1:32-33 (zar'akha, kisse mamlakhto, Huios Hypsistou, thronon Dauid)
+    const davidic = CURATED_INTERROGATIONS['2sa-7-12_Luke 1:32-33'];
+    expect(davidic.how).toContain('וַהֲקִימֹתִי אֶת־זַרְעֲךָ אַחֲרֶיךָ');
+    expect(davidic.how).toContain('vahakimoti');
+    expect(davidic.how).toContain('כִּסֵּא מַמְלַכְתּוֹ עַד־עוֹלָם');
+    expect(davidic.how).toContain('Υἱὸς Ὑψίστου');
+    expect(davidic.how).toContain('Huios Hypsistou');
+    expect(davidic.how).toContain('τὸν θρόνον Δαυὶδ');
+    expect(davidic.how).toContain('thronon Dauid');
+
+    // 10. Psalm 110:1 -> Matthew 22:44 (Ne'um Yahweh la-Adoni, Shev li-mini, Kyrios to Kyrio mou)
+    const psa110_1 = CURATED_INTERROGATIONS['psa-110-1_Matthew 22:44'];
+    expect(psa110_1.how).toContain('נְאֻם יְהוָה לַאדֹנִי שֵׁב לִימִינִי');
+    expect(psa110_1.how).toContain("Ne'um Yahweh la-Adoni");
+    expect(psa110_1.how).toContain('Εἶπεν Κύριος τῷ Κυρίῳ μου');
+    expect(psa110_1.how).toContain('Eipen Kyrios tō Kyriō mou');
+
+    // 11. Psalm 110:4 -> Hebrews 7:17 (Nishba Yahweh, Malki-tsedeq, kata taxin Melchisedek, kata dynamin zoes akatalytou)
+    const psa110_4 = CURATED_INTERROGATIONS['psa-110-4_Hebrews 7:17'];
+    expect(psa110_4.how).toContain('נִשְׁבַּע יְהוָה וְלֹא יִנָּחֵם');
+    expect(psa110_4.how).toContain('Nishbaʿ Yahweh');
+    expect(psa110_4.how).toContain('מַלְכִּי־צֶדֶק');
+    expect(psa110_4.how).toContain('Malki-tsedeq');
+    expect(psa110_4.how).toContain('κατὰ τὴν τάξιν Μελχισεδέκ');
+    expect(psa110_4.how).toContain('kata tēn taxin Melchisedek');
+    expect(psa110_4.how).toContain('κατὰ δύναμιν ζωῆς ἀκαταλύτου');
+    expect(psa110_4.how).toContain('kata dynamin zōēs akatalytou');
+
+    // 12. Isaiah 53:5 -> 1 Peter 2:24 (mecholal, medukka, musar shelomenu, chabburah, anenegken, epi to xylon, molopi iathete)
+    const isa53 = CURATED_INTERROGATIONS['isa-53-5_1 Peter 2:24'];
+    expect(isa53.how).toContain('מְחֹלָל');
+    expect(isa53.how).toContain('mecholal');
+    expect(isa53.how).toContain('מְדֻכָּא');
+    expect(isa53.how).toContain('medukka');
+    expect(isa53.how).toContain('מוּסַר שְׁלוֹמֵנוּ');
+    expect(isa53.how).toContain('musar shelomenu');
+    expect(isa53.how).toContain('חַבּוּרָה');
+    expect(isa53.how).toContain('chabburah');
+    expect(isa53.how).toContain('ἀνήνεγκεν');
+    expect(isa53.how).toContain('anēnegken');
+    expect(isa53.how).toContain('ἐπὶ τὸ ξύλον');
+    expect(isa53.how).toContain('epi to xylon');
+    expect(isa53.how).toContain('μώλωπι ἰάθητε');
+    expect(isa53.how).toContain('mōlōpi iathēte');
+
+    // 13. Jeremiah 31:31 -> Hebrews 8:8 / Luke 22:20 (berit chadashah, diatheke kaine, ekchynnomenon)
+    const jer31 = CURATED_INTERROGATIONS['jer-31-31_Hebrews 8:8'];
+    expect(jer31.how).toContain('בְּרִית חֲדָשָׁה');
+    expect(jer31.how).toContain('berit chadashah');
+    expect(jer31.how).toContain('διαθήκην καινήν');
+    expect(jer31.how).toContain('diathēkēn kainēn');
+    const jerLuke = CURATED_INTERROGATIONS['jer-31-31_Luke 22:20'];
+    expect(jerLuke.how).toContain('ἡ καινὴ διαθήκη ἐν τῷ αἵματί μου');
+    expect(jerLuke.how).toContain('ekchynnomenon');
+
+    // 14. Daniel 7:13-14 -> Matthew 26:64 / Revelation 1:7 (kevar enash, sholtan alam, yiplechun, Huion tou anthropou)
+    const dan7 = CURATED_INTERROGATIONS['dan-7-13_Matthew 26:64 / Revelation 1:7'];
+    expect(dan7.how).toContain('כְּבַר אֱנָשׁ');
+    expect(dan7.how).toContain('kevar ʾenash');
+    expect(dan7.how).toContain('שָׁלְטָן עָלַם');
+    expect(dan7.how).toContain('sholtan ʿalam');
+    expect(dan7.how).toContain('יִפְלְחוּן');
+    expect(dan7.how).toContain('yiplechun');
+    expect(dan7.how).toContain('τὸν Υἱὸν τοῦ ἀνθρώπου');
+    expect(dan7.how).toContain('ton Huion tou anthrōpou');
+
+    // 15. Zechariah 12:10 -> John 19:37 (ruach chen vetachanunim, elay et asher-daqaru, exekentesan)
+    const zec12 = CURATED_INTERROGATIONS['zec-12-10_John 19:37'];
+    expect(zec12.how).toContain('רוּחַ חֵן וְתַחֲנוּנִים');
+    expect(zec12.how).toContain('ruach chen vetachanunim');
+    expect(zec12.how).toContain('אֵלַי אֵת אֲשֶׁר־דָּקָרוּ');
+    expect(zec12.how).toContain('ʾelay ʾet ʾasher-daqaru');
+    expect(zec12.how).toContain('דָּקָרוּ');
+    expect(zec12.how).toContain('daqaru');
+    expect(zec12.how).toContain('ἐξεκέντησαν');
+    expect(zec12.how).toContain('exekentēsan');
+
+    // 16. Malachi 4:2 -> Luke 1:78-79 (Shemesh Tsedaqah, marpe biknafeha, splagchna eleous, anatole ex hypsous)
+    const mal4_2 = CURATED_INTERROGATIONS['mal-4-2_Luke 1:78-79'];
+    expect(mal4_2.how).toContain('שֶׁמֶשׁ צְדָקָה');
+    expect(mal4_2.how).toContain('shemesh tsedaqah');
+    expect(mal4_2.how).toContain('מַרְפֵּא בִּכְנָפֶיהָ');
+    expect(mal4_2.how).toContain('marpeʾ biknafeha');
+    expect(mal4_2.how).toContain('σπλάγχνα ἐλέους');
+    expect(mal4_2.how).toContain('splagchna eleous');
+    expect(mal4_2.how).toContain('ἀνατολὴ ἐξ ὕψους');
+    expect(mal4_2.how).toContain('anatolē ex hypsous');
+
+    // 17. Malachi 4:5-6 -> Luke 1:17 / Matthew 17:11-13 (Eliyah hanna-vi, en pneumati kai dynamei Eliou)
+    const mal4_5 = CURATED_INTERROGATIONS['mal-4-5_Luke 1:17 / Matthew 17:11-13'];
+    expect(mal4_5.how).toContain('אֵלִיָּה הַנָּבִיא');
+    expect(mal4_5.how).toContain('ʾEliyah hanna-viʾ');
+    expect(mal4_5.how).toContain('ἐν πνεύματι καὶ δυνάμει Ἠλίου');
+    expect(mal4_5.how).toContain('en pneumati kai dynamei Ēliou');
+
+    // 18. Matthew 1:22-23 -> Isaiah 7:14 (almah, Immanu El, parthenos, Emmanouel, Meth' hemon ho Theos)
+    const matVirgin = CURATED_INTERROGATIONS['mat-1-22_Isaiah 7:14'];
+    expect(matVirgin.how).toContain('עַלְמָה');
+    expect(matVirgin.how).toContain('ʿalmah');
+    expect(matVirgin.how).toContain('עִמָּנוּאֵל');
+    expect(matVirgin.how).toContain('ʿImmanu ʾEl');
+    expect(matVirgin.how).toContain('ἡ παρθένος');
+    expect(matVirgin.how).toContain('hē parthenos');
+    expect(matVirgin.how).toContain('Ἐμμανουήλ');
+    expect(matVirgin.how).toContain('Emmanouēl');
+    expect(matVirgin.how).toContain("Μεθ' ἡμῶν ὁ Θεός");
+    expect(matVirgin.how).toContain("Meth' hēmōn ho Theos");
+
+    // 19. Romans 5:14 -> 1 Corinthians 15:22 (typos tou mellontos, eschatos Adam, pneuma zoopoioun)
+    const twoAdams = CURATED_INTERROGATIONS['rom-5-14_1 Corinthians 15:22'];
+    expect(twoAdams.how).toContain('τύπος τοῦ μέλλοντος');
+    expect(twoAdams.how).toContain('typos tou mellontos');
+    expect(twoAdams.how).toContain('ἔσχατος Ἀδὰμ');
+    expect(twoAdams.how).toContain('eschatos Adam');
+    expect(twoAdams.how).toContain('πνεῦμα ζῳοποιοῦν');
+    expect(twoAdams.how).toContain('pneuma zōopoioun');
+  });
 });

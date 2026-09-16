@@ -15,6 +15,7 @@ import {
   ExternalLink,
   ChevronRight,
   Filter,
+  Users,
 } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import {
@@ -145,6 +146,7 @@ export function HistoricalContextPage() {
       redemptiveBridge: hc?.redemptiveBridge || 'Progressive redemptive revelation bridging the Old Testament foundation to its New Testament culmination.',
       ultimatePoint: inter.ultimatePoint,
       personalRelevance: inter.personalRelevance,
+      who: inter.who,
       what: inter.what,
       when: inter.when,
       how: inter.how,
@@ -244,6 +246,7 @@ export function HistoricalContextPage() {
         c.fulfillmentAuthor.toLowerCase().includes(q) ||
         c.ultimatePoint.toLowerCase().includes(q) ||
         c.personalRelevance.toLowerCase().includes(q) ||
+        (c.who && c.who.toLowerCase().includes(q)) ||
         c.what.toLowerCase().includes(q) ||
         c.sourceEra.name.toLowerCase().includes(q) ||
         c.fulfillmentEra.name.toLowerCase().includes(q);
@@ -677,6 +680,25 @@ export function HistoricalContextPage() {
                           </div>
                         );
                       })()}
+
+                      {/* Who: Authorship, Characters & Christological Subject */}
+                      {conn.who && (
+                        <div
+                          className="p-4 rounded-xl border space-y-2"
+                          style={{ borderColor: `${P.gold}44`, background: P.innerBg }}
+                        >
+                          <div
+                            className="flex items-center gap-2 font-mono text-[10.5px] tracking-wider uppercase font-bold"
+                            style={{ color: P.gold }}
+                          >
+                            <Users className="h-3.5 w-3.5" />
+                            <span>Who: Authorship, Characters & Christological Identity</span>
+                          </div>
+                          <p className="font-serif text-xs leading-relaxed" style={{ color: P.dim }}>
+                            {conn.who}
+                          </p>
+                        </div>
+                      )}
 
                       {/* Side-by-side Historical Settings */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

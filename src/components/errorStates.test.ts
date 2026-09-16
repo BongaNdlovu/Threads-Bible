@@ -1,8 +1,22 @@
-import { describe, it, expect } from 'vitest';
+import { readFileSync } from 'node:fs';
+import path from 'node:path';
+import { describe, it, expect, vi } from 'vitest';
 import { computeThreadLayout, type ThreadGraph } from './threadMapModel';
 import { getAllHistoricalConnections, findEraForBook } from '../data/historicalContextData';
-import { BOOK_REGISTRY, BOOK_BY_NAME, expandVerseRange } from '../data/library';
+import { BOOK_REGISTRY, BOOK_BY_NAME, expandVerseRange, ensureFulfillmentsLoaded, loadBook } from '../data/library';
 import { highlightText } from './VerseText';
+import { resolvePassageText } from './ThreadMap';
+
+vi.stubGlobal('fetch', vi.fn(async (input: string | URL | Request) => {
+  const url = input instanceof Request ? input.url : String(input);
+  const m = url.match(/books\/([a-z0-9]+)\.json/);
+  if (!m) return new Response('not found', { status: 404 });
+  const file = path.join(process.cwd(), 'public', 'books', `${m[1]}.json`);
+  return new Response(readFileSync(file, 'utf8'), {
+    status: 200,
+    headers: { 'content-type': 'application/json' },
+  });
+}));
 
 describe('Error states and resilient fallbacks', () => {
   describe('ThreadMap layout error detection', () => {
@@ -37,6 +51,7 @@ describe('Error states and resilient fallbacks', () => {
             y: NaN,
             step: 1,
             kind: 'source',
+            threadPrinciple: 'Foundational Thread Principle',
           },
         ],
         edges: [],
@@ -167,6 +182,103 @@ describe('Error states and resilient fallbacks', () => {
       expect(isInvalidVerse({ id: 'bad' })).toBe(true);
       expect(isInvalidVerse({ id: 'bad', book: 'Genesis' })).toBe(true);
       expect(isInvalidVerse({ id: 'gen-1-1', book: 'Genesis', chapter: 1, verseNumber: 1 })).toBe(false);
+    });
+  });
+
+  describe('ThreadMap passage text resolution and fallbacks', () => {
+    it('returns null safely for empty, null, or undefined references', () => {
+      expect(resolvePassageText('')).toBeNull();
+      expect(resolvePassageText(null as any)).toBeNull();
+      expect(resolvePassageText(undefined as any)).toBeNull();
+    });
+
+    it('resolves passage text for preloaded fulfillment verses and on-demand loaded books', async () => {
+      await ensureFulfillmentsLoaded();
+      const galText = resolvePassageText('Galatians 4:4');
+      expect(galText).toBeTruthy();
+      expect(typeof galText).toBe('string');
+      expect(galText).toContain('God sent forth his Son');
+
+      await loadBook('Matthew');
+      const matText = resolvePassageText('Matthew 21:5');
+      expect(matText).toBeTruthy();
+      expect(typeof matText).toBe('string');
+      expect(matText).toContain('daughter of Sion');
+    });
+
+    it('handles unknown or invalid references gracefully without throwing', () => {
+      expect(resolvePassageText('NonExistent 999:999')).toBeNull();
+      expect(resolvePassageText('Not A Reference !@#$%')).toBeNull();
+    });
+
+    it('determines effective passage text using graceful fallback chain', () => {
+      const getEffectivePassageText = (
+        node: { fullText?: string; body?: string; ref: string },
+        resolvedMap: Record<string, string> = {}
+      ) => {
+        return (
+          (node.fullText && node.fullText.trim()) ||
+          resolvedMap[node.ref] ||
+          resolvePassageText(node.ref) ||
+          (node.body && node.body.trim() !== '…' ? node.body.trim() : null)
+        );
+      };
+
+      // Case 1: fullText is present and untruncated
+      expect(
+        getEffectivePassageText({
+          fullText: 'And I will put enmity between thee and the woman...',
+          body: 'And I will put enmity...',
+          ref: 'Genesis 3:15',
+        })
+      ).toBe('And I will put enmity between thee and the woman...');
+
+      // Case 2: fullText is empty string, resolvedMap provides it
+      expect(
+        getEffectivePassageText(
+          {
+            fullText: '',
+            body: 'Short body',
+            ref: 'Romans 16:20',
+          },
+          { 'Romans 16:20': 'And the God of peace shall bruise Satan under your feet shortly.' }
+        )
+      ).toBe('And the God of peace shall bruise Satan under your feet shortly.');
+
+      // Case 3: fullText and resolvedMap are missing, falls back to body
+      expect(
+        getEffectivePassageText({
+          fullText: '   ',
+          body: 'Fallback prophecy snippet.',
+          ref: 'Unknown 1:1',
+        })
+      ).toBe('Fallback prophecy snippet.');
+
+      // Case 4: body is just ellipsis '…', falls back to null
+      expect(
+        getEffectivePassageText({
+          fullText: '',
+          body: '…',
+          ref: 'Unknown 1:1',
+        })
+      ).toBeNull();
+    });
+
+    it('correctly resolves multi-verse passages and whole-chapter references', async () => {
+      await loadBook('Matthew');
+      // Multi-verse range: Matthew 21:4-5
+      const rangeText = resolvePassageText('Matthew 21:4-5');
+      expect(rangeText).toBeTruthy();
+      expect(rangeText).toContain('All this was done');
+      expect(rangeText).toContain('daughter of Sion');
+
+      // Whole chapter reference: Obadiah 1
+      await loadBook('Obadiah');
+      const wholeChText = resolvePassageText('Obadiah 1');
+      expect(wholeChText).toBeTruthy();
+      // Should contain multiple verses, not just verse 1
+      expect(wholeChText).toContain('The vision of Obadiah');
+      expect(wholeChText).toContain('Edom');
     });
   });
 });

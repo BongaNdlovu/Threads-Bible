@@ -25,10 +25,15 @@ export interface MapNode {
   strand: 'gold' | 'steel';
   x: number;
   y: number;
+  /** The cumulative thread principle explaining what the chain of verses has in common. */
+  threadPrinciple: string;
+  /** Authorship, characters, Christological identity and purpose dimension. */
+  who?: string;
 }
 
 import {
   getConnectionInterrogation,
+  getAuthorForRef,
   type ConnectionInterrogation,
 } from '../data/connectionInterrogation';
 import { expandVerseRange } from '../data/refParser';
@@ -101,6 +106,58 @@ export function chunkVersesByRefs(
   return groups;
 }
 
+/**
+ * Constructs the cumulative thread principle for a node in a connection chain.
+ * - Card 1 (Step 1): Establishes the foundational principle from the anchor verse.
+ * - Card 2 (Step 2): Expands the principle to explain the first connection (what cards 1 & 2 share in common, why, and how).
+ * - Card 3 (Step 3): Expands the principle to explain what verses 1, 2, and 3 share in common and how the redemptive arc unfolds.
+ * - Card N (Step N): Progressively explains what all N verses have in common across the entire chain.
+ */
+export function buildCumulativePrinciple(params: {
+  step: number;
+  chainRefs: string[];
+  basePrinciple: string;
+  anchorRef: string;
+  anchorSnippet: string;
+  currentRef: string;
+  currentSnippet: string;
+  interrogation?: ConnectionInterrogation;
+}): string {
+  const {
+    step,
+    chainRefs,
+    basePrinciple,
+    anchorRef,
+    anchorSnippet,
+    currentRef,
+    currentSnippet,
+    interrogation,
+  } = params;
+
+  const cleanPrinciple = (basePrinciple || `The Scriptures reveal a single harmonious redemptive architecture centered on Jesus Christ.`).trim().replace(/\.$/, '');
+
+  if (step === 1) {
+    return `Foundational Thread Principle (${anchorRef}): ${cleanPrinciple}.`;
+  }
+
+  const whatText = interrogation?.what ? interrogation.what.replace(/\s+/g, ' ').trim() : '';
+  const whyText = interrogation?.why ? interrogation.why.replace(/\s+/g, ' ').trim() : '';
+  const howText = interrogation?.how ? interrogation.how.replace(/\s+/g, ' ').trim() : '';
+  const ultimateText = interrogation?.ultimatePoint ? interrogation.ultimatePoint.replace(/\s+/g, ' ').trim() : '';
+
+  if (step === 2) {
+    return `Connection 1 (2 Verses in Common — ${anchorRef} & ${currentRef}): Expanding the foundational principle: “${cleanPrinciple}.” What these two verses share in common: Both passages testify to the identical covenant reality — bridging from ${anchorRef} (“${anchorSnippet}”) to its fulfillment in ${currentRef} (“${currentSnippet}”). ${whatText} How they connect: ${howText} Why they connect: ${whyText}`;
+  }
+
+  if (step === 3) {
+    const prevRef = chainRefs[1] || '';
+    return `Connection 2 (3 Verses in Common — ${anchorRef}, ${prevRef}, & ${currentRef}): Expanding the thread across all 3 witnesses: “${cleanPrinciple}.” What these 3 verses share in common: As the redemptive arc unfolds from the original anchor (${anchorRef}) through ${prevRef} to ${currentRef}, each scripture deepens the single unified promise of Christ. Specifically, ${whatText} How the redemptive arc unfolds: Across this 3-fold witness, prophecy progresses into historical realization and apostolic certitude (${howText}). Redemptive purpose: ${whyText} Canonical climax: ${ultimateText}`;
+  }
+
+  const allRefsList = chainRefs.join(' ➔ ');
+  return `Connection ${step - 1} (${step} Verses in Common — ${allRefsList}): Progressive culmination across all ${step} canonical links: “${cleanPrinciple}.” What the entire chain shares in common: Across every step in this redemptive chain, the Holy Spirit establishes an unbroken doctrinal and prophetic continuum where each subsequent revelation confirms, illuminates, and expands upon the preceding witnesses. For ${currentRef}, this connection crystallizes: ${whatText} Redemptive synthesis: ${ultimateText} Theological necessity: ${whyText}`;
+}
+
 export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
   const nodes: MapNode[] = [];
   const edges: MapEdge[] = [];
@@ -109,7 +166,20 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
   const anchorSnippet = snippet(input.anchorVerseText, 110);
   const principle = input.principle.trim();
 
-  // Node 0 — the anchor (source of the thread).
+  // Node 0 — the anchor (source of the thread, Step 1).
+  const sourcePrinciple = buildCumulativePrinciple({
+    step: 1,
+    chainRefs: [input.anchorRef],
+    basePrinciple: principle,
+    anchorRef: input.anchorRef,
+    anchorSnippet,
+    currentRef: input.anchorRef,
+    currentSnippet: anchorSnippet,
+  });
+
+  const anchorAuthor = getAuthorForRef(input.anchorRef);
+  const sourceWho = `Authorship & Context: Penned by ${anchorAuthor}. Identified Characters: The covenant Lord and the recipients of divine revelation. Christological Subject & Referent: Jesus Christ as the supreme teleological goal of this foundational scripture. Redemptive Purpose: Establishing the bedrock promise upon which the unfolding redemptive chain is anchored.`;
+
   nodes.push({
     id: input.anchorId,
     kind: 'source',
@@ -121,28 +191,23 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
     strand: 'gold',
     x: 40,
     y: 40,
+    threadPrinciple: sourcePrinciple,
+    who: sourceWho,
   });
 
   // Fulfillment nodes — stacked in a column to the right of the anchor.
   const groups = chunkVersesByRefs(input.fulfillmentRefs, expand, input.fulfillmentVerses);
+  const chainRefs = [input.anchorRef];
+
   groups.forEach((group, i) => {
     const step = i + 2;
     const first = group.verses[0];
     const body = first ? snippet(group.verses.map(v => v.text).join(' '), 190) : '';
     const fulfillmentSnippet = first ? snippet(first.text, 90) : '';
-    nodes.push({
-      id: `${input.anchorId}-f${i}`,
-      kind: 'fulfillment',
-      step,
-      ref: group.ref,
-      title: snippet(group.ref, 40),
-      body,
-      fullText: group.verses.map(v => v.text).join(' '),
-      strand: 'steel',
-      x: 40 + NODE_GAP_X,
-      y: 40 + i * NODE_GAP_Y,
-    });
     const targetVerseText = group.verses.map(v => v.text).join(' ');
+
+    chainRefs.push(group.ref);
+
     const interrogation = getConnectionInterrogation(
       input.anchorId,
       group.ref,
@@ -151,6 +216,32 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       targetVerseText,
       input.principle
     );
+
+    const cumulativePrinciple = buildCumulativePrinciple({
+      step,
+      chainRefs: [...chainRefs],
+      basePrinciple: principle,
+      anchorRef: input.anchorRef,
+      anchorSnippet,
+      currentRef: group.ref,
+      currentSnippet: fulfillmentSnippet,
+      interrogation,
+    });
+
+    nodes.push({
+      id: `${input.anchorId}-f${i}`,
+      kind: 'fulfillment',
+      step,
+      ref: group.ref,
+      title: snippet(group.ref, 40),
+      body,
+      fullText: targetVerseText,
+      strand: 'steel',
+      x: 40 + NODE_GAP_X,
+      y: 40 + i * NODE_GAP_Y,
+      threadPrinciple: cumulativePrinciple,
+      who: interrogation.who,
+    });
 
     edges.push({
       id: `${input.anchorId}-e${i}`,
@@ -200,7 +291,7 @@ export function computeThreadLayout(
   const spacing = options?.spacing ?? 'normal';
   const nodeSizes = options?.nodeSizes ?? {};
   const nodeW = options?.nodeWidth ?? NODE_W;
-  const defaultH = options?.defaultNodeHeight ?? 180;
+  const defaultH = options?.defaultNodeHeight ?? 240;
 
   // Spacing gaps based on mode
   let vGap = 38;

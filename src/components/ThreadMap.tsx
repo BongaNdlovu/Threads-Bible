@@ -24,6 +24,7 @@ import {
   Compass,
   Columns,
   Grid,
+  Users,
 } from 'lucide-react';
 import { useStore } from '../store/useStore';
 import {
@@ -38,6 +39,13 @@ import {
 import { cn } from '@/lib/utils';
 import { parsePersonalRelevance } from './HistoricalContextPage';
 import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
+import {
+  getChapterVersesFromLoaded,
+  isBookLoaded,
+  loadBook,
+  resolveRefs,
+} from '../data/library';
+import { parseRef } from '../data/refParser';
 
 /**
  * Ordo Redemptoris — The Architecture of Redemption.
@@ -234,16 +242,58 @@ interface EdgeMid {
   angle: number;
 }
 
+/**
+ * Resolves scripture passage text for a reference from loaded books or the fulfillment index.
+ * Returns null if the passage cannot be resolved synchronously.
+ */
+export function resolvePassageText(ref: string): string | null {
+  if (!ref || typeof ref !== 'string') return null;
+  try {
+    const verses = resolveRefs([ref]);
+    if (verses && verses.length > 0) {
+      const text = verses.map(v => v.text).filter(Boolean).join(' ').trim();
+      if (text) return text;
+    }
+
+    const parsed = parseRef(ref);
+    if (parsed) {
+      const chVerses = getChapterVersesFromLoaded(parsed.book, parsed.chapter);
+      if (chVerses && chVerses.length > 0) {
+        const start = parsed.startVerse ?? 1;
+        const end =
+          parsed.endVerse ??
+          (parsed.startVerse !== undefined
+            ? start
+            : (chVerses[chVerses.length - 1]?.verseNumber ?? start));
+        const matched = chVerses.filter(
+          v => v.verseNumber >= start && v.verseNumber <= end
+        );
+        if (matched.length > 0) {
+          const text = matched.map(v => v.text).filter(Boolean).join(' ').trim();
+          if (text) return text;
+        }
+      }
+    }
+  } catch {
+    // Graceful fallback on lookup errors
+  }
+  return null;
+}
+
 export function ThreadMap({
   graph,
   theme = 'dark',
   isFullscreen = false,
   onToggleFullscreen,
+  onOpenPassageReader,
+  onOpenSplit,
 }: {
   graph: ThreadGraph;
   theme?: MapTheme;
   isFullscreen?: boolean;
   onToggleFullscreen?: () => void;
+  onOpenPassageReader?: (ref: string) => void;
+  onOpenSplit?: (ref: string) => void;
 }) {
   const P = useMemo(() => PALETTES[theme], [theme]);
   const boxRef = useRef<HTMLDivElement>(null);
@@ -264,6 +314,8 @@ export function ThreadMap({
   const [playing, setPlaying] = useState(settings.autoplay && !reduceMotion);
   const [view, setView] = useState({ x: 0, y: 0, scale: 1 });
   const [expanded, setExpanded] = useState<Set<string>>(new Set());
+  const [resolvedPassages, setResolvedPassages] = useState<Record<string, string>>({});
+  const [loadingPassages, setLoadingPassages] = useState<Record<string, boolean>>({});
   const [hoveredEdge, setHoveredEdge] = useState<string | null>(null);
   const [edgeMids, setEdgeMids] = useState<Record<string, EdgeMid>>({});
   const [boxSize, setBoxSize] = useState({ w: 0, h: 0 });
@@ -285,12 +337,13 @@ export function ThreadMap({
   const {
     setHistoricalContextOpen,
     setThreadMapOpen,
+    setThreadPaneOpen,
     setChapterGridOpen,
     setFocusPane,
     setReadingLocation,
     selectedThread,
   } = useStore();
-  const [dossierTab, setDossierTab] = useState<'ultimate' | 'personal' | 'what' | 'when' | 'how' | 'why'>('ultimate');
+  const [dossierTab, setDossierTab] = useState<'ultimate' | 'personal' | 'who' | 'what' | 'when' | 'how' | 'why'>('ultimate');
   const [scholarlyModalOpen, setScholarlyModalOpen] = useState(false);
 
   // Click-outside listener for layout mode dropdown
@@ -369,18 +422,88 @@ export function ThreadMap({
     return () => ro.disconnect();
   }, [settings.dossierCollapsed, step, dossierTab]);
 
-  // Measure card sizes when nodes render or expand
+  // Resolve passage text on demand when a node is expanded
+  useEffect(() => {
+    for (const id of expanded) {
+      const node = graph.nodes.find(n => n.id === id);
+      if (!node) continue;
+      if (node.fullText && node.fullText.trim()) continue;
+      if (resolvedPassages[id]) continue;
+      if (loadingPassages[id]) continue;
+
+      const synched = resolvePassageText(node.ref);
+      if (synched) {
+        setResolvedPassages(prev => ({ ...prev, [id]: synched }));
+        continue;
+      }
+
+      const parsed = parseRef(node.ref);
+      if (parsed) {
+        setLoadingPassages(prev => ({ ...prev, [id]: true }));
+        loadBook(parsed.book)
+          .then(() => {
+            const loadedText = resolvePassageText(node.ref);
+            if (loadedText) {
+              setResolvedPassages(prev => ({ ...prev, [id]: loadedText }));
+            } else if (node.body && node.body.trim() !== '…') {
+              setResolvedPassages(prev => ({ ...prev, [id]: node.body.trim() }));
+            }
+          })
+          .catch(() => {
+            if (node.body && node.body.trim() !== '…') {
+              setResolvedPassages(prev => ({ ...prev, [id]: node.body.trim() }));
+            }
+          })
+          .finally(() => {
+            setLoadingPassages(prev => ({ ...prev, [id]: false }));
+          });
+      } else if (node.body && node.body.trim() !== '…') {
+        setResolvedPassages(prev => ({ ...prev, [id]: node.body.trim() }));
+      }
+    }
+  }, [expanded, graph.nodes, resolvedPassages, loadingPassages]);
+
+  // Measure card sizes when nodes render, expand, or complete transitions
   useEffect(() => {
     const measure = () => {
       const next: Record<string, SizeEntry> = {};
+      let changed = false;
       for (const n of graph.nodes) {
         const el = nodeRefs.current.get(n.id);
-        if (el) next[n.id] = { w: el.offsetWidth, h: el.offsetHeight };
+        if (el) {
+          const w = el.offsetWidth;
+          const h = el.offsetHeight;
+          next[n.id] = { w, h };
+          if (!sizes[n.id] || sizes[n.id].w !== w || sizes[n.id].h !== h) {
+            changed = true;
+          }
+        }
       }
-      setSizes(next);
+      if (changed) {
+        setSizes(prev => ({ ...prev, ...next }));
+      }
     };
-    const t = requestAnimationFrame(measure);
-    return () => cancelAnimationFrame(t);
+
+    const rafId = requestAnimationFrame(measure);
+    const t1 = setTimeout(measure, 160);
+    const t2 = setTimeout(measure, 350);
+
+    let ro: ResizeObserver | null = null;
+    if (typeof ResizeObserver !== 'undefined') {
+      ro = new ResizeObserver(() => {
+        measure();
+      });
+      for (const el of nodeRefs.current.values()) {
+        ro.observe(el);
+      }
+    }
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      clearTimeout(t1);
+      clearTimeout(t2);
+      ro?.disconnect();
+    };
   }, [graph, expanded]);
 
   // Compute collision-free node positions dynamically using measured card heights
@@ -545,17 +668,18 @@ export function ThreadMap({
     if (!q) return new Set<string>();
     const matches = new Set<string>();
     for (const n of graph.nodes) {
+      const full = (n.fullText || resolvedPassages[n.id] || '').toLowerCase();
       if (
         n.ref.toLowerCase().includes(q) ||
         n.title.toLowerCase().includes(q) ||
         n.body.toLowerCase().includes(q) ||
-        n.fullText.toLowerCase().includes(q)
+        full.includes(q)
       ) {
         matches.add(n.id);
       }
     }
     return matches;
-  }, [graph, searchQuery]);
+  }, [graph, searchQuery, resolvedPassages]);
 
   const matchedSteps = useMemo(() => {
     if (matchingNodeIds.size === 0) return [];
@@ -895,7 +1019,15 @@ export function ThreadMap({
   } lead${graph.edges.length === 1 ? '' : 's'} from here.`;
 
   const getDossierText = () => {
-    if (!activeEdge) return introText;
+    if (!activeEdge) {
+      if (dossierTab === 'who' && sourceNode.who) {
+        return sourceNode.who;
+      }
+      if (dossierTab === 'ultimate' && sourceNode.threadPrinciple) {
+        return sourceNode.threadPrinciple;
+      }
+      return introText;
+    }
     const inter = activeEdge.interrogation;
     if (!inter) return activeEdge.why;
     switch (dossierTab) {
@@ -903,6 +1035,8 @@ export function ThreadMap({
         return inter.ultimatePoint;
       case 'personal':
         return inter.personalRelevance;
+      case 'who':
+        return inter.who;
       case 'what':
         return inter.what;
       case 'when':
@@ -1006,9 +1140,39 @@ export function ThreadMap({
     setStep(1);
   };
 
-  const handleOpenPassageReader = () => {
+  const handleOpenPassageReader = (refString?: string) => {
+    if (onOpenPassageReader && refString) {
+      onOpenPassageReader(refString);
+      return;
+    }
     setThreadMapOpen(false);
     setFocusPane(null);
+    if (refString) {
+      const parsed = parseRef(refString);
+      if (parsed) {
+        setReadingLocation(parsed.book, parsed.chapter);
+        return;
+      }
+    }
+    if (selectedThread && selectedThread.book && selectedThread.chapter) {
+      setReadingLocation(selectedThread.book, selectedThread.chapter);
+    }
+  };
+
+  const handleOpenSplit = (refString?: string) => {
+    if (onOpenSplit && refString) {
+      onOpenSplit(refString);
+      return;
+    }
+    setThreadMapOpen(false);
+    setThreadPaneOpen(true);
+    if (refString) {
+      const parsed = parseRef(refString);
+      if (parsed) {
+        setReadingLocation(parsed.book, parsed.chapter);
+        return;
+      }
+    }
     if (selectedThread && selectedThread.book && selectedThread.chapter) {
       setReadingLocation(selectedThread.book, selectedThread.chapter);
     }
@@ -1213,6 +1377,12 @@ export function ThreadMap({
             const pos = positions[n.id] ?? { x: n.x, y: n.y };
             const isMatched = matchingNodeIds.size > 0 && matchingNodeIds.has(n.id);
             const isDimmed = matchingNodeIds.size > 0 && !matchingNodeIds.has(n.id);
+            const passageText =
+              (n.fullText && n.fullText.trim()) ||
+              resolvedPassages[n.id] ||
+              resolvePassageText(n.ref) ||
+              (n.body && n.body.trim() !== '…' ? n.body.trim() : null);
+            const isLoadingPassage = !passageText && !!loadingPassages[n.id];
 
             return (
               <article
@@ -1281,33 +1451,216 @@ export function ThreadMap({
                   {n.body || '…'}
                 </p>
 
-                {/* Expandable Passage Reader */}
-                {isExpanded && (
+                {/* Cumulative Thread Principle */}
+                {n.threadPrinciple && (
                   <div
-                    className="relative mx-4 mt-2.5 mb-1 max-h-48 overflow-y-auto rounded-lg border px-3 py-2 text-[11.5px] leading-relaxed font-serif scrollbar-thin"
-                    style={{ borderColor: P.border, color: P.text, background: 'rgba(0,0,0,.08)' }}
+                    className="relative mx-3.5 my-2 p-2 rounded-lg border text-[11px] leading-relaxed"
+                    style={{
+                      borderColor: `${color}35`,
+                      background: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)',
+                    }}
                   >
-                    {n.fullText}
+                    <div
+                      className="flex items-center gap-1 font-mono text-[8.5px] uppercase font-bold tracking-wider mb-1"
+                      style={{ color }}
+                    >
+                      <Sparkles className="h-3 w-3 shrink-0" />
+                      <span>
+                        {n.kind === 'source'
+                          ? 'Foundational Principle'
+                          : `Cumulative Principle · Step ${n.step} (${n.step} Verses)`}
+                      </span>
+                    </div>
+                    <p
+                      className="font-serif text-[11px] leading-relaxed select-text"
+                      style={{ color: P.text }}
+                    >
+                      {n.threadPrinciple}
+                    </p>
                   </div>
                 )}
 
+                {/* Who Dimension: Authorship, Characters & Christological Subject */}
+                {n.who && (
+                  <div
+                    className="relative mx-3.5 my-2 p-2 rounded-lg border text-[11px] leading-relaxed"
+                    style={{
+                      borderColor: `${color}35`,
+                      background: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)',
+                    }}
+                  >
+                    <div
+                      className="flex items-center gap-1 font-mono text-[8.5px] uppercase font-bold tracking-wider mb-1"
+                      style={{ color }}
+                    >
+                      <Users className="h-3 w-3 shrink-0" />
+                      <span>Who · Authorship & Characters</span>
+                    </div>
+                    <p
+                      className="font-serif text-[11px] leading-relaxed select-text"
+                      style={{ color: P.text }}
+                    >
+                      {n.who}
+                    </p>
+                  </div>
+                )}
+
+                {/* Expandable Passage Reader with smooth height transition */}
+                <div
+                  className={cn(
+                    'grid transition-[grid-template-rows,opacity] duration-300 ease-in-out',
+                    isExpanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0 pointer-events-none'
+                  )}
+                >
+                  <div className="overflow-hidden">
+                    <div
+                      className="relative mx-3.5 my-2 max-h-52 overflow-y-auto rounded-lg border p-3 text-[12px] leading-relaxed font-serif scrollbar-thin select-text"
+                      style={{
+                        borderColor: isExpanded ? `${color}55` : P.border,
+                        color: P.text,
+                        background: theme === 'dark' ? 'rgba(0,0,0,.25)' : 'rgba(0,0,0,.04)',
+                      }}
+                      onClick={e => e.stopPropagation()}
+                    >
+                      {/* Passage Ref & Type Header */}
+                      <div
+                        className="flex items-center justify-between gap-2 pb-1.5 mb-2 border-b font-mono text-[9px] tracking-wider uppercase"
+                        style={{ borderColor: P.border }}
+                      >
+                        <span className="font-semibold truncate" style={{ color }}>
+                          {n.ref}
+                        </span>
+                        <span className="text-[8.5px] opacity-70" style={{ color: P.mute }}>
+                          {n.kind === 'source' ? 'Thread Source' : 'Passage'}
+                        </span>
+                      </div>
+
+                      {/* Passage Content */}
+                      {isLoadingPassage ? (
+                        <div className="flex items-center gap-2 py-3 text-xs italic font-sans" style={{ color: P.dim }}>
+                          <span
+                            className="inline-block h-2.5 w-2.5 rounded-full border-2 border-amber-400 border-t-transparent animate-spin"
+                          />
+                          <span>Loading scripture passage…</span>
+                        </div>
+                      ) : passageText ? (
+                        <p className="whitespace-pre-wrap leading-relaxed selection:bg-amber-500/30">
+                          {passageText}
+                        </p>
+                      ) : (
+                        <div className="py-1 text-xs italic font-sans" style={{ color: P.dim }}>
+                          Passage text unavailable in offline cache.
+                        </div>
+                      )}
+
+                      {/* Action Bar inside Reader */}
+                      <div
+                        className="mt-2.5 pt-2 border-t flex flex-wrap items-center gap-1.5 font-sans text-[10px]"
+                        style={{ borderColor: P.border }}
+                      >
+                        <button
+                          type="button"
+                          onClick={e => {
+                            e.stopPropagation();
+                            handleOpenPassageReader(n.ref);
+                          }}
+                          className="flex items-center gap-1 px-2 py-1 rounded border cursor-pointer transition-colors hover:bg-white/10 active:opacity-75"
+                          style={{ borderColor: P.ctrlBorder, color: P.text }}
+                          title={`Open ${n.ref} in Bible reader`}
+                        >
+                          <BookOpen className="h-3 w-3" style={{ color }} />
+                          <span>Read Chapter</span>
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={e => {
+                            e.stopPropagation();
+                            handleOpenSplit(n.ref);
+                          }}
+                          className="flex items-center gap-1 px-2 py-1 rounded border cursor-pointer transition-colors hover:bg-white/10 active:opacity-75"
+                          style={{ borderColor: P.ctrlBorder, color: P.text }}
+                          title="Open side-by-side in Split View"
+                        >
+                          <Columns className="h-3 w-3" />
+                          <span>Split View</span>
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={e => {
+                            e.stopPropagation();
+                            toggleExpanded(n.id);
+                          }}
+                          className="ml-auto flex items-center gap-1 px-1.5 py-1 rounded cursor-pointer transition-colors hover:opacity-70"
+                          style={{ color: P.dim }}
+                          title="Collapse passage"
+                        >
+                          <ChevronUp className="h-3 w-3" />
+                          <span>Close</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
                 {/* Footer / Expansion Toggle */}
-                <div className="relative px-4 pb-3 pt-2.5 flex items-center justify-between gap-2 font-mono text-[9px] tracking-[0.12em]">
-                  <span className="truncate" style={{ color }}>
-                    {n.kind === 'source' ? n.ref : 'READ PASSAGE →'}
-                  </span>
+                <div
+                  className="relative px-3.5 pb-3 pt-2 flex items-center justify-between gap-1.5 font-mono text-[9px] tracking-[0.12em]"
+                >
                   <button
+                    type="button"
                     onClick={e => {
                       e.stopPropagation();
                       toggleExpanded(n.id);
                     }}
-                    aria-label={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
-                    title={isExpanded ? 'Collapse' : 'Read the full passage'}
-                    className="h-5 w-5 shrink-0 rounded-full flex items-center justify-center border cursor-pointer transition-transform hover:opacity-80"
-                    style={{ borderColor: P.border, color: P.dim, transform: isExpanded ? 'rotate(180deg)' : 'none' }}
+                    aria-label={isExpanded ? `Collapse passage for ${n.ref}` : `Read passage for ${n.ref}`}
+                    title={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
+                    className="flex-1 min-w-0 flex items-center gap-1.5 text-left py-0.5 px-1 -ml-1 rounded cursor-pointer transition-colors hover:bg-white/5 active:opacity-75 focus:outline-none"
+                    style={{ color }}
                   >
-                    <ChevronDown className="h-3 w-3" />
+                    <span className="truncate font-semibold tracking-[0.12em]">
+                      {isExpanded
+                        ? 'COLLAPSE PASSAGE'
+                        : n.kind === 'source'
+                        ? `${n.ref} · READ PASSAGE →`
+                        : 'READ PASSAGE →'}
+                    </span>
                   </button>
+
+                  <div className="flex items-center gap-1 shrink-0">
+                    <button
+                      type="button"
+                      onClick={e => {
+                        e.stopPropagation();
+                        handleOpenPassageReader(n.ref);
+                      }}
+                      aria-label={`Open ${n.ref} in Bible reader`}
+                      title={`Open ${n.ref} in Bible reader`}
+                      className="h-5 w-5 shrink-0 rounded-full flex items-center justify-center border cursor-pointer transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
+                      style={{ borderColor: P.border, color: P.dim }}
+                    >
+                      <BookOpen className="h-3 w-3" />
+                    </button>
+
+                    <button
+                      type="button"
+                      onClick={e => {
+                        e.stopPropagation();
+                        toggleExpanded(n.id);
+                      }}
+                      aria-label={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
+                      title={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
+                      className="h-5 w-5 shrink-0 rounded-full flex items-center justify-center border cursor-pointer transition-transform hover:opacity-80"
+                      style={{
+                        borderColor: P.border,
+                        color: isExpanded ? color : P.dim,
+                        transform: isExpanded ? 'rotate(180deg)' : 'none',
+                      }}
+                    >
+                      <ChevronDown className="h-3 w-3" />
+                    </button>
+                  </div>
                 </div>
               </article>
             );
@@ -1888,6 +2241,19 @@ export function ThreadMap({
                       <Heart className="h-3 w-3" />
                       <span>Personal Life</span>
                     </button>
+                    <button
+                      onClick={() => setDossierTab('who')}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] flex items-center gap-1 cursor-pointer transition-all shrink-0"
+                      style={{
+                        background: dossierTab === 'who' ? `${P.gold}28` : 'transparent',
+                        color: dossierTab === 'who' ? P.gold : P.dim,
+                        border: dossierTab === 'who' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: dossierTab === 'who' ? 700 : 500,
+                      }}
+                    >
+                      <Users className="h-3 w-3" />
+                      <span>Who</span>
+                    </button>
                     {(['what', 'when', 'how', 'why'] as const).map(tab => (
                       <button
                         key={tab}
@@ -2009,6 +2375,21 @@ export function ThreadMap({
                       </div>
                     );
                   })()
+                ) : dossierTab === 'who' ? (
+                  <div
+                    onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                    className={cn("min-h-[3.4em] px-1", typing && "cursor-pointer")}
+                    title={typing ? "Click to reveal complete text immediately" : undefined}
+                  >
+                    <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold flex items-center gap-1.5" style={{ color: P.gold }}>
+                      <Users className="h-3 w-3" />
+                      <span>WHO: Authorship, Characters & Christological Identity</span>
+                    </div>
+                    <p className="text-[12.5px] leading-relaxed select-text" style={{ color: P.text }}>
+                      {typed}
+                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                    </p>
+                  </div>
                 ) : (
                   <div
                     onClick={() => { if (typing) setTypedCount(narratedText.length); }}
@@ -2030,24 +2411,51 @@ export function ThreadMap({
               </div>
             ) : (
               <div>
-                <div className="flex items-center justify-between gap-2 mb-1.5">
+                <div className="flex items-center justify-between gap-2 mb-2">
                   <div className="flex items-center gap-2 font-mono text-[10px] tracking-[0.18em]">
                     <span style={{ color: P.gold }}>◆ {sourceNode.ref}</span>
                     <span className="uppercase" style={{ color: P.mute }}>
-                      Thread Principle
+                      {dossierTab === 'who' ? 'Authorship & Characters' : 'Thread Foundation'}
                     </span>
                   </div>
-                  <button
-                    onClick={() => updateSettings({ dossierCollapsed: true })}
-                    aria-label="Collapse dossier panel"
-                    title="Collapse dossier panel"
-                    className="h-6 w-6 rounded-md border flex items-center justify-center cursor-pointer hover:opacity-80 transition-colors"
-                    style={{ borderColor: P.ctrlBorder, color: P.dim }}
-                  >
-                    <ChevronDown className="h-3 w-3" />
-                  </button>
+                  <div className="flex items-center gap-1.5">
+                    <button
+                      onClick={() => setDossierTab('ultimate')}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] font-mono cursor-pointer transition-colors"
+                      style={{
+                        background: dossierTab === 'ultimate' ? `${P.gold}28` : 'transparent',
+                        color: dossierTab === 'ultimate' ? P.gold : P.dim,
+                        border: dossierTab === 'ultimate' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: dossierTab === 'ultimate' ? 700 : 500,
+                      }}
+                    >
+                      Principle
+                    </button>
+                    <button
+                      onClick={() => setDossierTab('who')}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] font-mono flex items-center gap-1 cursor-pointer transition-colors"
+                      style={{
+                        background: dossierTab === 'who' ? `${P.gold}28` : 'transparent',
+                        color: dossierTab === 'who' ? P.gold : P.dim,
+                        border: dossierTab === 'who' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: dossierTab === 'who' ? 700 : 500,
+                      }}
+                    >
+                      <Users className="h-3 w-3" />
+                      <span>Who</span>
+                    </button>
+                    <button
+                      onClick={() => updateSettings({ dossierCollapsed: true })}
+                      aria-label="Collapse dossier panel"
+                      title="Collapse dossier panel"
+                      className="h-6 w-6 ml-1.5 rounded-md border flex items-center justify-center cursor-pointer hover:opacity-80 transition-colors"
+                      style={{ borderColor: P.ctrlBorder, color: P.dim }}
+                    >
+                      <ChevronDown className="h-3 w-3" />
+                    </button>
+                  </div>
                 </div>
-                <p className="text-[13px] leading-relaxed min-h-[2.8em]" style={{ color: P.text }}>
+                <p className="font-serif text-[13px] leading-relaxed min-h-[2.8em] select-text" style={{ color: P.text }}>
                   {typed}
                   {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
                 </p>
@@ -2157,6 +2565,15 @@ export function ThreadMap({
                   </div>
                 );
               })()}
+
+              {/* Who */}
+              <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
+                <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                  <Users className="h-3.5 w-3.5" />
+                  <span>WHO: Authorship, Characters & Christological Identity</span>
+                </div>
+                <p style={{ color: P.dim }}>{activeEdge.interrogation.who}</p>
+              </div>
 
               {/* What */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>

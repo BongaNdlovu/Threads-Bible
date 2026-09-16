@@ -122,6 +122,7 @@ export interface HistoricalConnectionItem {
   redemptiveBridge: string;
   ultimatePoint: string;
   personalRelevance: string;
+  who?: string;
   what: string;
   when: string;
   how: string;
@@ -271,6 +272,7 @@ export function getAllHistoricalConnections(): HistoricalConnectionItem[] {
       redemptiveBridge: hc?.redemptiveBridge || 'Progressive redemptive revelation bridging the Old Testament foundation to its New Testament culmination.',
       ultimatePoint: inter.ultimatePoint,
       personalRelevance: inter.personalRelevance,
+      who: inter.who,
       what: inter.what,
       when: inter.when,
       how: inter.how,

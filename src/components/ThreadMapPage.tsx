@@ -6,9 +6,11 @@ import {
   getChapterVersesFromLoaded,
   isBookLoaded,
   loadBook,
+  resolveRefs,
   BOOK_BY_NAME,
   type Verse,
 } from '../data/library';
+import { parseRef } from '../data/refParser';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
 import { buildThreadGraph } from './threadMapModel';
@@ -88,15 +90,28 @@ export function ThreadMapPage() {
   const threadGraph = useMemo(() => {
     if (isInvalidReference || !selectedThread) return null;
     const anchorVerse = sourceVerses.find(v => v.id === selectedThread.id);
+    let resolvedAnchorText = anchorVerse?.text ?? selectedThread.text ?? '';
+    if (!resolvedAnchorText) {
+      const anchorRef = `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`;
+      const found = resolveRefs([anchorRef]);
+      if (found.length > 0) {
+        resolvedAnchorText = found[0].text;
+      }
+    }
+    const effectiveFulfillments =
+      fulfillmentVerses.length > 0
+        ? fulfillmentVerses
+        : resolveRefs(selectedThread.fulfillmentRefs ?? []);
+
     return buildThreadGraph({
       anchorId: selectedThread.id,
       anchorRef: `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`,
       anchorTitle:
         detail?.title ?? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`,
-      anchorVerseText: anchorVerse?.text ?? selectedThread.text ?? '',
+      anchorVerseText: resolvedAnchorText,
       principle: detail?.principle ?? snippetOf(selectedThread.text ?? ''),
       fulfillmentRefs: selectedThread.fulfillmentRefs ?? [],
-      fulfillmentVerses: fulfillmentVerses.map(v => ({ id: v.id, text: v.text })),
+      fulfillmentVerses: effectiveFulfillments.map(v => ({ id: v.id, text: v.text })),
       expand: expandVerseRange,
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild when thread, detail, or resolved verses change
@@ -136,11 +151,29 @@ export function ThreadMapPage() {
     setMapKey(k => k + 1);
   };
 
-  const handleOpenPassageReader = () => {
+  const handleOpenPassageReader = (ref?: string) => {
     setThreadMapOpen(false);
     setFocusPane(null);
+    if (ref) {
+      const parsed = parseRef(ref);
+      if (parsed) {
+        setReadingLocation(parsed.book, parsed.chapter);
+        return;
+      }
+    }
     if (selectedThread && selectedThread.book && selectedThread.chapter) {
       setReadingLocation(selectedThread.book, selectedThread.chapter);
+    }
+  };
+
+  const handleOpenSplit = (ref?: string) => {
+    setThreadMapOpen(false);
+    setThreadPaneOpen(true);
+    if (ref) {
+      const parsed = parseRef(ref);
+      if (parsed) {
+        setReadingLocation(parsed.book, parsed.chapter);
+      }
     }
   };
 
@@ -273,6 +306,8 @@ export function ThreadMapPage() {
               theme={mapTheme}
               isFullscreen={isFullscreen}
               onToggleFullscreen={toggleFullscreen}
+              onOpenPassageReader={handleOpenPassageReader}
+              onOpenSplit={handleOpenSplit}
             />
           </ErrorBoundary>
         ) : null}
