@@ -68,11 +68,5 @@ for (const row of mixedNtFirst) {
 }
 
 console.log('');
-console.log('Intentional NT-only golden exceptions (no OT fulfillmentRef present; do not invent):');
-for (const id of ['gen-1-1', 'zec-9-9']) {
-  const entry = allThreadMaps.map(m => m[id]).find(Boolean);
-  const refs = entry?.fulfillmentRefs ?? [];
-  const allNt = refs.length > 0 && refs.every(r => isNewTestament(r));
-  console.log(`  ${id}: allNt=${allNt} refs=${JSON.stringify(refs)}`);
-}
-console.log('Phase 1B does not bulk-reorder the mixed 220; only Sabbath spine + golden exo-12-46.');
+console.log('Remaining NT-first OT anchors are NT-only exceptions (see EXCEPTIONS.md).');
+console.log('Mixed NT-first with later OT present must be 0 after the broader OT-first pass.');
