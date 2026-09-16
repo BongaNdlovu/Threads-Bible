@@ -16,6 +16,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-1-3': {
     fulfillmentRefs: [
+      'Genesis 1:14',
       'John 1:1-5',
       '2 Corinthians 4:6',
     ],
@@ -28,18 +29,21 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-1-26': {
     fulfillmentRefs: [
+      'Genesis 5:1',
       'Colossians 1:16-17',
       'Hebrews 1:2-3',
     ],
   },
   'gen-1-27': {
     fulfillmentRefs: [
+      'Genesis 5:1',
       'Colossians 3:10',
       'James 3:9',
     ],
   },
   'gen-1-28': {
     fulfillmentRefs: [
+      'Genesis 5:1',
       'Hebrews 2:6-8',
       'Revelation 11:15',
     ],
@@ -57,12 +61,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-2-7': {
     fulfillmentRefs: [
+      'Genesis 3:19',
       '1 Corinthians 15:45-47',
       'John 20:22',
     ],
   },
   'gen-2-9': {
     fulfillmentRefs: [
+      'Genesis 3:22',
       'Revelation 2:7',
       'Revelation 22:2',
     ],
@@ -75,10 +81,11 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
     ],
   },
   'gen-2-22': {
-    fulfillmentRefs: ['Ephesians 5:23-32'],
+    fulfillmentRefs: ['Genesis 24:7', 'Ephesians 5:23-32'],
   },
   'gen-2-24': {
     fulfillmentRefs: [
+      'Genesis 24:7',
       'Matthew 19:5-6',
       'Ephesians 5:31-32',
     ],
@@ -87,6 +94,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 3
   'gen-3-1': {
     fulfillmentRefs: [
+      'Genesis 3:15',
       'Revelation 12:9',
       'Revelation 20:2',
     ],
@@ -99,6 +107,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-3-15': {
     fulfillmentRefs: [
+      'Genesis 12:3',
       'Galatians 4:4-5',
       'Romans 16:20',
       'Hebrews 2:14',
@@ -108,6 +117,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-3-19': {
     fulfillmentRefs: [
+      'Psalms 146:4',
       '1 Corinthians 15:21-22',
       'Romans 6:23',
     ],
@@ -121,12 +131,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-3-22': {
     fulfillmentRefs: [
+      'Exodus 25:17',
       'Revelation 22:2',
       'Revelation 22:14',
     ],
   },
   'gen-3-24': {
     fulfillmentRefs: [
+      'Exodus 25:17',
       'Hebrews 9:8',
       'Hebrews 10:19-20',
       'John 14:6',
@@ -142,6 +154,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-4-4': {
     fulfillmentRefs: [
+      'Genesis 8:20',
       'Hebrews 11:4',
       'Matthew 23:35',
     ],
@@ -177,14 +190,15 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 5
   'gen-5-1': {
     fulfillmentRefs: [
+      'Genesis 9:1',
       'Colossians 3:10',
       'James 3:9',
     ],
   },
   'gen-5-22': {
     fulfillmentRefs: [
-      'Hebrews 11:5',
       'Micah 6:8',
+      'Hebrews 11:5',
     ],
   },
   'gen-5-24': {
@@ -209,8 +223,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-6-8': {
     fulfillmentRefs: [
-      'Ephesians 2:8-9',
       'Genesis 6:9',
+      'Ephesians 2:8-9',
       'Hebrews 11:7',
     ],
   },
@@ -263,6 +277,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-8-20': {
     fulfillmentRefs: [
+      'Genesis 22:2',
       'Hebrews 9:22',
       'Ephesians 5:2',
     ],
@@ -302,8 +317,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   'gen-9-26': {
     fulfillmentRefs: [
       'Exodus 6:3',
-      'Acts 3:13',
       'Psalm 110:4',
+      'Acts 3:13',
     ],
   },
   'gen-9-27': {
@@ -317,12 +332,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 11
   'gen-11-1': {
     fulfillmentRefs: [
+      'Genesis 10:32',
       'Acts 2:6',
       'Acts 17:26',
     ],
   },
   'gen-11-4': {
     fulfillmentRefs: [
+      'Daniel 4:30',
       'Luke 14:11',
       '2 Corinthians 10:5',
     ],
@@ -349,12 +366,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 12
   'gen-12-1': {
     fulfillmentRefs: [
+      'Genesis 13:15',
       'Hebrews 11:8',
       'Acts 7:2-4',
     ],
   },
   'gen-12-2': {
     fulfillmentRefs: [
+      'Genesis 13:15',
       'Galatians 3:16',
       'Matthew 1:1',
       'Romans 4:16-17',
@@ -362,6 +381,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-12-3': {
     fulfillmentRefs: [
+      'Genesis 22:18',
       'Galatians 3:8',
       'Acts 3:25',
       'Revelation 7:9',
@@ -384,6 +404,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 13
   'gen-13-15': {
     fulfillmentRefs: [
+      'Genesis 15:5',
       'Hebrews 11:10',
       'Romans 4:13',
       '2 Peter 3:13',
@@ -391,6 +412,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-13-16': {
     fulfillmentRefs: [
+      'Genesis 15:5',
       'Romans 4:18',
       'Hebrews 11:12',
       'Galatians 3:29',
@@ -400,19 +422,21 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 14
   'gen-14-18': {
     fulfillmentRefs: [
+      'Psalm 110:4',
       'Hebrews 5:6',
       'Hebrews 7:1-3',
-      'Psalm 110:4',
     ],
   },
   'gen-14-19': {
     fulfillmentRefs: [
+      'Psalm 110:1-4',
       'Hebrews 7:1',
       'Matthew 28:18',
     ],
   },
   'gen-14-20': {
     fulfillmentRefs: [
+      'Psalm 110:1-4',
       'Hebrews 7:2-10',
       'Luke 22:19-20',
     ],
@@ -421,12 +445,13 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 15
   'gen-15-1': {
     fulfillmentRefs: [
-      'Hebrews 13:5-6',
       'Psalm 3:3',
+      'Hebrews 13:5-6',
     ],
   },
   'gen-15-5': {
     fulfillmentRefs: [
+      'Genesis 17:5',
       'Romans 4:18',
       'Hebrews 11:12',
       'Galatians 3:6',
@@ -434,6 +459,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-15-6': {
     fulfillmentRefs: [
+      'Genesis 17:5',
       'Romans 4:3',
       'Galatians 3:6',
       'James 2:23',
@@ -441,15 +467,15 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-15-13': {
     fulfillmentRefs: [
+      'Exodus 12:40-41',
       'Acts 7:6-7',
       'Galatians 3:17',
-      'Exodus 12:40-41',
     ],
   },
   'gen-15-18': {
     fulfillmentRefs: [
-      'Acts 7:8',
       'Genesis 17:19',
+      'Acts 7:8',
       'Galatians 3:16',
     ],
   },
@@ -477,6 +503,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-17-5': {
     fulfillmentRefs: [
+      'Genesis 18:18',
       'Romans 4:17',
       'Matthew 1:1',
       'Luke 3:23-34',
@@ -484,6 +511,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-17-6': {
     fulfillmentRefs: [
+      'Genesis 18:18',
       'Romans 4:17',
       'Matthew 1:1-16',
       'Revelation 1:6',
@@ -491,12 +519,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-17-7': {
     fulfillmentRefs: [
+      'Genesis 18:18',
       'Hebrews 13:20',
       'Luke 1:72-73',
     ],
   },
   'gen-17-8': {
     fulfillmentRefs: [
+      'Genesis 18:18',
       'Hebrews 11:16',
       '2 Peter 3:13',
       'Revelation 21:10',
@@ -511,6 +541,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-17-19': {
     fulfillmentRefs: [
+      'Genesis 15:18',
       'Galatians 4:22-28',
       'Hebrews 11:18',
       'Romans 9:7-9',
@@ -539,6 +570,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-18-18': {
     fulfillmentRefs: [
+      'Genesis 26:4',
       'Galatians 3:8',
       'Acts 3:25',
       'John 12:32',
@@ -595,6 +627,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-22-2': {
     fulfillmentRefs: [
+      'Exodus 12:3',
       'Hebrews 11:17',
       'John 3:16',
       'Romans 8:32',
@@ -602,12 +635,14 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-22-5': {
     fulfillmentRefs: [
+      'Genesis 12:8',
       'Hebrews 11:17',
       'John 1:29',
     ],
   },
   'gen-22-8': {
     fulfillmentRefs: [
+      'Exodus 12:3',
       'John 1:29',
       'Romans 8:32',
       '1 Peter 1:19-20',
@@ -635,6 +670,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-22-18': {
     fulfillmentRefs: [
+      'Genesis 49:10',
       'Galatians 3:16',
       'Acts 3:25',
       'Acts 3:26',
@@ -652,6 +688,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 24
   'gen-24-7': {
     fulfillmentRefs: [
+      'Isaiah 54:5; 62:4-5',
       'Hebrews 11:8',
       'John 14:2-3',
       'Hebrews 11:13-14',
@@ -659,8 +696,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-24-40': {
     fulfillmentRefs: [
-      'Hebrews 13:5',
       'Genesis 24:27',
+      'Hebrews 13:5',
     ],
   },
   'gen-24-67': {
@@ -673,20 +710,22 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 25
   'gen-25-23': {
     fulfillmentRefs: [
-      'Romans 9:10-13',
       'Malachi 1:2-3',
+      'Romans 9:10-13',
     ],
   },
 
   // Chapter 26
   'gen-26-3': {
     fulfillmentRefs: [
+      'Genesis 28:14',
       'Acts 3:25',
       'Galatians 3:8',
     ],
   },
   'gen-26-4': {
     fulfillmentRefs: [
+      'Genesis 28:14',
       'Galatians 3:8',
       'Acts 3:25',
       'Hebrews 11:12',
@@ -708,8 +747,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-27-33': {
     fulfillmentRefs: [
-      'Hebrews 12:17',
       'Isaiah 48:8',
+      'Hebrews 12:17',
     ],
   },
 
@@ -728,6 +767,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-28-14': {
     fulfillmentRefs: [
+      'Exodus 19:5-6',
       'Luke 3:23-38',
       'Galatians 3:16',
       'Ephesians 3:6',
@@ -776,6 +816,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-32-30': {
     fulfillmentRefs: [
+      'Jeremiah 30:7',
       'John 1:18',
       'John 14:9',
     ],
@@ -784,8 +825,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 33
   'gen-33-20': {
     fulfillmentRefs: [
-      'Hebrews 11:9',
       'Genesis 28:19',
+      'Hebrews 11:9',
     ],
   },
 
@@ -834,8 +875,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 37
   'gen-37-2': {
     fulfillmentRefs: [
-      'Acts 7:9',
       'Genesis 45:5',
+      'Acts 7:9',
     ],
   },
   'gen-37-5': {
@@ -847,15 +888,15 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-37-7': {
     fulfillmentRefs: [
+      'Isaiah 45:23',
       'Philippians 2:9-11',
       'Revelation 5:5',
-      'Isaiah 45:23',
     ],
   },
   'gen-37-9': {
     fulfillmentRefs: [
-      'Revelation 12:1',
       'Genesis 49:8-10',
+      'Revelation 12:1',
     ],
   },
   'gen-37-11': {
@@ -885,6 +926,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-37-35': {
     fulfillmentRefs: [
+      'Genesis 37:34',
       'Matthew 2:18',
       'Revelation 21:4',
     ],
@@ -893,6 +935,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 38
   'gen-38-26': {
     fulfillmentRefs: [
+      'Genesis 49:8',
       'Matthew 1:3',
       'Luke 3:33',
     ],
@@ -901,19 +944,20 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 39
   'gen-39-2': {
     fulfillmentRefs: [
-      'Acts 7:9',
       'Psalm 105:17-19',
+      'Acts 7:9',
     ],
   },
   'gen-39-21': {
     fulfillmentRefs: [
+      'Psalm 105:17-19',
       'Acts 7:9-10',
       '2 Timothy 2:9',
-      'Psalm 105:17-19',
     ],
   },
   'gen-39-23': {
     fulfillmentRefs: [
+      'Genesis 41:41',
       'Acts 7:9',
       '2 Timothy 2:9',
     ],
@@ -922,29 +966,29 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 40
   'gen-40-15': {
     fulfillmentRefs: [
-      'Acts 7:9',
       'Genesis 41:14',
+      'Acts 7:9',
     ],
   },
 
   // Chapter 41
   'gen-41-41': {
     fulfillmentRefs: [
+      'Daniel 7:14',
       'Acts 7:10',
       'Philippians 2:9-10',
-      'Daniel 7:14',
     ],
   },
   'gen-41-45': {
     fulfillmentRefs: [
-      'Acts 7:10',
       'Genesis 41:50',
+      'Acts 7:10',
     ],
   },
   'gen-41-46': {
     fulfillmentRefs: [
-      'Luke 3:23',
       'Genesis 41:46',
+      'Luke 3:23',
     ],
   },
   'gen-41-57': {
@@ -995,8 +1039,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-45-5': {
     fulfillmentRefs: [
-      'Romans 8:28',
       'Genesis 50:20',
+      'Romans 8:28',
       'Acts 2:23',
     ],
   },
@@ -1008,9 +1052,9 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-45-8': {
     fulfillmentRefs: [
+      'Genesis 41:41-44',
       'Acts 2:36',
       'Philippians 2:9-11',
-      'Genesis 41:41-44',
     ],
   },
   'gen-45-15': {
@@ -1061,9 +1105,9 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 49
   'gen-49-1': {
     fulfillmentRefs: [
-      'Hebrews 1:1-2',
       'Numbers 24:14',
       'Deuteronomy 4:30',
+      'Hebrews 1:1-2',
     ],
   },
   'gen-49-8': {
@@ -1117,6 +1161,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   // Chapter 50
   'gen-50-20': {
     fulfillmentRefs: [
+      'Psalm 105:16-22',
       'Romans 8:28',
       'Acts 2:23',
       'Acts 4:27-28',
@@ -1142,8 +1187,8 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-10-32': {
     fulfillmentRefs: [
-      'Acts 17:26',
       'Genesis 11:1',
+      'Acts 17:26',
     ],
   },
   'gen-20-6': {
@@ -1154,15 +1199,15 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
   },
   'gen-20-17': {
     fulfillmentRefs: [
-      'James 5:16',
       'Genesis 21:1',
+      'James 5:16',
     ],
   },
   'gen-29-35': {
     fulfillmentRefs: [
+      'Genesis 49:8',
       'Matthew 1:2',
       'Hebrews 7:14',
-      'Genesis 49:8',
     ],
   },
   'gen-30-22': {

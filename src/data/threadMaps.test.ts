@@ -5,6 +5,9 @@ import { allThreadMaps, threadMaps, type ThreadMap } from './threadMap';
 import { threadFor, totalThreadCount } from './library';
 import { getThreadDetail } from './threadDetailService';
 import { isNewTestament, isOldTestament } from './connectionInterrogation';
+import { BOOK_REGISTRY } from './bookRegistry';
+
+const OT_SLUGS = new Set(BOOK_REGISTRY.slice(0, 39).map(b => b.slug));
 
 /** A verse id is canonical when the verse count for its chapter covers it. */
 function isValidVerseId(id: string): boolean {
@@ -147,5 +150,48 @@ describe('Phase 1B OT-first Sabbath spine', () => {
       expect(refs.length).toBeGreaterThan(0);
       expect(refs.every(r => isNewTestament(r)), `${id} unexpectedly has an OT fulfillmentRef`).toBe(true);
     }
+  });
+});
+
+describe('Phase 1B broader OT-first', () => {
+  it('never leaves OT refs after NT refs on an OT anchor', () => {
+    let mixedNtFirst = 0;
+    let interleaved = 0;
+    for (const map of allThreadMaps as ThreadMap[]) {
+      for (const [key, entry] of Object.entries(map)) {
+        const slug = key.split('-')[0] ?? '';
+        if (!OT_SLUGS.has(slug)) continue;
+        const refs = entry.fulfillmentRefs;
+        const hasOt = refs.some(r => isOldTestament(r) && !isNewTestament(r));
+        const hasNt = refs.some(r => isNewTestament(r));
+        if (!hasOt || !hasNt) continue;
+        if (isNewTestament(refs[0] ?? '')) mixedNtFirst++;
+        let seenNt = false;
+        for (const r of refs) {
+          if (isNewTestament(r)) seenNt = true;
+          else if (isOldTestament(r) && seenNt) interleaved++;
+        }
+      }
+    }
+    expect(mixedNtFirst).toBe(0);
+    expect(interleaved).toBe(0);
+  });
+
+  it('reorders previously mixed samples so OT precedes NT', () => {
+    expect(threadFor('gen-5-22')!.fulfillmentRefs[0]).toBe('Micah 6:8');
+    expect(threadFor('gen-14-18')!.fulfillmentRefs[0]).toBe('Psalm 110:4');
+    expect(threadFor('num-9-12')!.fulfillmentRefs[0]).toBe('Exodus 12:46');
+    expect(threadFor('lev-25-10')!.fulfillmentRefs[0]).toMatch(/Isaiah 61/);
+    expect(threadFor('psa-34-20')!.fulfillmentRefs[0]).toBe('Exodus 12:46');
+  });
+
+  it('prepends curated-chain OT first-hops on former NT-only samples', () => {
+    const proto = threadFor('gen-3-15')!.fulfillmentRefs;
+    expect(proto[0]).toBe('Genesis 12:3');
+    expect(proto.some(r => r.includes('Galatians 4'))).toBe(true);
+
+    expect(threadFor('gen-1-3')!.fulfillmentRefs[0]).toBe('Genesis 1:14');
+    expect(threadFor('gen-2-24')!.fulfillmentRefs[0]).toBe('Genesis 24:7');
+    expect(isOldTestament(threadFor('gen-2-9')!.fulfillmentRefs[0]!)).toBe(true);
   });
 });

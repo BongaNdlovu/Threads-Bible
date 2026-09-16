@@ -1,0 +1,192 @@
+# OT-first NT-only exceptions
+
+Phase 1B broader pass. These OT anchors have **only NT** `fulfillmentRefs` and no
+credible OT first-hop in curated `threadChains`, `MASTER_CHAINS`, or reciprocal
+OT-map pairs. Weak OT links were **not** invented.
+
+Count: **175** of 311 NT-only OT anchors.
+
+## Golden sample with stored NT-path cumulativePrinciples; NT identification/fulfillment cluster — not rewritten
+
+Count: 2
+
+- `gen-1-1 → John 1:1-3; Hebrews 11:3`
+- `zec-9-9 → Matthew 21:5; John 12:15; Mark 11:7; Luke 19:38`
+
+## No curated chain next-OT step and no reciprocal OT-map pair; not invented
+
+Count: 173
+
+- `gen-2-17 → Romans 5:12; 1 Corinthians 15:21-22; Romans 6:23`
+- `gen-4-1 → Luke 3:38; 1 John 3:12`
+- `gen-4-7 → Romans 7:8-9; James 1:14-15`
+- `gen-4-8 → Hebrews 12:24; 1 John 3:12`
+- `gen-4-10 → Hebrews 12:24; Matthew 23:35`
+- `gen-4-25 → Luke 3:38`
+- `gen-5-24 → Hebrews 11:5; Jude 1:14`
+- `gen-5-29 → 2 Corinthians 1:3-5; Revelation 21:4`
+- `gen-6-5 → Romans 3:23; Matthew 15:19`
+- `gen-6-14 → 1 Peter 3:20-21; Hebrews 11:7`
+- `gen-6-18 → Hebrews 11:7; 1 Peter 3:20; 2 Peter 2:5`
+- `gen-6-22 → Hebrews 11:7; John 6:38`
+- `gen-7-16 → John 10:28-29; Hebrews 11:7`
+- `gen-8-4 → 1 Peter 3:20; 2 Peter 2:5`
+- `gen-8-8 → Luke 3:22; Matthew 3:16`
+- `gen-8-11 → Luke 3:22; Matthew 3:16`
+- `gen-8-21 → Romans 8:20-21; Revelation 21:5`
+- `gen-9-27 → Acts 17:26; Ephesians 2:13-14; Acts 10:34-35`
+- `gen-11-9 → Acts 17:26; Luke 1:51`
+- `gen-11-10 → Luke 3:36; Matthew 1:2`
+- `gen-11-27 → Luke 3:34; Matthew 1:2`
+- `gen-12-7 → Acts 7:5; Hebrews 11:9; Romans 4:13`
+- `gen-16-11 → Luke 1:13; Luke 1:31`
+- `gen-17-16 → Romans 9:6-8; Galatians 4:28; Luke 1:32-33`
+- `gen-17-22 → Acts 7:8; Luke 2:21`
+- `gen-18-10 → Romans 9:9; Hebrews 11:11; Luke 1:13`
+- `gen-18-14 → Luke 1:37; Matthew 19:26`
+- `gen-18-25 → 2 Peter 3:9; Romans 9:27`
+- `gen-19-24 → 2 Peter 2:6; Jude 1:7`
+- `gen-19-26 → Luke 17:32; Matthew 10:38`
+- `gen-21-12 → Romans 9:7; Hebrews 11:18; Galatians 4:22-23`
+- `gen-21-13 → Galatians 4:29-30; Romans 9:8`
+- `gen-22-1 → Hebrews 11:17; James 1:12`
+- `gen-22-14 → Romans 8:32; John 1:29; Revelation 5:6`
+- `gen-22-16 → Hebrews 6:13-14; Luke 1:73`
+- `gen-22-17 → Hebrews 11:12; Romans 4:18; Galatians 3:29`
+- `gen-23-4 → Hebrews 11:13; 1 Peter 2:11`
+- `gen-26-5 → Hebrews 11:8; Romans 4:16`
+- `gen-28-12 → John 1:51; Hebrews 1:14`
+- `gen-28-15 → Hebrews 13:5; Matthew 28:20`
+- `gen-28-17 → Hebrews 12:22; Revelation 21:10`
+- `gen-31-13 → Hebrews 11:13; John 1:51`
+- `gen-35-12 → Romans 9:4-5; Acts 3:25; Galatians 3:16`
+- `gen-37-11 → Luke 2:51; Acts 7:9`
+- `gen-41-57 → John 12:32; Acts 17:30; Revelation 22:17`
+- `gen-45-3 → Acts 7:13; John 1:11`
+- `gen-47-9 → Hebrews 11:13; 1 Peter 2:11`
+- `gen-48-19 → Galatians 3:29; Ephesians 2:12-13; Romans 9:24-26`
+- `gen-10-5 → Acts 17:26; Acts 1:8`
+- `exo-12-5 → 1 Peter 1:19; John 1:36`
+- `exo-12-6 → John 19:14; John 19:33`
+- `exo-12-13 → Hebrews 11:28; 1 Peter 1:19; Ephesians 1:7`
+- `exo-12-21 → Hebrews 11:28; 1 Corinthians 5:7`
+- `exo-12-27 → 1 Corinthians 5:7; Luke 22:15`
+- `exo-14-21 → 1 Corinthians 10:1-2; Hebrews 11:29`
+- `exo-14-22 → 1 Corinthians 10:2; Hebrews 11:29`
+- `exo-17-12 → Hebrews 12:12-13; Luke 22:32`
+- `exo-3-2 → Acts 7:30-35; Luke 20:37; Mark 12:26`
+- `exo-3-6 → Matthew 22:32; Acts 3:13; Hebrews 11:16`
+- `exo-3-14 → John 8:58; Revelation 1:8; Revelation 4:8`
+- `exo-20-3 → Matthew 4:10; Revelation 22:8-9`
+- `exo-28-36 → Hebrews 2:17; Hebrews 4:15; Hebrews 9:11`
+- `exo-34-28 → Matthew 4:2; Mark 1:13`
+- `exo-34-34 → 2 Corinthians 3:13-16; 2 Corinthians 3:18`
+- `dan-2-34 → Matthew 21:44; Ephesians 2:20; Acts 4:11`
+- `dan-2-45 → Hebrews 12:28; Matthew 21:44; 1 Peter 2:8`
+- `dan-7-18 → Revelation 5:10; Revelation 20:4; Luke 22:29-30`
+- `dan-7-25 → Revelation 11:2; Revelation 12:6; Revelation 12:14; Revelation 13:5`
+- `dan-7-26 → Revelation 19:20; Revelation 20:10; 2 Thessalonians 2:8`
+- `dan-7-27 → Luke 1:33; Revelation 11:15; Matthew 25:34`
+- `dan-8-11 → Matthew 24:15; 2 Thessalonians 2:3-4; Revelation 13:6`
+- `dan-9-27 → Matthew 24:15; Matthew 26:28; Hebrews 9:15; 2 Thessalonians 2:3-4`
+- `dan-10-13 → Jude 1:9; Revelation 12:7`
+- `dan-10-21 → Revelation 12:7; Jude 1:9`
+- `dan-11-31 → Matthew 24:15; Mark 13:14; 2 Thessalonians 2:4`
+- `dan-12-7 → Revelation 10:5-6; Revelation 12:14; Luke 21:24`
+- `dan-12-11 → Matthew 24:15; Revelation 13:5; 2 Thessalonians 2:4`
+- `dan-12-12 → Revelation 20:6; Luke 21:19; Matthew 10:22`
+- `dan-12-13 → 1 Thessalonians 4:16-17; Acts 8:39; Revelation 14:13`
+- `lev-16-15 → Hebrews 9:7; Hebrews 9:25; Hebrews 13:11`
+- `lev-16-30 → Hebrews 9:7; Hebrews 10:1-4`
+- `lev-17-11 → Hebrews 9:22; Matthew 26:28; Ephesians 1:7`
+- `lev-19-18 → Matthew 22:39; Romans 13:9; Galatians 5:14; James 2:8`
+- `lev-24-16 → Matthew 26:67; John 18:22`
+- `num-6-24 → 2 Corinthians 13:14; Philippians 4:7`
+- `num-11-31 → Matthew 15:36; John 6:31`
+- `num-21-11 → Matthew 10:5; 1 Corinthians 10:1`
+- `num-24-17 → Matthew 2:2; Revelation 22:16`
+- `num-35-30 → Matthew 18:16; 2 Corinthians 13:1; Hebrews 10:28`
+- `deu-4-24 → Hebrews 12:29`
+- `deu-6-4 → Mark 12:29-30; Romans 3:30`
+- `deu-6-5 → Matthew 22:37; Mark 12:30; Luke 10:27`
+- `deu-6-13 → Matthew 4:10; Luke 4:8`
+- `deu-6-16 → Matthew 4:7; Luke 4:12`
+- `deu-10-20 → Matthew 4:10; Acts 10:34`
+- `deu-13-1 → Matthew 24:24; Revelation 13:13`
+- `deu-19-15 → Matthew 18:16; 2 Corinthians 13:1; 1 Timothy 5:19`
+- `deu-21-23 → Galatians 3:13; Acts 5:30; 1 Peter 2:24`
+- `deu-24-1 → Matthew 19:7; Mark 10:4`
+- `deu-25-4 → 1 Corinthians 9:9; 1 Timothy 5:18`
+- `deu-29-4 → Romans 11:8; 2 Corinthians 3:14`
+- `deu-30-12 → Romans 10:6`
+- `deu-30-14 → Romans 10:8`
+- `deu-32-35 → Romans 12:19; Hebrews 10:30`
+- `deu-33-2 → Jude 1:14; Acts 7:53; Galatians 3:19`
+- `1sa-17-45 → 2 Corinthians 10:4; Ephesians 6:17`
+- `1ki-2-2 → Acts 13:36; Hebrews 11:33`
+- `1ki-2-10 → Acts 2:29-30; Acts 13:36`
+- `1ki-17-1 → James 5:17; Luke 4:25`
+- `1ki-17-9 → Luke 4:26; James 5:17`
+- `1ki-19-21 → Luke 9:61-62; Matthew 8:22`
+- `2ki-2-11 → Luke 9:30-31; Revelation 11:12; Hebrews 11:5`
+- `2ki-4-42 → Matthew 14:17; Matthew 15:36; Mark 8:5`
+- `1ch-29-11 → Matthew 6:13; 1 Timothy 1:17; Jude 1:25`
+- `job-33-23 → 1 Timothy 2:5; Hebrews 9:15; John 14:6`
+- `psa-2-1 → Acts 4:25-26; Revelation 11:18`
+- `psa-2-2 → Acts 4:27; Luke 23:11; Acts 13:33`
+- `psa-2-12 → Acts 4:12; Hebrews 5:9`
+- `psa-8-2 → Matthew 21:16; Hebrews 2:6; 1 Corinthians 1:25`
+- `psa-16-8 → Acts 2:25; Hebrews 13:6`
+- `psa-22-7 → Matthew 27:39; Luke 23:35`
+- `psa-22-8 → Matthew 27:43; Luke 23:35`
+- `psa-22-22 → Hebrews 2:12; John 20:17`
+- `psa-31-5 → Luke 23:46; Acts 7:59`
+- `psa-34-8 → 1 Peter 2:3; 1 Peter 3:10`
+- `psa-41-9 → John 13:18; John 13:26-27; Acts 1:16`
+- `psa-68-18 → Ephesians 4:8-10; Acts 2:33`
+- `psa-69-9 → John 2:17; Romans 15:3`
+- `psa-69-22 → Romans 11:9-10`
+- `psa-89-27 → Acts 13:23; Revelation 1:5; Colossians 1:18`
+- `psa-89-34 → Luke 1:32-33; Revelation 11:15; Hebrews 6:17-18`
+- `psa-89-36 → Luke 1:33; John 12:34; Hebrews 1:8`
+- `psa-91-11 → Matthew 4:6; Luke 4:10-11`
+- `psa-95-7 → Hebrews 3:7-8; Hebrews 3:15; Hebrews 4:7`
+- `psa-95-11 → Hebrews 3:11; Hebrews 4:3; Hebrews 4:5`
+- `psa-118-25 → Matthew 21:9; Mark 11:9-10; Luke 19:38`
+- `psa-118-26 → Matthew 21:9; Mark 11:9; Luke 19:38; John 12:13`
+- `psa-148-13 → Philippians 2:10-11; Revelation 5:13`
+- `pro-3-11 → Hebrews 12:5-6; Revelation 3:19`
+- `pro-26-11 → 2 Peter 2:22; Matthew 7:6`
+- `isa-6-9 → Matthew 13:14-15; Mark 4:12; John 12:40; Acts 28:26-27`
+- `isa-7-14 → Matthew 1:23; Luke 1:31-35; Matthew 1:21`
+- `isa-8-14 → Luke 2:34; Romans 9:33; 1 Peter 2:8`
+- `isa-8-20 → Revelation 12:17; Revelation 14:12; John 5:39; Matthew 5:17-19`
+- `isa-9-1 → Matthew 4:14-16; Luke 1:79; Luke 2:32`
+- `isa-11-10 → Romans 15:12; Revelation 5:5; Revelation 22:16`
+- `isa-11-12 → John 10:16; Ephesians 2:14; Matthew 24:31`
+- `isa-27-13 → Matthew 24:31; 1 Corinthians 15:52; 1 Thessalonians 4:16`
+- `isa-28-11 → 1 Corinthians 14:21; Acts 2:4-12`
+- `isa-29-10 → Romans 11:8; Matthew 13:14; Mark 4:12`
+- `isa-29-13 → Matthew 15:8-9; Mark 7:6-7; Acts 7:51`
+- `isa-29-14 → 1 Corinthians 1:19`
+- `isa-35-5 → Matthew 11:5; Matthew 9:32-33; Luke 7:22; John 9:7`
+- `isa-35-6 → Matthew 11:5; Matthew 15:30; Luke 7:22`
+- `isa-41-4 → Revelation 1:8; Revelation 1:17; Revelation 22:13`
+- `isa-42-7 → Luke 4:18; John 8:36; Acts 26:18`
+- `isa-43-25 → Ephesians 1:7; Colossians 2:14; 1 John 1:9`
+- `isa-44-3 → John 7:37-39; Acts 2:33; Revelation 22:17`
+- `isa-44-6 → Revelation 1:8; Revelation 1:17; Revelation 22:13; John 8:58`
+- `isa-45-22 → Acts 17:30; Acts 26:20; Revelation 22:17`
+- `isa-48-12 → Revelation 1:8; Revelation 1:17; Revelation 22:13`
+- `isa-53-7 → Acts 8:32-33; Matthew 26:63; John 1:29; 1 Peter 1:19`
+- `isa-60-1 → Matthew 4:16; Luke 1:79; Ephesians 5:8; John 1:4-9`
+- `isa-66-24 → Mark 9:43-48; Revelation 14:11; Revelation 20:10`
+- `jer-1-5 → Luke 1:15; Luke 1:41; Luke 1:44; Galatians 1:15`
+- `jer-9-24 → 2 Corinthians 10:17; 1 Corinthians 1:31`
+- `ezk-37-5 → John 5:21; John 5:28; Romans 4:17`
+- `jol-2-2 → Matthew 24:21; Mark 13:19; Revelation 7:14`
+- `amo-8-9 → Matthew 27:45; Mark 15:33; Luke 23:44`
+- `jon-1-17 → Matthew 12:40; Luke 11:30; Matthew 16:4`
+- `zec-13-7 → Matthew 26:31; Matthew 26:56; Mark 14:27`
+- `zec-14-5 → Jude 1:14; Matthew 24:31; 1 Thessalonians 3:13`
+- `mal-4-6 → Luke 1:17; Matthew 11:14; Matthew 17:10-13`
