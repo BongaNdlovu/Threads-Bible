@@ -11,6 +11,10 @@ export interface OriginalLanguageTerm {
   translit: string;
   gloss: string;
   note?: string;
+  /** Full contextual meaning in the verse's literary setting — not gloss-only. */
+  exposition?: string;
+  /** Optional Strong's number (H#### / G####). */
+  strongs?: string;
 }
 
 export interface ChainStep {
@@ -41,6 +45,12 @@ export interface ThreadDetail {
   chainId?: string;
   /** True for generated draft details (draftThreadDetails.ts) awaiting hand-writing */
   draft?: boolean;
+  /** Authored Who prose for the Ordo source-node dossier (golden samples). */
+  who?: string;
+  /** Authored Who prose keyed by live fulfillment ref (golden samples). */
+  whoByRef?: Record<string, string>;
+  /** Stored cumulative principle texts, index 0 = playback step 1. */
+  cumulativePrinciples?: string[];
 }
 
 export const threadDetails: Record<string, ThreadDetail> = {
@@ -48,12 +58,49 @@ export const threadDetails: Record<string, ThreadDetail> = {
     title: 'In the Beginning — the Word Creates',
     principle:
       'Creation is not self-originating. Genesis opens with a speaking God; John opens by identifying that Speaker as the eternal Word who is Himself God. First principle: everything that exists depends on a prior, personal source. The NT does not invent this — it names the Agent already present in the Hebrew account.',
+    who: 'Authorship & Context: Moses wrote Genesis during Israel\'s wilderness wandering (c. 1446–1406 BC), grounding redeemed slaves in the absolute sovereignty of the one true God over pagan Egyptian polytheism. Identified Characters: God the Father (Creator of heaven and earth), God the Son (the eternal Logos through whom all things came into being), and the Holy Spirit (hovering over the waters). Singular or Many: Many. Three divine persons are identified in the creation-and-prologue witness, while the human author of Genesis is singular (Moses). Christological Subject & Referent: Jesus Christ Himself is the uncreated, personal divine Word (ὁ Λόγος, ho Logos). The passage is not talking about an abstract cosmic force, but the second Person of the Trinity who eternally communes with the Father. Redemptive Purpose: Moses establishes that creation is God\'s theater; John and Hebrews name the One who framed the universe as the Savior who stepped into it to redeem fallen humanity.',
+    whoByRef: {
+      'John 1:1-3': 'Authorship & Context: Moses wrote Genesis in the wilderness (c. 1446–1406 BC). The Apostle John, writing in Ephesus (c. AD 85–95), was the beloved disciple addressing nascent Gnostic denials of the Word\'s true deity and creative agency. Identified Characters: God the Father; the eternal Word who was with God and was God; all created things that came into being through Him. Singular or Many: Many. Father and Son are distinguished in the prologue (the Word was with God), yet they are one God; the created order is the many that came to be. Christological Subject & Referent: Jesus Christ, the uncreated Logos through whom all things were made. Redemptive Purpose: To prove that the Redeemer is not a creature but the Creator, so His incarnation and sacrifice carry infinite worth.',
+      'Hebrews 11:3': 'Authorship & Context: Moses recorded primeval history for Israel at Sinai. The inspired author of Hebrews (c. AD 64–68) wrote to Jewish believers under pressure before Jerusalem\'s fall. Identified Characters: God whose spoken word frames the worlds; the witnesses of faith who understand this; 1st-century disciples tempted to trust what is seen. Singular or Many: Singular Speaker, many worlds. One God frames the ages by His word; the many visible things are not their own origin. Christological Subject & Referent: Jesus Christ, the Son through whom God made the worlds (Heb 1:2) and who upholds all things by the word of His power (Heb 1:3). Redemptive Purpose: To orient wavering faith upon the unseen word that created all that is seen — the same word that now promises an unshakeable kingdom.',
+    },
+    cumulativePrinciples: [
+      'Foundational Thread Principle (Genesis 1:1): Creation is not self-originating. Genesis opens with a speaking God; the NT names that Speaker as the eternal Word who is Himself God. Everything that exists depends on a prior, personal source.',
+      'Connection 1 (2 Verses in Common — Genesis 1:1 & John 1:1-3): Expanding the foundational principle: the Speaker of “In the beginning God created” is the Word who “was in the beginning with God.” What these two verses share: one beginning, one divine Agent, one cosmos that came to be through Him rather than from itself. How they connect: John\'s Ἐν ἀρχῇ / ὁ Λόγος names Moses\' בְּרֵאשִׁית / בָּרָא as a Person. Why they connect: only the uncreated Creator can redeem the creation He framed.',
+      'Connection 2 (3 Verses in Common — Genesis 1:1, John 1:1-3, & Hebrews 11:3): Expanding the thread across all 3 witnesses: faith sees what Genesis asserts and John names — the worlds (τοὺς αἰῶνας) were framed by God\'s spoken word, so the visible is not from apparent matter. What these 3 verses share: creatio ex nihilo by a personal Word. How the redemptive arc unfolds: from Mosaic origin, through Johannine identification of the Agent, to Hebrews\' pastoral demand that faith rest on that unseen word. Canonical climax: the God who spoke the universe into being is the Lord who entered it to redeem what He formed.',
+    ],
     sourceKeywords: ['beginning', 'God', 'created', 'heaven', 'earth'],
     fulfillmentKeywords: ['beginning', 'Word', 'God', 'made', 'worlds'],
     terms: [
-      { term: 'created', original: 'בָּרָא', translit: 'baraʾ', gloss: 'to create out of nothing (used only of God)', note: 'Distinct from yatsar (form) and asah (make). Absolute beginning.' },
-      { term: 'Word', original: 'λόγος', translit: 'logos', gloss: 'word, reason, divine expression', note: 'John 1:1 equates the creating speech of Gen 1 with a Person.' },
-      { term: 'worlds', original: 'αἰῶνας', translit: 'aiōnas', gloss: 'ages / worlds', note: 'Heb 11:3: framed by the word of God — same creative speech.' },
+      {
+        term: 'created',
+        original: 'בָּרָא',
+        translit: 'baraʾ',
+        gloss: 'to create out of nothing (used only of God)',
+        note: 'Distinct from yatsar (form) and asah (make). Absolute beginning.',
+        strongs: 'H1254',
+        exposition:
+          'In Genesis 1:1 בָּרָא (baraʾ, Qal perfect 3ms) takes God alone as subject and names the origin of “the heaven and the earth” without a pre-existing substrate. The verse is not a generic “making” (עָשָׂה, ʿasah) of already-present stuff, nor a craftsman’s forming (יָצַר, yatsar); it is the absolute beginning of the created order by a personal Speaker. John 1:3 then interprets that act through the Word: all things ἐγένετο (came into being) through Him, and χωρὶς αὐτοῦ not even one thing that has come into being came to be — so the Genesis verb’s God-only subject is identified as the Son without making the Son a creature.',
+      },
+      {
+        term: 'Word',
+        original: 'λόγος',
+        translit: 'logos',
+        gloss: 'word, reason, divine expression',
+        note: 'John 1:1 equates the creating speech of Gen 1 with a Person.',
+        strongs: 'G3056',
+        exposition:
+          'John opens Ἐν ἀρχῇ ἦν ὁ Λόγος — “In the beginning the Word already was.” The imperfect ἦν (continuous existence) stands against ἐγένετο (came to be) used of creation. The Word was πρὸς τὸν Θεόν (face-to-face with God) and Θεὸς ἦν ὁ Λόγος (the Word was God). This is not the impersonal Stoic logos of cosmic reason, nor a mere uttered sound from Genesis 1; it is the personal divine Speech who was already there when Moses’ “beginning” occurred, and through whom (δι’ αὐτοῦ) the Genesis creation took place. Hebrews 11:3’s ῥήματι Θεοῦ (by the word of God) is the same creative utterance now named as this Person.',
+      },
+      {
+        term: 'worlds',
+        original: 'αἰῶνας',
+        translit: 'aiōnas',
+        gloss: 'ages / worlds',
+        note: 'Heb 11:3: framed by the word of God — same creative speech.',
+        strongs: 'G165',
+        exposition:
+          'Hebrews 11:3 says τοὺς αἰῶνας κατηρτίσθαι ῥήματι Θεοῦ — the ages/worlds were framed (perfect passive of καταρτίζω: fitted, ordered, put in working order) by God’s spoken utterance, εἰς τὸ μὴ ἐκ φαινομένων τὰ βλεπόμενα γεγονέναι (so that what is seen has not come from things that appear). In this thread the phrase is not a philosophical footnote on “ages” in the abstract; it is the Genesis 1 cosmos and its successive ages viewed from the side of faith. The same Word John names as ὁ Λόγος is here the ῥῆμα that frames all that Moses said God created — so visible empires are less substantial than the unseen word that made them.',
+      },
     ],
   },
   'gen-1-3': {

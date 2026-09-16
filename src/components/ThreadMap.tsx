@@ -37,7 +37,7 @@ import {
   computeThreadLayout,
 } from './threadMapModel';
 import { cn } from '@/lib/utils';
-import { parsePersonalRelevance } from './HistoricalContextPage';
+import { parsePersonalRelevance, parseWho, WhoFacetsGrid } from './HistoricalContextPage';
 import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
 import {
   getChapterVersesFromLoaded,
@@ -2376,19 +2376,67 @@ export function ThreadMap({
                     );
                   })()
                 ) : dossierTab === 'who' ? (
+                  (() => {
+                    const parsedWho = !typing ? parseWho(activeEdge.interrogation.who) : null;
+                    return (
+                      <div
+                        onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                        className={cn("min-h-[3.4em] px-1", typing && "cursor-pointer")}
+                        title={typing ? "Click to reveal complete text immediately" : undefined}
+                      >
+                        <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold flex items-center gap-1.5" style={{ color: P.gold }}>
+                          <Users className="h-3 w-3" />
+                          <span>WHO: Authorship, Characters & Christological Identity</span>
+                        </div>
+                        {parsedWho ? (
+                          <WhoFacetsGrid facets={parsedWho} gold={P.gold} text={P.text} compact />
+                        ) : (
+                          <p className="text-[12.5px] leading-relaxed select-text" style={{ color: P.text }}>
+                            {typed}
+                            {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                          </p>
+                        )}
+                      </div>
+                    );
+                  })()
+                ) : dossierTab === 'how' ? (
                   <div
                     onClick={() => { if (typing) setTypedCount(narratedText.length); }}
                     className={cn("min-h-[3.4em] px-1", typing && "cursor-pointer")}
                     title={typing ? "Click to reveal complete text immediately" : undefined}
                   >
-                    <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold flex items-center gap-1.5" style={{ color: P.gold }}>
-                      <Users className="h-3 w-3" />
-                      <span>WHO: Authorship, Characters & Christological Identity</span>
+                    <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
+                      3. Exegesis & Hermeneutical Mechanics
                     </div>
-                    <p className="text-[12.5px] leading-relaxed select-text" style={{ color: P.text }}>
+                    <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
                       {typed}
                       {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
                     </p>
+                    {!typing && graph.terms && graph.terms.some(t => t.exposition) && (
+                      <ul className="mt-3 space-y-2">
+                        {graph.terms.filter(t => t.exposition).map((t, i) => (
+                          <li
+                            key={`${t.term}-${i}`}
+                            className="rounded-lg border px-2.5 py-2"
+                            style={{ borderColor: `${P.gold}28`, background: `${P.gold}08` }}
+                          >
+                            <div className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
+                              <span className="text-[12px] font-semibold" style={{ color: P.text }}>{t.term}</span>
+                              <span className="font-serif text-[13px]" style={{ color: P.gold }}>{t.original}</span>
+                              <span className="text-[11px] italic" style={{ color: P.dim }}>({t.translit})</span>
+                              {t.strongs && (
+                                <span className="font-mono text-[9px] tracking-wider" style={{ color: P.mute }}>
+                                  Strong's {t.strongs}
+                                </span>
+                              )}
+                            </div>
+                            <p className="text-[11.5px] leading-relaxed mt-1" style={{ color: P.text }}>
+                              {t.exposition}
+                            </p>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
                   </div>
                 ) : (
                   <div
@@ -2455,10 +2503,18 @@ export function ThreadMap({
                     </button>
                   </div>
                 </div>
-                <p className="font-serif text-[13px] leading-relaxed min-h-[2.8em] select-text" style={{ color: P.text }}>
-                  {typed}
-                  {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                </p>
+                {(() => {
+                  const parsedSourceWho =
+                    dossierTab === 'who' && !typing && sourceNode.who ? parseWho(sourceNode.who) : null;
+                  return parsedSourceWho ? (
+                    <WhoFacetsGrid facets={parsedSourceWho} gold={P.gold} text={P.text} compact />
+                  ) : (
+                    <p className="font-serif text-[13px] leading-relaxed min-h-[2.8em] select-text" style={{ color: P.text }}>
+                      {typed}
+                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                    </p>
+                  );
+                })()}
               </div>
             )}
 
@@ -2572,7 +2628,14 @@ export function ThreadMap({
                   <Users className="h-3.5 w-3.5" />
                   <span>WHO: Authorship, Characters & Christological Identity</span>
                 </div>
-                <p style={{ color: P.dim }}>{activeEdge.interrogation.who}</p>
+                {(() => {
+                  const parsedWho = parseWho(activeEdge.interrogation.who);
+                  return parsedWho ? (
+                    <WhoFacetsGrid facets={parsedWho} gold={P.gold} text={P.text} />
+                  ) : (
+                    <p style={{ color: P.dim }}>{activeEdge.interrogation.who}</p>
+                  );
+                })()}
               </div>
 
               {/* What */}

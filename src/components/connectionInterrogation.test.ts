@@ -1,4 +1,6 @@
 import { describe, expect, it } from 'vitest';
+import { createElement } from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
 import {
   getConnectionInterrogation,
   generateConnectionInterrogation,
@@ -13,8 +15,10 @@ import {
   findEraForBook,
   getAllHistoricalConnections,
 } from '../data/historicalContextData';
+import { getThreadDetail } from '../data/threadDetails';
 import { buildThreadGraph } from './threadMapModel';
-import { parsePersonalRelevance } from './HistoricalContextPage';
+import { parsePersonalRelevance, parseWho } from './HistoricalContextPage';
+import { ThreadExplanation } from './ThreadExplanation';
 
 describe('Connection Interrogation Architecture', () => {
   it('correctly retrieves curated interrogation for Genesis 1:1 -> John 1:1-3 with Christ as Creative Agent', () => {
@@ -745,5 +749,102 @@ describe('Thread Graph Model Integration', () => {
     expect(twoAdams.how).toContain('eschatos Adam');
     expect(twoAdams.how).toContain('πνεῦμα ζῳοποιοῦν');
     expect(twoAdams.how).toContain('pneuma zōopoioun');
+  });
+});
+
+const GENERIC_SOURCE_WHO = 'the recipients of divine revelation';
+const GOLDEN_ANCHORS = ['gen-1-1', 'zec-9-9', 'exo-12-46'] as const;
+const GOLDEN_LIVE_REFS: Record<(typeof GOLDEN_ANCHORS)[number], string[]> = {
+  'gen-1-1': ['John 1:1-3', 'Hebrews 11:3'],
+  'zec-9-9': ['Matthew 21:5', 'John 12:15', 'Mark 11:7', 'Luke 19:38'],
+  'exo-12-46': ['John 19:36', 'Numbers 9:12'],
+};
+
+describe('Phase 1 golden Who facets', () => {
+  it('parses structured Who prose into wrote / identified / singular|many / about+why', () => {
+    const sample =
+      'Authorship & Context: Moses wrote Genesis. Identified Characters: The Father, the Son, and the Spirit. Singular or Many: Many. Three persons, one God. Christological Subject & Referent: Jesus Christ the Word. Redemptive Purpose: To name the Creator as Redeemer.';
+    const parsed = parseWho(sample);
+    expect(parsed).not.toBeNull();
+    expect(parsed?.wrote).toBe('Moses wrote Genesis.');
+    expect(parsed?.identified).toBe('The Father, the Son, and the Spirit.');
+    expect(parsed?.number).toBe('many');
+    expect(parsed?.numberText).toContain('Three persons');
+    expect(parsed?.aboutWhy).toContain('Jesus Christ the Word');
+    expect(parsed?.aboutWhy).toContain('To name the Creator as Redeemer.');
+
+    expect(parseWho('')).toBeNull();
+    expect(parseWho('Just some text without structured markers')).toBeNull();
+  });
+
+  it('locks authored Who facets on golden threads, with singular|many explicit and non-generic source Who', () => {
+    for (const id of GOLDEN_ANCHORS) {
+      const detail = getThreadDetail(id);
+      expect(detail, `missing ThreadDetail for ${id}`).toBeTruthy();
+      expect(detail!.who, `${id} missing authored source Who`).toBeTruthy();
+      expect(detail!.who).not.toContain(GENERIC_SOURCE_WHO);
+
+      const sourceFacets = parseWho(detail!.who!);
+      expect(sourceFacets, `${id} source Who did not parse`).not.toBeNull();
+      expect(sourceFacets!.wrote.length).toBeGreaterThan(20);
+      expect(sourceFacets!.identified.length).toBeGreaterThan(10);
+      expect(sourceFacets!.number).toMatch(/^(singular|many)$/);
+      expect(sourceFacets!.numberText.length).toBeGreaterThan(8);
+      expect(sourceFacets!.aboutWhy.length).toBeGreaterThan(20);
+
+      for (const ref of GOLDEN_LIVE_REFS[id]) {
+        const edgeWho = detail!.whoByRef?.[ref];
+        expect(edgeWho, `${id} missing authored Who for ${ref}`).toBeTruthy();
+        expect(edgeWho).not.toContain(GENERIC_SOURCE_WHO);
+        const edgeFacets = parseWho(edgeWho!);
+        expect(edgeFacets, `${id} → ${ref} Who did not parse`).not.toBeNull();
+        expect(edgeFacets!.number).toMatch(/^(singular|many)$/);
+        expect(edgeFacets!.numberText.length).toBeGreaterThan(8);
+      }
+    }
+
+    const genJohn = parseWho(CURATED_INTERROGATIONS['gen-1-1_John 1:1-3'].who);
+    expect(genJohn?.number).toBe('many');
+    const paschal = parseWho(CURATED_INTERROGATIONS['exo-12-46_John 19:36'].who);
+    expect(paschal?.number).toBe('singular');
+  });
+
+  it('puts Singular or Many on generated fallback Who so the facet parser can run', () => {
+    const generated = generateConnectionInterrogation({
+      anchorId: 'psa-22-1',
+      anchorRef: 'Psalm 22:1',
+      targetRef: 'Matthew 27:46',
+      anchorVerseText: 'My God, my God, why hast thou forsaken me?',
+      targetVerseText: 'My God, my God, why hast thou forsaken me?',
+    });
+    const parsed = parseWho(generated.who);
+    expect(parsed).not.toBeNull();
+    expect(parsed?.number).toBe('many');
+  });
+});
+
+describe('Phase 1 golden original-language exposition', () => {
+  it('requires contextual exposition (not gloss-only) on golden path terms', () => {
+    for (const id of GOLDEN_ANCHORS) {
+      const detail = getThreadDetail(id);
+      expect(detail!.terms.length).toBeGreaterThan(0);
+      for (const term of detail!.terms) {
+        expect(term.exposition, `${id} term "${term.term}" missing exposition`).toBeTruthy();
+        expect(term.exposition!.length).toBeGreaterThan(term.gloss.length);
+        expect(term.exposition).not.toBe(term.gloss);
+        expect(term.strongs, `${id} term "${term.term}" missing Strong's`).toMatch(/^[HG]\d+/);
+      }
+    }
+  });
+
+  it('renders contextual exposition in ThreadExplanation for golden path terms', () => {
+    const detail = getThreadDetail('gen-1-1');
+    expect(detail).toBeTruthy();
+    const html = renderToStaticMarkup(
+      createElement(ThreadExplanation, { verseId: 'gen-1-1', detail })
+    );
+    expect(html).toContain('baraʾ');
+    expect(html).toContain(detail!.terms[0].exposition!);
+    expect(html).toContain("Strong's H1254");
   });
 });

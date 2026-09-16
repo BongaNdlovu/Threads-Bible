@@ -151,8 +151,16 @@ export function ThreadExplanation({
                   <span className="text-sm font-semibold text-foreground">{t.term}</span>
                   <span className="font-serif text-base text-accent">{t.original}</span>
                   <span className="text-xs italic text-foreground/55">({t.translit})</span>
+                  {t.strongs && (
+                    <span className="text-[10px] font-mono uppercase tracking-wider text-foreground/40">
+                      Strong's {t.strongs}
+                    </span>
+                  )}
                 </div>
                 <div className="text-sm text-foreground/75 mt-1">{t.gloss}</div>
+                {t.exposition && (
+                  <div className="text-xs text-foreground/70 mt-2 leading-relaxed">{t.exposition}</div>
+                )}
                 {t.note && (
                   <div className="text-xs text-foreground/50 mt-1 leading-relaxed">{t.note}</div>
                 )}
