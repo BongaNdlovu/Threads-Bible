@@ -8,7 +8,7 @@ export function Footer() {
         <span className="text-[9px] uppercase tracking-widest font-bold opacity-30">Translation: KJV</span>
         <span className="text-[9px] uppercase tracking-widest font-bold opacity-30">Full Bible · 66 Books</span>
         <span className="text-[9px] uppercase tracking-widest font-bold opacity-30 hidden lg:inline">
-          J/K chapters · T threads · P split · E explanation · R reading-only · C grid · 1/2/3 fullscreen · / search · Esc close
+          J/K chapters · T threads · P split · E map · R reading-only · C grid · 1/2 fullscreen · / search · Esc close
         </span>
       </div>
       <div className="flex items-center gap-4">

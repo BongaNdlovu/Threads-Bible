@@ -14,6 +14,7 @@ interface ThreadDetailApi {
   getThreadDetail(verseId: string): ThreadDetail | null;
   getChainForVerse(verseId: string): ThreadChain | null;
   getChainById(chainId: string): ThreadChain | null;
+  getAllThreadDetails(): Record<string, ThreadDetail>;
 }
 
 const apiDataset = createDeferredDataset<ThreadDetailApi>(async () => {
@@ -22,11 +23,16 @@ const apiDataset = createDeferredDataset<ThreadDetailApi>(async () => {
     getThreadDetail: m.getThreadDetail,
     getChainForVerse: m.getChainForVerse,
     getChainById: m.getChainById,
+    getAllThreadDetails: m.getAllThreadDetails,
   };
 });
 
 export function getThreadDetail(verseId: string): ThreadDetail | null {
   return apiDataset.get()?.getThreadDetail(verseId) ?? null;
+}
+
+export function getAllThreadDetails(): Record<string, ThreadDetail> {
+  return apiDataset.get()?.getAllThreadDetails() ?? {};
 }
 
 export function getChainForVerse(verseId: string): ThreadChain | null {

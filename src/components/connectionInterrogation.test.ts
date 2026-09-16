@@ -93,9 +93,9 @@ describe('Connection Interrogation Architecture', () => {
     expect(inter.what).toContain('Psalm 22:1');
     expect(inter.what).toContain('Matthew 27:46');
     expect(inter.when).toContain('Old Testament');
-    expect(inter.how).toContain('Christological');
+    expect(inter.how).toContain('prophecy fulfilled');
     expect(inter.why).toContain('The righteous sufferer cry is fulfilled on Calvary.');
-    expect(inter.ultimatePoint).toContain('Jesus Christ is the ultimate fulfillment');
+    expect(inter.ultimatePoint).toContain('Jesus is the fulfillment');
     expect(inter.personalRelevance).toContain('Why you need to know this');
     expect(inter.personalRelevance).toContain('What it does for you');
     expect(inter.personalRelevance).toContain('Relationship with Jesus');
@@ -119,9 +119,9 @@ describe('Connection Interrogation Architecture', () => {
     });
 
     // Should be Mode 1 (OT -> NT), not Mode 4 (OT -> OT)
-    expect(inter.what).toContain('Old Testament foundation');
-    expect(inter.what).toContain('New Testament culmination');
-    expect(inter.when).toContain('apostolic New Testament era');
+    expect(inter.what).toContain('makes a promise');
+    expect(inter.what).toContain('shows it happening');
+    expect(inter.when).toContain('New Testament era');
     expect(inter.historicalContext?.fulfillmentAuthor).toContain('Apostle John');
   });
 
@@ -159,12 +159,12 @@ describe('Connection Interrogation Architecture', () => {
       targetVerseText: 'And it shall come to pass afterward, that I will pour out my spirit upon all flesh...',
     });
 
-    expect(inter.what).toContain('Apostolic retrospective');
+    expect(inter.what).toContain('stands on the foundation of');
     expect(inter.what).toContain('Acts 2:16');
     expect(inter.what).toContain('Joel 2:28');
-    expect(inter.when).toContain('Apostolic Retrospective');
-    expect(inter.how).toContain('apostolic hermeneutics');
-    expect(inter.ultimatePoint).toContain('anchored in the historic bedrock of Old Testament revelation');
+    expect(inter.when).toContain('first century');
+    expect(inter.how).toContain('quotation and explanation');
+    expect(inter.ultimatePoint).toContain('promised it, the prophets wrote it, and Jesus fulfilled it');
     expect(inter.historicalContext?.redemptiveBridge).toContain('Reconnecting the apostolic proclamation');
   });
 });
@@ -252,8 +252,8 @@ describe('Historical Context Dataset', () => {
       anchorVerseText: 'And I will put enmity...',
       targetVerseText: 'For this purpose the Son of God was manifested...',
     });
-    expect(otToNt.what).toContain('Old Testament foundation');
-    expect(otToNt.when).toContain('apostolic New Testament era');
+    expect(otToNt.what).toContain('makes a promise');
+    expect(otToNt.when).toContain('New Testament era');
     expect(otToNt.personalRelevance).toContain('Why you need to know this');
     expect(otToNt.personalRelevance).toContain('What it does for you');
     expect(otToNt.personalRelevance).toContain('Relationship with Jesus');
@@ -266,8 +266,8 @@ describe('Historical Context Dataset', () => {
       anchorVerseText: 'This is that which was spoken...',
       targetVerseText: 'I will pour out my spirit...',
     });
-    expect(ntToOt.what).toContain('Apostolic retrospective');
-    expect(ntToOt.when).toContain('Apostolic Retrospective');
+    expect(ntToOt.what).toContain('stands on the foundation of');
+    expect(ntToOt.when).toContain('first century');
     expect(ntToOt.personalRelevance).toContain('Why you need to know this');
     expect(ntToOt.personalRelevance).toContain('What it does for you');
     expect(ntToOt.personalRelevance).toContain('Relationship with Jesus');
@@ -280,8 +280,8 @@ describe('Historical Context Dataset', () => {
       anchorVerseText: 'For by grace are ye saved through faith...',
       targetVerseText: 'Being justified freely by his grace...',
     });
-    expect(ntToNt.what).toContain('Apostolic doctrinal consistency');
-    expect(ntToNt.when).toContain('Apostolic Era (1st Century AD)');
+    expect(ntToNt.what).toContain('teach the same truth');
+    expect(ntToNt.when).toContain('first century AD');
     expect(ntToNt.personalRelevance).toContain('Why you need to know this');
     expect(ntToNt.personalRelevance).toContain('What it does for you');
     expect(ntToNt.personalRelevance).toContain('Relationship with Jesus');
@@ -294,8 +294,8 @@ describe('Historical Context Dataset', () => {
       anchorVerseText: 'And he believed in the LORD...',
       targetVerseText: 'The just shall live by his faith.',
     });
-    expect(otToOt.what).toContain('Canonical progression within the Hebrew Scriptures');
-    expect(otToOt.when).toContain('Old Testament Theocratic Era');
+    expect(otToOt.what).toContain('plants it');
+    expect(otToOt.when).toContain('Old Testament story of Israel');
     expect(otToOt.personalRelevance).toContain('Why you need to know this');
     expect(otToOt.personalRelevance).toContain('What it does for you');
     expect(otToOt.personalRelevance).toContain('Relationship with Jesus');

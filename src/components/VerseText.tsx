@@ -2,11 +2,8 @@ import { Verse } from '../data/types';
 import { useStore } from '../store/useStore';
 import { cn } from '@/lib/utils';
 import React, { useState, useRef, useEffect } from 'react';
-import { Bookmark, Link as LinkIcon, Copy, Check, Palette, BookOpen, Quote, Sparkles, Network, ScrollText } from 'lucide-react';
-import { getCitationsForVerse } from '../data/tier2NtCitations';
-import { getMessianicPropheciesForVerse } from '../data/tier3Messianic';
-import { getMasterChainsForVerse } from '../data/crossRefService';
-import { getSymbolsForVerse, getTypesForVerse, getSymbolKeywordsForVerse } from '../data/symbolsTypes';
+import { Bookmark, Link as LinkIcon, Copy, Check, Palette, BookOpen } from 'lucide-react';
+import { getSymbolKeywordsForVerse } from '../data/symbolsTypes';
 
 const HL_COLORS = {
   yellow: 'bg-yellow-200/60 dark:bg-yellow-400/20',
@@ -94,7 +91,7 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
     highlightFromThread,
     userHighlights,
     toggleUserHighlight,
-    setThreadMapOpen,
+    setThreadPaneOpen,
     focusPane,
     setFocusPane,
   } = useStore();
@@ -114,12 +111,6 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
   const isLinkingSource = linkingState.sourceVerseId === verse.id;
   const userHl = userHighlights[verse.id];
 
-  const citations = getCitationsForVerse(verse.id);
-  const messianicProphecies = getMessianicPropheciesForVerse(verse.id);
-  const masterChains = getMasterChainsForVerse(verse.id);
-  const symbols = getSymbolsForVerse(verse.id);
-  const types = getTypesForVerse(verse.id);
-  const isSymbol = symbols.length > 0 || types.length > 0;
   const symbolKeywords = getSymbolKeywordsForVerse(verse.id);
 
   const threadKeywords = highlightFromThread ? highlightFromThread[verse.id] : undefined;
@@ -145,19 +136,20 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
     }
 
     if (verse.isThread) {
-      // Thread verses open straight into the Ordo mindmap page.
+      // Threads-first flow: a thread verse opens the split screen (source |
+      // connected verses). The Ordo map is one button away from the split.
       if (focusPane === 'reading') setFocusPane(null);
       setSelectedThread(verse);
-      setThreadMapOpen(true);
+      setThreadPaneOpen(true);
     } else {
       setSelectedMarginVerse(verse);
       setShowActions(a => !a);
     }
   };
 
-  const handleOpenMargin = (e: React.MouseEvent, tab?: string) => {
+  const handleOpenMargin = (e: React.MouseEvent) => {
     e.stopPropagation();
-    setSelectedMarginVerse(verse, tab);
+    setSelectedMarginVerse(verse);
   };
 
   const handleBookmarkClick = (e: React.MouseEvent) => {
@@ -180,9 +172,6 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
   };
 
   const isSelectedMargin = selectedMarginVerse?.id === verse.id;
-  // Every verse tied to a Jesus Christ thread (Messianic prophecy source or NT
-  // fulfillment) is highlighted light red, instead of the default accent.
-  const isMessianic = messianicProphecies.length > 0;
 
   return (
     <span
@@ -191,16 +180,8 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
       className={cn(
         'cursor-pointer transition-colors duration-200 group/verse',
         verse.isThread
-          ? isMessianic
-            ? 'border-b-2 border-dashed border-red-300/70 bg-red-100/50 py-1 px-1 dark:border-red-400/40 dark:bg-red-400/10'
-            : isSymbol
-              ? 'border-b-2 border-dashed border-yellow-400/70 bg-yellow-100/60 py-1 px-1 dark:border-yellow-400/40 dark:bg-yellow-400/15'
-              : 'border-b-2 border-dashed border-accent/40 bg-accent/5 py-1 px-1'
-          : isMessianic
-            ? 'border-b-2 border-dashed border-red-300/60 bg-red-100/40 py-1 px-1 dark:border-red-400/35 dark:bg-red-400/10'
-            : isSymbol
-              ? 'border-b-2 border-dashed border-yellow-300/70 bg-yellow-100/45 py-1 px-1 dark:border-yellow-400/35 dark:bg-yellow-400/15'
-              : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
+          ? 'border-b-2 border-dashed border-accent/50 bg-accent/[0.06] py-1 px-1 hover:bg-accent/[0.12]'
+          : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
         isSelectedMargin && 'ring-2 ring-accent/70 bg-accent/15 rounded-sm',
         isLinkingSource && 'ring-2 ring-accent ring-offset-2 ring-offset-background rounded-sm',
         userHl && HL_COLORS[userHl]
@@ -232,70 +213,21 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         )}
       </span>
 
-      {/* Margin / TSK Cross Reference Button */}
+      {/* The single Study affordance — opens the margin (TSK, citations,
+          Messianic, chains, symbols, links, notes all live there). */}
       <span
-        onClick={e => handleOpenMargin(e, 'tsk')}
-        title="Open TSK Cross-References & Study Margin"
+        onClick={handleOpenMargin}
+        title="Study this verse — margin, cross-references & notes"
         className="inline-flex items-center align-middle mr-1 cursor-pointer opacity-20 hover:opacity-100 hover:text-accent text-foreground transition-opacity"
       >
         <BookOpen className="w-[13px] h-[13px]" />
       </span>
 
-      {/* Tier 2: Apostolic Citation Badge */}
-      {citations.length > 0 && (
-        <span
-          onClick={e => handleOpenMargin(e, 'citations')}
-          title={`Tier 2: ${citations.length} Apostolic NT Citation/Allusion`}
-          className="inline-flex items-center align-middle mr-1 cursor-pointer text-amber-500 hover:text-amber-600 dark:text-amber-400"
-        >
-          <Quote className="w-[13px] h-[13px]" />
-        </span>
-      )}
-
-      {/* Tier 3: Messianic Prophecy Badge (Jesus Christ thread — light red) */}
-      {messianicProphecies.length > 0 && (
-        <span
-          onClick={e => handleOpenMargin(e, 'messianic')}
-          title={`Tier 3: Messianic Prophecy - ${messianicProphecies[0].title}`}
-          className="inline-flex items-center align-middle mr-1 cursor-pointer text-red-400 hover:text-red-500 dark:text-red-300 dark:hover:text-red-200"
-        >
-          <Sparkles className="w-[13px] h-[13px]" />
-        </span>
-      )}
-
-      {/* Tier 4: Master Canonical Chain Badge */}
-      {masterChains.length > 0 && (
-        <span
-          onClick={e => handleOpenMargin(e, 'chains')}
-          title={`Tier 4: Part of ${masterChains.length} Master Redemptive Chains`}
-          className="inline-flex items-center align-middle mr-1 cursor-pointer text-indigo-500 hover:text-indigo-600 dark:text-indigo-400"
-        >
-          <Network className="w-[13px] h-[13px]" />
-        </span>
-      )}
-
-      {/* Symbols & Types Badge (Light yellow) */}
-      {isSymbol && (
-        <span
-          onClick={e => handleOpenMargin(e, 'symbols')}
-          title={`Symbols & Types: ${symbols.length} Symbol${symbols.length === 1 ? '' : 's'}${types.length > 0 ? `, ${types.length} Type${types.length === 1 ? '' : 's'}` : ''}`}
-          className="inline-flex items-center align-middle mr-1 cursor-pointer text-yellow-600 hover:text-yellow-700 dark:text-yellow-400 dark:hover:text-yellow-300"
-        >
-          <ScrollText className="w-[13px] h-[13px]" />
-        </span>
-      )}
-
       {showVerseNumbers && (
         <sup
           className={cn(
             'font-sans font-bold pr-1 text-[10px] select-none',
-            isMessianic
-              ? 'text-red-500 dark:text-red-300'
-              : isSymbol
-                ? 'text-yellow-600 dark:text-yellow-400'
-                : verse.isThread
-                  ? 'text-accent'
-                  : 'opacity-50'
+            verse.isThread ? 'text-accent' : 'opacity-50'
           )}
         >
           {verse.verseNumber}

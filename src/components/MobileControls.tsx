@@ -8,6 +8,9 @@ import {
   Sun,
   Hash,
   ListTree,
+  Landmark,
+  BookMarked,
+  Clock,
   AlignLeft,
   AlignCenter,
   BookOpen,
@@ -36,6 +39,9 @@ export function MobileControls() {
     toggleVerseNumbers,
     setThreadsPanelOpen,
     setChapterGridOpen,
+    setHistoricalContextOpen,
+    setLexiconOpen,
+    setProphecyOpen,
     recentReadings,
     setReadingLocation,
     textAlign,
@@ -178,6 +184,36 @@ export function MobileControls() {
             >
               <ListTree className="h-4 w-4" />
               Threads
+            </button>
+            <button
+              onClick={() => {
+                setHistoricalContextOpen(true);
+                setMobileControlsOpen(false);
+              }}
+              className="h-11 rounded-xl bg-foreground/5 flex items-center justify-center gap-2 text-sm font-medium"
+            >
+              <Landmark className="h-4 w-4" />
+              History
+            </button>
+            <button
+              onClick={() => {
+                setLexiconOpen(true);
+                setMobileControlsOpen(false);
+              }}
+              className="h-11 rounded-xl bg-foreground/5 flex items-center justify-center gap-2 text-sm font-medium"
+            >
+              <BookMarked className="h-4 w-4" />
+              Lexicon
+            </button>
+            <button
+              onClick={() => {
+                setProphecyOpen(true);
+                setMobileControlsOpen(false);
+              }}
+              className="h-11 rounded-xl bg-foreground/5 flex items-center justify-center gap-2 text-sm font-medium"
+            >
+              <Clock className="h-4 w-4" />
+              Prophecy
             </button>
             <button
               onClick={() => {

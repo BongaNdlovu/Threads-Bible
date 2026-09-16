@@ -164,13 +164,13 @@ assert(statsAfterTouch.size === 10, 'Cache size remains 10 after touching existi
 console.log('\n=== 7. Testing Store State Integrity & Margin-Preserving Navigation ===');
 import { useStore } from '../src/store/useStore';
 
-// Test openThreadPanelWithTab integrity
+// Test openThreadPanelWithTab integrity (chains/beliefs/lde/symbols tabs were
+// folded into the study pages — master plan WP-3, operator decision D4)
 const store = useStore.getState();
-store.openThreadPanelWithTab('chains', 'heavenly-sanctuary');
+store.openThreadPanelWithTab('chapter');
 const afterOpen = useStore.getState();
 assert(afterOpen.threadsPanelOpen === true, 'Thread panel is open');
-assert(afterOpen.threadPanelTab === 'chains', 'Thread panel tab is "chains"');
-assert(afterOpen.selectedChainId === 'heavenly-sanctuary', 'selectedChainId is "heavenly-sanctuary"');
+assert(afterOpen.threadPanelTab === 'chapter', 'Thread panel tab is "chapter"');
 assert(afterOpen.selectedThread === null, 'selectedThread is untouched (not corrupted)');
 
 // Test navigateToVerse with preserveMargin

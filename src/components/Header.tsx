@@ -1,6 +1,7 @@
 import { useStore, getAvailableChapters, getMaxChapter } from '../store/useStore';
 import {
   BookOpen,
+  BookMarked,
   ChevronDown,
   ChevronLeft,
   ChevronRight,
@@ -10,6 +11,7 @@ import {
   Grid3x3,
   ListTree,
   Columns2,
+  Clock,
   Landmark,
   SlidersHorizontal,
   History,
@@ -53,6 +55,10 @@ export function Header() {
     threadPaneOpen,
     historicalContextOpen,
     setHistoricalContextOpen,
+    lexiconOpen,
+    setLexiconOpen,
+    prophecyOpen,
+    setProphecyOpen,
     recentReadings,
     textAlign,
     toggleTextAlign,
@@ -263,6 +269,30 @@ export function Header() {
           }`}
         >
           <Landmark className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => setLexiconOpen(!lexiconOpen)}
+          aria-label={lexiconOpen ? 'Close Lexicon' : 'Open the Hebrew & Greek Lexicon'}
+          title="Hebrew & Greek Lexicon — every original word behind the threads"
+          className={`h-8 w-8 rounded-full flex items-center justify-center transition-colors cursor-pointer shrink-0 ${
+            lexiconOpen
+              ? 'bg-accent/15 text-accent'
+              : 'bg-foreground/5 hover:bg-foreground/10 text-foreground/70 hover:text-foreground'
+          }`}
+        >
+          <BookMarked className="h-4 w-4" />
+        </button>
+        <button
+          onClick={() => setProphecyOpen(!prophecyOpen)}
+          aria-label={prophecyOpen ? 'Close Prophecy page' : 'Open Prophecy & Last-Day Events'}
+          title="Prophecy & Last-Day Events — timeline, symbols, and types"
+          className={`h-8 w-8 rounded-full flex items-center justify-center transition-colors cursor-pointer shrink-0 ${
+            prophecyOpen
+              ? 'bg-accent/15 text-accent'
+              : 'bg-foreground/5 hover:bg-foreground/10 text-foreground/70 hover:text-foreground'
+          }`}
+        >
+          <Clock className="h-4 w-4" />
         </button>
         <button
           onClick={toggleThreadPane}

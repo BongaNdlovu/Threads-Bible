@@ -4,7 +4,7 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sh
 import { Drawer, DrawerContent, DrawerHeader, DrawerTitle } from '@/components/ui/drawer';
 import { useMediaQuery } from '../hooks/use-media-query';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { LinkIcon, Trash2, BookOpen, Quote, Sparkles, Network, ScrollText, ExternalLink, ArrowRight, X, ChevronRight } from 'lucide-react';
+import { LinkIcon, Trash2, BookOpen, Quote, Sparkles, Network, ScrollText, ArrowRight, X, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { parseRef, BOOK_BY_NAME, expandVerseRange } from '../data/library';
 import {
@@ -36,7 +36,6 @@ export function TheMargin() {
     links,
     removeLink,
     navigateToVerse,
-    openThreadPanelWithTab,
     showNotice,
   } = useStore();
   const isDesktop = useMediaQuery('(min-width: 768px)');
@@ -177,11 +176,6 @@ export function TheMargin() {
       startLinking(selectedMarginVerse.id);
       setSelectedMarginVerse(null);
     }
-  };
-
-  const handleOpenChain = (chain: MasterChain) => {
-    openThreadPanelWithTab('chains', chain.id);
-    setSelectedMarginVerse(null);
   };
 
   const handleNavigateRef = (refStr: string, targetTab?: string) => {
@@ -569,16 +563,6 @@ export function TheMargin() {
                         ))}
                       </div>
                     </div>
-
-                    <Button
-                      onClick={() => handleOpenChain(chain)}
-                      variant="outline"
-                      size="sm"
-                      className="w-full gap-2 text-xs font-sans mt-2 cursor-pointer"
-                    >
-                      <ExternalLink className="h-3.5 w-3.5" />
-                      <span>Open Master Timeline in Thread Pane</span>
-                    </Button>
                   </div>
                 ))}
               </div>

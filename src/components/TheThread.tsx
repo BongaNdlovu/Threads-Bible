@@ -10,10 +10,9 @@ import type { Verse } from '../data/types';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
 import { ZenReader } from './ZenReader';
-import { ThreadExplanation } from './ThreadExplanation';
 import { DataChunkErrorCard } from './DataChunkErrorCard';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
-import { X, BookOpen, Columns2 } from 'lucide-react';
+import { X, BookOpen, Columns2, Waypoints } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import {
   ResizablePanelGroup,
@@ -24,12 +23,9 @@ import { cn } from '@/lib/utils';
 
 export function TheThread({
   embedded = false,
-  explanationOnly = false,
 }: {
   /** Rendered inside a parent split (no outer chrome / full layout) */
   embedded?: boolean;
-  /** Only the explanation scroll area */
-  explanationOnly?: boolean;
 }) {
   const {
     selectedThread,
@@ -38,13 +34,11 @@ export function TheThread({
     setReadingLocation,
     setThreadPaneOpen,
     setThreadMapOpen,
-    setFocusPane,
-    explanationOpen,
     closeAllStudyPanes,
   } = useStore();
 
-  // Clicking a thread verse opens the map page; the split view is the
-  // classic side-by-side reading, reachable from the map's chrome.
+  // The split is scripture-only (operator decision D3): source | connected
+  // verses, with all explanation content living in the Ordo map.
   const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment'>('both');
 
   // Re-render when the lazily imported fulfillment / detail chunks arrive.
@@ -121,14 +115,6 @@ export function TheThread({
     setSelectedThread(null);
     setThreadPaneOpen(false);
   };
-
-  if (explanationOnly) {
-    return (
-      <div className="h-full overflow-y-auto bg-foreground/[0.02] px-6 md:px-8 py-6">
-        <ThreadExplanation verseId={selectedThread.id} detail={detail} />
-      </div>
-    );
-  }
 
   const sourceTitle = selectedThread?.book && selectedThread?.chapter
     ? `${selectedThread.book} ${selectedThread.chapter}`
@@ -258,7 +244,20 @@ export function TheThread({
     );
   };
 
-  // Embedded: source + fulfillment only (explanation is a sibling pane in App)
+  // The one bridge to deeper study (operator decision D3): the Ordo map holds
+  // the full How / Why / Jesus / Who / Your Life dossier for this thread.
+  const studyOnMapButton = (
+    <button
+      onClick={() => setThreadMapOpen(true)}
+      className="absolute bottom-5 left-1/2 -translate-x-1/2 z-30 h-9 px-4 rounded-full bg-accent text-accent-foreground shadow-lg hover:brightness-110 active:scale-95 transition-all flex items-center gap-2 text-xs font-semibold cursor-pointer"
+      title="Open the Ordo map — how and why these verses connect, the Jesus thread, the people, and your life"
+    >
+      <Waypoints className="w-4 h-4" />
+      <span>Study on the Map</span>
+    </button>
+  );
+
+  // Embedded: scripture-only split (source | fulfillment)
   if (embedded) {
     return (
       <div className="h-full w-full relative flex flex-col bg-background">
@@ -266,11 +265,12 @@ export function TheThread({
         <div className="flex-1 min-h-0">
           {renderSubPanes()}
         </div>
+        {studyOnMapButton}
       </div>
     );
   }
 
-  // Standalone full thread (mobile / unpinned): readers + explanation
+  // Standalone full thread (mobile / unpinned): scripture split + bridge button
   return (
     <div className="flex-1 w-full h-full relative bg-background flex flex-col">
       <div className="absolute top-3 right-3 z-50 flex items-center gap-1.5">
@@ -295,32 +295,8 @@ export function TheThread({
         </Button>
       </div>
 
-      <div className="flex-1 min-h-0 flex flex-col">
-        <div className={cn('flex-1 min-h-0', !explanationOpen && 'flex')}>
-          <ResizablePanelGroup direction="vertical" className="h-full">
-            <ResizablePanel defaultSize={explanationOpen ? 55 : 100} minSize={30}>
-              {renderSubPanes()}
-            </ResizablePanel>
-            {explanationOpen && (
-              <>
-                <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
-                <ResizablePanel defaultSize={45} minSize={15}>
-                  <div className="relative h-full min-h-0">
-                    <PaneChrome
-                      paneId="explanation"
-                      title="Explanation"
-                      onClose={() => useStore.getState().setExplanationOpen(false)}
-                    />
-                    <div className="h-full overflow-y-auto bg-foreground/[0.02] px-6 md:px-8 py-6">
-                      <ThreadExplanation verseId={selectedThread.id} detail={detail} />
-                    </div>
-                  </div>
-                </ResizablePanel>
-              </>
-            )}
-          </ResizablePanelGroup>
-        </div>
-      </div>
+      <div className="flex-1 min-h-0">{renderSubPanes()}</div>
+      {studyOnMapButton}
     </div>
   );
 }

@@ -19,6 +19,8 @@ import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import { initHashSync } from './hashSync';
 import { ThreadMapPage } from './components/ThreadMapPage';
 import { HistoricalContextPage } from './components/HistoricalContextPage';
+import { LexiconPage } from './components/LexiconPage';
+import { ProphecyPage } from './components/ProphecyPage';
 import {
   ResizablePanelGroup,
   ResizablePanel,
@@ -42,12 +44,12 @@ export default function App() {
     setFocusPane,
     threadPaneOpen,
     setThreadPaneOpen,
-    explanationOpen,
-    setExplanationOpen,
     notice,
     clearNotice,
     threadMapOpen,
     historicalContextOpen,
+    lexiconOpen,
+    prophecyOpen,
   } = useStore();
 
   useKeyboardShortcuts();
@@ -143,16 +145,6 @@ export default function App() {
         <main className="flex-1 w-full flex overflow-hidden relative">
           {focusPane === 'reading' && readingPane}
           {focusPane === 'thread' && selectedThread && threadPane}
-          {focusPane === 'explanation' && selectedThread && (
-            <div className="relative h-full min-h-0 flex flex-col w-full">
-              <PaneChrome
-                paneId="explanation"
-                title="Explanation"
-                onClose={() => setFocusPane(null)}
-              />
-              <TheThread explanationOnly />
-            </div>
-          )}
           {focusPane !== 'reading' && !selectedThread && (
             <div className="flex-1 flex items-center justify-center text-sm text-foreground/50">
               Open a thread first, or press Esc to return.
@@ -177,6 +169,16 @@ export default function App() {
         {historicalContextOpen && (
           <ErrorBoundary label="historical-context" fallback={appCrash}>
             <HistoricalContextPage />
+          </ErrorBoundary>
+        )}
+        {lexiconOpen && (
+          <ErrorBoundary label="lexicon" fallback={appCrash}>
+            <LexiconPage />
+          </ErrorBoundary>
+        )}
+        {prophecyOpen && (
+          <ErrorBoundary label="prophecy" fallback={appCrash}>
+            <ProphecyPage />
           </ErrorBoundary>
         )}
         </div>
@@ -206,26 +208,7 @@ export default function App() {
               </ResizablePanel>
               <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
               <ResizablePanel defaultSize={50} minSize={25}>
-                {explanationOpen ? (
-                  <ResizablePanelGroup direction="vertical" className="h-full w-full">
-                    <ResizablePanel defaultSize={55} minSize={25}>
-                      {threadPane}
-                    </ResizablePanel>
-                    <ResizableHandle withHandle className={RESIZE_HANDLE_CLASS} />
-                    <ResizablePanel defaultSize={45} minSize={15}>
-                      <div className="relative h-full min-h-0 overflow-hidden border-t border-foreground/10">
-                        <PaneChrome
-                          paneId="explanation"
-                          title="Explanation"
-                          onClose={() => setExplanationOpen(false)}
-                        />
-                        <TheThread explanationOnly />
-                      </div>
-                    </ResizablePanel>
-                  </ResizablePanelGroup>
-                ) : (
-                  threadPane
-                )}
+                {threadPane}
               </ResizablePanel>
             </ResizablePanelGroup>
           ) : selectedThread ? (
@@ -262,6 +245,16 @@ export default function App() {
         {historicalContextOpen && (
           <ErrorBoundary label="historical-context" fallback={appCrash}>
             <HistoricalContextPage />
+          </ErrorBoundary>
+        )}
+        {lexiconOpen && (
+          <ErrorBoundary label="lexicon" fallback={appCrash}>
+            <LexiconPage />
+          </ErrorBoundary>
+        )}
+        {prophecyOpen && (
+          <ErrorBoundary label="prophecy" fallback={appCrash}>
+            <ProphecyPage />
           </ErrorBoundary>
         )}
       </div>

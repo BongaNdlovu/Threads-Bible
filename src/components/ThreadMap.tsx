@@ -85,6 +85,13 @@ interface Palette {
   panelBg: string;
 }
 
+/**
+ * Map palettes. `gold`/`goldBright` are legacy field names for the SOURCE
+ * strand accent — per operator decision D2 they carry the brand BLUE
+ * (light `--accent` #3B82F6 / dark #60A5FA; bright variants for glow on each
+ * background). `steel` is the neutral CONNECTION strand (ink/gray). Keep the
+ * accent hexes in sync with index.css.
+ */
 const PALETTES: Record<MapTheme, Palette> = {
   dark: {
     bg: '#0B0B0D',
@@ -93,9 +100,9 @@ const PALETTES: Record<MapTheme, Palette> = {
     dim: 'rgba(166,161,150,.95)',
     mute: '#6E695F',
     border: 'rgba(234,230,218,.14)',
-    gold: '#C8A24B',
-    goldBright: '#E8CF8F',
-    steel: '#7FA0C4',
+    gold: '#60A5FA',
+    goldBright: '#93C5FD',
+    steel: '#9CA3AF',
     starRGBA: '234, 230, 218',
     starAlpha: 0.35,
     dossierBg: 'rgba(16,16,19,.95)',
@@ -111,9 +118,9 @@ const PALETTES: Record<MapTheme, Palette> = {
     dim: '#5A564E',
     mute: '#8A857B',
     border: 'rgba(44,44,44,.16)',
-    gold: '#A67C2E',
-    goldBright: '#8A6A24',
-    steel: '#3C5168',
+    gold: '#3B82F6',
+    goldBright: '#2563EB',
+    steel: '#6B7280',
     starRGBA: '44, 44, 44',
     starAlpha: 0.1,
     dossierBg: 'rgba(255,255,255,.95)',
@@ -1392,7 +1399,7 @@ export function ThreadMap({
                 onClick={() => handleCardClick(n.step)}
                 className={cn(
                   'absolute rounded-xl border backdrop-blur-[3px] transition-all duration-350 cursor-pointer select-text hover:shadow-lg',
-                  active ? 'ordo-breathe ring-1 ring-amber-400/50' : 'hover:-translate-y-1 hover:border-amber-400/40',
+                  active ? 'ordo-breathe ring-1 ring-accent/50' : 'hover:-translate-y-1 hover:border-accent/40',
                   isDimmed && 'opacity-25 filter grayscale'
                 )}
                 style={{
@@ -1423,7 +1430,7 @@ export function ThreadMap({
                   <span style={{ color }} className="font-semibold flex items-center gap-1">
                     ◆ {String(n.step).padStart(2, '0')}
                     {isMatched && (
-                      <span className="text-[8px] px-1 py-0.5 rounded uppercase font-bold tracking-normal bg-amber-500/20 text-amber-300 border border-amber-500/30">
+                      <span className="text-[8px] px-1 py-0.5 rounded uppercase font-bold tracking-normal bg-accent/20 text-accent border border-accent/30">
                         Match
                       </span>
                     )}
@@ -1969,7 +1976,7 @@ export function ThreadMap({
                 className="text-[10px] px-2 py-0.5 rounded border uppercase font-mono font-semibold shrink-0"
                 style={{ borderColor: `${P.gold}44`, background: `${P.gold}14`, color: P.gold }}
               >
-                {dossierTab === 'personal' ? 'Personal Life' : dossierTab === 'principle' ? 'Principle' : dossierTab}
+                {dossierTab === 'personal' ? 'Your Life' : dossierTab === 'principle' ? 'Principle' : dossierTab === 'ultimate' ? 'Jesus' : dossierTab}
               </span>
               <p className="text-xs truncate" style={{ color: P.dim }}>
                 {narratedText}
@@ -2072,7 +2079,7 @@ export function ThreadMap({
                       }}
                     >
                       <Sparkles className="h-3 w-3" />
-                      <span>{currentNode.kind === 'source' ? 'Principle' : 'Cumulative Principle'}</span>
+                      <span>{currentNode.kind === 'source' ? 'The thread begins' : `The thread so far · Step ${currentNode.step}`}</span>
                     </button>
                     <button
                       onClick={() => setDossierTab('ultimate')}
@@ -2085,7 +2092,7 @@ export function ThreadMap({
                       }}
                     >
                       <Sparkles className="h-3 w-3" />
-                      <span>Ultimate Point</span>
+                      <span>Jesus</span>
                     </button>
                     <button
                       onClick={() => setDossierTab('personal')}
@@ -2098,7 +2105,7 @@ export function ThreadMap({
                       }}
                     >
                       <Heart className="h-3 w-3" />
-                      <span>Personal Life</span>
+                      <span>Your Life</span>
                     </button>
                     <button
                       onClick={() => setDossierTab('who')}
@@ -2227,7 +2234,7 @@ export function ThreadMap({
                         <Heart className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
                         <div className="flex-1 min-w-0">
                           <div className="font-mono text-[9px] uppercase tracking-wider mb-1 font-bold" style={{ color: P.gold }}>
-                            Personal Relevance · Your Walk with Jesus
+                            Your Life
                           </div>
                           {parsed ? (
                             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-0.5">
@@ -2277,7 +2284,7 @@ export function ThreadMap({
                       >
                         <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold flex items-center gap-1.5" style={{ color: P.gold }}>
                           <Users className="h-3 w-3" />
-                          <span>WHO: Authorship, Characters & Christological Identity</span>
+                          <span>Who is involved</span>
                         </div>
                         {parsedWho ? (
                           <WhoFacetsGrid facets={parsedWho} gold={P.gold} text={P.text} compact />
@@ -2297,7 +2304,7 @@ export function ThreadMap({
                     title={typing ? "Click to reveal complete text immediately" : undefined}
                   >
                     <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
-                      3. Exegesis & Hermeneutical Mechanics
+                      How they connect
                     </div>
                     <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
                       {typed}
@@ -2336,9 +2343,9 @@ export function ThreadMap({
                     title={typing ? "Click to reveal complete text immediately" : undefined}
                   >
                     <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
-                      {dossierTab === 'what' && '1. Textual & Thematic Parallelism'}
-                      {dossierTab === 'when' && '2. Chronological Dating & Redemptive Horizons'}
-                      {dossierTab === 'why' && '4. Divine Purpose & Theological Necessity'}
+                      {dossierTab === 'what' && 'What it says'}
+                      {dossierTab === 'when' && 'When it happened'}
+                      {dossierTab === 'why' && 'Why God repeats it'}
                     </div>
                     <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
                       {typed}
@@ -2472,8 +2479,8 @@ export function ThreadMap({
                     <Sparkles className="h-3.5 w-3.5" />
                     <span>
                       {currentNode.kind === 'source'
-                        ? 'Foundational Thread Principle'
-                        : `Cumulative Thread Principle · Step ${currentNode.step} (${currentNode.step} Verses in Common)`}
+                        ? 'The thread begins'
+                        : `The thread so far · Step ${currentNode.step}`}
                     </span>
                   </div>
                   <p className="font-serif text-sm leading-relaxed select-text" style={{ color: P.text }}>
@@ -2486,7 +2493,7 @@ export function ThreadMap({
               <div className="p-4 rounded-xl border space-y-1.5" style={{ borderColor: P.gold, background: `${P.gold}14` }}>
                 <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
                   <Sparkles className="h-3.5 w-3.5" />
-                  <span>The Ultimate Redemptive Climax</span>
+                  <span>What this shows about Jesus</span>
                 </div>
                 <p className="font-serif text-sm font-semibold leading-relaxed" style={{ color: P.text }}>
                   {activeEdge.interrogation.ultimatePoint}
@@ -2500,7 +2507,7 @@ export function ThreadMap({
                   <div className="p-4 rounded-xl border space-y-3" style={{ borderColor: `${P.gold}66`, background: `${P.gold}0e` }}>
                     <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
                       <Heart className="h-3.5 w-3.5" />
-                      <span>Personal Relevance & Your Walk with Jesus</span>
+                      <span>Your Life</span>
                     </div>
                     {parsed ? (
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
@@ -2542,7 +2549,7 @@ export function ThreadMap({
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
                 <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
                   <Users className="h-3.5 w-3.5" />
-                  <span>WHO: Authorship, Characters & Christological Identity</span>
+                  <span>Who is involved</span>
                 </div>
                 {(() => {
                   const parsedWho = parseWho(activeEdge.interrogation.who);
@@ -2557,7 +2564,7 @@ export function ThreadMap({
               {/* What */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
                 <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
-                  1. WHAT: The Textual & Thematic Parallelism
+                  WHAT — what it says
                 </div>
                 <p style={{ color: P.dim }}>{activeEdge.interrogation.what}</p>
               </div>
@@ -2565,7 +2572,7 @@ export function ThreadMap({
               {/* When */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
                 <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
-                  2. WHEN: Chronological Dating & Redemptive Timeline
+                  WHEN — when it happened
                 </div>
                 <p style={{ color: P.dim }}>{activeEdge.interrogation.when}</p>
               </div>
@@ -2573,7 +2580,7 @@ export function ThreadMap({
               {/* How */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
                 <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
-                  3. HOW: Exegesis & Hermeneutical Mechanics
+                  HOW — how they connect
                 </div>
                 <p style={{ color: P.dim }}>{activeEdge.interrogation.how}</p>
               </div>
@@ -2581,7 +2588,7 @@ export function ThreadMap({
               {/* Why */}
               <div className="p-3.5 rounded-xl border space-y-1" style={{ borderColor: P.border, background: 'rgba(0,0,0,.04)' }}>
                 <div className="font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
-                  4. WHY: Divine Necessity & Theological Purpose
+                  WHY — why God repeats it
                 </div>
                 <p style={{ color: P.dim }}>{activeEdge.interrogation.why}</p>
               </div>

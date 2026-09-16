@@ -20,7 +20,8 @@ connection between verses. All naming follows this vocabulary:
 | **Messianic prophecy** | Specific OT→Christ prophecy with canonical fulfillments (data layer: "Tier 3") | `MESSIANIC_PROPHECIES`, `prophecyRef` field |
 | **(Master) chain** | Multi-step redemptive timeline across the canon (data layer: "Tier 4") | `MASTER_CHAINS`, `MasterChain` |
 | **Margin** | The per-verse side panel (Sheet on desktop, Drawer on mobile) | `TheMargin`, `selectedMarginVerse` |
-| **Threads panel** | The browse panel: chapter threads / chains / Messianic / beliefs / LDE tabs | `ThreadPanel`, `threadsPanelOpen` |
+| **Life Thread** | A theme from the 200-theme Jesus-centred topical catalogue (parallel layer, not a prophecy anchor) | `LifeThread`, `LIFE_THREADS` |
+| **Threads panel** | The browse panel: chapter threads + Life Threads tabs (chains/beliefs/LDE/symbols live on the study pages) | `ThreadPanel`, `threadsPanelOpen` |
 | **Link** | A user-created verse-to-verse connection (stored in IndexedDB) | `links`, `startLinking` |
 | **Verse id** | Canonical verse identifier everywhere: `<slug>-<chapter>-<verse>`, e.g. `gen-3-15`, `1sa-2-10`, `3jn-1-6` | — |
 | **Book slug** | 3-letter OSIS-like id from `bookRegistry.ts` (`gen exo … 1sa 2sa … joh … rev`) | `BOOK_REGISTRY` |
@@ -50,7 +51,7 @@ Legacy names that were **retired** in the 2026-09 unification:
 │  App.tsx ── layout: Header / ZenReader (reading) / TheThread (study) / TheMargin         │
 │    │                 │                       │                  │                        │
 │    │            SearchBar, Header      ThreadPanel,           per-verse tabs:           │
-│    │            MobileControls,        ThreadExplanation      TSK · Citations ·          │
+│    │            MobileControls,        (retired pane)           TSK · Citations ·          │
 │    │            ChapterGrid, Footer                           Messianic · Chains ·       │
 │    │                                                          Context · Links · Notes    │
 │  useStore.ts (Zustand) — all UI state; persists prefs/recents to localStorage             │
@@ -70,10 +71,16 @@ Legacy names that were **retired** in the 2026-09 unification:
    then `applyThreadsTo()` overlays `isThread: true` + `fulfillmentRefs` from
    the in-memory thread maps.
 3. The reading pane renders; thread verses get a dashed underline.
-4. Clicking a thread verse → `selectedThread` → `TheThread` shows source and
-   fulfillment side by side plus the `ThreadDetail` explanation.
-5. Clicking any verse's margin icon → `selectedMarginVerse` → `TheMargin`
-   loads TSK (async fetch), citations, Messianic, chains (synchronous maps).
+4. Clicking a thread verse → `selectedThread` + `threadPaneOpen` → the
+   **split screen** (source | connected verses, scripture only — threads-first
+   flow, operator decision D3). One "Study on the Map" button opens the Ordo
+   map, where the full connection dossier lives (What/When/How/Why/Jesus/
+   Who/Your Life, chain timeline, path terms). The standalone Explanation
+   pane was retired in the 2026-09 threads-first UI; `explanationOpen`
+   survives only as a legacy deep-link flag (hash `;x`) that no UI consumes.
+5. Clicking any verse's single Study affordance → `selectedMarginVerse` →
+   `TheMargin` loads TSK (async fetch), citations, Messianic, chains
+   (synchronous maps), symbols, plus notes/links.
 
 **Bundling**: the app shell + thread maps + tier 2/3/4 ship in the initial
 bundle (~920 KB / ~273 KB gzip). Four heavy datasets are code-split into
@@ -87,6 +94,7 @@ on first panel open — never blocking first paint):
 | `fundamentalBeliefs.ts` | 12 KB | first Threads-panel open |
 | `lastDayEvents.ts` | 11 KB | first Threads-panel open |
 | `symbolsTypes.ts` (symbols & types reference) | ~25 KB | first Threads-panel open |
+| `lifeThreads.ts` (Life Threads catalogue) | ~40 KB | first Threads-panel open |
 
 Book text and TSK data are lazily fetched from `public/`. TheThread additionally
 loads any book referenced by a thread's fulfillment refs on demand, so
@@ -142,6 +150,7 @@ controls sheet (mobile).
 | `src/data/tier4MasterChains.ts` | 42 master chains, 277 steps (hand-written) | no |
 | `src/data/fundamentalBeliefs.ts` | 28 beliefs with scripture anchors (hand-written) | no |
 | `src/data/lastDayEvents.ts` | 19 LDE phases across 6 eras (hand-written) | no |
+| `src/data/lifeThreads.ts` | Life Threads: 200-theme Jesus-centred catalogue, 18 domains (hand-written; lazy chunk via ThreadPanel) | no |
 | `src/data/crossRefService.ts` | TSK fetch/cache + tier getters | no |
 | `src/data/refParser.ts` | Human ref → verse ids (`parseRef`, `expandVerseRange`) | no |
 | `src/data/*Data.ts` (66 files) | Full KJV text as TS (script inputs only; NOT bundled) | **yes** — generator scripts |

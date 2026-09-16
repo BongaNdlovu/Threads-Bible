@@ -64,9 +64,9 @@ export const threadDetails: Record<string, ThreadDetail> = {
       'Hebrews 11:3': 'Authorship & Context: Moses recorded primeval history for Israel at Sinai. The inspired author of Hebrews (c. AD 64–68) wrote to Jewish believers under pressure before Jerusalem\'s fall. Identified Characters: God whose spoken word frames the worlds; the witnesses of faith who understand this; 1st-century disciples tempted to trust what is seen. Singular or Many: Singular Speaker, many worlds. One God frames the ages by His word; the many visible things are not their own origin. Christological Subject & Referent: Jesus Christ, the Son through whom God made the worlds (Heb 1:2) and who upholds all things by the word of His power (Heb 1:3). Redemptive Purpose: To orient wavering faith upon the unseen word that created all that is seen — the same word that now promises an unshakeable kingdom.',
     },
     cumulativePrinciples: [
-      'Foundational Thread Principle (Genesis 1:1): Creation is not self-originating. Genesis opens with a speaking God; the NT names that Speaker as the eternal Word who is Himself God. Everything that exists depends on a prior, personal source.',
-      'Connection 1 (2 Verses in Common — Genesis 1:1 & John 1:1-3): Expanding the foundational principle: the Speaker of “In the beginning God created” is the Word who “was in the beginning with God.” What these two verses share: one beginning, one divine Agent, one cosmos that came to be through Him rather than from itself. How they connect: John\'s Ἐν ἀρχῇ / ὁ Λόγος names Moses\' בְּרֵאשִׁית / בָּרָא as a Person. Why they connect: only the uncreated Creator can redeem the creation He framed.',
-      'Connection 2 (3 Verses in Common — Genesis 1:1, John 1:1-3, & Hebrews 11:3): Expanding the thread across all 3 witnesses: faith sees what Genesis asserts and John names — the worlds (τοὺς αἰῶνας) were framed by God\'s spoken word, so the visible is not from apparent matter. What these 3 verses share: creatio ex nihilo by a personal Word. How the redemptive arc unfolds: from Mosaic origin, through Johannine identification of the Agent, to Hebrews\' pastoral demand that faith rest on that unseen word. Canonical climax: the God who spoke the universe into being is the Lord who entered it to redeem what He formed.',
+      'The thread begins at Genesis 1:1: Creation did not make itself. Genesis opens with a speaking God. The New Testament names that Speaker as the eternal Word, who is God. Everything that exists depends on a personal Maker.',
+      'Step 2 of the thread (Genesis 1:1 → John 1:1-3): The Speaker of “In the beginning God created” is the Word who “was in the beginning with God.” Both verses share one beginning, one divine Maker, and one world that came from Him, not from itself. The link: John’s Greek names Moses’ “beginning” as a Person — the Word. Why it matters: only the Creator Himself can redeem the world He made.',
+      'Step 3 (Genesis 1:1 → John 1:1-3 → Hebrews 11:3): All three verses say the same thing: God spoke, and the universe came into being. How the story moves forward: Genesis states it, John names the Speaker as the Word, and Hebrews calls believers to trust that same word today. Where it leads: the God who spoke the universe into being is the Lord who entered it to save us.',
     ],
     sourceKeywords: ['beginning', 'God', 'created', 'heaven', 'earth'],
     fulfillmentKeywords: ['beginning', 'Word', 'God', 'made', 'worlds'],
@@ -158,7 +158,7 @@ export const threadDetails: Record<string, ThreadDetail> = {
   'gen-2-2': {
     title: 'God Rested — Creation Sabbath Codified at Sinai and Fulfilled in Christ',
     principle:
-      'God\'s rest on the seventh day is joyful cessation and completion, not fatigue. Enshrined in the Fourth Commandment of the Decalogue (Exo 20:8-11) and sealed as a perpetual covenant sign of sanctification (Exo 31:16-17), creation\'s Sabbath culminates in Hebrews 4 as the eternal rest entered by faith in Christ. First principle: the Sabbath is an unalterable creation ordinance memorializing the finished work of the Creator and pointing to the finished redemption of Christ.',
+      'God’s rest on the seventh day is joyful completion, not fatigue. The Fourth Commandment (Exo 20:8-11) enshrines it, and Exodus 31:16-17 seals it as a covenant sign. Hebrews 4 shows where it ends: the eternal rest entered by faith in Christ. First principle: the Sabbath remembers the finished work of the Creator and points to the finished redemption of Christ.',
     sourceKeywords: ['seventh day', 'ended', 'rested', 'work', 'made'],
     fulfillmentKeywords: ['sabbath', 'holy', 'covenant', 'sign', 'perpetual', 'rest', 'hallowed', 'refreshed', 'remaineth', 'people of God', 'enter'],
     terms: [
@@ -2430,6 +2430,12 @@ export function getThreadDetail(verseId: string): ThreadDetail | null {
     draftThreadDetails[verseId] ??
     null
   );
+}
+
+/** Every hand-written detail, keyed by verse id (threadDetails + bookThreadDetails).
+ *  Used by the Lexicon page to index original-language terms across the canon. */
+export function getAllThreadDetails(): Record<string, ThreadDetail> {
+  return { ...bookThreadDetails, ...threadDetails };
 }
 
 export function getChainForVerse(verseId: string): ThreadChain | null {

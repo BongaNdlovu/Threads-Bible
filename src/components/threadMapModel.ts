@@ -119,11 +119,12 @@ export function chunkVersesByRefs(
 }
 
 /**
- * Constructs the cumulative thread principle for a node in a connection chain.
- * - Card 1 (Step 1): Establishes the foundational principle from the anchor verse.
- * - Card 2 (Step 2): Expands the principle to explain the first connection (what cards 1 & 2 share in common, why, and how).
- * - Card 3 (Step 3): Expands the principle to explain what verses 1, 2, and 3 share in common and how the redemptive arc unfolds.
- * - Card N (Step N): Progressively explains what all N verses have in common across the entire chain.
+ * Constructs the cumulative thread principle for a node in a connection chain,
+ * in plain voice (master plan §1.7): one idea per sentence, everyday words,
+ * the thread's own verse quotes carrying the weight.
+ * - Step 1: names the founding promise at the anchor verse.
+ * - Step 2: what the first two verses share and why God says it twice.
+ * - Step 3+: how the story moves forward with each added witness.
  */
 export function buildCumulativePrinciple(params: {
   step: number;
@@ -146,10 +147,10 @@ export function buildCumulativePrinciple(params: {
     interrogation,
   } = params;
 
-  const cleanPrinciple = (basePrinciple || `The Scriptures reveal a single harmonious redemptive architecture centered on Jesus Christ.`).trim().replace(/\.$/, '');
+  const cleanPrinciple = (basePrinciple || `All Scripture points to Jesus Christ.`).trim().replace(/\.$/, '');
 
   if (step === 1) {
-    return `Foundational Thread Principle (${anchorRef}): ${cleanPrinciple}.`;
+    return `The thread begins at ${anchorRef}: ${cleanPrinciple}.`;
   }
 
   const whatText = interrogation?.what ? interrogation.what.replace(/\s+/g, ' ').trim() : '';
@@ -158,16 +159,16 @@ export function buildCumulativePrinciple(params: {
   const ultimateText = interrogation?.ultimatePoint ? interrogation.ultimatePoint.replace(/\s+/g, ' ').trim() : '';
 
   if (step === 2) {
-    return `Connection 1 (2 Verses in Common — ${anchorRef} & ${currentRef}): Expanding the foundational principle: “${cleanPrinciple}.” What these two verses share in common: Both passages testify to the identical covenant reality — bridging from ${anchorRef} (“${anchorSnippet}”) to its fulfillment in ${currentRef} (“${currentSnippet}”). ${whatText} How they connect: ${howText} Why they connect: ${whyText}`;
+    return `Step 2 of the thread (${anchorRef} → ${currentRef}): “${cleanPrinciple}.” Both verses tell the same story: ${whatText} The link between them: ${howText} Why God says it twice: ${whyText}`;
   }
 
   if (step === 3) {
     const prevRef = chainRefs[1] || '';
-    return `Connection 2 (3 Verses in Common — ${anchorRef}, ${prevRef}, & ${currentRef}): Expanding the thread across all 3 witnesses: “${cleanPrinciple}.” What these 3 verses share in common: As the redemptive arc unfolds from the original anchor (${anchorRef}) through ${prevRef} to ${currentRef}, each scripture deepens the single unified promise of Christ. Specifically, ${whatText} How the redemptive arc unfolds: Across this 3-fold witness, prophecy progresses into historical realization and apostolic certitude (${howText}). Redemptive purpose: ${whyText} Canonical climax: ${ultimateText}`;
+    return `Step 3 (${anchorRef} → ${prevRef} → ${currentRef}): “${cleanPrinciple}.” All three verses carry one promise: ${whatText} How the story moves forward: ${howText} Why it matters: ${whyText} Where it leads: ${ultimateText}`;
   }
 
-  const allRefsList = chainRefs.join(' ➔ ');
-  return `Connection ${step - 1} (${step} Verses in Common — ${allRefsList}): Progressive culmination across all ${step} canonical links: “${cleanPrinciple}.” What the entire chain shares in common: Across every step in this redemptive chain, the Holy Spirit establishes an unbroken doctrinal and prophetic continuum where each subsequent revelation confirms, illuminates, and expands upon the preceding witnesses. For ${currentRef}, this connection crystallizes: ${whatText} Redemptive synthesis: ${ultimateText} Theological necessity: ${whyText}`;
+  const allRefsList = chainRefs.join(' → ');
+  return `Step ${step} (${allRefsList}): “${cleanPrinciple}.” The whole chain makes one point: ${whatText} Why this step matters: ${whyText} Where the thread ends: ${ultimateText}`;
 }
 
 export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
@@ -195,7 +196,7 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
   const anchorAuthor = getAuthorForRef(input.anchorRef);
   const sourceWho =
     input.who ??
-    `Authorship & Context: Penned by ${anchorAuthor}. Identified Characters: The covenant Lord and the recipients of divine revelation. Singular or Many: Many. The covenant Lord addresses a people, while the Christological subject remains one person. Christological Subject & Referent: Jesus Christ as the supreme teleological goal of this foundational scripture. Redemptive Purpose: Establishing the bedrock promise upon which the unfolding redemptive chain is anchored.`;
+    `Authorship & Context: Penned by ${anchorAuthor}. Identified Characters: The covenant Lord who speaks, and the people who first heard the promise. Singular or Many: Many. A whole people receives the words, but the promise points to one person. Christological Subject & Referent: Jesus Christ — this verse's promise finds its "yes" in Him. Redemptive Purpose: To lay the first stone of a promise God will keep across the whole Bible.`;
 
   nodes.push({
     id: input.anchorId,
@@ -279,8 +280,8 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
         : snippet(groups[i - 1].verses[0]?.text ?? '', 90);
     const why =
       i === 0
-        ? `${principle} This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — to ${group.ref}: “${fulfillmentSnippet}.”`
-        : `${principle} This connection continues the thread from ${fromRef} — “${fromSnippet}” — to ${group.ref}: “${fulfillmentSnippet}.”`;
+        ? `${principle} ${input.anchorRef} says: “${anchorSnippet}” ${group.ref} answers it: “${fulfillmentSnippet}”`
+        : `${principle} The thread moves from ${fromRef} — “${fromSnippet}” — on to ${group.ref}: “${fulfillmentSnippet}”`;
 
     edges.push({
       id: `${input.anchorId}-e${i}`,

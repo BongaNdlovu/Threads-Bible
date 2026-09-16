@@ -134,7 +134,8 @@ interface AppState {
   showNotice: (message: string) => void;
   clearNotice: () => void;
 
-  /** The Ordo mindmap page — opens for a thread verse instead of the split. */
+  /** The Ordo mindmap page — deeper study, opened from the split's
+   *  "Study on the Map" button (and legacy deep links). */
   threadMapOpen: boolean;
   setThreadMapOpen: (open: boolean) => void;
 
@@ -146,6 +147,14 @@ interface AppState {
   /** The verse whose thread is open (source verse of the thread). */
   selectedThread: Verse | null;
   setSelectedThread: (verse: Verse | null) => void;
+
+  /** The Lexicon page — searchable Hebrew/Greek definitions (study page). */
+  lexiconOpen: boolean;
+  setLexiconOpen: (open: boolean) => void;
+
+  /** The Prophecy & Last-Day Events page (study page). */
+  prophecyOpen: boolean;
+  setProphecyOpen: (open: boolean) => void;
 
   highlightFromThread: Record<string, string[]>;
   setHighlightFromThread: (map: Record<string, string[]>) => void;
@@ -185,6 +194,9 @@ interface AppState {
   setThreadPaneOpen: (open: boolean) => void;
   toggleThreadPane: () => void;
 
+  /** LEGACY (deep-link compatibility only): the explanation pane was retired
+   *  in the threads-first UI (master plan WP-2). hashSync still reads/writes
+   *  this flag so old `;x` links keep parsing; no UI consumes it. */
   explanationOpen: boolean;
   setExplanationOpen: (open: boolean) => void;
   toggleExplanation: () => void;
@@ -198,11 +210,9 @@ interface AppState {
   setChapterGridOpen: (open: boolean) => void;
   threadsPanelOpen: boolean;
   setThreadsPanelOpen: (open: boolean) => void;
-  threadPanelTab: 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde';
-  setThreadPanelTab: (tab: 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde') => void;
-  selectedChainId: string | null;
-  setSelectedChainId: (id: string | null) => void;
-  openThreadPanelWithTab: (tab: 'chapter' | 'chains' | 'messianic' | 'beliefs' | 'lde', chainId?: string) => void;
+  threadPanelTab: 'chapter' | 'life';
+  setThreadPanelTab: (tab: 'chapter' | 'life') => void;
+  openThreadPanelWithTab: (tab: 'chapter' | 'life') => void;
   mobileControlsOpen: boolean;
   setMobileControlsOpen: (open: boolean) => void;
 
@@ -365,6 +375,12 @@ export const useStore = create<AppState>((set, get) => ({
 
   selectedThread: null,
   setSelectedThread: verse => set({ selectedThread: verse, highlightFromThread: {} }),
+
+  lexiconOpen: false,
+  setLexiconOpen: open => set({ lexiconOpen: open }),
+
+  prophecyOpen: false,
+  setProphecyOpen: open => set({ prophecyOpen: open }),
 
   highlightFromThread: {},
   setHighlightFromThread: map => set({ highlightFromThread: map }),
@@ -574,7 +590,14 @@ export const useStore = create<AppState>((set, get) => ({
         isThread: true,
         fulfillmentRefs: refs,
       };
-      set({ selectedThread: enrichedVerse, selectedMarginVerse: null, threadMapOpen: true });
+      // Threads-first flow (operator decision D3): navigation lands on the
+      // split screen; the Ordo map is one "Study on the Map" button away.
+      set({
+        selectedThread: enrichedVerse,
+        selectedMarginVerse: null,
+        threadPaneOpen: true,
+        threadMapOpen: false,
+      });
     } else {
       set({ selectedMarginVerse: verse });
     }
@@ -670,7 +693,7 @@ export const useStore = create<AppState>((set, get) => ({
   // still there when the user reopens the split.
   toggleThreadPane: () => set(s => ({ threadPaneOpen: !s.threadPaneOpen })),
 
-  explanationOpen: true,
+  explanationOpen: false,
   setExplanationOpen: open => set({ explanationOpen: open }),
   toggleExplanation: () => set(s => ({ explanationOpen: !s.explanationOpen })),
   closeAllStudyPanes: () =>
@@ -682,6 +705,8 @@ export const useStore = create<AppState>((set, get) => ({
       threadMapOpen: false,
       historicalContextOpen: false,
       focusedHistoricalConnectionId: null,
+      lexiconOpen: false,
+      prophecyOpen: false,
       explanationOpen: false,
       focusPane: null,
       threadsPanelOpen: false,
@@ -691,7 +716,16 @@ export const useStore = create<AppState>((set, get) => ({
     }),
   hasStudyPanes: () => {
     const s = get();
-    return !!(s.selectedThread || s.threadPaneOpen || s.threadMapOpen || s.historicalContextOpen || s.focusPane || s.threadsPanelOpen);
+    return !!(
+      s.selectedThread ||
+      s.threadPaneOpen ||
+      s.threadMapOpen ||
+      s.historicalContextOpen ||
+      s.lexiconOpen ||
+      s.prophecyOpen ||
+      s.focusPane ||
+      s.threadsPanelOpen
+    );
   },
 
   chapterGridOpen: false,
@@ -700,13 +734,10 @@ export const useStore = create<AppState>((set, get) => ({
   setThreadsPanelOpen: open => set({ threadsPanelOpen: open }),
   threadPanelTab: 'chapter',
   setThreadPanelTab: tab => set({ threadPanelTab: tab }),
-  selectedChainId: null,
-  setSelectedChainId: id => set({ selectedChainId: id }),
-  openThreadPanelWithTab: (tab, chainId) =>
+  openThreadPanelWithTab: tab =>
     set({
       threadsPanelOpen: true,
       threadPanelTab: tab,
-      selectedChainId: chainId ?? null,
     }),
   mobileControlsOpen: false,
   setMobileControlsOpen: open => set({ mobileControlsOpen: open }),

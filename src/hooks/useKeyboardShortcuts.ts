@@ -4,8 +4,8 @@ import { useStore } from '../store/useStore';
 /**
  * Global keyboard shortcuts:
  *   J/K next/prev chapter · B book+chapter jump (opens the chapter grid)
- *   T threads panel · P split view · E explanation · R reading only
- *   C chapter grid · 1/2/3 fullscreen panes · +/- font size · / search · Esc close
+ *   T threads panel · P split view · E map · R reading only
+ *   C chapter grid · 1/2 fullscreen panes · 3 map · +/- font size · / search · Esc close
  */
 export function useKeyboardShortcuts() {
   useEffect(() => {
@@ -38,6 +38,16 @@ export function useKeyboardShortcuts() {
         }
         if (s.historicalContextOpen) {
           s.setHistoricalContextOpen(false);
+          e.preventDefault();
+          return;
+        }
+        if (s.lexiconOpen) {
+          s.setLexiconOpen(false);
+          e.preventDefault();
+          return;
+        }
+        if (s.prophecyOpen) {
+          s.setProphecyOpen(false);
           e.preventDefault();
           return;
         }
@@ -101,7 +111,9 @@ export function useKeyboardShortcuts() {
           break;
         case 'e':
         case 'E':
-          if (s.selectedThread) s.toggleExplanation();
+          // The explanation pane was retired (threads-first UI); E now opens
+          // the Ordo map — the home of the full connection dossier.
+          if (s.selectedThread) s.setThreadMapOpen(true);
           e.preventDefault();
           break;
         case 'r':
@@ -118,7 +130,8 @@ export function useKeyboardShortcuts() {
           e.preventDefault();
           break;
         case '3':
-          s.toggleFullscreen('explanation');
+          // The third study surface after reading and the split is the map.
+          if (s.selectedThread) s.setThreadMapOpen(true);
           e.preventDefault();
           break;
         case '+':

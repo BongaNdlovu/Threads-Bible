@@ -101,48 +101,47 @@ describe('buildThreadGraph', () => {
     expect(g.nodes).toHaveLength(1);
     expect(g.edges).toHaveLength(0);
     expect(g.totalSteps).toBe(1);
-    expect(g.nodes[0].threadPrinciple).toContain('Foundational Thread Principle');
+    expect(g.nodes[0].threadPrinciple).toContain('The thread begins at');
   });
 
   it('populates cumulative thread principle for all cards starting from first card through step N', () => {
     const g = buildThreadGraph(BASE);
     expect(g.nodes).toHaveLength(4);
 
-    // Card 1 (Step 1): Foundational Principle
+    // Card 1 (Step 1): the founding promise, in plain voice
     const n1 = g.nodes[0];
     expect(n1.step).toBe(1);
     expect(n1.threadPrinciple).toBeTruthy();
-    expect(n1.threadPrinciple).toContain('Foundational Thread Principle (Zechariah 9:9)');
+    expect(n1.threadPrinciple).toContain('The thread begins at Zechariah 9:9');
     expect(n1.threadPrinciple).toContain(BASE.principle);
 
-    // Card 2 (Step 2): Explains first connection (2 verses in common: Zechariah 9:9 & Isaiah 9:1-2)
+    // Card 2 (Step 2): what the first two verses share and why God says it twice
     const n2 = g.nodes[1];
     expect(n2.step).toBe(2);
     expect(n2.threadPrinciple).toBeTruthy();
-    expect(n2.threadPrinciple).toContain('Connection 1 (2 Verses in Common — Zechariah 9:9 & Isaiah 9:1-2)');
-    expect(n2.threadPrinciple).toContain('What these two verses share in common');
-    expect(n2.threadPrinciple).toContain('How they connect');
-    expect(n2.threadPrinciple).toContain('Why they connect');
+    expect(n2.threadPrinciple).toContain('Step 2 of the thread (Zechariah 9:9 → Isaiah 9:1-2)');
+    expect(n2.threadPrinciple).toContain('Both verses tell the same story');
+    expect(n2.threadPrinciple).toContain('The link between them');
+    expect(n2.threadPrinciple).toContain('Why God says it twice');
 
-    // Card 3 (Step 3): Explains 3 verses in common and unfolding redemptive arc
+    // Card 3 (Step 3): three witnesses, one promise
     const n3 = g.nodes[2];
     expect(n3.step).toBe(3);
     expect(n3.threadPrinciple).toBeTruthy();
-    expect(n3.threadPrinciple).toContain('Connection 2 (3 Verses in Common — Zechariah 9:9, Isaiah 9:1-2, & Matthew 21:5)');
-    expect(n3.threadPrinciple).toContain('What these 3 verses share in common');
-    expect(n3.threadPrinciple).toContain('How the redemptive arc unfolds');
-    expect(n3.threadPrinciple).toContain('Redemptive purpose');
-    expect(n3.threadPrinciple).toContain('Canonical climax');
+    expect(n3.threadPrinciple).toContain('Step 3 (Zechariah 9:9 → Isaiah 9:1-2 → Matthew 21:5)');
+    expect(n3.threadPrinciple).toContain('All three verses carry one promise');
+    expect(n3.threadPrinciple).toContain('How the story moves forward');
+    expect(n3.threadPrinciple).toContain('Why it matters');
+    expect(n3.threadPrinciple).toContain('Where it leads');
 
-    // Card 4 (Step 4): Progressive culmination across all 4 verses
+    // Card 4 (Step 4): the whole chain makes one point
     const n4 = g.nodes[3];
     expect(n4.step).toBe(4);
     expect(n4.threadPrinciple).toBeTruthy();
-    expect(n4.threadPrinciple).toContain('Connection 3 (4 Verses in Common — Zechariah 9:9 ➔ Isaiah 9:1-2 ➔ Matthew 21:5 ➔ John 12:15)');
-    expect(n4.threadPrinciple).toContain('Progressive culmination across all 4 canonical links');
-    expect(n4.threadPrinciple).toContain('What the entire chain shares in common');
-    expect(n4.threadPrinciple).toContain('Redemptive synthesis');
-    expect(n4.threadPrinciple).toContain('Theological necessity');
+    expect(n4.threadPrinciple).toContain('Step 4 (Zechariah 9:9 → Isaiah 9:1-2 → Matthew 21:5 → John 12:15)');
+    expect(n4.threadPrinciple).toContain('The whole chain makes one point');
+    expect(n4.threadPrinciple).toContain('Why this step matters');
+    expect(n4.threadPrinciple).toContain('Where the thread ends');
   });
 
   it('guarantees the who dimension exists on every card in the mindmap', () => {

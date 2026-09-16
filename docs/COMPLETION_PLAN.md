@@ -23,6 +23,12 @@ vehicle for every thread and every connection.
 | Beliefs | 28 fundamental beliefs with scripture proofs | ✅ |
 | LDE | 19 last-day-event phases across 6 eras | ✅ |
 | **Edge whys (NEW)** | **Per-connection explanations for every thread edge, composed from each thread's hand-written principle plus both verse ends — 1,342/1,342 threads covered** | ✅ (Phase B) |
+| **Life Threads** | 200-theme Jesus-centred topical catalogue in 18 domains (`lifeThreads.ts`, lazy chunk; browsed in the Threads panel's Life tab) | ✅ |
+| **Lexicon page** | Every original-language term across thread details, searchable, deep-linked to verses | ✅ |
+| **Prophecy page** | LDE timeline + symbols + types folded into one header-reachable page | ✅ |
+| **Threads-first UI** | Verse click → scripture-only split + "Study on the Map"; explanation pane retired; single Study affordance per verse; blue brand everywhere (gold removed) | ✅ |
+| **Plain-language gate** | `scripts/checkReadability.ts` + Vitest gate over runtime prose templates, golden details, and Life Threads firstPrinciples | ✅ |
+| **Plain-language sweep** | Rewrite remaining ~1,180 hand-written detail entries per book (THREADS_BIBLE_PLAIN_LANGUAGE_SWEEP_PLAN_v1.4.md) | 🕓 |
 
 ## 2 · Phase A — Ordo mindmap viewer (assimilation of the design)
 

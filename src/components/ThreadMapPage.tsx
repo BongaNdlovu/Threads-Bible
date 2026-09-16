@@ -321,7 +321,7 @@ const DARK_PAGE = {
   bg: '#0B0B0D',
   border: 'rgba(234,230,218,.14)',
   headerBg: 'rgba(16,16,19,.95)',
-  gold: '#C8A24B',
+  gold: '#60A5FA',
   text: '#EAE6DA',
   ctrlBorder: 'rgba(255,255,255,.15)',
 };
@@ -330,7 +330,7 @@ const LIGHT_PAGE = {
   bg: '#FAF9F6',
   border: 'rgba(44,44,44,.16)',
   headerBg: 'rgba(255,255,255,.95)',
-  gold: '#A67C2E',
+  gold: '#3B82F6',
   text: '#2C2C2C',
   ctrlBorder: 'rgba(44,44,44,.22)',
 };

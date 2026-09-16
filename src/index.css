@@ -49,6 +49,9 @@
 }
 
 :root {
+    /* Brand (operator decision D2): ONE blue accent everywhere; Merriweather
+       for scripture + headings, Inter for UI labels. The Ordo map palettes
+       mirror --accent / --ring below — keep them in sync. */
     --background: #FAF9F6;
     --foreground: #2C2C2C;
     --card: #FFFFFF;

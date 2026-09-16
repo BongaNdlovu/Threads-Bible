@@ -195,3 +195,28 @@ describe('Phase 1B broader OT-first', () => {
     expect(isOldTestament(threadFor('gen-2-9')!.fulfillmentRefs[0]!)).toBe(true);
   });
 });
+
+describe('OT-first exceptions coverage (master plan WP-5)', () => {
+  it('documents every NT-only OT anchor in EXCEPTIONS.md', async () => {
+    const { readFileSync, existsSync } = await import('fs');
+    const { join } = await import('path');
+    const p = join(process.cwd(), 'EXCEPTIONS.md');
+    expect(existsSync(p)).toBe(true);
+    const documented = new Set<string>();
+    for (const m of readFileSync(p, 'utf8').matchAll(/`([a-z0-9]+-\d+-\d+)[^`]*`/g)) {
+      documented.add(m[1]);
+    }
+    const ntSlugs = new Set(BOOK_REGISTRY.slice(39).map(b => b.slug));
+    let ntOnly = 0;
+    for (const map of allThreadMaps) {
+      for (const [id, entry] of Object.entries(map as Record<string, { fulfillmentRefs: string[] }>)) {
+        if (ntSlugs.has(id.split('-')[0])) continue; // rule governs OT anchors
+        const refs = entry.fulfillmentRefs ?? [];
+        if (refs.length === 0 || refs.some(r => isOldTestament(r))) continue;
+        ntOnly += 1;
+        expect(documented.has(id), `NT-only OT anchor ${id} is not documented in EXCEPTIONS.md`).toBe(true);
+      }
+    }
+    expect(ntOnly).toBe(175);
+  });
+});
