@@ -46,6 +46,96 @@ export function parsePersonalRelevance(text: string): { why: string; what: strin
   return null;
 }
 
+export type WhoFacets = {
+  wrote: string;
+  identified: string;
+  number: 'singular' | 'many' | null;
+  numberText: string;
+  aboutWhy: string;
+};
+
+export function parseWho(text: string): WhoFacets | null {
+  if (!text) return null;
+  const wroteMatch = text.match(/Authorship & Context:\s*([^]*?)(?=Identified Characters:|$)/i);
+  const identifiedMatch = text.match(
+    /Identified Characters:\s*([^]*?)(?=Singular or Many:|Christological Subject & Referent:|$)/i
+  );
+  const numberMatch = text.match(/Singular or Many:\s*([^]*?)(?=Christological Subject & Referent:|$)/i);
+  const aboutMatch = text.match(/Christological Subject & Referent:\s*([^]*?)(?=Redemptive Purpose:|$)/i);
+  const whyMatch = text.match(/Redemptive Purpose:\s*([^]*)$/i);
+
+  if (!wroteMatch || !identifiedMatch || !aboutMatch || !whyMatch) return null;
+
+  const numberBlock = numberMatch?.[1]?.trim() ?? '';
+  const number: WhoFacets['number'] = /^\s*singular\b/i.test(numberBlock)
+    ? 'singular'
+    : /^\s*many\b/i.test(numberBlock)
+      ? 'many'
+      : null;
+
+  return {
+    wrote: wroteMatch[1].trim(),
+    identified: identifiedMatch[1].trim(),
+    number,
+    numberText: numberBlock,
+    aboutWhy: [aboutMatch[1].trim(), whyMatch[1].trim()].filter(Boolean).join(' '),
+  };
+}
+
+export function WhoFacetsGrid({
+  facets,
+  gold,
+  text,
+  compact,
+}: {
+  facets: WhoFacets;
+  gold: string;
+  text: string;
+  compact?: boolean;
+}) {
+  const boxes: { label: string; body: string }[] = [
+    { label: '1. Who Wrote', body: facets.wrote },
+    { label: '2. Who Is Identified', body: facets.identified },
+  ];
+  if (facets.numberText) {
+    const kind =
+      facets.number === 'singular' ? 'Singular' : facets.number === 'many' ? 'Many' : null;
+    boxes.push({
+      label: kind ? `3. Singular or Many · ${kind}` : '3. Singular or Many',
+      body: facets.numberText,
+    });
+  }
+  boxes.push({
+    label: `${boxes.length + 1}. Who the Passage Is About & Why`,
+    body: facets.aboutWhy,
+  });
+
+  return (
+    <div className={compact ? 'grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-0.5' : 'grid grid-cols-1 md:grid-cols-2 gap-3 pt-0.5'}>
+      {boxes.map(box => (
+        <div
+          key={box.label}
+          className={compact ? 'p-2 rounded border space-y-0.5' : 'p-3 rounded-lg border space-y-1'}
+          style={{ borderColor: `${gold}30`, background: `${gold}08` }}
+        >
+          <div
+            className={compact ? 'font-mono text-[8.5px] uppercase font-bold tracking-wider' : 'font-mono text-[9px] uppercase font-bold tracking-wider'}
+            style={{ color: gold }}
+          >
+            {box.label}
+          </div>
+          <p
+            className={compact ? 'font-serif text-[12px] leading-relaxed' : 'font-serif text-xs leading-relaxed'}
+            style={{ color: text }}
+          >
+            {box.body}
+          </p>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 export function HistoricalContextPage() {
   const {
     theme: appTheme,
@@ -694,9 +784,16 @@ export function HistoricalContextPage() {
                             <Users className="h-3.5 w-3.5" />
                             <span>Who: Authorship, Characters & Christological Identity</span>
                           </div>
-                          <p className="font-serif text-xs leading-relaxed" style={{ color: P.dim }}>
-                            {conn.who}
-                          </p>
+                          {(() => {
+                            const parsedWho = parseWho(conn.who);
+                            return parsedWho ? (
+                              <WhoFacetsGrid facets={parsedWho} gold={P.gold} text={P.text} />
+                            ) : (
+                              <p className="font-serif text-xs leading-relaxed" style={{ color: P.dim }}>
+                                {conn.who}
+                              </p>
+                            );
+                          })()}
                         </div>
                       )}
 

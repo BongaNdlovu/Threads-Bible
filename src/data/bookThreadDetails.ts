@@ -41,11 +41,40 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-46': {
     title: 'Not a Bone Broken',
     principle:
-      'Passover lamb\'s bones are not broken. John cites this at the cross. First principle: the type specifies integrity of the sacrifice even in death.',
+      'Passover lamb\'s bones are not broken. Numbers restates the same statute for later Passovers. John cites this at the cross. First principle: the type specifies integrity of the sacrifice even in death.',
+    who: 'Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance; the Hebrew household eating the lamb in one house; the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb; the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7), whose body was kept unbroken at the cross. Redemptive Purpose: The type specifies the integrity of the sacrifice; John shows the Father preserved that integrity in the Son so the antitype is recognizable.',
+    whoByRef: {
+      'John 19:36': 'Authorship & Context: Moses wrote the Passover bone-law in Exodus 12. The Apostle John, eyewitness at the cross (John 19:35), wrote from Ephesus (c. AD 85–95). Identified Characters: Yahweh; the paschal lamb; Roman soldiers performing crurifragium; the two thieves whose legs were broken; Jesus already dead. Singular or Many: Singular body, many executioners. One Lamb is kept whole; the soldiers and the two other crucified men are the many around that one body. Christological Subject & Referent: Jesus of Nazareth, whose legs were not broken in order that Scripture be fulfilled. Redemptive Purpose: To prove His death was not chaotic Roman procedure but the governed Passover antitype whose unbroken body shields from wrath.',
+      'Numbers 9:12': 'Authorship & Context: Moses restates the Passover ordinance for those keeping it in the second month in the wilderness. Identified Characters: Israel on the march; those unclean or on a journey who still must keep the feast; the lamb of the delayed Passover. Singular or Many: Singular lamb, many later keepers. The same one-body statute binds every subsequent generation. Christological Subject & Referent: The same paschal body later identified as Christ — the wilderness restatement is not a different lamb-theology but the standing Torah of the unbroken sacrifice. Redemptive Purpose: To show the bone-law is not a one-night Egyptian custom; it remains in force until the true Lamb\'s body is preserved at Golgotha.',
+    },
+    cumulativePrinciples: [
+      'Foundational Thread Principle (Exodus 12:46): The Passover lamb\'s bones are not broken. The type specifies integrity of the sacrifice even in death — one house, one lamb, one whole body.',
+      'Connection 1 (2 Verses in Common — Exodus 12:46 & Numbers 9:12): Expanding the foundational principle: Moses restates the same bone-law for later wilderness Passovers. What these two verses share: “nor break any bone of it” is standing Torah, not a one-night Egyptian custom. How they connect: the second-month Passover (Numbers 9) repeats Exodus 12:46 so the type remains in force on the march. Why they connect: the lamb’s body must stay whole in every generation until the true Lamb is offered.',
+      'Connection 2 (3 Verses in Common — Exodus 12:46, Numbers 9:12, & John 19:36): Expanding the thread across all 3 witnesses: John watches the soldiers break the thieves\' legs and stop at Jesus. What these 3 verses share: the lamb remains whole whether in Egypt, in the wilderness, or on the cross. How the redemptive arc unfolds: statute, restated statute, then historical fulfillment when crurifragium is withheld — ἵνα ἡ γραφὴ πληρωθῇ. Canonical climax: Jesus is the true Passover whose unbroken body confirms that His offering is complete and unmarred.',
+    ],
     sourceKeywords: ['break', 'bone', 'thereof'],
     fulfillmentKeywords: ['break', 'bone', 'not one', 'fulfilled'],
     terms: [
-      { term: 'bone', original: 'עֶצֶם', translit: 'etsem', gloss: 'bone, substance, selfsame', note: 'John 19:36 — Scripture fulfilled.' },
+      {
+        term: 'bone',
+        original: 'עֶצֶם',
+        translit: 'etsem',
+        gloss: 'bone, substance, selfsame',
+        note: 'John 19:36 — Scripture fulfilled.',
+        strongs: 'H6106',
+        exposition:
+          'Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ — “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute: the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ — a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept.',
+      },
+      {
+        term: 'shall not be broken',
+        original: 'συντριβήσεται',
+        translit: 'syntribēsetai',
+        gloss: 'shall be shattered / crushed',
+        note: 'John 19:36 passive: the Father withholds the fracture.',
+        strongs: 'G4937',
+        exposition:
+          'John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown; they did so to the two others. The passive in the Scripture-formula marks divine agency: the Son’s bones are not “luckily” intact — they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ: what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners.',
+      },
     ],
   },
   'exo-16-4': {
@@ -1967,10 +1996,53 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     title: 'Thy King Cometh, Lowly, Riding upon an Ass',
     principle:
       'Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass. First principle: the world-conquering King arrives unarmed and humble — justice and salvation, not cavalry.',
+    who: 'Authorship & Context: The prophet Zechariah wrote in post-exilic Jerusalem (c. 520–480 BC) to a remnant rebuilding temple and hope under Persian rule. Identified Characters: Daughter of Zion / daughter of Jerusalem (the covenant people); the coming King who is just, having salvation, lowly, riding on a donkey. Singular or Many: Singular King, many hearers. The royal subject is one person — Zion\'s King — while the daughters of Zion and Jerusalem are the many commanded to rejoice. Christological Subject & Referent: Jesus of Nazareth, the lowly messianic King who entered Jerusalem on a colt in the week of His passion. Redemptive Purpose: To show that world-conquering justice arrives unarmed; salvation comes by the humble King, not by cavalry.',
+    whoByRef: {
+      'Matthew 21:5': 'Authorship & Context: Zechariah prophesied to the Persian-era remnant; Matthew wrote for Jewish-Christian readers (c. AD 60–68) to prove Jesus fulfills Israel\'s Scriptures. Identified Characters: Daughter of Zion; the King sitting on a donkey and a colt; the disciples fetching the animals; the Jerusalem crowds. Singular or Many: Singular King, many witnesses. One King comes; many in Zion are commanded to behold Him. Christological Subject & Referent: Jesus, the Son of David, entering Jerusalem as the prophesied meek King. Redemptive Purpose: Matthew cites the prophet so the church sees the triumphal entry as Scripture kept, not political accident.',
+      'John 12:15': 'Authorship & Context: Zechariah wrote the Zion-oracle; John, eyewitness of the entry, wrote from Ephesus (c. AD 85–95). Identified Characters: Daughter of Sion; the King sitting on an ass\'s colt; the crowd that had been with Him from Lazarus\'s raising. Singular or Many: Singular King, many who need not fear. John\'s citation adds “Fear not” — one King, a people told not to be afraid. Christological Subject & Referent: Jesus, whose humble advent is comfort rather than terror. Redemptive Purpose: To interpret the donkey-entry as consolation for Zion, not as a failed revolt.',
+      'Mark 11:7': 'Authorship & Context: Zechariah named the lowly mount; John Mark, writing in Rome (c. AD 55–65), records the acted detail without the citation formula. Identified Characters: Jesus; the colt; those who cast garments on it; the two disciples sent to loose it. Singular or Many: Singular rider, many who serve. One man sits on the colt; several hands prepare the mount. Christological Subject & Referent: Jesus Himself sitting on the colt — the prophecy\'s “riding” made visible. Redemptive Purpose: Mark shows the oracle happening in the street before any later interpretive caption, so the King\'s lowliness is historical, not literary.',
+      'Luke 19:38': 'Authorship & Context: Zechariah promised Zion\'s King; Luke the Evangelist (c. AD 60–62) records the crowd\'s royal acclamation as Jesus descends the Mount of Olives. Identified Characters: The King; the multitude of disciples; peace in heaven and glory in the highest. Singular or Many: Singular King, many acclaiming. One is named King; the multitude blesses Him. Christological Subject & Referent: Jesus as ὁ βασιλεύς — the King who comes in the name of the Lord. Redemptive Purpose: Luke lets the people say out loud what Zechariah already wrote: this humble rider is Zion\'s King, and His coming is peace, not cavalry conquest.',
+    },
+    cumulativePrinciples: [
+      'Foundational Thread Principle (Zechariah 9:9): The world-conquering King arrives unarmed and humble — justice and salvation, not cavalry. Zion is told to rejoice because her King comes lowly, riding on a donkey.',
+      'Connection 1 (2 Verses in Common — Zechariah 9:9 & Matthew 21:5): Expanding the foundational principle: Matthew names the donkey-entry as fulfillment. What these two verses share: daughter of Zion, a King who comes, sitting upon an ass. How they connect: Matthew\'s citation formula (“this was done that it might be fulfilled”) binds the Persian-era oracle to the Bethphage colt. Why they connect: messianic kingship is meekness; the church must not rewrite the King as a war-horse Messiah.',
+      'Connection 2 (3 Verses in Common — Zechariah 9:9, Matthew 21:5, & John 12:15): Expanding the thread across 3 witnesses: two evangelists independently cite the same oracle. John adds “Fear not, daughter of Sion.” What these 3 verses share: one King, one mount, one city told to behold Him. How the redemptive arc unfolds: prophecy, Matthean fulfillment-citation, Johannine comfort-citation. Canonical climax: the humble advent is gospel to Zion, not a threat.',
+      'Connection 3 (4 Verses in Common — Zechariah 9:9 ➔ Matthew 21:5 ➔ John 12:15 ➔ Mark 11:7): Progressive culmination: Mark supplies the narrative of the colt without quoting Zechariah — they set Jesus on it. What the chain shares: the King actually rides. Redemptive synthesis: citation and acted detail agree. Theological necessity: the lowly mount is not optional symbolism; it is the manner of His coming.',
+      'Connection 4 (5 Verses in Common — Zechariah 9:9 ➔ Matthew 21:5 ➔ John 12:15 ➔ Mark 11:7 ➔ Luke 19:38): Progressive culmination across all 5 canonical links: Luke records the crowd\'s cry, “Blessed be the King.” What the entire chain shares: Zechariah\'s King is just, saving, and lowly, and four Gospel witnesses show Him entering Jerusalem that way. Redemptive synthesis: royal acclamation and donkey-lowliness are the same event. Theological necessity: the passion-week King is already the Zechariah King — salvation arrives without a war-horse.',
+    ],
     sourceKeywords: ['Rejoice greatly, O daughter of Zion', 'thy King cometh unto thee', 'just, and having salvation', 'riding upon an ass'],
     fulfillmentKeywords: ['All this was done', 'Daughter of Sion', 'sitting upon an ass', 'Hosanna to the Son of David'],
     terms: [
-      { term: 'lowly', original: 'עָנִי', translit: '\'ani', gloss: 'afflicted, humble, poor', note: 'The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King\'s uniform.' },
+      {
+        term: 'lowly',
+        original: 'עָנִי',
+        translit: '\'ani',
+        gloss: 'afflicted, humble, poor',
+        note: 'The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King\'s uniform.',
+        strongs: 'H6041',
+        exposition:
+          'Zechariah 9:9 calls the coming King עָנִי — not merely “modest in personality” but poor, afflicted, and low in station. The same root describes those crushed under oppression and, in Isaiah, the Servant who is afflicted. Verse 10 immediately cuts off chariot, horse, and battle-bow, so עָנִי is the opposite of military pomp: Zion\'s King comes as a sufferer-savior. Matthew renders the term πραΰς (praus, meek) in 21:5, placing the oracle on Jesus\' lips-by-action as He sits on the donkey. In this thread עָנִי is why the Gospels insist on the colt: the King’s identity is lowliness unto salvation, not cavalry.',
+      },
+      {
+        term: 'meek',
+        original: 'πραΰς',
+        translit: 'praus',
+        gloss: 'meek, gentle',
+        note: 'Matthew 21:5\'s Greek for Zechariah\'s ʿani.',
+        strongs: 'G4239',
+        exposition:
+          'Matthew 21:5 quotes Zechariah with πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον — meek and mounted on a donkey. πραΰς is Matthew\'s word for the same King who said “I am meek and lowly in heart” (Matt 11:29). In the entry narrative it is not a private temperament; it is the public manner of messianic arrival. John 12:15 cites the same oracle as consolation (“Fear not”); Mark 11:7 and Luke 19:38 show the mount and the royal cry. The Greek meekness and the Hebrew ʿani name one person: Jesus riding into Jerusalem to suffer, not to seize the city by force.',
+      },
+      {
+        term: 'colt',
+        original: 'πῶλος',
+        translit: 'pōlos',
+        gloss: 'colt, young animal',
+        note: 'Mark 11:7: they set Jesus on the colt.',
+        strongs: 'G4454',
+        exposition:
+          'Mark 11:7 records καὶ ἐκάθισεν ἐπ’ αὐτόν — they bring the πῶλος and He sits on it. Zechariah had specified עַיִר בֶּן־אֲתֹנוֹת (a colt, son of she-asses). Mark does not quote the prophet; he narrates the colt so the acted fulfillment is visible. Luke 19:38 then lets the crowd name the rider King. In this path πῶλος is the physical hinge between oracle and acclamation: without the colt, “lowly” stays an adjective; with it, the King of Zechariah 9:9 is in the street.',
+      },
     ],
   },
   'psa-118-26': {

@@ -4,10 +4,10 @@
  * buildThreadGraph turns a thread (anchor verse + hand-written detail +
  * resolved fulfillment verses) into a cinematic node graph:
  *   node 0        = the anchor verse (source of the thread)
- *   nodes 1..n    = one node per fulfillment reference
- *   edge i        = anchor → fulfillment i, carrying the edge's WHY —
- *                   composed from the thread's hand-written principle plus
- *                   both verse ends, so every connection is explained.
+ *   nodes 1..n    = one node per fulfillment reference (playback order)
+ *   edge i        = previous node → fulfillment i (progressive chain),
+ *                   carrying the edge's WHY from the hand-written principle
+ *                   plus both verse ends, so OT→OT→NT walks stay coherent.
  *
  * No DOM, no React — testable in node.
  */
@@ -37,6 +37,7 @@ import {
   type ConnectionInterrogation,
 } from '../data/connectionInterrogation';
 import { expandVerseRange } from '../data/refParser';
+import type { OriginalLanguageTerm } from '../data/threadDetails';
 
 export interface MapEdge {
   id: string;
@@ -55,6 +56,8 @@ export interface ThreadGraph {
   edges: MapEdge[];
   /** Total playback steps: 1 (source) + number of fulfillment edges. */
   totalSteps: number;
+  /** Path-verse original-language terms (golden samples carry contextual exposition). */
+  terms?: OriginalLanguageTerm[];
 }
 
 export interface ThreadMapInput {
@@ -69,6 +72,14 @@ export interface ThreadMapInput {
   fulfillmentVerses: { id: string; text: string }[];
   /** Reference expander (caller supplies expandVerseRange from refParser). */
   expand?: (ref: string) => string[];
+  /** Authored source-node Who; replaces the generic generator when present. */
+  who?: string;
+  /** Authored Who keyed by live fulfillment ref. */
+  whoByRef?: Record<string, string>;
+  /** Stored cumulative principle texts, index 0 = playback step 1. */
+  cumulativePrinciples?: string[];
+  /** Original-language terms for the thread path (Ordo How dossier). */
+  terms?: OriginalLanguageTerm[];
 }
 
 const NODE_W = 250;
@@ -167,18 +178,23 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
   const principle = input.principle.trim();
 
   // Node 0 — the anchor (source of the thread, Step 1).
-  const sourcePrinciple = buildCumulativePrinciple({
-    step: 1,
-    chainRefs: [input.anchorRef],
-    basePrinciple: principle,
-    anchorRef: input.anchorRef,
-    anchorSnippet,
-    currentRef: input.anchorRef,
-    currentSnippet: anchorSnippet,
-  });
+  const storedSourcePrinciple = input.cumulativePrinciples?.[0];
+  const sourcePrinciple =
+    storedSourcePrinciple ??
+    buildCumulativePrinciple({
+      step: 1,
+      chainRefs: [input.anchorRef],
+      basePrinciple: principle,
+      anchorRef: input.anchorRef,
+      anchorSnippet,
+      currentRef: input.anchorRef,
+      currentSnippet: anchorSnippet,
+    });
 
   const anchorAuthor = getAuthorForRef(input.anchorRef);
-  const sourceWho = `Authorship & Context: Penned by ${anchorAuthor}. Identified Characters: The covenant Lord and the recipients of divine revelation. Christological Subject & Referent: Jesus Christ as the supreme teleological goal of this foundational scripture. Redemptive Purpose: Establishing the bedrock promise upon which the unfolding redemptive chain is anchored.`;
+  const sourceWho =
+    input.who ??
+    `Authorship & Context: Penned by ${anchorAuthor}. Identified Characters: The covenant Lord and the recipients of divine revelation. Singular or Many: Many. The covenant Lord addresses a people, while the Christological subject remains one person. Christological Subject & Referent: Jesus Christ as the supreme teleological goal of this foundational scripture. Redemptive Purpose: Establishing the bedrock promise upon which the unfolding redemptive chain is anchored.`;
 
   nodes.push({
     id: input.anchorId,
@@ -208,7 +224,7 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
 
     chainRefs.push(group.ref);
 
-    const interrogation = getConnectionInterrogation(
+    const rawInterrogation = getConnectionInterrogation(
       input.anchorId,
       group.ref,
       input.anchorRef,
@@ -216,17 +232,22 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       targetVerseText,
       input.principle
     );
+    const authoredWho = input.whoByRef?.[group.ref];
+    const interrogation = authoredWho ? { ...rawInterrogation, who: authoredWho } : rawInterrogation;
 
-    const cumulativePrinciple = buildCumulativePrinciple({
-      step,
-      chainRefs: [...chainRefs],
-      basePrinciple: principle,
-      anchorRef: input.anchorRef,
-      anchorSnippet,
-      currentRef: group.ref,
-      currentSnippet: fulfillmentSnippet,
-      interrogation,
-    });
+    const storedPrinciple = input.cumulativePrinciples?.[step - 1];
+    const cumulativePrinciple =
+      storedPrinciple ??
+      buildCumulativePrinciple({
+        step,
+        chainRefs: [...chainRefs],
+        basePrinciple: principle,
+        anchorRef: input.anchorRef,
+        anchorSnippet,
+        currentRef: group.ref,
+        currentSnippet: fulfillmentSnippet,
+        interrogation,
+      });
 
     nodes.push({
       id: `${input.anchorId}-f${i}`,
@@ -243,21 +264,29 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
       who: interrogation.who,
     });
 
+    const fromId = i === 0 ? input.anchorId : `${input.anchorId}-f${i - 1}`;
+    const fromRef = i === 0 ? input.anchorRef : groups[i - 1].ref;
+    const fromSnippet =
+      i === 0
+        ? anchorSnippet
+        : snippet(groups[i - 1].verses[0]?.text ?? '', 90);
+    const why =
+      i === 0
+        ? `${principle} This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — to ${group.ref}: “${fulfillmentSnippet}.”`
+        : `${principle} This connection continues the thread from ${fromRef} — “${fromSnippet}” — to ${group.ref}: “${fulfillmentSnippet}.”`;
+
     edges.push({
       id: `${input.anchorId}-e${i}`,
-      from: input.anchorId,
+      from: fromId,
       to: `${input.anchorId}-f${i}`,
       step,
       label: `Thread → ${group.ref}`,
-      why:
-        `${principle} ` +
-        `This connection joins the anchor — “${anchorSnippet}” (${input.anchorRef}) — ` +
-        `to ${group.ref}: “${fulfillmentSnippet}.”`,
+      why,
       interrogation,
     });
   });
 
-  return { nodes, edges, totalSteps: 1 + groups.length };
+  return { nodes, edges, totalSteps: 1 + groups.length, terms: input.terms };
 }
 
 export type MapLayoutMode = 'column' | 'radial' | 'grid';

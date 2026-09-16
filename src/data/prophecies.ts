@@ -47,7 +47,7 @@ export const genesisProphecies: Record<string, ProphecyThread> = {
 
   // Chapter 2
   'gen-2-2': {
-    fulfillmentRefs: ['Hebrews 4:3-11'],
+    fulfillmentRefs: ['Exodus 20:8-11', 'Hebrews 4:3-11'],
   },
   'gen-2-3': {
     fulfillmentRefs: [

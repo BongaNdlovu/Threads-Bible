@@ -113,6 +113,10 @@ export function ThreadMapPage() {
       fulfillmentRefs: selectedThread.fulfillmentRefs ?? [],
       fulfillmentVerses: effectiveFulfillments.map(v => ({ id: v.id, text: v.text })),
       expand: expandVerseRange,
+      who: detail?.who,
+      whoByRef: detail?.whoByRef,
+      cumulativePrinciples: detail?.cumulativePrinciples,
+      terms: detail?.terms,
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild when thread, detail, or resolved verses change
   }, [isInvalidReference, selectedThread?.id, detail, fulfillmentVerses, sourceVerses]);

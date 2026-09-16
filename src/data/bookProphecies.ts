@@ -14,7 +14,7 @@ export const exodusProphecies: Record<string, BookProphecyThread> = {
   'exo-12-13': { fulfillmentRefs: ['Hebrews 11:28', '1 Peter 1:19', 'Ephesians 1:7'] },
   'exo-12-21': { fulfillmentRefs: ['Hebrews 11:28', '1 Corinthians 5:7'] },
   'exo-12-27': { fulfillmentRefs: ['1 Corinthians 5:7', 'Luke 22:15'] },
-  'exo-12-46': { fulfillmentRefs: ['John 19:36', 'Numbers 9:12'] },
+  'exo-12-46': { fulfillmentRefs: ['Numbers 9:12', 'John 19:36'] },
 
   // Deliverance / water / bread
   'exo-14-21': { fulfillmentRefs: ['1 Corinthians 10:1-2', 'Hebrews 11:29'] },
@@ -36,8 +36,8 @@ export const exodusProphecies: Record<string, BookProphecyThread> = {
   'exo-19-5': { fulfillmentRefs: ['Titus 2:14', '1 Peter 2:9'] },
   'exo-19-6': { fulfillmentRefs: ['1 Peter 2:5', '1 Peter 2:9', 'Revelation 1:6', 'Revelation 5:10'] },
   'exo-20-3': { fulfillmentRefs: ['Matthew 4:10', 'Revelation 22:8-9'] },
-  'exo-20-8': { fulfillmentRefs: ['Mark 2:27-28', 'Luke 4:16', 'Hebrews 4:9', 'Isaiah 58:13-14'] },
-  'exo-20-11': { fulfillmentRefs: ['Genesis 2:2-3', 'Hebrews 4:3-4', 'Ezekiel 20:12', 'Ezekiel 20:20'] },
+  'exo-20-8': { fulfillmentRefs: ['Genesis 2:2-3', 'Isaiah 58:13-14', 'Mark 2:27-28', 'Luke 4:16', 'Hebrews 4:9'] },
+  'exo-20-11': { fulfillmentRefs: ['Genesis 2:2-3', 'Ezekiel 20:12', 'Ezekiel 20:20', 'Hebrews 4:3-4'] },
   'exo-25-8': { fulfillmentRefs: ['John 1:14', 'Revelation 21:3', '2 Corinthians 6:16'] },
   'exo-25-40': { fulfillmentRefs: ['Hebrews 8:5', 'Hebrews 9:23', 'Colossians 2:17'] },
   'exo-28-36': { fulfillmentRefs: ['Hebrews 2:17', 'Hebrews 4:15', 'Hebrews 9:11'] },
