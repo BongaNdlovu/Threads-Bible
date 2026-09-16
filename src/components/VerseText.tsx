@@ -180,7 +180,7 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
       className={cn(
         'cursor-pointer transition-colors duration-200 group/verse',
         verse.isThread
-          ? 'border-b-2 border-dashed border-accent/50 bg-accent/[0.06] py-1 px-1 hover:bg-accent/[0.12]'
+          ? 'bg-accent/[0.12] py-1 px-1 hover:bg-accent/[0.18] rounded-sm'
           : 'hover:bg-foreground/5 opacity-80 hover:opacity-100',
         isSelectedMargin && 'ring-2 ring-accent/70 bg-accent/15 rounded-sm',
         isLinkingSource && 'ring-2 ring-accent ring-offset-2 ring-offset-background rounded-sm',
