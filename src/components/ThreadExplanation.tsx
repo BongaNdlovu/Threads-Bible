@@ -5,8 +5,46 @@ import {
   type ThreadDetail,
   type ThreadChain,
 } from '../data/threadDetailService';
+import type { OriginalLanguageTerm } from '../data/threadDetails';
 import { BookMarked, ChevronRight, Link2 } from 'lucide-react';
 import { DataChunkErrorCard } from './DataChunkErrorCard';
+
+export function OriginalLanguageTermList({ terms }: { terms: OriginalLanguageTerm[] }) {
+  if (terms.length === 0) return null;
+  return (
+    <div>
+      <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/45 mb-3">
+        Original language
+      </div>
+      <ul className="space-y-3">
+        {terms.map((t, i) => (
+          <li
+            key={`${t.term}-${i}`}
+            className="rounded-lg border border-foreground/10 bg-foreground/[0.03] px-3 py-2.5"
+          >
+            <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
+              <span className="text-sm font-semibold text-foreground">{t.term}</span>
+              <span className="font-serif text-base text-accent">{t.original}</span>
+              <span className="text-xs italic text-foreground/55">({t.translit})</span>
+              {t.strongs && (
+                <span className="text-[10px] font-mono uppercase tracking-wider text-foreground/40">
+                  Strong's {t.strongs}
+                </span>
+              )}
+            </div>
+            <div className="text-sm text-foreground/75 mt-1">{t.gloss}</div>
+            {t.exposition && (
+              <div className="text-xs text-foreground/70 mt-2 leading-relaxed">{t.exposition}</div>
+            )}
+            {t.note && (
+              <div className="text-xs text-foreground/50 mt-1 leading-relaxed">{t.note}</div>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
 
 function ChainTimeline({ chain }: { chain: ThreadChain }) {
   return (
@@ -136,39 +174,7 @@ export function ThreadExplanation({
         </p>
       </div>
 
-      {detail.terms.length > 0 && (
-        <div>
-          <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/45 mb-3">
-            Original language
-          </div>
-          <ul className="space-y-3">
-            {detail.terms.map((t, i) => (
-              <li
-                key={`${t.term}-${i}`}
-                className="rounded-lg border border-foreground/10 bg-foreground/[0.03] px-3 py-2.5"
-              >
-                <div className="flex flex-wrap items-baseline gap-x-2 gap-y-1">
-                  <span className="text-sm font-semibold text-foreground">{t.term}</span>
-                  <span className="font-serif text-base text-accent">{t.original}</span>
-                  <span className="text-xs italic text-foreground/55">({t.translit})</span>
-                  {t.strongs && (
-                    <span className="text-[10px] font-mono uppercase tracking-wider text-foreground/40">
-                      Strong's {t.strongs}
-                    </span>
-                  )}
-                </div>
-                <div className="text-sm text-foreground/75 mt-1">{t.gloss}</div>
-                {t.exposition && (
-                  <div className="text-xs text-foreground/70 mt-2 leading-relaxed">{t.exposition}</div>
-                )}
-                {t.note && (
-                  <div className="text-xs text-foreground/50 mt-1 leading-relaxed">{t.note}</div>
-                )}
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <OriginalLanguageTermList terms={detail.terms} />
 
       {otLinks.length > 1 && (
         <div>

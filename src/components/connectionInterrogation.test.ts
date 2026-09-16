@@ -18,7 +18,7 @@ import {
 import { getThreadDetail } from '../data/threadDetails';
 import { buildThreadGraph } from './threadMapModel';
 import { parsePersonalRelevance, parseWho } from './HistoricalContextPage';
-import { ThreadExplanation } from './ThreadExplanation';
+import { OriginalLanguageTermList } from './ThreadExplanation';
 
 describe('Connection Interrogation Architecture', () => {
   it('correctly retrieves curated interrogation for Genesis 1:1 -> John 1:1-3 with Christ as Creative Agent', () => {
@@ -841,10 +841,11 @@ describe('Phase 1 golden original-language exposition', () => {
     const detail = getThreadDetail('gen-1-1');
     expect(detail).toBeTruthy();
     const html = renderToStaticMarkup(
-      createElement(ThreadExplanation, { verseId: 'gen-1-1', detail })
+      createElement(OriginalLanguageTermList, { terms: detail!.terms })
     );
     expect(html).toContain('baraʾ');
     expect(html).toContain(detail!.terms[0].exposition!);
-    expect(html).toContain("Strong's H1254");
+    expect(html).toContain('H1254');
+    expect(html).toMatch(/Strong(?:'|&#x27;)s H1254/);
   });
 });

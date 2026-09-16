@@ -2447,7 +2447,6 @@ export function ThreadMap({
                     <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
                       {dossierTab === 'what' && '1. Textual & Thematic Parallelism'}
                       {dossierTab === 'when' && '2. Chronological Dating & Redemptive Horizons'}
-                      {dossierTab === 'how' && '3. Exegesis & Hermeneutical Mechanics'}
                       {dossierTab === 'why' && '4. Divine Purpose & Theological Necessity'}
                     </div>
                     <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
