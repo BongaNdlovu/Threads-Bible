@@ -73,8 +73,6 @@ interface Palette {
   dim: string;
   mute: string;
   border: string;
-  gold: string;
-  goldBright: string;
   steel: string;
   starRGBA: string;
   starAlpha: number;
@@ -83,6 +81,10 @@ interface Palette {
   watermark: string;
   labelHalo: string;
   panelBg: string;
+  /** Accent (brand blue) — derived from CSS tokens at runtime */
+  gold: string;
+  /** Bright accent — derived from CSS tokens at runtime (currently `--ring`) */
+  goldBright: string;
 }
 
 /**
@@ -92,7 +94,7 @@ interface Palette {
  * background). `steel` is the neutral CONNECTION strand (ink/gray). Keep the
  * accent hexes in sync with index.css.
  */
-const PALETTES: Record<MapTheme, Palette> = {
+const BASE_PALETTES: Record<MapTheme, Omit<Palette, 'gold' | 'goldBright'>> = {
   dark: {
     bg: '#0B0B0D',
     cardBg: 'linear-gradient(160deg, rgba(25,25,32,.94), rgba(11,11,13,.98))',
@@ -100,8 +102,6 @@ const PALETTES: Record<MapTheme, Palette> = {
     dim: 'rgba(166,161,150,.95)',
     mute: '#6E695F',
     border: 'rgba(234,230,218,.14)',
-    gold: '#60A5FA',
-    goldBright: '#93C5FD',
     steel: '#9CA3AF',
     starRGBA: '234, 230, 218',
     starAlpha: 0.35,
@@ -118,8 +118,6 @@ const PALETTES: Record<MapTheme, Palette> = {
     dim: '#5A564E',
     mute: '#8A857B',
     border: 'rgba(44,44,44,.16)',
-    gold: '#3B82F6',
-    goldBright: '#2563EB',
     steel: '#6B7280',
     starRGBA: '44, 44, 44',
     starAlpha: 0.1,
@@ -135,6 +133,18 @@ const NODE_W = 250;
 
 function strandColor(strand: MapNode['strand'], P: Palette): string {
   return strand === 'gold' ? P.gold : P.steel;
+}
+
+/** Read a CSS variable from :root and normalize to a hex color fallback-safe */
+function readCssVarHex(name: string, fallback: string): string {
+  try {
+    const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    if (!raw) return fallback;
+    // Accept hex values as-is; otherwise return fallback
+    return /^#([0-9a-f]{6}|[0-9a-f]{8})$/i.test(raw) ? raw : fallback;
+  } catch {
+    return fallback;
+  }
 }
 
 export interface OrdoSettings {
@@ -302,7 +312,13 @@ export function ThreadMap({
   onOpenPassageReader?: (ref: string) => void;
   onOpenSplit?: (ref: string) => void;
 }) {
-  const P = useMemo(() => PALETTES[theme], [theme]);
+  const P = useMemo<Palette>(() => {
+    const base = BASE_PALETTES[theme];
+    // Bind accents to CSS tokens from index.css
+    const accent = readCssVarHex('--accent', theme === 'dark' ? '#60A5FA' : '#3B82F6');
+    const ring = readCssVarHex('--ring', accent);
+    return { ...base, gold: accent, goldBright: ring };
+  }, [theme]);
   const boxRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const nodeRefs = useRef(new Map<string, HTMLElement>());

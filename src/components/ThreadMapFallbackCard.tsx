@@ -13,7 +13,7 @@ export interface ThreadMapFallbackCardProps {
   onOpenPassageReader: (ref?: string) => void;
 }
 
-const THEME_STYLES = {
+const THEME_STYLES_BASE = {
   dark: {
     bg: '#0B0B0D',
     cardBg: 'linear-gradient(160deg, rgba(25,25,32,.96), rgba(11,11,13,.98))',
@@ -22,11 +22,6 @@ const THEME_STYLES = {
     mute: '#7A756B',
     border: 'rgba(234,230,218,.14)',
     borderHover: 'rgba(96,165,250,.4)',
-    gold: '#60A5FA',
-    goldBright: '#93C5FD',
-    goldBg: 'rgba(96,165,250,.12)',
-    buttonBg: '#60A5FA',
-    buttonText: '#0B0B0D',
     secButtonBorder: 'rgba(234,230,218,.18)',
     secButtonText: '#EAE6DA',
     shadow: '0 20px 40px -15px rgba(0,0,0,0.8), 0 0 30px rgba(96,165,250,0.1)',
@@ -39,11 +34,6 @@ const THEME_STYLES = {
     mute: '#8A857B',
     border: 'rgba(44,44,44,.16)',
     borderHover: 'rgba(59,130,246,.5)',
-    gold: '#3B82F6',
-    goldBright: '#2563EB',
-    goldBg: 'rgba(59,130,246,.10)',
-    buttonBg: '#3B82F6',
-    buttonText: '#FAF9F6',
     secButtonBorder: 'rgba(44,44,44,.22)',
     secButtonText: '#2C2C2C',
     shadow: '0 20px 40px -15px rgba(44,44,44,0.12), 0 0 30px rgba(59,130,246,0.08)',
@@ -56,16 +46,21 @@ const THEME_STYLES = {
     mute: '#8A857B',
     border: 'rgba(44,44,44,.16)',
     borderHover: 'rgba(59,130,246,.5)',
-    gold: '#3B82F6',
-    goldBright: '#2563EB',
-    goldBg: 'rgba(59,130,246,.10)',
-    buttonBg: '#3B82F6',
-    buttonText: '#FAF9F6',
     secButtonBorder: 'rgba(44,44,44,.22)',
     secButtonText: '#2C2C2C',
     shadow: '0 20px 40px -15px rgba(44,44,44,0.12), 0 0 30px rgba(59,130,246,0.08)',
   },
 };
+
+function readCssVarHex(name: string, fallback: string): string {
+  try {
+    const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    if (!raw) return fallback;
+    return /^#([0-9a-f]{6}|[0-9a-f]{8})$/i.test(raw) ? raw : fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 export const ThreadMapFallbackCard: React.FC<ThreadMapFallbackCardProps> = ({
   theme = 'dark',
@@ -77,7 +72,18 @@ export const ThreadMapFallbackCard: React.FC<ThreadMapFallbackCardProps> = ({
   onResetMapView,
   onOpenPassageReader,
 }) => {
-  const S = (THEME_STYLES as Record<string, typeof THEME_STYLES.dark>)[theme] ?? THEME_STYLES.dark;
+  const Base = (THEME_STYLES_BASE as Record<string, typeof THEME_STYLES_BASE.dark>)[theme] ?? THEME_STYLES_BASE.dark;
+  const accent = readCssVarHex('--accent', theme === 'dark' ? '#60A5FA' : '#3B82F6');
+  const ring = readCssVarHex('--ring', accent);
+  const accentFg = readCssVarHex('--accent-foreground', theme === 'dark' ? '#0B0B0D' : '#FAF9F6');
+  const S = {
+    ...Base,
+    gold: accent,
+    goldBright: ring,
+    goldBg: `${accent}1a`,
+    buttonBg: accent,
+    buttonText: accentFg,
+  };
 
   const defaultDescriptions: Record<string, string> = {
     'zero-connections':
