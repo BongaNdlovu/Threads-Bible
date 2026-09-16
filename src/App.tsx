@@ -14,7 +14,7 @@ import { ChapterGrid } from './components/ChapterGrid';
 import { ThreadPanel } from './components/ThreadPanel';
 import { MobileControls } from './components/MobileControls';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './components/PaneChrome';
-import { ErrorBoundary } from './components/ErrorBoundary';
+import { ErrorBoundary, ErrorDiagnosticsCard } from './components/ErrorBoundary';
 import { useKeyboardShortcuts } from './hooks/useKeyboardShortcuts';
 import { initHashSync } from './hashSync';
 import { ThreadMapPage } from './components/ThreadMapPage';
@@ -84,18 +84,7 @@ export default function App() {
   ) : null;
 
   const paneCrash = (error: Error, reset: () => void) => (
-    <div className="h-full w-full flex items-center justify-center p-6">
-      <div className="max-w-sm space-y-2 text-center">
-        <p className="text-sm font-semibold text-foreground">Pane crashed</p>
-        <p className="text-xs text-foreground/60 break-words">{error.message}</p>
-        <button
-          onClick={reset}
-          className="px-3 py-1.5 rounded-full bg-accent text-accent-foreground text-xs font-medium cursor-pointer"
-        >
-          Try again
-        </button>
-      </div>
-    </div>
+    <ErrorDiagnosticsCard error={error} label="Pane" onReset={reset} variant="pane" />
   );
 
   const readingPane = (
@@ -142,32 +131,9 @@ export default function App() {
 
   // Fullscreen single pane
   const appCrash = (error: Error, reset: () => void) => (
-    <div className="h-screen flex items-center justify-center p-6 bg-background font-sans">
-      <div className="max-w-md space-y-3 text-center">
-        <div className="text-3xl">⚠️</div>
-        <h1 className="font-serif text-xl font-bold text-foreground">Something went wrong</h1>
-        <p className="text-sm text-foreground/60 break-words">{error.message}</p>
-        <p className="text-[11px] text-foreground/40">
-          Your bookmarks, notes, and links are safe. Error details were saved to
-          localStorage (threads-bible-last-crash).
-        </p>
-        <div className="flex items-center justify-center gap-2 pt-1">
-          <button
-            onClick={reset}
-            className="px-3 py-1.5 rounded-full bg-accent text-accent-foreground text-sm font-medium cursor-pointer hover:opacity-90"
-          >
-            Try again
-          </button>
-          <button
-            onClick={() => window.location.reload()}
-            className="px-3 py-1.5 rounded-full border border-foreground/15 text-sm text-foreground/70 cursor-pointer hover:bg-foreground/5"
-          >
-            Reload page
-          </button>
-        </div>
-      </div>
-    </div>
+    <ErrorDiagnosticsCard error={error} label="Application" onReset={reset} variant="full" />
   );
+
 
   if (focusPane) {
     return (
@@ -203,8 +169,16 @@ export default function App() {
         </ErrorBoundary>
         <MobileControls />
         {noticeBanner}
-        {threadMapOpen && selectedThread && <ThreadMapPage />}
-        {historicalContextOpen && <HistoricalContextPage />}
+        {threadMapOpen && (
+          <ErrorBoundary label="thread-map" fallback={appCrash}>
+            <ThreadMapPage />
+          </ErrorBoundary>
+        )}
+        {historicalContextOpen && (
+          <ErrorBoundary label="historical-context" fallback={appCrash}>
+            <HistoricalContextPage />
+          </ErrorBoundary>
+        )}
         </div>
       </ErrorBoundary>
     );
@@ -280,9 +254,18 @@ export default function App() {
         </ErrorBoundary>
         <MobileControls />
         {noticeBanner}
-        {threadMapOpen && selectedThread && <ThreadMapPage />}
-        {historicalContextOpen && <HistoricalContextPage />}
+        {threadMapOpen && (
+          <ErrorBoundary label="thread-map" fallback={appCrash}>
+            <ThreadMapPage />
+          </ErrorBoundary>
+        )}
+        {historicalContextOpen && (
+          <ErrorBoundary label="historical-context" fallback={appCrash}>
+            <HistoricalContextPage />
+          </ErrorBoundary>
+        )}
       </div>
+
     </ErrorBoundary>
   );
 }

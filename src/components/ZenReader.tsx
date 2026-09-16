@@ -69,11 +69,22 @@ export function ZenReader({
             className="flex-1 font-serif leading-relaxed tracking-tight text-foreground/90 space-y-5"
             style={{ fontSize: `${fontSize}px`, lineHeight: 1.75 }}
           >
-            <p className="text-left">
-              {verses.map(verse => (
-                <VerseText key={verse.id} verse={verse} />
-              ))}
-            </p>
+            {verses.length === 0 ? (
+              <div className="py-12 px-6 rounded-2xl border border-dashed border-foreground/15 text-center space-y-2 my-6">
+                <p className="text-base font-serif font-medium text-foreground/80">
+                  No verses available for this selection
+                </p>
+                <p className="text-xs text-foreground/50 max-w-sm mx-auto">
+                  The requested passage range could not be resolved or contains no indexed text.
+                </p>
+              </div>
+            ) : (
+              <p className="text-left">
+                {verses.map((verse, idx) => (
+                  <VerseText key={verse?.id ?? idx} verse={verse} />
+                ))}
+              </p>
+            )}
           </div>
 
           {indicator && <div className="mt-auto pt-16">{indicator}</div>}

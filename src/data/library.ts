@@ -1,7 +1,7 @@
 import type { Verse } from './types';
 import { BOOK_REGISTRY, BOOK_BY_NAME, type BookMeta } from './bookRegistry';
 import { allThreadMaps } from './threadMap';
-import { createDeferredDataset, useDatasetReady } from './deferred';
+import { createDeferredDataset, useDatasetReady, useDatasetState } from './deferred';
 
 export type { Verse } from './types';
 
@@ -29,6 +29,18 @@ export function ensureFulfillmentsLoaded(): Promise<Verse[]> {
 
 export function useFulfillmentsReady(): boolean {
   return useDatasetReady(fulfillmentsDataset);
+}
+
+export function useFulfillmentsState() {
+  return useDatasetState(fulfillmentsDataset);
+}
+
+export function getFulfillmentsError(): Error | null {
+  return fulfillmentsDataset.getError();
+}
+
+export function retryFulfillments(): Promise<Verse[]> {
+  return fulfillmentsDataset.retry();
 }
 
 /** Synchronous snapshot of the fulfillment index (empty before it loads). */

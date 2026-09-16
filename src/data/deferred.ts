@@ -4,7 +4,7 @@
  * Heavy data modules (fulfillment index, thread details, beliefs, LDE) are
  * dynamically imported instead of statically bundled. get() stays synchronous
  * for existing render paths (returning null until loaded), and subscribe()
- * lets React re-render via useSyncExternalStore when the data arrives.
+ * lets React re-render via useSyncExternalStore when data arrives or fails.
  */
 import { useSyncExternalStore } from 'react';
 
@@ -17,29 +17,57 @@ export interface DeferredDataset<T> {
   get: () => T | null;
   /** React-ready snapshot (stable boolean) for useSyncExternalStore. */
   isReady: () => boolean;
+  /** Whether the dataset is currently in-flight. */
+  isLoading: () => boolean;
+  /** Current loading error, if the last attempt failed. */
+  getError: () => Error | null;
+  /** Re-trigger a load attempt after failure. */
+  retry: () => Promise<T>;
   subscribe: (listener: () => void) => () => void;
 }
 
 export function createDeferredDataset<T>(loader: () => Promise<T>): DeferredDataset<T> {
   let data: T | null = null;
   let promise: Promise<T> | null = null;
+  let error: Error | null = null;
+  let loading = false;
   const listeners = new Set<() => void>();
 
+  const notify = () => {
+    listeners.forEach(l => l());
+  };
+
   const ensure = (): Promise<T> => {
+    if (data !== null) {
+      return Promise.resolve(data);
+    }
     if (!promise) {
+      loading = true;
+      error = null;
+      notify();
       promise = loader()
         .then(loaded => {
           data = loaded;
-          listeners.forEach(l => l());
+          error = null;
+          loading = false;
+          notify();
           return loaded;
         })
         .catch(err => {
-          // Allow a retry on the next ensure() rather than caching the failure.
           promise = null;
-          throw err;
+          loading = false;
+          error = err instanceof Error ? err : new Error(String(err));
+          notify();
+          throw error;
         });
     }
     return promise;
+  };
+
+  const retry = (): Promise<T> => {
+    promise = null;
+    error = null;
+    return ensure();
   };
 
   return {
@@ -49,6 +77,9 @@ export function createDeferredDataset<T>(loader: () => Promise<T>): DeferredData
     },
     get: () => data,
     isReady: () => data !== null,
+    isLoading: () => loading,
+    getError: () => error,
+    retry,
     subscribe: listener => {
       listeners.add(listener);
       return () => {
@@ -62,3 +93,27 @@ export function createDeferredDataset<T>(loader: () => Promise<T>): DeferredData
 export function useDatasetReady<T>(dataset: DeferredDataset<T>): boolean {
   return useSyncExternalStore(dataset.subscribe, dataset.isReady);
 }
+
+export interface DatasetState<T> {
+  data: T | null;
+  isReady: boolean;
+  isLoading: boolean;
+  error: Error | null;
+  retry: () => Promise<T>;
+}
+
+export function useDatasetState<T>(dataset: DeferredDataset<T>): DatasetState<T> {
+  const isReady = useSyncExternalStore(dataset.subscribe, dataset.isReady);
+  const isLoading = useSyncExternalStore(dataset.subscribe, dataset.isLoading);
+  const error = useSyncExternalStore(dataset.subscribe, dataset.getError);
+  const data = useSyncExternalStore(dataset.subscribe, dataset.get);
+
+  return {
+    data,
+    isReady,
+    isLoading,
+    error,
+    retry: dataset.retry,
+  };
+}
+

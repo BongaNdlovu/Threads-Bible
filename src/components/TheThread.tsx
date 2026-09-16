@@ -1,7 +1,9 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { useStore } from '../store/useStore';
 import {
   getChapterVersesFromLoaded,
+  isBookLoaded,
+  loadBook,
   useFulfillmentsReady,
 } from '../data/library';
 import type { Verse } from '../data/types';
@@ -9,6 +11,7 @@ import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailServ
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
 import { ZenReader } from './ZenReader';
 import { ThreadExplanation } from './ThreadExplanation';
+import { DataChunkErrorCard } from './DataChunkErrorCard';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
 import { X, BookOpen, Columns2 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -32,7 +35,10 @@ export function TheThread({
     selectedThread,
     setSelectedThread,
     setHighlightFromThread,
+    setReadingLocation,
     setThreadPaneOpen,
+    setThreadMapOpen,
+    setFocusPane,
     explanationOpen,
     closeAllStudyPanes,
   } = useStore();
@@ -42,12 +48,52 @@ export function TheThread({
   const [subPaneMode, setSubPaneMode] = useState<'both' | 'source' | 'fulfillment'>('both');
 
   // Re-render when the lazily imported fulfillment / detail chunks arrive.
-  const { verses: fulfillmentVerses, ready: fulfillmentsReady } = useFulfillmentVerses(selectedThread);
+  const {
+    verses: fulfillmentVerses,
+    ready: fulfillmentsReady,
+    isLoading: fulfillmentsLoading,
+    error: fulfillmentsError,
+    retry: retryFulfillments,
+  } = useFulfillmentVerses(selectedThread);
   const detailsReady = useThreadDetailsReady();
 
-  const sourceVerses = selectedThread
-    ? getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter)
-    : [];
+  const [sourceLoading, setSourceLoading] = useState(false);
+  const [sourceError, setSourceError] = useState<Error | null>(null);
+  const [sourceVerses, setSourceVerses] = useState<Verse[]>(() => {
+    if (selectedThread?.book && selectedThread?.chapter) {
+      return getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter);
+    }
+    return [];
+  });
+
+  const loadSourceBook = useCallback(async () => {
+    if (!selectedThread?.book || !selectedThread?.chapter) {
+      setSourceVerses([]);
+      setSourceError(null);
+      setSourceLoading(false);
+      return;
+    }
+    if (isBookLoaded(selectedThread.book)) {
+      setSourceVerses(getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter));
+      setSourceError(null);
+      setSourceLoading(false);
+      return;
+    }
+    setSourceLoading(true);
+    setSourceError(null);
+    try {
+      await loadBook(selectedThread.book);
+      setSourceVerses(getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter));
+    } catch (err) {
+      setSourceError(err instanceof Error ? err : new Error(String(err)));
+    } finally {
+      setSourceLoading(false);
+    }
+  }, [selectedThread?.book, selectedThread?.chapter]);
+
+  useEffect(() => {
+    void loadSourceBook();
+  }, [loadSourceBook]);
 
   const primaryRef = selectedThread?.fulfillmentRefs?.[0] || 'Fulfillment';
   const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
@@ -67,7 +113,7 @@ export function TheThread({
     setHighlightFromThread(map);
     return () => setHighlightFromThread({});
     // eslint-disable-next-line react-hooks/exhaustive-deps -- recompute when the thread changes, its detail arrives, or fulfillments finish loading
-  }, [selectedThread?.id, detail, setHighlightFromThread, fulfillmentsReady, detailsReady, fulfillmentVerses]);
+  }, [selectedThread?.id, detail, setHighlightFromThread, fulfillmentsReady, detailsReady, fulfillmentVerses, sourceVerses]);
 
   if (!selectedThread) return null;
 
@@ -84,10 +130,29 @@ export function TheThread({
     );
   }
 
-  const SourcePane = (
+  const sourceTitle = selectedThread?.book && selectedThread?.chapter
+    ? `${selectedThread.book} ${selectedThread.chapter}`
+    : 'Passage';
+
+  const SourcePane = sourceError ? (
+    <div className="h-full flex items-center justify-center p-6">
+      <DataChunkErrorCard
+        title={`Unable to Load ${selectedThread?.book ?? 'Passage'}`}
+        chunkName={`${selectedThread?.book ?? 'Scripture'} Text`}
+        error={sourceError}
+        onRetry={loadSourceBook}
+      />
+    </div>
+  ) : sourceLoading ? (
+    <div className="h-full flex items-center justify-center p-6 text-center space-y-2">
+      <div className="text-sm font-medium text-foreground/70 animate-pulse">
+        Loading {selectedThread?.book} {selectedThread?.chapter}…
+      </div>
+    </div>
+  ) : (
     <ZenReader
       verses={sourceVerses}
-      title={`${selectedThread.book} ${selectedThread.chapter}`}
+      title={sourceTitle}
       label="Thread Source"
       indicator={
         <div className="flex items-center gap-4 py-6 border-t border-foreground/5">
@@ -100,7 +165,22 @@ export function TheThread({
     />
   );
 
-  const FulfillmentPane = (
+  const FulfillmentPane = fulfillmentsError ? (
+    <div className="h-full flex items-center justify-center p-6">
+      <DataChunkErrorCard
+        title="Unable to Load Fulfillment Verses"
+        chunkName="Fulfillments Index"
+        error={fulfillmentsError}
+        onRetry={retryFulfillments}
+      />
+    </div>
+  ) : fulfillmentsLoading || !fulfillmentsReady ? (
+    <div className="h-full flex items-center justify-center p-6 text-center space-y-2">
+      <div className="text-sm font-medium text-foreground/70 animate-pulse">
+        Loading fulfillment passage…
+      </div>
+    </div>
+  ) : (
     <ZenReader verses={fulfillmentVerses} title={primaryRef} label="Fulfillment Reference" />
   );
 

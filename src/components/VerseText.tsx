@@ -36,6 +36,7 @@ function keywordRegex(cleaned: string[]): RegExp | null {
 
 /** Split text into segments, marking keyword matches (case-insensitive). */
 export function highlightText(text: string, keywords: string[]): React.ReactNode {
+  if (!text) return text;
   if (!keywords || keywords.length === 0) return text;
 
   const cleaned = keywords
@@ -66,6 +67,20 @@ export function highlightText(text: string, keywords: string[]): React.ReactNode
 }
 
 export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
+  if (
+    !verse ||
+    !verse.id ||
+    !verse.book ||
+    typeof verse.chapter !== 'number' ||
+    typeof verse.verseNumber !== 'number'
+  ) {
+    return (
+      <span className="text-xs italic text-destructive/80 px-1.5 py-0.5 rounded bg-destructive/10 inline-block my-0.5 font-mono select-none">
+        [Invalid Verse Reference]
+      </span>
+    );
+  }
+
   const {
     showVerseNumbers,
     setSelectedThread,
@@ -152,7 +167,8 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
 
   const handleCopy = async (e: React.MouseEvent) => {
     e.stopPropagation();
-    const line = `${verse.book} ${verse.chapter}:${verse.verseNumber} (KJV) — ${verse.text}`;
+    const verseContent = verse.text && verse.text.trim().length > 0 ? verse.text : '[Verse text unavailable]';
+    const line = `${verse.book} ${verse.chapter}:${verse.verseNumber} (KJV) — ${verseContent}`;
     try {
       await navigator.clipboard.writeText(line);
       setCopied(true);
@@ -286,7 +302,13 @@ export const VerseText: React.FC<{ verse: Verse }> = ({ verse }) => {
         </sup>
       )}
       <span className={cn(!verse.isThread && 'opacity-90')}>
-        {keywords && keywords.length > 0 ? highlightText(verse.text, keywords) : verse.text}
+        {verse.text && verse.text.trim().length > 0 ? (
+          keywords && keywords.length > 0 ? highlightText(verse.text, keywords) : verse.text
+        ) : (
+          <span className="italic text-foreground/40 font-serif" title="Text for this verse is missing or unavailable">
+            [Verse text unavailable]
+          </span>
+        )}
       </span>{' '}
       {showActions && (
         <span

@@ -5,7 +5,7 @@
  * the same synchronous getters; before the chunk arrives they return null and
  * components re-render via useThreadDetailsReady().
  */
-import { createDeferredDataset, useDatasetReady } from './deferred';
+import { createDeferredDataset, useDatasetReady, useDatasetState } from './deferred';
 import type { ThreadDetail, ThreadChain } from './threadDetails';
 
 export type { ThreadDetail, ThreadChain } from './threadDetails';
@@ -41,6 +41,18 @@ export function useThreadDetailsReady(): boolean {
   return useDatasetReady(apiDataset);
 }
 
+export function useThreadDetailsState() {
+  return useDatasetState(apiDataset);
+}
+
+export function getThreadDetailsError(): Error | null {
+  return apiDataset.getError();
+}
+
+export function retryThreadDetails(): Promise<ThreadDetailApi> {
+  return apiDataset.retry();
+}
+
 export function ensureThreadDetails(): Promise<ThreadDetailApi> {
   return apiDataset.ensure();
 }
@@ -48,3 +60,4 @@ export function ensureThreadDetails(): Promise<ThreadDetailApi> {
 export function preloadThreadDetails(): void {
   apiDataset.preload();
 }
+

@@ -1,11 +1,12 @@
 import {
   getThreadDetail,
   getChainForVerse,
-  useThreadDetailsReady,
+  useThreadDetailsState,
   type ThreadDetail,
   type ThreadChain,
 } from '../data/threadDetailService';
 import { BookMarked, ChevronRight, Link2 } from 'lucide-react';
+import { DataChunkErrorCard } from './DataChunkErrorCard';
 
 function ChainTimeline({ chain }: { chain: ThreadChain }) {
   return (
@@ -71,7 +72,7 @@ export function ThreadExplanation({
 }) {
   // Re-render once the lazily imported details chunk arrives (the detail prop
   // path from TheThread also re-renders via its own ready hook).
-  useThreadDetailsReady();
+  const { isLoading, error, retry } = useThreadDetailsState();
   const detail = detailProp ?? getThreadDetail(verseId);
   const chain = getChainForVerse(verseId);
 
@@ -84,9 +85,28 @@ export function ThreadExplanation({
           .filter(s => s.testament === 'OT')
           .map(s => ({ ref: s.ref, connection: s.connection }));
 
+  if (error && !detail) {
+    return (
+      <DataChunkErrorCard
+        title="Unable to Load Thread Explanations"
+        chunkName="Thread Explanations & Typology"
+        error={error}
+        onRetry={retry}
+      />
+    );
+  }
+
+  if (isLoading && !detail) {
+    return (
+      <div className="p-4 text-center text-xs text-foreground/50 animate-pulse">
+        Loading theological explanation…
+      </div>
+    );
+  }
+
   if (!detail) {
     return (
-      <div className="text-sm text-foreground/50">
+      <div className="text-sm text-foreground/50 italic py-4">
         No curated explanation for this thread yet.
       </div>
     );

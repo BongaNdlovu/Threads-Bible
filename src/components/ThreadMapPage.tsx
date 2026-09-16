@@ -1,11 +1,20 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Columns2, Landmark, Moon, Sun, X } from 'lucide-react';
 import { useStore } from '../store/useStore';
-import { expandVerseRange, getChapterVersesFromLoaded } from '../data/library';
+import {
+  expandVerseRange,
+  getChapterVersesFromLoaded,
+  isBookLoaded,
+  loadBook,
+  BOOK_BY_NAME,
+  type Verse,
+} from '../data/library';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
 import { buildThreadGraph } from './threadMapModel';
 import { ThreadMap, type MapTheme } from './ThreadMap';
+import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
+import { ErrorBoundary } from './ErrorBoundary';
 
 /**
  * The Ordo mindmap as its own page. Opens for a thread verse (map is the
@@ -19,21 +28,65 @@ export function ThreadMapPage() {
     setThreadMapOpen,
     setThreadPaneOpen,
     setHistoricalContextOpen,
+    setChapterGridOpen,
+    setFocusPane,
+    setReadingLocation,
   } = useStore();
 
   const [mapTheme, setMapTheme] = useState<MapTheme>(appTheme);
   useEffect(() => setMapTheme(appTheme), [appTheme]);
+  const [mapKey, setMapKey] = useState(0);
 
   const { verses: fulfillmentVerses } = useFulfillmentVerses(selectedThread);
   useThreadDetailsReady();
 
   const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
-  const sourceVerses = selectedThread
-    ? getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter)
-    : [];
+
+  // Check canonical validity of the selected thread reference
+  const isInvalidReference = useMemo(() => {
+    if (!selectedThread || !selectedThread.id || !selectedThread.book) return true;
+    if (typeof selectedThread.chapter !== 'number' || typeof selectedThread.verseNumber !== 'number') return true;
+    if (selectedThread.chapter < 1 || selectedThread.verseNumber < 1) return true;
+    const meta = BOOK_BY_NAME[selectedThread.book];
+    if (!meta) return true;
+    if (selectedThread.chapter > meta.chapters) return true;
+    return false;
+  }, [selectedThread]);
+
+  const [sourceVerses, setSourceVerses] = useState<Verse[]>(() => {
+    if (selectedThread?.book && selectedThread?.chapter) {
+      return getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter);
+    }
+    return [];
+  });
+
+  // Ensure the source book is loaded if the thread originates in an unloaded book
+  useEffect(() => {
+    if (!selectedThread?.book || !selectedThread?.chapter || isInvalidReference) {
+      setSourceVerses([]);
+      return;
+    }
+    if (isBookLoaded(selectedThread.book)) {
+      setSourceVerses(getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter));
+      return;
+    }
+    let cancelled = false;
+    loadBook(selectedThread.book)
+      .then(() => {
+        if (!cancelled && selectedThread?.book && selectedThread?.chapter) {
+          setSourceVerses(getChapterVersesFromLoaded(selectedThread.book, selectedThread.chapter));
+        }
+      })
+      .catch(() => {
+        /* Fallback uses selectedThread.text */
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [selectedThread?.book, selectedThread?.chapter, isInvalidReference]);
 
   const threadGraph = useMemo(() => {
-    if (!selectedThread) return null;
+    if (isInvalidReference || !selectedThread) return null;
     const anchorVerse = sourceVerses.find(v => v.id === selectedThread.id);
     return buildThreadGraph({
       anchorId: selectedThread.id,
@@ -47,9 +100,7 @@ export function ThreadMapPage() {
       expand: expandVerseRange,
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps -- rebuild when thread, detail, or resolved verses change
-  }, [selectedThread?.id, detail, fulfillmentVerses]);
-
-  if (!selectedThread || !threadGraph) return null;
+  }, [isInvalidReference, selectedThread?.id, detail, fulfillmentVerses, sourceVerses]);
 
   const openSplit = () => {
     setThreadMapOpen(false);
@@ -71,7 +122,48 @@ export function ThreadMapPage() {
     }
   };
 
+  const handleSelectAnotherVerse = () => {
+    setChapterGridOpen(true);
+    setThreadMapOpen(false);
+  };
+
+  const handleResetMapView = () => {
+    try {
+      localStorage.removeItem('ordo-viewer-settings-v1');
+    } catch {
+      // storage unavailable
+    }
+    setMapKey(k => k + 1);
+  };
+
+  const handleOpenPassageReader = () => {
+    setThreadMapOpen(false);
+    setFocusPane(null);
+    if (selectedThread && selectedThread.book && selectedThread.chapter) {
+      setReadingLocation(selectedThread.book, selectedThread.chapter);
+    }
+  };
+
   const P = mapTheme === 'dark' ? DARK_PAGE : LIGHT_PAGE;
+
+  const headerRefText = selectedThread && !isInvalidReference
+    ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`
+    : 'Verse Reference';
+
+  // Determine if we need to show a fallback card
+  let fallbackReason: 'zero-connections' | 'empty-graph' | 'invalid-reference' | null = null;
+  let fallbackTitle = '';
+
+  if (isInvalidReference || !selectedThread) {
+    fallbackReason = 'invalid-reference';
+    fallbackTitle = 'Invalid Scripture Reference';
+  } else if (!threadGraph || threadGraph.nodes.length === 0) {
+    fallbackReason = 'empty-graph';
+    fallbackTitle = 'Empty Mindmap Graph';
+  } else if (threadGraph.edges.length === 0) {
+    fallbackReason = 'zero-connections';
+    fallbackTitle = 'No Cross-Book Connections Found';
+  }
 
   return (
     <div className="fixed inset-0 z-[90] flex flex-col" style={{ background: P.bg }}>
@@ -83,18 +175,20 @@ export function ThreadMapPage() {
         <div className="min-w-0 flex items-center gap-3">
           <div>
             <div className="font-mono text-[10px] tracking-[0.2em] uppercase" style={{ color: P.gold }}>
-              Ordo · {selectedThread.book} {selectedThread.chapter}:{selectedThread.verseNumber}
+              Ordo · {headerRefText}
             </div>
             <div className="font-serif text-sm font-medium truncate max-w-[280px] sm:max-w-md" style={{ color: P.text }}>
-              {detail?.title ?? 'Thread'}
+              {detail?.title ?? (fallbackReason ? 'Thread Error' : 'Thread')}
             </div>
           </div>
-          <span
-            className="hidden sm:inline-block px-2 py-0.5 rounded-full border text-[10px] font-mono font-semibold shrink-0"
-            style={{ borderColor: P.border, color: P.gold }}
-          >
-            {threadGraph.edges.length} connection{threadGraph.edges.length === 1 ? '' : 's'}
-          </span>
+          {threadGraph && threadGraph.edges.length > 0 && (
+            <span
+              className="hidden sm:inline-block px-2 py-0.5 rounded-full border text-[10px] font-mono font-semibold shrink-0"
+              style={{ borderColor: P.border, color: P.gold }}
+            >
+              {threadGraph.edges.length} connection{threadGraph.edges.length === 1 ? '' : 's'}
+            </span>
+          )}
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
           <button
@@ -106,26 +200,30 @@ export function ThreadMapPage() {
           >
             {mapTheme === 'dark' ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
           </button>
-          <button
-            onClick={() => setHistoricalContextOpen(true, selectedThread.id)}
-            aria-label="Historical Context"
-            className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
-            style={{ borderColor: P.ctrlBorder, color: P.text }}
-            title="Open historical context for this connection and all biblical threads"
-          >
-            <Landmark className="h-3.5 w-3.5" style={{ color: P.gold }} />
-            <span className="hidden sm:inline">Historical Context</span>
-          </button>
-          <button
-            onClick={openSplit}
-            aria-label="Split View"
-            className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
-            style={{ borderColor: P.ctrlBorder, color: P.text }}
-            title="Open the classic split view (source & fulfillment side by side)"
-          >
-            <Columns2 className="h-3.5 w-3.5" />
-            <span className="hidden sm:inline">Split View</span>
-          </button>
+          {selectedThread && !isInvalidReference && (
+            <button
+              onClick={() => setHistoricalContextOpen(true, selectedThread.id)}
+              aria-label="Historical Context"
+              className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
+              style={{ borderColor: P.ctrlBorder, color: P.text }}
+              title="Open historical context for this connection and all biblical threads"
+            >
+              <Landmark className="h-3.5 w-3.5" style={{ color: P.gold }} />
+              <span className="hidden sm:inline">Historical Context</span>
+            </button>
+          )}
+          {threadGraph && threadGraph.edges.length > 0 && (
+            <button
+              onClick={openSplit}
+              aria-label="Split View"
+              className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-medium cursor-pointer transition-colors"
+              style={{ borderColor: P.ctrlBorder, color: P.text }}
+              title="Open the classic split view (source & fulfillment side by side)"
+            >
+              <Columns2 className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">Split View</span>
+            </button>
+          )}
           <button
             onClick={() => setThreadMapOpen(false)}
             aria-label="Close map"
@@ -137,18 +235,52 @@ export function ThreadMapPage() {
         </div>
       </header>
 
-      {/* The map fills the rest of the page */}
+      {/* The map fills the rest of the page, or the fallback card if an error state was reached */}
       <div className="flex-1 min-h-0">
-        <ThreadMap
-          graph={threadGraph}
-          theme={mapTheme}
-          isFullscreen={isFullscreen}
-          onToggleFullscreen={toggleFullscreen}
-        />
+        {fallbackReason ? (
+          <ThreadMapFallbackCard
+            theme={mapTheme}
+            title={fallbackTitle}
+            reason={fallbackReason}
+            reference={selectedThread ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}` : undefined}
+            onSelectAnotherVerse={handleSelectAnotherVerse}
+            onResetMapView={handleResetMapView}
+            onOpenPassageReader={handleOpenPassageReader}
+          />
+        ) : threadGraph ? (
+          <ErrorBoundary
+            key={mapKey}
+            label="thread-map"
+            fallback={(error, reset) => (
+              <ThreadMapFallbackCard
+                theme={mapTheme}
+                title="Graph Display Error"
+                reason="layout-failure"
+                description={error.message}
+                reference={`${selectedThread!.book} ${selectedThread!.chapter}:${selectedThread!.verseNumber}`}
+                onSelectAnotherVerse={handleSelectAnotherVerse}
+                onResetMapView={() => {
+                  handleResetMapView();
+                  reset();
+                }}
+                onOpenPassageReader={handleOpenPassageReader}
+              />
+            )}
+          >
+            <ThreadMap
+              key={mapKey}
+              graph={threadGraph}
+              theme={mapTheme}
+              isFullscreen={isFullscreen}
+              onToggleFullscreen={toggleFullscreen}
+            />
+          </ErrorBoundary>
+        ) : null}
       </div>
     </div>
   );
 }
+
 
 function snippetOf(text: string): string {
   const clean = text.replace(/\[[^\]]*\]/g, ' ').replace(/\s+/g, ' ').trim();

@@ -5,7 +5,7 @@ import {
   isBookLoaded,
   loadBook,
   resolveRefs,
-  useFulfillmentsReady,
+  useFulfillmentsState,
   BOOK_REGISTRY,
   type Verse,
 } from '../data/library';
@@ -18,43 +18,69 @@ import {
 export function useFulfillmentVerses(selectedThread: Verse | null): {
   verses: Verse[];
   ready: boolean;
+  isLoading: boolean;
+  error: Error | null;
+  retry: () => Promise<Verse[]>;
 } {
-  const fulfillmentsReady = useFulfillmentsReady();
+  const { isReady, isLoading: isFulfillmentsLoading, error, retry } = useFulfillmentsState();
   const [verses, setVerses] = useState<Verse[]>([]);
+  const [loadError, setLoadError] = useState<Error | null>(null);
+  const [resolving, setResolving] = useState(false);
 
   useEffect(() => {
     if (!selectedThread) {
       setVerses([]);
+      setLoadError(null);
+      setResolving(false);
       return;
     }
     let cancelled = false;
+    setResolving(true);
     void (async () => {
-      await ensureFulfillmentsLoaded();
-      const refs = selectedThread.fulfillmentRefs ?? [];
-      const slugs = new Set<string>();
-      for (const ref of refs) {
-        for (const id of expandVerseRange(ref)) {
-          const m = id.match(/^([a-z0-9]+)-(\d+)-(\d+)$/);
-          if (m) slugs.add(m[1].toLowerCase());
-        }
-      }
-      for (const slug of slugs) {
-        const meta = BOOK_REGISTRY.find(b => b.slug === slug);
-        if (meta && !isBookLoaded(meta.name)) {
-          try {
-            await loadBook(meta.name);
-          } catch {
-            // A failed book load just means those verses won't render.
+      try {
+        setLoadError(null);
+        await ensureFulfillmentsLoaded();
+        const refs = selectedThread.fulfillmentRefs ?? [];
+        const slugs = new Set<string>();
+        for (const ref of refs) {
+          for (const id of expandVerseRange(ref)) {
+            const m = id.match(/^([a-z0-9]+)-(\d+)-(\d+)$/);
+            if (m) slugs.add(m[1].toLowerCase());
           }
         }
+        for (const slug of slugs) {
+          const meta = BOOK_REGISTRY.find(b => b.slug === slug);
+          if (meta && !isBookLoaded(meta.name)) {
+            try {
+              await loadBook(meta.name);
+            } catch {
+              // A failed book load just means those verses won't render.
+            }
+          }
+        }
+        if (!cancelled) {
+          setVerses(resolveRefs(refs));
+          setResolving(false);
+        }
+      } catch (err) {
+        if (!cancelled) {
+          setLoadError(err instanceof Error ? err : new Error(String(err)));
+          setResolving(false);
+        }
       }
-      if (!cancelled) setVerses(resolveRefs(refs));
     })();
     return () => {
       cancelled = true;
     };
-    // eslint-disable-next-line react-hooks/exhaustive-deps -- keyed on the thread identity; fulfillmentRefs is stable per thread
-  }, [selectedThread?.id, fulfillmentsReady]);
+  }, [selectedThread?.id, isReady]);
 
-  return { verses, ready: fulfillmentsReady };
+  const isLoading = isFulfillmentsLoading || (!!selectedThread && resolving);
+
+  return {
+    verses,
+    ready: isReady && !resolving,
+    isLoading,
+    error: error || loadError,
+    retry,
+  };
 }

@@ -91,10 +91,17 @@ export function HistoricalContextPage() {
 
     const [slug, chStr, vStr] = anchorPart.split('-');
     const meta = BOOK_REGISTRY.find(b => b.slug === slug);
-    const bookName = meta?.name || slug || 'Genesis';
-    const chapter = parseInt(chStr, 10) || 1;
-    const verse = parseInt(vStr, 10) || 1;
-    const anchorRef = meta ? `${meta.name} ${chapter}:${verse}` : anchorPart;
+    const chapter = parseInt(chStr, 10);
+    const verse = parseInt(vStr, 10);
+
+    const isValidVerse = meta && !isNaN(chapter) && chapter > 0 && !isNaN(verse) && verse > 0;
+    if (!isValidVerse) {
+      // Invalid format or non-existent book slug; return base without synthesizing broken item
+      return base;
+    }
+
+    const bookName = meta.name;
+    const anchorRef = `${meta.name} ${chapter}:${verse}`;
 
     const thread = threadFor(anchorPart);
     const targetRef = targetPart || thread?.fulfillmentRefs[0] || 'Apostolic Culmination';
@@ -148,6 +155,77 @@ export function HistoricalContextPage() {
     return [dynamicItem, ...base];
   }, [focusedHistoricalConnectionId, selectedThread]);
 
+  // Determine effective connection and fallback when focusedHistoricalConnectionId is missing or invalid
+  const { fallbackConnection, isFallbackNotice } = useMemo(() => {
+    const base = getAllHistoricalConnections();
+    if (!focusedHistoricalConnectionId) {
+      // Missing focused connection ID:
+      // Fall back to selectedThread if it matches an era or connection
+      if (selectedThread?.id) {
+        const direct = base.find(
+          c => c.anchorId === selectedThread.id || c.id.startsWith(`${selectedThread.id}_`)
+        );
+        if (direct) return { fallbackConnection: direct, isFallbackNotice: false };
+        if (selectedThread.book) {
+          const era = findEraForBook(selectedThread.book);
+          const nearest = base.find(c => c.sourceEra.id === era.id || c.fulfillmentEra.id === era.id);
+          if (nearest) return { fallbackConnection: nearest, isFallbackNotice: false };
+        }
+      }
+      return { fallbackConnection: base[0] ?? null, isFallbackNotice: false };
+    }
+
+    const exists = base.some(
+      c =>
+        c.id === focusedHistoricalConnectionId ||
+        c.anchorId === focusedHistoricalConnectionId ||
+        c.id.startsWith(`${focusedHistoricalConnectionId}_`)
+    );
+    if (exists) return { fallbackConnection: null, isFallbackNotice: false };
+
+    // Check if it's a valid canonical reference that was synthesized
+    const [anchorPart] = focusedHistoricalConnectionId.includes('_')
+      ? focusedHistoricalConnectionId.split('_')
+      : [focusedHistoricalConnectionId, ''];
+    const [slug, chStr, vStr] = anchorPart.split('-');
+    const meta = BOOK_REGISTRY.find(b => b.slug === slug);
+    const chapter = parseInt(chStr, 10);
+    const verse = parseInt(vStr, 10);
+    const isValid = meta && !isNaN(chapter) && chapter > 0 && !isNaN(verse) && verse > 0;
+    if (isValid) return { fallbackConnection: null, isFallbackNotice: false };
+
+    // Invalid ID was provided! Find nearest valid era or connection
+    if (selectedThread?.book) {
+      const era = findEraForBook(selectedThread.book);
+      const nearest = base.find(c => c.sourceEra.id === era.id || c.fulfillmentEra.id === era.id);
+      if (nearest) return { fallbackConnection: nearest, isFallbackNotice: true };
+    }
+
+    // If the invalid ID referenced a known book slug (e.g. rev-999-99), resolve that book's era
+    if (meta) {
+      const era = findEraForBook(meta.name);
+      const nearest = base.find(c => c.sourceEra.id === era.id || c.fulfillmentEra.id === era.id);
+      if (nearest) return { fallbackConnection: nearest, isFallbackNotice: true };
+    }
+
+    // If the ID was an era identifier or name
+    const cleanId = focusedHistoricalConnectionId.toLowerCase().trim();
+    const eraDirect = BIBLICAL_ERAS.find(
+      e => e.id.toLowerCase() === cleanId || e.name.toLowerCase() === cleanId
+    );
+    if (eraDirect) {
+      const nearest = base.find(c => c.sourceEra.id === eraDirect.id || c.fulfillmentEra.id === eraDirect.id);
+      if (nearest) return { fallbackConnection: nearest, isFallbackNotice: true };
+    }
+
+    return { fallbackConnection: base[0] ?? null, isFallbackNotice: true };
+  }, [focusedHistoricalConnectionId, selectedThread]);
+
+  const effectiveFocusId =
+    focusedHistoricalConnectionId && !fallbackConnection
+      ? focusedHistoricalConnectionId
+      : fallbackConnection?.id ?? null;
+
   // Filter connections by era and search query
   const filteredConnections = useMemo(() => {
     return allConnections.filter(c => {
@@ -174,13 +252,14 @@ export function HistoricalContextPage() {
     });
   }, [allConnections, selectedEraId, searchQuery]);
 
-  // Auto-scroll to focused connection if requested
+  // Auto-scroll to focused or fallback connection if requested
   useEffect(() => {
-    if (!focusedHistoricalConnectionId) return;
+    const targetId = effectiveFocusId;
+    if (!targetId) return;
     const target =
-      cardRefs.current.get(focusedHistoricalConnectionId) ||
+      cardRefs.current.get(targetId) ||
       Array.from(cardRefs.current.entries()).find(([k]) =>
-        k === focusedHistoricalConnectionId || k.startsWith(`${focusedHistoricalConnectionId}_`)
+        k === targetId || k.startsWith(`${targetId}_`)
       )?.[1];
 
     if (target) {
@@ -188,7 +267,7 @@ export function HistoricalContextPage() {
         target.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }, 100);
     }
-  }, [focusedHistoricalConnectionId]);
+  }, [effectiveFocusId]);
 
   if (!historicalContextOpen) return null;
 
@@ -408,31 +487,89 @@ export function HistoricalContextPage() {
             </span>
           </div>
 
+          {isFallbackNotice && fallbackConnection && (
+            <div
+              role="status"
+              className="p-3.5 rounded-xl border flex items-center justify-between gap-3 text-xs shadow-sm"
+              style={{ borderColor: `${P.gold}40`, background: `${P.gold}12` }}
+            >
+              <div className="flex items-center gap-2">
+                <Compass className="h-4 w-4 shrink-0" style={{ color: P.gold }} />
+                <span>
+                  Connection <code className="font-mono px-1.5 py-0.5 rounded bg-black/10 dark:bg-white/10 font-bold">{focusedHistoricalConnectionId}</code> could not be found. Showing the nearest valid connection in <strong>{fallbackConnection.sourceEra.name}</strong> ({fallbackConnection.anchorRef}).
+                </span>
+              </div>
+            </div>
+          )}
+
           {filteredConnections.length === 0 ? (
-            <div className="py-16 text-center space-y-3">
-              <Landmark className="h-10 w-10 mx-auto opacity-30" />
-              <p className="text-sm" style={{ color: P.dim }}>
-                No historical connections found matching your search.
-              </p>
-              <button
-                onClick={() => {
-                  setSearchQuery('');
-                  setSelectedEraId(null);
-                }}
-                className="text-xs px-3 py-1.5 rounded-lg border cursor-pointer font-medium"
-                style={{ borderColor: P.gold, color: P.gold }}
+            <div className="py-16 text-center space-y-4 max-w-md mx-auto">
+              <div
+                className="h-12 w-12 mx-auto rounded-2xl flex items-center justify-center border"
+                style={{ borderColor: P.gold, background: `${P.gold}15`, color: P.gold }}
               >
-                Reset Filters
-              </button>
+                <Search className="h-6 w-6" />
+              </div>
+              <div className="space-y-1">
+                <h3 className="font-serif text-base font-bold">No Historical Connections Found</h3>
+                <p className="text-xs leading-relaxed" style={{ color: P.dim }}>
+                  {searchQuery && selectedEraId
+                    ? `No connections matching "${searchQuery}" in the ${BIBLICAL_ERAS.find(e => e.id === selectedEraId)?.name} era.`
+                    : searchQuery
+                    ? `No connections matching "${searchQuery}" across all biblical eras.`
+                    : `No connections recorded for this era yet.`}
+                </p>
+              </div>
+              <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
+                {searchQuery && selectedEraId && (
+                  <button
+                    onClick={() => setSelectedEraId(null)}
+                    className="text-xs px-3.5 py-2 rounded-xl font-medium cursor-pointer transition-colors shadow-sm"
+                    style={{ background: P.gold, color: pageTheme === 'dark' ? '#0B0B0D' : '#FAF9F6' }}
+                  >
+                    Search Across All Eras
+                  </button>
+                )}
+                {searchQuery && (
+                  <button
+                    onClick={() => setSearchQuery('')}
+                    className="text-xs px-3.5 py-2 rounded-xl border font-medium cursor-pointer transition-colors"
+                    style={{ borderColor: P.border, color: P.text }}
+                  >
+                    Clear Search Query
+                  </button>
+                )}
+                {selectedEraId && !searchQuery && (
+                  <button
+                    onClick={() => setSelectedEraId(null)}
+                    className="text-xs px-3.5 py-2 rounded-xl font-medium cursor-pointer transition-colors"
+                    style={{ background: P.gold, color: pageTheme === 'dark' ? '#0B0B0D' : '#FAF9F6' }}
+                  >
+                    Show All Eras
+                  </button>
+                )}
+                {(searchQuery || selectedEraId) && (
+                  <button
+                    onClick={() => {
+                      setSearchQuery('');
+                      setSelectedEraId(null);
+                    }}
+                    className="text-xs px-3 py-2 rounded-xl border font-medium cursor-pointer transition-colors"
+                    style={{ borderColor: P.ctrlBorder, color: P.dim }}
+                  >
+                    Reset All Filters
+                  </button>
+                )}
+              </div>
             </div>
           ) : (
             <div className="space-y-8">
               {filteredConnections.map(conn => {
                 const isFocused =
-                  focusedHistoricalConnectionId &&
-                  (conn.id === focusedHistoricalConnectionId ||
-                    conn.anchorId === focusedHistoricalConnectionId ||
-                    conn.id.startsWith(`${focusedHistoricalConnectionId}_`));
+                  effectiveFocusId &&
+                  (conn.id === effectiveFocusId ||
+                    conn.anchorId === effectiveFocusId ||
+                    conn.id.startsWith(`${effectiveFocusId}_`));
 
                 return (
                   <article

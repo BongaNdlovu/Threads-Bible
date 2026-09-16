@@ -37,6 +37,7 @@ import {
 } from './threadMapModel';
 import { cn } from '@/lib/utils';
 import { parsePersonalRelevance } from './HistoricalContextPage';
+import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
 
 /**
  * Ordo Redemptoris — The Architecture of Redemption.
@@ -281,7 +282,14 @@ export function ThreadMap({
   const [topBarHeight, setTopBarHeight] = useState(48);
 
   /* Store integration */
-  const { setHistoricalContextOpen } = useStore();
+  const {
+    setHistoricalContextOpen,
+    setThreadMapOpen,
+    setChapterGridOpen,
+    setFocusPane,
+    setReadingLocation,
+    selectedThread,
+  } = useStore();
   const [dossierTab, setDossierTab] = useState<'ultimate' | 'personal' | 'what' | 'when' | 'how' | 'why'>('ultimate');
   const [scholarlyModalOpen, setScholarlyModalOpen] = useState(false);
 
@@ -376,14 +384,40 @@ export function ThreadMap({
   }, [graph, expanded]);
 
   // Compute collision-free node positions dynamically using measured card heights
-  const positions = useMemo(() => {
-    return computeThreadLayout(graph, {
-      mode: settings.layoutMode,
-      spacing: settings.spacingMode,
-      nodeSizes: sizes,
-      nodeWidth: NODE_W,
-    });
+  const layoutResult = useMemo(() => {
+    if (!graph || !graph.nodes || graph.nodes.length === 0) {
+      return { positions: {} as Record<string, { x: number; y: number }>, error: null };
+    }
+    try {
+      const computed = computeThreadLayout(graph, {
+        mode: settings.layoutMode,
+        spacing: settings.spacingMode,
+        nodeSizes: sizes,
+        nodeWidth: NODE_W,
+      });
+
+      // Verify that all nodes have renderable positions (finite numbers)
+      const unrenderable = graph.nodes.filter(n => {
+        const p = computed[n.id];
+        return !p || !Number.isFinite(p.x) || !Number.isFinite(p.y);
+      });
+
+      if (unrenderable.length > 0) {
+        return {
+          positions: {} as Record<string, { x: number; y: number }>,
+          error: `Layout yielded ${unrenderable.length} unrenderable node(s) with invalid coordinates.`,
+        };
+      }
+
+      return { positions: computed, error: null };
+    } catch (err) {
+      const msg = err instanceof Error ? err.message : 'Layout computation failed';
+      return { positions: {} as Record<string, { x: number; y: number }>, error: msg };
+    }
   }, [graph, sizes, settings.layoutMode, settings.spacingMode]);
+
+  const { positions, error: layoutError } = layoutResult;
+
 
   // Auto-advance tour while playing
   useEffect(() => {
@@ -466,10 +500,10 @@ export function ThreadMap({
   };
 
   useEffect(() => {
-    if (!settings.camera || boxSize.w === 0) return;
+    if (!settings.camera || boxSize.w === 0 || layoutError || !graph?.nodes?.length) return;
     glideTo(frameForStep(step));
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [step, settings.camera, boxSize.w, boxSize.h, positions, settings.dossierCollapsed, dossierHeight, topBarHeight]);
+  }, [step, settings.camera, boxSize.w, boxSize.h, positions, settings.dossierCollapsed, dossierHeight, topBarHeight, layoutError, graph?.nodes?.length]);
 
   /* Focus current active selection centered safely in usable viewport */
   const focusCurrent = () => {
@@ -961,11 +995,73 @@ export function ThreadMap({
     });
   };
 
+  const handleSelectAnotherVerse = () => {
+    setChapterGridOpen(true);
+    setThreadMapOpen(false);
+  };
+
+  const handleResetMapView = () => {
+    updateSettings({ layoutMode: 'column', spacingMode: 'normal' });
+    setView({ x: 0, y: 0, scale: 1 });
+    setStep(1);
+  };
+
+  const handleOpenPassageReader = () => {
+    setThreadMapOpen(false);
+    setFocusPane(null);
+    if (selectedThread && selectedThread.book && selectedThread.chapter) {
+      setReadingLocation(selectedThread.book, selectedThread.chapter);
+    }
+  };
+
+  if (!graph || !graph.nodes || graph.nodes.length === 0) {
+    return (
+      <ThreadMapFallbackCard
+        theme={theme}
+        title="Empty Mindmap Graph"
+        reason="empty-graph"
+        onSelectAnotherVerse={handleSelectAnotherVerse}
+        onResetMapView={handleResetMapView}
+        onOpenPassageReader={handleOpenPassageReader}
+      />
+    );
+  }
+
+  if (graph.edges.length === 0) {
+    return (
+      <ThreadMapFallbackCard
+        theme={theme}
+        title="No Connections Available"
+        reason="zero-connections"
+        reference={graph.nodes[0]?.ref}
+        onSelectAnotherVerse={handleSelectAnotherVerse}
+        onResetMapView={handleResetMapView}
+        onOpenPassageReader={handleOpenPassageReader}
+      />
+    );
+  }
+
+  if (layoutError) {
+    return (
+      <ThreadMapFallbackCard
+        theme={theme}
+        title="Layout Computation Failed"
+        reason="layout-failure"
+        description={layoutError}
+        reference={graph.nodes[0]?.ref}
+        onSelectAnotherVerse={handleSelectAnotherVerse}
+        onResetMapView={handleResetMapView}
+        onOpenPassageReader={handleOpenPassageReader}
+      />
+    );
+  }
+
   const hovered = hoveredEdge ? graph.edges.find(e => e.id === hoveredEdge) ?? null : null;
   const hoveredMid = hoveredEdge ? edgeMids[hoveredEdge] : undefined;
 
   return (
     <div className="relative h-full w-full overflow-hidden select-none" style={{ background: P.bg }}>
+
       <canvas ref={canvasRef} className="absolute inset-0 pointer-events-none" />
 
       {/* Main Interactive Pan / Zoom Canvas */}

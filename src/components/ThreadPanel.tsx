@@ -6,7 +6,8 @@ import {
   useThreadDetailsReady,
   type ThreadDetail,
 } from '../data/threadDetailService';
-import { createDeferredDataset, useDatasetReady } from '../data/deferred';
+import { createDeferredDataset, useDatasetState } from '../data/deferred';
+import { DataChunkErrorCard } from './DataChunkErrorCard';
 import type { SymbolEntry, TypeEntry } from '../data/symbolsTypes';
 import { MASTER_CHAINS, type MasterChain } from '../data/tier4MasterChains';
 import { MESSIANIC_PROPHECIES, type MessianicProphecy } from '../data/tier3Messianic';
@@ -43,14 +44,12 @@ const ldeDataset = createDeferredDataset(() =>
   import('../data/lastDayEvents').then(m => ({ events: m.LAST_DAY_EVENTS, eras: m.LDE_ERAS }))
 );
 
-function useBeliefsData(): { beliefs: FundamentalBelief[]; categories: readonly BeliefCategory[] } | null {
-  useDatasetReady(beliefsDataset);
-  return beliefsDataset.get();
+function useBeliefsState() {
+  return useDatasetState(beliefsDataset);
 }
 
-function useLdeData(): { events: LastDayEventPhase[]; eras: readonly LdeEra[] } | null {
-  useDatasetReady(ldeDataset);
-  return ldeDataset.get();
+function useLdeState() {
+  return useDatasetState(ldeDataset);
 }
 
 /** Symbols & Types reference loads with the panel (one lazy chunk). */
@@ -63,14 +62,8 @@ const symbolsDataset = createDeferredDataset(() =>
   }))
 );
 
-function useSymbolsData(): {
-  symbols: SymbolEntry[];
-  types: TypeEntry[];
-  symbolCategories: readonly SymbolCategoryAlias[];
-  typeCategories: readonly TypeCategoryAlias[];
-} | null {
-  useDatasetReady(symbolsDataset);
-  return symbolsDataset.get();
+function useSymbolsState() {
+  return useDatasetState(symbolsDataset);
 }
 
 type SymbolCategoryAlias = string;
@@ -133,13 +126,13 @@ export function ThreadPanel() {
   const [expandedBeliefs, setExpandedBeliefs] = useState<Record<string, boolean>>({});
   const [expandedLde, setExpandedLde] = useState<Record<string, boolean>>({});
 
-  const beliefsData = useBeliefsData();
-  const ldeData = useLdeData();
+  const { data: beliefsData, error: beliefsError, retry: retryBeliefs } = useBeliefsState();
+  const { data: ldeData, error: ldeError, retry: retryLde } = useLdeState();
   const beliefs = beliefsData?.beliefs ?? [];
   const beliefCategories = beliefsData?.categories ?? [];
   const ldeEvents = ldeData?.events ?? [];
   const ldeEras = ldeData?.eras ?? [];
-  const symbolsData = useSymbolsData();
+  const { data: symbolsData, error: symbolsError, retry: retrySymbols } = useSymbolsState();
   const symbols = symbolsData?.symbols ?? [];
   const types = symbolsData?.types ?? [];
   const symbolCategories = symbolsData?.symbolCategories ?? [];
@@ -587,23 +580,29 @@ export function ThreadPanel() {
         {activeTab === 'chapter' && (
           chapterThreads.length === 0 ? (
             <div className="p-6 text-center text-foreground/50 text-sm space-y-3">
-              <p>No threads in {currentReadingBook} {currentReadingChapter}.</p>
-              <div className="flex flex-col gap-2 items-center">
-                <button
-                  onClick={() => setActiveTab('chains')}
-                  className="text-xs text-accent font-medium hover:underline inline-flex items-center gap-1 cursor-pointer"
-                >
-                  <span>Browse {MASTER_CHAINS.length} Master Canonical Chains</span>
-                  <ChevronRight className="h-3 w-3" />
-                </button>
-                <button
-                  onClick={() => setActiveTab('messianic')}
-                  className="text-xs text-accent font-medium hover:underline inline-flex items-center gap-1 cursor-pointer"
-                >
-                  <span>Explore Messianic Prophecies</span>
-                  <ChevronRight className="h-3 w-3" />
-                </button>
-              </div>
+              <p>
+                {isBookLoading
+                  ? `Loading ${currentReadingBook} ${currentReadingChapter}…`
+                  : `No threads in ${currentReadingBook} ${currentReadingChapter}.`}
+              </p>
+              {!isBookLoading && (
+                <div className="flex flex-col gap-2 items-center">
+                  <button
+                    onClick={() => setActiveTab('chains')}
+                    className="text-xs text-accent font-medium hover:underline inline-flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>Browse {MASTER_CHAINS.length} Master Canonical Chains</span>
+                    <ChevronRight className="h-3 w-3" />
+                  </button>
+                  <button
+                    onClick={() => setActiveTab('messianic')}
+                    className="text-xs text-accent font-medium hover:underline inline-flex items-center gap-1 cursor-pointer"
+                  >
+                    <span>Explore Messianic Prophecies</span>
+                    <ChevronRight className="h-3 w-3" />
+                  </button>
+                </div>
+              )}
             </div>
           ) : (
             <ul className="space-y-2">
@@ -861,9 +860,16 @@ export function ThreadPanel() {
             </div>
 
             <div className="space-y-3">
-              {!beliefsData && (
-                <div className="p-4 text-center text-xs text-foreground/50">Loading beliefs…</div>
-              )}
+              {beliefsError ? (
+                <DataChunkErrorCard
+                  title="Unable to Load Fundamental Beliefs"
+                  chunkName="Fundamental Beliefs Dataset"
+                  error={beliefsError}
+                  onRetry={retryBeliefs}
+                />
+              ) : !beliefsData ? (
+                <div className="p-4 text-center text-xs text-foreground/50 animate-pulse">Loading beliefs…</div>
+              ) : null}
               {filteredBeliefs.map(b => {
                 const isExpanded = !!expandedBeliefs[b.id];
                 return (
@@ -950,9 +956,16 @@ export function ThreadPanel() {
             </div>
 
             <div className="space-y-3">
-              {!ldeData && (
-                <div className="p-4 text-center text-xs text-foreground/50">Loading timeline…</div>
-              )}
+              {ldeError ? (
+                <DataChunkErrorCard
+                  title="Unable to Load Timeline Events"
+                  chunkName="Last Day Events Timeline"
+                  error={ldeError}
+                  onRetry={retryLde}
+                />
+              ) : !ldeData ? (
+                <div className="p-4 text-center text-xs text-foreground/50 animate-pulse">Loading timeline…</div>
+              ) : null}
               {filteredEvents.map(ev => {
                 const isExpanded = !!expandedLde[ev.id];
                 return (
@@ -1066,9 +1079,16 @@ export function ThreadPanel() {
               </div>
             </div>
 
-            {!symbolsData && (
-              <div className="p-4 text-center text-xs text-foreground/50">Loading symbols & types…</div>
-            )}
+            {symbolsError ? (
+              <DataChunkErrorCard
+                title="Unable to Load Symbols & Types"
+                chunkName="Symbols & Types Dataset"
+                error={symbolsError}
+                onRetry={retrySymbols}
+              />
+            ) : !symbolsData ? (
+              <div className="p-4 text-center text-xs text-foreground/50 animate-pulse">Loading symbols & types…</div>
+            ) : null}
 
             {activeTab === 'symbols' && (
               <div className="flex gap-1 overflow-x-auto pb-1 text-[11px] scrollbar-none">
