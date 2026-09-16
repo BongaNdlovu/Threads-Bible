@@ -38,22 +38,76 @@ Proofs
 
 1) Type-check (tsc/lint)
 ```
-$(cat /tmp/cp03_lint_after.txt)
+EXIT_CODE=0
 ```
 
 2) Tests (vitest)
 ```
-$(cat /tmp/cp03_test.txt)
+ RUN  v5.0.0 /workspace/Threads-Bible
+
+
+ Test Files  13 passed (13)
+      Tests  146 passed (146)
+   Start at  23:20:52
+   Duration  1.59s (transform 43%, import 33%, tests 23%, worker 1%)
+
+    Isolate  13 workers spawned · ~88ms startup each (spawn + environment, per file)
+             at least ~294ms faster with isolate: false — reuses workers across files instead of one per file
+
+EXIT_CODE=0
 ```
 
 3) Clarity gate (Genesis prose scan)
 ```
-$(cat /tmp/cp03_clarity.txt)
+=== GENESIS PROSE CLARITY-GATE SCAN ===
+{
+  "genesisEntryCount": 173,
+  "failingGenesisEntries": 0,
+  "failingChains": 0
+}
+
+--- Failing Genesis Entries (by field) ---
+{}
+
+--- Failing Pillar Chains (by field) ---
+{}
+EXIT_CODE=0
 ```
 
 4) Data audit
 ```
-$(cat /tmp/cp03_audit.txt)
+Loaded KJV canon: 31102 verses indexed.
+
+--- AUDITING TIER 1: Comprehensive Cross-References (TSK) ---
+Tier 1 Status: 66/66 books present.
+Tier 1 Stats: 29056 verses have TSK links; 63668 phrase-anchored reference groups.
+
+--- AUDITING TIER 2: Direct NT Citations & Allusions ---
+Total Tier 2 records: 108
+Tier 2 Status: 100% of 108 citations resolve to valid canonical verses.
+Tier 2 Expansion Status: 100% of 201 NT and 207 OT expanded lookup keys resolve canonically.
+
+--- AUDITING TIER 3: Specific Messianic Prophecies ---
+Total Tier 3 prophecies: 78
+Tier 3 Status: 100% of 78 prophecies resolve to valid canonical verses.
+Tier 3 Expansion Status: 100% of 257 OT and 577 reverse NT fulfillment keys resolve canonically.
+
+--- AUDITING TIER 4: Master Canonical Redemptive Chains ---
+Total Master Chains: 42
+Tier 4 Status: 100% of 42 chains and all 277 timeline steps resolve perfectly.
+Tier 4 Expansion Status: 100% of 1035 pre-built milestone verse keys resolve canonically.
+
+--- AUDITING THREAD DETAILS (drift & coverage) ---
+Genesis shadow map: exact 1:1 — 173 details ↔ 173 Genesis anchors.
+Book details: all 1183 keys are valid canonical verse ids.
+Detail-only thread verses (non-anchor, intentional): heb-9-23, psa-146-4, rev-19-10, jer-4-23, rev-20-14, isa-35-4, num-21-8, gen-49-11, psa-35-11, psa-109-25, psa-24-7, hos-6-2, psa-8-4, zec-14-4
+Detail coverage: 1342/1342 anchors (100%) have hand-written titles/explanations.
+Draft details: 0 drafts cover all remaining anchors — total coverage 1342/1342 (100%).
+Tier 3 (Jesus Christ thread) anchors missing HAND-written details: 0
+
+========================================
+SUCCESS: All 4 Tiers audited and 100% validated!
+EXIT_CODE=0
 ```
 
 Status: APPLIED (Genesis). HARD STOP before Exodus or any other book.
