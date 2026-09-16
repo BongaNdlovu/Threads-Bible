@@ -35,8 +35,8 @@ function scanDetail(id: string, d: ThreadDetail): Record<string, ProseViolation[
     d.terms.forEach((t, i) => {
       if (t.gloss) fields[`terms[${i}].gloss`] = t.gloss;
       if (t.note) fields[`terms[${i}].note`] = t.note;
-      // @ts-expect-error exposition not in base type everywhere but present in data
-      if ((t as any).exposition) fields[`terms[${i}].exposition`] = (t as any).exposition;
+      // exposition exists on some entries in data
+      if ((t as any).exposition) fields[`terms[${i}].exposition`] = (t as any).exposition as string;
     });
   }
 

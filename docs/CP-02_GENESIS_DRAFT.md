@@ -1,4 +1,9 @@
-# CP-02 · Genesis Draft Rewrites (AI-DRAFT — DO NOT APPLY)
+# CP-02 · Genesis Draft Rewrites — SIGNED-OFF
+
+Operator theology sign-off (Genesis only): ACCEPTED (VERIFY-ONLY appendix)
+- Signer: Bonga Ndlovu (operator)
+- Date: 2026-09-17 (Africa/Johannesburg)
+- Reference: PR #4 (branch `cursor/plain-lang-cp01-cp02-genesis-ebb9`)
 
 > For each Genesis entry: BEFORE (current) and AFTER (draft or VERIFY-ONLY) for every in-scope prose field, with clarity-gate results. Draft changes split long sentences only; no new claims or citations. Operator theology sign-off is required before CP-03 apply.
 
@@ -281,7 +286,7 @@ Hebrews 11:3 says τοὺς αἰῶνας κατηρτίσθαι ῥήματι 
 **AFTER (draft)**
 
 ```
-Hebrews 11:3 says τοὺς αἰῶνας κατηρτίζθαι ῥήματι Θεοῦ — the ages/worlds were framed (perfect passive of καταρτίζω: fitted, ordered, put in working order) by God’s spoken utterance. It adds: εἰς τὸ μὴ ἐκ φαινομένων τὰ βλεπόμενα γεγονέναι (so that what is seen has not come from things that appear). In this thread the phrase is not a philosophical footnote on “ages” in the abstract; it is the Genesis 1 cosmos and its successive ages viewed from the side of faith. The same Word John names as ὁ Λόγος is here the ῥῆμα that frames all that Moses said God created. Visible empires are less substantial than the unseen word that made them.
+Hebrews 11:3 says τοὺς αἰῶνας κατηρτίσθαι ῥήματι Θεοῦ — the ages/worlds were framed (perfect passive of καταρτίζω: fitted, ordered, put in working order) by God’s spoken utterance. It adds: εἰς τὸ μὴ ἐκ φαινομένων τὰ βλεπόμενα γεγονέναι (so that what is seen has not come from things that appear). In this thread the phrase is not a philosophical footnote on “ages” in the abstract; it is the Genesis 1 cosmos and its successive ages viewed from the side of faith. The same Word John names as ὁ Λόγος is here the ῥῆμα that frames all that Moses said God created. Visible empires are less substantial than the unseen word that made them.
 ```
 
 - Clarity Gate: PASS

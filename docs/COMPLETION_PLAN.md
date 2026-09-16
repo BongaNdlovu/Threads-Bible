@@ -82,3 +82,11 @@ nodes, gradient edges with animated reveal, step playback, edge `why` fields).
 
 `npm test` (model invariants) · `npm run audit:data` (content integrity) ·
 `npm run lint` · `npm run build` · CI gates on every push.
+
+---
+
+## Plain-language sweep log (per §1.6 of the plan)
+
+| Book | Entries | Batch date | Gate | THEOLOGY-REVIEW | Operator review | Status |
+|---|---:|---|---|---|---|---|
+| Genesis | 173 | 2026-09-17 | PASS (AFTER) | 2 sentence-splits under gen-1-1; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
