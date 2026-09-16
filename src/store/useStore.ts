@@ -11,7 +11,8 @@ import {
   prevChapterLocation,
   type Verse,
 } from '../data/library';
-import { BOOK_REGISTRY } from '../data/bookRegistry';
+import { BOOK_REGISTRY, BOOK_BY_NAME } from '../data/bookRegistry';
+import { parseRef } from '../data/refParser';
 import { getMessianicPropheciesForVerse } from '../data/tier3Messianic';
 import { ensureThreadDetails, getThreadDetail } from '../data/threadDetailService';
 import { db } from '../db/database';
@@ -171,6 +172,7 @@ interface AppState {
   removeLink: (verse1Id: string, verse2Id: string) => Promise<void>;
 
   navigateToVerse: (verseId: string, options?: { preserveMargin?: boolean; targetTab?: string }) => Promise<void>;
+  turnToVerse: (refOrVerseId: string, options?: { inSplit?: boolean }) => Promise<void>;
 
   // ── Layout: split view, open/close, fullscreen ──────────────────────────
   /** Which pane is maximized, if any */
@@ -224,13 +226,13 @@ function chapterFromBook(book: Verse[] | null, chapter: number): Verse[] {
 
 let scrollTimer: ReturnType<typeof setTimeout> | null = null;
 
-function scheduleScrollToVerse(verseId: string) {
+export function scheduleScrollToVerse(verseId: string, maxRetries = 15) {
   if (typeof document === 'undefined') return;
   if (scrollTimer !== null) {
     clearTimeout(scrollTimer);
     scrollTimer = null;
   }
-  const attemptScroll = (retries = 4) => {
+  const attemptScroll = (retries = maxRetries) => {
     const el = document.getElementById(`verse-${verseId}`);
     if (el) {
       el.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -578,6 +580,84 @@ export const useStore = create<AppState>((set, get) => ({
     }
 
     scheduleScrollToVerse(verse.id);
+  },
+
+  turnToVerse: async (refOrVerseId, options) => {
+    let book = '';
+    let chapter = 1;
+    let verseNumber = 1;
+    let verseId = '';
+
+    const m = refOrVerseId.match(/^([a-z0-9]+)-(\d+)-(\d+)$/i);
+    if (m) {
+      const slug = m[1].toLowerCase();
+      chapter = parseInt(m[2], 10);
+      verseNumber = parseInt(m[3], 10);
+      const name = bookNameForSlug(slug);
+      if (name) {
+        book = name;
+        verseId = `${slug}-${chapter}-${verseNumber}`;
+      }
+    }
+
+    if (!book) {
+      const parsed = parseRef(refOrVerseId);
+      if (parsed) {
+        book = parsed.book;
+        chapter = parsed.chapter;
+        verseNumber = parsed.startVerse;
+        const meta = BOOK_BY_NAME[book];
+        const slug = meta ? meta.slug : book.toLowerCase().slice(0, 3);
+        verseId = `${slug}-${chapter}-${verseNumber}`;
+      }
+    }
+
+    if (!book) return;
+
+    if (!getLoadedBook(book)) {
+      try {
+        await loadBook(book);
+      } catch {
+        // ignore load errors
+      }
+    }
+
+    const verse: Verse =
+      getChapterVersesFromLoaded(book, chapter).find(v => v.id === verseId) ??
+      (await ensureFulfillmentsLoaded()).find(v => v.id === verseId) ?? {
+        id: verseId,
+        book,
+        chapter,
+        verseNumber,
+        text: '',
+        isThread: false,
+      };
+
+    if (options?.inSplit) {
+      const currentThread = get().selectedThread ?? verse;
+      set({
+        threadMapOpen: false,
+        threadPaneOpen: true,
+        selectedThread: currentThread,
+        focusPane: null,
+      });
+      get().setReadingLocation(book, chapter, { preserveMargin: true });
+    } else {
+      set({
+        threadMapOpen: false,
+        threadPaneOpen: false,
+        selectedThread: null,
+        focusPane: null,
+      });
+      get().setReadingLocation(book, chapter, { preserveMargin: true });
+    }
+
+    set({
+      selectedMarginVerse: verse,
+      marginActiveTab: null,
+    });
+
+    scheduleScrollToVerse(verseId);
   },
 
   focusPane: null,

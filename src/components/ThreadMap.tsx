@@ -342,8 +342,11 @@ export function ThreadMap({
     setFocusPane,
     setReadingLocation,
     selectedThread,
+    turnToVerse,
   } = useStore();
-  const [dossierTab, setDossierTab] = useState<'ultimate' | 'personal' | 'who' | 'what' | 'when' | 'how' | 'why'>('ultimate');
+  const [dossierTab, setDossierTab] = useState<
+    'principle' | 'ultimate' | 'personal' | 'who' | 'what' | 'when' | 'how' | 'why'
+  >('ultimate');
   const [scholarlyModalOpen, setScholarlyModalOpen] = useState(false);
 
   // Click-outside listener for layout mode dropdown
@@ -1019,6 +1022,9 @@ export function ThreadMap({
   } lead${graph.edges.length === 1 ? '' : 's'} from here.`;
 
   const getDossierText = () => {
+    if (dossierTab === 'principle') {
+      return currentNode.threadPrinciple || sourceNode.threadPrinciple || '';
+    }
     if (!activeEdge) {
       if (dossierTab === 'who' && sourceNode.who) {
         return sourceNode.who;
@@ -1036,7 +1042,7 @@ export function ThreadMap({
       case 'personal':
         return inter.personalRelevance;
       case 'who':
-        return inter.who;
+        return inter.who || currentNode.who || '';
       case 'what':
         return inter.what;
       case 'when':
@@ -1140,41 +1146,32 @@ export function ThreadMap({
     setStep(1);
   };
 
+  const handleCardClick = (targetStep: number) => {
+    goToStep(targetStep);
+    if (settings.dossierCollapsed) {
+      updateSettings({ dossierCollapsed: false });
+    }
+  };
+
   const handleOpenPassageReader = (refString?: string) => {
-    if (onOpenPassageReader && refString) {
-      onOpenPassageReader(refString);
+    const target = refString || (selectedThread ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}` : undefined);
+    if (onOpenPassageReader && target) {
+      onOpenPassageReader(target);
       return;
     }
-    setThreadMapOpen(false);
-    setFocusPane(null);
-    if (refString) {
-      const parsed = parseRef(refString);
-      if (parsed) {
-        setReadingLocation(parsed.book, parsed.chapter);
-        return;
-      }
-    }
-    if (selectedThread && selectedThread.book && selectedThread.chapter) {
-      setReadingLocation(selectedThread.book, selectedThread.chapter);
+    if (target) {
+      void turnToVerse(target);
     }
   };
 
   const handleOpenSplit = (refString?: string) => {
-    if (onOpenSplit && refString) {
-      onOpenSplit(refString);
+    const target = refString || (selectedThread ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}` : undefined);
+    if (onOpenSplit && target) {
+      onOpenSplit(target);
       return;
     }
-    setThreadMapOpen(false);
-    setThreadPaneOpen(true);
-    if (refString) {
-      const parsed = parseRef(refString);
-      if (parsed) {
-        setReadingLocation(parsed.book, parsed.chapter);
-        return;
-      }
-    }
-    if (selectedThread && selectedThread.book && selectedThread.chapter) {
-      setReadingLocation(selectedThread.book, selectedThread.chapter);
+    if (target) {
+      void turnToVerse(target, { inSplit: true });
     }
   };
 
@@ -1184,6 +1181,7 @@ export function ThreadMap({
         theme={theme}
         title="Empty Mindmap Graph"
         reason="empty-graph"
+        reference={selectedThread ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}` : undefined}
         onSelectAnotherVerse={handleSelectAnotherVerse}
         onResetMapView={handleResetMapView}
         onOpenPassageReader={handleOpenPassageReader}
@@ -1391,7 +1389,7 @@ export function ThreadMap({
                   if (el) nodeRefs.current.set(n.id, el);
                   else nodeRefs.current.delete(n.id);
                 }}
-                onClick={() => goToStep(n.step)}
+                onClick={() => handleCardClick(n.step)}
                 className={cn(
                   'absolute rounded-xl border backdrop-blur-[3px] transition-all duration-350 cursor-pointer select-text hover:shadow-lg',
                   active ? 'ordo-breathe ring-1 ring-amber-400/50' : 'hover:-translate-y-1 hover:border-amber-400/40',
@@ -1415,13 +1413,13 @@ export function ThreadMap({
                 {/* Watermark Step Number */}
                 <span
                   className="absolute font-serif font-light select-none pointer-events-none"
-                  style={{ fontSize: 74, right: 10, top: -6, color: P.watermark }}
+                  style={{ fontSize: 72, right: 8, top: -8, color: P.watermark }}
                 >
                   {String(n.step).padStart(2, '0')}
                 </span>
 
                 {/* Card Header Pill Row */}
-                <div className="relative px-4 pt-3 flex items-center justify-between font-mono text-[10px] tracking-[0.18em]">
+                <div className="relative px-3.5 pt-3 flex items-center justify-between font-mono text-[10px] tracking-[0.16em]">
                   <span style={{ color }} className="font-semibold flex items-center gap-1">
                     ◆ {String(n.step).padStart(2, '0')}
                     {isMatched && (
@@ -1430,237 +1428,76 @@ export function ThreadMap({
                       </span>
                     )}
                   </span>
-                  <span className="uppercase text-[9px] truncate max-w-[120px]" style={{ color: P.mute }}>
-                    {n.kind === 'source' ? 'Thread Source' : 'Connection'}
+                  <span
+                    className="text-[8.5px] px-2 py-0.5 rounded-full border uppercase font-mono font-bold tracking-wider truncate max-w-[130px]"
+                    style={{
+                      borderColor: `${color}40`,
+                      background: `${color}14`,
+                      color,
+                    }}
+                  >
+                    {n.kind === 'source' ? 'Thread Source' : n.strand === 'gold' ? 'Gold Strand' : 'Connection'}
                   </span>
+                </div>
+
+                {/* Node Scripture Reference */}
+                <div className="relative px-3.5 pt-1.5 font-mono text-[11px] font-bold tracking-wide truncate" style={{ color }}>
+                  {n.ref}
                 </div>
 
                 {/* Node Title */}
                 <h3
-                  className="relative font-serif font-medium text-[15px] leading-snug px-4 pt-1.5 pr-8 break-words"
+                  className="relative font-serif font-medium text-[13.5px] leading-snug px-3.5 pt-0.5 pr-6 break-words"
                   style={{ color: P.text }}
                 >
-                  {n.kind === 'source' ? n.title : n.ref}
+                  {n.title}
                 </h3>
 
-                {/* Snippet Body */}
+                {/* Concise Excerpt Body */}
                 <p
-                  className="relative px-4 pt-1.5 text-[11.5px] leading-relaxed line-clamp-4 break-words"
+                  className="relative px-3.5 pt-1.5 pb-2 text-[11px] leading-relaxed line-clamp-3 break-words"
                   style={{ color: P.dim }}
                 >
                   {n.body || '…'}
                 </p>
 
-                {/* Cumulative Thread Principle */}
-                {n.threadPrinciple && (
-                  <div
-                    className="relative mx-3.5 my-2 p-2 rounded-lg border text-[11px] leading-relaxed"
-                    style={{
-                      borderColor: `${color}35`,
-                      background: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)',
-                    }}
-                  >
-                    <div
-                      className="flex items-center gap-1 font-mono text-[8.5px] uppercase font-bold tracking-wider mb-1"
-                      style={{ color }}
-                    >
-                      <Sparkles className="h-3 w-3 shrink-0" />
-                      <span>
-                        {n.kind === 'source'
-                          ? 'Foundational Principle'
-                          : `Cumulative Principle · Step ${n.step} (${n.step} Verses)`}
-                      </span>
-                    </div>
-                    <p
-                      className="font-serif text-[11px] leading-relaxed select-text"
-                      style={{ color: P.text }}
-                    >
-                      {n.threadPrinciple}
-                    </p>
-                  </div>
-                )}
-
-                {/* Who Dimension: Authorship, Characters & Christological Subject */}
-                {n.who && (
-                  <div
-                    className="relative mx-3.5 my-2 p-2 rounded-lg border text-[11px] leading-relaxed"
-                    style={{
-                      borderColor: `${color}35`,
-                      background: theme === 'dark' ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.03)',
-                    }}
-                  >
-                    <div
-                      className="flex items-center gap-1 font-mono text-[8.5px] uppercase font-bold tracking-wider mb-1"
-                      style={{ color }}
-                    >
-                      <Users className="h-3 w-3 shrink-0" />
-                      <span>Who · Authorship & Characters</span>
-                    </div>
-                    <p
-                      className="font-serif text-[11px] leading-relaxed select-text"
-                      style={{ color: P.text }}
-                    >
-                      {n.who}
-                    </p>
-                  </div>
-                )}
-
-                {/* Expandable Passage Reader with smooth height transition */}
+                {/* Sleek Action Footer */}
                 <div
-                  className={cn(
-                    'grid transition-[grid-template-rows,opacity] duration-300 ease-in-out',
-                    isExpanded ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[0fr] opacity-0 pointer-events-none'
-                  )}
-                >
-                  <div className="overflow-hidden">
-                    <div
-                      className="relative mx-3.5 my-2 max-h-52 overflow-y-auto rounded-lg border p-3 text-[12px] leading-relaxed font-serif scrollbar-thin select-text"
-                      style={{
-                        borderColor: isExpanded ? `${color}55` : P.border,
-                        color: P.text,
-                        background: theme === 'dark' ? 'rgba(0,0,0,.25)' : 'rgba(0,0,0,.04)',
-                      }}
-                      onClick={e => e.stopPropagation()}
-                    >
-                      {/* Passage Ref & Type Header */}
-                      <div
-                        className="flex items-center justify-between gap-2 pb-1.5 mb-2 border-b font-mono text-[9px] tracking-wider uppercase"
-                        style={{ borderColor: P.border }}
-                      >
-                        <span className="font-semibold truncate" style={{ color }}>
-                          {n.ref}
-                        </span>
-                        <span className="text-[8.5px] opacity-70" style={{ color: P.mute }}>
-                          {n.kind === 'source' ? 'Thread Source' : 'Passage'}
-                        </span>
-                      </div>
-
-                      {/* Passage Content */}
-                      {isLoadingPassage ? (
-                        <div className="flex items-center gap-2 py-3 text-xs italic font-sans" style={{ color: P.dim }}>
-                          <span
-                            className="inline-block h-2.5 w-2.5 rounded-full border-2 border-amber-400 border-t-transparent animate-spin"
-                          />
-                          <span>Loading scripture passage…</span>
-                        </div>
-                      ) : passageText ? (
-                        <p className="whitespace-pre-wrap leading-relaxed selection:bg-amber-500/30">
-                          {passageText}
-                        </p>
-                      ) : (
-                        <div className="py-1 text-xs italic font-sans" style={{ color: P.dim }}>
-                          Passage text unavailable in offline cache.
-                        </div>
-                      )}
-
-                      {/* Action Bar inside Reader */}
-                      <div
-                        className="mt-2.5 pt-2 border-t flex flex-wrap items-center gap-1.5 font-sans text-[10px]"
-                        style={{ borderColor: P.border }}
-                      >
-                        <button
-                          type="button"
-                          onClick={e => {
-                            e.stopPropagation();
-                            handleOpenPassageReader(n.ref);
-                          }}
-                          className="flex items-center gap-1 px-2 py-1 rounded border cursor-pointer transition-colors hover:bg-white/10 active:opacity-75"
-                          style={{ borderColor: P.ctrlBorder, color: P.text }}
-                          title={`Open ${n.ref} in Bible reader`}
-                        >
-                          <BookOpen className="h-3 w-3" style={{ color }} />
-                          <span>Read Chapter</span>
-                        </button>
-
-                        <button
-                          type="button"
-                          onClick={e => {
-                            e.stopPropagation();
-                            handleOpenSplit(n.ref);
-                          }}
-                          className="flex items-center gap-1 px-2 py-1 rounded border cursor-pointer transition-colors hover:bg-white/10 active:opacity-75"
-                          style={{ borderColor: P.ctrlBorder, color: P.text }}
-                          title="Open side-by-side in Split View"
-                        >
-                          <Columns className="h-3 w-3" />
-                          <span>Split View</span>
-                        </button>
-
-                        <button
-                          type="button"
-                          onClick={e => {
-                            e.stopPropagation();
-                            toggleExpanded(n.id);
-                          }}
-                          className="ml-auto flex items-center gap-1 px-1.5 py-1 rounded cursor-pointer transition-colors hover:opacity-70"
-                          style={{ color: P.dim }}
-                          title="Collapse passage"
-                        >
-                          <ChevronUp className="h-3 w-3" />
-                          <span>Close</span>
-                        </button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Footer / Expansion Toggle */}
-                <div
-                  className="relative px-3.5 pb-3 pt-2 flex items-center justify-between gap-1.5 font-mono text-[9px] tracking-[0.12em]"
+                  className="relative px-3 pb-2.5 pt-2 flex items-center justify-between gap-1.5 border-t"
+                  style={{ borderColor: P.border }}
                 >
                   <button
                     type="button"
                     onClick={e => {
                       e.stopPropagation();
-                      toggleExpanded(n.id);
+                      handleOpenPassageReader(n.ref);
                     }}
-                    aria-label={isExpanded ? `Collapse passage for ${n.ref}` : `Read passage for ${n.ref}`}
-                    title={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
-                    className="flex-1 min-w-0 flex items-center gap-1.5 text-left py-0.5 px-1 -ml-1 rounded cursor-pointer transition-colors hover:bg-white/5 active:opacity-75 focus:outline-none"
-                    style={{ color }}
+                    aria-label={`Turn to ${n.ref} in Bible reader`}
+                    title={`Turn to ${n.ref} in Bible reader`}
+                    className="flex-1 min-w-0 flex items-center justify-center gap-1.5 py-1.5 px-2 rounded-lg border text-[9.5px] font-mono font-bold tracking-wider uppercase transition-all duration-150 cursor-pointer hover:shadow-sm hover:brightness-110 active:scale-98"
+                    style={{
+                      borderColor: `${color}55`,
+                      background: `${color}18`,
+                      color: active ? P.goldBright : color,
+                    }}
                   >
-                    <span className="truncate font-semibold tracking-[0.12em]">
-                      {isExpanded
-                        ? 'COLLAPSE PASSAGE'
-                        : n.kind === 'source'
-                        ? `${n.ref} · READ PASSAGE →`
-                        : 'READ PASSAGE →'}
-                    </span>
+                    <BookOpen className="h-3 w-3 shrink-0" />
+                    <span className="truncate">READ PASSAGE →</span>
                   </button>
 
-                  <div className="flex items-center gap-1 shrink-0">
-                    <button
-                      type="button"
-                      onClick={e => {
-                        e.stopPropagation();
-                        handleOpenPassageReader(n.ref);
-                      }}
-                      aria-label={`Open ${n.ref} in Bible reader`}
-                      title={`Open ${n.ref} in Bible reader`}
-                      className="h-5 w-5 shrink-0 rounded-full flex items-center justify-center border cursor-pointer transition-all hover:bg-white/10 hover:scale-105 active:scale-95"
-                      style={{ borderColor: P.border, color: P.dim }}
-                    >
-                      <BookOpen className="h-3 w-3" />
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={e => {
-                        e.stopPropagation();
-                        toggleExpanded(n.id);
-                      }}
-                      aria-label={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
-                      title={isExpanded ? 'Collapse the full passage' : 'Read the full passage'}
-                      className="h-5 w-5 shrink-0 rounded-full flex items-center justify-center border cursor-pointer transition-transform hover:opacity-80"
-                      style={{
-                        borderColor: P.border,
-                        color: isExpanded ? color : P.dim,
-                        transform: isExpanded ? 'rotate(180deg)' : 'none',
-                      }}
-                    >
-                      <ChevronDown className="h-3 w-3" />
-                    </button>
-                  </div>
+                  <button
+                    type="button"
+                    onClick={e => {
+                      e.stopPropagation();
+                      handleOpenSplit(n.ref);
+                    }}
+                    aria-label={`Open ${n.ref} in Split View`}
+                    title="Open side-by-side in Split View"
+                    className="h-7 w-7 shrink-0 rounded-lg flex items-center justify-center border cursor-pointer transition-all hover:bg-white/10 active:scale-95"
+                    style={{ borderColor: P.ctrlBorder, color: P.dim }}
+                  >
+                    <Columns className="h-3 w-3" />
+                  </button>
                 </div>
               </article>
             );
@@ -2132,7 +1969,7 @@ export function ThreadMap({
                 className="text-[10px] px-2 py-0.5 rounded border uppercase font-mono font-semibold shrink-0"
                 style={{ borderColor: `${P.gold}44`, background: `${P.gold}14`, color: P.gold }}
               >
-                {dossierTab === 'personal' ? 'Personal Life' : dossierTab}
+                {dossierTab === 'personal' ? 'Personal Life' : dossierTab === 'principle' ? 'Principle' : dossierTab}
               </span>
               <p className="text-xs truncate" style={{ color: P.dim }}>
                 {narratedText}
@@ -2182,6 +2019,15 @@ export function ThreadMap({
                     {/* Mobile quick actions */}
                     <div className="flex sm:hidden items-center gap-1.5 shrink-0">
                       <button
+                        onClick={() => handleOpenPassageReader(currentNode.ref)}
+                        className="h-6 px-2 rounded-md border text-[9.5px] font-semibold flex items-center gap-1 cursor-pointer"
+                        style={{ borderColor: `${P.gold}60`, color: P.gold, background: `${P.gold}14` }}
+                        title={`Turn to ${currentNode.ref} in Bible reader`}
+                      >
+                        <BookOpen className="h-3 w-3" />
+                        <span>Read</span>
+                      </button>
+                      <button
                         onClick={() => setScholarlyModalOpen(true)}
                         className="h-6 px-2 rounded-md border text-[9.5px] font-medium flex items-center gap-1 cursor-pointer"
                         style={{ borderColor: P.ctrlBorder, color: P.text }}
@@ -2215,6 +2061,19 @@ export function ThreadMap({
                     className="flex items-center gap-0.5 p-0.5 rounded-lg border overflow-x-auto no-scrollbar max-w-full"
                     style={{ borderColor: P.border, background: `${P.gold}0d` }}
                   >
+                    <button
+                      onClick={() => setDossierTab('principle')}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] flex items-center gap-1 cursor-pointer transition-all shrink-0"
+                      style={{
+                        background: dossierTab === 'principle' ? `${P.gold}28` : 'transparent',
+                        color: dossierTab === 'principle' ? P.gold : P.dim,
+                        border: dossierTab === 'principle' ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: dossierTab === 'principle' ? 700 : 500,
+                      }}
+                    >
+                      <Sparkles className="h-3 w-3" />
+                      <span>{currentNode.kind === 'source' ? 'Principle' : 'Cumulative Principle'}</span>
+                    </button>
                     <button
                       onClick={() => setDossierTab('ultimate')}
                       className="px-2.5 py-1 rounded-md text-[10.5px] flex items-center gap-1 cursor-pointer transition-all shrink-0"
@@ -2274,6 +2133,15 @@ export function ThreadMap({
                   {/* Desktop Actions & Collapse Button */}
                   <div className="hidden sm:flex items-center gap-2 shrink-0">
                     <button
+                      onClick={() => handleOpenPassageReader(currentNode.ref)}
+                      className="h-7 px-2.5 rounded-md border text-[10px] font-semibold flex items-center gap-1 cursor-pointer hover:opacity-90 transition-colors"
+                      style={{ borderColor: `${P.gold}60`, color: P.gold, background: `${P.gold}14` }}
+                      title={`Turn to ${currentNode.ref} in Bible reader`}
+                    >
+                      <BookOpen className="h-3 w-3" />
+                      <span>Read Passage ➔</span>
+                    </button>
+                    <button
                       onClick={() => setScholarlyModalOpen(true)}
                       className="h-7 px-2.5 rounded-md border text-[10px] font-medium flex items-center gap-1 cursor-pointer hover:opacity-90 transition-colors"
                       style={{ borderColor: P.ctrlBorder, color: P.text }}
@@ -2304,7 +2172,30 @@ export function ThreadMap({
                 </div>
 
                 {/* Active Content Display with Typewriter Effect */}
-                {dossierTab === 'ultimate' ? (
+                {dossierTab === 'principle' ? (
+                  <div
+                    onClick={() => { if (typing) setTypedCount(narratedText.length); }}
+                    className={cn(
+                      "p-3 rounded-lg border flex items-start gap-2.5 min-h-[3.4em]",
+                      typing && "cursor-pointer"
+                    )}
+                    style={{ borderColor: `${P.gold}44`, background: `${P.gold}0e` }}
+                    title={typing ? "Click to reveal complete text immediately" : undefined}
+                  >
+                    <Sparkles className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
+                    <div className="flex-1 min-w-0">
+                      <div className="font-mono text-[9px] uppercase tracking-wider mb-1 font-bold" style={{ color: P.gold }}>
+                        {currentNode.kind === 'source'
+                          ? 'Foundational Thread Principle'
+                          : `Cumulative Principle · Step ${currentNode.step} (${currentNode.step} Verses in Common)`}
+                      </div>
+                      <p className="font-serif text-[13px] font-medium leading-relaxed select-text" style={{ color: P.text }}>
+                        {typed}
+                        {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
+                      </p>
+                    </div>
+                  </div>
+                ) : dossierTab === 'ultimate' ? (
                   <div
                     onClick={() => { if (typing) setTypedCount(narratedText.length); }}
                     className={cn(
@@ -2467,13 +2358,22 @@ export function ThreadMap({
                   </div>
                   <div className="flex items-center gap-1.5">
                     <button
-                      onClick={() => setDossierTab('ultimate')}
+                      onClick={() => handleOpenPassageReader(sourceNode.ref)}
+                      className="px-2.5 py-1 rounded-md text-[10.5px] font-semibold flex items-center gap-1 cursor-pointer transition-colors"
+                      style={{ borderColor: `${P.gold}60`, color: P.gold, background: `${P.gold}14` }}
+                      title={`Turn to ${sourceNode.ref} in Bible reader`}
+                    >
+                      <BookOpen className="h-3 w-3" />
+                      <span>Read Passage ➔</span>
+                    </button>
+                    <button
+                      onClick={() => setDossierTab('principle')}
                       className="px-2.5 py-1 rounded-md text-[10.5px] font-mono cursor-pointer transition-colors"
                       style={{
-                        background: dossierTab === 'ultimate' ? `${P.gold}28` : 'transparent',
-                        color: dossierTab === 'ultimate' ? P.gold : P.dim,
-                        border: dossierTab === 'ultimate' ? `1px solid ${P.gold}44` : '1px solid transparent',
-                        fontWeight: dossierTab === 'ultimate' ? 700 : 500,
+                        background: (dossierTab === 'principle' || dossierTab === 'ultimate') ? `${P.gold}28` : 'transparent',
+                        color: (dossierTab === 'principle' || dossierTab === 'ultimate') ? P.gold : P.dim,
+                        border: (dossierTab === 'principle' || dossierTab === 'ultimate') ? `1px solid ${P.gold}44` : '1px solid transparent',
+                        fontWeight: (dossierTab === 'principle' || dossierTab === 'ultimate') ? 700 : 500,
                       }}
                     >
                       Principle
@@ -2565,6 +2465,23 @@ export function ThreadMap({
 
             {/* Modal Scrollable Body */}
             <div className="flex-1 overflow-y-auto p-6 space-y-5 text-xs leading-relaxed">
+              {/* Cumulative Thread Principle */}
+              {currentNode.threadPrinciple && (
+                <div className="p-4 rounded-xl border space-y-1.5" style={{ borderColor: `${P.gold}55`, background: `${P.gold}0e` }}>
+                  <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
+                    <Sparkles className="h-3.5 w-3.5" />
+                    <span>
+                      {currentNode.kind === 'source'
+                        ? 'Foundational Thread Principle'
+                        : `Cumulative Thread Principle · Step ${currentNode.step} (${currentNode.step} Verses in Common)`}
+                    </span>
+                  </div>
+                  <p className="font-serif text-sm leading-relaxed select-text" style={{ color: P.text }}>
+                    {currentNode.threadPrinciple}
+                  </p>
+                </div>
+              )}
+
               {/* Ultimate Point */}
               <div className="p-4 rounded-xl border space-y-1.5" style={{ borderColor: P.gold, background: `${P.gold}14` }}>
                 <div className="flex items-center gap-1.5 font-mono text-[10px] uppercase font-bold tracking-wider" style={{ color: P.gold }}>
@@ -2683,13 +2600,27 @@ export function ThreadMap({
                 <Landmark className="h-3.5 w-3.5" />
                 <span>Open Historical Context Page ↗</span>
               </button>
-              <button
-                onClick={() => setScholarlyModalOpen(false)}
-                className="h-8 px-4 rounded-lg border text-xs font-medium cursor-pointer hover:opacity-90"
-                style={{ borderColor: P.ctrlBorder, color: P.text }}
-              >
-                Done
-              </button>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={() => {
+                    setScholarlyModalOpen(false);
+                    handleOpenPassageReader(activeEdge.interrogation.targetRef);
+                  }}
+                  className="h-8 px-3 rounded-lg border text-xs font-semibold flex items-center gap-1.5 cursor-pointer hover:opacity-90 transition-opacity"
+                  style={{ borderColor: P.gold, color: P.gold, background: `${P.gold}14` }}
+                  title={`Turn to ${activeEdge.interrogation.targetRef} in Bible reader`}
+                >
+                  <BookOpen className="h-3.5 w-3.5" />
+                  <span>Turn to Verse ➔</span>
+                </button>
+                <button
+                  onClick={() => setScholarlyModalOpen(false)}
+                  className="h-8 px-4 rounded-lg border text-xs font-medium cursor-pointer hover:opacity-90"
+                  style={{ borderColor: P.ctrlBorder, color: P.text }}
+                >
+                  Done
+                </button>
+              </div>
             </div>
           </div>
         </div>

@@ -648,14 +648,16 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
 
   // ── Scripture-grounded: Sabbath, sanctuary, judgment, remnant, state of dead ──
   'exo-20-8': {
-    title: 'Remember the Sabbath Day',
+    title: 'Remember the Sabbath Day — Grounded in Creation and Fulfilled in Christ',
     principle:
-      'The fourth commandment: Remember the Sabbath day, to keep it holy. Jesus treats Sabbath as belonging to God and to humanity\'s good (Mark 2:27-28). Luke\'s Jesus customarily keeps Sabbath (Luke 4:16). Hebrews still speaks of a Sabbath rest remaining for the people of God (Heb 4:9). Textual proof: the commandment is moral and perpetual in the Decalogue; NT practice continues it; the "rest" language carries into eschatology.',
-    sourceKeywords: ['Remember', 'sabbath day', 'keep it holy', 'seventh day', 'rest'],
-    fulfillmentKeywords: ['sabbath', 'Lord of the sabbath', 'custom', 'synagogue', 'rest remaineth', 'people of God'],
+      'The Fourth Commandment: Remember the Sabbath day, to keep it holy. Grounded explicitly in the Creation Sabbath of Genesis 2:2-3 and sealed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath is proclaimed as a holy delight by Isaiah (Isa 58:13-14). Jesus declares Himself Lord of the Sabbath (Mark 2:27-28), customarily observes it (Luke 4:16), and Hebrews affirms an eschatological Sabbath-rest (sabbatismos) remaining for the people of God (Heb 4:9). First principle: the Sabbath is a moral, perpetual creation ordinance memorializing the Creator\'s rest and pointing forward to the finished rest of redemption.',
+    sourceKeywords: ['Remember', 'sabbath day', 'keep it holy', 'seventh day', 'rest', 'labour', 'hallowed'],
+    fulfillmentKeywords: ['creation', 'blessed', 'sanctified', 'perpetual covenant', 'sign', 'delight', 'Lord of the sabbath', 'custom', 'synagogue', 'rest remaineth', 'people of God', 'sabbatismos'],
     terms: [
-      { term: 'Sabbath', original: 'שַׁבָּת', translit: 'shabbat', gloss: 'rest, sabbath (from shavat — cease)', note: 'Greek σάββατον in NT; same seventh-day institution from creation (Exod 20:11) through the prophets (Isa 58:13-14) to Hebrews 4.' },
+      { term: 'Sabbath', original: 'שַׁבָּת', translit: 'shabbat', gloss: 'rest, sabbath (from shavat — cease)', note: 'Greek σάββατον in NT; same seventh-day institution from creation (Gen 2:2-3; Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.' },
       { term: 'keep it holy', original: 'לְקַדְּשׁוֹ', translit: 'le-qaddesho', gloss: 'to sanctify / set it apart', note: 'Same qadash root as God sanctifying the seventh day in Gen 2:3.' },
+      { term: 'perpetual covenant', original: 'בְּרִית עוֹלָם', translit: 'berit ʿolam', gloss: 'everlasting covenant / sign', note: 'Exod 31:16-17 seals the Sabbath as a perpetual covenant memorial of Creation.' },
+      { term: 'Sabbath-rest', original: 'σαββατισμός', translit: 'sabbatismos', gloss: 'sabbath-rest / sabbath-keeping', note: 'Heb 4:9 — there remains therefore a rest (sabbatismos) to the people of God.' },
     ],
   },
   'exo-20-11': {

@@ -156,13 +156,16 @@ export const threadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'gen-2-2': {
-    title: 'God Rested — Sabbath Rest Remaining',
+    title: 'God Rested — Creation Sabbath Codified at Sinai and Fulfilled in Christ',
     principle:
-      'God\'s rest on the seventh day is not fatigue but completion and enjoyment. Hebrews argues a rest still remains for the people of God — entered by faith, not works. First principle: creation\'s rest points to a final, spiritual rest in Christ.',
-    sourceKeywords: ['seventh day', 'ended', 'rested'],
-    fulfillmentKeywords: ['rest', 'remaineth', 'people of God', 'enter'],
+      'God\'s rest on the seventh day is joyful cessation and completion, not fatigue. Enshrined in the Fourth Commandment of the Decalogue (Exo 20:8-11) and sealed as a perpetual covenant sign of sanctification (Exo 31:16-17), creation\'s Sabbath culminates in Hebrews 4 as the eternal rest entered by faith in Christ. First principle: the Sabbath is an unalterable creation ordinance memorializing the finished work of the Creator and pointing to the finished redemption of Christ.',
+    sourceKeywords: ['seventh day', 'ended', 'rested', 'work', 'made'],
+    fulfillmentKeywords: ['sabbath', 'holy', 'covenant', 'sign', 'perpetual', 'rest', 'hallowed', 'refreshed', 'remaineth', 'people of God', 'enter'],
     terms: [
-      { term: 'rested', original: 'שָׁבַת', translit: 'shavat', gloss: 'to cease, desist', note: 'Greek κατάπαυσις (katapausis) in Heb 4 — divine rest to enter.' },
+      { term: 'rested', original: 'שָׁבַת', translit: 'shavat', gloss: 'to cease, desist, rest from labor', note: 'Root of Shabbat; cited at Sinai (Exo 20:11) and in Heb 4:4 (κατάπαυσις).' },
+      { term: 'Sabbath', original: 'שַׁבָּת', translit: 'shabbat', gloss: 'day of rest / cessation', note: 'Exo 20:8-11 grounds the Decalogue directly in Gen 2:2-3.' },
+      { term: 'perpetual covenant', original: 'בְּרִית עוֹלָם', translit: 'berit ʿolam', gloss: 'everlasting covenant / sign', note: 'Exo 31:16-17 designates the Sabbath as a perpetual sign between God and His people.' },
+      { term: 'Sabbath rest', original: 'σαββατισμός', translit: 'sabbatismos', gloss: 'sabbath-rest / sabbath-keeping', note: 'Heb 4:9 — there remains a sabbatismos for the people of God.' },
     ],
   },
   'gen-2-3': {

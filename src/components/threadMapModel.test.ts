@@ -39,7 +39,10 @@ describe('buildThreadGraph', () => {
     expect(g.edges).toHaveLength(3);
     expect(g.totalSteps).toBe(4);
     expect(g.nodes[0]).toMatchObject({ kind: 'source', step: 1, strand: 'gold', ref: 'Zechariah 9:9' });
-    expect(g.nodes[1]).toMatchObject({ kind: 'fulfillment', step: 2, ref: 'Matthew 21:5', strand: 'steel' });
+    // Enforces canonical chronological order: Isaiah (OT) precedes Matthew & John (NT)
+    expect(g.nodes[1]).toMatchObject({ kind: 'fulfillment', step: 2, ref: 'Isaiah 9:1-2', strand: 'steel' });
+    expect(g.nodes[2]).toMatchObject({ kind: 'fulfillment', step: 3, ref: 'Matthew 21:5', strand: 'steel' });
+    expect(g.nodes[3]).toMatchObject({ kind: 'fulfillment', step: 4, ref: 'John 12:15', strand: 'steel' });
   });
 
   it('groups multi-verse refs into a single node', () => {
@@ -72,11 +75,7 @@ describe('buildThreadGraph', () => {
       expect(e.why).toContain(e.label.replace('Thread → ', ''));
     }
     const first = g.edges[0];
-    expect(first.why).toContain('Rejoice greatly');
-    expect(first.why).toContain('Tell ye the daughter of Sion');
-    const second = g.edges[1];
-    expect(second.why).toContain('Tell ye the daughter of Sion');
-    expect(second.why).toContain('Fear not, daughter of Sion');
+    expect(first.why).toContain('Nevertheless the dimness');
   });
 
   it('chains edges from the previous node so playback can walk OT→OT→NT', () => {
@@ -116,11 +115,11 @@ describe('buildThreadGraph', () => {
     expect(n1.threadPrinciple).toContain('Foundational Thread Principle (Zechariah 9:9)');
     expect(n1.threadPrinciple).toContain(BASE.principle);
 
-    // Card 2 (Step 2): Explains first connection (2 verses in common)
+    // Card 2 (Step 2): Explains first connection (2 verses in common: Zechariah 9:9 & Isaiah 9:1-2)
     const n2 = g.nodes[1];
     expect(n2.step).toBe(2);
     expect(n2.threadPrinciple).toBeTruthy();
-    expect(n2.threadPrinciple).toContain('Connection 1 (2 Verses in Common — Zechariah 9:9 & Matthew 21:5)');
+    expect(n2.threadPrinciple).toContain('Connection 1 (2 Verses in Common — Zechariah 9:9 & Isaiah 9:1-2)');
     expect(n2.threadPrinciple).toContain('What these two verses share in common');
     expect(n2.threadPrinciple).toContain('How they connect');
     expect(n2.threadPrinciple).toContain('Why they connect');
@@ -129,7 +128,7 @@ describe('buildThreadGraph', () => {
     const n3 = g.nodes[2];
     expect(n3.step).toBe(3);
     expect(n3.threadPrinciple).toBeTruthy();
-    expect(n3.threadPrinciple).toContain('Connection 2 (3 Verses in Common — Zechariah 9:9, Matthew 21:5, & John 12:15)');
+    expect(n3.threadPrinciple).toContain('Connection 2 (3 Verses in Common — Zechariah 9:9, Isaiah 9:1-2, & Matthew 21:5)');
     expect(n3.threadPrinciple).toContain('What these 3 verses share in common');
     expect(n3.threadPrinciple).toContain('How the redemptive arc unfolds');
     expect(n3.threadPrinciple).toContain('Redemptive purpose');
@@ -139,7 +138,7 @@ describe('buildThreadGraph', () => {
     const n4 = g.nodes[3];
     expect(n4.step).toBe(4);
     expect(n4.threadPrinciple).toBeTruthy();
-    expect(n4.threadPrinciple).toContain('Connection 3 (4 Verses in Common — Zechariah 9:9 ➔ Matthew 21:5 ➔ John 12:15 ➔ Isaiah 9:1-2)');
+    expect(n4.threadPrinciple).toContain('Connection 3 (4 Verses in Common — Zechariah 9:9 ➔ Isaiah 9:1-2 ➔ Matthew 21:5 ➔ John 12:15)');
     expect(n4.threadPrinciple).toContain('Progressive culmination across all 4 canonical links');
     expect(n4.threadPrinciple).toContain('What the entire chain shares in common');
     expect(n4.threadPrinciple).toContain('Redemptive synthesis');
@@ -320,6 +319,53 @@ describe('computeThreadLayout', () => {
     const g = buildThreadGraph({ ...BASE, fulfillmentVerses: [] });
     const pos = computeThreadLayout(g);
     expect(pos[g.nodes[0].id]).toEqual({ x: 50, y: 50 });
+  });
+
+  it('enforces canonical chronological progression on fulfillment references for OT source anchors', () => {
+    const input = {
+      anchorId: 'gen-2-2',
+      anchorRef: 'Genesis 2:2',
+      anchorTitle: 'God Rested on the Seventh Day',
+      anchorVerseText: 'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
+      principle: 'Creation Sabbath rest codified at Sinai and fulfilled in Christ.',
+      // Intentionally pass references in reverse/mixed order:
+      // NT Hebrews first, then later Exodus passage, then earlier Exodus Decalogue passage
+      fulfillmentRefs: [
+        'Hebrews 4:4, 9-11',
+        'Exodus 31:16-17',
+        'Exodus 20:8-11',
+      ],
+      fulfillmentVerses: [
+        { id: 'exo-20-8', text: 'Remember the sabbath day, to keep it holy.' },
+        { id: 'exo-20-11', text: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day...' },
+        { id: 'exo-31-16', text: 'Wherefore the children of Israel shall keep the sabbath...' },
+        { id: 'exo-31-17', text: 'It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed.' },
+        { id: 'heb-4-4', text: 'For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works.' },
+        { id: 'heb-4-9', text: 'There remaineth therefore a rest to the people of God.' },
+      ],
+    };
+
+    const g = buildThreadGraph(input);
+
+    expect(g.nodes).toHaveLength(4);
+    // Node 0: Genesis 2:2 (Source Anchor, Step 1)
+    expect(g.nodes[0]).toMatchObject({ kind: 'source', step: 1, ref: 'Genesis 2:2' });
+    // Node 1: Exodus 20:8-11 (First OT connection, Step 2)
+    expect(g.nodes[1]).toMatchObject({ kind: 'fulfillment', step: 2, ref: 'Exodus 20:8-11' });
+    // Node 2: Exodus 31:16-17 (Second OT connection, Step 3)
+    expect(g.nodes[2]).toMatchObject({ kind: 'fulfillment', step: 3, ref: 'Exodus 31:16-17' });
+    // Node 3: Hebrews 4:4, 9-11 (NT eschatological culmination, Step 4)
+    expect(g.nodes[3]).toMatchObject({ kind: 'fulfillment', step: 4, ref: 'Hebrews 4:4, 9-11' });
+
+    // Verify edge 0 connects Genesis 2:2 directly to Exodus 20:8-11
+    const edge1 = g.edges[0];
+    expect(edge1.to).toBe('gen-2-2-f0');
+    expect(edge1.interrogation).toBeDefined();
+    expect(edge1.interrogation.what).toContain('Fourth Commandment');
+    expect(edge1.interrogation.what).toContain('Genesis 2:2');
+    expect(edge1.interrogation.how).toContain('שָׁבַת');
+    expect(edge1.interrogation.how).toContain('זָכוֹר');
+    expect(edge1.interrogation.ultimatePoint).toContain('Lord of the Sabbath');
   });
 });
 

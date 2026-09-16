@@ -11,17 +11,29 @@ import { exodusProphecies, danielProphecies, revelationProphecies } from './book
 import { paulineProphecies } from './paulineProphecies';
 import { ntProphecies } from './ntProphecies';
 import { otProphecies } from './otProphecies';
+import { compareCanonicalRefs } from './connectionInterrogation';
 
 export type ThreadMap = Record<string, { fulfillmentRefs: string[] }>;
 
+function canonicalizeMap(map: ThreadMap): ThreadMap {
+  const result: ThreadMap = {};
+  for (const [id, entry] of Object.entries(map)) {
+    result[id] = {
+      fulfillmentRefs: [...entry.fulfillmentRefs].sort(compareCanonicalRefs),
+    };
+  }
+  return result;
+}
+
 export const threadMaps = {
-  genesis: genesisProphecies,
-  exodus: exodusProphecies,
-  daniel: danielProphecies,
-  revelation: revelationProphecies,
-  pauline: paulineProphecies,
-  nt: ntProphecies,
-  ot: otProphecies,
+  genesis: canonicalizeMap(genesisProphecies),
+  exodus: canonicalizeMap(exodusProphecies),
+  daniel: canonicalizeMap(danielProphecies),
+  revelation: canonicalizeMap(revelationProphecies),
+  pauline: canonicalizeMap(paulineProphecies),
+  nt: canonicalizeMap(ntProphecies),
+  ot: canonicalizeMap(otProphecies),
 } as const satisfies Record<string, ThreadMap>;
 
 export const allThreadMaps = Object.values(threadMaps) as ThreadMap[];
+

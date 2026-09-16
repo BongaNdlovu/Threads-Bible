@@ -214,6 +214,7 @@ export const ANCHOR_TEXTS: Record<string, string> = {
   'gen-1-1': 'In the beginning God created the heaven and the earth.',
   'gen-1-3': 'And God said, Let there be light: and there was light.',
   'gen-1-26': 'And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.',
+  'gen-2-2': 'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
   'gen-3-15': 'And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.',
   'gen-12-3': 'And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed.',
   'gen-22-2': 'And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.',

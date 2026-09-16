@@ -18,6 +18,11 @@ describe('parseRef', () => {
     expect(parseRef('Matthew 5-7')).toMatchObject({ book: 'Matthew', chapter: 5, startVerse: 1, endChapter: 7 });
   });
 
+  it('parses compound references with commas and verse ranges', () => {
+    expect(parseRef('Hebrews 4:4, 9-11')).toMatchObject({ book: 'Hebrews', chapter: 4, startVerse: 4, endVerse: 11 });
+    expect(parseRef('Galatians 3:8, 16')).toMatchObject({ book: 'Galatians', chapter: 3, startVerse: 8, endVerse: 16 });
+  });
+
   it('treats single-chapter books without colon as verse numbers', () => {
     expect(parseRef('Jude 7')).toMatchObject({ book: 'Jude', chapter: 1, startVerse: 7, endVerse: 7 });
     expect(parseRef('3 John 2')).toMatchObject({ book: '3 John', chapter: 1, startVerse: 2 });

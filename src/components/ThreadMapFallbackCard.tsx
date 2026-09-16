@@ -10,7 +10,7 @@ export interface ThreadMapFallbackCardProps {
   reference?: string;
   onSelectAnotherVerse: () => void;
   onResetMapView: () => void;
-  onOpenPassageReader: () => void;
+  onOpenPassageReader: (ref?: string) => void;
 }
 
 const THEME_STYLES = {
@@ -174,16 +174,16 @@ export const ThreadMapFallbackCard: React.FC<ThreadMapFallbackCardProps> = ({
           </button>
 
           <button
-            onClick={onOpenPassageReader}
+            onClick={() => onOpenPassageReader(reference)}
             className="px-4 py-2.5 rounded-full border text-xs font-medium flex items-center justify-center gap-2 cursor-pointer transition-colors hover:bg-black/5 dark:hover:bg-white/5"
             style={{
               borderColor: S.secButtonBorder,
               color: S.secButtonText,
             }}
-            title="Return to the Bible passage reader"
+            title="Turn directly to the Bible passage reader"
           >
             <BookOpen className="h-4 w-4" />
-            <span>Open Passage Reader</span>
+            <span>Turn to Verse</span>
           </button>
         </div>
 

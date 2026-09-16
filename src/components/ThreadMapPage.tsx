@@ -33,6 +33,7 @@ export function ThreadMapPage() {
     setChapterGridOpen,
     setFocusPane,
     setReadingLocation,
+    turnToVerse,
   } = useStore();
 
   const [mapTheme, setMapTheme] = useState<MapTheme>(appTheme);
@@ -156,28 +157,18 @@ export function ThreadMapPage() {
   };
 
   const handleOpenPassageReader = (ref?: string) => {
-    setThreadMapOpen(false);
-    setFocusPane(null);
     if (ref) {
-      const parsed = parseRef(ref);
-      if (parsed) {
-        setReadingLocation(parsed.book, parsed.chapter);
-        return;
-      }
-    }
-    if (selectedThread && selectedThread.book && selectedThread.chapter) {
-      setReadingLocation(selectedThread.book, selectedThread.chapter);
+      void turnToVerse(ref);
+    } else if (selectedThread && selectedThread.book && selectedThread.chapter) {
+      void turnToVerse(`${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`);
     }
   };
 
   const handleOpenSplit = (ref?: string) => {
-    setThreadMapOpen(false);
-    setThreadPaneOpen(true);
     if (ref) {
-      const parsed = parseRef(ref);
-      if (parsed) {
-        setReadingLocation(parsed.book, parsed.chapter);
-      }
+      void turnToVerse(ref, { inSplit: true });
+    } else if (selectedThread && selectedThread.book && selectedThread.chapter) {
+      void turnToVerse(`${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`, { inSplit: true });
     }
   };
 

@@ -169,10 +169,207 @@ export function getAuthorForRef(ref: string): string {
 }
 
 /**
+ * Compares two scripture references to enforce canonical chronological progression:
+ * 1. Old Testament passages strictly precede New Testament passages.
+ * 2. Within each testament, passages follow Protestant 66-book canonical order (Genesis -> Malachi, Matthew -> Revelation).
+ * 3. Within the same book, passages follow chapter order, then start verse order.
+ */
+export function compareCanonicalRefs(refA: string, refB: string): number {
+  if (refA === refB) return 0;
+  if (!refA) return 1;
+  if (!refB) return -1;
+
+  const segA = refA.split(/[/;,]/)[0].trim();
+  const segB = refB.split(/[/;,]/)[0].trim();
+
+  const isOtA = isOldTestament(segA) || isOldTestament(refA);
+  const isOtB = isOldTestament(segB) || isOldTestament(refB);
+
+  // OT passages always precede NT passages
+  if (isOtA && !isOtB) return -1;
+  if (!isOtA && isOtB) return 1;
+
+  const bookA = extractCanonicalBook(segA) || extractCanonicalBook(refA);
+  const bookB = extractCanonicalBook(segB) || extractCanonicalBook(refB);
+
+  const idxA = getBookIndex(bookA);
+  const idxB = getBookIndex(bookB);
+
+  if (idxA !== -1 && idxB !== -1 && idxA !== idxB) {
+    return idxA - idxB;
+  }
+
+  const parsedA = parseRef(segA) || parseRef(refA);
+  const parsedB = parseRef(segB) || parseRef(refB);
+
+  if (parsedA && parsedB) {
+    if (parsedA.chapter !== parsedB.chapter) {
+      return parsedA.chapter - parsedB.chapter;
+    }
+    if (parsedA.startVerse !== parsedB.startVerse) {
+      return parsedA.startVerse - parsedB.startVerse;
+    }
+  }
+
+  return refA.localeCompare(refB);
+}
+
+/**
  * Curated registry of scholarly biblical interrogations for foundational connections across all biblical eras.
  * Keys are normalized as `${anchorId}_${normalizedTargetRef}` or `${anchorId}`.
  */
 export const CURATED_INTERROGATIONS: Record<string, ConnectionInterrogation> = {
+  "gen-2-2_Exodus 20:8-11": {
+    "id": "gen-2-2_Exodus 20:8-11",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Exodus 20:8-11",
+    "who": "Authorship & Context: Moses recorded primeval creation in Genesis and received the Ten Commandments at Mount Sinai (c. 1446–1406 BC). At Sinai, Yahweh audibly proclaimed the Decalogue to all Israel amidst thunder, lightning, and trumpet blasts, personally inscribing these words with the finger of God on two tables of stone (Exo 31:18). Identified Characters: Yahweh Elohim (the sovereign Creator who rested and sanctified the seventh day), Moses the covenant mediator, redeemed Israel newly liberated from Egyptian slavery, and all created beings summoned to enter divine rest. Christological Subject & Referent: Jesus Christ, the Lord of the Sabbath (Mark 2:28, Luke 6:5) and active Agent of creation (John 1:3, Col 1:16). Christ finished the work of the first creation and rested on the seventh day; upon the cross He cried 'It is finished' (John 19:30) and rested in the tomb on the seventh day, guaranteeing eternal redemption. Redemptive Purpose: To establish that the Sabbath is not a temporary ceremonial fixture or human innovation, but a perpetual creation ordinance woven into the cosmos, memorializing the Creator's finished work and sealing Israel's covenant sanctification.",
+    "what": "The foundational theological and verbal grounding of the Fourth Commandment of the Decalogue (Exo 20:8-11) in the Creation Sabbath of Genesis 2:2-3. In Exodus 20:11, God explicitly grounds the Sabbath command in Genesis 2:2: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.' The Fourth Commandment is the sole precept in the moral law explicitly grounded in primeval creation history.",
+    "when": "Source Horizon: Primeval Creation Week (Day 7), historically penned by Moses c. 1446–1406 BC. Target Horizon: The Sinai Covenant (c. 1446 BC, Third Month), where Yahweh formally delivered the Decalogue to liberated Israel at Mount Sinai.",
+    "how": "Verbal quotation, linguistic identity, and covenant codification. In Genesis 2:2, the Hebrew verb שָׁבַת (shavat, Qal waw-consecutive וַיִּשְׁבֹּת) signifies 'to cease, desist, rest from labor', paired with מְלָאכָה (mela'khah — purposeful creative artistry). In Exodus 20:8, the commandment opens with the emphatic infinitive absolute זָכוֹר (Zakhor — 'Remember!'), commanding Israel to remember what was already consecrated in Eden before the Fall. In Exodus 20:11, the motive clause quotes Genesis 2:2-3 almost verbatim: God 'rested the seventh day' (וַיָּנַח בַּיּוֹם הַשְּׁבִיעִי, vayanach bayyom hashviʿi, from nuach: to settle into joyful repose), wherefore Yahweh 'blessed the sabbath day and hallowed it' (בֵּרַךְ יְהוָה אֶת־יוֹם הַשַּׁבָּת וַיְקַדְּשֵׁהוּ, berakh Yahweh ʾet-yom hashabbat vayqaddeshehu), directly mirroring Genesis 2:3 (וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ). The weekly Sabbath (שַׁבָּת, Shabbat) is thus the literal institutionalization of the Creator's rest.",
+    "why": "To guard humanity from the soul-destroying idolatry of perpetual toil and secular materialism (the bondage of Egypt). By ceasing from labor every seventh day, humanity practices the imitatio Dei (imitation of God), confessing that human life, provision, and salvation depend not on autonomous labor, but upon the sovereign grace and completed work of the Creator.",
+    "ultimatePoint": "The Sabbath of Genesis 2:2 is enshrined in the heart of the moral law at Exodus 20:8 as the perpetual memorial of Creation and the covenant sign of the Creator, pointing forward to Jesus Christ, the Lord of the Sabbath who gives true spiritual and eschatological rest to all who believe (Matt 11:28; Hebrews 4:4, 9-11).",
+    "personalRelevance": "Why you need to know this: Your identity and worth before God are not measured by endless striving, worldly accomplishments, or exhausting performance; you are invited into the sacred rest of a loving Creator who finished His work for you. What it does for you: It breaks the tyranny of anxiety, burnout, and self-justification, giving your spirit a sanctuary in time where you can lay down your burdens and rejoice in God's completed provision. Relationship with Jesus: Walking with Jesus means accepting His invitation to rest from your own self-righteous efforts, delighting in Him as your Sabbath-Rest, and allowing His peace to govern every aspect of your weekly walk.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC, Sinai Wilderness)",
+      "sourceDate": "Creation — c. 1446 BC",
+      "sourceSetting": "Primeval Eden before sin, where God instituted and blessed the seventh day as sacred holy time for unfallen humanity.",
+      "fulfillmentAuthor": "Moses (c. 1446 BC, Mount Sinai)",
+      "fulfillmentDate": "c. 1446 BC",
+      "fulfillmentSetting": "The assembly of Israel at the base of Mount Sinai, freshly delivered from 400 years of crushing, seven-day Egyptian slave labor. God bestows the Sabbath as the gift of freedom, holiness, and covenant identity.",
+      "redemptiveBridge": "From the Creation Sabbath in Genesis 2 to the Sinai Decalogue in Exodus 20, confirmed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath unfolds across the canon until it reaches apostolic fulfillment in Hebrews 4:4, 9-11 (the eschatological rest that remains for the people of God).",
+      "scholarshipNotes": "Old Testament scholarship unanimously notes that the Fourth Commandment begins with 'Remember' (זָכוֹר, Zakhor), proving that the Sabbath was not an innovation originating at Sinai, but a pre-existing creation ordinance from Genesis 2 being formally integrated into the covenant Decalogue."
+    }
+  },
+  "gen-2-2_Exodus 20:8": {
+    "id": "gen-2-2_Exodus 20:8-11",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Exodus 20:8",
+    "who": "Authorship & Context: Moses recorded primeval creation in Genesis and received the Ten Commandments at Mount Sinai (c. 1446–1406 BC). At Sinai, Yahweh audibly proclaimed the Decalogue to all Israel amidst thunder, lightning, and trumpet blasts, personally inscribing these words with the finger of God on two tables of stone (Exo 31:18). Identified Characters: Yahweh Elohim (the sovereign Creator who rested and sanctified the seventh day), Moses the covenant mediator, redeemed Israel newly liberated from Egyptian slavery, and all created beings summoned to enter divine rest. Christological Subject & Referent: Jesus Christ, the Lord of the Sabbath (Mark 2:28, Luke 6:5) and active Agent of creation (John 1:3, Col 1:16). Christ finished the work of the first creation and rested on the seventh day; upon the cross He cried 'It is finished' (John 19:30) and rested in the tomb on the seventh day, guaranteeing eternal redemption. Redemptive Purpose: To establish that the Sabbath is not a temporary ceremonial fixture or human innovation, but a perpetual creation ordinance woven into the cosmos, memorializing the Creator's finished work and sealing Israel's covenant sanctification.",
+    "what": "The foundational theological and verbal grounding of the Fourth Commandment of the Decalogue (Exo 20:8-11) in the Creation Sabbath of Genesis 2:2-3. In Exodus 20:11, God explicitly grounds the Sabbath command in Genesis 2:2: 'For in six days the LORD made heaven and earth, the sea, and all that in them is, and rested the seventh day: wherefore the LORD blessed the sabbath day, and hallowed it.' The Fourth Commandment is the sole precept in the moral law explicitly grounded in primeval creation history.",
+    "when": "Source Horizon: Primeval Creation Week (Day 7), historically penned by Moses c. 1446–1406 BC. Target Horizon: The Sinai Covenant (c. 1446 BC, Third Month), where Yahweh formally delivered the Decalogue to liberated Israel at Mount Sinai.",
+    "how": "Verbal quotation, linguistic identity, and covenant codification. In Genesis 2:2, the Hebrew verb שָׁבַת (shavat, Qal waw-consecutive וַיִּשְׁבֹּת) signifies 'to cease, desist, rest from labor', paired with מְלָאכָה (mela'khah — purposeful creative artistry). In Exodus 20:8, the commandment opens with the emphatic infinitive absolute זָכוֹר (Zakhor — 'Remember!'), commanding Israel to remember what was already consecrated in Eden before the Fall. In Exodus 20:11, the motive clause quotes Genesis 2:2-3 almost verbatim: God 'rested the seventh day' (וַיָּנַח בַּיּוֹם הַשְּׁבִיעִי, vayanach bayyom hashviʿi, from nuach: to settle into joyful repose), wherefore Yahweh 'blessed the sabbath day and hallowed it' (בֵּרַךְ יְהוָה אֶת־יוֹם הַשַּׁבָּת וַיְקַדְּשֵׁהוּ, berakh Yahweh ʾet-yom hashabbat vayqaddeshehu), directly mirroring Genesis 2:3 (וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ). The weekly Sabbath (שַׁבָּת, Shabbat) is thus the literal institutionalization of the Creator's rest.",
+    "why": "To guard humanity from the soul-destroying idolatry of perpetual toil and secular materialism (the bondage of Egypt). By ceasing from labor every seventh day, humanity practices the imitatio Dei (imitation of God), confessing that human life, provision, and salvation depend not on autonomous labor, but upon the sovereign grace and completed work of the Creator.",
+    "ultimatePoint": "The Sabbath of Genesis 2:2 is enshrined in the heart of the moral law at Exodus 20:8 as the perpetual memorial of Creation and the covenant sign of the Creator, pointing forward to Jesus Christ, the Lord of the Sabbath who gives true spiritual and eschatological rest to all who believe (Matt 11:28; Hebrews 4:4, 9-11).",
+    "personalRelevance": "Why you need to know this: Your identity and worth before God are not measured by endless striving, worldly accomplishments, or exhausting performance; you are invited into the sacred rest of a loving Creator who finished His work for you. What it does for you: It breaks the tyranny of anxiety, burnout, and self-justification, giving your spirit a sanctuary in time where you can lay down your burdens and rejoice in God's completed provision. Relationship with Jesus: Walking with Jesus means accepting His invitation to rest from your own self-righteous efforts, delighting in Him as your Sabbath-Rest, and allowing His peace to govern every aspect of your weekly walk.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC, Sinai Wilderness)",
+      "sourceDate": "Creation — c. 1446 BC",
+      "sourceSetting": "Primeval Eden before sin, where God instituted and blessed the seventh day as sacred holy time for unfallen humanity.",
+      "fulfillmentAuthor": "Moses (c. 1446 BC, Mount Sinai)",
+      "fulfillmentDate": "c. 1446 BC",
+      "fulfillmentSetting": "The assembly of Israel at the base of Mount Sinai, freshly delivered from 400 years of crushing, seven-day Egyptian slave labor. God bestows the Sabbath as the gift of freedom, holiness, and covenant identity.",
+      "redemptiveBridge": "From the Creation Sabbath in Genesis 2 to the Sinai Decalogue in Exodus 20, confirmed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath unfolds across the canon until it reaches apostolic fulfillment in Hebrews 4:4, 9-11 (the eschatological rest that remains for the people of God).",
+      "scholarshipNotes": "Old Testament scholarship unanimously notes that the Fourth Commandment begins with 'Remember' (זָכוֹר, Zakhor), proving that the Sabbath was not an innovation originating at Sinai, but a pre-existing creation ordinance from Genesis 2 being formally integrated into the covenant Decalogue."
+    }
+  },
+  "gen-2-2_Exodus 31:16-17": {
+    "id": "gen-2-2_Exodus 31:16-17",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Exodus 31:16-17",
+    "who": "Authorship & Context: Moses recorded the covenant renewal and conclusion of the Tabernacle instructions at Mount Sinai (c. 1446 BC). Yahweh spoke directly to Moses, appointing the Sabbath as the perpetual covenant sign between Himself and Israel throughout their generations. Identified Characters: Yahweh Elohim (the Lord who sanctifies); Moses the covenant mediator; the children of Israel; and the craftsmen building the tabernacle. Christological Subject & Referent: Jesus Christ, the true Tabernacle and true Sanctifier (Heb 2:11, 10:10). The Sabbath seals that sanctification is a divine work of grace, not human manufacture. Redemptive Purpose: To seal the truth that while Israel was commanded to build the tabernacle, holy work must never supersede holy rest in the Creator.",
+    "what": "The codification of the Creation Sabbath as a perpetual covenant sign (אוֹת הִוא לְעֹלָם, ʾot hi leʿolam) between Yahweh and His people throughout their generations: 'Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, for a perpetual covenant. It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed' (Exo 31:16-17).",
+    "when": "Source Horizon: Creation Week (Day 7). Target Horizon: Mount Sinai (c. 1446 BC), at the conclusion of the Tabernacle instructions.",
+    "how": "Covenantal theology and verbal citation of Genesis 2:2. Exodus 31:17 explicitly cites the Genesis creation account: כִּי־שֵׁשֶׁת יָמִים עָשָׂה יְהוָה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ וּבַיּוֹם הַשְּׁבִיעִי שָׁבַת וַיִּנָּפַשׁ (ki-sheshet yamim ʿasah Yahweh ʾet-hashamayim ve'et-ha'arets, uvayyom hashviʿi shavat vayyinafash — 'for in six days Yahweh made heaven and earth, and on the seventh day He ceased [שָׁבַת, shavat] and was refreshed / took breath [וַיִּנָּפַשׁ, vayyinafash, Niphal of naphash]'). The anthropomorphic verb וַיִּנָּפַשׁ ('was refreshed / took delight in completion') conveys the Creator's joyful satisfaction in His finished work. The Sabbath is designated an אוֹת (ʾot — sign / visible pledge) and בְּרִית עוֹלָם (berit ʿolam — everlasting/perpetual covenant), showing that Sabbath rest is the eternal signature of the Creator.",
+    "why": "To teach Israel that holiness is not produced by human labor or tabernacle construction, but received from the Lord: 'that ye may know that I am the LORD that doth sanctify you' (Exo 31:13).",
+    "ultimatePoint": "The Sabbath of Genesis 2:2 is confirmed as an everlasting covenant sign of divine sanctification, pointing forward to Jesus Christ who sanctifies His people by His blood and welcomes them into His eternal covenant fellowship.",
+    "personalRelevance": "Why you need to know this: Your sanctification—being made holy and clean—is God's work in you, not the product of your own anxious labor. What it does for you: It delivers you from legalistic burnout, reminding you that God Himself is the One who sanctifies you as you rest in His covenant promises. Relationship with Jesus: Walking with Jesus means letting Him sanctify your heart day by day, living as a marked sign of His covenant grace in a busy, restless world.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC)",
+      "sourceDate": "c. 1446 BC",
+      "sourceSetting": "Eden, where God instituted the seventh day.",
+      "fulfillmentAuthor": "Moses (c. 1446 BC)",
+      "fulfillmentDate": "c. 1446 BC",
+      "fulfillmentSetting": "Mount Sinai, after the tabernacle instructions were completed.",
+      "redemptiveBridge": "From creation's rest to Sinai's tabernacle sign, to the eternal covenant written upon the heart in the New Covenant.",
+      "scholarshipNotes": "The placement of the Sabbath command at the end of Exodus 31 (following the tabernacle specifications) demonstrates that divine rest takes precedence even over the construction of the sanctuary."
+    }
+  },
+  "gen-2-2_Exodus 31:16": {
+    "id": "gen-2-2_Exodus 31:16-17",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Exodus 31:16",
+    "who": "Authorship & Context: Moses recorded the covenant renewal at Mount Sinai (c. 1446 BC). Yahweh spoke directly to Moses, appointing the Sabbath as the perpetual covenant sign. Identified Characters: Yahweh Elohim; Moses; and the children of Israel. Christological Subject & Referent: Jesus Christ, the true Tabernacle and true Sanctifier. Redemptive Purpose: To seal that holy work must never supersede holy rest in the Creator.",
+    "what": "The codification of the Creation Sabbath as a perpetual covenant sign (אוֹת הִוא לְעֹלָם, ʾot hi leʿolam) between Yahweh and His people throughout their generations (Exo 31:16-17).",
+    "when": "Source: Creation Week (Day 7). Target: Mount Sinai (c. 1446 BC).",
+    "how": "Covenantal theology citing Genesis 2:2. Exodus 31:17 explicitly cites the creation account: God ceased (שָׁבַת, shavat) and was refreshed (וַיִּנָּפַשׁ, vayyinafash). The Sabbath is designated an אוֹת (ʾot — sign) and בְּרִית עוֹלָם (berit ʿolam — perpetual covenant).",
+    "why": "To teach Israel that sanctification is received from the Lord: 'that ye may know that I am the LORD that doth sanctify you' (Exo 31:13).",
+    "ultimatePoint": "The Sabbath of Genesis 2:2 is confirmed as an everlasting covenant sign of divine sanctification, pointing forward to Jesus Christ who sanctifies His people by His blood.",
+    "personalRelevance": "Why you need to know this: Your sanctification is God's work in you, not the product of your own anxious striving. What it does for you: Delivers from legalistic burnout. Relationship with Jesus: Resting daily in Christ as your true sanctification.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC)",
+      "sourceDate": "c. 1446 BC",
+      "sourceSetting": "Eden, where God instituted the seventh day.",
+      "fulfillmentAuthor": "Moses (c. 1446 BC)",
+      "fulfillmentDate": "c. 1446 BC",
+      "fulfillmentSetting": "Mount Sinai, concluding tabernacle instructions.",
+      "redemptiveBridge": "From creation's rest to Sinai's tabernacle sign, to the eternal covenant in Christ."
+    }
+  },
+  "gen-2-2_Hebrews 4:4, 9-11": {
+    "id": "gen-2-2_Hebrews 4:4, 9-11",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Hebrews 4:4, 9-11",
+    "who": "Authorship & Context: Moses recorded primeval creation in Genesis (c. 1446–1406 BC). The inspired Author of Hebrews wrote to 1st-century Jewish believers (c. AD 64–68) under intense Roman pressure and temple ceremonial pull. Identified Characters: Yahweh Elohim resting on the seventh day; the wilderness generation who failed to enter God's rest through unbelief (Psalm 95); Joshua who led Israel into Canaan; and the new covenant people of God (ὁ λαὸς τοῦ Θεοῦ). Christological Subject & Referent: Jesus Christ, our great High Priest (Heb 4:14) who has entered into the heavenly sanctuary after finishing His redemptive work, seated at the right hand of God. Redemptive Purpose: To unveil that the seventh-day Sabbath of creation was not merely a 24-hour weekly rest, but a cosmic archetype and prophetic type of the eternal spiritual rest (κατάπαυσις, katapausis) into which believers enter through faith in Jesus Christ.",
+    "what": "The canonical and typological culmination of the Creation Sabbath of Genesis 2:2 in Hebrews 4:4, 9-11. In Hebrews 4:4, the author directly quotes Genesis 2:2: 'For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works.' In Hebrews 4:9, he concludes: 'There remaineth therefore a rest [σαββατισμός, sabbatismos — Sabbath-rest] to the people of God,' exhorting believers in verse 11 to labor to enter into that divine rest.",
+    "when": "Source Horizon: Primeval Creation Week (Day 7), recorded by Moses c. 1446–1406 BC. Target Horizon: Apostolic Era (c. AD 64–68), immediately prior to the destruction of the Jerusalem temple in AD 70.",
+    "how": "Apostolic canonical exposition and verbal correspondence. In Genesis 2:2, God ceased from His works (וַיִּשְׁבֹּת בַּיּוֹם הַשְּׁבִיעִי, vayyishbot bayyom hashviʿi, from שָׁבַת, shavat). The Septuagint translates this with the aorist verb κατέπαυσεν (katepausen, from καταπαύω, katapauō — to cause to cease, to rest). The author of Hebrews quotes this exact Septuagint text in Hebrews 4:4: καὶ κατέπαυσεν ὁ Θεὸς ἐν τῇ ἡμέρᾳ τῇ ἑβδόμῃ ἀπὸ πάντων τῶν ἔργων αὐτοῦ. In Hebrews 4:9, the author introduces a unique theological term found nowhere else in the New Testament: σαββατισμός (sabbatismos, from σαββατίזω — 'Sabbath-keeping / Sabbath-rest'). Rather than using the common noun κατάπαυσις (katapausis), the author deliberately coins or chooses σαββατισμός to connect the believer's spiritual and eschatological rest directly to the seventh-day Sabbath of Genesis 2:2. In Hebrews 4:10, he establishes the theological parallel: 'For he that is entered into his rest, he also hath ceased from his own works, as God did from his' (ὥσπερ ἀπὸ τῶν ἰδίων ὁ Θεός). In verse 11, the urgent hortatory subjunctive σπουδάσωμεν (spoudasōmen, from spoudazō — 'let us make every effort / be diligent') calls believers to cease from dead works of self-righteousness and enter into Christ's finished salvation.",
+    "why": "To demonstrate to Hebrew believers that the true goal of the Sabbath and the land of Canaan was never merely physical geography or ritual observance, but union with God in Christ's finished work. The Sabbath of Eden was never broken by an 'evening and morning', signaling that God's rest is an open, eternal reality entered by faith.",
+    "ultimatePoint": "The Creation Sabbath of Genesis 2:2 finds its ultimate theological and redemptive fulfillment in Jesus Christ: as God rested when creation was finished, so the believer enters into eternal Sabbath-rest (σαββατισμός) by resting in the finished redemption of Christ.",
+    "personalRelevance": "Why you need to know this: You do not need to exhaust your soul trying to earn God's acceptance through legalistic striving or religious performance; Christ's finished work has secured eternal Sabbath-rest for you. What it does for you: It gives you profound spiritual peace, ending the torment of perfectionism and fear of condemnation, allowing you to live from acceptance rather than for acceptance. Relationship with Jesus: Walking with Jesus means practicing daily Sabbath-rest of the heart, trusting His sacrifice completely, and allowing His living presence to be your peace.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC)",
+      "sourceDate": "Creation — c. 1446 BC",
+      "sourceSetting": "Eden at creation, where God rested upon finishing His work.",
+      "fulfillmentAuthor": "Author of Hebrews (c. AD 64–68)",
+      "fulfillmentDate": "c. AD 64–68",
+      "fulfillmentSetting": "Jewish Christians tempted to return to the Levitical sacrificial system under Roman persecution.",
+      "redemptiveBridge": "From the physical rest of Eden, through the weekly Sabbath of the Decalogue (Exo 20) and the rest of Canaan under Joshua, to the eternal Sabbath-rest (sabbatismos) entered through faith in Christ.",
+      "scholarshipNotes": "New Testament exegesis highlights that the author of Hebrews switches from κατάπαυσις (katapausis) to σαββατισμός (sabbatismos) in Hebrews 4:9, intentionally preserving the seventh-day Sabbath typology of Genesis 2:2 as the paradigm for salvation rest."
+    }
+  },
+  "gen-2-2_Hebrews 4:4": {
+    "id": "gen-2-2_Hebrews 4:4, 9-11",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Hebrews 4:4",
+    "who": "Authorship & Context: Moses recorded primeval creation; Author of Hebrews addressed 1st-century believers. Identified Characters: God resting on the seventh day; the people of God called into rest. Christological Subject & Referent: Jesus Christ who completed redemption and sat down at the right hand of God. Redemptive Purpose: Revealing the Sabbath of Genesis 2:2 as the foundation of eternal rest.",
+    "what": "The quotation of Genesis 2:2 in Hebrews 4:4: 'For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works.'",
+    "when": "Source: Creation Week. Target: Apostolic Era (c. AD 64–68).",
+    "how": "Direct quotation of the Septuagint of Genesis 2:2 (καὶ κατέπαυσεν ὁ Θεός, from κατάπαυσις / shavat). Hebrews unfolds this as the archetype of salvation rest.",
+    "why": "To ground the doctrine of eternal rest in the foundational act of the Creator in Genesis 2.",
+    "ultimatePoint": "The Creation Sabbath of Genesis 2:2 points forward to the eternal rest entered through faith in Jesus Christ.",
+    "personalRelevance": "Why you need to know this: God invites you into His finished rest. What it does for you: Delivers from burnout and anxious striving. Relationship with Jesus: Resting peacefully in Christ.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC)",
+      "sourceDate": "Creation",
+      "sourceSetting": "Eden",
+      "fulfillmentAuthor": "Author of Hebrews (c. AD 64–68)",
+      "fulfillmentDate": "c. AD 64–68",
+      "fulfillmentSetting": "Early Christian church",
+      "redemptiveBridge": "The seventh day rest of Genesis 2 is fulfilled in Christ."
+    }
+  },
+  "gen-2-2_Hebrews 4:9-11": {
+    "id": "gen-2-2_Hebrews 4:4, 9-11",
+    "anchorRef": "Genesis 2:2",
+    "targetRef": "Hebrews 4:9-11",
+    "who": "Authorship & Context: Moses and Author of Hebrews. Identified Characters: Yahweh and the people of God. Christological Subject & Referent: Jesus Christ our Sabbath-rest. Redemptive Purpose: Entering into divine rest.",
+    "what": "The conclusion of Hebrews 4:9-11 that 'There remaineth therefore a rest [σαββατισμός, sabbatismos] to the people of God,' fulfilling Genesis 2:2.",
+    "when": "Source: Creation. Target: Apostolic Era (c. AD 64–68).",
+    "how": "Hermeneutical culmination using σαββατισμός (sabbatismos, Sabbath-rest) and σπουδάσωμεν (spoudasōmen, let us labor to enter that rest).",
+    "why": "To reveal that Sabbath rest is the goal of salvation history.",
+    "ultimatePoint": "Believers enter into God's eternal Sabbath-rest (σαββατισμός) through faith in Christ's finished work.",
+    "personalRelevance": "Why you need to know this: Christ has finished the work of your redemption. What it does for you: Unshakeable peace. Relationship with Jesus: Ceasing from self-justification.",
+    "historicalContext": {
+      "sourceAuthor": "Moses (c. 1446–1406 BC)",
+      "sourceDate": "Creation",
+      "sourceSetting": "Eden",
+      "fulfillmentAuthor": "Author of Hebrews (c. AD 64–68)",
+      "fulfillmentDate": "c. AD 64–68",
+      "fulfillmentSetting": "Early church",
+      "redemptiveBridge": "From Genesis 2:2 to Hebrews 4:9-11."
+    }
+  },
   "gen-1-1_John 1:1-3": {
     "id": "gen-1-1_John 1:1-3",
     "anchorRef": "Genesis 1:1",

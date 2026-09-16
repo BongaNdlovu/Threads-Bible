@@ -34,6 +34,7 @@ export interface MapNode {
 import {
   getConnectionInterrogation,
   getAuthorForRef,
+  compareCanonicalRefs,
   type ConnectionInterrogation,
 } from '../data/connectionInterrogation';
 import { expandVerseRange } from '../data/refParser';
@@ -211,8 +212,14 @@ export function buildThreadGraph(input: ThreadMapInput): ThreadGraph {
     who: sourceWho,
   });
 
+  // Enforce canonical chronological progressive ordering:
+  // For OT source anchors, all Old Testament fulfillment connections come before
+  // New Testament fulfillment connections, and within each testament they follow
+  // canonical book/chapter order.
+  const sortedRefs = [...input.fulfillmentRefs].sort(compareCanonicalRefs);
+
   // Fulfillment nodes — stacked in a column to the right of the anchor.
-  const groups = chunkVersesByRefs(input.fulfillmentRefs, expand, input.fulfillmentVerses);
+  const groups = chunkVersesByRefs(sortedRefs, expand, input.fulfillmentVerses);
   const chainRefs = [input.anchorRef];
 
   groups.forEach((group, i) => {

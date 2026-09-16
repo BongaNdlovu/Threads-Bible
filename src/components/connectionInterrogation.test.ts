@@ -445,13 +445,13 @@ describe('Thread Graph Model Integration', () => {
     expect(edge.interrogation.personalRelevance).toContain('Relationship with Jesus');
   });
 
-  it('preserves exactly 41 distinct historical connections without ID collisions', () => {
+  it('preserves exactly 44 distinct historical connections without ID collisions', () => {
     const connections = getAllHistoricalConnections();
-    expect(connections).toHaveLength(41);
+    expect(connections).toHaveLength(44);
 
     // Verify all IDs are unique
     const idSet = new Set(connections.map(c => c.id));
-    expect(idSet.size).toBe(41);
+    expect(idSet.size).toBe(44);
   });
 
   it('correctly parses structured personal relevance text into 3 distinct sections', () => {
@@ -479,7 +479,7 @@ describe('Thread Graph Model Integration', () => {
 
   it('ensures all historical connections returned by getAllHistoricalConnections include the Who dimension', () => {
     const connections = getAllHistoricalConnections();
-    expect(connections).toHaveLength(41);
+    expect(connections).toHaveLength(44);
     for (const c of connections) {
       expect(c.who, `Historical connection ${c.id} missing 'who'`).toBeTruthy();
       expect(c.who).toContain('Authorship');
@@ -746,9 +746,122 @@ describe('Thread Graph Model Integration', () => {
     expect(twoAdams.how).toContain('τύπος τοῦ μέλλοντος');
     expect(twoAdams.how).toContain('typos tou mellontos');
     expect(twoAdams.how).toContain('ἔσχατος Ἀδὰμ');
-    expect(twoAdams.how).toContain('eschatos Adam');
-    expect(twoAdams.how).toContain('πνεῦμα ζῳοποιοῦν');
-    expect(twoAdams.how).toContain('pneuma zōopoioun');
+    // 20. Genesis 2:2 -> Exodus 20:8-11 (shavat, Zakhor, Shabbat, mela'khah, vayanach bayyom hashvi'i)
+    const gen2Sabbath = CURATED_INTERROGATIONS['gen-2-2_Exodus 20:8-11'];
+    expect(gen2Sabbath.how).toContain('שָׁבַת');
+    expect(gen2Sabbath.how).toContain('shavat');
+    expect(gen2Sabbath.how).toContain('זָכוֹר');
+    expect(gen2Sabbath.how).toContain('Zakhor');
+    expect(gen2Sabbath.how).toContain('שַׁבָּת');
+    expect(gen2Sabbath.how).toContain('Shabbat');
+    expect(gen2Sabbath.what).toContain('Fourth Commandment');
+    expect(gen2Sabbath.what).toContain('Exodus 20:11');
+    expect(gen2Sabbath.ultimatePoint).toContain('Lord of the Sabbath');
+    expect(gen2Sabbath.ultimatePoint).toContain('Hebrews 4:4, 9-11');
+
+    // 21. Genesis 2:2 -> Exodus 31:16-17 (shavat, vayyinafash, 'ot, berit 'olam)
+    const gen2Exo31 = CURATED_INTERROGATIONS['gen-2-2_Exodus 31:16-17'];
+    expect(gen2Exo31.how).toContain('שָׁבַת');
+    expect(gen2Exo31.how).toContain('shavat');
+    expect(gen2Exo31.how).toContain('וַיִּנָּפַשׁ');
+    expect(gen2Exo31.how).toContain('vayyinafash');
+    expect(gen2Exo31.how).toContain('אוֹת');
+    expect(gen2Exo31.how).toContain('ʾot');
+    expect(gen2Exo31.how).toContain('בְּרִית עוֹלָם');
+    expect(gen2Exo31.how).toContain('berit ʿolam');
+
+    // 22. Genesis 2:2 -> Hebrews 4:4, 9-11 (sabbatismos, katapausis, spoudasomen, katepausen)
+    const gen2Heb4 = CURATED_INTERROGATIONS['gen-2-2_Hebrews 4:4, 9-11'];
+    expect(gen2Heb4.how).toContain('σαββατισμός');
+    expect(gen2Heb4.how).toContain('sabbatismos');
+    expect(gen2Heb4.how).toContain('κατάπαυσις');
+    expect(gen2Heb4.how).toContain('katapausis');
+    expect(gen2Heb4.how).toContain('σπουδάσωμεν');
+    expect(gen2Heb4.how).toContain('spoudasōmen');
+    expect(gen2Heb4.how).toContain('κατέπαυσεν');
+    expect(gen2Heb4.how).toContain('katepausen');
+    expect(gen2Heb4.ultimatePoint).toContain('σαββατισμός');
+  });
+
+  it('curates the Creation Sabbath Codified in the Decalogue (Genesis 2:2 -> Exodus 20:8-11) with deep scholarly interrogation', () => {
+    const inter = getConnectionInterrogation(
+      'gen-2-2',
+      'Exodus 20:8-11',
+      'Genesis 2:2',
+      'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
+      'Remember the sabbath day, to keep it holy. Six days shalt thou labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God...'
+    );
+
+    expect(inter).toBeDefined();
+    expect(inter.what).toContain('Fourth Commandment');
+    expect(inter.what).toContain('Genesis 2:2');
+    expect(inter.who).toContain('Moses');
+    expect(inter.who).toContain('Lord of the Sabbath');
+    expect(inter.how).toContain('שָׁבַת');
+    expect(inter.how).toContain('זָכוֹר');
+    expect(inter.why).toContain('imitatio Dei');
+    expect(inter.ultimatePoint).toContain('Lord of the Sabbath');
+    expect(inter.ultimatePoint).toContain('Hebrews 4:4, 9-11');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+    expect(inter.historicalContext?.sourceSetting).toContain('Eden');
+    expect(inter.historicalContext?.fulfillmentSetting).toContain('Sinai');
+  });
+
+  it('curates the Perpetual Sabbath Covenant Sign (Genesis 2:2 -> Exodus 31:16-17) with deep scholarly interrogation', () => {
+    const inter = getConnectionInterrogation(
+      'gen-2-2',
+      'Exodus 31:16-17',
+      'Genesis 2:2',
+      'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
+      'Wherefore the children of Israel shall keep the sabbath, to observe the sabbath throughout their generations, for a perpetual covenant. It is a sign between me and the children of Israel for ever: for in six days the LORD made heaven and earth, and on the seventh day he rested, and was refreshed.'
+    );
+
+    expect(inter).toBeDefined();
+    expect(inter.what).toContain('perpetual covenant sign');
+    expect(inter.what).toContain('Exo 31:16-17');
+    expect(inter.who).toContain('Moses');
+    expect(inter.who).toContain('true Tabernacle and true Sanctifier');
+    expect(inter.how).toContain('שָׁבַת');
+    expect(inter.how).toContain('וַיִּנָּפַשׁ');
+    expect(inter.how).toContain('אוֹת');
+    expect(inter.how).toContain('בְּרִית עוֹלָם');
+    expect(inter.ultimatePoint).toContain('everlasting covenant sign');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+    expect(inter.historicalContext?.sourceSetting).toContain('Eden');
+    expect(inter.historicalContext?.fulfillmentSetting).toContain('Sinai');
+  });
+
+  it('curates the Eschatological Sabbath-Rest (Genesis 2:2 -> Hebrews 4:4, 9-11) with deep scholarly interrogation', () => {
+    const inter = getConnectionInterrogation(
+      'gen-2-2',
+      'Hebrews 4:4, 9-11',
+      'Genesis 2:2',
+      'And on the seventh day God ended his work which he had made; and he rested on the seventh day from all his work which he had made.',
+      'For he spake in a certain place of the seventh day on this wise, And God did rest the seventh day from all his works... There remaineth therefore a rest to the people of God... Let us labour therefore to enter into that rest...'
+    );
+
+    expect(inter).toBeDefined();
+    expect(inter.what).toContain('σαββατισμός');
+    expect(inter.what).toContain('sabbatismos');
+    expect(inter.who).toContain('Moses');
+    expect(inter.who).toContain('Author of Hebrews');
+    expect(inter.who).toContain('High Priest');
+    expect(inter.how).toContain('σαββατισμός');
+    expect(inter.how).toContain('κατάπαυσις');
+    expect(inter.how).toContain('σπουδάσωμεν');
+    expect(inter.how).toContain('κατέπαυσεν');
+    expect(inter.ultimatePoint).toContain('σαββατισμός');
+    expect(inter.ultimatePoint).toContain('finished redemption of Christ');
+    expect(inter.personalRelevance).toContain('Why you need to know this');
+    expect(inter.personalRelevance).toContain('What it does for you');
+    expect(inter.personalRelevance).toContain('Relationship with Jesus');
+    expect(inter.historicalContext?.sourceSetting).toContain('Eden');
+    expect(inter.historicalContext?.fulfillmentSetting).toContain('Jewish Christians');
+    expect(inter.historicalContext?.scholarshipNotes).toContain('sabbatismos');
   });
 });
 

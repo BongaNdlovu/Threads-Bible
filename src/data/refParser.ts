@@ -228,8 +228,27 @@ export function parseRef(ref: string): ParsedRef | null {
     };
   }
 
-  // 2. Standard chapter:verse(-verse)?: e.g. "Exodus 20:8-11", "John 3:16", "John 3.16"
-  const standardMatch = clean.match(/^(\d?\s?[A-Za-z]+(?:\s+[A-Za-z]+){0,2})\s+(\d+)[:.](\d+)(?:\s*-\s*(\d+))?/);
+  // 2. Compound references with comma/semicolon: e.g. "Hebrews 4:4, 9-11", "Galatians 3:8, 16"
+  if (clean.includes(',') || clean.includes(';')) {
+    const firstPart = clean.split(/[,;]/)[0].trim();
+    const parsedFirst = parseRef(firstPart);
+    if (parsedFirst) {
+      const parts = clean.split(/[,;]/).map(p => p.trim()).filter(Boolean);
+      const lastPart = parts[parts.length - 1];
+      const endMatch = lastPart.match(/(\d+)(?:\s*-\s*(\d+))?$/);
+      if (endMatch) {
+        const lastV = parseInt(endMatch[2] || endMatch[1], 10);
+        return {
+          ...parsedFirst,
+          endVerse: lastV,
+        };
+      }
+      return parsedFirst;
+    }
+  }
+
+  // 3. Standard chapter:verse(-verse)?: e.g. "Exodus 20:8-11", "John 3:16", "John 3.16"
+  const standardMatch = clean.match(/^(\d?\s?[A-Za-z]+(?:\s+[A-Za-z]+){0,2})\s+(\d+)[:.](\d+)(?:\s*-\s*(\d+))?$/);
   if (standardMatch) {
     const book = normalizeBookName(standardMatch[1]);
     const chapter = parseInt(standardMatch[2], 10);
@@ -238,7 +257,7 @@ export function parseRef(ref: string): ParsedRef | null {
     return { book, chapter, startVerse, endVerse };
   }
 
-  // 3. Single-chapter books cited without colon: e.g. "3 John 2", "Jude 7", "Obadiah 4", "Jude 5-7"
+  // 4. Single-chapter books cited without colon: e.g. "3 John 2", "Jude 7", "Obadiah 4", "Jude 5-7"
   const singleChMatch = clean.match(/^(\d?\s?[A-Za-z]+(?:\s+[A-Za-z]+){0,2})\s+(\d+)(?:\s*-\s*(\d+))?$/);
   if (singleChMatch) {
     const rawBook = singleChMatch[1];
@@ -254,7 +273,7 @@ export function parseRef(ref: string): ParsedRef | null {
       };
     }
 
-    // 4. Multi-chapter whole chapter citation or chapter range: e.g. "Psalm 104", "Leviticus 16", "Matthew 5-7"
+    // 5. Multi-chapter whole chapter citation or chapter range: e.g. "Psalm 104", "Leviticus 16", "Matthew 5-7"
     const meta = BOOK_BY_NAME[book];
     if (meta) {
       const chapter = parseInt(singleChMatch[2], 10);
@@ -277,7 +296,7 @@ export function parseRef(ref: string): ParsedRef | null {
     }
   }
 
-  // 5. Bare book name (e.g. "Jude", "Obadiah", "Philemon", "Genesis")
+  // 6. Bare book name (e.g. "Jude", "Obadiah", "Philemon", "Genesis")
   const bareBook = normalizeBookName(clean);
   const bareMeta = BOOK_BY_NAME[bareBook];
   if (bareMeta) {
