@@ -476,12 +476,33 @@ them changed a character of the app.
 | 11 two chain notes annotating another field | **Cleared** — the findings are moved onto the `title` records they are actually about; the connection notes now point there |
 | 12 `deu-18-15` | **Cleared** — class-boundary note added to the reason, so a later reversal can find it |
 
-That leaves **four decisions**, all of them yours, and two of them change no text if you answer "no":
+That left **four decisions**. The operator took the recommended option on all four on 2026-09-18:
 
-1. **`mat-4-6`** — is the delivered gloss doctrinally right about what the tempter left out?
-2. **`ecc-9-5`** — leave the proof-text quotation untouched, or not?
-3. **`rom-3-21`** — mid-quotation sentence starts: capital or not?
-4. **Item 10** — do the three silently-trimmed quotations get an ellipsis?
+1. **`mat-4-6` — keep the delivered wording; finding closed.** The clarification is accurate: at Matthew 4:6
+   the tempter quotes Psalm 91 and omits the Scripture that forbids testing God, which is precisely what
+   Jesus answers with at Matthew 4:7. The original clause read as though he omitted the *act* of tempting,
+   which was the defect the rewrite fixed. No further change; the reason records the confirmation.
+2. **`ecc-9-5` — leave untouched; finding closed.** The difference is a capital plus an ellipsis-marked
+   trim, I1 forbids touching the quotation, and §1.10 C3 is already satisfied because the trim is marked.
+3. **`rom-3-21` — no capital; finding closed, and the convention is now set canon-wide**: when two verses
+   are run together, the second verse's opening word keeps its canonical lower case rather than being
+   capitalised mid-quotation.
+4. **Item 10 — the ellipsis is added to `isa-42-6` only**, exactly as the §7 recommendation scoped it and
+   as this digest warned it must be: `…to bring out the prisoners from the prison…`. It is the one string
+   in the shape where the gap closes by punctuation alone. `1pe-2-6` and `mat-12-18` **need no change**,
+   and that is not a deferral: both strings now attribute their source honestly (`1pe-2-6` says "Peter
+   says Isaiah 28:16 said this", and `mat-12-18` says the span is "quoted here almost word for word"),
+   and `mat-12-18`'s trim is a *leading* one, which quotation convention does not mark.
 
-The hygiene edits live in `docs/_work/*_rewrites.json` (records only). The two Galatians fixes are the
-only data changes, and both were verified with the eight-check structural verifier.
+**All 116 findings are therefore disposed of**: 102 by class ruling, 10 by record repair, and 4 as above.
+Two data changes came out of the whole exercise — the removal of the never-write adjective "covenantal"
+from `gal-3-28` and this ellipsis — and both were verified with the eight-check structural verifier.
+
+**The I1 tension in ruling 4, stated plainly.** Adding an ellipsis puts a character inside a quotation,
+which a strict reading of I1 forbids. The ruling accepts that trade because no word changes, the omission
+is real, and §1.10 C3 requires it to be marked; the alternative — leaving a quotation that silently stops
+mid-verse — misleads the reader in a way I1 exists to prevent. If the operator later prefers the strict
+reading, the revert is that one character.
+
+The hygiene edits live in `docs/_work/*_rewrites.json` (records only). The data changes are the two
+Galatians fixes (`7827a28`, `5231df1`) and the Isaiah ellipsis (`d98dd1d`).
