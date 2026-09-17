@@ -1897,11 +1897,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hag-2-7': {
     title: 'The Desire of All Nations Shall Come',
     principle:
-      'For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth... and the desire of all nations shall come: and I will fill this house with glory. The second temple\'s glory exceeded Solomon\'s because the Desire Himself walked its courts. First principle: God\'s greatest glory in a place arrives quietly, in a Person.',
+      '“Yet once, it is a little while, and I will shake the heavens, and the earth... and the desire of all nations shall come: and I will fill this house with glory.” God filled this later house with greater glory than the temple Solomon built. The promised King walked its courts himself. God\'s greatest glory in a place arrives quietly, in a person.',
     sourceKeywords: ['I will shake all nations', 'the desire of all nations shall come', 'fill this house with glory', 'peace in this place'],
     fulfillmentKeywords: ['mine eyes have seen thy salvation', 'cast out them that sold', 'the Word was made flesh'],
     terms: [
-      { term: 'desire', original: 'חֶמְדָּה', translit: 'chemdah', gloss: 'desire, delight, precious thing', note: 'Simeon, holding the infant in the temple courts, embodies the promise fulfilled (Luke 2:29-32).' },
+      { term: 'desire', original: 'חֶמְדָּה', translit: 'chemdah', gloss: 'desire, delight, precious thing', note: 'Simeon held the infant Jesus in the temple courts, so he shows the promise kept (Luke 2:29-32).' },
     ],
   },
   'zec-3-8': {
@@ -9985,7 +9985,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hag-1-1': {
     title: 'Came the Word of the LORD by Haggai',
     principle:
-      'The dated word to Zerubbabel and Joshua. First principle: civil governor and high priest hear together — rebuilding requires both throne and altar under one word.',
+      'God sent his word through the prophet Haggai on a named day to Zerubbabel the governor and Joshua the high priest. The civil ruler and the high priest heard it together. The work of rebuilding needed both the throne and the altar standing under that one word.',
     sourceKeywords: ['came the word of the LORD by Haggai'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9993,7 +9993,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hag-2-6': {
     title: 'Yet Once, It Is a Little While, and I Will Shake',
     principle:
-      'Heavens, earth, sea, dry land shaken once more. First principle: the once-more shaking is scheduled — Hebrews escalates it to heaven itself so the unshakeable remains.',
+      'God will shake the heavens, the earth, the sea, and the dry land one more time. God has already set the time for that shaking. Hebrews takes the promise further and applies it to heaven itself, so that only what cannot be shaken will remain.',
     sourceKeywords: ['Yet once, it is a little while', 'I will shake the heavens, and the earth'],
     fulfillmentKeywords: ['Yet once more I shake not the earth only, but also heaven'],
     terms: [],
@@ -10001,7 +10001,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hag-2-9': {
     title: 'The Glory of This Latter House Shall Be Greater',
     principle:
-      'Peace given in this place. First principle: the second temple\'s greater glory is a Person visiting it — and in this place, peace is promised by name.',
+      'God promises peace in this place. The greater glory of the second temple was a person visiting it. In that same place God promised peace by name.',
     sourceKeywords: ['The glory of this latter house', 'greater than of the former', 'in this place will I give peace'],
     fulfillmentKeywords: ['mine eyes have seen thy salvation'],
     terms: [],
@@ -10009,7 +10009,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hag-2-23': {
     title: 'I Will Make Thee as a Signet',
     principle:
-      'Zerubbabel chosen as the sealed signet on God\'s hand. First principle: the signet restores the reversed curse of Jeconiah — the Davidic line\'s official seal of authority.',
+      'God chose Zerubbabel and made him like a signet ring, the seal pressed into God\'s own hand. That signet reverses the curse that had fallen on Jeconiah. It is the official seal of authority for the line of David.',
     sourceKeywords: ['I will take thee, O Zerubbabel, my servant', 'make thee as a signet', 'I have chosen thee'],
     fulfillmentKeywords: [],
     terms: [],
