@@ -108,6 +108,7 @@ single source of truth for progress and resumption.
 | 1 Samuel | 20 | 9 | 11 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | 1 Kings | 22 | 21 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | 2 Kings | 14 | 13 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
+| Nehemiah | 6 | 5 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | Joshua | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | Judges | 6 | 3 | 3 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | Ruth | 29 | 4 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |

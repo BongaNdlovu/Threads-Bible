@@ -8823,23 +8823,23 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'neh-1-5': {
     title: 'O LORD God of Heaven, the Great and Terrible God',
     principle:
-      'The covenant-keeping, mercy-showing God addressed for Jerusalem\'s ruins. First principle: Nehemiah\'s prayer begins where all intercession begins — greatness, terror, and covenant-mercy for lovers and keepers.',
+      'The God who keeps his covenant and shows mercy was addressed about the ruins of Jerusalem. First principle: Nehemiah\'s prayer begins where all intercession, that is praying for others, begins. It begins with God\'s greatness and the fear of him, and with covenant mercy for those who love God and keep his commandments.',
     sourceKeywords: ['O LORD God of heaven', 'keepeth covenant and mercy', 'for them that love him'],
     fulfillmentKeywords: [],
     terms: [],
   },
   'neh-9-17': {
-    title: 'Thou Art a God Ready to Pardon',
+    title: '"Thou art a God ready to pardon" — the Levites\' own confession.',
     principle:
-      'The Levites\' confession: hardened necks, yet a pardoning God who forsook not. First principle: the history-chapter of Nehemiah 9 is one long proof that God\'s readiness to pardon outruns rebellion.',
+      'The Levites confessed that the people had hardened their necks against God. First principle: Nehemiah 9 is one long chapter of history, and it proves one thing. God is always more ready to pardon than his people are to rebel.',
     sourceKeywords: ['a God ready to pardon', 'gracious and merciful, slow to anger', 'and forsookest them not'],
     fulfillmentKeywords: ['The LORD is longsuffering, and of great mercy'],
     terms: [],
   },
   'neh-9-33': {
-    title: 'Thou Art Just in All That Is Brought upon Us',
+    title: '"Thou art just in all that is brought upon us" — the people admit that God was right.',
     principle:
-      'God right, people wicked — the covenant-lawsuit settled. First principle: the confession concedes the case: justice vindicated, wickedness owned; Daniel prays the same way.',
+      'God was right, and the people were wicked. First principle: the confession gives up the case. It agrees that God\'s justice was right, and the people own their wickedness. Daniel prays in the same way.',
     sourceKeywords: ['thou art just in all that is brought upon us', 'thou hast done right', 'we have done wickedly'],
     fulfillmentKeywords: [],
     terms: [],
