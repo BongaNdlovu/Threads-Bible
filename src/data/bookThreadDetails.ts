@@ -1192,7 +1192,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-3-1': {
     title: 'The Messenger of the Covenant',
     principle:
-      'God promises to send his messenger to prepare the way ahead of him. Then the Lord they are looking for will come suddenly to his temple. He is the Messenger of the Covenant. Jesus names John the Baptist as that messenger. He names himself as the Lord who visits his temple. God does not arrive unannounced.',
+      'God promises to send his messenger to prepare the way ahead of him. Then the Lord they are looking for will come suddenly to his temple. He is the Messenger of the Covenant. Jesus names John the Baptist as that messenger. He names himself as the Lord who visits his temple. First principle: God does not arrive unannounced.',
     sourceKeywords: ['messenger', 'prepare the way', 'Lord', 'seek', 'suddenly come to his temple', 'messenger of the covenant'],
     fulfillmentKeywords: ['messenger', 'face', 'prepare thy way', 'Elias', 'temple', 'John'],
     terms: [
@@ -1203,7 +1203,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-4-5': {
     title: 'Elijah the Prophet Before the Great Day',
     principle:
-      '"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD." God sends Elijah to turn the hearts of fathers to their children, and the hearts of children to their fathers. The angel Gabriel announced that John the Baptist would minister "in the spirit and power of Elijah." Jesus himself said plainly that John was the Elijah of the first coming. God\'s messengers turn hearts back to him before judgment falls.',
+      '"Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD." God sends Elijah to turn the hearts of fathers to their children, and the hearts of children to their fathers. The angel Gabriel announced that John the Baptist would minister "in the spirit and power of Elijah." Jesus himself said plainly that John was the Elijah of the first coming. First principle: God\'s messengers turn hearts back to him before judgment falls.',
     sourceKeywords: ['Elijah the prophet', 'great and dreadful day of the LORD', 'turn the heart', 'fathers to children'],
     fulfillmentKeywords: ['spirit and power of Elias', 'Elias is come already', 'restore all things', 'John the Baptist'],
     terms: [
@@ -2270,7 +2270,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-4-2': {
     title: 'The Sun of Righteousness with Healing in His Wings',
     principle:
-      '"But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall." That same day burns like an oven for the wicked. For those who fear God\'s name it dawns like sunrise. What divides the two is the fear of his name.',
+      '"But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall." That same day burns like an oven for the wicked. For those who fear God\'s name it dawns like sunrise. First principle: what divides the two is the fear of his name.',
     sourceKeywords: ['unto you that fear my name', 'Sun of righteousness', 'healing in his wings', 'go forth, and grow up as calves of the stall'],
     fulfillmentKeywords: ['dayspring from on high', 'the day so cometh', 'morning star', 'healing to all'],
     terms: [
@@ -10125,7 +10125,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-1-2': {
     title: 'I Have Loved You, Saith the LORD',
     principle:
-      'Malachi opens with a people who doubt that God loves them. God answers the doubt with one proof: he chose Jacob and not Esau. God\'s choice, and not their circumstances, settles the question of his love.',
+      'Malachi opens with a people who doubt that God loves them. God answers the doubt with one proof: he chose Jacob and not Esau. First principle: God\'s choice, and not their circumstances, settles the question of his love.',
     sourceKeywords: ['I have loved you', 'Wherein hast thou loved us', 'yet I loved Jacob'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10133,7 +10133,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-1-3': {
     title: 'And I Hated Esau, and Laid His Mountains Waste',
     principle:
-      'God hated Esau\'s line and left its land a waste for the wild animals of the desert. That ruin is what being the line God did not choose looks like. So the ruins of Edom preach that God chose Jacob.',
+      'God hated Esau\'s line and left its land a waste for the wild animals of the desert. First principle: that ruin is what being the line God did not choose looks like. So the ruins of Edom preach that God chose Jacob.',
     sourceKeywords: ['I hated Esau', 'laid his mountains and his heritage waste', 'dragons of the wilderness'],
     fulfillmentKeywords: ['Jacob have I loved, but Esau have I hated'],
     terms: [],
@@ -10141,7 +10141,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-3-6': {
     title: 'For I Am the LORD, I Change Not',
     principle:
-      'God does not change. That is why the sons of Jacob are not destroyed. If God could change, Israel would have ended long ago. God made the covenant, and he stays the same, so the covenant still stands.',
+      'God does not change. That is why the sons of Jacob are not destroyed. First principle: if God could change, Israel would have ended long ago. God made the covenant, and he stays the same, so the covenant still stands.',
     sourceKeywords: ['I am the LORD, I change not', 'therefore ye sons of Jacob are not consumed'],
     fulfillmentKeywords: ['Jesus Christ the same yesterday, and to day, and for ever'],
     terms: [],
@@ -10149,7 +10149,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-3-17': {
     title: 'They Shall Be Mine, Saith the LORD of Hosts',
     principle:
-      'God will make up his jewels, and he will spare them as a father spares a son who serves him. That day is the day he does it. The people he spares are the ones he calls his own.',
+      'God will make up his jewels, and he will spare them as a father spares a son who serves him. First principle: that day is the day he does it. The people he spares are the ones he calls his own.',
     sourceKeywords: ['they shall be mine', 'when I make up my jewels', 'spare them, as a man spareth his own son'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10157,7 +10157,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mal-4-6': {
     title: 'He Shall Turn the Heart of the Fathers to the Children',
     principle:
-      'Malachi\'s last promise turns on one hinge: hearts turn back to God and to each other, or the land is struck with a curse. God works that turning through the messenger he sends ahead of the day. Moses had already set the same choice of blessing or curse in front of Israel.',
+      'First principle: Malachi\'s last promise turns on one hinge: hearts turn back to God and to each other, or the land is struck with a curse. God works that turning through the messenger he sends ahead of the day. Moses had already set the same choice of blessing or curse in front of Israel.',
     sourceKeywords: ['turn the heart of the fathers to the children', 'lest I come and smite the earth with a curse'],
     fulfillmentKeywords: ['to turn the hearts of the fathers to the children'],
     terms: [],
