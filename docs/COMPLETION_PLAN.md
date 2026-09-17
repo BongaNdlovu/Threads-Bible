@@ -146,6 +146,42 @@ single source of truth for progress and resumption.
 | 1 Corinthians | 90 | 44 | 46 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 39 (55 chain strings deferred; 1 QUOTE-REVIEW) |
 | 2 Corinthians | 34 | 17 | 17 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 40 |
 | Zechariah | 148 | 39 | 109 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 41 (83 entry + 65 chain strings; 2 chain QUOTE-REVIEW deferred to the chain pass) |
+| Galatians | 44 | 18 | 26 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 42 (4 QUOTE-REVIEW) |
+| Ephesians | 52 | 23 | 29 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 43 (1 QUOTE-REVIEW; 1 resegmentation kept) |
+| Philippians | 36 | 15 | 21 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 44 (1 QUOTE-REVIEW) |
+| Colossians | 48 | 23 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 45 (7 QUOTE-REVIEW) |
+| 1 Thessalonians | 28 | 14 | 14 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 46 (2 QUOTE-REVIEW) |
+| 2 Thessalonians | 20 | 10 | 10 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 47 |
+| James | 22 | 12 | 10 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 48 (2 QUOTE-REVIEW) |
+| 1 Timothy | 28 | 14 | 14 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 49 (1 QUOTE-REVIEW) |
+| 2 Timothy | 32 | 16 | 16 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 50 |
+| Titus | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 51 |
+| Philemon | 12 | 6 | 6 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 52 |
+| 2 Peter | 14 | 8 | 6 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 53 (1 QUOTE-REVIEW) |
+| 1 John | 22 | 10 | 12 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 54 (1 QUOTE-REVIEW) |
+| 2 John | 4 | 2 | 2 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 55 |
+| 3 John | 2 | 1 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 56 |
+| Jude | 16 | 7 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 57 (1 QUOTE-REVIEW) |
+
+Rows 42–57 were applied in the order shown, which is canonical except in one stretch: James (48) was
+applied before the Pastoral Epistles (49–52) because its rewrite set finished first. Two books are
+still outstanding at the time of writing: 1 Peter and Hebrews, whose delivered drafts carry a defect
+described below, and Revelation, whose last two chunks are still being written. Canonically 1 Peter
+belongs between James and 2 Peter, and Hebrews between Philemon and James.
+
+**A seventh defect class, found by a check that did not exist yet.** After row 48 a scan of every
+delivered draft against its worklist showed 61 places across nine books where a draft had dropped or
+renamed one of the app's own structural labels — `First principle:` and `Textual proof:`. Invariant I1
+(plan §1.13, and CP-01 line 242) requires those labels to stay verbatim, and the structural verifier's
+six checks did not look at them, so the defect passed the gate, the verifier and the test suite in
+seven books that were already committed: Colossians, Haggai, Jeremiah, John, Malachi, Zechariah and
+Zephaniah. Three further fields (Colossians, 1 Thessalonians, 2 Thessalonians) were applied from a
+snapshot the writer later revised, which the same scan caught. The remedy is threefold and is in
+progress: a seventh check, LABEL_FIXITY, added to `scripts/cp03StructuralVerify.ts` so no later book
+can lose a label silently; the affected drafts repaired; and the committed books corrected by a
+follow-up apply that re-extracts the worklist from the tree. This is the third defect a shape check
+has caught that no prose check would have seen, and the first that had to be found by a new check
+because nothing existing looked for it.
 
 Three notes on rows 33–41.
 
