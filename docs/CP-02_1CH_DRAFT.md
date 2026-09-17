@@ -134,3 +134,19 @@ The whole assembly gave this praise: the kingdom is the LORD's and he is head ab
 | `1ch-17-11` | `title` | 8 words, one idea, plain - the KJV text of 1 Chr 17:11 carried byte-identical; nothing to decode |
 | `1ch-22-10` | `title` | 8 words, one idea, plain - the KJV text of 1 Chr 22:10 carried byte-identical; nothing to decode |
 
+## Correction recorded after this appendix was generated
+
+The CP-05 cross-book consistency read (`docs/CP-05_CONSISTENCY_READ.md` §4, finding E1) changed one
+string in this book, because 1 Chronicles was the only book rendering the frozen glossary term as the
+bare compound "covenant family":
+
+```
+  entry  1ch-16-22 · principle
+  before First principle: the covenant family and the men who speak for God rest under God's own protection. …
+  after  First principle: the family joined to God by his binding promise. The men who speak for God rest under God's own protection. …
+```
+
+The change was applied to the data and re-verified (commit `a95eb64`); the AFTER block above still shows
+the pre-correction wording because this appendix was generated before the read. The corrected text is the
+one in `docs/_work/1ch_rewrites.json` and in the canon.
+

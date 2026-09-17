@@ -249,6 +249,14 @@ the per-book exclusion was enforced, so for a few chains the "before" was alread
 
 Stage A is therefore complete in full: 60 books plus the chain pass.
 
+**One honest deviation in the per-book loop.** The loop's gate step — `npm test` plus `npm run
+audit:data` — was run after each batch of books rather than strictly after every single book, and once
+more over the whole tree at the end (`CP-04_FULL_REGRESSION.md`). The per-book gate was still enforced
+on every book: the structural verifier's `NO_BANNED` check runs `checkProse()` over that book's strings
+and fails the commit on any new clarity-gate violation, and the applier refuses to write unless its
+accounting closes. Everything else in the loop — extract, draft, pre/post-flight, seven-check
+verification, quality classification, book docs, log row, one commit — ran per book, every time.
+
 Rows 42–57 were applied in the order shown, which is canonical except in one stretch: James (48) was
 applied before the Pastoral Epistles (49–52) because its rewrite set finished first. Two books are
 still outstanding at the time of writing: 1 Peter and Hebrews, whose delivered drafts carry a defect
