@@ -8323,7 +8323,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-24-32': {
     title: 'The Bones of Joseph, Which the Children of Israel Brought Up',
     principle:
-      'Israel buried Joseph\'s coffin in the field at Shechem that Jacob had bought. First principle: God had made the promise four hundred years earlier. Because of that promise, Israel carried Joseph\'s bones all the way through the wilderness to the funeral.',
+      'Israel buried Joseph\'s coffin in the field at Shechem that Jacob had bought. The bones had set out with Israel in Exodus 13. First principle: God had made the promise four hundred years earlier. Because of that promise, Israel carried Joseph\'s bones all the way through the wilderness to the funeral.',
     sourceKeywords: ['the bones of Joseph', 'brought up out of Egypt', 'buried they in Shechem'],
     fulfillmentKeywords: ['And Joseph took an oath of the children of Israel'],
     terms: [],
