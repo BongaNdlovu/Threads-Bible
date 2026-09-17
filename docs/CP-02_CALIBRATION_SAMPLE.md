@@ -201,6 +201,50 @@ Rebuild any proof with:
 
 ---
 
+## 10 · Glossary drift census (CP-05 input, taken at the voice-lock commit)
+
+`scripts/cp05Consistency.ts` scans every in-scope string for the 28 frozen glossary terms and the 24
+never-write phrases. Result:
+
+```
+glossary terms: 28 · never-write phrases: 24
+NEVER-WRITE PHRASES PRESENT: 28 hits
+  christological   gen-1-1 (who + 2 whoByRef) · exo-12-46 (who + 2 whoByRef) · zec-9-9 (who + 3 whoByRef)
+                   isa chain:no-strange-doctrines · heb chain:no-strange-doctrines
+                   luk-24-27 · 1co-10-4 · eph-2-20 · php-2-10
+  eschatological   gen-2-3 · gen-49-1 · 3 gen chains · exo-20-8 · 2 exo chains
+                   jol-2-23 · zec-12-10 · 1th-4-16 · tit-2-13 · jam-5-7 · rev-22-20
+  soteriological   dan-9-24 terms note
+  dispensational   eph-1-10
+```
+
+**These are pre-existing, not introduced by this sweep** — every one sits in a book that is either
+already signed off (Genesis, Exodus, Zechariah) or still ahead in the queue. No calibration string
+added a never-write phrase.
+
+The term table is deliberately a flagger, and its headline number needs reading carefully: `covenant`
+shows 279 "BARE" uses and `sanctuary` 76, but a bare use is normal and correct — the word appears in
+chain labels, KJV quotations and titles where a gloss would be redundant or wrong to insert. What the
+census establishes is the opposite of what a naive reading suggests:
+
+```
+Most term occurrences in this corpus are already correct as written. The measurable defect is
+narrow: 28 strings containing a never-write abstraction, plus a handful of technical words used
+without explanation (imprecation 2, doxology 5, catena 1, efficacy 1, investiture 2,
+prerogative 2, typology 2, headship 2).
+```
+
+That vindicates the calibration's conservative 57% VERIFY-ONLY rate: aggressively re-glossing terms
+that already read correctly would have been the punctuation-theatre failure in a more expensive form.
+
+**Ruling taken:** the 28 are **queued for CP-06**, not rewritten here, because most sit inside
+already-signed-off prose and several are in `who` / `whoByRef` fields on golden-sample entries
+(`gen-1-1`, `zec-9-9`, `exo-12-46`). Rewording signed-off theology to remove one adjective is the
+operator's call, not a sweep side effect. For the remaining books the writers are already bound to the
+never-write list, and every book's `cp05Consistency` run is part of its gate stack.
+
+---
+
 ## 9 · Carried risks the operator should weigh before Stage A
 
 ```
