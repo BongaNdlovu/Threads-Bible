@@ -8507,65 +8507,65 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
 
   // ── Hand-written expansion: 1 Kings ─────────────────────────────────────
   '1ki-2-2': {
-    title: 'I Go the Way of All the Earth: Be Thou Strong',
+    title: '"I go the way of all the earth" — David\'s dying words to Solomon.',
     principle:
-      'David\'s dying charge to Solomon. First principle: death is the way of all the earth until the One who rose — and the charge to show manhood continues inActs\' he fulfilled his course.',
+      'David gave his dying charge to Solomon. First principle: "I go the way of all the earth" is David\'s way of saying that he is going to die. Death is the way of all the earth for everyone, right up to the One who rose. The charge to show manhood continues in Acts, where he fulfilled his course.',
     sourceKeywords: ['I go the way of all the earth', 'be thou strong therefore', 'shew thyself a man'],
     fulfillmentKeywords: ['for David... fell on sleep, and was laid unto his fathers'],
     terms: [],
   },
   '1ki-2-10': {
-    title: 'So David Slept with His Fathers',
+    title: '"So David slept with his fathers" — the KJV words for his death and burial.',
     principle:
-      'Buried in the city of David. First principle: the promised throne-Seed\'s ancestor dies and stays dead — Peter and Paul both press the point: the grave kept David, not so the Christ.',
+      'David was buried in the city of David. First principle: the ancestor of the promised King dies and stays dead. The grave kept David, and it did not keep Christ. Peter and Paul both press that point.',
     sourceKeywords: ['David slept with his fathers', 'buried in the city of David'],
     fulfillmentKeywords: ['he is both dead and buried, and his sepulchre is with us unto this day'],
     terms: [],
   },
   '1ki-8-27': {
-    title: 'Will God Indeed Dwell on the Earth?',
+    title: '"Will God indeed dwell on the earth?" — Solomon asks it at the dedication.',
     principle:
-      'Heaven of heavens cannot contain Him — how much less this house. First principle: the temple-dedication knows its own limit; the Incarnation is the surprising answer to the impossible question.',
+      '"The heaven and heaven of heavens cannot contain thee," and this house is far too small. First principle: the temple-dedication prayer knows its own limit. The Incarnation is the surprising answer to that impossible question.',
     sourceKeywords: ['Will God indeed dwell on the earth', 'cannot contain thee', 'this house that I have builded'],
     fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
     terms: [],
   },
   '1ki-8-46': {
-    title: 'There Is No Man That Sinneth Not',
+    title: '"There is no man that sinneth not" — Solomon\'s own words in this prayer.',
     principle:
-      'The dedication prayer presumes sin, exile, and return-prayer toward the house. First principle: Solomon\'s temple-prayer is a confession-machine for future failures — forgiveness hoped toward one place.',
+      'This prayer expects sin, exile, and a people who pray back toward the temple. First principle: Solomon\'s temple-prayer is a confession for future failures. It hopes for forgiveness toward one place.',
     sourceKeywords: ['If they sin against thee', 'there is no man that sinneth not', 'carry them away captives'],
     fulfillmentKeywords: ['there is not a just man upon earth'],
     terms: [],
   },
   '1ki-8-56': {
-    title: 'There Hath Not Failed One Word of All His Good Promise',
+    title: '"There hath not failed one word of all his good promise" — Solomon\'s report at the dedication.',
     principle:
-      'Rest given according to all He promised by Moses. First principle: the word-audit at the temple\'s dedication — not one word failed; Hebrews makes the same audit the ground of entering rest.',
+      'God gave rest to his people, just as he had promised by Moses. First principle: at the temple\'s dedication Solomon held an audit of God\'s word, and not one word failed. Hebrews makes that same audit the ground for entering rest.',
     sourceKeywords: ['hath given rest unto his people Israel', 'there hath not failed one word', 'all his good promise'],
     fulfillmentKeywords: ['There failed not ought of any good thing'],
     terms: [],
   },
   '1ki-17-1': {
-    title: 'There Shall Not Be Dew Nor Rain These Years',
+    title: '"There shall not be dew nor rain these years" — Elijah\'s word to Ahab.',
     principle:
-      'Elijah the Tishbite announces the drought before Ahab. First principle: the prophet\'s word controls the sky — James lifts Elijah as the proof that praying men like us move weather.',
+      'Elijah the Tishbite announced the drought to Ahab before it came. First principle: the prophet\'s word controlled the sky. James lifts Elijah up as proof that men who pray, men like us, can move the weather.',
     sourceKeywords: ['As the LORD God of Israel liveth', 'there shall not be dew nor rain', 'but according to my word'],
     fulfillmentKeywords: ['he prayed earnestly that it might not rain'],
     terms: [],
   },
   '1ki-17-9': {
-    title: 'Arise, Get Thee to Zarephath',
+    title: '"Arise, get thee to Zarephath" — the town where God sent Elijah to a widow.',
     principle:
-      'A widow of Zidon commanded to sustain the prophet. First principle: God sends the needy to the needier — the Gentile widow\'s barrel becomes the stage for resurrection faith.',
+      'God commanded a widow of Zidon to take care of the prophet. First principle: God sends the needy to those who are needier still. The Gentile widow\'s barrel became the stage for resurrection faith.',
     sourceKeywords: ['get thee to Zarephath', 'I have commanded a widow woman there', 'to sustain thee'],
     fulfillmentKeywords: ['unto a widow of Sarepta, a city of Sidon'],
     terms: [],
   },
   '1ki-18-21': {
-    title: 'How Long Halt Ye between Two Opinions?',
+    title: '"How long halt ye between two opinions?" — Elijah\'s question to a silent crowd.',
     principle:
-      'Limping between LORD and Baal, and the people answer not a word. First principle: divided worship is limping worship — the choice is posed with silence as the worst answer.',
+      'The people limped between the LORD and Baal, and they did not answer a word. First principle: worship that is divided is worship that limps. Elijah posed the choice, and silence was the worst answer he could get.',
     sourceKeywords: ['How long halt ye between two opinions', 'if the LORD be God, follow him', 'the people answered him not a word'],
     fulfillmentKeywords: ['No man can serve two masters'],
     terms: [],
@@ -8573,23 +8573,23 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ki-19-10': {
     title: 'I, Even I Only, Am Left; and They Seek My Life',
     principle:
-      'Elijah\'s jealous complaint under the juniper. First principle: the prophet\'s census of faithfulness is wrong by seven thousand — despair always undercounts the faithful remnant.',
+      'Elijah complained under the juniper that he was jealous for the LORD. First principle: the prophet counted the faithful and got the number wrong by seven thousand. Despair always counts the faithful few too low.',
     sourceKeywords: ['I have been very jealous for the LORD', 'slain thy prophets', 'I, even I only, am left'],
     fulfillmentKeywords: ['Lord, they have killed thy prophets'],
     terms: [],
   },
   '1ki-19-18': {
-    title: 'Yet I Have Left Me Seven Thousand in Israel',
+    title: '"Yet I have left me seven thousand in Israel" — God\'s own count of the faithful few.',
     principle:
-      'Knees unbowed, mouths unkissed. First principle: God\'s remnant census overrules the prophet\'s — hidden faithfulness exists beyond visible crowds.',
+      'Their knees were not bowed, and their mouths did not kiss Baal. First principle: God counted the faithful few who were left, and his count overruled the prophet\'s count. Faithful people exist outside the crowds you can see.',
     sourceKeywords: ['I have left me seven thousand', 'all the knees which have not bowed', 'which hath not kissed him'],
     fulfillmentKeywords: ['I have reserved to myself seven thousand men'],
     terms: [],
   },
   '1ki-19-21': {
-    title: 'He Arose, and Went after Elijah, and Ministered unto Him',
+    title: '"He arose, and went after Elijah, and ministered unto him" — that is how Elisha left his farm.',
     principle:
-      'Elisha burns the plowing gear and follows. First principle: the call answered is irreversible — oxen cooked on their own yoke; the old life becomes the farewell feast.',
+      'Elisha burned his plowing gear and followed Elijah. First principle: when you answer this call, you cannot go back. He cooked the oxen on their own yoke, so the old life became the farewell feast.',
     sourceKeywords: ['took a yoke of oxen', 'boiled their flesh with the instruments', 'went after Elijah, and ministered unto him'],
     fulfillmentKeywords: [],
     terms: [],
