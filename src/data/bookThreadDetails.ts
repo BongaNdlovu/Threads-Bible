@@ -7288,7 +7288,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-8': {
     title: 'The Lord Shall Consume Him with the Spirit of His Mouth',
     principle:
-      'The Wicked is revealed. The breath of His coming destroys him. First principle: Isaiah 11\'s slaying by the breath of his lips is how the anti-christ meets his end. A word kills the warrior.',
+      'The Wicked is revealed, and the breath of His coming destroys him. First principle: Isaiah 11\'s slaying by the breath of his lips is how the anti-christ meets his end. A word kills the warrior.',
     sourceKeywords: ['that Wicked be revealed', 'consume with the spirit of his mouth', 'the brightness of his coming'],
     fulfillmentKeywords: ['with the breath of his lips shall he slay the wicked'],
     terms: [],
