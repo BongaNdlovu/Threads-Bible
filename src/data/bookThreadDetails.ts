@@ -2685,7 +2685,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-1-2': {
     title: 'As It Is Written in the Prophets',
     principle:
-      'Mark opens his gospel by quoting the promise of the messenger — Behold, I send my messenger before thy face. First principle: the good news begins with a prophecy kept.',
+      'Mark opens his gospel with a promise about the messenger: “Behold, I send my messenger before thy face.” First principle: the good news begins with a prophecy that came true.',
     sourceKeywords: ['As it is written in the prophets', 'my messenger', 'prepare thy way'],
     fulfillmentKeywords: ['Behold, I will send my messenger'],
     terms: [],
@@ -2693,7 +2693,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-1-3': {
     title: 'Prepare Ye the Way of the Lord',
     principle:
-      'Isaiah 40:3 is John\'s job description in the wilderness. First principle: the way prepared is the way of the LORD Himself — John baptizes the God whose road he levels.',
+      'Isaiah 40:3 gives John his work in the wilderness. First principle: the road John prepares is the LORD\'s own road. John baptizes the God whose way he makes straight.',
     sourceKeywords: ['voice of one crying in the wilderness', 'Prepare ye the way of the Lord'],
     fulfillmentKeywords: ['prepare ye the way of the LORD'],
     terms: [],
@@ -2701,7 +2701,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-1-11': {
     title: 'Thou Art My Beloved Son',
     principle:
-      'The voice from heaven at the Jordan joins Psalm 2 and Isaiah 42: Thou art my beloved Son, in whom I am well pleased. First principle: the baptism is a coronation — the anointed Son presented by the Father\'s own word.',
+      'At the Jordan the voice from heaven joined Psalm 2 and Isaiah 42: “Thou art my beloved Son, in whom I am well pleased.” First principle: the baptism is a crowning. There the Father spoke, and he presented his anointed Son.',
     sourceKeywords: ['a voice from heaven', 'Thou art my beloved Son', 'well pleased'],
     fulfillmentKeywords: ['Thou art my Son', 'Behold my servant'],
     terms: [],
@@ -2709,7 +2709,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-1-15': {
     title: 'The Time Is Fulfilled',
     principle:
-      'Jesus preaches: The time is fulfilled, and the kingdom of God is at hand. First principle: Daniel\'s clock has run out — prophecy is not merely written, it has arrived, and the answer is repent and believe.',
+      'Jesus preached: “The time is fulfilled, and the kingdom of God is at hand.” First principle: Daniel\'s clock has run out. The prophecy is not just written down any more. It has arrived. The answer is to repent and believe.',
     sourceKeywords: ['The time is fulfilled', 'kingdom of God is at hand', 'repent ye, and believe'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2717,7 +2717,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-2-7': {
     title: 'Who Can Forgive Sins but God Only?',
     principle:
-      'The scribes ask the right question about the wrong Man. First principle: the forgiveness Christ speaks is a divine prerogative — the healing proves the authority is real.',
+      'The scribes asked the right question about the wrong Man. First principle: only God has the right to forgive sins. The healing proved that Jesus really has that authority.',
     sourceKeywords: ['speak blasphemies', 'forgive sins but God only'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2725,7 +2725,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-2-27': {
     title: 'The Sabbath Was Made for Man',
     principle:
-      'The Sabbath was made for man, and not man for the sabbath: therefore the Son of man is Lord also of it. First principle: the rest-day is a gift from creation week, and its Lord was there when it was made.',
+      'Jesus said, “The Sabbath was made for man, and not man for the sabbath,” and therefore the Son of man is Lord also of it. First principle: the Sabbath day is a gift that goes back to creation week. Its Lord was there when it was made.',
     sourceKeywords: ['The sabbath was made for man', 'Lord also of the sabbath'],
     fulfillmentKeywords: ['he rested on the seventh day', 'blessed the sabbath day'],
     terms: [],
@@ -2733,7 +2733,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-7-6': {
     title: 'This People Honoureth Me with Their Lips',
     principle:
-      'Jesus applies Isaiah 29 to the tradition-keepers: lips near, heart far. First principle: worship by ordinance while the heart is absent is the prophecy of vain religion, fulfilled in every generation.',
+      'Jesus applied Isaiah 29 to the men who kept the tradition: lips near, heart far. First principle: God sees worship that keeps the rules while the heart stays away. Isaiah\'s prophecy of empty religion comes true in every generation.',
     sourceKeywords: ['Well hath Esaias prophesied', 'honoureth me with their lips', 'heart is far from me'],
     fulfillmentKeywords: ['draw near with their mouth', 'their fear toward me is taught'],
     terms: [],
@@ -2741,7 +2741,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-7-10': {
     title: 'Moses Said, Honour Thy Father and Mother',
     principle:
-      'Tradition that voids the fifth commandment meets the written law. First principle: the Word of God stands over custom — honour and care for parents is not negotiable by corban.',
+      'Tradition was cancelling the fifth commandment, and Jesus answered with the written law. First principle: God\'s word stands above custom. A gift called corban cannot cancel the duty to honour and care for your parents.',
     sourceKeywords: ['For Moses said', 'Honour thy father and thy mother', 'let him die the death'],
     fulfillmentKeywords: ['Honour thy father and thy mother'],
     terms: [],
@@ -2749,7 +2749,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-9-12': {
     title: 'Elias Cometh First — and the Son of Man Must Suffer',
     principle:
-      'Jesus holds two Scriptures together: Elijah restores first, and the Son of man suffers and is set at nought. First principle: glory and suffering are both written; the disciples kept only the glory part.',
+      'Jesus held two Scriptures together: Elijah restores first, and the Son of man suffers and is set at nought. First principle: the prophets wrote about glory, and they wrote about suffering too. The disciples had kept only the glory part.',
     sourceKeywords: ['Elias verily cometh first', 'restoreth all things', 'he must suffer many things'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2757,7 +2757,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-12-10': {
     title: 'Have Ye Not Read This Scripture?',
     principle:
-      'Psalm 118\'s rejected Stone is quoted in the temple courts. First principle: the leaders holding the building reject the cornerstone — and God builds on the Stone they refuse.',
+      'In the temple courts Jesus quoted Psalm 118\'s words about the rejected Stone. First principle: the men who held the building threw out the cornerstone. God builds on the Stone they refuse.',
     sourceKeywords: ['Have ye not read this scripture', 'rejected is become the head of the corner'],
     fulfillmentKeywords: ['the stone which the builders refused'],
     terms: [],
@@ -2765,7 +2765,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-12-29': {
     title: 'Hear, O Israel; The Lord Our God Is One Lord',
     principle:
-      'Asked for the first commandment, Jesus recites the Shema. First principle: undivided love for the one God — heart, soul, mind, strength — is the summary of all law, fulfilled in Christ\'s own devotion.',
+      'Asked for the first commandment, Jesus recited the Shema, Israel\'s confession that the LORD is one. First principle: the whole law is summed up in loving the one God with heart, soul, mind, strength. Jesus kept that command perfectly.',
     sourceKeywords: ['The first of all the commandments', 'The Lord our God is one Lord'],
     fulfillmentKeywords: ['Hear, O Israel'],
     terms: [],
@@ -2773,7 +2773,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-12-36': {
     title: 'David Said by the Holy Ghost',
     principle:
-      'Psalm 110 is David\'s Spirit-inspired words about his Lord enthroned till enemies become a footstool. First principle: the Spirit authored prophecy — and it names David\'s Son as David\'s Lord.',
+      'David wrote Psalm 110 by the Spirit. In it his Lord is enthroned till enemies become a footstool. First principle: the Spirit spoke through David, and he named David\'s Son as David\'s Lord.',
     sourceKeywords: ['David himself said by the Holy Ghost', 'The LORD said to my Lord', 'footstool'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
     terms: [],
@@ -2781,7 +2781,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-13-14': {
     title: 'The Abomination of Desolation Spoken by Daniel',
     principle:
-      'Jesus points readers back to Daniel for the standing desecration in the holy place — then commands flight. First principle: Daniel 8–12 is Jesus\' own reference library for the end; read it before you need it.',
+      'Jesus pointed his readers back to Daniel for the standing desecration in the holy place. Then he told them to run. First principle: Daniel 8–12 was Jesus\' own reference library for the end. Read it before you need it.',
     sourceKeywords: ['abomination of desolation', 'spoken of by Daniel', 'flee to the mountains'],
     fulfillmentKeywords: ['take away the daily sacrifice', 'abomination that maketh desolate'],
     terms: [],
@@ -2789,7 +2789,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-13-26': {
     title: 'Coming in the Clouds with Great Power and Glory',
     principle:
-      'The Son of man appears as Daniel 7 saw Him — in the clouds with power and great glory, gathering His elect. First principle: the second coming is Daniel 7 with the sky torn open.',
+      'Jesus will come just as Daniel 7 saw him: in the clouds with power and great glory, and gathering His elect. First principle: the second coming is Daniel 7 come true. The sky will be torn open.',
     sourceKeywords: ['see the Son of man coming in the clouds', 'great power and glory'],
     fulfillmentKeywords: ['one like the Son of man', 'came with the clouds of heaven'],
     terms: [],
@@ -2797,7 +2797,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-14-27': {
     title: 'I Will Smite the Shepherd',
     principle:
-      'On the way to Gethsemane Jesus quotes Zechariah 13:7 — smite the shepherd, and the sheep scatter. First principle: even the disciples\' panic was in the script; the smitten Shepherd is the LORD\'s own Fellow.',
+      'On the way to Gethsemane Jesus quoted Zechariah 13:7: smite the shepherd, and the sheep scatter. First principle: even the disciples\' panic was written down ahead of time. The Shepherd who was struck is the LORD\'s own Fellow.',
     sourceKeywords: ['All ye shall be offended', 'it is written', 'smite the shepherd', 'sheep shall be scattered'],
     fulfillmentKeywords: ['smite the shepherd', 'the sheep shall be scattered'],
     terms: [],
@@ -2805,7 +2805,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mrk-15-34': {
     title: 'My God, My God, Why Hast Thou Forsaken Me?',
     principle:
-      'The ninth-hour cry opens Psalm 22 on the cross. First principle: the forsakenness is real and foretold — the righteous Sufferer bears abandonment so the forsaken need never be alone.',
+      'At the ninth hour Jesus cried out on the cross, and his words open Psalm 22. First principle: he really was forsaken, and Scripture had said it would happen. The righteous Sufferer bore that abandonment so that no one who feels forsaken has to be alone.',
     sourceKeywords: ['ninth hour', 'Eloi, Eloi, lama sabachthani', 'why hast thou forsaken me'],
     fulfillmentKeywords: ['My God, my God, why hast thou forsaken me'],
     terms: [],
