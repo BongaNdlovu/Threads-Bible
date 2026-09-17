@@ -87,6 +87,51 @@ form behind a New Testament quotation (Matthew, Hebrews), compressed or loosely-
 in a title, divine-pronoun capitalisation where the canon prints lower case, and the app's own house
 style of closing a verse's semicolon with a full stop.
 
+Findings per book, so the operator can go straight to the books that need a read. Books not listed
+produced none:
+
+| Book | rewritten | verify-only | QUOTE-REVIEW | THEOLOGY-REVIEW |
+|---|---:|---:|---:|---:|
+| Romans | 81 | 81 | 2 | 0 |
+| Deuteronomy | 37 | 37 | 1 | 0 |
+| 1 Kings | 21 | 1 | 1 | 0 |
+| Nehemiah | 5 | 1 | 1 | 0 |
+| Job | 11 | 15 | 1 | 0 |
+| Ecclesiastes | 8 | 8 | 1 | 0 |
+| Isaiah | 139 | 133 | 2 | 0 |
+| Ezekiel | 31 | 43 | 2 | 0 |
+| Daniel | 47 | 49 | 1 | 0 |
+| Amos | 9 | 13 | 1 | 0 |
+| Jonah | 5 | 7 | 2 | 0 |
+| Micah | 10 | 10 | 1 | 0 |
+| Nahum | 4 | 8 | 1 | 0 |
+| Haggai | 6 | 6 | 1 | 0 |
+| Malachi | 10 | 22 | 1 | 0 |
+| Matthew | 66 | 66 | 6 | 1 |
+| Mark | 16 | 16 | 8 | 0 |
+| Luke | 25 | 25 | 9 | 0 |
+| John | 14 | 56 | 1 | 0 |
+| Acts | 9 | 47 | 1 | 0 |
+| 1 Corinthians | 44 | 46 | 1 | 0 |
+| Galatians | 18 | 26 | 4 | 0 |
+| Ephesians | 23 | 29 | 1 | 0 |
+| Philippians | 15 | 21 | 1 | 0 |
+| Colossians | 23 | 25 | 7 | 0 |
+| 1 Thessalonians | 14 | 14 | 2 | 0 |
+| 1 Timothy | 14 | 14 | 1 | 0 |
+| Hebrews | 43 | 61 | 2 | 0 |
+| James | 12 | 10 | 2 | 0 |
+| 1 Peter | 15 | 17 | 2 | 0 |
+| 2 Peter | 8 | 6 | 1 | 0 |
+| 1 John | 10 | 12 | 1 | 0 |
+| Revelation | 112 | 124 | 7 | 0 |
+
+The density is not uniform and the reason is structural: Mark, Luke, Colossians and Revelation are the
+books whose existing text paraphrases Scripture most loosely, and Matthew's six findings plus its one
+THEOLOGY-REVIEW reflect a Gospel that quotes the Septuagint and a mixed text form rather than the KJV.
+The single THEOLOGY-REVIEW is `mat-4-6`, where the devil's quotation of Psalm 91 is compressed in a way
+the operator should confirm.
+
 **Findings already in the repository — 27 markers in `docs/CP-05_TRIAGE_QUEUE.md`**, concentrated in
 Genesis and Leviticus, which are the operator's own pre-plan appendix documents. They are in the triage
 queue because the rollup reads every `CP-02_*` doc in the repo; they are not products of this sweep.
