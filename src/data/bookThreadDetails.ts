@@ -8849,7 +8849,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'est-4-14': {
     title: 'Who Knoweth Whether Thou Art Come to the Kingdom for Such a Time as This?',
     principle:
-      'Silence would destroy; deliverance would arise from another place. First principle: providence positions — Mordecai\'s question makes fasting courage: perhaps the throne room is why you exist.',
+      'If Esther kept silent, she and her father\'s house would be destroyed. But rescue would rise for the Jews from another place. First principle: God\'s care had put her in that place. Mordecai\'s question turns her fasting into courage. Perhaps the throne room is the very reason you exist.',
     sourceKeywords: ['if thou altogether holdest thy peace', 'enlargement and deliverance arise to the Jews from another place', 'for such a time as this'],
     fulfillmentKeywords: ['God did send me before you to preserve life'],
     terms: [],
@@ -8857,7 +8857,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'est-8-17': {
     title: 'Many of the People of the Land Became Jews',
     principle:
-      'Joy, gladness, feast, and conversions across the empire. First principle: reversal day — the decree of doom became a day of fear-falling conversions; the Jewish feast drew the nations in.',
+      'The Jews had joy and gladness, a feast and a good day across the empire. First principle: the day of doom turned into a day of reversal. Many people became Jews because fear of the Jews fell on them, and the Jewish feast drew the nations in.',
     sourceKeywords: ['joy and gladness, a feast and a good day', 'many of the people of the land became Jews', 'the fear of the Jews fell upon them'],
     fulfillmentKeywords: [],
     terms: [],
