@@ -1069,11 +1069,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-22-1': {
     title: 'My God, My God, Why Hast Thou Forsaken Me',
     principle:
-      'David opens Psalm 22 with the cry of the righteous sufferer abandoned to judgment. Jesus quotes this exact line from the cross. The psalm moves from excruciating suffering to universal worship of all nations. First principle: the cross is the substitutionary bearing of the curse of forsakenness so that the nations may be gathered to God.',
+      'David opens Psalm 22 with the cry of a righteous sufferer who has been handed over to judgment. Jesus quotes this exact line from the cross. The psalm moves from that agony to the worship of all nations. First principle: on the cross Christ bore the curse of being forsaken, and he bore it in our place, so that the nations may be gathered to God.',
     sourceKeywords: ['My God', 'why hast thou forsaken me', 'roaring', 'cry in the daytime'],
     fulfillmentKeywords: ['forsaken', 'Eli', 'lama sabachthani', 'cried with a loud voice', 'yielded up the ghost'],
     terms: [
-      { term: 'why hast thou forsaken me', original: 'לָמָה עֲזַבְתָּנִי', translit: 'lamah ʿazavtani', gloss: 'why have you forsaken / left me?', note: 'Aramaic in Matt 27:46: Eli, Eli, lama sabachthani — Christ\'s loud cry at the ninth hour.' },
+      { term: 'why hast thou forsaken me', original: 'לָמָה עֲזַבְתָּנִי', translit: 'lamah ʿazavtani', gloss: 'why have you forsaken / left me?', note: 'Aramaic in Matt 27:46: Eli, Eli, lama sabachthani — Christ\'s loud cry at the ninth hour. He cried it out aloud.' },
     ],
   },
   'psa-22-16': {
@@ -1341,11 +1341,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-146-4': {
     title: 'His Breath Goeth Forth — Thoughts Perish in That Day',
     principle:
-      'When man dies, his breath (ruach) departs, he returns to his earth, and in that very day his thoughts perish. Immortality belongs to God alone (1 Tim 6:16) and is bestowed on the righteous solely as a gift at the second coming of Christ (1 Cor 15:51-54). First principle: man is a psychosomatic unity (Gen 2:7); without the breath of life, there is no disembodied soul floating in conscious bliss or torment.',
+      'When man dies, his breath (ruach) departs, he returns to his earth, and in that very day his thoughts perish. Immortality belongs to God alone (1 Tim 6:16). He gives it to the righteous only as a gift at the second coming of Christ (1 Cor 15:51-54). First principle: a person is one whole being, body and breath together (Gen 2:7). When the breath of life leaves, no soul drifts on somewhere else, either in bliss or in torment.',
     sourceKeywords: ['breath goeth forth', 'returneth to his earth', 'very day his thoughts perish'],
     fulfillmentKeywords: ['God alone hath immortality', 'sleep in Jesus', 'last trump', 'raised incorruptible'],
     terms: [
-      { term: 'breath / spirit', original: 'רוּחוֹ', translit: 'rucho', gloss: 'his breath / life-animating power from God', note: 'Eccl 12:7 — spirit returns to God who gave it; the animating principle, not an independent ghost.' },
+      { term: 'breath / spirit', original: 'רוּחוֹ', translit: 'rucho', gloss: 'his breath / life-animating power from God', note: 'Eccl 12:7 — spirit returns to God who gave it. It is the life-giving power, not an independent ghost.' },
       { term: 'his thoughts', original: 'עֶשְׁתֹּנֹתָיו', translit: 'ʿeshtonotav', gloss: 'his thoughts, plans, mental operations', note: 'Total cessation of cognitive consciousness.' },
     ],
   },
@@ -1817,17 +1817,17 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-40-6': {
     title: 'Mine Ears Hast Thou Opened — Lo, I Come',
     principle:
-      'Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt offering and sin offering hast thou not required. Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy will, O my God. First principle: obedience from a prepared heart outweighs the whole sacrificial system — and Hebrews puts the words in the mouth of the Son entering the world.',
+      'Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt offering and sin offering hast thou not required. Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy will, O my God. First principle: God looks for obedience that comes from a heart he has made ready, not for the whole system of sacrifices. Hebrews puts these words in the mouth of the Son as he enters the world.',
     sourceKeywords: ['Sacrifice and offering thou didst not desire', 'mine ears hast thou opened', 'Lo, I come', 'I delight to do thy will'],
     fulfillmentKeywords: ['a body hast thou prepared me', 'by the which will we are sanctified', 'taketh away the first'],
     terms: [
-      { term: 'opened', original: 'כָּרִיתָ', translit: 'karita', gloss: 'you have dug out, bored open', note: 'Of a bored-open ear marking willing servanthood (Exod 21:6); Hebrews reads it as a body prepared for the will of God (Heb 10:5).' },
+      { term: 'opened', original: 'כָּרִיתָ', translit: 'karita', gloss: 'you have dug out, bored open', note: 'It speaks of an ear dug open, which marked willing servanthood (Exod 21:6). Hebrews reads it as a body prepared for the will of God (Heb 10:5).' },
     ],
   },
   'psa-45-7': {
     title: 'Anointed with the Oil of Gladness Above Thy Fellows',
     principle:
-      'Thou lovest righteousness, and hatest wickedness: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. The Psalm addresses the King as God (thy throne, O God, is for ever) and then distinguishes Him from God His God. First principle: the anointed One is divine yet anointed — the Spirit-rested Son, glad beyond all companions.',
+      'Thou lovest righteousness, and hatest wickedness: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. The Psalm speaks of the King as God, and then speaks of God His God. First principle: the anointed One is himself God, and he is also anointed. The Spirit rests on the Son, and he is glad beyond all his companions.',
     sourceKeywords: ['lovest righteousness', 'hatest wickedness', 'oil of gladness above thy fellows', 'thy throne, O God'],
     fulfillmentKeywords: ['anointed with the Holy Ghost', 'without measure', 'God, even thy God, hath anointed thee'],
     terms: [
@@ -1917,7 +1917,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-34-20': {
     title: 'He Keepeth All His Bones: Not One Is Broken',
     principle:
-      'Many are the afflictions of the righteous: but the LORD delivereth him out of them all. He keepeth all his bones: not one of them is broken. The righteous sufferer passes through affliction with an unbroken body — the Passover-lamb pattern. First principle: God preserves His sacrifice whole even in death.',
+      'Many are the afflictions of the righteous: but the LORD delivereth him out of them all. He keepeth all his bones: not one of them is broken. The righteous sufferer goes through affliction with an unbroken body, which is the Passover-lamb pattern. First principle: God keeps His sacrifice whole even in death.',
     sourceKeywords: ['afflictions of the righteous', 'keepeth all his bones', 'not one of them is broken', 'evildoers shall be cut off'],
     fulfillmentKeywords: ['brake not his legs', 'a bone of him shall not be broken', 'already dead'],
     terms: [
@@ -1927,7 +1927,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-41-9': {
     title: 'Mine Own Familiar Friend Hath Lifted Up His Heel',
     principle:
-      'Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me. Betrayal comes not from a stranger but from table fellowship. First principle: the deepest wound of the righteous sufferer is treachery at the table — and Jesus applies the verse to Judas Himself.',
+      'Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me. The betrayal does not come from a stranger. It comes from a man who shared his table. First principle: the deepest hurt of the righteous sufferer is treachery at the table, and Jesus applies the verse to Judas Himself.',
     sourceKeywords: ['mine own familiar friend', 'in whom I trusted', 'did eat of my bread', 'lifted up his heel against me'],
     fulfillmentKeywords: ['he that eateth bread with me', 'hath lifted up his heel', 'Judas Iscariot', 'dipped his hand with me'],
     terms: [
@@ -1937,11 +1937,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-69-21': {
     title: 'Gall for Meat; Vinegar for Thirst',
     principle:
-      'Reproach hath broken my heart; and I am full of heaviness... They gave me also gall for my meat; and in my thirst they gave me vinegar to drink. Every kindness refused to the righteous sufferer becomes a registered detail of the Passion. First principle: the cross fulfilled scripture down to the drink offered and refused.',
+      'Reproach hath broken my heart; and I am full of heaviness... They gave me also gall for my meat; and in my thirst they gave me vinegar to drink. Every kindness refused to the righteous sufferer was written down as a detail of the Passion. First principle: the cross fulfilled scripture down to the drink offered and refused.',
     sourceKeywords: ['gall for my meat', 'vinegar to drink', 'reproach hath broken my heart', 'I looked for some to take pity'],
     fulfillmentKeywords: ['vinegar to drink mingled with gall', 'I thirst', 'filled a sponge with vinegar'],
     terms: [
-      { term: 'gall', original: 'רֹאשׁ', translit: 'rosh', gloss: 'gall, poison, bitter herb', note: 'Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34); John records the hyssop-borne vinegar.' },
+      { term: 'gall', original: 'רֹאשׁ', translit: 'rosh', gloss: 'gall, poison, bitter herb', note: 'Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34). John records the vinegar carried on hyssop.' },
     ],
   },
   'isa-50-6': {
@@ -2050,7 +2050,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-118-26': {
     title: 'Blessed Is He That Cometh in the Name of the LORD',
     principle:
-      'Save now, I beseech thee: O LORD, I beseech thee, send now prosperity. Blessed be he that cometh in the name of the LORD. The Hallel psalm sung at every feast became the street acclamation when the King rode into Jerusalem. First principle: the psalms of Israel put the words of welcome on the lips of the people before the King appears.',
+      'Save now, I beseech thee: O LORD, I beseech thee, send now prosperity. Blessed be he that cometh in the name of the LORD. The Hallel psalm that Israel sang at every feast became the street shout when the King rode into Jerusalem. First principle: Israel\'s psalms put the words of welcome on the people\'s lips before the King appears.',
     sourceKeywords: ['Save now, I beseech thee', 'Blessed be he that cometh in the name of the LORD', 'the stone which the builders refused', 'bind the sacrifice with cords'],
     fulfillmentKeywords: ['Hosanna', 'Blessed is he that cometh', 'in the name of the Lord', 'the whole multitude of the disciples'],
     terms: [
@@ -2060,7 +2060,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-31-5': {
     title: 'Into Thine Hand I Commend My Spirit',
     principle:
-      'Into thine hand I commend my spirit: thou hast redeemed me, O LORD God of truth. The evening prayer of trusting surrender becomes the dying word of the Christ. First principle: the righteous commit spirit, times, and enemies into God\'s hand — and redemption is confessed at the moment of release.',
+      'Into thine hand I commend my spirit: thou hast redeemed me, O LORD God of truth. This evening prayer of trusting surrender became the dying words of the Christ. First principle: the righteous hand over their spirit, their times, and their enemies into God\'s hand, and they confess redemption at the moment they let go.',
     sourceKeywords: ['Into thine hand I commend my spirit', 'thou hast redeemed me', 'O LORD God of truth', 'I have hated them that regard lying vanities'],
     fulfillmentKeywords: ['Father, into thy hands I commend my spirit', 'gave up the ghost', 'Lord Jesus, receive my spirit'],
     terms: [
@@ -2070,17 +2070,17 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-35-11': {
     title: 'False Witnesses Did Rise Up',
     principle:
-      'False witnesses did rise up; they laid to my charge things that I knew not. They rewarded me evil for good to the spoiling of my soul. The righteous sufferer is tried by perjury. First principle: when truth is on trial, God Himself is the advocate — and the innocence of the Sufferer is the point of the charge being false.',
+      'False witnesses did rise up; they laid to my charge things that I knew not. They rewarded me evil for good to the spoiling of my soul. The righteous sufferer is tried by perjury. First principle: when truth is on trial, God Himself is the advocate. The charge against the Sufferer was false, and that is exactly what shows he was innocent.',
     sourceKeywords: ['False witnesses did rise up', 'laid to my charge things that I knew not', 'rewarded me evil for good', 'Lord, how long wilt thou look on'],
     fulfillmentKeywords: ['sought false witness', 'found none', 'two false witnesses', 'This fellow said, I am able'],
     terms: [
-      { term: 'false witnesses', original: 'עֵדֵי חָמָס', translit: '\'edei khamas', gloss: 'witnesses of violence, malicious testimony', note: 'The Sanhedrin sought such testimony against Jesus, and the law required two agreeing witnesses (Matt 26:59-61).' },
+      { term: 'false witnesses', original: 'עֵדֵי חָמָס', translit: '\'edei khamas', gloss: 'witnesses of violence, malicious testimony', note: 'The Sanhedrin sought such testimony against Jesus. The law required two witnesses who agreed (Matt 26:59-61).' },
     ],
   },
   'psa-69-4': {
     title: 'They Hate Me Without a Cause; Zeal Eats Me Up',
     principle:
-      'They that hate me without a cause are more than the hairs of mine head... For the zeal of thine house hath eaten me up; and the reproaches of them that reproached thee are fallen upon me. First principle: the Sufferer is hated innocently and consumed devotionally — both halves fulfilled by Christ, in the temple courts and at the cross.',
+      'They that hate me without a cause are more than the hairs of mine head... For the zeal of thine house hath eaten me up; and the reproaches of them that reproached thee are fallen upon me. First principle: the Sufferer is hated, and he does nothing to deserve it. He is also eaten up by devotion to God\'s house. Christ fulfilled both halves, in the temple courts and at the cross.',
     sourceKeywords: ['hate me without a cause', 'more than the hairs of mine head', 'zeal of thine house hath eaten me up', 'reproaches of them that reproached thee'],
     fulfillmentKeywords: ['without a cause', 'that the scripture might be fulfilled', 'The zeal of thine house hath eaten me up', 'reproaches of them fell on me'],
     terms: [
@@ -2090,11 +2090,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-109-25': {
     title: 'They Shake Their Heads at Me',
     principle:
-      'I became also a reproach unto them: when they looked upon me they shaked their heads. The scorned sufferer becomes a byword among mockers. First principle: ridicule is a predicted instrument of the Passion — even the gesture of the head is scripted before Golgotha.',
+      'I became also a reproach unto them: when they looked upon me they shaked their heads. The scorned sufferer becomes a byword among mockers. First principle: ridicule was part of what the Passion was foretold to include. Even the gesture of the head was written down before Golgotha.',
     sourceKeywords: ['I became also a reproach', 'when they looked upon me', 'shaked their heads', 'I am poor and needy'],
     fulfillmentKeywords: ['they that passed by reviled him', 'wagging their heads', 'He saved others; himself he cannot save'],
     terms: [
-      { term: 'shaked their heads', original: 'יְנִידוּ רֹאשׁ', translit: 'yenidu rosh', gloss: 'wagged, moved to and fro the head', note: 'Matthew uses the same gesture of the passers-by at the cross (Matt 27:39) — mockery with a Hebrew posture.' },
+      { term: 'shaked their heads', original: 'יְנִידוּ רֹאשׁ', translit: 'yenidu rosh', gloss: 'wagged, moved to and fro the head', note: 'Matthew uses the same gesture of the passers-by at the cross (Matt 27:39). It is mockery in a Hebrew posture.' },
     ],
   },
   'zec-13-1': {
@@ -2110,27 +2110,27 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-16-10': {
     title: 'Thou Wilt Not Leave My Soul in Hell',
     principle:
-      'I have set the LORD always before me... Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption. First principle: the Holy One passes through the grave without decay — Peter and Paul both preach the resurrection from this verse.',
+      'I have set the LORD always before me... Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption. First principle: the Holy One goes through the grave and his body does not decay. Peter and Paul both preach the resurrection from this verse.',
     sourceKeywords: ['my flesh also shall rest in hope', 'not leave my soul in hell', 'neither wilt thou suffer', 'thine Holy One to see corruption'],
     fulfillmentKeywords: ['his soul was not left in hell', 'his flesh did see corruption', 'This Jesus hath God raised up', 'he whom God raised again saw no corruption'],
     terms: [
-      { term: 'hell', original: 'שְׁאוֹל', translit: 'she\'ol', gloss: 'the grave, realm of the dead', note: 'Acts 2:31 renders it hades and insists David\'s tomb still holds him while Christ\'s does not.' },
+      { term: 'hell', original: 'שְׁאוֹל', translit: 'she\'ol', gloss: 'the grave, realm of the dead', note: 'Acts 2:31 renders it hades, and it insists that David\'s tomb still holds him while Christ\'s does not.' },
     ],
   },
   'psa-24-7': {
     title: 'Lift Up Your Heads, O Ye Gates',
     principle:
-      'Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in. Who is this King of glory? The LORD strong and mighty. The victory procession of a warrior-King entering His citadel. First principle: after the battle comes the triumphal entry — heaven\'s gates open for the victorious Christ.',
+      'Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in. Who is this King of glory? The LORD strong and mighty. A warrior-King comes home to his citadel in triumph. First principle: the battle is over, and the King comes home in triumph. Heaven\'s gates open for the victorious Christ.',
     sourceKeywords: ['Lift up your heads, O ye gates', 'everlasting doors', 'King of glory shall come in', 'LORD strong and mighty'],
     fulfillmentKeywords: ['ascended up on high', 'led captivity captive', 'sat down on the right hand', 'Worthy is the Lamb'],
     terms: [
-      { term: 'King of glory', original: 'מֶלֶךְ הַכָּבוֹד', translit: 'melekh hakavod', gloss: 'King of glory, weightiness of splendor', note: 'Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah; the entry is His heavenly reception, not an earthly parade.' },
+      { term: 'King of glory', original: 'מֶלֶךְ הַכָּבוֹד', translit: 'melekh hakavod', gloss: 'King of glory, weightiness of splendor', note: 'Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah. The entry is His heavenly welcome, not an earthly parade.' },
     ],
   },
   'psa-68-18': {
     title: 'Thou Hast Ascended on High, Led Captivity Captive',
     principle:
-      'Thou hast ascended on high, thou hast led captivity captive: thou hast received gifts for men; yea, for the rebellious also, that the LORD God might dwell among them. The conquest parade climbs to the sanctuary and showers the conquered with gifts. First principle: Christ\'s ascension is a victory procession in which the spoils — the Spirit and offices — are given to rebels made friends.',
+      'Thou hast ascended on high, thou hast led captivity captive: thou hast received gifts for men; yea, for the rebellious also, that the LORD God might dwell among them. His victory parade climbs to the sanctuary and showers the conquered with gifts. First principle: Christ\'s ascension is a victory march. The spoils he wins, the Spirit and the offices of the church, go to rebels he has made his friends.',
     sourceKeywords: ['ascended on high', 'led captivity captive', 'received gifts for men', 'that the LORD God might dwell among them'],
     fulfillmentKeywords: ['when he ascended up on high', 'gave gifts unto men', 'having received of the Father', 'shed forth this, which ye now see'],
     terms: [
@@ -2140,7 +2140,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-118-22': {
     title: 'The Stone the Builders Refused Is Head of the Corner',
     principle:
-      'The stone which the builders refused is become the head stone of the corner. This is the LORD\'s doing; it is marvellous in our eyes. Rejection by the professionals becomes God\'s appointment. First principle: exaltation follows rejection — the crucified One is the foundation of all God\'s building.',
+      'The stone which the builders refused is become the head stone of the corner. This is the LORD\'s doing; it is marvellous in our eyes. Rejection by the builders becomes God\'s appointment. First principle: exaltation follows rejection. The crucified One is the foundation of all God\'s building.',
     sourceKeywords: ['stone which the builders refused', 'head stone of the corner', 'This is the LORD\'s doing', 'marvellous in our eyes'],
     fulfillmentKeywords: ['the stone which the builders rejected', 'is become the head of the corner', 'marvellous in our eyes', 'no other name'],
     terms: [
@@ -2170,7 +2170,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-110-1': {
     title: 'The LORD Said unto My Lord, Sit Thou at My Right Hand',
     principle:
-      'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool. David calls his descendant my Lord — a Son greater than David. First principle: the Messiah is enthroned at God\'s right hand as both King and Priest (after Melchizedek), while enemies become a footstool in time.',
+      'The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool. David calls his own descendant my Lord, so this Son is greater than David. First principle: the Messiah is enthroned at God\'s right hand as both King and Priest (after Melchizedek). His enemies become his footstool in the end.',
     sourceKeywords: ['The LORD said unto my Lord', 'Sit thou at my right hand', 'enemies thy footstool', 'a priest for ever after the order of Melchizedek'],
     fulfillmentKeywords: ['David himself saith... The LORD said', 'sat down on the right hand of God', 'from henceforth expecting', 'sat down at his own right hand'],
     terms: [
@@ -2200,7 +2200,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-1': {
     title: 'Why Do the Heathen Rage Against the Anointed?',
     principle:
-      'Why do the heathen rage, and the people imagine a vain thing? The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed... Yet have I set my king upon my holy hill of Zion. First principle: human conspiracy against God is real but doomed; the decree stands — Thou art my Son; this day have I begotten thee.',
+      'Why do the heathen rage, and the people imagine a vain thing? The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed... Yet have I set my king upon my holy hill of Zion. First principle: people really do plot against God, and those plots really do fail. God\'s decree stands: Thou art my Son; this day have I begotten thee.',
     sourceKeywords: ['heathen rage', 'people imagine a vain thing', 'against his anointed', 'Thou art my Son; this day have I begotten thee'],
     fulfillmentKeywords: ['with one accord', 'against his holy child Jesus', 'Thou art my Son', 'this day have I begotten thee'],
     terms: [
@@ -2210,7 +2210,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-8-4': {
     title: 'Made a Little Lower Than the Angels, Crowned with Glory',
     principle:
-      'What is man, that thou art mindful of him? and the son of man, that thou visitest him? For thou hast made him a little lower than the angels, and hast crowned him with glory and honour. First principle: humanity\'s intended dominion, lost by Adam, is seen fulfilled in Jesus — made lower for a little while, now crowned, all things under His feet.',
+      'What is man, that thou art mindful of him? and the son of man, that thou visitest him? For thou hast made him a little lower than the angels, and hast crowned him with glory and honour. First principle: God meant humanity to rule the earth. Adam lost that rule. We see it fulfilled in Jesus. He was made a little lower for a little while, and now he is crowned, with all things under His feet.',
     sourceKeywords: ['What is man, that thou art mindful of him', 'son of man', 'a little lower than the angels', 'crowned him with glory and honour'],
     fulfillmentKeywords: ['we see Jesus', 'made a little lower than the angels', 'crowned with glory and honour', 'hast put all things in subjection'],
     terms: [
@@ -2220,7 +2220,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-89-27': {
     title: 'My Firstborn, Higher Than the Kings of the Earth',
     principle:
-      'Also I will make him my firstborn, higher than the kings of the earth. My covenant will I not break, nor alter the thing that is gone out of my lips. David\'s seed is divinely adopted into firstborn rank. First principle: the oath to David is unbreakable; the firstborn is preeminent — heir of everything, King above every king.',
+      'Also I will make him my firstborn, higher than the kings of the earth. My covenant will I not break, nor alter the thing that is gone out of my lips. God adopts David\'s seed into the rank of firstborn. First principle: the oath to David cannot be broken, and the firstborn holds first place. He is heir of everything, King above every king.',
     sourceKeywords: ['I will make him my firstborn', 'higher than the kings of the earth', 'my covenant will I not break', 'his seed also will I make to endure'],
     fulfillmentKeywords: ['firstborn of every creature', 'firstborn from the dead', 'prince of the kings of the earth', 'faithful and true witness'],
     terms: [
@@ -2230,7 +2230,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-132-11': {
     title: 'Of the Fruit of Thy Body Will I Set upon Thy Throne',
     principle:
-      'The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne. The ark\'s journey to Zion recalls the oath that outlives the exile. First principle: God swears what He will not revoke — a physical descendant reigns, and Peter preached the oath fulfilled in the resurrection (Acts 2:30-31).',
+      'The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne. The ark\'s journey to Zion recalls the oath that outlives the exile. First principle: God swears an oath and does not take it back. One of David\'s own descendants reigns, and Peter preached that God kept the oath in the resurrection (Acts 2:30-31).',
     sourceKeywords: ['The LORD hath sworn in truth unto David', 'he will not turn from it', 'fruit of thy body', 'set upon thy throne'],
     fulfillmentKeywords: ['he being a prophet', 'God had sworn with an oath', 'of the fruit of his loins', 'raise up unto Israel a Saviour'],
     terms: [
@@ -5081,7 +5081,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-2': {
     title: 'Kings Set Themselves Against His Anointed',
     principle:
-      'The rulers take counsel against the LORD and against His anointed. First principle: the conspiracy of Psalm 2 convened at Calvary — Herod, Pilate, and the nations did exactly this, exactly as foretold.',
+      'The rulers take counsel against the LORD and against His anointed. First principle: the conspiracy of Psalm 2 met at Calvary. Herod, Pilate, and the nations did exactly this, exactly as it was foretold.',
     sourceKeywords: ['kings of the earth', 'take counsel together', 'against his anointed'],
     fulfillmentKeywords: ['against thy holy child Jesus', 'gathered together'],
     terms: [],
@@ -5089,7 +5089,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-6': {
     title: 'Yet Have I Set My King upon My Holy Hill',
     principle:
-      'Man\'s rage does not cancel God\'s decree: My King is installed on Zion. First principle: the decree stands over the conspiracy — the cross that men meant as rejection God meant as enthronement.',
+      'Man\'s rage does not cancel God\'s decree: My King is installed on Zion. First principle: God\'s decree stands over the conspiracy. The cross that men meant as rejection, God meant as enthronement.',
     sourceKeywords: ['Yet have I set my king', 'holy hill of Zion'],
     fulfillmentKeywords: ['Thou art my Son', 'whereof he hath given assurance'],
     terms: [],
@@ -5097,7 +5097,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-7': {
     title: 'Thou Art My Son; This Day Have I Begotten Thee',
     principle:
-      'The decree is declared to the Son Himself. First principle: begotten is a status decree, not a birthday — Paul and Hebrews apply it to the resurrection and the eternal generation alike.',
+      'The decree is declared to the Son Himself. First principle: begotten is a status decree, not a birthday. Paul and Hebrews apply it to the resurrection and to the eternal generation alike.',
     sourceKeywords: ['I will declare the decree', 'Thou art my Son', 'this day have I begotten thee'],
     fulfillmentKeywords: ['God hath fulfilled the same', 'raised up Jesus again'],
     terms: [],
@@ -5105,7 +5105,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-9': {
     title: 'Thou Shalt Break Them with a Rod of Iron',
     principle:
-      'The Son\'s inheritance includes shattering rebel powers like pottery. First principle: the same rod promised to Messiah is delegated to overcomers — iron rule belongs to the faithful, not the faithless.',
+      'The Son\'s inheritance includes shattering rebel powers like pottery. First principle: the same rod promised to Messiah is handed to those who overcome. Iron rule belongs to the faithful, not to the faithless.',
     sourceKeywords: ['break them with a rod of iron', 'like a potter\'s vessel'],
     fulfillmentKeywords: ['he shall rule them with a rod of iron'],
     terms: [],
@@ -5113,7 +5113,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-2-12': {
     title: 'Kiss the Son, Lest He Be Angry',
     principle:
-      'Homage or wrath — Blessed are all they that put their trust in him. First principle: the psalm ends in gospel invitation; the angry Lamb is also the trusting soul\'s refuge.',
+      'Homage or wrath — Blessed are all they that put their trust in him. First principle: the psalm ends with an invitation. The Lamb who is angry is also the refuge of the soul that trusts him.',
     sourceKeywords: ['Kiss the Son', 'perish from the way', 'put their trust in him'],
     fulfillmentKeywords: ['no other name', 'shall be saved'],
     terms: [],
@@ -5121,7 +5121,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-8-2': {
     title: 'Out of the Mouth of Babes and Sucklings',
     principle:
-      'God ordains strength from infant lips to still the enemy. First principle: perfected praise comes from the least — the children shouting Hosanna quoted this psalm back at the establishment.',
+      'God ordains strength from infant lips to still the enemy. First principle: perfect praise comes from the least likely people. The children shouting Hosanna quoted this psalm back at the establishment.',
     sourceKeywords: ['mouth of babes and sucklings', 'ordained strength', 'still the enemy'],
     fulfillmentKeywords: ['perfected praise', 'Hosanna to the Son of David'],
     terms: [],
@@ -5129,7 +5129,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-8-6': {
     title: 'Thou Hast Put All Things under His Feet',
     principle:
-      'Adamic dominion is the psalm\'s theme; Hebrews finds it exhausted in Christ. First principle: the dominion Adam lost is visible again in the crowned Son — all things under feet, not yet all seen.',
+      'Adamic dominion is the psalm\'s theme; Hebrews finds it exhausted in Christ. First principle: the dominion Adam lost is visible again in the crowned Son. All things are under his feet, though we do not yet see them all.',
     sourceKeywords: ['dominion over the works of thy hands', 'all things under his feet'],
     fulfillmentKeywords: ['hast put all things in subjection under his feet'],
     terms: [],
@@ -5137,7 +5137,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-16-8': {
     title: 'I Have Set the LORD Always Before Me',
     principle:
-      'The psalm of the Holy One\'s confidence: at my right hand, I shall not be moved. First principle: Peter preaches this as Christ\'s own settled trust — the resurrection certainty of the One at God\'s right hand.',
+      'The psalm of the Holy One\'s confidence: at my right hand, I shall not be moved. First principle: Peter preaches this as Christ\'s own settled trust. It is the resurrection certainty of the One at God\'s right hand.',
     sourceKeywords: ['set the LORD always before me', 'at my right hand', 'I shall not be moved'],
     fulfillmentKeywords: ['I foresaw the Lord always before my face'],
     terms: [],
@@ -5145,7 +5145,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-18-2': {
     title: 'The LORD Is My Rock and My Fortress',
     principle:
-      'David\'s deliverance song stacks the titles: rock, fortress, deliverer, horn of salvation. First principle: every rescue-name David used is fulfilled in the greater Son — the horn exalted for us.',
+      'David\'s deliverance song stacks the titles: rock, fortress, deliverer, horn of salvation. First principle: every rescue title David used is fulfilled in the greater Son. He is the horn lifted up for us.',
     sourceKeywords: ['my rock, and my fortress', 'my deliverer', 'horn of my salvation'],
     fulfillmentKeywords: ['horn of salvation', 'raised up in the house of David'],
     terms: [],
@@ -5153,7 +5153,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-18-49': {
     title: 'I Will Give Thanks unto Thee among the Heathen',
     principle:
-      'David confesses God among the nations. First principle: Paul quotes this to prove the plan always included Gentile praise — the Davidic victory song was mission prophecy.',
+      'David confesses God among the nations. First principle: Paul quotes this to prove the plan always included Gentile praise. The victory song of David was prophecy about mission.',
     sourceKeywords: ['give thanks unto thee, O LORD, among the heathen', 'sing praises unto thy name'],
     fulfillmentKeywords: ['confess to thee among the Gentiles'],
     terms: [],
@@ -5161,7 +5161,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-19-4': {
     title: 'Their Line Is Gone Out through All the Earth',
     principle:
-      'The sun-pavilion preaches day and night to the ends of the world. First principle: creation\'s voice is universal and wordless — Paul adopts it as the pattern of the gospel\'s worldwide sound.',
+      'The sun-pavilion preaches day and night to the ends of the world. First principle: creation\'s voice reaches everyone and uses no words. Paul takes it as the pattern for how far the gospel\'s sound goes.',
     sourceKeywords: ['gone out through all the earth', 'to the end of the world', 'a tabernacle for the sun'],
     fulfillmentKeywords: ['Have they not heard? Yes verily'],
     terms: [],
@@ -5169,7 +5169,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-22-7': {
     title: 'They That See Me Laugh Me to Scorn',
     principle:
-      'The mocked Sufferer foresees the lip-shooting crowd at Golgotha. First principle: mockery is part of the Passion script — rulers sneering is prophecy performed.',
+      'The mocked Sufferer foresees the crowd at Golgotha shooting out the lip. First principle: mockery is part of the Passion script. Rulers sneering is prophecy being performed.',
     sourceKeywords: ['laugh me to scorn', 'shoot out the lip', 'shake the head'],
     fulfillmentKeywords: ['reviled him, wagging their heads', 'derided him also'],
     terms: [],
@@ -5177,7 +5177,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-22-8': {
     title: 'Let Him Deliver Him, Seeing He Delighted in Him',
     principle:
-      'The mockers quote the Sufferer\'s own faith back at Him. First principle: the taunt at the cross — He trusted in God; let Him deliver Him now — is a line-for-line fulfillment.',
+      'The mockers quote the Sufferer\'s own faith back at Him. First principle: at the cross the taunt He trusted in God; let Him deliver Him now was fulfilled line for line.',
     sourceKeywords: ['He trusted on the LORD', 'let him deliver him', 'he delighted in him'],
     fulfillmentKeywords: ['He trusted in God; let him deliver him now'],
     terms: [],
@@ -5185,7 +5185,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-22-18': {
     title: 'They Part My Garments Among Them',
     principle:
-      'Clothes divided, lots cast — written a millennium before the soldiers. First principle: the gambling squad at the cross did not know they were actors in Psalm 22.',
+      'Clothes divided, lots cast — written a millennium before the soldiers. First principle: the soldiers gambling at the cross did not know they were acting out Psalm 22.',
     sourceKeywords: ['part my garments', 'cast lots upon my vesture'],
     fulfillmentKeywords: ['parted his garments, casting lots'],
     terms: [],
@@ -5201,7 +5201,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-23-1': {
     title: 'The LORD Is My Shepherd; I Shall Not Want',
     principle:
-      'Green pastures, still waters, the valley, the table — the Shepherd psalm. First principle: the LORD who shepherds is the Lamb who feeds — Christ claims the psalm and heaven fulfills it.',
+      'Green pastures, still waters, the valley, the table — the Shepherd psalm. First principle: the LORD who shepherds his people is the Lamb who feeds them. Christ claims the psalm, and heaven fulfills it.',
     sourceKeywords: ['The LORD is my shepherd', 'I shall not want', 'valley of the shadow of death'],
     fulfillmentKeywords: ['I am the good shepherd', 'the Lamb shall feed them'],
     terms: [],
@@ -5209,7 +5209,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-24-1': {
     title: 'The Earth Is the LORD\'S, and the Fulness Thereof',
     principle:
-      'The world and its dwellers belong to God. First principle: ownership grounds worship and ethics alike — Paul quotes it against idol-food fears; the earth is the Father\'s, governed by the Son.',
+      'The world and its dwellers belong to God. First principle: because God owns it all, worship and right living both rest on that. Paul quotes it against the fear of idol-food. The earth is the Father\'s, and the Son governs it.',
     sourceKeywords: ['The earth is the LORD\'S', 'the fulness thereof', 'they that dwell therein'],
     fulfillmentKeywords: ['the earth is the Lord\'s, and the fulness thereof'],
     terms: [],
@@ -5217,7 +5217,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-24-3': {
     title: 'Who Shall Ascend into the Hill of the LORD?',
     principle:
-      'The ascent question demands clean hands and a pure heart. First principle: only purity sees God — the beatitude and the epistle both answer the question with Christ\'s own holiness.',
+      'The ascent question demands clean hands and a pure heart. First principle: only purity sees God. The beatitude and the epistle both answer the question with Christ\'s own holiness.',
     sourceKeywords: ['Who shall ascend', 'hill of the LORD', 'stand in his holy place'],
     fulfillmentKeywords: ['Blessed are the pure in heart', 'holiness, without which no man shall see the Lord'],
     terms: [],
@@ -5225,7 +5225,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-32-1': {
     title: 'Blessed Is He Whose Transgression Is Forgiven',
     principle:
-      'The covered-sin psalm of forgiven David. First principle: Paul\'s proof-text for imputed righteousness — blessedness comes not from works but from the Lord not imputing iniquity.',
+      'The covered-sin psalm of forgiven David. First principle: this is Paul\'s proof-text for righteousness credited to a person. Blessedness comes not from works but from the Lord not imputing iniquity.',
     sourceKeywords: ['Blessed is he whose transgression is forgiven', 'whose sin is covered'],
     fulfillmentKeywords: ['righteousness imputed without works', 'not impute sin'],
     terms: [],
@@ -5233,7 +5233,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-34-8': {
     title: 'O Taste and See That the LORD Is Good',
     principle:
-      'Experience is invited: taste and see; blessed is the trusting man. First principle: Peter applies the tasting to the Lord Himself — newborn babes desire the milk because they have tasted.',
+      'Experience is invited: taste and see; blessed is the trusting man. First principle: Peter applies the tasting to the Lord Himself. Newborn babes long for the milk because they have tasted it.',
     sourceKeywords: ['O taste and see', 'the LORD is good', 'blessed is the man that trusteth'],
     fulfillmentKeywords: ['If so be ye have tasted that the Lord is gracious'],
     terms: [],
@@ -5241,7 +5241,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-35-19': {
     title: 'Let Not Them That Hate Me Without a Cause Rejoice',
     principle:
-      'Wrongful enemies must not win the day. First principle: John binds the phrase to the world\'s hatred of Christ — the causeless hatred of the Righteous One was prophesied twice over.',
+      'Wrongful enemies must not win the day. First principle: John ties the phrase to the world\'s hatred of Christ. The causeless hatred of the Righteous One was prophesied twice over.',
     sourceKeywords: ['mine enemies wrongfully', 'hate me without a cause'],
     fulfillmentKeywords: ['hated me without a cause'],
     terms: [],
@@ -5249,7 +5249,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-37-11': {
     title: 'The Meek Shall Inherit the Earth',
     principle:
-      'Delight in the LORD ends in abundance of peace. First principle: the second-beatitude source — meekness inherits; grasping loses. Christ blesses the very people the world overlooks.',
+      'Delight in the LORD ends in abundance of peace. First principle: this is where the second beatitude comes from. The meek inherit, and those who grab lose. Christ blesses the very people the world overlooks.',
     sourceKeywords: ['the meek shall inherit the earth', 'abundance of peace'],
     fulfillmentKeywords: ['Blessed are the meek'],
     terms: [],
@@ -5257,7 +5257,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-45-6': {
     title: 'Thy Throne, O God, Is for Ever and Ever',
     principle:
-      'The King is addressed as God with an eternal right sceptre. First principle: the Father Himself addresses the Son as God — Hebrews reads the psalm as direct divine speech about the Son\'s throne.',
+      'The King is addressed as God with an eternal right sceptre. First principle: the Father Himself speaks to the Son as God. Hebrews reads the psalm as God speaking directly about the Son\'s throne.',
     sourceKeywords: ['Thy throne, O God', 'for ever and ever', 'a right sceptre'],
     fulfillmentKeywords: ['But unto the Son he saith, Thy throne, O God'],
     terms: [],
@@ -5265,7 +5265,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-50-12': {
     title: 'If I Were Hungry, I Would Not Tell Thee',
     principle:
-      'God needs nothing from sacrificial hands — the world is already His. First principle: thanksgiving, not feeding heaven, is the sacrifice God wants; the animals on a thousand hills are His.',
+      'God needs nothing from sacrificial hands — the world is already His. First principle: God wants thanksgiving, not people feeding heaven. The animals on a thousand hills are already His.',
     sourceKeywords: ['If I were hungry', 'the world is mine', 'the fulness thereof'],
     fulfillmentKeywords: ['the earth is the Lord\'s'],
     terms: [],
@@ -5281,7 +5281,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-69-9': {
     title: 'The Zeal of Thine House Hath Eaten Me Up',
     principle:
-      'Devouring zeal and fallen reproaches — both quoted of Christ. First principle: the cleansing of the temple and the insults of the cross are the same psalm, the same Man.',
+      'Devouring zeal and fallen reproaches — both quoted of Christ. First principle: the cleansing of the temple and the insults of the cross come from the same psalm, and they belong to the same man.',
     sourceKeywords: ['zeal of thine house', 'hath eaten me up', 'reproaches of them that reproached thee'],
     fulfillmentKeywords: ['The zeal of thine house hath eaten me up', 'reproaches fell on me'],
     terms: [],
@@ -5289,7 +5289,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-69-22': {
     title: 'Let Their Table Become a Snare',
     principle:
-      'The imprecation of the Sufferer: welfare turned trap. First principle: Paul applies the table-snare to unbelieving Israel — safety itself becomes judgment where Messiah is refused.',
+      'The imprecation of the Sufferer: welfare turned trap. First principle: Paul applies the table-snare to unbelieving Israel. Safety itself becomes judgment where Messiah is refused.',
     sourceKeywords: ['their table become a snare', 'a trap'],
     fulfillmentKeywords: ['their table be made a snare'],
     terms: [],
@@ -5297,7 +5297,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-69-25': {
     title: 'Let Their Habitation Be Desolate',
     principle:
-      'The deserted dwelling and another taking office. First principle: Peter joins this to Judas — the field and the forfeited office both fulfill the imprecation psalm.',
+      'The deserted dwelling and another taking office. First principle: Peter joins this psalm to Judas. The field and the office he forfeited both fulfill this psalm of imprecation.',
     sourceKeywords: ['Let their habitation be desolate', 'let none dwell in their tents'],
     fulfillmentKeywords: ['his habitation be desolate', 'his bishoprick let another take'],
     terms: [],
@@ -5305,7 +5305,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-72-8': {
     title: 'Dominion from Sea to Sea',
     principle:
-      'Solomon\'s greater Son rules to the ends of the earth. First principle: the royal psalm reaches past any Israelite king — the kingdom that fills the earth is the Son\'s, forever.',
+      'Solomon\'s greater Son rules to the ends of the earth. First principle: this royal psalm reaches past every Israelite king. The kingdom that fills the earth belongs to the Son, and it lasts forever.',
     sourceKeywords: ['dominion also from sea to sea', 'unto the ends of the earth'],
     fulfillmentKeywords: ['he shall reign for ever and ever', 'dominion from sea to sea'],
     terms: [],
@@ -5313,7 +5313,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-78-2': {
     title: 'I Will Open My Mouth in a Parable',
     principle:
-      'Asaph\'s dark sayings of old are Jesus\' teaching method. First principle: the parables are not a plan B — they are the psalm\'s own program for revealing and concealing.',
+      'Asaph\'s dark sayings of old are Jesus\' teaching method. First principle: the parables are not a backup plan. They are the psalm\'s own program for revealing and for concealing.',
     sourceKeywords: ['open my mouth in a parable', 'dark sayings of old'],
     fulfillmentKeywords: ['I will open my mouth in parables'],
     terms: [],
@@ -5321,7 +5321,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-78-24': {
     title: 'Had Rained Down Manna upon Them to Eat',
     principle:
-      'Corn of heaven in the wilderness. First principle: the psalm feeds the crowd\'s question to Jesus — and His answer: Moses gave not the bread; my Father gives the true bread.',
+      'Corn of heaven in the wilderness. First principle: this psalm supplies the question the crowd later puts to Jesus, and this is His answer: Moses gave not the bread; my Father gives the true bread.',
     sourceKeywords: ['rained down manna', 'the corn of heaven'],
     fulfillmentKeywords: ['He gave them bread from heaven to eat'],
     terms: [],
@@ -5337,7 +5337,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-82-6': {
     title: 'I Have Said, Ye Are Gods',
     principle:
-      'Earthly judges are called gods as children of the Most High. First principle: Jesus uses the psalm\'s logic — if Scripture dignified failing judges, the Sanctified and Sent One cannot be a blasphemer for saying He is the Son.',
+      'Earthly judges are called gods as children of the Most High. First principle: Jesus reasons from the psalm. If Scripture gave even failing judges that dignity, then the One God set apart and sent cannot be a blasphemer for saying He is the Son.',
     sourceKeywords: ['Ye are gods', 'children of the most High'],
     fulfillmentKeywords: ['Is it not written in your law, I said, Ye are gods'],
     terms: [],
@@ -5345,7 +5345,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-89-3': {
     title: 'I Have Sworn unto David My Servant',
     principle:
-      'The chosen-covenant oath is struck with David. First principle: every throne promise in the New Testament leans on this sworn covenant — sworn mercy is unbreakable mercy.',
+      'The chosen-covenant oath is struck with David. First principle: every throne promise in the New Testament rests on this sworn covenant. Sworn mercy is unbreakable mercy.',
     sourceKeywords: ['a covenant with my chosen', 'sworn unto David my servant'],
     fulfillmentKeywords: ['The Lord God shall give unto him the throne'],
     terms: [],
@@ -5353,7 +5353,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-89-4': {
     title: 'Thy Seed Will I Establish for Ever',
     principle:
-      'The throne is built to all generations. First principle: the seed here is singular in destination and plural in blessing — Gabriel quotes the effect to Mary: of His kingdom there shall be no end.',
+      'The throne is built to all generations. First principle: this seed is one person, and the blessing through him is many. Gabriel tells Mary what that means: of His kingdom there shall be no end.',
     sourceKeywords: ['Thy seed will I establish for ever', 'build up thy throne to all generations'],
     fulfillmentKeywords: ['he shall reign over the house of Jacob for ever'],
     terms: [],
@@ -5361,7 +5361,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-89-34': {
     title: 'My Covenant Will I Not Break',
     principle:
-      'The oath out of God\'s lips is unalterable. First principle: even covenant failure in David\'s line cannot void the word — the promise survives to be fulfilled in Christ.',
+      'The oath out of God\'s lips is unalterable. First principle: even when David\'s line broke faith, it could not void the word. The promise survives, and Christ is where it is fulfilled.',
     sourceKeywords: ['My covenant will I not break', 'alter the thing that is gone out of my lips'],
     fulfillmentKeywords: ['wherein God... confirmed it by an oath'],
     terms: [],
@@ -5369,7 +5369,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-89-36': {
     title: 'His Seed Shall Endure for Ever',
     principle:
-      'The throne lasting as the sun before God. First principle: the people asked whether Christ is David\'s son — the psalm answers that the throne outlasts the sun, and Hebrews hands it to the Son.',
+      'The throne lasting as the sun before God. First principle: the people asked whether Christ is David\'s son. The psalm answers that the throne outlasts the sun, and Hebrews gives that throne to the Son.',
     sourceKeywords: ['His seed shall endure for ever', 'his throne as the sun'],
     fulfillmentKeywords: ['he shall be great... and the Lord God shall give'],
     terms: [],
@@ -5385,7 +5385,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-91-11': {
     title: 'He Shall Give His Angels Charge over Thee',
     principle:
-      'Guardian angels bear up the trusting one in all his ways. First principle: Satan quoted this at the temptation — the promise is for the path of obedience, never for testing God.',
+      'Guardian angels bear up the trusting one in all his ways. First principle: Satan quoted this at the temptation. The promise is for the path of obedience, never for testing God.',
     sourceKeywords: ['give his angels charge over thee', 'to keep thee in all thy ways'],
     fulfillmentKeywords: ['angels came and ministered unto him'],
     terms: [],
@@ -5393,7 +5393,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-95-7': {
     title: 'We Are the People of His Pasture',
     principle:
-      'Sheep of His hand are summoned: To day if ye will hear his voice. First principle: the flock has a Shepherd and a Today — hearing delayed is heart hardened.',
+      'Sheep of His hand are summoned: To day if ye will hear his voice. First principle: the flock has a Shepherd and a Today. When hearing is put off, the heart grows hard.',
     sourceKeywords: ['the people of his pasture', 'the sheep of his hand', 'To day if ye will hear his voice'],
     fulfillmentKeywords: ['the Holy Ghost saith, To day'],
     terms: [],
@@ -5401,7 +5401,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-95-11': {
     title: 'I Sware in My Wrath, They Shall Not Enter',
     principle:
-      'The rest-forfeiting oath. First principle: the oath cuts both ways — the promise stands for believers, and the exclusion stands for unbelief; the rest remains for the people of God.',
+      'The rest-forfeiting oath. First principle: this oath cuts both ways. The promise stands for believers, and the exclusion stands for unbelief. The rest remains for the people of God.',
     sourceKeywords: ['I sware in my wrath', 'they should not enter into my rest'],
     fulfillmentKeywords: ['they shall not enter into my rest'],
     terms: [],
@@ -5409,7 +5409,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-97-7': {
     title: 'Worship Him, All Ye Gods',
     principle:
-      'Idol-boasters are confounded while heaven\'s order worships the true One. First principle: Hebrews quotes it of the Son\'s advent — the first-begotten receives what idol-worshipers lose.',
+      'Idol-boasters are confounded while heaven\'s order worships the true One. First principle: Hebrews quotes it of the Son\'s advent. The first-begotten receives what idol-worshipers lose.',
     sourceKeywords: ['serve graven images', 'boast themselves of idols', 'worship him, all ye gods'],
     fulfillmentKeywords: ['let all the angels of God worship him'],
     terms: [],
@@ -5417,7 +5417,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-102-25': {
     title: 'Of Old Hast Thou Laid the Foundation of the Earth',
     principle:
-      'The perishing heavens versus the enduring Creator. First principle: Hebrews addresses the Son with this psalm — creation\'s Maker is the unchanging Person whose years have no end.',
+      'The perishing heavens versus the enduring Creator. First principle: Hebrews addresses the Son with this psalm. The Maker of creation is the unchanging Person whose years have no end.',
     sourceKeywords: ['laid the foundation of the earth', 'the work of thy hands', 'they shall perish'],
     fulfillmentKeywords: ['Thou, Lord, in the beginning hast laid the foundation'],
     terms: [],
@@ -5425,7 +5425,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-103-8': {
     title: 'The LORD Is Merciful and Gracious, Slow to Anger',
     principle:
-      'The character-proclamation of Exodus 34 in psalm form. First principle: plenteous mercy is God\'s self-description — repeated across Scripture and embodied in Christ.',
+      'The character-proclamation of Exodus 34 in psalm form. First principle: mercy in abundance is how God describes himself. Scripture says it again and again, and Christ shows it in person.',
     sourceKeywords: ['merciful and gracious', 'slow to anger', 'plenteous in mercy'],
     fulfillmentKeywords: ['The LORD, The LORD God, merciful and gracious'],
     terms: [],
@@ -5441,7 +5441,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-105-15': {
     title: 'Touch Not Mine Anointed, and Do My Prophets No Harm',
     principle:
-      'The patriarchs are God-protected sojourners. First principle: the covenant line is guarded through danger — the anointed and the prophets carry a promise the nations learned to fear.',
+      'The patriarchs are God-protected sojourners. First principle: God guards the covenant line all through danger. The anointed ones and the prophets carry a promise that taught the nations to be afraid.',
     sourceKeywords: ['Touch not mine anointed', 'do my prophets no harm'],
     fulfillmentKeywords: [],
     terms: [],
@@ -5449,7 +5449,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-105-17': {
     title: 'He Sent a Man Before Them, Even Joseph',
     principle:
-      'Joseph sold as a servant, positioned ahead of famine. First principle: providence precedes — God sends the savior into Egypt before the family knows it needs one.',
+      'Joseph sold as a servant, positioned ahead of famine. First principle: providence goes first. God sends the savior into Egypt before the family knows it needs one.',
     sourceKeywords: ['He sent a man before them', 'Joseph', 'sold for a servant'],
     fulfillmentKeywords: ['God did send me before you to preserve life'],
     terms: [],
@@ -5457,7 +5457,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-105-19': {
     title: 'Until the Time That His Word Came',
     principle:
-      'The word of the LORD tried Joseph until it proved him out. First principle: tested promises have an appointed release — the dream fulfilled at the exact prison-door moment.',
+      'The word of the LORD tried Joseph until it proved him out. First principle: tested promises have an appointed release. The dream was fulfilled at the exact moment the prison door opened.',
     sourceKeywords: ['Until the time that his word came', 'the word of the LORD tried him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -5465,7 +5465,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-106-6': {
     title: 'We Have Sinned with Our Fathers',
     principle:
-      'The confession joins generations in guilt. First principle: shared history means shared accountability — the prayer that names ancestral sin honestly is the prayer that finds mercy.',
+      'The confession joins generations in guilt. First principle: shared history means shared accountability. The prayer that names ancestral sin honestly is the prayer that finds mercy.',
     sourceKeywords: ['We have sinned with our fathers', 'committed iniquity', 'done wickedly'],
     fulfillmentKeywords: [],
     terms: [],
@@ -5473,7 +5473,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-109-8': {
     title: 'Let Another Take His Office',
     principle:
-      'The betrayer\'s days are few and his office forfeited. First principle: Peter quotes it for the twelfth witness — prophecy governs even the apostolic succession after betrayal.',
+      'The betrayer\'s days are few and his office forfeited. First principle: Peter quotes it when the twelfth witness is chosen. Prophecy governs even the apostolic succession after a betrayal.',
     sourceKeywords: ['Let his days be few', 'let another take his office'],
     fulfillmentKeywords: ['his bishoprick let another take'],
     terms: [],
@@ -5481,7 +5481,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-110-4': {
     title: 'A Priest for Ever After the Order of Melchizedek',
     principle:
-      'The LORD\'s unrepented oath installs the eternal priest. First principle: the oath outlasts Aaron — Hebrews builds its entire priesthood argument on this single unchangeable line.',
+      'The LORD\'s unrepented oath installs the eternal priest. First principle: the oath outlasts Aaron. Hebrews builds its whole argument for the priesthood on this single unchangeable line.',
     sourceKeywords: ['The LORD hath sworn', 'will not repent', 'a priest for ever'],
     fulfillmentKeywords: ['Thou art a priest for ever'],
     terms: [],
@@ -5497,7 +5497,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-115-1': {
     title: 'Not unto Us, but unto Thy Name Give Glory',
     principle:
-      'Glory refused to self, assigned to mercy and truth. First principle: the engine of all witness — the name gets the credit; Jesus refused glory that belonged to the Father in the same spirit.',
+      'Glory refused to self, assigned to mercy and truth. First principle: this is the engine behind all witness. The name gets the credit. Jesus refused glory that belonged to the Father, and he did it in the same spirit.',
     sourceKeywords: ['Not unto us, O LORD', 'unto thy name give glory', 'for thy mercy, and for thy truth\'s sake'],
     fulfillmentKeywords: ['I receive not honour from men'],
     terms: [],
@@ -5505,7 +5505,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-117-1': {
     title: 'O Praise the LORD, All Ye Nations',
     principle:
-      'The Bible\'s shortest psalm is its widest invitation. First principle: two verses make the Gentiles a choir — Paul strings it into the Romans 15 chain proving Gentile praise was always the plan.',
+      'The Bible\'s shortest psalm is its widest invitation. First principle: two verses make the Gentiles a choir. Paul strings it into the Romans 15 chain and proves that Gentile praise was always the plan.',
     sourceKeywords: ['O praise the LORD, all ye nations', 'praise him, all ye people'],
     fulfillmentKeywords: ['Praise the Lord, all ye Gentiles'],
     terms: [],
@@ -5513,7 +5513,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-118-6': {
     title: 'The LORD Is on My Side; I Will Not Fear',
     principle:
-      'Man can do nothing ultimate against the LORD-sided soul. First principle: courage is arithmetic — the greater Helper outweighs every human threat; Hebrews makes it the antidote to covetousness.',
+      'Man can do nothing ultimate against the LORD-sided soul. First principle: courage is arithmetic. The greater Helper outweighs every human threat. Hebrews makes this the cure for loving money.',
     sourceKeywords: ['The LORD is on my side', 'I will not fear', 'what can man do unto me'],
     fulfillmentKeywords: ['The Lord is my helper, and I will not fear'],
     terms: [],
@@ -5521,7 +5521,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-118-25': {
     title: 'Save Now, I Beseech Thee, O LORD',
     principle:
-      'The Hallel cry for salvation and prosperity. First principle: Hosanna on Palm Sunday is this verse on people\'s lips — the request became an acclamation of the coming King.',
+      'The Hallel cry for salvation and prosperity. First principle: on Palm Sunday, Hosanna was this verse on people\'s lips. The request had become a shout of welcome for the coming King.',
     sourceKeywords: ['Save now, I beseech thee', 'send now prosperity'],
     fulfillmentKeywords: ['Hosanna; Blessed is he that cometh'],
     terms: [],
@@ -5529,7 +5529,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-119-105': {
     title: 'Thy Word Is a Lamp unto My Feet',
     principle:
-      'The Word lights each next step on a dark road. First principle: guidance is incremental — a lamp, not a floodlight; Peter anchors prophecy as the surer light in the same image.',
+      'The Word lights each next step on a dark road. First principle: guidance comes a step at a time, like a lamp and not a floodlight. Peter uses the same image and calls prophecy the surer light.',
     sourceKeywords: ['a lamp unto my feet', 'a light unto my path'],
     fulfillmentKeywords: ['a light that shineth in a dark place'],
     terms: [],
@@ -5537,7 +5537,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-119-160': {
     title: 'Thy Word Is True from the Beginning',
     principle:
-      'Every righteous judgment endures forever. First principle: the whole corpus is trustworthy at once — Jesus prays Thy word is truth over the entire witness.',
+      'Every righteous judgment endures forever. First principle: the whole collection of God\'s words can be trusted at once. Jesus prays Thy word is truth over the entire witness.',
     sourceKeywords: ['Thy word is true from the beginning', 'righteous judgments endureth for ever'],
     fulfillmentKeywords: ['thy word is truth'],
     terms: [],
@@ -5545,7 +5545,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-132-17': {
     title: 'I Will Make the Horn of David to Bud',
     principle:
-      'A lamp ordained for the anointed; David\'s horn sprouts. First principle: the chosen resting-place grows a light — Zacharias\' horn of salvation and the house-of-David dawn both sprout here.',
+      'A lamp ordained for the anointed; David\'s horn sprouts. First principle: the resting-place God chose grows a light. Zacharias\' horn of salvation and the dawn of David\'s house both sprout from here.',
     sourceKeywords: ['the horn of David to bud', 'a lamp for mine anointed'],
     fulfillmentKeywords: ['raised up an horn of salvation'],
     terms: [],
@@ -5553,7 +5553,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-135-13': {
     title: 'Thy Name, O LORD, Endureth for Ever',
     principle:
-      'The memorial-name spans all generations. First principle: the name revealed at the bush is the name remembered at every altar — permanence is part of the promise.',
+      'The memorial-name spans all generations. First principle: the name God revealed at the bush is the name his people remember at every altar. He stays the same, and that is part of what he promised.',
     sourceKeywords: ['Thy name, O LORD, endureth for ever', 'thy memorial throughout all generations'],
     fulfillmentKeywords: ['this is my name for ever', 'this is my memorial'],
     terms: [],
@@ -5561,7 +5561,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-139-7': {
     title: 'Whither Shall I Flee from Thy Presence?',
     principle:
-      'Heaven, hell, the dawn, the sea — the Spirit is there. First principle: omnipresence is both comfort and inescapability — nowhere is God absent, and that is good news for the pursued believer.',
+      'Heaven, hell, the dawn, the sea — the Spirit is there. First principle: God is present everywhere, and that is both comfort and inescapability. Nowhere is God absent, and for the believer who is being chased that is good news.',
     sourceKeywords: ['Whither shall I go from thy spirit', 'flee from thy presence'],
     fulfillmentKeywords: [],
     terms: [],
@@ -5569,7 +5569,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-140-3': {
     title: 'They Have Sharpened Their Tongues Like a Serpent',
     principle:
-      'Adder-poison under the lips. First principle: the anatomy of evil speech in the psalms becomes Paul\'s courtroom exhibit — the mouth convicts the race.',
+      'Adder-poison under the lips. First principle: the way the psalms describe evil speech becomes the evidence Paul presents in court. The mouth is what convicts the human race.',
     sourceKeywords: ['sharpened their tongues like a serpent', 'adders\' poison is under their lips'],
     fulfillmentKeywords: ['the poison of asps is under their lips'],
     terms: [],
@@ -5577,7 +5577,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-146-6': {
     title: 'Which Made Heaven, and Earth, and the Sea',
     principle:
-      'The Maker keeps truth forever. First principle: trust belongs to the Creator, not princes — the psalm grounds hope in the making power Paul preaches to idolaters.',
+      'The Maker keeps truth forever. First principle: trust belongs to the Creator, not to princes. The psalm grounds hope in the same making power Paul preaches to idolaters.',
     sourceKeywords: ['made heaven, and earth', 'the sea, and all that therein is', 'keepeth truth for ever'],
     fulfillmentKeywords: ['the living God, which made heaven, and earth'],
     terms: [],
@@ -5585,7 +5585,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-147-4': {
     title: 'He Telleth the Number of the Stars',
     principle:
-      'He names every star — great power, understanding infinite. First principle: the counter of stars is the healer of the brokenhearted — the same power that orders skies binds wounds.',
+      'He names every star — great power, understanding infinite. First principle: the one who counts the stars is the one who heals the brokenhearted. The same power that orders the skies binds up wounds.',
     sourceKeywords: ['telleth the number of the stars', 'calleth them all by their names'],
     fulfillmentKeywords: ['he calleth them all by names'],
     terms: [],
@@ -5593,7 +5593,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'psa-148-13': {
     title: 'His Name Alone Is Excellent',
     principle:
-      'Earth and heaven are summoned to a name above the terrain. First principle: the universal praise of Psalm 148 is the rehearsal of the final doxology to the enthroned Lamb.',
+      'Earth and heaven are summoned to a name above the terrain. First principle: the praise of all creation in Psalm 148 rehearses the final doxology to the enthroned Lamb.',
     sourceKeywords: ['Let them praise the name of the LORD', 'his name alone is excellent', 'above the earth and heaven'],
     fulfillmentKeywords: ['Blessing, and honour, and glory, and power'],
     terms: [],
