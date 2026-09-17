@@ -890,7 +890,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-2': {
     title: 'By Whom Also He Made the Worlds',
     principle:
-      'God has spoken by His Son, by whom also He made the worlds. Textual proof: John 1:3 — all things made by Him; Col 1:16 — by Him all things created. Son as agent of creation and final revealer.',
+      '“God hath spoken unto us by his Son, by whom also he made the worlds.” Textual proof: John 1:3 says all things were made by Him, and Col 1:16 says by Him all things were created. So God made the worlds through His Son, and He speaks to us through that same Son.',
     sourceKeywords: ['spoken', 'Son', 'appointed', 'heir of all things', 'by whom', 'made', 'worlds'],
     fulfillmentKeywords: ['made', 'worlds', 'by him', 'created', 'all things'],
     terms: [
@@ -900,17 +900,17 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-4-4': {
     title: 'God Rested the Seventh Day',
     principle:
-      'He spake in a certain place of the seventh day on this wise: And God did rest the seventh day from all his works. Textual proof: Hebrews 4:4 quotes Genesis 2:2; 4:9 — there remains a Sabbath rest (σαββατισμός) to the people of God.',
+      '“He spake in a certain place of the seventh day on this wise: And God did rest the seventh day from all his works.” Textual proof: Hebrews 4:4 quotes Genesis 2:2. Then the writer draws the conclusion in 4:9: a Sabbath rest (σαββατισμός) still remains for the people of God.',
     sourceKeywords: ['seventh day', 'God did rest', 'works'],
     fulfillmentKeywords: ['rested', 'seventh day', 'finished'],
     terms: [
-      { term: 'a Sabbath rest', original: 'σαββατισμὸς', translit: 'sabbatismos', gloss: 'a sabbath-keeping / sabbath rest', note: 'Unique NT word — points to the people of God\'s remaining rest (Heb 4:9), grounded in creation rest (4:4).' },
+      { term: 'a Sabbath rest', original: 'σαββατισμὸς', translit: 'sabbatismos', gloss: 'a sabbath-keeping / sabbath rest', note: 'This word appears only here in the New Testament. It names the rest still waiting for the people of God (Heb 4:9), the rest God himself took at creation (4:4).' },
     ],
   },
   'heb-8-5': {
     title: 'Pattern and Shadow of Heavenly Things',
     principle:
-      'Who serve unto the example and shadow of heavenly things, as Moses was admonished… See that thou make all things according to the pattern. Textual proof: Exodus 25:40 quoted; Hebrews 9:11-12, 23-24 — Christ ministers in the greater, more perfect tabernacle, not made with hands.',
+      '“Who serve unto the example and shadow of heavenly things, as Moses was admonished.” God told Moses to see that he make all things after the pattern shown him. Textual proof: the writer quotes Exodus 25:40, then argues in Hebrews 9:11-12, 23-24 that Christ serves in the greater, more perfect tabernacle, not made with hands.',
     sourceKeywords: ['example', 'shadow', 'heavenly things', 'pattern', 'shewed', 'mount'],
     fulfillmentKeywords: ['pattern', 'tabernacle', 'heavenly', 'greater', 'true tabernacle'],
     terms: [
@@ -920,7 +920,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-8-8': {
     title: 'A New Covenant',
     principle:
-      'Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel. Textual proof: Jeremiah 31:31-34 quoted at length in Hebrews 8:8-12 and 10:16-17; Jesus names the new covenant in His blood (Luke 22:20; 1 Cor 11:25).',
+      '“Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel.” Textual proof: the writer gives that promise its own paragraph when he quotes Jeremiah 31:31-34 at length in Hebrews 8:8-12 and 10:16-17. Jesus names the new covenant as His own blood (Luke 22:20; 1 Cor 11:25).',
     sourceKeywords: ['new covenant', 'house of Israel', 'house of Judah', 'laws', 'mind', 'hearts', 'merciful', 'unrighteousness', 'remember no more'],
     fulfillmentKeywords: ['new testament', 'blood', 'write', 'heart', 'mind'],
     terms: [
@@ -930,7 +930,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-9-23': {
     title: 'Purged with Blood — Heavenly Things',
     principle:
-      'It was necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices. Textual proof: Leviticus 16 blood-rite as pattern; Christ\'s once-for-all offering in the true sanctuary (Heb 9:11-12, 24-26).',
+      '“It was necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices.” Textual proof: the writer quotes the Leviticus 16 blood-rite as the pattern in view. Christ offered up Himself once for all in the true sanctuary (Heb 9:11-12, 24-26).',
     sourceKeywords: ['patterns', 'things in the heavens', 'purified', 'blood', 'heavenly things', 'better sacrifices'],
     fulfillmentKeywords: ['blood', 'purged', 'sanctuary', 'once', 'offer'],
     terms: [
@@ -940,11 +940,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-10-37': {
     title: 'He That Shall Come Will Come',
     principle:
-      'Yet a little while, and he that shall come will come, and will not tarry. Textual proof: Habakkuk 2:3-4 quoted; same just-shall-live-by-faith chain as Rom 1:17 and Gal 3:11. Patient waiting on the coming One.',
+      '“Yet a little while, and he that shall come will come, and will not tarry.” Textual proof: the writer is quoting Habakkuk 2:3-4. He puts the coming One on the same just-shall-live-by-faith chain as Rom 1:17 and Gal 3:11. So wait patiently for the One who is coming.',
     sourceKeywords: ['little while', 'he that shall come', 'will come', 'not tarry'],
     fulfillmentKeywords: ['come', 'not tarry', 'just', 'live', 'faith'],
     terms: [
-      { term: 'will come', original: 'ἥξει', translit: 'hēxei', gloss: 'he will come', note: 'Hab 2:3 LXX — vision appointed for the end and will not lie; wait for it.' },
+      { term: 'will come', original: 'ἥξει', translit: 'hēxei', gloss: 'he will come', note: 'Hab 2:3 LXX — the vision is set for the appointed end and will not lie, so wait for it.' },
     ],
   },
   '1pe-2-6': {
@@ -3891,7 +3891,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-1': {
     title: 'God Who Spake at Sundry Times by the Prophets',
     principle:
-      'The God who spoke in fragments to the fathers has spoken finally in His Son. First principle: the prophets are real revelation in portions; the Son is the whole — every thread converges on His speech.',
+      'The God who spoke in fragments to the fathers has spoken finally in His Son. First principle: the prophets brought real revelation, but they brought it in portions. The Son is the whole, and every thread comes together in His speech.',
     sourceKeywords: ['sundry times and in divers manners', 'spake in time past', 'by the prophets'],
     fulfillmentKeywords: ['hath in these last days spoken unto us by his Son'],
     terms: [],
@@ -3899,7 +3899,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-3': {
     title: 'The Express Image of His Person',
     principle:
-      'The brightness of God\'s glory, upholding all things, purged our sins by Himself and sat down on the right hand of the Majesty on high. First principle: priest, sacrifice, and throne unite in one Person — purification finished, session begun.',
+      'He is the brightness of God\'s glory and the express image of His person. He upholds all things, and He purged our sins by Himself. Then He sat down on the right hand of the Majesty on high. First principle: priest, sacrifice and throne meet in one Person. His cleansing work is finished, and His reign has begun.',
     sourceKeywords: ['brightness of his glory', 'purged our sins', 'sat down on the right hand'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'he shall not fail'],
     terms: [],
@@ -3907,7 +3907,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-5': {
     title: 'Unto Which of the Angels Said He, Thou Art My Son?',
     principle:
-      'Psalm 2 and Nathan\'s word to David are quoted to rank the Son above angels. First principle: sonship by decree and dynasty — I will be to him a Father — is higher than any angelic office.',
+      'The writer quotes Psalm 2 and Nathan\'s word to David to rank the Son above angels. First principle: “I will be to him a Father” is a decree and a dynasty. God says that to His Son, and that rank is higher than any angel\'s office.',
     sourceKeywords: ['Thou art my Son', 'this day have I begotten thee', 'a Father, and he shall be to me a Son'],
     fulfillmentKeywords: ['Thou art my Son', 'he shall build an house for my name'],
     terms: [],
@@ -3923,7 +3923,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-8': {
     title: 'Thy Throne, O God, Is for Ever and Ever',
     principle:
-      'The Father addresses the Son as God, enthroned with a sceptre of righteousness. First principle: Psalm 45\'s wedding hymn is God\'s own testimony to the Son\'s deity and just reign.',
+      'The Father addresses the Son as God and gives Him a sceptre of righteousness. First principle: Psalm 45 is a wedding hymn. God uses it as His own testimony to the Son\'s deity and to His just reign.',
     sourceKeywords: ['Thy throne, O God', 'for ever and ever', 'sceptre of righteousness'],
     fulfillmentKeywords: ['thy throne, O God, is for ever', 'God, thy God, hath anointed thee'],
     terms: [],
@@ -3931,7 +3931,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-10': {
     title: 'Thou, Lord, in the Beginning Hast Laid the Foundation',
     principle:
-      'Psalm 102 — a prayer to the unchanging Creator — is addressed to the Son. First principle: the One who laid earth\'s foundations is the same yesterday, today, and forever; creation names Him Lord.',
+      'The writer takes Psalm 102, a prayer to the unchanging Creator, and addresses it to the Son. First principle: the One who laid earth\'s foundations is the same yesterday, today, and for ever. The psalm itself addresses Him as Lord, and it says that He remains.',
     sourceKeywords: ['laid the foundation of the earth', 'the works of thine hands', 'shall perish'],
     fulfillmentKeywords: ['Of old hast thou laid the foundation of the earth'],
     terms: [],
@@ -3939,7 +3939,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-1-13': {
     title: 'Sit on My Right Hand Until Thine Enemies',
     principle:
-      'No angel ever heard Psalm 110\'s invitation. First principle: the enthroned Man waits in majesty — the footstool promise belongs to the Son alone.',
+      'No angel ever heard Psalm 110\'s invitation. First principle: the enthroned Man waits in majesty, and He will not be moved. The footstool promise belongs to the Son alone.',
     sourceKeywords: ['Sit on my right hand', 'thine enemies thy footstool', 'to which of the angels'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
     terms: [],
@@ -3947,7 +3947,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-2-6': {
     title: 'What Is Man, That Thou Art Mindful of Him?',
     principle:
-      'Psalm 8 is expounded of Jesus — made a little lower than the angels for suffering, now crowned. First principle: the son-of-man question finds its answer in the One now crowned with glory, all things under His feet.',
+      'The writer applies Psalm 8 to Jesus. He was made a little lower than the angels so that He could suffer, and now He is crowned. First principle: the son-of-man question is answered in the One now crowned with glory, with all things under His feet.',
     sourceKeywords: ['What is man', 'the son of man', 'visitest him'],
     fulfillmentKeywords: ['made him a little lower than the angels', 'crownedst him with glory'],
     terms: [],
@@ -3955,7 +3955,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-2-12': {
     title: 'In the Midst of the Church Will I Sing Praise',
     principle:
-      'The crucified Psalm 22 ends in congregation-song: I will declare thy name unto my brethren. First principle: the Sufferer of Psalm 22 becomes the worship leader of His brothers — the cross births the church\'s praise.',
+      'The crucified Sufferer of Psalm 22 ends in a song among His brothers: “I will declare thy name unto my brethren.” First principle: the One who suffered becomes the worship leader of His brothers. The cross starts the church\'s praise.',
     sourceKeywords: ['I will declare thy name', 'unto my brethren', 'in the midst of the church'],
     fulfillmentKeywords: ['I will declare thy name unto my brethren'],
     terms: [],
@@ -3963,7 +3963,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-2-13': {
     title: 'I Will Put My Trust in Him',
     principle:
-      'Isaiah\'s trusting remnant becomes the Son\'s own confession, with the children God gave Him. First principle: the Messiah lived by faith among His own — sanctified companionship with the children of promise.',
+      'Isaiah\'s trusting remnant becomes the Son\'s own confession: “I will put my trust in him.” First principle: the Messiah lived by faith among His own. The children God gave Him are set apart with Him.',
     sourceKeywords: ['I will put my trust in him', 'Behold I and the children', 'which God hath given me'],
     fulfillmentKeywords: ['I will wait upon the LORD', 'the children whom the LORD hath given me'],
     terms: [],
@@ -3971,7 +3971,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-3-7': {
     title: 'To Day If Ye Will Hear His Voice',
     principle:
-      'Psalm 95 is quoted as the Holy Ghost\'s present warning: harden not your hearts. First principle: the gospel has a Today attached — Israel\'s Kadesh failure is the standing caution for every generation.',
+      'Psalm 95 is quoted as the Holy Ghost\'s warning for today: “Harden not your hearts.” First principle: the gospel always carries a Today with it. Israel\'s failure at Kadesh is the standing warning for every generation.',
     sourceKeywords: ['the Holy Ghost saith', 'To day if ye will hear his voice', 'harden not your hearts'],
     fulfillmentKeywords: ['To day if ye will hear his voice'],
     terms: [],
@@ -3979,7 +3979,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-3-11': {
     title: 'They Shall Not Enter into My Rest',
     principle:
-      'God\'s oath barred that generation from Canaan-rest. First principle: unbelief forfeits the promised rest — the oath is as real as the promise it vetoed.',
+      'God\'s oath kept that whole generation out of the rest in Canaan. First principle: unbelief forfeits the promised rest. The oath is as real as the promise it cancelled.',
     sourceKeywords: ['So I sware in my wrath', 'They shall not enter into my rest'],
     fulfillmentKeywords: ['unto whom I sware in my wrath', 'they shall not enter'],
     terms: [],
@@ -4003,7 +4003,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-5-6': {
     title: 'A Priest for Ever After the Order of Melchisedec',
     principle:
-      'Psalm 110:4 gives the Son a priesthood older than Aaron\'s. First principle: royal priesthood — king on the throne and priest at the altar — is Christ\'s by oath, not genealogy.',
+      'Psalm 110:4 gives the Son a priesthood older than Aaron\'s. First principle: Christ is king on the throne and priest at the altar. He holds both by God\'s oath, not by family line.',
     sourceKeywords: ['a priest for ever', 'order of Melchisedec'],
     fulfillmentKeywords: ['Thou art a priest for ever', 'after the order of Melchizedek'],
     terms: [],
@@ -4011,7 +4011,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-6-14': {
     title: 'Surely Blessing I Will Bless Thee',
     principle:
-      'The doubled oath to Abraham makes God\'s promise immutable. First principle: God swore by Himself because none was greater — the multiplied seed rests on an unchangeable oath.',
+      'God doubled His oath to Abraham, and that makes His promise unchangeable. First principle: God swore by Himself because no one greater existed. The multiplied seed rests on that unchangeable oath.',
     sourceKeywords: ['Surely blessing I will bless thee', 'multiplying I will multiply thee'],
     fulfillmentKeywords: ['by myself have I sworn', 'I will multiply thy seed'],
     terms: [],
@@ -4019,7 +4019,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-7-1': {
     title: 'Melchisedec, Priest of the Most High God',
     principle:
-      'Genesis 14\'s king of Salem blessed Abraham returning from war. First principle: the type appears suddenly — no lineage, no ending — because it pictures an endless priesthood.',
+      'In Genesis 14 the king of Salem blessed Abraham as he returned from the war against the kings. First principle: the type appears suddenly, with no lineage and no recorded ending. That is how he pictures an endless priesthood.',
     sourceKeywords: ['king of Salem', 'priest of the most high God', 'blessed him'],
     fulfillmentKeywords: ['Melchizedek king of Salem', 'priest of the most high God'],
     terms: [],
@@ -4027,7 +4027,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-7-17': {
     title: 'Thou Art a Priest for Ever',
     principle:
-      'The oath of Psalm 110:4 is repeated to nail down the eternal priesthood. First principle: another priest arises after the similitude of Melchisedec — the law\'s Aaronic line was never the end of the story.',
+      'The writer repeats the oath of Psalm 110:4 to nail down the eternal priesthood. First principle: “Thou art a priest for ever after the order of Melchisedec.” The oath itself, not the law, is what makes the priesthood permanent.',
     sourceKeywords: ['he testifieth', 'a priest for ever', 'order of Melchisedec'],
     fulfillmentKeywords: ['the LORD hath sworn', 'thou art a priest for ever'],
     terms: [],
@@ -4035,7 +4035,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-8-12': {
     title: 'Their Sins and Iniquities Will I Remember No More',
     principle:
-      'The new covenant\'s climax is divine forgetting. First principle: forgiveness under the new covenant is not amnesia\'s accident but mercy\'s decision — sins remembered no more.',
+      'The new covenant reaches its climax when God chooses to forget. First principle: “their sins and their iniquities will I remember no more.” Under the new covenant, forgiveness is not a lapse of memory. It is mercy\'s deliberate decision.',
     sourceKeywords: ['merciful to their unrighteousness', 'sins and their iniquities', 'remember no more'],
     fulfillmentKeywords: ['I will forgive their iniquity', 'remember their sin no more'],
     terms: [],
@@ -4043,7 +4043,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-9-20': {
     title: 'This Is the Blood of the Testament',
     principle:
-      'Exodus 24\'s Sinai sprinkling is quoted to explain a better blood. First principle: every covenant runs on blood — the old with animals, the new with the Testator Himself.',
+      'The writer quotes the sprinkling at Sinai in Exodus 24 to explain a better blood. First principle: “This is the blood of the testament.” Every covenant runs on blood, the old on animals and the new on the Testator Himself.',
     sourceKeywords: ['the blood of the testament', 'which God hath enjoined unto you'],
     fulfillmentKeywords: ['the blood of the covenant', 'sprinkled on the people'],
     terms: [],
@@ -4051,7 +4051,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-10-5': {
     title: 'A Body Hast Thou Prepared Me',
     principle:
-      'Psalm 40 is placed in the mouth of the incarnate Son: Lo, I come to do thy will. First principle: the Incarnation is the answer to sacrifice\'s insufficiency — a body prepared for total obedience.',
+      'The writer puts Psalm 40 in the mouth of the incarnate Son: “a body hast thou prepared me.” First principle: the Incarnation answers the insufficiency of sacrifice. God prepared a body for total obedience.',
     sourceKeywords: ['when he cometh into the world', 'a body hast thou prepared me', 'Sacrifice and offering thou wouldest not'],
     fulfillmentKeywords: ['mine ears hast thou opened', 'I delight to do thy will'],
     terms: [],
@@ -4059,7 +4059,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-10-16': {
     title: 'I Will Put My Laws into Their Hearts',
     principle:
-      'Jeremiah 31\'s internal law is quoted as the covenant\'s present reality. First principle: the law moves from stone to heart — obedience becomes the Spirit\'s work inside us.',
+      'The writer quotes Jeremiah 31 as the covenant\'s present reality: “I will put my laws into their hearts.” First principle: the law moves from stone to heart. Obedience becomes the Spirit\'s work inside us.',
     sourceKeywords: ['the covenant that I will make', 'my laws into their hearts', 'in their minds will I write them'],
     fulfillmentKeywords: ['I will put my law in their inward parts', 'write it in their hearts'],
     terms: [],
@@ -4067,7 +4067,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-10-30': {
     title: 'Vengeance Belongeth unto Me',
     principle:
-      'The Song of Moses warns apostates: the Lord shall judge His people. First principle: the same covenant God who avenges His people judges those who trample His Son — fear and comfort are two sides of one oath.',
+      '“The Lord shall judge his people.” The Song of Moses warned covenant-breakers with those words. First principle: the same God who avenges His people judges those who trample His Son. Fear and comfort are two sides of one oath.',
     sourceKeywords: ['Vengeance belongeth unto me', 'I will recompense', 'The Lord shall judge his people'],
     fulfillmentKeywords: ['To me belongeth vengeance', 'the LORD shall judge his people'],
     terms: [],
@@ -4075,7 +4075,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-10-38': {
     title: 'The Just Shall Live by Faith',
     principle:
-      'Habakkuk\'s line becomes the letter\'s watchword: if any draw back, my soul shall have no pleasure. First principle: life is by believing endurance — the vision tarries, but the just keep trusting.',
+      '“Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him.” The letter takes Habakkuk\'s line as its watchword. First principle: life comes by believing endurance. The vision tarries, but the just keep trusting.',
     sourceKeywords: ['the just shall live by faith', 'if any man draw back', 'no pleasure in him'],
     fulfillmentKeywords: ['the just shall live by his faith'],
     terms: [],
@@ -4083,7 +4083,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-5': {
     title: 'Enoch Was Translated That He Should Not See Death',
     principle:
-      'Enoch walked with God and was not, for God took him. First principle: before the law, a man pleased God and skipped death — the firstfruits of translation hope.',
+      '“Enoch walked with God, and he was not; for God took him.” First principle: before the law was given, one man pleased God and did not see death. He is the first picture of the resurrection hope.',
     sourceKeywords: ['By faith Enoch was translated', 'should not see death', 'he pleased God'],
     fulfillmentKeywords: ['Enoch walked with God', 'he was not; for God took him'],
     terms: [],
@@ -4091,7 +4091,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-7': {
     title: 'Noah Prepared an Ark to the Saving of His House',
     principle:
-      'Noah acted on things not seen as yet and condemned the world. First principle: faith builds before the rain — obedience to warning is righteousness inherited.',
+      'Noah acted on things not seen as yet, and he condemned the world. First principle: faith builds before the rain falls, and the warning comes before the flood. Obedience to that warning becomes righteousness that is inherited.',
     sourceKeywords: ['warned of God of things not seen as yet', 'prepared an ark', 'saving of his house'],
     fulfillmentKeywords: ['Noah found grace', 'thus did Noah'],
     terms: [],
@@ -4107,7 +4107,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-11': {
     title: 'Sara Received Strength to Conceive Seed',
     principle:
-      'The barren mother judged Him faithful who had promised. First principle: faith laughs at impossibility after it judges the Promiser — strength came because the Word was believed.',
+      'Sarah was barren, yet she judged Him faithful who had promised. First principle: faith first trusts the One who made the promise, then laughs at what looks impossible. She received strength because she believed the word.',
     sourceKeywords: ['received strength to conceive seed', 'past age', 'judged him faithful who had promised'],
     fulfillmentKeywords: ['At the time appointed will I return', 'Is any thing too hard for the LORD?'],
     terms: [],
@@ -4115,7 +4115,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-12': {
     title: 'As the Stars of the Sky in Multitude',
     principle:
-      'From one as good as dead sprang the star-and-sand multitude. First principle: the promises of Genesis 15 and 22 outgrew their hearer — life from the dead is the seed\'s origin story.',
+      'From one man as good as dead came descendants as many as the stars of the sky. First principle: the promises of Genesis 15 and Genesis 22 outgrew the man who heard them. Life from the dead is where the seed line starts.',
     sourceKeywords: ['him as good as dead', 'stars of the sky in multitude', 'sand which is by the sea shore'],
     fulfillmentKeywords: ['look now toward heaven', 'so shall thy seed be'],
     terms: [],
@@ -4123,7 +4123,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-17': {
     title: 'He That Had Received the Promises Offered Up Isaac',
     principle:
-      'The trial of Moriah: the only begotten offered, the promises believed. First principle: Abraham reasoned that God could raise the dead — promise and sacrifice met on one altar.',
+      'At Moriah Abraham offered his only begotten son, and he still believed the promises. First principle: Abraham reasoned that God could raise the dead. Promise and sacrifice met on one altar.',
     sourceKeywords: ['when he was tried', 'offered up Isaac', 'his only begotten son'],
     fulfillmentKeywords: ['Take now thy son, thine only son Isaac'],
     terms: [],
@@ -4131,7 +4131,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-11-18': {
     title: 'In Isaac Shall Thy Seed Be Called',
     principle:
-      'The offering contradicted the covenant word — yet Abraham accounted God faithful. First principle: when sacrifice seems to erase the promise, faith holds both: God keeps His word through the knife.',
+      'The command to offer Isaac seemed to cancel the promise of a seed. Yet Abraham counted God faithful. First principle: faith holds both words together when they appear to clash. God keeps His word even through the knife.',
     sourceKeywords: ['Of whom it was said', 'In Isaac shall thy seed be called'],
     fulfillmentKeywords: ['for in Isaac shall thy seed be called'],
     terms: [],
@@ -4139,7 +4139,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-12-2': {
     title: 'The Author and Finisher of Our Faith',
     principle:
-      'For the joy set before Him, Jesus endured the cross, despised the shame, and sat down at the throne. First principle: Psalm 22\'s suffering and Psalm 110\'s session are one arc — endure by looking at the end from the beginning.',
+      'For the joy set before Him, Jesus endured the cross and despised the shame of it. Then He sat down on the throne, at the place of highest honour. First principle: Psalm 22\'s suffering and Psalm 110\'s session are one arc. So endure by looking at the end from the beginning.',
     sourceKeywords: ['author and finisher', 'endured the cross', 'despising the shame', 'right hand of the throne of God'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'he shall see of the travail'],
     terms: [],
@@ -4147,7 +4147,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-12-5': {
     title: 'Despise Not Thou the Chastening of the Lord',
     principle:
-      'Proverbs 3 is quoted to reframe suffering as sonship. First principle: chastening is proof of love, not evidence of rejection — scourging marks every legitimate child.',
+      'The writer quotes Proverbs 3 to reframe suffering as sonship. First principle: chastening proves God\'s love, and it is not evidence that God has rejected you. Every legitimate child receives the scourging.',
     sourceKeywords: ['My son, despise not thou the chastening', 'nor faint when thou art rebuked'],
     fulfillmentKeywords: ['despise not the chastening of the LORD', 'delight in him'],
     terms: [],
@@ -4155,7 +4155,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-12-20': {
     title: 'If So Much as a Beast Touch the Mountain',
     principle:
-      'Sinai\'s boundary of death is recalled before Zion\'s open invitation. First principle: the old mountain\'s terror measures the new mountain\'s grace — both are real; approach God His way.',
+      'The writer recalls Sinai\'s deadly boundary before he opens Zion\'s invitation. First principle: the terror of the old mountain shows how great the grace of the new mountain is. Both mountains are real, so come to God His way.',
     sourceKeywords: ['they could not endure', 'a beast touch the mountain', 'stoned, or thrust through'],
     fulfillmentKeywords: ['whosoever toucheth the mount', 'surely be put to death'],
     terms: [],
@@ -4163,7 +4163,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-12-26': {
     title: 'Yet Once More I Shake Not the Earth Only, but Also Heaven',
     principle:
-      'Haggai\'s shaking is escalated: the final quake removes what is shakeable. First principle: created things tremble so the unshakeable kingdom may stand — Haggai\'s promise reaches past Sinai to the end.',
+      'Haggai\'s shaking grows larger: the final quake removes what can be shaken. First principle: created things tremble so that the kingdom which cannot be shaken may stand. Haggai\'s promise reaches past Sinai to the end.',
     sourceKeywords: ['Whose voice then shook the earth', 'Yet once more I shake', 'not the earth only, but also heaven'],
     fulfillmentKeywords: ['I will shake all nations', 'the desire of all nations'],
     terms: [],
@@ -4171,7 +4171,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-12-29': {
     title: 'Our God Is a Consuming Fire',
     principle:
-      'The flame on Sinai and over Egypt is our God. First principle: the fire that consumes sacrifice consumes refusal — worship acceptably, with reverence and godly fear.',
+      'The fire that burned on Sinai and over Egypt is our God. First principle: the fire that consumes the sacrifice burned, and it also burns against the refusal. So worship God acceptably, with reverence and godly fear.',
     sourceKeywords: ['our God is a consuming fire'],
     fulfillmentKeywords: ['the LORD thy God is a consuming fire'],
     terms: [],
@@ -4179,7 +4179,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-13-5': {
     title: 'I Will Never Leave Thee, nor Forsake Thee',
     principle:
-      'Contentment leans on God\'s presence-promise from Moses and Joshua. First principle: the antidote to covetousness is a promise of company — He is with us, so He is enough.',
+      'Contentment rests on God\'s promise to stay with His people, given through Moses and Joshua: “I will never leave thee, nor forsake thee.” First principle: the cure for covetousness is a promise of company. He is with us, so He is enough.',
     sourceKeywords: ['without covetousness', 'be content', 'I will never leave thee, nor forsake thee'],
     fulfillmentKeywords: ['he will not fail thee, nor forsake thee'],
     terms: [],
@@ -4187,7 +4187,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-13-6': {
     title: 'The Lord Is My Helper; I Will Not Fear',
     principle:
-      'Psalm 118 becomes bold speech against the fear of man. First principle: confidence against man rests on the Lord as helper — the Stone-casting psalm frees us from dread.',
+      'The psalmist turns Psalm 118 into bold speech against the fear of man: “The Lord is my helper, and I will not fear.” First principle: confidence against man rests on the Lord as helper. The psalm that points to the Stone frees us from dread.',
     sourceKeywords: ['we may boldly say', 'The Lord is my helper', 'what man shall do unto me'],
     fulfillmentKeywords: ['The LORD is on my side', 'I will not fear'],
     terms: [],
@@ -4203,7 +4203,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'heb-13-12': {
     title: 'Jesus Suffered Without the Gate',
     principle:
-      'The atonement pattern lands on Golgotha: sanctifying blood shed outside Jerusalem. First principle: the exile of the sin-offering is the address of the cross — let us go forth to Him without the camp.',
+      'The sin offering was burned outside the camp, and the blood that sanctifies was shed outside Jerusalem. First principle: the cross stands where the sin offering was carried, outside the gate. So let us go out to Him, outside the camp, and share His shame.',
     sourceKeywords: ['sanctify the people with his own blood', 'suffered without the gate'],
     fulfillmentKeywords: ['burn them without the camp'],
     terms: [],
