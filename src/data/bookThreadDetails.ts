@@ -1235,7 +1235,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-6-3': {
     title: 'He Shall Come as the Rain',
     principle:
-      'The prophet urges Israel to pursue the knowledge of the LORD, whose going forth is as certain as the morning dawn, and who will come to His people like the rain—like the latter and former rain watering the dry earth. First principle: God\'s presence and revival come as life-restoring rain upon penitent hearts.',
+      'Hosea tells Israel to keep seeking the LORD. God will come back to His people as surely as the sunrise. He will come like the rain that waters the dry ground. First principle: God\'s presence brings new life to the person who turns back to Him.',
     sourceKeywords: ['follow on to know the LORD', 'going forth', 'morning', 'come unto us as the rain', 'latter and former rain'],
     fulfillmentKeywords: ['rain', 'revive', 'third day', 'live in his sight', 'Spirit'],
     terms: [
@@ -1787,11 +1787,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-11-1': {
     title: 'Called My Son out of Egypt',
     principle:
-      'When Israel was a child, then I loved him, and called my son out of Egypt. What Israel embodied poorly, the true Son embodies perfectly: God calls His Son up out of Egypt after Herod\'s wrath. First principle: Israel\'s history is prophetic pattern; Christ relives and fulfills it.',
+      '"When Israel was a child, then I loved him, and called my son out of Egypt." Israel lived out that sonship badly. The true Son lives it out perfectly. God calls His Son up out of Egypt after Herod\'s anger. First principle: Israel\'s history is a prophetic pattern. Christ walks the same road and fulfills it.',
     sourceKeywords: ['Israel was a child', 'I loved him', 'called my son out of Egypt', 'they sacrificed unto Baalim'],
     fulfillmentKeywords: ['arise, and take the young child', 'out of Egypt', 'that it might be fulfilled'],
     terms: [
-      { term: 'my son', original: 'בְּנִי', translit: 'veni', gloss: 'my son', note: 'Exodus 4:22 names Israel my son, my firstborn; Hosea 11:1 renews the call, and Matthew hears the greater Son in it (Matt 2:15).' },
+      { term: 'my son', original: 'בְּנִי', translit: 'veni', gloss: 'my son', note: 'Exodus 4:22 calls Israel "my son, my firstborn". Hosea 11:1 says it again, and Matthew hears the greater Son in the words (Matt 2:15).' },
     ],
   },
   'jer-31-15': {
@@ -2160,11 +2160,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-6-2': {
     title: 'In the Third Day He Will Raise Us Up',
     principle:
-      'After two days will he revive us: in the third day he will raise us up, and we shall live in his sight. Israel\'s national revival is couched in resurrection rhythm. First principle: the third day is God\'s appointed turning point — and the early church confessed it as according to the scriptures.',
+      '"After two days will he revive us: in the third day he will raise us up, and we shall live in his sight." Hosea pictures Israel\'s national revival with the rhythm of a resurrection. First principle: God appointed the third day as His turning point. The early church confessed the same words as "according to the scriptures", exactly as they are written in Hosea.',
     sourceKeywords: ['After two days will he revive us', 'in the third day he will raise us up', 'we shall live in his sight', 'as the latter and former rain'],
     fulfillmentKeywords: ['rose again the third day', 'according to the scriptures', 'be killed, and after three days rise again', 'the third day rise again'],
     terms: [
-      { term: 'revive', original: 'יְחַיֵּנוּ', translit: 'yehayyenu', gloss: 'he will make us alive', note: 'The intensive stem of khayah — to give life — the verb of resurrection hope long before the empty tomb.' },
+      { term: 'revive', original: 'יְחַיֵּנוּ', translit: 'yehayyenu', gloss: 'he will make us alive', note: 'The intensive form of khayah means "to give life". Hosea used that verb to speak of resurrection hope, long before the empty tomb.' },
     ],
   },
   'psa-110-1': {
@@ -9639,7 +9639,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-1-10': {
     title: 'Ye Are the Sons of the Living God',
     principle:
-      'Sand-numbered Israel, and in the place of not-my-people, sons of the living God. First principle: the reversal is place-exact — rejection\'s ground becomes adoption\'s ground, quoted by Paul for Jew and Gentile.',
+      'Israel will become as many as the sand. In the same place where God said "Ye are not my people", He now calls them "the sons of the living God". First principle: God reverses the rejection in the exact place where it happened. The place of rejection becomes the place of adoption. Paul applies this to Jew and Gentile alike.',
     sourceKeywords: ['as the sand of the sea', 'Ye are not my people', 'the sons of the living God'],
     fulfillmentKeywords: ['there shall they be called the children of the living God'],
     terms: [],
@@ -9647,7 +9647,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-2-1': {
     title: 'Say Ye unto Your Brethren, Ammi; and to Your Sisters, Ruhamah',
     principle:
-      'The renamed children: My-people and Having-obtained-mercy. First principle: Hosea\'s children are walking prophecies — Lo-ammi becomes Ammi on God\'s say-so, the sermon preached by name.',
+      'God renamed Hosea\'s children My-people and Having-obtained-mercy. First principle: Hosea\'s children are walking prophecies. God Himself says the word, and Lo-ammi becomes Ammi. The names preach the sermon.',
     sourceKeywords: ['Ammi', 'Ruhamah'],
     fulfillmentKeywords: ['which were not my people'],
     terms: [],
@@ -9655,7 +9655,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-2-23': {
     title: 'I Will Sow Her unto Me in the Earth',
     principle:
-      'Mercy on the unmercied; not-my-people renamed My-people. First principle: the sowing verb is the covenant\'s agriculture — Jezreel\'s judgment-name becomes planted-inheritance.',
+      'God shows mercy on people who had never received mercy. He renames not-my-people as My-people. First principle: Hosea\'s sowing picture belongs to God\'s binding promise. The judgment-name Jezreel becomes the name of a planted inheritance.',
     sourceKeywords: ['I will sow her unto me in the earth', 'mercy upon her that had not obtained mercy', 'Thou art my people'],
     fulfillmentKeywords: ['I will call them my people, which were not my people'],
     terms: [],
@@ -9663,7 +9663,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-6-6': {
     title: 'I Desired Mercy, and Not Sacrifice',
     principle:
-      'Knowledge of God over burnt offerings. First principle: the scale-verse of prophetic religion — quoted twice by Jesus against ritual without covenant love.',
+      'God wants people to know Him, not to bring Him burnt offerings. First principle: this verse holds the two sides of prophetic religion together. Jesus quoted it twice against worship that kept the ritual but lost covenant love.',
     sourceKeywords: ['I desired mercy, and not sacrifice', 'the knowledge of God more than burnt offerings'],
     fulfillmentKeywords: ['I will have mercy, and not sacrifice'],
     terms: [],
@@ -9671,7 +9671,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hos-13-14': {
     title: 'O Death, I Will Be Thy Plagues',
     principle:
-      'Ransom from the grave\'s power; death becomes plague, grave becomes destruction. First principle: the redemption-from-death taunt is Paul\'s victory cry source — the plagues turn on death itself.',
+      'God announces the ransom that buys His people back from the grave\'s power. Death becomes plague, and the grave becomes destruction. First principle: Paul drew his victory cry from this taunt against death. The plagues turn on death itself.',
     sourceKeywords: ['ransom them from the power of the grave', 'O death, I will be thy plagues', 'O grave, I will be thy destruction'],
     fulfillmentKeywords: ['O death, where is thy sting? O grave, where is thy victory?'],
     terms: [],
