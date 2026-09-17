@@ -2,11 +2,23 @@
 
 **Plan:** `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` (one-pass protocol)
 **Branch:** `cursor/plain-lang-cp01-cp02-genesis-ebb9` · **Commits:** `8ec30bb` (NUM) → `765dccd` (ROM) → `c24cb66` (PSA)
-**Date:** 2026-09-17 · **Status:** ⛔ **HARD HALT — awaiting the operator's voice-lock verdict**
+**Date:** 2026-09-17 · **Status:** ✅ **VOICE LOCK APPROVED — Stage A open**
 
 ---
 
-## 1 · Why this halt exists, and what it costs to change course now
+## 0 · Voice-lock verdict and the rulings taken with it
+
+The operator approved the calibration and directed that the recommended options be taken. Rulings,
+recorded here so every remaining book is judged by the same standard:
+
+| # | Question | Ruling | Consequence for the remaining 60 books |
+|---|---|---|---|
+| 1 | Voice lock | **APPROVED** — Stage A proceeds with the frozen glossary, invariant I1, and the §1.11 verify-only rule unchanged | No re-litigation of voice; the calibration books are not repeated |
+| 2 | §5 the 46 punctuation-only drafts | **Kept as applied, reported as their own class.** They change no word and convert a 20+ word em-dash/colon clause into its own sentence, which is §1.7's first rule; the metric and the writers disagreed, so the class is surfaced in every book's summary rather than silently kept or dropped | Writers may continue to split long clauses, but a draft carrying no new words must say so in its `reason`; `cp02RewriteQuality.ts` classifies and counts them per book |
+| 3 | §6 quotation fidelity | **Unchanged in this sweep.** Every quotation and every unquoted Scripture-style rendering is carried byte-identical; nothing is modernised and nothing is silently "restored" to canon | The census findings (2 not-in-canon, 4 loose, 23 uncited, 7 unquoted renderings differing from KJV) are queued for the closeout report as a separate Scripture-integrity decision — **not** fixed here |
+| 4 | CHK-01 (the lint gate blocked by two broken files) | Recommended option (a): **exclude the operator's two pre-existing broken appendix scripts from this plan's type gate**, leaving them untouched | A plan-scoped type gate verifies the sweep's own code; the strict repo `npm run lint` stays red until the operator repairs or retires those files |
+
+Everything below is machine-verified on committed code. Nothing is claimed that a command did not print.
 
 The single failure mode of a one-pass rewrite is a *systematic* voice error: one wrong rendering
 repeated ~1,350 times. Three books spanning the canon's three hardest registers expose it while the
