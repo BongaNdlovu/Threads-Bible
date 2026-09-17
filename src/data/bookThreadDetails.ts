@@ -1263,9 +1263,9 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'jam-5-7': {
-    title: 'Patience Until the Early and Latter Rain',
+    title: 'James Tells Believers to Wait Patiently for the Lord\'s Coming',
     principle:
-      'James instructs believers to be patient until the coming of the Lord, watching how the farmer waits for the precious fruit of the earth until it receives the early and latter rain. The ripening of Christian character and the completion of the gospel mission require the final spiritual rain before the harvest of the earth (Rev 14:14-16). First principle: eschatological endurance is sustained by the promise of the Spirit\'s harvest rain.',
+      'James tells believers to be patient until the coming of the Lord. Watch how the farmer waits for the precious fruit of the earth. The farmer waits until it receives the early and latter rain. Christian character must ripen, and the gospel mission must be finished, and both need the final spiritual rain. That rain comes before the harvest of the earth (Rev 14:14-16). First principle: endurance in the last days is sustained by the promise of the Spirit\'s harvest rain.',
     sourceKeywords: ['patient', 'coming of the Lord', 'husbandman', 'precious fruit', 'early and latter rain'],
     fulfillmentKeywords: ['harvest of the earth', 'ripe', 'thrust in thy sickle', 'Son of man'],
     terms: [
@@ -7600,7 +7600,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
 
   // ── Hand-written expansion: James ───────────────────────────────────────
   'jam-1-10': {
-    title: 'The Rich... as the Flower of the Grass He Shall Pass Away',
+    title: 'The Rich Man Passes Away as the Flower of the Grass',
     principle:
       'The brother of low degree glories in exaltation; the rich in humiliation. First principle: Isaiah 40\'s grass-logic levels economics — both brothers glory, but in opposite directions.',
     sourceKeywords: ['the rich, in that he is made low', 'as the flower of the grass he shall pass away'],
@@ -7610,15 +7610,15 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-1-12': {
     title: 'Blessed Is the Man That Endureth Temptation',
     principle:
-      'The tried receive the crown of life, promised to lovers of God. First principle: endurance is the trial\'s appointed outcome — love of God is the motive, the crown the promised award.',
+      'The tried receive the crown of life, promised to lovers of God. First principle: God appointed endurance as the outcome of the trial. Love for God is what moves a person to endure. God has promised the crown, and he will give it.',
     sourceKeywords: ['Blessed is the man that endureth temptation', 'he shall receive the crown of life', 'promised to them that love him'],
     fulfillmentKeywords: ['be thou faithful unto death, and I will give thee a crown of life'],
     terms: [],
   },
   'jam-2-8': {
-    title: 'If Ye Fulfil the Royal Law... Thou Shalt Love Thy Neighbour as Thyself',
+    title: 'Keep the Royal Law: Love Your Neighbour as Yourself',
     principle:
-      'The Leviticus law is royal in this reading. First principle: the law has a king-command — loving the neighbor is royalty behavior; partiality breaks the crown-law.',
+      'The law from Leviticus is royal in this reading. First principle: the law carries a king\'s command. Loving your neighbour is royal behaviour. Showing partiality breaks the crown-law.',
     sourceKeywords: ['the royal law according to the scripture', 'love thy neighbour as thyself'],
     fulfillmentKeywords: ['thou shalt love thy neighbour as thyself: I am the LORD'],
     terms: [],
@@ -7626,7 +7626,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-2-11': {
     title: 'He That Said, Do Not Commit Adultery, Said Also, Do Not Kill',
     principle:
-      'The same Speaker wrote both commands — so the law is seamless. First principle: the Giver unifies the law; break one point and the whole Speaker is offended — the law is a single fabric.',
+      'The same Speaker spoke both commands, so the law cannot be torn apart. First principle: God gave the whole law, so the law is one piece. Break one point of it, and you have offended the God who gave all of it.',
     sourceKeywords: ['He that said, Do not commit adultery, said also, Do not kill', 'a transgressor of the law'],
     fulfillmentKeywords: ['Thou shalt not kill', 'Thou shalt not commit adultery'],
     terms: [],
@@ -7634,7 +7634,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-2-23': {
     title: 'Abraham Believed God... and He Was Called the Friend of God',
     principle:
-      'Genesis 15:6 fulfilled, and the friend-title conferred. First principle: imputation and intimacy arrive together — righteousness counted, friendship named; faith works because it knows.',
+      'Genesis 15:6 was fulfilled, and the title Friend of God was given. First principle: God counts a person righteous and calls that person a friend, and both happen together. Faith works because it knows God.',
     sourceKeywords: ['the scripture was fulfilled', 'Abraham believed God', 'imputed unto him for righteousness', 'the Friend of God'],
     fulfillmentKeywords: ['he believed in the LORD', 'seest thou how faith wrought with his works'],
     terms: [],
@@ -7642,7 +7642,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-4-6': {
     title: 'God Resisteth the Proud, but Giveth Grace unto the Humble',
     principle:
-      'More grace — but only downhill. First principle: the grace-gradient is vertical: pride resists it, humility receives it; Proverbs 3 and 1 Peter 5 bracket the same slope.',
+      '"God resisteth the proud, but giveth grace unto the humble." That is grace running downhill — pride pushes it away, and humility receives it. First principle: Proverbs 3 and 1 Peter 5 follow the same pattern.',
     sourceKeywords: ['he giveth more grace', 'God resisteth the proud', 'grace unto the humble'],
     fulfillmentKeywords: ['surely he scorneth the scorners: but he giveth grace unto the lowly'],
     terms: [],
@@ -7650,7 +7650,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-5-3': {
     title: 'Your Gold and Silver Is Cankered',
     principle:
-      'Heaped treasure testifies in the last days. First principle: hoarded wealth is stored prosecution — rust eats flesh like fire; the last days have their own audit.',
+      'Wealth heaped up will testify against its owner in the last days. First principle: hoarded treasure is evidence stored up for the prosecution. Rust eats the flesh like fire, and the last days hold their own audit.',
     sourceKeywords: ['gold and silver is cankered', 'the rust... a witness against you', 'heaped treasure for the last days'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7658,7 +7658,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-5-11': {
     title: 'Ye Have Heard of the Patience of Job',
     principle:
-      'The end of the Lord shows pitifulness and mercy. First principle: endurance is read backward — Job\'s end doubled his estate; the Lord\'s tender mercy is seen in the outcome.',
+      '"The end of the Lord" was mercy. First principle: we read endurance backward. Job\'s end doubled what he owned, and the Lord\'s tender mercy shows in how the story finished.',
     sourceKeywords: ['the patience of Job', 'the end of the Lord', 'very pitiful, and of tender mercy'],
     fulfillmentKeywords: ['the LORD gave, and the LORD hath taken away'],
     terms: [],
@@ -7666,7 +7666,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jam-5-17': {
     title: 'Elias Was a Man Subject to Like Passions as We Are',
     principle:
-      'Elijah prayed, and the sky closed three and a half years. First principle: passionate men pray powerful prayers — the prophet\'s nature was ours; the difference was the praying.',
+      'Elijah prayed, and the sky closed for three and a half years. Then he prayed again, and rain fell on the earth. He was a man of like passions as we are. He was not different from us by nature. He was different in his praying. First principle: passionate men pray powerful prayers.',
     sourceKeywords: ['a man subject to like passions as we are', 'prayed earnestly', 'it rained not... three years and six months'],
     fulfillmentKeywords: ['as the LORD God of Israel liveth... there shall not be dew nor rain'],
     terms: [],
