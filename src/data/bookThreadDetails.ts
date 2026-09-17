@@ -2190,11 +2190,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-2-10': {
     title: 'He Shall Exalt the Horn of His Anointed',
     principle:
-      'The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah\'s song closes with the first occurrence of Mashiach in Scripture — centuries before a king exists in Israel. First principle: the anointed King is a promise before He is a person on a throne; broken adversaries and exalted strength converge on Christ.',
+      'The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah\'s song closes with the first occurrence of Mashiach in Scripture — hundreds of years before a king exists in Israel. First principle: God promises his anointed King long before any man sits on a throne. Broken adversaries and exalted strength converge on Christ.',
     sourceKeywords: ['adversaries of the LORD broken to pieces', 'thunder upon them', 'give strength unto his king', 'horn of his anointed'],
     fulfillmentKeywords: ['horn of his salvation', 'raised up an horn of salvation', 'of the house of David', 'a Saviour, Jesus'],
     terms: [
-      { term: 'his anointed', original: 'מְשִׁיחוֹ', translit: 'meshikho', gloss: 'his anointed one (Mashiach)', note: 'First Scripture use of the title Messiah; Mary and Zacharias echo Hannah\'s song almost clause for clause (Luke 1-2).' },
+      { term: 'his anointed', original: 'מְשִׁיחוֹ', translit: 'meshikho', gloss: 'his anointed one (Mashiach)', note: 'The first time Scripture calls anyone the Messiah; Mary and Zacharias echo Hannah\'s song in almost the same words (Luke 1-2).' },
     ],
   },
   'psa-2-1': {
@@ -8385,7 +8385,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-2-1': {
     title: 'My Heart Rejoiceth in the LORD; Mine Horn Is Exalted',
     principle:
-      'Hannah\'s prayer of exultation in salvation. First principle: the barren woman\'s song becomes Mary\'s Magnificat template — horn exalted, mouth enlarged, rejoicing in salvation.',
+      'Hannah\'s prayer of praise for the salvation God gives. First principle: the barren woman\'s song becomes the pattern Mary follows in her Magnificat. Hannah\'s horn is exalted, her mouth is enlarged, and she rejoices in the salvation God gives.',
     sourceKeywords: ['My heart rejoiceth in the LORD', 'mine horn is exalted', 'I rejoice in thy salvation'],
     fulfillmentKeywords: ['My soul doth magnify the Lord'],
     terms: [],
@@ -8393,7 +8393,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-2-35': {
     title: 'I Will Raise Me Up a Faithful Priest',
     principle:
-      'A priest after God\'s own heart, a sure house, walking before the anointed forever. First principle: Eli\'s house falls so the faithful-priest promise stands — fulfilled in Zadok and ultimately in the Son.',
+      'A priest after God\'s own heart, a sure house, walking before the anointed forever. First principle: Eli\'s house falls, and God\'s promise to raise up a faithful priest stands. God kept that promise in Zadok, and at last in his Son.',
     sourceKeywords: ['I will raise me up a faithful priest', 'according to that which is in mine heart', 'a sure house'],
     fulfillmentKeywords: ['consider the Apostle and High Priest of our profession, Christ Jesus'],
     terms: [],
@@ -8401,7 +8401,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-8-7': {
     title: 'They Have Not Rejected Thee, but They Have Rejected Me',
     principle:
-      'The throne-rejection read as theocracy-rejection. First principle: asking for a king like the nations is a verdict on God\'s reign — and Hosea repeats the charge when Israel asks a king again.',
+      'The throne-rejection read as theocracy-rejection. First principle: when Israel asks for a king like other nations, they are rejecting God as their king. Hosea repeats the charge when Israel asks a king again.',
     sourceKeywords: ['they have not rejected thee', 'they have rejected me', 'that I should not reign over them'],
     fulfillmentKeywords: ['I gave thee a king in mine anger'],
     terms: [],
@@ -8417,7 +8417,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-16-1': {
     title: 'I Have Provided Me a King Among His Sons',
     principle:
-      'Mourning ends; the horn fills; Jesse of Bethlehem is named. First principle: God\'s provided king comes from Bethlehem before David is born there — the town is already messianic address.',
+      'Mourning ends; the horn fills; Jesse of Bethlehem is named. First principle: God chose Bethlehem for his king long before David was born there. The town is already named as the place the promised King comes from.',
     sourceKeywords: ['How long wilt thou mourn for Saul', 'fill thine horn with oil', 'I have provided me a king'],
     fulfillmentKeywords: ['he raised up unto them David to be their king'],
     terms: [],
@@ -8425,7 +8425,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-16-13': {
     title: 'The Spirit of the LORD Came upon David from That Day Forward',
     principle:
-      'The anointing oil and the abiding Spirit. First principle: the anointing is real and retroactive to the tribe of Judah — the Spirit comes upon David and never recorded as departing till the sin with Bathsheba\'s prayer.',
+      'The anointing oil and the abiding Spirit. First principle: the anointing is real, and God keeps his word to the tribe of Judah. The Spirit comes on David and stays with him. Scripture never records the Spirit leaving him until his sin with Bathsheba — when he prays that God not take the Holy Spirit from him.',
     sourceKeywords: ['the horn of oil, and anointed him', 'the Spirit of the LORD came upon David', 'from that day forward'],
     fulfillmentKeywords: ['I have found David... a man after mine own heart'],
     terms: [],
@@ -8433,7 +8433,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-17-45': {
     title: 'I Come to Thee in the Name of the LORD of Hosts',
     principle:
-      'Sword and spear versus the Name. First principle: the shepherd-boy\'s theology defeats the giant\'s arsenal — the battle is fought in a name, not in hardware.',
+      'Sword and spear versus the Name. First principle: David\'s weapon is the Name of the LORD of hosts — not the giant\'s sword and spear. The battle belongs to God, and David says so out loud before he fights.',
     sourceKeywords: ['in the name of the LORD of hosts', 'whom thou hast defied'],
     fulfillmentKeywords: ['the weapons of our warfare are not carnal'],
     terms: [],
@@ -8441,7 +8441,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1sa-17-47': {
     title: 'The Battle Is the LORD\'S',
     principle:
-      'The assembly learns salvation without sword or spear. First principle: ownership of the battle decides the outcome — the LORD gives into hands, and the assembly knows.',
+      'The assembly learns salvation without sword or spear. First principle: whoever owns the battle decides how it ends. The LORD gives into hands, and the assembly knows it.',
     sourceKeywords: ['the LORD saveth not with sword and spear', 'the battle is the LORD\'S', 'he will give you into our hands'],
     fulfillmentKeywords: ['the battle is not yours, but God\'s'],
     terms: [],
