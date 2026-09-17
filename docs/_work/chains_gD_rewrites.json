@@ -42,7 +42,7 @@
       "entryId": "chain:day-of-the-lord",
       "field": "steps[5].connection",
       "after": "NT: Peter says the Spirit poured out that day is what Joel foretold.",
-      "reason": "\"explicitly identified as Joel's prophecy\" is a nominal stack with no verb for Peter. The rewrite uses \"says\" and names what was identified — the Spirit poured out at Pentecost. QUOTE-REVIEW (do not fix here): step 5's own title quotes \"This is that spoken by Joel\"; the served KJV at Acts 2:16 reads \"But this is that which was spoken by the prophet Joel\". Carried byte-identical per the CP-02 §6 ruling. One sentence, 14 words (was 7)."
+      "reason": "\"explicitly identified as Joel's prophecy\" is a nominal stack with no verb for Peter. The rewrite uses \"says\" and names what was identified — the Spirit poured out at Pentecost. NOTE: the QUOTE-REVIEW for this step concerns steps[5].title, not this connection string, and is recorded there. One sentence, 14 words (was 7)."
     },
     {
       "entryId": "chain:day-of-the-lord",

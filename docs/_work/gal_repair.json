@@ -1,0 +1,230 @@
+{
+  "book": "gal",
+  "bookName": "Galatians",
+  "drafts": [
+    {
+      "entryId": "gal-3-28",
+      "field": "principle",
+      "after": "All one in Christ Jesus. First principle: that oneness is baptismal and rests on God’s binding promise. Every believer is one heir, and the old walls came down in the water.",
+      "reason": "OPERATOR-RULED REPAIR follow-up: the never-write adjective \"covenantal\" survived here although this draft's own reason claimed the frozen glossary rendering had replaced it. The rendering is now used (\"God's binding promise\"), the claim is unchanged, and the sentence passes the gate. Found by the CP-05 cross-book consistency read (finding W2) and confirmed live by the findings triage."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "gal-4-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-22",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-17",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-5",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-29",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-6-16",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-30",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-1-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-6-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-22",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-19",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-27",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-16",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-12",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-16",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-17",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-1-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-28",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-12",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-29",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-6-16",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-5",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-22",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-30",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-27",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-19",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-6-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-4-22",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    }
+  ],
+  "equivalent": []
+}

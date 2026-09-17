@@ -172,12 +172,6 @@
     },
     {
       "entryId": "chain:righteous-branch",
-      "field": "steps[8].connection",
-      "after": "In the New Testament Zechariah calls the coming deliverer the sunrise from on high. The Greek word is the same word the prophets used for the Branch.",
-      "reason": "V2/V4: the two facts are split into two sentences and the speaker is named, so the reader is not left with a pronoun (he uses the same word) pointing at nobody. V3: praises the sunrise that visits us becomes calls the coming deliverer the sunrise from on high, so the sunrise is identified as a person, and the word for is said as the prophets used. The shared-word claim between Luke 1:78 and the Branch prophecies is kept; the Greek is described in English because no Greek run exists in this string to carry."
-    },
-    {
-      "entryId": "chain:righteous-branch",
       "field": "steps[9].connection",
       "after": "In the New Testament Paul quotes Isaiah 11:10 to show that people outside Israel have hope as well.",
       "reason": "V2: the verbless also have hope becomes a clause with people outside Israel as the subject and have as the verb, and Gentiles is written out as people outside Israel. The citation Isaiah 11:10 is unchanged, and Paul quotes ... to show already names the actor and the purpose."
@@ -187,18 +181,6 @@
       "field": "steps[10].connection",
       "after": "In the New Testament the same King is the Lion who conquers and the morning star.",
       "reason": "V3: triumphant becomes the Lion who conquers, which is the image Revelation itself uses of him, and the two titles are attached to the King the chain has been following instead of to a bare name. V2: one sentence, one idea, plain word order."
-    },
-    {
-      "entryId": "chain:righteous-branch",
-      "field": "steps[4].title",
-      "after": "The Branch of righteousness, the LORD our righteousness",
-      "reason": "V3: the title's second half is the KJV name the LORD our righteousness, and the app's capital Our breaks it into words the verse does not have. Nothing else is changed, so this is a title-level alignment with the KJV phrase, not a rewrite of the claim. QUOTE-REVIEW: the app's title reads The Righteous Branch, the LORD Our Righteousness; the KJV of Jeremiah 23:6 reads THE LORD OUR RIGHTEOUSNESS, so the app's capital Our is not in the canon."
-    },
-    {
-      "entryId": "chain:righteous-branch",
-      "field": "steps[8].title",
-      "after": "Sunrise from on high (Anatolē / Tsemach)",
-      "reason": "V3: the archaic KJV word Dayspring is replaced with the everyday word sunrise, which is what it means and what the sentence beneath the title already calls the coming deliverer. The transliterations Anatolē and Tsemach are untouchable (I1) and are carried byte-identical, neither added nor dropped. QUOTE-REVIEW: the app's title reads Dayspring from on high, which is the KJV wording of Luke 1:78; the title is not a quotation in the app and keeps its citation, but the KJV word itself has been replaced with the plain word sunrise."
     },
     {
       "entryId": "chain:former-latter-rain",
@@ -238,115 +220,566 @@
     }
   ],
   "verifyOnly": [
-    { "entryId": "zec-2-10", "field": "title", "reason": "V1/V2/V3/V4: 12 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 2:10 (lo, I come, and I will dwell in the midst of thee) and stays byte-identical under I1." },
-    { "entryId": "zec-3-1", "field": "title", "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 3:1 (Joshua the high priest ... and Satan standing at his right hand) and stays byte-identical under I1." },
-    { "entryId": "zec-3-8", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one sentence, gate clean. It is the KJV wording of Zechariah 3:8 (I will bring forth my servant the BRANCH) and stays byte-identical under I1, including the capitalised BRANCH." },
-    { "entryId": "zec-3-9", "field": "title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 3:9 (the stone that I have laid before Joshua; upon one stone shall be seven eyes) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "zec-4-6", "field": "title", "reason": "V1/V2/V3/V4: 10 words, one sentence, gate clean. It is the KJV wording of Zechariah 4:6 (Not by might, nor by power, but by my spirit) and stays byte-identical under I1." },
-    { "entryId": "zec-4-10", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one question, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 4:10 (For who hath despised the day of small things?) and stays byte-identical under I1." },
-    { "entryId": "zec-6-12", "field": "title", "reason": "V1/V2/V3/V4: 12 words, one phrase, gate clean. Both halves are KJV wording from Zechariah 6:12-13 (Behold the man whose name is The BRANCH; he shall be a priest upon his throne) joined by the app's em-dash, and both halves stay byte-identical under I1." },
-    { "entryId": "zec-6-13", "field": "title", "reason": "V1/V2/V3/V4: 13 words, one sentence, gate clean. It is the KJV wording of Zechariah 6:13 (he shall bear the glory, and shall sit and rule upon his throne) and stays byte-identical under I1." },
-    { "entryId": "zec-8-16", "field": "title", "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 8:16 (Speak ye every man the truth to his neighbour) and stays byte-identical under I1." },
-    { "entryId": "zec-9-9", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 9:9 (thy King cometh unto thee ... lowly, and riding upon an ass) and stays byte-identical under I1. This entry is the golden anchor zec-9-9, so all of its fields stay VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-10", "field": "title", "reason": "V1/V2/V3/V4: 7 words, one sentence, one idea, gate clean. It is the KJV wording of Zechariah 9:10 (he shall speak peace unto the heathen) and stays byte-identical under I1." },
-    { "entryId": "zec-10-1", "field": "title", "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 10:1 (Ask ye of the LORD rain in the time of the latter rain) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "zec-11-12", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 11:13 (Cast it unto the potter ... a goodly price) and stays byte-identical under I1." },
-    { "entryId": "zec-11-13", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 11:13 (Cast it unto the potter: a goodly price) and stays byte-identical under I1." },
-    { "entryId": "zec-12-10", "field": "title", "reason": "V1/V2/V3/V4: 8 words, one sentence, gate clean. It is the KJV wording of Zechariah 12:10 (they shall look upon me whom they have pierced) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "zec-12-11", "field": "title", "reason": "V1/V2/V3/V4: 10 words, one sentence, gate clean. It is the KJV wording of Zechariah 12:11 (a great mourning in Jerusalem, as the mourning of Hadadrimmon) and stays byte-identical under I1." },
-    { "entryId": "zec-13-1", "field": "title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:1 (a fountain opened ... for sin and for uncleanness) and stays byte-identical under I1." },
-    { "entryId": "zec-13-7", "field": "title", "reason": "V1/V2/V3/V4: 3 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:7 (smite the shepherd) and stays byte-identical under I1." },
-    { "entryId": "zec-14-4", "field": "title", "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:4 (his feet shall stand in that day upon the mount of Olives) and stays byte-identical under I1." },
-    { "entryId": "zec-14-5", "field": "title", "reason": "V1/V2/V3/V4: 12 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:5 (the LORD my God shall come, and all the saints with thee) and stays byte-identical under I1." },
-    { "entryId": "zec-14-8", "field": "title", "reason": "V1/V2/V3/V4: 7 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:8 (living waters shall go out from Jerusalem) and stays byte-identical under I1." },
-    { "entryId": "zec-14-9", "field": "title", "reason": "V1/V2/V3/V4: 9 words, one sentence, one idea, gate clean. It is the KJV wording of Zechariah 14:9 (the LORD shall be king over all the earth) and stays byte-identical under I1." },
-    { "entryId": "zec-14-16", "field": "title", "reason": "V1/V2/V3/V4: 12 words over two sentence marks, one idea, gate clean. It is the KJV wording of Zechariah 14:16 (every one that is left ... shall ... go up ... to worship the King) with the existing ellipsis and stays byte-identical under I1." },
-    { "entryId": "zec-9-9", "field": "principle", "reason": "V1/V2/V3/V4: 13 words in the longest app sentence, 3 ideas, gate clean. V2 holds: the Scripture is already inside quotation marks and is followed by one plain sentence (the King arrives unarmed and humble) and one First principle sentence. V3 holds: unarmed, humble, cavalry and meekness are everyday words. This is the golden anchor zec-9-9 and is VERIFY-ONLY by plan; every quotation and the label First principle: are carried byte-identical." },
-    { "entryId": "zec-9-9", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Hebrew עָנִי ('ani, H6041) and stays as written beside the untouchable original, transliteration and Strong's number." },
-    { "entryId": "zec-9-9", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 19 words, one sentence, one idea, gate clean. The Suffering Servant is a fixed biblical title that the app's own entry text explains, and the claim that humility is the King's uniform is already a concrete image. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "terms[0].exposition", "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 6 ideas, gate clean (the Hebrew and Greek runs are stripped as quotations). V3 is carried by the exposition's own glossing: it defines עָנִי in the sentence, names Isaiah's Servant, and explains that verse 10 removes chariot, horse and battle-bow, so sufferer-savior and military pomp are both decoded in place. Golden anchor zec-9-9, VERIFY-ONLY by plan: the Hebrew עָנִי, the Greek πραΰς (praus) and the citation Matt are untouchable." },
-    { "entryId": "zec-9-9", "field": "terms[1].gloss", "reason": "V1/V2/V3/V4: 2 words. It is the lexical gloss of the Greek πραΰς (praus, G4239) and stays as written beside the untouchable original, transliteration and Strong's number." },
-    { "entryId": "zec-9-9", "field": "terms[1].note", "reason": "V1/V2/V3/V4: 6 words, one phrase. It identifies the Greek word as Matthew's rendering of the Hebrew ʿani, whose transliteration is untouchable (I1); it is a cross-reference label, not a sentence the reader must decode. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "terms[1].exposition", "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 7 ideas, gate clean. The Greek phrase πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον, the parenthetical Greek, the transliterations praus and ʿani and the quoted words \"Fear not\" and \"I am meek and lowly in heart\" are all untouchable (I1); the exposition decodes messianic arrival in the same sentence that uses it. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "terms[2].gloss", "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Greek πῶλος (pōlos, G4454) and stays as written beside the untouchable original, transliteration and Strong's number." },
-    { "entryId": "zec-9-9", "field": "terms[2].note", "reason": "V1/V2/V3/V4: 8 words, one sentence, one idea, plain, gate clean. It states what Mark 11:7 records in the words the entry already uses. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "terms[2].exposition", "reason": "V1/V2/V3/V4: 17 words in the longest sentence, 6 ideas, gate clean. The Greek καὶ ἐκάθισεν ἐπ' αὐτόν, the Hebrew עַיִר בֶּן־אֲתֹנוֹת, the Greek πῶλος and the quoted word \"lowly\" are untouchable (I1); the exposition explains the hinge between oracle and acclamation in the sentence that uses it. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "cumulativePrinciples[0]", "reason": "V1/V2/V3/V4: 19 words in the longest sentence, 2 ideas, gate clean. The opener is a plain sentence naming the thread's starting verse, and the second sentence names Zion and the donkey. Golden anchor zec-9-9, VERIFY-ONLY by plan; the citation Zechariah 9:9 is unchanged." },
-    { "entryId": "zec-9-9", "field": "cumulativePrinciples[1]", "reason": "V1/V2/V3/V4: 24 words in the longest sentence, 4 ideas, gate clean. The chain of thought is already labelled in plain words (The link:, Why God says it twice:), the quotation \"this was done that it might be fulfilled\" is byte-identical, and war-horse Messiah is decoded by the sentence it sits in. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "cumulativePrinciples[2]", "reason": "V1/V2/V3/V4: 20 words in the longest sentence, 5 ideas, gate clean. Each sentence names its actor (Two Gospel writers quote, John adds, How the story moves forward, Where it leads), the quotation \"Fear not, daughter of Sion.\" is byte-identical, and the citation chain is unchanged. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "cumulativePrinciples[3]", "reason": "V1/V2/V3/V4: 29 words in the longest sentence, 4 ideas, gate clean. The em-dash between Mark does not quote Zechariah and he simply shows the colt joins one contrast rather than two ideas, and the step markers (The whole chain makes one point:, Why this step matters:, Where the thread ends:) are the app's own structural labels. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "cumulativePrinciples[4]", "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 4 ideas, gate clean. The actors are named (Luke records, four Gospels show), the quotation \"Blessed be the King.\" is byte-identical, and the em-dashes join one contrast each, not two ideas. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "who", "reason": "V1/V2/V3/V4: 25 words in the longest sentence, 7 ideas, gate clean. This is the fixed who template with its five structural labels (Authorship & Context:, Identified Characters:, Singular or Many:, Christological Subject & Referent:, Redemptive Purpose:), which stay verbatim under I1. Each label's content is already one plain sentence naming its actor: the prophet wrote to a remnant, the King is lowly and riding on a donkey, Jesus entered Jerusalem on a colt. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "whoByRef[\"Luke 19:38\"]", "reason": "V1/V2/V3/V4: 27 words in the longest sentence, 7 ideas, gate clean. The fixed who template labels stay verbatim (I1); the Greek title ὁ βασιλεύς is untouchable original-language script; and each part already reads as a plain sentence that names its actor (Luke records the crowd's acclamation, the multitude blesses Him, this humble rider is Zion's King). Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "whoByRef[\"Mark 11:7\"]", "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 8 ideas, gate clean. The who template labels stay verbatim (I1); the quoted word \"riding\" is byte-identical; and the prose already names who does what (John Mark records, the disciples loose the colt, one man sits on it, several hands prepare the mount). Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "whoByRef[\"Matthew 21:5\"]", "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 7 ideas, gate clean. The who template labels stay verbatim (I1), and the content is already plain: Matthew wrote for Jewish-Christian readers to prove Jesus fulfills Israel's Scriptures, one King comes, many in Zion are commanded to behold Him. Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-9-9", "field": "whoByRef[\"John 12:15\"]", "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 8 ideas, gate clean. The who template labels stay verbatim (I1); the KJV wording an ass's colt and the quotation \"Fear not\" are byte-identical; and the content already names its actors (John wrote from Ephesus, John's citation adds, Jesus whose humble advent is comfort). Golden anchor zec-9-9, VERIFY-ONLY by plan." },
-    { "entryId": "zec-10-1", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 7 words. It is the lexical gloss of the Hebrew בְּעֵת מַלְקוֹשׁ (be-ʿet malqosh) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-10-1", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. Prophetic imperative names what the verse does, and the phrase that follows it says the same thing in everyday words: pray for the Spirit's final ripening power. The term itself, in the time of the latter rain, is KJV wording carried unchanged." },
-    { "entryId": "zec-12-10", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 6 words. It is the lexical gloss of the Hebrew דָּקָרוּ (daqaru) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-12-10", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 11 words, one sentence, gate clean. The Greek ἐξεκέντησαν is original-language script and untouchable (I1); the two citations John 19:37 and Rev 1:7 stay unchanged; and same Hebrew and Greek verb is the whole claim, said plainly." },
-    { "entryId": "zec-2-10", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 6 words. It is the lexical gloss of the Hebrew שָׁכַנְתִּי (shakhanti) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-2-10", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 16 words, one sentence with a parenthetical, gate clean. The transliterations mishkan and eskēnōsen and the citation John 1:14 are untouchable (I1), and the note's two ideas are already joined by a semicolon that separates a word study from its use in John, not two claims." },
-    { "entryId": "zec-11-12", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 4 words. It is the lexical gloss of the Hebrew שְׁלֹשִׁים כָּסֶף (sheloshim kesef) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-11-12", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 16 words, two sentences, one idea each, gate clean. The legal price of a gored slave is concrete and is defined by the citation Exod 21:32 that follows it; the citations Exod 21:32 and Matt 26:15 are unchanged." },
-    { "entryId": "zec-3-8", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 2 words. It is the lexical gloss of the Hebrew צֶמַח (tsemach) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-3-8", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 14 words, one sentence, gate clean. Targum Jonathan is a named ancient translation and the colon after it states what that translation does in plain words: it inserts the name Messiah. The app's own BRANCH wording is untouched." },
-    { "entryId": "zec-13-1", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Hebrew מָקוֹר (maqor) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-13-1", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 18 words, two sentences joined by a semicolon, one idea each, gate clean. The actors are named (John places the opening, 1 John names the blood), and both citations John 19:34 and 1 John 1:7 are unchanged." },
-    { "entryId": "zec-14-4", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew וְנִבְקַע (venivqa') and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-14-4", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 17 words, one sentence, gate clean. The angels are named as the actors and the citation Acts 1:11-12 is unchanged; the em-dash joins the claim to its meaning rather than to a second claim. The word eschatology is the one use here, and the sentence itself says what it means by geography pinned to this mount." },
-    { "entryId": "zec-13-7", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew עֲמִיתִי (ʿamiti) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-13-7", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 8 words, one phrase plus a citation, gate clean. It states that the word carries kinship and equality with YHWH, which is exactly what the gloss above it says, and the citation Matt 26:31 is unchanged." },
-    { "entryId": "zec-6-12", "field": "terms[0].gloss", "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew עֲצַת שָׁלוֹם ('atzat shalom) and stays as written beside the untouchable original and transliteration." },
-    { "entryId": "zec-6-12", "field": "terms[0].note", "reason": "V1/V2/V3/V4: 19 words, one sentence, gate clean. Both offices and one are the entry's own plain words, the actors are named (Hebrews crowns, our High Priest sits), and the citation Heb 8:1 plus the KJV phrase a Priest upon a throne are unchanged." },
-    { "entryId": "chain:righteous-branch", "field": "name", "reason": "V1/V2/V3/V4: 7 words, gate clean. It is the chain's own title, it already names the Hebrew term Tsemach in brackets as the chain does throughout, and renaming a shared chain label is a naming decision rather than plain wording." },
-    { "entryId": "chain:righteous-branch", "field": "steps[2].connection", "reason": "V1/V2/V3/V4: 18 words, one sentence, one idea, gate clean. Isaiah is named as the speaker, God as the one who cleanses, and the Branch as the name given on that day." },
-    { "entryId": "chain:righteous-branch", "field": "steps[4].connection", "reason": "V1/V2/V3/V4: 18 words, one sentence, one idea, gate clean. A king is named as the actor, rules with wisdom and does what is just and right are everyday words, and the claim is the verse's own (a Davidic king who rules wisely and justly)." },
-    { "entryId": "chain:righteous-branch", "field": "steps[2].title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Isaiah 4:2 (the Branch of the LORD ... beautiful and glorious) and stays byte-identical under I1." },
-    { "entryId": "chain:righteous-branch", "field": "steps[0].title", "reason": "V1/V2/V3/V4: 11 words, gate clean. God's binding promise is the glossary rendering for covenant and is used here as an explanatory label, and the rest of the title names David and the eternal house and throne in the verse's own words." },
-    { "entryId": "chain:righteous-branch", "field": "steps[1].title", "reason": "V1/V2/V3/V4: 9 words, gate clean. It is the KJV wording of 2 Samuel 23:5 (he hath made with me an everlasting covenant ... and this is all my salvation) in the app's title form, with covenant carried as God's binding promise as the glossary requires for explanatory prose." },
-    { "entryId": "chain:righteous-branch", "field": "steps[3].title", "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Isaiah 11:1 (there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots) and stays byte-identical under I1." },
-    { "entryId": "chain:righteous-branch", "field": "steps[5].title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Jeremiah 33:15 (the Branch of righteousness ... grow up unto David) and stays byte-identical under I1." },
-    { "entryId": "chain:righteous-branch", "field": "steps[6].title", "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It is the KJV wording of Zechariah 3:8 (my servant the BRANCH) and stays byte-identical under I1, including the capitalised BRANCH." },
-    { "entryId": "chain:righteous-branch", "field": "steps[7].title", "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It compresses Zechariah 6:13 (he shall be a priest upon his throne) into a four-word label, which is the app's own naming for the step rather than a quotation." },
-    { "entryId": "chain:righteous-branch", "field": "steps[9].title", "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Romans 15:12 (the root of Jesse ... shall reign over the Gentiles) and stays byte-identical under I1." },
-    { "entryId": "chain:righteous-branch", "field": "steps[10].title", "reason": "V1/V2/V3/V4: 5 words, one phrase, gate clean. Both halves are KJV wordings from Revelation 22:16 (I am the root and the offspring of David) joined by the app's and, and both stay byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "name", "reason": "V1/V2/V3/V4: 8 words, gate clean. It is the chain's own title and names the two rains the chain traces; renaming a shared chain label is a naming decision rather than plain wording." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[1].connection", "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. God is named as the one who promises, his presence and new life are the two things promised, and pictured as rain states the image in the same sentence. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[2].connection", "reason": "V1/V2/V3/V4: 14 words, one sentence, one idea, gate clean. The rain and the Spirit poured out are both concrete, and the comparison is stated as a picture in the same sentence. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[4].connection", "reason": "V1/V2/V3/V4: 15 words, one sentence, one idea, gate clean. God is named as the one who commands, his people as the ones who pray, and the last rain as what ripens the crop. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[5].connection", "reason": "V1/V2/V3/V4: 7 words in the longest sentence, 3 ideas, gate clean. Every sentence has a subject and a verb, apostolic is absent, and the early rain is explained in the same breath as what it does for the church. The label NT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[6].connection", "reason": "V1/V2/V3/V4: 16 words, one sentence, one idea, gate clean. James is named as the actor, this picture from farming is the concrete image, and the Lord's coming is named plainly. The label NT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[7].connection", "reason": "V1/V2/V3/V4: 16 words, one sentence, one idea, gate clean. Latter rain is defined in the sentence by its parenthesis, the harvest image is concrete, and the only longer word, illuminating, has lightened as its plain sense in this very picture. The label NT: is kept verbatim." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[0].title", "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Deuteronomy 11:14 (the first rain and the latter rain) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[1].title", "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Hosea 6:3 (he shall come unto us as the rain) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[2].title", "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Joel 2:23 (the former rain, and the latter rain in the first month) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[3].title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Joel 2:28 (I will pour out my spirit upon all flesh) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[4].title", "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Zechariah 10:1 (Ask ye of the LORD rain in the time of the latter rain) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[5].title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It names the day and what the rain stands for in the app's own words, which the two sentences beneath it then explain." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[6].title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of James 5:7 (be patient therefore, brethren, unto the coming of the Lord ... until he receive the early and latter rain) compressed into the app's title form." },
-    { "entryId": "chain:former-latter-rain", "field": "steps[7].title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. Earth lightened is the KJV wording of Revelation 18:1, His glory is carried as the app writes it elsewhere, and Loud Cry is the app's own fixed name for that proclamation." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "name", "reason": "V1/V2/V3/V4: 6 words, gate clean. It is the chain's own title; the Servant and Pierced Messiah are the two ideas the chain traces, and renaming a shared chain label is a naming decision rather than plain wording." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[0].connection", "reason": "V1/V2/V3/V4: 12 words, one sentence, one idea, gate clean. Jesus is named as the one who quoted the cry, the cross is named as where he did it, and righteous sufferer is defined in the step's own title above it (My God, why hast Thou forsaken Me?)." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[2].connection", "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. The righteous one is named as the subject who suffers, and the bitter drink is concrete and is the title of the step. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[3].connection", "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. He is named as the one who chose, and submit to public shame and violence says what he did without an abstract noun. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[4].connection", "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. The Servant is named as the one who bears sin, and in the place of others is the same claim the cited verse makes. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[5].connection", "reason": "V1/V2/V3/V4: 10 words, one idea, gate clean. The divine Speaker is named as the one pierced and the mourning is given its measure (as for an only son), which is what the verse says. The semicolon separates the piercing from the mourning within one claim about the same person. The label Same-OT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[8].connection", "reason": "V1/V2/V3/V4: 8 words, one sentence, one idea, gate clean. John is named as the one who cites, and both citations Zechariah 12:10 and Exodus 12:46 are unchanged. The label NT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[9].connection", "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. Apostolic proclamation is the noun to watch here, but proclamation centers on is written with the sheep led to slaughter as the concrete subject, and the apostolic preachers are named in the step's own title above it (Philip preaches Jesus from Isaiah 53). The label NT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[10].connection", "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. Peter is named as the actor, Isaiah 53 as what he applies, and in our place as the claim about Christ's death. The label NT: is kept verbatim." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[0].title", "reason": "V1/V2/V3/V4: 7 words, one question, gate clean. It is the KJV wording of Psalm 22:1 and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[1].title", "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Psalm 22:16-18 (they pierced my hands and my feet; they cast lots upon my vesture) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[2].title", "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Psalm 69:21 (they gave me also gall for my meat; and in my thirst they gave me vinegar to drink) compressed into the app's title form." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[3].title", "reason": "V1/V2/V3/V4: 14 words, one phrase, gate clean. It is the KJV wording of Isaiah 50:6 (I gave my back to the smiters, and my cheeks to them that plucked off the hair) in the app's compressed title form and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[4].title", "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Isaiah 53:5 (he was wounded for our transgressions ... with his stripes we are healed) and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[5].title", "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 12:10 (they shall look upon me whom they have pierced) in the app's title form and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[6].title", "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:7 (Awake, O sword, against my shepherd) and stays byte-identical under I1." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[7].title", "reason": "V1/V2/V3/V4: 5 words, one phrase, gate clean. It names the event the whole chain runs toward, in the app's own words, with no term that needs decoding." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[8].title", "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It states what John 19:34 records, with the soldier and the side both named." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[9].title", "reason": "V1/V2/V3/V4: 6 words, one sentence, one idea, gate clean. Philip is named as the preacher, Jesus as the subject, and Isaiah 53 as the text, with the citation unchanged." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[10].title", "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of 1 Peter 2:24 (who his own self bare our sins in his own body on the tree) in the app's compressed title form." },
-    { "entryId": "chain:suffering-servant-pierced", "field": "steps[11].title", "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Revelation 1:7 (every eye shall see him, and they also which pierced him) in the app's title form and stays byte-identical under I1." }
+    {
+      "entryId": "zec-2-10",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 12 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 2:10 (lo, I come, and I will dwell in the midst of thee) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-3-1",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 3:1 (Joshua the high priest ... and Satan standing at his right hand) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-3-8",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one sentence, gate clean. It is the KJV wording of Zechariah 3:8 (I will bring forth my servant the BRANCH) and stays byte-identical under I1, including the capitalised BRANCH."
+    },
+    {
+      "entryId": "zec-3-9",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 3:9 (the stone that I have laid before Joshua; upon one stone shall be seven eyes) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-4-6",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, gate clean. It is the KJV wording of Zechariah 4:6 (Not by might, nor by power, but by my spirit) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-4-10",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one question, one idea, everyday words, gate clean. It is the KJV wording of Zechariah 4:10 (For who hath despised the day of small things?) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-6-12",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 12 words, one phrase, gate clean. Both halves are KJV wording from Zechariah 6:12-13 (Behold the man whose name is The BRANCH; he shall be a priest upon his throne) joined by the app's em-dash, and both halves stay byte-identical under I1."
+    },
+    {
+      "entryId": "zec-6-13",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 13 words, one sentence, gate clean. It is the KJV wording of Zechariah 6:13 (he shall bear the glory, and shall sit and rule upon his throne) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-8-16",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 8:16 (Speak ye every man the truth to his neighbour) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 9:9 (thy King cometh unto thee ... lowly, and riding upon an ass) and stays byte-identical under I1. This entry is the golden anchor zec-9-9, so all of its fields stay VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-10",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 7 words, one sentence, one idea, gate clean. It is the KJV wording of Zechariah 9:10 (he shall speak peace unto the heathen) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-10-1",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 10:1 (Ask ye of the LORD rain in the time of the latter rain) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-11-12",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 11:13 (Cast it unto the potter ... a goodly price) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-11-13",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Zechariah 11:13 (Cast it unto the potter: a goodly price) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-12-10",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 8 words, one sentence, gate clean. It is the KJV wording of Zechariah 12:10 (they shall look upon me whom they have pierced) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-12-11",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, gate clean. It is the KJV wording of Zechariah 12:11 (a great mourning in Jerusalem, as the mourning of Hadadrimmon) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-13-1",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:1 (a fountain opened ... for sin and for uncleanness) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-13-7",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 3 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:7 (smite the shepherd) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-14-4",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 9 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:4 (his feet shall stand in that day upon the mount of Olives) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-14-5",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 12 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:5 (the LORD my God shall come, and all the saints with thee) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-14-8",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 7 words, one sentence, gate clean. It is the KJV wording of Zechariah 14:8 (living waters shall go out from Jerusalem) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-14-9",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 9 words, one sentence, one idea, gate clean. It is the KJV wording of Zechariah 14:9 (the LORD shall be king over all the earth) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-14-16",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 12 words over two sentence marks, one idea, gate clean. It is the KJV wording of Zechariah 14:16 (every one that is left ... shall ... go up ... to worship the King) with the existing ellipsis and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "principle",
+      "reason": "V1/V2/V3/V4: 13 words in the longest app sentence, 3 ideas, gate clean. V2 holds: the Scripture is already inside quotation marks and is followed by one plain sentence (the King arrives unarmed and humble) and one First principle sentence. V3 holds: unarmed, humble, cavalry and meekness are everyday words. This is the golden anchor zec-9-9 and is VERIFY-ONLY by plan; every quotation and the label First principle: are carried byte-identical."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Hebrew עָנִי ('ani, H6041) and stays as written beside the untouchable original, transliteration and Strong's number."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 19 words, one sentence, one idea, gate clean. The Suffering Servant is a fixed biblical title that the app's own entry text explains, and the claim that humility is the King's uniform is already a concrete image. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[0].exposition",
+      "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 6 ideas, gate clean (the Hebrew and Greek runs are stripped as quotations). V3 is carried by the exposition's own glossing: it defines עָנִי in the sentence, names Isaiah's Servant, and explains that verse 10 removes chariot, horse and battle-bow, so sufferer-savior and military pomp are both decoded in place. Golden anchor zec-9-9, VERIFY-ONLY by plan: the Hebrew עָנִי, the Greek πραΰς (praus) and the citation Matt are untouchable."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[1].gloss",
+      "reason": "V1/V2/V3/V4: 2 words. It is the lexical gloss of the Greek πραΰς (praus, G4239) and stays as written beside the untouchable original, transliteration and Strong's number."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[1].note",
+      "reason": "V1/V2/V3/V4: 6 words, one phrase. It identifies the Greek word as Matthew's rendering of the Hebrew ʿani, whose transliteration is untouchable (I1); it is a cross-reference label, not a sentence the reader must decode. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[1].exposition",
+      "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 7 ideas, gate clean. The Greek phrase πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον, the parenthetical Greek, the transliterations praus and ʿani and the quoted words \"Fear not\" and \"I am meek and lowly in heart\" are all untouchable (I1); the exposition decodes messianic arrival in the same sentence that uses it. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[2].gloss",
+      "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Greek πῶλος (pōlos, G4454) and stays as written beside the untouchable original, transliteration and Strong's number."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[2].note",
+      "reason": "V1/V2/V3/V4: 8 words, one sentence, one idea, plain, gate clean. It states what Mark 11:7 records in the words the entry already uses. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "terms[2].exposition",
+      "reason": "V1/V2/V3/V4: 17 words in the longest sentence, 6 ideas, gate clean. The Greek καὶ ἐκάθισεν ἐπ' αὐτόν, the Hebrew עַיִר בֶּן־אֲתֹנוֹת, the Greek πῶλος and the quoted word \"lowly\" are untouchable (I1); the exposition explains the hinge between oracle and acclamation in the sentence that uses it. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "cumulativePrinciples[0]",
+      "reason": "V1/V2/V3/V4: 19 words in the longest sentence, 2 ideas, gate clean. The opener is a plain sentence naming the thread's starting verse, and the second sentence names Zion and the donkey. Golden anchor zec-9-9, VERIFY-ONLY by plan; the citation Zechariah 9:9 is unchanged."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "cumulativePrinciples[1]",
+      "reason": "V1/V2/V3/V4: 24 words in the longest sentence, 4 ideas, gate clean. The chain of thought is already labelled in plain words (The link:, Why God says it twice:), the quotation \"this was done that it might be fulfilled\" is byte-identical, and war-horse Messiah is decoded by the sentence it sits in. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "cumulativePrinciples[2]",
+      "reason": "V1/V2/V3/V4: 20 words in the longest sentence, 5 ideas, gate clean. Each sentence names its actor (Two Gospel writers quote, John adds, How the story moves forward, Where it leads), the quotation \"Fear not, daughter of Sion.\" is byte-identical, and the citation chain is unchanged. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "cumulativePrinciples[3]",
+      "reason": "V1/V2/V3/V4: 29 words in the longest sentence, 4 ideas, gate clean. The em-dash between Mark does not quote Zechariah and he simply shows the colt joins one contrast rather than two ideas, and the step markers (The whole chain makes one point:, Why this step matters:, Where the thread ends:) are the app's own structural labels. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "cumulativePrinciples[4]",
+      "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 4 ideas, gate clean. The actors are named (Luke records, four Gospels show), the quotation \"Blessed be the King.\" is byte-identical, and the em-dashes join one contrast each, not two ideas. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "who",
+      "reason": "V1/V2/V3/V4: 25 words in the longest sentence, 7 ideas, gate clean. This is the fixed who template with its five structural labels (Authorship & Context:, Identified Characters:, Singular or Many:, Christological Subject & Referent:, Redemptive Purpose:), which stay verbatim under I1. Each label's content is already one plain sentence naming its actor: the prophet wrote to a remnant, the King is lowly and riding on a donkey, Jesus entered Jerusalem on a colt. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "whoByRef[\"Luke 19:38\"]",
+      "reason": "V1/V2/V3/V4: 27 words in the longest sentence, 7 ideas, gate clean. The fixed who template labels stay verbatim (I1); the Greek title ὁ βασιλεύς is untouchable original-language script; and each part already reads as a plain sentence that names its actor (Luke records the crowd's acclamation, the multitude blesses Him, this humble rider is Zion's King). Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "whoByRef[\"Mark 11:7\"]",
+      "reason": "V1/V2/V3/V4: 23 words in the longest sentence, 8 ideas, gate clean. The who template labels stay verbatim (I1); the quoted word \"riding\" is byte-identical; and the prose already names who does what (John Mark records, the disciples loose the colt, one man sits on it, several hands prepare the mount). Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "whoByRef[\"Matthew 21:5\"]",
+      "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 7 ideas, gate clean. The who template labels stay verbatim (I1), and the content is already plain: Matthew wrote for Jewish-Christian readers to prove Jesus fulfills Israel's Scriptures, one King comes, many in Zion are commanded to behold Him. Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-9-9",
+      "field": "whoByRef[\"John 12:15\"]",
+      "reason": "V1/V2/V3/V4: 22 words in the longest sentence, 8 ideas, gate clean. The who template labels stay verbatim (I1); the KJV wording an ass's colt and the quotation \"Fear not\" are byte-identical; and the content already names its actors (John wrote from Ephesus, John's citation adds, Jesus whose humble advent is comfort). Golden anchor zec-9-9, VERIFY-ONLY by plan."
+    },
+    {
+      "entryId": "zec-10-1",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 7 words. It is the lexical gloss of the Hebrew בְּעֵת מַלְקוֹשׁ (be-ʿet malqosh) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-10-1",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. Prophetic imperative names what the verse does, and the phrase that follows it says the same thing in everyday words: pray for the Spirit's final ripening power. The term itself, in the time of the latter rain, is KJV wording carried unchanged."
+    },
+    {
+      "entryId": "zec-12-10",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 6 words. It is the lexical gloss of the Hebrew דָּקָרוּ (daqaru) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-12-10",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, gate clean. The Greek ἐξεκέντησαν is original-language script and untouchable (I1); the two citations John 19:37 and Rev 1:7 stay unchanged; and same Hebrew and Greek verb is the whole claim, said plainly."
+    },
+    {
+      "entryId": "zec-2-10",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 6 words. It is the lexical gloss of the Hebrew שָׁכַנְתִּי (shakhanti) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-2-10",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 16 words, one sentence with a parenthetical, gate clean. The transliterations mishkan and eskēnōsen and the citation John 1:14 are untouchable (I1), and the note's two ideas are already joined by a semicolon that separates a word study from its use in John, not two claims."
+    },
+    {
+      "entryId": "zec-11-12",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 4 words. It is the lexical gloss of the Hebrew שְׁלֹשִׁים כָּסֶף (sheloshim kesef) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-11-12",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 16 words, two sentences, one idea each, gate clean. The legal price of a gored slave is concrete and is defined by the citation Exod 21:32 that follows it; the citations Exod 21:32 and Matt 26:15 are unchanged."
+    },
+    {
+      "entryId": "zec-3-8",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 2 words. It is the lexical gloss of the Hebrew צֶמַח (tsemach) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-3-8",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 14 words, one sentence, gate clean. Targum Jonathan is a named ancient translation and the colon after it states what that translation does in plain words: it inserts the name Messiah. The app's own BRANCH wording is untouched."
+    },
+    {
+      "entryId": "zec-13-1",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 3 words. It is the lexical gloss of the Hebrew מָקוֹר (maqor) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-13-1",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 18 words, two sentences joined by a semicolon, one idea each, gate clean. The actors are named (John places the opening, 1 John names the blood), and both citations John 19:34 and 1 John 1:7 are unchanged."
+    },
+    {
+      "entryId": "zec-14-4",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew וְנִבְקַע (venivqa') and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-14-4",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 17 words, one sentence, gate clean. The angels are named as the actors and the citation Acts 1:11-12 is unchanged; the em-dash joins the claim to its meaning rather than to a second claim. The word eschatology is the one use here, and the sentence itself says what it means by geography pinned to this mount."
+    },
+    {
+      "entryId": "zec-13-7",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew עֲמִיתִי (ʿamiti) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-13-7",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase plus a citation, gate clean. It states that the word carries kinship and equality with YHWH, which is exactly what the gloss above it says, and the citation Matt 26:31 is unchanged."
+    },
+    {
+      "entryId": "zec-6-12",
+      "field": "terms[0].gloss",
+      "reason": "V1/V2/V3/V4: 5 words. It is the lexical gloss of the Hebrew עֲצַת שָׁלוֹם ('atzat shalom) and stays as written beside the untouchable original and transliteration."
+    },
+    {
+      "entryId": "zec-6-12",
+      "field": "terms[0].note",
+      "reason": "V1/V2/V3/V4: 19 words, one sentence, gate clean. Both offices and one are the entry's own plain words, the actors are named (Hebrews crowns, our High Priest sits), and the citation Heb 8:1 plus the KJV phrase a Priest upon a throne are unchanged."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "reason": "V1/V2/V3/V4: 7 words, gate clean. It is the chain's own title, it already names the Hebrew term Tsemach in brackets as the chain does throughout, and renaming a shared chain label is a naming decision rather than plain wording."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "reason": "V1/V2/V3/V4: 18 words, one sentence, one idea, gate clean. Isaiah is named as the speaker, God as the one who cleanses, and the Branch as the name given on that day."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "reason": "V1/V2/V3/V4: 18 words, one sentence, one idea, gate clean. A king is named as the actor, rules with wisdom and does what is just and right are everyday words, and the claim is the verse's own (a Davidic king who rules wisely and justly)."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Isaiah 4:2 (the Branch of the LORD ... beautiful and glorious) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "reason": "V1/V2/V3/V4: 11 words, gate clean. God's binding promise is the glossary rendering for covenant and is used here as an explanatory label, and the rest of the title names David and the eternal house and throne in the verse's own words."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "reason": "V1/V2/V3/V4: 9 words, gate clean. It is the KJV wording of 2 Samuel 23:5 (he hath made with me an everlasting covenant ... and this is all my salvation) in the app's title form, with covenant carried as God's binding promise as the glossary requires for explanatory prose."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Isaiah 11:1 (there shall come forth a rod out of the stem of Jesse, and a Branch shall grow out of his roots) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Jeremiah 33:15 (the Branch of righteousness ... grow up unto David) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It is the KJV wording of Zechariah 3:8 (my servant the BRANCH) and stays byte-identical under I1, including the capitalised BRANCH."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It compresses Zechariah 6:13 (he shall be a priest upon his throne) into a four-word label, which is the app's own naming for the step rather than a quotation."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Romans 15:12 (the root of Jesse ... shall reign over the Gentiles) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "reason": "V1/V2/V3/V4: 5 words, one phrase, gate clean. Both halves are KJV wordings from Revelation 22:16 (I am the root and the offspring of David) joined by the app's and, and both stay byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "name",
+      "reason": "V1/V2/V3/V4: 8 words, gate clean. It is the chain's own title and names the two rains the chain traces; renaming a shared chain label is a naming decision rather than plain wording."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].connection",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. God is named as the one who promises, his presence and new life are the two things promised, and pictured as rain states the image in the same sentence. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].connection",
+      "reason": "V1/V2/V3/V4: 14 words, one sentence, one idea, gate clean. The rain and the Spirit poured out are both concrete, and the comparison is stated as a picture in the same sentence. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].connection",
+      "reason": "V1/V2/V3/V4: 15 words, one sentence, one idea, gate clean. God is named as the one who commands, his people as the ones who pray, and the last rain as what ripens the crop. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].connection",
+      "reason": "V1/V2/V3/V4: 7 words in the longest sentence, 3 ideas, gate clean. Every sentence has a subject and a verb, apostolic is absent, and the early rain is explained in the same breath as what it does for the church. The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].connection",
+      "reason": "V1/V2/V3/V4: 16 words, one sentence, one idea, gate clean. James is named as the actor, this picture from farming is the concrete image, and the Lord's coming is named plainly. The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].connection",
+      "reason": "V1/V2/V3/V4: 16 words, one sentence, one idea, gate clean. Latter rain is defined in the sentence by its parenthesis, the harvest image is concrete, and the only longer word, illuminating, has lightened as its plain sense in this very picture. The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].title",
+      "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Deuteronomy 11:14 (the first rain and the latter rain) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].title",
+      "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Hosea 6:3 (he shall come unto us as the rain) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].title",
+      "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Joel 2:23 (the former rain, and the latter rain in the first month) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Joel 2:28 (I will pour out my spirit upon all flesh) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].title",
+      "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of Zechariah 10:1 (Ask ye of the LORD rain in the time of the latter rain) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It names the day and what the rain stands for in the app's own words, which the two sentences beneath it then explain."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of James 5:7 (be patient therefore, brethren, unto the coming of the Lord ... until he receive the early and latter rain) compressed into the app's title form."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. Earth lightened is the KJV wording of Revelation 18:1, His glory is carried as the app writes it elsewhere, and Loud Cry is the app's own fixed name for that proclamation."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "reason": "V1/V2/V3/V4: 6 words, gate clean. It is the chain's own title; the Servant and Pierced Messiah are the two ideas the chain traces, and renaming a shared chain label is a naming decision rather than plain wording."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "reason": "V1/V2/V3/V4: 12 words, one sentence, one idea, gate clean. Jesus is named as the one who quoted the cry, the cross is named as where he did it, and righteous sufferer is defined in the step's own title above it (My God, why hast Thou forsaken Me?)."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. The righteous one is named as the subject who suffers, and the bitter drink is concrete and is the title of the step. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. He is named as the one who chose, and submit to public shame and violence says what he did without an abstract noun. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. The Servant is named as the one who bears sin, and in the place of others is the same claim the cited verse makes. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "reason": "V1/V2/V3/V4: 10 words, one idea, gate clean. The divine Speaker is named as the one pierced and the mourning is given its measure (as for an only son), which is what the verse says. The semicolon separates the piercing from the mourning within one claim about the same person. The label Same-OT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "reason": "V1/V2/V3/V4: 8 words, one sentence, one idea, gate clean. John is named as the one who cites, and both citations Zechariah 12:10 and Exodus 12:46 are unchanged. The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, gate clean. Apostolic proclamation is the noun to watch here, but proclamation centers on is written with the sheep led to slaughter as the concrete subject, and the apostolic preachers are named in the step's own title above it (Philip preaches Jesus from Isaiah 53). The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, gate clean. Peter is named as the actor, Isaiah 53 as what he applies, and in our place as the claim about Christ's death. The label NT: is kept verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "reason": "V1/V2/V3/V4: 7 words, one question, gate clean. It is the KJV wording of Psalm 22:1 and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Psalm 22:16-18 (they pierced my hands and my feet; they cast lots upon my vesture) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Psalm 69:21 (they gave me also gall for my meat; and in my thirst they gave me vinegar to drink) compressed into the app's title form."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "reason": "V1/V2/V3/V4: 14 words, one phrase, gate clean. It is the KJV wording of Isaiah 50:6 (I gave my back to the smiters, and my cheeks to them that plucked off the hair) in the app's compressed title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "reason": "V1/V2/V3/V4: 8 words, one phrase, gate clean. It is the KJV wording of Isaiah 53:5 (he was wounded for our transgressions ... with his stripes we are healed) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "reason": "V1/V2/V3/V4: 7 words, one phrase, gate clean. It is the KJV wording of Zechariah 12:10 (they shall look upon me whom they have pierced) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "reason": "V1/V2/V3/V4: 6 words, one phrase, gate clean. It is the KJV wording of Zechariah 13:7 (Awake, O sword, against my shepherd) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "reason": "V1/V2/V3/V4: 5 words, one phrase, gate clean. It names the event the whole chain runs toward, in the app's own words, with no term that needs decoding."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "reason": "V1/V2/V3/V4: 4 words, one phrase, gate clean. It states what John 19:34 records, with the soldier and the side both named."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "reason": "V1/V2/V3/V4: 6 words, one sentence, one idea, gate clean. Philip is named as the preacher, Jesus as the subject, and Isaiah 53 as the text, with the citation unchanged."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "reason": "V1/V2/V3/V4: 9 words, one phrase, gate clean. It is the KJV wording of 1 Peter 2:24 (who his own self bare our sins in his own body on the tree) in the app's compressed title form."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "reason": "V1/V2/V3/V4: 10 words, one phrase, gate clean. It is the KJV wording of Revelation 1:7 (every eye shall see him, and they also which pierced him) in the app's title form and stays byte-identical under I1."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "reason": "WITHDRAWN — superseded by the Stage A.5 chain pass, which owns this shared string and ruled it verify-only: invariant I1 gives no licence to substitute the KJV word or \"restore\" the quotation. This book-side draft was never applied (a per-book apply never writes chain prose). The proposal is kept here only as history. See docs/CP-03_CHAIN_PASS.md and CP-05_FINDINGS_TRIAGE.md §9 items 4 and 5."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "reason": "WITHDRAWN — superseded by the Stage A.5 chain pass, which owns this shared string and ruled it verify-only: invariant I1 gives no licence to substitute the KJV word or \"restore\" the quotation. This book-side draft was never applied (a per-book apply never writes chain prose). The proposal is kept here only as history. See docs/CP-03_CHAIN_PASS.md and CP-05_FINDINGS_TRIAGE.md §9 items 4 and 5."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "reason": "WITHDRAWN — superseded by the Stage A.5 chain pass, which owns this shared string and ruled it verify-only: invariant I1 gives no licence to substitute the KJV word or \"restore\" the quotation. This book-side draft was never applied (a per-book apply never writes chain prose). The proposal is kept here only as history. See docs/CP-03_CHAIN_PASS.md and CP-05_FINDINGS_TRIAGE.md §9 items 4 and 5."
+    }
   ],
   "equivalent": []
 }

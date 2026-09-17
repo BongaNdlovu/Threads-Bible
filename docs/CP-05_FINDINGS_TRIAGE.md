@@ -453,3 +453,35 @@ the digest's tables show that 116 of them do not, in the ways classified above. 
 plain-language sweep was the wrong instrument to change them, and that the right next step — if the
 operator wants the app's Scripture to match the served KJV exactly — is a dedicated Scripture-integrity
 pass that reads `public/books/*.json` as the standard, not a prose sweep.
+
+---
+
+## 12 · Hygiene pass — what §9's fourteen items became
+
+§9 was built by asking "can a class ruling dispose of this?". Ten of the fourteen fail that test because
+the **record** is defective, not because the text is contested. Those ten were fixed directly; none of
+them changed a character of the app.
+
+| §9 item | Disposition |
+|---|---|
+| 1 `mat-4-6` | **Still yours** — a doctrinal wording verdict on what the tempter omitted |
+| 2 `rom-3-21` | **Still yours, but one line** — do mid-quotation sentence starts get a capital? Decide once, applies canon-wide; "no" changes nothing |
+| 3 `1ti-6-16` | **Cleared** — both findings now carry their class (`pronoun-capitalisation` + `punctuation`; `compressed-rendering`), so each can be ruled separately |
+| 4, 5 `zec` vs `chains_gF` on `chain:righteous-branch` | **Cleared** — the three superseded `zec` chain drafts are withdrawn to `verifyOnly` with a pointer to the chain pass, which owns those shared strings. The live text was never in doubt: a per-book apply never writes chain prose |
+| 6 `ecc-9-5` | **Still yours** — the Psalm 146:4 quotation is the proof text for conditional immortality; the difference is a capital plus an ellipsis-marked trim, so "no change" closes it |
+| 7 `ezk-37-12` | **Cleared** — the single note is split into (a) pronoun case, (b) `ye`→`you`, (c) ellipsis trim, each separately rulable |
+| 8 `1pe-2-6`, `1pe-2-22` | **Cleared** — `1pe-2-6`'s note is restated against the delivered string (it had named the wrong structural label and predated the label repair); `1pe-2-22`'s finding is **withdrawn**, because the flagged phrase was pre-rewrite wording and is absent from the delivered text |
+| 9 `gal-3-28` | **Cleared, and it exposed a live defect** — the record's phrase was pre-rewrite wording, so the finding is moot; but the delivered string still carried the never-write adjective "covenantal" while its own note claimed the glossary rendering had replaced it. Fixed in commit `7827a28`; the rendering then had to be normalised from a typographic apostrophe to the straight one the other 56 occurrences use (`5231df1`) |
+| 10 trimmed quotations (`isa-42-6`, `1pe-2-6`, `mat-12-18`) | **Still yours** — leave all three, or authorise the `…` in all three. This is a reader-trust issue: the app presents the span as a quotation while silently dropping words |
+| 11 two chain notes annotating another field | **Cleared** — the findings are moved onto the `title` records they are actually about; the connection notes now point there |
+| 12 `deu-18-15` | **Cleared** — class-boundary note added to the reason, so a later reversal can find it |
+
+That leaves **four decisions**, all of them yours, and two of them change no text if you answer "no":
+
+1. **`mat-4-6`** — is the delivered gloss doctrinally right about what the tempter left out?
+2. **`ecc-9-5`** — leave the proof-text quotation untouched, or not?
+3. **`rom-3-21`** — mid-quotation sentence starts: capital or not?
+4. **Item 10** — do the three silently-trimmed quotations get an ellipsis?
+
+The hygiene edits live in `docs/_work/*_rewrites.json` (records only). The two Galatians fixes are the
+only data changes, and both were verified with the eight-check structural verifier.
