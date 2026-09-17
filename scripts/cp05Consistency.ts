@@ -40,7 +40,10 @@ export const GLOSSARY: Record<string, string[]> = {
   atonement: ['price paid', 'sin can be forgiven'],
   intercession: ['pleads for us'],
   justification: ['declares a guilty person', 'in the right'],
-  sanctification: ['makes a person holy'],
+  // Operator ruling 2026-09-18: the single literal "makes a person holy" could never be satisfied when
+  // the object is plural or non-human ("the LORD who makes THEM holy", ezk-20-12), so the row read
+  // 0 glossed against 12 bare no matter how good the prose was. The inflected forms are now accepted.
+  sanctification: ['makes a person holy', 'makes them holy', 'makes us holy', 'makes you holy', 'makes people holy', 'makes his people holy'],
   redemption: ['buys', 'buying a person back', 'buy people back'],
   forensic: ['courtroom', 'legal'],
   efficacy: ['it works', 'does what it says'],
@@ -117,9 +120,31 @@ function main() {
   const hits: Hit[] = [];
   const neverWriteHits: Array<{ book: string; phrase: string; entryId: string; field: string; text: string }> = [];
 
+  /**
+   * The `who` field is a machine-parsed contract, not free prose: `src/components/HistoricalContextPage.tsx`
+   * splits it on these five section headings with anchored regexes, and `connectionInterrogation.test.ts`
+   * plus `threadMapModel.test.ts` assert that the headings are present. One of them contains a word the
+   * never-write column bans ("Christological Subject & Referent:"), and it still must not be reworded —
+   * renaming it stops that section rendering. The headings are therefore stripped before the banned-phrase
+   * scan so the census reports prose defects rather than the app's own structural template. The words
+   * inside a heading's body are still scanned normally.
+   */
+  const WHO_SECTION_LABELS = [
+    'Authorship & Context:',
+    'Identified Characters:',
+    'Singular or Many:',
+    'Christological Subject & Referent:',
+    'Redemptive Purpose:',
+  ];
+  const stripWhoLabels = (s: string) => {
+    let out = s;
+    for (const label of WHO_SECTION_LABELS) out = out.split(label).join(' ');
+    return out;
+  };
+
   for (const slug of slugs) {
     for (const f of collectBook(slug)) {
-      const lower = f.text.toLowerCase();
+      const lower = stripWhoLabels(f.text).toLowerCase();
       for (const [term, renderings] of Object.entries(GLOSSARY)) {
         const termRe = new RegExp(`\\b${term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}\\w{0,4}\\b`, 'i');
         if (!termRe.test(lower)) continue;

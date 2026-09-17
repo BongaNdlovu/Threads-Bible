@@ -13,7 +13,7 @@
  *                   `verseId` from a selected book.
  *   --chains-only   the DEDICATED CHAIN PASS scope (plan §1.12): verify the pillar-chain
  *                   group for ALL 36 chains of `threadChains` and skip the per-book groups
- *                   entirely. The seven checks, the reporting, the exit codes and the
+ *                   entirely. The eight checks, the reporting, the exit codes and the
  *                   --base / --strict-gate semantics are unchanged; what changes is where
  *                   "in scope" ends. A verse entry is no longer in-scope prose, so skipping
  *                   the per-book groups cannot hide one: every leaf of every verse entry in
@@ -79,6 +79,19 @@
  *                         remove, add or rename one. Per in-scope prose string, the label
  *                         multiset of the working tree must equal the <base> one — a count
  *                         that falls was dropped, a count that rises was invented.
+ *   8 ABBREV_FIXITY       invariant I1: abbreviations stay abbreviations. Per in-scope prose
+ *                         string, the abbreviation-token multiset of the working tree must
+ *                         not fall below the <base> one — a fall means the rewrite EXPANDED
+ *                         or dropped the token (`NT` → "New Testament") and FAILS. Counted
+ *                         tokens: NT, OT, LXX, KJV, YHWH, cf., i.e. plus every book
+ *                         abbreviation of scripts/citationTokens.ts, each matched as a bare
+ *                         token, on word boundaries and case-sensitive (`NT` never matches
+ *                         inside `NTS`, `ot` never matches `OT`). A count that RISES is not a
+ *                         failure (a rewrite may reintroduce an abbreviation) — it is counted
+ *                         and shown. YHWH is the single EXEMPTION: the frozen glossary
+ *                         mandates rendering it `the LORD`, so a fall there is the required
+ *                         behaviour and is reported separately as "N YHWH renderings applied
+ *                         as glossary-mandated".
  *
  * In --chains-only scope a second group, 'OUTSIDE-CHAINS', carries the checks' verdict on
  * the verse entries that the skipped per-book groups would have covered. It is not a book
@@ -134,7 +147,8 @@ type CheckName =
   | 'CITATION_FIXITY'
   | 'SCRIPT_FIXITY'
   | 'NO_BANNED'
-  | 'LABEL_FIXITY';
+  | 'LABEL_FIXITY'
+  | 'ABBREV_FIXITY';
 
 const CHECK_ORDER: CheckName[] = [
   'KEYSET',
@@ -144,6 +158,7 @@ const CHECK_ORDER: CheckName[] = [
   'SCRIPT_FIXITY',
   'NO_BANNED',
   'LABEL_FIXITY',
+  'ABBREV_FIXITY',
 ];
 
 interface Issue {
@@ -179,6 +194,11 @@ interface GroupStats {
   labelOccurrences: number;
   labelsAdded: number;
   labelsDropped: number;
+  abbrevChecked: number;
+  abbrevOccurrences: number;
+  abbrevDropped: number;
+  abbrevAdded: number;
+  abbrevYhwh: number;
 }
 
 const CHAIN_GROUP = 'CHAINS';
@@ -521,6 +541,37 @@ function labelCounts(text: string): Map<string, number> {
   return out;
 }
 
+/* -------------------------------------------------------- abbreviation tokens */
+
+/** Invariant I1: abbreviations stay abbreviations. A plain-language rewrite may reword
+ *  AROUND an abbreviation but must never EXPAND one — two drafts of the sweep turned `OT`
+ *  into "Old Testament" and `NT` into "New Testament" and neither SCRIPT_FIXITY (Hebrew /
+ *  Greek / transliteration / Strong's) nor LABEL_FIXITY (a fixed label list) could see it.
+ *  The corpus is the in-scope prose strings, the baseline is the <base> revision, and the
+ *  comparison is a MULTISET comparison per token: a count that falls was expanded or
+ *  dropped, a count that rises was legitimately reintroduced (counted, never a failure).
+ *  Tokens are matched as bare tokens, on word boundaries and case-SENSITIVE, so `NT` does
+ *  not match inside `NTS` and `ot` does not match `OT`; the alternation is longest-first so
+ *  `1 John` wins over `John`. */
+const ABBREV_TOKENS: string[] = Array.from(
+  new Set(['NT', 'OT', 'LXX', 'KJV', 'YHWH', 'cf.', 'i.e.', ...CITATION_ABBREVIATIONS])
+).sort((a, b) => b.length - a.length || a.localeCompare(b));
+
+const ABBREV_ALT = ABBREV_TOKENS.map(escapeRe).join('|');
+
+const ABBREV_RE = new RegExp(`(?<![\\p{L}\\p{N}])(?:${ABBREV_ALT})(?![\\p{L}\\p{N}])`, 'gu');
+
+/** The one EXEMPT token. The frozen glossary mandates rendering `YHWH` as `the LORD`, so a
+ *  FALL in this token is the required behaviour, not a defect: it is counted separately and
+ *  reported as a glossary-mandated rendering instead of failing the run. */
+const ABBREV_EXEMPT_TOKEN = 'YHWH';
+
+function abbrevCounts(text: string): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const m of text.matchAll(ABBREV_RE)) out.set(m[0], (out.get(m[0]) ?? 0) + 1);
+  return out;
+}
+
 /* -------------------------------------------------------------- CLI options */
 
 interface Options {
@@ -652,6 +703,10 @@ function main(): void {
     translit: 0,
     strongs: 0,
     citations: 0,
+    abbrevTokens: 0,
+    abbrevDropped: 0,
+    abbrevAdded: 0,
+    abbrevYhwh: 0,
     bannedNew: 0,
     bannedPreexisting: 0,
   };
@@ -728,6 +783,11 @@ function main(): void {
         labelOccurrences: 0,
         labelsAdded: 0,
         labelsDropped: 0,
+        abbrevChecked: 0,
+        abbrevOccurrences: 0,
+        abbrevDropped: 0,
+        abbrevAdded: 0,
+        abbrevYhwh: 0,
       };
       groups.set(g, fresh);
       return fresh;
@@ -922,8 +982,8 @@ function main(): void {
       // that silently swallows the first is caught too.
       const baseProseByPath = new Map(baseProse.map(p => [p.path, p.text]));
       const afterProseByPath = new Map(afterProse.map(p => [p.path, p.text]));
-      const labelPaths = Array.from(new Set([...baseProseByPath.keys(), ...afterProseByPath.keys()])).sort();
-      for (const p of labelPaths) {
+      const prosePaths = Array.from(new Set([...baseProseByPath.keys(), ...afterProseByPath.keys()])).sort();
+      for (const p of prosePaths) {
         const afterLabelText = afterProseByPath.get(p);
         if (afterLabelText === undefined) continue; // prose string gone: PROSE_ONLY_WRITES' ground
         s.labelChecked++;
@@ -951,6 +1011,56 @@ function main(): void {
               message: `structural label DROPPED — the rewrite lost a marker (count fell from ${b} to ${a})`,
               base: `${label} ×${b}`,
               after: `${label} ×${a}`,
+            });
+          }
+        }
+      }
+
+      // 8: abbreviations (invariant I1) — a rewrite may reword AROUND an abbreviation but
+      // may never EXPAND one. Same corpus and same <base> baseline as checks 4-7 (the
+      // in-scope prose strings of this unit), counted per token: a token whose count FALLS
+      // was expanded or dropped and FAILS ('abbreviation expanded or dropped'). YHWH is the
+      // one exemption — the frozen glossary mandates rendering it `the LORD`, so a fall
+      // there is the expected behaviour, counted separately and reported as a note. A count
+      // that RISES is not a failure either: it is counted and shown. A prose string that is
+      // gone entirely takes its tokens with it, so its base counts fall to zero.
+      for (const p of prosePaths) {
+        const afterAbbrevText = afterProseByPath.get(p);
+        s.abbrevChecked++;
+        const beforeCounts = abbrevCounts(baseProseByPath.get(p) ?? '');
+        const afterCounts = abbrevCounts(afterAbbrevText ?? '');
+        for (const token of ABBREV_TOKENS) {
+          const b = beforeCounts.get(token) ?? 0;
+          const a = afterCounts.get(token) ?? 0;
+          s.abbrevOccurrences += a;
+          if (a === b) continue;
+          if (token === ABBREV_EXEMPT_TOKEN && a < b) {
+            s.abbrevYhwh += b - a;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message: `YHWH rendering applied as glossary-mandated — the frozen glossary renders ${token} as "the LORD" (count fell from ${b} to ${a}), so this is expected and does NOT fail`,
+              severity: 'note',
+            });
+          } else if (a < b) {
+            s.abbrevDropped += b - a;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message:
+                afterAbbrevText === undefined
+                  ? `abbreviation expanded or dropped — the prose string is GONE in the working tree (count fell from ${b} to ${a})`
+                  : `abbreviation expanded or dropped — count fell from ${b} to ${a}`,
+              base: `${token} ×${b}`,
+              after: `${token} ×${a}`,
+            });
+          } else {
+            s.abbrevAdded += a - b;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message: `abbreviation ${token} ADDED — a token was reintroduced (count rose from ${b} to ${a}); not a failure`,
+              severity: 'note',
             });
           }
         }
@@ -1047,6 +1157,10 @@ function main(): void {
       coverage.translit += s.translit;
       coverage.strongs += s.strongs;
       coverage.citations += s.citations;
+      coverage.abbrevTokens += s.abbrevOccurrences;
+      coverage.abbrevDropped += s.abbrevDropped;
+      coverage.abbrevAdded += s.abbrevAdded;
+      coverage.abbrevYhwh += s.abbrevYhwh;
       coverage.bannedNew += s.bannedNew;
       coverage.bannedPreexisting += s.bannedPreexisting;
       const byCheck = issues.get(g) ?? new Map<CheckName, Issue[]>();
@@ -1071,6 +1185,10 @@ function main(): void {
       mk(
         'LABEL_FIXITY',
         `${s.labelChecked} prose strings scanned, ${s.labelOccurrences} structural label occurrence(s) in the working tree, ${s.labelsDropped} dropped, ${s.labelsAdded} added`
+      );
+      mk(
+        'ABBREV_FIXITY',
+        `${s.abbrevChecked} prose strings scanned, ${s.abbrevOccurrences} abbreviation token(s) in the working tree, ${s.abbrevDropped} dropped (expanded), ${s.abbrevAdded} added, ${s.abbrevYhwh} YHWH renderings applied as glossary-mandated (exempt)`
       );
     }
   }
@@ -1129,7 +1247,8 @@ function main(): void {
     `coverage: ${coverage.entries} entries across ${coverage.books} book group(s) + ${coverage.chains} pillar chain(s) · ` +
       `${coverage.nonProseLeaves} structural leaves + ${coverage.proseLeaves} prose leaves compared · ${coverage.proseStrings} prose strings gated · ` +
       `${coverage.scriptLeaves} script-corpus leaves (${coverage.hebrew} Hebrew runs, ${coverage.greek} Greek runs, ${coverage.translit} transliterations, ${coverage.strongs} Strong's tokens) · ` +
-      `${coverage.citations} book-qualified citations`
+      `${coverage.citations} book-qualified citations · ` +
+      `${coverage.abbrevTokens} abbreviation tokens (${coverage.abbrevDropped} dropped, ${coverage.abbrevAdded} added, ${coverage.abbrevYhwh} YHWH→the LORD)`
   );
   if (chainsOnly) {
     console.log(
