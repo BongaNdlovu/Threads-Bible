@@ -172,9 +172,9 @@ single source of truth for progress and resumption.
 |---|---:|
 | Stage A books applied | 60 of 60 (Deuteronomy → Revelation) |
 | Entries | 969 |
-| Entry strings | 2,357 |
-| Strings rewritten | 1,166 |
-| Strings verify-only | 1,573 |
+| Entry strings in scope | 2,357 |
+| Entry strings rewritten | 1,071 |
+| Entry strings verify-only | 1,286 |
 | EQUIVALENT | 0 |
 | QUOTE-REVIEW findings | 76 |
 | THEOLOGY-REVIEW findings | 1 |
@@ -186,7 +186,13 @@ single source of truth for progress and resumption.
 | Commits | 1 per book, plus one repair commit for each corrected book and two tooling commits |
 | Reverts of committed prose | 0 |
 
-The verify-only share is 57.4% of entry strings. That is the intended shape of the sweep, not a
+**Accounting closes exactly.** 2,357 in-scope entry strings = 1,071 rewritten + 1,286 verify-only + 0
+equivalent. Twelve of the sixty books also classified chain strings, which a per-book apply never
+writes: 382 chain rows (95 drafted, 287 verify-only). Those are inputs to the Stage A.5 chain pass, not
+results of Stage A, and they are excluded from the figures above. Totals including them would read
+1,166 rewritten and 1,668 verify-only, which is why the two sets are stated separately here.
+
+The verify-only share is 54.6% of entry strings. That is the intended shape of the sweep, not a
 shortfall: §1.11 requires a string that already meets the standard to be recorded rather than
 rewritten, and the density ranking aimed the effort at the densest strings first. A sweep whose
 rewrite share approached 100% would be punctuation theatre.
