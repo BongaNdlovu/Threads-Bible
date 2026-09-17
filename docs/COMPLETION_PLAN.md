@@ -127,6 +127,29 @@ single source of truth for progress and resumption.
 | Isaiah | 272 | 139 | 133 | 0 | PASS (0 violations, **2 pre-existing failures resolved**) | PASS (exit 0) | APPLIED — Stage A 20 (3 chunks; 125 chain strings deferred to the chain pass) |
 | Ezekiel | 74 | 31 | 43 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 21 (2 chunks; 78 chain strings deferred; 4 under-share drafts inspected and kept; 2 QUOTE-REVIEW) |
 | Daniel | 96 | 47 | 49 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 22 (2 chunks; 99 chain strings deferred; 10 under-share drafts inspected and kept; 1 QUOTE-REVIEW) |
+| Hosea | 39 | 10 | 29 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 23 (17 chain strings deferred) |
+| Joel | 75 | 6 | 69 | 0 | PASS (0 violations, **2 pre-existing failures resolved**) | PASS (exit 0) | APPLIED — Stage A 24 (55 chain strings deferred) |
+| Amos | 37 | 9 | 28 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 25 (15 chain strings deferred; 1 under-share draft; 1 QUOTE-REVIEW) |
+| Obadiah | 2 | 1 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 26 |
+| Jonah | 12 | 5 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 27 (2 QUOTE-REVIEW) |
+| Micah | 20 | 10 | 10 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 28 (1 QUOTE-REVIEW) |
+| Nahum | 29 | 4 | 25 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 29 (17 chain strings deferred; 1 QUOTE-REVIEW) |
+| Habakkuk | 14 | 7 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 30 |
+| Zephaniah | 16 | 8 | 8 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 31 |
+| Haggai | 12 | 6 | 6 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 32 (1 QUOTE-REVIEW) |
+| Malachi | 70 | 19 | 51 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 33 (38 chain strings deferred; 1 QUOTE-REVIEW) |
+
+Convention note on the "In-scope strings" column, because rows 1–33 are not all measuring the same
+thing. The column counts the strings that book's pass actually classified. Books swept through
+entry-only worklists (`--fields-only`, used for every split book from Jeremiah onward, and for the
+New Testament) show entry strings only and list their chain strings as deferred. Six books swept
+before that rule settled — Deuteronomy, Ruth, 2 Samuel, Ezra, Job, Jeremiah — plus the Minor Prophets
+Hosea, Joel, Amos, Nahum and Malachi, carry their chain strings inside the count because the writer
+classified them (as verify-only) rather than skipping them. Those chain figures are therefore
+per-book occurrences of shared strings and must not be added up as if they were unique. Stage A.5
+re-baselines chain prose from the working tree after the last book, which resolves the overlap; the
+total in this log is a progress measure, not a unique-string count. Unique Stage A chain strings are
+622 across 36 chains, against 1,188 per-book occurrences.
 
 Rows are in the order the books were applied, which is also canonical order within Stage A.
 Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because
