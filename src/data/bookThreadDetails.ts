@@ -6727,7 +6727,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-28': {
     title: 'Neither Jew nor Greek, Bond nor Free, Male nor Female',
     principle:
-      'All one in Christ Jesus. First principle: that oneness is baptismal and rests on God’s binding promise. Every believer is one heir, and the old walls came down in the water.',
+      'All one in Christ Jesus. First principle: that oneness is baptismal and rests on God\'s binding promise. Every believer is one heir, and the old walls came down in the water.',
     sourceKeywords: ['neither Jew nor Greek', 'bond nor free', 'all one in Christ Jesus'],
     fulfillmentKeywords: ['whosoever shall call on the name of the LORD'],
     terms: [],
