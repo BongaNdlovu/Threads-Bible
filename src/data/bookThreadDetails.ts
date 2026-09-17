@@ -7222,7 +7222,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-5-2': {
     title: 'The Day of the Lord Cometh as a Thief in the Night',
     principle:
-      'The apostles all say it will be sudden. First principle: the day comes like a thief to those who are not watching. The world is caught by surprise. The sons of light know the schedule.',
+      'The apostles all say it will be sudden. First principle: the day comes like a thief to those who are not watching. The world is caught by surprise, but the sons of light know the schedule.',
     sourceKeywords: ['the day of the Lord so cometh as a thief in the night'],
     fulfillmentKeywords: [],
     terms: [],
