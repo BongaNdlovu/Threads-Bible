@@ -577,22 +577,22 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-4-16': {
     title: 'The Lord Descends with a Shout',
     principle:
-      'The Lord Himself shall descend from heaven with a shout, with the voice of the archangel, with the trumpet of God; the dead in Christ shall rise first. First principle: this is the public, bodily second coming of Christ and the resurrection of the dead — the same event Jesus and Paul teach elsewhere — not a secret removal of the church before judgment.',
+      'The Lord Himself shall descend from heaven with a shout, with the voice of the archangel, with the trumpet of God; the dead in Christ shall rise first. First principle: this is the second coming of Christ, and everyone will see him come. He comes in a real body. It is also the resurrection of the dead. Jesus and Paul teach the same event elsewhere. It is not a secret removal of the church before judgment.',
     sourceKeywords: ['Lord himself', 'descend', 'heaven', 'shout', 'voice', 'archangel', 'trumpet', 'God', 'dead in Christ', 'rise first'],
     fulfillmentKeywords: ['trumpet', 'dead', 'raise', 'incorruptible', 'angel', 'descend', 'Son of man', 'coming'],
     terms: [
-      { term: 'trumpet of God', original: 'σάλπιγγι θεοῦ', translit: 'salpingi theou', gloss: 'trumpet of God', note: 'Isa 27:13 / Matt 24:31 / 1 Cor 15:52 — one public eschatological coming, not a separate secret event.' },
-      { term: 'the dead in Christ shall rise', original: 'οἱ νεκροὶ ἐν Χριστῷ ἀναστήσονται πρῶτον', translit: 'hoi nekroi en Christō anastēsontai prōton', gloss: 'the dead in Christ will rise first', note: 'Resurrection at the last day (John 6:39-40), simultaneous with Christ\'s visible return.' },
+      { term: 'trumpet of God', original: 'σάλπιγγι θεοῦ', translit: 'salpingi theou', gloss: 'trumpet of God', note: 'Isa 27:13 / Matt 24:31 / 1 Cor 15:52 all describe one public coming at the end of the story. It is not a separate secret event.' },
+      { term: 'the dead in Christ shall rise', original: 'οἱ νεκροὶ ἐν Χριστῷ ἀναστήσονται πρῶτον', translit: 'hoi nekroi en Christō anastēsontai prōton', gloss: 'the dead in Christ will rise first', note: 'The resurrection happens on the last day (John 6:39-40). It happens at the same time as Christ\'s visible return.' },
     ],
   },
   '1th-4-17': {
     title: 'Together to Meet the Lord',
     principle:
-      'Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air, and so shall we ever be with the Lord. First principle: living believers join the resurrected dead to greet the returning King — the one public second advent, not a secret or two-stage removal of the church. Comfort one another with these words: Christ comes, the dead rise, and we are with Him forever.',
+      'Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air, and so shall we ever be with the Lord. First principle: believers who are still alive join the believers God has raised, and together they greet the returning King. This is one public second coming. It is not a secret removal of the church, and it does not happen in two stages. Comfort one another with these words. Christ comes, the dead rise, and we are with Him forever.',
     sourceKeywords: ['caught up', 'together', 'clouds', 'meet the Lord', 'air', 'ever be with the Lord'],
     fulfillmentKeywords: ['Son of man', 'coming', 'clouds', 'gather', 'elect', 'angels', 'trumpet'],
     terms: [
-      { term: 'caught up together', original: 'ἁρπαγησόμεθα ἅμα', translit: 'harpagēsometha hama', gloss: 'we shall be caught/snatched together', note: 'Greek ἅρπαζω — seize/catch (cf. Acts 8:39); not a separate secret coming. The context is resurrection (v16) and permanent fellowship with the Lord (v17), paralleling Matt 24:30-31.' },
+      { term: 'caught up together', original: 'ἁρπαγησόμεθα ἅμα', translit: 'harpagēsometha hama', gloss: 'we shall be caught/snatched together', note: 'Greek ἅρπαζω means seize or catch (cf. Acts 8:39). It does not mean a separate secret coming. The context is resurrection (v16) and lasting fellowship with the Lord (v17). That matches Matt 24:30-31.' },
     ],
   },
   '1ti-2-5': {
@@ -7174,7 +7174,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-1-10': {
     title: 'To Wait for His Son from Heaven',
     principle:
-      'The delivered wait for the Deliverer from the wrath to come. First principle: waiting is the converted posture — the risen Jesus from heaven is both rescuer and expectation.',
+      'Those God has delivered wait for the Deliverer from the wrath to come. First principle: waiting is what a person who has turned to God does. The risen Jesus in heaven is both the rescuer and the one they are waiting for.',
     sourceKeywords: ['wait for his Son from heaven', 'delivered us from the wrath to come'],
     fulfillmentKeywords: ['one like the Son of man came with the clouds'],
     terms: [],
@@ -7182,7 +7182,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-2-19': {
     title: 'What Is Our Hope, or Joy, or Crown of Rejoicing?',
     principle:
-      'The converts themselves are the crown at His coming. First principle: ministry\'s reward is people standing before the Lord — Daniel\'s soul-winners shining is Paul\'s crown.',
+      'The people Paul brought to Christ are his crown at the coming. First principle: the reward of ministry is people standing before the Lord. Paul\'s crown is the soul-winners Daniel described as shining.',
     sourceKeywords: ['hope, or joy, or crown of rejoicing', 'in the presence of our Lord Jesus Christ at his coming'],
     fulfillmentKeywords: ['they that turn many to righteousness as the stars'],
     terms: [],
@@ -7190,7 +7190,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-3-13': {
     title: 'At the Coming of Our Lord with All His Saints',
     principle:
-      'Hearts established unblameable in holiness for the day of saints\' company. First principle: holiness has a deadline and a procession — He comes with all His saints, and hearts are readied now.',
+      'Hearts established unblameable in holiness for the day of saints\' company. God makes a heart steady and blameless. He does this so it is ready for the day when all his saints gather. First principle: holiness has a deadline and a procession. Christ comes with all his saints, and hearts are readied now.',
     sourceKeywords: ['stablish your hearts unblameable in holiness', 'the coming of our Lord Jesus Christ', 'with all his saints'],
     fulfillmentKeywords: ['the LORD my God shall come, and all the saints with thee'],
     terms: [],
@@ -7198,7 +7198,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-4-13': {
     title: 'That Ye Sorrow Not, Even as Others Which Have No Hope',
     principle:
-      'Sleeping believers are not lost to ignorance-grief. First principle: Christian grief is bounded by resurrection fact — ignorance is the sorrow\'s source, and the word of the Lord is its cure.',
+      'Believers who have fallen asleep in death are not lost. First principle: the resurrection puts a limit on Christian grief. Not knowing is what makes the sorrow sharp, and the word of the Lord is the cure.',
     sourceKeywords: ['concerning them which are asleep', 'sorrow not', 'others which have no hope'],
     fulfillmentKeywords: ['I am the resurrection, and the life'],
     terms: [],
@@ -7206,7 +7206,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-4-14': {
     title: 'Them Also Which Sleep in Jesus Will God Bring with Him',
     principle:
-      'The died-and-rose fact guarantees the brought-with. First principle: the sleeping saints are with Jesus now and return with Him — the same belief that saved them escorts them back.',
+      'Jesus died and rose again. That fact guarantees that God will bring with him those who sleep in Jesus. First principle: the sleeping saints are with Jesus now, and they return with him. The same belief that saved them escorts them back.',
     sourceKeywords: ['Jesus died and rose again', 'them also which sleep in Jesus', 'God bring with him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7214,7 +7214,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-4-15': {
     title: 'We Which Are Alive... Shall Not Prevent Them Which Are Asleep',
     principle:
-      'By the word of the Lord: the living do not arrive ahead of the dead. First principle: the resurrection order protects the sleeping saints\' priority — the dead rise first, then the caught-up living.',
+      'By the word of the Lord: the living do not arrive ahead of the dead. Here \'prevent\' means come before, not stop. First principle: the resurrection keeps an order. The dead rise first. Then the living are caught up.',
     sourceKeywords: ['by the word of the Lord', 'alive and remain', 'shall not prevent them which are asleep'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7222,7 +7222,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-5-2': {
     title: 'The Day of the Lord Cometh as a Thief in the Night',
     principle:
-      'The suddenness is proverbial among the apostles. First principle: the thief-timing is for the unwatching — suddenness to the world is schedule to the sons of light.',
+      'The apostles all say it will be sudden. First principle: the day comes like a thief to those who are not watching. The world is caught by surprise. The sons of light know the schedule.',
     sourceKeywords: ['the day of the Lord so cometh as a thief in the night'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7230,7 +7230,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-5-3': {
     title: 'When They Shall Say, Peace and Safety',
     principle:
-      'The peace-cry precedes inescapable labor pains. First principle: the world\'s slogan is the signal — destruction arrives in the vocabulary of security, as Isaiah\'s birth-pang image warned.',
+      'The cry of peace comes first. Then the labor pains arrive, and no one escapes them. First principle: the world\'s slogan is the signal. Destruction arrives in the vocabulary of security. Isaiah\'s picture of birth pains warned of this.',
     sourceKeywords: ['Peace and safety', 'sudden destruction cometh', 'as travail upon a woman with child'],
     fulfillmentKeywords: ['they shall be afraid: pangs and sorrows shall take hold of them'],
     terms: [],
@@ -7238,7 +7238,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1th-5-23': {
     title: 'Your Whole Spirit and Soul and Body Preserved',
     principle:
-      'Wholly sanctified, preserved blameless unto the coming. First principle: sanctification is total (spirit, soul, body) and dated — preserved unto the coming by the faithful God who called.',
+      'Wholly sanctified, preserved blameless unto the coming. God makes the whole person holy, and he keeps that person blameless until Christ comes. First principle: this work covers spirit, soul, and body. It is tied to a date. The faithful God who called his people keeps them until the coming.',
     sourceKeywords: ['sanctify you wholly', 'spirit and soul and body', 'blameless unto the coming'],
     fulfillmentKeywords: [],
     terms: [],
