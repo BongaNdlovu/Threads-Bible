@@ -118,6 +118,7 @@ single source of truth for progress and resumption.
 | 2 Chronicles | 16 | 8 | 8 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 11 |
 | Ezra | 31 | 17 | 14 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 12 (8 chain drafts deferred to the chain pass) |
 | Esther | 4 | 2 | 2 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 13 |
+| Job | 68 | 20 | 48 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 14 (9 chain drafts + 33 chain verify-only deferred to the chain pass) |
 
 Rows are in the order the books were applied, which is also canonical order within Stage A.
 Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because

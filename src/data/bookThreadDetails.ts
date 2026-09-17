@@ -1150,7 +1150,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-19-25': {
     title: 'I Know That My Redeemer Liveth',
     principle:
-      'Amid intense agony and abandonment, Job makes the monumental confession: "I know that my Redeemer lives, and He shall stand at the last upon the earth; and after my skin is destroyed, yet in my flesh I shall see God." First principle: bodily resurrection and personal vindication through an eternal Kinsman-Redeemer are anchored in the oldest poetry of Scripture.',
+      'Job is in agony, and his friends have all turned away. Still he makes this monumental confession: "I know that my Redeemer lives, and He shall stand at the last upon the earth; and after my skin is destroyed, yet in my flesh I shall see God." First principle: bodily resurrection and personal vindication through an eternal Kinsman-Redeemer are anchored in the oldest poetry of Scripture.',
     sourceKeywords: ['know', 'Redeemer liveth', 'stand at the latter day', 'earth', 'in my flesh', 'see God'],
     fulfillmentKeywords: ['Redeemer', 'resurrection', 'flesh', 'see him as he is', 'raised incorruptible'],
     terms: [
@@ -8867,7 +8867,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-1-21': {
     title: 'The LORD Gave, and the LORD Hath Taken Away',
     principle:
-      'Naked in, naked out; the name of the LORD blessed anyway. First principle: stewardship of loss — the Giver\'s rights are acknowledged at the moment of the taking; sin stayed away from the lips.',
+      'Job lost everything, and he still said, "the LORD gave, and the LORD hath taken away;". First principle: Job came into the world with nothing and would leave with nothing. So he owned that the Giver has the right to take back what he gave, and he would not let sin onto his lips.',
     sourceKeywords: ['Naked came I out of my mother\'s womb', 'the LORD gave, and the LORD hath taken away', 'blessed be the name of the LORD'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8875,7 +8875,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-2-10': {
     title: 'Shall We Receive Good at the Hand of God, and Not Evil?',
     principle:
-      'The second trial answered without lip-sin. First principle: Job refuses the transactional God — receiving both hands from heaven without charging Him foolishly.',
+      'Job answers the second trial, and he does not sin with his lips. First principle: Job refuses to treat God as a deal. He takes both good and trouble from God\'s hand, and he does not charge God with folly.',
     sourceKeywords: ['Thou speakest as one of the foolish women', 'shall we receive good... and shall we not receive evil', 'did not Job sin with his lips'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8883,7 +8883,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-5-13': {
     title: 'He Taketh the Wise in Their Own Craftiness',
     principle:
-      'The froward counsel carried headlong. First principle: Eliphaz\'s true saying — even from a wrong friend — is Scripture twice over: Paul quotes it against worldly wisdom.',
+      'Eliphaz says God catches the crafty in their own cunning. First principle: that saying is true even coming from a wrong friend, and Scripture uses it twice — Paul quotes it against the wisdom of this world.',
     sourceKeywords: ['He taketh the wise in their own craftiness', 'the counsel of the froward is carried headlong'],
     fulfillmentKeywords: ['He taketh the wise in their own craftiness'],
     terms: [],
@@ -8891,7 +8891,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-9-8': {
     title: 'Which Alone Spreadeth Out the Heavens',
     principle:
-      'And treadeth upon the waves of the sea. First principle: the Creator alone stretches skies — and the One walking on waves later wears this title in person on Galilee.',
+      'And treadeth upon the waves of the sea. First principle: God alone stretched out the heavens, and the One who later walked on the water of Galilee is the same Person.',
     sourceKeywords: ['Which alone spreadeth out the heavens', 'treadeth upon the waves of the sea'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8907,7 +8907,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-14-4': {
     title: 'Who Can Bring a Clean Thing out of an Unclean?',
     principle:
-      'Not one — from the man of Uz. First principle: the inherited-uncleanness question is asked so the new birth can answer it: that which is born of flesh is flesh.',
+      'Not one — from the man of Uz. First principle: Job asks who can bring a clean thing out of an unclean, and the new birth gives the answer: that which is born of flesh is flesh.',
     sourceKeywords: ['Who can bring a clean thing out of an unclean', 'not one'],
     fulfillmentKeywords: ['That which is born of the flesh is flesh'],
     terms: [],
@@ -8915,7 +8915,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-16-19': {
     title: 'My Witness Is in Heaven, and My Record Is on High',
     principle:
-      'Job\'s heaven-side witness while friends accuse. First principle: the earth\'s court is lost; heaven\'s record stands — the scintilla of the Advocate doctrine before the Incarnation.',
+      'Job\'s friends are accusing him, and he appeals to a witness in heaven. First principle: the court on earth has ruled against him, but heaven keeps the record — a first hint of the Advocate doctrine, long before the Incarnation.',
     sourceKeywords: ['my witness is in heaven', 'my record is on high'],
     fulfillmentKeywords: ['we have an advocate with the Father'],
     terms: [],
@@ -8923,7 +8923,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-19-26': {
     title: 'Yet in My Flesh Shall I See God',
     principle:
-      'Worms destroy the body; the eyes see God in flesh. First principle: the resurrection hope is declared from suffering\'s floor — in my flesh, not as a ghost; Job foresees the renewed body.',
+      'Worms destroy the body, and yet the eyes see God in flesh. First principle: Job speaks this hope right from the floor of his suffering, and what he expects is not a ghost. He expects a body made new.',
     sourceKeywords: ['though after my skin worms destroy this body', 'yet in my flesh shall I see God'],
     fulfillmentKeywords: ['this mortal must put on immortality'],
     terms: [],
@@ -8931,7 +8931,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-33-23': {
     title: 'If There Be a Messenger with Him, an Interpreter, One among a Thousand',
     principle:
-      'The interpreter to show man his uprightness. First principle: Elihu names the need — one among a thousand to mediate and interpret; the rarity finds its supply in the one Mediator.',
+      'Elihu describes an interpreter who shows a man what is right. First principle: Elihu names the need — a mediator who is one among a thousand, and that rare find is supplied by the one Mediator.',
     sourceKeywords: ['a messenger with him', 'an interpreter, one among a thousand', 'to shew unto man his uprightness'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8939,7 +8939,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-38-1': {
     title: 'Then the LORD Answered Job out of the Whirlwind',
     principle:
-      'The answer comes from the storm, not the argument. First principle: after thirty-one chapters of human speech, God speaks from whirlwind — creation-questions replace creature-complaints.',
+      'The answer comes from the storm, not from the argument. First principle: after thirty-one chapters of human speech, God speaks from the whirlwind — and he asks about creation instead of answering the complaints of the creature.',
     sourceKeywords: ['the LORD answered Job out of the whirlwind'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8947,7 +8947,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'job-42-5': {
     title: 'I Have Heard of Thee by the Hearing of the Ear',
     principle:
-      'But now mine eye seeth Thee — and Job repents in dust. First principle: hearing-of becomes seeing — the encounter with God converts theology into humility; the second-hand God becomes first-hand.',
+      'But now mine eye seeth Thee — and Job repents in dust. First principle: hearing about God turns into seeing him, and the meeting turns head knowledge into humility.',
     sourceKeywords: ['I have heard of thee by the hearing of the ear', 'but now mine eye seeth thee'],
     fulfillmentKeywords: ['we beheld his glory'],
     terms: [],
