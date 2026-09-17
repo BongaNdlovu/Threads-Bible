@@ -1025,23 +1025,23 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-7-12': {
     title: 'Davidic Seed — Everlasting Throne',
     principle:
-      'God covenants with David that his seed will build a house and his throne will be established forever. Luke records the angel Gabriel announcing that Jesus will receive the throne of His father David and of His kingdom there will be no end. First principle: the kingdom is guaranteed by unconditional divine covenant sworn to David.',
+      'God makes a covenant — a binding promise — with David. David\'s own son will come from him, and God will set up his kingdom. Luke tells how the angel Gabriel announced to Mary that Jesus will receive the throne of His father David. First principle: God\'s binding promise to David has no conditions attached. Nothing David does can cancel it.',
     sourceKeywords: ['seed', 'proceed', 'bowels', 'establish', 'kingdom', 'forever'],
     fulfillmentKeywords: ['throne', 'David', 'father', 'reign', 'kingdom', 'no end'],
     terms: [
-      { term: 'seed', original: 'זַרְעֲךָ', translit: 'zarʿakha', gloss: 'your seed / offspring', note: 'Acts 2:30; Rom 1:3 — Christ made of the seed of David according to the flesh.' },
+      { term: 'seed', original: 'זַרְעֲךָ', translit: 'zarʿakha', gloss: 'your seed / offspring', note: 'Acts 2:30 and Rom 1:3 both take up this promise. Paul says Christ was made of the seed of David according to the flesh.' },
       { term: 'forever', original: 'עַד־עוֹלָם', translit: 'ʿad-ʿolam', gloss: 'unto eternity', note: 'Luke 1:33 — "and of his kingdom there shall be no end."' },
     ],
   },
   '2sa-23-5': {
     title: 'Everlasting Covenant — Branching Forth',
     principle:
-      'David\'s last prophetic words declare that God has made with him an everlasting covenant, ordered in all things and sure, and He will make all his salvation to branch forth. First principle: the messianic covenant outlives all earthly failure and blossoms in Christ.',
+      'David\'s last words are prophecy. He says God has made with him an everlasting covenant, "ordered in all things, and sure." That covenant does not rest on how well David did. It keeps working after every earthly failure, and it blossoms in Christ. First principle: the promise God gave David is stronger than the man who received it.',
     sourceKeywords: ['everlasting covenant', 'ordered', 'sure', 'salvation', 'grow', 'branch'],
     fulfillmentKeywords: ['everlasting covenant', 'blood', 'Branch', 'salvation', 'David'],
     terms: [
       { term: 'everlasting covenant', original: 'בְּרִית עוֹלָם', translit: 'berit ʿolam', gloss: 'covenant of eternity', note: 'Heb 13:20 — blood of the everlasting covenant.' },
-      { term: 'make it grow', original: 'יַצְמִיחַ', translit: 'yatsmiach', gloss: 'He will cause to sprout / branch forth', note: 'Same root as Tsemach (the Branch) in Jer 23:5 and Zech 6:12.' },
+      { term: 'make it grow', original: 'יַצְמִיחַ', translit: 'yatsmiach', gloss: 'He will cause to sprout / branch forth', note: 'This word comes from the same root as Tsemach, the Branch, in Jer 23:5 and Zech 6:12.' },
     ],
   },
   'lev-25-25': {
@@ -8451,7 +8451,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-7-13': {
     title: 'He Shall Build an House for My Name',
     principle:
-      'The seed builds; the throne is established forever. First principle: Solomon builds the temple, but the verse outruns him — the forever-establishment is David\'s greater Son.',
+      'David\'s descendant builds the house, and God establishes that throne forever. First principle: Solomon builds the temple, but the promise reaches past him. The throne that is established forever belongs to David\'s greater Son.',
     sourceKeywords: ['He shall build an house for my name', 'stablish the throne of his kingdom for ever'],
     fulfillmentKeywords: ['But unto the Son he saith... Thy throne'],
     terms: [],
@@ -8459,7 +8459,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-7-14': {
     title: 'I Will Be His Father, and He Shall Be My Son',
     principle:
-      'Father-son covenant with chastening rod included. First principle: the decree-sonship of Psalm 2 and the Davidic covenant are the same verse to Hebrews — and the chastening clause points to the cross.',
+      'God promises to be a Father to David\'s son, and the promise carries a rod for correction. First principle: Hebrews gives the promise "I will be his father, and he shall be my son" to Jesus, and he joins it to Psalm 2. Both are one promise, not two. That same verse adds the rod of correction, and that correction points to the cross.',
     sourceKeywords: ['I will be his father', 'he shall be my son', 'chasten him with the rod of men'],
     fulfillmentKeywords: ['For unto which of the angels said he... Thou art my Son'],
     terms: [],
@@ -8467,7 +8467,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-7-16': {
     title: 'Thy Throne Shall Be Established for Ever',
     principle:
-      'House, kingdom, throne — forever before thee. First principle: the oath that outruns exile — Gabriel repeats it to Mary over the child in her womb.',
+      'The promise names a house, a kingdom and a throne, and it stands established before God forever. First principle: God swore this oath to David, and it outlives the exile. Gabriel repeats it to Mary over the child in her womb.',
     sourceKeywords: ['thine house and thy kingdom', 'established for ever before thee', 'thy throne shall be established for ever'],
     fulfillmentKeywords: ['the Lord God shall give unto him the throne of his father David'],
     terms: [],
@@ -8475,7 +8475,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-12-13': {
     title: 'The LORD Also Hath Put Away Thy Sin; Thou Shalt Not Die',
     principle:
-      'Confession one word long; pardon immediate. First principle: the psalms of forgiveness (32, 51) come out of this sentence — sin put away, death sentence lifted, consequences remaining.',
+      'David\'s whole confession is this: "I have sinned against the LORD." Nathan answers at once that God has put the sin away. First principle: Psalm 32 and Psalm 51 grow out of this moment. God puts the sin away and lifts the death sentence, but the consequences stay.',
     sourceKeywords: ['I have sinned against the LORD', 'The LORD also hath put away thy sin', 'thou shalt not die'],
     fulfillmentKeywords: ['Blessed is he whose transgression is forgiven'],
     terms: [],
@@ -8483,7 +8483,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-22-2': {
     title: 'The LORD Is My Rock, and My Fortress',
     principle:
-      'The deliverance song David sings when the LORD delivered him from all enemies. First principle: the psalm of chapter 22 is Psalm 18 in place — the rescue-vocabulary of the king who trusted.',
+      'David sings this song after the LORD rescued him out of the hand of all his enemies. First principle: this psalm in chapter 22 is Psalm 18. It is the rescue words of a king who trusted God.',
     sourceKeywords: ['The LORD is my rock, and my fortress', 'my deliverer'],
     fulfillmentKeywords: ['The LORD is my rock, and my fortress'],
     terms: [],
@@ -8491,7 +8491,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-22-50': {
     title: 'I Will Give Thanks unto Thee among the Heathen',
     principle:
-      'The thanksgiving goes international. First principle: Romans 15 quotes David\'s resolve as proof of the Gentile plan — praise among the nations was the king\'s own mission statement.',
+      'David vows to thank God among the Gentiles. First principle: Paul quotes that vow in Romans 15 as proof that God planned all along to bring the Gentiles in. The king\'s own promise to praise God among the nations was God\'s plan in the making.',
     sourceKeywords: ['give thanks unto thee, O LORD, among the heathen', 'sing praises unto thy name'],
     fulfillmentKeywords: ['confess to thee among the Gentiles'],
     terms: [],
@@ -8499,7 +8499,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2sa-24-17': {
     title: 'Let Thine Hand Be Against Me, and Against My Father\'s House',
     principle:
-      'David intercedes at the plague-angel\'s sight: the shepherd offers himself for the sheep. First principle: the king\'s substitution instinct points to the greater Shepherd-King who does not pray it but performs it.',
+      'David sees the angel who brings the plague, and he speaks to God for the people. The shepherd offers himself in place of the sheep. First principle: the king\'s wish to take the punishment himself points to the greater Shepherd-King. That Shepherd does not pray this prayer; he answers it.',
     sourceKeywords: ['I have sinned, and I have done wickedly', 'these sheep, what have they done', 'be against me'],
     fulfillmentKeywords: [],
     terms: [],

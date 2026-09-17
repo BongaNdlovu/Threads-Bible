@@ -108,3 +108,4 @@ single source of truth for progress and resumption.
 | Joshua | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | Judges | 6 | 3 | 3 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
 | Ruth | 29 | 4 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
+| 2 Samuel | 49 | 26 | 23 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
