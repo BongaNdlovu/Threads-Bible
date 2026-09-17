@@ -14,7 +14,7 @@ import { threadDetails, threadChains } from '../src/data/threadDetails';
 import { checkProse } from './checkReadability';
 import { BOOK_REGISTRY, BOOK_BY_NAME } from '../src/data/bookRegistry';
 import { normalizeBookName } from '../src/data/refParser';
-import { ABBREVIATIONS as CITATION_ABBREVIATIONS } from './cp03StructuralVerify';
+import { ABBREVIATIONS as CITATION_ABBREVIATIONS } from './citationTokens';
 
 type AnyRecord = Record<string, any>;
 

@@ -35,6 +35,26 @@ function argValue(argv: string[], flag: string): string | undefined {
 
 const SIGNED_MARKER = 'Operator theology sign-off';
 
+/* ---- punctuation-only classification (plan §0.7 / §1.11) --------------------
+ * A draft whose AFTER contains no new words and only moves punctuation is NOT a
+ * §1.7 rewrite: it is a sentence-boundary change. The writers produced 46 of them
+ * across the three calibration books (num 1, rom 6, psa 39), and one writer's own
+ * validator affirmed the opposite — so the class is computed here, mechanically,
+ * and reported to the operator rather than silently kept or silently dropped. */
+const wordsOf = (s: string) =>
+  s.toLowerCase().replace(/[^a-z0-9 ]+/g, ' ').replace(/\s+/g, ' ').trim().split(' ').filter(Boolean);
+
+function classifyPunctuationOnly(before: string, after: string): boolean {
+  const bw = wordsOf(before);
+  const aw = wordsOf(after);
+  if (aw.join(' ') !== bw.join(' ')) return false; // new words => a real rewrite
+  const termsBefore = before.split(/[.!?]+/).filter(x => wordsOf(x).length).length;
+  const termsAfter = after.split(/[.!?]+/).filter(x => wordsOf(x).length).length;
+  const midBefore = (before.match(/[;:\u2014\u2013]/g) ?? []).length;
+  const midAfter = (after.match(/[;:\u2014\u2013]/g) ?? []).length;
+  return termsAfter >= termsBefore || midAfter < midBefore;
+}
+
 /** Escape a markdown table cell / fenced block safely. */
 function cell(text: string): string {
   return text.replace(/\|/g, '\\|').replace(/\s+/g, ' ').trim();

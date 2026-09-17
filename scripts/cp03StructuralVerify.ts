@@ -392,18 +392,13 @@ function allStringLeaves(u: Unit): string[] {
 
 /* --------------------------------------------------------- citation tokens */
 
-export const ABBREVIATIONS = [
-  'Gen', 'Ex', 'Exod', 'Lev', 'Num', 'Deut', 'Josh', 'Judg', 'Ruth', '1 Sam', '2 Sam',
-  '1 Kgs', '2 Kgs', '1 Chr', '2 Chr', 'Ezra', 'Neh', 'Esth', 'Job', 'Ps', 'Pss', 'Prov',
-  'Eccl', 'Song', 'Isa', 'Jer', 'Lam', 'Ezek', 'Dan', 'Hos', 'Joel', 'Amos', 'Obad',
-  'Jonah', 'Mic', 'Nah', 'Hab', 'Zeph', 'Hag', 'Zech', 'Mal', 'Matt', 'Mark', 'Luke',
-  'John', 'Acts', 'Rom', '1 Cor', '2 Cor', 'Gal', 'Eph', 'Phil', 'Col', '1 Thess',
-  '2 Thess', '1 Tim', '2 Tim', 'Titus', 'Phlm', 'Heb', 'Jas', '1 Pet', '2 Pet',
-  '1 John', '2 John', '3 John', 'Jude', 'Rev',
-];
+export { ABBREVIATIONS } from './citationTokens';
+import { ABBREVIATIONS as CITATION_ABBREVIATIONS } from './citationTokens';
+
+const ABBREVIATIONS_LOCAL = [...CITATION_ABBREVIATIONS];
 
 const BOOK_ALT = (() => {
-  const all = [...BOOK_REGISTRY.map(b => b.name), ...ABBREVIATIONS];
+  const all = [...BOOK_REGISTRY.map(b => b.name), ...ABBREVIATIONS_LOCAL];
   const uniq = Array.from(new Set(all)).sort((a, b) => b.length - a.length || a.localeCompare(b));
   return uniq.map(escapeRe).join('|');
 })();

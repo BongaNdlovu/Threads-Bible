@@ -26,7 +26,7 @@
  * Refuses (exit 1, writes nothing) when a draft is ambiguous, missing, empty,
  * identical to its BEFORE, or when the accounting does not add up.
  */
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
 
 const DATA_FILES = ['src/data/threadDetails.ts', 'src/data/bookThreadDetails.ts'] as const;
@@ -166,16 +166,35 @@ function main() {
   console.log(`drafts: ${set.drafts?.length ?? 0} · verify-only: ${set.verifyOnly?.length ?? 0} · equivalent: ${set.equivalent?.length ?? 0}`);
   console.log(`worklist strings: ${before.size} · mode: ${apply ? 'APPLY' : 'DRY RUN'}\n`);
 
-  // ---- RULE 1: pre-flight cleanliness (checked against git, not memory) ----
-  // Skipped in --verify mode, whose whole purpose is to audit an ALREADY-APPLIED
-  // (therefore dirty) tree after the fact.
+  // ---- RULE 1: pre-flight (checked against git, not memory) ----
+  // A sweep applies books one after another, so the tree legitimately holds the
+  // PREVIOUS books' applies. What must never happen is building on top of an
+  // UNRELATED edit. The rule therefore is: every dirty entry must belong to a book
+  // that already has a docs/CP-03_<BOOK>_APPLY.md record — work this plan did.
+  // Skipped in --verify mode, whose whole purpose is to audit an applied tree.
   const dirty = verifyOnlyMode ? [] : dirtyDataFiles();
-  const preflightBlocked = dirty.length > 0;
+  let unrecognised: string[] = [];
+  if (dirty.length > 0) {
+    const booksWithApplyDocs = new Set<string>();
+    for (const entry of readdirSync('docs')) {
+      const m = /^CP-03_([A-Z0-9]+)_APPLY\.md$/.exec(entry);
+      if (m) booksWithApplyDocs.add(m[1].toLowerCase());
+    }
+    const dirtyBooks = new Set<string>();
+    for (const [, loc] of changedLocations()) {
+      for (const id of loc.ids) dirtyBooks.add(id.split('-')[0]);
+    }
+    unrecognised = [...dirtyBooks].filter(b => !booksWithApplyDocs.has(b));
+  }
+  const preflightBlocked = unrecognised.length > 0;
   if (preflightBlocked) {
     console.log('--- pre-flight ---');
-    console.log(`  DATA FILES ARE DIRTY vs HEAD: ${dirty.join(', ')}`);
+    console.log(`  DATA FILES HOLD CHANGES FROM AN UNRECOGNISED BOOK: ${unrecognised.join(', ')}`);
     console.log('  A sweep never builds on top of an unrelated edit. Restore them first:');
     console.log('    git checkout -- src/data/threadDetails.ts src/data/bookThreadDetails.ts');
+  } else if (dirty.length > 0) {
+    console.log('--- pre-flight ---');
+    console.log(`  tree already holds a previous apply (${dirty.length} file(s)) and every changed entry belongs to a book with an apply record — OK`);
   }
 
   const sources = DATA_FILES.map(p => ({ path: p as string, text: readFileSync(p, 'utf8') }));
