@@ -1014,11 +1014,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-21-9': {
     title: 'The Bronze Serpent Lifted Up',
     principle:
-      'Moses makes a bronze serpent and sets it on a pole; whoever is bitten and looks upon it lives. Jesus directly applies this to His own crucifixion: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turns the emblem of the curse into the instrument of life when looked upon in faith.',
+      'Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turned the sign of the curse into the means of life for everyone who looks to it in faith.',
     sourceKeywords: ['serpent of brass', 'pole', 'bitten', 'beheld', 'lived'],
     fulfillmentKeywords: ['lifted up', 'serpent', 'wilderness', 'Son of man', 'believe', 'eternal life', 'cross'],
     terms: [
-      { term: 'serpent of brass', original: 'נְחַשׁ נְחֹשֶׁת', translit: 'nechash nechoshet', gloss: 'serpent of bronze / copper', note: 'Wordplay in Hebrew (nachash / nechoshet); type of sin judged in the likeness of sinful flesh (Rom 8:3).' },
+      { term: 'serpent of brass', original: 'נְחַשׁ נְחֹשֶׁת', translit: 'nechash nechoshet', gloss: 'serpent of bronze / copper', note: 'The Hebrew plays on two similar words: nachash, “serpent,” and nechoshet, “bronze.” The bronze serpent looked like the sin God judged, and Romans 8:3 says God sent his Son “in the likeness of sinful flesh.”' },
       { term: 'lifted up', original: 'ὑψωθῆναι', translit: 'hypsōthēnai', gloss: 'to be lifted up / exalted', note: 'John 3:14; 12:32 — double meaning of physical elevation on the cross and divine exaltation.' },
     ],
   },
@@ -1449,7 +1449,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-12-6': {
     title: 'Visions and Dreams — The Divine Protocol for True Prophets',
     principle:
-      'The LORD declares the biblical criteria for the prophetic gift: "If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream." Together with Isaiah 8:20 (harmony with the law) and Matthew 7:20 ("by their fruits ye shall know them"), Scripture establishes objective, empirical tests for true spiritual gifts. First principle: genuine prophetic manifestations operate under strict biblical boundaries, never overriding or contradicting the written canon.',
+      'The LORD himself set the test for true prophets: "If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream." Two other verses draw the boundary. Isaiah 8:20 says a prophet must agree with God\'s law. Matthew 7:20 says, "by their fruits ye shall know them." First principle: every true prophet stays inside the boundaries God set in Scripture. No prophet ever cancels what God has already written.',
     sourceKeywords: ['prophet among you', 'make myself known unto him in a vision', 'speak unto him in a dream'],
     fulfillmentKeywords: ['spirit of prophecy', 'testimony of Jesus', '1 Corinthians 12:28', 'Revelation 19:10'],
     terms: [
@@ -1727,7 +1727,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-24-17': {
     title: 'A Star out of Jacob, a Sceptre out of Israel',
     principle:
-      'Balaam, hired to curse Israel, can only bless: I shall see him, but not now... there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel. First principle: God turns every curse of the enemy into messianic blessing; the promised Ruler appears at God\'s appointed time, not nigh but certain.',
+      'Balaam was hired to curse Israel, but he could only bless. He said: I shall see him, but not now… there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel. First principle: God turns every curse of the enemy into a blessing. The King God promised comes at God\'s appointed time, and he is certain to come.',
     sourceKeywords: ['Star out of Jacob', 'Sceptre rise out of Israel', 'see him, but not now', 'smite the corners of Moab'],
     fulfillmentKeywords: ['star', 'worship', 'King of the Jews', 'bright and morning star'],
     terms: [
@@ -1967,11 +1967,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-21-8': {
     title: 'The Fiery Serpent upon a Pole',
     principle:
-      'Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live. Remedy mirrors plague: what killed becomes the instrument of life when lifted up. First principle: salvation is by looking — faith fastened on the God-provided object.',
+      '“Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.” The cure matched the plague. What had killed them became the means of life once it was lifted up. First principle: God saves by looking — faith fastened on the object he provides.',
     sourceKeywords: ['fiery serpent', 'set it upon a pole', 'when he looketh upon it, shall live', 'much people of Israel died'],
     fulfillmentKeywords: ['as Moses lifted up the serpent', 'even so must the Son of man be lifted up', 'whosoever believeth', 'I, if I be lifted up'],
     terms: [
-      { term: 'pole', original: 'נֵס', translit: 'nes', gloss: 'banner, standard, elevated signal', note: 'The same word for the ensign to which nations gather (Isa 11:10); Jesus uses hupsothen — lifted up — of His cross (John 3:14).' },
+      { term: 'pole', original: 'נֵס', translit: 'nes', gloss: 'banner, standard, elevated signal', note: 'The Hebrew word nes is the same word for the pole God told Moses to set the serpent on. Nations gather to it as an ensign in Isa 11:10. Jesus uses hupsothen — lifted up — of His cross (John 3:14).' },
     ],
   },
   'deu-21-23': {
@@ -8039,7 +8039,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-6-24': {
     title: 'The LORD Bless Thee, and Keep Thee',
     principle:
-      'The Aaronic blessing opens with keeping. First principle: the threefold blessing climaxes in the Name placed on the people — the benediction Paul echoes in the Trinitarian grace.',
+      'The blessing Aaron spoke begins with keeping. First principle: the blessing speaks three times, and it ends with the Name placed on the people. Paul echoes that blessing in the grace that names the Father, the Son and the Holy Spirit.',
     sourceKeywords: ['The LORD bless thee, and keep thee', 'the LORD make his face shine', 'peace'],
     fulfillmentKeywords: ['the grace of the Lord Jesus Christ, and the love of God'],
     terms: [],
@@ -8047,7 +8047,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-9-12': {
     title: 'They Shall Leave None of It unto the Morning',
     principle:
-      'Passover law repeated: no bone broken, nothing left over. First principle: the second-chance Passover keeps the lamb-laws intact — integrity of the sacrifice is perpetual law.',
+      'God repeated the Passover law here: no bone broken, nothing left over. First principle: the second-chance Passover keeps the lamb-laws intact. The rules for the sacrifice never change.',
     sourceKeywords: ['leave none of it unto the morning', 'nor break any bone', 'the ordinances of the passover'],
     fulfillmentKeywords: ['A bone of him shall not be broken'],
     terms: [],
@@ -8055,7 +8055,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-11-31': {
     title: 'There Went Forth a Wind from the LORD',
     principle:
-      'Quails by the camp\'s circumference, two cubits high. First principle: God answers craving — and the quail story is the backdrop of the true bread discourse in John 6.',
+      'The quails lay all around the camp, two cubits deep on the ground. First principle: the people craved meat, and God answered them. That same quail story is the backdrop of what Jesus said about the true bread in John 6.',
     sourceKeywords: ['a wind from the LORD', 'brought quails from the sea', 'round about the camp'],
     fulfillmentKeywords: ['He gave them bread from heaven to eat'],
     terms: [],
@@ -8063,7 +8063,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-14-18': {
     title: 'The LORD Is Longsuffering, of Great Mercy',
     principle:
-      'Forgiving iniquity, by no means clearing the guilty; visiting iniquity to the fourth generation. First principle: the balance-verse of divine character — mercy and justice in one proclamation, quoted across Scripture.',
+      'The LORD forgives iniquity, and by no means clears the guilty. He visits iniquity to the fourth generation. First principle: this verse holds God\'s mercy and his justice in one proclamation. Scripture quotes it again and again.',
     sourceKeywords: ['longsuffering, and of great mercy', 'forgiving iniquity and transgression', 'by no means clearing the guilty'],
     fulfillmentKeywords: ['The LORD, The LORD God, merciful and gracious'],
     terms: [],
@@ -8071,7 +8071,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-21-11': {
     title: 'They Journeyed from Oboth, and Pitched at Ije-abarim',
     principle:
-      'The itinerary continues toward Moab, toward the sunrising. First principle: even Israel\'s marching orders are recorded; the itinerary itineraries are the road-map the Lord Jesus walked in type.',
+      'The journey went on toward Moab, toward the sunrising. First principle: God had even Israel\'s marching orders written down. The itinerary ahead is the road-map the Lord Jesus walked in type.',
     sourceKeywords: ['journeyed from Oboth', 'pitched at Ije-abarim', 'toward the sunrising'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8079,7 +8079,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-35-30': {
     title: 'The Murderer Shall Be Put to Death by the Mouth of Witnesses',
     principle:
-      'One witness cannot kill; two or more establish the matter. First principle: due process is divine law — the two-or-three witness rule Jesus and Paul both invoke for church and judgment alike.',
+      'One witness cannot put a man to death. Two or three witnesses establish the matter. First principle: fair trial law is God\'s law. Jesus and Paul both used the rule of two or three witnesses, for the church and for judgment alike.',
     sourceKeywords: ['put to death by the mouth of witnesses', 'one witness shall not testify'],
     fulfillmentKeywords: ['in the mouth of two or three witnesses'],
     terms: [],

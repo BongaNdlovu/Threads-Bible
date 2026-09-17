@@ -2103,12 +2103,12 @@ export const threadChains: ThreadChain[] = [
     name: 'The Bronze Serpent and the Cross',
     origin: 'Numbers 21:8-9',
     steps: [
-      { ref: 'Numbers 21:8-9', verseId: 'num-21-9', testament: 'OT', title: 'Bronze serpent set upon a pole', connection: 'Earliest type: looking upon the emblem of judgment brings healing.' },
-      { ref: '2 Kings 18:4', testament: 'OT', title: 'Nehushtan broken in pieces', connection: 'Same-OT: the sign corrupted into an idol; the physical bronze has no saving power in itself.' },
-      { ref: 'John 3:14-15', testament: 'NT', title: 'Even so must the Son of Man be lifted up', connection: 'NT: Jesus directly applies the serpent on the pole to His crucifixion for eternal life.' },
+      { ref: 'Numbers 21:8-9', verseId: 'num-21-9', testament: 'OT', title: 'Bronze serpent set upon a pole', connection: 'Earliest type: to look at the sign of judgment brought healing.' },
+      { ref: '2 Kings 18:4', testament: 'OT', title: 'Nehushtan broken in pieces', connection: 'Same-OT: the sign became an idol, and the bronze itself had no power to save anyone.' },
+      { ref: 'John 3:14-15', testament: 'NT', title: 'Even so must the Son of Man be lifted up', connection: 'NT: Jesus used the serpent on the pole to point to His own crucifixion, and to the eternal life it brings.' },
       { ref: 'John 8:28', testament: 'NT', title: 'When you lift up the Son of Man', connection: 'NT: lifting up on the cross reveals His divine identity.' },
       { ref: 'John 12:32-33', testament: 'NT', title: 'Lifted up from the earth to draw all', connection: 'NT: crucifixion draws all peoples to Himself.' },
-      { ref: '2 Corinthians 5:21', testament: 'NT', title: 'Made sin for us', connection: 'NT: Christ took the form of the cursed serpent/sin that we might become righteousness.' },
+      { ref: '2 Corinthians 5:21', testament: 'NT', title: 'Made sin for us', connection: 'NT: Christ became sin for us, so that we might become righteous in Him.' },
     ],
   },
   {
@@ -2379,12 +2379,12 @@ export const threadChains: ThreadChain[] = [
     origin: 'Amos 3:7',
     steps: [
       { ref: 'Amos 3:7', verseId: 'amo-3-7', testament: 'OT', title: 'God reveals His secret to His servants the prophets', connection: 'Divine rule: significant redemptive actions are always preceded by prophetic revelation.' },
-      { ref: 'Numbers 12:6', verseId: 'num-12-6', testament: 'OT', title: 'Prophetic criteria: visions and dreams', connection: 'Biblical mechanism: how God speaks to true prophets under inspired guidance.' },
+      { ref: 'Numbers 12:6', verseId: 'num-12-6', testament: 'OT', title: 'Prophetic criteria: visions and dreams', connection: 'A rule in Scripture: God speaks to true prophets this way, under inspired guidance.' },
       { ref: 'Joel 2:28-29', verseId: 'jol-2-28', testament: 'OT', title: 'Latter-day outpouring of the prophetic Spirit', connection: 'End-time promise: prophetic gift active right up to the great day of the LORD.' },
       { ref: '1 Corinthians 12:28', verseId: '1co-12-28', testament: 'NT', title: 'Prophets placed permanently in the body of Christ', connection: 'Apostolic order: spiritual gifts remain active until the church reaches mature unity in faith.' },
       { ref: 'Revelation 12:17', verseId: 'rev-12-17', testament: 'NT', title: 'Remnant identified: has the testimony of Jesus Christ', connection: 'Identifying mark: end-time believers preserve obedience and the living prophetic testimony.' },
-      { ref: 'Revelation 19:10', verseId: 'rev-19-10', testament: 'NT', title: 'The testimony of Jesus is the Spirit of Prophecy', connection: 'Inspired definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy.' },
-      { ref: 'Revelation 22:9', verseId: 'rev-22-9', testament: 'NT', title: 'Fellowservant of thy brethren the prophets', connection: 'Hermeneutical parallel: the angel equates "the testimony of Jesus" with "thy brethren the prophets."' },
+      { ref: 'Revelation 19:10', verseId: 'rev-19-10', testament: 'NT', title: 'The testimony of Jesus is the Spirit of Prophecy', connection: 'John\'s definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy.' },
+      { ref: 'Revelation 22:9', verseId: 'rev-22-9', testament: 'NT', title: 'Fellowservant of thy brethren the prophets', connection: 'A parallel in Scripture: the angel equates "the testimony of Jesus" with "thy brethren the prophets."' },
     ],
   },
   {

@@ -92,3 +92,14 @@ nodes, gradient edges with animated reveal, step playback, edge `why` fields).
 | Genesis | 173 | 2026-09-17 | PASS (AFTER) | 2 sentence-splits under gen-1-1; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
 | Exodus | 39 | 2026-09-17 | PASS (AFTER) | Sentence-split rewrites across 63 fields; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
 | Leviticus | 10 (+ 3 pillar-chain steps) | 2026-09-17 | PASS (AFTER) | 23 hand-authored §1.7 rewrites across 20 source lines (17 fields in bookThreadDetails, 6 chain fields in threadDetails); doctrinal paraphrase watchlist reviewed; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
+| Numbers | 10 (+ 7 chain fields) | 2026-09-17 | PASS (AFTER) | 19 rewrites / 40 VERIFY-ONLY / 1 EQUIVALENT of 60 in-scope strings; QUOTE-REVIEW: `num-11-31` "two cubits high" → "two cubits deep on the ground" (same measurement, flagged for the operator); 0 clarity-gate failures before and after | _awaiting voice-lock verdict_ | APPLIED (CP-03 NUM · plan v2.0 calibration) |
+
+### Plan v2.0 runs (one-pass protocol)
+
+The rows above are the v1.4 per-book protocol. From 2026-09-17 the sweep continues under
+`THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md`, which keeps this same log as the
+single source of truth for progress and resumption.
+
+| Book | In-scope strings | Rewritten | VERIFY-ONLY | EQUIVALENT | Gate | Structural verifier | Status |
+|---|---:|---:|---:|---:|---|---|---|
+| Numbers | 60 | 19 | 40 | 1 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
