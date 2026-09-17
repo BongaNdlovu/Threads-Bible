@@ -387,51 +387,51 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-5-7': {
     title: 'Christ Our Passover',
     principle:
-      'Christ our Passover is sacrificed for us; therefore keep the feast. First principle: the Passover lamb\'s death is fulfilled in Christ, reshaping Christian worship and ethics.',
+      'Christ our Passover is sacrificed for us. Therefore keep the feast. First principle: the death of the Passover lamb is fulfilled in Christ. That truth changes how Christians worship and how they live every day.',
     sourceKeywords: ['Christ our passover', 'sacrificed', 'feast'],
     fulfillmentKeywords: ['lamb', 'without blemish', 'passover', 'blood', 'sacrificed'],
     terms: [
-      { term: 'Passover', original: 'τὸ πάσχα', translit: 'to pascha', gloss: 'the Passover (lamb)', note: 'Exod 12 typology made explicit.' },
+      { term: 'Passover', original: 'τὸ πάσχα', translit: 'to pascha', gloss: 'the Passover (lamb)', note: 'Exod 12 is a real earlier event that points forward to a later one. Paul makes the link explicit.' },
     ],
   },
   '1co-10-4': {
     title: 'The Rock Was Christ',
     principle:
-      'They drank of that spiritual Rock that followed them, and that Rock was Christ. First principle: the wilderness provision is typologically Christological.',
+      '“They drank of that spiritual Rock that followed them, and that Rock was Christ.” First principle: the water in the wilderness is a real earlier event that points forward to a later one. That event shows us Jesus.',
     sourceKeywords: ['spiritual', 'Rock', 'followed', 'Christ'],
     fulfillmentKeywords: ['rock', 'Horeb', 'smite', 'water', 'drink'],
     terms: [
-      { term: 'Rock', original: 'πέτρα', translit: 'petra', gloss: 'rock, crag', note: 'Explicit apostolic typology on Exod 17:6.' },
+      { term: 'Rock', original: 'πέτρα', translit: 'petra', gloss: 'rock, crag', note: 'The apostle makes the earlier picture explicit. The rock of Exod 17:6 points forward.' },
     ],
   },
   '1co-15-3': {
     title: 'Christ Died for Our Sins',
     principle:
-      'I delivered: Christ died for our sins according to the Scriptures. First principle: atonement is substitutionary and scriptural — not a bare example.',
+      'I delivered this: Christ died for our sins according to the Scriptures. First principle: the price paid so sin can be forgiven was paid by a substitute. The Scriptures said it would happen. His death was not just a bare example.',
     sourceKeywords: ['Christ died', 'our sins', 'according to the scriptures', 'buried', 'rose again', 'third day'],
     fulfillmentKeywords: ['wounded', 'transgressions', 'bruised', 'iniquity', 'chastisement', 'peace'],
     terms: [
-      { term: 'for our sins', original: 'ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν', translit: 'hyper tōn hamartiōn hēmōn', gloss: 'on behalf of / for our sins', note: 'Isa 53:5-6 pattern — He bears what is ours.' },
+      { term: 'for our sins', original: 'ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν', translit: 'hyper tōn hamartiōn hēmōn', gloss: 'on behalf of / for our sins', note: 'Isa 53:5-6 shows the earlier picture: He bears what is ours.' },
     ],
   },
   '1co-15-20': {
     title: 'Christ the Firstfruits',
     principle:
-      'Christ is risen from the dead and become the firstfruits of those who slept. First principle: resurrection is not unique to Jesus in kind — it is the first harvest of many.',
+      'Christ is risen from the dead and become the firstfruits of those who slept. First principle: his resurrection is not the only one of its kind. It is the first harvest. Many more will follow, because God will raise them too.',
     sourceKeywords: ['risen', 'dead', 'firstfruits', 'slept'],
     fulfillmentKeywords: ['firstfruits', 'slept', 'risen', 'firstborn'],
     terms: [
-      { term: 'firstfruits', original: 'ἀπαρχή', translit: 'aparchē', gloss: 'first portion offered to God', note: 'Agricultural type: guarantee of the full harvest (1 Cor 15:23).' },
+      { term: 'firstfruits', original: 'ἀπαρχή', translit: 'aparchē', gloss: 'first portion offered to God', note: 'An earlier picture from farming: the first share guarantees the full harvest (1 Cor 15:23).' },
     ],
   },
   '1co-15-45': {
     title: 'Last Adam Quickening Spirit',
     principle:
-      'The first man Adam became a living soul; the last Adam a life-giving spirit. First principle: resurrection life is greater than creation life — and it is in Christ.',
+      'The first man Adam became a living soul; the last Adam a life-giving spirit. First principle: the resurrection life God gives is greater than the creation life he gave. That life is in Christ.',
     sourceKeywords: ['first man Adam', 'living soul', 'last Adam', 'quickening spirit'],
     fulfillmentKeywords: ['formed', 'dust', 'breath of life', 'living soul'],
     terms: [
-      { term: 'last Adam', original: 'ἔσχατος Ἀδάμ', translit: 'eschatos Adam', gloss: 'the last Adam', note: 'Not merely a second Adam — the final representative head of the new humanity.' },
+      { term: 'last Adam', original: 'ἔσχατος Ἀδάμ', translit: 'eschatos Adam', gloss: 'the last Adam', note: 'He is not just a second Adam. He is the last head of the new human family, and he represents them all.' },
     ],
   },
   '1co-15-54': {
@@ -1601,21 +1601,21 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-11-23': {
     title: 'The Lord\'s Supper — Remembrance Till He Come (Anamnēsis)',
     principle:
-      'For I have received of the Lord that which also I delivered unto you, that the Lord Jesus the same night in which He was betrayed took bread: and when He had given thanks, He brake it, and said, Take, eat: this is My body, which is broken for you: this do in remembrance of Me. The Lord\'s Supper and the ordinance of humility (foot washing) proclaim the Lord\'s death until He returns in glory.',
+      '“For I have received of the Lord that which also I delivered unto you, that the Lord Jesus the same night in which He was betrayed took bread: and when He had given thanks, He brake it, and said, Take, eat: this is My body, which is broken for you: this do in remembrance of Me.” The Lord\'s Supper and the ordinance of humility (foot washing) are both a memorial meal that shows the Lord\'s death. They announce it until He comes back in glory.',
     sourceKeywords: ['this is my body', 'this do in remembrance of me', 'new testament in my blood', 'shew the Lord\'s death till He come'],
     fulfillmentKeywords: ['blood of the new covenant', 'foot washing', 'fellowship of Christ\'s sufferings', 'eat bread in the kingdom'],
     terms: [
-      { term: 'in remembrance / memorial', original: 'εἰς τὴν ἐμὴν ἀνάμνησιν', translit: 'eis tēn emēn anamnēsin', gloss: 'unto My remembrance / living memorial', note: 'Not a repeated physical sacrifice (transubstantiation), but an active, faith-filled memorial.' },
+      { term: 'in remembrance / memorial', original: 'εἰς τὴν ἐμὴν ἀνάμνησιν', translit: 'eis tēn emēn anamnēsin', gloss: 'unto My remembrance / living memorial', note: 'The bread is not sacrificed again, as if it became Christ\'s body (transubstantiation). It is a living memorial that faith lays hold of.' },
     ],
   },
   '1co-12-28': {
-    title: 'Spiritual Gifts in the Church — Sovereign Holy Spirit Endowments',
+    title: 'Spiritual Gifts in the Church — the Holy Spirit Gives Them as He Chooses',
     principle:
-      'And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues. The Holy Spirit sovereignly endows believers with spiritual abilities to equip the saints and edify the body of Christ until unity in the faith and character perfection are achieved.',
+      '“And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues.” The Holy Spirit gives believers spiritual abilities, and he decides who receives what. He does this to equip God\'s people and to build up the body of Christ. That work continues until all are united in the faith and complete in character.',
     sourceKeywords: ['God hath set some in the church', 'prophets', 'teachers', 'spiritual gifts'],
     fulfillmentKeywords: ['edifying of the body of Christ', 'unity of the faith', 'measure of the stature of Christ'],
     terms: [
-      { term: 'spiritual gifts', original: 'χαρίσματα', translit: 'charismata', gloss: 'grace-endowments / spiritual gifts', note: 'Free divine gifts given for corporate building, not personal vanity.' },
+      { term: 'spiritual gifts', original: 'χαρίσματα', translit: 'charismata', gloss: 'grace-endowments / spiritual gifts', note: 'God gives these gifts for free. He gives them to build up the whole church, not to make one person look good.' },
     ],
   },
   'mal-3-8': {
@@ -1632,12 +1632,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-6-19': {
     title: 'The Body as the Temple of the Holy Spirit — Health & Sanctification',
     principle:
-      'What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God\'s. Christian lifestyle involves holistic sanctification: physical health, temperance, modesty, and abstaining from unclean meats (Lev 11) and harmful stimulants.',
+      '“What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God\'s.” God makes a person holy over time, and that work covers the whole life. It includes physical health, self-control, modesty, and staying away from unclean meats (Lev 11) and harmful stimulants.',
     sourceKeywords: ['body is the temple of the Holy Ghost', 'ye are not your own', 'bought with a price', 'glorify God in your body'],
     fulfillmentKeywords: ['living sacrifice', 'holy acceptable unto God', 'sanctify you wholly', 'whether ye eat or drink'],
     terms: [
-      { term: 'inner sanctuary / temple', original: 'ναὸς', translit: 'naos', gloss: 'holy sanctuary / shrine / Most Holy Place', note: 'Not hieron (general temple precincts), but naos: the sacred dwelling place of God\'s glory.' },
-      { term: 'bought with a price', original: 'ἠγοράσθητε τιμῆς', translit: 'ēgorasthēte timēs', gloss: 'ye were purchased with a price', note: 'Calvary purchase gives Christ complete ownership over our physical and mental faculties.' },
+      { term: 'inner sanctuary / temple', original: 'ναὸς', translit: 'naos', gloss: 'holy sanctuary / shrine / Most Holy Place', note: 'Paul does not use hieron (the general temple precincts). He uses naos: the holy dwelling place of God\'s glory.' },
+      { term: 'bought with a price', original: 'ἠγοράσθητε τιμῆς', translit: 'ēgorasthēte timēs', gloss: 'ye were purchased with a price', note: 'Christ bought us at Calvary. So he owns our bodies and our minds completely.' },
     ],
   },
   'rev-7-2': {
@@ -6331,7 +6331,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-1-19': {
     title: 'I Will Destroy the Wisdom of the Wise',
     principle:
-      'Isaiah\'s marvellous work levels intellectual pride. First principle: the cross is God\'s answer to wisdom-worship — understanding of the prudent is brought to nothing where a crucified Messiah saves.',
+      'Isaiah\'s marvellous work brings down the pride of the clever. First principle: the cross is God\'s answer to those who worship human wisdom. The understanding of the prudent is brought to nothing. A crucified Messiah saves.',
     sourceKeywords: ['destroy the wisdom of the wise', 'bring to nothing the understanding'],
     fulfillmentKeywords: ['a marvellous work and a wonder'],
     terms: [],
@@ -6339,7 +6339,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-1-30': {
     title: 'Made unto Us Wisdom, Righteousness, Sanctification, Redemption',
     principle:
-      'Of God, in Christ Jesus — four gifts in one Person. First principle: THE LORD OUR RIGHTEOUSNESS of Jeremiah is personalized: Christ Himself is each covenant gift, not merely its delivery system.',
+      'These gifts come from God and are in Christ Jesus. Four gifts, one Person. First principle: “THE LORD OUR RIGHTEOUSNESS” from Jeremiah now points to a person. Christ himself is every gift of God\'s binding promise. He does not merely hand the gifts out.',
     sourceKeywords: ['of him are ye in Christ Jesus', 'wisdom, and righteousness', 'sanctification, and redemption'],
     fulfillmentKeywords: ['THE LORD OUR RIGHTEOUSNESS', 'by his knowledge shall my righteous servant justify many'],
     terms: [],
@@ -6347,7 +6347,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-2-8': {
     title: 'Had They Known It, They Would Not Have Crucified the Lord of Glory',
     principle:
-      'The princes of this world missed who He was. First principle: the ignorance of the crucifiers was real — and their unwitting act fulfilled the hidden counsel of God against the Lord of glory.',
+      'The rulers of this world did not know who He was. First principle: the men who crucified Him truly did not understand. Even so, they did what God had planned in secret. They acted against the Lord of glory.',
     sourceKeywords: ['none of the princes of this world knew', 'crucified the Lord of glory'],
     fulfillmentKeywords: ['against his anointed', 'God before had shewed by the mouth of all his prophets'],
     terms: [],
@@ -6355,7 +6355,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-2-9': {
     title: 'Eye Hath Not Seen, Nor Ear Heard',
     principle:
-      'The prepared things for those who love God outrun every sense. First principle: Isaiah 64\'s unperceived wonders are revealed by the Spirit — not to spectators, but to lovers.',
+      'The things God has prepared for those who love him are beyond anything a person can perceive. First principle: the Spirit reveals the wonders of Isaiah 64 that no one perceived. He does not reveal them to spectators. He reveals them to people who love God.',
     sourceKeywords: ['Eye hath not seen', 'nor ear heard', 'which God hath prepared for them that love him'],
     fulfillmentKeywords: ['what he hath prepared for him that waiteth for him'],
     terms: [],
@@ -6363,7 +6363,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-3-19': {
     title: 'The Wisdom of This World Is Foolishness with God',
     principle:
-      'He taketh the wise in their own craftiness. First principle: the snare of cleverness is itself — Job\'s friend knew the proverb before Paul weaponized it against Corinthian factions.',
+      '“He taketh the wise in their own craftiness.” First principle: cleverness traps the clever person. Job\'s friend knew this proverb long before Paul used it against the quarrelling groups in Corinth.',
     sourceKeywords: ['foolishness with God', 'He taketh the wise in their own craftiness'],
     fulfillmentKeywords: ['he taketh the wise in their own craftiness'],
     terms: [],
@@ -6371,7 +6371,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-3-20': {
     title: 'The Lord Knoweth the Thoughts of the Wise',
     principle:
-      'The thoughts of the wise are vain before Him who searches. First principle: knowing thoughts is God\'s prerogative — the psalm of judgment levels every boastful system.',
+      'The thoughts of the wise are vain before Him who searches. First principle: only God can know what a person is thinking. That is his right. The psalm of judgment brings down every proud scheme.',
     sourceKeywords: ['The Lord knoweth the thoughts of the wise', 'that they are vain'],
     fulfillmentKeywords: ['the LORD knoweth the thoughts of man'],
     terms: [],
@@ -6379,7 +6379,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-6-16': {
     title: 'Two, Saith He, Shall Be One Flesh',
     principle:
-      'Union with a harlot makes one body — Genesis 2 governs the body\'s theology. First principle: the one-flesh bond is so real that its misuse is desecration; the member of Christ cannot be joined to a harlot.',
+      'When a man joins himself to a harlot, the two become one body. Genesis 2 is the rule for the body. First principle: the one-flesh bond is real. To misuse it is to defile something holy. A member of Christ cannot be joined to a harlot.',
     sourceKeywords: ['joined to an harlot is one body', 'shall be one flesh'],
     fulfillmentKeywords: ['they twain shall be one flesh'],
     terms: [],
@@ -6387,7 +6387,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-9-9': {
     title: 'Thou Shalt Not Muzzle the Mouth of the Ox',
     principle:
-      'The treading ox lives from its labor — and the law was written for us. First principle: God\'s care for animals carries a human ethic; those who sow spiritual things may reap material support.',
+      'The ox that treads out the grain lives from its work, and the law was written for us. First principle: God\'s care for animals teaches us how to treat people. Those who sow spiritual things may reap material support.',
     sourceKeywords: ['Thou shalt not muzzle the mouth of the ox', 'Doth God take care for oxen'],
     fulfillmentKeywords: ['thou shalt not muzzle the ox'],
     terms: [],
@@ -6395,7 +6395,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-1': {
     title: 'All Our Fathers Were under the Cloud',
     principle:
-      'The wilderness generation passed through the sea under the cloud. First principle: the exodus is the church\'s family album — Paul reads Israel\'s history as the Gentile church\'s own lineage of warning.',
+      'The wilderness generation passed through the sea under the cloud. First principle: the exodus belongs to the church too. Paul reads Israel\'s story as the story of Gentile believers, and he reads it as a warning.',
     sourceKeywords: ['all our fathers were under the cloud', 'all passed through the sea'],
     fulfillmentKeywords: ['the LORD went before them... in the pillar of a cloud'],
     terms: [],
@@ -6403,7 +6403,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-2': {
     title: 'All Were Baptized unto Moses in the Cloud and in the Sea',
     principle:
-      'A baptism without water — cloud above, walls on either side. First principle: the crossing was an initiation into a deliverer; Christian baptism into Christ follows the same identification pattern.',
+      'This was a baptism without water. The cloud was above them, and the sea stood as walls on either side. First principle: at the crossing, Israel was joined to a deliverer. Christian baptism into Christ joins a believer to him in the same way.',
     sourceKeywords: ['all baptized unto Moses', 'in the cloud and in the sea'],
     fulfillmentKeywords: ['the waters were a wall unto them on their right hand'],
     terms: [],
@@ -6411,7 +6411,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-7': {
     title: 'The People Sat Down to Eat and Drink, and Rose Up to Play',
     principle:
-      'The golden-calf orgy is quoted as idolatry\'s liturgy. First principle: idolatry is feasting before a substitute god — Paul applies the Exodus scene to the Lord\'s-table context.',
+      'Paul quotes the golden-calf orgy as the worship that goes with idolatry. First principle: an idol is a substitute for God, and people feast before it. Paul applies that Exodus scene to the Lord\'s table.',
     sourceKeywords: ['Neither be ye idolaters', 'sat down to eat and drink', 'rose up to play'],
     fulfillmentKeywords: ['they rose up early... and offered burnt offerings', 'rose up to play'],
     terms: [],
@@ -6419,7 +6419,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-8': {
     title: 'Twenty-Three Thousand Fell in One Day',
     principle:
-      'Fornication at Peor brought sudden plague. First principle: sin\'s judgment can be immediate and numerical — the register of Numbers 25 stands as a memorial of consequence.',
+      'The people committed fornication at Peor, and a plague struck them at once. First principle: God can judge sin right away, and he can judge it by number. The count recorded in Numbers 25 stands as a memorial of what sin costs.',
     sourceKeywords: ['commit fornication', 'fell in one day three and twenty thousand'],
     fulfillmentKeywords: ['twenty and four thousand died'],
     terms: [],
@@ -6427,7 +6427,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-9': {
     title: 'Neither Let Us Tempt Christ',
     principle:
-      'The wilderness grumblers tempted — and Paul names the tempted one Christ. First principle: the Rock followed them, and that Rock was Christ; testing God\'s patience with serpents has an eternal Addressee.',
+      'The wilderness grumblers tempted someone, and Paul names that one: Christ. First principle: the Rock followed them, and that Rock was Christ. When they tested God\'s patience with serpents, they were testing Christ himself.',
     sourceKeywords: ['tempt Christ', 'destroyed of serpents'],
     fulfillmentKeywords: ['the people spake against God', 'fiery serpents'],
     terms: [],
@@ -6435,7 +6435,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-10-26': {
     title: 'The Earth Is the Lord\'s, and the Fulness Thereof',
     principle:
-      'Psalm 24 settles the marketplace question. First principle: the whole earth belongs to the Lord — meat bought in the shambles carries no intrinsic idolatry; ownership sanctifies inquiry.',
+      'Psalm 24 settles the question about meat sold in the market. First principle: the whole earth belongs to the Lord. So meat bought in the meat market has no idol inside it. Because the Lord owns it all, the believer does not need to ask where it came from.',
     sourceKeywords: ['the earth is the Lord\'s', 'and the fulness thereof'],
     fulfillmentKeywords: ['The earth is the LORD\'S'],
     terms: [],
@@ -6443,7 +6443,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-11-25': {
     title: 'This Cup Is the New Testament in My Blood',
     principle:
-      'The supper cup quotes Jeremiah 31 in blood. First principle: every Communion re-proclaims the new covenant\'s terms — remission by blood, remembrance by command.',
+      'The cup at the supper points to Jeremiah 31 and speaks of blood. First principle: every Communion announces the terms of God\'s new binding promise. Forgiveness comes by blood. Remembrance is a command.',
     sourceKeywords: ['the new testament in my blood', 'in remembrance of me'],
     fulfillmentKeywords: ['I will make a new covenant', 'forgive their iniquity'],
     terms: [],
@@ -6451,7 +6451,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-12-27': {
     title: 'Ye Are the Body of Christ, and Members in Particular',
     principle:
-      'Many members, one body — each with an office. First principle: the church is not like a body but is one; particularity of members is the design of the Head.',
+      'Many members make one body, and each member has a part to play. First principle: the church is not merely like a body. It really is one. Each member being different is the design of the Head.',
     sourceKeywords: ['the body of Christ', 'members in particular'],
     fulfillmentKeywords: [],
     terms: [],
@@ -6459,7 +6459,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-4': {
     title: 'He Rose Again the Third Day According to the Scriptures',
     principle:
-      'Buried, risen on the third day — according to the Scriptures. First principle: the resurrection is not an appendix to the gospel but a fulfilled prediction — Jonah, Psalm 16, and Hosea 6 all said so.',
+      'Buried, risen on the third day, according to the Scriptures. First principle: the resurrection is not a small addition to the gospel. It is a prediction the Scriptures made in advance, and it came true. Jonah, Psalm 16, and Hosea 6 all said so.',
     sourceKeywords: ['he was buried', 'rose again the third day', 'according to the scriptures'],
     fulfillmentKeywords: ['in the belly of the fish three days', 'wilt not leave my soul in hell'],
     terms: [],
@@ -6467,7 +6467,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-15': {
     title: 'We Are Found False Witnesses of God',
     principle:
-      'If Christ is not raised, the apostolic testimony collapses into perjury. First principle: the resurrection is the fact on which every apostolic witness stands or falls — a truth-claim, not a metaphor.',
+      'If Christ is not raised, the apostles are lying about God. First principle: the resurrection is the fact every apostolic witness stands or falls on. It is a claim about what happened, not a metaphor.',
     sourceKeywords: ['false witnesses of God', 'he raised up Christ', 'the dead rise not'],
     fulfillmentKeywords: ['This Jesus hath God raised up'],
     terms: [],
@@ -6475,7 +6475,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-21': {
     title: 'Since by Man Came Death, by Man Came the Resurrection',
     principle:
-      'Death entered by a man; resurrection enters by a Man. First principle: the parallelism is incarnational — the problem needed a human solution, and the second Adam is it.',
+      'Death entered by a man, and resurrection enters by a Man. First principle: God worked this way on purpose. The problem came through a human being, so the answer came through a human being too. The second Adam is that answer.',
     sourceKeywords: ['by man came death', 'by man came also the resurrection'],
     fulfillmentKeywords: ['dust thou art, and unto dust shalt thou return'],
     terms: [],
@@ -6483,7 +6483,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-22': {
     title: 'As in Adam All Die, Even So in Christ Shall All Be Made Alive',
     principle:
-      'Two unions, two destinies. First principle: the all in Christ is as definite as the all in Adam — location, not lineage, decides life; in Him is the resurrection.',
+      'Two unions lead to two destinies. First principle: everyone in Christ will live, as surely as everyone in Adam died. Being in Christ decides that, not your family line. The resurrection is in Him.',
     sourceKeywords: ['in Adam all die', 'in Christ shall all be made alive'],
     fulfillmentKeywords: ['the hour is coming, in the which all that are in the graves'],
     terms: [],
@@ -6491,7 +6491,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-25': {
     title: 'He Must Reign, Till He Hath Put All Enemies under His Feet',
     principle:
-      'The enthroned Son reigns until the last enemy is footstooled. First principle: the kingdom is present in reign and future in completion — Psalm 110 describes the process, not just the seat.',
+      'The Son is on the throne, and he reigns until every enemy lies under his feet. First principle: Christ rules now, and he will finish the work later. Psalm 110 describes that process, not just the throne.',
     sourceKeywords: ['he must reign', 'till he hath put all enemies under his feet'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
     terms: [],
@@ -6499,7 +6499,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-26': {
     title: 'The Last Enemy That Shall Be Destroyed Is Death',
     principle:
-      'Death is the final casualty of Christ\'s reign. First principle: Isaiah\'s swallowed-up death and Revelation\'s lake of fire bracket the campaign — the ending is already written.',
+      'Death is the last enemy that Christ\'s reign destroys. First principle: Isaiah says death is swallowed up, and Revelation says death ends in the lake of fire. Those two passages frame the whole campaign. The ending is already written.',
     sourceKeywords: ['The last enemy', 'shall be destroyed is death'],
     fulfillmentKeywords: ['He will swallow up death in victory'],
     terms: [],
@@ -6507,7 +6507,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-27': {
     title: 'He Hath Put All Things under His Feet',
     principle:
-      'Psalm 8 quoted with one exception noted — the Father who subjects all. First principle: the psalm\'s universal subjection has a grammatical exception that guards the Trinity — all under the Son, the Son under none but the Father.',
+      'Paul quotes Psalm 8 and notes one exception: the Father who puts all things under him. First principle: the psalm puts everything under the Son. Paul adds one exception, and that exception guards the Trinity. Everything is under the Son, and the Son is under no one but the Father.',
     sourceKeywords: ['hath put all things under his feet', 'it is manifest that he is excepted'],
     fulfillmentKeywords: ['thou hast put all things under his feet'],
     terms: [],
@@ -6515,7 +6515,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-32': {
     title: 'Let Us Eat and Drink; for to Morrow We Die',
     principle:
-      'Paul fights beasts at Ephesus — pointless if there is no resurrection. First principle: Isaiah 22\'s fatalistic feast is the logical life of unbelief; resurrection hope is what makes endurance rational.',
+      'Paul fought wild beasts at Ephesus. If the dead are not raised, that was pointless. First principle: the feast of Isaiah 22 is how unbelief reasons. If this life is all there is, eat and drink. The hope of the resurrection is what makes it worth enduring.',
     sourceKeywords: ['fought with beasts at Ephesus', 'let us eat and drink', 'to morrow we die'],
     fulfillmentKeywords: ['let us eat and drink; for to morrow we shall die'],
     terms: [],
@@ -6523,7 +6523,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-51': {
     title: 'We Shall Not All Sleep, but We Shall All Be Changed',
     principle:
-      'The mystery revealed: living saints changed with the sleeping raised. First principle: the last generation has an exemption — not sleep but change, in the twinkling of an eye, at the last trump.',
+      'God has revealed a mystery. Believers who are still alive will be changed, and the dead will be raised. First principle: the last generation is exempt from death. God changes them instead, in the twinkling of an eye, at the last trump.',
     sourceKeywords: ['I shew you a mystery', 'We shall not all sleep', 'we shall all be changed'],
     fulfillmentKeywords: ['they that sleep in the dust of the earth shall awake'],
     terms: [],
@@ -6531,7 +6531,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1co-15-55': {
     title: 'O Death, Where Is Thy Sting?',
     principle:
-      'Hosea\'s taunt becomes the resurrection\'s victory cry. First principle: the sting was sin and the law gave it power — the cross removes the venom, and the grave loses its victory.',
+      'Hosea\'s taunt becomes the resurrection\'s victory cry. First principle: the sting was sin and the law gave it power. The cross removes the venom. And the grave loses its victory.',
     sourceKeywords: ['O death, where is thy sting', 'O grave, where is thy victory'],
     fulfillmentKeywords: ['I will ransom them from the power of the grave', 'O death, I will be thy plagues'],
     terms: [],
