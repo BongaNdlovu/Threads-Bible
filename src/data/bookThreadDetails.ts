@@ -2815,7 +2815,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-1-8': {
     title: 'Witnesses unto the Uttermost Part of the Earth',
     principle:
-      'Power from the Holy Ghost sends witnesses from Jerusalem to the ends of the earth. First principle: Isaiah 49\'s salvation-to-the-ends becomes the church\'s marching order — the Spirit is the engine of prophecy.',
+      'Power from the Holy Ghost sends witnesses from Jerusalem to the ends of the earth. First principle: Isaiah 49\'s salvation-to-the-ends becomes the church\'s marching order. The Spirit is the engine of prophecy.',
     sourceKeywords: ['receive power', 'the Holy Ghost is come upon you', 'uttermost part of the earth'],
     fulfillmentKeywords: ['my salvation unto the end of the earth'],
     terms: [],
@@ -2823,7 +2823,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-1-11': {
     title: 'This Same Jesus Shall So Come',
     principle:
-      'The angels fix the ascension as the pattern of return: this same Jesus shall so come in like manner. First principle: the clouds that received Him are the clouds that will bring Him — Zechariah 14\'s Olivet schedule holds.',
+      '"this same Jesus shall so come in like manner." The angels make the ascension the pattern of His return. First principle: the clouds that received Him are the clouds that will bring Him again. Zechariah\'s writings say clearly that the Lord Himself will stand on the Mount of Olives.',
     sourceKeywords: ['shall so come in like manner', 'taken up from you into heaven', 'men of Galilee'],
     fulfillmentKeywords: ['his feet shall stand', 'upon the mount of Olives'],
     terms: [],
@@ -2863,7 +2863,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-3-18': {
     title: 'What God Before Had Shewed by the Prophets',
     principle:
-      'The sufferings of Christ were shewn by all the prophets beforehand — and God hath so fulfilled them. First principle: the cross is God\'s foretold plan, executed on schedule through guilty hands.',
+      'The prophets showed beforehand that Christ would suffer, and God has fulfilled what they said. First principle: the cross was God\'s plan, told in advance. He carried it out on schedule, and guilty hands did the deed.',
     sourceKeywords: ['God before had shewed', 'that Christ should suffer', 'he hath so fulfilled'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2887,7 +2887,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-4-26': {
     title: 'Against the Lord, and Against His Christ',
     principle:
-      'The church prays Psalm 2 over the threats of rulers: kings stood up, rulers gathered — against the Lord and His Christ. First principle: opposition to the gospel is the prophesied rage of kings; the heavens answer with boldness, not retreat.',
+      'The church prays Psalm 2 over the threats of rulers: "kings stood up, rulers gathered — against the Lord and His Christ." First principle: Scripture foretold that kings would rage against the gospel. Such rage meets the throne of God in heaven. The heavens answer with boldness, and they never retreat.',
     sourceKeywords: ['kings of the earth stood up', 'against his Christ', 'with one accord'],
     fulfillmentKeywords: ['Why do the heathen rage', 'kings of the earth set themselves'],
     terms: [],
@@ -2911,7 +2911,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-7-32': {
     title: 'I Am the God of Abraham, Isaac, and Jacob',
     principle:
-      'At the bush, God names Himself the God of the patriarchs — and Moses trembles. First principle: the covenant God binds Himself to generations; the resurrection hope is folded into His very self-identification.',
+      'At the bush, God names Himself the God of Abraham, Isaac, and Jacob, and Moses trembles. First principle: the God of the covenant binds Himself to those generations. The hope of resurrection is built into the way He names Himself.',
     sourceKeywords: ['I am the God of thy fathers', 'God of Abraham', 'Moses trembled'],
     fulfillmentKeywords: ['I am the God of thy father'],
     terms: [],
@@ -2935,7 +2935,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-7-50': {
     title: 'Hath Not My Hand Made All These Things?',
     principle:
-      'The Maker of all needs no house of stone. First principle: creation precedes temple; the God whose hand made everything cannot be contained by anything His hand has made.',
+      'The Maker of all needs no house of stone. First principle: creation came before the temple. God\'s own hand made everything, so nothing His hand made can contain Him.',
     sourceKeywords: ['Hath not my hand made', 'all these things'],
     fulfillmentKeywords: ['my hand made all these things'],
     terms: [],
@@ -2951,7 +2951,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-10-43': {
     title: 'To Him Give All the Prophets Witness',
     principle:
-      'Peter\'s summary to Cornelius: all the prophets witness that through Christ\'s name whosoever believeth receives remission of sins. First principle: the prophetic corpus has one subject and one offer — forgiveness through the Name.',
+      'Peter\'s message to Cornelius: all the prophets witness that through Christ\'s name "whosoever believeth" receives the remission of sins. First principle: the prophets have one subject and one offer. That offer is forgiveness through the Name. God gladly forgives the person who believes.',
     sourceKeywords: ['all the prophets witness', 'through his name', 'whosoever believeth'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2975,7 +2975,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-13-47': {
     title: 'I Have Set Thee to Be a Light of the Gentiles',
     principle:
-      'Paul and Barnabas quote Isaiah 49 as their commission to turn to the Gentiles. First principle: the Servant\'s worldwide salvation is carried forward by His witnesses — ordained for eternal life, not an afterthought.',
+      'Paul and Barnabas quote Isaiah 49 as their commission to turn to the Gentiles. First principle: the Servant\'s salvation for the whole world is carried on by His witnesses. Those who believe are ordained for eternal life. This was no afterthought.',
     sourceKeywords: ['the Lord hath commanded us', 'a light of the Gentiles', 'salvation unto the ends of the earth'],
     fulfillmentKeywords: ['a light to the Gentiles', 'end of the earth'],
     terms: [],
@@ -2983,7 +2983,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'act-15-16': {
     title: 'I Will Build Again the Tabernacle of David',
     principle:
-      'James settles the Gentile question with Amos: God returns and rebuilds David\'s fallen booth so the residue of men may seek the Lord. First principle: Gentile inclusion is not a plan B — it is the rebuilt tabernacle, prophesied.',
+      'James settles the Gentile question with Amos: God returns and rebuilds David\'s fallen booth. Then the residue of men may seek the Lord. First principle: Gentile inclusion is no plan B. It is the rebuilt tabernacle, and Amos foretold it. God is gathering the Gentiles now, exactly as He promised. So the matter was settled by Scripture. The Gentiles are in the church because God said they would be.',
     sourceKeywords: ['After this I will return', 'tabernacle of David, which is fallen down', 'I will set it up'],
     fulfillmentKeywords: ['raise up the tabernacle of David'],
     terms: [],
