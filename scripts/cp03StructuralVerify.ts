@@ -60,6 +60,12 @@
  *                         pre-existing violations (in books with no CP-02 rewrite), so
  *                         the literal "no prose string at HEAD violates the gate"
  *                         reading is FAIL canon-wide and PASS for e.g. --book num.
+ *   7 LABEL_FIXITY        the app's own structural labels (First principle:, Textual proof:,
+ *                         WHAT, WHEN, HOW, WHY, JESUS, WHO, YOUR LIFE) are part of the data
+ *                         contract, NOT prose: a rewrite may reword around them but may never
+ *                         remove, add or rename one. Per in-scope prose string, the label
+ *                         multiset of the working tree must equal the <base> one — a count
+ *                         that falls was dropped, a count that rises was invented.
  *
  * Exit code: 0 when every check passes, 1 when any check fails (or the parse fails).
  */
@@ -110,7 +116,8 @@ type CheckName =
   | 'PROSE_ONLY_WRITES'
   | 'CITATION_FIXITY'
   | 'SCRIPT_FIXITY'
-  | 'NO_BANNED';
+  | 'NO_BANNED'
+  | 'LABEL_FIXITY';
 
 const CHECK_ORDER: CheckName[] = [
   'KEYSET',
@@ -119,6 +126,7 @@ const CHECK_ORDER: CheckName[] = [
   'CITATION_FIXITY',
   'SCRIPT_FIXITY',
   'NO_BANNED',
+  'LABEL_FIXITY',
 ];
 
 interface Issue {
@@ -150,6 +158,10 @@ interface GroupStats {
   bannedNew: number;
   bannedPreexisting: number;
   bannedResolved: number;
+  labelChecked: number;
+  labelOccurrences: number;
+  labelsAdded: number;
+  labelsDropped: number;
 }
 
 const CHAIN_GROUP = 'CHAINS';
@@ -466,6 +478,28 @@ function matches(text: string, re: RegExp): string[] {
   return out;
 }
 
+/* -------------------------------------------------------------- label tokens */
+
+/** The app's OWN structural labels. These are part of the data contract, not prose: the
+ *  served app renders them as fixed markers, so a plain-language rewrite may reword the
+ *  words around them but may never remove, add or rename one (plan invariant I1;
+ *  docs/CP-01_FULL_CANON_BASELINE_V2.md §4). A label ending in `:` is tested as a plain
+ *  substring; the bare uppercase labels are tested on word boundaries, case-sensitive, so
+ *  `WHO` does not match inside `WHOSE`. Occurrences are COUNTED, not merely detected: a
+ *  count that falls was dropped, a count that rises was invented. */
+const COLON_LABELS = ['First principle:', 'Textual proof:'];
+const BARE_LABELS = ['WHAT', 'WHEN', 'HOW', 'WHY', 'JESUS', 'WHO', 'YOUR LIFE'];
+const LABEL_RES: { label: string; re: RegExp }[] = [
+  ...COLON_LABELS.map(label => ({ label, re: new RegExp(escapeRe(label), 'g') })),
+  ...BARE_LABELS.map(label => ({ label, re: new RegExp(`\\b${escapeRe(label)}\\b`, 'g') })),
+];
+
+function labelCounts(text: string): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const { label, re } of LABEL_RES) out.set(label, matches(text, re).length);
+  return out;
+}
+
 /* -------------------------------------------------------------- CLI options */
 
 interface Options {
@@ -645,6 +679,10 @@ function main(): void {
         bannedNew: 0,
         bannedPreexisting: 0,
         bannedResolved: 0,
+        labelChecked: 0,
+        labelOccurrences: 0,
+        labelsAdded: 0,
+        labelsDropped: 0,
       };
       groups.set(g, fresh);
       return fresh;
@@ -831,6 +869,47 @@ function main(): void {
           });
         }
       }
+
+      // 7: the app's OWN structural labels — part of the data contract, not prose.
+      // Same corpus and same <base> baseline as checks 4-6 above (the in-scope prose
+      // strings of this unit): a rewrite may reword around a label, but losing one or
+      // inventing one is a failure. Counts are compared, so a second copy of a label
+      // that silently swallows the first is caught too.
+      const baseProseByPath = new Map(baseProse.map(p => [p.path, p.text]));
+      const afterProseByPath = new Map(afterProse.map(p => [p.path, p.text]));
+      const labelPaths = Array.from(new Set([...baseProseByPath.keys(), ...afterProseByPath.keys()])).sort();
+      for (const p of labelPaths) {
+        const afterLabelText = afterProseByPath.get(p);
+        if (afterLabelText === undefined) continue; // prose string gone: PROSE_ONLY_WRITES' ground
+        s.labelChecked++;
+        const beforeCounts = labelCounts(baseProseByPath.get(p) ?? '');
+        const afterCounts = labelCounts(afterLabelText);
+        for (const { label } of LABEL_RES) {
+          const b = beforeCounts.get(label) ?? 0;
+          const a = afterCounts.get(label) ?? 0;
+          s.labelOccurrences += a;
+          if (a === b) continue;
+          if (a > b) {
+            s.labelsAdded += a - b;
+            addIssue(g, 'LABEL_FIXITY', {
+              id,
+              path: p,
+              message: `structural label ADDED — the rewrite invented a marker (count rose from ${b} to ${a})`,
+              base: `${label} ×${b}`,
+              after: `${label} ×${a}`,
+            });
+          } else {
+            s.labelsDropped += b - a;
+            addIssue(g, 'LABEL_FIXITY', {
+              id,
+              path: p,
+              message: `structural label DROPPED — the rewrite lost a marker (count fell from ${b} to ${a})`,
+              base: `${label} ×${b}`,
+              after: `${label} ×${a}`,
+            });
+          }
+        }
+      }
     }
 
     // ---- roll the group results up ----
@@ -878,6 +957,10 @@ function main(): void {
         'NO_BANNED',
         `${s.bannedChecked} working-tree prose strings gated · ${s.bannedNew} NEW failure(s) · ${s.bannedPreexisting} pre-existing failure(s) at ${opts.base} · ${s.bannedResolved} base failure(s) resolved` +
           (opts.strictGate ? ' [--strict-gate: pre-existing failures also fail the run]' : ' [pre-existing failures are notes; --strict-gate fails on them]')
+      );
+      mk(
+        'LABEL_FIXITY',
+        `${s.labelChecked} prose strings scanned, ${s.labelOccurrences} structural label occurrence(s) in the working tree, ${s.labelsDropped} dropped, ${s.labelsAdded} added`
       );
     }
   }
