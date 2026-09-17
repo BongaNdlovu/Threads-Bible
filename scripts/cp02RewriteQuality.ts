@@ -63,6 +63,11 @@ function classify(before: string, after: string, resegmentMaxWords = 18) {
   const longest = longestSentence(before);
   return {
     share: newWords,
+    /** The words in AFTER that do not appear in BEFORE. A low share is not proof of
+     *  theatre: the densest strings are short, so one decoded word can be under the
+     *  threshold. Printing the actual new words lets a reader judge the change instead
+     *  of trusting the label. */
+    added: [...new Set(aw.filter(w => !bset.has(w)))],
     sameWords,
     termBefore,
     termAfter,
@@ -101,7 +106,7 @@ function main() {
   }
 
   const drafts = set.drafts ?? [];
-  const punctuationOnly: string[] = [];
+  const punctuationOnly: Array<{ key: string; share: number; added: string[]; midBefore: number; midAfter: number; longest: number }> = [];
   const resegmented: Array<{ key: string; from: number; to: number; mid: number }> = [];
   const rewritten: Array<{ key: string; share: number }> = [];
   let missing = 0;
@@ -122,7 +127,7 @@ function main() {
       resegmented.push({ key, from: c.termBefore, to: c.termAfter, mid: c.midBefore - c.midAfter });
       continue;
     }
-    punctuationOnly.push(key);
+    punctuationOnly.push({ key, share: c.share, added: c.added, midBefore: c.midBefore, midAfter: c.midAfter, longest: c.longest });
   }
 
   const total = drafts.length;
@@ -130,13 +135,16 @@ function main() {
   console.log(`drafts: ${total} · min new-word share for a "rewrite": ${(minShare * 100).toFixed(0)}%`);
   console.log(`REWRITTEN (new words carry the change — PASS):        ${rewritten.length}`);
   console.log(`RESEGMENTED (no new words, but a mid-sentence ";" ":" "—" became a sentence break — PASS): ${resegmented.length}`);
-  console.log(`PUNCTUATION-ONLY (nothing but mark placement changed — REJECT): ${punctuationOnly.length}`);
+  console.log(`UNDER-SHARE (below the ${(minShare * 100).toFixed(0)}% new-word share, and no clean resegmentation — INSPECT): ${punctuationOnly.length}`);
   if (missing) console.log(`NOT LOCATED in worklist: ${missing}`);
   console.log('');
 
   if (punctuationOnly.length) {
-    console.log('--- PUNCTUATION-ONLY — reject these, or move them to verifyOnly ---');
-    for (const k of punctuationOnly) console.log(`  ${k}`);
+    console.log('--- UNDER-SHARE — inspect: either punctuation theatre, or a real decode on a short string ---');
+    for (const p of punctuationOnly) {
+      console.log(`  ${p.key}   new-word share ${(p.share * 100).toFixed(1)}%   added: ${p.added.join(' ') || '(none — this IS theatre)'}`);
+      console.log(`      separators ${p.midBefore} -> ${p.midAfter}   longest before-sentence ${p.longest}w`);
+    }
     console.log('');
   }
   if (resegmented.length) {
@@ -153,8 +161,8 @@ function main() {
   }
   console.log('');
   console.log(punctuationOnly.length
-    ? `VERDICT: ${punctuationOnly.length} punctuation-only draft(s) must be strengthened or reclassified as verifyOnly.`
-    : 'VERDICT: PASS — no punctuation-only drafts.');
+    ? `VERDICT: ${punctuationOnly.length} under-share draft(s) to inspect — each must add a real word (see "added") or move to verifyOnly.`
+    : 'VERDICT: PASS — every draft adds new words.');
 }
 
 main();
