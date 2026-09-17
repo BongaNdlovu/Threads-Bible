@@ -9200,7 +9200,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-1-3': {
     title: 'Thy Name Is as Ointment Poured Forth',
     principle:
-      'The virgins love the beloved for his name\'s fragrance. First principle: the love-song\'s ointment-name anticipates the anointed One — the costly nard poured at Bethany agrees.',
+      'Thy name is as ointment poured forth. The virgins love the beloved for that name. First principle: the name that smells like ointment points forward to the anointed One, the promised King, Jesus. The costly nard poured out at Bethany says the same thing.',
     sourceKeywords: ['the savour of thy good ointments', 'thy name is as ointment poured forth'],
     fulfillmentKeywords: ['the house was filled with the odour of the ointment'],
     terms: [],
@@ -9208,7 +9208,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-2-16': {
     title: 'My Beloved Is Mine, and I Am His',
     principle:
-      'Mutual possession among the lilies. First principle: the covenant formula in love-song grammar — He feedeth His flock, and the mutual belonging is the song\'s center.',
+      'My beloved is mine, and I am his. He feeds his flock among the lilies. First principle: these two belong to each other. That is the language of God\'s binding promise. It is also the center of this song.',
     sourceKeywords: ['My beloved is mine, and I am his', 'he feedeth among the lilies'],
     fulfillmentKeywords: ['I am the good shepherd, and know my sheep'],
     terms: [],
@@ -9216,7 +9216,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-4-10': {
     title: 'How Much Better Is Thy Love than Wine',
     principle:
-      'The spouse\'s love outsmells all spices. First principle: love over wine — the measure of the marriage-song and of the Messiah\'s own better-wine joy.',
+      'Your love is better than wine. The smell of your ointments is better than all spices. First principle: this love is the measure of the marriage song. It is also the measure of the Messiah\'s joy. The Messiah is the promised King, Jesus. His joy is better wine still.',
     sourceKeywords: ['How fair is thy love, my sister, my spouse', 'better is thy love than wine', 'the smell of thine ointments'],
     fulfillmentKeywords: ['and the smell of thine ointments than all spices'],
     terms: [],
@@ -9224,7 +9224,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-5-1': {
     title: 'I Am Come into My Garden, My Sister, My Spouse',
     principle:
-      'The gathered myrrh and spice; friends invited to drink abundantly. First principle: the garden entered, the feast opened to friends — the supper language of the covenant meal.',
+      'I have gathered my myrrh with my spice. Friends are invited to drink abundantly. First principle: he comes into his garden. He opens the feast to his friends. This is the supper language of the covenant meal — the meal of God\'s binding promise.',
     sourceKeywords: ['I am come into my garden', 'my sister, my spouse', 'eat, O friends; drink abundantly'],
     fulfillmentKeywords: ['this is my body... this cup is the new testament'],
     terms: [],
@@ -9232,7 +9232,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-5-16': {
     title: 'His Mouth Is Most Sweet: Yea, He Is Altogether Lovely',
     principle:
-      'Beloved and friend, altogether lovely. First principle: the superlative without comparison — altogether lovely is the whole description; the Friend of sinners is the Friend here sung.',
+      'He is my beloved and my friend. He is altogether lovely. First principle: no one can be praised higher than that. That one phrase, altogether lovely, is the whole description. The Friend of sinners is the friend this song is about.',
     sourceKeywords: ['His mouth is most sweet', 'he is altogether lovely', 'this is my beloved, and this is my friend'],
     fulfillmentKeywords: ['Ye are my friends, if ye do whatsoever I command you'],
     terms: [],
@@ -9240,7 +9240,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-8-6': {
     title: 'Set Me as a Seal upon Thine Heart',
     principle:
-      'Love strong as death, jealousy cruel as the grave, coals of vehement flame. First principle: love\'s intensity is death-and-grave scaled — the seal on heart and arm is exclusive covenant possession.',
+      'Love is strong as death. Jealousy is cruel as the grave. Its coals are coals of fire, a blazing flame. First principle: this love is as strong as death and the grave. The seal on the heart and on the arm marks God\'s binding promise, kept for one person alone.',
     sourceKeywords: ['a seal upon thine heart', 'love is strong as death', 'the coals thereof are coals of fire'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9248,7 +9248,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'sng-8-7': {
     title: 'Many Waters Cannot Quench Love',
     principle:
-      'All substance cannot buy it. First principle: love is unquenchable and unpurchasable — the flood fails, the fortune fails; Revelation\'s marriage follows the unquenched.',
+      'Many waters cannot quench love. A man can give everything in his house. It still cannot buy love. First principle: nothing can put love out. No money can buy it. The flood fails. The fortune fails. Revelation shows the marriage that follows this love.',
     sourceKeywords: ['Many waters cannot quench love', 'neither can the floods drown it', 'it would utterly be contemned'],
     fulfillmentKeywords: ['the marriage of the Lamb is come'],
     terms: [],
