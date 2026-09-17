@@ -132,7 +132,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-2-34': {
     title: 'Stone Cut Without Hands',
     principle:
-      'A stone cut without hands smashes the statue and becomes a great mountain. First principle: God\'s kingdom is not a human empire. God himself sets it up, and it fills the earth.',
+      'A stone cut without hands smashes the statue and becomes a great mountain. First principle: God\'s kingdom is not an empire built by men. God himself sets it up, and it fills the whole earth.',
     sourceKeywords: ['stone', 'cut out', 'without hands', 'mountain', 'great'],
     fulfillmentKeywords: ['stone', 'builders', 'refused', 'head', 'corner', 'church', 'gates of hell'],
     terms: [
@@ -142,7 +142,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-2-44': {
     title: 'Everlasting Kingdom',
     principle:
-      'In the days of those kings God sets up a kingdom that shall never be destroyed. Luke says of His kingdom there shall be no end. First principle: Christ\'s kingdom outlasts all earthly thrones and absorbs them.',
+      'In the days of those kings God sets up a kingdom that shall never be destroyed. Luke says of His kingdom there shall be no end. First principle: Christ\'s kingdom lasts longer than every earthly throne, and it absorbs them all.',
     sourceKeywords: ['days', 'kings', 'set up', 'kingdom', 'never be destroyed', 'people'],
     fulfillmentKeywords: ['throne of his father David', 'kingdom', 'no end', 'kingdoms of this world', 'Lord', 'Christ', 'reign'],
     terms: [
@@ -152,7 +152,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-13': {
     title: 'Son of Man Coming with Clouds',
     principle:
-      'One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming, and Revelation repeats the cloud-coming. First principle: the authority of the promised King, Jesus, is given to Him and then shown in glory.',
+      'One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming for Himself, and Revelation tells the same cloud story. First principle: the authority of the promised King, Jesus, is handed to Him. Then He is shown openly in glory.',
     sourceKeywords: ['night visions', 'one like the Son of man', 'clouds of heaven', 'Ancient of days', 'came'],
     fulfillmentKeywords: ['Son of man', 'clouds of heaven', 'power', 'great glory', 'coming', 'clouds', 'every eye'],
     terms: [
@@ -212,7 +212,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-3': {
     title: 'Wise Shall Shine',
     principle:
-      'Those who turn many to righteousness shall shine as the stars. First principle: faithful witness leads to glory in the resurrection life.',
+      'Those who turn many to righteousness shall shine as the stars. First principle: faithful witness brings glory. That glory shows in the resurrection life.',
     sourceKeywords: ['wise', 'shine', 'brightness of the firmament', 'turn many to righteousness', 'stars', 'ever and ever'],
     fulfillmentKeywords: ['shine', 'as the sun', 'kingdom of their Father', 'glory', 'star differeth'],
     terms: [
@@ -673,7 +673,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-9': {
     title: 'Thrones Set — Judgment Court',
     principle:
-      'Daniel sees thrones set in place. The Ancient of Days takes His seat. The court sits in judgment, and the books are opened. Jesus, Paul, and Revelation all put judgment in God\'s court before the final kingdom. Textual proof: Dan 7:9-10 is a heavenly judgment scene. Dan 7:22 says judgment was given to the saints of the Most High. The verdict comes before the saints possess the kingdom.',
+      'Daniel sees thrones set in place. The Ancient of Days takes His seat. The court sits, and the books are opened. Jesus, Paul, and Revelation all put judgment in God\'s court before the final kingdom. Textual proof: Dan 7:9-10 shows a courtroom in heaven. Dan 7:22 says judgment was given to the saints of the Most High. The verdict comes first, and then the saints take the kingdom.',
     sourceKeywords: ['thrones', 'cast down', 'Ancient of days', 'did sit', 'judgment', 'set', 'books', 'opened'],
     fulfillmentKeywords: ['judgment', 'set', 'thrones', 'books', 'opened', 'judged'],
     terms: [
@@ -684,7 +684,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-22': {
     title: 'Judgment Given to the Saints',
     principle:
-      'The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: the heavenly court in v9-10 gives its verdict, and then the saints receive dominion. Paul writes that the saints shall judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones and judgment given to those who reign with Christ.',
+      'The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: the heavenly court in v9-10 gives its verdict, and then the saints receive dominion. Paul writes that the saints will judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones set up and judgment handed to those who reign with Christ.',
     sourceKeywords: ['judgment came', 'saints of the most High', 'possessed', 'kingdom'],
     fulfillmentKeywords: ['judge', 'world', 'angels', 'thrones', 'judgment'],
     terms: [
@@ -694,7 +694,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-8-14': {
     title: 'Unto 2,300 Days — Then the Sanctuary Cleansed',
     principle:
-      'An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as a pattern of the heavenly sanctuary (Heb 8:1-2; 9:23-24). Leviticus 16 describes the annual cleansing of the sanctuary by blood. Textual proof: Daniel\'s time prophecy ends at a sanctuary event. Hebrews puts Christ\'s ministry in the true tabernacle. Leviticus defines what "cleansed/right" means in the priestly setting — the sin that piled up is removed from the sanctuary.',
+      'An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as a pattern of the heavenly sanctuary (Heb 8:1-2; 9:23-24). Leviticus 16 describes how the sanctuary was cleansed with blood each year. Textual proof: Daniel\'s time prophecy ends at a sanctuary event. Hebrews puts Christ\'s ministry in the true tabernacle. Leviticus defines what "cleansed/right" means in the priestly setting — the sin that piled up is taken out of the sanctuary.',
     sourceKeywords: ['two thousand and three hundred', 'days', 'sanctuary', 'cleansed'],
     fulfillmentKeywords: ['true tabernacle', 'greater', 'more perfect', 'heaven itself', 'purged', 'sanctuary'],
     terms: [
@@ -4269,7 +4269,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-27': {
     title: 'The Kingdom Given to the People of the Saints',
     principle:
-      'Dominion under the whole heaven passes to the saints of the Most High. It is an everlasting kingdom, and all dominions serve Him. First principle: the end is not the beast\'s empire. It is the saints\' inheritance under the Son of man.',
+      'Dominion under the whole heaven passes to the saints of the Most High. It is an everlasting kingdom, and all dominions serve Him. First principle: the story does not end with the beast\'s empire. It ends with the saints\' inheritance under the Son of man.',
     sourceKeywords: ['kingdom and dominion', 'people of the saints of the most High', 'everlasting kingdom'],
     fulfillmentKeywords: ['given to the saints', 'everlasting kingdom'],
     terms: [],
@@ -4277,7 +4277,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-8-11': {
     title: 'He Magnified Himself to the Prince of the Host',
     principle:
-      'The self-exalting power takes away the daily sacrifice and casts down the sanctuary. First principle: the war against God wears a religious face. The desecration of worship is the center of the prophecy.',
+      'The self-exalting power takes away the daily sacrifice and throws down the sanctuary. First principle: the war against God comes dressed as religion. The desecration of worship is the center of the prophecy.',
     sourceKeywords: ['magnified himself', 'the prince of the host', 'the place of his sanctuary was cast down'],
     fulfillmentKeywords: ['stand in the holy place'],
     terms: [],
@@ -4309,7 +4309,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-10-21': {
     title: 'That Which Is Noted in the Scripture of Truth',
     principle:
-      'Gabriel will show what is written in the true record. Michael stands as your prince. First principle: history is written down before it happens. The scripture of truth is the record, and empires must act it out.',
+      'Gabriel will show you what has been written in the true record. Michael stands as your prince. First principle: history is written down before it happens. The scripture of truth is the record, and empires must act it out.',
     sourceKeywords: ['the scripture of truth', 'none that holdeth with me', 'Michael your prince'],
     fulfillmentKeywords: [],
     terms: [],
