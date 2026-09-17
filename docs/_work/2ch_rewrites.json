@@ -1,0 +1,97 @@
+{
+  "book": "2ch",
+  "bookName": "2 Chronicles",
+  "drafts": [
+    {
+      "entryId": "2ch-7-16",
+      "field": "principle",
+      "after": "\"My name may be there for ever\": God's name, his eyes, and his heart stay in that house. First principle: God chose the temple and set it apart. He promised to watch over it always. The Gospels then tell how Jesus honored that promise by clearing out what men had made unclean.",
+      "reason": "the label \"Name, eyes, and heart perpetually there\" now says who is there and where, and the em-dash pile \"the temple is chosen, sanctified, and watched — eyes and heart of God resident\" gives way to sentences with God as the subject. The KJV words are quoted rather than paraphrased (2 Chr 7:16, \"my name may be there for ever\"). Claims kept: the name, eyes, and heart remain there, the temple is chosen and sanctified, it is watched, and Jesus honored the promise by cleansing what was profaned."
+    },
+    {
+      "entryId": "2ch-6-2",
+      "field": "principle",
+      "after": "Solomon claimed the finished house as his own gift to God. First principle: a man makes the claim, and God gives the answer. The cloud fills the house, and 1 Kings 8:27 asks the question that follows the claim at once.",
+      "reason": "\"Solomon's claim over the finished house\" now names what he claimed, and \"the claim is human, the answer divine\" becomes two plain clauses that say who does what. The citation 1 Kings 8:27 is carried byte-identical, and the word \"immediately\" is spelled out as \"at once\". Claims kept: Solomon makes the claim over the finished house, it is a human claim, the answer is divine, the cloud fills the house, and the question of 1 Kings 8:27 follows straight after."
+    },
+    {
+      "entryId": "2ch-16-9",
+      "field": "principle",
+      "after": "God looks to show himself strong for the whole-hearted. First principle: God's searching eyes take a side. He shows his strength to those who are fully committed to him. Hanani's rebuke to Asa still stands as a check on every later king.",
+      "reason": "\"the searching eyes are partisan\" is written out as \"take a side\", which a reader does not have to decode, and \"strength shown to the fully-committed\" now names God as the one who shows it. \"a standing audit\" becomes \"a check on every later king\", which says what an audit was doing in the sentence. Claims kept: God searches, he shows himself strong, he is on the side of the whole-hearted, he acts for the fully committed, and Hanani's rebuke to Asa stands."
+    },
+    {
+      "entryId": "2ch-20-15",
+      "field": "principle",
+      "after": "A huge enemy army came, and the people were told not to be afraid. First principle: the battle belongs to the LORD. So the people stood still and trusted him, and the singers walked in front of the army.",
+      "reason": "\"The vast multitude meets a preached non-fear\" had no clear actor, so the enemy army and the message are now plain: the people are told not to be afraid. \"the posture is standing-still trust with singers in front of the army\" is split from the reason it rests on, one idea per sentence. Claims kept: the multitude is vast, they are told not to fear, the war is the LORD's, the posture is standing still and trusting, and the singers go in front of the army."
+    },
+    {
+      "entryId": "2ch-7-14",
+      "field": "principle",
+      "after": "Humble, pray, seek, turn: God hears from heaven, forgives, and heals. First principle: four steps bring the people back to God, and the promise of healing goes with them. God gave this answer to Solomon for the temple, the place where the people would come to be made whole.",
+      "reason": "the four-step list stays because \"humble, pray, seek, turn\" is the plainest way to say it, but the compressed second half now names God as the one who hears, forgives, and heals. \"the temple's remedy role\" becomes what the temple did for the people. Claims kept: the four steps, the hearing from heaven, the forgiveness, the healing, the promise given to Solomon, and the temple as the place of remedy."
+    },
+    {
+      "entryId": "2ch-36-23",
+      "field": "principle",
+      "after": "Cyrus's decree ends the Chronicler's book and leaves the invitation open. First principle: what the Persian king commanded was the fulfillment of Jeremiah and Isaiah. His call to go up is the trumpet for the remnant, the faithful few who are left.",
+      "reason": "\"closes the Chronicler's book with an open invitation\" is now one plain statement with a subject, and \"the go-up call is the remnant's trumpet\" gets the possessive broken open so the picture is clear. \"remnant\" carries the frozen rendering \"the faithful few who are left\" in the same sentence. Claims kept: the decree is Cyrus's, it closes the book, the invitation stays open, the king's charge fulfills Jeremiah and Isaiah, and the call gathers the remnant."
+    },
+    {
+      "entryId": "2ch-6-18",
+      "field": "principle",
+      "after": "This is the Chronicler's version of the temple-dedication question. First principle: the question of wonder stands until the Word came and lived among us. That is the true answer to Solomon's astonishment.",
+      "reason": "\"The wonder-question\" was a label doing the work of a sentence, so it now says whose question it is and what kind of question (the dedication question of 2 Chr 6:18). \"the Word dwelt among us\" is written out as \"came and lived among us\", and \"the true answer\" now says whose astonishment it answers. Claims kept: this is the Chronicler's version, the question stands, the Word dwelt among us, and that is the answer to Solomon's astonishment."
+    },
+    {
+      "entryId": "2ch-20-20",
+      "field": "principle",
+      "after": "Jehoshaphat told the people in the morning to trust the LORD and to trust his prophets. First principle: believing is what makes you stand firm, and trusting the prophet's word is what makes you prosper. The singers go ahead of the spoil.",
+      "reason": "\"Jehoshaphat's morning command\" is a label, so the sentence now says what he commanded and when, and \"believe the LORD, believe His prophets\" is written in plain word order without changing who is trusted. \"establishment by believing, prosperity by prophetic trust\" becomes two sentences a reader can follow. Claims kept: the command is Jehoshaphat's, it comes in the morning, the LORD and his prophets are both trusted, believing establishes, prophetic trust prospers, and the singers go before the spoil."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "2ch-16-9",
+      "field": "title",
+      "reason": "13 words, one idea, plain - the KJV text of 2 Chr 16:9 carried byte-identical, capitalisation aside; nothing to decode"
+    },
+    {
+      "entryId": "2ch-36-23",
+      "field": "title",
+      "reason": "13 words over 2 sentences, 8 words each, one idea apiece, plain - the KJV text of 2 Chr 36:23 carried byte-identical; nothing to decode"
+    },
+    {
+      "entryId": "2ch-6-18",
+      "field": "title",
+      "reason": "11 words, one idea, plain - the KJV text of 2 Chr 6:18 carried byte-identical, capitalisation aside; nothing to decode"
+    },
+    {
+      "entryId": "2ch-20-20",
+      "field": "title",
+      "reason": "11 words, one idea, plain - the KJV text of 2 Chr 20:20 (\"so shall ye be established\") carried byte-identical; nothing to decode"
+    },
+    {
+      "entryId": "2ch-6-2",
+      "field": "title",
+      "reason": "9 words, one idea, plain - the KJV text of 2 Chr 6:2 carried byte-identical; nothing to decode"
+    },
+    {
+      "entryId": "2ch-7-14",
+      "field": "title",
+      "reason": "8 words over 2 sentences, 5 words each, one idea apiece - the KJV text of 2 Chr 7:14 carried byte-identical, including the source's own ellipsis (the app's stripQuotes turns that ellipsis into a sentence break, so the KJV span itself is never counted); nothing to decode"
+    },
+    {
+      "entryId": "2ch-7-16",
+      "field": "title",
+      "reason": "7 words, one sentence, one idea, plain - the KJV text of 2 Chr 7:16 carried byte-identical; nothing to decode"
+    },
+    {
+      "entryId": "2ch-20-15",
+      "field": "title",
+      "reason": "7 words, one sentence, one idea, plain - the KJV text of 2 Chr 20:15 carried byte-identical; nothing to decode"
+    }
+  ],
+  "equivalent": []
+}

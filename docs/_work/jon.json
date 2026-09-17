@@ -1,0 +1,198 @@
+{
+  "book": "jon",
+  "bookName": "Jonah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 5,
+    "entryStrings": 12,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jon-1-17",
+    "jon-2-1",
+    "jon-3-4",
+    "jon-4-11",
+    "jon-4-2"
+  ],
+  "fields": [
+    {
+      "entryId": "jon-1-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights. A divinely appointed descent and rescue — Jonah himself prays it: thou hadst cast me into the deep... yet hast thou brought up my life from corruption. First principle: God signs the resurrection with a type before He performs it in His Son.",
+      "density": 2.7536,
+      "words": 69,
+      "sentences": 5,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jon-2-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Prayer from the impossible address. First principle: the belly of the fish is a temple — the prophet prays toward the holy place from the deep, and is heard.",
+      "density": 2.0964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jon-4-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jonah's complaint is God's character-statement: gracious, merciful, slow to anger, repenting of evil. First principle: the runaway ran because he believed the mercy — Exodus 34's portrait is the missionary's problem.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jon-4-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sixscore thousand who cannot discern their right hand — plus cattle. First principle: the book ends on God's pity-question; compassion scales to the ignorant and even to the animals.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jon-3-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The one-day walk, the five-word sermon. First principle: the shortest sermon with the longest reach — a Gentile capital repents at forty-days' notice.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jon-1-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus names this the only sign given to an evil generation (Matt 12:39-40).",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "three days and three nights",
+        "original": "שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילוֹת",
+        "translit": "sheloshah yamim usheloshah lelot",
+        "strongs": null,
+        "gloss": "three days and three nights — a complete entombment",
+        "note": "Jesus names this the only sign given to an evil generation (Matt 12:39-40).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jon-2-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then Jonah Prayed unto the LORD His God out of the Fish's Belly",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jon-1-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Three Days and Three Nights in the Fish's Belly",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jon-1-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "three days and three nights — a complete entombment",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "three days and three nights",
+        "original": "שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילוֹת",
+        "translit": "sheloshah yamim usheloshah lelot",
+        "strongs": null,
+        "gloss": "three days and three nights — a complete entombment",
+        "note": "Jesus names this the only sign given to an evil generation (Matt 12:39-40).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jon-3-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet Forty Days, and Nineveh Shall Be Overthrown",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jon-4-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Knew That Thou Art a Gracious God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jon-4-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Should Not I Spare Nineveh... and Also Much Cattle?",
+      "density": 0.5107,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

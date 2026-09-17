@@ -1,0 +1,172 @@
+# CP-02 · 1 Samuel — plain-language draft appendix (AI-drafted, NOT applied by this doc)
+
+Plan: `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` (one-pass protocol) · Date: 2026-09-17
+Book: `1sa` · in-scope strings: 20 · **rewritten 9 · VERIFY-ONLY 11 · EQUIVALENT 0**
+
+Rules applied: master-plan §1.7 voice; invariant I1 (quoted Scripture never modernised,
+abbreviations never expanded, Hebrew/Greek script + transliteration + Strong's untouchable);
+frozen glossary; per-string meaning checklist. VERIFY-ONLY means the string already met
+the standard — it is a verdict, not a shortfall.
+
+## 1 · Rewritten strings (BEFORE → AFTER)
+
+### `1sa-2-10` · `principle`
+
+**BEFORE**
+
+```text
+The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah's song closes with the first occurrence of Mashiach in Scripture — centuries before a king exists in Israel. First principle: the anointed King is a promise before He is a person on a throne; broken adversaries and exalted strength converge on Christ.
+```
+
+**AFTER**
+
+```text
+The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah's song closes with the first occurrence of Mashiach in Scripture — hundreds of years before a king exists in Israel. First principle: God promises his anointed King long before any man sits on a throne. Broken adversaries and exalted strength converge on Christ.
+```
+
+**Why:** V3: 'centuries before' is a bookish way to say the gap; replaced with the everyday 'hundreds of years before'. V2/V4: the promise sentence now names who acts — 'God promises his anointed King' instead of the abstract 'the anointed King is a promise' — and states the plain sequence 'long before any man sits on a throne'. The closing sentence keeps the source's own wording and its exact strength, because 'converge on Christ' is the source's typology claim and must not be weakened, widened or made to add a claim the text withholds. Quotation kept byte-identical (KJV, including the source's ellipsis). Claims preserved: first Scripture use of Mashiach, the time gap before Israel has a king, the anointed King promised before He is enthroned, broken adversaries and exalted strength meeting in Christ. No citation added or removed.
+
+### `1sa-16-13` · `principle`
+
+**BEFORE**
+
+```text
+The anointing oil and the abiding Spirit. First principle: the anointing is real and retroactive to the tribe of Judah — the Spirit comes upon David and never recorded as departing till the sin with Bathsheba's prayer.
+```
+
+**AFTER**
+
+```text
+The anointing oil and the abiding Spirit. First principle: the anointing is real, and God keeps his word to the tribe of Judah. The Spirit comes on David and stays with him. Scripture never records the Spirit leaving him until his sin with Bathsheba — when he prays that God not take the Holy Spirit from him.
+```
+
+**Why:** V3: 'retroactive' is a decode-word. V2: the source's 30-word sentence chained 'and' plus a second idea after the dash. Rebuilt as three plain sentences, all subject-verb-object. 'God keeps his word to the tribe of Judah' is the glossary wording for covenant faithfulness and carries the same claim as 'retroactive to the tribe of Judah' without the jargon. Kept the source's own dash link to the Bathsheba prayer so the claim is neither softened nor strengthened. Proper names David, Judah, Bathsheba, the Spirit, and the word 'anointing' all unchanged.
+
+### `1sa-8-7` · `principle`
+
+**BEFORE**
+
+```text
+The throne-rejection read as theocracy-rejection. First principle: asking for a king like the nations is a verdict on God's reign — and Hosea repeats the charge when Israel asks a king again.
+```
+
+**AFTER**
+
+```text
+The throne-rejection read as theocracy-rejection. First principle: when Israel asks for a king like other nations, they are rejecting God as their king. Hosea repeats the charge when Israel asks a king again.
+```
+
+**Why:** V3: 'theocracy-rejection' and 'verdict on God's reign' both need decoding. V2: the second sentence joined two ideas with an 'and'. Rewritten in plain order, naming who does what: Israel asks, Israel rejects, God is the king they reject. 'like other nations' is the same comparison the source makes with 'like the nations'. Claim unchanged — no motive added, and the judgment is not softened. Hosea and the second asking for a king both kept; no citation added. Title left untouched for separate review.
+
+### `1sa-17-45` · `principle`
+
+**BEFORE**
+
+```text
+Sword and spear versus the Name. First principle: the shepherd-boy's theology defeats the giant's arsenal — the battle is fought in a name, not in hardware.
+```
+
+**AFTER**
+
+```text
+Sword and spear versus the Name. First principle: David's weapon is the Name of the LORD of hosts — not the giant's sword and spear. The battle belongs to God, and David says so out loud before he fights.
+```
+
+**Why:** V3: 'the shepherd-boy's theology' and 'the giant's arsenal' are decode-phrases. V2: the em dash carried a second idea. Rewritten plainly, naming David and the LORD of hosts, so the reader does not have to decode who is fighting and with what. Claims kept: the contrast between sword and spear and the Name; David's confidence rests in the LORD of hosts, the God of Israel's armies, whom Goliath defied; David says it out loud before the fight (1 Sam 17:45-47). Goliath is called 'the giant' just as the source does. No citation added. Title left untouched for separate review.
+
+### `1sa-2-35` · `principle`
+
+**BEFORE**
+
+```text
+A priest after God's own heart, a sure house, walking before the anointed forever. First principle: Eli's house falls so the faithful-priest promise stands — fulfilled in Zadok and ultimately in the Son.
+```
+
+**AFTER**
+
+```text
+A priest after God's own heart, a sure house, walking before the anointed forever. First principle: Eli's house falls, and God's promise to raise up a faithful priest stands. God kept that promise in Zadok, and at last in his Son.
+```
+
+**Why:** V2: the source ran the fall of Eli's house and the standing promise together with a dash. Split into two sentences, each with one idea. V3: 'the faithful-priest promise' read as a compressed compound; now it is plain words. Claims preserved exactly: Eli's house falls; the promise of a faithful priest stands; fulfilled in Zadok and ultimately in the Son. The opening three-part clause is left byte-identical. No citation added. Title left untouched for separate review.
+
+### `1sa-16-1` · `principle`
+
+**BEFORE**
+
+```text
+Mourning ends; the horn fills; Jesse of Bethlehem is named. First principle: God's provided king comes from Bethlehem before David is born there — the town is already messianic address.
+```
+
+**AFTER**
+
+```text
+Mourning ends; the horn fills; Jesse of Bethlehem is named. First principle: God chose Bethlehem for his king long before David was born there. The town is already named as the place the promised King comes from.
+```
+
+**Why:** V3: 'messianic address' is a decode-phrase. V2: the source joined the timing and the meaning with a dash. Split into two plain sentences. 'the town is already named as the place the promised King comes from' carries the messianic claim at full strength, tied to the glossary rendering for Messianic. Claims kept: God provides the king; Bethlehem is the place; it is named centuries before David is born there. Opening clause byte-identical. No citation added. Title left untouched for separate review.
+
+### `1sa-17-47` · `principle`
+
+**BEFORE**
+
+```text
+The assembly learns salvation without sword or spear. First principle: ownership of the battle decides the outcome — the LORD gives into hands, and the assembly knows.
+```
+
+**AFTER**
+
+```text
+The assembly learns salvation without sword or spear. First principle: whoever owns the battle decides how it ends. The LORD gives into hands, and the assembly knows it.
+```
+
+**Why:** V2/V3: the source chained the ownership claim to the outcome with a dash and used the compressed phrase 'ownership of the battle decides the outcome'. Now: one idea per sentence, subject then verb. Claims kept: the battle has an owner; the owner settles the outcome; the LORD gives into hands; the assembly comes to know it; and no sword or spear is needed for the salvation. The source's own shorthand 'gives into hands' is left as written rather than expanded, so nothing is added or removed. No citation added. Title left untouched for separate review.
+
+### `1sa-2-1` · `principle`
+
+**BEFORE**
+
+```text
+Hannah's prayer of exultation in salvation. First principle: the barren woman's song becomes Mary's Magnificat template — horn exalted, mouth enlarged, rejoicing in salvation.
+```
+
+**AFTER**
+
+```text
+Hannah's prayer of praise for the salvation God gives. First principle: the barren woman's song becomes the pattern Mary follows in her Magnificat. Hannah's horn is exalted, her mouth is enlarged, and she rejoices in the salvation God gives.
+```
+
+**Why:** V2: the source's final sentence was a noun pile with a dash ("horn exalted, mouth enlarged, rejoicing in salvation") — no actor and no verb. V3: 'exultation' is a decode-word. Rewritten in plain order with Hannah as the subject, so the reader can see who is doing what. Kept every claim: Hannah prays; the prayer is about the salvation God gives; the barren woman's song is the pattern Mary follows; horn exalted; mouth enlarged; rejoicing in salvation. 'her mouth is enlarged' keeps the source's own image rather than substituting 'praise'. No citation added. Title left untouched for separate review.
+
+### `1sa-2-10` · `terms[0].note`
+
+**BEFORE**
+
+```text
+First Scripture use of the title Messiah; Mary and Zacharias echo Hannah's song almost clause for clause (Luke 1-2).
+```
+
+**AFTER**
+
+```text
+The first time Scripture calls anyone the Messiah; Mary and Zacharias echo Hannah's song in almost the same words (Luke 1-2).
+```
+
+**Why:** V3: 'First Scripture use of the title Messiah' is compressed essay phrasing, and 'almost clause for clause' needs decoding. Rewritten in everyday words with the same claim: this is the first place in Scripture that gives anyone the title Messiah, and both Mary and Zacharias echo Hannah's song closely. Hebrew מְשִׁיחוֹ, the transliteration meshikho, and the gloss are untouched; the citation stays exactly as written, Luke 1-2, with no renumbering and no citation added or dropped.
+
+## 2 · VERIFY-ONLY strings (already at standard, unchanged)
+
+| entry | field | reason |
+|---|---|---|
+| `1sa-16-13` | `title` | 12 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-17-45` | `title` | 12 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-2-1` | `title` | 10 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-8-7` | `title` | 10 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-16-1` | `title` | 9 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-2-10` | `title` | 8 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-2-35` | `title` | 8 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-15-22` | `title` | 6 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-17-47` | `title` | 5 words, one idea, plain. Scripture wording that must stay byte-identical under I1 — no safe rewrite exists. |
+| `1sa-2-10` | `terms[0].gloss` | 4 words, one idea, plain. Carries the Hebrew term's own root meaning; nothing abstract and nothing to decode, so no rewrite is warranted. |
+| `1sa-15-22` | `principle` | Already meets the standard, so no change is needed. V1 passes: 21 words, two sentences of 15 words or less, no banned phrase. V2 passes: one idea per sentence in plain order, and the dash links the claim to its scriptural support rather than carrying a second idea. V3 passes: 'outranks' and 'spared-sheep' are everyday words, and every claim is already concrete. No rewrite is made because the only available change would move punctuation without adding plain words, which the project rejects — verifyOnly rather than a fake rewrite. |
+

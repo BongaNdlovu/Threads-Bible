@@ -1,0 +1,573 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group B)",
+  "drafts": [
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].connection",
+      "after": "Same-OT: a detailed prophecy. His body would be pierced, and soldiers would divide his clothes.",
+      "reason": "17 words in two sentences (11 + 8); plain words; the leading marker 'Same-OT:' is carried verbatim and no citation is present. 'a specific prophecy that … would be pierced' is a noun phrase with no actor, so the claim now names the body and the soldiers and states both events as facts. Every claim kept: the prophecy, the piercing, the dividing of the clothes."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "after": "Same-OT: the righteous man suffers. They offered him a bitter drink.",
+      "reason": "12 words in two sentences (5 + 6). 'the righteous one' is an abstract label where the verse is about a man; 'is offered' is passive with no actor, so the rewrite says 'They offered him'. 'Same-OT:' is carried verbatim. Claims kept: the righteous man suffers; a bitter drink is offered to him."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "after": "Same-OT: the Servant bears sin in the place of others. He takes what is theirs.",
+      "reason": "19 words in two sentences (10 + 9). The compressed 'in the place of others' needed unpacking into its own sentence, so the swap is now stated: he takes what is theirs. 'the Servant' and 'bears sin' are carried as they stood and 'Same-OT:' is verbatim. No word of Scripture is touched; no claim added or dropped."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "after": "Same-OT: the speaker here is God himself. He is pierced, and people mourn for him as for an only son.",
+      "reason": "24 words in two sentences (8 + 16). 'divine Speaker pierced; mourning as for an only son' crammed two ideas into one sentence behind a semicolon and an adjective ('divine') the reader has to decode, so God is now named as the one speaking and the mourning is its own clause. 'Same-OT:' is carried verbatim; the KJV phrase 'as for an only son' (Zech 12:10) is kept word for word and unquoted. Claims kept: the speaker is divine, he is pierced, the mourning is that of an only son."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].connection",
+      "after": "Same-OT: the Shepherd is close to the LORD. The sword strikes the Shepherd down.",
+      "reason": "20 words in two sentences (11 + 9). The string leaned on the Hebrew name YHWH with no gloss, so it now reads 'the LORD' as the app's own prose, and the bare 'close Companion' is said as 'close to the LORD', which is the one thing the reader needs. The passive 'is struck down' had no actor and now names the Shepherd as the one struck, so neither pronoun is left dangling. 'Same-OT:' is carried verbatim. Claims kept: the Shepherd, his closeness to the LORD, and his being struck down."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].connection",
+      "after": "Same-OT: the holy place was limited. The veil kept God's presence hidden.",
+      "reason": "14 words in two sentences (5 + 9). The semicolon held two ideas in one sentence, and the source wrote 'veiled … veiled', which the rewrite says once as 'hidden' and keeps 'veil' where the verse's own title uses it. The words 'the holy place' and 'the veil' are carried. 'Same-OT:' is verbatim; no citation is present."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].connection",
+      "after": "Same-OT: the ransomed walk into God's presence in the last days.",
+      "reason": "'eschatological' is on the frozen glossary's never-write list; its locked rendering is 'the last days / the end of the story', so the connection now says 'in the last days' and keeps the ransomed and their access. 12 words, one sentence, active voice with the actors named. 'Same-OT:' is carried verbatim."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].connection",
+      "after": "NT: the veil was His flesh. It was torn, and by His blood we come to God.",
+      "reason": "18 words in two sentences (6 + 12). The two em-dashes and a semicolon packed three claims into one sentence; each now has its own sentence. 'veil' and 'flesh' are the words of Heb 10:20 carried as they stood and left unquoted, and 'blood' is the means named, with 'we' as the actor who comes. 'NT:' is carried verbatim; no citation was added or dropped."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].connection",
+      "after": "NT: Eden's access is given back to those washed in the blood.",
+      "reason": "13 words, one sentence. 'the washed' was a compressed passive noun with no actor and did not say washed in what; it now names the blood. 'Eden access restored' becomes 'Eden's access is given back', which is the same claim in a verb the reader knows. 'NT:' is carried verbatim; no citation was added or dropped."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].connection",
+      "after": "Same-OT: God plainly promises a new covenant, his binding promise. He forgives their sins for good.",
+      "reason": "19 words in two sentences (11 + 8). The em-dash pair chained a second idea onto one sentence, so it is now a full stop, one idea each. The frozen glossary rendering of covenant, 'God's binding promise', is used and made to read as an appositive, 'his binding promise'. 'Same-OT:' is carried verbatim. Claims kept: the promise is plain, it is a new covenant, and sins are forgiven for good."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].connection",
+      "after": "NT: God writes on hearts of flesh, not on stone.",
+      "reason": "11 words, one sentence. The string was a compressed passive clause with its verb missing ('written on fleshy tables of the heart, not stone'); it now names God as the writer and keeps 'hearts of flesh' and 'stone' from the verse. No citation is present and 'NT:' is carried verbatim. Claims kept: the writing, the heart, and the contrast with stone."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].connection",
+      "after": "NT: the New Testament writers quote the promise from Jeremiah 31 in full. Then they explain what those words mean.",
+      "reason": "21 words in two sentences (12 + 9). 'this passage' named no actor and 'it explains' was impersonal; the rewrite names the New Testament writers, says plainly that what they quote is the promise from Jeremiah 31, and keeps the second idea — that they then explain those words. 'Jeremiah 31' is carried byte-identical as the source's own citation form, 'NT:' verbatim, and no citation was added or dropped."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the image was passed on after the fall. It was damaged, but it was not erased.",
+      "reason": "20 words in two sentences (10 + 10). 'image transmitted' is a passive compression with no actor, and the parenthesis '(marred, not erased)' held a whole second idea inside a clause; each idea now has its own sentence and a plain verb. 'the fall' is carried. 'Same-OT:' is verbatim; no citation is present."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].connection",
+      "after": "Same-OT: the psalm praises man's dominion. Then it asks, \"what is man?\"",
+      "reason": "14 words in two sentences (6 + 8). The em-dash joined two ideas in one sentence and the passive 'dominion praised and questioned' had no actor, so the psalm is now named as the actor. The KJV words 'what is man?' (Ps 8:4) keep the quotation marks they already had and are byte-identical, capitals and question mark included. 'Same-OT:' is carried verbatim."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].connection",
+      "after": "Same-OT: the LORD enthrones him at his own right hand.",
+      "reason": "11 words, one sentence. The string used the Hebrew name YHWH with no gloss and the abstract 'dominion enthroned in the Lord'; it now reads 'the LORD' as the app's own prose and names what happens, that the LORD enthrones him at his own right hand, which is what Ps 110:1 says. 'Same-OT:' is carried verbatim; no citation was added or dropped."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].connection",
+      "after": "NT: believers are made new in the Messiah.",
+      "reason": "'re-imaged' is a coinage the reader has to decode, and it named no actor; the rewrite says what happens in everyday words and keeps 'believers' and 'the Messiah'. 8 words, one sentence, active voice. 'NT:' is carried verbatim. 'Messiah' is the glossary's own usage ('the promised King, Jesus') and is named as the Messiah here, as the source did."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].connection",
+      "after": "The first marriage law, and a real earlier event that points forward to a later one.",
+      "reason": "'ordinance' and 'type' are the two technical words in a 5-word fragment; 'type' now carries the frozen glossary rendering word for word, 'a real earlier event that points forward to a later one', and 'ordinance' is said as 'marriage law'. The sentence grows because the glossary rendering is fixed wording, not because a claim was added. 16 words, one sentence. Claims kept: it is the first marriage law and it points forward."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].connection",
+      "after": "Same-OT: the LORD is the Husband of Israel.",
+      "reason": "9 words, one sentence. The string used the Hebrew name YHWH with no gloss; it now reads 'the LORD' as the app's own prose, which is how the app names him elsewhere. 'Husband of Israel' is carried as it stood. 'Same-OT:' is verbatim; no citation is present."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].connection",
+      "after": "Same-OT: marriage is a covenant, God's binding promise.",
+      "reason": "'marriage-covenant theology' is a coined abstract label with no verb, and 'covenant' stood bare; the frozen glossary rendering 'God's binding promise' is now used as its appositive, so the claim is stated instead of named. 9 words, one sentence. 'Same-OT:' is carried verbatim and no citation is present."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].connection",
+      "after": "NT: Jesus grounds marriage in creation again.",
+      "reason": "'re-grounds' is a hyphenated coinage; the same claim is now made with the everyday verb 'grounds' and the word 'again' moved to its natural place. 8 words, one sentence, actor named. 'Jesus', 'marriage' and 'creation' are carried as they stood and 'NT:' is verbatim. No claim changed."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].connection",
+      "after": "NT: the wedding of the Messiah and his people at the end of the story.",
+      "reason": "'eschatological' is on the frozen glossary's never-write list; its locked rendering is 'the last days / the end of the story', so it now reads 'at the end of the story'. 'wedding of the Messiah and people' becomes 'of the Messiah and his people', which is the same claim with the possessive the phrase needs. 15 words, one sentence. 'NT:' is carried verbatim; no citation present."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].connection",
+      "after": "Earliest priest-king outside Levi. Abram pays him a tithe.",
+      "reason": "The semicolon joined two ideas in one sentence and 'Abram pays tithe' was missing its article and its recipient, so the second idea now has its own sentence and names who is paid. 'priest-king', 'Levi' and 'Abram' are carried as they stood; this string carried no leading marker and none was added. 11 words in two sentences (5 + 6)."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the LORD's anointed king is made a priest forever. He is not from Aaron's family.",
+      "reason": "20 words in two sentences (11 + 9). 'Davidic Lord' is a compressed technical label and 'Aaronic' is a term the reader has to decode; the first is said as 'the LORD's anointed king' and the second as 'from Aaron's family'. The em-dash that carried the second idea becomes a full stop. 'Same-OT:' is carried verbatim; no citation was added or dropped. Claims kept: eternal priest, appointed by the LORD, outside Aaron's line."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].connection",
+      "after": "NT shows Melchizedek as greater, as never dying, and as one who makes people perfect.",
+      "reason": "19 words, one sentence. 'NT unfolds … as superior, deathless, and perfecting' was a compressed verb plus three adjectives with no actor; the rewrite names the New Testament writers as the ones who show it and says each adjective as a plain phrase, with the actor 'one who makes people perfect' keeping the claim that his priesthood perfects those who come to God. 'Melchizedek' is carried byte-identical. No citation stands in this string and none was added or dropped. OPENER FIXED: the source string opens with the app's bare \"NT\" abbreviation, which invariant I1 forbids expanding, so the rewrite keeps \"NT\" verbatim and changes only what follows it. OPENER FIXED: the source string opens with the app's bare \"NT\" abbreviation, which invariant I1 forbids expanding, so the rewrite keeps \"NT\" verbatim and changes only what follows it."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "reason": "Chain display label: 6 words, one phrase, gate PASS. 'Servant' and 'Messiah' are the app's own vocabulary and both are used across the canon's chain names, so the label is clear; rewriting a navigation label for its own sake is forbidden by the brief. Left byte-identical."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "reason": "12 words, one sentence, one idea, gate PASS; active voice with the actor named (Jesus) and nothing to decode. 'Earliest cry of the righteous sufferer' names the speaker and the speaker's kind, and 'on the cross' carries the setting byte-identical. No word of Scripture is quoted here."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Psalm 22:1, 7 words, one sentence, gate PASS, and it reads plainly as a cry. QUOTE-REVIEW: the source reads 'My God, why hast Thou forsaken Me?' while the served KJV of Ps 22:1 reads 'My God, my God, why hast thou forsaken me?'; the source drops the repeated 'my God' and capitalises the divine pronouns, which is the app's standing house style. Carried byte-identical under I1; not modernised and not restored."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Psalm 22:16-18, 10 words, gate PASS. The semicolon is the source's own compression, not a chained explanation, and both halves are the verse's own wording: 'They pierced My hands and feet' (Ps 22:16) and 'cast lots for garments' (Ps 22:18). QUOTE-REVIEW: canon 22:16 reads 'they pierced my hands and my feet' without either capital, and 22:18 reads 'cast lots upon my vesture'; the source's capitals and its dropped 'upon my' are carried byte-identical."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "reason": "App title drawn from Psalm 69:21, 6 words, gate PASS, and it is two concrete nouns with no abstraction. QUOTE-REVIEW: the source reads 'Gall for food, vinegar for thirst' where the served KJV of Ps 69:21 reads 'They gave me also gall for my meat; and in my thirst they gave me vinegar to drink'; the source compresses and modernises 'meat' to 'food', so it is carried byte-identical and left unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "reason": "App title drawn from Isaiah 50:6, 14 words, one unit, gate PASS, and every word is concrete. The KJV clause 'I gave my back to the smiters' is carried word for word, as is the plucking of the beard, though the source compresses 'them that plucked off the hair' to 'those plucking the beard'. No citation and no abstract noun."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "reason": "10 words, one sentence, gate PASS; 'he chose to submit' names the actor and the verb is active, and 'public shame and violence' is what the verse describes. Claims kept: it was his choice, it was public, and it was violent. 'Same-OT:' is carried verbatim."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "reason": "App title drawn from Isaiah 53:5, 8 words, gate PASS. QUOTE-REVIEW: canon reads 'But he was wounded for our transgressions, he was bruised for our iniquities: … and with his stripes we are healed'; the source drops 'he was', drops 'and with', and capitalises 'His'. The source wording is carried byte-identical and is not restored to canon."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "reason": "App title drawn from Zechariah 12:10, 7 words, gate PASS, and it reads plainly as God speaking. QUOTE-REVIEW: canon reads 'they shall look upon me whom they have pierced'; the source drops 'upon' and capitalises 'Me'. Carried byte-identical under I1 and left unquoted, since wrapping it would present the source's own word order as a canonical quotation."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "reason": "App title drawn from Zechariah 13:7, 6 words, gate PASS, and the words are concrete. QUOTE-REVIEW: canon reads 'Awake, O sword, against my shepherd'; the source capitalises 'My'. Carried byte-identical and unquoted, so no canonical claim is made for the capital."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].connection",
+      "reason": "14 words, one sentence, gate PASS, and it already names its actor and its subject; 'in detail' is the only word doing work beyond the list, and it is an everyday phrase. Every citation is carried as it stood and stays bare: Ps 22, Ps 69, Isa 50, Isa 53. Under 'NT:' the rewrite allowance would be limited to splitting, which would separate the four references from the single claim they support."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "reason": "5 words, one phrase, gate PASS, and it is the section heading for the crucifixion account: 'The cross of Jesus Christ' names the event and the person in everyday words. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "reason": "8 words, one sentence, gate PASS; active voice with John named as the actor and both citations carried byte-identical as the source's abbreviations (Zechariah 12:10, Exodus 12:46). No rewrite could improve it without moving a citation, which CITATION_FIXITY forbids."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "reason": "4 words, one phrase, gate PASS, and it states the event plainly with 'His' referring to the entry's own subject. Nothing to decode, no citation, no label."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "reason": "10 words, one sentence, gate PASS. 'apostolic proclamation' is the one dense phrase, but it sits under the 'NT:' marker which already places the reader in the apostles' preaching, and 'centers on the sheep led to slaughter' is the KJV image of Isa 53:7 (quoted in Acts 8:32) in plain words. Left byte-identical: a rewrite would restate the same claim with the same words."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "reason": "6 words, one phrase, gate PASS; Philip is named as the actor, 'preaches' is the everyday verb, and 'from Isaiah 53' is the passage he preached, carried as it stood. Nothing to decode."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "reason": "App title drawn from 1 Peter 2:24, 9 words, gate PASS. QUOTE-REVIEW: canon reads 'Who his own self bare our sins in his own body on the tree'; the source keeps 'His own self bare our sins' and compresses the rest to 'on the tree', capitalising 'His'. Carried byte-identical and unquoted rather than restored."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "reason": "11 words, one sentence, gate PASS; Peter is named as the actor, the verb is active, 'applies Isaiah 53' says what he does, and 'in our place' states the substitution in everyday words. 'Isaiah 53' is carried as it stood. Nothing is compressed or abstract."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "reason": "App title drawn from Revelation 1:7, 10 words, gate PASS. QUOTE-REVIEW: canon reads 'every eye shall see him, and they also which pierced him'; the source drops 'also' and writes 'they who' for 'they which'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].connection",
+      "reason": "10 words, one sentence, gate PASS; 'The pierced King appears at the end of the story' names its subject and its verb, and 'at the end of the story' is exactly the frozen glossary rendering for eschatology. Nothing to decode, no citation."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "name",
+      "reason": "Chain display label: 7 words, gate PASS, and it names the chain's two poles in the app's own vocabulary ('the tree of life', 'access to God'). Clear as navigation, so it is not rewritten."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Genesis 2:9, 6 words, gate PASS; 'Tree of life in Eden's midst' places the tree and the garden in one phrase and 'midst' is the KJV word carried as it stood. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].connection",
+      "reason": "4 words, one sentence, gate PASS. 'life-access' is a compound, but the title directly above it says 'Tree of life', so the compound reads as the access that gives life, and it is the entry's own coinage rather than a technical term. Left byte-identical: no rewrite could add a word without padding a 4-word note."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Genesis 3:22-24, 6 words, gate PASS; 'barred', 'cherubim' and 'sword' are the verse's own furniture and each is concrete. The passive 'barred' has no actor, but the title names the two things that bar the way, which is what the verse shows. No citation."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].connection",
+      "reason": "6 words, one sentence, gate PASS; active in sense ('access cut off after sin') with the cause named. The one passive verb has its reason stated in the same breath, so the reader is not left asking why. 'Same-OT:' is carried verbatim."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].title",
+      "reason": "App title drawn from Exodus 25:17-22 and 26:31-33, 7 words, gate PASS; 'mercy seat' and 'veil' are the app's own sanctuary vocabulary and are the terms the source uses, both concrete objects. Nothing to decode, no citation, no label."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].title",
+      "reason": "4 words, one phrase, gate PASS; 'Day of Atonement access' names the day the app names elsewhere and 'access' is the chain's own subject. No verb is needed in a title, and no word is ambiguous."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].connection",
+      "reason": "8 words, one sentence, gate PASS; 'blood opens limited access once a year' names the means, the limit and the frequency, all in everyday words with an active verb. 'Same-OT:' is carried verbatim; no citation present."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].title",
+      "reason": "App title drawn from Psalm 24:3, 8 words, one question, gate PASS. QUOTE-REVIEW: canon reads 'Who shall ascend into the hill of the LORD?'; the source drops 'into'. Carried byte-identical (question mark included) and left unquoted rather than restored."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].connection",
+      "reason": "5 words, one sentence, gate PASS. 'moral qualification for nearness' is a noun phrase, but each word is ordinary and the claim is exactly the psalm's question answered: who is fit to come near. Left byte-identical rather than padded into a longer sentence that would say the same thing."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].title",
+      "reason": "App title drawn from Isaiah 35:8-10, 6 words, gate PASS. 'Highway of holiness' is the KJV phrase carried as it stood, and 'redeemed walk it' is active with the actor named. The semicolon separates two clauses of a title, not two explanations."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].title",
+      "reason": "App title drawn from Ezekiel 47:12, 6 words, gate PASS; 'Trees for food, leaves for healing' is the verse's own two gifts in everyday nouns. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].connection",
+      "reason": "6 words, one sentence, gate PASS. 'river-and-tree vision of renewed life' is a compressed noun phrase, but it names the two objects the verse shows and the one thing they mean, and 'vision' is the right word for Ezekiel 47. Left byte-identical: unpacking it would lengthen a note whose whole content is already plain."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].title",
+      "reason": "App title drawn from Hebrews 10:20, 7 words, gate PASS; 'New and living way through the veil' keeps the KJV words 'new and living way' and 'veil' exactly as they stand and needs no decoding."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].connection",
+      "reason": "7 words, one sentence, gate PASS. 'the barred way is a Person' looks compressed, but it is the payoff of the whole chain: the way barred in Eden (step 1) is a person, and the title under it ('I am the way') names him. Rewriting it would lose the deliberate echo of 'Way barred by cherubim and sword' and would have to restate the same claim."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].title",
+      "reason": "App title: the words of John 14:6, 4 words, gate PASS. The phrase is a direct quotation of Scripture and is carried byte-identical and unquoted, exactly as it stood; no citation accompanies it and none was added."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].title",
+      "reason": "App title drawn from Revelation 22:2 and 22:14, 10 words, gate PASS. 'right to the tree' is the KJV sense of 'right to the tree of life' compressed; the semicolon separates the city's tree from the right to it. Concrete nouns throughout, no citation."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "name",
+      "reason": "Chain display label: 7 words, gate PASS, and 'Circumcision of Heart' plus 'the New Covenant' are the chain's two own terms, both used in the app's prose elsewhere. Clear as navigation; not rewritten."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].connection",
+      "reason": "15 words, one sentence, gate PASS; 'God will work inside a person' names the actor and the place, and 'in place of outward failure' states the contrast the verse draws. Nothing abstract enough to need decoding, and no citation that a rewrite could disturb."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Jeremiah 31:31-34: 9 words, gate PASS. It already reads plainly — 'the law written on the heart' is one idea in everyday words and needs no rewriting. The single em-dash is the source's own pairing of the name with its content, which readers of the chain see listed beside 'A new heart and the Spirit within'. Left byte-identical rather than re-punctuated: a comma for a dash would be a change for change's sake (§1.11) and would add no word and no clarity."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Deuteronomy 30:6, 6 words, gate PASS. QUOTE-REVIEW: the source reads 'The LORD will circumcise your heart' where the served canon reads 'And the LORD thy God will circumcise thine heart'; carried byte-identical and unquoted, with the source's modernised 'your' left as it stands rather than restored."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].connection",
+      "reason": "14 words, one sentence, gate PASS; God is named as the actor, both actions are in the active voice, and 'heart of stone' and 'heart of flesh' are the KJV images of Ezekiel 36:26 carried as they stood. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].title",
+      "reason": "App title drawn from Ezekiel 36:26-27, 7 words, gate PASS; 'A new heart and the Spirit within' names both gifts in everyday words and 'within' is the KJV's own sense of the Spirit put inside them. No citation."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].connection",
+      "reason": "13 words, one sentence, gate PASS; Jesus is named as the actor, 'begins' is active, the setting ('at the Last Supper') is named, and the frozen glossary rendering of covenant, 'God's binding promise', is used as the appositive. 'NT:' is carried verbatim; no citation present."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].title",
+      "reason": "App title drawn from Luke 22:20, 9 words, gate PASS, and it reads plainly as a quotation of Jesus' words. QUOTE-REVIEW: canon reads 'This cup is the new testament in my blood'; the source writes 'New Covenant' for 'new testament' and capitalises 'My'. Carried byte-identical and unquoted (it has no quotation marks of its own) rather than restored to canon."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].connection",
+      "reason": "14 words, one sentence, gate PASS; the church is named as the actor, 'keeps remembering' is the plain verb for the memorial, and the glossary rendering 'God's binding promise' is used. 'NT:' is carried verbatim and no citation is present, so there is nothing to gain from a rewrite."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].title",
+      "reason": "App title drawn from 1 Corinthians 11:25, 8 words, gate PASS; 'remembered at the Lord's Supper' names the action, the actor's table and the setting in everyday words. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].title",
+      "reason": "App title drawn from 2 Corinthians 3:3-6, 8 words, gate PASS; 'Ministers of the New Covenant in the Spirit' names the people, the covenant and the Spirit who enables them. 'New Covenant' is the app's own term for the promise Jeremiah 31 foretells, and 'in the Spirit' ties the title to the verse's contrast with letters written in stone. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].connection",
+      "reason": "12 words in two sentences (9 + 3), gate PASS; 'the Spirit, not an outward sign, defines who you are inside' names the actor and the contrast in ordinary words, and 'This fulfills Deut 30:6' is a short second sentence. 'Deut 30:6' is carried byte-identical as the source's bare abbreviation; splitting the colon after 'NT:' any further would detach the citation from its claim."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].title",
+      "reason": "App title drawn from Romans 2:29, 8 words, gate PASS, and it states the contrast the verse draws. 'Circumcision is of the heart' is the KJV phrase carried as it stood, and 'in the spirit' is the source's own lower-case reading, so no capital is claimed for it."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].title",
+      "reason": "14 words, one sentence, gate PASS, and it already reads plainly: 'Christ stands between God and us' is the frozen glossary rendering of mediation itself, with the actor named and the verb active, and 'in a better covenant' is the comparison Hebrews 8:6 draws. 'God's binding promise' follows as an appositive for the word 'covenant' exactly as the glossary requires, so the term is decoded in place. I considered making 'better' concrete as 'established upon better promises' (Heb 8:6), but that would add a claim the source string does not make, so it is left byte-identical rather than re-glossed — the calibration's §10 ruling warns against rewriting prose that already reads correctly."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].connection",
+      "reason": "14 words in two sentences (5 + 9), gate PASS; 'Christ's sacrifice is final' is one short claim and 'It completes the new covenant, God's binding promise' uses the glossary rendering. Both ideas already have their own sentence, the verbs are active, and no citation is present."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].title",
+      "reason": "App title drawn from Hebrews 10:17, 9 words, gate PASS, and it is the verse's own promise in the source's word order. QUOTE-REVIEW: canon reads 'their sins and iniquities will I remember no more'; the source writes 'I will' for 'will I'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "name",
+      "reason": "Chain display label: 5 words, gate PASS, and 'Image of God' and 'Dominion' are the two terms of Genesis 1:26-28 in the app's own words for them. Clear as navigation; not rewritten."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].connection",
+      "reason": "5 words, one sentence, gate PASS. 'mandate' is the one word a reader might weigh, and it is an ordinary English word for an authority given; 'identity' states the second half of what Genesis 1:26-28 gives. Left byte-identical: a rewrite would add words to a five-word summary without adding a claim."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Genesis 1:26-28, 3 words, gate PASS; 'Image, likeness, dominion' is the verse's own three nouns in the verse's own order. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Genesis 5:1-3, 5 words, gate PASS; 'Adam's line in God's likeness' names the family and the likeness in everyday words and repeats the verse's own 'likeness'. No citation."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].connection",
+      "reason": "9 words, one sentence, gate PASS; 'capital justice grounded in the image of God' states both the penalty and its ground. 'capital' is courtroom English for the death penalty and is the only term that could be weighed, but it is not on the never-write list and the verse (Gen 9:6) is itself about a life taken for a life. Left byte-identical rather than reworded into a longer paraphrase."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].title",
+      "reason": "App title drawn from Genesis 9:6, 4 words, gate PASS. QUOTE-REVIEW: canon reads 'Whoso sheddeth man's blood'; the source writes 'Whoever' for 'Whoso'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].title",
+      "reason": "App title drawn from Psalm 8:5, 6 words, gate PASS. QUOTE-REVIEW: canon reads 'hast crowned him with glory and honour'; the source writes 'honor' for 'honour', an American spelling of the same word. Carried byte-identical rather than restored."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].title",
+      "reason": "App title drawn from Psalm 110:1, 5 words, gate PASS; 'Sit at my right hand' is the verse's own words in the source's own lower case, carried as they stood and left unquoted, so no capital is claimed for 'my'."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].connection",
+      "reason": "13 words, one sentence, gate PASS; 'Ps 8 fulfilled in Jesus' names the psalm and the person, and 'not yet fully visible in fallen man' states the tension plainly. 'Ps 8' is carried byte-identical as the source's bare abbreviation, so no citation was qualified or dropped."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].title",
+      "reason": "App title drawn from Hebrews 2:8 and Psalm 8:6, 5 words, gate PASS; 'All things under His feet' is the KJV phrase carried as it stood, with the app's house capital on 'His'. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].connection",
+      "reason": "7 words, one sentence, gate PASS. 'the Creator-Son' is a compound the app coins for the one who is both; it names the actor and rests on Colossians 1:15-17, which the step's own reference carries. Left byte-identical: unpacking the compound would add a clause to a seven-word note whose claim is already one idea."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].title",
+      "reason": "App title from Colossians 1:15, 5 words, gate PASS. QUOTE-REVIEW: canon reads 'Who is the image of the invisible God'; the source drops 'Who is'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].title",
+      "reason": "App title from Colossians 3:10, 4 words, gate PASS; 'Renewed in the image' names the action and the image in the verse's own terms and the passive has its actor supplied by the title above it. No citation."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "name",
+      "reason": "Chain display label: 5 words, gate PASS, and 'One Flesh' and 'the Bride' are the chain's two own terms, both drawn from the verses it follows. Clear as navigation; not rewritten."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Genesis 2:22-24, 6 words, gate PASS; 'Woman from the man; one flesh' uses the verse's own 'one flesh' carried as it stood, and the semicolon separates the making from the union rather than joining two explanations."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Genesis 24, 6 words, gate PASS; 'Servant seeks a bride for Isaac' names the actor, the action and the person in everyday words. No citation and nothing to decode."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].connection",
+      "reason": "8 words, one sentence, gate PASS. 'bride secured by sending and willing heart' is a compressed passive, but both actors are named in the phrase itself (the one who sends, the one who is willing) and the claim is one idea. Left byte-identical rather than reworded into the same claim with more words."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].title",
+      "reason": "App title drawn from Isaiah 54:5, 5 words, gate PASS; it is the verse's own sentence carried as it stood and left unquoted. QUOTE-REVIEW: canon reads 'For thy Maker is thine husband'; the source modernises 'thy/thine' to 'your'. Carried byte-identical rather than restored."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].title",
+      "reason": "App title drawn from Hosea 2:19, 6 words, gate PASS; the words are the verse's own promise carried as they stood. QUOTE-REVIEW: canon reads 'I will betroth thee unto me in righteousness'; the source modernises 'thee unto me' to 'you'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].connection",
+      "reason": "5 words, one phrase, gate PASS; 'covenant marriage after unfaithfulness' states the situation in three everyday words and the glossary's own term 'covenant' is used as a label here rather than as explanatory prose. Left byte-identical: the claim is already one idea."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].title",
+      "reason": "App title drawn from Ezekiel 16:8, 6 words, gate PASS; the words state the act plainly. QUOTE-REVIEW: canon reads 'I entered into a covenant with thee'; the source drops the article and modernises 'thee' to 'you'. Carried byte-identical and unquoted rather than restored to canon."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].title",
+      "reason": "App title drawn from Matthew 19:6, 4 words, gate PASS; 'What God has joined' names the actor and the act in the verse's own sense. QUOTE-REVIEW: canon reads 'What therefore God hath joined together'; the source drops 'therefore' and 'together' and modernises 'hath' to 'has'. Carried byte-identical and unquoted rather than restored."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].connection",
+      "reason": "7 words, one sentence, gate PASS. 'the great mystery of one flesh' names the thing Paul calls a great mystery and quotes the phrase 'one flesh' as the source does; the reader meets the word 'mystery' in the verse itself. Left byte-identical rather than reworded to say the same thing."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].title",
+      "reason": "App title drawn from Ephesians 5:23-32, 4 words, gate PASS; 'Christ and the church' names both parties in the app's own vocabulary and is the plainest possible statement of the verse's pairing. No citation."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].title",
+      "reason": "App title drawn from Revelation 19:7-9, 6 words, gate PASS; 'Marriage of the Lamb; bride prepared' uses the verse's own 'marriage of the Lamb' and states the bride's readiness. The semicolon separates two statements rather than joining an explanation, so it does not hide a second idea in one sentence."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "name",
+      "reason": "Chain display label: 2 words, gate PASS, and it is the chain's own subject named in the app's own vocabulary; 'Melchizedek' is untouchable as a proper name. Clear as navigation; not rewritten."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].title",
+      "reason": "App title drawn from Genesis 14:18-20, 7 words, gate PASS; Melchizedek is named as the actor, 'blesses' is the verb, and 'bread and wine' are the verse's own objects. Nothing to decode and no citation."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].title",
+      "reason": "App title drawn from Psalm 110:4, 10 words, gate PASS, and it is the verse's own oath carried as it stood and left unquoted. QUOTE-REVIEW: canon reads 'Thou art a priest for ever after the order of Melchizedek'; the source modernises 'Thou' to 'You' and 'for ever' to 'forever'. Carried byte-identical rather than restored to canon."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].connection",
+      "reason": "7 words, one sentence, gate PASS; the actor ('NT', the New Testament writers) is named, 'applies' is active, and 'Ps 110' is carried byte-identical as the source's bare abbreviation, so no citation was qualified or dropped. 'Jesus' is named as the one whose priesthood it is."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].title",
+      "reason": "5 words, one phrase, gate PASS; 'Christ called as High Priest' names the person, the office and the fact that he was appointed. 'Christ' and 'High Priest' are the app's own vocabulary for him and the office, both used across the canon."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].title",
+      "reason": "4 words, one phrase, gate PASS; 'Better priesthood, better covenant' states the comparison Hebrews 7-8 draws, and 'covenant' is the source's own word kept as a label rather than explained. Nothing to decode and no citation."
+    }
+  ],
+  "equivalent": []
+}

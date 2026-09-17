@@ -1,0 +1,1307 @@
+{
+  "book": "isa",
+  "bookName": "Isaiah",
+  "part": 2,
+  "parts": 3,
+  "counts": {
+    "entries": 37,
+    "entryStrings": 86,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "isa-40-8",
+    "isa-40-11",
+    "isa-40-13",
+    "isa-40-26",
+    "isa-41-4",
+    "isa-41-10",
+    "isa-42-1",
+    "isa-42-6",
+    "isa-42-7",
+    "isa-43-10",
+    "isa-43-20",
+    "isa-43-25",
+    "isa-44-3",
+    "isa-44-6",
+    "isa-45-1",
+    "isa-45-21",
+    "isa-45-22",
+    "isa-45-23",
+    "isa-48-12",
+    "isa-49-1",
+    "isa-49-6",
+    "isa-49-8",
+    "isa-49-22",
+    "isa-49-26",
+    "isa-50-6",
+    "isa-51-4",
+    "isa-51-11",
+    "isa-52-7",
+    "isa-52-11",
+    "isa-52-13",
+    "isa-52-15",
+    "isa-53-1",
+    "isa-53-3",
+    "isa-53-4",
+    "isa-53-5",
+    "isa-53-6",
+    "isa-53-7"
+  ],
+  "fields": [
+    {
+      "entryId": "isa-42-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison. First principle: the Servant is not only bearer of light — He is Himself the covenant, the divine commitment personified.",
+      "density": 4.1964,
+      "words": 65,
+      "sentences": 2,
+      "maxSentenceWords": 45,
+      "gate": "FAIL",
+      "violations": [
+        "45 words (max 35): \"I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant is wounded for our transgressions and bruised for our iniquities; the chastisement of our peace is upon Him, and by His stripes we are healed. Peter quotes this directly for Christ bearing our sins in His own body on the tree. First principle: the atonement is substitutionary — He suffers in our place to secure our peace.",
+      "density": 3.0179,
+      "words": 59,
+      "sentences": 3,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-50-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting. This is not a victim dragged to suffering but a Servant who sets His face like a flint. First principle: the Passion is voluntary obedience — each humiliation accepted on purpose.",
+      "density": 2.9107,
+      "words": 57,
+      "sentences": 3,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "It is a light thing that thou shouldest be my servant to raise up the tribes of Jacob... I will also give thee for a light to the Gentiles, that thou mayest be my salvation unto the end of the earth. First principle: restoring Israel is too small a mission for the Servant — the gospel is worldwide by divine design, not afterthought.",
+      "density": 2.8893,
+      "words": 63,
+      "sentences": 3,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-42-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him: he shall bring forth judgment to the Gentiles. Strength without harshness: a bruised reed shall he not break. First principle: divine election expresses itself in gentle, world-mending justice.",
+      "density": 2.8,
+      "words": 48,
+      "sentences": 3,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-48-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The called nation hears the bookend title again. First principle: the first-and-last claim is made to a chosen people — and the glorified Christ repeats it to John, claiming the covenant God's name as His own.",
+      "density": 2.5,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-45-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A global invitation grounded in exclusive deity. First principle: salvation is by look — the serpent-pole logic — offered to every end of the earth because there is no other God to offer it.",
+      "density": 2.3929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-45-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The challenge to idols: who declared it from ancient time? First principle: prophecy is God's identity test — only the real God tells the end from the beginning, and He is both just and Savior.",
+      "density": 2.3036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-44-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The King of Israel and His Redeemer, the LORD of hosts, speak the bookend title. First principle: the exclusive claim is dual in grammar, one in Person — Revelation gives the title to the Alpha and Omega Jesus.",
+      "density": 2.2643,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "We misread His wounds as God's judgment; they were our load. First principle: the substitution is double — griefs borne, sorrows carried — and the crowd judged Him stricken when He was stricken for them.",
+      "density": 2.2464,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-41-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The one who calls generations from the beginning is the first and the last. First principle: the self-title of Exodus is expanded into history's bookends — and Revelation puts it on the lips of the glorified Jesus.",
+      "density": 2.2393,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-44-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Floods on dry ground, Spirit on offspring. First principle: the pouring promise is generational — water for thirst now, Spirit for seed later, fulfilled at Pentecost for the descendants of Pentecost's hearers.",
+      "density": 2.2286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-45-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The self-sworn oath of universal homage. First principle: Paul applies the oath to Jesus — at the name of Jesus every knee bows; the divine oath transfers to the divine Son.",
+      "density": 2.2036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sheep astray, each to his own way; the iniquity of all gathered on One. First principle: the two clauses of the gospel — universal straying, universal load transferred — meet in the middle of the verse.",
+      "density": 2.1571,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-41-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Strengthened, helped, upheld by the right hand of righteousness. First principle: the anti-fear covenant refrain — and the risen Christ signs the Great Commission with its echo, lo, I am with you.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-52-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The publisher of peace, salvation, and Thy God reigneth. First principle: the messenger's feet are beautiful because the message is a coronation — Paul names it the model of sent gospel preachers.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-52-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant Song's overture: prudent, exalted, extolled, very high. First principle: the song that begins high, dives into wounds, and returns to exaltation — Paul reads it as the mind of Christ.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-51-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Judgment rests for a light of the people. First principle: the law that proceeds from Zion is a light-bearing justice — Matthew applies the Servant passage to Jesus' quiet, world-hoping ministry.",
+      "density": 2.0893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A man of sorrows, acquainted with grief, unesteemed. First principle: rejection is not a detour in the Servant's story but its surface — He is known by the sorrow He carries.",
+      "density": 2.0893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-40-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Lambs gathered in His arm, carried in His bosom, gently led. First principle: the coming LORD is a gentle Shepherd — tenderness is not the absence of glory but its manner with lambs.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-40-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Grass withers, flowers fade; the Word abides. First principle: the contrast is the gospel's backbone — Peter anchors the enduring preached word, Jesus grounds heaven and earth, on this verse.",
+      "density": 2.0643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant is preserved and given as a covenant of the people. First principle: the accepted time is now — Paul quotes it as the day of salvation presently open to every hearer.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-40-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No counselor taught the Spirit. First principle: Paul quotes this to shatter human wisdom's pretension — the mind of Christ is offered where no counsel could ever go.",
+      "density": 2.0143,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-43-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Know, believe, understand that I AM — no God before, none after. First principle: witness is the purpose of chosenness — Israel's calling and the church's commission are the same job description.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-52-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Kings shut their mouths at what they had never been told. First principle: the sprinkling reaches beyond Israel — the speechless kings see the unheard; Paul quotes it for pioneer mission.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Lamb to the slaughter, sheep before shearers — silence under both. First principle: the voluntary silence before accusers is the signature mark Philip preached from, and Matthew heard at the trial.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The isles are addressed from far; the Servant is named from the mother's womb. First principle: the Servant's calling precedes His birth — Luke 1 and Matthew 3 both echo the prenatal appointment.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-45-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A pagan king is named and anointed to open gates. First principle: God anoints whom He wills for His people's rescue — even the uncircumcised liberator carries a messianic office-shadow.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Oppressors consume themselves; the knowledge of the LORD as Savior and Redeemer goes universal. First principle: the mighty One of Jacob defends — the final knowledge of God comes through His deliverance.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-43-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Even beasts honour the God who drinks His chosen in barren places. First principle: provision in the desert is the covenant signature — the chosen receive rivers where nothing grows.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-42-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant's charter: sight for the blind, exit for prisoners, light for dark cells. First principle: liberation is literal and spiritual — Simeon sang it, Paul preached it to Gentile kings.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-51-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Everlasting joy on their heads; mourning flees. First principle: the ransomed return is doubled across Isaiah — and Revelation hands the sentence to the Lamb-fed multitude.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant Song opens in unbelief's question; the arm of the LORD is revealed to few. First principle: the chapter about universal healing begins with universal disbelief — both are the report.",
+      "density": 1.7143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-42-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The Messiah is given AS the covenant — Simeon blesses the infant as God's light for the nations (Luke 2:32).",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "covenant",
+        "original": "בְּרִית",
+        "translit": "berit",
+        "strongs": null,
+        "gloss": "covenant, binding pledge",
+        "note": "The Messiah is given AS the covenant — Simeon blesses the infant as God's light for the nations (Luke 2:32).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-40-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The star-host is numbered and named; not one fails. First principle: called stars are the argument against fainting — the Creator's naming power underwrites Israel's endurance.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-43-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "For mine own sake — sins remembered no more. First principle: forgiveness is God's self-motivated act; the ground of blotting is His name, not our score.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The standard raised brings sons in arms and daughters on shoulders. First principle: the Gentile standard does the gathering — the nations carry the covenant family home.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-42-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Targum Jonathan: Behold, My Servant, the Messiah — the title taken up in the Baptism voice of Matt 3:17.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my servant",
+        "original": "עַבְדִּי",
+        "translit": "'avdi",
+        "strongs": null,
+        "gloss": "my servant, bondservant",
+        "note": "Targum Jonathan: Behold, My Servant, the Messiah — the title taken up in the Baptism voice of Matt 3:17.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-52-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The vessel-bearers exit Babylon clean. First principle: separation is sanctification's address — and Revelation replays the call as Babylon falls again.",
+      "density": 1.4393,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-49-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Paul and Barnabas quote the verse in Antioch as warrant for turning to the Gentiles (Acts 13:47).",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "light thing",
+        "original": "קָל",
+        "translit": "qal",
+        "strongs": null,
+        "gloss": "light, slight, too small a thing",
+        "note": "Paul and Barnabas quote the verse in Antioch as warrant for turning to the Gentiles (Acts 13:47).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-48-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hearken unto Me, O Jacob; I Am He; I Am the First, I Also Am the Last",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-44-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am the First, and I Am the Last; Beside Me There Is No God",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "1 Pet 2:24 τῷ μώλωπι (tō mōlōpi) — by whose stripe you were healed.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "stripes / wound",
+        "original": "חַבּוּרָה",
+        "translit": "chabburah",
+        "strongs": null,
+        "gloss": "stripe, bruise, blow",
+        "note": "1 Pet 2:24 τῷ μώλωπι (tō mōlōpi) — by whose stripe you were healed.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-50-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "First-person voluntariness: Gethsemane's not my will is already present in the Servant's grammar.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I gave",
+        "original": "נָתַתִּי",
+        "translit": "natatti",
+        "strongs": null,
+        "gloss": "I gave, handed over",
+        "note": "First-person voluntariness: Gethsemane's not my will is already present in the Servant's grammar.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-45-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Look unto Me, and Be Ye Saved, All the Ends of the Earth",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-41-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I the LORD, the First, and with the Last; I Am He",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-40-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lift Up Your Eyes on High, and Behold Who Hath Created",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-43-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Are My Witnesses, and My Servant Whom I Have Chosen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-45-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Just God and a Saviour; There Is None Beside Me",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-49-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Flesh Shall Know That I the LORD Am Thy Saviour",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Hath Laid on Him the Iniquity of Us All",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-42-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Covenant of the People, a Light of the Gentiles",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-42-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Open the Blind Eyes, to Bring Out the Prisoners",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-43-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Give Waters in the Wilderness, Rivers in the Desert",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-43-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I, Even I, Am He That Blotteth Out Thy Transgressions",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-45-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto Me Every Knee Shall Bow, Every Tongue Shall Swear",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-42-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold My Servant — My Soul Delighteth in Him",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-40-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Word of Our God Shall Stand for Ever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-45-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thus Saith the LORD to His Anointed, to Cyrus",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-49-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Lift Up Mine Hand to the Gentiles",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-51-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Redeemed of the LORD Shall Return with Singing",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Was Oppressed, Yet He Opened Not His Mouth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-49-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Salvation unto the End of the Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-40-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Feed His Flock Like a Shepherd",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-40-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Hath Directed the Spirit of the LORD?",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-41-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Fear Thou Not; for I Am with Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-44-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Pour My Spirit upon Thy Seed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-49-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Hath Called Me from the Womb",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-49-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In an Acceptable Time Have I Heard Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-52-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "How Beautiful upon the Mountains Are the Feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-52-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Depart Ye, Depart Ye; Touch No Unclean Thing",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-50-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Gave My Back to the Smiters",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "From chalal (to bore/pierce); John 19:34.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wounded",
+        "original": "מְחֹלָל",
+        "translit": "mecholal",
+        "strongs": null,
+        "gloss": "pierced through / fatally wounded",
+        "note": "From chalal (to bore/pierce); John 19:34.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-49-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "light, slight, too small a thing",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "light thing",
+        "original": "קָל",
+        "translit": "qal",
+        "strongs": null,
+        "gloss": "light, slight, too small a thing",
+        "note": "Paul and Barnabas quote the verse in Antioch as warrant for turning to the Gentiles (Acts 13:47).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-51-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Law Shall Proceed from Me",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-52-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, My Servant Shall Deal Prudently",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-52-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "So Shall He Sprinkle Many Nations",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Surely He Hath Borne Our Griefs",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "pierced through / fatally wounded",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wounded",
+        "original": "מְחֹלָל",
+        "translit": "mecholal",
+        "strongs": null,
+        "gloss": "pierced through / fatally wounded",
+        "note": "From chalal (to bore/pierce); John 19:34.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-53-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Hath Believed Our Report?",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Despised and Rejected of Men",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wounded for Our Transgressions",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-50-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I gave, handed over",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I gave",
+        "original": "נָתַתִּי",
+        "translit": "natatti",
+        "strongs": null,
+        "gloss": "I gave, handed over",
+        "note": "First-person voluntariness: Gethsemane's not my will is already present in the Servant's grammar.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-53-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "stripe, bruise, blow",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "stripes / wound",
+        "original": "חַבּוּרָה",
+        "translit": "chabburah",
+        "strongs": null,
+        "gloss": "stripe, bruise, blow",
+        "note": "1 Pet 2:24 τῷ μώλωπι (tō mōlōpi) — by whose stripe you were healed.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-42-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "my servant, bondservant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my servant",
+        "original": "עַבְדִּי",
+        "translit": "'avdi",
+        "strongs": null,
+        "gloss": "my servant, bondservant",
+        "note": "Targum Jonathan: Behold, My Servant, the Messiah — the title taken up in the Baptism voice of Matt 3:17.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-42-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "covenant, binding pledge",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "covenant",
+        "original": "בְּרִית",
+        "translit": "berit",
+        "strongs": null,
+        "gloss": "covenant, binding pledge",
+        "note": "The Messiah is given AS the covenant — Simeon blesses the infant as God's light for the nations (Luke 2:32).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

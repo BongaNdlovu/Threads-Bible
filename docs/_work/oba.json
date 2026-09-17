@@ -1,0 +1,44 @@
+{
+  "book": "oba",
+  "bookName": "Obadiah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 1,
+    "entryStrings": 2,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "oba-1-15"
+  ],
+  "fields": [
+    {
+      "entryId": "oba-1-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As thou hast done, it shall be done unto thee. First principle: the retribution measure — Edom's betrayal is the case study; the day is near upon all the heathen, reward on their own head.",
+      "density": 2.3036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "oba-1-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Day of the LORD Is near upon All the Heathen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

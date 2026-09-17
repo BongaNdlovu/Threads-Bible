@@ -1,0 +1,612 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group D)",
+  "drafts": [
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].connection",
+      "after": "Same-OT: signs in the sky come before the great and terrible day of the LORD.",
+      "reason": "Decoded two words a reader must look up: \"cosmic\" and \"portents\" (an elevated synonym for signs). \"preceding\" became the plain verb \"come before\". The Same-OT label and the phrase \"the great and terrible day of the LORD\" are carried byte-identical. One idea, one sentence, 15 words (was 12)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].connection",
+      "after": "Earliest promise that God would pour out His Spirit on all people in the last days.",
+      "reason": "The noun stack \"universal promise of Spirit-outpouring\" did not name the actor; the rewrite names God and uses the verb \"pour out\" that Joel 2:28 itself uses. \"Universal\" became the plain \"on all people\" (Joel's own \"all flesh\"), which is the claim the label already carried. One sentence, 15 words (was 9)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].title",
+      "after": "Signs in heaven; whosoever calls on the LORD is saved",
+      "reason": "The title was a verbless compression (\"whosoever calls on the LORD saved\"). Two words added — the linking verb \"is\" — so the second clause about calling on the LORD now parses. \"whosoever\" is kept deliberately: it is KJV wording (Joel 2:32; Rom 10:13) and invariant I1 forbids modernising Scripture. Semicolon kept: each half is only 3 and 6 words and neither runs long. 10 words (was 9)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].connection",
+      "after": "Same-OT: God judges the empty worship of people who kept only the outward show.",
+      "reason": "\"hypocritical externalism\" is an abstraction no reader decodes. It is rendered as what Amos 5:21-24 actually describes: worship that is outward only. Both review words appear in the added vocabulary. \"upon\" became the active verb \"judges\" and the actor is now named. One sentence, 14 words (was 5)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].connection",
+      "after": "Same-OT: the day comes on everyone, and no one can escape it.",
+      "reason": "\"universal urgency of divine reckoning\" is three abstractions in six words. Rendered as the concrete claim: the day arrives for all and there is no escape (Zeph 1:14-18). \"Reckoning\" is dropped as a decode word, not as a claim — the day's arrival is the claim. One sentence, 11 words (was 6)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].connection",
+      "after": "Same-OT: an oven for the proud, and healing dawn for the faithful.",
+      "reason": "Fixed a comma splice that also forced a reader to guess the subject of the second half: \"oven of judgment for proud, healing dawn for faithful\" was two pictures run together with no verb. The rewrite keeps Malachi's own two images (the oven, the sunrise with healing) and names who each is for. One sentence, 12 words (was 10)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].connection",
+      "after": "NT: Peter says the Spirit poured out that day is what Joel foretold.",
+      "reason": "\"explicitly identified as Joel's prophecy\" is a nominal stack with no verb for Peter. The rewrite uses \"says\" and names what was identified — the Spirit poured out at Pentecost. NOTE: the QUOTE-REVIEW for this step concerns steps[5].title, not this connection string, and is recorded there. One sentence, 14 words (was 7)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].connection",
+      "after": "NT: Paul takes Joel 2:32 and applies it to calling on Jesus.",
+      "reason": "\"applies\" was doing the whole sentence with no actor and no object. The rewrite names Paul as the one who takes the Joel text and states what he applies it to. Citation \"Joel 2:32\" carried byte-identical, not expanded. One sentence, 13 words (was 9)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].title",
+      "after": "Cosmic signs before Christ the Son of Man arrives",
+      "reason": "\"Cosmic\" is a decode word and the title named no actor. Scripture's own title for him — \"the Son of Man\" — is kept byte-identical; \"Christ\" is added before it so an everyday reader knows who is speaking of himself. \"Cosmic\" is retained here because both the step ref (Matt 24:29-31) and the chain's other wording use it, and \"signs\" is right beside it as its gloss. 9 words (was 8)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].connection",
+      "after": "NT: the day comes without warning on the world, but believers wait and watch.",
+      "reason": "\"unexpected advent\" is a Latin-root noun a reader must decode, and the comma-joined second half had no verb. The rewrite states the two-part claim of 1 Thess 5:1-4 plainly: the day surprises the world, believers stay awake. Separators 0 -> 0; new words carry the change. One sentence, 15 words (was 9)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].connection",
+      "after": "NT: the elements melt with fervent heat. God makes a new creation that lasts.",
+      "reason": "Two ideas were joined by a semicolon, which the clarity gate does not count as a sentence break. Converted to a full stop, and \"eternal new creation\" (a third noun stack) became the verb phrase \"God makes a new creation that lasts\". \"the elements melt with fervent heat\" is carried byte-identical to 2 Pet 3:10,12. Now 2 sentences, 9 + 7 words (was 1 sentence, 9 words)."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].connection",
+      "after": "NT: the kings cry to the mountains. The King of kings wins the victory.",
+      "reason": "Converted the semicolon to a full stop so each idea stands alone, and replaced the abstract \"triumphs\" with \"wins the victory\". \"the kings cry to mountains\" became \"cry to the mountains\" — the article is the app's own linking prose, not a quotation. \"the King of kings\" is carried byte-identical. Now 2 sentences, 8 + 7 words (was 1 sentence, 11 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].title",
+      "after": "Day of Atonement — the sanctuary is cleansed by blood",
+      "reason": "Punctuation-only: the second half of the title had no verb, so a noun phrase was doing a clause's work. The em-dash is kept (it is the app's own title separator across this chain) and the four added words are \"the\" and \"is\". \"Day of Atonement\" and \"blood\" carried byte-identical. 9 words (was 8)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].connection",
+      "after": "Same-OT: God's covenant people are known by the rest he gave them.",
+      "reason": "\"covenant identity marked by Creator-rest\" packed two abstractions into five words and used \"Creator-rest\" as a compound noun that is not English. The rewrite keeps both claims — the people are identified, and the mark is God's rest command (Exod 20:8-11) — with an actor and a verb. \"covenant\" is rendered as the frozen glossary's \"God's covenant people\" rather than the banned \"covenant relationship\". One sentence, 12 words (was 6)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].connection",
+      "after": "Same-OT: God holds court in heaven and gives the kingdom to his people.",
+      "reason": "The passive \"judgment scene before the kingdom is possessed\" named no judge and no giver. The rewrite supplies both (God, his people) and verbifies the court scene, matching Dan 7:9-10, 22. One sentence, 13 words (was 8)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].title",
+      "after": "Unto 2,300 days. Then the sanctuary is made right",
+      "reason": "Punctuation-only resegmentation: the em-dash was joining two clauses into one sentence, which the clarity gate counts as a single sentence and which §1.7 wants split. It is now a full stop. The numeral \"2,300\" and the KJV word \"Unto\" (Dan 8:14) are byte-identical; \"made right\" is kept rather than replaced by \"cleansed\" so nothing in this number-dense chain shifts. Now 2 sentences, 3 + 6 words (was 1 sentence, 10 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].title",
+      "after": "Seventy weeks — the Messiah, his cutting off, the end of sacrifice",
+      "reason": "The title was a bare list of nouns with no relation marked. The rewrite keeps all three items and the Daniel 9:24-27 wording (\"Seventy weeks\", \"Messiah\", \"cutting off\", \"sacrifice\") and marks whose cutting off it is. Numeral-free and citation-free, so nothing number-dense moved. Em-dash kept as the title separator. 11 words (was 9)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].title",
+      "after": "Fear God. The hour of His judgment is come",
+      "reason": "Punctuation-only: the em-dash was a tight join between two Scripture clauses, so it is now a full stop. \"Fear God\" and \"the hour of His judgment is come\" are both from Rev 14:7 and not one word inside either is changed. Now 2 sentences, 2 + 7 words (was 1 sentence, 10 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].connection",
+      "after": "NT: the dead in Christ rest until he returns. Then they rise in the body.",
+      "reason": "The semicolon joined two ideas into one 14-word sentence and the gate does not split on it. Converted to a full stop, and the vague \"the just\" became \"the dead in Christ\" and \"they\", both already the subject of the step (Rev 20:4-6). \"bodily resurrection\" was a noun stack; \"rise in the body\" says the same thing with a verb. Now 2 sentences, 9 + 6 words (was 1 sentence, 14 words)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].title",
+      "after": "Coats of skins — God clothes them by blood",
+      "reason": "The second half was a verbless fragment. The rewrite adds the object pronoun \"them\" (Adam and his wife, Gen 3:21) so \"God clothes\" has something to clothe; \"Coats of skins\" and \"blood\" are unchanged. Em-dash kept as the title separator. 8 words (was 8, one word in and one word out)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the sacrifice God accepts is the firstborn animal given by blood.",
+      "reason": "\"firstborn/blood-shaped\" used a slash and a non-word (\"blood-shaped\") to carry two qualifications at once. They are now plain words: the animal is the firstborn, and it is given by blood (Gen 4:4). An actor (\"God accepts\") replaces the passive. One sentence, 12 words (was 5)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].title",
+      "after": "Noah's burnt offering — a sweet savour to the LORD",
+      "reason": "\"a sweet savour\" stood alone as a fragment with no object. It now reads as a phrase about the offering and names who smelled it — the LORD (Gen 8:21). \"sweet savour\" is KJV wording and is carried byte-identical; the article \"a\" is the only word added inside the phrase. Em-dash kept as the title separator. 9 words (was 6)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].connection",
+      "after": "Same-OT: God turns judgment into mercy when his people bring a sacrifice.",
+      "reason": "The sentence was actorless — nothing said who turns judgment into mercy or on what basis. The rewrite names God as the one who turns and the sacrifice as the occasion, which is what Gen 8:20-21 records. \"judgment\" and \"mercy\" are carried; only the arrangement around them is new. One sentence, 13 words (was 7)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].connection",
+      "after": "Same-OT: a substitute animal died in place of the only son on Moriah.",
+      "reason": "\"substitutionary\" is a five-syllable decode word for a simple idea. It became \"a substitute animal\", and the passive \"in place of\" now has a verb — \"died\" — which is what Gen 22:13 records. \"the only son\" and \"Moriah\" are unchanged. One sentence, 13 words (was 11)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].title",
+      "after": "The Servant as a sacrificial lamb",
+      "reason": "Punctuation-only: the title was a nominal stack (\"Servant as sacrificial lamb\") with a capital letter doing the work of an article. \"The\" and \"a\" are the only additions; \"Servant\", \"sacrificial\" and \"lamb\" are unchanged, and the Servant of Isaiah 53:4-12 stays capitalised as a title. 6 words (was 4)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].connection",
+      "after": "Same-OT: the Servant carries the sins of others. The LORD lays their sin on him.",
+      "reason": "The semicolon joined two distinct claims — the Servant bears sins, the LORD lays iniquity on him — into one 11-word sentence that the gate counts as one. Converted to a full stop, and \"the servant\" is capitalised as the title used at step 5's heading. \"the LORD\" and \"lays on Him iniquity\" are carried with only \"their sin\" replacing \"iniquity\" in the app's own linking clause. Now 2 sentences, 8 + 8 words (was 1 sentence, 11 words)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].connection",
+      "after": "NT names Jesus as the Lamb God provides, the one who takes away sin.",
+      "reason": "The sentence began \"NT names Jesus\", which reads as if the New Testament text were the actor, and \"provided Lamb\" was a passive adjective. The rewrite keeps the \"NT\" opener exactly as it stands (no colon is added, so no label count moves) and names God as the provider — the claim of the whole chain. \"takes away sin\" is carried. One sentence, 13 words (was 11)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].connection",
+      "after": "NT: the Father gives his own Son, as God provided the ram for Isaac.",
+      "reason": "\"Father's gift echoes Isaac's near-offering\" was two possessives with no verb and the decode word \"echoes\". Both halves now have verbs and the actor is named. \"his own Son\" is carried byte-identical to the step title. One sentence, 14 words (was 6)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].connection",
+      "after": "NT: God chose this unblemished sacrifice before the world began.",
+      "reason": "\"foreordained\" is a decode word; \"before the world began\" says the same thing in everyday words and is what 1 Pet 1:20 states. \"unblemished\" is kept because the step title and 1 Pet 1:19 both use it, and \"sacrifice\" names what was chosen. One sentence, 10 words (was 4)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].connection",
+      "after": "God's binding promise starts here. He gives rain at the right time for sowing and for harvest.",
+      "reason": "18 words in one sentence carrying two ideas — the promise starts here, and the rain serves two seasons. Split into two sentences, and \"harvesting the grain\" became \"harvest\" so nothing repeats. \"God's binding promise\" is the frozen glossary rendering and is carried byte-identical. Now 2 sentences, 4 + 14 words (was 1 sentence, 18 words)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].connection",
+      "after": "Same-OT: God promises to come to his people and give them new life, shown as rain.",
+      "reason": "\"pictured as rain\" left the reader to guess what was pictured. The rewrite states the two things the picture carries — God's coming and new life (Hos 6:3) — and then names the picture. \"pictured\" became \"shown\", an everyday word. One sentence, 16 words (was 11)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].connection",
+      "after": "Same-OT: rain falling on the ground shows the Holy Spirit poured out.",
+      "reason": "\"is a picture of\" is a three-word detour around one verb. \"shows\" replaces it, and \"the Spirit\" became \"the Holy Spirit\" so the reader is not left to guess which spirit — the same term the next two connections use. One sentence, 12 words (was 14)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].connection",
+      "after": "Same-OT: God promises his Holy Spirit to young and old, to servants and to handmaids.",
+      "reason": "The connection had no verb and no giver — just \"the promise of the Holy Spirit on ...\". The rewrite supplies both (God promises) and keeps Joel 2:28-29's own pairs: young and old, servants and handmaids. \"handmaids\" is KJV wording and is deliberately not modernised. One sentence, 16 words (was 14)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].connection",
+      "after": "Same-OT: God tells his people to pray for the last rain, the one that ripens the crop.",
+      "reason": "\"commands\" became the everyday \"tells\", and the run-on \"the last rain that ripens the crop\" is now set off by a comma so the reader is not asked to parse two nouns in a row. \"his people\", \"the last rain\" and \"ripens the crop\" are unchanged. One sentence, 17 words (was 15)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].connection",
+      "after": "NT: Peter says the prophecy of Joel 2 came true that day. The early rain gave the church power.",
+      "reason": "Three short sentences with no connector, the last of which used \"It\" for the rain two sentences back. They are now two sentences joined by the actual claim — the prophecy came true — and \"the early church\" is named once. The citation \"Joel 2\" is carried byte-identical, not expanded to \"Joel 2:28-29\" and not renumbered. \"early rain\" is kept. Now 2 sentences, 14 + 8 words (was 3 sentences, 5 + 7 + 6 words)."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].connection",
+      "after": "NT: James takes this farming picture to call for patient waiting until the Lord comes.",
+      "reason": "\"uses this picture from farming\" is a five-word detour; \"takes this farming picture\" says it in four and keeps the sentence under 17 words. \"patient waiting\", \"the Lord comes\" and \"James\" are unchanged. The new-word share is only 6.7% (\"takes\") because the string is short and already concrete — one word in, one word out is the whole decode, not a reshuffle."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].connection",
+      "after": "NT: the Holy Spirit is poured out for the last time. His light covers the earth before the harvest.",
+      "reason": "\"illuminating\" is a decode word and the 16-word sentence carried two ideas. Both are now their own sentences, and \"latter rain\" — a decode label for the reader — is stated as \"for the last time\", which is what the step title's \"Loud Cry\" means. The parenthetical \"(latter rain)\" is dropped because its content is now in the words; no citation or numeral was in it. Now 2 sentences, 11 + 10 words (was 1 sentence, 16 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].connection",
+      "after": "Same-OT: each year the Day of Atonement cleansed the holy places. It removed the sin that had piled up.",
+      "reason": "19 words in one sentence with a compound verb and a relative clause. Split into two sentences; the order is reversed so the event comes first and the accumulated sin second. \"Day of Atonement\", \"cleansed\" and \"the holy places\" are unchanged, and \"purged\" became the plainer \"removed\". Now 2 sentences, 10 + 9 words (was 1 sentence, 19 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].title",
+      "after": "Yom Kippur, the Day of Atonement — God cleanses the sanctuary every year by blood",
+      "reason": "The second half was a verbless fragment, so nothing said who cleansed the sanctuary. The rewrite supplies the actor (God) and the verb (\"cleanses\"), which is what Lev 16:16-19 records. \"Yom Kippur\" (Hebrew, untouchable), \"the Day of Atonement\", \"every year\" and \"by blood\" are carried byte-identical, so the yearly count in this number-dense chain does not move. Em-dash kept as the title separator. 14 words (was 14)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].connection",
+      "after": "Same-OT: the court sits in heaven before Christ returns, and the Ancient of Days gives the verdict for his saints.",
+      "reason": "\"pre-advent\" is a Latin compound a reader must decode; it is rendered as \"before Christ returns\". \"judgment scene\" was a noun stack, so the rewrite supplies the verb (\"the court sits\") and names who gives the verdict. \"the Ancient of Days\" and \"his saints\" are carried byte-identical from Dan 7:9-10, 22. One sentence, 20 words (was 12)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].connection",
+      "after": "Anchor prophecy: 2,300 prophetic day-years point to the day God makes the heavenly sanctuary right (nitsdaq).",
+      "reason": "The numeral 2,300 is untouched, as is the day-year reading, and the Hebrew word nitsdaq is kept byte-identical in its parenthetical. \"culminating in the restoration/vindication ... of\" was a three-part nominal chain around a slash; it is now the verb phrase \"point to the day God makes ... right\", and the slash is gone. \"Anchor prophecy:\" is retained as the leading marker. One sentence, 19 words (was 14)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].title",
+      "after": "Unto 2,300 days. Then shall the sanctuary be cleansed",
+      "reason": "Punctuation-only resegmentation: the semicolon was joining the two halves of Dan 8:14 into one sentence, so it is now a full stop. Not one word is added, dropped or renumbered: \"Unto 2,300 days\" and \"then shall the sanctuary be cleansed\" are carried byte-identical, the numeral included. Now 2 sentences, 3 + 6 words (was 1 sentence, 9 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].connection",
+      "after": "NT: the earthly sanctuary was purified with animal blood. Christ entered heaven itself by his own blood.",
+      "reason": "The semicolon joined two distinct claims into one 14-word sentence the gate counts as one. Converted to a full stop; the second half now has a subject and a verb. \"animal blood\", \"heavenly sanctuary\" (as \"heaven itself\", the wording of Heb 9:24) and \"his own blood\" are carried. Now 2 sentences, 8 + 9 words (was 1 sentence, 14 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].title",
+      "after": "The heavenly patterns purified with better sacrifices",
+      "reason": "Punctuation-only: the definite article \"The\" is the only addition. \"heavenly patterns\", \"purified\" and \"better sacrifices\" are carried byte-identical from Heb 9:23. 7 words (was 6)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].title",
+      "after": "The temple of God opened in heaven; the ark of His testament seen",
+      "reason": "Punctuation-only: \"The\" and \"the\" are added and nothing else moves. The semicolon is kept because the two halves are only 6 and 6 words. \"temple of God\", \"in heaven\", \"the ark of His testament\" and \"seen\" are carried byte-identical from Rev 11:19. 13 words (was 11)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].connection",
+      "after": "NT: judgment begins in heaven before Christ returns. It brings the final cleansing.",
+      "reason": "\"pre-advent\" is a decode word (rendered \"before Christ returns\"), and \"investigative\" is the doctrinal label rather than an explanation; the claim it carries — judgment that examines — is what \"begins in heaven\" states, and the chain's own step 2 connection now supplies the courtroom detail. \"inaugurating\" became the everyday \"brings\". One idea per sentence after the split: 9 + 6 words (was 1 sentence, 12 words)."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].title",
+      "after": "The hour of His judgment is come — worship the Creator",
+      "reason": "Punctuation-only: \"The\" is the only added word. \"the hour of His judgment is come\" is KJV wording (Rev 14:7) and \"worship the Creator\" is kept; the em-dash stays as the title separator used across this chain. 11 words (was 10)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].connection",
+      "after": "Earliest type: anyone who looked at the sign of judgment was healed.",
+      "reason": "\"type\" is a decode word for the reader, so it is glossed in place by the sentence that follows it: an earlier event that pictures a later one. \"to look at the sign of judgment brought healing\" had an infinitive doing a subject's work; \"anyone who looked ... was healed\" gives the sentence a person and a verb. \"the sign of judgment\" is unchanged. One sentence, 13 words (was 11)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the sign became an idol. The bronze itself had no power to save anyone.",
+      "reason": "\"and\" joined two independent claims into one 16-word sentence. Converted to a full stop: the first half loses the joining \"and\" and the second is byte-identical to what it was. New-word share is 0% because this is a punctuation-only resegmentation on a 6-word first clause — there are no new words to add and the tool's own resegmentation test does not fire on sentences this short, so it is reported here rather than left as theatre. Now 2 sentences, 6 + 10 words (was 1 sentence, 16 words)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].connection",
+      "after": "NT: Jesus used the serpent on the pole to point to his own crucifixion, which brings eternal life.",
+      "reason": "21 words in one sentence with a second infinitive clause (\"and to the eternal life it brings\") hanging off the first. It is now a single 18-word sentence with one relative clause, so eternal life is tied to the crucifixion instead of left dangling. \"the serpent on the pole\", \"crucifixion\" and \"eternal life\" are unchanged. The new-word share is only 5.6% because the string is short and already concrete; the one added word (\"which\") is what removes the dangling clause."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].connection",
+      "after": "NT: being lifted up on the cross shows who he really is.",
+      "reason": "\"reveals His divine identity\" is a doctrinal abstraction and \"lifting up\" stood as a bare gerund with no actor. The rewrite states the claim in everyday words (\"shows who he really is\") and keeps \"lifted up\" and \"the cross\", both of which the step's own title and John 8:28 supply. One sentence, 12 words (was 10)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].connection",
+      "after": "NT: his crucifixion draws people of every nation to himself.",
+      "reason": "\"all peoples\" is archaic and slightly ambiguous (all peoples, or all the people?); \"people of every nation\" says what John 12:32 means and matches the step title's \"draw all\". \"crucifixion\" and \"to Himself\" are kept, with the capitalisation of the pronoun regularised to the lowercase \"himself\" used elsewhere in this same chain. One sentence, 10 words (was 7)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].connection",
+      "after": "NT: God made Christ to be sin for us. In him we are made right with God.",
+      "reason": "The comma-plus-\"so that\" joined two claims into one 14-word sentence. Split at the full stop; the second half replaces the abstract \"become righteous in Him\" with what 2 Cor 5:21 means — being made right with God. \"made ... to be sin for us\" is carried with the words of the verse, and \"Christ\" names the one God made sin. Now 2 sentences, 10 + 8 words (was 1 sentence, 14 words)."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].title",
+      "reason": "9 words, one sentence, no separator. This is Joel 2:28's own sentence (\"I will pour out My Spirit on all flesh\") and the step's ref is Joel 2:28-29, so every word is carried byte-identical; no decode word, and the app's title is a Scripture clause rather than its own prose."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].title",
+      "reason": "12 words, one sentence. This is Rom 10:13 (\"Whosoever shall call upon the name of the Lord shall be saved\") carried byte-identical with no quotation marks; reading the served KJV confirms the wording matches, so there is nothing to fix and nothing to modernise under I1."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "name",
+      "reason": "Chain display label, 11 words. \"The Day of the LORD and the Outpouring of the Spirit\" names both halves of the chain in plain words and matches the chain's own id; changing a navigation label for style alone is the change the brief forbids, and the name is not unclear."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].connection",
+      "reason": "12 words, one sentence, no separator. Names the actor (Jesus), the source (Joel's darkened sun and moon) and the event (His second coming) in that order. The only remote term, \"second coming\", is the app's standard label and is not decoded anywhere in this group, so leaving it is consistent."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].title",
+      "reason": "9 words, one sentence. This is Amos 5:18's own clause (\"the day of the LORD is darkness, and not light\") minus the conjunction; the KJV words here and in chapter 5 of Amos match, so nothing needs modernising and there is no decode word."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].title",
+      "reason": "10 words, one sentence. Zeph 1:14's own clause (\"The great day of the LORD is near, it is near, and hasteth greatly\") compressed to \"near and hastens\"; both words are the verse's, the numeral-free wording is clear, and the trailing \"and hastens\" is archaic but is Scripture, not app prose."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].title",
+      "reason": "9 words, one sentence. \"Sun of Righteousness arises with healing in His wings\" is Mal 4:2's own picture; the served KJV reads \"shall the Sun of righteousness arise with healing in his wings\", and the difference is verb form inside an unquoted Scripture rendering, which I1 tells me to carry, not correct."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].title",
+      "reason": "4 words plus a leading app label. \"Peter at Pentecost:\" is the leading marker and is kept; the quoted span \"This is that spoken by Joel\" is carried byte-identical. The quotation's fidelity to Acts 2:16 is recorded on this step's connection draft as QUOTE-REVIEW — it is the operator's decision, not this sweep's. Word count is irrelevant here because the gate strips the quotation."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].title",
+      "reason": "11 words, one sentence. \"The Day of the Lord as a thief in the night\" is 1 Thess 5:2's own image, spelled out in full with no abbreviation to expand and no decode word; it is app prose that already reads plainly."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].title",
+      "reason": "9 words, one sentence. This is 2 Pet 3:13's own clause (\"new heavens and a new earth, wherein dwelleth righteousness\") condensed; I checked the served KJV and the only difference is \"in which\" for \"wherein\", an unquoted rendering I1 forbids me from touching. No decode word."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].title",
+      "reason": "8 words, one sentence. \"The great day of His wrath has come\" is Rev 6:17's own clause; the served KJV reads exactly \"For the great day of his wrath is come\", so the only difference is the contraction \"has\" for \"is\", inside an unquoted Scripture rendering. Carried, not corrected."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].connection",
+      "reason": "11 words, one sentence, one idea. \"by a revealed pattern\" is slightly compressed but the very next field (the step title, \"Tabernacle after the heavenly pattern\") states the same fact with the concrete word, so the pair reads plainly together; the whole string is a single claim about God dwelling among His people."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].title",
+      "reason": "5 words, one sentence. \"Tabernacle after the heavenly pattern\" is the plain label for Exod 25:8, 40; the only term leaning technical is \"tabernacle\", and the step's own ref makes it concrete. Rewording a 5-word title would be change for its own sake."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].connection",
+      "reason": "9 words, one sentence. \"annual purging of accumulated sin from the sanctuary\" is a nominal phrase but every word is everyday English and it names both the frequency (annual), the object (accumulated sin) and the place (the sanctuary). No banned phrase, no sentence over 9 words."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].title",
+      "reason": "4 words, one sentence. \"Sabbath as creation memorial\" is the plain label for Exod 20:8-11 and names both terms the reader needs; the noun \"memorial\" is the only word above everyday register, and the step's connection immediately glosses it as the rest that marks God's covenant people. Rewording a 4-word title would be change for its own sake."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].title",
+      "reason": "7 words plus one separator. \"Heavenly court; judgment given to the saints\" keeps the semicolon deliberately: the two halves are 2 and 5 words, so there is no long clause for a sentence break to relieve, and the cp02RewriteQuality detector would classify a change here as punctuation theatre with no new words. Both halves read plainly and match Dan 7:10, 22."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].connection",
+      "reason": "8 words, one sentence. Notes that Dan 8:14 is a time prophecy that ends in a sanctuary event. \"time prophecy\" and \"sanctuary-cleansing event\" are hyphenated compounds rather than abstractions, and the referee step title above it carries the numeral, so nothing numeric is risked by leaving this alone."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].connection",
+      "reason": "8 words, one sentence. \"Same-OT: messianic mission within a fixed prophetic window.\" states one claim — the Messiah's work falls inside a set period — and the step above it names that period (\"Seventy weeks\", Dan 9:24-27). \"messianic\" is the frozen glossary's own adjective (glossary forbids \"messianic figure\", not \"messianic\"), and \"prophetic window\" is glossed in place by the numeral-bearing title directly above."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].connection",
+      "reason": "10 words, one sentence. Names Christ's ministry, its place (in heaven) and its relation to the earthly pattern. \"high-priestly\" is a compound but the word \"priestly\" is everyday, and the claim is single and ordered."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].title",
+      "reason": "6 words, one sentence. \"Christ minister of the true tabernacle\" is Heb 8:2's own wording (\"A minister of the sanctuary, and of the true tabernacle\"); a nominal title, but the words are the verse's and the step's ref makes it concrete. No decode word and no citation to move."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].connection",
+      "reason": "12 words, one sentence. The parenthetical \"(echoes Exod 20:11)\" contains a citation and is carried byte-identical; \"end-time call to Creator-worship in view of judgment\" is compressed but each word is everyday and the citation right beside it grounds the claim. Splitting this would mean adding a colon or full stop inside the parenthetical span."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].title",
+      "reason": "11 words, one sentence. This is Rev 14:12's own clause (\"Here are they that keep the commandments of God, and the faith of Jesus\") with \"Remnant\" as the app's subject; the served KJV confirms the wording of the clause, so it is Scripture carried, and \"Remnant\" is the chain's own key term used three times here."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].connection",
+      "reason": "11 words, one sentence. Uses the app's own compact notation \"obedience + faith in Christ\" for two claims; the plus sign is legible as \"and\" and the sentence names whose people they are (God's) and when (end-time). No banned phrase and no clause over 11 words."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].title",
+      "reason": "11 words, one sentence. \"First resurrection — the rest of the dead live not again\" is Rev 20:5's own clause (\"the rest of the dead lived not again until the thousand years were finished\"); the em-dash is the title separator used across this chain, and \"live not again\" is Scripture grammar I1 forbids fixing."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "name",
+      "reason": "Chain display label, 4 words. \"Sanctuary, Judgment, and Remnant\" is a three-noun label that names exactly the three movements of the chain and is already the plainest possible form; changing a navigation label this short would be change for its own sake. The term Remnant is the app's own key term and is defined at the step that carries it."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].connection",
+      "reason": "7 words, one sentence. \"Earliest covering requires death of an animal\" states one claim with a subject and a verb; \"covering\" is the everyday word for what Gen 3:21 describes. No decode word and no separator."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].title",
+      "reason": "3 words, one sentence. \"Abel's firstlings accepted\" is a nominal title for Gen 4:4; \"firstlings\" is the verse's own word (\"of the firstlings of his flock\"), so modernising it would break I1, and the step's connection immediately glosses what it means (the firstborn animal given by blood)."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].title",
+      "reason": "6 words, one sentence. \"God will provide Himself the lamb\" is Gen 22:8 verbatim (\"My son, God will provide himself a lamb for a burnt offering\"); the served KJV confirms it, so it is Scripture carried with no quotation marks, and every word of it is untouchable under I1."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].connection",
+      "reason": "6 words, one sentence. \"blood on doorposts averts death\" names the sign, the place and the outcome in one idea. \"averts\" is the only word above everyday register, and both the step title and the Exodus setting make it concrete; the parallel connection at step 0 now uses the plainer \"turned death away\"."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].title",
+      "reason": "2 words, one sentence. \"Passover lamb\" is the plainest possible label for Exod 12:3-13 and is the term the reader will meet everywhere else; expanding a 2-word title would pad it."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].title",
+      "reason": "5 words, one sentence. \"Behold the Lamb of God\" is John 1:29's own words (\"Behold the Lamb of God, which taketh away the sin of the world\"); it is Scripture carried unquoted, so \"Behold\" must not be modernised to \"Look\" under I1."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].title",
+      "reason": "7 words, one sentence. \"He did not spare His own Son\" is the app's own unquoted rendering of Rom 8:32 (served KJV: \"He that spared not his own son\"). CP-02 §6 records this exact example as a loose rendering that writers flag but never silently correct, so it is carried byte-identical."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].title",
+      "reason": "4 words, one sentence. \"Lamb without blemish, foreknown\" is a two-part nominal title for 1 Pet 1:19-20; \"without blemish\" is the verse's wording and \"foreknown\" is the one decode word, which the connection beneath it now states plainly as \"chose this unblemished sacrifice before the world began\"."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "name",
+      "reason": "Chain display label, 4 words. \"Provided Lamb / Substitution\" uses the chain's own two key terms and the slash is the app's own device; the second term is the technical one, but the chain's first step explains it (an animal died in place of the son) and the label is the navigation handle readers search by."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].title",
+      "reason": "6 words, one sentence. \"First rain and latter rain promised\" is the app's own label for Deut 11:14, which names both rains in one line. The served KJV confirms the pair (\"the first rain and the latter rain\"), so the terms are the verse's and there is no decode word or citation to move."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].title",
+      "reason": "9 words, one sentence. \"He shall come as the rain to the earth\" is Hos 6:3's own clause (\"he shall come unto us as the rain\"); the served KJV confirms it, so it is unquoted Scripture carried byte-identical under I1, pronoun capitalisation included."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].title",
+      "reason": "9 words, one sentence. \"Former rain and latter rain in the first month\" is Joel 2:23's own wording (\"the former rain, and the latter rain in the first month\"); the served KJV confirms it, and \"the first month\" is Scripture's time marker, not a numeral this sweep may touch."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].title",
+      "reason": "7 words, one sentence. \"Pour out My Spirit on all flesh\" is Joel 2:28 verbatim; the served KJV confirms it, the capital \"My\" is inside the verse's own clause, and it is the same Scripture clause the day-of-the-lord chain opens with, so its wording must not diverge between the two chains."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].title",
+      "reason": "9 words, one sentence. \"Ask rain in the time of the latter rain\" is Zech 10:1's own wording (served KJV: \"Ask ye of the LORD rain in the time of the latter rain\"); it is unquoted Scripture carried byte-identical, so the imperative \"Ask\" stays and no citation or numeral is involved."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].title",
+      "reason": "7 words plus the leading label \"Pentecost:\". Both halves are already plain and the label is the app's own marker; \"The Early Rain of the Spirit\" is the chain's own coined title for Pentecost, so capitalisation is deliberate and changing it would be a naming change, not a clarity fix."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].title",
+      "reason": "8 words, one sentence. \"Be patient until the early and latter rain\" is James 5:7's own wording (served KJV: \"until he receive the early and latter rain\"); the served text confirms both terms, so it is unquoted Scripture carried and the imperative \"Be patient\" must not be modernised."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].title",
+      "reason": "7 words plus a parenthetical label. \"Earth lightened with His glory\" is Rev 18:1's own wording (served KJV: \"the earth was lightened with his glory\"); \"Loud Cry\" is the app's own named label for the final outpouring and the parenthesis is the app's device, so both are carried and nothing needs decoding."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "name",
+      "reason": "Chain display label, 8 words. \"The Early and Latter Rain of the Spirit\" names both rains and the Spirit in the plainest form the chain's key terms allow; it matches the chain id and the step titles beneath it, so no change is warranted."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].connection",
+      "reason": "12 words, one sentence, one idea. \"modeled after\" is a plain verb and the sentence names both the earthly building and the heavenly reality it copies, which is what Exod 25:40 states. The one word above everyday register, \"blueprint\", is glossed by the phrase right after it (\"earthly tabernacle\")."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].title",
+      "reason": "9 words plus a colon. \"Pattern of the Sanctuary: God dwells with His people\" is clear in both halves, and in this chain the colon is a structural leading marker rather than a mid-sentence dip, so it is kept. The key term \"Sanctuary\" is named and at once explained as where God dwells."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].title",
+      "reason": "6 words, one sentence. \"Heavenly court seated and books opened\" is a compressed image but each word is everyday and it matches Dan 7:10 exactly (\"the judgment was set, and the books were opened\"); at 6 words there is no long clause for a rewrite to relieve."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].connection",
+      "reason": "13 words, one sentence. Names Christ as the minister, the place (heaven itself) and quotes the distinction that matters (\"which the Lord pitched and not man\", Heb 8:2, carried byte-identical). One idea, active verb, no decode word beyond \"pitched\", which the verse itself uses."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].title",
+      "reason": "7 words, one sentence. \"Christ High Priest of the true tabernacle\" is Heb 8:1-2's own terms; the missing article is a title convention used throughout this chain (\"Christ minister of the true tabernacle\" at the sister chain) and inserting one would change the app's title style rather than its clarity."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].connection",
+      "reason": "12 words, one sentence, one idea. Names the place (the Most Holy Place), the cause (the seventh trumpet) and the event (it is opened). Left byte-identical deliberately: this string is shared byte-for-byte with chain:sanctuary-judgment|steps[6].connection, and the one-writer rule (§1.12) means both occurrences must move together or not at all. It stays because this chain is the number-dense one and \"seventh\" must not be disturbed; the identical string appears in the sanctuary-judgment chain's worklist, where the same owner can revisit both at once."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "name",
+      "reason": "Chain display label, 8 words plus a leading \"1.\". The leading numeral is part of the label and must not be dropped or renumbered; \"The 2,300 Days & Cleansing of the Sanctuary\" carries the chain's numeral byte-identical and names the event. This is the one chain name I considered changing, and I am leaving it because the numeral and the ampersand are the app's navigation identity for this pillar."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].title",
+      "reason": "6 words, one sentence. \"Bronze serpent set upon a pole\" is a passive nominal title but every word is everyday and it matches Num 21:8-9's own picture (\"set it upon a pole\"); no decode word and no separator."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].title",
+      "reason": "4 words, one sentence. \"Nehushtan broken in pieces\" carries the Hebrew name Nehushtan and the phrase \"brake in pieces\" from 2 Kgs 18:4; Hebrew names and transliterations are untouchable under I1 and the step's connection explains the event, so the title is left as-is."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].title",
+      "reason": "10 words, one sentence. \"Even so must the Son of Man be lifted up\" is John 3:14 verbatim (\"even so must the Son of man be lifted up\"); it is Scripture carried unquoted, so the archaic verb order must not be modernised."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].title",
+      "reason": "8 words, one sentence. \"When you lift up the Son of Man\" is John 8:28's own clause (\"When ye have lifted up the Son of man\"); the served KJV confirms it and \"the Son of Man\" is a title that must stay byte-identical, so the only variance is the pronoun, which I1 tells me to carry."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].title",
+      "reason": "8 words, one sentence. \"Lifted up from the earth to draw all\" is John 12:32's own words (\"if I be lifted up from the earth, will draw all men unto me\") compressed to a title; no decode word, no citation, and the compression is the verse's own phrasing rather than an abstraction."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].title",
+      "reason": "4 words, one sentence. \"Made sin for us\" is 2 Cor 5:21's own words (\"he hath made him to be sin for us\"); the served KJV confirms it, so it is unquoted Scripture carried and the missing subject is supplied by the connection beneath it."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "name",
+      "reason": "Chain display label, 6 words. \"The Bronze Serpent and the Cross\" names both ends of the chain in everyday words and matches the chain id; nothing in it needs decoding and it is not unclear."
+    }
+  ],
+  "equivalent": []
+}

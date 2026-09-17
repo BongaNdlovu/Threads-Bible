@@ -1,0 +1,44 @@
+{
+  "book": "3jn",
+  "bookName": "3 John",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 1,
+    "entryStrings": 2,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "3jn-1-11"
+  ],
+  "fields": [
+    {
+      "entryId": "3jn-1-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Follow not evil; the doer of good is of God, the evildoer has not seen Him. First principle: imitation follows vision — seeing God is the root of doing good; Diotrephes had not seen.",
+      "density": 1.8786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "3jn-1-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Doeth Good Is of God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

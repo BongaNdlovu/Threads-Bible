@@ -1,0 +1,520 @@
+{
+  "book": "2co",
+  "bookName": "2 Corinthians",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 15,
+    "entryStrings": 34,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2co-10-17",
+    "2co-13-4",
+    "2co-3-13",
+    "2co-3-16",
+    "2co-3-18",
+    "2co-3-3",
+    "2co-3-7",
+    "2co-4-6",
+    "2co-5-21",
+    "2co-6-16",
+    "2co-6-17",
+    "2co-6-18",
+    "2co-6-2",
+    "2co-8-9",
+    "2co-9-9"
+  ],
+  "fields": [
+    {
+      "entryId": "2co-3-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "You are an epistle of Christ, written not with ink but with the Spirit of the living God, not in tables of stone but in fleshy tables of the heart. First principle: the new covenant is internal, not merely external law.",
+      "density": 2.7393,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-6-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Almighty adopts. First principle: Nathan's word to David — I will be to him a Father — expands from the royal Son to all who are in Him; sonship is promised, performed, and permanent.",
+      "density": 2.7036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 32,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-6-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dwelling promises of Exodus and Ezekiel are applied to believers. First principle: I will dwell in them moves from tent to persons — the sanctuary is a people, and idols have no lease there.",
+      "density": 2.2464,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses veiled the fading so Israel could not see the end of what was abolished. First principle: the vail was mercy over obsolescence — the old covenant's glory had an expiration Paul is not afraid to name.",
+      "density": 2.1821,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-5-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him. First principle: double imputation — our sin to Christ, His righteousness to us.",
+      "density": 2.1321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The heart's turning lifts the covering. First principle: the vail is not on Moses' face anymore but on the readers' hearts — conversion to the Lord removes it in Christ.",
+      "density": 2.1214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-3-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses' face shone so bright the children could not behold it — and that glory was to be done away. First principle: even a fading glory terrified; the surpassing glory of the Spirit outlasts stone.",
+      "density": 2.0179,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-8-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The incarnational economics of grace. First principle: Christ's poverty is the transfer mechanism — His emptied riches fund our funded eternity; giving follows the same pattern.",
+      "density": 2,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The creation command — light out of darkness — repeats in conversion. First principle: regeneration is a creation miracle in miniature; the face of Jesus Christ is the new light's location.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-10-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jeremiah's rule for boasting. First principle: the only permissible boast is the Lord — knowing, understanding, and knowing Him that exercises lovingkindness, judgment, and righteousness.",
+      "density": 1.825,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-3-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Open-faced reflection changes the beholder from glory to glory by the Spirit. First principle: sanctification is specular — we become what we behold; the unveiled mirror is the Spirit's instrument.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-6-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 49's accepted day is declared present. First principle: salvation has a season, and the season is now — the heard-and-helped Servant defines the open window.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-9-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 112's giver quoted for the collection. First principle: dispersed charity is enduring righteousness — the scatterer keeps, the hoarder loses; giving is seed, not subtraction.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-6-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The separation call with a reception promise: I will receive you. First principle: touch-not holiness is not isolationism but covenant identity — separation is the door to fatherhood.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-13-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Crucified in weakness, living by God's power — the pattern for Paul and the Corinthians. First principle: apparent weakness is not the refutation of divine life but its usual container.",
+      "density": 1.6071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2co-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When It Shall Turn to the Lord, the Vail Shall Be Taken Away",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-8-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Though He Was Rich, Yet for Your Sakes He Became Poor",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Not as Moses, Which Put a Vail over His Face",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-3-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Beholding as in a Glass the Glory of the Lord",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-9-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Hath Dispersed Abroad; He Hath Given to the Poor",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-3-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jer 31:33 / Ezek 36:26 fulfilled in Spirit-wrought obedience.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "fleshy tables of the heart",
+        "original": "πλαξὶν καρδίας σαρκίναις",
+        "translit": "plaxin kardias sarkinais",
+        "strongs": null,
+        "gloss": "tablets of hearts of flesh",
+        "note": "Jer 31:33 / Ezek 36:26 fulfilled in Spirit-wrought obedience.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2co-3-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Ministration of Death, Written and Engraven in Stones",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-6-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Come Out from Among Them, and Be Ye Separate",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-10-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Glorieth, Let Him Glory in the Lord",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-5-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Legal and covenantal exchange language of Isaiah 53.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sin / righteousness",
+        "original": "ἁμαρτίαν / δικαιοσύνη",
+        "translit": "hamartian / dikaiosynē",
+        "strongs": null,
+        "gloss": "sin / righteousness",
+        "note": "Legal and covenantal exchange language of Isaiah 53.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2co-6-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Are the Temple of the Living God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-13-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Was Crucified Through Weakness, Yet He Liveth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-3-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Written on Hearts, Not Tables of Stone",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-6-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Shall Be My Sons and Daughters",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Hath Shined in Our Hearts",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-6-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, Now Is the Accepted Time",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-3-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "tablets of hearts of flesh",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "fleshy tables of the heart",
+        "original": "πλαξὶν καρδίας σαρκίναις",
+        "translit": "plaxin kardias sarkinais",
+        "strongs": null,
+        "gloss": "tablets of hearts of flesh",
+        "note": "Jer 31:33 / Ezek 36:26 fulfilled in Spirit-wrought obedience.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2co-5-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made Sin for Us",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2co-5-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "sin / righteousness",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sin / righteousness",
+        "original": "ἁμαρτίαν / δικαιοσύνη",
+        "translit": "hamartian / dikaiosynē",
+        "strongs": null,
+        "gloss": "sin / righteousness",
+        "note": "Legal and covenantal exchange language of Isaiah 53.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

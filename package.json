@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "tsc --noEmit",
+    "lint:sweep": "tsc --noEmit -p tsconfig.sweep.json",
     "audit:data": "tsx scripts/auditAllTiers.ts",
     "generate:drafts": "tsx scripts/generateDraftDetails.ts",
     "verify:accuracy": "tsx scripts/accuracyCheck.ts",

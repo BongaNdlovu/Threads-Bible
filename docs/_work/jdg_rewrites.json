@@ -1,0 +1,15 @@
+{
+  "book": "jdg",
+  "bookName": "Judges",
+  "drafts": [
+    {"entryId":"jdg-21-25","field":"principle","after":"In those days there was no king in Israel, and every man did what was right in his own eyes. First principle: the last verse of Judges tells you why the whole book fell apart. Israel had no king and no vision from God. So each man became a law to himself. Isaiah says people like that are sheep that have gone astray.","reason":"the em-dash sentence and the compressed straight into Isaiah sheep-stray are split into one idea per sentence, and the absence of king and vision is written out. In those days there was no king in Israel is the source own KJV rendering and is carried byte-identical without adding quotation marks."},
+    {"entryId":"jdg-13-5","field":"principle","after":"Samson was promised before he was born: he would be a Nazarite, no razor was to touch his head, and he would begin to deliver Israel. First principle: a deliverer set apart to God from the womb is the pattern of the one who comes first and prepares the way. John the Baptist was set apart the same way in Luke 1. The word Nazarene then echoes on to Matthew 2.","reason":"the noun pile the Nazarite-from-womb pattern is the forerunner pattern is written out in plain words, and the promise now has a subject and verb. The term Nazarite is kept in the text, the vow from the womb, the delivering, John the Baptist in Luke 1 and the echo to Matthew 2 are all kept, and no claim is added."},
+    {"entryId":"jdg-2-16","field":"principle","after":"The pattern keeps repeating: Israel is plundered, then rescued. First principle: Israel turned away from God again and again. God answered with grace every time. He raised up deliverers for them. The people never chose a king to save them.","reason":"the telegraphic colon opener and the abstract grace repeated answer to repeated apostasy become plain sentences, and deliverers raised, not kings elected is written out as two statements. The cycle of plunder and rescue, God repeated grace, deliverers raised and no king elected all survive."}
+  ],
+  "verifyOnly": [
+    {"entryId":"jdg-2-16","field":"title","reason":"6 words, one idea, plain - KJV wording carried byte-identical; nothing to decode"},
+    {"entryId":"jdg-13-5","field":"title","reason":"11 words, one idea, plain - KJV wording carried byte-identical; nothing to decode"},
+    {"entryId":"jdg-21-25","field":"title","reason":"9 words, one idea, plain - KJV wording carried byte-identical; nothing to decode"}
+  ],
+  "equivalent": []
+}

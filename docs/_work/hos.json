@@ -1,0 +1,653 @@
+{
+  "book": "hos",
+  "bookName": "Hosea",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 8,
+    "entryStrings": 22,
+    "chainStrings": 17,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "hos-1-10",
+    "hos-11-1",
+    "hos-13-14",
+    "hos-2-1",
+    "hos-2-23",
+    "hos-6-2",
+    "hos-6-3",
+    "hos-6-6"
+  ],
+  "fields": [
+    {
+      "entryId": "hos-6-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophet urges Israel to pursue the knowledge of the LORD, whose going forth is as certain as the morning dawn, and who will come to His people like the rain—like the latter and former rain watering the dry earth. First principle: God's presence and revival come as life-restoring rain upon penitent hearts.",
+      "density": 3.6107,
+      "words": 53,
+      "sentences": 2,
+      "maxSentenceWords": 40,
+      "gate": "FAIL",
+      "violations": [
+        "40 words (max 35): \"The prophet urges Israel to pursue the knowledge of the LORD, whose going forth is as cert…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-6-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "After two days will he revive us: in the third day he will raise us up, and we shall live in his sight. Israel's national revival is couched in resurrection rhythm. First principle: the third day is God's appointed turning point — and the early church confessed it as according to the scriptures.",
+      "density": 2.6393,
+      "words": 53,
+      "sentences": 3,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-11-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "When Israel was a child, then I loved him, and called my son out of Egypt. What Israel embodied poorly, the true Son embodies perfectly: God calls His Son up out of Egypt after Herod's wrath. First principle: Israel's history is prophetic pattern; Christ relives and fulfills it.",
+      "density": 2.3429,
+      "words": 48,
+      "sentences": 3,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-11-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exodus 4:22 names Israel my son, my firstborn; Hosea 11:1 renews the call, and Matthew hears the greater Son in it (Matt 2:15).",
+      "density": 1.8893,
+      "words": 23,
+      "sentences": 1,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my son",
+        "original": "בְּנִי",
+        "translit": "veni",
+        "strongs": null,
+        "gloss": "my son",
+        "note": "Exodus 4:22 names Israel my son, my firstborn; Hosea 11:1 renews the call, and Matthew hears the greater Son in it (Matt 2:15).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hos-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sand-numbered Israel, and in the place of not-my-people, sons of the living God. First principle: the reversal is place-exact — rejection's ground becomes adoption's ground, quoted by Paul for Jew and Gentile.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-2-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The renamed children: My-people and Having-obtained-mercy. First principle: Hosea's children are walking prophecies — Lo-ammi becomes Ammi on God's say-so, the sermon preached by name.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-13-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Ransom from the grave's power; death becomes plague, grave becomes destruction. First principle: the redemption-from-death taunt is Paul's victory cry source — the plagues turn on death itself.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-6-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The intensive stem of khayah — to give life — the verb of resurrection hope long before the empty tomb.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "revive",
+        "original": "יְחַיֵּנוּ",
+        "translit": "yehayyenu",
+        "strongs": null,
+        "gloss": "he will make us alive",
+        "note": "The intensive stem of khayah — to give life — the verb of resurrection hope long before the empty tomb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hos-6-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Knowledge of God over burnt offerings. First principle: the scale-verse of prophetic religion — quoted twice by Jesus against ritual without covenant love.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mercy on the unmercied; not-my-people renamed My-people. First principle: the sowing verb is the covenant's agriculture — Jezreel's judgment-name becomes planted-inheritance.",
+      "density": 1.325,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hos-2-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Say Ye unto Your Brethren, Ammi; and to Your Sisters, Ruhamah",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-6-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Third Day He Will Raise Us Up",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Sow Her unto Me in the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Are the Sons of the Living God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-13-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O Death, I Will Be Thy Plagues",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-6-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Come as the Rain",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "like the pouring rain / shower",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "as the rain",
+        "original": "כַּגֶּשֶׁם",
+        "translit": "ka-geshem",
+        "strongs": null,
+        "gloss": "like the pouring rain / shower",
+        "note": "Abundant downpour of spiritual life.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hos-11-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Called My Son out of Egypt",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-6-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Desired Mercy, and Not Sacrifice",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hos-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Abundant downpour of spiritual life.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "as the rain",
+        "original": "כַּגֶּשֶׁם",
+        "translit": "ka-geshem",
+        "strongs": null,
+        "gloss": "like the pouring rain / shower",
+        "note": "Abundant downpour of spiritual life.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hos-6-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "he will make us alive",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "revive",
+        "original": "יְחַיֵּנוּ",
+        "translit": "yehayyenu",
+        "strongs": null,
+        "gloss": "he will make us alive",
+        "note": "The intensive stem of khayah — to give life — the verb of resurrection hope long before the empty tomb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hos-11-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "my son",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my son",
+        "original": "בְּנִי",
+        "translit": "veni",
+        "strongs": null,
+        "gloss": "my son",
+        "note": "Exodus 4:22 names Israel my son, my firstborn; Hosea 11:1 renews the call, and Matthew hears the greater Son in it (Matt 2:15).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "God's binding promise starts here with rain at the right time for sowing and for harvesting the grain.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: James uses this picture from farming to call for patient waiting until the Lord comes.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the final outpouring of the Holy Spirit (latter rain) illuminating the earth before the harvest.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: God commands his people to pray for the last rain that ripens the crop.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: rain falling on the ground is a picture of the Spirit poured out.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: the promise of the Holy Spirit on young and old, servants and handmaids.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God promises his presence and new life, pictured as rain.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Peter cites Joel 2. The early rain makes the crop sprout. It gives the early church power.",
+      "density": 0.85,
+      "words": 18,
+      "sentences": 3,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "He shall come as the rain to the earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Former rain and latter rain in the first month",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Ask rain in the time of the latter rain",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Early and Latter Rain of the Spirit",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Be patient until the early and latter rain",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Pour out My Spirit on all flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Pentecost: The Early Rain of the Spirit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Earth lightened with His glory (Loud Cry)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "First rain and latter rain promised",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    }
+  ]
+}

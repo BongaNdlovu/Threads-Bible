@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": true, "types": ["vite/client", "node"] },
+  "files": [
+    "scripts/checkReadability.ts",
+    "scripts/citationTokens.ts",
+    "scripts/cp02ProseScan.ts",
+    "scripts/cp02ExtractBook.ts",
+    "scripts/cp02RewriteQuality.ts",
+    "scripts/cp02QuoteCensus.ts",
+    "scripts/cp02BookDocs.ts",
+    "scripts/cp03ApplyRewrites.ts",
+    "scripts/cp03StructuralVerify.ts",
+    "scripts/cp04LedgerRollup.ts",
+    "scripts/auditAllTiers.ts"
+  ]
+}

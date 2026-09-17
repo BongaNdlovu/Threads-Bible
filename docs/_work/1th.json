@@ -1,0 +1,805 @@
+{
+  "book": "1th",
+  "bookName": "1 Thessalonians",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 11,
+    "entryStrings": 28,
+    "chainStrings": 21,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "1th-1-10",
+    "1th-2-19",
+    "1th-3-13",
+    "1th-4-13",
+    "1th-4-14",
+    "1th-4-15",
+    "1th-4-16",
+    "1th-4-17",
+    "1th-5-2",
+    "1th-5-23",
+    "1th-5-3"
+  ],
+  "fields": [
+    {
+      "entryId": "1th-4-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Then we who are alive and remain shall be caught up together with them in the clouds to meet the Lord in the air, and so shall we ever be with the Lord. First principle: living believers join the resurrected dead to greet the returning King — the one public second advent, not a secret or two-stage removal of the church. Comfort one another with these words: Christ comes, the dead rise, and we are with Him forever.",
+      "density": 3.8357,
+      "words": 78,
+      "sentences": 3,
+      "maxSentenceWords": 33,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Lord Himself shall descend from heaven with a shout, with the voice of the archangel, with the trumpet of God; the dead in Christ shall rise first. First principle: this is the public, bodily second coming of Christ and the resurrection of the dead — the same event Jesus and Paul teach elsewhere — not a secret removal of the church before judgment.",
+      "density": 3.6571,
+      "words": 64,
+      "sentences": 2,
+      "maxSentenceWords": 36,
+      "gate": "FAIL",
+      "violations": [
+        "36 words (max 35): \"First principle: this is the public, bodily second coming of Christ and the resurrection o…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sleeping believers are not lost to ignorance-grief. First principle: Christian grief is bounded by resurrection fact — ignorance is the sorrow's source, and the word of the Lord is its cure.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The died-and-rose fact guarantees the brought-with. First principle: the sleeping saints are with Jesus now and return with Him — the same belief that saved them escorts them back.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hearts established unblameable in holiness for the day of saints' company. First principle: holiness has a deadline and a procession — He comes with all His saints, and hearts are readied now.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "By the word of the Lord: the living do not arrive ahead of the dead. First principle: the resurrection order protects the sleeping saints' priority — the dead rise first, then the caught-up living.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-5-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wholly sanctified, preserved blameless unto the coming. First principle: sanctification is total (spirit, soul, body) and dated — preserved unto the coming by the faithful God who called.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-5-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The peace-cry precedes inescapable labor pains. First principle: the world's slogan is the signal — destruction arrives in the vocabulary of security, as Isaiah's birth-pang image warned.",
+      "density": 1.875,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-5-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The suddenness is proverbial among the apostles. First principle: the thief-timing is for the unwatching — suddenness to the world is schedule to the sons of light.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The delivered wait for the Deliverer from the wrath to come. First principle: waiting is the converted posture — the risen Jesus from heaven is both rescuer and expectation.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 27:13 / Matt 24:31 / 1 Cor 15:52 — one public eschatological coming, not a separate secret event.",
+      "density": 1.7107,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trumpet of God",
+        "original": "σάλπιγγι θεοῦ",
+        "translit": "salpingi theou",
+        "strongs": null,
+        "gloss": "trumpet of God",
+        "note": "Isa 27:13 / Matt 24:31 / 1 Cor 15:52 — one public eschatological coming, not a separate secret event.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1th-2-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The converts themselves are the crown at His coming. First principle: ministry's reward is people standing before the Lord — Daniel's soul-winners shining is Paul's crown.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1th-4-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek ἅρπαζω — seize/catch (cf. Acts 8:39); not a separate secret coming. The context is resurrection (v16) and permanent fellowship with the Lord (v17), paralleling Matt 24:30-31.",
+      "density": 1.5321,
+      "words": 27,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "caught up together",
+        "original": "ἁρπαγησόμεθα ἅμα",
+        "translit": "harpagēsometha hama",
+        "strongs": null,
+        "gloss": "we shall be caught/snatched together",
+        "note": "Greek ἅρπαζω — seize/catch (cf. Acts 8:39); not a separate secret coming. The context is resurrection (v16) and permanent fellowship with the Lord (v17), paralleling Matt 24:30-31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Resurrection at the last day (John 6:39-40), simultaneous with Christ's visible return.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the dead in Christ shall rise",
+        "original": "οἱ νεκροὶ ἐν Χριστῷ ἀναστήσονται πρῶτον",
+        "translit": "hoi nekroi en Christō anastēsontai prōton",
+        "strongs": null,
+        "gloss": "the dead in Christ will rise first",
+        "note": "Resurrection at the last day (John 6:39-40), simultaneous with Christ's visible return.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1th-5-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Day of the Lord Cometh as a Thief in the Night",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That Ye Sorrow Not, Even as Others Which Have No Hope",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Them Also Which Sleep in Jesus Will God Bring with Him",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-2-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What Is Our Hope, or Joy, or Crown of Rejoicing?",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "At the Coming of Our Lord with All His Saints",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Which Are Alive... Shall Not Prevent Them Which Are Asleep",
+      "density": 0.675,
+      "words": 11,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-5-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Your Whole Spirit and Soul and Body Preserved",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the dead in Christ will rise first",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the dead in Christ shall rise",
+        "original": "οἱ νεκροὶ ἐν Χριστῷ ἀναστήσονται πρῶτον",
+        "translit": "hoi nekroi en Christō anastēsontai prōton",
+        "strongs": null,
+        "gloss": "the dead in Christ will rise first",
+        "note": "Resurrection at the last day (John 6:39-40), simultaneous with Christ's visible return.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1th-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Wait for His Son from Heaven",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-5-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When They Shall Say, Peace and Safety",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Descends with a Shout",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Together to Meet the Lord",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1th-4-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "we shall be caught/snatched together",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "caught up together",
+        "original": "ἁρπαγησόμεθα ἅμα",
+        "translit": "harpagēsometha hama",
+        "strongs": null,
+        "gloss": "we shall be caught/snatched together",
+        "note": "Greek ἅρπαζω — seize/catch (cf. Acts 8:39); not a separate secret coming. The context is resurrection (v16) and permanent fellowship with the Lord (v17), paralleling Matt 24:30-31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1th-4-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "trumpet of God",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trumpet of God",
+        "original": "σάλπιγγι θεοῦ",
+        "translit": "salpingi theou",
+        "strongs": null,
+        "gloss": "trumpet of God",
+        "note": "Isa 27:13 / Matt 24:31 / 1 Cor 15:52 — one public eschatological coming, not a separate secret event.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul.",
+      "density": 1.275,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever.",
+      "density": 0.8643,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional.",
+      "density": 0.8071,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death.",
+      "density": 0.75,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "density": 0.3964,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    }
+  ]
+}

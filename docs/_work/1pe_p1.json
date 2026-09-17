@@ -1,0 +1,507 @@
+{
+  "book": "1pe",
+  "bookName": "1 Peter",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 14,
+    "entryStrings": 32,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "1pe-1-16",
+    "1pe-1-19",
+    "1pe-1-24",
+    "1pe-2-4",
+    "1pe-2-6",
+    "1pe-2-7",
+    "1pe-2-9",
+    "1pe-2-22",
+    "1pe-2-24",
+    "1pe-3-10",
+    "1pe-3-12",
+    "1pe-3-14",
+    "1pe-4-18",
+    "1pe-5-5"
+  ],
+  "fields": [
+    {
+      "entryId": "1pe-2-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who his own self bare our sins in his own body on the tree. Textual proof: Isaiah 53:4-6, 12 quoted and applied; 1 Pet 1:19 — precious blood of Christ as of a lamb without blemish (Exod 12:5).",
+      "density": 2.3214,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:4",
+          "1 Peter 1:19",
+          "Exodus 12:5"
+        ]
+      }
+    },
+    {
+      "entryId": "1pe-5-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Submission clothed in humility, grace to the lowly. First principle: humility is a garment and grace is the wage — the apron of the lowly is where God's favor lands.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-3-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Fearlessness commanded with Isaiah's sanctuary logic: sanctify the LORD in hearts. First principle: suffering for right is happiness's address — fear not their fear; the LORD of hosts is the sanctified dread.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-2-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Servant's sinlessness quoted in the suffering-context. First principle: Isaiah 53:9 is Peter's own credential-check on Christ — the sinless mouth is the basis of the substitution that follows.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:9"
+        ]
+      }
+    },
+    {
+      "entryId": "1pe-1-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The withering grass and the enduring word. First principle: Isaiah 40 is quoted whole into the apostolic age — the word preached is the word that stands forever.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Proverbs 11:31 quoted as judgment's starting-point logic. First principle: the judgment begins at God's house — if the righteous are saved through fire, the ungodly's appearing is hopeless.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Proverbs 11:31"
+        ]
+      }
+    },
+    {
+      "entryId": "1pe-2-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The disallowed, chosen, precious Stone. First principle: the Stone is alive — rejected by builders, chosen by God; coming to Him is the church's building activity.",
+      "density": 1.85,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold, I lay in Sion a chief corner stone, elect, precious. Textual proof: Isaiah 28:16 quoted; Psalm 118:22 in 1 Pet 2:7; same as Matt 21:42, Acts 4:11, Eph 2:20.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 28:16",
+          "1 Peter 2:7",
+          "Matthew 21:42",
+          "Acts 4:11",
+          "Ephesians 2:20"
+        ]
+      }
+    },
+    {
+      "entryId": "1pe-1-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Redemption priced in lamb-blood. First principle: the exodus lamb's inspection rules are applied to Christ — without blemish, without spot, precious beyond silver and gold.",
+      "density": 1.825,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-3-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Ears open to prayers; the face against evildoers. First principle: the watching face is dual — over the righteous, against the evil; the same eyes, two directions.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Stone divides: precious to believers, the builders' disallowance to the disobedient. First principle: the same stone generates opposite fates — honor for the believing, stumbling for the refusing.",
+      "density": 1.6964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Exodus 19's titles are granted to the called-out. First principle: the covenant vocation transfers to the church — darkness-exit into marvellous light for showing forth praises.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-3-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 34's life-loving recipe. First principle: loving life begins with the tongue — refrained lips and departing-from-evil lips are the good-days precondition.",
+      "density": 1.5786,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-1-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The holiness command quoted from Leviticus to the exiled church. First principle: holiness is imitative — the command's ground is God's own character, unchanged across covenants.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 28:16 — foundation stone in Zion; Christ as the tried stone.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "corner stone",
+        "original": "ἀκρογωνιαῖος",
+        "translit": "akrogōnaios",
+        "strongs": null,
+        "gloss": "cornerstone",
+        "note": "Isa 28:16 — foundation stone in Zion; Christ as the tried stone.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1pe-2-24",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 53:4, 12 — the Servant bears what is not His own.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bare our sins",
+        "original": "ἀνήνεγκεν",
+        "translit": "anēnegken",
+        "strongs": null,
+        "gloss": "He bore up / carried",
+        "note": "Isa 53:4, 12 — the Servant bears what is not His own.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1pe-1-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "With the Precious Blood of Christ, as of a Lamb Without Blemish",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Did No Sin, Neither Was Guile Found in His Mouth",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If the Righteous Scarcely Be Saved, Where Shall the Ungodly Appear?",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Chosen Generation, a Royal Priesthood, an Holy Nation",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-3-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Eyes of the Lord Are over the Righteous",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-3-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Ye Suffer for Righteousness' Sake, Happy Are Ye",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Whom Coming, as unto a Living Stone",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-5-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Be Clothed with Humility: God Resisteth the Proud",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-1-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Be Ye Holy; for I Am Holy",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto You Which Believe He Is Precious",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-3-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Will Love Life... Refrain His Tongue from Evil",
+      "density": 0.5357,
+      "words": 10,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Own Self Bare Our Sins",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Chief Corner Stone, Elect, Precious",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-24",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "He bore up / carried",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bare our sins",
+        "original": "ἀνήνεγκεν",
+        "translit": "anēnegken",
+        "strongs": null,
+        "gloss": "He bore up / carried",
+        "note": "Isa 53:4, 12 — the Servant bears what is not His own.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1pe-1-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Flesh Is as Grass",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "cornerstone",
+      "density": 0.0821,
+      "words": 1,
+      "sentences": 1,
+      "maxSentenceWords": 1,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "corner stone",
+        "original": "ἀκρογωνιαῖος",
+        "translit": "akrogōnaios",
+        "strongs": null,
+        "gloss": "cornerstone",
+        "note": "Isa 28:16 — foundation stone in Zion; Christ as the tried stone.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,212 @@
+{
+  "book": "sng",
+  "bookName": "Song of Solomon",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 14,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "sng-1-3",
+    "sng-2-16",
+    "sng-4-10",
+    "sng-5-1",
+    "sng-5-16",
+    "sng-8-6",
+    "sng-8-7"
+  ],
+  "fields": [
+    {
+      "entryId": "sng-5-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Beloved and friend, altogether lovely. First principle: the superlative without comparison — altogether lovely is the whole description; the Friend of sinners is the Friend here sung.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-2-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mutual possession among the lilies. First principle: the covenant formula in love-song grammar — He feedeth His flock, and the mutual belonging is the song's center.",
+      "density": 1.85,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-8-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Love strong as death, jealousy cruel as the grave, coals of vehement flame. First principle: love's intensity is death-and-grave scaled — the seal on heart and arm is exclusive covenant possession.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-5-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The gathered myrrh and spice; friends invited to drink abundantly. First principle: the garden entered, the feast opened to friends — the supper language of the covenant meal.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-8-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All substance cannot buy it. First principle: love is unquenchable and unpurchasable — the flood fails, the fortune fails; Revelation's marriage follows the unquenched.",
+      "density": 1.6857,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-4-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The spouse's love outsmells all spices. First principle: love over wine — the measure of the marriage-song and of the Messiah's own better-wine joy.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The virgins love the beloved for his name's fragrance. First principle: the love-song's ointment-name anticipates the anointed One — the costly nard poured at Bethany agrees.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "sng-5-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Come into My Garden, My Sister, My Spouse",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-5-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Mouth Is Most Sweet: Yea, He Is Altogether Lovely",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-2-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Beloved Is Mine, and I Am His",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-4-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "How Much Better Is Thy Love than Wine",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-8-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Set Me as a Seal upon Thine Heart",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Name Is as Ointment Poured Forth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "sng-8-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Many Waters Cannot Quench Love",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

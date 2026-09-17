@@ -1,0 +1,97 @@
+{
+  "book": "zep",
+  "bookName": "Zephaniah",
+  "drafts": [
+    {
+      "entryId": "zep-1-7",
+      "field": "principle",
+      "after": "Zephaniah pictures the day of the LORD as a sacrifice already prepared and guests already invited. First principle: God invites the guests, yet they are the ones killed. So the only fitting response is to be silent before the Lord GOD.",
+      "reason": "V2: the three-fragment opener (The day near; sacrifice prepared; guests bidden) becomes three complete sentences in plain word order, and the em-dash clause becomes its own idea. V3: sacrificial feast is said in everyday words; liturgy is replaced with the plain response it names. The KJV words Hold thy peace at the presence of the Lord GOD are carried byte-identical."
+    },
+    {
+      "entryId": "zep-1-14",
+      "field": "principle",
+      "after": "First principle: the great day of the LORD is near, and it comes fast. That day has a voice of its own that goes ahead of it. Even strong men cry out in pain.",
+      "reason": "V2: the two telegraphic fragments become three sentences with a subject and a verb, one idea each. V3: the abstract nearness hastening is turned back into the verb comes fast, and the mighty are called strong men who cry out in pain. The KJV words The great day of the LORD is near, it hasteth greatly and the mighty man shall cry there bitterly are carried byte-identical."
+    },
+    {
+      "entryId": "zep-2-3",
+      "field": "principle",
+      "after": "The meek of the earth will seek the LORD, and they will seek righteousness and meekness. First principle: God may hide them on the day his anger comes. So judgment has a refuge for the humble.",
+      "reason": "V2: the compressed noun pair in the first sentence is unpacked into a real sentence with a named actor, and the em-dash clause becomes its own sentence. V3: hid is written as hide, and the anger-day is written as the day his anger comes. The KJV words Seek ye the LORD, all ye meek of the earth, seek righteousness, seek meekness and it may be ye shall be hid in the day of the LORD'S anger are carried byte-identical."
+    },
+    {
+      "entryId": "zep-3-8",
+      "field": "principle",
+      "after": "Wait for me, God says, until the day I rise up to the prey. First principle: he has determined to gather the nations and assemble the kingdoms. He will pour out his indignation, all his fierce anger. Then the fire of his jealousy will devour the whole earth.",
+      "reason": "V2: the semicolon chain becomes four sentences, one idea each, with God named as the actor. V3: the abstract determination to gather kingdoms and pour indignation becomes God has determined to gather, and jealous fire becomes the fire of his jealousy. The KJV clause until the day that I rise up to the prey, the phrase pour upon them mine indignation, and the words all my fierce anger are carried byte-identical and unquoted, so no claim changes."
+    },
+    {
+      "entryId": "zep-3-9",
+      "field": "principle",
+      "after": "Everyone will call on the name of the LORD with pure speech. God's scattered peoples will serve him shoulder to shoulder. First principle: that undoes Babel, where the one language was scattered.",
+      "reason": "V2: the two verbless fragments become three complete sentences, one idea each, with the peoples named as the actor. V3: one-shoulder service becomes serve him shoulder to shoulder, which is the Hebrew picture behind the KJV one consent, and Babel reversed is written as a plain verb. The KJV words call upon the name of the LORD, to serve him with one consent are carried byte-identical."
+    },
+    {
+      "entryId": "zep-3-12",
+      "field": "principle",
+      "after": "The people left in Jerusalem will be afflicted and poor, and they will trust in the name of the LORD. First principle: they come out of trouble, and they depend on God. They are not powerful, and they are not proud.",
+      "reason": "V2: the telegraphic first sentence becomes a complete sentence, and the em-dash clause becomes its own idea in plain word order. V3: the noun stack the remnant's profile is affliction plus faith, not power plus pride is turned into verbs, so affliction is replaced with affliction and faith is replaced with they depend on God. The glossary rendering the faithful few who are left is carried by the opening sentence. The KJV words I will also leave in the midst of thee an afflicted and poor people and they shall trust in the name of the LORD are carried byte-identical."
+    },
+    {
+      "entryId": "zep-3-17",
+      "field": "principle",
+      "after": "God is in the middle of his people, and he is mighty. He will save them. First principle: he will rest in his love. He will rejoice over them with joy, and he will sing over them out loud.",
+      "reason": "V2: the verbless list (Saving, rejoicing over thee, resting in His love, joying with singing) becomes five sentences with God named as the actor. V3: the singing God and joys over his people out loud replace the compressed mighty-in-midst title and the abstract joys with singing. The KJV wording in the midst of thee is mighty, he will save, he will rejoice over thee with joy, he will rest in his love, he will joy over thee with singing is carried byte-identical."
+    },
+    {
+      "entryId": "zep-3-20",
+      "field": "principle",
+      "after": "At that time God will gather his people and turn back their captivity before their eyes. First principle: he will make them a name and a praise among all the peoples of the earth.",
+      "reason": "V2: the verbless first sentence becomes a complete sentence with God named as the actor, and the em-dash clause becomes its own sentence. V3: the restored are renamed from curse to praise is said in the verse's own words, so no abstract noun remains. The KJV wording when I turn back your captivity before your eyes and I will make you a name and a praise among all people of the earth is carried byte-identical."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "zep-1-7",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 1:7 (Hold thy peace at the presence of the Lord GOD) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-1-14",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 1:14 and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-2-3",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 2:3 and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-3-8",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 14 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 3:8 (Wait ye upon me ... until the day that I rise up to the prey) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-3-9",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 10 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 3:9 with the opening For then trimmed, and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-3-12",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 13 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 3:12 (I will also leave in the midst of thee an afflicted and poor people) and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-3-17",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 11 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 3:17 and stays byte-identical under I1."
+    },
+    {
+      "entryId": "zep-3-20",
+      "field": "title",
+      "reason": "V1/V2/V3/V4: 12 words, one sentence, one idea, everyday words, gate clean. It is the KJV wording of Zephaniah 3:20 (I will make you a name and a praise among all people) and stays byte-identical under I1."
+    }
+  ],
+  "equivalent": []
+}

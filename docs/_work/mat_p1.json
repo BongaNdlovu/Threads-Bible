@@ -1,0 +1,1015 @@
+{
+  "book": "mat",
+  "bookName": "Matthew",
+  "part": 1,
+  "parts": 2,
+  "counts": {
+    "entries": 30,
+    "entryStrings": 66,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "mat-1-1",
+    "mat-1-23",
+    "mat-2-2",
+    "mat-2-6",
+    "mat-2-15",
+    "mat-2-18",
+    "mat-2-23",
+    "mat-3-3",
+    "mat-3-17",
+    "mat-4-4",
+    "mat-4-6",
+    "mat-4-7",
+    "mat-4-10",
+    "mat-4-14",
+    "mat-4-16",
+    "mat-5-3",
+    "mat-5-5",
+    "mat-5-8",
+    "mat-5-17",
+    "mat-5-21",
+    "mat-5-27",
+    "mat-5-33",
+    "mat-5-38",
+    "mat-5-43",
+    "mat-8-17",
+    "mat-9-13",
+    "mat-11-10",
+    "mat-12-7",
+    "mat-12-17",
+    "mat-12-18"
+  ],
+  "fields": [
+    {
+      "entryId": "mat-2-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Magi follow His star from the east to worship the newborn King. First principle: Balaam's Star out of Jacob and Isaiah's nations coming to His light begin their fulfillment with Gentile pilgrims and a celestial sign.",
+      "density": 2.2714,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sixth commandment is deepened to include causeless anger. First principle: the law written on stone Christ writes on the heart — obedience becomes a matter of the temper, not merely the act.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-9-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the law's own heart — God's priority is covenant love, and He extends it to sinners at table.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hosea 6:6"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 37:11 is folded into the Beatitudes verbatim. First principle: the earth is inherited not by grasp but by meekness — the psalm's order of the kingdom, kept by the meek King.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 24's ascent question — who shall ascend into the hill of the LORD? — answered in beatitude form. First principle: the clean hands and pure heart that see God are given, not earned; Christ is the open vision.",
+      "density": 2.1179,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-43",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Leviticus 19:18 stands; the appended hatred was never written. First principle: the law's love was always meant to reach the enemy — love for neighbour is defined by God, not by proximity.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Leviticus 19:18"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The law and prophets stand until all is fulfilled — in Him. First principle: Christ is the law's goal, not its opponent; every jot and tittle finds its meaning in His obedience and teaching.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-12-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 42:1 quoted nearly verbatim: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the Baptism voice and the Servant Song are the same appointment.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 42:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Father's voice joins Psalm 2's decree to Isaiah 42's delight in the Servant. First principle: Son and Servant are one Person — crowned King and gentle Redeemer in a single sentence from heaven.",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes are Isaiah 61's good-news-to-the-meek restated as covenant blessings — the anointed One now preaches His own charter.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture — but omits to tempt the Lord thy God; promise twisted becomes presumption.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-8-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the atonement's compassion touches body as well as soul; the Sin-Bearer carries the whole burden of the fall.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:4"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The chief priests cite Micah 5:2 for the Messiah's birthplace. Textual proof: Matthew 2:5-6 quotes Micah; Micah 5:2 itself promises a ruler from Bethlehem whose goings forth are from everlasting.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Micah 5:2",
+          "Matthew 2:5",
+          "Micah 5:2"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew quotes Isaiah 7:14: a virgin shall bear a son, and they shall call his name Emmanuel. Textual proof: direct OT quotation; Isaiah 8:8, 10 also use the name. The evangelist identifies Jesus as that child.",
+      "density": 1.8714,
+      "words": 36,
+      "sentences": 3,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 7:14",
+          "Isaiah 8:8"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Oath-law from Leviticus and Numbers is restored to simplicity: yes and no. First principle: truthfulness needs no sworn scaffolding — the law's aim is a heart whose word is always true.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Settling in Nazareth fulfills the prophets' pattern of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner — contempt of Nazareth is itself consonant with prophecy.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Herod's massacre fulfills Jeremiah 31:15 at Ramah's border. First principle: even the grief of Bethlehem was written — and the same chapter that weeps promises the new covenant.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Jeremiah 31:15"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-4-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The kingdoms-for-worship trade is refused with Deuteronomy 6:13. First principle: God alone receives worship — Christ wins the kingdoms legally at Calvary instead of illegally at the mountain.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:13"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-2-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The flight and return fulfill Hosea 11:1. First principle: Israel's history is prophetic pattern — the Son relives the nation's exodus, embodying what Israel could only foreshadow.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hosea 11:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-12-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew quotes the Servant Song as the key to Christ's withdrawn, gentle ministry. First principle: Messiah's manner — no striving, no breaking bruised reeds — was as prophesied as His miracles.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew's first line indexes the whole book: Jesus Christ is David's royal heir and Abraham's promised Seed. First principle: the two great covenant threads — kingship and worldwide blessing — open the genealogy.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 9:2 fulfilled over Galilee: light sprung up in death's shadow. First principle: dawn begins where darkness sat longest — and from that light the kingdom is preached.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 9:2"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The lex talionis was a judge's limit on vengeance; Jesus turns the other cheek. First principle: civil justice restrains evil, but the disciple's personal rule is grace that absorbs wrong.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew marks the move to Capernaum as Isaiah 9 underway. First principle: geography is prophecy — where the Light chooses to shine was written before the move.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-3-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John is Isaiah 40:3 in person — the preparer of the Lord's way. First principle: before the King comes, the road is preached; repentance is the leveling of valleys.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 40:3"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-12-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mercy over sacrifice, again from Hosea — the guiltless are condemned by ritualists. First principle: Sabbath and sacrament serve mercy; the Lord of the Sabbath defines the weightier matter.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-11-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John is Malachi 3:1's messenger, identified by Jesus Himself. First principle: the forerunner prophecy anchors the Messiah's arrival in history — two figures, one written plan.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Malachi 3:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The seventh commandment reaches the look of lust. First principle: the covenant law governs the inner man; purity of heart is the truest chastity.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus answers the second temptation with Deuteronomy 6:16 — It is written again. First principle: Scripture balances Scripture; faith trusts God without forcing Him to prove Himself.",
+      "density": 1.475,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:16"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus answers temptation with Deuteronomy 8:3. Textual proof: each wilderness answer quotes Torah (Deut 8:3; 6:16; 6:13). Scripture is the sufficient authority against the tempter.",
+      "density": 1.2536,
+      "words": 25,
+      "sentences": 3,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 8:3",
+          "Deuteronomy 8:3"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Emmanuel",
+        "original": "עִמָּנוּ אֵל",
+        "translit": "Immanuʾel",
+        "strongs": null,
+        "gloss": "with-us God",
+        "note": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Bethlehem Ephratah",
+        "original": "בֵּית לֶחֶם אֶפְרָתָה",
+        "translit": "Beit Lechem Ephratah",
+        "strongs": null,
+        "gloss": "house of bread, Ephrathah",
+        "note": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-5-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Pure in Heart, for They Shall See God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "An Eye for an Eye, and a Tooth for a Tooth",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Where Is He That Is Born King of the Jews?",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Settled, standing OT text — Jesus' pattern of proof.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "It is written",
+        "original": "γέγραπται",
+        "translit": "gegraptai",
+        "strongs": null,
+        "gloss": "it has been written (perfect)",
+        "note": "Settled, standing OT text — Jesus' pattern of proof.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-4-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The People Which Sat in Darkness Saw Great Light",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Meek, for They Inherit the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Not Come to Destroy, but to Fulfil",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That It Might Be Fulfilled by Esaias the Prophet",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Son of David, the Son of Abraham",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of Egypt Have I Called My Son",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-3-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Voice of One Crying in the Wilderness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Give His Angels Charge Concerning Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Tempt the Lord Thy God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Worship the Lord Thy God Only",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-43",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Love Thy Neighbour — and Hate Thine Enemy",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-11-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, I Send My Messenger Before Thy Face",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of Bethlehem Shall Come a Governor",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That It Might Be Fulfilled by Esaias",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-9-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Have Mercy, and Not Sacrifice",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Ye Had Known What This Meaneth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold My Servant, Whom I Have Chosen",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Be Called a Nazarene",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Poor in Spirit",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Emmanuel — God With Us",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "it has been written (perfect)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "It is written",
+        "original": "γέγραπται",
+        "translit": "gegraptai",
+        "strongs": null,
+        "gloss": "it has been written (perfect)",
+        "note": "Settled, standing OT text — Jesus' pattern of proof.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rachel Weeping for Her Children",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is My Beloved Son",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Commit Adultery",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Forswear Thyself",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Have Heard... Thou Shalt Not Kill",
+      "density": 0.4036,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "house of bread, Ephrathah",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Bethlehem Ephratah",
+        "original": "בֵּית לֶחֶם אֶפְרָתָה",
+        "translit": "Beit Lechem Ephratah",
+        "strongs": null,
+        "gloss": "house of bread, Ephrathah",
+        "note": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-8-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Himself Took Our Infirmities",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "It Is Written",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "with-us God",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Emmanuel",
+        "original": "עִמָּנוּ אֵל",
+        "translit": "Immanuʾel",
+        "strongs": null,
+        "gloss": "with-us God",
+        "note": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

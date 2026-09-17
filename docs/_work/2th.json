@@ -1,0 +1,296 @@
+{
+  "book": "2th",
+  "bookName": "2 Thessalonians",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 10,
+    "entryStrings": 20,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2th-1-10",
+    "2th-1-7",
+    "2th-1-8",
+    "2th-2-11",
+    "2th-2-3",
+    "2th-2-4",
+    "2th-2-8",
+    "2th-2-9",
+    "2th-3-17",
+    "2th-3-3"
+  ],
+  "fields": [
+    {
+      "entryId": "2th-2-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The apostasy and the man of sin precede the Day. First principle: the end has asequence — falling away first, lawless one revealed; Daniel 7's little power and Jesus' deception warnings converge.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Counterfeit power, signs, and lying wonders. First principle: the lawless one photocopies Pentecost — power and signs without truth; Jesus warned of great signs that deceive the very elect.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-2-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The self-deifying exhibition in the temple. First principle: Daniel 11's exalting king and Ezekiel's prince-tyrant are the lineage of this seated blasphemy — the abomination takes a chair.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Wicked is revealed — and destroyed by the breath of His coming. First principle: Isaiah 11's breath-of-lips slaying is the mechanism of the anti-christ's end; a word kills the warrior.",
+      "density": 1.9536,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The judicial lie for those who refused the truth. First principle: delusion is judgment — when truth is resisted, a believed lie becomes God's sentence, as Ahab's lying spirit prefigured.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The admired-in-believers day. First principle: Christ's glory at the coming is displayed in the saints He glorified — the believed testimony becomes visible admiration.",
+      "density": 1.8,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The handwritten token authenticates every epistle. First principle: in an age of forged letters, authenticity is personal — the apostle's signature is the church's security feature.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-3-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Establishment and keeping from evil rest on His faithfulness. First principle: the believer's stability is not self-generated — the Faithful One establishes and guards against the evil one.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-1-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Revelation includes fiery vengeance on the ignorant and the disobedient. First principle: the Isaiah 11 mouth-sword and the flaming judgment belong to the same returning Lord who saved.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Tribulated believers receive rest at the revealed-from-heaven appearing. First principle: rest is timed to revelation — the relief of the troubled arrives with the mighty-angel display.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2th-2-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That Day Shall Not Come, Except There Come a Falling Away First",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Shall Consume Him with the Spirit of His Mouth",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rest with Us, When the Lord Jesus Shall Be Revealed",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When He Shall Come to Be Glorified in His Saints",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-2-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He as God Sitteth in the Temple of God",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whose Coming Is After the Working of Satan",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-3-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Is Faithful, Who Shall Stablish You",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Salutation of Paul with Mine Own Hand",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Shall Send Them Strong Delusion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2th-1-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Flaming Fire Taking Vengeance",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

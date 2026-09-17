@@ -1,0 +1,451 @@
+{
+  "book": "jer",
+  "bookName": "Jeremiah",
+  "part": 1,
+  "parts": 2,
+  "counts": {
+    "entries": 11,
+    "entryStrings": 28,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jer-1-5",
+    "jer-4-23",
+    "jer-7-11",
+    "jer-9-24",
+    "jer-17-9",
+    "jer-23-5",
+    "jer-23-6",
+    "jer-25-12",
+    "jer-29-10",
+    "jer-30-7",
+    "jer-31-9"
+  ],
+  "fields": [
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jeremiah beholds the earth in prophetic vision: \"I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light... I beheld, and, lo, there was no man, and all the birds of the heavens were fled... the fruitful place was a wilderness, and all the cities thereof were broken down at the presence of the LORD.\" This vision describes the desolation of the earth during the 1,000 years of Revelation 20, while Satan is bound in the bottomless pit (abyss/tohu va-bohu). First principle: the earth rests in desolate stillness while the saints reign and judge with Christ in heaven.",
+      "density": 4.1036,
+      "words": 107,
+      "sentences": 3,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch, and a King shall reign and prosper, and shall execute judgment and justice in the earth... and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS. First principle: the King Himself is our righteousness — justification by a Person, not a performance.",
+      "density": 3.3786,
+      "words": 62,
+      "sentences": 3,
+      "maxSentenceWords": 32,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Alas! for that day is great, so that none is like it: it is even the time of Jacob's trouble; but he shall be saved out of it. Like Jacob wrestling at Jabbok in darkness, God's people undergo intense mental anguish under the death decree after probation closes. Holding fast to God's promises with unyielding faith, their deliverance is sealed.",
+      "density": 3.0429,
+      "words": 60,
+      "sentences": 4,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-17-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Desperately wicked; who can know it? First principle: the heart deceives its own owner — only the searching LORD can know it; Jesus traces defilement from the same source.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-9-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Understanding and knowing the LORD who exercises lovingkindness, judgment, righteousness. First principle: the only permitted boast is knowing God's exercised character — Paul quotes it twice and grounds it in Christ.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-29-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I will visit you and perform my good word, causing your return. First principle: the good word performs itself — the visitation promise is dated, and the return is its performance.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-23-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In His days Judah is saved and Israel dwells safely under the Branch's new name. First principle: the name is the gospel — the King Himself is the righteousness His people lack.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-25-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Babylon punished after the numbered years. First principle: exile has an expiration date written before it begins — Daniel reads this very letter and prays.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-7-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The named-house turned robbers' cave, seen by the LORD. First principle: Jeremiah's temple sermon is Jesus' cleansing text — trust in the building while practicing robbery.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sanctified and ordained a prophet before birth. First principle: the prenatal call — Jeremiah, John the Baptist, and the Servant all carry womb-appointed commissions.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Weeping led home by straight ways and rivers. First principle: the father-heart leads weepers; the firstborn title over Ephraim reverses the lost son's status.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without form and void",
+        "original": "תֹּהוּ וָבֹהוּ",
+        "translit": "tohu va-vohu",
+        "strongs": null,
+        "gloss": "unformed and empty / chaotic desolation",
+        "note": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Branch",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth of a plant",
+        "note": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am a Father to Israel, and Ephraim Is My Firstborn",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Time of Jacob's Trouble — Saved Out of It",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Before I Formed Thee in the Belly I Knew Thee",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Earth Desolated — Chaos During the Millennial Prison",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The ultimate crucible of faith before the clouds part.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trouble / distress",
+        "original": "צָרָה",
+        "translit": "tsarah",
+        "strongs": null,
+        "gloss": "dire distress, anguish, extremity",
+        "note": "The ultimate crucible of faith before the clouds part.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Righteous Branch — The LORD Our Righteousness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-9-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Him That Glorieth Glory in This",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-17-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Heart Is Deceitful Above All Things",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-29-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "After Seventy Years Be Accomplished at Babylon",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "unformed and empty / chaotic desolation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without form and void",
+        "original": "תֹּהוּ וָבֹהוּ",
+        "translit": "tohu va-vohu",
+        "strongs": null,
+        "gloss": "unformed and empty / chaotic desolation",
+        "note": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-7-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Is This House... Become a Den of Robbers?",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "sprout, growth of a plant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Branch",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth of a plant",
+        "note": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-25-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When Seventy Years Are Accomplished",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "dire distress, anguish, extremity",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trouble / distress",
+        "original": "צָרָה",
+        "translit": "tsarah",
+        "strongs": null,
+        "gloss": "dire distress, anguish, extremity",
+        "note": "The ultimate crucible of faith before the clouds part.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-23-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "THE LORD OUR RIGHTEOUSNESS",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

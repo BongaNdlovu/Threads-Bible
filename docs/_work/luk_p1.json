@@ -1,0 +1,727 @@
+{
+  "book": "luk",
+  "bookName": "Luke",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 25,
+    "entryStrings": 50,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "luk-1-32",
+    "luk-1-33",
+    "luk-1-69",
+    "luk-1-76",
+    "luk-2-23",
+    "luk-2-32",
+    "luk-3-4",
+    "luk-4-4",
+    "luk-4-8",
+    "luk-4-12",
+    "luk-4-18",
+    "luk-4-21",
+    "luk-7-27",
+    "luk-8-10",
+    "luk-18-8",
+    "luk-18-31",
+    "luk-20-17",
+    "luk-20-42",
+    "luk-21-24",
+    "luk-21-27",
+    "luk-22-37",
+    "luk-24-26",
+    "luk-24-27",
+    "luk-24-44",
+    "luk-24-46"
+  ],
+  "fields": [
+    {
+      "entryId": "luk-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The presentation obeys the law of the LORD: Every male that openeth the womb shall be called holy. First principle: the Redeemer lives under the law He gave — Exodus 13's claim on the firstborn kept to the letter in His own presentation.",
+      "density": 2.5036,
+      "words": 43,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-18-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Going up to Jerusalem, Jesus says everything written by the prophets concerning the Son of man shall be accomplished — betrayal, mock, scourge, death, resurrection. First principle: the Passion week is the most predicted week in history.",
+      "density": 2.3536,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-1-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Gabriel announces the Son of the Highest receiving David's throne. First principle: Gabriel fuses 2 Samuel 7 and Isaiah 9 into one announcement — the covenant Son is both God's Son and David's heir.",
+      "density": 2.2214,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-24-44",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The risen Lord divides the whole canon — the law of Moses, the prophets, and the psalms — as written concerning Him. First principle: every section of the Old Testament carries the thread of Christ.",
+      "density": 2.1321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-21-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "After distress of nations, the Sign appears: the Son of man coming in a cloud with power and great glory. First principle: Daniel 7's Son of man receives the kingdom publicly at the end — redemption draweth nigh.",
+      "density": 2.0929,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-4-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The third wilderness test — throw Yourself down — is refused with Deuteronomy 6:16. First principle: the Messiah will not manufacture proof of Sonship; Israel tested God at Massah, and the true Israel would not.",
+      "density": 2.075,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:16"
+        ]
+      }
+    },
+    {
+      "entryId": "luk-18-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God will avenge His elect speedily — yet the Son of man asks whether faith will remain. First principle: the end-time question is not whether God will act, but whether anyone is still praying when He does.",
+      "density": 2.0679,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-2-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Simeon holds the infant and quotes Isaiah: a light to lighten the Gentiles, and the glory of thy people Israel. First principle: salvation prepared before the face of all people is now carried in two arms.",
+      "density": 2.0429,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-4-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The kingdoms of the world are refused with Deuteronomy 6:13. First principle: worship is God's alone — Christ will take the kingdoms, but by the cross, never by the devil's shortcut.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:13"
+        ]
+      }
+    },
+    {
+      "entryId": "luk-7-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus tells John's disciples who He is by deeds, then tells the crowd who John is — Malachi 3:1's messenger. First principle: the forerunner's identity certifies the identity of the One preceded.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Malachi 3:1"
+        ]
+      }
+    },
+    {
+      "entryId": "luk-22-37",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 53:12 must be accomplished in Me, says Jesus — numbered with criminals, yet ending the law's regime. First principle: Christ dies among the guilty as Scripture said, and the things concerning me have an end.",
+      "density": 1.9286,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:12"
+        ]
+      }
+    },
+    {
+      "entryId": "luk-1-76",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zacharias names his son the prophet of the Highest, going before the Lord to prepare His ways. First principle: Malachi's messenger stands in the birth narrative — John is written prophecy made a crying infant.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-1-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He shall reign over the house of Jacob for ever. First principle: the Davidic kingdom, cut down like a stump, grows into an everlasting dominion in the Son of Mary.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-3-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Luke quotes Isaiah 40:3 over John's ministry: make his paths straight. First principle: the forerunner is literature before he is a man — the wilderness voice written seven centuries earlier.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 40:3"
+        ]
+      }
+    },
+    {
+      "entryId": "luk-8-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Parables both reveal and conceal — Isaiah 6's judicial blindness fulfilled. First principle: the same word softens the willing and hardens the unwilling; the difference is the heart that hears.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-24-46",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thus it is written: suffer, rise the third day, and repentance and remission preached among all nations. First principle: the gospel pattern — death, resurrection, worldwide preaching — is itself the fulfillment of Scripture.",
+      "density": 1.8214,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-1-69",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zacharias blesses God for raising up an horn of salvation in the house of his servant David. First principle: Hannah's horn of His anointed and the Davidic covenant meet in the newborn Christ.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In Nazareth Jesus reads Isaiah 61 and sits down: This day is this scripture fulfilled. First principle: the clearest self-declared fulfillment in Scripture — anointing, gospel, healing, liberty, all in one sentence.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-24-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "From Moses through all the prophets, Christ expounds the things concerning Himself. First principle: the whole Old Testament is Christological — He is its subject, not its appendix.",
+      "density": 1.7643,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-20-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus quotes Psalm 118 against the chief priests. First principle: the rejected Stone becomes the head of the corner — rejection is the very road to exaltation.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-20-42",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David in the Psalms calls his descendant Lord. First principle: Psalm 110 leaves the scribes speechless — the Christ is greater than David, Son yet Sovereign.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-4-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The eyes of all in the synagogue are fastened on Him as He closes the book. First principle: fulfillment is not merely coming — it stands in the room, today.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-4-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ answers the tempter from Deuteronomy: man lives by every word of God. First principle: Israel failed in the wilderness; the true Israel wins there by the written Word.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-24-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The risen Christ teaches that suffering was the required road to glory. First principle: the cross was not an accident of politics but an ought of prophecy.",
+      "density": 1.5321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-21-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Destruction, captivity, and a bounded timespan: until the times of the Gentiles be fulfilled. First principle: prophecy gives even Jerusalem's humiliation an expiration date.",
+      "density": 1.4,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "luk-21-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Son of Man Coming in a Cloud with Power",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-1-69",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "An Horn of Salvation in the House of David",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-8-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto You It Is Given to Know the Mysteries",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-21-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Jerusalem Trodden Down Until the Times of the Gentiles",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-24-46",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thus It Behoved Christ to Suffer and to Rise",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-1-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Of His Kingdom There Shall Be No End",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-1-76",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Prophet of the Highest Preparing His Ways",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-4-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Worship the Lord Thy God Only",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-4-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Tempt the Lord Thy God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Spirit of the Lord Is upon Me",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-18-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Things Written Concerning the Son of Man",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-24-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ought Not Christ to Have Suffered These Things?",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-4-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Man Shall Not Live by Bread Alone",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-7-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Send My Messenger Before Thy Face",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-18-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Shall He Find Faith on the Earth?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-24-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Beginning at Moses He Expounded Concerning Himself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-1-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Throne of His Father David",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Male That Openeth the Womb",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-2-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Light to Lighten the Gentiles",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-3-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Voice Crying in the Wilderness",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-4-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Day Is This Scripture Fulfilled",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-20-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Stone Which the Builders Rejected",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-20-42",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Said unto My Lord",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-22-37",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Was Reckoned Among the Transgressors",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "luk-24-44",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Law, Prophets, and Psalms Concerning Me",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

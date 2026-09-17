@@ -169,7 +169,11 @@ export function ThreadMapPage() {
     if (target) void turnToVerse(target, { inSplit: true });
   };
 
-  const P = mapTheme === 'dark' ? DARK_PAGE : LIGHT_PAGE;
+  const P: PagePalette = (() => {
+    const base = mapTheme === 'dark' ? DARK_PAGE_BASE : LIGHT_PAGE_BASE;
+    const accent = readCssVarHex('--accent', mapTheme === 'dark' ? '#60A5FA' : '#3B82F6');
+    return { ...base, gold: accent };
+  })();
 
   const headerRefText = selectedThread && !isInvalidReference
     ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`
@@ -318,20 +322,30 @@ function snippetOf(text: string): string {
   return clean.length > 220 ? clean.slice(0, 220).replace(/\s+\S*$/, '') + '…' : clean;
 }
 
-const DARK_PAGE = {
+const DARK_PAGE_BASE = {
   bg: '#0B0B0D',
   border: 'rgba(234,230,218,.14)',
   headerBg: 'rgba(16,16,19,.95)',
-  gold: '#60A5FA',
   text: '#EAE6DA',
   ctrlBorder: 'rgba(255,255,255,.15)',
 };
 
-const LIGHT_PAGE = {
+const LIGHT_PAGE_BASE = {
   bg: '#FAF9F6',
   border: 'rgba(44,44,44,.16)',
   headerBg: 'rgba(255,255,255,.95)',
-  gold: '#3B82F6',
   text: '#2C2C2C',
   ctrlBorder: 'rgba(44,44,44,.22)',
 };
+
+type PagePalette = (typeof DARK_PAGE_BASE) & { gold: string };
+
+function readCssVarHex(name: string, fallback: string): string {
+  try {
+    const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    if (!raw) return fallback;
+    return /^#([0-9a-f]{6}|[0-9a-f]{8})$/i.test(raw) ? raw : fallback;
+  } catch {
+    return fallback;
+  }
+}

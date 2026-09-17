@@ -1,0 +1,1311 @@
+/**
+ * CP-03 · STRUCTURAL VERIFY (tool 2 of 3).
+ *
+ * One question: "compared with <base>, did ONLY in-scope prose strings change?"
+ *
+ * Usage:
+ *   npx tsx scripts/cp03StructuralVerify.ts [--book <slug>]... [--base <git-ref>] [--json <path>] [--strict-gate]
+ *   npx tsx scripts/cp03StructuralVerify.ts --chains-only [--base <git-ref>] [--json <path>] [--strict-gate]
+ *
+ *   --book <slug>   check only entries whose id starts with `<slug>-` (repeatable /
+ *                   comma-separated; omitted = every book present on either side).
+ *                   A pillar chain is checked when one of its steps carries a
+ *                   `verseId` from a selected book.
+ *   --chains-only   the DEDICATED CHAIN PASS scope (plan §1.12): verify the pillar-chain
+ *                   group for ALL 36 chains of `threadChains` and skip the per-book groups
+ *                   entirely. The eight checks, the reporting, the exit codes and the
+ *                   --base / --strict-gate semantics are unchanged; what changes is where
+ *                   "in scope" ends. A verse entry is no longer in-scope prose, so skipping
+ *                   the per-book groups cannot hide one: every leaf of every verse entry in
+ *                   BOTH data files is still diffed base vs working tree and any difference
+ *                   FAILS the run, reported under the 'OUTSIDE-CHAINS' group (which exists
+ *                   only in this mode). That is what makes a chain-scope run the proof that
+ *                   the chain pass touched nothing but chain prose. `--book` is ignored.
+ *   --base <ref>    git ref to compare against (default: HEAD)
+ *   --json <path>   write a machine-readable report
+ *   --strict-gate   treat PRE-EXISTING clarity-gate failures (present at <base>) as
+ *                   run failures too. Default: they are listed as PRE-EXISTING notes
+ *                   and do not fail the run, because check 6 then answers "did this
+ *                   change introduce a gate failure?" — see NO_BANNED below.
+ *
+ * PARSING APPROACH (documented, as required — it is a real TypeScript parse, not a
+ * regex sweep of the file):
+ *   Each side of each file (base = `git show <base>:src/data/<file>`, after = the
+ *   working tree on disk) is parsed with the TypeScript compiler API
+ *   (`ts.createSourceFile(..., ScriptKind.TS)`, i.e. the same parser `tsc` uses).
+ *   The AST is walked to the exported initialiser of `threadDetails` / `threadChains`
+ *   (src/data/threadDetails.ts) and `bookThreadDetails` (src/data/bookThreadDetails.ts).
+ *   Object literals become path-addressable leaves keyed exactly like the sweep
+ *   contract: `title`, `principle`, `who`, `whoByRef["John 1:1-3"]`,
+ *   `cumulativePrinciples[0]`, `terms[2].exposition`, `sameTestamentLinks[0].connection`,
+ *   plus `sourceKeywords[1]`, `terms.length`, `steps[3].connection`, `ref`, `id`, ...
+ *   Every leaf value is stored as canonical JSON, so comparison is by VALUE (a
+ *   reformat that leaves a string or an array's order untouched is not a change —
+ *   that is the only relaxation vs. raw byte spans; raw-byte comparison of the two
+ *   source files is implicitly covered because every leaf of every entry is compared).
+ *   The parse is proven by the step-4 self-test: a mutated `sourceKeywords` and a
+ *   dropped citation are both detected, and a zero-unit parse is a hard ERROR
+ *   (never a silent PASS).
+ *
+ * CHECKS (per book group; chains are reported as their own group):
+ *   1 KEYSET              entry-id sets identical, per file
+ *   2 NONPROSE_FIXITY     sourceKeywords / fulfillmentKeywords (values AND order),
+ *                         terms[].term|original|translit|strongs, terms.length,
+ *                         ref, verseId, testament, chainId, id, origin, draft
+ *   3 PROSE_ONLY_WRITES   every difference sits on an in-scope prose path
+ *                         (in --chains-only scope the in-scope prose is CHAIN prose, so
+ *                         every difference in a verse entry is a failure here)
+ *   4 CITATION_FIXITY     <Book> <ch>:<v> and <Book> <ch>:<v>-<v> multisets equal;
+ *                         no bare <ch>:<v> newly introduced without a book name
+ *   5 SCRIPT_FIXITY       Hebrew / Greek run multisets, transliteration fields and
+ *                         /[HG]\d{1,4}/ Strong's tokens unchanged. The corpus is EVERY
+ *                         string leaf of the unit — in-scope prose AND the structural
+ *                         leaves that carry the original languages
+ *                         (terms[].original, terms[].translit, terms[].strongs,
+ *                         sourceKeywords, fulfillmentKeywords, ref/verseId). No
+ *                         original-language text rests on NONPROSE_FIXITY alone.
+ *   6 NO_BANNED           no prose string in the working tree introduces a checkProse()
+ *                         violation that <base> did not already have. Violations that
+ *                         already exist at <base> are printed as PRE-EXISTING notes
+ *                         with the entry/path/detail (never hidden) and are counted in
+ *                         the "strict reading" line; pass --strict-gate to make them
+ *                         fail the run. Measured on the canon at HEAD there are 22 such
+ *                         pre-existing violations (in books with no CP-02 rewrite), so
+ *                         the literal "no prose string at HEAD violates the gate"
+ *                         reading is FAIL canon-wide and PASS for e.g. --book num.
+ *   7 LABEL_FIXITY        the app's own structural labels (First principle:, Textual proof:,
+ *                         WHAT, WHEN, HOW, WHY, JESUS, WHO, YOUR LIFE) are part of the data
+ *                         contract, NOT prose: a rewrite may reword around them but may never
+ *                         remove, add or rename one. Per in-scope prose string, the label
+ *                         multiset of the working tree must equal the <base> one — a count
+ *                         that falls was dropped, a count that rises was invented.
+ *   8 ABBREV_FIXITY       invariant I1: abbreviations stay abbreviations. Per in-scope prose
+ *                         string, the abbreviation-token multiset of the working tree must
+ *                         not fall below the <base> one — a fall means the rewrite EXPANDED
+ *                         or dropped the token (`NT` → "New Testament") and FAILS. Counted
+ *                         tokens: NT, OT, LXX, KJV, YHWH, cf., i.e. plus every book
+ *                         abbreviation of scripts/citationTokens.ts, each matched as a bare
+ *                         token, on word boundaries and case-sensitive (`NT` never matches
+ *                         inside `NTS`, `ot` never matches `OT`). A count that RISES is not a
+ *                         failure (a rewrite may reintroduce an abbreviation) — it is counted
+ *                         and shown. YHWH is the single EXEMPTION: the frozen glossary
+ *                         mandates rendering it `the LORD`, so a fall there is the required
+ *                         behaviour and is reported separately as "N YHWH renderings applied
+ *                         as glossary-mandated".
+ *
+ * In --chains-only scope a second group, 'OUTSIDE-CHAINS', carries the checks' verdict on
+ * the verse entries that the skipped per-book groups would have covered. It is not a book
+ * group: it exists only in that mode, and any issue in it fails the run.
+ *
+ * Exit code: 0 when every check passes, 1 when any check fails (or the parse fails).
+ */
+import { execFileSync } from 'node:child_process';
+import { readFileSync, writeFileSync } from 'node:fs';
+import ts from 'typescript';
+import { BOOK_REGISTRY, BOOK_BY_NAME } from '../src/data/bookRegistry';
+import { normalizeBookName } from '../src/data/refParser';
+import { checkProse, MAX_SENTENCE_WORDS } from './checkReadability';
+import type { ProseViolation } from './checkReadability';
+
+/* ------------------------------------------------------------------- types */
+
+type DataFile = 'threadDetails' | 'bookThreadDetails';
+
+const FILES: { file: DataFile; relPath: string; constName: string; shape: 'entries' | 'chains' }[] = [
+  { file: 'threadDetails', relPath: 'src/data/threadDetails.ts', constName: 'threadDetails', shape: 'entries' },
+  { file: 'threadDetails', relPath: 'src/data/threadDetails.ts', constName: 'threadChains', shape: 'chains' },
+  { file: 'bookThreadDetails', relPath: 'src/data/bookThreadDetails.ts', constName: 'bookThreadDetails', shape: 'entries' },
+];
+
+type Val =
+  | { k: 'str'; v: string }
+  | { k: 'bool'; v: boolean }
+  | { k: 'num'; v: string }
+  | { k: 'arr'; items: Val[] }
+  | { k: 'obj'; props: { name: string; val: Val }[] }
+  | { k: 'raw'; v: string };
+
+interface Unit {
+  id: string;
+  kind: 'entry' | 'chain';
+  file: DataFile;
+  paths: Map<string, string>; // contract path -> canonical JSON value
+  tree: Val;
+}
+
+interface ParsedFile {
+  file: DataFile;
+  constName: string;
+  units: Map<string, Unit>;
+  warnings: string[];
+}
+
+type CheckName =
+  | 'KEYSET'
+  | 'NONPROSE_FIXITY'
+  | 'PROSE_ONLY_WRITES'
+  | 'CITATION_FIXITY'
+  | 'SCRIPT_FIXITY'
+  | 'NO_BANNED'
+  | 'LABEL_FIXITY'
+  | 'ABBREV_FIXITY';
+
+const CHECK_ORDER: CheckName[] = [
+  'KEYSET',
+  'NONPROSE_FIXITY',
+  'PROSE_ONLY_WRITES',
+  'CITATION_FIXITY',
+  'SCRIPT_FIXITY',
+  'NO_BANNED',
+  'LABEL_FIXITY',
+  'ABBREV_FIXITY',
+];
+
+interface Issue {
+  id: string;
+  path: string;
+  message: string;
+  base?: string;
+  after?: string;
+  /** 'note' issues are printed but never fail the run. */
+  severity?: 'note';
+}
+
+interface GroupStats {
+  keyset: { base: number; after: number };
+  nonProseLeaves: number;
+  proseLeaves: number;
+  citations: number;
+  addedCitations: number;
+  droppedCitations: number;
+  newBareCitations: number;
+  droppedBareCitations: number;
+  hebrew: number;
+  greek: number;
+  translit: number;
+  strongs: number;
+  scriptLeaves: number;
+  bannedChecked: number;
+  bannedBase: number;
+  bannedNew: number;
+  bannedPreexisting: number;
+  bannedResolved: number;
+  labelChecked: number;
+  labelOccurrences: number;
+  labelsAdded: number;
+  labelsDropped: number;
+  abbrevChecked: number;
+  abbrevOccurrences: number;
+  abbrevDropped: number;
+  abbrevAdded: number;
+  abbrevYhwh: number;
+}
+
+const CHAIN_GROUP = 'CHAINS';
+/** Chain-scope only: the verse entries the skipped per-book groups would have covered.
+ *  Any issue reported under this group fails the run, because in --chains-only scope the
+ *  only in-scope prose is chain prose. */
+const OUTSIDE_CHAIN_GROUP = 'OUTSIDE-CHAINS';
+
+/* --------------------------------------------------------------- utilities */
+
+function escapeRe(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function displayVal(canonical: string | undefined, max = 120): string {
+  if (canonical === undefined) return '(absent)';
+  let text = canonical;
+  try {
+    const parsed = JSON.parse(canonical);
+    text = typeof parsed === 'string' ? parsed : JSON.stringify(parsed);
+  } catch {
+    /* raw leaf: use as-is */
+  }
+  const flat = text.replace(/\s+/g, ' ').trim();
+  return flat.length > max ? `${flat.slice(0, max)}…` : flat;
+}
+
+function multisetDiff(before: string[], after: string[]): { added: string[]; dropped: string[] } {
+  const count = (xs: string[]): Map<string, number> => {
+    const m = new Map<string, number>();
+    for (const x of xs) m.set(x, (m.get(x) ?? 0) + 1);
+    return m;
+  };
+  const b = count(before);
+  const a = count(after);
+  const added: string[] = [];
+  const dropped: string[] = [];
+  for (const [k, n] of a) {
+    const d = n - (b.get(k) ?? 0);
+    for (let i = 0; i < d; i++) added.push(k);
+  }
+  for (const [k, n] of b) {
+    const d = n - (a.get(k) ?? 0);
+    for (let i = 0; i < d; i++) dropped.push(k);
+  }
+  added.sort();
+  dropped.sort();
+  return { added, dropped };
+}
+
+/* ------------------------------------------------------------ TS AST parse */
+
+function pathJoin(prefix: string, name: string): string {
+  const safe = /^[A-Za-z_$][A-Za-z0-9_$]*$/.test(name);
+  if (!prefix) return safe ? name : `["${name}"]`;
+  return safe ? `${prefix}.${name}` : `${prefix}["${name}"]`;
+}
+
+function nodeToVal(node: ts.Node, sf: ts.SourceFile): Val {
+  if (ts.isStringLiteral(node) || ts.isNoSubstitutionTemplateLiteral(node)) {
+    return { k: 'str', v: node.text };
+  }
+  if (node.kind === ts.SyntaxKind.TrueKeyword) return { k: 'bool', v: true };
+  if (node.kind === ts.SyntaxKind.FalseKeyword) return { k: 'bool', v: false };
+  if (ts.isNumericLiteral(node)) return { k: 'num', v: node.getText(sf) };
+  if (ts.isArrayLiteralExpression(node)) {
+    return { k: 'arr', items: node.elements.map(e => nodeToVal(e, sf)) };
+  }
+  if (ts.isObjectLiteralExpression(node)) {
+    const props: { name: string; val: Val }[] = [];
+    for (const p of node.properties) {
+      if (ts.isPropertyAssignment(p)) {
+        const name = ts.isIdentifier(p.name) || ts.isStringLiteral(p.name) || ts.isNumericLiteral(p.name)
+          ? p.name.text
+          : p.name.getText(sf);
+        props.push({ name, val: nodeToVal(p.initializer, sf) });
+      } else if (ts.isShorthandPropertyAssignment(p)) {
+        props.push({ name: p.name.text, val: { k: 'raw', v: p.name.text } });
+      } else {
+        props.push({ name: p.getText(sf).slice(0, 40), val: { k: 'raw', v: p.getText(sf) } });
+      }
+    }
+    return { k: 'obj', props };
+  }
+  return { k: 'raw', v: node.getText(sf).replace(/\s+/g, ' ').trim() };
+}
+
+function flatten(prefix: string, val: Val, out: Map<string, string>): void {
+  switch (val.k) {
+    case 'str':
+      out.set(prefix, JSON.stringify(val.v));
+      return;
+    case 'bool':
+      out.set(prefix, val.v ? 'true' : 'false');
+      return;
+    case 'num':
+      out.set(prefix, val.v);
+      return;
+    case 'raw':
+      out.set(prefix, JSON.stringify(val.v));
+      return;
+    case 'arr':
+      out.set(`${prefix}.length`, String(val.items.length));
+      val.items.forEach((item, i) => flatten(`${prefix}[${i}]`, item, out));
+      return;
+    case 'obj':
+      for (const p of val.props) flatten(pathJoin(prefix, p.name), p.val, out);
+      return;
+  }
+}
+
+function findExportedConst(sf: ts.SourceFile, name: string): ts.Expression | null {
+  for (const stmt of sf.statements) {
+    if (!ts.isVariableStatement(stmt)) continue;
+    const exported = stmt.modifiers?.some(m => m.kind === ts.SyntaxKind.ExportKeyword) ?? false;
+    if (!exported) continue;
+    for (const decl of stmt.declarationList.declarations) {
+      if (ts.isIdentifier(decl.name) && decl.name.text === name && decl.initializer) return decl.initializer;
+    }
+  }
+  return null;
+}
+
+function parseSide(text: string, spec: (typeof FILES)[number], warnings: string[]): ParsedFile {
+  const sf = ts.createSourceFile(spec.relPath, text, ts.ScriptTarget.Latest, true, ts.ScriptKind.TS);
+  const units = new Map<string, Unit>();
+  const init = findExportedConst(sf, spec.constName);
+  if (!init) {
+    warnings.push(`could not find exported const ${spec.constName} in ${spec.relPath}`);
+    return { file: spec.file, constName: spec.constName, units, warnings };
+  }
+  if (spec.shape === 'entries') {
+    if (!ts.isObjectLiteralExpression(init)) {
+      warnings.push(`${spec.constName} initialiser is not an object literal`);
+      return { file: spec.file, constName: spec.constName, units, warnings };
+    }
+    for (const p of init.properties) {
+      if (!ts.isPropertyAssignment(p)) continue;
+      const key = ts.isIdentifier(p.name) || ts.isStringLiteral(p.name) || ts.isNumericLiteral(p.name)
+        ? p.name.text
+        : p.name.getText(sf);
+      const tree = nodeToVal(p.initializer, sf);
+      const paths = new Map<string, string>();
+      flatten('', tree, paths);
+      units.set(key, { id: key, kind: 'entry', file: spec.file, paths, tree });
+    }
+  } else {
+    if (!ts.isArrayLiteralExpression(init)) {
+      warnings.push(`${spec.constName} initialiser is not an array literal`);
+      return { file: spec.file, constName: spec.constName, units, warnings };
+    }
+    init.elements.forEach((el, idx) => {
+      const tree = nodeToVal(el, sf);
+      const paths = new Map<string, string>();
+      flatten('', tree, paths);
+      const rawId = paths.get('id');
+      let id = `chain[${idx}]`;
+      if (rawId) {
+        try {
+          const parsed = JSON.parse(rawId);
+          if (typeof parsed === 'string' && parsed) id = parsed;
+        } catch {
+          /* keep fallback */
+        }
+      } else {
+        warnings.push(`chain at index ${idx} has no string id; keyed as ${id}`);
+      }
+      units.set(id, { id, kind: 'chain', file: spec.file, paths, tree });
+    });
+  }
+  return { file: spec.file, constName: spec.constName, units, warnings };
+}
+
+/* ---------------------------------------------------- contract path predicates */
+
+const PROSE_PATH_RES: RegExp[] = [
+  /^(title|principle|who)$/,
+  /^whoByRef\[".*"\]$/,
+  /^cumulativePrinciples\[\d+\]$/,
+  /^terms\[\d+\]\.(gloss|note|exposition)$/,
+  /^sameTestamentLinks\[\d+\]\.connection$/,
+  /^name$/,
+  /^steps\[\d+\]\.(title|connection)$/,
+];
+
+const NONPROSE_PATH_RES: RegExp[] = [
+  /^(sourceKeywords|fulfillmentKeywords)$/,
+  /^(sourceKeywords|fulfillmentKeywords)\[\d+\]$/,
+  /^(sourceKeywords|fulfillmentKeywords)\.length$/,
+  /^terms\.length$/,
+  /^terms\[\d+\]\.(term|original|translit|strongs)$/,
+  /^(ref|verseId|testament|chainId|id|origin|draft)$/,
+  /^steps\[\d+\]\.(ref|verseId|testament)$/,
+];
+
+function isProsePath(p: string): boolean {
+  return PROSE_PATH_RES.some(re => re.test(p));
+}
+
+function isNonProseFixityPath(p: string): boolean {
+  return NONPROSE_PATH_RES.some(re => re.test(p));
+}
+
+function proseEntries(u: Unit): { path: string; text: string }[] {
+  const out: { path: string; text: string }[] = [];
+  for (const [p, canonical] of u.paths) {
+    if (!isProsePath(p)) continue;
+    if (p === 'terms.length' || p.endsWith('.length')) continue;
+    try {
+      const parsed = JSON.parse(canonical);
+      if (typeof parsed === 'string') out.push({ path: p, text: parsed });
+    } catch {
+      /* non-string leaf on a prose path: ignore */
+    }
+  }
+  out.sort((a, b) => a.path.localeCompare(b.path));
+  return out;
+}
+
+/** Every string leaf of a unit — in-scope prose plus the structural leaves that
+ *  carry the original languages (terms[].original / .translit / .strongs, keywords,
+ *  refs). This is the corpus SCRIPT_FIXITY compares, so no original-language text
+ *  depends on NONPROSE_FIXITY alone. */
+function allStringLeaves(u: Unit): string[] {
+  const out: string[] = [];
+  for (const [p, canonical] of u.paths) {
+    if (p.endsWith('.length')) continue;
+    try {
+      const parsed = JSON.parse(canonical);
+      if (typeof parsed === 'string') {
+        out.push(parsed);
+        continue;
+      }
+      if (Array.isArray(parsed)) {
+        for (const item of parsed) if (typeof item === 'string') out.push(item);
+      }
+    } catch {
+      /* raw (non-literal) leaf: not text */
+    }
+  }
+  out.sort();
+  return out;
+}
+
+/* --------------------------------------------------------- citation tokens */
+
+export { ABBREVIATIONS } from './citationTokens';
+import { ABBREVIATIONS as CITATION_ABBREVIATIONS } from './citationTokens';
+
+const ABBREVIATIONS_LOCAL = [...CITATION_ABBREVIATIONS];
+
+const BOOK_ALT = (() => {
+  const all = [...BOOK_REGISTRY.map(b => b.name), ...ABBREVIATIONS_LOCAL];
+  const uniq = Array.from(new Set(all)).sort((a, b) => b.length - a.length || a.localeCompare(b));
+  return uniq.map(escapeRe).join('|');
+})();
+
+const CITATION_RE = new RegExp(
+  `(?:^|[^\\p{L}\\p{N}])` + // boundary before the book name
+    `([1-3]?\\s?(?:${BOOK_ALT}))\\.?` + // book name (captured)
+    `\\s+(\\d{1,3}):(\\d{1,3})` + // chapter:verse
+    `(?:\\s*-\\s*(\\d{1,3})(?::(\\d{1,3}))?)?`, // optional -verse or -chapter:verse
+  'gu'
+);
+
+const BARE_RE = /(?<![\d:])(\d{1,3}):(\d{1,3})(?:\s*-\s*(\d{1,3}))?/g;
+
+interface CitationScan {
+  citations: string[];
+  bare: string[];
+}
+
+function scanCitations(text: string): CitationScan {
+  const citations: string[] = [];
+  const spans: [number, number][] = [];
+  const prefixLen = (m: RegExpExecArray): number => {
+    const first = m[0].length;
+    const rest = m[0].replace(/^[^\p{L}\p{N}]/u, '').length;
+    return first - rest;
+  };
+  for (const m of text.matchAll(CITATION_RE)) {
+    const rawBook = m[1];
+    const canonical = normalizeBookName(rawBook);
+    if (!BOOK_BY_NAME[canonical]) continue; // candidate was not a book name
+    const ch = m[2];
+    const v = m[3];
+    const endV = m[4];
+    const endCh = m[5];
+    const token = endCh
+      ? `${canonical} ${ch}:${v}-${endCh}:${endV}`
+      : endV
+        ? `${canonical} ${ch}:${v}-${endV}`
+        : `${canonical} ${ch}:${v}`;
+    citations.push(token);
+    const start = (m.index ?? 0) + prefixLen(m);
+    spans.push([start, (m.index ?? 0) + m[0].length]);
+  }
+
+  const bare: string[] = [];
+  for (const m of text.matchAll(BARE_RE)) {
+    const start = m.index ?? 0;
+    const end = start + m[0].length;
+    if (spans.some(([s, e]) => start < e && end > s)) continue; // already part of a book-qualified citation
+    bare.push(m[3] ? `${m[1]}:${m[2]}-${m[3]}` : `${m[1]}:${m[2]}`);
+  }
+  return { citations, bare };
+}
+
+/* ------------------------------------------------------------ script tokens */
+
+const HEBREW_RE = /[\u0590-\u05FF]+/g;
+const GREEK_RE = /[\u0370-\u03FF\u1F00-\u1FFF]+/g;
+const STRONGS_RE = /[HG]\d{1,4}/g;
+
+function matches(text: string, re: RegExp): string[] {
+  const out: string[] = [];
+  for (const m of text.matchAll(re)) out.push(m[0]);
+  return out;
+}
+
+/* -------------------------------------------------------------- label tokens */
+
+/** The app's OWN structural labels. These are part of the data contract, not prose: the
+ *  served app renders them as fixed markers, so a plain-language rewrite may reword the
+ *  words around them but may never remove, add or rename one (plan invariant I1;
+ *  docs/CP-01_FULL_CANON_BASELINE_V2.md §4). A label ending in `:` is tested as a plain
+ *  substring; the bare uppercase labels are tested on word boundaries, case-sensitive, so
+ *  `WHO` does not match inside `WHOSE`. Occurrences are COUNTED, not merely detected: a
+ *  count that falls was dropped, a count that rises was invented. */
+const COLON_LABELS = ['First principle:', 'Textual proof:'];
+const BARE_LABELS = ['WHAT', 'WHEN', 'HOW', 'WHY', 'JESUS', 'WHO', 'YOUR LIFE'];
+const LABEL_RES: { label: string; re: RegExp }[] = [
+  ...COLON_LABELS.map(label => ({ label, re: new RegExp(escapeRe(label), 'g') })),
+  ...BARE_LABELS.map(label => ({ label, re: new RegExp(`\\b${escapeRe(label)}\\b`, 'g') })),
+];
+
+function labelCounts(text: string): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const { label, re } of LABEL_RES) out.set(label, matches(text, re).length);
+  return out;
+}
+
+/* -------------------------------------------------------- abbreviation tokens */
+
+/** Invariant I1: abbreviations stay abbreviations. A plain-language rewrite may reword
+ *  AROUND an abbreviation but must never EXPAND one — two drafts of the sweep turned `OT`
+ *  into "Old Testament" and `NT` into "New Testament" and neither SCRIPT_FIXITY (Hebrew /
+ *  Greek / transliteration / Strong's) nor LABEL_FIXITY (a fixed label list) could see it.
+ *  The corpus is the in-scope prose strings, the baseline is the <base> revision, and the
+ *  comparison is a MULTISET comparison per token: a count that falls was expanded or
+ *  dropped, a count that rises was legitimately reintroduced (counted, never a failure).
+ *  Tokens are matched as bare tokens, on word boundaries and case-SENSITIVE, so `NT` does
+ *  not match inside `NTS` and `ot` does not match `OT`; the alternation is longest-first so
+ *  `1 John` wins over `John`. */
+const ABBREV_TOKENS: string[] = Array.from(
+  new Set(['NT', 'OT', 'LXX', 'KJV', 'YHWH', 'cf.', 'i.e.', ...CITATION_ABBREVIATIONS])
+).sort((a, b) => b.length - a.length || a.localeCompare(b));
+
+const ABBREV_ALT = ABBREV_TOKENS.map(escapeRe).join('|');
+
+const ABBREV_RE = new RegExp(`(?<![\\p{L}\\p{N}])(?:${ABBREV_ALT})(?![\\p{L}\\p{N}])`, 'gu');
+
+/** The one EXEMPT token. The frozen glossary mandates rendering `YHWH` as `the LORD`, so a
+ *  FALL in this token is the required behaviour, not a defect: it is counted separately and
+ *  reported as a glossary-mandated rendering instead of failing the run. */
+const ABBREV_EXEMPT_TOKEN = 'YHWH';
+
+function abbrevCounts(text: string): Map<string, number> {
+  const out = new Map<string, number>();
+  for (const m of text.matchAll(ABBREV_RE)) out.set(m[0], (out.get(m[0]) ?? 0) + 1);
+  return out;
+}
+
+/* -------------------------------------------------------------- CLI options */
+
+interface Options {
+  books: string[];
+  base: string;
+  jsonPath: string | null;
+  strictGate: boolean;
+  /** Verify the pillar-chain group for ALL chains and skip the per-book groups. */
+  chainsOnly: boolean;
+  warnings: string[];
+}
+
+function parseArgs(argv: string[]): Options {
+  const opts: Options = { books: [], base: 'HEAD', jsonPath: null, strictGate: false, chainsOnly: false, warnings: [] };
+  const addBooks = (v: string): void => {
+    for (const part of v.split(',')) {
+      const slug = part.trim().toLowerCase();
+      if (!slug) continue;
+      if (!BOOK_REGISTRY.some(b => b.slug === slug)) opts.warnings.push(`unknown book slug "${slug}" (not in BOOK_REGISTRY)`);
+      opts.books.push(slug);
+    }
+  };
+  for (let i = 0; i < argv.length; i++) {
+    const arg = argv[i];
+    if (arg === '--book') {
+      const v = argv[++i];
+      if (!v) opts.warnings.push('--book needs a slug; ignored');
+      else addBooks(v);
+    } else if (arg.startsWith('--book=')) {
+      addBooks(arg.slice('--book='.length));
+    } else if (arg === '--base') {
+      const v = argv[++i];
+      if (!v) opts.warnings.push('--base needs a git ref; keeping HEAD');
+      else opts.base = v;
+    } else if (arg.startsWith('--base=')) {
+      opts.base = arg.slice('--base='.length);
+    } else if (arg === '--json') {
+      const v = argv[++i];
+      if (!v) opts.warnings.push('--json needs a path; ignored');
+      else opts.jsonPath = v;
+    } else if (arg.startsWith('--json=')) {
+      opts.jsonPath = arg.slice('--json='.length);
+    } else if (arg === '--strict-gate') {
+      opts.strictGate = true;
+    } else if (arg === '--chains-only') {
+      opts.chainsOnly = true;
+    } else {
+      opts.warnings.push(`unrecognised argument "${arg}" ignored`);
+    }
+  }
+  opts.books = Array.from(new Set(opts.books));
+  return opts;
+}
+
+/* --------------------------------------------------------------------- main */
+
+interface CheckResult {
+  group: string;
+  check: CheckName;
+  pass: boolean;
+  summary: string;
+  issues: Issue[];
+}
+
+function main(): void {
+  const opts = parseArgs(process.argv.slice(2));
+  const chainsOnly = opts.chainsOnly;
+  const selected = new Set(opts.books);
+  const bookSelected = (slug: string): boolean => selected.size === 0 || selected.has(slug);
+  if (chainsOnly && selected.size > 0) {
+    opts.warnings.push('--book ignored with --chains-only: chain scope always covers every pillar chain');
+  }
+
+  let baseSha = '';
+  try {
+    baseSha = execFileSync('git', ['rev-parse', '--short', opts.base], { encoding: 'utf8' }).trim();
+  } catch {
+    baseSha = '(unknown)';
+  }
+
+  const baseTexts = new Map<string, string>();
+  for (const rel of Array.from(new Set(FILES.map(f => f.relPath)))) {
+    try {
+      baseTexts.set(
+        rel,
+        execFileSync('git', ['show', `${opts.base}:${rel}`], {
+          encoding: 'utf8',
+          maxBuffer: 128 * 1024 * 1024,
+        })
+      );
+    } catch (err) {
+      console.log(`ERROR: could not read ${rel} at ${opts.base}: ${(err as Error).message}`);
+      process.exit(1);
+    }
+  }
+
+  console.log('=== CP-03 STRUCTURAL VERIFY — "compared with ' + opts.base + ', did ONLY in-scope prose strings change?" ===');
+  console.log(`base: ${opts.base} = ${baseSha}`);
+  const scopeLabel = chainsOnly
+    ? 'PILLAR CHAINS — all chains (threadChains)'
+    : selected.size === 0
+      ? 'ALL BOOKS'
+      : Array.from(selected).join(', ');
+  const chainScopeLabel = chainsOnly ? 'all' : selected.size === 0 ? 'all' : 'those carrying a selected-book step';
+  console.log(`scope: ${scopeLabel} | chains: ${chainScopeLabel}`);
+  if (chainsOnly) {
+    console.log('       per-book groups are SKIPPED, and the verse entries they would have covered are checked for isolation instead:');
+    console.log('       every leaf of every verse entry in BOTH data files is diffed base vs working tree — any change there FAILS the run.');
+  }
+  console.log('parse: TypeScript compiler API (ts.createSourceFile) over the exported threadDetails / threadChains / bookThreadDetails ASTs;');
+  console.log('       leaves flattened to contract paths and compared as canonical JSON values, base vs working tree.');
+  console.log(`gate: checkProse() from scripts/checkReadability.ts (MAX_SENTENCE_WORDS=${MAX_SENTENCE_WORDS})`);
+  for (const w of opts.warnings) console.log(`WARNING: ${w}`);
+
+  const allResults: CheckResult[] = [];
+  const parseWarnings: string[] = [];
+  const coverage = {
+    books: 0,
+    entries: 0,
+    chains: 0,
+    verseEntriesChecked: 0,
+    outsideChainChanges: 0,
+    nonProseLeaves: 0,
+    proseLeaves: 0,
+    proseStrings: 0,
+    scriptLeaves: 0,
+    hebrew: 0,
+    greek: 0,
+    translit: 0,
+    strongs: 0,
+    citations: 0,
+    abbrevTokens: 0,
+    abbrevDropped: 0,
+    abbrevAdded: 0,
+    abbrevYhwh: 0,
+    bannedNew: 0,
+    bannedPreexisting: 0,
+  };
+
+  for (const spec of FILES) {
+    const baseParsed = parseSide(baseTexts.get(spec.relPath)!, spec, parseWarnings);
+    let afterText = '';
+    try {
+      afterText = readFileSync(spec.relPath, 'utf8');
+    } catch (err) {
+      console.log(`ERROR: could not read ${spec.relPath} from the working tree: ${(err as Error).message}`);
+      process.exit(1);
+    }
+    const afterParsed = parseSide(afterText, spec, parseWarnings);
+
+    // Hard safety: a parse that finds nothing must never look like a PASS.
+    if (baseParsed.units.size === 0 || afterParsed.units.size === 0) {
+      console.log(`ERROR: ${spec.constName} parsed to ${baseParsed.units.size} base / ${afterParsed.units.size} working-tree units — refusing to report a verdict.`);
+      process.exit(1);
+    }
+
+    const groupOf = (u: Unit): string => (u.kind === 'chain' ? CHAIN_GROUP : u.id.split('-')[0]);
+
+    const chainTouchesSelection = (u: Unit): boolean => {
+      if (selected.size === 0) return true;
+      for (const [p, canonical] of u.paths) {
+        if (!/^steps\[\d+\]\.verseId$/.test(p)) continue;
+        try {
+          const verseId = JSON.parse(canonical);
+          if (typeof verseId === 'string') {
+            const slug = verseId.split('-')[0];
+            if (selected.has(slug)) return true;
+          }
+        } catch {
+          /* ignore */
+        }
+      }
+      return false;
+    };
+
+    const inScope = (u: Unit): boolean =>
+      chainsOnly
+        ? u.kind === 'chain' // chain scope: all 36 pillar chains, in every file that has them
+        : u.kind === 'chain'
+          ? chainTouchesSelection(u)
+          : bookSelected(u.id.split('-')[0]);
+
+    // ---- group accumulators ----
+    const groups = new Map<string, GroupStats>();
+    const issues = new Map<string, Map<CheckName, Issue[]>>();
+    const statsFor = (g: string): GroupStats => {
+      const s = groups.get(g);
+      if (s) return s;
+      const fresh: GroupStats = {
+        keyset: { base: 0, after: 0 },
+        nonProseLeaves: 0,
+        proseLeaves: 0,
+        citations: 0,
+        addedCitations: 0,
+        droppedCitations: 0,
+        newBareCitations: 0,
+        droppedBareCitations: 0,
+        hebrew: 0,
+        greek: 0,
+        translit: 0,
+        strongs: 0,
+        scriptLeaves: 0,
+        bannedChecked: 0,
+        bannedBase: 0,
+        bannedNew: 0,
+        bannedPreexisting: 0,
+        bannedResolved: 0,
+        labelChecked: 0,
+        labelOccurrences: 0,
+        labelsAdded: 0,
+        labelsDropped: 0,
+        abbrevChecked: 0,
+        abbrevOccurrences: 0,
+        abbrevDropped: 0,
+        abbrevAdded: 0,
+        abbrevYhwh: 0,
+      };
+      groups.set(g, fresh);
+      return fresh;
+    };
+    const addIssue = (g: string, check: CheckName, issue: Issue): void => {
+      const byGroup = issues.get(g) ?? new Map<CheckName, Issue[]>();
+      const list = byGroup.get(check) ?? [];
+      list.push(issue);
+      byGroup.set(check, list);
+      issues.set(g, byGroup);
+    };
+
+    // ---- 1. KEYSET (scoped to the selected books; chains when they carry a selected step) ----
+    for (const [id, afterUnit] of afterParsed.units) {
+      if (!inScope(afterUnit)) continue;
+      const g = groupOf(afterUnit);
+      const s = statsFor(g);
+      s.keyset.after++;
+      const baseUnit = baseParsed.units.get(id);
+      if (baseUnit) s.keyset.base++;
+      else addIssue(g, 'KEYSET', { id, path: '(entry id)', message: `added in the working tree (not present at ${opts.base})` });
+    }
+    for (const [id, baseUnit] of baseParsed.units) {
+      if (!inScope(baseUnit)) continue;
+      if (!afterParsed.units.has(id)) {
+        addIssue(groupOf(baseUnit), 'KEYSET', { id, path: '(entry id)', message: `removed in the working tree (present at ${opts.base})` });
+      }
+    }
+
+    // ---- per-unit checks ----
+    for (const [id, afterUnit] of afterParsed.units) {
+      if (!inScope(afterUnit)) continue;
+      const g = groupOf(afterUnit);
+      const s = statsFor(g);
+      const baseUnit = baseParsed.units.get(id);
+      if (!baseUnit) continue;
+
+      // 2 + 3: structural fixity and prose-only writes
+      const allPaths = new Set<string>([...baseUnit.paths.keys(), ...afterUnit.paths.keys()]);
+      for (const p of allPaths) {
+        const b = baseUnit.paths.get(p);
+        const a = afterUnit.paths.get(p);
+        if (isProsePath(p)) s.proseLeaves++;
+        else s.nonProseLeaves++;
+        if (b === a) continue;
+        if (isNonProseFixityPath(p)) {
+          addIssue(g, 'NONPROSE_FIXITY', {
+            id,
+            path: p,
+            message: b === undefined ? 'added (absent at base)' : a === undefined ? 'removed (present at base)' : 'value changed',
+            base: displayVal(b),
+            after: displayVal(a),
+          });
+        }
+        if (!isProsePath(p)) {
+          addIssue(g, 'PROSE_ONLY_WRITES', {
+            id,
+            path: p,
+            message: b === undefined ? 'added outside the prose contract' : a === undefined ? 'removed outside the prose contract' : 'changed outside the prose contract',
+            base: displayVal(b),
+            after: displayVal(a),
+          });
+        }
+      }
+
+      // 4: citations
+      const baseProse = proseEntries(baseUnit);
+      const afterProse = proseEntries(afterUnit);
+      const baseScan = scanCitations(baseProse.map(p => p.text).join('\n'));
+      const afterScan = scanCitations(afterProse.map(p => p.text).join('\n'));
+      s.citations += afterScan.citations.length;
+      const citeDiff = multisetDiff(baseScan.citations, afterScan.citations);
+      s.addedCitations += citeDiff.added.length;
+      s.droppedCitations += citeDiff.dropped.length;
+      for (const c of citeDiff.added) {
+        addIssue(g, 'CITATION_FIXITY', { id, path: '(citation)', message: 'citation ADDED', after: c });
+      }
+      for (const c of citeDiff.dropped) {
+        addIssue(g, 'CITATION_FIXITY', { id, path: '(citation)', message: 'citation DROPPED', base: c });
+      }
+      const bareDiff = multisetDiff(baseScan.bare, afterScan.bare);
+      s.newBareCitations += bareDiff.added.length;
+      s.droppedBareCitations += bareDiff.dropped.length;
+      for (const c of bareDiff.added) {
+        addIssue(g, 'CITATION_FIXITY', {
+          id,
+          path: '(bare citation)',
+          message: 'bare chapter:verse newly introduced with no book name in the same string',
+          after: c,
+        });
+      }
+      for (const c of bareDiff.dropped) {
+        addIssue(g, 'CITATION_FIXITY', {
+          id,
+          path: '(bare citation)',
+          message: 'bare chapter:verse dropped (informational, not a failure)',
+          base: c,
+          severity: 'note',
+        });
+      }
+
+      // 5: script / transliteration / Strong's
+      // The script corpus is EVERY string leaf of the unit — in-scope prose AND the
+      // structural leaves that carry the original languages (terms[].original,
+      // terms[].translit, terms[].strongs, keywords, refs). Nothing is left to
+      // NONPROSE_FIXITY alone.
+      const baseLeaves = allStringLeaves(baseUnit);
+      const afterLeaves = allStringLeaves(afterUnit);
+      const baseBlob = baseLeaves.join('\n');
+      const afterBlob = afterLeaves.join('\n');
+      s.scriptLeaves += afterLeaves.length;
+      const hebrewDiff = multisetDiff(matches(baseBlob, HEBREW_RE), matches(afterBlob, HEBREW_RE));
+      const greekDiff = multisetDiff(matches(baseBlob, GREEK_RE), matches(afterBlob, GREEK_RE));
+      s.hebrew += matches(afterBlob, HEBREW_RE).length;
+      s.greek += matches(afterBlob, GREEK_RE).length;
+      for (const run of hebrewDiff.added) addIssue(g, 'SCRIPT_FIXITY', { id, path: '(Hebrew run)', message: 'Hebrew run ADDED', after: run });
+      for (const run of hebrewDiff.dropped) addIssue(g, 'SCRIPT_FIXITY', { id, path: '(Hebrew run)', message: 'Hebrew run DROPPED', base: run });
+      for (const run of greekDiff.added) addIssue(g, 'SCRIPT_FIXITY', { id, path: '(Greek run)', message: 'Greek run ADDED', after: run });
+      for (const run of greekDiff.dropped) addIssue(g, 'SCRIPT_FIXITY', { id, path: '(Greek run)', message: 'Greek run DROPPED', base: run });
+
+      const translitPaths = allPaths.has('terms.length') || [...afterUnit.paths.keys()].some(p => /^terms\[\d+\]\.translit$/.test(p));
+      if (translitPaths) {
+        const tPaths = Array.from(new Set([...baseUnit.paths.keys(), ...afterUnit.paths.keys()])).filter(p => /^terms\[\d+\]\.translit$/.test(p)).sort();
+        const bT = tPaths.map(p => displayVal(baseUnit.paths.get(p))).filter(x => x !== '(absent)');
+        const aT = tPaths.map(p => displayVal(afterUnit.paths.get(p))).filter(x => x !== '(absent)');
+        s.translit += aT.length;
+        const d = multisetDiff(bT, aT);
+        for (const t of d.added) addIssue(g, 'SCRIPT_FIXITY', { id, path: 'terms[].translit', message: 'transliteration ADDED', after: t });
+        for (const t of d.dropped) addIssue(g, 'SCRIPT_FIXITY', { id, path: 'terms[].translit', message: 'transliteration DROPPED', base: t });
+      }
+
+      const sDiff = multisetDiff(matches(baseBlob, STRONGS_RE), matches(afterBlob, STRONGS_RE));
+      s.strongs += matches(afterBlob, STRONGS_RE).length;
+      for (const t of sDiff.added) addIssue(g, 'SCRIPT_FIXITY', { id, path: '(Strong\'s token)', message: "Strong's token ADDED", after: t });
+      for (const t of sDiff.dropped) addIssue(g, 'SCRIPT_FIXITY', { id, path: "(Strong's token)", message: "Strong's token DROPPED", base: t });
+
+      // 6: clarity gate on the working-tree prose.
+      // A violation that ALREADY exists at base is CP-02 backlog, not a regression:
+      // it is reported as a PRE-EXISTING note (visible, never hidden) and only fails
+      // the run under --strict-gate. A violation that is NEW in the working tree is a
+      // hard FAIL. The strict literal reading of the check ("no prose string at HEAD
+      // violates the gate") is always printed as an explicit strict-verdict line.
+      const baseFailing = new Map<string, string>();
+      for (const p of baseProse) {
+        const v = checkProse(p.text);
+        if (v.length > 0) baseFailing.set(p.path, v.map(x => `${x.kind}: ${x.detail}`).join(' | '));
+      }
+      s.bannedBase += baseFailing.size;
+      const afterFailing = new Map<string, string>();
+      for (const p of afterProse) {
+        s.bannedChecked++;
+        const v: ProseViolation[] = checkProse(p.text);
+        if (v.length > 0) afterFailing.set(p.path, v.map(x => `${x.kind}: ${x.detail}`).join(' | '));
+      }
+      for (const [path, detail] of afterFailing) {
+        const preexisting = baseFailing.has(path);
+        if (preexisting) {
+          s.bannedPreexisting++;
+          addIssue(g, 'NO_BANNED', {
+            id,
+            path,
+            message: `PRE-EXISTING clarity-gate failure at ${opts.base} (CP-02 backlog, not introduced by this change)`,
+            after: detail,
+            severity: opts.strictGate ? undefined : 'note',
+          });
+        } else {
+          s.bannedNew++;
+          addIssue(g, 'NO_BANNED', {
+            id,
+            path,
+            message: `clarity gate FAIL — NEW in the working tree (clean at ${opts.base})`,
+            after: detail,
+          });
+        }
+      }
+      for (const [path] of baseFailing) {
+        if (!afterFailing.has(path)) {
+          s.bannedResolved++;
+          addIssue(g, 'NO_BANNED', {
+            id,
+            path,
+            message: 'clarity-gate failure at base is gone in the working tree (improvement)',
+            severity: 'note',
+          });
+        }
+      }
+
+      // 7: the app's OWN structural labels — part of the data contract, not prose.
+      // Same corpus and same <base> baseline as checks 4-6 above (the in-scope prose
+      // strings of this unit): a rewrite may reword around a label, but losing one or
+      // inventing one is a failure. Counts are compared, so a second copy of a label
+      // that silently swallows the first is caught too.
+      const baseProseByPath = new Map(baseProse.map(p => [p.path, p.text]));
+      const afterProseByPath = new Map(afterProse.map(p => [p.path, p.text]));
+      const prosePaths = Array.from(new Set([...baseProseByPath.keys(), ...afterProseByPath.keys()])).sort();
+      for (const p of prosePaths) {
+        const afterLabelText = afterProseByPath.get(p);
+        if (afterLabelText === undefined) continue; // prose string gone: PROSE_ONLY_WRITES' ground
+        s.labelChecked++;
+        const beforeCounts = labelCounts(baseProseByPath.get(p) ?? '');
+        const afterCounts = labelCounts(afterLabelText);
+        for (const { label } of LABEL_RES) {
+          const b = beforeCounts.get(label) ?? 0;
+          const a = afterCounts.get(label) ?? 0;
+          s.labelOccurrences += a;
+          if (a === b) continue;
+          if (a > b) {
+            s.labelsAdded += a - b;
+            addIssue(g, 'LABEL_FIXITY', {
+              id,
+              path: p,
+              message: `structural label ADDED — the rewrite invented a marker (count rose from ${b} to ${a})`,
+              base: `${label} ×${b}`,
+              after: `${label} ×${a}`,
+            });
+          } else {
+            s.labelsDropped += b - a;
+            addIssue(g, 'LABEL_FIXITY', {
+              id,
+              path: p,
+              message: `structural label DROPPED — the rewrite lost a marker (count fell from ${b} to ${a})`,
+              base: `${label} ×${b}`,
+              after: `${label} ×${a}`,
+            });
+          }
+        }
+      }
+
+      // 8: abbreviations (invariant I1) — a rewrite may reword AROUND an abbreviation but
+      // may never EXPAND one. Same corpus and same <base> baseline as checks 4-7 (the
+      // in-scope prose strings of this unit), counted per token: a token whose count FALLS
+      // was expanded or dropped and FAILS ('abbreviation expanded or dropped'). YHWH is the
+      // one exemption — the frozen glossary mandates rendering it `the LORD`, so a fall
+      // there is the expected behaviour, counted separately and reported as a note. A count
+      // that RISES is not a failure either: it is counted and shown. A prose string that is
+      // gone entirely takes its tokens with it, so its base counts fall to zero.
+      for (const p of prosePaths) {
+        const afterAbbrevText = afterProseByPath.get(p);
+        s.abbrevChecked++;
+        const beforeCounts = abbrevCounts(baseProseByPath.get(p) ?? '');
+        const afterCounts = abbrevCounts(afterAbbrevText ?? '');
+        for (const token of ABBREV_TOKENS) {
+          const b = beforeCounts.get(token) ?? 0;
+          const a = afterCounts.get(token) ?? 0;
+          s.abbrevOccurrences += a;
+          if (a === b) continue;
+          if (token === ABBREV_EXEMPT_TOKEN && a < b) {
+            s.abbrevYhwh += b - a;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message: `YHWH rendering applied as glossary-mandated — the frozen glossary renders ${token} as "the LORD" (count fell from ${b} to ${a}), so this is expected and does NOT fail`,
+              severity: 'note',
+            });
+          } else if (a < b) {
+            s.abbrevDropped += b - a;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message:
+                afterAbbrevText === undefined
+                  ? `abbreviation expanded or dropped — the prose string is GONE in the working tree (count fell from ${b} to ${a})`
+                  : `abbreviation expanded or dropped — count fell from ${b} to ${a}`,
+              base: `${token} ×${b}`,
+              after: `${token} ×${a}`,
+            });
+          } else {
+            s.abbrevAdded += a - b;
+            addIssue(g, 'ABBREV_FIXITY', {
+              id,
+              path: p,
+              message: `abbreviation ${token} ADDED — a token was reintroduced (count rose from ${b} to ${a}); not a failure`,
+              severity: 'note',
+            });
+          }
+        }
+      }
+    }
+
+    // ---- chain scope: prove NOTHING outside the pillar chains changed ----
+    // Skipping the per-book groups means the verse entries they would have covered are
+    // checked here instead, and more strictly: with chain prose as the only in-scope prose,
+    // EVERY leaf difference in an entry-shaped unit is a failure. The chain pass's own
+    // claim is "I rewrote chain prose and nothing else", so this is the check that can
+    // falsify it — on both data files, not just the one that holds the chain array.
+    if (chainsOnly && spec.shape === 'entries') {
+      const g = OUTSIDE_CHAIN_GROUP;
+      const s = statsFor(g);
+      for (const [id, afterUnit] of afterParsed.units) {
+        const baseUnit = baseParsed.units.get(id);
+        s.keyset.after++;
+        coverage.verseEntriesChecked++;
+        if (!baseUnit) {
+          coverage.outsideChainChanges++;
+          addIssue(g, 'KEYSET', {
+            id,
+            path: '(entry id)',
+            message: `verse entry ADDED in the working tree (not present at ${opts.base}) — a chain pass writes threadChains only`,
+          });
+          continue;
+        }
+        s.keyset.base++;
+        s.scriptLeaves += allStringLeaves(afterUnit).length;
+        const allPaths = new Set<string>([...baseUnit.paths.keys(), ...afterUnit.paths.keys()]);
+        for (const p of allPaths) {
+          if (isProsePath(p)) s.proseLeaves++;
+          else s.nonProseLeaves++;
+          const b = baseUnit.paths.get(p);
+          const a = afterUnit.paths.get(p);
+          if (b === a) continue;
+          coverage.outsideChainChanges++;
+          if (isNonProseFixityPath(p)) {
+            addIssue(g, 'NONPROSE_FIXITY', {
+              id,
+              path: p,
+              message: b === undefined ? 'added (absent at base)' : a === undefined ? 'removed (present at base)' : 'value changed',
+              base: displayVal(b),
+              after: displayVal(a),
+            });
+          }
+          addIssue(g, 'PROSE_ONLY_WRITES', {
+            id,
+            path: p,
+            message: 'changed OUTSIDE the chain-scope prose contract — this is a verse entry, and the chain pass rewrites threadChains only',
+            base: displayVal(b),
+            after: displayVal(a),
+          });
+        }
+      }
+      for (const [id, baseUnit] of baseParsed.units) {
+        if (afterParsed.units.has(id)) continue;
+        coverage.outsideChainChanges++;
+        addIssue(g, 'KEYSET', {
+          id,
+          path: '(entry id)',
+          message: `verse entry REMOVED in the working tree (present at ${opts.base}) — a chain pass writes threadChains only`,
+        });
+      }
+    }
+
+    // ---- roll the group results up ----
+    const groupNames = Array.from(groups.keys()).sort((a, b) => {
+      if (a === CHAIN_GROUP) return 1;
+      if (b === CHAIN_GROUP) return -1;
+      const ia = BOOK_REGISTRY.findIndex(x => x.slug === a);
+      const ib = BOOK_REGISTRY.findIndex(x => x.slug === b);
+      return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib) || a.localeCompare(b);
+    });
+
+    for (const g of groupNames) {
+      const s = statsFor(g);
+      if (g === CHAIN_GROUP) coverage.chains += s.keyset.after;
+      else if (g === OUTSIDE_CHAIN_GROUP) {
+        /* chain scope only: the verse entries the skipped per-book groups would have
+         * covered. They are not a book group, and `verseEntriesChecked` is counted as the
+         * isolation scan runs, so nothing is added here. */
+      } else {
+        coverage.books += 1;
+        coverage.entries += s.keyset.after;
+      }
+      coverage.nonProseLeaves += s.nonProseLeaves;
+      coverage.proseLeaves += s.proseLeaves;
+      coverage.proseStrings += s.bannedChecked;
+      coverage.scriptLeaves += s.scriptLeaves;
+      coverage.hebrew += s.hebrew;
+      coverage.greek += s.greek;
+      coverage.translit += s.translit;
+      coverage.strongs += s.strongs;
+      coverage.citations += s.citations;
+      coverage.abbrevTokens += s.abbrevOccurrences;
+      coverage.abbrevDropped += s.abbrevDropped;
+      coverage.abbrevAdded += s.abbrevAdded;
+      coverage.abbrevYhwh += s.abbrevYhwh;
+      coverage.bannedNew += s.bannedNew;
+      coverage.bannedPreexisting += s.bannedPreexisting;
+      const byCheck = issues.get(g) ?? new Map<CheckName, Issue[]>();
+      const mk = (check: CheckName, summary: string): void => {
+        const list = byCheck.get(check) ?? [];
+        const failing = list.filter(i => i.severity !== 'note');
+        allResults.push({ group: g, check, pass: failing.length === 0, summary, issues: list });
+      };
+      mk('KEYSET', `${s.keyset.after} ids in the working tree, ${s.keyset.base} of them at ${opts.base}`);
+      mk('NONPROSE_FIXITY', `${s.nonProseLeaves} structural leaf paths compared`);
+      mk('PROSE_ONLY_WRITES', `${s.proseLeaves} prose leaf paths compared`);
+      mk(
+        'CITATION_FIXITY',
+        `${s.citations} book-qualified citations, ${s.addedCitations} added, ${s.droppedCitations} dropped, ${s.newBareCitations} new bare, ${s.droppedBareCitations} dropped bare`
+      );
+      mk('SCRIPT_FIXITY', `${s.hebrew} Hebrew runs, ${s.greek} Greek runs, ${s.translit} transliterations, ${s.strongs} Strong's tokens (corpus: ${s.scriptLeaves} string leaves = prose + terms[].original/.translit/.strongs + keywords)`);
+      mk(
+        'NO_BANNED',
+        `${s.bannedChecked} working-tree prose strings gated · ${s.bannedNew} NEW failure(s) · ${s.bannedPreexisting} pre-existing failure(s) at ${opts.base} · ${s.bannedResolved} base failure(s) resolved` +
+          (opts.strictGate ? ' [--strict-gate: pre-existing failures also fail the run]' : ' [pre-existing failures are notes; --strict-gate fails on them]')
+      );
+      mk(
+        'LABEL_FIXITY',
+        `${s.labelChecked} prose strings scanned, ${s.labelOccurrences} structural label occurrence(s) in the working tree, ${s.labelsDropped} dropped, ${s.labelsAdded} added`
+      );
+      mk(
+        'ABBREV_FIXITY',
+        `${s.abbrevChecked} prose strings scanned, ${s.abbrevOccurrences} abbreviation token(s) in the working tree, ${s.abbrevDropped} dropped (expanded), ${s.abbrevAdded} added, ${s.abbrevYhwh} YHWH renderings applied as glossary-mandated (exempt)`
+      );
+    }
+  }
+
+  /* ------------------------------------------------------------- console */
+
+  const groups = Array.from(new Set(allResults.map(r => r.group)));
+  // In chain scope both entry files report into OUTSIDE-CHAINS, so a check's rows are MERGED
+  // rather than the first row winning: an issue found in bookThreadDetails.ts must be printed,
+  // not masked by the threadDetails row that happens to come first. Default scope keeps the
+  // existing first-row behaviour untouched.
+  const rowFor = (rows: CheckResult[], check: CheckName): CheckResult | undefined => {
+    const list = rows.filter(r => r.check === check);
+    if (!chainsOnly || list.length <= 1) return list[0];
+    return {
+      group: list[0].group,
+      check,
+      pass: list.every(r => r.pass),
+      summary: list.map(r => r.summary).join(' · '),
+      issues: list.flatMap(r => r.issues),
+    };
+  };
+  for (const g of groups) {
+    const rows = allResults.filter(r => r.group === g);
+    const meta = BOOK_REGISTRY.find(b => b.slug === g);
+    const label =
+      g === CHAIN_GROUP
+        ? 'PILLAR CHAINS'
+        : g === OUTSIDE_CHAIN_GROUP
+          ? 'CHAIN-SCOPE ISOLATION — verse entries in both data files (must be unchanged)'
+          : `${g} (${meta?.name ?? g})`;
+    const keysetRow = rowFor(rows, 'KEYSET');
+    console.log(`\n--- ${label} — entries ${keysetRow?.summary ?? ''} ---`);
+    for (const check of CHECK_ORDER) {
+      const row = rowFor(rows, check);
+      if (!row) continue;
+      const failing = row.issues.filter(i => i.severity !== 'note');
+      const notes = row.issues.filter(i => i.severity === 'note');
+      console.log(`  ${check.padEnd(19)} ${row.pass ? 'PASS' : 'FAIL'}  ${row.summary}`);
+      const shown = failing.slice(0, 12);
+      for (const i of shown) {
+        console.log(`      ${i.id} · ${i.path} · ${i.message}${i.base ? ` | base: ${i.base}` : ''}${i.after ? ` | after: ${i.after}` : ''}`);
+      }
+      if (failing.length > shown.length) console.log(`      … ${failing.length - shown.length} more ${check} issue(s)`);
+      for (const n of notes) {
+        console.log(`      NOTE ${n.id} · ${n.path} · ${n.message}${n.base ? ` | base: ${n.base}` : ''}`);
+      }
+    }
+  }
+
+  console.log('\n=== SUMMARY ===');
+  console.log(
+    `base ${opts.base} (${baseSha}) · scope ${chainsOnly ? 'CHAINS (all)' : selected.size === 0 ? 'ALL BOOKS' : Array.from(selected).join(',')} · groups ${groups.length}`
+  );
+  console.log(
+    `coverage: ${coverage.entries} entries across ${coverage.books} book group(s) + ${coverage.chains} pillar chain(s) · ` +
+      `${coverage.nonProseLeaves} structural leaves + ${coverage.proseLeaves} prose leaves compared · ${coverage.proseStrings} prose strings gated · ` +
+      `${coverage.scriptLeaves} script-corpus leaves (${coverage.hebrew} Hebrew runs, ${coverage.greek} Greek runs, ${coverage.translit} transliterations, ${coverage.strongs} Strong's tokens) · ` +
+      `${coverage.citations} book-qualified citations · ` +
+      `${coverage.abbrevTokens} abbreviation tokens (${coverage.abbrevDropped} dropped, ${coverage.abbrevAdded} added, ${coverage.abbrevYhwh} YHWH→the LORD)`
+  );
+  if (chainsOnly) {
+    console.log(
+      `chain-scope isolation: ${coverage.verseEntriesChecked} verse entries in both data files diffed ${opts.base} → working tree · ` +
+        `${coverage.outsideChainChanges} change(s) outside the pillar chains (0 required)`
+    );
+  }
+  console.log(
+    `gate reading: NEW clarity-gate failures ${coverage.bannedNew} · PRE-EXISTING at ${opts.base} ${coverage.bannedPreexisting} · ` +
+      `strict reading ("no prose string violates the clarity gate") ${coverage.bannedNew + coverage.bannedPreexisting === 0 ? 'PASS' : 'FAIL'}` +
+      (opts.strictGate ? ' [--strict-gate ON: pre-existing failures fail this run]' : ' [default: pre-existing failures are notes; --strict-gate fails on them]')
+  );
+  let allPass = true;
+  for (const check of CHECK_ORDER) {
+    const rows = allResults.filter(r => r.check === check);
+    const failing = rows.filter(r => !r.pass);
+    if (failing.length > 0) allPass = false;
+    const issueCount = rows.reduce((n, r) => n + r.issues.filter(i => i.severity !== 'note').length, 0);
+    console.log(
+      `${check.padEnd(19)} ${failing.length === 0 ? 'PASS' : 'FAIL'}  ${rows.length - failing.length}/${rows.length} groups pass · ${issueCount} issue(s)${failing.length ? ` · failing: ${failing.map(r => r.group).join(', ')}` : ''}`
+    );
+  }
+  console.log(`OVERALL: ${allPass ? 'PASS' : 'FAIL'} (exit ${allPass ? 0 : 1})`);
+  console.log('verdict: ' + (allPass
+    ? `compared with ${opts.base}, ONLY in-scope prose strings changed for the checked scope.`
+    : `compared with ${opts.base}, something outside the in-scope prose contract changed for the checked scope.`));
+  if (parseWarnings.length > 0) {
+    console.log('\nPARSE WARNINGS:');
+    for (const w of parseWarnings) console.log(`  - ${w}`);
+  }
+
+  if (opts.jsonPath) {
+    const report = {
+      generatedAt: new Date().toISOString(),
+      base: opts.base,
+      baseSha,
+      scope: chainsOnly ? 'CHAINS' : selected.size === 0 ? 'ALL' : Array.from(selected),
+      chainsOnly,
+      coverage,
+      overall: allPass ? 'PASS' : 'FAIL',
+      checks: CHECK_ORDER.map(check => ({
+        check,
+        pass: allResults.filter(r => r.check === check).every(r => r.pass),
+        groups: allResults
+          .filter(r => r.check === check)
+          .map(r => ({ group: r.group, pass: r.pass, summary: r.summary, issues: r.issues })),
+      })),
+    };
+    try {
+      writeFileSync(opts.jsonPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+      console.log(`\nJSON report written: ${opts.jsonPath}`);
+    } catch (err) {
+      console.log(`\nERROR: could not write JSON report to ${opts.jsonPath}: ${(err as Error).message}`);
+    }
+  }
+
+  process.exit(allPass ? 0 : 1);
+}
+
+main();

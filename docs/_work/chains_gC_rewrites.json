@@ -1,0 +1,602 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group C)",
+  "drafts": [
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].connection",
+      "after": "This is the first time God promises to bless all nations.",
+      "reason": "The BEFORE was a noun stack with no actor (\"Earliest explicit nation-blessing promise\"). The AFTER names God as the giver and the nations as the recipients, and it drops \"explicit\" - which only repeats what \"first time\" already says. One claim (the promise to bless all nations is stated here for the first time), one sentence, 11 words. No citation or quotation, so nothing was carried."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].connection",
+      "after": "Same-OT: God adds land and more descendants to the promise.",
+      "reason": "The opener label is carried verbatim. \"expands the blessing frame\" was a metaphor carrying no content; the AFTER names the actor and states the two things the two verses add (land, and descendants too many to count). One sentence, 11 words. One claim, unchanged: the promise grows to include land and a multitude of descendants."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].connection",
+      "after": "Same-OT: God counts Abraham's faith as righteousness.",
+      "reason": "The opener label is carried verbatim. The BEFORE chained a subject heading (\"how the blessing is received\") to the claim with an em-dash, which is one sentence holding two ideas. The AFTER states the single claim directly and names God as the one who counts: faith is counted as righteousness. One sentence, 8 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].connection",
+      "after": "Same-OT: God changes Abram's name and seals the covenant with circumcision.",
+      "reason": "The opener label is carried verbatim. The BEFORE was a stacked fragment with a bracket - \"name change and covenant seal (circumcision)\" - with no actor and no verb. The AFTER names God as the one who acts and keeps both elements, in the same order. One sentence, 11 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].connection",
+      "after": "Same-OT: God repeats His purpose for all nations, not only for Israel.",
+      "reason": "The opener label is carried verbatim. The BEFORE separated the label from its gloss with an em-dash. The AFTER names God as the speaker and keeps the contrast byte-intact (\"not only Israel\" -> \"not only for Israel\"). One sentence, 12 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].connection",
+      "after": "Same-OT: the promise passes to Isaac unchanged.",
+      "reason": "The opener label is carried verbatim. \"without renegotiation\" was the only decoded word: a reader had to work out that it meant the promise was not reworded or re-earned. The AFTER says \"unchanged\" and names what moves (the promise) and to whom (Isaac). One sentence, 8 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].connection",
+      "after": "Same-OT: God repeats the same promise to Jacob.",
+      "reason": "The opener label is carried verbatim. \"third patriarchal restatement\" needed two decoded words (\"patriarchal\", \"restatement\") to say something simple. The AFTER names God and Jacob and keeps the count implicit in the step order. One sentence, 8 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].connection",
+      "after": "Same-OT: God placed Israel among the nations as a kingdom of priests.",
+      "reason": "The opener label is carried verbatim. \"mediating people\" was a decoded abstraction and dropped the verse's own phrase. The AFTER names God as the actor and carries the KJV phrase \"a kingdom of priests\" as the term it already is in the step title. One sentence, 12 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].connection",
+      "after": "Same-OT: the goal of the blessing is worship.",
+      "reason": "Narrow decode - flagged because the new-word share is low. \"worship goal of the blessing\" was an inverted noun stack; the AFTER restores subject-verb order (\"the goal ... is worship\") and is 2 words shorter. One sentence, 8 words. Same single claim: the blessing aims at worship."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].connection",
+      "after": "NT: Christ brings the blessing to everyone who believes.",
+      "reason": "The opener label is carried verbatim. \"blessing arrives in Christ\" used an abstract subject with no actor. The AFTER makes Christ the one who brings it and keeps the condition of receiving it (\"to those who believe\" -> \"to everyone who believes\"). One sentence, 9 words."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].connection",
+      "after": "NT: the apostles preached from this Abrahamic thread.",
+      "reason": "The opener label is carried verbatim. The BEFORE had no verb at all - \"apostolic preaching from this Abrahamic thread\" is a label, not a sentence. The AFTER supplies the actor (the apostles) and the action (preached). One sentence, 8 words."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].connection",
+      "after": "God first promises a prophet from Israel who will speak for Him to the people.",
+      "reason": "The BEFORE stacked two ideas in one sentence with a comma and a participle (\"a final prophet from among Israel, one who stands between God and the people\"). The AFTER names God as the one who promises, says plainly what the prophet does (\"speak for Him\"), and keeps \"first\" and the people of Israel. One sentence, 14 words, one claim."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the prophet speaks God's own commands, and everyone must obey them.",
+      "reason": "The opener label is carried verbatim. The BEFORE ended in an abstract tail (\"with authority that must be obeyed\") that never says who obeys. The AFTER keeps both claims - the prophet speaks God's own commands, and obedience is required - with the object named. One sentence, 13 words."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].connection",
+      "after": "Same-OT: this verse marks the promise as still open. Joshua and the prophets were not the One.",
+      "reason": "The opener label is carried verbatim. The BEFORE said \"is a marker in the Bible\", which tells a reader nothing about what is marked. The AFTER says what the marker does (the promise was still open) and keeps the second claim in its own sentence. Two sentences, one idea each, 7 and 8 words."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].connection",
+      "after": "NT: the first disciples saw Jesus as the Prophet like Moses.",
+      "reason": "The opener label is carried verbatim. \"the disciples recognize\" was present tense for a past event; the AFTER reads \"saw\" and names them as the first disciples, which is what the step (John 1:45) shows. One sentence, 10 words. Same claim: they identified Jesus as the Prophet like Moses."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].connection",
+      "after": "NT: Jesus says the writings of Moses pointed to Him.",
+      "reason": "The opener label is carried verbatim. \"testifies that ... pointed to Him\" mixed two registers. The AFTER uses two everyday words for the same claim and keeps the direction of the pointing (to Jesus). The possessive apostrophe in \"Moses' writings\" became \"the writings of Moses\" - the same referent, no citation touched. One sentence, 9 words."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].connection",
+      "after": "NT: at the Transfiguration the Father spoke from a cloud. He repeated the command of Deut 18:15 and told the disciples to hear Jesus.",
+      "reason": "The opener label and the citation token \"Deut 18:15\" are both carried byte-identical. The BEFORE was 16 words in one sentence that ended in a writer's participle (\"citing the command of Deut 18:15\"). The AFTER splits it: the event in one sentence, then the citation and what the Father said in the second. \"citing\" became \"repeated the command of\", which is what the step shows the Father doing. Two sentences, 10 and 16 words. No claim added or dropped, and no citation expanded or renumbered."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].connection",
+      "after": "NT: the apostles preach that God raised up Jesus as the Prophet whom everyone must obey.",
+      "reason": "The opener label is carried verbatim. The BEFORE said \"Jesus is the Prophet everyone must obey\", and \"everyone must obey\" was doing the work of the verse's own command. The AFTER adds the missing agent - God raises up the Prophet - and keeps the obligation. One sentence, 15 words. Note: \"raise up\" is the step title's own KJV wording (Deut 18:15), carried as-is."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].connection",
+      "after": "NT: Stephen tells the council that Jesus is the Prophet like Moses.",
+      "reason": "The opener label is carried verbatim. \"before the Sanhedrin\" is a term a reader must already know. The AFTER keeps the same scene in two everyday words (\"the council\"), which is what the Sanhedrin was, and keeps the identification. One sentence, 11 words."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].connection",
+      "after": "NT: Jesus receives greater glory than Moses, because Moses served in the house and Jesus is the Son over it.",
+      "reason": "The opener label is carried verbatim. The BEFORE used a semicolon pair to state two claims, and \"the house\" arrived with no explanation. The AFTER keeps both claims in one sentence joined by \"because\", so the contrast is stated once, and makes the servant/Son relation explicit against the same \"house\". 20 words, one claim pair (the step title itself)."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].connection",
+      "after": "Man does not have a soul that lives on by itself. God formed man from dust and breathed life into him, and man became a living soul.",
+      "reason": "The BEFORE packed the doctrinal claim and its proof into one sentence with a colon. The AFTER states the claim first, then the event the claim rests on - God forms, God breathes, man becomes a living soul. Both claims survive exactly: man has no self-sustaining soul, and man became a living soul. The KJV phrase \"man became a living soul\" (Gen 2:7) is unquoted in the BEFORE and stays unquoted here, byte-identical. Two sentences, 12 and 17 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].connection",
+      "after": "The body returns to dust and the breath returns to God.",
+      "reason": "The BEFORE opened with a heading (\"The fall:\") attached by a colon and then stated the event. The AFTER is one sentence, one idea, describing the same two movements at death. No claim added or dropped: dust to dust, breath to God. 10 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].connection",
+      "after": "The dead are not conscious at all. Thinking and awareness stop for good at death.",
+      "reason": "The BEFORE said \"stop completely at death\"; \"for good\" carries the same finality in a plainer word. The two sentences keep the two claims separate: the dead are not conscious, and thought and awareness end. No softening - \"not conscious at all\" is as strong as \"not conscious at all\" in the BEFORE. Two sentences, 7 and 9 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].connection",
+      "after": "In death there is no awareness, no praise, and no way to speak with anyone.",
+      "reason": "The BEFORE listed \"no awareness, no praise, and no communication\" - \"communication\" is the one word a reader may have to decode (communication with whom? by what means?). The AFTER names it: no way to speak with anyone. All three negations are kept, in the same order. One sentence, 13 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].connection",
+      "after": "Immortality belongs to God alone. Human beings receive it only as a gift.",
+      "reason": "The BEFORE joined a definition to a doctrinal consequence with a full stop already in place, but \"For human beings it is conditional\" left the meaning of \"conditional\" to the reader. The AFTER says what conditional means here - human beings only receive it as a gift - without strengthening or weakening the claim. Two sentences, 6 and 9 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].connection",
+      "after": "Jesus first described death as sleep. Then He said plainly, \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "reason": "QUOTE-REVIEW: the quoted span is byte-identical to the BEFORE and is left untouched, but it is a loose rendering of the served KJV. John 11:11 reads \"Our friend Lazarus sleepeth; but I go, that I may awake him out of sleep\" and John 11:14 reads \"Lazarus is dead\"; the joined form \"Our friend Lazarus sleepeth... Lazarus is dead\" is not one continuous KJV text. Recorded for the operator, not changed - I1 forbids modernising, and it equally forbids silently restoring. The prose around the quotation was rewritten: the abstract label \"Christ's teaching:\" became two sentences that name Jesus as the actor and keep the order of the account (sleep named first, the plain statement second)."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].connection",
+      "after": "At the second coming, which people hear and see, Jesus wakes every believer from sleep.",
+      "reason": "The BEFORE hung the second coming off a colon and then a relative clause (\"which is heard and seen\"), and \"believers are woken\" was passive. The AFTER names Jesus as the one who wakes them, keeps the hearing and seeing, and keeps \"all together\" as \"every believer\". One sentence, 15 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].connection",
+      "after": "God makes the body incorruptible at the resurrection. At death the body is still corruptible.",
+      "reason": "The BEFORE used a comma-negation to make the contrast (\"at the resurrection, not at death\"), which reads as one idea carrying two. The AFTER states each half as its own sentence and names God as the one who makes the change. Both claims survive: the change happens at the resurrection, and it does not happen at death. 10 and 8 words."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].connection",
+      "after": "God destroys the wicked completely in the lake of fire. He does not torture them forever.",
+      "reason": "The BEFORE said \"in the final fire\" and \"They are not tortured forever\" - \"the final fire\" does not say which fire, and the second sentence had no actor. The AFTER names God in both sentences and identifies the fire as the lake of fire, which is the fire the step (Mal 4:1-3, Rev 20:14) names. Neither claim is softened: destruction is complete, and the wicked are not tortured forever. Three sentences would have been padding; two carry it."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].connection",
+      "after": "God destroys sin, death, and the grave forever, and the whole universe is clean.",
+      "reason": "The BEFORE opened with a heading - \"God cleans up the whole universe:\" - and \"cleans up\" is a colloquialism doing doctrinal work. The AFTER states the action and its result, keeping all three things destroyed (sin, death, the grave) and the word \"forever\". One sentence, 16 words. No claim strengthened or weakened."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "after": "God wrote the Sabbath into the Ten Commandments, at the heart of the moral law.",
+      "reason": "The BEFORE was a stacked fragment with no verb - \"Sinai moral law: written by the finger of God in the heart of the Decalogue\" - and \"Decalogue\" is a term a reader must decode. The AFTER names God as the writer, keeps \"the finger of God\" as what it means (God wrote it Himself), and replaces \"Decalogue\" with \"the Ten Commandments\", which is the same thing the step title already calls it. One sentence, 14 words."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "after": "The Sabbath marks out the God who created all things and who makes His people holy.",
+      "reason": "The BEFORE opened with the label \"Prophetic covenant:\" and then made \"the Sabbath identifies the true Creator\". \"identifies ... the true Creator\" is one decode away from plain speech, and \"true\" is doing work the verse does not do. The AFTER says the Sabbath marks out the God who created all things, keeps \"makes His people holy\", and drops the label rather than adding one. One sentence, 15 words."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "after": "Jesus kept the Sabbath on earth throughout His life.",
+      "reason": "The BEFORE used two decoded words: \"observed\" (for keeping) and \"incarnation\" (for His life on earth). The AFTER says both in everyday words and keeps the actor and the object. One sentence, 9 words. Same claim: Jesus kept the seventh-day Sabbath all through His time on earth."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "after": "Jesus told His disciples to pray that their flight would not fall on the Sabbath. That command reaches past the Cross.",
+      "reason": "The BEFORE ran 25 words through a colon and never said who prays or why the point matters. The AFTER names Jesus as the one who gives the instruction, keeps \"flight\" as the KJV word the title also carries, and puts the claim about time in its own sentence. \"into 70 AD and end-times\" became \"past the Cross\", which is the same span in the reader's terms - those events are what the step (Matt 24:20) is dated from. Two sentences, 15 and 7 words."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "after": "The weekly rest still stands, and it shows God's people the rest they have in Him.",
+      "reason": "The BEFORE opened with the label \"Apostolic theology:\" and stacked three abstractions - \"living obligation\", \"spiritual rest\", \"God's people\". The AFTER says the rest \"still stands\" (a living obligation), says who it shows what (\"shows God's people the rest they have in Him\" = spiritual rest), and drops the label rather than adding one. One sentence, 17 words. Both claims kept."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "after": "The Third Angel repeats Exodus 20:11, so the call to worship the Creator comes before judgment.",
+      "reason": "The BEFORE said \"restoring Creator-worship before judgment\" after a label, with \"restoring\" implying something was lost that the string never names. The AFTER keeps the agent (the Third Angel), keeps \"Exodus 20:11\" byte-identical, and states the order of events - the call to worship the Creator comes before judgment. One sentence, 15 words."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "after": "In the restored creation, Sabbath worship goes on without end.",
+      "reason": "The BEFORE said \"Eternal consummation\" after a label and called the Sabbath a \"perpetual rhythm\" - two decoded words plus a metaphor. The AFTER says where (the restored creation) and what (Sabbath worship without end). One sentence, 9 words. No claim added: the Sabbath continues as worship in the renewed creation."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].connection",
+      "after": "Here is the first rest: God stopped His work and blessed the day.",
+      "reason": "The BEFORE was a dash fragment with no verb - \"Earliest rest — cessation and blessing.\" The AFTER names God as the actor, replaces \"cessation\" with \"stopped His work\", and keeps both elements (he stopped, he blessed). The step title above already carries the fuller \"rested and sanctified\", so nothing is lost. One sentence, 11 words."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].connection",
+      "after": "Same-OT: God gave the Sabbath to Israel as a sign of His covenant.",
+      "reason": "The opener label is carried verbatim. The BEFORE was a fragment with no verb (\"Sabbath as covenant sign to Israel\"), so the reader had to supply the relation. The AFTER names God as the giver, Israel as the receiver, and keeps \"sign\" and \"covenant\". One sentence, 12 words."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].connection",
+      "after": "Same-OT: the day becomes a delight, not just a day without work.",
+      "reason": "The opener label is carried verbatim. \"mere non-work\" is a coined phrase; \"not just a day without work\" says the same thing in words a reader already has, and keeps the contrast with \"delight\". One sentence, 12 words. One claim: the Sabbath is a delight, not only an absence of labour."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "after": "Lucifer wanted to be like God. He said, \"I will ascend above the stars... I will be like the most High.\"",
+      "reason": "QUOTE-REVIEW: the quotation is carried byte-identical and untouched, but it is a loose rendering of the served KJV. Isaiah 14:14 reads \"I will ascend above the heights of the clouds; I will be like the most High\", and \"I will ascend above the stars\" is not KJV text - Isaiah 14:13 reads \"I will exalt my throne above the stars of God\". The two-word ellipsis joins clauses from two different verses. Recorded for the operator, not changed. The prose around it was rewritten: the label \"Origin of evil:\" became a plain sentence naming Lucifer as the actor, so the claim - he wanted to be like God - is stated before the words are quoted. Two sentences, 6 and 15 words (the quotation is stripped by the gate)."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "after": "The first gospel promise: the woman's Seed will crush the serpent.",
+      "reason": "The BEFORE put a Latin label - \"Protoevangelium\" - in front of the claim, so the reader had to decode the label to reach the point. The AFTER keeps the claim that this is the first gospel promise, and says who crushes whom. \"Seed\" stays capitalised: it is the KJV word (Gen 3:15, \"her seed\") and the term the rest of the chain uses for Christ. The colon is retained as the separator of the promise from its content. \"enmity\" was dropped because the crush carries the victory and the sentence does not need both; no claim is weakened. One sentence, 12 words."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "after": "The cross answered and disarmed the accusations Satan made against the character of God.",
+      "reason": "The BEFORE used the label \"Calvary victory:\" and then an agentless passive (\"the cross forever answered and disarmed Satan's accusations against God's character\"). The AFTER keeps both verbs, drops \"forever\" (which the step title's own frame already carries) and \"Calvary\" (which is the same event the sentence names as \"the cross\"), and turns the possessive into a clause so the reader sees who accused whom. One sentence, 13 words. No claim softened: the accusations are answered and disarmed."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already. 7 words, one image (\"Call of Abram\"), one object (\"blessing to all families\"). The em-dash joins a title to its gloss rather than two clauses, and each side is under 5 words. \"Abram\" is the name the text uses before Gen 17:5, so it must not be modernised to Abraham. No gate failure (0 banned phrases, longest sentence 7 words)."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - plain already. 5 words, two facts (land forever, descendants like dust), comma-separated and each under 3 words. \"dust-like seed\" is the KJV image of Gen 13:16. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY - plain already and partly Scripture. \"Stars counted; believed\" is a 3-word summary of Gen 15:5-6 and the arrow points to the result without a connective chain. Rewriting it would mean paraphrasing a clause that is Scriptural in substance; the claim is already carried in full. Gate clean (longest sentence 7 words)."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - plain already. 6 words, three proper nouns plus \"everlasting covenant\", which is the KJV phrase of Gen 17:7. Nothing to decode. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - plain already. 5 words, names the recipients (all nations) and the agent of blessing (in him). Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - plain already. 4 words. \"confirmed\" is an everyday verb and \"to Isaac\" names the person. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY - plain already. 8 words, one fact. \"families of the earth\" is the KJV wording of Gen 28:14, so it is carried rather than swapped for \"nations\". Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Kingdom of priests\" is Exodus 19:6 verbatim. Quoting it in the title would add marks the source does not have, and rewording it is forbidden. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY - plain already. 3 words, actor (Nations) and action (praise God). Nothing to decode. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].title",
+      "reason": "VERIFY-ONLY - plain already. 8 words; the semicolon separates two short statements of the same step (the gospel was preached to Abraham; the heirs are by faith). Both are the step's own point, and each side is 4 words. Gate clean."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label shown in the pillar list, so it is left byte-identical per the name rule. It is also already clear: \"Abrahamic Blessing to the Nations\" names the subject (the blessing given to Abraham) and its scope (the nations) in 5 everyday words, with no term to decode. It does not carry a leading number, unlike the doctrinal chains 3-8."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"You are children of the covenant\" follows Acts 3:25 (\"Ye are the children of the prophets, and of the covenant\"). Unquoted in the source, so it stays unquoted and byte-identical. 7 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already, and the formula is the clearest form of this step. 10 words. \"Dust + breath of life = living soul\" states the three terms in the order Gen 2:7 gives them, and \"nephesh chayah\" is the Hebrew transliteration, which I1 makes untouchable. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - Scripture verbatim. \"Dust thou art, and unto dust shalt thou return\" is Gen 3:19 KJV, unquoted in the source; carried byte-identical (archaic forms included) rather than modernised. 10 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY - Scripture, largely verbatim. \"Breath goeth forth\" and \"his thoughts perish\" are Ps 146:4 KJV; \"in that very day\" is the same verse, so the whole line is the verse in its own order, unquoted, carried byte-identical. The semicolon marks the verse's own clause boundary. 11 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - Scripture, largely verbatim. \"The dead know not anything\" is Eccl 9:5 KJV (\"the dead know not any thing\") and \"no device in the grave\" is Eccl 9:10 (\"there is no work, nor device ... in the grave\"), unquoted, carried byte-identical. The semicolon joins two clauses of the same verse pair. 10 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - plain already. 4 words stating the step's claim (1 Tim 6:16, \"Who only hath immortality\"). Unquoted in the source, carried byte-identical. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - plain already. 8 words, one idea, actor named (Jesus) and the claim stated in everyday words (\"defines death as an unconscious sleep\"). \"unconscious\" is the one longer word and it is the plainest available term for the state the step describes. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"The dead in Christ shall rise first\" is 1 Thess 4:16 KJV, unquoted in the source; \"at the Lord's descent\" is the same verse (\"the Lord himself shall descend\"). Carried byte-identical. 12 words, one sentence, and the possessive \"Lord's\" is kept as written rather than reworded. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY - plain already and Scriptural. \"Mortal puts on immortality\" is 1 Cor 15:54 KJV (\"this mortal shall have put on immortality\"), unquoted, carried byte-identical, and \"at the last trump\" is the same verse (\"the last trump\"). 10 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY - plain already and KJV wording throughout. \"burned to stubble\" is Mal 4:1 (\"shall be stubble\"), and \"ashes under feet\" follows Mal 4:3 (\"ashes under the soles of your feet\"), unquoted in the source, carried byte-identical. The semicolon separates two clauses of the same verse pair. 8 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Death and hell cast into the lake of fire\" is Rev 20:14 KJV in the passive the verse uses, and \"the second death\" is the same verse's own term (\"This is the second death\"). Unquoted in the source, carried byte-identical. The em-dash separates the event from its name, not two clauses. 13 words. Gate clean."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label, so it is left byte-identical per the name rule. The reason it would otherwise be a rewrite candidate: \"(Conditional Immortality)\" is a doctrinal term a reader may not have. It is still the chain's own identifying label, the leading \"4.\" matches the numbered doctrinal chains 3-8, and changing a visible navigation label is a decision for the operator rather than the sweep. Recommended review, not changed here."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"The LORD will raise up a Prophet like me\" is Deut 18:15 in the KJV order (\"will raise up unto thee a Prophet ... like unto me\"), unquoted in the source; carried byte-identical rather than reworded or newly quoted. 9 words. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Words put in His mouth\" renders Deut 18:18 (\"will put my words in his mouth\"). 5 words, one image, nothing to decode. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY - plain already. 6 words summarising Deut 34:10 (\"there arose not a prophet since in Israel like unto Moses\"). Rewording would re-render a Scriptural comparison for no gain. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Found Him of whom Moses wrote\" is John 1:45 (\"We have found him, of whom Moses ... did write\"), unquoted in the source. 6 words. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Moses wrote of Me\" is John 5:46 (\"he wrote of me\"). 4 words. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Hear Him\" is the Father's word at Matt 17:5 (\"hear ye him\"), and \"Transfiguration\" is the event's name, not a term to decode. The em-dash separates the quotation from the scene, not two clauses. 4 words. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY - plain already. 5 words, names the speaker (Peter) and the passage he uses (Deut 18 is the chapter of the step's own ref, Acts 3:22-23). Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY - plain already. 4 words, names the person (Stephen) and the scene. \"Sanhedrin\" is a proper name for the council, so it is a name rather than a term needing a gloss here. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Jesus counted worthy of more glory than Moses\" follows Heb 3:3 (\"counted worthy of more glory than Moses\"), unquoted in the source. 9 words. Gate clean."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label, so it is left byte-identical per the name rule. It is already clear and is itself the KJV phrase used by Acts 3:22 and Acts 7:37 (\"like unto me\" / \"like unto Moses\"), so rewording it would replace a Scriptural designation with a paraphrase. It does not carry a leading number."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already. 7 words, names the actor (Lucifer) and the claim (pride, and the desire to exalt himself). \"self-exaltation\" is a compound but both halves are everyday words and the sentence reads straight through. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY - plain already. 10 words. \"Heavenly tragedy\" is the source's own frame and names the setting; the clause then names the actor (highest created angel), the cause (pride) and the effect (corrupts his wisdom). One sentence, one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - plain already and Scriptural. \"Anointed covering cherub\" is Ezek 28:14 KJV (\"thou art the anointed cherub that covereth\"), unquoted in the source, carried byte-identical; \"falls through iniquity\" follows the same chapter. 7 words. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY - plain already. 10 words: the setting (cosmic battle on earth), the actor (Seed of woman) and the means (conquers through sacrifice). Every word is everyday and the sentence carries one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY - plain already except one noun. 11 words. \"Satan and the fallen angels were cast down to the earth\" names both parties and the act; \"fallen angels\" is the source's own term for them and is not a term a reader must decode. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"War in heaven\" is Rev 12:7 KJV, \"Michael and His angels\" is the same verse, and \"cast out the dragon\" follows Rev 12:9. Unquoted in the source, carried byte-identical. 12 words, one sentence, one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - plain already. 9 words, actor (Christ) and act (spoils principalities and powers on the Cross). \"principalities and powers\" is Col 2:15 KJV, unquoted in the source, carried byte-identical; the verse's own language is not a decode here. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY - plain already. 11 words: the source's frame (\"Apostolic promise\"), the actor (believers), the act (triumph) and the means (through the living Christ). One sentence, one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - Scripture verbatim. \"God of peace will bruise Satan under your feet shortly\" is Rom 16:20 KJV (\"And the God of peace shall bruise Satan under your feet shortly\"), unquoted in the source, carried byte-identical. 10 words. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY - plain already. 9 words: the source's frame (\"Final execution\"), the actor (the originator of sin) and the outcome (destroyed forever). One sentence, one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY - plain already and Scriptural. \"The devil cast into the lake of fire\" is Rev 20:10 KJV in the passive the verse uses, unquoted in the source, carried byte-identical. 8 words. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY - plain already except one abstract noun. 13 words: the source's frame (\"Eternal security\"), then two claims in one sentence joined by \"so\" - God's love and justice are settled everywhere, and sin will never rise again. Both claims are short, in everyday words, and neither is softened. \"settled everywhere\" is the plainest rendering of the idea the step carries. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY - Scripture plus the source's own frame. \"Affliction shall not rise up the second time\" is Nah 1:9 KJV verbatim, unquoted in the source, carried byte-identical; \"Utter end\" is the same verse (\"he will make an utter end\"). 9 words. Gate clean."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label, so it is left byte-identical per the name rule. \"The Great Controversy\" is the source's own name for this theme, like \"balance-verse\" in the glossary, so it is kept rather than paraphrased; \"Cosmic Arc\" names the sweep of the theme from origin to end and the chain's eight steps demonstrate exactly that span. The leading \"6.\" matches the numbered doctrinal chains and must not be dropped."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY - plain already. 13 words. \"seventh-day rest instituted in Eden before the entrance of sin\" names the place, the time-order and the fact; \"instituted\" is the one longer word and is not load-bearing for a reader who has the rest. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already. 11 words: the label (\"Creation Sabbath\") plus three verbs and their object (rested, blessed, sanctified the seventh day), in the order Gen 2:2-3 gives them. Nothing to decode. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - plain already. 9 words: \"Fourth Commandment\" locates it and \"Perpetual memorial of Creation\" says what it is. \"Perpetual\" and \"memorial\" are formal but each appears once and the sentence carries one idea. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY - plain already. 10 words, one idea (the Sabbath is a lasting sign that God makes His people holy), with both parties named (God, His people). Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"synagogue worship on the Sabbath day\" is Luke 4:16 KJV (\"he went into the synagogue on the sabbath day\"), unquoted in the source, carried byte-identical. \"Christ's custom\" is also the verse's word (\"as his custom was\"). 8 words. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - Scripture verbatim. \"Pray that your flight be not on the Sabbath\" is Matt 24:20 KJV in substance (\"pray ye that your flight be not ... on the sabbath day\"), unquoted in the source, carried byte-identical. 9 words. Gate clean. (Note: the verse also has \"in the winter\"; the title selects one clause, which is the source's choice, not a wording change.)"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - Scripture plus one transliteration. \"There remaineth therefore a\" is Heb 4:9 KJV verbatim; the verse reads \"a rest to the people of God\", and the source renders that rest as \"a Sabbath-keeping\", adding the Greek word \"sabbatismos\" in brackets. I1 makes both the KJV words and the Greek transliteration untouchable, so the line is carried byte-identical. 8 words. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Worship Him that made heaven, earth, and sea\" is Rev 14:7 KJV in the source's own comma form (\"worship him that made heaven, and earth, and the sea\"), unquoted in the source, carried byte-identical. \"Final call\" is the source's own frame. 11 words. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"From one Sabbath to another\" is Isa 66:23 KJV (\"from one sabbath to another\") and \"all flesh\" is the same verse's wording for the worshippers. Unquoted in the source, carried byte-identical; \"New Earth\" names the scene. 11 words. Gate clean."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label, so it is left byte-identical per the name rule. It is also already plain and descriptive: \"3. The Sabbath: Creation to the New Earth\" names the subject and the two ends of its span in 9 words. The leading \"3.\" matches the numbered doctrinal chains 4-8 and must not be dropped."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY - plain already. 8 words, two verbs and their objects (rested, sanctified the seventh day) in the order Gen 2:2-3 gives them. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY - plain already. 6 words after the opener label: the Sinai rest-law cites Gen 2. \"rest-law\" is a compact compound but each half is an everyday word and the sentence is 6 words long. The opener label \"Same-OT:\" is carried verbatim. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY - plain already. 6 words, one idea: the Sabbath command rests on creation. \"grounded in\" is the one metaphorical phrase and it is not load-bearing - the step connection below spells the same link out. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY - plain already. 5 words, one idea. \"covenant\" is the source's own term; the connection below was the string that needed the actor and the verb, and it was rewritten. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"Delight\" is Isa 58:13 KJV (\"call the sabbath a delight\") and \"the holy day\" is the same verse (\"my holy day\"). 5 words, unquoted in the source, carried byte-identical. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY - plain already. 8 words after the opener label. \"rest refused to unbelief in the wilderness\" is compressed - \"refused\" is doing the work of \"was refused because of\" - but every word is everyday and the whole clause is 8 words, so a rewrite would be padding rather than clarity. The opener label \"Same-OT:\" is carried verbatim. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY - Scripture, essentially verbatim. \"They shall not enter my rest\" is Ps 95:11 KJV (\"they should not enter into my rest\"), unquoted in the source, carried byte-identical. 6 words. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY - plain already except one term, and that term is a glossary term with no plainer locked rendering. 13 words after nothing (no opener label in this string): \"NT reads creation + wilderness rest as eschatological rest in Christ.\" \"eschatological\" is the one decoded word. It is the glossary headword itself, whose locked rendering is a phrase (\"the last days / the end of the story\") rather than a word, so substituting it would lengthen the sentence without adding clarity. Flagged for the operator as the one string in this chain a later consistency pass may want to revisit. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY - plain already and Scripture. \"A Sabbath rest remains for the people of God\" is Heb 4:9 KJV in the source's own rendering (\"There remaineth therefore a rest to the people of God\"), unquoted, carried byte-identical. 9 words. Gate clean."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "name",
+      "reason": "VERIFY-ONLY - the chain name is the app's navigation label, so it is left byte-identical per the name rule. It is also already clear at 3 words, and it is the KJV phrase of Heb 4:9 (\"There remaineth therefore a rest\") which is the chain's own anchor. Rewording it would replace a Scriptural designation with a paraphrase."
+    }
+  ],
+  "equivalent": []
+}

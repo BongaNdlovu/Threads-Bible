@@ -1,0 +1,268 @@
+{
+  "book": "jos",
+  "bookName": "Joshua",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 9,
+    "entryStrings": 18,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jos-1-5",
+    "jos-1-9",
+    "jos-10-13",
+    "jos-21-45",
+    "jos-24-15",
+    "jos-24-19",
+    "jos-24-2",
+    "jos-24-32",
+    "jos-8-34"
+  ],
+  "fields": [
+    {
+      "entryId": "jos-24-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant history begins with idolatrous Terah. First principle: the nation's story opens in a house of other gods — grace chose a family that worshipped wrong.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-10-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A whole day of held light for a won battle, written in the book of Jasher. First principle: the Creator can pause His clock for His people's victory — time is His servant.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-24-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joseph's coffin from Exodus 13 is buried in Shechem's purchased field. First principle: a four-hundred-year-old promise made the pilgrimage carry bones — faith in resurrection-land down to the funeral.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-8-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Blessings and cursings read to all the assembly, women and little ones included. First principle: covenant renewal is public reading — every soul hears both the blessing and the curse.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-24-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joshua blocks cheap commitment — a jealous God will not forgive presumptive covenant. First principle: the LORD wants informed covenant, not enthusiast vows; holiness makes service impossible to the self-confident.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-24-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The choice framed and decided personally: as for me and my house. First principle: neutrality is impossibility — serve the fathers' gods or the LORD; Joshua's household decides first.",
+      "density": 1.6964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-21-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All came to pass of what the LORD spoke to Israel. First principle: the promise-audit at chapter's end — nothing failed; Solomon and Hebrews both inherit the sentence.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-1-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The commanded courage grounded on whithersoever-thou-goest presence. First principle: courage is not self-generated but presence-derived — the LORD thy God is with thee whithersoever.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No man stands before Joshua; no failing, no forsaking. First principle: leadership succession rides on presence-promise — Hebrews passes the same promise to every believer.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jos-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As I Was with Moses, So I Will Be with Thee",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-24-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Cannot Serve the LORD: for He Is an Holy God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-24-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Bones of Joseph, Which the Children of Israel Brought Up",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-24-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Your Fathers Dwelt on the Other Side of the Flood",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-10-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sun Stood Still in the Midst of Heaven",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-8-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Read All the Words of the Law",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-21-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Failed Not Ought of Any Good Thing",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-24-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Choose You This Day Whom Ye Will Serve",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jos-1-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Be Strong and of a Good Courage",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

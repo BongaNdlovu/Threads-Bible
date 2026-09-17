@@ -1,0 +1,184 @@
+{
+  "book": "phm",
+  "bookName": "Philemon",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 6,
+    "entryStrings": 12,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "phm-1-10",
+    "phm-1-15",
+    "phm-1-18",
+    "phm-1-25",
+    "phm-1-6",
+    "phm-1-9"
+  ],
+  "fields": [
+    {
+      "entryId": "phm-1-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Love's appeal from an old prisoner. First principle: authority is laid down for love's sake — the apostle beseeches rather than commands, and the prisoner's chains are his credential.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The grace-benediction closes the shortest letter. First principle: grace with the spirit is the lasting need — every wrong righted begins and ends in grace to the inner man.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The imputation sentence in a postcard. First principle: the gospel in miniature — debts transferred to the intercessor; Christ's account absorbs ours, and Paul practices it.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Effective faith acknowledges every good thing in us in Christ. First principle: faith communicates by acknowledging — the recognition of what is in Christ energizes the sharing.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The runaway begotten in bonds. First principle: providence writes conversion stories in prison cells — the useless made useful by the chained apostle.",
+      "density": 1.6036,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Perhaps — that thou shouldest receive him for ever. First principle: providence reads departures as returns — the forever-reception reframes the season of loss.",
+      "density": 1.4571,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "phm-1-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Paul the Aged, and Now Also a Prisoner of Jesus Christ",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "phm-1-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Grace of Our Lord Jesus Christ Be with Your Spirit",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "phm-1-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If He Hath Wronged Thee, Put That on Mine Account",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "phm-1-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Communication of Thy Faith May Become Effectual",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "phm-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Beseech Thee for My Son Onesimus",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "phm-1-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Therefore Departed for a Season",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,198 @@
+{
+  "book": "hag",
+  "bookName": "Haggai",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 5,
+    "entryStrings": 12,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "hag-1-1",
+    "hag-2-23",
+    "hag-2-6",
+    "hag-2-7",
+    "hag-2-9"
+  ],
+  "fields": [
+    {
+      "entryId": "hag-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "For thus saith the LORD of hosts; Yet once, it is a little while, and I will shake the heavens, and the earth... and the desire of all nations shall come: and I will fill this house with glory. The second temple's glory exceeded Solomon's because the Desire Himself walked its courts. First principle: God's greatest glory in a place arrives quietly, in a Person.",
+      "density": 2.9393,
+      "words": 65,
+      "sentences": 4,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hag-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peace given in this place. First principle: the second temple's greater glory is a Person visiting it — and in this place, peace is promised by name.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hag-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dated word to Zerubbabel and Joshua. First principle: civil governor and high priest hear together — rebuilding requires both throne and altar under one word.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hag-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zerubbabel chosen as the sealed signet on God's hand. First principle: the signet restores the reversed curse of Jeconiah — the Davidic line's official seal of authority.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hag-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heavens, earth, sea, dry land shaken once more. First principle: the once-more shaking is scheduled — Hebrews escalates it to heaven itself so the unshakeable remains.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hag-2-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Simeon, holding the infant in the temple courts, embodies the promise fulfilled (Luke 2:29-32).",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "desire",
+        "original": "חֶמְדָּה",
+        "translit": "chemdah",
+        "strongs": null,
+        "gloss": "desire, delight, precious thing",
+        "note": "Simeon, holding the infant in the temple courts, embodies the promise fulfilled (Luke 2:29-32).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "hag-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet Once, It Is a Little While, and I Will Shake",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hag-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Glory of This Latter House Shall Be Greater",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hag-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Came the Word of the LORD by Haggai",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hag-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Desire of All Nations Shall Come",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hag-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make Thee as a Signet",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hag-2-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "desire, delight, precious thing",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "desire",
+        "original": "חֶמְדָּה",
+        "translit": "chemdah",
+        "strongs": null,
+        "gloss": "desire, delight, precious thing",
+        "note": "Simeon, holding the infant in the temple courts, embodies the promise fulfilled (Luke 2:29-32).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

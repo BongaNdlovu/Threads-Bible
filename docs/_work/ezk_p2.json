@@ -1,0 +1,565 @@
+{
+  "book": "ezk",
+  "bookName": "Ezekiel",
+  "part": 2,
+  "parts": 2,
+  "counts": {
+    "entries": 15,
+    "entryStrings": 36,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "ezk-34-11",
+    "ezk-34-23",
+    "ezk-34-24",
+    "ezk-36-25",
+    "ezk-36-26",
+    "ezk-36-27",
+    "ezk-37-5",
+    "ezk-37-12",
+    "ezk-37-24",
+    "ezk-37-27",
+    "ezk-40-1",
+    "ezk-43-2",
+    "ezk-43-7",
+    "ezk-47-1",
+    "ezk-47-12"
+  ],
+  "fields": [
+    {
+      "entryId": "ezk-36-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God promises to sprinkle clean water on His people, cleanse them from all idols, take away the stony heart, and give them a heart of flesh, putting His Spirit within them to cause them to walk in His statutes. First principle: regeneration by the Holy Spirit replaces spiritual deadness with responsive obedience.",
+      "density": 3.5286,
+      "words": 52,
+      "sentences": 2,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"God promises to sprinkle clean water on His people, cleanse them from all idols, take away…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-34-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd. Spoken against the failed shepherds of Israel who fed themselves. First principle: God answers negligent leadership with a single faithful Shepherd of David's line — and the flock is known by name.",
+      "density": 3.1,
+      "words": 60,
+      "sentences": 3,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-37-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD commands Ezekiel to prophesy to the dry bones in the valley: \"Behold, O My people, I will open your graves, and cause you to come up out of your graves... and put My Spirit in you, and you shall live.\" Jesus echoes this in John 5: all who are in the graves shall hear His voice and come forth. First principle: God's Spirit possesses life-giving power over physical death and national exile.",
+      "density": 2.9357,
+      "words": 74,
+      "sentences": 3,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-43-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Many-waters voice; the earth shined with His glory. First principle: the glory returns by the east gate it left — the same way of departure is the way of return.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-34-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The verb ra'ah means both to shepherd and to associate with; Jesus claims the verse in John 10:11-16 and Hebrews 13:20 crowns it.",
+      "density": 1.8893,
+      "words": 23,
+      "sentences": 1,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "feed",
+        "original": "וּרְעָם",
+        "translit": "ur'am",
+        "strongs": null,
+        "gloss": "and he shall shepherd them",
+        "note": "The verb ra'ah means both to shepherd and to associate with; Jesus claims the verse in John 10:11-16 and Hebrews 13:20 crowns it.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-43-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Dwelling in the midst forever; the house no more defiled. First principle: throne and soles — sovereignty and nearness in one sentence; the defilement era ends by divine residence.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-37-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dwelling-promise renewed to resurrected Israel. First principle: tabernacle with them — the covenant formula carried into the valley's aftermath; Revelation quotes it for the redeemed.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-47-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "East-flowing water from the altar side. First principle: the temple leaks life — the trickle at the threshold becomes the knee-deep, hip-deep river of the vision.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-47-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "New fruit by his months; leaf for medicine. First principle: the sanctuary-fed trees never fade — Revelation's tree of life borrows the months and the medicinal leaves.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-37-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Dry bones hear the word and live. First principle: the valley-question answered — breath by word of command; the resurrection preached to an army of bones.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-34-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God with them, David-prince among them — I the LORD have spoken it. First principle: the divine-shepherd and the David-prince co-reign without contradiction — one flock, both Sheep and Shepherd.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-36-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Statutes kept because the Spirit indwells. First principle: obedience has an internal engine — the cause-you-to-walk is the Spirit's causal presence in the new covenant.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-40-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Twenty-five years after captivity, the hand brings him to the city-smitten land. First principle: the vision-dated tour — the temple-measuring vision answers the glory-departing vision of chapters 10-11.",
+      "density": 1.6143,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-36-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Cleansed from filthiness and idols. First principle: the sprinkling is cleansing, not ceremony — idols and filthiness named as what the water washes.",
+      "density": 1.6036,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-37-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One shepherd, judgments walked, statutes done. First principle: the reunited kingdom under the one Shepherd-King — the David-title is the walking-statutes cause.",
+      "density": 1.4643,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-34-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The doubled I — God Himself does the seeking the shepherds failed at. First principle: divine intervention replaces negligent leadership — the search is personal, pronoun-emphatic.",
+      "density": 1.3929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-43-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Glory of the God of Israel Came from the Way of the East",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-43-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Place of My Throne, and the Place of the Soles of My Feet",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-34-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I the LORD Will Be Their God, and My Servant David a Prince",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-40-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Visions of God Brought He Me into the Land of Israel",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-36-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "2 Cor 3:3 — fleshy tables of the heart (πλαξὶν καρδίας σαρκίναις).",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "heart of flesh",
+        "original": "לֵב בָּשָׂר",
+        "translit": "lev basar",
+        "strongs": null,
+        "gloss": "heart of flesh (tender, responsive)",
+        "note": "2 Cor 3:3 — fleshy tables of the heart (πλαξὶν καρδίας σαρκίναις).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-36-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Put My Spirit Within You, and Cause You to Walk",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-47-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Waters Issued Out from under the Threshold of the House",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-34-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, I, Even I, Will Both Search My Sheep",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-37-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, I Will Cause Breath to Enter into You",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-47-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Trees for Meat, Whose Leaf Shall Not Fade",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-36-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A New Heart and a Heart of Flesh",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-34-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "One Shepherd: My Servant David over the Flock",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-36-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then Will I Sprinkle Clean Water upon You",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-37-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "David My Servant Shall Be King over Them",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-37-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Tabernacle Also Shall Be with Them",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-37-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 5:28 — \"all that are in the graves shall hear his voice.\"",
+      "density": 0.5536,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "open your graves",
+        "original": "פֹּתֵחַ אֶת־קִבְרוֹתֵיכֶם",
+        "translit": "poteach ʾet-qivrotekhem",
+        "strongs": null,
+        "gloss": "I will open your graves",
+        "note": "John 5:28 — \"all that are in the graves shall hear his voice.\"",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-37-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Graves Opened — Dry Bones Revived",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-36-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "heart of flesh (tender, responsive)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "heart of flesh",
+        "original": "לֵב בָּשָׂר",
+        "translit": "lev basar",
+        "strongs": null,
+        "gloss": "heart of flesh (tender, responsive)",
+        "note": "2 Cor 3:3 — fleshy tables of the heart (πλαξὶν καρδίας σαρκίναις).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-37-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I will open your graves",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "open your graves",
+        "original": "פֹּתֵחַ אֶת־קִבְרוֹתֵיכֶם",
+        "translit": "poteach ʾet-qivrotekhem",
+        "strongs": null,
+        "gloss": "I will open your graves",
+        "note": "John 5:28 — \"all that are in the graves shall hear his voice.\"",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-34-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "and he shall shepherd them",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "feed",
+        "original": "וּרְעָם",
+        "translit": "ur'am",
+        "strongs": null,
+        "gloss": "and he shall shepherd them",
+        "note": "The verb ra'ah means both to shepherd and to associate with; Jesus claims the verse in John 10:11-16 and Hebrews 13:20 crowns it.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

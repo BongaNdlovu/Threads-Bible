@@ -1,0 +1,2565 @@
+{
+  "book": "mat",
+  "bookName": "Matthew",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 60,
+    "entryStrings": 132,
+    "chainStrings": 34,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "mat-1-1",
+    "mat-1-23",
+    "mat-11-10",
+    "mat-12-17",
+    "mat-12-18",
+    "mat-12-40",
+    "mat-12-7",
+    "mat-13-14",
+    "mat-13-35",
+    "mat-15-4",
+    "mat-15-8",
+    "mat-16-18",
+    "mat-17-5",
+    "mat-19-18",
+    "mat-19-4",
+    "mat-19-5",
+    "mat-2-15",
+    "mat-2-18",
+    "mat-2-2",
+    "mat-2-23",
+    "mat-2-6",
+    "mat-21-13",
+    "mat-21-16",
+    "mat-21-42",
+    "mat-21-5",
+    "mat-22-32",
+    "mat-22-37",
+    "mat-22-44",
+    "mat-24-15",
+    "mat-24-21",
+    "mat-24-30",
+    "mat-24-31",
+    "mat-26-28",
+    "mat-26-31",
+    "mat-26-56",
+    "mat-27-35",
+    "mat-27-46",
+    "mat-27-48",
+    "mat-27-9",
+    "mat-28-18",
+    "mat-28-20",
+    "mat-3-17",
+    "mat-3-3",
+    "mat-4-10",
+    "mat-4-14",
+    "mat-4-16",
+    "mat-4-4",
+    "mat-4-6",
+    "mat-4-7",
+    "mat-5-17",
+    "mat-5-21",
+    "mat-5-27",
+    "mat-5-3",
+    "mat-5-33",
+    "mat-5-38",
+    "mat-5-43",
+    "mat-5-5",
+    "mat-5-8",
+    "mat-8-17",
+    "mat-9-13"
+  ],
+  "fields": [
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thou art Peter (petros, a loose stone), and upon this rock (petra, the massive bedrock of Peter's confession: \"Thou art the Christ, the Son of the living God\") I will build My church; and the gates of hell shall not prevail against it. Christ Himself is the sole Foundation and Cornerstone of the church. The assembly of believers is called out from worldly allegiance to be His royal priesthood.",
+      "density": 2.8107,
+      "words": 69,
+      "sentences": 4,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-26-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zechariah 13:7 quoted over Gethsemane's night. First principle: the sword of the LORD wakes against the Shepherd who is God's equal — the scattering proves who He is even as it wounds them.",
+      "density": 2.3679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Zechariah 13:7"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-2-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Magi follow His star from the east to worship the newborn King. First principle: Balaam's Star out of Jacob and Isaiah's nations coming to His light begin their fulfillment with Gentile pilgrims and a celestial sign.",
+      "density": 2.2714,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-12-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sign of Jonah: entombment and emergence after three days. First principle: the resurrection was given as the standing sign to a doubting generation — and it is still the only sign that matters.",
+      "density": 2.2214,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sixth commandment is deepened to include causeless anger. First principle: the law written on stone Christ writes on the heart — obedience becomes a matter of the temper, not merely the act.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-9-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the law's own heart — God's priority is covenant love, and He extends it to sinners at table.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hosea 6:6"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-19-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "To the rich young ruler Jesus cites the Decalogue's table of love. First principle: the law was never a ladder to heaven but a mirror for the neighbor — and its full weight is love.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 37:11 is folded into the Beatitudes verbatim. First principle: the earth is inherited not by grasp but by meekness — the psalm's order of the kingdom, kept by the meek King.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-13-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 78's Asaph is quoted of Jesus' parabolic teaching — secrets kept from the foundation of the world now uttered in stories. First principle: the parables are themselves prophecy fulfilled — old words finding final voice.",
+      "density": 2.1571,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-21-42",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 118 and Isaiah 28 converge on the rejected Stone. First principle: the kingdom is taken from those who will not build on God's Stone and given to a nation bringing forth fruit.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 24's ascent question — who shall ascend into the hill of the LORD? — answered in beatitude form. First principle: the clean hands and pure heart that see God are given, not earned; Christ is the open vision.",
+      "density": 2.1179,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-43",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Leviticus 19:18 stands; the appended hatred was never written. First principle: the law's love was always meant to reach the enemy — love for neighbour is defined by God, not by proximity.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Leviticus 19:18"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-5-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The law and prophets stand until all is fulfilled — in Him. First principle: Christ is the law's goal, not its opponent; every jot and tittle finds its meaning in His obedience and teaching.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-12-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 42:1 quoted nearly verbatim: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the Baptism voice and the Servant Song are the same appointment.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 42:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-24-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "They shall see the Son of man coming in the clouds of heaven with power and great glory. Textual proof: direct use of Daniel 7:13-14; echoed in Mark 13:26, Luke 21:27, Rev 1:7, 14:14. Public, visible, glorious — one coming.",
+      "density": 2.0286,
+      "words": 40,
+      "sentences": 3,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Daniel 7:13",
+          "Mark 13:26",
+          "Luke 21:27",
+          "Revelation 1:7"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-24-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Daniel 12's unparalleled time of trouble is quoted for the coming climax. First principle: the tribulation has a named intensity and a named limit — for the elect's sake those days are shortened.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Father's voice joins Psalm 2's decree to Isaiah 42's delight in the Servant. First principle: Son and Servant are one Person — crowned King and gentle Redeemer in a single sentence from heaven.",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-17-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "On the mount of transfiguration the Father repeats the Baptism formula and adds the Deuteronomic command: hear ye Him. First principle: the Prophet like Moses is present — hear Him above Moses and Elijah themselves.",
+      "density": 1.9607,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes are Isaiah 61's good-news-to-the-meek restated as covenant blessings — the anointed One now preaches His own charter.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture — but omits to tempt the Lord thy God; promise twisted becomes presumption.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-8-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the atonement's compassion touches body as well as soul; the Sin-Bearer carries the whole burden of the fall.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:4"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-21-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 56 for all nations versus Jeremiah 7's den of thieves. First principle: the temple's purpose is prayer for the nations — commerce that excludes them makes it a robbers' cave.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-22-37",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Shema plus Leviticus 19:18 hang all the law and prophets. First principle: love for God and neighbor is the law distilled — not a replacement of commandments but their heart.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Leviticus 19:18"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-28-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The risen Christ receives Daniel 7's dominion and Psalm 2's possession. First principle: the Great Commission rests on universal authority — mission is the announcement of a throne, not a request.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-22-44",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 110 silences the Sadducees and scribes: David's Lord sits at God's right hand. First principle: Christ's lordship over David is the key to His person — Son by birth, Lord by throne.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The chief priests cite Micah 5:2 for the Messiah's birthplace. Textual proof: Matthew 2:5-6 quotes Micah; Micah 5:2 itself promises a ruler from Bethlehem whose goings forth are from everlasting.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Micah 5:2",
+          "Matthew 2:5",
+          "Micah 5:2"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-24-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The elect are gathered from the four winds — Isaiah 27's trumpet and Deuteronomy 30's regathering. First principle: the same trumpet that scattered Israel's promises gathers Christ's elect; no elect one is left behind.",
+      "density": 1.8786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew quotes Isaiah 7:14: a virgin shall bear a son, and they shall call his name Emmanuel. Textual proof: direct OT quotation; Isaiah 8:8, 10 also use the name. The evangelist identifies Jesus as that child.",
+      "density": 1.8714,
+      "words": 36,
+      "sentences": 3,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 7:14",
+          "Isaiah 8:8"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-27-46",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 22:1 cried at the ninth hour in Hebrew. First principle: the crucified One prays the psalm that maps His own agony — forsaken that we might be received.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Oath-law from Leviticus and Numbers is restored to simplicity: yes and no. First principle: truthfulness needs no sworn scaffolding — the law's aim is a heart whose word is always true.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Settling in Nazareth fulfills the prophets' pattern of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner — contempt of Nazareth is itself consonant with prophecy.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Herod's massacre fulfills Jeremiah 31:15 at Ramah's border. First principle: even the grief of Bethlehem was written — and the same chapter that weeps promises the new covenant.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Jeremiah 31:15"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-4-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The kingdoms-for-worship trade is refused with Deuteronomy 6:13. First principle: God alone receives worship — Christ wins the kingdoms legally at Calvary instead of illegally at the mountain.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:13"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-26-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The cup quotes Jeremiah 31 and applies Exodus 24: blood-sealed covenant, remission of sins. First principle: the new covenant is not inked but bled — and the Supper is its ongoing memorial.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-2-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The flight and return fulfill Hosea 11:1. First principle: Israel's history is prophetic pattern — the Son relives the nation's exodus, embodying what Israel could only foreshadow.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hosea 11:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-19-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 2:24 is quoted as God's own speech about marriage. First principle: the one-flesh bond is a creation ordinance — what God joined, no committee or custom may sever.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:24"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-12-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew quotes the Servant Song as the key to Christ's withdrawn, gentle ministry. First principle: Messiah's manner — no striving, no breaking bruised reeds — was as prophesied as His miracles.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew's first line indexes the whole book: Jesus Christ is David's royal heir and Abraham's promised Seed. First principle: the two great covenant threads — kingship and worldwide blessing — open the genealogy.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-28-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "To the end of the world, the Immanuel of chapter 1 remains. First principle: the book that opened with God-with-us closes with God-with-always — the promise that outlasts every generation.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-21-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zechariah 9:9 and Isaiah 62:11 are joined at the triumphal entry. First principle: salvation comes riding a donkey — meekness is not the absence of majesty but its manner.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Zechariah 9:9",
+          "Isaiah 62:11"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-15-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 29:13 again: lips close, heart far; doctrine taught as the commandments of men. First principle: proximity of vocabulary is not nearness of heart — vain worship can quote Scripture fluently.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 29:13"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-27-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zechariah 11 and Jeremiah 32-33 converge on the potter's-field price. First principle: the composite quotation is exact in substance — betrayal money buys a burial ground for strangers.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 9:2 fulfilled over Galilee: light sprung up in death's shadow. First principle: dawn begins where darkness sat longest — and from that light the kingdom is preached.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 9:2"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-22-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I AM the God of Abraham — covenant grammar implies resurrection. First principle: God's relationship to His saints cannot terminate in the grave; the patriarchs live to Him.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The lex talionis was a judge's limit on vengeance; Jesus turns the other cheek. First principle: civil justice restrains evil, but the disciple's personal rule is grace that absorbs wrong.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-19-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "On divorce, Jesus appeals to creation order — male and female from the beginning. First principle: Genesis is the standing authority for marriage; the Creator's original design settles the question.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Matthew marks the move to Capernaum as Isaiah 9 underway. First principle: geography is prophecy — where the Light chooses to shine was written before the move.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-3-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John is Isaiah 40:3 in person — the preparer of the Lord's way. First principle: before the King comes, the road is preached; repentance is the leveling of valleys.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 40:3"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-12-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mercy over sacrifice, again from Hosea — the guiltless are condemned by ritualists. First principle: Sabbath and sacrament serve mercy; the Lord of the Sabbath defines the weightier matter.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-11-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John is Malachi 3:1's messenger, identified by Jesus Himself. First principle: the forerunner prophecy anchors the Messiah's arrival in history — two figures, one written plan.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Malachi 3:1"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-13-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 6's hardening is fulfilled in parable-hearing Israel. First principle: revelation resisted becomes judicial dullness — hearing without understanding is a judgment, not an accident.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-15-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The fifth commandment is set against corban tradition. First principle: God's commandment, not human convention, defines honor — and tradition that cancels it is null.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-27-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The crucifixion proceeds as Psalm 22:18 wrote it. First principle: at the cross, the soldiers fulfill Scripture involuntarily — the plan needs no conscious cooperation.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-27-48",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sponge of vinegar answers Psalm 69:21. First principle: the last act of the Passion was hospitality twisted into mockery — and written beforehand.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-5-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The seventh commandment reaches the look of lust. First principle: the covenant law governs the inner man; purity of heart is the truest chastity.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-24-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus names Daniel as the read-ahead for the temple's desolation. First principle: apocalyptic reading is Jesus' own preparation plan — whoso readeth, let him understand.",
+      "density": 1.4821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus answers the second temptation with Deuteronomy 6:16 — It is written again. First principle: Scripture balances Scripture; faith trusts God without forcing Him to prove Himself.",
+      "density": 1.475,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 6:16"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-26-56",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Arrest, abandonment, flight — all within the writings of the prophets. First principle: the disciples' desertion does not derail the plan; even desertion fulfills it.",
+      "density": 1.425,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-21-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Children's Hosannas fulfill Psalm 8:2 — perfected praise. First principle: God ordains praise from the least; when critics object, the psalm answers.",
+      "density": 1.35,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus answers temptation with Deuteronomy 8:3. Textual proof: each wilderness answer quotes Torah (Deut 8:3; 6:16; 6:13). Scripture is the sufficient authority against the tempter.",
+      "density": 1.2536,
+      "words": 25,
+      "sentences": 3,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 8:3",
+          "Deuteronomy 8:3"
+        ]
+      }
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Emmanuel",
+        "original": "עִמָּנוּ אֵל",
+        "translit": "Immanuʾel",
+        "strongs": null,
+        "gloss": "with-us God",
+        "note": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Bethlehem Ephratah",
+        "original": "בֵּית לֶחֶם אֶפְרָתָה",
+        "translit": "Beit Lechem Ephratah",
+        "strongs": null,
+        "gloss": "house of bread, Ephrathah",
+        "note": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-22-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Is Not the God of the Dead, but of the Living",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Upon This Rock I Will Build My Church (Petra & Ekklēsia)",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Pure in Heart, for They Shall See God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "An Eye for an Eye, and a Tooth for a Tooth",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-24-30",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Dan 7:13 LXX — same cloud-coming; universal visibility (Matt 24:27).",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "coming in the clouds",
+        "original": "ἐρχόμενον ἐπὶ τῶν νεφελῶν",
+        "translit": "erchomenon epi tōn nephelōn",
+        "strongs": null,
+        "gloss": "coming upon the clouds",
+        "note": "Dan 7:13 LXX — same cloud-coming; universal visibility (Matt 24:27).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Continuity with the Qahal of Israel in the Old Testament.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "church / called-out assembly",
+        "original": "ἐκκλησία",
+        "translit": "ekklēsia",
+        "strongs": null,
+        "gloss": "called out citizens / covenant assembly",
+        "note": "Continuity with the Qahal of Israel in the Old Testament.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Where Is He That Is Born King of the Jews?",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-26-56",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All This Was Done, That the Scriptures Might Be Fulfilled",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Settled, standing OT text — Jesus' pattern of proof.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "It is written",
+        "original": "γέγραπται",
+        "translit": "gegraptai",
+        "strongs": null,
+        "gloss": "it has been written (perfect)",
+        "note": "Settled, standing OT text — Jesus' pattern of proof.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-4-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The People Which Sat in Darkness Saw Great Light",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Meek, for They Inherit the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Not Come to Destroy, but to Fulfil",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That It Might Be Fulfilled by Esaias the Prophet",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-15-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This People Draweth Nigh unto Me with Their Mouth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-21-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My House Shall Be Called the House of Prayer",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-24-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Great Tribulation, Such as Was Not Since the Beginning",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-24-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Angels with a Great Sound of a Trumpet",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-26-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Smite the Shepherd, and the Sheep Scatter",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Distinct from petros (a movable pebble/fragment). Christ and His divinity is the rock.",
+      "density": 0.725,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bedrock / rock",
+        "original": "πέτρᾳ",
+        "translit": "petra",
+        "strongs": null,
+        "gloss": "massive living bedrock / foundation cliff",
+        "note": "Distinct from petros (a movable pebble/fragment). Christ and His divinity is the rock.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Son of David, the Son of Abraham",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of Egypt Have I Called My Son",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-3-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Voice of One Crying in the Wilderness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Give His Angels Charge Concerning Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Tempt the Lord Thy God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Worship the Lord Thy God Only",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-43",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Love Thy Neighbour — and Hate Thine Enemy",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-11-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, I Send My Messenger Before Thy Face",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As Jonas Was Three Days and Three Nights",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-13-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Them Is Fulfilled the Prophecy of Esaias",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-15-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "For God Commanded, Honour Thy Father and Mother",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-21-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of the Mouth of Babes and Sucklings",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-24-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Abomination of Desolation, Spoken of by Daniel",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-26-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is My Blood of the New Testament",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of Bethlehem Shall Come a Governor",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-24-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Son of Man Coming in the Clouds",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That It Might Be Fulfilled by Esaias",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-9-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Have Mercy, and Not Sacrifice",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Ye Had Known What This Meaneth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-12-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold My Servant, Whom I Have Chosen",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-13-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Open My Mouth in Parables",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-19-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Which Made Them at the Beginning",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-21-42",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Did Ye Never Read in the Scriptures?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-22-37",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Love the Lord Thy God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-27-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Took the Thirty Pieces of Silver",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "massive living bedrock / foundation cliff",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bedrock / rock",
+        "original": "πέτρᾳ",
+        "translit": "petra",
+        "strongs": null,
+        "gloss": "massive living bedrock / foundation cliff",
+        "note": "Distinct from petros (a movable pebble/fragment). Christ and His divinity is the rock.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-16-18",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "called out citizens / covenant assembly",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "church / called-out assembly",
+        "original": "ἐκκλησία",
+        "translit": "ekklēsia",
+        "strongs": null,
+        "gloss": "called out citizens / covenant assembly",
+        "note": "Continuity with the Qahal of Israel in the Old Testament.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Be Called a Nazarene",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Poor in Spirit",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-19-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Twain Shall Be One Flesh",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-21-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy King Cometh unto Thee, Meek",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-22-44",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Said unto My Lord",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-27-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Parted His Garments, Casting Lots",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-28-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Power Is Given unto Me",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-28-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lo, I Am with You Alway",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Emmanuel — God With Us",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "it has been written (perfect)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "It is written",
+        "original": "γέγραπται",
+        "translit": "gegraptai",
+        "strongs": null,
+        "gloss": "it has been written (perfect)",
+        "note": "Settled, standing OT text — Jesus' pattern of proof.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-2-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rachel Weeping for Her Children",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is My Beloved Son",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Commit Adultery",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Forswear Thyself",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-19-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Do No Murder",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-5-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Have Heard... Thou Shalt Not Kill",
+      "density": 0.4036,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "house of bread, Ephrathah",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Bethlehem Ephratah",
+        "original": "בֵּית לֶחֶם אֶפְרָתָה",
+        "translit": "Beit Lechem Ephratah",
+        "strongs": null,
+        "gloss": "house of bread, Ephrathah",
+        "note": "Mic 5:2 — little among the thousands of Judah, yet source of ruler.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-24-30",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "coming upon the clouds",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "coming in the clouds",
+        "original": "ἐρχόμενον ἐπὶ τῶν νεφελῶν",
+        "translit": "erchomenon epi tōn nephelōn",
+        "strongs": null,
+        "gloss": "coming upon the clouds",
+        "note": "Dan 7:13 LXX — same cloud-coming; universal visibility (Matt 24:27).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mat-8-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Himself Took Our Infirmities",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-27-46",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Eli, Eli, Lama Sabachthani?",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-27-48",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Vinegar on a Reed",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-4-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "It Is Written",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-17-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hear Ye Him",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mat-1-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "with-us God",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Emmanuel",
+        "original": "עִמָּנוּ אֵל",
+        "translit": "Immanuʾel",
+        "strongs": null,
+        "gloss": "with-us God",
+        "note": "Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus' birth.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT prophetic continuity: Jesus instructs disciples to guard Sabbath sanctity far past the Cross into 70 AD and end-times.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Apostolic theology: the weekly rest remains a living obligation and spiritual rest for God's people.",
+      "density": 1.3821,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Sinai moral law: written by the finger of God in the heart of the Decalogue.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Prophetic covenant: the Sabbath identifies the true Creator who makes His people holy.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eternal consummation: Sabbath remains the perpetual rhythm of worship in the restored cosmos.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest origin: seventh-day rest instituted in Eden before the entrance of sin.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT example: Jesus Christ observed the seventh-day Sabbath throughout His earthly incarnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Calculation: 457 BC + 483 years brings exactly to 27 AD.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "End-time restoration: Third Angel quotes Exodus 20:11, restoring Creator-worship before judgment.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "27 AD: Jesus baptized and anointed with the Holy Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Midst of the week: cause sacrifice and oblation to cease",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Creation Sabbath: God rested, blessed, and sanctified the seventh day",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Final call: Worship Him that made heaven, earth, and sea",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Earth: From one Sabbath to another all flesh worships",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "31 AD: Temple veil rent in twain at crucifixion",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Perpetual sign of sanctification between God and His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Pray that your flight be not on the Sabbath",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Decree of Artaxerxes to restore Jerusalem (457 BC)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Unto Messiah the Prince: 69 weeks (483 years)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary death of the Anointed One foretold.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "34 AD: Stephen stoned; gospel sent to Gentiles",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Christ's custom: synagogue worship on the Sabbath day",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "3. The Sabbath: Creation to the New Earth",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Messiah cut off, but not for Himself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "2. The 70 Weeks: Dating the Messiah",
+      "density": 0.5179,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Seventy weeks determined upon thy people",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Fourth Commandment: Perpetual memorial of Creation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "There remaineth therefore a Sabbath-keeping (sabbatismos)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    }
+  ]
+}

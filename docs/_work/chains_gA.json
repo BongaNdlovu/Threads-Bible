@@ -1,0 +1,532 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group A)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 104
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].connection",
+      "text": "This is the earliest clear hope that a person will see God in the body after the body has fallen apart."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].title",
+      "text": "In my flesh I shall see God"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David prophesied that the grave would not keep him."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].title",
+      "text": "Thou wilt not leave my soul in Sheol"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the earth gives up its dead in the resurrection."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].title",
+      "text": "Awake and sing, ye that dwell in dust"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].connection",
+      "text": "Same-OT: a vision of the Spirit raising the dead out of their graves."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].title",
+      "text": "I will open your graves — dry bones live"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the resurrection runs two ways, to everlasting life or to shame."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].title",
+      "text": "They that sleep in dust awake"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].connection",
+      "text": "Same-OT: YHWH pays the price to bring his people back from the power of the grave."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].title",
+      "text": "O death, I will be thy plagues"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus declares His voice raises the dead to life or condemnation."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].title",
+      "text": "All that are in the graves shall hear His voice"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].connection",
+      "text": "Jesus shows his authority to raise the dead when he raises Lazarus."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].title",
+      "text": "I am the Resurrection and the Life"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].connection",
+      "text": "Psalm 16 was fulfilled in Christ's empty tomb."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].title",
+      "text": "Apostles preach Christ risen without corruption"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].connection",
+      "text": "Paul quotes Isaiah 25:8 and Hosea 13:14 to prove the bodily resurrection."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "name",
+      "text": "Bodily Resurrection: Awakening from the Dust"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].title",
+      "text": "Christ the firstfruits; death swallowed up"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].title",
+      "text": "The dead in Christ shall rise first"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].connection",
+      "text": "At the Lord's descent, believers are raised in the body, and everyone sees it."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].title",
+      "text": "First resurrection; death cast into the lake of fire"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].connection",
+      "text": "Death is finally conquered, and the body is vindicated."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].connection",
+      "text": "Earliest Joseph cycle — chosen, envied, destined for honor."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].title",
+      "text": "Beloved son dreams; brothers envy"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].connection",
+      "text": "Same-OT: betrayal and sale into Egypt."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].title",
+      "text": "Stripped, pit, sold for silver"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].title",
+      "text": "Favor in prison — God with him"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].connection",
+      "text": "Same-OT: presence under suffering."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].title",
+      "text": "Set over all Egypt"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].connection",
+      "text": "Same-OT: humiliation → enthronement."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].connection",
+      "text": "Same-OT: rejection ordered for salvation of many."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].title",
+      "text": "God sent me to preserve life"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].title",
+      "text": "You meant evil; God meant good"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].connection",
+      "text": "Same-OT: sovereign good over human evil."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].connection",
+      "text": "Same-OT: inspired retelling of the cycle."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].title",
+      "text": "Joseph tried, then made lord"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].connection",
+      "text": "NT sermon retells the type in salvation history."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].title",
+      "text": "Joseph made governor"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].title",
+      "text": "All things work together for good"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].connection",
+      "text": "NT: cross-shaped providence from Joseph's confession."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "name",
+      "text": "Joseph — Rejected Deliverer"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].connection",
+      "text": "Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].title",
+      "text": "The Jubilee: Israel proclaims liberty and every family gets its land back"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].connection",
+      "text": "Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].title",
+      "text": "Earth desolated without inhabitant during judgment"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].connection",
+      "text": "Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].title",
+      "text": "High ones and kings gathered in prison, visited after many days"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].connection",
+      "text": "Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].title",
+      "text": "Saints shall judge the world and judge angels"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].connection",
+      "text": "Millennium in heaven: righteous raised at second coming; Satan bound to desolate earth."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].title",
+      "text": "First resurrection: Saints reign with Christ 1,000 years"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].connection",
+      "text": "Consummation: wicked raised after 1,000 years; lake of fire consumes evil permanently."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].title",
+      "text": "Second resurrection: Final rebellion devoured by fire"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].connection",
+      "text": "Cosmic purification: fire purges the planet, making way for eternal recreation."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].title",
+      "text": "Elements melt; new heavens and new earth wherein dwelleth righteousness"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].connection",
+      "text": "Eden restored: death, sorrow, and crying passed away forever."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].title",
+      "text": "New Jerusalem descends: God tabernacles with men"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].title",
+      "text": "River of life and tree of life: They shall see His face"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].connection",
+      "text": "Eternal communion: unbroken fellowship with God and the Lamb throughout eternity."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "name",
+      "text": "8. The Millennium & The Earth Made New"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].connection",
+      "text": "The first redemption law in the Torah: a close relative buys back land and freedom that a family lost."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].title",
+      "text": "The law of the Go'el — buying back land and family"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Boaz redeems the field and takes Ruth into the covenant line."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].title",
+      "text": "Boaz the faithful kinsman-redeemer"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].connection",
+      "text": "Same-OT: women bless God for the redeemer who fathers Obed."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].title",
+      "text": "A redeemer to restore life"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Job confesses his living Go'el will stand on the earth."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].title",
+      "text": "I know that my Redeemer lives"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].connection",
+      "text": "Same-OT: YHWH Himself comes as Israel's Redeemer."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].title",
+      "text": "The Redeemer shall come to Zion"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].connection",
+      "text": "NT: Christ becomes our near kin in the flesh to accomplish redemption."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].title",
+      "text": "Born of a woman to redeem those under the law"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].connection",
+      "text": "NT: by sharing our blood He breaks death and frees the enslaved."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].title",
+      "text": "Not ashamed to call them brethren"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].connection",
+      "text": "NT: the slain Redeemer opens the seven-sealed scroll of redemption."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].title",
+      "text": "Worthy is the Lamb to take the title deed"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "name",
+      "text": "The Kinsman-Redeemer (Go'el)"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].title",
+      "text": "God said; light shines in darkness"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].connection",
+      "text": "Earliest creative speech and light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].connection",
+      "text": "Same-OT: light ordered into the cosmos."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].title",
+      "text": "Lights for signs; day/night ruled"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].title",
+      "text": "Heavens declare the glory of God"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].connection",
+      "text": "Same-OT: creation as speech/witness."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].title",
+      "text": "Word a lamp; entrance of words gives light"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Torah as light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].title",
+      "text": "People in darkness see a great light"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].connection",
+      "text": "Same-OT: messianic light in Galilee."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].connection",
+      "text": "Same-OT: servant as covenant light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].title",
+      "text": "Light to the nations"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].title",
+      "text": "Word; true Light coming into the world"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].connection",
+      "text": "NT: person of the Word and Light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].title",
+      "text": "Light of the knowledge of God in Christ"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].connection",
+      "text": "NT: Paul quotes creation-light for gospel illumination."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "name",
+      "text": "Light and the Word"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].connection",
+      "text": "Moral and prophetic consistency: if doctrine contradicts God's law or prophetic word, there is no light in it."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].title",
+      "text": "Test 1: To the Law and to the Testimony"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].connection",
+      "text": "Canonical harmony: no prophecy is of private interpretation; established by the consensus of the whole canon."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].connection",
+      "text": "Christological focus: every prophetic time-period centers on Christ's sacrifice, priesthood, and return."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "name",
+      "text": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].title",
+      "text": "Test 2: Sola Scriptura / Analogia Scripturae"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].title",
+      "text": "Test 3: Christ-Centered Sanctuary Baseline"
+    }
+  ]
+}

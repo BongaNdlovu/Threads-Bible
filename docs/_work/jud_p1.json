@@ -1,0 +1,260 @@
+{
+  "book": "jud",
+  "bookName": "Jude",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 7,
+    "entryStrings": 16,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jud-1-5",
+    "jud-1-6",
+    "jud-1-7",
+    "jud-1-9",
+    "jud-1-11",
+    "jud-1-14",
+    "jud-1-24"
+  ],
+  "fields": [
+    {
+      "entryId": "jud-1-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints. Textual proof: Genesis 5:18-24 — Enoch walked with God and was translated; Hebrews 11:5; the prophetic word is second-coming language consistent with Zech 14:5 and 2 Thess 1:7.",
+      "density": 2.8,
+      "words": 48,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 5:18",
+          "Hebrews 11:5",
+          "Zechariah 14:5",
+          "2 Thessalonians 1:7"
+        ]
+      }
+    },
+    {
+      "entryId": "jud-1-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The archangel disputes with the devil but says only, The Lord rebuke thee. First principle: even angelic conflict is conducted in deference — the rebuke belongs to the LORD; Zechariah 3 shows the same scene over Joshua.",
+      "density": 2.2964,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Fallen angels reserved in everlasting chains to the great day. First principle: abandonment of station has a reservation — the darkness-chains hold until judgment; the same fate is warned against the false teachers.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The keeping God presents the faultless before glory with joy. First principle: the doxology is soteriology — kept, presented, joyous; the One who saves is the One who finishes.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The saved-out generation died in the wilderness for unbelief. First principle: past salvation does not immunize against future judgment — the exodus ended at Kadesh for the faithless.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Three Old Testament rebels map three New Testament sins. First principle: the old rebels are type-men — envy, greed, and usurpation have canonical case studies and one Woe.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Strange flesh and eternal fire — an example set forth. First principle: the ash-cities are a standing exhibition — eternal fire already visibly burned once as a preview.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jud-1-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Prophetic certainty of the second advent, linked to Enoch of the seventh generation (Gen 5).",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the Lord cometh",
+        "original": "ἦλθεν κύριος",
+        "translit": "ēlthen kyrios",
+        "strongs": null,
+        "gloss": "the Lord came / is come (prophetic aorist)",
+        "note": "Prophetic certainty of the second advent, linked to Enoch of the seventh generation (Gen 5).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jud-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord, Having Saved the People out of Egypt, Destroyed the Unbelieving",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Way of Cain, the Error of Balaam, the Gainsaying of Core",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto Him That Is Able to Keep You from Falling",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the Lord came / is come (prophetic aorist)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the Lord cometh",
+        "original": "ἦλθεν κύριος",
+        "translit": "ēlthen kyrios",
+        "strongs": null,
+        "gloss": "the Lord came / is come (prophetic aorist)",
+        "note": "Prophetic certainty of the second advent, linked to Enoch of the seventh generation (Gen 5).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jud-1-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Angels Which Kept Not Their First Estate",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Sodom and Gomorrha... Suffering the Vengeance of Eternal Fire",
+      "density": 0.5679,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Michael... Durst Not Bring a Railing Accusation",
+      "density": 0.5179,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jud-1-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, the Lord Cometh",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

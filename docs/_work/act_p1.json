@@ -1,0 +1,835 @@
+{
+  "book": "act",
+  "bookName": "Acts",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 26,
+    "entryStrings": 56,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "act-1-8",
+    "act-1-11",
+    "act-1-16",
+    "act-1-20",
+    "act-2-17",
+    "act-2-25",
+    "act-2-34",
+    "act-3-18",
+    "act-3-22",
+    "act-3-25",
+    "act-4-11",
+    "act-4-26",
+    "act-7-3",
+    "act-7-7",
+    "act-7-32",
+    "act-7-37",
+    "act-7-49",
+    "act-7-50",
+    "act-8-32",
+    "act-10-43",
+    "act-13-33",
+    "act-13-34",
+    "act-13-47",
+    "act-15-16",
+    "act-17-31",
+    "act-28-26"
+  ],
+  "fields": [
+    {
+      "entryId": "act-28-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Paul closes Acts with Isaiah 6 over the Jews in Rome: hearing, not perceiving — and turns to the Gentiles, who will hear. First principle: the book that opened with Israel ends with the light going to the nations, exactly as written.",
+      "density": 2.3643,
+      "words": 42,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-15-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "James settles the Gentile question with Amos: God returns and rebuilds David's fallen booth so the residue of men may seek the Lord. First principle: Gentile inclusion is not a plan B — it is the rebuilt tabernacle, prophesied.",
+      "density": 2.2893,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-4-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The church prays Psalm 2 over the threats of rulers: kings stood up, rulers gathered — against the Lord and His Christ. First principle: opposition to the gospel is the prophesied rage of kings; the heavens answer with boldness, not retreat.",
+      "density": 2.2821,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-49",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Stephen closes with Isaiah 66: the Most High dwells not in temples made with hands. First principle: God cannot be housed — the accusation against the temple is that its makers trusted the building, not the Presence.",
+      "density": 2.1821,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-1-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The angels fix the ascension as the pattern of return: this same Jesus shall so come in like manner. First principle: the clouds that received Him are the clouds that will bring Him — Zechariah 14's Olivet schedule holds.",
+      "density": 2.1179,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-2-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter opens Joel 2 at Pentecost: sons and daughters prophesy, young men see visions. First principle: the last days begin at the cross and the Spirit — the prophecy Peter quotes is still running.",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-13-47",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Paul and Barnabas quote Isaiah 49 as their commission to turn to the Gentiles. First principle: the Servant's worldwide salvation is carried forward by His witnesses — ordained for eternal life, not an afterthought.",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-8-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Ethiopian eunuch reads Isaiah 53; Philip preaches Jesus from that very text. First principle: Isaiah 53 is the key that opens the Old Testament — and Philip uses it for personal evangelism.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-37",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Stephen quotes Deuteronomy 18 and applies it: the Prophet God would raise up has come. First principle: Deuteronomy 18 is a messianic office, and refusing to hear Him is the judgment it warns of.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-17-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God has fixed a day and a Judge, giving assurance to all by raising Him from the dead. First principle: the resurrection is the receipt of future judgment — the ordained Man will judge in righteousness.",
+      "density": 1.9286,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-4-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter, standing in the Sanhedrin, quotes the Stone psalm against the builders themselves. First principle: salvation is in no other name — the Stone you rejected is the only foundation God laid.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-10-43",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter's summary to Cornelius: all the prophets witness that through Christ's name whosoever believeth receives remission of sins. First principle: the prophetic corpus has one subject and one offer — forgiveness through the Name.",
+      "density": 1.8786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-50",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Maker of all needs no house of stone. First principle: creation precedes temple; the God whose hand made everything cannot be contained by anything His hand has made.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-1-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Power from the Holy Ghost sends witnesses from Jerusalem to the ends of the earth. First principle: Isaiah 49's salvation-to-the-ends becomes the church's marching order — the Spirit is the engine of prophecy.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "At the bush, God names Himself the God of the patriarchs — and Moses trembles. First principle: the covenant God binds Himself to generations; the resurrection hope is folded into His very self-identification.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-3-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sufferings of Christ were shewn by all the prophets beforehand — and God hath so fulfilled them. First principle: the cross is God's foretold plan, executed on schedule through guilty hands.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-2-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter argues from Psalm 110: David did not ascend, yet spoke of enthronement — fulfilled in Jesus. First principle: the prophecy outruns its author; the Lord at God's right hand is David's Son.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-3-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter preaches to Israel as children of the covenant — Abraham's seed blessing all kindreds. First principle: the gospel to Jerusalem is Genesis 12 arriving on schedule, first to the covenant family.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Stephen recounts the call of Abraham: leave kindred, come into the land I shew thee. First principle: the covenant story begins with a departure on promise — faith walks before it sees.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-1-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 69 and 109 govern the choice of a twelfth witness — habitation desolate, another takes his office. First principle: the apostles resolve even church order by written prophecy.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-7-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God tells Abraham of bondage, judgment, and a fourth-generation exodus. First principle: prophecy names the oppression and its end before either exists — and God keeps the calendar.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-13-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Paul reads Psalm 2 of the resurrection: God fulfilled the promise by raising Jesus. First principle: the resurrection is the enthronement decree — begotten again, as firstborn from the dead.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-13-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 55's sure mercies are read of the Holy One who sees no corruption. First principle: the covenant mercies promised to David are delivered as an incorruptible, risen Savior.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-3-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses said: A prophet shall the Lord your God raise up… like unto me. Textual proof: Deuteronomy 18:15-19 quoted as fulfilled in Jesus; same text as John 1:45.",
+      "density": 1.5,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Deuteronomy 18:15",
+          "John 1:45"
+        ]
+      }
+    },
+    {
+      "entryId": "act-2-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter quotes Psalm 16:8-11 for Jesus' resurrection. Textual proof: Acts 2:25-36 argues David did not rise; his Son did. Paul makes the same argument in Acts 13:35-37.",
+      "density": 1.3607,
+      "words": 27,
+      "sentences": 3,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Acts 2:25",
+          "Acts 13:35"
+        ]
+      }
+    },
+    {
+      "entryId": "act-1-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Peter reads Judas's betrayal from David's own words. First principle: even treachery inside the Twelve moved along rails Scripture had already laid.",
+      "density": 1.35,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "act-2-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ps 16:10 LXX — applied to bodily resurrection of Jesus (Acts 2:31).",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "see corruption",
+        "original": "διαφθοράν",
+        "translit": "diaphthoran",
+        "strongs": null,
+        "gloss": "decay / corruption",
+        "note": "Ps 16:10 LXX — applied to bodily resurrection of Jesus (Acts 2:31).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "act-17-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Will Judge the World by That Man Whom He Hath Ordained",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-3-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Deut 18:15 — prophet of God's word from among the brethren.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "like unto me",
+        "original": "כָּמֹנִי",
+        "translit": "kamoni",
+        "strongs": null,
+        "gloss": "like me",
+        "note": "Deut 18:15 — prophet of God's word from among the brethren.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "act-2-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Pour Out of My Spirit in the Last Days",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-13-47",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Set Thee to Be a Light of the Gentiles",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-13-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art My Son; This Day Have I Begotten Thee",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Nation Will I Judge — Then Come Forth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am the God of Abraham, Isaac, and Jacob",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-37",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Prophet Like unto Me, Him Shall Ye Hear",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-1-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Witnesses unto the Uttermost Part of the Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-2-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "David Is Not Ascended — but He Said",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-3-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What God Before Had Shewed by the Prophets",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-3-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Thy Seed Shall All Kindreds Be Blessed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-50",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hath Not My Hand Made All These Things?",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-15-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Build Again the Tabernacle of David",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-28-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hearing Ye Shall Hear, and Shall Not Understand",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-1-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Scripture Must Needs Have Been Fulfilled",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-4-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Against the Lord, and Against His Christ",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-49",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Heaven Is My Throne, Earth My Footstool",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-8-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Led as a Sheep to the Slaughter",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-10-43",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Him Give All the Prophets Witness",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-1-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Same Jesus Shall So Come",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-4-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Set at Nought of You Builders",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-7-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Get Thee Out of Thy Country",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-2-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "David Speaks of Christ's Resurrection",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-1-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Bishoprick Let Another Take",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-13-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sure Mercies of David",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-3-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Prophet Like Moses",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "act-2-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "decay / corruption",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "see corruption",
+        "original": "διαφθοράν",
+        "translit": "diaphthoran",
+        "strongs": null,
+        "gloss": "decay / corruption",
+        "note": "Ps 16:10 LXX — applied to bodily resurrection of Jesus (Acts 2:31).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "act-3-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "like me",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "like unto me",
+        "original": "כָּמֹנִי",
+        "translit": "kamoni",
+        "strongs": null,
+        "gloss": "like me",
+        "note": "Deut 18:15 — prophet of God's word from among the brethren.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

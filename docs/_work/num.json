@@ -1,0 +1,1018 @@
+{
+  "book": "num",
+  "bookName": "Numbers",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 10,
+    "entryStrings": 32,
+    "chainStrings": 28,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "num-11-31",
+    "num-12-6",
+    "num-14-18",
+    "num-21-11",
+    "num-21-8",
+    "num-21-9",
+    "num-24-17",
+    "num-35-30",
+    "num-6-24",
+    "num-9-12"
+  ],
+  "fields": [
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses makes a bronze serpent and sets it on a pole; whoever is bitten and looks upon it lives. Jesus directly applies this to His own crucifixion: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turns the emblem of the curse into the instrument of life when looked upon in faith.",
+      "density": 3.825,
+      "words": 73,
+      "sentences": 3,
+      "maxSentenceWords": 35,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-21-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live. Remedy mirrors plague: what killed becomes the instrument of life when lifted up. First principle: salvation is by looking — faith fastened on the God-provided object.",
+      "density": 3.1143,
+      "words": 56,
+      "sentences": 3,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD declares the biblical criteria for the prophetic gift: \"If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream.\" Together with Isaiah 8:20 (harmony with the law) and Matthew 7:20 (\"by their fruits ye shall know them\"), Scripture establishes objective, empirical tests for true spiritual gifts. First principle: genuine prophetic manifestations operate under strict biblical boundaries, never overriding or contradicting the written canon.",
+      "density": 2.9964,
+      "words": 81,
+      "sentences": 4,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Matthew 7:20",
+          "Isaiah 8:20"
+        ]
+      }
+    },
+    {
+      "entryId": "num-24-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Balaam, hired to curse Israel, can only bless: I shall see him, but not now... there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel. First principle: God turns every curse of the enemy into messianic blessing; the promised Ruler appears at God's appointed time, not nigh but certain.",
+      "density": 2.7464,
+      "words": 55,
+      "sentences": 3,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-35-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One witness cannot kill; two or more establish the matter. First principle: due process is divine law — the two-or-three witness rule Jesus and Paul both invoke for church and judgment alike.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-21-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The same word for the ensign to which nations gather (Isa 11:10); Jesus uses hupsothen — lifted up — of His cross (John 3:14).",
+      "density": 1.9714,
+      "words": 24,
+      "sentences": 1,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pole",
+        "original": "נֵס",
+        "translit": "nes",
+        "strongs": null,
+        "gloss": "banner, standard, elevated signal",
+        "note": "The same word for the ensign to which nations gather (Isa 11:10); Jesus uses hupsothen — lifted up — of His cross (John 3:14).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-6-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Aaronic blessing opens with keeping. First principle: the threefold blessing climaxes in the Name placed on the people — the benediction Paul echoes in the Trinitarian grace.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-11-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Quails by the camp's circumference, two cubits high. First principle: God answers craving — and the quail story is the backdrop of the true bread discourse in John 6.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-21-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The itinerary continues toward Moab, toward the sunrising. First principle: even Israel's marching orders are recorded; the itinerary itineraries are the road-map the Lord Jesus walked in type.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-14-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Forgiving iniquity, by no means clearing the guilty; visiting iniquity to the fourth generation. First principle: the balance-verse of divine character — mercy and justice in one proclamation, quoted across Scripture.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-9-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Passover law repeated: no bone broken, nothing left over. First principle: the second-chance Passover keeps the lamb-laws intact — integrity of the sacrifice is perpetual law.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Wordplay in Hebrew (nachash / nechoshet); type of sin judged in the likeness of sinful flesh (Rom 8:3).",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "serpent of brass",
+        "original": "נְחַשׁ נְחֹשֶׁת",
+        "translit": "nechash nechoshet",
+        "strongs": null,
+        "gloss": "serpent of bronze / copper",
+        "note": "Wordplay in Hebrew (nachash / nechoshet); type of sin judged in the likeness of sinful flesh (Rom 8:3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-24-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The Magi followed His star (Matt 2:2); Christ names Himself the bright and morning star (Rev 22:16).",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "star",
+        "original": "כּוֹכָב",
+        "translit": "kokhab",
+        "strongs": null,
+        "gloss": "star, blazing light",
+        "note": "The Magi followed His star (Matt 2:2); Christ names Himself the bright and morning star (Rev 22:16).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "John 3:14; 12:32 — double meaning of physical elevation on the cross and divine exaltation.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lifted up",
+        "original": "ὑψωθῆναι",
+        "translit": "hypsōthēnai",
+        "strongs": null,
+        "gloss": "to be lifted up / exalted",
+        "note": "John 3:14; 12:32 — double meaning of physical elevation on the cross and divine exaltation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-35-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Murderer Shall Be Put to Death by the Mouth of Witnesses",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Empirical prophetic state accompanied by biblical physical signs (Dan 10:8, 17).",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in a vision",
+        "original": "בַּמַּרְאָה",
+        "translit": "bam-marʾah",
+        "strongs": null,
+        "gloss": "in a vision / supernatural appearance",
+        "note": "Empirical prophetic state accompanied by biblical physical signs (Dan 10:8, 17).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Visions and Dreams — The Divine Protocol for True Prophets",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-24-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Star out of Jacob, a Sceptre out of Israel",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-9-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Leave None of It unto the Morning",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-11-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Went Forth a Wind from the LORD",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-21-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Journeyed from Oboth, and Pitched at Ije-abarim",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-6-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Bless Thee, and Keep Thee",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-14-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is Longsuffering, of Great Mercy",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "to be lifted up / exalted",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lifted up",
+        "original": "ὑψωθῆναι",
+        "translit": "hypsōthēnai",
+        "strongs": null,
+        "gloss": "to be lifted up / exalted",
+        "note": "John 3:14; 12:32 — double meaning of physical elevation on the cross and divine exaltation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "in a vision / supernatural appearance",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in a vision",
+        "original": "בַּמַּרְאָה",
+        "translit": "bam-marʾah",
+        "strongs": null,
+        "gloss": "in a vision / supernatural appearance",
+        "note": "Empirical prophetic state accompanied by biblical physical signs (Dan 10:8, 17).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "God's communication channel through spiritual impression.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in a dream",
+        "original": "בַּחֲלוֹם",
+        "translit": "ba-chalom",
+        "strongs": null,
+        "gloss": "in an inspired prophetic dream",
+        "note": "God's communication channel through spiritual impression.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-21-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Fiery Serpent upon a Pole",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Bronze Serpent Lifted Up",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "num-21-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "serpent of bronze / copper",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "serpent of brass",
+        "original": "נְחַשׁ נְחֹשֶׁת",
+        "translit": "nechash nechoshet",
+        "strongs": null,
+        "gloss": "serpent of bronze / copper",
+        "note": "Wordplay in Hebrew (nachash / nechoshet); type of sin judged in the likeness of sinful flesh (Rom 8:3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-12-6",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "in an inspired prophetic dream",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in a dream",
+        "original": "בַּחֲלוֹם",
+        "translit": "ba-chalom",
+        "strongs": null,
+        "gloss": "in an inspired prophetic dream",
+        "note": "God's communication channel through spiritual impression.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-21-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "banner, standard, elevated signal",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pole",
+        "original": "נֵס",
+        "translit": "nes",
+        "strongs": null,
+        "gloss": "banner, standard, elevated signal",
+        "note": "The same word for the ensign to which nations gather (Isa 11:10); Jesus uses hupsothen — lifted up — of His cross (John 3:14).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "num-24-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "star, blazing light",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "star",
+        "original": "כּוֹכָב",
+        "translit": "kokhab",
+        "strongs": null,
+        "gloss": "star, blazing light",
+        "note": "The Magi followed His star (Matt 2:2); Christ names Himself the bright and morning star (Rev 22:16).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: the sign corrupted into an idol; the physical bronze has no saving power in itself.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Kings 18:4",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "NT: Jesus directly applies the serpent on the pole to His crucifixion for eternal life.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 3:14-15",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Inspired definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 19:10",
+        "verseId": "rev-19-10",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Christ took the form of the cursed serpent/sin that we might become righteousness.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Corinthians 5:21",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "End-time promise: prophetic gift active right up to the great day of the LORD.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Apostolic order: spiritual gifts remain active until the church reaches mature unity in faith.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 12:28",
+        "verseId": "1co-12-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Biblical mechanism: how God speaks to true prophets under inspired guidance.",
+      "density": 1.0536,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 12:6",
+        "verseId": "num-12-6",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Divine rule: significant redemptive actions are always preceded by prophetic revelation.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 3:7",
+        "verseId": "amo-3-7",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Identifying mark: end-time believers preserve obedience and the living prophetic testimony.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Hermeneutical parallel: the angel equates \"the testimony of Jesus\" with \"thy brethren the prophets.\"",
+      "density": 0.8429,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:9",
+        "verseId": "rev-22-9",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest type: looking upon the emblem of judgment brings healing.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 21:8-9",
+        "verseId": "num-21-9",
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Even so must the Son of Man be lifted up",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 3:14-15",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT: lifting up on the cross reveals His divine identity.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 8:28",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "God reveals His secret to His servants the prophets",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 3:7",
+        "verseId": "amo-3-7",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "The testimony of Jesus is the Spirit of Prophecy",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 19:10",
+        "verseId": "rev-19-10",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "When you lift up the Son of Man",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 8:28",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Lifted up from the earth to draw all",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 12:32-33",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Prophets placed permanently in the body of Christ",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 12:28",
+        "verseId": "1co-12-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Remnant identified: has the testimony of Jesus Christ",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "7. The Spirit of Prophecy & The Remnant",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: crucifixion draws all peoples to Himself.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 12:32-33",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Bronze Serpent and the Cross",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Bronze serpent set upon a pole",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 21:8-9",
+        "verseId": "num-21-9",
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Latter-day outpouring of the prophetic Spirit",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Fellowservant of thy brethren the prophets",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:9",
+        "verseId": "rev-22-9",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Prophetic criteria: visions and dreams",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 12:6",
+        "verseId": "num-12-6",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Nehushtan broken in pieces",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Kings 18:4",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Made sin for us",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Corinthians 5:21",
+        "verseId": null,
+        "chainName": "The Bronze Serpent and the Cross"
+      }
+    }
+  ]
+}

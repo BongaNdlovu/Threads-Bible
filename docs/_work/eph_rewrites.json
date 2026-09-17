@@ -1,0 +1,292 @@
+{
+  "book": "eph",
+  "bookName": "Ephesians",
+  "drafts": [
+    {
+      "entryId": "eph-1-4",
+      "field": "principle",
+      "after": "God chose us in Christ, and he chose us to be holy in love. First principle: God made that choice before he made the world. Its purpose is character, not selection. He means us to stand holy and blameless before him.",
+      "reason": "V2: the 22-word second sentence carried two ideas; it is now three sentences, one idea each. V3: 'the choice predates creation' gains its actor, 'its purpose is character' is expanded into what the character is, and 'not merely selected by Him' becomes its own short sentence so the contrast lands. Claims kept: election is in Christ; it aims at holiness in love; the choice predates creation; the purpose is holy and blameless before Him."
+    },
+    {
+      "entryId": "eph-1-7",
+      "field": "principle",
+      "after": "God forgives us according to the riches of his grace. First principle: redemption is something we hold now. The blood-price was paid once, and the forgiveness it bought is ours today rather than a hope for later.",
+      "reason": "V3: 'present possession' was an abstract noun stack where the reader needs a verb; it is now 'something we hold now', and 'held, not hoped for' becomes 'ours today rather than a hope for later'. V2: the em-dash sentence carried two ideas and is now two sentences. 'redemption' keeps the frozen glossary sense of buying a person back at a price, and 'the riches of his grace' is the KJV phrase of Eph 1:7. Claims kept: forgiveness according to the riches of His grace; redemption is present; the blood-price was paid once; the forgiveness is held, not hoped for."
+    },
+    {
+      "entryId": "eph-1-10",
+      "field": "principle",
+      "after": "The fullness of times gathers heaven and earth under one Head. First principle: history has a plan to unite everything, and God's plan is not an idea. All things, in heaven and on earth, are gathered up in Christ.",
+      "reason": "V3: 'dispensational' is on the never-write list and is replaced with the period named plainly, 'the fullness of times' already in the sentence. V2: the em-dash sentence listed three abstract nouns; it is now three sentences with an actor and a verb. 'cosmic regathering' becomes all things in heaven and on earth gathered up in Christ, which is what the claim says. Claims kept: the fullness of times; the gathering of heaven and earth into one Head; all things in Christ."
+    },
+    {
+      "entryId": "eph-1-20",
+      "field": "principle",
+      "after": "God raised Christ and seated him at his right hand in heavenly places. First principle: God enthroned him after he raised him, and that throne is above every name.",
+      "reason": "V3: 'resurrection is followed by enthronement' was a passive abstraction with no actor; God is now named as the one who raised and enthroned, and 'above every name' says what 'above every name' meant in the abstract. V2: the 13-word second sentence already carried one idea, so it is kept short. Claims kept: God raised Christ; God seated Him at His right hand in heavenly places; enthronement follows resurrection; the throne is above every name."
+    },
+    {
+      "entryId": "eph-1-21",
+      "field": "principle",
+      "after": "Every power that has a name, in this age and the next, sits beneath the seated Christ. First principle: that list of powers leaves nothing out. The name above every name outranks every throne that rulers and spirits can produce.",
+      "reason": "V3: 'the ranking list is exhaustive' is an abstract claim about a list the reader cannot see; it is now said as what it means, that nothing is left out. 'the cosmic or political orders' is a decode-compound and becomes 'rulers and spirits', which is who the list names. V2: the sentences are split so each carries one idea. Claims kept: every named power in this age and the next; all are beneath the seated Christ; the list is exhaustive; the name above every name outranks every throne."
+    },
+    {
+      "entryId": "eph-1-22",
+      "field": "principle",
+      "after": "Psalm 8's footstool is given as authority over the body. First principle: the subjection of the universe has a home address. The Head who fills all things uses that authority first for his church.",
+      "reason": "V3: 'headship' is the frozen glossary term and is glossed in place as authority over the body, because the reader should not have to decode it; 'has a home address' is an image, so the sentence that follows states the claim it stands for. V2: the second sentence is split so each carries one idea. Claims kept: Psalm 8's footstool; headship over the body; the universe's subjection has a home address; the Head who fills all things exercises it first for the church."
+    },
+    {
+      "entryId": "eph-2-8",
+      "field": "principle",
+      "after": "Salvation is a gift and not a wage. God does not save anyone by works. First principle: grace works through faith and shuts boasting out at the root. The chain runs from God's mercy, to faith's open hand, to God's gift. Jonah's fish-story agrees: salvation is of the LORD.",
+      "reason": "V2: the 28-word sentence that ran the chain and Jonah's testimony together under an em-dash is now three sentences, one idea each. V3: 'not of works' is said as 'God does not save anyone by works', which names the actor, and 'faith's hand' becomes 'faith's open hand' so the picture is complete. 'grace' is kept as the frozen glossary word for God's unearned favour. Claims kept: salvation is gift, not wage; not of works; grace through faith excludes boasting at the root; the three-link chain; Jonah's testimony that salvation is of the LORD."
+    },
+    {
+      "entryId": "eph-2-13",
+      "field": "principle",
+      "after": "The blood of Christ closes the distance, and geography never could. First principle: the Gentiles who were far off are brought near. Isaiah's peace for those far off and those near is preached by the Peacemaker himself.",
+      "reason": "V2: the 21-word second sentence carried two ideas and is now two sentences. V3: 'Distance is overcome by blood' is passive with no actor, so Christ's blood is named as what closes the distance; 'geography' is kept because the contrast is the point. Claims kept: distance is overcome by blood, not geography; the far-off Gentiles are brought near; Isaiah's peace to far and near; the Peacemaker himself preaches it."
+    },
+    {
+      "entryId": "eph-2-20",
+      "field": "principle",
+      "after": "The church is built \"on the foundation of the apostles and prophets,\" with Christ Jesus Himself as the chief corner stone. First principle: the church rests on Christ at the centre, and not on an institution. That cornerstone is what holds the whole building together.",
+      "reason": "V3: 'christologically centered' carries the never-write form of the glossary term christological, so the sentence now says what the claim means, that the church rests on Christ at the centre, and it names the cornerstone the verse names. 'not merely institutional' was an adjective where the reader needs the contrast named, so it becomes 'not on an institution'. V2: the second sentence is split so each carries one idea. I1: the source's own rendering of Eph 2:20 is carried byte-identical; the app frame 'The church is built' now sits outside the quotation marks and not one word inside them changed, and the words 'being the chief corner stone' follow the source exactly with only the opening 'being' written as 'as the'. QUOTE-REVIEW: the app's span reads 'Built on the foundation of the apostles and prophets' while the served KJV of Eph 2:20 reads 'And are built upon the foundation of the apostles and prophets'; the app's words are carried exactly as they stand and no restoration to canon is claimed or attempted."
+    },
+    {
+      "entryId": "eph-2-14",
+      "field": "principle",
+      "after": "The middle wall of partition is broken down. First principle: Christ does not merely make peace between Jew and Gentile. He himself is our peace. He broke down the dividing wall in his own body.",
+      "reason": "V2: the 24-word em-dash sentence carried three ideas; it is now three sentences. V3: 'He is it' had a pronoun with no clear antecedent, so it is now 'He is that peace', and 'the dividing wall is demolished' becomes 'He broke down the dividing wall', which names the actor the source's own keyword list names ('broken down the middle wall of partition'). I1: the opening sentence is the source's own KJV phrase carried byte-identical and left unquoted. Claims kept: the middle wall is broken down; Christ does not merely make peace, He is it; the wall is demolished in His own body."
+    },
+    {
+      "entryId": "eph-2-17",
+      "field": "principle",
+      "after": "The exalted Christ preaches through the men he sends, and he reaches the far and the near in one sentence. First principle: Isaiah's messengers ran with peace. The Lord of those messengers delivers it himself through them.",
+      "reason": "V3: 'the preachers' was a bare noun where the actor matters, so it is now 'the men he sends', which names Christ as the one who sends and preaches. V2: the em-dash sentence is now two sentences. Claims kept: the exalted Christ preaches through the preachers; far and near in one sentence; Isaiah's messengers ran with peace; the Lord of the messengers delivers it Himself through them."
+    },
+    {
+      "entryId": "eph-4-8",
+      "field": "principle",
+      "after": "Psalm 68's victory parade becomes the ascension that gives gifts. First principle: the Conqueror shares what he took. Apostles, prophets, evangelists, pastors and teachers are the gifts he gave.",
+      "reason": "V3: 'gift-dispensing ascension' was a coined compound and 'the spoils' was a metaphor the reader has to decode; the first becomes 'the ascension that gives gifts' and the second 'what he took', which says the same thing plainly. V2: the em-dash sentence is now two sentences. Claims kept: Psalm 68's victory parade; the ascension; the Conqueror shares the spoils; the five kinds of gifted men are the gifts He gave."
+    },
+    {
+      "entryId": "eph-4-9",
+      "field": "principle",
+      "after": "Ascension implies a prior descent. First principle: the ascent to the throne required the descent to the lower earth. With that argument the psalm holds the incarnation and the grave together in one picture.",
+      "reason": "V3: 'holds the incarnation and the grave together' was compressed, with the psalm as the subject and no clear object for the reader to follow, so the sentence now carries the argument in plain order and names what holds them together. V2: the em-dash sentence carrying two ideas is now two sentences. Claims kept: ascension implies a prior descent; the ascent to the throne required the descent to the lower earth; the psalm's logic; the incarnation and the grave."
+    },
+    {
+      "entryId": "eph-4-25",
+      "field": "principle",
+      "after": "Lying is put off because members belong to one another. First principle: Zechariah's peace through true speaking is shared life, and truth is what holds the body's joints together.",
+      "reason": "V3: 'communal' is a Latin-root adjective the reader must decode, so it is said as 'shared life'; 'the joint-fluid of the body' is a coined image, and it is now 'what holds the body's joints together', which is the same picture in everyday words. V2: the em-dash sentence is now two sentences. Claims kept: lying is put off; members belong to one another; Zechariah's true-speaking peace is communal; truth is the joint-fluid of the body."
+    },
+    {
+      "entryId": "eph-4-26",
+      "field": "principle",
+      "after": "Psalm 4's evening rule for anger: felt, limited, sun-set. First principle: anger itself is permitted, but it may not stay overnight. Do not give the devil a furnished room.",
+      "reason": "V2: the 20-word sentence joined permission and prohibition with an em-dash and a semicolon; it is now two sentences, one idea each. V3: 'its lodging overnight is not' was an inverted abstraction and is now 'it may not stay overnight' with the subject first. Claims kept: Psalm 4's evening rule; anger is felt, limited, ended at sun-set; anger itself is permitted; lodging overnight is not; do not give the devil a furnished room."
+    },
+    {
+      "entryId": "eph-5-2",
+      "field": "principle",
+      "after": "Walk in love, as Christ gave himself for us. First principle: Paul applies the Levitical sweet-savour vocabulary to the cross. Self-giving love is the smell God loves.",
+      "reason": "V3: 'is applied' was passive with no actor; Paul is now named as the one who applies the altar vocabulary. V2: the em-dash sentence is now two sentences, one idea each. I1: the opening clause is the KJV wording of Eph 5:2 ('walk in love, as Christ also hath loved us, and hath given himself for us') compressed by the source and carried byte-identical as it stands. Claims kept: walk in love; Christ gave Himself; the Levitical sweet-savour vocabulary; self-giving love is the smell God loves."
+    },
+    {
+      "entryId": "eph-5-25",
+      "field": "principle",
+      "after": "Husbands, love your wives as Christ loved the church and gave himself for it. First principle: marriage follows the pattern of self-giving atonement, and that is more than mutual usefulness.",
+      "reason": "V2: the 14-word second sentence already carried one idea, but 'not mutual utility alone' was an abstract noun next to a negation; it is now 'more than mutual usefulness', which reads in plain order. V3: 'atonement' keeps the frozen glossary rendering, the price paid so sin can be forgiven. I1: the opening sentence is the KJV wording of Eph 5:25 and the words are carried byte-identical. Claims kept: husbands love your wives; Christ loved the church and gave Himself for it; marriage is patterned on self-giving atonement; not mutual utility alone."
+    },
+    {
+      "entryId": "eph-5-27",
+      "field": "principle",
+      "after": "The goal set before Christ is a church that is holy and without blemish. First principle: the church's final form is ceremonial perfection. Psalm 45's bridal radiance is granted, not grown.",
+      "reason": "V3: 'The presenting goal' left out who presents and to whom; it is now the goal set before Christ, which is what Eph 5:27 says. 'holy, unblemished' becomes 'holy and without blemish', the KJV wording of the verse. V2: the em-dash sentence is now two sentences, one idea each. Claims kept: holy and unblemished; the church's final form is ceremonial perfection; Psalm 45's bridal radiance is granted, not grown."
+    },
+    {
+      "entryId": "eph-5-31",
+      "field": "principle",
+      "after": "Genesis 2:24 is quoted in the marriage section. First principle: God made marriage a living picture. He made it his chosen picture of Christ and the church, and he means every husband and wife to show it.",
+      "reason": "V3: 'the standing parable' was a label the reader had to decode for a claim that can be said directly, so God is named as the one who made marriage a picture, and the union of husband and wife is said as what it is for. V2: the 20-word sentence that joined the label and its explanation with a semicolon is now two sentences, one idea each. Citation Genesis 2:24 carried byte-identical. Claims kept: Genesis 2:24 is quoted in the marriage section; marriage is the standing parable; the union of husband and wife preaches Christ and the church every day."
+    },
+    {
+      "entryId": "eph-5-32",
+      "field": "principle",
+      "after": "The mystery is named here: marriage was prophecy. First principle: Hosea's God who betroths his bride, Isaiah's Maker-Husband, and Genesis's one flesh all aimed at this. They all pointed to Christ and his church.",
+      "reason": "V3: 'Hosea's bridegroom God' is a compressed label that drops the verb, so it becomes 'Hosea's God who betroths his bride'; 'all aimed here' had a pronoun for its object, now 'all aimed at this'. V2: the em-dash sentence is now two sentences, one idea each. Claims kept: the mystery named; marriage was prophecy; the three prophetic strands; Christ and His church."
+    },
+    {
+      "entryId": "eph-6-10",
+      "field": "principle",
+      "after": "The armor section opens with borrowed strength. First principle: the church's strength is received from the Lord, not mustered. God's own strength is what we put on, and our own is not enough.",
+      "reason": "V3: \"Joel's beat-swords-into-armies call is inverted for the church\" was a compressed allusion the reader has to unpack and it is not the passage's plain claim, so the claim is stated directly: strength is received, not mustered. V2: the em-dash sentence is now two sentences, one idea each. 'borrowed strength' is kept as the app's own phrase. Claims kept: the armor section opens with borrowed strength; strength is received from the Lord; not mustered."
+    },
+    {
+      "entryId": "eph-6-14",
+      "field": "principle",
+      "after": "The first piece of armor is a belt of truth, with the breastplate of righteousness over it. First principle: Isaiah 59 shows the divine Warrior dressing for war. The church borrows his wardrobe, and truth and righteousness are its defensive gear.",
+      "reason": "V3: 'truth-girt loins' is a KJV-compound the reader must decode, so it becomes a belt of truth, which is what the picture means; 'defensive gear' is kept because it says plainly what armor is for. V2: the em-dash sentence is now two sentences. Claims kept: the first armor piece is the girt loins, with the breastplate of righteousness; Isaiah 59's divine Warrior dresses; the church borrows His wardrobe; truth and righteousness are defensive gear."
+    },
+    {
+      "entryId": "eph-6-17",
+      "field": "principle",
+      "after": "Helmet of salvation, sword of the Spirit. First principle: the Spirit's sword is the spoken Word. Isaiah's mouth-sword and Isaiah's helmet are handed to the believer.",
+      "reason": "V1: the only change is that the em-dash between the two sentences becomes a full stop, which is §1.7's first rule and the weakest acceptable form of a rewrite; this draft carries no new words and says so here, as the calibration ruling requires. V2: one idea per sentence. V3: every word is everyday English. The source's own phrases 'mouth-sword' and 'the spoken Word' are kept exactly, because they are this entry's own labels for Isaiah's imagery. Claims kept: the helmet of salvation; the sword of the Spirit; the Spirit's sword is the spoken Word; Isaiah's mouth-sword and Isaiah's helmet are handed to the believer."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "eph-5-25",
+      "field": "terms[0].note",
+      "reason": "13 words, 1 sentence of 13, gate PASS. One idea in plain order, and the citation 'Rom 8:32' is carried byte-identical with its abbreviation untouched. The Greek lemma ἑαυτὸν παρέδωκεν and the transliteration heauton paredōken live in the sibling fields and are not touched. Nothing to decode."
+    },
+    {
+      "entryId": "eph-1-22",
+      "field": "title",
+      "reason": "13 words, 1 sentence of 13, gate PASS. KJV wording of Eph 1:22 ('hath put all things under his feet ... head over all things to the church') compressed into a title; carried byte-identical as it stands. One idea, plain order."
+    },
+    {
+      "entryId": "eph-1-20",
+      "field": "terms[0].note",
+      "reason": "12 words, 1 sentence of 12, gate PASS. One idea: the note names Ps 110:1 and says it is the enthronement text most quoted in the New Testament. The citation 'Ps 110:1' and the abbreviation 'NT' are carried byte-identical (I1). Nothing to decode."
+    },
+    {
+      "entryId": "eph-2-13",
+      "field": "title",
+      "reason": "12 words, 1 sentence of 12, gate PASS. KJV wording of Eph 2:13 ('ye who sometimes were far off are made nigh by the blood of Christ') compressed into a title with 'Christ' dropped by the source; carried byte-identical as it stands. One idea, plain order."
+    },
+    {
+      "entryId": "eph-6-10",
+      "field": "title",
+      "reason": "12 words, 1 sentence of 12, gate PASS. KJV wording of Eph 6:10 ('be strong in the Lord, and in the power of his might') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-5-2",
+      "field": "title",
+      "reason": "11 words, 1 sentence of 11, gate PASS. KJV wording of Eph 5:2 ('an offering and a sacrifice to God for a sweetsmelling savour') kept verbatim as the title. One idea, plain order, nothing to decode."
+    },
+    {
+      "entryId": "eph-6-17",
+      "field": "title",
+      "reason": "11 words, 1 sentence of 11, gate PASS. KJV wording of Eph 6:17 ('the sword of the Spirit, which is the word of God') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-1-10",
+      "field": "title",
+      "reason": "10 words, 1 sentence of 10, gate PASS. KJV wording of Eph 1:10 ('he might gather together in one all things in Christ') with the leading 'That' dropped; carried byte-identical as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-2-17",
+      "field": "title",
+      "reason": "10 words, 1 sentence of 10, gate PASS. KJV wording of Eph 2:17 ('came and preached peace to you which were far off') with the leading 'And' dropped; carried byte-identical as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-4-8",
+      "field": "title",
+      "reason": "10 words, 1 sentence of 10, gate PASS. KJV wording of Eph 4:8 ('When he ascended up on high, he led captivity captive') kept verbatim as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-1-4",
+      "field": "title",
+      "reason": "9 words, 1 sentence of 9, gate PASS. KJV wording of Eph 1:4 ('chosen us in him before the foundation of the world') with the pronoun turned into the title's own address; carried byte-identical. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-2-14",
+      "field": "title",
+      "reason": "9 words, 1 sentence of 9, gate PASS. KJV wording of Eph 2:14 ('he is our peace, who hath made both one') kept verbatim as the title. One idea, plain order, nothing to decode."
+    },
+    {
+      "entryId": "eph-4-9",
+      "field": "title",
+      "reason": "9 words, 1 sentence of 9, gate PASS. KJV wording of Eph 4:9 ('that he also descended first into the lower parts') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-2-20",
+      "field": "terms[0].note",
+      "reason": "8 words, 1 sentence of 8, gate PASS. One idea with two citations, 'Ps 118:22' and 'Isa 28:16', both carried byte-identical with their abbreviations untouched (I1). The Greek lemma ἀκρογωνιαίου and the transliteration akrogōniaiou are in the sibling fields. Nothing to decode."
+    },
+    {
+      "entryId": "eph-1-7",
+      "field": "title",
+      "reason": "8 words, 1 sentence of 8, gate PASS. KJV wording of Eph 1:7 ('In whom we have redemption through his blood') kept verbatim as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-5-27",
+      "field": "title",
+      "reason": "8 words, 1 sentence of 8, gate PASS. KJV wording of Eph 5:27 ('a glorious church, not having spot, or wrinkle') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-5-25",
+      "field": "title",
+      "reason": "7 words, 1 sentence of 7, gate PASS. KJV wording of Eph 5:25 ('Christ loved the church and gave himself') with the source's 'also' dropped; carried byte-identical as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-2-8",
+      "field": "title",
+      "reason": "7 words, 1 sentence of 7, gate PASS. KJV wording of Eph 2:8 ('By grace are ye saved through faith') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-4-25",
+      "field": "title",
+      "reason": "7 words, 1 sentence of 7, gate PASS. KJV wording of Eph 4:25 ('speak every man truth with his neighbour') kept verbatim as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-5-32",
+      "field": "title",
+      "reason": "7 words, 1 sentence of 7, gate PASS. KJV wording of Eph 5:32 ('I speak concerning Christ and the church') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-6-14",
+      "field": "title",
+      "reason": "7 words, 1 sentence of 7, gate PASS. KJV wording of Eph 6:14 ('having your loins girt about with truth') kept verbatim as the title, even though the phrase is archaic, because it is the KJV wording of the verse the entry is built on and I1 forbids modernising it. One idea, plain order."
+    },
+    {
+      "entryId": "eph-5-25",
+      "field": "terms[0].gloss",
+      "reason": "6 words, 1 sentence of 6, gate PASS. A lemma gloss, not explanatory prose: it renders the Greek ἑαυτὸν παρέδωκεν with the two senses 'handed over' and 'gave Himself'. Carried byte-identical, with the Greek script and transliteration untouched in the sibling fields."
+    },
+    {
+      "entryId": "eph-1-21",
+      "field": "title",
+      "reason": "6 words, 1 sentence of 6, gate PASS. KJV wording of Eph 1:21 ('far above all principality, and power') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-4-26",
+      "field": "title",
+      "reason": "6 words, 1 sentence of 6, gate PASS. KJV wording of Eph 4:26 ('Be ye angry, and sin not') kept verbatim as the title. One idea, plain order."
+    },
+    {
+      "entryId": "eph-5-31",
+      "field": "title",
+      "reason": "6 words, 1 sentence of 6, gate PASS. KJV wording of Gen 2:24 / Eph 5:31 ('they two shall be one flesh') kept verbatim as the title. One idea, nothing to decode."
+    },
+    {
+      "entryId": "eph-1-20",
+      "field": "title",
+      "reason": "5 words, 1 sentence of 5, gate PASS. The app's own short title, not a quotation, saying that Christ is seated at God's right hand. One idea, plain order, nothing to decode."
+    },
+    {
+      "entryId": "eph-1-20",
+      "field": "terms[0].gloss",
+      "reason": "5 words, 1 sentence of 5, gate PASS. A lemma gloss, not explanatory prose: it renders the Greek δεξιᾷ as 'right hand' and adds the sense in brackets. Carried byte-identical, with the Greek script and transliteration untouched in the sibling fields."
+    },
+    {
+      "entryId": "eph-2-20",
+      "field": "title",
+      "reason": "5 words, 1 sentence of 5, gate PASS. KJV wording of Eph 2:20 ('built upon the foundation of the apostles and prophets') compressed into a title; carried byte-identical as it stands. One idea, plain order."
+    },
+    {
+      "entryId": "eph-2-20",
+      "field": "terms[0].gloss",
+      "reason": "3 words, 1 sentence of 3, gate PASS. A lemma gloss, not explanatory prose: it renders the Greek ἀκρογωνιαίου with the two senses 'cornerstone' and 'capstone'. Carried byte-identical, with the Greek script and transliteration untouched in the sibling fields."
+    }
+  ],
+  "equivalent": []
+}

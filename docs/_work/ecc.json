@@ -1,0 +1,609 @@
+{
+  "book": "ecc",
+  "bookName": "Ecclesiastes",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 16,
+    "chainStrings": 21,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "ecc-12-13",
+    "ecc-12-14",
+    "ecc-12-7",
+    "ecc-3-17",
+    "ecc-7-20",
+    "ecc-9-10",
+    "ecc-9-5"
+  ],
+  "fields": [
+    {
+      "entryId": "ecc-9-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The living know that they shall die, but the dead know not anything, neither have they any more a portion in anything done under the sun. Together with Psalm 146:4 (\"his breath goeth forth... in that very day his thoughts perish\"), Scripture reveals that death is an unconscious sleep (nephesh dissolution) awaiting the physical resurrection at Christ's return. First principle: conditional immortality; the lie of the serpent (\"Ye shall not surely die\") is refuted by the harmonious testimony of the entire canon.",
+      "density": 3.5357,
+      "words": 82,
+      "sentences": 5,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-9-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No work or knowledge in the grave whither thou goest. First principle: the grave's silence is the urgency of diligence — work is for the living day, not the dark hereafter.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-12-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Dust to dust; the spirit to God who gave it. First principle: the twofold destiny of man at death — body to soil, spirit to the Giver; Genesis 2:7 in reverse.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:7"
+        ]
+      }
+    },
+    {
+      "entryId": "ecc-7-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who doeth good and sinneth not. First principle: the universal-sin text of the wisdom canon — Romans 3 builds its none-righteous catena partly on this line.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-12-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Every secret thing, good or evil. First principle: the judgment includes the secret — no classified compartment escapes; Paul and John quote the same audit.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A time for every purpose — including judgment. First principle: the Preacher's consolation under injustice: the schedule includes a courtroom; every work has its time there.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-12-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The whole duty of man — the conclusion of the whole matter. First principle: after all is vanity, two things remain standing: reverent fear and obedient keeping.",
+      "density": 1.5321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ecc-9-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The State of the Dead — The Dead Know Not Anything",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-9-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whatsoever Thy Hand Findeth to Do, Do It with Thy Might",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-9-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Absolute unconsciousness; complete cessation of mental existence until resurrection.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "know not anything",
+        "original": "אֵינָם יוֹדְעִים מְאוּמָה",
+        "translit": "ʾeinam yodeʿim meʾumah",
+        "strongs": null,
+        "gloss": "they do not know anything at all",
+        "note": "Absolute unconsciousness; complete cessation of mental existence until resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ecc-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Shall Judge the Righteous and the Wicked",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-7-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Is Not a Just Man upon Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-12-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then Shall the Dust Return to the Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-9-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they do not know anything at all",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "know not anything",
+        "original": "אֵינָם יוֹדְעִים מְאוּמָה",
+        "translit": "ʾeinam yodeʿim meʾumah",
+        "strongs": null,
+        "gloss": "they do not know anything at all",
+        "note": "Absolute unconsciousness; complete cessation of mental existence until resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ecc-12-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Shall Bring Every Work into Judgment",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ecc-12-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Fear God, and Keep His Commandments",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul.",
+      "density": 1.275,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever.",
+      "density": 0.8643,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional.",
+      "density": 0.8071,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death.",
+      "density": 0.75,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "density": 0.3964,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    }
+  ]
+}
