@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useStore } from '../store/useStore';
 import {
   getChapterVersesFromLoaded,
@@ -9,6 +9,7 @@ import {
 import type { Verse } from '../data/types';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
+import { groupVersesByBookChapter } from './verseGroups';
 import { ZenReader } from './ZenReader';
 import { DataChunkErrorCard } from './DataChunkErrorCard';
 import { PaneChrome, RESIZE_HANDLE_CLASS } from './PaneChrome';
@@ -92,6 +93,14 @@ export function TheThread({
   const primaryRef = selectedThread?.fulfillmentRefs?.[0] || 'Fulfillment';
   const detail = selectedThread ? getThreadDetail(selectedThread.id) : null;
 
+  // Fulfillment verses span several books and chapters. Grouping them by
+  // book + chapter keeps a multi-book set from reading as one continuous
+  // chapter under the first reference's title (defect E).
+  const fulfillmentGroups = useMemo(
+    () => groupVersesByBookChapter(fulfillmentVerses),
+    [fulfillmentVerses]
+  );
+
   useEffect(() => {
     if (!selectedThread || !detail) {
       setHighlightFromThread({});
@@ -167,7 +176,11 @@ export function TheThread({
       </div>
     </div>
   ) : (
-    <ZenReader verses={fulfillmentVerses} title={primaryRef} label="Fulfillment Reference" />
+    <ZenReader
+      verses={fulfillmentVerses}
+      groups={fulfillmentGroups}
+      label="Fulfillment references"
+    />
   );
 
   const renderSubPanes = () => {

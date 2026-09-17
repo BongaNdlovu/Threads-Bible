@@ -1,0 +1,307 @@
+{
+  "actions": [
+    {
+      "type": "clearStorage"
+    },
+    {
+      "type": "navigate",
+      "url": "http://127.0.0.1:3000/#gen-1",
+      "settle": 3000
+    },
+    {
+      "type": "waitFor",
+      "expression": "document.getElementById('verse-gen-1-1')",
+      "timeout": 30000
+    },
+    {
+      "type": "sleep",
+      "ms": 3000
+    },
+    {
+      "type": "click",
+      "selector": "#verse-gen-1-1",
+      "settle": 5000
+    },
+    {
+      "type": "waitFor",
+      "expression": "[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Study on the Map'))",
+      "timeout": 25000
+    },
+    {
+      "type": "clickText",
+      "text": "Study on the Map",
+      "settle": 3500
+    },
+    {
+      "type": "waitFor",
+      "expression": "document.querySelectorAll('article').length === 3",
+      "timeout": 20000
+    },
+    {
+      "type": "eval",
+      "label": "transform before pan",
+      "expression": "document.querySelector('.origin-top-left').style.transform"
+    },
+    {
+      "type": "drag",
+      "x": 900,
+      "y": 420,
+      "dx": -150,
+      "dy": -50,
+      "steps": 10,
+      "settle": 700,
+      "label": "REGRESSION: pan background"
+    },
+    {
+      "type": "eval",
+      "label": "transform after pan",
+      "expression": "document.querySelector('.origin-top-left').style.transform"
+    },
+    {
+      "type": "probeReset"
+    },
+    {
+      "type": "click",
+      "selector": "button[aria-label=\"Turn to Hebrews 11:3 in Bible reader\"]",
+      "jitter": 3,
+      "settle": 2500,
+      "label": "SMOKE: READ PASSAGE card 03 with jitter"
+    },
+    {
+      "type": "probe",
+      "label": "probe card 03 click"
+    },
+    {
+      "type": "eval",
+      "label": "outcome card 03",
+      "expression": "JSON.stringify({hash: location.hash, mapStillOpen: !!document.querySelector('[aria-label=\"Close map\"]'), verseVisible: (()=>{const el=document.getElementById('verse-heb-11-3'); if(!el) return null; const r=el.getBoundingClientRect(); return r.top>=0 && r.bottom<=window.innerHeight;})()})"
+    },
+    {
+      "type": "shot",
+      "name": "20-read-passage-card03.png",
+      "label": "reader after card 03 READ PASSAGE"
+    },
+    {
+      "type": "console"
+    }
+  ],
+  "results": [
+    {
+      "label": "clearStorage",
+      "value": "cleared",
+      "atMs": 1955
+    },
+    {
+      "label": "navigate http://127.0.0.1:3000/#gen-1",
+      "value": {
+        "url": "http://127.0.0.1:3000/#gen-1",
+        "ready": true,
+        "title": "Threads Bible — Scripture Cross-References & Prophecy"
+      },
+      "atMs": 6535
+    },
+    {
+      "label": "waitFor document.getElementById('verse-gen-1-1')",
+      "value": {
+        "ok": true,
+        "ms": 0
+      },
+      "atMs": 6535
+    },
+    {
+      "label": "sleep",
+      "value": 3000,
+      "atMs": 9547
+    },
+    {
+      "label": "click #verse-gen-1-1",
+      "value": {
+        "box": {
+          "x": 325.8828125,
+          "y": 226.5,
+          "w": 571.765625,
+          "h": 35,
+          "text": "1In the beginning God created the heaven and the earth.",
+          "tag": "span"
+        },
+        "x": 325.8828125,
+        "y": 226.5,
+        "url": "http://127.0.0.1:3000/#gen-1-1;t"
+      },
+      "atMs": 14900
+    },
+    {
+      "label": "waitFor [...document.querySelectorAll('button')].some(b=>b.textContent.includes('Study on the Map'))",
+      "value": {
+        "ok": true,
+        "ms": 1
+      },
+      "atMs": 14901
+    },
+    {
+      "label": "clickText Study on the Map",
+      "value": {
+        "box": {
+          "x": 1071,
+          "y": 727,
+          "w": 157.90625,
+          "h": 36,
+          "text": "Study on the Map",
+          "title": "Open the Ordo map — how and why these verses connect, the Jesus thread, the people, and your life",
+          "tag": "button"
+        },
+        "x": 1071,
+        "y": 727,
+        "url": "http://127.0.0.1:3000/#gen-1-1;t"
+      },
+      "atMs": 18672
+    },
+    {
+      "label": "waitFor document.querySelectorAll('article').length === 3",
+      "value": {
+        "ok": true,
+        "ms": 1
+      },
+      "atMs": 18673
+    },
+    {
+      "label": "transform before pan",
+      "value": "translate(0px, 0px) scale(1)",
+      "atMs": 18673
+    },
+    {
+      "label": "REGRESSION: pan background",
+      "value": {
+        "from": {
+          "x": 900,
+          "y": 420
+        },
+        "to": {
+          "x": 750,
+          "y": 370
+        }
+      },
+      "atMs": 19792
+    },
+    {
+      "label": "transform after pan",
+      "value": "translate(-150px, -50px) scale(1)",
+      "atMs": 19799
+    },
+    {
+      "label": "probeReset",
+      "value": "ok",
+      "atMs": 19815
+    },
+    {
+      "label": "SMOKE: READ PASSAGE card 03 with jitter",
+      "value": {
+        "box": {
+          "x": 398,
+          "y": 480.5625,
+          "w": 190,
+          "h": 28.25,
+          "text": "READ PASSAGE →",
+          "tag": "button"
+        },
+        "x": 397.88666146064736,
+        "y": 480.5625,
+        "url": "http://127.0.0.1:3000/#heb-11-3"
+      },
+      "atMs": 22615
+    },
+    {
+      "label": "probe card 03 click",
+      "value": {
+        "pointerdown": [
+          {
+            "t": 17923,
+            "target": "span",
+            "text": "READ PASSAGE →",
+            "id": "",
+            "cls": "truncate",
+            "x": 397.88665771484375,
+            "y": 480.5625,
+            "pointerType": "mouse"
+          }
+        ],
+        "pointerup": [
+          {
+            "t": 18050,
+            "target": "span",
+            "text": "READ PASSAGE →",
+            "id": "",
+            "cls": "truncate",
+            "x": 397.88665771484375,
+            "y": 480.5625,
+            "pointerType": "mouse"
+          }
+        ],
+        "click": [
+          {
+            "t": 18050,
+            "target": "span",
+            "text": "READ PASSAGE →",
+            "id": "",
+            "cls": "truncate",
+            "x": 397,
+            "y": 480,
+            "pointerType": "mouse"
+          }
+        ],
+        "logs": []
+      },
+      "atMs": 22616
+    },
+    {
+      "label": "outcome card 03",
+      "value": "{\"hash\":\"#heb-11-3\",\"mapStillOpen\":false,\"verseVisible\":true}",
+      "atMs": 22617
+    },
+    {
+      "label": "reader after card 03 READ PASSAGE",
+      "value": {
+        "file": "C:\\Users\\fanel\\Downloads\\Threads-Bible-main\\.kilo\\worktrees\\ui-polish\\docs\\spot\\ui-polish\\after\\20-read-passage-card03.png",
+        "bytes": 314590
+      },
+      "atMs": 22764
+    },
+    {
+      "label": "console",
+      "value": {
+        "consoleLines": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "info",
+            "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+          }
+        ],
+        "pageErrors": []
+      },
+      "atMs": 22764
+    }
+  ],
+  "consoleLines": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+}

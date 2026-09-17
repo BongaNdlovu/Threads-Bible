@@ -5,9 +5,38 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { useStore, getAvailableChapters, getMaxChapter } from '../store/useStore';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import type { VerseGroup } from './verseGroups';
 
 /** Comfortable book measure when centered — shorter lines, column sits in the middle of the pane. */
 const CENTER_MEASURE = 'max-w-[38rem] md:max-w-[42rem]';
+
+/**
+ * Grouped mode: verses that span several books/chapters render as separate
+ * headed sections with their own vertical gap, so a fulfillment pane can never
+ * present mixed books as one continuous chapter under a single title.
+ */
+function GroupedVerses({ groups }: { groups: VerseGroup<Verse>[] }) {
+  return (
+    <div className="space-y-8">
+      {groups.map((group, i) => (
+        <section key={group.key} className="space-y-3">
+          <h2 className="flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-[0.2em] text-accent">
+            <span className="h-[1px] w-5 bg-accent/50" aria-hidden="true" />
+            {group.heading}
+            <span className="text-foreground/35 font-medium tracking-normal normal-case">
+              {group.verses.length === 1 ? '1 verse' : `${group.verses.length} verses`}
+            </span>
+          </h2>
+          <p className="text-left" data-verse-group={i}>
+            {group.verses.map((verse, idx) => (
+              <VerseText key={verse?.id ?? idx} verse={verse} />
+            ))}
+          </p>
+        </section>
+      ))}
+    </div>
+  );
+}
 
 export function ZenReader({
   verses,
@@ -15,12 +44,15 @@ export function ZenReader({
   label,
   indicator,
   showChapterNav = false,
+  groups,
 }: {
   verses: Verse[];
   title?: string;
   label?: string;
   indicator?: React.ReactNode;
   showChapterNav?: boolean;
+  /** When present, verses render as one headed section per book + chapter. */
+  groups?: VerseGroup<Verse>[];
 }) {
   const {
     currentReadingBook,
@@ -52,7 +84,7 @@ export function ZenReader({
             centered ? `${CENTER_MEASURE} text-left` : 'text-left'
           )}
         >
-          {title && (
+          {title ? (
             <div className="mb-8">
               <span
                 className={cn(
@@ -64,7 +96,18 @@ export function ZenReader({
               </span>
               <h1 className="text-3xl md:text-4xl font-serif mt-2">{title}</h1>
             </div>
-          )}
+          ) : groups && groups.length > 0 ? (
+            <div className="mb-6">
+              <span className="text-[10px] uppercase tracking-[0.2em] font-bold opacity-40">
+                {label || 'Fulfillment references'}
+              </span>
+              <p className="mt-2 text-sm text-foreground/60">
+                {groups.length} {groups.length === 1 ? 'chapter' : 'chapters'} across{' '}
+                {new Set(groups.map(g => g.book)).size}{' '}
+                {new Set(groups.map(g => g.book)).size === 1 ? 'book' : 'books'}
+              </p>
+            </div>
+          ) : null}
           <div
             className="flex-1 font-serif leading-relaxed tracking-tight text-foreground/90 space-y-5"
             style={{ fontSize: `${fontSize}px`, lineHeight: 1.75 }}
@@ -78,6 +121,8 @@ export function ZenReader({
                   The requested passage range could not be resolved or contains no indexed text.
                 </p>
               </div>
+            ) : groups && groups.length > 0 ? (
+              <GroupedVerses groups={groups} />
             ) : (
               <p className="text-left">
                 {verses.map((verse, idx) => (

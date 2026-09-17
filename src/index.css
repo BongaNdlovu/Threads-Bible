@@ -156,3 +156,270 @@
 @media (prefers-reduced-motion: reduce) {
   .ordo-flow, .ordo-breathe, .ordo-caret { animation: none; }
 }
+
+/* ── Page identity skins ─────────────────────────────────────────────────
+   One shared token system, five distinct surfaces. Every page root keeps the
+   same chrome (header height, close control, search shape, theme toggle) and
+   only re-points background, surface and accent tokens here, so no page
+   duplicates another page's layout tree.
+
+   Usage: <div data-page="prophecy" className="page page-prophecy">      */
+
+:root {
+  /* Reading (default) — calm paper & ink. */
+  --page-bg: #FAF9F6;
+  --page-bg-image: linear-gradient(180deg, rgba(59, 130, 246, 0.035), transparent 220px);
+  --page-surface: #FFFFFF;
+  --page-ink: #2C2C2C;
+  --page-dim: #6B6862;
+  --page-border: rgba(44, 44, 44, 0.12);
+  --page-accent: #3B82F6;
+  --page-accent-soft: rgba(59, 130, 246, 0.12);
+  --page-accent-ink: #1D4ED8;
+  --page-rail: rgba(44, 44, 44, 0.10);
+  --page-header-bg: rgba(250, 249, 246, 0.94);
+  --page-chip: rgba(59, 130, 246, 0.09);
+}
+
+.dark {
+  --page-bg: #0B0B0D;
+  --page-bg-image: linear-gradient(180deg, rgba(96, 165, 250, 0.07), transparent 220px);
+  --page-surface: #14141A;
+  --page-ink: #EAE6DA;
+  --page-dim: #A6A196;
+  --page-border: rgba(234, 230, 218, 0.14);
+  --page-accent: #60A5FA;
+  --page-accent-soft: rgba(96, 165, 250, 0.14);
+  --page-accent-ink: #93C5FD;
+  --page-rail: rgba(234, 230, 218, 0.12);
+  --page-header-bg: rgba(16, 16, 19, 0.94);
+  --page-chip: rgba(96, 165, 250, 0.12);
+}
+
+/* Reading — calm paper & ink: the reference reading surface, deliberately the
+   lightest change of the five. */
+:root [data-page='reading'],
+[data-page='reading'] {
+  --page-bg: #FAF9F6;
+  --page-bg-image: linear-gradient(180deg, rgba(59, 130, 246, 0.035), transparent 220px);
+  --page-surface: #FFFFFF;
+  --page-ink: #2C2C2C;
+  --page-dim: #6B6862;
+  --page-border: rgba(44, 44, 44, 0.12);
+  --page-accent: #3B82F6;
+  --page-accent-soft: rgba(59, 130, 246, 0.12);
+  --page-accent-ink: #1D4ED8;
+  --page-rail: rgba(44, 44, 44, 0.10);
+  --page-header-bg: rgba(250, 249, 246, 0.94);
+  --page-chip: rgba(59, 130, 246, 0.09);
+}
+
+.dark [data-page='reading'],
+.dark[data-page='reading'] {
+  --page-bg: #0B0B0D;
+  --page-bg-image: linear-gradient(180deg, rgba(96, 165, 250, 0.07), transparent 220px);
+  --page-surface: #14141A;
+  --page-ink: #EAE6DA;
+  --page-dim: #A6A196;
+  --page-border: rgba(234, 230, 218, 0.14);
+  --page-accent: #60A5FA;
+  --page-accent-soft: rgba(96, 165, 250, 0.14);
+  --page-accent-ink: #93C5FD;
+  --page-rail: rgba(234, 230, 218, 0.12);
+  --page-header-bg: rgba(16, 16, 19, 0.94);
+  --page-chip: rgba(96, 165, 250, 0.12);
+}
+
+/* Prophecy — cinematic: deep ink, ember/gold accents, vignette ambience. */
+:root [data-page='prophecy'],
+[data-page='prophecy'] {
+  --page-bg: #0B0A12;
+  --page-bg-image:
+    radial-gradient(120% 80% at 50% -10%, rgba(245, 158, 11, 0.16), transparent 60%),
+    radial-gradient(90% 70% at 100% 0%, rgba(190, 24, 93, 0.13), transparent 60%),
+    radial-gradient(140% 120% at 50% 120%, rgba(0, 0, 0, 0.62), transparent 65%);
+  --page-surface: rgba(26, 22, 38, 0.82);
+  --page-ink: #F4EDE1;
+  --page-dim: #C6B7A3;
+  --page-border: rgba(245, 158, 11, 0.24);
+  --page-accent: #F59E0B;
+  --page-accent-soft: rgba(245, 158, 11, 0.16);
+  --page-accent-ink: #FCD34D;
+  --page-rail: rgba(245, 158, 11, 0.20);
+  --page-header-bg: rgba(12, 10, 18, 0.86);
+  --page-chip: rgba(245, 158, 11, 0.14);
+}
+
+/* Lexicon — scholarly: parchment tint, ink rules, serif-forward lemmas. */
+:root [data-page='lexicon'],
+[data-page='lexicon'] {
+  --page-bg: #F4EEE0;
+  --page-bg-image:
+    radial-gradient(100% 60% at 50% 0%, rgba(120, 53, 15, 0.07), transparent 70%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.5), transparent 260px);
+  --page-surface: #FFFDF7;
+  --page-ink: #2B2118;
+  --page-dim: #6B5B49;
+  --page-border: rgba(43, 33, 24, 0.16);
+  --page-accent: #8C5A22;
+  --page-accent-soft: rgba(140, 90, 34, 0.12);
+  --page-accent-ink: #6B421A;
+  --page-rail: rgba(140, 90, 34, 0.28);
+  --page-header-bg: rgba(244, 238, 224, 0.94);
+  --page-chip: rgba(140, 90, 34, 0.10);
+}
+
+.dark [data-page='lexicon'],
+.dark[data-page='lexicon'] {
+  --page-bg: #14110C;
+  --page-bg-image:
+    radial-gradient(100% 60% at 50% 0%, rgba(217, 160, 91, 0.12), transparent 70%),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.35), transparent 260px);
+  --page-surface: #1E1913;
+  --page-ink: #F3E9D8;
+  --page-dim: #C2B49C;
+  --page-border: rgba(217, 160, 91, 0.22);
+  --page-accent: #D9A05B;
+  --page-accent-soft: rgba(217, 160, 91, 0.16);
+  --page-accent-ink: #ECC98F;
+  --page-rail: rgba(217, 160, 91, 0.26);
+  --page-header-bg: rgba(18, 15, 11, 0.90);
+  --page-chip: rgba(217, 160, 91, 0.14);
+}
+
+/* Historical Context — archive: muted earth, strong date rail. */
+:root [data-page='historical'],
+[data-page='historical'] {
+  --page-bg: #F2EDE3;
+  --page-bg-image: linear-gradient(180deg, rgba(120, 113, 108, 0.10), transparent 240px);
+  --page-surface: #FBF8F1;
+  --page-ink: #2A2622;
+  --page-dim: #6A6259;
+  --page-border: rgba(42, 38, 34, 0.16);
+  --page-accent: #9A6A3A;
+  --page-accent-soft: rgba(154, 106, 58, 0.12);
+  --page-accent-ink: #7A4F26;
+  --page-rail: rgba(122, 79, 38, 0.42);
+  --page-header-bg: rgba(242, 237, 227, 0.94);
+  --page-chip: rgba(154, 106, 58, 0.10);
+}
+
+.dark [data-page='historical'],
+.dark[data-page='historical'] {
+  --page-bg: #100E0C;
+  --page-bg-image: linear-gradient(180deg, rgba(180, 140, 96, 0.10), transparent 240px);
+  --page-surface: #1A1714;
+  --page-ink: #EDE6DA;
+  --page-dim: #B3A897;
+  --page-border: rgba(237, 230, 218, 0.16);
+  --page-accent: #C08A52;
+  --page-accent-soft: rgba(192, 138, 82, 0.16);
+  --page-accent-ink: #E0B27C;
+  --page-rail: rgba(192, 138, 82, 0.40);
+  --page-header-bg: rgba(14, 12, 10, 0.92);
+  --page-chip: rgba(192, 138, 82, 0.14);
+}
+
+/* Ordo Map — blueprint: keeps its own canvas palette, gains a cooler rule. */
+:root [data-page='ordo'],
+[data-page='ordo'] {
+  --page-accent: #3B82F6;
+  --page-accent-soft: rgba(59, 130, 246, 0.12);
+  --page-accent-ink: #1D4ED8;
+  --page-rail: rgba(59, 130, 246, 0.28);
+  --page-chip: rgba(59, 130, 246, 0.10);
+}
+
+.dark [data-page='ordo'],
+.dark[data-page='ordo'] {
+  --page-accent: #60A5FA;
+  --page-accent-soft: rgba(96, 165, 250, 0.14);
+  --page-accent-ink: #93C5FD;
+  --page-rail: rgba(96, 165, 250, 0.30);
+}
+
+/* The one class every page root opts into. */
+.page {
+  background-color: var(--page-bg);
+  background-image: var(--page-bg-image);
+  color: var(--page-ink);
+}
+
+.page-accent {
+  color: var(--page-accent);
+}
+
+.page-rule {
+  background: var(--page-rail);
+}
+
+/* Page surface + accent helpers: these let a page restyle its cards by
+   changing tokens only, so no page duplicates another page's layout tree. */
+.page-card {
+  background: var(--page-surface);
+  border: 1px solid var(--page-border);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 12px 28px -22px rgba(0, 0, 0, 0.55);
+}
+
+.page-muted {
+  color: var(--page-dim);
+}
+
+.page-eyebrow {
+  color: var(--page-accent);
+  letter-spacing: 0.18em;
+}
+
+.page-chip {
+  background: var(--page-chip);
+  color: var(--page-accent-ink);
+  border: 1px solid var(--page-border);
+  border-radius: 9999px;
+}
+
+.page-pill {
+  background: var(--page-chip);
+  color: var(--page-dim);
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.page-pill:hover {
+  color: var(--page-ink);
+}
+
+.page-pill-active {
+  background: var(--page-accent);
+  color: #14100B;
+  border-color: transparent;
+  font-weight: 600;
+}
+
+.page-search {
+  background: var(--page-surface);
+  border: 1px solid var(--page-border);
+  color: var(--page-ink);
+}
+
+.page-input {
+  background: transparent;
+  color: var(--page-ink);
+}
+
+.page-input::placeholder {
+  color: var(--page-dim);
+  opacity: 0.75;
+}
+
+/* Prophecy ambience: slow ember pulse on the hero tile only (motion-safe). */
+@keyframes page-ember {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.28), inset 0 0 24px rgba(245, 158, 11, 0.14); }
+  50% { box-shadow: 0 0 22px 2px rgba(245, 158, 11, 0.22), inset 0 0 30px rgba(245, 158, 11, 0.22); }
+}
+.page-ember {
+  animation: page-ember 5.5s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .page-ember { animation: none; }
+}
+

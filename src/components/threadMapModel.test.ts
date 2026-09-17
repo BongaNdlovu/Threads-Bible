@@ -3,7 +3,13 @@ import { getThreadDetail } from '../data/threadDetails';
 import { threadFor } from '../data/library';
 import { expandVerseRange } from '../data/refParser';
 import { isNewTestament, isOldTestament } from '../data/connectionInterrogation';
-import { buildThreadGraph, chunkVersesByRefs, computeThreadLayout, snippet } from './threadMapModel';
+import {
+  MAP_GAPS,
+  buildThreadGraph,
+  chunkVersesByRefs,
+  computeThreadLayout,
+  snippet,
+} from './threadMapModel';
 import { parseWho } from './HistoricalContextPage';
 
 const EXPAND: Record<string, string[]> = {
@@ -207,13 +213,40 @@ describe('computeThreadLayout', () => {
     expect(pos[g.nodes[1].id].x).toBe(pos[g.nodes[2].id].x);
     expect(pos[g.nodes[2].id].x).toBe(pos[g.nodes[3].id].x);
 
-    // Node 2 must start strictly after Node 1 bottom + gap (38)
+    // Node 2 must start strictly after Node 1 bottom + the normal-mode gap
     const n1Bottom = pos[g.nodes[1].id].y + sizes[g.nodes[1].id].h;
-    expect(pos[g.nodes[2].id].y).toBeGreaterThanOrEqual(n1Bottom + 38);
+    expect(pos[g.nodes[2].id].y).toBeGreaterThanOrEqual(n1Bottom + MAP_GAPS.normal.v);
 
-    // Node 3 must start strictly after Node 2 bottom + gap (38)
+    // Node 3 must start strictly after Node 2 bottom + the normal-mode gap
     const n2Bottom = pos[g.nodes[2].id].y + sizes[g.nodes[2].id].h;
-    expect(pos[g.nodes[3].id].y).toBeGreaterThanOrEqual(n2Bottom + 38);
+    expect(pos[g.nodes[3].id].y).toBeGreaterThanOrEqual(n2Bottom + MAP_GAPS.normal.v);
+  });
+
+  it('separates cards further in the current defaults than the old 38px/120px layout', () => {
+    // Defect F regression guard: default spacing must stay visibly wider than
+    // the pre-fix values (vGap 38, hGap 120) in every mode.
+    expect(MAP_GAPS.normal.v).toBeGreaterThan(38);
+    expect(MAP_GAPS.normal.h).toBeGreaterThan(120);
+    expect(MAP_GAPS.compact.v).toBeGreaterThan(24);
+    expect(MAP_GAPS.relaxed.v).toBeGreaterThan(64);
+    expect(MAP_GAPS.normal.v).toBeGreaterThan(MAP_GAPS.compact.v);
+    expect(MAP_GAPS.relaxed.v).toBeGreaterThan(MAP_GAPS.normal.v);
+  });
+
+  it('keeps every card disjoint at the new defaults', () => {
+    const g = buildThreadGraph(BASE);
+    const sizes = Object.fromEntries(g.nodes.map(n => [n.id, { w: 250, h: 180 }]));
+    const pos = computeThreadLayout(g, { mode: 'column', spacing: 'normal', nodeSizes: sizes });
+
+    for (let i = 0; i < g.nodes.length; i++) {
+      for (let j = i + 1; j < g.nodes.length; j++) {
+        const a = pos[g.nodes[i].id];
+        const b = pos[g.nodes[j].id];
+        const overlapX = Math.max(0, Math.min(a.x + 250, b.x + 250) - Math.max(a.x, b.x));
+        const overlapY = Math.max(0, Math.min(a.y + 180, b.y + 180) - Math.max(a.y, b.y));
+        expect(overlapX > 0 && overlapY > 0, `Collision between ${g.nodes[i].id} and ${g.nodes[j].id}`).toBe(false);
+      }
+    }
   });
 
   it('shifts subsequent nodes down dynamically when a card expands', () => {

@@ -10,11 +10,10 @@ import {
   BOOK_BY_NAME,
   type Verse,
 } from '../data/library';
-import { parseRef } from '../data/refParser';
 import { getThreadDetail, useThreadDetailsReady } from '../data/threadDetailService';
 import { useFulfillmentVerses } from '../hooks/useFulfillmentVerses';
-import { buildThreadGraph } from './threadMapModel';
-import { ThreadMap, type MapTheme } from './ThreadMap';
+import { buildThreadGraph, normalizeReaderRef } from './threadMapModel';
+import { ThreadMap, clearOrdoSettings, type MapTheme } from './ThreadMap';
 import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
 import { ErrorBoundary } from './ErrorBoundary';
 
@@ -148,28 +147,26 @@ export function ThreadMapPage() {
   };
 
   const handleResetMapView = () => {
-    try {
-      localStorage.removeItem('ordo-viewer-settings-v1');
-    } catch {
-      // storage unavailable
-    }
+    // The map reads its settings from ORDO_KEY on mount; deleting the dead
+    // 'ordo-viewer-settings-v1' key alone could never reset anything (B0).
+    clearOrdoSettings();
     setMapKey(k => k + 1);
   };
 
   const handleOpenPassageReader = (ref?: string) => {
-    if (ref) {
-      void turnToVerse(ref);
-    } else if (selectedThread && selectedThread.book && selectedThread.chapter) {
-      void turnToVerse(`${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`);
-    }
+    const target = normalizeReaderRef(ref) ??
+      (selectedThread && selectedThread.book && selectedThread.chapter
+        ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`
+        : undefined);
+    if (target) void turnToVerse(target);
   };
 
   const handleOpenSplit = (ref?: string) => {
-    if (ref) {
-      void turnToVerse(ref, { inSplit: true });
-    } else if (selectedThread && selectedThread.book && selectedThread.chapter) {
-      void turnToVerse(`${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`, { inSplit: true });
-    }
+    const target = normalizeReaderRef(ref) ??
+      (selectedThread && selectedThread.book && selectedThread.chapter
+        ? `${selectedThread.book} ${selectedThread.chapter}:${selectedThread.verseNumber}`
+        : undefined);
+    if (target) void turnToVerse(target, { inSplit: true });
   };
 
   const P: PagePalette = (() => {
@@ -198,7 +195,11 @@ export function ThreadMapPage() {
   }
 
   return (
-    <div className="fixed inset-0 z-[90] flex flex-col" style={{ background: P.bg }}>
+    <div
+      data-page="ordo"
+      className="fixed inset-0 z-[90] flex flex-col"
+      style={{ background: P.bg }}
+    >
       {/* Page header */}
       <header
         className="flex items-center justify-between gap-3 px-5 py-2.5 border-b shrink-0"
