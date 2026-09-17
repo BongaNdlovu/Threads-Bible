@@ -71,8 +71,13 @@ function main() {
   // suffix (CP-02_JER_P1_DRAFT.md vs CP-02_JER_P2_DRAFT.md) instead of the two chunks
   // overwriting each other's appendix.
   const suffix = argValue(argv, '--suffix') ?? '';
+  // Findings are prose that no generator can derive — the under-share calls, the QUOTE-REVIEW
+  // list, the glossary drift delta measured before/after apply. They are written by the agent
+  // and pasted here so each apply record is complete on its own, instead of living only in the
+  // conversation that produced it.
+  const findingsPath = argValue(argv, '--findings');
   if (!rewritesPath || !worklistPath) {
-    console.error('usage: npx tsx scripts/cp02BookDocs.ts <rewrites.json> --worklist <worklist.json> [--apply-doc <proofs.txt>]');
+    console.error('usage: npx tsx scripts/cp02BookDocs.ts <rewrites.json> --worklist <worklist.json> [--apply-doc <proofs.txt>] [--findings <findings.md>] [--suffix _P1] [--force]');
     process.exit(2);
   }
 
@@ -190,7 +195,7 @@ function main() {
   sum.push('## Gate status');
   sum.push('');
   sum.push('Every string above (AFTER where rewritten, BEFORE otherwise) passes the clarity gate: see');
-  sum.push(`\`docs/CP-03_${slug}_APPLY.md\` for the pasted run.`);
+  sum.push(`\`docs/CP-03_${slug}${suffix}_APPLY.md\` for the pasted run.`);
   sum.push('');
   writeFileSync(paths.summary, sum.join('\n') + '\n');
 
@@ -217,6 +222,10 @@ function main() {
   ap.push(proofs.trim());
   ap.push('```');
   ap.push('');
+  if (findingsPath && existsSync(findingsPath)) {
+    ap.push(readFileSync(findingsPath, 'utf8').trim());
+    ap.push('');
+  }
   ap.push('## Operator theology sign-off');
   ap.push('');
   ap.push('- Decision text: _awaiting operator_');
