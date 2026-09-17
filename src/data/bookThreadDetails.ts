@@ -820,7 +820,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-14': {
     title: 'The Word Became Flesh',
     principle:
-      '"The Word was made flesh and dwelt among us." First principle: John 1:1 identifies the Word with God and as the agent of creation (1:3). Verse 14 says the Word dwelt among us. John uses the Greek word σκηνόω, the same root as the Old Testament tabernacle. Col 2:9 says that in Him all the fullness of the Godhead dwells bodily.',
+      '"The Word was made flesh and dwelt among us." Textual proof: John 1:1 identifies the Word with God and as the agent of creation (1:3). Verse 14 says the Word dwelt among us. John uses the Greek word σκηνόω, the same root as the Old Testament tabernacle. Col 2:9 says that in Him all the fullness of the Godhead dwells bodily.',
     sourceKeywords: ['Word', 'was made flesh', 'dwelt', 'among us', 'glory', 'only begotten', 'Father', 'grace', 'truth'],
     fulfillmentKeywords: ['tabernacle', 'dwell', 'among them', 'glory'],
     terms: [
@@ -830,7 +830,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-3-14': {
     title: 'As Moses Lifted Up the Serpent',
     principle:
-      '"As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up." First principle: Jesus points to the bronze serpent of Numbers 21:9 to explain His own death on the cross. The raised sign became the means of life for everyone who looks in faith.',
+      '"As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up." Textual proof: Jesus points to the bronze serpent of Numbers 21:9 to explain His own death on the cross. The raised sign became the means of life for everyone who looks in faith.',
     sourceKeywords: ['Moses lifted up', 'serpent', 'wilderness', 'Son of man', 'lifted up', 'whosoever believeth'],
     fulfillmentKeywords: ['serpent', 'brass', 'look', 'live'],
     terms: [
@@ -1580,7 +1580,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-17-21': {
     title: 'Unity in Christ — The High-Priestly Prayer of Jesus',
     principle:
-      '"That they all may be one; as Thou, Father, art in Me, and I in Thee, that they also may be one in Us". First principle: the unity of believers is the proof Christ\'s mission came from God. That unity crosses every racial, national, social, and gender boundary. It rests on shared truth and on unselfish agape love.',
+      '"That they all may be one; as Thou, Father, art in Me, and I in Thee, that they also may be one in Us". The unity of believers is the proof Christ\'s mission came from God. That unity crosses every racial, national, social, and gender boundary. It rests on shared truth and on unselfish agape love.',
     sourceKeywords: ['that they all may be one', 'as Thou Father art in Me', 'that the world may believe'],
     fulfillmentKeywords: ['one body and one Spirit', 'neither Jew nor Greek', 'perfected into one'],
     terms: [
