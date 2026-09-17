@@ -5,11 +5,22 @@
  *
  * Usage:
  *   npx tsx scripts/cp03StructuralVerify.ts [--book <slug>]... [--base <git-ref>] [--json <path>] [--strict-gate]
+ *   npx tsx scripts/cp03StructuralVerify.ts --chains-only [--base <git-ref>] [--json <path>] [--strict-gate]
  *
  *   --book <slug>   check only entries whose id starts with `<slug>-` (repeatable /
  *                   comma-separated; omitted = every book present on either side).
  *                   A pillar chain is checked when one of its steps carries a
  *                   `verseId` from a selected book.
+ *   --chains-only   the DEDICATED CHAIN PASS scope (plan §1.12): verify the pillar-chain
+ *                   group for ALL 36 chains of `threadChains` and skip the per-book groups
+ *                   entirely. The seven checks, the reporting, the exit codes and the
+ *                   --base / --strict-gate semantics are unchanged; what changes is where
+ *                   "in scope" ends. A verse entry is no longer in-scope prose, so skipping
+ *                   the per-book groups cannot hide one: every leaf of every verse entry in
+ *                   BOTH data files is still diffed base vs working tree and any difference
+ *                   FAILS the run, reported under the 'OUTSIDE-CHAINS' group (which exists
+ *                   only in this mode). That is what makes a chain-scope run the proof that
+ *                   the chain pass touched nothing but chain prose. `--book` is ignored.
  *   --base <ref>    git ref to compare against (default: HEAD)
  *   --json <path>   write a machine-readable report
  *   --strict-gate   treat PRE-EXISTING clarity-gate failures (present at <base>) as
@@ -42,6 +53,8 @@
  *                         terms[].term|original|translit|strongs, terms.length,
  *                         ref, verseId, testament, chainId, id, origin, draft
  *   3 PROSE_ONLY_WRITES   every difference sits on an in-scope prose path
+ *                         (in --chains-only scope the in-scope prose is CHAIN prose, so
+ *                         every difference in a verse entry is a failure here)
  *   4 CITATION_FIXITY     <Book> <ch>:<v> and <Book> <ch>:<v>-<v> multisets equal;
  *                         no bare <ch>:<v> newly introduced without a book name
  *   5 SCRIPT_FIXITY       Hebrew / Greek run multisets, transliteration fields and
@@ -66,6 +79,10 @@
  *                         remove, add or rename one. Per in-scope prose string, the label
  *                         multiset of the working tree must equal the <base> one — a count
  *                         that falls was dropped, a count that rises was invented.
+ *
+ * In --chains-only scope a second group, 'OUTSIDE-CHAINS', carries the checks' verdict on
+ * the verse entries that the skipped per-book groups would have covered. It is not a book
+ * group: it exists only in that mode, and any issue in it fails the run.
  *
  * Exit code: 0 when every check passes, 1 when any check fails (or the parse fails).
  */
@@ -165,6 +182,10 @@ interface GroupStats {
 }
 
 const CHAIN_GROUP = 'CHAINS';
+/** Chain-scope only: the verse entries the skipped per-book groups would have covered.
+ *  Any issue reported under this group fails the run, because in --chains-only scope the
+ *  only in-scope prose is chain prose. */
+const OUTSIDE_CHAIN_GROUP = 'OUTSIDE-CHAINS';
 
 /* --------------------------------------------------------------- utilities */
 
@@ -507,11 +528,13 @@ interface Options {
   base: string;
   jsonPath: string | null;
   strictGate: boolean;
+  /** Verify the pillar-chain group for ALL chains and skip the per-book groups. */
+  chainsOnly: boolean;
   warnings: string[];
 }
 
 function parseArgs(argv: string[]): Options {
-  const opts: Options = { books: [], base: 'HEAD', jsonPath: null, strictGate: false, warnings: [] };
+  const opts: Options = { books: [], base: 'HEAD', jsonPath: null, strictGate: false, chainsOnly: false, warnings: [] };
   const addBooks = (v: string): void => {
     for (const part of v.split(',')) {
       const slug = part.trim().toLowerCase();
@@ -542,6 +565,8 @@ function parseArgs(argv: string[]): Options {
       opts.jsonPath = arg.slice('--json='.length);
     } else if (arg === '--strict-gate') {
       opts.strictGate = true;
+    } else if (arg === '--chains-only') {
+      opts.chainsOnly = true;
     } else {
       opts.warnings.push(`unrecognised argument "${arg}" ignored`);
     }
@@ -562,8 +587,12 @@ interface CheckResult {
 
 function main(): void {
   const opts = parseArgs(process.argv.slice(2));
+  const chainsOnly = opts.chainsOnly;
   const selected = new Set(opts.books);
   const bookSelected = (slug: string): boolean => selected.size === 0 || selected.has(slug);
+  if (chainsOnly && selected.size > 0) {
+    opts.warnings.push('--book ignored with --chains-only: chain scope always covers every pillar chain');
+  }
 
   let baseSha = '';
   try {
@@ -590,7 +619,17 @@ function main(): void {
 
   console.log('=== CP-03 STRUCTURAL VERIFY — "compared with ' + opts.base + ', did ONLY in-scope prose strings change?" ===');
   console.log(`base: ${opts.base} = ${baseSha}`);
-  console.log(`scope: ${selected.size === 0 ? 'ALL BOOKS' : Array.from(selected).join(', ')} | chains: ${selected.size === 0 ? 'all' : 'those carrying a selected-book step'}`);
+  const scopeLabel = chainsOnly
+    ? 'PILLAR CHAINS — all chains (threadChains)'
+    : selected.size === 0
+      ? 'ALL BOOKS'
+      : Array.from(selected).join(', ');
+  const chainScopeLabel = chainsOnly ? 'all' : selected.size === 0 ? 'all' : 'those carrying a selected-book step';
+  console.log(`scope: ${scopeLabel} | chains: ${chainScopeLabel}`);
+  if (chainsOnly) {
+    console.log('       per-book groups are SKIPPED, and the verse entries they would have covered are checked for isolation instead:');
+    console.log('       every leaf of every verse entry in BOTH data files is diffed base vs working tree — any change there FAILS the run.');
+  }
   console.log('parse: TypeScript compiler API (ts.createSourceFile) over the exported threadDetails / threadChains / bookThreadDetails ASTs;');
   console.log('       leaves flattened to contract paths and compared as canonical JSON values, base vs working tree.');
   console.log(`gate: checkProse() from scripts/checkReadability.ts (MAX_SENTENCE_WORDS=${MAX_SENTENCE_WORDS})`);
@@ -602,6 +641,8 @@ function main(): void {
     books: 0,
     entries: 0,
     chains: 0,
+    verseEntriesChecked: 0,
+    outsideChainChanges: 0,
     nonProseLeaves: 0,
     proseLeaves: 0,
     proseStrings: 0,
@@ -652,7 +693,11 @@ function main(): void {
     };
 
     const inScope = (u: Unit): boolean =>
-      u.kind === 'chain' ? chainTouchesSelection(u) : bookSelected(u.id.split('-')[0]);
+      chainsOnly
+        ? u.kind === 'chain' // chain scope: all 36 pillar chains, in every file that has them
+        : u.kind === 'chain'
+          ? chainTouchesSelection(u)
+          : bookSelected(u.id.split('-')[0]);
 
     // ---- group accumulators ----
     const groups = new Map<string, GroupStats>();
@@ -912,6 +957,67 @@ function main(): void {
       }
     }
 
+    // ---- chain scope: prove NOTHING outside the pillar chains changed ----
+    // Skipping the per-book groups means the verse entries they would have covered are
+    // checked here instead, and more strictly: with chain prose as the only in-scope prose,
+    // EVERY leaf difference in an entry-shaped unit is a failure. The chain pass's own
+    // claim is "I rewrote chain prose and nothing else", so this is the check that can
+    // falsify it — on both data files, not just the one that holds the chain array.
+    if (chainsOnly && spec.shape === 'entries') {
+      const g = OUTSIDE_CHAIN_GROUP;
+      const s = statsFor(g);
+      for (const [id, afterUnit] of afterParsed.units) {
+        const baseUnit = baseParsed.units.get(id);
+        s.keyset.after++;
+        coverage.verseEntriesChecked++;
+        if (!baseUnit) {
+          coverage.outsideChainChanges++;
+          addIssue(g, 'KEYSET', {
+            id,
+            path: '(entry id)',
+            message: `verse entry ADDED in the working tree (not present at ${opts.base}) — a chain pass writes threadChains only`,
+          });
+          continue;
+        }
+        s.keyset.base++;
+        s.scriptLeaves += allStringLeaves(afterUnit).length;
+        const allPaths = new Set<string>([...baseUnit.paths.keys(), ...afterUnit.paths.keys()]);
+        for (const p of allPaths) {
+          if (isProsePath(p)) s.proseLeaves++;
+          else s.nonProseLeaves++;
+          const b = baseUnit.paths.get(p);
+          const a = afterUnit.paths.get(p);
+          if (b === a) continue;
+          coverage.outsideChainChanges++;
+          if (isNonProseFixityPath(p)) {
+            addIssue(g, 'NONPROSE_FIXITY', {
+              id,
+              path: p,
+              message: b === undefined ? 'added (absent at base)' : a === undefined ? 'removed (present at base)' : 'value changed',
+              base: displayVal(b),
+              after: displayVal(a),
+            });
+          }
+          addIssue(g, 'PROSE_ONLY_WRITES', {
+            id,
+            path: p,
+            message: 'changed OUTSIDE the chain-scope prose contract — this is a verse entry, and the chain pass rewrites threadChains only',
+            base: displayVal(b),
+            after: displayVal(a),
+          });
+        }
+      }
+      for (const [id, baseUnit] of baseParsed.units) {
+        if (afterParsed.units.has(id)) continue;
+        coverage.outsideChainChanges++;
+        addIssue(g, 'KEYSET', {
+          id,
+          path: '(entry id)',
+          message: `verse entry REMOVED in the working tree (present at ${opts.base}) — a chain pass writes threadChains only`,
+        });
+      }
+    }
+
     // ---- roll the group results up ----
     const groupNames = Array.from(groups.keys()).sort((a, b) => {
       if (a === CHAIN_GROUP) return 1;
@@ -924,7 +1030,11 @@ function main(): void {
     for (const g of groupNames) {
       const s = statsFor(g);
       if (g === CHAIN_GROUP) coverage.chains += s.keyset.after;
-      else {
+      else if (g === OUTSIDE_CHAIN_GROUP) {
+        /* chain scope only: the verse entries the skipped per-book groups would have
+         * covered. They are not a book group, and `verseEntriesChecked` is counted as the
+         * isolation scan runs, so nothing is added here. */
+      } else {
         coverage.books += 1;
         coverage.entries += s.keyset.after;
       }
@@ -968,14 +1078,34 @@ function main(): void {
   /* ------------------------------------------------------------- console */
 
   const groups = Array.from(new Set(allResults.map(r => r.group)));
+  // In chain scope both entry files report into OUTSIDE-CHAINS, so a check's rows are MERGED
+  // rather than the first row winning: an issue found in bookThreadDetails.ts must be printed,
+  // not masked by the threadDetails row that happens to come first. Default scope keeps the
+  // existing first-row behaviour untouched.
+  const rowFor = (rows: CheckResult[], check: CheckName): CheckResult | undefined => {
+    const list = rows.filter(r => r.check === check);
+    if (!chainsOnly || list.length <= 1) return list[0];
+    return {
+      group: list[0].group,
+      check,
+      pass: list.every(r => r.pass),
+      summary: list.map(r => r.summary).join(' · '),
+      issues: list.flatMap(r => r.issues),
+    };
+  };
   for (const g of groups) {
     const rows = allResults.filter(r => r.group === g);
     const meta = BOOK_REGISTRY.find(b => b.slug === g);
-    const label = g === CHAIN_GROUP ? 'PILLAR CHAINS' : `${g} (${meta?.name ?? g})`;
-    const keysetRow = rows.find(r => r.check === 'KEYSET');
+    const label =
+      g === CHAIN_GROUP
+        ? 'PILLAR CHAINS'
+        : g === OUTSIDE_CHAIN_GROUP
+          ? 'CHAIN-SCOPE ISOLATION — verse entries in both data files (must be unchanged)'
+          : `${g} (${meta?.name ?? g})`;
+    const keysetRow = rowFor(rows, 'KEYSET');
     console.log(`\n--- ${label} — entries ${keysetRow?.summary ?? ''} ---`);
     for (const check of CHECK_ORDER) {
-      const row = rows.find(r => r.check === check);
+      const row = rowFor(rows, check);
       if (!row) continue;
       const failing = row.issues.filter(i => i.severity !== 'note');
       const notes = row.issues.filter(i => i.severity === 'note');
@@ -992,13 +1122,21 @@ function main(): void {
   }
 
   console.log('\n=== SUMMARY ===');
-  console.log(`base ${opts.base} (${baseSha}) · scope ${selected.size === 0 ? 'ALL BOOKS' : Array.from(selected).join(',')} · groups ${groups.length}`);
+  console.log(
+    `base ${opts.base} (${baseSha}) · scope ${chainsOnly ? 'CHAINS (all)' : selected.size === 0 ? 'ALL BOOKS' : Array.from(selected).join(',')} · groups ${groups.length}`
+  );
   console.log(
     `coverage: ${coverage.entries} entries across ${coverage.books} book group(s) + ${coverage.chains} pillar chain(s) · ` +
       `${coverage.nonProseLeaves} structural leaves + ${coverage.proseLeaves} prose leaves compared · ${coverage.proseStrings} prose strings gated · ` +
       `${coverage.scriptLeaves} script-corpus leaves (${coverage.hebrew} Hebrew runs, ${coverage.greek} Greek runs, ${coverage.translit} transliterations, ${coverage.strongs} Strong's tokens) · ` +
       `${coverage.citations} book-qualified citations`
   );
+  if (chainsOnly) {
+    console.log(
+      `chain-scope isolation: ${coverage.verseEntriesChecked} verse entries in both data files diffed ${opts.base} → working tree · ` +
+        `${coverage.outsideChainChanges} change(s) outside the pillar chains (0 required)`
+    );
+  }
   console.log(
     `gate reading: NEW clarity-gate failures ${coverage.bannedNew} · PRE-EXISTING at ${opts.base} ${coverage.bannedPreexisting} · ` +
       `strict reading ("no prose string violates the clarity gate") ${coverage.bannedNew + coverage.bannedPreexisting === 0 ? 'PASS' : 'FAIL'}` +
@@ -1028,7 +1166,8 @@ function main(): void {
       generatedAt: new Date().toISOString(),
       base: opts.base,
       baseSha,
-      scope: selected.size === 0 ? 'ALL' : Array.from(selected),
+      scope: chainsOnly ? 'CHAINS' : selected.size === 0 ? 'ALL' : Array.from(selected),
+      chainsOnly,
       coverage,
       overall: allPass ? 'PASS' : 'FAIL',
       checks: CHECK_ORDER.map(check => ({
