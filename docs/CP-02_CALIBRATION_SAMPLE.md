@@ -160,6 +160,37 @@ it changes words presented as Scripture), or (c) drop the quotation marks and pr
 as plain prose. Note option (b) would touch golden-sample strings (`gen-1-1`), which are VERIFY-ONLY
 by plan.
 
+### 6.1 · The ellipsis rule, settled 2026-09-18
+
+A quotation that omits material marks the omission with an ellipsis, and **the mark is not an I1
+breach**. I1 protects the *words* of Scripture: it forbids paraphrasing inside quotation marks, fixing
+KJV grammar, modernising a form, expanding an abbreviation and silently "restoring" a reading to canon.
+An ellipsis is not a word. It marks an omission the app is already making, and §1.10 C3 requires that
+omission to be marked rather than hidden.
+
+The corpus settles the convention, so this is not a new rule:
+
+```
+quoted spans in the two data files:      246
+  carrying an ellipsis:                   27
+    mid-span (non-contiguous quote):      25
+    trailing (quote stops before verse end): 1
+    leading:                               0
+```
+
+The one pre-existing trailing case is `lev-25-10`, in Leviticus — part of the work signed off before
+this plan:
+
+```
+  "…and ye shall return every man unto his possession…"
+  where Leviticus 25:10 continues "and ye shall return every man unto his family."
+```
+
+`isa-42-6` was the only string the sweep rewrote that stopped before the end of its verse without
+marking it; the mark was added in `d98dd1d`, conforming to that precedent. What stays forbidden inside
+quotation marks is unchanged and absolute: **no word is ever added, removed, reordered, modernised,
+expanded or "restored".**
+
 ---
 
 ## 7 · What the operator is asked to approve

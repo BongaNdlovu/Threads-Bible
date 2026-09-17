@@ -498,11 +498,27 @@ That left **four decisions**. The operator took the recommended option on all fo
 Two data changes came out of the whole exercise — the removal of the never-write adjective "covenantal"
 from `gal-3-28` and this ellipsis — and both were verified with the eight-check structural verifier.
 
-**The I1 tension in ruling 4, stated plainly.** Adding an ellipsis puts a character inside a quotation,
-which a strict reading of I1 forbids. The ruling accepts that trade because no word changes, the omission
-is real, and §1.10 C3 requires it to be marked; the alternative — leaving a quotation that silently stops
-mid-verse — misleads the reader in a way I1 exists to prevent. If the operator later prefers the strict
-reading, the revert is that one character.
+**The I1 question in ruling 4, settled by the corpus rather than by preference.** I first recorded this
+as a tension — an ellipsis sits inside the quotation, which a strict reading of I1 forbids — and offered
+the revert. That reading does not survive contact with the app's own text. I1 protects the *words* of
+Scripture: it forbids paraphrasing inside quotation marks, fixing KJV grammar, modernising a form,
+expanding an abbreviation, and silently "restoring" a reading to canon. An ellipsis is not a word; it
+marks an omission the app is already making, and §1.10 C3 requires that omission to be marked.
+
+A census of all 246 quoted spans in the two data files shows the convention already in use: **27 carry an
+ellipsis** — 25 mid-span where the app quotes non-contiguous text, and **one trailing**, in `lev-25-10`,
+which is part of the Leviticus work signed off *before* this plan:
+
+```
+  "…and ye shall return every man unto his possession…"
+  where Leviticus 25:10 continues "and ye shall return every man unto his family."
+```
+
+So `isa-42-6` is not a new convention and not an exception: it is the same shape as a quotation the
+operator already approved, and marking it is what §1.10 C3 asks for. The rule is now written into
+`docs/CP-02_CALIBRATION_SAMPLE.md` §6.1 with those counts. What remains absolute inside quotation marks
+is unchanged — no word added, removed, reordered, modernised, expanded or "restored". The revert would
+now be a regression against the app's own precedent, not a stricter reading of I1.
 
 The hygiene edits live in `docs/_work/*_rewrites.json` (records only). The data changes are the two
 Galatians fixes (`7827a28`, `5231df1`) and the Isaiah ellipsis (`d98dd1d`).
