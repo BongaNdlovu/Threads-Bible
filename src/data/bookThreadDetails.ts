@@ -132,17 +132,17 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-2-34': {
     title: 'Stone Cut Without Hands',
     principle:
-      'A stone cut without hands smashes the statue and becomes a great mountain. First principle: God\'s kingdom is not a human empire; it arrives by divine act and fills the earth.',
+      'A stone cut without hands smashes the statue and becomes a great mountain. First principle: God\'s kingdom is not a human empire. God himself sets it up, and it fills the earth.',
     sourceKeywords: ['stone', 'cut out', 'without hands', 'mountain', 'great'],
     fulfillmentKeywords: ['stone', 'builders', 'refused', 'head', 'corner', 'church', 'gates of hell'],
     terms: [
-      { term: 'without hands', original: 'דִּי לָא בִידַיִן', translit: 'di la bi-dayin', gloss: 'that not by hands (Aramaic)', note: 'Not human craftsmanship — divine kingdom (cf. Col 2:11).' },
+      { term: 'without hands', original: 'דִּי לָא בִידַיִן', translit: 'di la bi-dayin', gloss: 'which is not by hands (Aramaic)', note: 'This is not human craftsmanship. It is God\'s kingdom (cf. Col 2:11).' },
     ],
   },
   'dan-2-44': {
     title: 'Everlasting Kingdom',
     principle:
-      'In the days of those kings God sets up a kingdom that shall never be destroyed. Luke: of His kingdom there shall be no end. First principle: Christ\'s kingdom outlasts and absorbs all earthly thrones.',
+      'In the days of those kings God sets up a kingdom that shall never be destroyed. Luke says of His kingdom there shall be no end. First principle: Christ\'s kingdom outlasts all earthly thrones and absorbs them.',
     sourceKeywords: ['days', 'kings', 'set up', 'kingdom', 'never be destroyed', 'people'],
     fulfillmentKeywords: ['throne of his father David', 'kingdom', 'no end', 'kingdoms of this world', 'Lord', 'Christ', 'reign'],
     terms: [
@@ -152,27 +152,27 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-13': {
     title: 'Son of Man Coming with Clouds',
     principle:
-      'One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming; Revelation repeats the cloud-coming. First principle: messianic authority is given and then revealed in glory.',
+      'One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming, and Revelation repeats the cloud-coming. First principle: the authority of the promised King, Jesus, is given to Him and then shown in glory.',
     sourceKeywords: ['night visions', 'one like the Son of man', 'clouds of heaven', 'Ancient of days', 'came'],
     fulfillmentKeywords: ['Son of man', 'clouds of heaven', 'power', 'great glory', 'coming', 'clouds', 'every eye'],
     terms: [
-      { term: 'Son of Man', original: 'כְּבַר אֱנָשׁ', translit: 'ke-var enash', gloss: 'like a son of man (Aramaic)', note: 'Jesus\' favorite self-title; also Ezekiel\'s visionary title.' },
+      { term: 'Son of Man', original: 'כְּבַר אֱנָשׁ', translit: 'ke-var enash', gloss: 'like a son of man (Aramaic)', note: 'This is the title Jesus used for Himself more than any other. It is also the title Ezekiel is given in his visions.' },
     ],
   },
   'dan-7-14': {
     title: 'Dominion Given Forever',
     principle:
-      'The Son of Man receives dominion, glory, and a kingdom that all peoples should serve Him. Matthew: all authority in heaven and earth. First principle: universal worship and rule belong to the Messiah.',
+      'The Son of Man receives dominion, glory, and a kingdom. All peoples should serve Him. Matthew says He has all authority in heaven and earth. First principle: the Messiah is worshiped by all and rules over all.',
     sourceKeywords: ['dominion', 'glory', 'kingdom', 'all people', 'nations', 'languages', 'serve', 'everlasting dominion'],
     fulfillmentKeywords: ['All power', 'authority', 'heaven', 'earth', 'name above every name', 'knee', 'bow', 'Lord'],
     terms: [
-      { term: 'dominion', original: 'שָׁלְטָן', translit: 'sholtan', gloss: 'dominion, rule (Aramaic)', note: 'Greek ἐξουσία / δόξα in NT applications.' },
+      { term: 'dominion', original: 'שָׁלְטָן', translit: 'sholtan', gloss: 'dominion, rule (Aramaic)', note: 'The Greek words ἐξουσία and δόξα are used for this in the NT.' },
     ],
   },
   'dan-9-25': {
     title: 'Messiah the Prince',
     principle:
-      'From the decree to restore Jerusalem until Messiah the Prince. First principle: Daniel dates the coming of the Anointed One within a calculable window.',
+      'Daniel counts from the decree to restore Jerusalem to the coming of Messiah the Prince. First principle: Daniel gives the coming of the Anointed One a window you can calculate.',
     sourceKeywords: ['Messiah', 'Prince', 'seven weeks', 'threescore and two weeks', 'street', 'wall', 'troublous'],
     fulfillmentKeywords: ['Jesus Christ', 'Christ', 'Messiah', 'anointed', 'Prince'],
     terms: [
@@ -182,7 +182,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-9-26': {
     title: 'Messiah Cut Off',
     principle:
-      'After sixty-two weeks Messiah is cut off, but not for Himself. First principle: the Anointed One dies not for His own sin but for others — Isaiah 53 confirmed.',
+      'After sixty-two weeks Messiah is cut off, but not for Himself. First principle: the Anointed One does not die for His own sin. He dies for others, and Isaiah 53 confirms it.',
     sourceKeywords: ['Messiah', 'cut off', 'not for himself', 'people of the prince', 'city', 'sanctuary', 'flood', 'end'],
     fulfillmentKeywords: ['crucified', 'slain', 'cut off', 'not for himself', 'for us', 'ransom'],
     terms: [
@@ -192,27 +192,27 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-9-27': {
     title: 'He Shall Confirm the Covenant',
     principle:
-      'He shall confirm a covenant with many for one week; in the midst he causes sacrifice and oblation to cease. First principle: Messiah\'s death ends the efficacy of the old sacrificial system (Heb 10).',
+      'He shall confirm a covenant — God\'s binding promise — with many for one week. In the middle of the week he causes sacrifice and oblation, the temple offerings, to cease. First principle: Messiah\'s death ends the old system of sacrifices, and it no longer does what it was meant to do (Heb 10).',
     sourceKeywords: ['confirm', 'covenant', 'many', 'one week', 'midst', 'cause the sacrifice', 'oblation to cease', 'overspreading', 'abominations', 'desolate'],
     fulfillmentKeywords: ['new testament', 'blood', 'offered', 'once', 'end of the law', 'abolished', 'abomination', 'desolation'],
     terms: [
-      { term: 'confirm a covenant', original: 'הִגְבִּיר בְּרִית', translit: 'higbir berit', gloss: 'he shall strengthen/confirm a covenant', note: 'Heb 9:15 — new covenant in Christ\'s blood.' },
+      { term: 'confirm a covenant', original: 'הִגְבִּיר בְּרִית', translit: 'higbir berit', gloss: 'he shall strengthen/confirm a covenant — God\'s binding promise', note: 'Heb 9:15 — the new covenant, God\'s binding promise, in Christ\'s blood.' },
     ],
   },
   'dan-12-2': {
     title: 'Many Shall Awake',
     principle:
-      'Many who sleep in the dust shall awake: some to everlasting life, some to shame. Jesus and Paul and Revelation all cite bodily resurrection. First principle: death is not final; resurrection is universal and decisive.',
+      'Many who sleep in the dust shall awake. Some wake to everlasting life, and some to shame. Jesus and Paul and Revelation all cite a bodily resurrection. First principle: death is not the end. Everyone rises, and that rising settles everything.',
     sourceKeywords: ['sleep', 'dust of the earth', 'awake', 'everlasting life', 'shame', 'contempt'],
     fulfillmentKeywords: ['resurrection of the dead', 'grave', 'come forth', 'life', 'damnation', 'raised incorruptible'],
     terms: [
-      { term: 'awake', original: 'יָקִיצוּ', translit: 'yaqitsu', gloss: 'they shall awake / arise', note: 'First clear two-destiny resurrection statement in Scripture.' },
+      { term: 'awake', original: 'יָקִיצוּ', translit: 'yaqitsu', gloss: 'they shall awake / arise', note: 'This is the first place in Scripture that clearly says people rise to two different destinies.' },
     ],
   },
   'dan-12-3': {
     title: 'Wise Shall Shine',
     principle:
-      'Those who turn many to righteousness shall shine as the stars. First principle: faithful witness yields glory in the resurrection life.',
+      'Those who turn many to righteousness shall shine as the stars. First principle: faithful witness leads to glory in the resurrection life.',
     sourceKeywords: ['wise', 'shine', 'brightness of the firmament', 'turn many to righteousness', 'stars', 'ever and ever'],
     fulfillmentKeywords: ['shine', 'as the sun', 'kingdom of their Father', 'glory', 'star differeth'],
     terms: [
@@ -673,43 +673,43 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-9': {
     title: 'Thrones Set — Judgment Court',
     principle:
-      'Daniel sees thrones set in place; the Ancient of Days takes His seat; the court sits in judgment and books are opened. Jesus, Paul, and Revelation all place judgment in God\'s court before the final kingdom. Textual proof: Dan 7:9-10 is a heavenly judgment scene; Dan 7:22 says judgment was given to the saints of the Most High — i.e., a judicial verdict precedes their possession of the kingdom.',
+      'Daniel sees thrones set in place. The Ancient of Days takes His seat. The court sits in judgment, and the books are opened. Jesus, Paul, and Revelation all put judgment in God\'s court before the final kingdom. Textual proof: Dan 7:9-10 is a heavenly judgment scene. Dan 7:22 says judgment was given to the saints of the Most High. The verdict comes before the saints possess the kingdom.',
     sourceKeywords: ['thrones', 'cast down', 'Ancient of days', 'did sit', 'judgment', 'set', 'books', 'opened'],
     fulfillmentKeywords: ['judgment', 'set', 'thrones', 'books', 'opened', 'judged'],
     terms: [
-      { term: 'judgment', original: 'דִּין', translit: 'din', gloss: 'judgment, legal case', note: 'Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).' },
-      { term: 'books were opened', original: 'סִפְרִין פְּתִיחוּ', translit: 'sifrin peticḥu', gloss: 'books were opened', note: 'Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.' },
+      { term: 'judgment', original: 'דִּין', translit: 'din', gloss: 'judgment, legal case', note: 'The Aramaic word din means a court proceeding, not just destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).' },
+      { term: 'books were opened', original: 'סִפְרִין פְּתִיחוּ', translit: 'sifrin peticḥu', gloss: 'books were opened', note: 'The same picture of books appears in Rev 20:12 at the final judgment. It also appears in Exod 32:32-33 and Ps 139:16.' },
     ],
   },
   'dan-7-22': {
     title: 'Judgment Given to the Saints',
     principle:
-      'The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: heavenly court (v9-10) issues a verdict, then the saints receive dominion. Paul writes that the saints shall judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones and judgment given to those who reign with Christ.',
+      'The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: the heavenly court in v9-10 gives its verdict, and then the saints receive dominion. Paul writes that the saints shall judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones and judgment given to those who reign with Christ.',
     sourceKeywords: ['judgment came', 'saints of the most High', 'possessed', 'kingdom'],
     fulfillmentKeywords: ['judge', 'world', 'angels', 'thrones', 'judgment'],
     terms: [
-      { term: 'the judgment came', original: 'וּדְיָנָא יְהִיבַת', translit: 'u-deyana yehivat', gloss: 'and the judgment was given', note: 'Passive — divine initiative; the court\'s decision precedes possession of the kingdom.' },
+      { term: 'the judgment came', original: 'וּדְיָנָא יְהִיבַת', translit: 'u-deyana yehivat', gloss: 'and the judgment was given', note: 'The verb is passive, so God takes the initiative. The court\'s decision comes before the saints possess the kingdom.' },
     ],
   },
   'dan-8-14': {
     title: 'Unto 2,300 Days — Then the Sanctuary Cleansed',
     principle:
-      'An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as pattern of the heavenly (Heb 8:1-2; 9:23-24). Leviticus 16 describes the annual cleansing of the sanctuary by blood. Textual proof: Daniel\'s time prophecy ends at a sanctuary event; Hebrews locates Christ\'s ministry in the true tabernacle; Leviticus defines what "cleansed/right" means in priestly context — removal of accumulated sin from the sanctuary.',
+      'An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as a pattern of the heavenly sanctuary (Heb 8:1-2; 9:23-24). Leviticus 16 describes the annual cleansing of the sanctuary by blood. Textual proof: Daniel\'s time prophecy ends at a sanctuary event. Hebrews puts Christ\'s ministry in the true tabernacle. Leviticus defines what "cleansed/right" means in the priestly setting — the sin that piled up is removed from the sanctuary.',
     sourceKeywords: ['two thousand and three hundred', 'days', 'sanctuary', 'cleansed'],
     fulfillmentKeywords: ['true tabernacle', 'greater', 'more perfect', 'heaven itself', 'purged', 'sanctuary'],
     terms: [
-      { term: '2,300 evenings and mornings', original: 'עֶרֶב בֹּקֶר', translit: 'erev voqer', gloss: 'evening morning (≈ days)', note: 'Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).' },
-      { term: 'made right / cleansed', original: 'וְנִצְדַּק', translit: 've-nitsdaq', gloss: 'and it shall be justified / vindicated / made righteous', note: 'Cadaq — same root as "righteous." In sanctuary context: purged so it stands right before God.' },
+      { term: '2,300 evenings and mornings', original: 'עֶרֶב בֹּקֶר', translit: 'erev voqer', gloss: 'evening morning (≈ days)', note: 'This Hebrew idiom matches Gen 1, and it is a day-count. The count ends at an event that cleanses the sanctuary (cf. Lev 16:16-19; Heb 9:22-24).' },
+      { term: 'made right / cleansed', original: 'וְנִצְדַּק', translit: 've-nitsdaq', gloss: 'and it shall be declared to be in the right / cleared / made righteous', note: 'Cadaq is the same root as "righteous." In the sanctuary setting, it means the sanctuary is purged and stands right before God.' },
     ],
   },
   'dan-9-24': {
     title: 'Seventy Weeks — Finish Transgression, Make Reconciliation',
     principle:
-      'Seventy weeks are determined upon your people and your holy city, to finish the transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy, and to anoint the Most Holy. Textual proof: the window includes Messiah\'s mission (v25-27); Hebrews 9:26 speaks of Christ appearing at the end of the ages to put away sin by Himself.',
+      'Seventy weeks are determined upon your people and your holy city. These weeks are counted in prophetic time, not on an ordinary calendar. The transgression is finished. Sins are ended. Reconciliation is made for iniquity. Everlasting righteousness is brought in. Vision and prophecy are sealed up. The Most Holy is anointed. Textual proof: the window includes Messiah\'s mission (v25-27). Hebrews 9:26 speaks of Christ appearing at the end of the ages to put away sin by Himself.',
     sourceKeywords: ['seventy weeks', 'determined', 'people', 'holy city', 'finish transgression', 'end of sins', 'reconciliation', 'iniquity', 'everlasting righteousness', 'seal up', 'vision', 'prophecy', 'anoint'],
     fulfillmentKeywords: ['put away sin', 'end of the world', 'appeared', 'once', 'reconciliation'],
     terms: [
-      { term: 'seventy weeks', original: 'שָׁבֻעִים שִׁבְעִים', translit: 'shavuʿim shivʿim', gloss: 'seventy sevens / weeks', note: 'Prophetic day-units; the six purposes are messianic and soteriological, matching NT work of Christ.' },
+      { term: 'seventy weeks', original: 'שָׁבֻעִים שִׁבְעִים', translit: 'shavuʿim shivʿim', gloss: 'seventy sevens / weeks', note: 'The weeks here are prophetic day-units. The six purposes are about the promised King, Jesus, and about how God saves people. They match the NT work of Christ.' },
     ],
   },
   'rev-12-17': {
@@ -4213,7 +4213,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-2-35': {
     title: 'The Stone That Smote the Image Became a Great Mountain',
     principle:
-      'The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue; God\'s kingdom is a growing mountain — cut without hands, unstoppable in growth.',
+      'The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue. God\'s kingdom is a mountain that grows. It was cut without hands, and nothing can stop it.',
     sourceKeywords: ['broken to pieces together', 'became like the chaff', 'filled the whole earth'],
     fulfillmentKeywords: ['shall the God of heaven set up a kingdom'],
     terms: [],
@@ -4221,7 +4221,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-2-45': {
     title: 'A Stone Cut Out Without Hands',
     principle:
-      'The interpretation is certain: God makes known what shall come hereafter. First principle: the kingdom is divine work — without hands — and the dream\'s certainty anchors faith against empire\'s confidence.',
+      'The interpretation is certain. God makes known what shall come hereafter. First principle: the kingdom is God\'s work, and it comes without hands. The dream is certain, so faith has something solid to stand on when empires boast.',
     sourceKeywords: ['cut out of the mountain without hands', 'the dream is certain', 'the interpretation thereof sure'],
     fulfillmentKeywords: ['a stone cut out without hands'],
     terms: [],
@@ -4229,7 +4229,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-10': {
     title: 'The Judgment Was Set, and the Books Were Opened',
     principle:
-      'The Ancient of Days sits: thousand thousands minister, and the books open. First principle: heaven\'s courtroom precedes the kingdom — the record is read before the verdict and dominion are given to the Son.',
+      'The Ancient of Days sits. Thousand thousands serve Him, and the books open. First principle: the courtroom in heaven comes before the kingdom. The record is read before the verdict, and dominion is given to the Son.',
     sourceKeywords: ['thousand thousands ministered', 'ten thousand times ten thousand', 'the books were opened'],
     fulfillmentKeywords: ['the judgment was set', 'the books were opened'],
     terms: [],
@@ -4237,7 +4237,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-18': {
     title: 'The Saints Shall Take the Kingdom',
     principle:
-      'The saints of the Most High possess the kingdom for ever. First principle: persecution\'s arc ends in possession — the little horn loses, the saints inherit.',
+      'The saints of the Most High possess the kingdom for ever. First principle: the persecution runs its course and ends in possession. The little horn loses, and the saints inherit.',
     sourceKeywords: ['saints of the most High', 'take the kingdom', 'for ever and ever'],
     fulfillmentKeywords: ['the saints of the most High shall take'],
     terms: [],
@@ -4245,7 +4245,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-21': {
     title: 'The Horn Made War with the Saints',
     principle:
-      'The boastful horn prevails against the saints — for a time. First principle: the war against the saints is real, violent, and temporary; it is written so the suffering will not surprise us.',
+      'The boastful horn wins against the saints, but only for a time. First principle: the war against the saints is real and violent, and it will end. It is written down so the suffering will not surprise us.',
     sourceKeywords: ['the same horn made war', 'prevailed against them'],
     fulfillmentKeywords: ['to make war with the saints', 'prevailed against them'],
     terms: [],
@@ -4253,7 +4253,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-25': {
     title: 'He Shall Think to Change Times and Laws',
     principle:
-      'The little power speaks against the Most High, wears out the saints, and holds sway for a time, times, and a dividing of time. First principle: prophetic time is bounded — the wear-out has a stopwatch on it.',
+      'The little power speaks against the Most High. It wears out the saints, and it rules for a time, times, and a dividing of time. First principle: that time has a limit. The wearing out of the saints comes to an end.',
     sourceKeywords: ['speak great words', 'wear out the saints', 'a time and times and the dividing of time'],
     fulfillmentKeywords: ['time, times, and an half'],
     terms: [],
@@ -4261,7 +4261,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-26': {
     title: 'The Judgment Shall Sit, and They Shall Take Away His Dominion',
     principle:
-      'The court sits; the persecutor\'s dominion is consumed unto the end. First principle: every blasphemous power has a scheduled end — the same judgment that vindicates saints removes beasts.',
+      'The court sits, and the persecutor\'s dominion is consumed unto the end. First principle: every power that speaks against God has an end set for it. The same judgment that rules in favor of the saints removes the beasts.',
     sourceKeywords: ['the judgment shall sit', 'take away his dominion', 'consume and destroy it unto the end'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4269,7 +4269,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-7-27': {
     title: 'The Kingdom Given to the People of the Saints',
     principle:
-      'Dominion under the whole heaven passes to the saints of the Most High — an everlasting kingdom, all dominions serving Him. First principle: the end is not the beast\'s empire but the saints\' inheritance under the Son of man.',
+      'Dominion under the whole heaven passes to the saints of the Most High. It is an everlasting kingdom, and all dominions serve Him. First principle: the end is not the beast\'s empire. It is the saints\' inheritance under the Son of man.',
     sourceKeywords: ['kingdom and dominion', 'people of the saints of the most High', 'everlasting kingdom'],
     fulfillmentKeywords: ['given to the saints', 'everlasting kingdom'],
     terms: [],
@@ -4277,7 +4277,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-8-11': {
     title: 'He Magnified Himself to the Prince of the Host',
     principle:
-      'The daily sacrifice is taken away and the sanctuary cast down by the self-exalting power. First principle: the war against God wears a religious face — the desecration of worship is prophecy\'s center stage.',
+      'The self-exalting power takes away the daily sacrifice and casts down the sanctuary. First principle: the war against God wears a religious face. The desecration of worship is the center of the prophecy.',
     sourceKeywords: ['magnified himself', 'the prince of the host', 'the place of his sanctuary was cast down'],
     fulfillmentKeywords: ['stand in the holy place'],
     terms: [],
@@ -4285,7 +4285,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-8-17': {
     title: 'Understand, O Son of Man: at the Time of the End',
     principle:
-      'Gabriel lifts the fallen Daniel: the vision belongs to the time of the end. First principle: apocalyptic vision is for understanding, not entertainment — the appointed time makes sense of the symbols.',
+      'Gabriel lifts the fallen Daniel. The vision belongs to the time of the end. First principle: visions like this are given so we understand, not to entertain us. The appointed time makes sense of the symbols.',
     sourceKeywords: ['Understand, O son of man', 'at the time of the end shall be the vision'],
     fulfillmentKeywords: ['the vision is for an appointed time'],
     terms: [],
@@ -4293,7 +4293,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-10-6': {
     title: 'His Face as the Appearance of Lightning',
     principle:
-      'The glorious man by the river — beryl body, fiery eyes, brass feet, multitude voice. First principle: theophany before the apocalypse: the messenger\'s glory certifies the message\'s weight.',
+      'The glorious man stands by the river. His body is like beryl, his eyes are fire, his feet are like brass, and his voice is like a multitude. First principle: God appears to someone here, before the visions begin. The glory of the messenger shows how much the message weighs.',
     sourceKeywords: ['appearance of lightning', 'eyes as lamps of fire', 'voice of his words like the voice of a multitude'],
     fulfillmentKeywords: ['countenance like lightning', 'eyes as lamps of fire'],
     terms: [],
@@ -4301,7 +4301,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-10-13': {
     title: 'The Prince of Persia Withstood Me One and Twenty Days',
     principle:
-      'Behind the curtain of empires, princes contend — Michael comes to help. First principle: prayer on earth touches war in heaven; the delay of answers is not the absence of angels.',
+      'Behind the empires you see, other princes are fighting, and Michael comes to help. First principle: prayer on earth touches a war in heaven. When an answer is delayed, that does not mean the angels are gone.',
     sourceKeywords: ['the prince of the kingdom of Persia', 'withstood me', 'Michael came to help me'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4309,7 +4309,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-10-21': {
     title: 'That Which Is Noted in the Scripture of Truth',
     principle:
-      'Gabriel will show what is written in the true record; Michael stands as your prince. First principle: history is written down before it happens — the scripture of truth is the script empires must play out.',
+      'Gabriel will show what is written in the true record. Michael stands as your prince. First principle: history is written down before it happens. The scripture of truth is the record, and empires must act it out.',
     sourceKeywords: ['the scripture of truth', 'none that holdeth with me', 'Michael your prince'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4317,7 +4317,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-11-31': {
     title: 'They Shall Place the Abomination That Maketh Desolate',
     principle:
-      'Arms pollute the sanctuary and end the daily sacrifice — the desecration Jesus tells readers to watch for. First principle: Daniel 11 is Matthew 24\'s source text; the abomination is scheduled, and flight is commanded.',
+      'Armed forces pollute the sanctuary and end the daily sacrifice. This is the desecration Jesus tells readers to watch for. First principle: Daniel 11 is Matthew 24\'s source text. The abomination — the thing that makes the holy place desolate — is scheduled, and flight is commanded.',
     sourceKeywords: ['pollute the sanctuary of strength', 'take away the daily sacrifice', 'abomination that maketh desolate'],
     fulfillmentKeywords: ['abomination of desolation'],
     terms: [],
@@ -4325,7 +4325,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-1': {
     title: 'A Time of Trouble Such as Never Was',
     principle:
-      'Michael stands up; unparalleled trouble comes; everyone written in the book is delivered. First principle: the worst time in history has a register of names — deliverance is written, not random.',
+      'Michael stands up. Trouble comes like nothing before it. Everyone written in the book is delivered. First principle: the worst time in history has a list of names. Deliverance is written down, not left to chance.',
     sourceKeywords: ['Michael stand up', 'a time of trouble', 'found written in the book'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4333,7 +4333,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-4': {
     title: 'Shut Up the Words and Seal the Book',
     principle:
-      'The book is sealed until the time of the end, when knowledge runs to and fro. First principle: prophecy has a shelf-life of obscurity — the seal opens when the world is ready to run with it.',
+      'The book is sealed until the time of the end, when knowledge runs to and fro. First principle: prophecy can stay sealed and unclear for a long time. The seal opens when the world is ready to run with it.',
     sourceKeywords: ['shut up the words', 'seal the book', 'knowledge shall be increased'],
     fulfillmentKeywords: ['seal the book, even to the time of the end'],
     terms: [],
@@ -4341,7 +4341,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-7': {
     title: 'A Time, Times, and an Half',
     principle:
-      'The oath-sworn duration: when the scattering of the holy people\'s power is accomplished, all is finished. First principle: the man in linen swears the end of persecution — three-and-a-half times, then done.',
+      'The man in linen swears an oath about how long it lasts. When the scattering of the holy people\'s power is complete, all is finished. First principle: he swears to the end of the persecution. It runs three-and-a-half times, and then it is over.',
     sourceKeywords: ['sware by him that liveth for ever', 'a time, times, and an half', 'all these things shall be finished'],
     fulfillmentKeywords: ['time, and times, and an half'],
     terms: [],
@@ -4349,7 +4349,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-11': {
     title: 'From the Daily Sacrifice Taken Away — a Thousand Two Hundred and Ninety Days',
     principle:
-      'The abomination\'s setup begins a counted span. First principle: God numbers the desolation — day counts mean the horror has measurable, curfew-able bounds.',
+      'The abomination — the thing that makes the holy place desolate — is set up, and a counted span begins. First principle: God numbers the desolation. The day counts mean the horror has limits you can measure.',
     sourceKeywords: ['the daily sacrifice shall be taken away', 'abomination that maketh desolate', 'thousand two hundred and ninety days'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4357,7 +4357,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-12': {
     title: 'Blessed Is He That Waiteth',
     principle:
-      'A beatitude attaches to those who endure to the thousand three hundred and five and thirty days. First principle: waiting is blessedness when the timeline is God\'s — endurance has a numbered horizon.',
+      'A blessing is promised to those who endure to the thousand three hundred and five and thirty days. First principle: waiting is blessed when the timeline belongs to God. The waiting has a set number of days.',
     sourceKeywords: ['Blessed is he that waiteth', 'thousand three hundred and five and thirty days'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4365,7 +4365,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'dan-12-13': {
     title: 'Thou Shalt Rest, and Stand in Thy Lot',
     principle:
-      'Daniel is dismissed to rest and to rise for his portion at the end of days. First principle: the faithful die with a reserved lot — rest now, standing at the end.',
+      'Daniel is told to go his way and rest. He will rise for his portion at the end of days. First principle: the faithful die with a place kept for them. They rest now, and they stand at the end.',
     sourceKeywords: ['go thou thy way till the end be', 'thou shalt rest', 'stand in thy lot'],
     fulfillmentKeywords: [],
     terms: [],
