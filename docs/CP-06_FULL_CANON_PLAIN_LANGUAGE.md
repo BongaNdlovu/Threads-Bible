@@ -132,6 +132,41 @@ THEOLOGY-REVIEW reflect a Gospel that quotes the Septuagint and a mixed text for
 The single THEOLOGY-REVIEW is `mat-4-6`, where the devil's quotation of Psalm 91 is compressed in a way
 the operator should confirm.
 
+### Glossary census, canon-wide
+
+`npx tsx scripts/cp05Consistency.ts` over the whole canon:
+
+```
+never-write phrases present: 0        <- the outright-defect class is clean
+glossary terms: 28 · terms with at least one bare use: 17
+bare uses 423 · glossed uses 51
+```
+
+**Zero never-write phrases** is the headline: not one of the 24 banned forms appears anywhere in the
+canon's prose. The bare-use figure needs its context before it reads as a problem, because the census
+counts any string that contains the term without its rendering, and four kinds of string are meant to
+be bare:
+
+- **titles** — KJV headings and app section labels, which I1 forbids rewriting;
+- **quotations** — Scripture itself uses the words;
+- **lexical glosses** — `terms[].gloss` and `terms[].note` are definitions of the original word, not
+  prose to be decoded;
+- **chain prose** — Stage A.5's territory, still at its pre-sweep wording where that pass has not yet
+  run.
+
+Split by book, the bare-use book occurrences are 27 in Genesis, Exodus and Leviticus — the three books
+this plan never touched — and 88 across the books the sweep did touch. The largest counts are
+`covenant` (180 bare / 37 glossed), `sanctuary` (71 / 1), `remnant` (39 / 4), `atonement` (34 / 1) and
+`messianic` (23 / 0).
+
+One of those rows is a known defect in the glossary itself rather than in the prose.
+`sanctification` has a single accepted rendering, the literal string `makes a person holy`. When the
+object is plural — "the LORD who makes **them** holy" in `ezk-20-12` — the literal match is impossible
+without writing ungrammatical English, so that row reads 0 glossed against 12 bare no matter how good
+the prose is. Recommended operator action: widen that row's rendering list to accept the inflected
+forms (`makes them holy`, `makes us holy`) or restate the row as a rule rather than a literal. The same
+pattern will affect any future term whose rendering is a clause with a pronoun in it.
+
 **Findings already in the repository — 27 markers in `docs/CP-05_TRIAGE_QUEUE.md`**, concentrated in
 Genesis and Leviticus, which are the operator's own pre-plan appendix documents. They are in the triage
 queue because the rollup reads every `CP-02_*` doc in the repo; they are not products of this sweep.
