@@ -1298,13 +1298,13 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'ezr-7-11': {
-    title: 'Decree of Artaxerxes (457 BC) — Dating the Messiah and 2,300 Days',
+    title: 'Decree of Artaxerxes (457 BC). This decree gives the starting date for the Messiah and for the 2,300 days.',
     principle:
-      'Artaxerxes I issues the comprehensive decree to Ezra granting full authority to restore and rebuild Jerusalem, appointing magistrates and restoring the laws of God. This decree in 457 BC (the autumn of Artaxerxes\' 7th regnal year) marks the undeniable chronological starting point for both the 70 weeks of Daniel 9:25 and the 2,300 days of Daniel 8:14. First principle: biblical prophecy is rooted in verifiable history; the exact dating of the Messiah\'s first advent confirms the timeline for the cleansing of the heavenly sanctuary.',
+      'King Artaxerxes gave Ezra a long decree. It gave Ezra full authority to restore Jerusalem and to rebuild it. It let him appoint judges and magistrates. It put the laws of God back in force. The decree is dated 457 BC, in the autumn of Artaxerxes\' 7th year. That date is the firm starting point for the 70 weeks of Daniel 9:25 and for the 2,300 days of Daniel 8:14. First principle: prophecy stands on history you can check. The exact date of the Messiah\'s first coming confirms the timeline for the cleansing of the heavenly sanctuary.',
     sourceKeywords: ['decree', 'Artaxerxes', 'Ezra the priest', 'commandments of the LORD', 'statutes to Israel'],
     fulfillmentKeywords: ['commandment to restore and to build Jerusalem', 'Messiah the Prince', 'seventy weeks', 'two thousand and three hundred days'],
     terms: [
-      { term: 'decree / letter', original: 'פַּתְשֶׁגֶן הַנִּשְׁתְּוָן', translit: 'patshegen han-nishtevan', gloss: 'copy of the letter / royal decree (Aramaic/Persian)', note: 'Ezra 7:11-26 contains the full legal text restoring Jewish judicial autonomy in 457 BC.' },
+      { term: 'decree / letter', original: 'פַּתְשֶׁגֶן הַנִּשְׁתְּוָן', translit: 'patshegen han-nishtevan', gloss: 'copy of the letter, a royal decree (Aramaic/Persian)', note: 'Ezra 7:11-26 gives the full legal text that let the Jewish people run their own courts again in 457 BC.' },
     ],
   },
   'ezk-20-12': {
@@ -8781,7 +8781,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezr-1-2': {
     title: 'The LORD God of Heaven Hath Charged Me to Build Him an House',
     principle:
-      'Cyrus\'s own confession of the charge. First principle: the God of heaven steers the greatest empire\'s decree — Isaiah had named Cyrus generations earlier.',
+      'Cyrus himself said out loud that God had charged him. First principle: the God of heaven directs the decree of the greatest empire. Isaiah had named Cyrus long before he was born.',
     sourceKeywords: ['The LORD God of heaven', 'given me all the kingdoms of the earth', 'build him an house at Jerusalem'],
     fulfillmentKeywords: ['that saith of Cyrus, He is my shepherd'],
     terms: [],
@@ -8789,7 +8789,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezr-1-3': {
     title: 'His God Be with Him, and Let Him Go Up',
     principle:
-      'The go-up license for all His people. First principle: the decree frees whoever wills — the return is voluntary, funded, and prophesied.',
+      'The decree let anyone who was willing go up. First principle: the return is voluntary, paid for, and foretold by a prophet.',
     sourceKeywords: ['Who is there among you of all his people', 'let him go up to Jerusalem', 'build the house of the LORD'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8797,7 +8797,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezr-6-14': {
     title: 'They Builded and Finished It, According to the Commandment',
     principle:
-      'Prospering through Haggai and Zechariah\'s prophesying; three kings funding. First principle: the building finishes by Word plus decree — prophets preach, kings pay, elders build.',
+      'The work prospered through the preaching of Haggai and Zechariah, and three kings paid for it. First principle: the building is finished by the word and by the decree. Prophets preach, kings pay, and the elders build.',
     sourceKeywords: ['they prospered through the prophesying', 'finished it', 'according to the commandment of Cyrus, and Darius, and Artaxerxes'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8805,7 +8805,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezr-7-10': {
     title: 'Ezra Had Prepared His Heart to Seek the Law',
     principle:
-      'Seek, do, teach — the prepared-heart sequence. First principle: the scribe\'s triad is the ministry\'s order — seeking precedes doing, doing precedes teaching.',
+      'Ezra sought the law, did it, and taught it: that is the order of a prepared heart. First principle: this is the order of the ministry too. Seeking comes before doing, and doing comes before teaching.',
     sourceKeywords: ['prepared his heart', 'to seek the law of the LORD, and to do it', 'to teach in Israel'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8813,7 +8813,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezr-9-9': {
     title: 'Our God Hath Not Forsaken Us in Our Bondage',
     principle:
-      'Mercy before Persian kings: reviving, house-raising, a wall in Judah. First principle: grace gives reviving and repair — the forsaken people rebuilt with a wall and a worship.',
+      'God showed mercy in front of the kings of Persia. He gave the people new life, a house to raise up, and a wall in Judah. First principle: grace brings life back and repairs what was broken. The people had been left alone, and they rebuilt a wall and a worship.',
     sourceKeywords: ['our God hath not forsaken us in our bondage', 'extended mercy', 'to repair the desolations thereof'],
     fulfillmentKeywords: [],
     terms: [],

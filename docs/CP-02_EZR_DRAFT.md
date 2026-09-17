@@ -1,0 +1,303 @@
+# CP-02 · Ezra — plain-language draft appendix (AI-drafted, NOT applied by this doc)
+
+Plan: `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` (one-pass protocol) · Date: 2026-09-17
+Book: `ezr` · in-scope strings: 31 · **rewritten 17 · VERIFY-ONLY 14 · EQUIVALENT 0**
+
+Rules applied: master-plan §1.7 voice; invariant I1 (quoted Scripture never modernised,
+abbreviations never expanded, Hebrew/Greek script + transliteration + Strong's untouchable);
+frozen glossary; per-string meaning checklist. VERIFY-ONLY means the string already met
+the standard — it is a verdict, not a shortfall.
+
+## 1 · Rewritten strings (BEFORE → AFTER)
+
+### `ezr-7-11` · `principle`
+
+**BEFORE**
+
+```text
+Artaxerxes I issues the comprehensive decree to Ezra granting full authority to restore and rebuild Jerusalem, appointing magistrates and restoring the laws of God. This decree in 457 BC (the autumn of Artaxerxes' 7th regnal year) marks the undeniable chronological starting point for both the 70 weeks of Daniel 9:25 and the 2,300 days of Daniel 8:14. First principle: biblical prophecy is rooted in verifiable history; the exact dating of the Messiah's first advent confirms the timeline for the cleansing of the heavenly sanctuary.
+```
+
+**AFTER**
+
+```text
+King Artaxerxes gave Ezra a long decree. It gave Ezra full authority to restore Jerusalem and to rebuild it. It let him appoint judges and magistrates. It put the laws of God back in force. The decree is dated 457 BC, in the autumn of Artaxerxes' 7th year. That date is the firm starting point for the 70 weeks of Daniel 9:25 and for the 2,300 days of Daniel 8:14. First principle: prophecy stands on history you can check. The exact date of the Messiah's first coming confirms the timeline for the cleansing of the heavenly sanctuary.
+```
+
+**Why:** the 33-word first sentence carried four separate claims and is now four sentences, one idea each, in plain word order with Artaxerxes named as the actor; "comprehensive" and "granting" are dropped for plain words, and "regnal year" becomes "7th year" (Ezra 7:7-8). "undeniable chronological starting point" becomes "the firm starting point," and "biblical prophecy is rooted in" becomes "prophecy stands on." Every claim survives: the decree is Artaxerxes' decree to Ezra, it restores and rebuilds Jerusalem, it grants full authority, it appoints magistrates, it restores the laws of God, it is dated 457 BC in the autumn of his 7th year, it starts the 70 weeks of Daniel 9:25 and the 2,300 days of Daniel 8:14, prophecy rests on verifiable history, the date of the Messiah's first advent is exact, and it confirms the timeline for cleansing the heavenly sanctuary. The citations Daniel 9:25, Daniel 8:14 and the figure 2,300 are carried byte-identical.
+
+### `ezr-9-9` · `principle`
+
+**BEFORE**
+
+```text
+Mercy before Persian kings: reviving, house-raising, a wall in Judah. First principle: grace gives reviving and repair — the forsaken people rebuilt with a wall and a worship.
+```
+
+**AFTER**
+
+```text
+God showed mercy in front of the kings of Persia. He gave the people new life, a house to raise up, and a wall in Judah. First principle: grace brings life back and repairs what was broken. The people had been left alone, and they rebuilt a wall and a worship.
+```
+
+**Why:** "Mercy before Persian kings: reviving, house-raising, a wall in Judah" was a fragment list, so God is now named as the one who gives mercy and the three gifts become one sentence. "grace gives reviving and repair" and "the forsaken people rebuilt with a wall and a worship" are written out in everyday words while keeping "wall" and "worship" as the source has them. Claims kept: mercy is shown before the Persian kings, God gives reviving, the house is set up, there is a wall in Judah, grace revives and repairs, the people were forsaken, and they rebuilt a wall and a worship.
+
+### `ezr-1-2` · `principle`
+
+**BEFORE**
+
+```text
+Cyrus's own confession of the charge. First principle: the God of heaven steers the greatest empire's decree — Isaiah had named Cyrus generations earlier.
+```
+
+**AFTER**
+
+```text
+Cyrus himself said out loud that God had charged him. First principle: the God of heaven directs the decree of the greatest empire. Isaiah had named Cyrus long before he was born.
+```
+
+**Why:** "Cyrus's own confession of the charge" now says what he confessed and that it was spoken, and "the God of heaven steers the greatest empire's decree" is put in plain word order with God as the subject. "generations earlier" becomes "long before he was born", which is what the phrase meant. Claims kept: Cyrus makes the confession himself, God charged him, the God of heaven steers the empire's decree, the empire is the greatest, and Isaiah named Cyrus generations earlier.
+
+### `ezr-6-14` · `principle`
+
+**BEFORE**
+
+```text
+Prospering through Haggai and Zechariah's prophesying; three kings funding. First principle: the building finishes by Word plus decree — prophets preach, kings pay, elders build.
+```
+
+**AFTER**
+
+```text
+The work prospered through the preaching of Haggai and Zechariah, and three kings paid for it. First principle: the building is finished by the word and by the decree. Prophets preach, kings pay, and the elders build.
+```
+
+**Why:** the first fragment now has a subject and a verb, and "three kings funding" is written out as "three kings paid for it" (Ezra 6:14 names Cyrus, Darius and Artaxerxes). "the building finishes by Word plus decree" becomes "the building is finished by the word and by the decree", which is ordinary English. Claims kept: the work prospers, Haggai and Zechariah prophesy, three kings fund it, the word and the decree finish the building, prophets preach, kings pay, and elders build.
+
+### `ezr-7-10` · `principle`
+
+**BEFORE**
+
+```text
+Seek, do, teach — the prepared-heart sequence. First principle: the scribe's triad is the ministry's order — seeking precedes doing, doing precedes teaching.
+```
+
+**AFTER**
+
+```text
+Ezra sought the law, did it, and taught it: that is the order of a prepared heart. First principle: this is the order of the ministry too. Seeking comes before doing, and doing comes before teaching.
+```
+
+**Why:** "Seek, do, teach — the prepared-heart sequence" is now a sentence with Ezra as the subject and the sequence spelled out. "the scribe's triad" becomes "the order of the ministry", so no reader has to decode "triad". Claims kept: Ezra seeks, does and teaches the law, the heart is prepared, this is the ministry's order, and seeking precedes doing and doing precedes teaching.
+
+### `ezr-1-3` · `principle`
+
+**BEFORE**
+
+```text
+The go-up license for all His people. First principle: the decree frees whoever wills — the return is voluntary, funded, and prophesied.
+```
+
+**AFTER**
+
+```text
+The decree let anyone who was willing go up. First principle: the return is voluntary, paid for, and foretold by a prophet.
+```
+
+**Why:** "The go-up license for all His people" was a label, so it now says what the decree allowed and who it allowed to go. "funded, and prophesied" becomes "paid for, and foretold by a prophet", so the reader is not left to work out who did the funding or the prophesying. Claims kept: the decree frees whoever is willing, the return is voluntary, it is funded, it is prophesied, and it is open to all his people.
+
+### `ezr-7-11` · `terms[0].note`
+
+**BEFORE**
+
+```text
+Ezra 7:11-26 contains the full legal text restoring Jewish judicial autonomy in 457 BC.
+```
+
+**AFTER**
+
+```text
+Ezra 7:11-26 gives the full legal text that let the Jewish people run their own courts again in 457 BC.
+```
+
+**Why:** "contains" becomes "gives", and "restoring Jewish judicial autonomy" is written out as the Jewish people running their own courts again, which is what judicial autonomy means. The citation Ezra 7:11-26 and the date 457 BC are carried byte-identical.
+
+### `ezr-7-11` · `terms[0].gloss`
+
+**BEFORE**
+
+```text
+copy of the letter / royal decree (Aramaic/Persian)
+```
+
+**AFTER**
+
+```text
+copy of the letter, a royal decree (Aramaic/Persian)
+```
+
+**Why:** the slash is replaced by a comma and the article "a" so the line reads as English instead of a filing label; every word of the gloss, and the parenthetical (Aramaic/Persian), is kept.
+
+### `ezr-7-11` · `title`
+
+**BEFORE**
+
+```text
+Decree of Artaxerxes (457 BC) — Dating the Messiah and 2,300 Days
+```
+
+**AFTER**
+
+```text
+Decree of Artaxerxes (457 BC). This decree gives the starting date for the Messiah and for the 2,300 days.
+```
+
+**Why:** the em-dash joined a history label to a second idea, so the two now stand as two sentences, one idea each, and the second sentence carries a subject (this decree) and a verb (gives) instead of the participial fragment "Dating the Messiah and 2,300 Days." The date 457 BC, the name Artaxerxes and the figure 2,300 are carried byte-identical, and the claim that the decree dates the Messiah and the 2,300 days is the source's own.
+
+### `chain:seventy-weeks-messiah` · `steps[0].connection`
+
+**BEFORE**
+
+```text
+Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts.
+```
+
+**AFTER**
+
+```text
+In his 7th year Artaxerxes I gave the Jewish people full legal authority to rebuild their city. That year starts the count of the 70 weeks and the 2,300 days.
+```
+
+**Why:** "Historical datum:" was a label with no verb, so the sentence now names Artaxerxes I as the one who gave the authority and the Jewish people as those who received it; "gives full legal autonomy" becomes "gave full legal authority." Both counts are kept, and the 20-word sentence is split into two ideas (Ezra 7:11-26 and the 2,300 days are the source's own figures, carried byte-identical).
+
+### `chain:seventy-weeks-messiah` · `steps[5].connection`
+
+**BEFORE**
+
+```text
+Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended.
+```
+
+**AFTER**
+
+```text
+Daniel said the sacrifices would stop in the middle of the 70th week. That is 3.5 years into the ministry of Jesus, in the spring of 31 AD.
+```
+
+**Why:** the telegraphic "Prophecy:" opener becomes a sentence with Daniel as the subject and the sacrifices as the object, and the parenthesis with the arithmetic becomes its own sentence. The citation context Daniel 9:27, the figures 70, 3.5, 31 AD and the word "ministry" are all carried as the source has them.
+
+### `chain:seventy-weeks-messiah` · `steps[3].connection`
+
+**BEFORE**
+
+```text
+NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism.
+```
+
+**AFTER**
+
+```text
+Jesus was baptized in the 15th year of Tiberius Caesar. There he was anointed as Messiah, that is, Christ.
+```
+
+**Why:** "NT fulfillment:" was a fragment opener, so the sentence now names Jesus as the subject and the baptism as the event. "Messiah / Christ" is written out as "Messiah, that is, Christ", which is what the slash was doing. The date 15th year and the name Tiberius Caesar are carried byte-identical (Luke 3:1, 21-23 is the source's own reference).
+
+### `chain:seventy-weeks-messiah` · `steps[7].connection`
+
+**BEFORE**
+
+```text
+NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles.
+```
+
+**AFTER**
+
+```text
+The 70 weeks ended after 490 years. Then the gospel was preached to the Gentiles.
+```
+
+**Why:** "NT fulfillment:" is dropped as a label and the two clauses it compressed are now one idea each, in plain order, with the 490 years kept. "gospel proclamation transitions to the Gentiles" becomes "the gospel was preached to the Gentiles", which says who did what.
+
+### `chain:seventy-weeks-messiah` · `steps[1].connection`
+
+**BEFORE**
+
+```text
+Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement.
+```
+
+**AFTER**
+
+```text
+Daniel's prophecy gives 70 sevens, that is 490 years. They are cut off for the testing of the covenant people and for the atonement of the Messiah.
+```
+
+**Why:** "Prophetic timeline:" was a label, so the sentence now names Daniel and the prophecy, and "490 years" is introduced with "that is" so the arithmetic is plain. "covenant probation" becomes "the testing of the covenant people" and "messianic atonement" becomes "the atonement of the Messiah", which is the frozen rendering for atonement (the price paid so sin can be forgiven). The one sentence is split so each carries one idea. The figures 70 and 490 and Daniel 9:24 are carried byte-identical.
+
+### `chain:seventy-weeks-messiah` · `steps[6].connection`
+
+**BEFORE**
+
+```text
+NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates.
+```
+
+**AFTER**
+
+```text
+Christ died at Passover. The picture met the person it pointed to, and the animal sacrifices came to an end.
+```
+
+**Why:** "NT fulfillment:" is dropped as a label, and "type meets antitype" is written out with both glossary renderings: "the picture" for type, and "the person it pointed to" for antitype. "the animal sacrificial system terminates" becomes "the animal sacrifices came to an end", plain words in the order a person would say them. Matthew 27:51 is the source's own reference and is unchanged.
+
+### `chain:seventy-weeks-messiah` · `steps[2].connection`
+
+**BEFORE**
+
+```text
+Calculation: 457 BC + 483 years brings exactly to 27 AD.
+```
+
+**AFTER**
+
+```text
+The count runs from 457 BC for 483 years, and that brings it exactly to 27 AD.
+```
+
+**Why:** "Calculation:" was a label, so the sentence now says what is being calculated and gives the sum a verb. The dates 457 BC, 483 years and 27 AD are carried byte-identical (Daniel 9:25 is the source's own reference).
+
+### `chain:seventy-weeks-messiah` · `steps[4].connection`
+
+**BEFORE**
+
+```text
+Same-OT: substitutionary death of the Anointed One foretold.
+```
+
+**AFTER**
+
+```text
+The prophet Daniel also foretold that the Anointed One would die "cut off, but not for Himself".
+```
+
+**Why:** "Same-OT:" was a fragment opener with no subject, so the sentence now names Daniel as the one who foretold and the Anointed One as the one who dies. The KJV words "cut off, but not for Himself" are quoted (Daniel 9:26, "Messiah be cut off, but not for himself") with no word inside changed; only the quotation marks are added. The citation context Daniel 9:26 is unchanged.
+
+## 2 · VERIFY-ONLY strings (already at standard, unchanged)
+
+| entry | field | reason |
+|---|---|---|
+| `ezr-1-2` | `title` | 13 words, one idea, plain - the KJV text of Ezra 1:2 carried byte-identical, capitalisation aside; nothing to decode |
+| `ezr-1-3` | `title` | 10 words, one idea, plain - the KJV text of Ezra 1:3 carried byte-identical, capitalisation aside; nothing to decode |
+| `ezr-6-14` | `title` | 9 words, one idea, plain - the KJV text of Ezra 6:14 carried byte-identical; nothing to decode |
+| `ezr-7-10` | `title` | 9 words, one idea, plain - the KJV text of Ezra 7:10 carried byte-identical; nothing to decode |
+| `ezr-9-9` | `title` | 9 words, one idea, plain - the KJV text of Ezra 9:9 carried byte-identical; nothing to decode |
+| `chain:seventy-weeks-messiah` | `steps[3].title` | 10 words, one sentence, one idea, plain word order - the date 27 AD is the source's own figure and the name Jesus is named as the actor (Luke 3:1, 21-23 is the source's own reference) |
+| `chain:seventy-weeks-messiah` | `steps[5].title` | 10 words, one sentence, one idea - the KJV words cause sacrifice and oblation to cease are carried byte-identical to the source (Daniel 9:27, "in the midst of the week he shall cause the sacrifice and the oblation to cease"); nothing to decode |
+| `chain:seventy-weeks-messiah` | `steps[6].title` | 9 words, one sentence, one idea; the KJV words rent in twain are carried byte-identical to the source and to Matthew 27:51; nothing to decode |
+| `chain:seventy-weeks-messiah` | `steps[0].title` | 8 words, one sentence, one idea, plain word order; the name Artaxerxes and the date 457 BC are carried byte-identical (Ezra 7:11-26 is the source's own reference) |
+| `chain:seventy-weeks-messiah` | `steps[2].title` | 8 words, one sentence, one idea, plain word order; the KJV wording Messiah the Prince and the figure 483 years are carried byte-identical (Daniel 9:25 is the source's own reference) |
+| `chain:seventy-weeks-messiah` | `steps[7].title` | 8 words over 2 sentences, one idea apiece; the date 34 AD, the name Stephen and the word Gentiles are carried byte-identical (Acts 7:54-60 is the source's own reference) |
+| `chain:seventy-weeks-messiah` | `steps[4].title` | 7 words, one sentence, one idea; the KJV wording Messiah cut off, but not for Himself is carried byte-identical to the source and to Daniel 9:26; nothing to decode |
+| `chain:seventy-weeks-messiah` | `steps[1].title` | 6 words, one sentence, one idea - the KJV wording of Daniel 9:24 ("Seventy weeks are determined upon thy people") with the source's own trimming, carried byte-identical; nothing to decode |
+| `chain:seventy-weeks-messiah` | `name` | 7 words over 2 sentences, 6 and 1, one idea apiece; the figures 2 and 70 are the source's own and the name Messiah is carried byte-identical; nothing to decode |
+
