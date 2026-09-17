@@ -205,6 +205,18 @@ to `num-21-9` while that check was being falsification-tested and the fix for it
 leaves behind is that every invariant needs a check that can fail on it, and every check needs to be
 falsified once before it is trusted.
 
+A fourth class turned up while preparing the chain pass: a census that compares the abbreviation tokens
+(`NT`, `OT`, `LXX`, `KJV`, `YHWH`, `cf.`, `i.e.`) before and after every one of the 1,699 delivered
+drafts found 47 drafts where a token count fell. Most are mandated, not defects — the frozen glossary
+requires `YHWH` to be rendered as `the LORD`, the voice rules require Latin shorthand such as `i.e.` to
+be said in plain words, and the chain strings inside book files are superseded by Stage A.5 and were
+never applied. Two were genuine: `joh-1-14` had expanded `OT` to "Old Testament" and `heb-4-4`
+terms[0].note had expanded `NT` to "New Testament", both in committed prose. Invariant I1 says
+abbreviations stay abbreviations, so both drafts were corrected and the two books were re-applied and
+re-verified (commits `680064d`, `fd5bcfb`). No check covers this class, and the census above is a
+one-off rather than a gate; if the operator wants it enforced, it belongs in the structural verifier
+next to `SCRIPT_FIXITY`.
+
 Outstanding after Stage A: the Stage A.5 chain pass (§1.12 — 36 chains, 622 unique strings, all chain
 prose still at its pre-sweep wording), then Stage B (CP-04 regression, CP-05 consistency read and
 triage queue, CP-06 whole-canon report). The chain worklist derived from the 63 per-book worklists on
