@@ -1,0 +1,3241 @@
+{
+  "book": "dan",
+  "bookName": "Daniel",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 33,
+    "entryStrings": 96,
+    "chainStrings": 99,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "dan-10-13",
+    "dan-10-21",
+    "dan-10-6",
+    "dan-11-31",
+    "dan-12-1",
+    "dan-12-11",
+    "dan-12-12",
+    "dan-12-13",
+    "dan-12-2",
+    "dan-12-3",
+    "dan-12-4",
+    "dan-12-7",
+    "dan-2-34",
+    "dan-2-35",
+    "dan-2-44",
+    "dan-2-45",
+    "dan-7-10",
+    "dan-7-13",
+    "dan-7-14",
+    "dan-7-18",
+    "dan-7-21",
+    "dan-7-22",
+    "dan-7-25",
+    "dan-7-26",
+    "dan-7-27",
+    "dan-7-9",
+    "dan-8-11",
+    "dan-8-14",
+    "dan-8-17",
+    "dan-9-24",
+    "dan-9-25",
+    "dan-9-26",
+    "dan-9-27"
+  ],
+  "fields": [
+    {
+      "entryId": "dan-9-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Seventy weeks are determined upon your people and your holy city, to finish the transgression, to make an end of sins, to make reconciliation for iniquity, to bring in everlasting righteousness, to seal up vision and prophecy, and to anoint the Most Holy. Textual proof: the window includes Messiah's mission (v25-27); Hebrews 9:26 speaks of Christ appearing at the end of the ages to put away sin by Himself.",
+      "density": 4.1821,
+      "words": 69,
+      "sentences": 2,
+      "maxSentenceWords": 43,
+      "gate": "FAIL",
+      "violations": [
+        "43 words (max 35): \"Seventy weeks are determined upon your people and your holy city, to finish the transgress…\""
+      ],
+      "context": {
+        "citations": [
+          "Hebrews 9:26"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Daniel sees thrones set in place; the Ancient of Days takes His seat; the court sits in judgment and books are opened. Jesus, Paul, and Revelation all place judgment in God's court before the final kingdom. Textual proof: Dan 7:9-10 is a heavenly judgment scene; Dan 7:22 says judgment was given to the saints of the Most High — i.e., a judicial verdict precedes their possession of the kingdom.",
+      "density": 3.6107,
+      "words": 69,
+      "sentences": 3,
+      "maxSentenceWords": 33,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Daniel 7:9",
+          "Daniel 7:22"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as pattern of the heavenly (Heb 8:1-2; 9:23-24). Leviticus 16 describes the annual cleansing of the sanctuary by blood. Textual proof: Daniel's time prophecy ends at a sanctuary event; Hebrews locates Christ's ministry in the true tabernacle; Leviticus defines what \"cleansed/right\" means in priestly context — removal of accumulated sin from the sanctuary.",
+      "density": 3.1571,
+      "words": 76,
+      "sentences": 5,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hebrews 8:1"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-7-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The little power speaks against the Most High, wears out the saints, and holds sway for a time, times, and a dividing of time. First principle: prophetic time is bounded — the wear-out has a stopwatch on it.",
+      "density": 2.3214,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: heavenly court (v9-10) issues a verdict, then the saints receive dominion. Paul writes that the saints shall judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones and judgment given to those who reign with Christ.",
+      "density": 2.2071,
+      "words": 54,
+      "sentences": 4,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "1 Corinthians 6:2",
+          "Revelation 20:4"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-7-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Dominion under the whole heaven passes to the saints of the Most High — an everlasting kingdom, all dominions serving Him. First principle: the end is not the beast's empire but the saints' inheritance under the Son of man.",
+      "density": 2.175,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The book is sealed until the time of the end, when knowledge runs to and fro. First principle: prophecy has a shelf-life of obscurity — the seal opens when the world is ready to run with it.",
+      "density": 2.125,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Ancient of Days sits: thousand thousands minister, and the books open. First principle: heaven's courtroom precedes the kingdom — the record is read before the verdict and dominion are given to the Son.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-10-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Gabriel will show what is written in the true record; Michael stands as your prince. First principle: history is written down before it happens — the scripture of truth is the script empires must play out.",
+      "density": 2.1,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The boastful horn prevails against the saints — for a time. First principle: the war against the saints is real, violent, and temporary; it is written so the suffering will not surprise us.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-9-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He shall confirm a covenant with many for one week; in the midst he causes sacrifice and oblation to cease. First principle: Messiah's death ends the efficacy of the old sacrificial system (Heb 10).",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue; God's kingdom is a growing mountain — cut without hands, unstoppable in growth.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming; Revelation repeats the cloud-coming. First principle: messianic authority is given and then revealed in glory.",
+      "density": 1.9464,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-8-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The daily sacrifice is taken away and the sanctuary cast down by the self-exalting power. First principle: the war against God wears a religious face — the desecration of worship is prophecy's center stage.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The interpretation is certain: God makes known what shall come hereafter. First principle: the kingdom is divine work — without hands — and the dream's certainty anchors faith against empire's confidence.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-11-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Arms pollute the sanctuary and end the daily sacrifice — the desecration Jesus tells readers to watch for. First principle: Daniel 11 is Matthew 24's source text; the abomination is scheduled, and flight is commanded.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-10-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behind the curtain of empires, princes contend — Michael comes to help. First principle: prayer on earth touches war in heaven; the delay of answers is not the absence of angels.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-8-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Gabriel lifts the fallen Daniel: the vision belongs to the time of the end. First principle: apocalyptic vision is for understanding, not entertainment — the appointed time makes sense of the symbols.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A stone cut without hands smashes the statue and becomes a great mountain. First principle: God's kingdom is not a human empire; it arrives by divine act and fills the earth.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Michael stands up; unparalleled trouble comes; everyone written in the book is delivered. First principle: the worst time in history has a register of names — deliverance is written, not random.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A beatitude attaches to those who endure to the thousand three hundred and five and thirty days. First principle: waiting is blessedness when the timeline is God's — endurance has a numbered horizon.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In the days of those kings God sets up a kingdom that shall never be destroyed. Luke: of His kingdom there shall be no end. First principle: Christ's kingdom outlasts and absorbs all earthly thrones.",
+      "density": 1.7893,
+      "words": 35,
+      "sentences": 3,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-9-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "After sixty-two weeks Messiah is cut off, but not for Himself. First principle: the Anointed One dies not for His own sin but for others — Isaiah 53 confirmed.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The court sits; the persecutor's dominion is consumed unto the end. First principle: every blasphemous power has a scheduled end — the same judgment that vindicates saints removes beasts.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Son of Man receives dominion, glory, and a kingdom that all peoples should serve Him. Matthew: all authority in heaven and earth. First principle: universal worship and rule belong to the Messiah.",
+      "density": 1.7393,
+      "words": 33,
+      "sentences": 3,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Many who sleep in the dust shall awake: some to everlasting life, some to shame. Jesus and Paul and Revelation all cite bodily resurrection. First principle: death is not final; resurrection is universal and decisive.",
+      "density": 1.7321,
+      "words": 35,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The oath-sworn duration: when the scattering of the holy people's power is accomplished, all is finished. First principle: the man in linen swears the end of persecution — three-and-a-half times, then done.",
+      "density": 1.7143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Daniel is dismissed to rest and to rise for his portion at the end of days. First principle: the faithful die with a reserved lot — rest now, standing at the end.",
+      "density": 1.7143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-10-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The glorious man by the river — beryl body, fiery eyes, brass feet, multitude voice. First principle: theophany before the apocalypse: the messenger's glory certifies the message's weight.",
+      "density": 1.5571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The saints of the Most High possess the kingdom for ever. First principle: persecution's arc ends in possession — the little horn loses, the saints inherit.",
+      "density": 1.5071,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-12-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The abomination's setup begins a counted span. First principle: God numbers the desolation — day counts mean the horror has measurable, curfew-able bounds.",
+      "density": 1.4893,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-9-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "From the decree to restore Jerusalem until Messiah the Prince. First principle: Daniel dates the coming of the Anointed One within a calculable window.",
+      "density": 1.4,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-9-24",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Prophetic day-units; the six purposes are messianic and soteriological, matching NT work of Christ.",
+      "density": 1.3,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seventy weeks",
+        "original": "שָׁבֻעִים שִׁבְעִים",
+        "translit": "shavuʿim shivʿim",
+        "strongs": null,
+        "gloss": "seventy sevens / weeks",
+        "note": "Prophetic day-units; the six purposes are messianic and soteriological, matching NT work of Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+      "density": 1.2607,
+      "words": 23,
+      "sentences": 3,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "judgment",
+        "original": "דִּין",
+        "translit": "din",
+        "strongs": null,
+        "gloss": "judgment, legal case",
+        "note": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Those who turn many to righteousness shall shine as the stars. First principle: faithful witness yields glory in the resurrection life.",
+      "density": 1.1536,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "books were opened",
+        "original": "סִפְרִין פְּתִיחוּ",
+        "translit": "sifrin peticḥu",
+        "strongs": null,
+        "gloss": "books were opened",
+        "note": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "From the Daily Sacrifice Taken Away — a Thousand Two Hundred and Ninety Days",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the judgment came",
+        "original": "וּדְיָנָא יְהִיבַת",
+        "translit": "u-deyana yehivat",
+        "strongs": null,
+        "gloss": "and the judgment was given",
+        "note": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+      "density": 0.9714,
+      "words": 16,
+      "sentences": 2,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made right / cleansed",
+        "original": "וְנִצְדַּק",
+        "translit": "ve-nitsdaq",
+        "strongs": null,
+        "gloss": "and it shall be justified / vindicated / made righteous",
+        "note": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+      "density": 0.9071,
+      "words": 18,
+      "sentences": 3,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "2,300 evenings and mornings",
+        "original": "עֶרֶב בֹּקֶר",
+        "translit": "erev voqer",
+        "strongs": null,
+        "gloss": "evening morning (≈ days)",
+        "note": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Judgment Shall Sit, and They Shall Take Away His Dominion",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Understand, O Son of Man: at the Time of the End",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "and it shall be justified / vindicated / made righteous",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made right / cleansed",
+        "original": "וְנִצְדַּק",
+        "translit": "ve-nitsdaq",
+        "strongs": null,
+        "gloss": "and it shall be justified / vindicated / made righteous",
+        "note": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Stone That Smote the Image Became a Great Mountain",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-10-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Prince of Persia Withstood Me One and Twenty Days",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Judgment Was Set, and the Books Were Opened",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Kingdom Given to the People of the Saints",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Magnified Himself to the Prince of the Host",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-10-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That Which Is Noted in the Scripture of Truth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Luke 1:33 — His kingdom has no end.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "never be destroyed",
+        "original": "לְעָלְמִין לָא תִתְחַבַּל",
+        "translit": "le-ʿalmin la titchabbal",
+        "strongs": null,
+        "gloss": "forever it shall not be destroyed (Aramaic)",
+        "note": "Luke 1:33 — His kingdom has no end.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-27",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Heb 9:15 — new covenant in Christ's blood.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "confirm a covenant",
+        "original": "הִגְבִּיר בְּרִית",
+        "translit": "higbir berit",
+        "strongs": null,
+        "gloss": "he shall strengthen/confirm a covenant",
+        "note": "Heb 9:15 — new covenant in Christ's blood.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Matt 13:43 — righteous shine as the sun.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shine",
+        "original": "יַזְהִרוּ",
+        "translit": "yazhiru",
+        "strongs": null,
+        "gloss": "they shall shine / cause to shine",
+        "note": "Matt 13:43 — righteous shine as the sun.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto 2,300 Days — Then the Sanctuary Cleansed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Think to Change Times and Laws",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-11-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Place the Abomination That Maketh Desolate",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Time of Trouble Such as Never Was",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Shut Up the Words and Seal the Book",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Rest, and Stand in Thy Lot",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+      "density": 0.625,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without hands",
+        "original": "דִּי לָא בִידַיִן",
+        "translit": "di la bi-dayin",
+        "strongs": null,
+        "gloss": "that not by hands (Aramaic)",
+        "note": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Execution language; same as \"cut off from his people\" in Isa 53:8 LXX.",
+      "density": 0.6107,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "cut off",
+        "original": "יִכָּרֵת",
+        "translit": "yikkaret",
+        "strongs": null,
+        "gloss": "shall be cut off / destroyed",
+        "note": "Execution language; same as \"cut off from his people\" in Isa 53:8 LXX.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "forever it shall not be destroyed (Aramaic)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "never be destroyed",
+        "original": "לְעָלְמִין לָא תִתְחַבַּל",
+        "translit": "le-ʿalmin la titchabbal",
+        "strongs": null,
+        "gloss": "forever it shall not be destroyed (Aramaic)",
+        "note": "Luke 1:33 — His kingdom has no end.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Son of Man",
+        "original": "כְּבַר אֱנָשׁ",
+        "translit": "ke-var enash",
+        "strongs": null,
+        "gloss": "like a son of man (Aramaic)",
+        "note": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek ἐξουσία / δόξα in NT applications.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dominion",
+        "original": "שָׁלְטָן",
+        "translit": "sholtan",
+        "strongs": null,
+        "gloss": "dominion, rule (Aramaic)",
+        "note": "Greek ἐξουσία / δόξα in NT applications.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "First clear two-destiny resurrection statement in Scripture.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "awake",
+        "original": "יָקִיצוּ",
+        "translit": "yaqitsu",
+        "strongs": null,
+        "gloss": "they shall awake / arise",
+        "note": "First clear two-destiny resurrection statement in Scripture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they shall shine / cause to shine",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shine",
+        "original": "יַזְהִרוּ",
+        "translit": "yazhiru",
+        "strongs": null,
+        "gloss": "they shall shine / cause to shine",
+        "note": "Matt 13:43 — righteous shine as the sun.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Seventy Weeks — Finish Transgression, Make Reconciliation",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Horn Made War with the Saints",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-10-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Face as the Appearance of Lightning",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Son of Man Coming with Clouds",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "like a son of man (Aramaic)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Son of Man",
+        "original": "כְּבַר אֱנָשׁ",
+        "translit": "ke-var enash",
+        "strongs": null,
+        "gloss": "like a son of man (Aramaic)",
+        "note": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "shall be cut off / destroyed",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "cut off",
+        "original": "יִכָּרֵת",
+        "translit": "yikkaret",
+        "strongs": null,
+        "gloss": "shall be cut off / destroyed",
+        "note": "Execution language; same as \"cut off from his people\" in Isa 53:8 LXX.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Stone Cut Out Without Hands",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Saints Shall Take the Kingdom",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Time, Times, and an Half",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "that not by hands (Aramaic)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without hands",
+        "original": "דִּי לָא בִידַיִן",
+        "translit": "di la bi-dayin",
+        "strongs": null,
+        "gloss": "that not by hands (Aramaic)",
+        "note": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek Χριστός (Christos) — Christ.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Messiah",
+        "original": "מָשִׁיחַ",
+        "translit": "mashiach",
+        "strongs": null,
+        "gloss": "anointed one",
+        "note": "Greek Χριστός (Christos) — Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Confirm the Covenant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-9-27",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "he shall strengthen/confirm a covenant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "confirm a covenant",
+        "original": "הִגְבִּיר בְּרִית",
+        "translit": "higbir berit",
+        "strongs": null,
+        "gloss": "he shall strengthen/confirm a covenant",
+        "note": "Heb 9:15 — new covenant in Christ's blood.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they shall awake / arise",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "awake",
+        "original": "יָקִיצוּ",
+        "translit": "yaqitsu",
+        "strongs": null,
+        "gloss": "they shall awake / arise",
+        "note": "First clear two-destiny resurrection statement in Scripture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thrones Set — Judgment Court",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Judgment Given to the Saints",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "and the judgment was given",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the judgment came",
+        "original": "וּדְיָנָא יְהִיבַת",
+        "translit": "u-deyana yehivat",
+        "strongs": null,
+        "gloss": "and the judgment was given",
+        "note": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-12-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Is He That Waiteth",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Stone Cut Without Hands",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "evening morning (≈ days)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "2,300 evenings and mornings",
+        "original": "עֶרֶב בֹּקֶר",
+        "translit": "erev voqer",
+        "strongs": null,
+        "gloss": "evening morning (≈ days)",
+        "note": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-24",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "seventy sevens / weeks",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seventy weeks",
+        "original": "שָׁבֻעִים שִׁבְעִים",
+        "translit": "shavuʿim shivʿim",
+        "strongs": null,
+        "gloss": "seventy sevens / weeks",
+        "note": "Prophetic day-units; the six purposes are messianic and soteriological, matching NT work of Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Dominion Given Forever",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "dominion, rule (Aramaic)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dominion",
+        "original": "שָׁלְטָן",
+        "translit": "sholtan",
+        "strongs": null,
+        "gloss": "dominion, rule (Aramaic)",
+        "note": "Greek ἐξουσία / δόξα in NT applications.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-9-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Messiah the Prince",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-9-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Messiah Cut Off",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Many Shall Awake",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-12-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wise Shall Shine",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "judgment, legal case",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "judgment",
+        "original": "דִּין",
+        "translit": "din",
+        "strongs": null,
+        "gloss": "judgment, legal case",
+        "note": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "books were opened",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "books were opened",
+        "original": "סִפְרִין פְּתִיחוּ",
+        "translit": "sifrin peticḥu",
+        "strongs": null,
+        "gloss": "books were opened",
+        "note": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Everlasting Kingdom",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-9-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "anointed one",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Messiah",
+        "original": "מָשִׁיחַ",
+        "translit": "mashiach",
+        "strongs": null,
+        "gloss": "anointed one",
+        "note": "Greek Χριστός (Christos) — Christ.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "This is the earliest clear hope that a person will see God in the body after the body has fallen apart.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: YHWH pays the price to bring his people back from the power of the grave.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: bodily resurrection of the just at Christ's coming; the dead rest until raised.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6",
+        "verseId": "rev-20-4",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "At the Lord's descent, believers are raised in the body, and everyone sees it.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic warning: apostate power attempts to alter God's Sabbath and law during historical supremacy.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:25",
+        "verseId": "dan-7-25",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: a vision of the Spirit raising the dead out of their graves.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Decalogue foundation: contains divine name (YHWH), office (Maker/Creator), and territory (heaven, earth, sea).",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:11",
+        "verseId": "exo-20-11",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Loyalty marker: faithful remnant withstands the dragon's final wrath through obedience and faith.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: end-time call to Creator-worship in view of judgment (echoes Exod 20:11).",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-7",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the resurrection runs two ways, to everlasting life or to shame.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus declares His voice raises the dead to life or condemnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Jesus shows his authority to raise the dead when he raises Lazarus.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "Paul quotes Isaiah 25:8 and Hosea 13:14 to prove the bodily resurrection.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "End-time protection: settling into truth intellectually and spiritually before the winds blow.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 7:2-3",
+        "verseId": "rev-7-2",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Proclamation: restoration of the true gospel and fourth-commandment Creator worship before judgment.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-6",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Remnant character: perseverance in keeping God's commandments through the faith of Jesus.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest sanctuary: God dwells among His people by a revealed pattern.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Remnant keep the commandments of God and the faith of Jesus",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17; 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: God's end-time people identified by obedience + faith in Christ.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17; 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "First resurrection — the rest of the dead live not again",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6",
+        "verseId": "rev-20-4",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Calculation: 457 BC + 483 years brings exactly to 27 AD.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Patience of the saints: commandments of God and faith of Jesus",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Unto 2,300 days — then the sanctuary is made right",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: earthly pattern fulfilled in Christ's high-priestly ministry in heaven.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2; 9:11-24",
+        "verseId": null,
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Fear God — the hour of His judgment is come",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-7",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David prophesied that the grave would not keep him.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the earth gives up its dead in the resurrection.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "All that are in the graves shall hear His voice",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "27 AD: Jesus baptized and anointed with the Holy Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Midst of the week: cause sacrifice and oblation to cease",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Little horn thinks to change times and laws (1260 days)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:25",
+        "verseId": "dan-7-25",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Seal of the living God placed upon the servants' foreheads",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 7:2-3",
+        "verseId": "rev-7-2",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Separation: moral fall of apostate religious systems rejecting biblical truth.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:8",
+        "verseId": "rev-14-8",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Universal summons: earth illuminated with divine glory before probation closes.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1-4",
+        "verseId": "rev-18-1",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: annual purging of accumulated sin from the sanctuary.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 30:10",
+        "verseId": "exo-30-10",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Seventy weeks — Messiah, cutting off, end of sacrifice",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24-27",
+        "verseId": "dan-9-24",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I will open your graves — dry bones live",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].title",
+      "text": "First resurrection; death cast into the lake of fire",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].connection",
+      "text": "Death is finally conquered, and the body is vindicated.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "31 AD: Temple veil rent in twain at crucifixion",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Remnant keeps commandments of God and testimony of Jesus",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Third Angel: Warning against the beast, image, and mark",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:9-11",
+        "verseId": "rev-14-9",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Solemn warning: the danger of receiving counterfeit human-enforced worship.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:9-11",
+        "verseId": "rev-14-9",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "5. The Three Angels' Messages & The Seal vs. Mark",
+      "density": 0.7071,
+      "words": 10,
+      "sentences": 3,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary",
+      "density": 0.6821,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Day of Atonement — sanctuary cleansed by blood",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 30:10",
+        "verseId": "exo-30-10",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: judgment scene before the kingdom is possessed.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: time prophecy ending in a sanctuary-cleansing event.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: messianic mission within a fixed prophetic window.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24-27",
+        "verseId": "dan-9-24",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Thou wilt not leave my soul in Sheol",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Awake and sing, ye that dwell in dust",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Psalm 16 was fulfilled in Christ's empty tomb.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Decree of Artaxerxes to restore Jerusalem (457 BC)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Unto Messiah the Prince: 69 weeks (483 years)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary death of the Anointed One foretold.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "34 AD: Stephen stoned; gospel sent to Gentiles",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Heavenly court; judgment given to the saints",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "In my flesh I shall see God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "O death, I will be thy plagues",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "I am the Resurrection and the Life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "The dead in Christ shall rise first",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Messiah cut off, but not for Himself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "First Angel: Everlasting gospel, judgment hour, Creator-worship",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-6",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Second Angel: Babylon is fallen, is fallen",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:8",
+        "verseId": "rev-14-8",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "2. The 70 Weeks: Dating the Messiah",
+      "density": 0.5179,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: covenant identity marked by Creator-rest.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Christ minister of the true tabernacle",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2; 9:11-24",
+        "verseId": null,
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Bodily Resurrection: Awakening from the Dust",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "They that sleep in dust awake",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Apostles preach Christ risen without corruption",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Christ the firstfruits; death swallowed up",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Seventy weeks determined upon thy people",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Creator's Seal in the Fourth Commandment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:11",
+        "verseId": "exo-20-11",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "The Loud Cry: \"Come out of her, My people\"",
+      "density": 0.4536,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1-4",
+        "verseId": "rev-18-1",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Tabernacle after the heavenly pattern",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Sanctuary, Judgment, and Remnant",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Sabbath as creation memorial",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    }
+  ]
+}

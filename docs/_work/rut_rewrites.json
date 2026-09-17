@@ -1,0 +1,38 @@
+{
+  "book": "rut",
+  "bookName": "Ruth",
+  "drafts": [
+    {"entryId":"rut-4-17","field":"principle","after":"Obed was born into Naomi\u0027s family. Obed became the father of Jesse, and Jesse was the father of David. First principle: Ruth was a Moabite, and her grandson was David. The promised King, Jesus Christ, is the Messiah, and the family line that runs to him names Ruth.","reason":"the dash fragments become full sentences, and the Moabite convert\u0027s grandson is David is now Ruth was a Moabite, and her grandson was David. The Obed, Jesse, David chain is kept in full, Ruth is still named in the line, and Messiah is glossed as the promised King, Jesus Christ by the frozen glossary."},
+    {"entryId":"rut-4-14","field":"principle","after":"The women blessed the LORD, because he had not left Naomi without a redeemer. That redeemer would give her life back. Then Boaz redeemed Ruth, and she bore Obed, the grandfather of David. First principle: God brings Gentiles into the family line of the promised King, Jesus Christ, the Redeemer of the world.","reason":"the 59-word three-idea stack is now one idea per sentence, and the who... who... relative chain is broken apart. Every claim survives: the women bless the LORD, Naomi is not left without a redeemer, the redeemer restores life, Boaz redeems Ruth, Obed is born and is the grandfather of David, and that line reaches the promised King, Jesus Christ, the Redeemer of the world."},
+    {"entryId":"rut-1-16","field":"principle","after":"Ruth\u0027s words were a promise: thy people, thy God. First principle: the Moabite widow joined Israel\u0027s people and Israel\u0027s God. Her promise of love on the road was how God grafted a Gentile into his people.","reason":"cleaving becomes joined, and the broken the Gentile graft into Israel begins with a love-oath on a road becomes a sentence with a subject and verb. The KJV words thy people and thy God are carried byte-identical in the quoted pair the source already had."},
+    {"entryId":"rut-4-18","field":"principle","after":"Pharez to Hezron: the family record opens the line of the promised King. First principle: the book of Ruth ends where Matthew begins. Both give the family record of the royal line. That line runs from Perez through Obed to David to Jesus Christ.","reason":"the messianic genealogy line opened becomes the family record that opens the line of the promised King, and the compressed the toledoth of the royal line is spelled out as the family record. The chain Pharez to Hezron, Perez through Obed to David to Christ, and the Ruth-to-Matthew link are all kept."}
+  ],
+  "verifyOnly": [
+    {"entryId":"chain:kinsman-redeemer","field":"steps[6].title","reason":"6 words, one sentence, one idea; the Hebrews 2:11-15 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[3].title","reason":"6 words, one sentence, one idea; the Job 19:25 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[7].connection","reason":"fragment opener NT: plus one 10-word idea; the Revelation 5:1-9 citation is carried byte-identical"},
+    {"entryId":"rut-4-14","field":"terms[0].gloss","reason":"3 words, one sentence, one idea - the frozen rendering for the Hebrew kinsman-redeemer; too short to decode and every word is needed"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[2].connection","reason":"fragment opener Same-OT: plus one 10-word idea; the Ruth 4:14 citation is carried byte-identical"},
+    {"entryId":"rut-4-14","field":"terms[1].note","reason":"10 words, one sentence, one idea - citation Luke 1:68 kept exactly as it stood; nothing to decode (the source already says redeemed, not redemption)"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[2].title","reason":"5 words, one sentence, one idea; the Ruth 4:14 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[3].connection","reason":"fragment opener Same-OT: plus one 11-word idea; the transliteration Goel and the Job 19:25 citation are carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[4].title","reason":"6 words, one sentence, one idea; the Isaiah 59:20 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[0].title","reason":"11 words, one idea; the transliteration Goel is carried byte-identical and the em-dash carries no second idea"},
+    {"entryId":"rut-4-18","field":"title","reason":"7 words, one sentence, one idea - KJV wording carried byte-identical; nothing to decode"},
+    {"entryId":"rut-4-17","field":"title","reason":"15 words over 2 sentences, 8 words each, one idea apiece - KJV wording carried byte-identical including the source ellipsis; nothing to decode"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[5].connection","reason":"fragment opener NT: plus one 12-word idea, plain words throughout; the Galatians 4:4-5 citation is carried byte-identical"},
+    {"entryId":"rut-4-14","field":"title","reason":"5 words, one sentence, one idea; redeemer is the key word of the entry and restore life says it plainly"},
+    {"entryId":"rut-4-14","field":"terms[0].note","reason":"9 words, one sentence, one idea; the term entry itself carries the gloss (kinsman / redeemer, the Hebrew goel word, redeemer / guardian); nothing else to decode"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[4].connection","reason":"fragment opener Same-OT: plus one 7-word idea; the Isaiah 59:20 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[6].connection","reason":"fragment opener NT: plus one 12-word idea, active voice with He named as the actor; the Hebrews 2:11-15 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[1].title","reason":"4 words, one sentence, one idea, and it names the man; the Ruth 3:9; 4:1-10 citation is carried byte-identical"},
+    {"entryId":"rut-1-16","field":"title","reason":"6 words, one sentence, one idea - KJV wording carried byte-identical; nothing to decode"},
+    {"entryId":"rut-4-14","field":"terms[1].gloss","reason":"8 words, one sentence, one idea, everyday words; the Hebrew script and the transliteration meshiv nefesh are untouched"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[7].title","reason":"9 words, one idea, every word needed; the Revelation 5:1-9 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[0].connection","reason":"19 words, one sentence, one idea, plain word order - Torah is the only word a reader must know, and the sentence names it as the first redemption law; the Leviticus 25:25, 47-49 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[5].title","reason":"10 words, one idea; the Galatians 4:4-5 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"steps[1].connection","reason":"fragment opener Same-OT: plus one 12-word idea; the frozen rendering for covenant is already in place; the Ruth 3:9; 4:1-10 citation is carried byte-identical"},
+    {"entryId":"chain:kinsman-redeemer","field":"name","reason":"3 words, one idea - the chain name itself; the transliteration Goel is carried byte-identical and the parenthesis carries no second idea"}
+  ],
+  "equivalent": []
+}

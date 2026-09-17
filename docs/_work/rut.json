@@ -1,0 +1,497 @@
+{
+  "book": "rut",
+  "bookName": "Ruth",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 4,
+    "entryStrings": 12,
+    "chainStrings": 17,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "rut-1-16",
+    "rut-4-14",
+    "rut-4-17",
+    "rut-4-18"
+  ],
+  "fields": [
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The women bless the LORD who has not left Naomi without a redeemer, who shall be a restorer of life. Boaz's redemption of Ruth brings forth Obed, the grandfather of David, pointing directly to Jesus Christ the Redeemer of the world. First principle: God uses redemption to graft Gentiles into the messianic line and bring life out of bereavement.",
+      "density": 2.675,
+      "words": 59,
+      "sentences": 3,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rut-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Pharez to Hezron — the messianic genealogy line opened. First principle: the book ends where Matthew begins — the toledoth of the royal line from Perez through Obed to David to Christ.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rut-4-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Obed born to Naomi — Jesse and David in the lineage. First principle: the Moabite convert's grandson is David — the genealogy that runs to the Messiah includes Ruth by name.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rut-1-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Ruth's covenant speech: thy people, thy God. First principle: the Moabite widow's cleaving is conversion — the Gentile graft into Israel begins with a love-oath on a road.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rut-4-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Is a Son Born to Naomi... the Father of Jesse, the Father of David",
+      "density": 0.8321,
+      "words": 15,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Luke 1:68 — He hath visited and redeemed His people.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "restorer of life",
+        "original": "מֵשִׁיב נֶפֶשׁ",
+        "translit": "meshiv nefesh",
+        "strongs": null,
+        "gloss": "one who brings back the soul / life",
+        "note": "Luke 1:68 — He hath visited and redeemed His people.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Boaz as type of the willing and able Redeemer.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kinsman / redeemer",
+        "original": "גֹּאֵל",
+        "translit": "goʾel",
+        "strongs": null,
+        "gloss": "redeemer / guardian",
+        "note": "Boaz as type of the willing and able Redeemer.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "one who brings back the soul / life",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "restorer of life",
+        "original": "מֵשִׁיב נֶפֶשׁ",
+        "translit": "meshiv nefesh",
+        "strongs": null,
+        "gloss": "one who brings back the soul / life",
+        "note": "Luke 1:68 — He hath visited and redeemed His people.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rut-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Now These Are the Generations of Pharez",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rut-1-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whither Thou Goest, I Will Go",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Redeemer to Restore Life",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rut-4-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "redeemer / guardian",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kinsman / redeemer",
+        "original": "גֹּאֵל",
+        "translit": "goʾel",
+        "strongs": null,
+        "gloss": "redeemer / guardian",
+        "note": "Boaz as type of the willing and able Redeemer.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The first redemption law in the Torah: a close relative buys back land and freedom that a family lost.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Boaz redeems the field and takes Ruth into the covenant line.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Christ becomes our near kin in the flesh to accomplish redemption.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: by sharing our blood He breaks death and frees the enslaved.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The law of the Go'el — buying back land and family",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Job confesses his living Go'el will stand on the earth.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: women bless God for the redeemer who fathers Obed.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Born of a woman to redeem those under the law",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the slain Redeemer opens the seven-sealed scroll of redemption.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Worthy is the Lamb to take the title deed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: YHWH Himself comes as Israel's Redeemer.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I know that my Redeemer lives",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The Redeemer shall come to Zion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Not ashamed to call them brethren",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "A redeemer to restore life",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Boaz the faithful kinsman-redeemer",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Kinsman-Redeemer (Go'el)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "book": "2ki",
+  "bookName": "2 Kings",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 14,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2ki-13-21",
+    "2ki-17-13",
+    "2ki-18-4",
+    "2ki-2-11",
+    "2ki-20-5",
+    "2ki-25-27",
+    "2ki-4-42"
+  ],
+  "fields": [
+    {
+      "entryId": "2ki-25-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thirty-seven years of captivity end in a change of garments and a seat at the king's table. First principle: the line of David survives the fall of Jerusalem in a pardoned prisoner eating at a foreign king's table.",
+      "density": 2.15,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-4-42",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A hundred men eat and leave over, per the word of the LORD. First principle: the multiplying man of God feeds a hundred with firstfruits — Elisha's loaves prefigure the Lord's five-loaves feeding.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Fire-horses part the two; a whirlwind receives the prophet. First principle: one man in Scripture skipped death — the translation that John the Baptist's spirit- predecessor shares with Enoch's hope.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-13-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A dead man revived by contact with a dead prophet's bones. First principle: the God of resurrection can use a sepulchre — even the buried saints carry life in their remains.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-18-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hezekiah destroys the good thing become an idol, calling it Nehushtan. First principle: even God-given symbols become idols when trusted — the bronze serpent of John 3 had to be shattered.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-20-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hezekiah healed on the third day. First principle: prayer-plus-tears gets a dated answer — the third-day rising to the house of the LORD preaches resurrection rhythm.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-17-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Turn ye from your evil ways — testimony by every seer, refused. First principle: the prophets' refrain was long and patient; judgment arrives only after the testified return was refused.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ki-25-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Evilmerodach Did Lift Up the Head of Jehoiachin out of Prison",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-13-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When the Man Touched the Bones of Elisha, He Revived",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-20-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Heard Thy Prayer, I Have Seen Thy Tears",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-17-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Testified against Israel by All the Prophets",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-4-42",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Bread of the Firstfruits: Twenty Loaves of Barley",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-18-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Brake in Pieces the Brasen Serpent",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ki-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Chariot of Fire... and Elijah Went Up",
+      "density": 0.4286,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

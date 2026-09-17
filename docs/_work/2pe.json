@@ -1,0 +1,531 @@
+{
+  "book": "2pe",
+  "bookName": "2 Peter",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 14,
+    "chainStrings": 19,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2pe-1-19",
+    "2pe-1-21",
+    "2pe-2-22",
+    "2pe-2-6",
+    "2pe-3-10",
+    "2pe-3-13",
+    "2pe-3-8"
+  ],
+  "fields": [
+    {
+      "entryId": "2pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The overthrow is an ensample for the ungodly-to-come. First principle: Sodom is exhibit A of coming judgment — ash-cities preach to later generations that the Lord knows how to rescue and to reserve.",
+      "density": 2.2536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-1-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Prophecy is the lamp in the dark place until the Day dawns. First principle: the transfigured Mount certifies the written word — the shining day-star is the goal the lamp serves until morning.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-1-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Prophecy's origin is divine motion, not human will. First principle: the authorship doctrine in one sentence — carried men spoke; the wind of God moved the sails of the writers.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-3-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heavens pass with noise; elements melt; earth burned. First principle: the thief-day ends in cosmic renovation — the works in it are the fuel, the promise is the new earth.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The promise-anchored expectation. First principle: looking is the discipline — Isaiah 65's creation promise is the horizon; righteousness is the resident of the new world.",
+      "density": 1.8821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-2-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The true proverb judges false teachers' relapse. First principle: nature reverts where nature is unchanged — washing the outside of the sow does not re-create the sow.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The beloved are corrected on chronology. First principle: divine timekeeping dilutes impatience — the thousand-years/day symmetry makes delay impossible to measure by clocks.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2pe-1-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Holy Men of God Spake as They Were Moved by the Holy Ghost",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Look for New Heavens and a New Earth, Wherein Dwelleth Righteousness",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "One Day Is with the Lord as a Thousand Years",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-3-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Day of the Lord Will Come as a Thief",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-1-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Have Also a More Sure Word of Prophecy",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Turning the Cities of Sodom and Gomorrha into Ashes",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2pe-2-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Dog Is Turned to His Own Vomit Again",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Millennium in heaven: righteous raised at second coming; Satan bound to desolate earth.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The Jubilee: Israel proclaims liberty and every family gets its land back",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Consummation: wicked raised after 1,000 years; lake of fire consumes evil permanently.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "River of life and tree of life: They shall see His face",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "High ones and kings gathered in prison, visited after many days",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Cosmic purification: fire purges the planet, making way for eternal recreation.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Eternal communion: unbroken fellowship with God and the Lamb throughout eternity.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Elements melt; new heavens and new earth wherein dwelleth righteousness",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eden restored: death, sorrow, and crying passed away forever.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Saints shall judge the world and judge angels",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "First resurrection: Saints reign with Christ 1,000 years",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "8. The Millennium & The Earth Made New",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Second resurrection: Final rebellion devoured by fire",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Jerusalem descends: God tabernacles with men",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Earth desolated without inhabitant during judgment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    }
+  ]
+}

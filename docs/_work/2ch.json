@@ -1,0 +1,242 @@
+{
+  "book": "2ch",
+  "bookName": "2 Chronicles",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 8,
+    "entryStrings": 16,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2ch-16-9",
+    "2ch-20-15",
+    "2ch-20-20",
+    "2ch-36-23",
+    "2ch-6-18",
+    "2ch-6-2",
+    "2ch-7-14",
+    "2ch-7-16"
+  ],
+  "fields": [
+    {
+      "entryId": "2ch-7-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Name, eyes, and heart perpetually there. First principle: the temple is chosen, sanctified, and watched — eyes and heart of God resident; a promise Jesus honors by cleansing what was profaned.",
+      "density": 2.2036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-6-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Solomon's claim over the finished house. First principle: the claim is human, the answer divine — the cloud fills, and the question of 1 Kings 8:27 immediately follows the claim.",
+      "density": 2.1214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "1 Kings 8:27"
+        ]
+      }
+    },
+    {
+      "entryId": "2ch-16-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Seeking the perfect-hearted to show Himself strong. First principle: the searching eyes are partisan — strength shown to the fully-committed; Hanani's rebuke to Asa is a standing audit.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-20-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The vast multitude meets a preached non-fear. First principle: the war is the LORD's, so the posture is standing-still trust with singers in front of the army.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-7-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Humble, pray, seek, turn — heard from heaven, forgiven, healed. First principle: the four-step revival formula with a healing promise — given to Solomon for the temple's remedy role.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-36-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Cyrus's decree closes the Chronicler's book with an open invitation. First principle: the Persian king's charge fulfills Jeremiah and Isaiah — the go-up call is the remnant's trumpet.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-6-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Chronicler's version of the temple-dedication question. First principle: the wonder-question stands until the Word dwelt among us — the true answer to Solomon's astonishment.",
+      "density": 1.6536,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-20-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jehoshaphat's morning command: believe the LORD, believe His prophets. First principle: establishment by believing, prosperity by prophetic trust — the singers go before the spoil.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ch-16-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Eyes of the LORD Run to and Fro throughout the Whole Earth",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-6-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Will God in Very Deed Dwell with Men on the Earth?",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-20-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Believe in the LORD Your God, So Shall Ye Be Established",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-36-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Is There among You of All His People? Let Him Go Up",
+      "density": 0.8393,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-6-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Built an House of Habitation for Thee",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-7-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Chosen and Sanctified This House",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-20-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Battle Is Not Yours, but God's",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ch-7-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If My People... Shall Humble Themselves, and Pray",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,324 @@
+{
+  "book": "1ki",
+  "bookName": "1 Kings",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 11,
+    "entryStrings": 22,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "1ki-17-1",
+    "1ki-17-9",
+    "1ki-18-21",
+    "1ki-19-10",
+    "1ki-19-18",
+    "1ki-19-21",
+    "1ki-2-10",
+    "1ki-2-2",
+    "1ki-8-27",
+    "1ki-8-46",
+    "1ki-8-56"
+  ],
+  "fields": [
+    {
+      "entryId": "1ki-2-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David's dying charge to Solomon. First principle: death is the way of all the earth until the One who rose — and the charge to show manhood continues inActs' he fulfilled his course.",
+      "density": 2.425,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-2-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Buried in the city of David. First principle: the promised throne-Seed's ancestor dies and stays dead — Peter and Paul both press the point: the grave kept David, not so the Christ.",
+      "density": 2.2857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-8-56",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Rest given according to all He promised by Moses. First principle: the word-audit at the temple's dedication — not one word failed; Hebrews makes the same audit the ground of entering rest.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-17-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Elijah the Tishbite announces the drought before Ahab. First principle: the prophet's word controls the sky — James lifts Elijah as the proof that praying men like us move weather.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-19-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Elisha burns the plowing gear and follows. First principle: the call answered is irreversible — oxen cooked on their own yoke; the old life becomes the farewell feast.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-17-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A widow of Zidon commanded to sustain the prophet. First principle: God sends the needy to the needier — the Gentile widow's barrel becomes the stage for resurrection faith.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-8-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heaven of heavens cannot contain Him — how much less this house. First principle: the temple-dedication knows its own limit; the Incarnation is the surprising answer to the impossible question.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-18-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Limping between LORD and Baal, and the people answer not a word. First principle: divided worship is limping worship — the choice is posed with silence as the worst answer.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-19-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Elijah's jealous complaint under the juniper. First principle: the prophet's census of faithfulness is wrong by seven thousand — despair always undercounts the faithful remnant.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-8-46",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dedication prayer presumes sin, exile, and return-prayer toward the house. First principle: Solomon's temple-prayer is a confession-machine for future failures — forgiveness hoped toward one place.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-19-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Knees unbowed, mouths unkissed. First principle: God's remnant census overrules the prophet's — hidden faithfulness exists beyond visible crowds.",
+      "density": 1.3321,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ki-2-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Go the Way of All the Earth: Be Thou Strong",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-8-56",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Hath Not Failed One Word of All His Good Promise",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-19-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I, Even I Only, Am Left; and They Seek My Life",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-19-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Arose, and Went after Elijah, and Ministered unto Him",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-17-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Shall Not Be Dew Nor Rain These Years",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-19-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet I Have Left Me Seven Thousand in Israel",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-8-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Will God Indeed Dwell on the Earth?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-8-46",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Is No Man That Sinneth Not",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-18-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "How Long Halt Ye between Two Opinions?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-2-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "So David Slept with His Fathers",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ki-17-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Arise, Get Thee to Zarephath",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

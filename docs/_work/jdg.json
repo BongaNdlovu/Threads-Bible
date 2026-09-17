@@ -1,0 +1,100 @@
+{
+  "book": "jdg",
+  "bookName": "Judges",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 3,
+    "entryStrings": 6,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jdg-13-5",
+    "jdg-2-16",
+    "jdg-21-25"
+  ],
+  "fields": [
+    {
+      "entryId": "jdg-21-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Every man right in his own eyes. First principle: the book's last verse diagnoses its own chaos — the absence of king and vision makes each man his own law, straight into Isaiah's sheep-stray.",
+      "density": 2.3929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jdg-13-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Samson's prenatal vow: no razor, begun-to-deliver. First principle: the Nazarite-from-womb pattern is the forerunner pattern — John the Baptist inherits it in Luke 1, and the Nazarene word echoes to Matthew 2.",
+      "density": 2.2857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jdg-2-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The rescue-cycle: spoiled, then delivered. First principle: the judges are grace's repeated answer to repeated apostasy — deliverers raised, not kings elected.",
+      "density": 1.5214,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jdg-13-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Child Shall Be a Nazarite unto God from the Womb",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jdg-21-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Those Days There Was No King in Israel",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jdg-2-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Nevertheless the LORD Raised Up Judges",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

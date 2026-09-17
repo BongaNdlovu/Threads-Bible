@@ -1,0 +1,240 @@
+{
+  "book": "zep",
+  "bookName": "Zephaniah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 8,
+    "entryStrings": 16,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "zep-1-14",
+    "zep-1-7",
+    "zep-2-3",
+    "zep-3-12",
+    "zep-3-17",
+    "zep-3-20",
+    "zep-3-8",
+    "zep-3-9"
+  ],
+  "fields": [
+    {
+      "entryId": "zep-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Saving, rejoicing over thee, resting in His love, joying with singing. First principle: the mighty-in-midst God is a singing God — He rests in love and joys over His people out loud.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The day near; sacrifice prepared; guests bidden. First principle: the day is a sacrificial feast where the invited are the victims — hush is the only fitting liturgy.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-3-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The leftover remnant trusts in the name of the LORD. First principle: what remains is poor and trusting — the remnant's profile is affliction plus faith, not power plus pride.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The determination to gather kingdoms and pour indignation; earth devoured by jealous fire. First principle: waiting is commanded against a determined gathering — the jealous-fire day is fixed by God's resolve.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-2-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Righteousness and meekness sought, hidden in the anger-day. First principle: the hiding option — meek-seekers may be hid when the day pours; judgment has a refuge class.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-3-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Captivity turned before their eyes at the gathering time. First principle: the restored are renamed — from curse to praise among all peoples, at the visible turning-back.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-1-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The voice of the day; the mighty man cries bitterly. First principle: nearness hastening — even the mighty cry; the day has its own voice preceding it.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-3-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One call on the name of the LORD, one-shoulder service. First principle: Babel reversed — the pure lip restores the united calling the tower scattered.",
+      "density": 1.4821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zep-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wait Ye upon Me, until the Day That I Rise Up to the Prey",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-3-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Leave in the Midst of Thee an Afflicted and Poor People",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-3-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make You a Name and a Praise among All People",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-1-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Great Day of the LORD Is Near, It Hasteth Greatly",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Thy God in the Midst of Thee Is Mighty",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hold Thy Peace at the Presence of the Lord GOD",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-2-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Seek Ye the LORD, All Ye Meek of the Earth",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zep-3-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then Will I Turn to the People a Pure Language",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

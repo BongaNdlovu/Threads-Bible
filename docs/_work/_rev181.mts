@@ -1,0 +1,14 @@
+import fs from 'node:fs';
+const wl = JSON.parse(fs.readFileSync('docs/_work/rev_p2.json', 'utf8'));
+const f = (wl.fields ?? []).find((x: any) => x.entryId === 'rev-18-1' && x.field === 'principle');
+const j = JSON.parse(fs.readFileSync('docs/_work/rev_p2_rewrites.json', 'utf8'));
+const d = (j.drafts ?? []).find((x: any) => x.entryId === 'rev-18-1' && x.field === 'principle');
+const SPAN = /[\u201c"]([^\u201d"]{12,})[\u201d"]/g;
+const spans = (t: string) => [...t.matchAll(SPAN)].map(m => m[1].trim()).filter(s => s.split(/\s+/).length >= 4);
+console.log(`BEFORE len ${f.text.length} · AFTER len ${d.after.length}`);
+console.log('BEFORE spans:');
+for (const s of spans(f.text)) console.log('   [' + s + ']');
+console.log('AFTER spans:');
+for (const s of spans(d.after)) console.log('   [' + s + ']');
+console.log('BEFORE tail: ' + JSON.stringify(f.text.slice(-300)));
+console.log('AFTER  tail: ' + JSON.stringify(d.after.slice(-300)));

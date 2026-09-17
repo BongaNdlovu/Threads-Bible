@@ -1,0 +1,688 @@
+{
+  "book": "pro",
+  "bookName": "Proverbs",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 24,
+    "entryStrings": 48,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "pro-10-12",
+    "pro-11-31",
+    "pro-15-3",
+    "pro-17-15",
+    "pro-17-17",
+    "pro-20-20",
+    "pro-20-9",
+    "pro-21-1",
+    "pro-21-3",
+    "pro-22-6",
+    "pro-24-24",
+    "pro-25-21",
+    "pro-26-11",
+    "pro-27-19",
+    "pro-29-18",
+    "pro-3-11",
+    "pro-3-34",
+    "pro-3-5",
+    "pro-30-5",
+    "pro-30-8",
+    "pro-31-28",
+    "pro-31-6",
+    "pro-8-22",
+    "pro-8-23"
+  ],
+  "fields": [
+    {
+      "entryId": "pro-8-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wisdom speaks as preexistent to creation. First principle: the personified Wisdom of Proverbs 8 is the background music of John 1 and Colossians 1 — the Son is the wisdom by whom all was made.",
+      "density": 2.5321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 29,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-15-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Beholding evil and good alike. First principle: total surveillance is God's attribute — no deed escapes the watching eyes that Hebrews says are open before Him with whom we have to do.",
+      "density": 2.3429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-10-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hatred stirs; love covers. First principle: the covering verb returns in the New Testament — Peter and James both quote it; charity is the sin-hiding blanket, judgment the stirrer.",
+      "density": 2.1536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-8-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wisdom antedates the earth. First principle: from everlasting — the attribute of God alone, here the speech of Wisdom; the fathers read it of the Son's eternal generation.",
+      "density": 2.0714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-26-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The fool's folly-repeat. First principle: relapse without re-creation is the warning — Peter quotes the dog and adds the washed sow; nature, not habit, is the problem.",
+      "density": 2.0464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-3-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Lean not on your own understanding. First principle: the heart-lean is the whole matter — trust is total or it is not trust; self-understanding is the rival crutch.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-27-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The heart reflects the heart. First principle: self-knowledge is mirror-knowledge — what you see in others is your own heart's reflection; the proverb is a standing audit.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-31-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The virtuous woman praised by children and husband. First principle: the crowning praise is spoken by family — the fear-of-the-LORD woman outlasts charm and beauty in her children's mouths.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-30-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A shield to all who trust; add not to His words. First principle: purity of the Word and prohibition of addition bracket the verse — Revelation's ending and Deuteronomy's warning agree.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-25-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Feed the enemy; give the thirsty water. First principle: the enemy-feeding command is the Old Testament root of love-your-enemies — Paul quotes it to make coals-of-fire kindness.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-17-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A brother born for adversity. First principle: friendship's test is timing — all times and adversities; the greater-than-Solomon laid down His life for His friends.",
+      "density": 1.7679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-17-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Both verdict-errors are abomination. First principle: the courtroom abomination makes the gospel startling — God justifies the ungodly while remaining just, through the propitiation.",
+      "density": 1.7429,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-30-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Agur's proportioned bread prayer. First principle: the middle-way petition — full self-sufficiency denies God, destitution denies His name; convenient food is the requested mean.",
+      "density": 1.7429,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-22-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Old-age constancy promised to early training. First principle: formation is directional — the shaped path shapes the walker; Ephesians charges fathers with the same nurture.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-21-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Turned like rivers of water whithersoever He will. First principle: rulers are reroutable — Ezra, Daniel, and Cyrus all prove the redirecting hand over imperial decisions.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-11-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "If the righteous are recompensed here, how much more the wicked. First principle: judgment begins with the house — Peter quotes the much-more logic of the sinner's fate.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-31-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wine for the heavy-hearted dying — a mercy-analgesic, not a lifestyle. First principle: the proverb prescribes numbness only for the perishing, implicitly forbidding it for judges and kings.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-3-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Scorners scorned; lowly graced. First principle: the grace-gradient proverb — James and Peter both quote it verbatim to install humility as the grace-receiver.",
+      "density": 1.6607,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-24-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The people curse the moral flip. First principle: calling wickedness righteous draws national curse — the proverb is the public's own verdict on verdict-benders.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-20-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The rhetorical impossibility of self-purification. First principle: no one can say it — the heart-cleaning requires a Heart-maker; 1 John names the self-deceiver.",
+      "density": 1.6036,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-29-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Law-keeping is the happy alternative to unrestraint. First principle: without revealed vision, self-rule kills — Judges' refrain and Isaiah's sheep-stray are the same diagnosis.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-3-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Correction is sonship-proof; weariness is forbidden. First principle: Hebrews quotes this twice to reframe suffering — the chastened child is the legitimate child.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-21-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Justice outweighs altar-traffic. First principle: the mercy-over-sacrifice proverb — Samuel, Isaiah, Hosea, and Jesus all carry the same scale.",
+      "density": 1.3893,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-20-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The lamp extinguished in obscure darkness. First principle: parental contempt extinguishes light — Exodus' death-penalty command becomes the lamp-out image.",
+      "density": 1.3,
+      "words": 20,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "pro-8-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Possessed Me in the Beginning of His Way",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-21-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The King's Heart Is in the Hand of the LORD",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-21-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Do Justice and Judgment Is More Acceptable than Sacrifice",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-22-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Train Up a Child in the Way He Should Go",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-31-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Give Strong Drink unto Him That Is Ready to Perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-3-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Son, Despise Not the Chastening of the LORD",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-15-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Eyes of the LORD Are in Every Place",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-20-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Can Say, I Have Made My Heart Clean?",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-24-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Saith unto the Wicked, Thou Art Righteous",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-3-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Trust in the LORD with All Thine Heart",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-11-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Righteous Shall Be Recompensed in the Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-25-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Thine Enemy Be Hungry, Give Him Bread",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-29-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Where There Is No Vision, the People Perish",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-31-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Her Children Arise Up, and Call Her Blessed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-20-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whoso Curseth His Father or His Mother",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-26-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As a Dog Returneth to His Vomit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-27-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As in Water Face Answereth to Face",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-17-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Justifieth the Wicked... Is Abomination to the LORD",
+      "density": 0.5357,
+      "words": 10,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-3-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Giveth Grace unto the Lowly",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-8-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Was Set Up from Everlasting",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-17-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Friend Loveth at All Times",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-30-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Word of God Is Pure",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-30-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Give Me Neither Poverty nor Riches",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "pro-10-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Love Covereth All Sins",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

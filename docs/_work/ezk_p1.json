@@ -1,0 +1,608 @@
+{
+  "book": "ezk",
+  "bookName": "Ezekiel",
+  "part": 1,
+  "parts": 2,
+  "counts": {
+    "entries": 15,
+    "entryStrings": 38,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "ezk-1-1",
+    "ezk-1-26",
+    "ezk-3-17",
+    "ezk-11-19",
+    "ezk-12-22",
+    "ezk-18-4",
+    "ezk-18-20",
+    "ezk-18-32",
+    "ezk-20-12",
+    "ezk-20-20",
+    "ezk-21-27",
+    "ezk-22-26",
+    "ezk-28-2",
+    "ezk-28-12",
+    "ezk-33-11"
+  ],
+  "fields": [
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God gives His Sabbaths to be a perpetual sign between Him and His covenant people, that they might know that He is the LORD who sanctifies them. Grounded in Genesis 2:1-3 and Exodus 20:8-11, the Sabbath remains the permanent identity marker distinguishing true worshipers of the Creator. First principle: sanctification is not self-righteous works; the Sabbath signifies resting from our own works in the finished work of the Creator and Redeemer.",
+      "density": 3.3179,
+      "words": 71,
+      "sentences": 3,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:1",
+          "Exodus 20:8"
+        ]
+      }
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophetic lamentation over the prince of Tyre pulls back the cosmic veil: \"Thou sealest up the sum, full of wisdom, and perfect in beauty. Thou hast been in Eden the garden of God... Thou art the anointed cherub that covereth... Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee.\" First principle: God created Lucifer holy and free; moral freedom made love possible, but allowed the mystery of iniquity to arise.",
+      "density": 3.225,
+      "words": 81,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A captive by Chebar sees open heavens. First principle: revelation to the exiled — the visions come to a prisoner by a river, not to a priest in a temple.",
+      "density": 2.0643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-33-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As I live — turn ye, turn ye; why will ye die? First principle: the oath-backed reluctance — God swears His non-pleasure in death and pleads the turn; the why is the invitation.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-28-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prince of Tyrus self-deifies; yet thou art a man. First principle: the man-god delusion is the oldest boast — Paul's man of sin seats himself the same way.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-21-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne overturned until the Rightful One arrives, and it is given Him. First principle: triple overturning is the interim government of Judah — the crown lies in wait for Shiloh.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-1-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sapphire throne, man-like figure above it. First principle: the glory has a human appearance — Ezekiel's throne-man is Daniel's Son of man and Revelation's glorified Jesus.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-20-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sign that answers I am the LORD your God. First principle: the Sabbath is a covenant-sign — sanctified time as the knowing-marker between God and people.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-12-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The scoffing proverb quoted for demolition. First principle: delayed vision tempts scoffers — Peter's latter-day mockers quote the same proverb until the flood-logic answers.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-18-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Righteousness on the righteous, wickedness on the wicked. First principle: the fairness charter — no transferred guilt, no inherited innocence; each soul answers for itself.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-18-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All souls are mine — father and son each their own. First principle: individual accountability under universal ownership — the soul's death is the soul's own sin.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-11-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Stony heart removed, heart of flesh given. First principle: the transplant surgery of the new covenant — one heart, new spirit, flesh for stone.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-22-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Law violated, sabbaths hidden from eyes, God profaned. First principle: the priest's first duty is distinction — holy/profane, clean/unclean; erased distinctions profane the Name.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-18-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Turn yourselves, and live ye. First principle: God's pleasure is repentance-lived, not death-executed — the divine reluctance is the invitation's ground.",
+      "density": 1.4393,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hear the word at my mouth; warn them from me. First principle: the watchman office — hearing first, warning second; blood-responsibility attached to silence.",
+      "density": 1.4,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Positioned beside the very throne and mercy seat of God in the heavenly sanctuary.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed cherub that covereth",
+        "original": "כְּרוּב מִמְשַׁח הַסּוֹכֵךְ",
+        "translit": "keruv mimshach has-sokhekh",
+        "strongs": null,
+        "gloss": "the anointed guardian cherub",
+        "note": "Positioned beside the very throne and mercy seat of God in the heavenly sanctuary.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-28-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Hast Said, I Am a God, I Sit in the Seat of God",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Parallel to the seal of God in Rev 7:2-3 and Rev 14:7.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sign",
+        "original": "אוֹת",
+        "translit": "ʾot",
+        "strongs": null,
+        "gloss": "sign, pledge, covenant token",
+        "note": "Parallel to the seal of God in Rev 7:2-3 and Rev 14:7.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-18-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have No Pleasure in the Death of Him That Dieth",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-22-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Her Priests Have Put No Difference between the Holy and Profane",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Heavens Were Opened, and I Saw Visions of God",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-11-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Give Them One Heart, and a New Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-18-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Son Shall Not Bear the Iniquity of the Father",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-33-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have No Pleasure in the Death of the Wicked",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-1-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Likeness of a Throne... the Appearance of a Man above upon It",
+      "density": 0.7821,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Son of Man, I Have Made Thee a Watchman",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sabbath — Sign of Sanctification and Creator-Covenant",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Covering Cherub — Perfection Corrupted by Iniquity",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-12-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Days Are Prolonged, and Every Vision Faileth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-20-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hallow My Sabbaths; They Shall Be a Sign",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-21-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Overturn, Overturn, Overturn, Until He Come",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "unrighteousness / perversity was found in you",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "iniquity was found in thee",
+        "original": "נִמְצָא עַוְלָתָה בָּךְ",
+        "translit": "nimtsa ʿavlah bakh",
+        "strongs": null,
+        "gloss": "unrighteousness / perversity was found in you",
+        "note": "Unprovoked, inexplicable rebellion against infinite divine love.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Unprovoked, inexplicable rebellion against infinite divine love.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "iniquity was found in thee",
+        "original": "נִמְצָא עַוְלָתָה בָּךְ",
+        "translit": "nimtsa ʿavlah bakh",
+        "strongs": null,
+        "gloss": "unrighteousness / perversity was found in you",
+        "note": "Unprovoked, inexplicable rebellion against infinite divine love.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-18-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Soul That Sinneth, It Shall Die",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Signifies divine ownership and transformative power.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sanctify them",
+        "original": "מְקַדְּשָׁם",
+        "translit": "meqaddesham",
+        "strongs": null,
+        "gloss": "the One making them holy",
+        "note": "Signifies divine ownership and transformative power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the One making them holy",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sanctify them",
+        "original": "מְקַדְּשָׁם",
+        "translit": "meqaddesham",
+        "strongs": null,
+        "gloss": "the One making them holy",
+        "note": "Signifies divine ownership and transformative power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-20-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "sign, pledge, covenant token",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "sign",
+        "original": "אוֹת",
+        "translit": "ʾot",
+        "strongs": null,
+        "gloss": "sign, pledge, covenant token",
+        "note": "Parallel to the seal of God in Rev 7:2-3 and Rev 14:7.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezk-28-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the anointed guardian cherub",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed cherub that covereth",
+        "original": "כְּרוּב מִמְשַׁח הַסּוֹכֵךְ",
+        "translit": "keruv mimshach has-sokhekh",
+        "strongs": null,
+        "gloss": "the anointed guardian cherub",
+        "note": "Positioned beside the very throne and mercy seat of God in the heavenly sanctuary.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

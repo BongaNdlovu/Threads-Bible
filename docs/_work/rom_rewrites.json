@@ -1,0 +1,990 @@
+{
+  "book": "rom",
+  "bookName": "Romans",
+  "drafts": [
+    {
+      "entryId": "rom-6-3",
+      "field": "principle",
+      "after": "“Know ye not, that so many of us as were baptized into Jesus Christ were baptized into His death? Therefore we are buried with Him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.” Baptism in the Bible means going all the way under the water. It pictures death to the old life and rising again in spiritual power.",
+      "reason": "GATE FAIL fixed: the two KJV sentences were sitting unquoted, so the 36-word Scripture sentence counted against the prose. They are now in quotation marks, which the gate exempts, and not one word inside them changed. The app sentence is split in two and 'immersion' is stated as going all the way under the water. QUOTE-REVIEW: the source capitalises the divine pronouns — 'baptized into His death', 'buried with Him' — vs canon Rom 6:3-4 'baptized into his death? Therefore we are buried with him by baptism into death'; left byte-identical rather than restored to canon."
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "principle",
+      "after": "“But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe.” God declares a guilty person to be in the right. That verdict is a free gift of his grace. He gives it through the redemption that is in Christ Jesus — the price paid to buy people back. The believer receives it by faith. God credits it to him.",
+      "reason": "GATE FAIL fixed: the 39-word KJV sentence is now quoted (the words unchanged), so the gate exempts it; the app sentence that followed is now five plain sentences. 'Justification' and 'redemption' carry the frozen glossary renderings, with the Scriptural phrase 'the redemption that is in Christ Jesus' kept as it stood. QUOTE-REVIEW: the source runs Rom 3:21-22 together across the verse break, so 'even' is lowercase there vs canon Rom 3:22 'Even the righteousness of God which is by faith of Jesus Christ'; left byte-identical rather than restored to canon."
+    },
+    {
+      "entryId": "rom-1-16",
+      "field": "principle",
+      "after": "The gospel saves every believer, Jew first and also Greek. First principle: Isaiah 49 spoke of a light to the nations. That light shows how far the gospel reaches. It is power for anyone who believes. No one who preaches it needs to be ashamed.",
+      "reason": "the possessive 'Isaiah 49's light' and the abstract 'the gospel's scope' become two plain sentences; 'shame for no one who preaches it' is written out in full."
+    },
+    {
+      "entryId": "rom-1-2",
+      "field": "principle",
+      "after": "The gospel was promised before through the prophets in the holy scriptures. First principle: the good news is not a new invention. It is an old promise about the Son, announced in David's line and in David's throne.",
+      "reason": "the em-dash apposition becomes its own sentence and says what the old promise is about; every word of the claim is kept."
+    },
+    {
+      "entryId": "rom-16-26",
+      "field": "principle",
+      "after": "God makes the mystery known through the prophetic scriptures. That message goes out to all nations. First principle: the promise to Abraham, the light of Isaiah, and the command of the everlasting God all meet here. The result is one obedience of faith, worldwide.",
+      "reason": "the inverted opener 'By prophetic scriptures the mystery goes…' now has a subject and a verb; 'converge' is stated as 'all meet here'."
+    },
+    {
+      "entryId": "rom-10-11",
+      "field": "principle",
+      "after": "Isaiah 28 lays a foundation Stone and ties a promise to it: the believer will not be put to shame. First principle: the Stone laid in Zion keeps the believer steady. As the prophet wrote, “he that believeth shall not make haste.” That person does not panic or run away.",
+      "reason": "'the Stone laid in Zion secures the unhurried' is written in everyday words. The KJV clause already present verbatim in the source is now quoted, and the app gloss that followed it ('nor be put to flight') is outside the quotation as plain words."
+    },
+    {
+      "entryId": "rom-8-32",
+      "field": "principle",
+      "after": "He who did not spare His own Son, but delivered Him up for us all. First principle: the cross shows how generous God is. If He gave the Son, He will freely give all things.",
+      "reason": "the em-dash conditional becomes two plain sentences and 'the measure of God's generosity' becomes 'shows how generous God is'. The first sentence is carried byte-identical and left unquoted: it is the source's own rendering, not canon KJV (canon Rom 8:32 reads 'He that spared not his own Son')."
+    },
+    {
+      "entryId": "rom-15-12",
+      "field": "principle",
+      "after": "Isaiah: there shall be a root of Jesse, and He that shall rise to reign over the Gentiles; in Him shall the Gentiles trust. First principle: Gentile hope comes from David's line. That hope is about the promised King, Jesus.",
+      "reason": "'Davidic and messianic' are replaced with the frozen renderings ('comes from David's line', 'about the promised King, Jesus'); the KJV clause is carried byte-identical, unquoted as it stood in the source."
+    },
+    {
+      "entryId": "rom-1-20",
+      "field": "principle",
+      "after": "Creation reveals the invisible God. That leaves unbelief without excuse. First principle: the heavens declare. Creation itself speaks to every person. No atheist is safe. The written law leaves no conscience clean apart from Christ either.",
+      "reason": "the 'general revelation' jargon is replaced by what it means — creation itself speaking to every person — and the and-chain is split into separate sentences."
+    },
+    {
+      "entryId": "rom-3-10",
+      "field": "principle",
+      "after": "The psalmist's verdict covers everyone: none righteous, none seeketh after God. First principle: the teaching that all people sin is not Paul's opinion. It is a chain of Scripture passages gathered against the whole world.",
+      "reason": "'universalized' becomes 'covers everyone' and 'catena' becomes 'a chain of Scripture passages'; the KJV wording inside the sentence is untouched."
+    },
+    {
+      "entryId": "rom-4-18",
+      "field": "principle",
+      "after": "A hundred-year-old man embraces “So shall thy seed be.” First principle: hoping against hope is still hope. It rests on God's word. The stars of Genesis 15 still measure the promise.",
+      "reason": "the KJV clause that sat mid-sentence with a capital 'So' is now quoted (the words are unchanged); 'hope on the Word' becomes 'It rests on God's word'."
+    },
+    {
+      "entryId": "rom-9-9",
+      "field": "principle",
+      "after": "The word of promise came with a date God had set. First principle: God's promises come with God's seasons. The impossible birth at the appointed time is the pattern of the Incarnation itself — God becoming man.",
+      "reason": "'a divine timetable' is restated with an actor, and 'the Incarnation' is defined in the same sentence as 'God becoming man'."
+    },
+    {
+      "entryId": "rom-4-17",
+      "field": "principle",
+      "after": "God calls things that are not as though they were. Abraham believed the God who gives life. First principle: faith trusts what God has already spoken. God gave Abraham the title father of nations before he had a single child.",
+      "reason": "the dash clause becomes its own sentence; 'the Life-giver' becomes 'the God who gives life'; the passive 'was given' now names God as the giver. The opening clause is carried byte-identical and left unquoted (the source's rendering; canon Rom 4:17 reads 'calleth those things which be not as though they were')."
+    },
+    {
+      "entryId": "rom-9-15",
+      "field": "principle",
+      "after": "Moses stands in the cleft of the rock and learns that God's mercy is his own to give. First principle: mercy cannot be owed. Mercy is God freely showing who he is. He showed that glory to Moses. He shows it in Christ too.",
+      "reason": "'the cleft' is named, 'sovereign compassion' is stated as 'his own to give', and 'free self-disclosure' becomes 'God freely showing who he is' in its own sentence."
+    },
+    {
+      "entryId": "rom-10-20",
+      "field": "principle",
+      "after": "Isaiah 65 states a bold paradox: God was found by people who were not looking for him. He showed himself to people who never asked. First principle: grace makes the first move. Gentiles who never sought Him found God. That is the scandal and the glory of the gospel.",
+      "reason": "the two passive fragments now have subjects and verbs; 'grace initiates' becomes 'grace makes the first move'."
+    },
+    {
+      "entryId": "rom-10-16",
+      "field": "principle",
+      "after": "Isaiah 53 opens with a lament. Paul quotes it of Israel's unbelief. First principle: the report has gone out in every generation. Yet “the arm of the LORD” is revealed only to those who believe.",
+      "reason": "the passive 'is quoted of' now names Paul. 'the arm of the LORD' is the sentence's subject and already verbatim KJV in the source, so it is quoted first with the plain gloss outside the quotation."
+    },
+    {
+      "entryId": "rom-15-11",
+      "field": "principle",
+      "after": "Psalm 117 is the shortest psalm. It also gives the widest invitation. First principle: two verses call the whole world to praise. God's mercy toward us is great. It reaches everyone.",
+      "reason": "the fragment and the semicolon-and chain become five plain sentences; 'universal in reach' is stated as 'It reaches everyone'."
+    },
+    {
+      "entryId": "rom-8-34",
+      "field": "principle",
+      "after": "The risen Christ pleads for us at God's right hand. No condemnation stands. First principle: the defense in heaven's courtroom is the Lamb who died. Psalm 110 shows him enthroned. Isaiah 53 shows him pleading for us.",
+      "reason": "'intercedes' becomes the frozen rendering 'pleads for us'; the telegraphic 'Psalm 110 enthroned, Isaiah 53 interceding' becomes two sentences with verbs. Both citations kept."
+    },
+    {
+      "entryId": "rom-10-21",
+      "field": "principle",
+      "after": "God stretched out his hands to Israel all day long. Israel answered with disobedience and arguing back. First principle: their refusal did not mean God's patience failed. It meant they abused his patience. His hands stayed open all day.",
+      "reason": "the inverted 'To Israel: outstretched hands met…' now names God as the one whose hands are open; the 'not X but Y' claim is split into two plain sentences with both halves intact."
+    },
+    {
+      "entryId": "rom-4-13",
+      "field": "principle",
+      "after": "Abraham's promise to inherit the world did not come through the law. It came through faith. First principle: the land promise was always a down payment on a worldwide inheritance. Abraham received it by believing, not by keeping the law.",
+      "reason": "'world-inheritance' and 'lawkeeping' are written out, and the passive 'received by believing' now names Abraham."
+    },
+    {
+      "entryId": "rom-8-3",
+      "field": "principle",
+      "after": "The law could not do it. God did. He sent His own Son in the likeness of sinful flesh. First principle: the law points out the sickness but cannot cure it. The Son who became man condemns sin in the flesh.",
+      "reason": "the fronted clause 'What the law could not do, God did' is put back into plain order; 'the incarnate Son' becomes 'the Son who became man'. 'in the likeness of sinful flesh' is carried byte-identical."
+    },
+    {
+      "entryId": "rom-6-23",
+      "field": "principle",
+      "after": "Sin pays a wage. That wage is death. God gives eternal life through Christ. First principle: there are two ways to be paid. You earn wages. You do not earn a gift. Another earned the gift for us. That is why the gift wins.",
+      "reason": "'two economies' and the double dash are replaced with plain sentences; the claim that another earned the gift, which is why the gift wins, is kept whole and in that order."
+    },
+    {
+      "entryId": "rom-10-18",
+      "field": "principle",
+      "after": "Paul applies Psalm 19 to the reach of the gospel. First principle: the heavens needed no interpreter. The voice of the gospel travels the same way. The question is not whether people hear. It is whether they listen.",
+      "reason": "'creation-sermon' and the passive 'is applied' are replaced by who did what; the hearing/heeding contrast is stated in everyday words."
+    },
+    {
+      "entryId": "rom-3-15",
+      "field": "principle",
+      "after": "Paul applies Isaiah 59 to everyone. The charge there is feet that run to evil. First principle: violence shows what is ruined inside. The feet are swift because the heart is far away.",
+      "reason": "named who applies the passage; 'the visible fruit of inner ruin' becomes 'shows what is ruined inside', with the cause and effect of the last claim kept."
+    },
+    {
+      "entryId": "rom-3-18",
+      "field": "principle",
+      "after": "Psalm 36 gives the final diagnosis: unbelief is not a failure of the mind. It is moral rebellion. First principle: the root of sin is the absence of reverent fear. Every other sin grows from this soil.",
+      "reason": "the possessive 'Psalm 36's final diagnosis' now has a verb; 'intellectual failure' becomes 'a failure of the mind'; the dash clause is its own sentence."
+    },
+    {
+      "entryId": "rom-8-11",
+      "field": "principle",
+      "after": "The Spirit who raised Jesus will raise believers. First principle: the Spirit who lives inside you answers Ezekiel's dry-bones question. The same power that raised Christ will raise you.",
+      "reason": "'the indwelling Spirit' is defined in place as 'the Spirit who lives inside you', which also turns the passive sentence active."
+    },
+    {
+      "entryId": "rom-11-10",
+      "field": "principle",
+      "after": "Psalm 69:23 continues the picture: backs bent low and eyes gone dark. First principle: this prayer for judgment shows what it costs to reject the suffering King. When you refuse Him, you lose your spiritual sight.",
+      "reason": "'imprecation' is given its plain meaning in the same sentence; 'spurning' and 'forfeited' become 'reject' and 'lose'; the second person keeps the warning personal."
+    },
+    {
+      "entryId": "rom-15-9",
+      "field": "principle",
+      "after": "Paul cites Psalm 18 as Gentile praise foretold. First principle: the mercy God showed Israel was always meant to become Gentile song. David's victory psalm becomes the praise of the nations.",
+      "reason": "'is cited' now names Paul, and 'doxology' becomes 'the praise of the nations'."
+    },
+    {
+      "entryId": "rom-3-13",
+      "field": "principle",
+      "after": "The Psalms list the ways we sin with our speech: deceitful tongues, asp poison, cursing lips. First principle: sin is heard most clearly in the mouth. The picture of our guilt comes from Israel's own songbook.",
+      "reason": "'catalogue' and 'the anatomy of guilt is drawn from' give way to a plain subject and verb; the KJV phrase list is untouched."
+    },
+    {
+      "entryId": "rom-4-25",
+      "field": "principle",
+      "after": "Isaiah 53's two clauses sum it up: delivered and raised. First principle: the cross pays the debt. The resurrection announces the receipt. God declares a guilty person to be in the right. The empty tomb is the proof.",
+      "reason": "'transactions are summarized' is simplified; 'justification' takes the frozen glossary rendering; 'certified by an empty tomb' becomes 'The empty tomb is the proof.'"
+    },
+    {
+      "entryId": "rom-1-4",
+      "field": "principle",
+      "after": "God raised Jesus from the dead. He marked him out as Son with power. That enacted Psalm 2's decree. First principle: the resurrection is God publicly installing the Son. The seed of David is shown to be Lord.",
+      "reason": "the fronted participle and the passives are replaced with God as the actor; 'investiture' becomes 'publicly installing'."
+    },
+    {
+      "entryId": "rom-5-14",
+      "field": "principle",
+      "after": "Death ruled from Adam's time onward. That was a pattern pointing forward to Christ. First principle: history divides under two heads. In Adam all die. The second Adam heads a race of life.",
+      "reason": "'two headships' is decoded as 'under two heads' and the semicolon chain is split. 'In Adam all die' is carried byte-identical and left unquoted, as it stood in the source."
+    },
+    {
+      "entryId": "rom-11-26",
+      "field": "principle",
+      "after": "The salvation of all Israel rests on the coming Redeemer. He turns away ungodliness. First principle: the climax of the covenant — God's binding promise — is not a family line. It is Deliverance in person. Isaiah wrote of the go'el from Zion, the family redeemer who buys his people back.",
+      "reason": "'the covenant's climax' now carries the frozen rendering of covenant; 'ethnicity' becomes 'a family line'; the Hebrew go'el is kept byte-identical and glossed where it stands."
+    },
+    {
+      "entryId": "rom-9-7",
+      "field": "principle",
+      "after": "God counts Abraham's children through the promise, not merely through flesh. First principle: the line of God's binding promise runs by God's choice and by faith. Isaac carries the seed of the world-blessing, not Ishmael.",
+      "reason": "the passive 'are counted' now names God; 'election' becomes 'God's choice' and 'covenant' the frozen rendering; Isaac and Ishmael keep their order and relation."
+    },
+    {
+      "entryId": "rom-10-19",
+      "field": "principle",
+      "after": "Moses' song warns Israel about the favor shown to a foolish nation. First principle: grace that makes his people jealous is an old covenant tool. Gentile blessing is the sermon Israel was told to expect.",
+      "reason": "'jealousy-provoking grace' becomes a clause a reader can follow, with every claim of the original sentence kept."
+    },
+    {
+      "entryId": "rom-15-3",
+      "field": "principle",
+      "after": "Christ pleased not Himself. Psalm 69's insults land on the Servant. First principle: the One who did not please Himself took the reproach meant for others. Strong believers bear with the weak in the same way.",
+      "reason": "'the self-pleasing One' read as its opposite; it is now 'the One who did not please Himself', which is what the source means; 'absorbed reproach' becomes 'took the reproach meant for others'. The opening KJV clause is carried byte-identical and left unquoted."
+    },
+    {
+      "entryId": "rom-5-12",
+      "field": "principle",
+      "after": "By one man sin entered the world, and death by sin. First principle: Adam's fall was the act of a head over the whole human race. Death passes to all. Christ's obedience was the act of a head for the many.",
+      "reason": "'federal' (twice) is decoded as 'the act of a head', keeping the representative claim on both sides. The opening clause is carried byte-identical and left unquoted (the source's rendering; canon Rom 5:12 reads 'entered into the world')."
+    },
+    {
+      "entryId": "rom-3-20",
+      "field": "principle",
+      "after": "No flesh is justified by deeds of the law — no one is declared in the right by keeping the law. The law points out the disease. It does not cure it. First principle: the law is a mirror, not a cleaner. It shows you the stain, but it cannot wash it away. Right standing must come from somewhere else entirely.",
+      "reason": "'justified' is glossed with the frozen rendering in the same sentence; 'launderer' and 'from another quarter' give way to everyday words."
+    },
+    {
+      "entryId": "rom-5-19",
+      "field": "principle",
+      "after": "Adam disobeyed. Christ obeyed, all the way to death. First principle: salvation is a swap of heads. The many are counted righteous because the One obeyed in their place.",
+      "reason": "the verbless fragment becomes two sentences; 'headship exchange' is decoded as 'a swap of heads'; the causal claim and its order are kept."
+    },
+    {
+      "entryId": "rom-16-25",
+      "field": "principle",
+      "after": "This doxology — a word of praise — reveals a mystery long hidden. The mystery is the preaching of Jesus Christ. First principle: the gospel is a secret now unsealed. What earlier generations whispered in pictures is now announced plainly.",
+      "reason": "'doxology' is defined in the same sentence; 'what the ages whispered in types' becomes 'what earlier generations whispered in pictures', the glossary sense of a type without the jargon."
+    },
+    {
+      "entryId": "rom-9-25",
+      "field": "principle",
+      "after": "Paul quotes Hosea's Lo-ammi reversal — the name means not my people — to make his point about Gentile grace. First principle: God renamed the unloved. He is still renaming. Not-my-people become sons of the living God.",
+      "reason": "the passive 'is quoted' now names Paul; the Hebrew name Lo-ammi is kept byte-identical and glossed where it stands; the dash claim is split into two sentences."
+    },
+    {
+      "entryId": "rom-9-29",
+      "field": "principle",
+      "after": "If God had not held back a few, Israel would have been as Sodom. First principle: the saved seed is the evidence of mercy. What remains is what grace left behind, not what man kept safe.",
+      "reason": "'divine reserve' is decoded as God holding back a few; 'mercy's evidence' and 'preserved' become everyday words with the claim unchanged."
+    },
+    {
+      "entryId": "rom-11-3",
+      "field": "principle",
+      "after": "In Romans, Paul quotes Elijah's complaint in his argument about the remnant — the faithful few who are left. First principle: even when faith feels extinct, God keeps seven thousand in reserve. Despair gets the count wrong.",
+      "reason": "'remnant' carries the frozen rendering in the same sentence; 'despondency misreads the census' becomes 'Despair gets the count wrong.'"
+    },
+    {
+      "entryId": "rom-15-10",
+      "field": "principle",
+      "after": "Moses' final song commands the Gentiles to rejoice together with Israel. First principle: the Song of Moses already pictured Jew and Gentile rejoicing together. The church is that reunion.",
+      "reason": "'commands Gentile joy alongside Israel' is written out and 'imagined' becomes 'pictured'; the dash sentence is split so the church claim stands on its own."
+    },
+    {
+      "entryId": "rom-9-13",
+      "field": "principle",
+      "after": "Paul cites Malachi's later words as God's settled choice across the generations. First principle: election means God's love comes before anything a person deserves. Jacob's line carries the Messiah, whatever prosperity Esau had.",
+      "reason": "'desert' (what is deserved) is written out so it cannot be read as wilderness; 'election' is explained in the same sentence as God's love coming first."
+    },
+    {
+      "entryId": "rom-10-6",
+      "field": "principle",
+      "after": "Paul reads Deuteronomy 30's near word as being about Christ. No one has to climb up or go down. First principle: righteousness by faith is near, not a pilgrimage. The Word is near, in mouth and heart.",
+      "reason": "'is read of Christ' becomes 'reads … as being about Christ', naming the reader; 'proximity, not pilgrimage' becomes 'near, not a pilgrimage'."
+    },
+    {
+      "entryId": "rom-10-15",
+      "field": "principle",
+      "after": "Isaiah 52 pictures a messenger running over the mountains. That messenger is the gospel preacher. First principle: good news needs a messenger who is sent. The beauty is in the message carried, not in the messenger's merit.",
+      "reason": "'mountain-runner' and 'glad tidings require sent feet' are written out in full; the claim about where the beauty lies is kept word for word."
+    },
+    {
+      "entryId": "rom-9-17",
+      "field": "principle",
+      "after": "God declared his name in all the earth through Pharaoh's hardened throne. First principle: God even turns opposition to his own use. He displays his power through rulers who refuse Him.",
+      "reason": "'served the declaration of' and the passive 'is displayed' now have God as the subject doing the declaring and the displaying."
+    },
+    {
+      "entryId": "rom-16-20",
+      "field": "principle",
+      "after": "Genesis 3:15 closes the letter. The promise that crushes the serpent now turns to the feet of believers, and soon. First principle: the church shares in the Seed's victory. Peace with God ends with Satan underfoot.",
+      "reason": "'epistle' becomes 'letter'; the compressed serpent-crushing clause and the word 'shortly' are written out; the citation stays Genesis 3:15."
+    },
+    {
+      "entryId": "rom-15-21",
+      "field": "principle",
+      "after": "Isaiah 52:15 explains why Paul preached where no one had gone before. First principle: Paul's mission followed prophecy. The message moves toward people who have never heard His name.",
+      "reason": "'pioneer preaching' and 'mission strategy follows prophecy' are unpacked; the citation stays Isaiah 52:15."
+    },
+    {
+      "entryId": "rom-9-27",
+      "field": "principle",
+      "after": "Isaiah cried out: though Israel be as the sand, only a remnant returns. First principle: salvation is never a matter of numbers. The promise survives in the remnant, the faithful few God keeps for Himself.",
+      "reason": "'statistical' becomes 'a matter of numbers' and 'remnant' carries the frozen rendering; the KJV clause is left exactly as it stood."
+    },
+    {
+      "entryId": "rom-8-29",
+      "field": "principle",
+      "after": "God chose his people ahead of time. He shapes them to look like his Son. First principle: Psalm 89's firstborn title belongs to Christ. Salvation's goal is family resemblance to Him.",
+      "reason": "'predestined' and 'conformed' are replaced with the plain sense — chosen ahead of time, shaped to look like his Son; the Psalm 89 claim is untouched."
+    },
+    {
+      "entryId": "rom-10-5",
+      "field": "principle",
+      "after": "Moses describes the righteousness that comes by the law: do these things and live. First principle: the law offers life to perfect performance. That standard condemns everyone, because no one has done it.",
+      "reason": "'law-righteousness' and the compressed 'do and live' are written out; 'indicts' becomes 'condemns' with the reason kept."
+    },
+    {
+      "entryId": "rom-9-26",
+      "field": "principle",
+      "after": "God proclaims adoption in the very place where rejection happened. First principle: Hosea shows where grace does its work. The same ground of unbelief becomes the ground of belonging.",
+      "reason": "the passive 'is proclaimed' now names God; 'Hosea's geography of grace' becomes 'Hosea shows where grace does its work'."
+    },
+    {
+      "entryId": "rom-12-19",
+      "field": "principle",
+      "after": "Believers give up taking revenge. They leave revenge to God, as Scripture says. First principle: when we hand justice over to God, justice is certain to be done. The Song of Moses gives repayment to God alone.",
+      "reason": "'prerogative' and the slogan 'justice delegated is justice secured' give way to plain statements that carry both claims."
+    },
+    {
+      "entryId": "rom-11-8",
+      "field": "principle",
+      "after": "Paul joins two passages: Isaiah's sleep sent in judgment and David's table that becomes a snare. First principle: refusing God again and again invites the blindness he gives. Eyes that close themselves are finally closed for them.",
+      "reason": "'judicial sleep' and 'table-snare' are unpacked with Isaiah and David still named; the double claim about refusal and given blindness is kept whole."
+    },
+    {
+      "entryId": "rom-1-3",
+      "field": "principle",
+      "after": "The gospel is about God's Son, born of the seed of David. First principle: Jesus is the promised King. That claim is rooted in history, in God's binding promise to David. No one invented it in the apostles' day.",
+      "reason": "'messiahship', 'Davidic covenant' and 'apostolic age' are replaced with the frozen renderings and everyday words."
+    },
+    {
+      "entryId": "rom-11-27",
+      "field": "principle",
+      "after": "Paul brings Isaiah 59 and Jeremiah 31 together. In both, God's binding promise means one thing: sin taken away. First principle: the new covenant is defined by forgiveness written in hearts. That is the one thing the Deliverer accomplished.",
+      "reason": "'fused' becomes 'brings … together'; 'covenant' carries the frozen rendering; 'charter' is unpacked as what defines the covenant."
+    },
+    {
+      "entryId": "rom-3-25",
+      "field": "principle",
+      "after": "God set forth Christ Jesus as the propitiation — the sacrifice that turns His wrath away — through faith in His blood. First principle: the cross is the new mercy seat, the place where God's justice and mercy meet.",
+      "reason": "'propitiation' is kept and given the frozen rendering in the same sentence; 'mercy seat' is defined as the place where God's justice and mercy meet."
+    },
+    {
+      "entryId": "rom-14-11",
+      "field": "principle",
+      "after": "Isaiah 45's universal oath is the reason we put up with one another. We will all stand before God. First principle: one day everyone will confess. That makes judging one another unnecessary. The Judge is certain.",
+      "reason": "'mutual forbearance' becomes 'we put up with one another'; the semicolon claim is split while both halves are kept."
+    },
+    {
+      "entryId": "rom-1-17",
+      "field": "principle",
+      "after": "The righteousness of God is revealed from faith to faith: the just shall live by faith. First principle: Habakkuk's word becomes the key that gives Romans its shape.",
+      "reason": "'the structural key of Romans' becomes 'the key that gives Romans its shape'. The KJV wording in the first sentence is carried byte-identical and left unquoted, as it stood in the source (canon Rom 1:17 reads 'The just shall live by faith' after 'as it is written')."
+    },
+    {
+      "entryId": "rom-5-15",
+      "field": "principle",
+      "after": "One offense brought death. One Man's gift abounds to many. First principle: grace is not a matching amount. It overflows. What the fall lost, the gift outweighs.",
+      "reason": "'symmetry' and 'superabundance' become 'a matching amount' and 'It overflows'; the semicolon becomes separate sentences."
+    },
+    {
+      "entryId": "rom-11-9",
+      "field": "principle",
+      "after": "Psalm 69's imprecation — its prayer for judgment — lands on those who rejected the Messiah. First principle: prosperity without faith becomes a trap. The table itself can catch the ungrateful.",
+      "reason": "'imprecation' is kept and defined in the same sentence; 'the rejectors' becomes 'those who rejected'."
+    },
+    {
+      "entryId": "rom-9-33",
+      "field": "principle",
+      "after": "Whoever believes on Him shall not be ashamed. But He is also the stone of stumbling. First principle: Christ is either foundation or crusher. There is no neutral response.",
+      "reason": "the broken dash sentence is split into two complete sentences and the either/or claim stands on its own. The first clause is carried byte-identical and left unquoted (the source's rendering; canon Rom 9:33 reads 'Whosoever believeth on him shall not be ashamed')."
+    },
+    {
+      "entryId": "rom-4-3",
+      "field": "principle",
+      "after": "Abraham believed God and it was counted to him for righteousness. First principle: God declared Abraham to be in the right before circumcision, before the law, and before any works. It is by faith.",
+      "reason": "'justification precedes' now names God as the one who declared it, with the same three things it precedes. The opening clause is carried byte-identical and left unquoted (the source's rendering; canon Rom 4:3 reads 'counted unto him for righteousness')."
+    },
+    {
+      "entryId": "rom-10-13",
+      "field": "principle",
+      "after": "Whoever shall call on the name of the Lord shall be saved. First principle: Joel's promise about the last days comes true when the gospel is preached.",
+      "reason": "'is fulfilled in gospel proclamation' becomes 'comes true when the gospel is preached'. The opening clause is carried byte-identical and left unquoted (the source's rendering; canon Rom 10:13 reads 'whosoever shall call upon the name of the Lord')."
+    },
+    {
+      "entryId": "rom-1-17",
+      "field": "terms[0].note",
+      "after": "The NT quotes Hab 2:4 three times (Rom 1:17; Gal 3:11; Heb 10:38).",
+      "reason": "the note had no verb; it now has a subject and a verb, with every citation unchanged."
+    },
+    {
+      "entryId": "rom-8-32",
+      "field": "terms[0].note",
+      "after": "Paul deliberately echoes Gen 22:12 LXX. There, Abraham did not spare his son.",
+      "reason": "the fragment now reads as two sentences with the actor named; the citation Gen 22:12 LXX and the abbreviation LXX are untouched."
+    },
+    {
+      "entryId": "rom-3-25",
+      "field": "terms[0].note",
+      "after": "This is the LXX word for the kapporet of Exod 25:17 — the ark's cover.",
+      "reason": "the verbless note now has a subject and a verb; the LXX abbreviation, the Hebrew kapporet and the citation are untouched."
+    },
+    {
+      "entryId": "rom-6-3",
+      "field": "terms[0].note",
+      "after": "Baptism requires full immersion in water. That immersion pictures burial and resurrection.",
+      "reason": "the verbless note now has a subject, and 'signify' becomes 'pictures'."
+    },
+    {
+      "entryId": "rom-10-13",
+      "field": "terms[0].note",
+      "after": "The NT applies Joel 2:32 to Jesus in Acts 2:21, 16:31.",
+      "reason": "the passive fragment now names the NT as the one applying it; both citations are unchanged."
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "terms[0].note",
+      "after": "This right standing before God is credited to us. God also works it into us.",
+      "reason": "'imputed' and 'imparted' are given their plain senses (credited, worked in) while 'right standing before God' is kept as it stood; both halves of the claim survive."
+    },
+    {
+      "entryId": "rom-8-3",
+      "field": "terms[0].note",
+      "after": "He was truly human. Sin did not master him (cf. Phil 2:7).",
+      "reason": "the verbless note becomes two sentences; 'real humanity without being under sin's mastery' is stated in everyday words; the citation is unchanged."
+    },
+    {
+      "entryId": "rom-4-3",
+      "field": "terms[0].note",
+      "after": "LXX Gen 15:6 — Paul uses the same verb as Genesis.",
+      "reason": "the note had no verb; it now names Paul and the verb he uses, with the citation untouched."
+    },
+    {
+      "entryId": "rom-5-12",
+      "field": "terms[0].note",
+      "after": "This is parallel to 1 Cor 15:21-22 — the Adam/Christ contrast.",
+      "reason": "the verbless note now reads as a sentence; the citation is unchanged."
+    },
+    {
+      "entryId": "rom-6-3",
+      "field": "terms[1].note",
+      "after": "The Holy Spirit gives power to this risen life.",
+      "reason": "the verbless note now has a subject and a verb, naming the Spirit as the one who gives the power."
+    },
+    {
+      "entryId": "rom-9-33",
+      "field": "terms[0].note",
+      "after": "Isa 8:14 and 28:16 are combined here. See also 1 Pet 2:6-8.",
+      "reason": "the verbless note now reads as sentences; the three citations are unchanged, and 'See also' claims no more than the original list."
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "terms[1].note",
+      "after": "This shows grace that no human work can earn.",
+      "reason": "'Reflects unmerited grace unearned by human works' had no subject and said the same thing twice; it is now one plain sentence with the claim intact."
+    },
+    {
+      "entryId": "rom-3-25",
+      "field": "terms[0].gloss",
+      "after": "mercy seat / the sacrifice that turns God's wrath away",
+      "reason": "'propitiation' is replaced with the frozen glossary rendering inside the gloss itself; 'mercy seat' is kept as the first half."
+    },
+    {
+      "entryId": "rom-1-17",
+      "field": "title",
+      "after": "God Declares the Guilty in the Right by Faith — from Habakkuk",
+      "reason": "'Justification' is replaced with the frozen glossary rendering, which is what the title means; 'by faith' and 'from Habakkuk' are kept as they stood."
+    },
+    {
+      "entryId": "rom-3-25",
+      "field": "title",
+      "after": "Mercy Seat — the Sacrifice That Turns God's Wrath Away",
+      "reason": "'Propitiation' is replaced with the frozen glossary rendering, and 'Mercy Seat' is kept and now leads."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "after": "Eternal security: God's love and justice are settled everywhere, so sin will never rise again.",
+      "reason": "the because-chain is put into plain order (cause first) and 'universally established' becomes 'settled everywhere'; both halves of the claim are kept."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "after": "Decisive expulsion: Satan and the fallen angels were cast down to the earth.",
+      "reason": "the verbless fragment now has a verb ('were cast down'); the label and every name are kept."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "after": "Calvary victory: the cross forever answered and disarmed Satan's accusations against God's character.",
+      "reason": "the verbless fragment now has a subject and a verb (the cross answered and disarmed), keeping both verbs and the whole claim."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "after": "Final execution: the originator of sin is destroyed forever.",
+      "reason": "the fragment was missing its verb; 'is destroyed' completes the sentence without adding a claim."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "after": "Protoevangelium: the first gospel promise — enmity, and the serpent's head crushed.",
+      "reason": "the technical label is defined in the same sentence as 'the first gospel promise'; 'Protoevangelium' itself is kept byte-identical."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "rom-9-12",
+      "field": "principle",
+      "reason": "17 words max, one idea per sentence, everyday words; the dash clause restates the same claim rather than adding one. Gate PASS: nothing to change"
+    },
+    {
+      "entryId": "rom-9-9",
+      "field": "title",
+      "reason": "12 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-19",
+      "field": "title",
+      "reason": "12 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-1-3",
+      "field": "terms[0].note",
+      "reason": "11 words, one idea, every citation intact; 'thread' is this app's own word for a chain, so nothing needs decoding"
+    },
+    {
+      "entryId": "rom-9-25",
+      "field": "title",
+      "reason": "11 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-11-27",
+      "field": "title",
+      "reason": "11 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-16-25",
+      "field": "title",
+      "reason": "11 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-8-3",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "terms[1].gloss",
+      "reason": "10 words, the lexical gloss of δικαιούμενοι δωρεάν; rewriting it would invent a rival rendering of the Greek"
+    },
+    {
+      "entryId": "rom-5-14",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-5-19",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-8-11",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-15",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-17",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-29",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-5",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-6",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-3",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-21",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-16-20",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-16-26",
+      "field": "title",
+      "reason": "10 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-6-3",
+      "field": "title",
+      "reason": "9 words, one idea, plain words; the dash pairs the two halves of the same claim. Gate PASS: nothing to change"
+    },
+    {
+      "entryId": "rom-4-13",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-4-17",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-8-34",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-13",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-15",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-20",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-21",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-11-3",
+      "field": "title",
+      "reason": "9 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-12",
+      "field": "title",
+      "reason": "8 words, two KJV phrases carrying one idea; the dash pairs them. Gate PASS: nothing to change"
+    },
+    {
+      "entryId": "rom-15-12",
+      "field": "terms[0].note",
+      "reason": "8 words, two citations (Isa 11:1, 10 and Rev 22:16) with nothing to decode beyond them; naming what 'same' refers to would guess at the note's meaning"
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-6-3",
+      "field": "terms[0].gloss",
+      "reason": "8 words, the lexical gloss of ἐβαπτίσθημεν; the three renderings are the point of the gloss, and all three are everyday words"
+    },
+    {
+      "entryId": "rom-1-4",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-1-20",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-3-20",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-4-25",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-5-15",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-11",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-11-8",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-11-26",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-14-11",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-9",
+      "field": "title",
+      "reason": "8 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-1-3",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-8-3",
+      "field": "terms[0].gloss",
+      "reason": "7 words, the lexical gloss of ἐν ὁμοιώματι σαρκὸς ἁμαρτίας, word for word"
+    },
+    {
+      "entryId": "rom-8-32",
+      "field": "title",
+      "reason": "7 words, one clause in plain order; it is the source's own rendering of Rom 8:32 and needs no change"
+    },
+    {
+      "entryId": "rom-3-10",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-3-18",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-7",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-18",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-11-9",
+      "field": "title",
+      "reason": "7 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-1-17",
+      "field": "terms[0].gloss",
+      "reason": "6 words, the lexical gloss of ὁ δίκαιος ἐκ πίστεως ζήσεται, word for word"
+    },
+    {
+      "entryId": "rom-10-13",
+      "field": "terms[0].gloss",
+      "reason": "6 words, the lexical gloss of ὄνομα κυρίου; YHWH is untouchable and the rest is everyday words"
+    },
+    {
+      "entryId": "rom-3-21",
+      "field": "terms[0].gloss",
+      "reason": "6 words, the lexical gloss of δικαιοσύνη θεοῦ; both renderings carry a sense the other would drop"
+    },
+    {
+      "entryId": "rom-1-16",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-3-13",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-6-23",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-12",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-16",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-12-19",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-10",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-15-11",
+      "field": "title",
+      "reason": "6 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-4-3",
+      "field": "terms[0].gloss",
+      "reason": "5 words, the lexical gloss of ἐλογίσθη; both renderings are the standard ones"
+    },
+    {
+      "entryId": "rom-5-12",
+      "field": "title",
+      "reason": "5 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-10-13",
+      "field": "title",
+      "reason": "5 words, one clause in plain order; nothing to decode"
+    },
+    {
+      "entryId": "rom-6-3",
+      "field": "terms[1].gloss",
+      "reason": "5 words, the lexical gloss of καινότητι ζωῆς, word for word"
+    },
+    {
+      "entryId": "rom-1-2",
+      "field": "title",
+      "reason": "5 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-4-18",
+      "field": "title",
+      "reason": "5 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-26",
+      "field": "title",
+      "reason": "5 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-27",
+      "field": "title",
+      "reason": "5 words, one KJV clause (Rom 9:27), plain order; the word remnant is Scripture's own here and the title stays verbatim"
+    },
+    {
+      "entryId": "rom-11-10",
+      "field": "title",
+      "reason": "5 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-5-12",
+      "field": "terms[0].gloss",
+      "reason": "4 words, the lexical gloss of εἰσῆλθεν; both renderings are everyday words"
+    },
+    {
+      "entryId": "rom-8-32",
+      "field": "terms[0].gloss",
+      "reason": "4 words, the lexical gloss of οὐκ ἐφείσατο, word for word"
+    },
+    {
+      "entryId": "rom-15-12",
+      "field": "terms[0].gloss",
+      "reason": "4 words, the lexical gloss of ἡ ῥίζα τοῦ Ἰεσσαί, word for word"
+    },
+    {
+      "entryId": "rom-3-15",
+      "field": "title",
+      "reason": "4 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-8-29",
+      "field": "title",
+      "reason": "4 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-4-3",
+      "field": "title",
+      "reason": "3 words, one KJV clause, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-33",
+      "field": "title",
+      "reason": "3 words, one KJV phrase, plain order; title kept verbatim"
+    },
+    {
+      "entryId": "rom-9-33",
+      "field": "terms[0].gloss",
+      "reason": "3 words, the lexical gloss of λίθος προσκόμματος, word for word"
+    },
+    {
+      "entryId": "rom-1-3",
+      "field": "terms[0].gloss",
+      "reason": "2 words, the lexical gloss of σπέρμα; nothing to decode"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "reason": "11 words, one idea, plain order; 'cast out' is the KJV verb and the sentence is complete. Gate PASS: nothing to change"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "reason": "11 words, one idea, plain order, everyday words; nothing to change"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "reason": "10 words with a subject and a verb in plain order; 'corrupts his wisdom through pride' needs no decoding"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "reason": "10 words, one idea, complete sentence in plain order; 'Seed of woman' is the Genesis 3:15 phrase and the chain names that verse"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "reason": "10 words, one KJV clause (Rom 16:20), plain order; title kept verbatim"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "reason": "10 words, one KJV clause (Nahum 1:9), plain order; title kept verbatim"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "reason": "8 words, plain order; 'spoils' is the KJV verb of Colossians 2:15 and is not modernised"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "reason": "8 words, a title fragment in this chain's own title style; every word is everyday and the verse it names is Revelation 20:10"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "reason": "9 words of label plus a KJV quotation; one idea, plain order, nothing to decode. QUOTE-REVIEW: the source quotes \"I will ascend above the stars... I will be like the most High.\" vs canon Isa 14:13 \"I will exalt my throne above the stars of God\" and Isa 14:14 \"I will ascend above the heights of the clouds; I will be like the most High.\" — left byte-identical as instructed."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "reason": "6 words, one idea, plain order; nothing to decode"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "reason": "6 words, one idea; 'anointed covering cherub' is the KJV wording of Ezekiel 28:14, the verse the step names"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "reason": "6 words; the chain name with its numbering, plain and concrete"
+    }
+  ],
+  "equivalent": []
+}

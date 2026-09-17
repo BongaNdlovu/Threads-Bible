@@ -1,0 +1,789 @@
+{
+  "book": "eph",
+  "bookName": "Ephesians",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 23,
+    "entryStrings": 52,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "eph-1-4",
+    "eph-1-7",
+    "eph-1-10",
+    "eph-1-20",
+    "eph-1-21",
+    "eph-1-22",
+    "eph-2-8",
+    "eph-2-13",
+    "eph-2-14",
+    "eph-2-17",
+    "eph-2-20",
+    "eph-4-8",
+    "eph-4-9",
+    "eph-4-25",
+    "eph-4-26",
+    "eph-5-2",
+    "eph-5-25",
+    "eph-5-27",
+    "eph-5-31",
+    "eph-5-32",
+    "eph-6-10",
+    "eph-6-14",
+    "eph-6-17"
+  ],
+  "fields": [
+    {
+      "entryId": "eph-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Salvation is gift, not wage — not of works. First principle: grace through faith excludes boasting at the root — the chain is God's mercy, faith's hand, God's gift; Jonah's fish-story agrees: salvation is of the LORD.",
+      "density": 2.525,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Every named power in this age and the next is beneath the seated Christ. First principle: the ranking list is exhaustive — the name above every name outranks every throne the cosmic or political orders can produce.",
+      "density": 2.2393,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-4-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Ascension implies a prior descent. First principle: the ascent to the throne required the descent to the lower earth — the psalm's logic holds the incarnation and the grave together.",
+      "density": 2.1786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-2-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The middle wall of partition is broken down. First principle: Christ does not make peace between Jew and Gentile — He is it; the dividing wall is demolished in His own body.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Election is in Christ and aims at holiness in love. First principle: the choice predates creation and its purpose is character — holy and blameless before Him, not merely selected by Him.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 8's footstool is given as headship over the body. First principle: the universe's subjection has a home address — the Head who fills all things exercises it first for the church.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Forgiveness according to the riches of His grace. First principle: redemption is present possession — the blood-price was paid once, and the forgiveness it bought is held, not hoped for.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-2-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Distance is overcome by blood, not by geography. First principle: the far-off Gentiles are brought near — Isaiah's peace to far and near is preached by the Peacemaker Himself.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-4-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 4's evening rule for anger: felt, limited, sun-set. First principle: anger itself is permitted; its lodging overnight is not — do not give the devil a furnished room.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 2:24 quoted in the marriage section. First principle: marriage is the standing parable; the union of husband and wife preaches Christ and the church every day.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:24"
+        ]
+      }
+    },
+    {
+      "entryId": "eph-6-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Helmet of salvation, sword of the Spirit. First principle: the Spirit's sword is the spoken Word — Isaiah's mouth-sword and Isaiah's helmet are handed to the believer.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-6-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The first armor piece is truth-girt loins, breastplate of righteousness. First principle: Isaiah 59's divine Warrior dresses; the church borrows His wardrobe — truth and righteousness as defensive gear.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-2-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Built on the foundation of the apostles and prophets, Christ Jesus Himself being the chief corner stone. First principle: church structure is christologically centered, not merely institutional.",
+      "density": 1.7964,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-2-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The exalted Christ preaches through the preachers — far and near in one sentence. First principle: Isaiah's messengers ran with peace; the Lord of the messengers delivers it Himself through them.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Walk in love as Christ gave Himself. First principle: the Levitical sweet-savour vocabulary is applied to the cross — self-giving love is the smell God loves.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-6-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The armor section opens with borrowed strength. First principle: Joel's beat-swords-into-armies call is inverted for the church — strength is received from the Lord, not mustered.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The mystery named: marriage was prophecy. First principle: Hosea's bridegroom God, Isaiah's Maker-Husband, and Genesis's one flesh all aimed here — Christ and His church.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-4-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 68's victory parade becomes the gift-dispensing ascension. First principle: the Conqueror shares the spoils — apostles, prophets, evangelists, pastors, teachers are the gifts He gave.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The fullness of times gathers heaven and earth into one Head. First principle: history has a unification plan — dispensational fullness, cosmic regathering, all things in Christ.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The presenting goal: holy, unblemished. First principle: the church's final form is ceremonial perfection — Psalm 45's bridal radiance granted, not grown.",
+      "density": 1.5214,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-4-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Lying is put off because members belong to one another. First principle: Zechariah's true-speaking peace is communal — truth is the joint-fluid of the body.",
+      "density": 1.4821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Husbands love your wives as Christ loved the church and gave Himself for it. First principle: marriage is patterned on self-giving atonement, not mutual utility alone.",
+      "density": 1.45,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-1-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God raised Christ and seated Him at His right hand in heavenly places. First principle: resurrection is followed by enthronement above every name.",
+      "density": 1.3179,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "eph-5-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Same verb as Judas' betrayal and God's delivering of the Son (Rom 8:32).",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "gave Himself",
+        "original": "ἑαυτὸν παρέδωκεν",
+        "translit": "heauton paredōken",
+        "strongs": null,
+        "gloss": "He handed over / gave Himself",
+        "note": "Same verb as Judas' betrayal and God's delivering of the Son (Rom 8:32).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "eph-1-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hath Put All Things under His Feet, Head over All to the Church",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-1-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ps 110:1 — the messianic enthronement text most quoted in the NT.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "right hand",
+        "original": "δεξιᾷ",
+        "translit": "dexia",
+        "strongs": null,
+        "gloss": "right hand (place of honor/power)",
+        "note": "Ps 110:1 — the messianic enthronement text most quoted in the NT.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "eph-2-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Who Sometimes Were Far Off Are Made Nigh by the Blood",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-6-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Be Strong in the Lord, and in the Power of His Might",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "An Offering and a Sacrifice to God for a Sweetsmelling Savour",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-6-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sword of the Spirit, Which Is the Word of God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Might Gather Together in One All Things in Christ",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-2-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Came and Preached Peace to You Which Were Far Off",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-4-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When He Ascended up on High, He Led Captivity Captive",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-1-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Chosen in Him Before the Foundation of the World",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-2-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Is Our Peace, Who Hath Made Both One",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-4-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That He Also Descended First into the Lower Parts",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-2-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ps 118:22 / Isa 28:16 applied to Christ.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "corner stone",
+        "original": "ἀκρογωνιαίου",
+        "translit": "akrogōniaiou",
+        "strongs": null,
+        "gloss": "cornerstone / capstone",
+        "note": "Ps 118:22 / Isa 28:16 applied to Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "eph-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Whom We Have Redemption Through His Blood",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Glorious Church, Not Having Spot or Wrinkle",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ Loved the Church and Gave Himself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By Grace Are Ye Saved Through Faith",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-4-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Speak Every Man Truth with His Neighbour",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Speak Concerning Christ and the Church",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-6-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Having Your Loins Girt about with Truth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "He handed over / gave Himself",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "gave Himself",
+        "original": "ἑαυτὸν παρέδωκεν",
+        "translit": "heauton paredōken",
+        "strongs": null,
+        "gloss": "He handed over / gave Himself",
+        "note": "Same verb as Judas' betrayal and God's delivering of the Son (Rom 8:32).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "eph-1-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Far above All Principality, and Power",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-4-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Be Ye Angry, and Sin Not",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-5-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Two Shall Be One Flesh",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-1-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Seated at God's Right Hand",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-1-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "right hand (place of honor/power)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "right hand",
+        "original": "δεξιᾷ",
+        "translit": "dexia",
+        "strongs": null,
+        "gloss": "right hand (place of honor/power)",
+        "note": "Ps 110:1 — the messianic enthronement text most quoted in the NT.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "eph-2-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Built on Apostles and Prophets",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "eph-2-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "cornerstone / capstone",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "corner stone",
+        "original": "ἀκρογωνιαίου",
+        "translit": "akrogōniaiou",
+        "strongs": null,
+        "gloss": "cornerstone / capstone",
+        "note": "Ps 118:22 / Isa 28:16 applied to Christ.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

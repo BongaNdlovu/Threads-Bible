@@ -1,0 +1,312 @@
+{
+  "book": "mic",
+  "bookName": "Micah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 9,
+    "entryStrings": 20,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "mic-4-1",
+    "mic-4-3",
+    "mic-5-1",
+    "mic-5-2",
+    "mic-6-6",
+    "mic-6-8",
+    "mic-7-19",
+    "mic-7-6",
+    "mic-7-7"
+  ],
+  "fields": [
+    {
+      "entryId": "mic-5-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting. First principle: the Ruler has a birthplace in time and an origin in eternity — uncreated, yet born of a woman.",
+      "density": 3.8107,
+      "words": 61,
+      "sentences": 2,
+      "maxSentenceWords": 40,
+      "gate": "FAIL",
+      "violations": [
+        "40 words (max 35): \"But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out …\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-6-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The approach-question asks for offerings. First principle: the question is right, the suggested currency wrong — calves and rivers of oil cannot pay; the answer follows in verse 8.",
+      "density": 2.0964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-4-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "People flow to the exalted mountain in the last days. First principle: the twin-verse of Isaiah 2 — the pilgrimage mountain is the shared vision of two prophets of one Spirit.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-5-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Besieged, the Judge of Israel struck on the cheek. First principle: the smitten Judge is the siege's center — the ruler whose origin is everlasting is first struck in humiliation.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-7-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Family dissolved against family in God'sjudgment-era. First principle: the household-enmity saying is quoted by Jesus for the sword He brings — division inside the closest circles.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-6-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Do justly, love mercy, walk humbly with thy God. First principle: the three-verb religion — justice done, mercy loved, humility walked; the answer to every ritual economy.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-7-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Compassion returns; iniquities subdued; sins sea-dumped. First principle: pardon pictured in geography — the depths of the sea as God's sin-landfill, never dredged.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-4-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Strong nations rebuked afar off; swords to plowshares. First principle: judgment is the peace-industry's founder — war unlearned under the word from Jerusalem.",
+      "density": 1.4321,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-5-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Plural of ongoing emergence — the preexistent One whose Bethlehem appearing was one going-forth of many.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "goings forth",
+        "original": "מוֹצָאוֹת",
+        "translit": "motza'ot",
+        "strongs": null,
+        "gloss": "origins, outgoings, springs",
+        "note": "Plural of ongoing emergence — the preexistent One whose Bethlehem appearing was one going-forth of many.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mic-7-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Watch and wait for the God of salvation, who will hear. First principle: the remnant's posture amid family-collapse — looking, waiting, hearing promised.",
+      "density": 1.2607,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mic-5-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Smite the Judge of Israel with a Rod upon the Cheek",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-7-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Wilt Cast All Their Sins into the Depths of the Sea",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-7-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Man's Enemies Are the Men of His Own House",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-4-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Mountain of the House of the LORD Established",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-4-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Nation Shall Not Lift Up a Sword against Nation",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-6-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wherewith Shall I Come before the LORD?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-6-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What Doth the LORD Require of Thee?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-7-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Therefore I Will Look unto the LORD",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-5-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Bethlehem — Goings Forth from Everlasting",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mic-5-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "origins, outgoings, springs",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "goings forth",
+        "original": "מוֹצָאוֹת",
+        "translit": "motza'ot",
+        "strongs": null,
+        "gloss": "origins, outgoings, springs",
+        "note": "Plural of ongoing emergence — the preexistent One whose Bethlehem appearing was one going-forth of many.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

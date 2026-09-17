@@ -1,0 +1,811 @@
+{
+  "book": "1ti",
+  "bookName": "1 Timothy",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 11,
+    "entryStrings": 28,
+    "chainStrings": 21,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "1ti-1-15",
+    "1ti-1-17",
+    "1ti-2-5",
+    "1ti-2-6",
+    "1ti-2-7",
+    "1ti-3-16",
+    "1ti-4-1",
+    "1ti-4-10",
+    "1ti-6-13",
+    "1ti-6-15",
+    "1ti-6-16"
+  ],
+  "fields": [
+    {
+      "entryId": "1ti-6-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The King of kings and Lord of lords \"who only hath immortality, dwelling in the light which no man can approach unto.\" Scripture never speaks of an immortal human soul. Man was created conditionally immortal (Gen 2:16-17), lost access to the tree of life through sin (Gen 3:22-24), and receives immortality only through the gospel and the bodily resurrection at the last trumpet (2 Tim 1:10; 1 Cor 15:53-54). First principle: life is in the Son; he that hath not the Son hath not life (1 John 5:12).",
+      "density": 4.4286,
+      "words": 88,
+      "sentences": 4,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"Man was created conditionally immortal (Gen 2:16-17), lost access to the tree of life thro…\""
+      ],
+      "context": {
+        "citations": [
+          "Genesis 2:16",
+          "Genesis 3:22",
+          "2 Timothy 1:10",
+          "1 Corinthians 15:53",
+          "1 John 5:12"
+        ]
+      }
+    },
+    {
+      "entryId": "1ti-1-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The doxology to the only wise God. First principle: the invisible immortal King receives honor — the God no man has seen or can see is made known in the visible Son.",
+      "density": 2.2286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-6-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He shall show the title in His times. First principle: the King of kings title is scheduled for display — Daniel's God of gods and Revelation's Rider converge on the same throne.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-1-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The faithful saying with the chief of sinners as exhibit A. First principle: the mission statement is personal — came, save, sinners; and the worst sinner saved is the pattern for all who believe.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The ransom testified in due time. First principle: the giving was the price — Isaiah's poured-out soul and Mark's many are the same ransom, universal in offer, testified in time.",
+      "density": 2.1214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The triple office in faith and verity. First principle: Paul's commission is sworn and specific — a teacher of the Gentiles; the Gentile thread runs through apostolic identity itself.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-6-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The charge is given in the sight of the quickening God and the confessing Christ. First principle: Christ's trial confession is the model charge — witness is expected before power, not after vindication.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God was manifest in the flesh, justified in the Spirit, seen of angels, preached to the Gentiles. First principle: incarnation, vindication, and mission are one mystery of godliness.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit's explicit forecast: seducing spirits, doctrines of devils. First principle: apostasy is Spirit-foretold, not Spirit-caused — the departures are scheduled with named mechanisms.",
+      "density": 1.6071,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-2-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "There is one God and one Mediator between God and men, the man Christ Jesus. First principle: mediation is exclusive, incarnate, and sufficient.",
+      "density": 1.4321,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-4-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Labor and reproach rest on the living Savior — specially of believers. First principle: the Savior-of-all claim is distributionally qualified — universal preservation, special salvation.",
+      "density": 1.3679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ti-6-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Used only of God inherently, and of redeemed saints after the resurrection (1 Cor 15:53).",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "immortality",
+        "original": "ἀθανασίαν",
+        "translit": "athanasian",
+        "strongs": null,
+        "gloss": "deathlessness, immortality",
+        "note": "Used only of God inherently, and of redeemed saints after the resurrection (1 Cor 15:53).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1ti-4-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Trust in the Living God, Who Is the Saviour of All Men",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Ordained a Preacher, an Apostle, a Teacher of the Gentiles",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-2-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Heb 8:6; 9:15 — Christ as mediator of the new covenant.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Mediator",
+        "original": "μεσίτης",
+        "translit": "mesitēs",
+        "strongs": null,
+        "gloss": "mediator, go-between, arbitrator",
+        "note": "Heb 8:6; 9:15 — Christ as mediator of the new covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Latter Times Some Shall Depart from the Faith",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 1:14 parallel — the Word tabernacled among us.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "manifest in the flesh",
+        "original": "ἐφανερώθη ἐν σαρκί",
+        "translit": "ephanerōthē en sarki",
+        "strongs": null,
+        "gloss": "He was revealed in flesh",
+        "note": "John 1:14 parallel — the Word tabernacled among us.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1ti-6-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Alone Hath Immortality — Conditional Gift in Christ",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-1-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ Jesus Came into the World to Save Sinners",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-6-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Blessed and Only Potentate, the King of Kings",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Gave Himself a Ransom for All",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-6-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Before Pontius Pilate Witnessed a Good Confession",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-2-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "One Mediator Between God and Men",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Manifest in the Flesh",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "He was revealed in flesh",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "manifest in the flesh",
+        "original": "ἐφανερώθη ἐν σαρκί",
+        "translit": "ephanerōthē en sarki",
+        "strongs": null,
+        "gloss": "He was revealed in flesh",
+        "note": "John 1:14 parallel — the Word tabernacled among us.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1ti-1-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The King Eternal, Immortal, Invisible",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ti-2-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "mediator, go-between, arbitrator",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Mediator",
+        "original": "μεσίτης",
+        "translit": "mesitēs",
+        "strongs": null,
+        "gloss": "mediator, go-between, arbitrator",
+        "note": "Heb 8:6; 9:15 — Christ as mediator of the new covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1ti-6-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "deathlessness, immortality",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "immortality",
+        "original": "ἀθανασίαν",
+        "translit": "athanasian",
+        "strongs": null,
+        "gloss": "deathlessness, immortality",
+        "note": "Used only of God inherently, and of redeemed saints after the resurrection (1 Cor 15:53).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul.",
+      "density": 1.275,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever.",
+      "density": 0.8643,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional.",
+      "density": 0.8071,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death.",
+      "density": 0.75,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "density": 0.3964,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    }
+  ]
+}

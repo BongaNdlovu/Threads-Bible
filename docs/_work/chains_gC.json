@@ -1,0 +1,562 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group C)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 110
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].title",
+      "text": "Call of Abram — blessing to all families"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].connection",
+      "text": "Earliest explicit nation-blessing promise."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].connection",
+      "text": "Same-OT: land + multitude expands the blessing frame."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].title",
+      "text": "Land forever, dust-like seed"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].connection",
+      "text": "Same-OT: how the blessing is received — faith counted as righteousness."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].title",
+      "text": "Stars counted; believed → righteousness"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].connection",
+      "text": "Same-OT: name change and covenant seal (circumcision)."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].title",
+      "text": "Abraham, many nations, everlasting covenant"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].connection",
+      "text": "Same-OT: purpose restated — nations, not only Israel."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].title",
+      "text": "All nations blessed in him"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].connection",
+      "text": "Same-OT: covenant transmitted without renegotiation."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].title",
+      "text": "Promise confirmed to Isaac"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].title",
+      "text": "All families of the earth blessed in Jacob"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].connection",
+      "text": "Same-OT: third patriarchal restatement."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].connection",
+      "text": "Same-OT: Israel as mediating people among nations."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].title",
+      "text": "Kingdom of priests"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].connection",
+      "text": "Same-OT: worship goal of the blessing."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].title",
+      "text": "Nations praise God"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].connection",
+      "text": "NT: blessing arrives in Christ to those who believe."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].title",
+      "text": "Gospel preached to Abraham; heirs by faith"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "name",
+      "text": "Abrahamic Blessing to the Nations"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].title",
+      "text": "You are children of the covenant"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].connection",
+      "text": "NT: apostolic preaching from this Abrahamic thread."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\""
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].connection",
+      "text": "The earliest promise of a final prophet from among Israel, one who stands between God and the people."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].title",
+      "text": "The LORD will raise up a Prophet like me"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].connection",
+      "text": "Same-OT: this prophet speaks God's own commands, with authority that must be obeyed."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].title",
+      "text": "Words put in His mouth"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].connection",
+      "text": "Same-OT: this verse is a marker in the Bible. It shows Joshua and the prophets were not the promised One."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].title",
+      "text": "No prophet since like Moses"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].connection",
+      "text": "NT: the disciples recognize Jesus as the Prophet like Moses."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].title",
+      "text": "Found Him of whom Moses wrote"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus testifies that Moses' writings pointed to Him."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].title",
+      "text": "Moses wrote of Me"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].connection",
+      "text": "NT: the Father speaks from the cloud citing the command of Deut 18:15."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].title",
+      "text": "Hear Him — Transfiguration"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].connection",
+      "text": "NT: the apostles preach that Jesus is the Prophet everyone must obey."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].title",
+      "text": "Peter cites Deuteronomy 18"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].connection",
+      "text": "NT: Stephen identifies Jesus as the Prophet like Moses."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].title",
+      "text": "Stephen before the Sanhedrin"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].connection",
+      "text": "NT: Moses was faithful as a servant. Christ is the Son over the house."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].title",
+      "text": "Jesus counted worthy of more glory than Moses"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "name",
+      "text": "The Prophet Like Unto Moses"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "text": "Origin of evil: \"I will ascend above the stars... I will be like the most High.\""
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "text": "Lucifer's pride and desire for self-exaltation"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "text": "Heavenly tragedy: highest created angel corrupts his wisdom through pride."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "text": "Anointed covering cherub falls through iniquity"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "text": "Protoevangelium: the first gospel promise — enmity, and the serpent's head crushed."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "text": "Cosmic battle on earth: Seed of woman conquers through sacrifice."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "text": "Decisive expulsion: Satan and the fallen angels were cast down to the earth."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "text": "War in heaven: Michael and His angels cast out the dragon"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "text": "Calvary victory: the cross forever answered and disarmed Satan's accusations against God's character."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "text": "Christ spoils principalities and powers on the Cross"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "text": "Apostolic promise: believers triumph over the adversary through the living Christ."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "text": "God of peace will bruise Satan under your feet shortly"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "text": "Final execution: the originator of sin is destroyed forever."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "text": "The devil cast into the lake of fire"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "text": "Eternal security: God's love and justice are settled everywhere, so sin will never rise again."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "text": "Utter end: Affliction shall not rise up the second time"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "text": "6. The Great Controversy Cosmic Arc"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "text": "Earliest origin: seventh-day rest instituted in Eden before the entrance of sin."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "text": "Creation Sabbath: God rested, blessed, and sanctified the seventh day"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "text": "Sinai moral law: written by the finger of God in the heart of the Decalogue."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "text": "Fourth Commandment: Perpetual memorial of Creation"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "text": "Prophetic covenant: the Sabbath identifies the true Creator who makes His people holy."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "text": "Perpetual sign of sanctification between God and His people"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "text": "NT example: Jesus Christ observed the seventh-day Sabbath throughout His earthly incarnation."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "text": "Christ's custom: synagogue worship on the Sabbath day"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "text": "NT prophetic continuity: Jesus instructs disciples to guard Sabbath sanctity far past the Cross into 70 AD and end-times."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "text": "Pray that your flight be not on the Sabbath"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "text": "Apostolic theology: the weekly rest remains a living obligation and spiritual rest for God's people."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "text": "There remaineth therefore a Sabbath-keeping (sabbatismos)"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "text": "End-time restoration: Third Angel quotes Exodus 20:11, restoring Creator-worship before judgment."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "text": "Final call: Worship Him that made heaven, earth, and sea"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "text": "Eternal consummation: Sabbath remains the perpetual rhythm of worship in the restored cosmos."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "text": "New Earth: From one Sabbath to another all flesh worships"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "text": "3. The Sabbath: Creation to the New Earth"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].title",
+      "text": "God rested and sanctified the seventh day"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].connection",
+      "text": "Earliest rest — cessation and blessing."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Sinai rest-law cites Gen 2."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].title",
+      "text": "Sabbath command grounded in creation"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].connection",
+      "text": "Same-OT: Sabbath as covenant sign to Israel."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].title",
+      "text": "Sign of covenant forever"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].connection",
+      "text": "Same-OT: rest becomes delight, not mere non-work."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].title",
+      "text": "Delight in the holy day"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].connection",
+      "text": "Same-OT: rest refused to unbelief in the wilderness."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].title",
+      "text": "They shall not enter my rest"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].connection",
+      "text": "NT reads creation + wilderness rest as eschatological rest in Christ."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].title",
+      "text": "A Sabbath rest remains for the people of God"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "name",
+      "text": "Sabbath Rest Remaining"
+    }
+  ]
+}

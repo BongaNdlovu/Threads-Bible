@@ -1,0 +1,177 @@
+{
+  "book": "job",
+  "bookName": "Job",
+  "drafts": [
+    {
+      "entryId": "job-19-25",
+      "field": "principle",
+      "after": "Job is in agony, and his friends have all turned away. Still he makes this monumental confession: \"I know that my Redeemer lives, and He shall stand at the last upon the earth; and after my skin is destroyed, yet in my flesh I shall see God.\" First principle: bodily resurrection and personal vindication through an eternal Kinsman-Redeemer are anchored in the oldest poetry of Scripture.",
+      "reason": "BEFORE opened with a stacked abstraction (\"intense agony and abandonment\") and buried the speech inside a participle phrase. AFTER puts Job first, splits the scene into its own short sentence, keeps the quotation byte-identical, and lets the confession stand alone. QUOTE-REVIEW: \"and He shall stand at the last upon the earth\" vs \"and that he shall stand at the latter day upon the earth\" (Job 19:25); \"and after my skin is destroyed\" vs \"And though after my skin worms destroy this body\" (Job 19:26)."
+    },
+    {
+      "entryId": "job-16-19",
+      "field": "principle",
+      "after": "Job's friends are accusing him, and he appeals to a witness in heaven. First principle: the court on earth has ruled against him, but heaven keeps the record — a first hint of the Advocate doctrine, long before the Incarnation.",
+      "reason": "BEFORE was a subjectless fragment (\"Job's heaven-side witness while friends accuse\") and used \"scintilla\", a word the reader must decode. AFTER names Job as the one who appeals, says plainly that his friends are the accusers, and replaces \"scintilla\" with \"a first hint\". The claim that heaven's record stands while earth's court fails is unchanged."
+    },
+    {
+      "entryId": "job-1-21",
+      "field": "principle",
+      "after": "Job lost everything, and he still said, \"the LORD gave, and the LORD hath taken away;\". First principle: Job came into the world with nothing and would leave with nothing. So he owned that the Giver has the right to take back what he gave, and he would not let sin onto his lips.",
+      "reason": "BEFORE was telegraphic (\"Naked in, naked out\") and abstract (\"stewardship of loss\", \"the Giver's rights are acknowledged at the moment of the taking\"). AFTER names Job, says what he lost, quotes the verse word for word in quotation marks — KJV reading checked at Job 1:21, \"the LORD gave, and the LORD hath taken away;\" — keeps the nakedness of the verse in plain words, and states the same claims about God's right to take back and about Job's lips staying free of sin."
+    },
+    {
+      "entryId": "job-2-10",
+      "field": "principle",
+      "after": "Job answers the second trial, and he does not sin with his lips. First principle: Job refuses to treat God as a deal. He takes both good and trouble from God's hand, and he does not charge God with folly.",
+      "reason": "BEFORE stacked two noun phrases (\"without lip-sin\", \"the transactional God\") into one sentence. AFTER gives the sentence a subject and a verb, and spells out the refused deal as taking both good and trouble without charging God with folly. The claim is neither weakened nor strengthened."
+    },
+    {
+      "entryId": "job-38-1",
+      "field": "principle",
+      "after": "The answer comes from the storm, not from the argument. First principle: after thirty-one chapters of human speech, God speaks from the whirlwind — and he asks about creation instead of answering the complaints of the creature.",
+      "reason": "BEFORE ended in the compressed compound \"creation-questions replace creature-complaints\", which the reader has to unpack. AFTER says who asks and what he asks about, and keeps the same claim that God answers from the whirlwind rather than by settling the argument."
+    },
+    {
+      "entryId": "job-42-5",
+      "field": "principle",
+      "after": "But now mine eye seeth Thee — and Job repents in dust. First principle: hearing about God turns into seeing him, and the meeting turns head knowledge into humility.",
+      "reason": "BEFORE used two abstractions in a row (\"hearing-of becomes seeing\", \"converts theology into humility\"). AFTER keeps the quoted KJV clause and says the same thing in everyday words: knowing about God becomes seeing him, and that meeting humbles Job."
+    },
+    {
+      "entryId": "job-9-8",
+      "field": "principle",
+      "after": "And treadeth upon the waves of the sea. First principle: God alone stretched out the heavens, and the One who later walked on the water of Galilee is the same Person.",
+      "reason": "BEFORE used an em-dash clause carrying a second idea and the abstract phrase \"wears this title in person\". AFTER gives each half of the claim its own plain wording and still ties the creation title to Jesus walking on Galilee, exactly as strongly as before."
+    },
+    {
+      "entryId": "job-14-4",
+      "field": "principle",
+      "after": "Not one — from the man of Uz. First principle: Job asks who can bring a clean thing out of an unclean, and the new birth gives the answer: that which is born of flesh is flesh.",
+      "reason": "BEFORE used the abstract label \"the inherited-uncleanness question\" and left the second half as a bare quotation. AFTER says who asks the question and keeps \"that which is born of flesh is flesh\" as the answer. No citation added; the man of Uz and the claim both stay."
+    },
+    {
+      "entryId": "job-19-26",
+      "field": "principle",
+      "after": "Worms destroy the body, and yet the eyes see God in flesh. First principle: Job speaks this hope right from the floor of his suffering, and what he expects is not a ghost. He expects a body made new.",
+      "reason": "BEFORE was a telegraphic fragment joined by a semicolon, and it used the compressed phrase \"the resurrection hope\". AFTER gives the fragment a connective and turns the abstract noun into a plain sentence about a body made new, while keeping the same claim that Job foresees a renewed body and not a ghost."
+    },
+    {
+      "entryId": "job-33-23",
+      "field": "principle",
+      "after": "Elihu describes an interpreter who shows a man what is right. First principle: Elihu names the need — a mediator who is one among a thousand, and that rare find is supplied by the one Mediator.",
+      "reason": "BEFORE opened with a verbless fragment (\"The interpreter to show man his uprightness\") and used the verb \"mediate\" before explaining it. AFTER names Elihu as the speaker, says what the interpreter does, and keeps the claim that the rare mediator finds his supply in the one Mediator."
+    },
+    {
+      "entryId": "job-5-13",
+      "field": "principle",
+      "after": "Eliphaz says God catches the crafty in their own cunning. First principle: that saying is true even coming from a wrong friend, and Scripture uses it twice — Paul quotes it against the wisdom of this world.",
+      "reason": "BEFORE was a subjectless fragment (\"The froward counsel carried headlong\") and \"Scripture twice over\" left the reader to guess where. AFTER names Eliphaz, keeps the claim that his saying is true although he is a wrong friend, and says plainly that Paul quotes it against worldly wisdom. The friends are not made to sound more orthodox than the text has them."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].title",
+      "after": "The law of the Go'el, the close relative who buys back what the family lost.",
+      "reason": "BEFORE was a dash fragment that never said who the Go'el is. AFTER keeps the Hebrew transliteration and adds a plain one-line definition in the same sentence."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].connection",
+      "after": "Boaz buys back the field, and he takes Ruth into the family line of the promise.",
+      "reason": "BEFORE hid the main action behind the label \"Same-OT:\" and used the abstract \"the covenant line\". AFTER names Boaz as the one who acts and says plainly that the line is the family line of the promise."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].connection",
+      "after": "Same-OT: Job confesses that his living Go'el will stand on the earth.",
+      "reason": "BEFORE made the reader guess that Job is the subject of \"confesses\". AFTER gives the clause a full that-clause with its own subject and verb, and keeps the Hebrew term and the claim that the Go'el will stand on the earth."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].connection",
+      "after": "Christ became our close relative by being born a man, and he did it to buy us back.",
+      "reason": "BEFORE used the \"NT:\" tag and the abstract phrase \"to accomplish redemption\". AFTER names Christ, says how he became near kin, and says what he did in everyday words."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].connection",
+      "after": "Jesus shared our flesh and blood, and by dying he broke the power of death and set the slaves free.",
+      "reason": "BEFORE used the \"NT:\" tag and \"the enslaved\" as an abstract noun. AFTER names Jesus, gives a subject and a verb to each action, and keeps all three claims: shared blood, death broken, slaves freed."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].connection",
+      "after": "Same-OT: YHWH pays the price himself and brings his people back from the power of the grave.",
+      "reason": "BEFORE only needed the tag replaced with ordinary words and a clear actor, and \"himself\" makes plain that YHWH is the one who pays. The rewrite names YHWH as the one who pays and states each part with a verb."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].connection",
+      "after": "Same-OT: David prophesied that the grave would not hold on to him.",
+      "reason": "BEFORE used the category tag as a label instead of a sentence. AFTER keeps the same claim in the same words, with David named as the subject and the grave as the place that cannot hold him, so the line reads as a statement rather than a heading."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].title",
+      "after": "Christ rises first, like the firstfruits of a harvest. Death is swallowed up.",
+      "reason": "BEFORE was two verbless fragments joined by a semicolon. AFTER gives each one a subject and a verb and keeps the firstfruits image and the claim that death is swallowed up. Citation 1 Corinthians 15:20-23, 51-55 unchanged."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].connection",
+      "after": "When the Lord comes down, believers are raised in the body, and everyone sees it happen.",
+      "reason": "BEFORE said \"At the Lord's descent\" — an abstract noun — and ended on \"everyone sees it\". AFTER says plainly that the Lord comes down, keeps the claim that believers are raised in the body, and keeps the public witness."
+    }
+  ],
+  "verifyOnly": [
+    { "entryId": "job-9-33", "field": "principle", "reason": "Plain and short: Job wishes for an umpire who can lay a hand on both God and man, and the wish is answered at Calvary. Two sentences, one idea each, everyday words; the quoted title is left untouched." },
+    { "entryId": "job-33-23", "field": "title", "reason": "KJV wording, 13 words, one idea, no banned phrase and nothing to decode." },
+    { "entryId": "job-2-10", "field": "title", "reason": "KJV wording, 12 words, one question, plain." },
+    { "entryId": "job-16-19", "field": "title", "reason": "KJV wording, 11 words, one idea, plain." },
+    { "entryId": "job-42-5", "field": "title", "reason": "KJV wording, 11 words, one idea, plain." },
+    { "entryId": "job-14-4", "field": "title", "reason": "KJV wording, 10 words, one question, plain." },
+    { "entryId": "job-19-25", "field": "terms[0].note", "reason": "Nine words, one idea; \"Go'el\" is the transliteration of the Hebrew already printed beside it, and the citation 1 Cor 15:20 is unchanged." },
+    { "entryId": "job-1-21", "field": "title", "reason": "KJV wording, 9 words, one idea, plain." },
+    { "entryId": "job-38-1", "field": "title", "reason": "KJV wording, 9 words, one idea, plain." },
+    { "entryId": "job-5-13", "field": "title", "reason": "KJV wording, 8 words, one idea, plain." },
+    { "entryId": "job-19-26", "field": "title", "reason": "KJV wording, 8 words, one idea, plain." },
+    { "entryId": "job-9-33", "field": "title", "reason": "KJV wording, 7 words, one idea, plain." },
+    { "entryId": "job-19-25", "field": "title", "reason": "KJV wording, 6 words, one idea, plain." },
+    { "entryId": "job-9-8", "field": "title", "reason": "KJV wording, 6 words, one idea, plain." },
+    { "entryId": "job-19-25", "field": "terms[0].gloss", "reason": "Five words, plain gloss of the Hebrew go'eli chay; nothing to decode." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[0].connection", "reason": "One sentence, one idea, everyday words: the earliest clear hope of seeing God in the body after the body has fallen apart." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[3].connection", "reason": "Only the \"Same-OT:\" tag is terse; the sentence itself already has a subject and a verb (a vision of the Spirit raising the dead out of their graves)." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[4].connection", "reason": "Only the \"Same-OT:\" tag is terse; the sentence states the two outcomes of resurrection in plain words." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[6].connection", "reason": "Only the \"NT:\" tag is terse; the sentence names Jesus as the speaker and says what his voice does." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[7].connection", "reason": "One sentence, one idea, plain: Jesus shows his authority to raise the dead when he raises Lazarus." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[8].connection", "reason": "Eight words, one idea, plain: Psalm 16 was fulfilled in Christ's empty tomb." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[9].connection", "reason": "One sentence with a subject and a verb; the citations Isaiah 25:8 and Hosea 13:14 are unchanged." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[11].connection", "reason": "Nine words, one idea, plain: death is finally conquered, and the body is vindicated." },
+    { "entryId": "chain:resurrection-remnant", "field": "name", "reason": "Six words, one title, concrete image, nothing to decode." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[2].connection", "reason": "Only the \"Same-OT:\" tag is terse; the sentence says the earth gives up its dead, with a subject and a verb." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[6].title", "reason": "KJV wording, 10 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[3].title", "reason": "Nine words, one idea, plain image of dry bones living." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[11].title", "reason": "KJV wording from Revelation 20, two short joined phrases; both are the same event and the citation is unchanged." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[1].title", "reason": "KJV wording, 8 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[2].title", "reason": "KJV wording, 8 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[0].title", "reason": "KJV wording, 7 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[5].title", "reason": "KJV wording, 7 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[7].title", "reason": "KJV wording, 7 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[10].title", "reason": "KJV wording, 7 words, one idea, plain." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[4].title", "reason": "Six words, one idea, plain image." },
+    { "entryId": "chain:resurrection-remnant", "field": "steps[8].title", "reason": "Six words, one idea, plain: the apostles preach Christ risen without corruption." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[0].connection", "reason": "One sentence, one idea, everyday words; the \"first redemption law in the Torah\" is explained in the same sentence." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[7].connection", "reason": "Only the \"NT:\" tag is terse; the sentence has a subject and a verb and says what the slain Redeemer opens." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[2].connection", "reason": "Only the \"Same-OT:\" tag is terse; the sentence has a subject (women), a verb (bless) and an object (the redeemer who fathers Obed)." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[5].title", "reason": "Ten words, one idea, plain; the wording follows Galatians 4:4-5 without adding a citation." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[7].title", "reason": "Nine words, one idea, plain: the Lamb is worthy to take the title deed." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[4].connection", "reason": "Only the \"Same-OT:\" tag is terse; the sentence names YHWH and says he comes as Israel's Redeemer." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[3].title", "reason": "KJV wording, 6 words, one idea, plain." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[4].title", "reason": "KJV wording, 6 words, one idea, plain." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[6].title", "reason": "KJV wording, 6 words, one idea, plain." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[2].title", "reason": "Five words, one idea, plain." },
+    { "entryId": "chain:kinsman-redeemer", "field": "steps[1].title", "reason": "Four words, one idea, plain." },
+    { "entryId": "chain:kinsman-redeemer", "field": "name", "reason": "Three words; Go'el is the transliteration of the Hebrew term already defined in the chain's own step notes." }
+  ],
+  "equivalent": []
+}

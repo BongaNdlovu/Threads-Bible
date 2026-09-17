@@ -1,0 +1,372 @@
+{
+  "book": "mat",
+  "bookName": "Matthew",
+  "drafts": [
+    {
+      "entryId": "mat-2-2",
+      "field": "principle",
+      "after": "Wise men from the east follow His star to worship the newborn King. First principle: Balaam's Star out of Jacob and Isaiah's nations coming to His light begin to come true here. Gentile pilgrims and a sign in the sky are the first part of that fulfillment.",
+      "reason": "The 24-word closing sentence carried two ideas joined by 'and'. Split into one idea per sentence and named the actors. 'Magi' -> 'wise men' (the plain word, and the word Matthew 2:1 uses), 'celestial sign' -> 'a sign in the sky', 'begin their fulfillment with' -> 'begin to come true here ... are the first part of that fulfillment'. 'First principle:' label kept verbatim; the KJV-linked clauses 'Star out of Jacob' and 'nations coming to His light' carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-21",
+      "field": "principle",
+      "after": "Jesus deepens the sixth commandment to cover anger without a cause. First principle: Christ writes the law on the heart. He first wrote that law on stone. Obedience now reaches the temper, not only the act.",
+      "reason": "'The sixth commandment is deepened' (passive) -> active sentence naming Jesus; 'causeless anger' -> 'anger without a cause'. The inverted clause 'the law written on stone Christ writes on the heart' is now two plain subject-verb sentences. The em-dash pair became a full stop. 'First principle:' label kept verbatim."
+    },
+    {
+      "entryId": "mat-9-13",
+      "field": "principle",
+      "after": "Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the heart of the law. God's first concern is His binding promise of love. He extends that love to sinners at His table.",
+      "reason": "The em-dash joined 'misses the law's own heart' to 'God's priority is covenant love' as one sentence; now three plain sentences. 'covenant love' is rendered with the frozen glossary wording for covenant ('God's binding promise'). Citation Hosea 6:6 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-5",
+      "field": "principle",
+      "after": "Jesus folds Psalm 37:11 into the Beatitudes word for word. First principle: meekness, not force, inherits the earth. That is the order of the kingdom in the psalm. The meek King keeps it.",
+      "reason": "Passive 'is folded ... verbatim' -> active 'Jesus folds ... word for word'; the nominal 'the earth is inherited not by grasp but by meekness' -> the verb-led 'meekness, not force, inherits the earth'; the trailing dash clause is now its own sentence. Citation Psalm 37:11 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-8",
+      "field": "principle",
+      "after": "Psalm 24's ascent question — who shall ascend into the hill of the LORD? — Jesus answers it in the form of a beatitude. First principle: God gives the clean hands and pure heart that see God. No one earns that sight. Christ is the open vision.",
+      "reason": "The passive 'is answered in beatitude form' now names the actor ('Jesus answers it in the form of a beatitude'), and the passive 'are given, not earned' clause was tacked on with a semicolon; it is now two sentences in plain order, with God named as the giver. The unquoted KJV clause 'who shall ascend into the hill of the LORD' and the KJV-linked phrase 'the clean hands and pure heart that see God' are carried byte-identical, still unquoted; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-43",
+      "field": "principle",
+      "after": "Leviticus 19:18 stands. No one ever wrote the added words about hatred. First principle: the law's love was always meant to reach the enemy. God decides who counts as your neighbour, not how near that person lives.",
+      "reason": "The passive compression 'the appended hatred was never written' is now an active sentence; 'defined by God, not by proximity' -> 'God decides who counts as your neighbour, not how near that person lives' (abstract noun turned into a clause). Citation Leviticus 19:18 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-17",
+      "field": "principle",
+      "after": "The law and the prophets stand until everything is fulfilled in Christ. First principle: Christ is the goal of the law, not its enemy. Every jot and tittle — the smallest letter and stroke — finds its meaning in what He did and taught.",
+      "reason": "'until all is fulfilled — in Him' (dash plus compressed pronoun) -> 'until everything is fulfilled in Christ'; 'its opponent' -> 'its enemy'. The special term 'jot and tittle' is defined in the same sentence, in plain words, as §1.7 rule 6 requires. 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-12-18",
+      "field": "principle",
+      "after": "Isaiah 42:1 is quoted here almost word for word: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the voice at the Baptism and the Servant Song appoint the same Servant.",
+      "reason": "'quoted nearly verbatim' -> 'is quoted here almost word for word'; 'the Baptism voice' -> 'the voice at the Baptism'; the noun stack 'are the same appointment' -> the verb 'appoint the same Servant'. The unquoted Scripture span 'My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles' is carried byte-identical, including capitals and semicolon. QUOTE-REVIEW: that span matches KJV Matthew 12:18 in wording but capitalises 'My' and 'He' where the KJV has 'my' and 'he', and it omits the opening 'Behold my servant, whom I have chosen'; the source itself calls it 'nearly verbatim'. Left exactly as it stands — nothing restored, no word altered."
+    },
+    {
+      "entryId": "mat-3-17",
+      "field": "principle",
+      "after": "The Father's voice joins Psalm 2's decree to Isaiah 42's delight in the Servant. First principle: the Son and the Servant are one Person. God crowns Him King and makes Him the gentle Redeemer. He says it all in one sentence from heaven.",
+      "reason": "The 20-word em-dash sentence held two ideas. It is now three sentences with God named as the actor who crowns and makes, and the closing clause 'in a single sentence from heaven' reads as its own idea. Psalm 2 and Isaiah 42 references carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-3",
+      "field": "principle",
+      "after": "The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes restate Isaiah 61's good news to the meek. They are blessings of God's binding promise. The anointed One now preaches His own charter.",
+      "reason": "The hyphenated noun stack 'good-news-to-the-meek restated as covenant blessings' is now a verb with plain words ('restate Isaiah 61's good news to the meek') plus its own sentence for the second idea; 'covenant blessings' is rendered with the frozen glossary wording for covenant ('God's binding promise'). The KJV phrase 'kingdom of heaven' and 'First principle:' are carried byte-identical."
+    },
+    {
+      "entryId": "mat-4-6",
+      "field": "principle",
+      "after": "Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture, but he leaves out the words Thou shalt not tempt the Lord thy God. A promise twisted becomes presumption.",
+      "reason": "The em-dash and semicolon pair became full stops, and 'promise twisted becomes presumption' now reads as a whole sentence. THEOLOGY-REVIEW: the BEFORE clause 'but omits to tempt the Lord thy God' is compressed and reads as though the devil omitted the act of tempting; the gloss states that he leaves out the KJV clause Jesus answers with (Matthew 4:7). That KJV clause is carried byte-identical and unquoted, as before. Operator should confirm the wording. 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-8-17",
+      "field": "principle",
+      "after": "Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the price paid so sin can be forgiven shows compassion that reaches the body as well as the soul. The Sin-Bearer carries the whole burden of the fall.",
+      "reason": "The bare term 'the atonement' is replaced by the frozen glossary rendering ('the price paid so sin can be forgiven'), and 'touches body as well as soul' (abstract verb) -> 'shows compassion that reaches the body as well as the soul'; the semicolon pair is now two sentences. Citation Isaiah 53:4 carried byte-identical; 'First principle:' kept verbatim. QUOTE-REVIEW: the unquoted rendering 'He bore our sicknesses' is carried byte-identical, but the KJV reads 'bare our sicknesses' at Matthew 8:17 and 'he hath borne our griefs, and carried our sorrows' at Isaiah 53:4. Left as it stands — nothing restored."
+    },
+    {
+      "entryId": "mat-2-6",
+      "field": "principle",
+      "after": "The chief priests cite Micah 5:2 to answer where the Messiah would be born. Textual proof: Matthew 2:5-6 quotes Micah. Micah 5:2 itself promises a ruler from Bethlehem whose goings forth are from everlasting.",
+      "reason": "The semicolon joined two ideas in one sentence; it is now a full stop, and the compressed opening ('cite Micah 5:2 for the Messiah's birthplace') is a plain clause with a verb. Citations Micah 5:2 and Matthew 2:5-6 carried byte-identical. QUOTE-REVIEW: the unquoted rendering 'whose goings forth are from everlasting' is carried byte-identical; KJV Micah 5:2 reads 'whose goings forth have been from of old, from everlasting'. Left as it stands — nothing restored."
+    },
+    {
+      "entryId": "mat-1-23",
+      "field": "principle",
+      "after": "Matthew quotes Isaiah 7:14: a virgin shall bear a son, and they shall call his name Emmanuel. Textual proof: this is a direct quotation of the OT, and Isaiah 8:8, 10 also use the name. Matthew is the one who tells us that Jesus is that child.",
+      "reason": "'The evangelist identifies Jesus as that child' (jargon plus passive) -> 'Matthew is the one who tells us that Jesus is that child', naming the actor. The abbreviation 'OT' stays unexpanded, and 'Isaiah 8:8, 10' is carried byte-identical. QUOTE-REVIEW: the unquoted span 'a virgin shall bear a son, and they shall call his name Emmanuel' is a mixed text form — 'they shall call his name Emmanuel' matches KJV Matthew 1:23, but 'a virgin shall bear a son' matches neither Matthew 1:23 ('a virgin shall be with child, and shall bring forth a son') nor Isaiah 7:14 ('a virgin shall conceive, and bear a son'). Both parts carried byte-identical exactly as they stand; nothing restored."
+    },
+    {
+      "entryId": "mat-5-33",
+      "field": "principle",
+      "after": "Jesus brings the law about oaths in Leviticus and Numbers back to plain yes and no. First principle: truthfulness needs no sworn scaffolding. The law's aim is a heart whose word is always true.",
+      "reason": "The passive 'Oath-law ... is restored to simplicity' is now an active sentence naming Jesus ('brings the law about oaths ... back to plain yes and no'), and the word 'restored' is not used of Scripture anywhere. The em-dash pair became a full stop. Book names Leviticus and Numbers carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-2-23",
+      "field": "principle",
+      "after": "Settling in Nazareth fulfills the pattern the prophets gave of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner. Even the contempt for Nazareth fits what the prophets said.",
+      "reason": "The abstract tag 'consonant with prophecy' -> 'fits what the prophets said', and the em-dash joined two ideas as one sentence; it is now a full stop. The transliteration '(netser)' is carried byte-identical, parentheses included. 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-2-18",
+      "field": "principle",
+      "after": "Herod's massacre fulfills Jeremiah 31:15 at Ramah's border. First principle: even the grief of Bethlehem was written down. The same chapter that weeps also holds out God's new binding promise.",
+      "reason": "The em-dash 'and' clause is now its own sentence, and 'was written' -> 'was written down'. 'the new covenant' is rendered with the frozen glossary wording for covenant ('God's new binding promise') rather than left as a bare abstract term. Citation Jeremiah 31:15 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-4-10",
+      "field": "principle",
+      "after": "Jesus turns down the offer of the kingdoms in exchange for worship, and answers with Deuteronomy 6:13. First principle: God alone receives worship. Christ wins the kingdoms legally at Calvary, not illegally at the mountain.",
+      "reason": "The passive noun stack 'The kingdoms-for-worship trade is refused' is now an active sentence naming Jesus; the em-dash pair became a full stop. Citation Deuteronomy 6:13 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-2-15",
+      "field": "principle",
+      "after": "The flight and the return fulfill Hosea 11:1. First principle: Israel's history is a pattern that points forward. The Son lives through the nation's exodus and becomes what Israel could only picture in advance.",
+      "reason": "'prophetic pattern' and 'embodying what Israel could only foreshadow' are abstract; they are now plain words and verbs ('a pattern that points forward', 'becomes what Israel could only picture in advance'). The em-dash pair became a full stop. Citation Hosea 11:1 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-12-17",
+      "field": "principle",
+      "after": "Matthew quotes the Servant Song as the key that unlocks Christ's quiet, gentle ministry. First principle: the promised King's manner was as prophesied as His miracles. He did not strive, and He did not break bruised reeds.",
+      "reason": "'withdrawn' -> 'quiet' and 'the key to' -> 'the key that unlocks' (everyday words, verb); 'Messiah's manner' -> 'the promised King's manner', the frozen glossary rendering for Messianic; the noun pair 'no striving, no breaking bruised reeds' became verbs with the actor named. 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-1-1",
+      "field": "principle",
+      "after": "Matthew's first line points to the whole book. Jesus Christ is David's royal heir and Abraham's promised Seed. First principle: two great threads of God's binding promise open the genealogy. They are kingship and worldwide blessing.",
+      "reason": "'indexes the whole book' -> 'points to the whole book'; 'covenant threads' is rendered with the frozen glossary wording for covenant ('God's binding promise'), and the em-dash list is now its own short sentence. 'Seed' and 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-4-16",
+      "field": "principle",
+      "after": "Isaiah 9:2 is fulfilled over Galilee, where light sprung up in death's shadow. First principle: the dawn starts where darkness sat longest. Jesus preaches the kingdom from that light onward.",
+      "reason": "'dawn begins' -> 'the dawn starts'; the passive 'from that light the kingdom is preached' now names the actor. The em-dash pair became a full stop. Citation Isaiah 9:2 carried byte-identical; 'First principle:' kept verbatim. QUOTE-REVIEW: the unquoted rendering 'light sprung up' is carried byte-identical, but KJV Matthew 4:16 reads 'light is sprung up' and Isaiah 9:2 reads 'upon them hath the light shined'. Left as it stands — nothing restored."
+    },
+    {
+      "entryId": "mat-5-38",
+      "field": "principle",
+      "after": "The lex talionis, the law of an eye for an eye, set a judge's limit on vengeance. Jesus tells the disciple to turn the other cheek. First principle: the courts restrain evil, but the disciple's own rule is grace that absorbs wrong.",
+      "reason": "The Latin tag is now defined in the same sentence in plain words; 'civil justice restrains evil' (abstract noun phrase) -> 'the courts restrain evil', and the semicolon pair is two sentences. The KJV-linked phrase 'an eye for an eye' is carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-4-14",
+      "field": "principle",
+      "after": "Matthew marks the move to Capernaum, where Isaiah 9 begins to come true. First principle: even the geography was prophesied. Where the Light would shine was written down before the move.",
+      "reason": "The elliptical 'as Isaiah 9 underway' is now the plain clause 'where Isaiah 9 begins to come true'; 'geography is prophecy' -> 'even the geography was prophesied' (abstract noun turned into a verb), and the em-dash pair became a full stop. 'the Light' capitalisation kept; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-3-3",
+      "field": "principle",
+      "after": "John is Isaiah 40:3 in person, the one who prepares the Lord's way. First principle: the forerunner preaches the road before the King comes. Repentance levels the valleys.",
+      "reason": "'the preparer of the Lord's way' -> 'the one who prepares the Lord's way'; the passive 'the road is preached' now names the actor ('the forerunner preaches the road'); the abstract 'repentance is the leveling of valleys' becomes the verb 'Repentance levels the valleys'. Citation Isaiah 40:3 carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-12-7",
+      "field": "principle",
+      "after": "Mercy over sacrifice, again from Hosea. The guiltless are condemned by men who love ritual. First principle: the Sabbath and sacrament serve mercy. The Lord of the Sabbath shows which matter weighs more.",
+      "reason": "'ritualists' (jargon) -> 'men who love ritual'; 'defines the weightier matter' (abstract) -> 'shows which matter weighs more'. The em-dash and the semicolon each became a full stop, so the four ideas now sit in four sentences. 'Mercy over sacrifice' and 'the Lord of the Sabbath' carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-11-10",
+      "field": "principle",
+      "after": "John is Malachi 3:1's messenger, and Jesus Himself says so. First principle: the prophecy about the forerunner puts the Messiah's arrival in history. Two figures, one written plan.",
+      "reason": "The passive 'identified by Jesus Himself' -> 'Jesus Himself says so'; 'the forerunner prophecy anchors the Messiah's arrival in history' -> 'the prophecy about the forerunner puts the Messiah's arrival in history', and the em-dash pair became a full stop. Citation Malachi 3:1 carried byte-identical; 'Two figures, one written plan' is already plain and is carried unchanged; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-5-27",
+      "field": "principle",
+      "after": "The seventh commandment reaches as far as a lustful look. First principle: God's binding promise governs the inner man. Purity of heart is the truest chastity.",
+      "reason": "'the look of lust' -> 'a lustful look'; 'the covenant law' is rendered with the frozen glossary wording for covenant ('God's binding promise'), and the semicolon pair is now two sentences. 'the inner man' and 'Purity of heart is the truest chastity' are already plain and are carried unchanged; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-4-7",
+      "field": "principle",
+      "after": "Jesus answers the second temptation with Deuteronomy 6:16, saying, It is written again. First principle: one Scripture answers another. Faith trusts God and does not demand that He prove Himself.",
+      "reason": "'Scripture balances Scripture' -> 'one Scripture answers another'; 'faith trusts God without forcing Him to prove Himself' -> 'does not demand that He prove Himself'. The em-dash and the semicolon each became a full stop. The unquoted KJV clause 'It is written again' and the citation Deuteronomy 6:16 are carried byte-identical; 'First principle:' kept verbatim."
+    },
+    {
+      "entryId": "mat-4-4",
+      "field": "principle",
+      "after": "Jesus answers temptation with Deuteronomy 8:3. Textual proof: each answer in the wilderness quotes Torah (Deut 8:3; 6:16; 6:13). Scripture has all the authority needed to answer the tempter.",
+      "reason": "'each wilderness answer' -> 'each answer in the wilderness'; 'the sufficient authority against the tempter' -> 'has all the authority needed to answer the tempter' (verb, everyday words). The citation list '(Deut 8:3; 6:16; 6:13)' is carried byte-identical, unexpanded and in the same order."
+    },
+    {
+      "entryId": "mat-1-23",
+      "field": "terms[0].note",
+      "after": "Isa 7:14 in the LXX has παρθένος. Matthew applies the same text to the birth of Jesus.",
+      "reason": "The em-dash joined two ideas in one 13-word sentence; it is now a full stop, and 'Jesus' birth' -> 'the birth of Jesus'. The citation token 'Isa 7:14' stays abbreviated and byte-identical, 'LXX' is kept, and the Greek παρθένος is carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-6",
+      "field": "terms[0].note",
+      "after": "Mic 5:2 calls it little among the thousands of Judah. It is still the source of a ruler.",
+      "reason": "The em-dash clause 'yet source of ruler' was a compressed fragment with no article; it is now a plain sentence, and the citation 'Mic 5:2' stays abbreviated and byte-identical. The KJV-linked span 'little among the thousands of Judah' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-4-4",
+      "field": "terms[0].note",
+      "after": "This phrase is settled OT text that still stands. Jesus used it as His pattern of proof.",
+      "reason": "The BEFORE note was a verbless fragment ('Settled, standing OT text — Jesus' pattern of proof'); it is now two plain sentences with a subject and verb, and the em-dash pair became a full stop. 'OT' stays abbreviated, and the claim (settled written Scripture; Jesus' way of proving His case) is unchanged."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "mat-5-8",
+      "field": "title",
+      "reason": "11 words, 1 sentence, 1 idea; everyday words in plain order and the gate passes. KJV Matthew 5:8 wording ('Blessed are the pure in heart: for they shall see God') is carried byte-identical — this is quoted Scripture, so I1 forbids rewording it."
+    },
+    {
+      "entryId": "mat-5-38",
+      "field": "title",
+      "reason": "11 words, 1 sentence, 1 idea, gate PASS. The KJV form 'An eye for an eye, and a tooth for a tooth' is carried byte-identical; any change would modernise quoted Scripture (I1)."
+    },
+    {
+      "entryId": "mat-2-2",
+      "field": "title",
+      "reason": "10 words, 1 sentence (a question), 1 idea, gate PASS. KJV Matthew 2:2 wording 'Where is he that is born King of the Jews?' is carried byte-identical; I1 forbids modernising it."
+    },
+    {
+      "entryId": "mat-4-16",
+      "field": "title",
+      "reason": "9 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 4:16 wording 'The people which sat in darkness saw great light' is carried byte-identical (including 'which')."
+    },
+    {
+      "entryId": "mat-5-5",
+      "field": "title",
+      "reason": "9 words, 1 sentence, 1 idea, gate PASS; everyday words, nothing to decode, already a title-case form of the KJV beatitude. Carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-17",
+      "field": "title",
+      "reason": "9 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 5:17 wording 'I am not come to destroy, but to fulfil' is carried byte-identical; touching it would modernise quoted Scripture."
+    },
+    {
+      "entryId": "mat-12-17",
+      "field": "title",
+      "reason": "9 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 12:17 wording 'That it might be fulfilled by Esaias the prophet' is carried byte-identical, including the KJV spelling 'Esaias'."
+    },
+    {
+      "entryId": "mat-1-1",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS; plain words naming the two covenant titles of Jesus. Carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-15",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Hosea 11:1 / Matthew 2:15 wording 'Out of Egypt have I called my son' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-3-3",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Isaiah 40:3 wording 'The voice of one crying in the wilderness' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-4-6",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Psalm 91:11 wording 'He shall give his angels charge concerning thee' is carried byte-identical; it is quoted Scripture in the tempter's mouth."
+    },
+    {
+      "entryId": "mat-4-7",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 4:7 / Deuteronomy 6:16 wording 'Thou shalt not tempt the Lord thy God' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-4-10",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 4:10 wording 'Thou shalt worship the Lord thy God, and him only shalt thou serve' is carried byte-identical in its title form."
+    },
+    {
+      "entryId": "mat-5-43",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. The title states the KJV command and the scribal addition ('Thou shalt love thy neighbour, and hate thine enemy') and is carried byte-identical; only the em-dash placement would move, which is punctuation-only and therefore not a rewrite."
+    },
+    {
+      "entryId": "mat-11-10",
+      "field": "title",
+      "reason": "8 words, 1 sentence, 1 idea, gate PASS. KJV Malachi 3:1 wording 'Behold, I send my messenger before thy face' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-6",
+      "field": "title",
+      "reason": "7 words, 1 sentence, 1 idea, gate PASS. KJV Micah 5:2 wording ('out of thee shall he come forth ... that is to be ruler') is carried byte-identical in its title form."
+    },
+    {
+      "entryId": "mat-4-14",
+      "field": "title",
+      "reason": "7 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 4:14 wording 'that it might be fulfilled by Esaias' is carried byte-identical, KJV spelling included."
+    },
+    {
+      "entryId": "mat-9-13",
+      "field": "title",
+      "reason": "7 words, 1 sentence, 1 idea, gate PASS. KJV Hosea 6:6 / Matthew 9:13 wording 'I will have mercy, and not sacrifice' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-12-7",
+      "field": "title",
+      "reason": "7 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 12:7 wording 'if ye had known what this meaneth' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-12-18",
+      "field": "title",
+      "reason": "7 words, 1 sentence, 1 idea, gate PASS. KJV Isaiah 42:1 / Matthew 12:18 wording 'Behold my servant, whom I have chosen' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-23",
+      "field": "title",
+      "reason": "6 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 2:23 wording 'He shall be called a Nazarene' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-3",
+      "field": "title",
+      "reason": "6 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 5:3 wording 'Blessed are the poor in spirit' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-1-23",
+      "field": "title",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. The name and its meaning are both stated plainly; only the em-dash could move, which would be punctuation-only. The Hebrew-derived name is carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-18",
+      "field": "title",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. KJV Jeremiah 31:15 wording 'Rachel weeping for her children' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-3-17",
+      "field": "title",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 3:17 wording 'This is my beloved Son' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-27",
+      "field": "title",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. KJV Exodus 20:14 / Matthew 5:27 wording 'Thou shalt not commit adultery' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-33",
+      "field": "title",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 5:33 wording 'Thou shalt not forswear thyself' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-5-21",
+      "field": "title",
+      "reason": "7 words over 2 terminator-split fragments, 1 idea, gate PASS. The two KJV fragments 'Ye have heard' and 'Thou shalt not kill' are carried byte-identical; the only available change is the ellipsis mark, which would be punctuation-only."
+    },
+    {
+      "entryId": "mat-8-17",
+      "field": "title",
+      "reason": "4 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 8:17 wording 'Himself took our infirmities' is carried byte-identical."
+    },
+    {
+      "entryId": "mat-4-4",
+      "field": "title",
+      "reason": "3 words, 1 sentence, 1 idea, gate PASS. KJV Matthew 4:4 wording 'It is written' is carried byte-identical; it is the term this entry defines."
+    },
+    {
+      "entryId": "mat-4-4",
+      "field": "terms[0].gloss",
+      "reason": "5 words, 1 sentence, 1 idea, gate PASS. This is the grammatical gloss of the Greek γέγραπται, and 'perfect' is the tense label the lexeme requires; rewording it would misstate the parse. Carried byte-identical."
+    },
+    {
+      "entryId": "mat-2-6",
+      "field": "terms[0].gloss",
+      "reason": "4 words, 1 sentence, 1 idea, gate PASS. It gives the literal sense of the Hebrew name בֵּית לֶחֶם אֶפְרָתָה; the words are already everyday words and must stay tied to the lemma, so it is carried byte-identical."
+    },
+    {
+      "entryId": "mat-1-23",
+      "field": "terms[0].gloss",
+      "reason": "2 words, 1 sentence, 1 idea, gate PASS. It is the literal gloss of the Hebrew עִמָּנוּ אֵל and matches the entry title; carried byte-identical, and any expansion would drift from the lemma."
+    }
+  ],
+  "equivalent": []
+}

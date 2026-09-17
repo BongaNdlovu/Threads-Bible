@@ -1,0 +1,75 @@
+{
+  "book": "phm",
+  "bookName": "Philemon",
+  "drafts": [
+    {
+      "entryId": "phm-1-9",
+      "field": "principle",
+      "after": "Paul appeals out of love. He writes as an old prisoner. First principle: for love's sake he sets his authority aside. The apostle pleads rather than commands, and his chains as a prisoner are the claim he brings.",
+      "reason": "“Love's appeal from an old prisoner” is a noun phrase, so it becomes two sentences with Paul as the actor. The passive abstraction “authority is laid down for love's sake” becomes “for love's sake he sets his authority aside”, “beseeches” becomes the everyday “pleads”, and the metaphor “the prisoner's chains are his credential” becomes “his chains as a prisoner are the claim he brings”. Every claim is kept: the apostle asks instead of commanding, and his chains are what he offers."
+    },
+    {
+      "entryId": "phm-1-25",
+      "field": "principle",
+      "after": "The shortest letter closes with a blessing of grace. First principle: what the spirit needs most is grace. Every wrong that is put right begins and ends with grace for the inner person.",
+      "reason": "The coined compound “grace-benediction” becomes “a blessing of grace”, and “grace with the spirit is the lasting need” is written as “what the spirit needs most is grace” — the same claim in plain word order. The em-dash chain is split, and “every wrong righted begins and ends in grace to the inner man” becomes “Every wrong that is put right begins and ends with grace for the inner person”, which keeps “begins and ends in grace” and replaces the dated “inner man” with “inner person”."
+    },
+    {
+      "entryId": "phm-1-18",
+      "field": "principle",
+      "after": "This is the sentence where Paul puts the debt on his own account. First principle: the whole gospel in one line. The debt is moved to the one who pleads for the debtor. Christ's account covers ours. Paul does the same thing here.",
+      "reason": "“The imputation sentence in a postcard” is a decode phrase, so it becomes a sentence saying what the sentence does: Paul puts the debt on his own account (the entry title's own words, “Put That on Mine Account”). “the gospel in miniature” becomes “the whole gospel in one line”, “debts transferred to the intercessor” becomes “The debt is moved to the one who pleads for the debtor” — which does not borrow the glossary rendering for Jesus' intercession, because the intercessor here is Paul — and the em-dash chain is split so “Christ's account absorbs ours” and “Paul practices it” are separate sentences."
+    },
+    {
+      "entryId": "phm-1-6",
+      "field": "principle",
+      "after": "Your faith becomes effective when you acknowledge every good thing that is in us in Christ. First principle: faith is shared when a person names what is in Christ. That is what gives the sharing its power.",
+      "reason": "“Effective faith acknowledges every good thing in us in Christ” becomes a second-person sentence about the reader's own faith, with “becomes effective when” supplying the plain word order the source's KJV phrasing implies. “faith communicates by acknowledging” becomes “faith is shared when a person names what is in Christ”, and the jargon verb “energizes” becomes “gives the sharing its power”. The two claims — acknowledgement, and the sharing it empowers — are both kept."
+    },
+    {
+      "entryId": "phm-1-10",
+      "field": "principle",
+      "after": "Paul led the runaway to new birth while he himself was in chains. First principle: God writes conversion stories in prison cells. The man who was useless became useful through the chained apostle.",
+      "reason": "“The runaway begotten in bonds” is a fragment, so it becomes a sentence naming Paul as the one who led him to new birth, with “begotten” written as “led ... to new birth” and “bonds” as “chains”. “providence writes conversion stories in prison cells” is kept with the actor named as God instead of the abstraction “providence”, and the wordplay “the useless made useful by the chained apostle” becomes a complete sentence with the man as its subject."
+    },
+    {
+      "entryId": "phm-1-15",
+      "field": "principle",
+      "after": "Perhaps he departed for a season so that thou shouldest receive him for ever. First principle: God looks at a departure and sees a return. Receiving him for ever changes how you see the season you lost.",
+      "reason": "The source's fragment “Perhaps — that thou shouldest receive him for ever” becomes a sentence, with “he departed for a season” supplied from the entry's own title (“He Therefore Departed for a Season”); the clause “thou shouldest receive him for ever” is carried word for word and left unquoted. “providence reads departures as returns” becomes “God looks at a departure and sees a return” — the actor named, the image kept — and the coined “forever-reception reframes the season of loss” becomes “Receiving him for ever changes how you see the season you lost”."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "phm-1-9",
+      "field": "title",
+      "reason": "11 words, one KJV clause, gate PASS; the KJV wording of Philemon 9 is carried byte-identical."
+    },
+    {
+      "entryId": "phm-1-25",
+      "field": "title",
+      "reason": "11 words, one KJV clause, gate PASS; the KJV wording of Philemon 25 is carried byte-identical."
+    },
+    {
+      "entryId": "phm-1-18",
+      "field": "title",
+      "reason": "10 words, one KJV clause, gate PASS; the KJV wording of Philemon 18 is carried byte-identical, “hath” and “thee” included — this is Scripture and is not modernised."
+    },
+    {
+      "entryId": "phm-1-6",
+      "field": "title",
+      "reason": "8 words, one KJV clause, gate PASS; the KJV wording of Philemon 6 is carried byte-identical — “communication” and “effectual” are Scripture's words here, and the plain rendering of the same claim sits in this entry's principle."
+    },
+    {
+      "entryId": "phm-1-10",
+      "field": "title",
+      "reason": "7 words, one KJV clause, gate PASS; the KJV wording of Philemon 10 is carried byte-identical, the name Onesimus untouched."
+    },
+    {
+      "entryId": "phm-1-15",
+      "field": "title",
+      "reason": "6 words, one KJV clause, gate PASS; the KJV wording of Philemon 15 is carried byte-identical."
+    }
+  ],
+  "equivalent": []
+}

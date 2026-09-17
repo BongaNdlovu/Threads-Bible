@@ -1,0 +1,492 @@
+{
+  "book": "2ti",
+  "bookName": "2 Timothy",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 14,
+    "entryStrings": 32,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2ti-1-10",
+    "2ti-1-12",
+    "2ti-1-9",
+    "2ti-2-12",
+    "2ti-2-19",
+    "2ti-2-8",
+    "2ti-3-1",
+    "2ti-3-12",
+    "2ti-3-15",
+    "2ti-3-16",
+    "2ti-3-8",
+    "2ti-4-1",
+    "2ti-4-18",
+    "2ti-4-8"
+  ],
+  "fields": [
+    {
+      "entryId": "2ti-1-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Saved by purpose and grace, not works — the grace predates time. First principle: pre-creation grace in Christ Jesus is the ground of the present holy calling; Ephesians 1 and 2 Timothy 1 handshake across the canon.",
+      "density": 2.3536,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-3-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit's forecast of savage seasons. First principle: perilous times are listed, not lamented — nineteen traits follow, and the forecast is itself the comfort that none of it is off-script.",
+      "density": 2.2036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Deliverance from every evil work, preservation to the kingdom, glory forever. First principle: the final rescue is preservation through, not exemption from — unto the heavenly kingdom is the destination of the delivered.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-2-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Suffering-reign and denial-denial are twin laws. First principle: the throne has an entry exam written in endurance; denial has its own symmetry, but the faithful Lord is faithful still.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-3-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The universal suffering law of godliness. First principle: persecution is not an exception clause — it is the promised climate; Jesus told His own the world hated Him first.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-1-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Persuaded He can keep the deposit against that day. First principle: assurance is personal — not what I believe but whom; the deposit is kept by the Keeper against the Day.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-4-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The righteous Judge gives the crown to all who love His appearing. First principle: the crown is laid up, not won — given at that day by the righteous Judge to appearing-lovers everywhere.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-2-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The double seal: the Lord knows His own; namers of the name depart from iniquity. First principle: election and ethics are sealed together — known by God, departing from sin; Numbers' rebellion is the backdrop.",
+      "density": 2.0179,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-3-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Childhood scripture knowledge aims at salvation through faith. First principle: the Scriptures are salvifically sufficient as far as Christ — the sacred letters point to the faith that saves.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The gospel in one line: Davidic Seed, risen. First principle: the resurrection proves the royal line kept its promise — Romans 1's thesis compressed for a suffering missionary.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I charge you before God and Christ Jesus who shall judge the quick and the dead at His appearing. First principle: ministry is accountable to the returning Judge.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The appearing of the Savior illuminated the abolished death. First principle: the gospel switches the light on immortality — Isaiah's swallowed-up death is now an abolished one, revealed.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The unnamed Egyptian magicians are named here — counterfeit workers resist truth. First principle: Moses had his magicians; the last days have theirs — corrupt minds replicate the opposition pattern.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All Scripture is given by inspiration of God and is profitable. First principle: the written Word is the Spirit's breath — authoritative, sufficient, and equipping.",
+      "density": 1.425,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2ti-1-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Called with an Holy Calling, Given Us in Christ Before the World Began",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Jesus Christ of the Seed of David Was Raised from the Dead",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-3-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Holy Scriptures, Which Are Able to Make Thee Wise unto Salvation",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Acts 10:42; 1 Pet 4:5 — universal judicial authority of Christ.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "quick and the dead",
+        "original": "ζώντων καὶ νεκρῶν",
+        "translit": "zōntōn kai nekrōn",
+        "strongs": null,
+        "gloss": "the living and the dead",
+        "note": "Acts 10:42; 1 Pet 4:5 — universal judicial authority of Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2ti-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Hath Abolished Death, and Brought Life and Immortality to Light",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-2-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If We Suffer, We Shall Also Reign with Him",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-2-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Foundation of God Standeth Sure, Having This Seal",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Shall Preserve Me unto His Heavenly Kingdom",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-3-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Last Days Perilous Times Shall Come",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-3-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All That Will Live Godly Shall Suffer Persecution",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-4-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Crown of Righteousness Laid Up for Me",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Unique NT word; root pneuma — Spirit.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "inspiration",
+        "original": "θεόπνευστος",
+        "translit": "theopneustos",
+        "strongs": null,
+        "gloss": "God-breathed / breathed out by God",
+        "note": "Unique NT word; root pneuma — Spirit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2ti-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Now as Jannes and Jambres Withstood Moses",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "God-breathed / breathed out by God",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "inspiration",
+        "original": "θεόπνευστος",
+        "translit": "theopneustos",
+        "strongs": null,
+        "gloss": "God-breathed / breathed out by God",
+        "note": "Unique NT word; root pneuma — Spirit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Judge the Quick and the Dead",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-1-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Know Whom I Have Believed",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2ti-4-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the living and the dead",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "quick and the dead",
+        "original": "ζώντων καὶ νεκρῶν",
+        "translit": "zōntōn kai nekrōn",
+        "strongs": null,
+        "gloss": "the living and the dead",
+        "note": "Acts 10:42; 1 Pet 4:5 — universal judicial authority of Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2ti-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Scripture God-Breathed",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

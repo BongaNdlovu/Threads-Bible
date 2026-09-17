@@ -1,0 +1,514 @@
+{
+  "book": "ezr",
+  "bookName": "Ezra",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 6,
+    "entryStrings": 14,
+    "chainStrings": 17,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "ezr-1-2",
+    "ezr-1-3",
+    "ezr-6-14",
+    "ezr-7-10",
+    "ezr-7-11",
+    "ezr-9-9"
+  ],
+  "fields": [
+    {
+      "entryId": "ezr-7-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Artaxerxes I issues the comprehensive decree to Ezra granting full authority to restore and rebuild Jerusalem, appointing magistrates and restoring the laws of God. This decree in 457 BC (the autumn of Artaxerxes' 7th regnal year) marks the undeniable chronological starting point for both the 70 weeks of Daniel 9:25 and the 2,300 days of Daniel 8:14. First principle: biblical prophecy is rooted in verifiable history; the exact dating of the Messiah's first advent confirms the timeline for the cleansing of the heavenly sanctuary.",
+      "density": 3.9857,
+      "words": 84,
+      "sentences": 3,
+      "maxSentenceWords": 33,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Daniel 9:25",
+          "Daniel 8:14"
+        ]
+      }
+    },
+    {
+      "entryId": "ezr-9-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mercy before Persian kings: reviving, house-raising, a wall in Judah. First principle: grace gives reviving and repair — the forsaken people rebuilt with a wall and a worship.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezr-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Cyrus's own confession of the charge. First principle: the God of heaven steers the greatest empire's decree — Isaiah had named Cyrus generations earlier.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezr-6-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Prospering through Haggai and Zechariah's prophesying; three kings funding. First principle: the building finishes by Word plus decree — prophets preach, kings pay, elders build.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezr-7-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Seek, do, teach — the prepared-heart sequence. First principle: the scribe's triad is the ministry's order — seeking precedes doing, doing precedes teaching.",
+      "density": 1.4893,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezr-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The go-up license for all His people. First principle: the decree frees whoever wills — the return is voluntary, funded, and prophesied.",
+      "density": 1.4071,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "ezr-7-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ezra 7:11-26 contains the full legal text restoring Jewish judicial autonomy in 457 BC.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "decree / letter",
+        "original": "פַּתְשֶׁגֶן הַנִּשְׁתְּוָן",
+        "translit": "patshegen han-nishtevan",
+        "strongs": null,
+        "gloss": "copy of the letter / royal decree (Aramaic/Persian)",
+        "note": "Ezra 7:11-26 contains the full legal text restoring Jewish judicial autonomy in 457 BC.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "ezr-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD God of Heaven Hath Charged Me to Build Him an House",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-7-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Decree of Artaxerxes (457 BC) — Dating the Messiah and 2,300 Days",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His God Be with Him, and Let Him Go Up",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-6-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Builded and Finished It, According to the Commandment",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-7-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ezra Had Prepared His Heart to Seek the Law",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-9-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Our God Hath Not Forsaken Us in Our Bondage",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "ezr-7-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "copy of the letter / royal decree (Aramaic/Persian)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "decree / letter",
+        "original": "פַּתְשֶׁגֶן הַנִּשְׁתְּוָן",
+        "translit": "patshegen han-nishtevan",
+        "strongs": null,
+        "gloss": "copy of the letter / royal decree (Aramaic/Persian)",
+        "note": "Ezra 7:11-26 contains the full legal text restoring Jewish judicial autonomy in 457 BC.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Calculation: 457 BC + 483 years brings exactly to 27 AD.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "27 AD: Jesus baptized and anointed with the Holy Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 3:1, 21-23",
+        "verseId": "luk-3-1",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Midst of the week: cause sacrifice and oblation to cease",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:27",
+        "verseId": "dan-9-27",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "31 AD: Temple veil rent in twain at crucifixion",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:51",
+        "verseId": "mat-27-51",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Decree of Artaxerxes to restore Jerusalem (457 BC)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezra 7:11-26",
+        "verseId": "ezr-7-11",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Unto Messiah the Prince: 69 weeks (483 years)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:25",
+        "verseId": "dan-9-25",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary death of the Anointed One foretold.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "34 AD: Stephen stoned; gospel sent to Gentiles",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 7:54-60",
+        "verseId": "act-7-54",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Messiah cut off, but not for Himself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:26",
+        "verseId": "dan-9-26",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "2. The 70 Weeks: Dating the Messiah",
+      "density": 0.5179,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Seventy weeks determined upon thy people",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24",
+        "verseId": "dan-9-24",
+        "chainName": "2. The 70 Weeks: Dating the Messiah"
+      }
+    }
+  ]
+}

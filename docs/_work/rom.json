@@ -1,0 +1,2773 @@
+{
+  "book": "rom",
+  "bookName": "Romans",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 67,
+    "entryStrings": 162,
+    "chainStrings": 17,
+    "gateFails": 2
+  },
+  "entryIds": [
+    "rom-1-16",
+    "rom-1-17",
+    "rom-1-2",
+    "rom-1-20",
+    "rom-1-3",
+    "rom-1-4",
+    "rom-10-11",
+    "rom-10-13",
+    "rom-10-15",
+    "rom-10-16",
+    "rom-10-18",
+    "rom-10-19",
+    "rom-10-20",
+    "rom-10-21",
+    "rom-10-5",
+    "rom-10-6",
+    "rom-11-10",
+    "rom-11-26",
+    "rom-11-27",
+    "rom-11-3",
+    "rom-11-8",
+    "rom-11-9",
+    "rom-12-19",
+    "rom-14-11",
+    "rom-15-10",
+    "rom-15-11",
+    "rom-15-12",
+    "rom-15-21",
+    "rom-15-3",
+    "rom-15-9",
+    "rom-16-20",
+    "rom-16-25",
+    "rom-16-26",
+    "rom-3-10",
+    "rom-3-13",
+    "rom-3-15",
+    "rom-3-18",
+    "rom-3-20",
+    "rom-3-21",
+    "rom-3-25",
+    "rom-4-13",
+    "rom-4-17",
+    "rom-4-18",
+    "rom-4-25",
+    "rom-4-3",
+    "rom-5-12",
+    "rom-5-14",
+    "rom-5-15",
+    "rom-5-19",
+    "rom-6-23",
+    "rom-6-3",
+    "rom-8-11",
+    "rom-8-29",
+    "rom-8-3",
+    "rom-8-32",
+    "rom-8-34",
+    "rom-9-12",
+    "rom-9-13",
+    "rom-9-15",
+    "rom-9-17",
+    "rom-9-25",
+    "rom-9-26",
+    "rom-9-27",
+    "rom-9-29",
+    "rom-9-33",
+    "rom-9-7",
+    "rom-9-9"
+  ],
+  "fields": [
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Know ye not, that so many of us as were baptized into Jesus Christ were baptized into His death? Therefore we are buried with Him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life. Biblical baptism requires immersion in water, symbolizing death to the old life and resurrection into spiritual power.",
+      "density": 3.8571,
+      "words": 72,
+      "sentences": 3,
+      "maxSentenceWords": 36,
+      "gate": "FAIL",
+      "violations": [
+        "36 words (max 35): \"Therefore we are buried with Him by baptism into death: that like as Christ was raised up …\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe. Justification is entirely a gift of divine grace through the redemption that is in Christ Jesus, received by faith and credited to the believer.",
+      "density": 3.8036,
+      "words": 63,
+      "sentences": 2,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"But now the righteousness of God without the law is manifested, being witnessed by the law…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The gospel saves every believer, Jew first and also Greek. First principle: Isaiah 49's light to the nations is the gospel's scope — power for anyone who believes, shame for no one who preaches it.",
+      "density": 2.3036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The gospel was promised before through the prophets in holy scriptures. First principle: the good news is not a new invention but an old promise — the Son announced in David's line and David's throne.",
+      "density": 2.2464,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-16-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "By prophetic scriptures the mystery goes to all nations. First principle: the promise to Abraham, the light of Isaiah, and the command of the everlasting God converge — one obedience of faith, worldwide.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 28's foundation Stone carries a promise: no shame for the believer. First principle: the Stone laid in Zion secures the unhurried — he that believeth shall not make haste, nor be put to flight.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-8-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He who did not spare His own Son, but delivered Him up for us all. First principle: the cross is the measure of God's generosity — if He gave the Son, He will freely give all things.",
+      "density": 2.1821,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-15-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah: there shall be a root of Jesse, and He that shall rise to reign over the Gentiles; in Him shall the Gentiles trust. First principle: Gentile hope is Davidic and messianic.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Creation reveals the invisible God so that unbelief is without excuse. First principle: the heavens declare — general revelation leaves no atheist safe, and the written law leaves no conscience clean apart from Christ.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalmist's verdict is universalized: none righteous, none seeketh after God. First principle: the doctrine of universal sin is not Paul's opinion — it is a catena of Scripture gathered against the whole world.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A hundred-year-old man embraces So shall thy seed be. First principle: hope against hope is still hope on the Word — the stars of Genesis 15 remain the measure of the promise.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The word of promise came with a divine timetable. First principle: God's promises come with God's seasons — the impossible birth at the appointed time is the pattern of the Incarnation itself.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-4-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God calls things that are not as though they were — Abraham believed the Life-giver. First principle: faith trusts the finished speech of God; the title father of nations was given before the first child existed.",
+      "density": 2.1,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses at the cleft learns God's sovereign compassion. First principle: mercy by definition cannot be owed — it is God's free self-disclosure, the glory He showed Moses and shows in Christ.",
+      "density": 2.0893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 65's bold paradox: found by non-seekers, manifest to the unasking. First principle: grace initiates — the God found by Gentiles who never sought Him is the scandal and glory of the gospel.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 53's opening lament is quoted of Israel's unbelief. First principle: the report has been published in every generation — and the arm of the LORD is revealed only to faith.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-15-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 117 — the shortest psalm, the widest invitation. First principle: two verses summon the whole world to praise; the mercy toward us is great, and it is universal in reach.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-8-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No condemnation stands while the risen Christ intercedes at God's right hand. First principle: the defense in the courtroom of heaven is the Lamb who died — Psalm 110 enthroned, Isaiah 53 interceding.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "To Israel: outstretched hands met disobedience and contradiction. First principle: rejection is not the failure of God's patience but the abuse of it — the hands stayed open all day.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-4-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Abraham's promise of world-inheritance came apart from law, through faith. First principle: the land promise was always a down payment on a worldwide inheritance — received by believing, not by lawkeeping.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-8-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "What the law could not do, God did by sending His own Son in the likeness of sinful flesh. First principle: the law diagnoses but cannot cure; the incarnate Son condemns sin in the flesh.",
+      "density": 1.9607,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-6-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sin pays death; God gives eternal life through Christ. First principle: two economies — earned wages versus unearned gift — and the gift wins because another earned it for us.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 19's creation-sermon is applied to the gospel's reach. First principle: as the heavens needed no interpreter, so the gospel voice travels — the question is not hearing but heeding.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 59's indictment of feet running to evil is applied to all. First principle: violence is the visible fruit of inner ruin — the feet are swift because the heart is far.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 36's final diagnosis: unbelief is not intellectual failure but moral rebellion. First principle: the root of sin is the absence of reverent fear — every other sin grows from this soil.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-8-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit who raised Jesus will resurrect believers. First principle: Ezekiel's dry-bones question is answered by the indwelling Spirit — the same power that raised Christ will raise you.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 69:23 continues: bowing backs and darkened eyes. First principle: the imprecation shows the cost of spurning the suffering King — spiritual sight is forfeited where He is refused.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-15-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 18 is cited as Gentile praise foretold. First principle: the mercy shown to Israel was always designed for Gentile song — David's victory psalm becomes the nations' doxology.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Psalms catalogue sinful speech: deceitful tongues, asp poison, cursing lips. First principle: sin is most audible in the mouth — the anatomy of guilt is drawn from Israel's own hymnbook.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-4-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 53's transactions are summarized in two clauses: delivered and raised. First principle: the cross pays the debt; the resurrection announces the receipt — justification is certified by an empty tomb.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Raised from the dead, Jesus is marked out as Son with power — Psalm 2's decree enacted. First principle: the resurrection is the public investiture of the Son; the seed of David is demonstrated Lord.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-5-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Death reigned from Adam, a pattern pointing forward to Christ. First principle: history splits into two headships — in Adam all die; the second Adam headships a race of life.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All Israel's salvation is anchored in the coming Redeemer who turns away ungodliness. First principle: the covenant's climax is not ethnicity but Deliverance personified — the go'el from Zion, as Isaiah wrote.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Abraham's children are counted through promise, not merely flesh. First principle: the covenant line runs by election and faith — Isaac, not Ishmael, carries the seed of the world-blessing.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses' song warns Israel with a foolish nation's favor. First principle: jealousy-provoking grace is an old covenant tool — Gentile blessing is the sermon Israel was told to expect.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-15-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ pleased not Himself — Psalm 69's insults land on the Servant. First principle: the self-pleasing One absorbed reproach for others; strong believers bear with the weak in the same pattern.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-5-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "By one man sin entered the world, and death by sin. First principle: Adam's fall is federal — death passes to all; Christ's obedience is likewise federal for the many.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No flesh is justified by deeds of the law — the law diagnoses, it does not cure. First principle: the law is a mirror, not a launderer; righteousness must come from another quarter entirely.",
+      "density": 1.8214,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-5-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Adam's disobedience versus Christ's obedience unto death. First principle: salvation is headship exchange — the many are counted righteous because the One was obedient in their place.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-16-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The doxology reveals a mystery long hidden — the preaching of Jesus Christ. First principle: the gospel is the unsealed secret; what the ages whispered in types is now announced plainly.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hosea's Lo-ammi reversal is quoted for Gentile grace. First principle: the God who renames the unloved is still renaming — not-my-people become sons of the living God.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Without divine reserve, Israel would be as Sodom. First principle: a saved seed is mercy's evidence — what remains is what grace left, not what man preserved.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Elijah's complaint is quoted in Romans' remnant argument. First principle: even when faith feels extinct, God keeps a reserve of seven thousand — despondency misreads the census.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-15-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses' final song commands Gentile joy alongside Israel. First principle: the Song of Moses already imagined Jew and Gentile rejoicing together — the church is that reunion.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Malachi's later words are cited as God's settled choice across generations. First principle: election is God's love set before desert — Jacob's line carries the Messiah, whatever Esau's prosperity.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Deuteronomy 30's near word is read of Christ — no climb, no descent required. First principle: righteousness by faith is proximity, not pilgrimage; the Word is near, in mouth and heart.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 52's mountain-runner is the gospel preacher. First principle: glad tidings require sent feet — the beauty is in the message carried, not the messenger's merit.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Pharaoh's hardened throne served the declaration of God's name in all the earth. First principle: even opposition is harnessed — God's power is displayed through the rulers who refuse Him.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-16-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 3:15 closes the epistle: the serpent-crushing promise turns to believers' feet, shortly. First principle: the Seed's victory becomes the church's participation — peace with God ends in Satan underfoot.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 3:15"
+        ]
+      }
+    },
+    {
+      "entryId": "rom-15-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 52:15 justifies Paul's pioneer preaching to unreached regions. First principle: mission strategy follows prophecy — the message moves toward those who have never heard His name.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 52:15"
+        ]
+      }
+    },
+    {
+      "entryId": "rom-9-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah's cry: though Israel be as the sand, only a remnant returns. First principle: salvation is never statistical — the promise survives in the remnant God keeps for Himself.",
+      "density": 1.6964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-8-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The predestined are conformed to the image of God's Son. First principle: Psalm 89's firstborn title belongs to Christ, and salvation's goal is family resemblance to Him.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses describes law-righteousness: do and live. First principle: the law offers life to perfect performance — a standard that indicts, because none has performed.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In the very place of rejection, adoption is proclaimed. First principle: Hosea's geography of grace — the same ground of unbelief becomes the ground of belonging.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-12-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Believers renounce self-vengeance and yield to God's written prerogative. First principle: justice delegated is justice secured — the Song of Moses assigns repayment to God alone.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah's judicial sleep and David's table-snare are joined. First principle: continued refusal invites given blindness — eyes that close themselves are finally closed for them.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The gospel concerns God's Son, born of the seed of David. First principle: messiahship is historically rooted in the Davidic covenant, not invented in the apostolic age.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 59 and Jeremiah 31 are fused: covenant equals sin removed. First principle: the new covenant's charter is forgiveness written in hearts — the Deliverer's one achievement.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-3-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ Jesus, whom God set forth as a propitiation through faith in His blood. First principle: the cross is the new mercy seat where God's justice and mercy meet.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-14-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 45's universal oath grounds mutual forbearance — we will all stand before God. First principle: the coming universal confession makes judging one another unnecessary; the Judge is certain.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The righteousness of God is revealed from faith to faith: the just shall live by faith. First principle: Habakkuk's word becomes the structural key of Romans.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-5-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One offense brought death; one Man's gift abounds to many. First principle: grace is not symmetry but superabundance — what the fall lost, the gift outweighs.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-11-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 69's imprecation lands on the rejectors of the Messiah. First principle: prosperity without faith becomes a trap — the table itself can catch the ungrateful.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Rebekah's twins carry the election pattern. First principle: God's choice runs against birth order and human expectation — grace is sovereign over seniority.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-9-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Whoever believes on Him shall not be ashamed — but the stone of stumbling. First principle: Christ is either foundation or crusher; there is no neutral response.",
+      "density": 1.475,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-4-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Abraham believed God and it was counted to him for righteousness. First principle: justification precedes circumcision, law, and works — it is by faith.",
+      "density": 1.3429,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-10-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Whoever shall call on the name of the Lord shall be saved. First principle: Joel's last-days promise is fulfilled in gospel proclamation.",
+      "density": 1.2357,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rom-1-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hab 2:4 quoted three times in the NT (Rom 1:17; Gal 3:11; Heb 10:38).",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "just shall live by faith",
+        "original": "ὁ δίκαιος ἐκ πίστεως ζήσεται",
+        "translit": "ho dikaios ek pisteōs zēsetai",
+        "strongs": null,
+        "gloss": "the righteous by faith shall live",
+        "note": "Hab 2:4 quoted three times in the NT (Rom 1:17; Gal 3:11; Heb 10:38).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-8-32",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Deliberate echo of Gen 22:12 LXX — Abraham did not spare his son.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "did not spare",
+        "original": "οὐκ ἐφείσατο",
+        "translit": "ouk epheisato",
+        "strongs": null,
+        "gloss": "he did not spare",
+        "note": "Deliberate echo of Gen 22:12 LXX — Abraham did not spare his son.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-9-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "At This Time Will I Come, and Sara Shall Have a Son",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Provoke You to Jealousy by Them That Are No People",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-1-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Same thread as Gen 3:15 / 22:18 / 2 Sam 7.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seed",
+        "original": "σπέρμα",
+        "translit": "sperma",
+        "strongs": null,
+        "gloss": "seed, descendant",
+        "note": "Same thread as Gen 3:15 / 22:18 / 2 Sam 7.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "LXX for the kapporet of Exod 25:17 — the ark's cover.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "propitiation",
+        "original": "ἱλαστήριον",
+        "translit": "hilastērion",
+        "strongs": null,
+        "gloss": "mercy seat / means of propitiation",
+        "note": "LXX for the kapporet of Exod 25:17 — the ark's cover.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-9-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Call Them My People, Which Were Not My People",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is My Covenant, When I Shall Take Away Their Sins",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-16-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Revelation of the Mystery Kept Secret Since the World Began",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Sent His Son in the Likeness of Sinful Flesh",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "being declared righteous as a free gift / without cost",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "justified freely",
+        "original": "δικαιούμενοι δωρεάν",
+        "translit": "dikaioumenoi dōrean",
+        "strongs": null,
+        "gloss": "being declared righteous as a free gift / without cost",
+        "note": "Reflects unmerited grace unearned by human works.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Requires full immersion in water to signify burial and resurrection.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "baptized / immersed",
+        "original": "ἐβαπτίσθημεν",
+        "translit": "ebaptisthēmen",
+        "strongs": null,
+        "gloss": "we were submerged / immersed / plunged under",
+        "note": "Requires full immersion in water to signify burial and resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-5-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Adam Is the Figure of Him That Was to Come",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-5-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By the Obedience of One Shall Many Be Made Righteous",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Raised Up Christ Shall Quicken Your Mortal Bodies",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Have Mercy on Whom I Will Have Mercy",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Even for This Same Purpose Have I Raised Thee Up",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Except the Lord of Sabaoth Had Left Us a Seed",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Man Which Doeth Those Things Shall Live by Them",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Say Not in Thine Heart, Who Shall Ascend into Heaven?",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Reproaches of Them That Reproached Thee Fell on Me",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Whom He Was Not Spoken of, They Shall See",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-16-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The God of Peace Shall Bruise Satan Under Your Feet",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-16-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made Known to All Nations for the Obedience of Faith",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Joel 2:32 applied to Jesus in Acts 2:21, 16:31.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "name of the Lord",
+        "original": "ὄνομα κυρίου",
+        "translit": "onoma kyriou",
+        "strongs": null,
+        "gloss": "the name of the Lord (YHWH)",
+        "note": "Joel 2:32 applied to Jesus in Acts 2:21, 16:31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Imputed and imparted status of right standing before God.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "righteousness of God",
+        "original": "δικαιοσύνη θεοῦ",
+        "translit": "dikaiosynē theou",
+        "strongs": null,
+        "gloss": "righteousness from God / divine vindication",
+        "note": "Imputed and imparted status of right standing before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Buried in Baptism — United with Christ in Resurrection",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Heir of the World Through the Righteousness of Faith",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Father of Many Nations Have I Made Thee",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ That Died, Yea Rather, That Is Risen Again",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Jacob Have I Loved, but Esau Have I Hated",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "How Beautiful Are the Feet of Them That Preach",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Was Found of Them That Sought Me Not",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Day Long I Have Stretched Forth My Hands",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Have Killed Thy Prophets; I Am Left Alone",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Real humanity without being under sin's mastery (cf. Phil 2:7).",
+      "density": 0.7071,
+      "words": 10,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "likeness of sinful flesh",
+        "original": "ἐν ὁμοιώματι σαρκὸς ἁμαρτίας",
+        "translit": "en homoiōmati sarkos hamartias",
+        "strongs": null,
+        "gloss": "in the likeness of flesh of sin",
+        "note": "Real humanity without being under sin's mastery (cf. Phil 2:7).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-4-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "LXX Gen 15:6 — same verb as Genesis.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "counted",
+        "original": "ἐλογίσθη",
+        "translit": "elogisthē",
+        "strongs": null,
+        "gloss": "it was credited / reckoned",
+        "note": "LXX Gen 15:6 — same verb as Genesis.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-5-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Parallel to 1 Cor 15:21-22 — Adam/Christ contrast.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "entered",
+        "original": "εἰσῆλθεν",
+        "translit": "eisēlthen",
+        "strongs": null,
+        "gloss": "entered / came in",
+        "note": "Parallel to 1 Cor 15:21-22 — Adam/Christ contrast.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-15-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Root of Jesse — In Him Gentiles Trust",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 11:1, 10 — same as Rev 22:16.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "root of Jesse",
+        "original": "ἡ ῥίζα τοῦ Ἰεσσαί",
+        "translit": "hē riza tou Iessai",
+        "strongs": null,
+        "gloss": "the root of Jesse",
+        "note": "Isa 11:1, 10 — same as Rev 22:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Righteousness of God Manifested Without the Law",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "we were submerged / immersed / plunged under",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "baptized / immersed",
+        "original": "ἐβαπτίσθημεν",
+        "translit": "ebaptisthēmen",
+        "strongs": null,
+        "gloss": "we were submerged / immersed / plunged under",
+        "note": "Requires full immersion in water to signify burial and resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "The resurrected life energized by the Holy Spirit.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "newness of life",
+        "original": "καινότητι ζωῆς",
+        "translit": "kainotēti zōēs",
+        "strongs": null,
+        "gloss": "fresh quality of divine life",
+        "note": "The resurrected life energized by the Holy Spirit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-1-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Declared the Son of God by the Resurrection",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-1-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Eternal Power and Godhead Are Clearly Seen",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-3-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By the Law Is the Knowledge of Sin",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Delivered for Our Offences, Raised for Our Justification",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-5-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Much More the Grace of God Hath Abounded",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whosoever Believeth on Him Shall Not Be Ashamed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Hath Given Them the Spirit of Slumber",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Shall Come out of Sion the Deliverer",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-14-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Knee Shall Bow, Every Tongue Shall Confess",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Confess to Thee among the Gentiles",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Seed of David According to the Flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "in the likeness of flesh of sin",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "likeness of sinful flesh",
+        "original": "ἐν ὁμοιώματι σαρκὸς ἁμαρτίας",
+        "translit": "en homoiōmati sarkos hamartias",
+        "strongs": null,
+        "gloss": "in the likeness of flesh of sin",
+        "note": "Real humanity without being under sin's mastery (cf. Phil 2:7).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-8-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Did Not Spare His Own Son",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-33",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 8:14; 28:16 combined; 1 Pet 2:6-8.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "stumbling stone",
+        "original": "λίθος προσκόμματος",
+        "translit": "lithos proskommatos",
+        "strongs": null,
+        "gloss": "stone of stumbling",
+        "note": "Isa 8:14; 28:16 combined; 1 Pet 2:6-8.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Reflects unmerited grace unearned by human works.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "justified freely",
+        "original": "δικαιούμενοι δωρεάν",
+        "translit": "dikaioumenoi dōrean",
+        "strongs": null,
+        "gloss": "being declared righteous as a free gift / without cost",
+        "note": "Reflects unmerited grace unearned by human works.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Is None Righteous, No, Not One",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-3-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "No Fear of God Before Their Eyes",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Isaac Shall Thy Seed Be Called",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Sound Went into All the Earth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Their Table Be Made a Snare",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-1-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the righteous by faith shall live",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "just shall live by faith",
+        "original": "ὁ δίκαιος ἐκ πίστεως ζήσεται",
+        "translit": "ho dikaios ek pisteōs zēsetai",
+        "strongs": null,
+        "gloss": "the righteous by faith shall live",
+        "note": "Hab 2:4 quoted three times in the NT (Rom 1:17; Gal 3:11; Heb 10:38).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "mercy seat / means of propitiation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "propitiation",
+        "original": "ἱλαστήριον",
+        "translit": "hilastērion",
+        "strongs": null,
+        "gloss": "mercy seat / means of propitiation",
+        "note": "LXX for the kapporet of Exod 25:17 — the ark's cover.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-10-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the name of the Lord (YHWH)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "name of the Lord",
+        "original": "ὄνομα κυρίου",
+        "translit": "onoma kyriou",
+        "strongs": null,
+        "gloss": "the name of the Lord (YHWH)",
+        "note": "Joel 2:32 applied to Jesus in Acts 2:21, 16:31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "righteousness from God / divine vindication",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "righteousness of God",
+        "original": "δικαιοσύνη θεοῦ",
+        "translit": "dikaiosynē theou",
+        "strongs": null,
+        "gloss": "righteousness from God / divine vindication",
+        "note": "Imputed and imparted status of right standing before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-1-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Power of God unto Salvation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Throat Is an Open Sepulchre",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-6-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Wages of Sin Is Death",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Elder Shall Serve the Younger",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lord, Who Hath Believed Our Report?",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-12-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Vengeance Is Mine; I Will Repay",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rejoice, Ye Gentiles, with His People",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-15-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Praise the Lord, All Ye Gentiles",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-1-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Justification by Faith from Habakkuk",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "it was credited / reckoned",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "counted",
+        "original": "ἐλογίσθη",
+        "translit": "elogisthē",
+        "strongs": null,
+        "gloss": "it was credited / reckoned",
+        "note": "LXX Gen 15:6 — same verb as Genesis.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-5-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Sin Entered Through One Man",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-10-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whoever Calls on the Name",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-6-3",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "fresh quality of divine life",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "newness of life",
+        "original": "καινότητι ζωῆς",
+        "translit": "kainotēti zōēs",
+        "strongs": null,
+        "gloss": "fresh quality of divine life",
+        "note": "The resurrected life energized by the Holy Spirit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Promised Afore by His Prophets",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Against Hope Believed in Hope",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Children of the Living God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Remnant Shall Be Saved",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-11-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Their Eyes Be Darkened",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-3-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Propitiation / Mercy Seat",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-5-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "entered / came in",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "entered",
+        "original": "εἰσῆλθεν",
+        "translit": "eisēlthen",
+        "strongs": null,
+        "gloss": "entered / came in",
+        "note": "Parallel to 1 Cor 15:21-22 — Adam/Christ contrast.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-8-32",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "he did not spare",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "did not spare",
+        "original": "οὐκ ἐφείσατο",
+        "translit": "ouk epheisato",
+        "strongs": null,
+        "gloss": "he did not spare",
+        "note": "Deliberate echo of Gen 22:12 LXX — Abraham did not spare his son.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-15-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the root of Jesse",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "root of Jesse",
+        "original": "ἡ ῥίζα τοῦ Ἰεσσαί",
+        "translit": "hē riza tou Iessai",
+        "strongs": null,
+        "gloss": "the root of Jesse",
+        "note": "Isa 11:1, 10 — same as Rev 22:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-3-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Swift to Shed Blood",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-8-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Firstborn Among Many Brethren",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-4-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Abraham Believed God",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Stone of Stumbling",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rom-9-33",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "stone of stumbling",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "stumbling stone",
+        "original": "λίθος προσκόμματος",
+        "translit": "lithos proskommatos",
+        "strongs": null,
+        "gloss": "stone of stumbling",
+        "note": "Isa 8:14; 28:16 combined; 1 Pet 2:6-8.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rom-1-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "seed, descendant",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seed",
+        "original": "σπέρμα",
+        "translit": "sperma",
+        "strongs": null,
+        "gloss": "seed, descendant",
+        "note": "Same thread as Gen 3:15 / 22:18 / 2 Sam 7.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eternal security: sin will never again arise because God's love and justice are universally established.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Nahum 1:9",
+        "verseId": "nam-1-9",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "War in heaven: Michael and His angels cast out the dragon",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:7-9",
+        "verseId": "rev-12-7",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Decisive expulsion: Satan and fallen angels cast down to the earth.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:7-9",
+        "verseId": "rev-12-7",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Calvary victory: Satan's accusations against God's character forever answered and disarmed.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Colossians 2:15",
+        "verseId": "col-2-15",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Apostolic promise: believers triumph over the adversary through the living Christ.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 16:20",
+        "verseId": "rom-16-20",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Heavenly tragedy: highest created angel corrupts his wisdom through pride.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 28:12-19",
+        "verseId": "ezk-28-12",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Cosmic battle on earth: Seed of woman conquers through sacrifice.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:15",
+        "verseId": "gen-3-15",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "God of peace will bruise Satan under your feet shortly",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 16:20",
+        "verseId": "rom-16-20",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Utter end: Affliction shall not rise up the second time",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Nahum 1:9",
+        "verseId": "nam-1-9",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Christ spoils principalities and powers on the Cross",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Colossians 2:15",
+        "verseId": "col-2-15",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The devil cast into the lake of fire",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:10",
+        "verseId": "rev-20-10",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Final execution: the originator of sin destroyed forever.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:10",
+        "verseId": "rev-20-10",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Origin of evil: \"I will ascend above the stars... I will be like the most High.\"",
+      "density": 0.6286,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 14:12-15",
+        "verseId": "isa-14-12",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Lucifer's pride and desire for self-exaltation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 14:12-15",
+        "verseId": "isa-14-12",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Anointed covering cherub falls through iniquity",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 28:12-19",
+        "verseId": "ezk-28-12",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Protoevangelium: Enmity and serpent's head crushed",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:15",
+        "verseId": "gen-3-15",
+        "chainName": "6. The Great Controversy Cosmic Arc"
+      }
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "6. The Great Controversy Cosmic Arc",
+      "density": 0.4357,
+      "words": 6,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ]
+}

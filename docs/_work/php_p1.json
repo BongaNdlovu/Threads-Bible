@@ -1,0 +1,563 @@
+{
+  "book": "php",
+  "bookName": "Philippians",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 15,
+    "entryStrings": 36,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "php-1-19",
+    "php-2-6",
+    "php-2-7",
+    "php-2-8",
+    "php-2-9",
+    "php-2-10",
+    "php-2-11",
+    "php-2-15",
+    "php-3-3",
+    "php-3-9",
+    "php-3-20",
+    "php-3-21",
+    "php-4-7",
+    "php-4-18",
+    "php-4-19"
+  ],
+  "fields": [
+    {
+      "entryId": "php-3-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Righteousness through the faith of Christ, by God. First principle: the two righteousnesses are exclusive — Isaiah's robe is given where law-currency is refused; Paul counts his pedigree as loss for the robe.",
+      "density": 2.2536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The name above every name is given after the obedience unto death. First principle: Isaiah 52's very high and Psalm 2's decree meet in the wherefore — exaltation is the Father's verdict on the cross.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-1-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Imprisonment turns to salvation through prayer and Spirit-supply. First principle: Job's hope — I know I shall be justified — is Paul's prison-hope; the Spirit's supply is the deliverance mechanism.",
+      "density": 2.1571,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-3-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Citizenship in heaven; a Savior awaited. First principle: the colony waits for the Emperor — the Savior from heaven is the coming Lord, and the waiting is civic identity.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Blameless sons of God in a crooked nation. First principle: Deuteronomy 32's crooked generation and Daniel 12's shining wise converge — the church is the light-bearing remnant in the perversity.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-4-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Glory-riches in Christ Jesus fund the givers. First principle: the supply follows the sacrifice — the Shepherd-psalm's I shall not want becomes the apostolic promise to a generous church.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-4-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Philippians' gift is levitical incense. First principle: giving is sacrifice — the aroma vocabulary of the altar applies to the wallet; well-pleasing gifts smell like the altar.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The universal confession to the glory of the Father. First principle: Isaiah 45's every-tongue oath is transferred to Jesus — Lord is the covenant name confessed in the covenant oath.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He humbled Himself and became obedient to death, even the death of the cross. First principle: the lowest point of humiliation is the highest act of love — and the path to exaltation.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-3-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The subduing power that raises is the power that rules all things. First principle: resurrection bodies are fashioned like His — the working of enthronement power is aimed at our dust.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-3-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "True circumcision is Spirit-worship, Christ-rejoicing, no flesh-confidence. First principle: the uncircumcised heart of Deuteronomy is the true cut — worship in spirit is the covenant's real mark.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-4-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Prayer-peace garrisons hearts and minds in Christ. First principle: the garrison is a sentry of peace — Isaiah's kept-in-perfect-peace mind stands armed at the door of anxiety.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "At the name of Jesus every knee should bow. First principle: Isaiah's YHWH-claim is applied to Jesus — the most concentrated christological quotation in Paul.",
+      "density": 1.6893,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The form of a servant, the likeness of men. First principle: kenosis is voluntary descent — the Servant Song's no-form-nor-comeliness and no-place-to-lay-head compressed into one self-emptying.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who being in the form of God, emptied Himself, taking the form of a servant. First principle: kenosis is not loss of deity but voluntary self-limitation for incarnation and cross.",
+      "density": 1.6071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "php-3-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Our Conversation Is in Heaven; from Whence We Look for the Saviour",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-3-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Shall Change Our Vile Body, Like unto His Glorious Body",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-3-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Are the Circumcision, Which Worship God in the Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-3-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Not Having Mine Own Righteousness, Which Is of the Law",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not \"emptied Himself of Godhood\" — He took servant form while remaining God.",
+      "density": 0.7821,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "emptied",
+        "original": "ἐκένωσεν",
+        "translit": "ekenōsen",
+        "strongs": null,
+        "gloss": "He emptied / made void",
+        "note": "Not \"emptied Himself of Godhood\" — He took servant form while remaining God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "php-2-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Scandal and glory in one word (1 Cor 1:18).",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "cross",
+        "original": "σταυρός",
+        "translit": "stauros",
+        "strongs": null,
+        "gloss": "cross — instrument of Roman execution",
+        "note": "Scandal and glory in one word (1 Cor 1:18).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "php-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 45:23 — YHWH's exclusive claim given to Christ.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "every knee",
+        "original": "πᾶν γόνυ",
+        "translit": "pan gony",
+        "strongs": null,
+        "gloss": "every knee",
+        "note": "Isa 45:23 — YHWH's exclusive claim given to Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "php-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Tongue Should Confess That Jesus Christ Is Lord",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-4-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "An Odour of a Sweet Smell, a Sacrifice Acceptable",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-1-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Supply of the Spirit of Jesus Christ",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-4-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Peace of God, Which Passeth All Understanding",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wherefore God Also Hath Highly Exalted Him",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Shine as Lights in the World",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-4-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My God Shall Supply All Your Need",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Obedient to Death, Even the Cross",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "cross — instrument of Roman execution",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "cross",
+        "original": "σταυρός",
+        "translit": "stauros",
+        "strongs": null,
+        "gloss": "cross — instrument of Roman execution",
+        "note": "Scandal and glory in one word (1 Cor 1:18).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "php-2-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "He emptied / made void",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "emptied",
+        "original": "ἐκένωσεν",
+        "translit": "ekenōsen",
+        "strongs": null,
+        "gloss": "He emptied / made void",
+        "note": "Not \"emptied Himself of Godhood\" — He took servant form while remaining God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "php-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made Himself of No Reputation",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Knee Shall Bow",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Emptied Himself",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "php-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "every knee",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "every knee",
+        "original": "πᾶν γόνυ",
+        "translit": "pan gony",
+        "strongs": null,
+        "gloss": "every knee",
+        "note": "Isa 45:23 — YHWH's exclusive claim given to Christ.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

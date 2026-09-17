@@ -1,0 +1,1225 @@
+{
+  "book": "isa",
+  "bookName": "Isaiah",
+  "part": 3,
+  "parts": 3,
+  "counts": {
+    "entries": 37,
+    "entryStrings": 82,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "isa-53-8",
+    "isa-53-9",
+    "isa-53-10",
+    "isa-53-11",
+    "isa-53-12",
+    "isa-54-1",
+    "isa-54-5",
+    "isa-54-9",
+    "isa-54-13",
+    "isa-55-1",
+    "isa-55-3",
+    "isa-55-10",
+    "isa-56-7",
+    "isa-57-1",
+    "isa-58-6",
+    "isa-58-13",
+    "isa-58-14",
+    "isa-59-7",
+    "isa-59-20",
+    "isa-59-21",
+    "isa-60-1",
+    "isa-60-3",
+    "isa-60-19",
+    "isa-61-1",
+    "isa-61-2",
+    "isa-61-10",
+    "isa-62-11",
+    "isa-63-1",
+    "isa-63-9",
+    "isa-64-4",
+    "isa-65-1",
+    "isa-65-2",
+    "isa-65-17",
+    "isa-66-1",
+    "isa-66-2",
+    "isa-66-22",
+    "isa-66-24"
+  ],
+  "fields": [
+    {
+      "entryId": "isa-66-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As the new heavens and the new earth shall remain before the LORD, so from one new moon to another, and from one Sabbath to another, all flesh shall come to worship before Me. The seventh-day Sabbath spans from the unfallen Eden (Gen 2:1-3), through Sinai (Exod 20:8-11), through the life and custom of Jesus (Luke 4:16), into the eternal state. First principle: the Sabbath was never a temporary ceremonial shadow of Levi; it is the permanent rhythm of cosmic Creator-worship.",
+      "density": 3.9679,
+      "words": 81,
+      "sentences": 3,
+      "maxSentenceWords": 34,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:1",
+          "Exodus 20:8",
+          "Luke 4:16"
+        ]
+      }
+    },
+    {
+      "entryId": "isa-63-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who is this that cometh from Edom, with dyed garments from Bozrah? this that is glorious in his apparel, travelling in the greatness of his strength? I that speak in righteousness, mighty to save... I have trodden the winepress alone; and of the people there was none with me. First principle: the day of vengeance is a work God performs unassisted — the Warrior's garments are dyed by treading, and none shares the press.",
+      "density": 3.2786,
+      "words": 74,
+      "sentences": 5,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-61-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek... to bind up the brokenhearted, to proclaim liberty to the captives... to comfort all that mourn. First principle: the anointing has an agenda — good news, release, and comfort for the least able to help themselves.",
+      "density": 2.7071,
+      "words": 58,
+      "sentences": 4,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-59-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And the Redeemer shall come to Zion, and unto them that turn from transgression in Jacob, saith the LORD. The context is dark — no intercessor, truth fallen in the street — so God's own arm brings salvation. First principle: deliverance arrives when human mediation fails; the Kinsman-Redeemer comes to those who turn from transgression.",
+      "density": 2.4607,
+      "words": 55,
+      "sentences": 3,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-56-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Foreigners joined to the LORD are made joyful on His holy mountain. First principle: the temple was always meant for the nations — Jesus quotes it in the cleansing and Isaiah wrote it for the eunuchs and strangers.",
+      "density": 2.4357,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-54-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Redeemer, the Holy One of Israel, the God of the whole earth — Husband. First principle: covenant theology is marriage theology; Paul quotes Genesis through this lens, and Revelation ends in a wedding city.",
+      "density": 2.3179,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-60-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Kings travel to the brightness of Zion's rising. First principle: the star over Bethlehem and the nations in New Jerusalem both quote this verse — kings came once, and kings will come again.",
+      "density": 2.2536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-60-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The glory of the LORD rises upon Zion like dawn. First principle: arise is addressed to the shined-upon — light received becomes light radiated; the city's darkness is overcome by glory, not by lamps.",
+      "density": 2.2214,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The crushing is an offering for sin — and the Servant sees seed and prolonged days. First principle: the wound is the Father's design and the resurrection's guarantee; pleasure in the bruise is pleasure in the saving outcome.",
+      "density": 2.2071,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-63-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Angel of His presence saved them; in love and pity He redeemed and carried them. First principle: God does not watch affliction from outside — the Redeemer feels the burden He lifts, all the days of old.",
+      "density": 2.2071,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-54-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The desolate outnumbers the married wife. First principle: Paul reads the barren woman as the heavenly Jerusalem — the church's children outnumber the old covenant's, and the command is to sing.",
+      "density": 2.2036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-54-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Noah-flood oath is reused: no more wrath, no more rebuke. First principle: God swears His peace with the same force that promised no more flood — covenant mercy has a flood-oath behind it.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-55-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Rain waters earth, seed, and eater — and returns not empty. First principle: the Word is hydropowered — it descends, does its work, and never comes back void; the fixed anchor of preaching hope.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Taken from prison and judgment; stricken for my people's transgression. First principle: the death is judicial and vicarious — cut off, and no man could declare His generation because the stroke was ours.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-66-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The transgressors' corpse-field and unquenched fire end the prophecy. First principle: Jesus quotes this three times as Gehenna's definition — the final abhorring is as lasting as the new heavens are new.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-55-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wine and milk without money and without price. First principle: the gospel market inverts all commerce — the purchase is by thirst, the currency is grace; Revelation's last invitation quotes it.",
+      "density": 2.0893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-57-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Merciful men are taken away from the evil to come. First principle: the righteous's disappearance is mercy in disguise — they are gathered before the storm; none consider it, but heaven does.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-65-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The former things are not remembered nor come into mind. First principle: the eschaton is creation, not just rescue — Peter and Revelation both carry this promise forward to the made-new world.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-63-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Revelation 19:15 adopts the image verbatim for the returning Word of God — the treader of Isa 63 stands in the clouds of Rev 19.",
+      "density": 2.0536,
+      "words": 25,
+      "sentences": 1,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "winepress",
+        "original": "פּוּרָה",
+        "translit": "purah",
+        "strongs": null,
+        "gloss": "wine-vat, press where grapes are trodden",
+        "note": "Revelation 19:15 adopts the image verbatim for the returning Word of God — the treader of Isa 63 stands in the clouds of Rev 19.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-58-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Turn from your own pleasure on the holy day; honour the LORD's delight. First principle: Sabbath is a delight, not a debt — the foot turned away from self-honour turns toward the LORD's honour.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The travail satisfies; the many are justified; iniquities borne. First principle: justification is the Servant's wages for knowledge-borne sin — the satisfied look of the cross is the doctrine of imputation.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-54-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Taught children, great peace. First principle: Jesus quotes this to explain who comes to Him — the Father-taught are the drawn; the covenant's peace is its pedagogy.",
+      "density": 1.9893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-65-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Outstretched hands to a rebellious, self-walking people. First principle: the posture of God toward rebellion is open arms all day — rejection is the people's answer, not His posture.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-64-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Eye, ear, and heart have never perceived the prepared things. First principle: the waiting God outpaces the perceiving man — Paul quotes it for the Spirit-revealed things no eye had seen.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-59-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant word never departs — from the mouth, the seed, and the seed's seed, forever. First principle: the new covenant is verbal and generational — Spirit on the Person, words in the family line.",
+      "density": 1.9607,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-61-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Comfort for mourners within the same breath as vengeance. First principle: Jesus stopped reading mid-verse at Nazareth — the acceptable year opened then; the day of vengeance awaits His return.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-62-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The proclamation reaches the world's end: say to the daughter of Zion. First principle: the Palm Sunday quotation is composite — Zechariah's donkey and Isaiah's reward — salvation riding into the city.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-61-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Robe of righteousness like a bridegroom's ornament and a bride's jewels. First principle: salvation is wedding-dress — the robe is given, and Revelation's bride wears the fine linen of the saints.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-55-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Incline the ear; the soul lives; the sure mercies of David are given. First principle: hearing is the door to covenant life — Paul preaches the sure mercies as the resurrection promise.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-66-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Hand-made all things — yet God looks at the trembling-hearted. First principle: the address of God's gaze is not architecture but attitude — poor, contrite, trembling at the word.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The portion divided with the great; numbered with transgressors; intercession poured out in death. First principle: the chapter's last verse holds the whole economy — numbered below, interceding above, dividing spoil forever.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-53-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Grave with the wicked, tomb with the rich — no violence, no deceit in His mouth. First principle: the burial detail was fixed before the death: Joseph's garden tomb fulfills the rich-man clause.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-65-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A nation not called by God's name finds Him. First principle: the sought-by-none find God — Paul quotes it as the Gentile paradox; grace searches before we pray.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-60-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No sun by day, no moon by night — the LORD is the light and the glory. First principle: creation's lights are placeholders; New Jerusalem needs none because the Lamb lights it.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-66-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The house-builder question: where is the place of My rest? First principle: Stephen's defense climaxes here — God cannot be housed; the temple argument dies on this verse.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-58-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Riding the high places, fed with Jacob's heritage — by the mouth of the LORD. First principle: sabbath-honour ends in delight and heritage — the promise is spoken, and therefore certain.",
+      "density": 1.6893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-58-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Loosed bands, undone burdens, freed oppressed, broken yokes. First principle: true fasting is social mercy — the Spirit-anointed Servant preaches the same deliverance list in Nazareth.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-59-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Paul quotes the verse of the Deliverer out of Zion (Rom 11:26) — the go'el duty applied to Israel's salvation.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Redeemer",
+        "original": "גּוֹאֵל",
+        "translit": "go'el",
+        "strongs": null,
+        "gloss": "kinsman-redeemer, restorer of inheritance",
+        "note": "Paul quotes the verse of the Deliverer out of Zion (Rom 11:26) — the go'el duty applied to Israel's salvation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-61-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus applies this exact verse to Himself in Nazareth (Luke 4:18-21) — the clearest self-declared fulfillment in the Gospels.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed me",
+        "original": "מָשַׁח",
+        "translit": "mashakh",
+        "strongs": null,
+        "gloss": "to smear, consecrate with oil",
+        "note": "Jesus applies this exact verse to Himself in Nazareth (Luke 4:18-21) — the clearest self-declared fulfillment in the Gospels.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-59-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hasty bloodshed, iniquitous thoughts, wasteful paths. First principle: Paul's courtroom takes its violence evidence here — feet are swift because thoughts are iniquitous.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "isa-66-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sabbath in the New Earth — Eternal Memorial of the Creator",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Bare the Sin of Many, and Made Intercession for the Transgressors",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-54-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As I Have Sworn That the Waters of Noah Should No More",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-56-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Mine House Shall Be Called an House of Prayer for All People",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-59-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Spirit That Is upon Thee, and My Words in Thy Mouth",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-66-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To This Man Will I Look, Poor and of a Contrite Spirit",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Was Cut Off out of the Land of the Living",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-66-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Heaven Is My Throne, and the Earth Is My Footstool",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-66-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Worm Shall Not Die, Neither Shall Their Fire Be Quenched",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Made His Grave with the Rich in His Death",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-55-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ho, Every One That Thirsteth, Come Ye to the Waters",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-57-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Righteous Perisheth, and No Man Layeth It to Heart",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-61-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Proclaim the Acceptable Year, and the Day of Vengeance",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-64-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What He Hath Prepared for Him That Waiteth for Him",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-61-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Spirit of the Lord GOD Is upon Me",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By His Knowledge Shall My Righteous Servant Justify Many",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-54-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Thy Children Shall Be Taught of the LORD",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-58-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Is Not This the Fast That I Have Chosen?",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-60-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Shall Be unto Thee an Everlasting Light",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-61-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Hath Clothed Me with the Garments of Salvation",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-62-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, Thy Salvation Cometh; His Reward Is with Him",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-65-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Found of Them That Sought Me Not",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-65-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Spread Out My Hands All the Day",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-66-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "from sabbath to its sabbath / weekly cycle",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "from one Sabbath to another",
+        "original": "מִדֵּי שַׁבָּת בְּשַׁבַּתּוֹ",
+        "translit": "mid-dei shabbat be-shabbatto",
+        "strongs": null,
+        "gloss": "from sabbath to its sabbath / weekly cycle",
+        "note": "Affirms seventh-day worship in the restored cosmos.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-63-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Treading the Winepress Alone — Mighty to Save",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-53-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet It Pleased the LORD to Bruise Him",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-54-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Sing, O Barren, Thou That Didst Not Bear",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-55-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make an Everlasting Covenant with You",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-58-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then Shalt Thou Delight Thyself in the LORD",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-65-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Create New Heavens and a New Earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-66-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Affirms seventh-day worship in the restored cosmos.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "from one Sabbath to another",
+        "original": "מִדֵּי שַׁבָּת בְּשַׁבַּתּוֹ",
+        "translit": "mid-dei shabbat be-shabbatto",
+        "strongs": null,
+        "gloss": "from sabbath to its sabbath / weekly cycle",
+        "note": "Affirms seventh-day worship in the restored cosmos.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-55-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As the Rain Cometh Down from Heaven",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-60-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Arise, Shine; for Thy Light Is Come",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-60-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Gentiles Shall Come to Thy Light",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-63-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In All Their Affliction He Was Afflicted",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-59-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Redeemer Shall Come to Zion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-63-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "wine-vat, press where grapes are trodden",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "winepress",
+        "original": "פּוּרָה",
+        "translit": "purah",
+        "strongs": null,
+        "gloss": "wine-vat, press where grapes are trodden",
+        "note": "Revelation 19:15 adopts the image verbatim for the returning Word of God — the treader of Isa 63 stands in the clouds of Rev 19.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-61-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to smear, consecrate with oil",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed me",
+        "original": "מָשַׁח",
+        "translit": "mashakh",
+        "strongs": null,
+        "gloss": "to smear, consecrate with oil",
+        "note": "Jesus applies this exact verse to Himself in Nazareth (Luke 4:18-21) — the clearest self-declared fulfillment in the Gospels.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "isa-54-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Maker Is Thine Husband",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-58-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Call the Sabbath a Delight",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-59-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Feet Run to Evil",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "isa-59-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "kinsman-redeemer, restorer of inheritance",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Redeemer",
+        "original": "גּוֹאֵל",
+        "translit": "go'el",
+        "strongs": null,
+        "gloss": "kinsman-redeemer, restorer of inheritance",
+        "note": "Paul quotes the verse of the Deliverer out of Zion (Rom 11:26) — the go'el duty applied to Israel's salvation.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

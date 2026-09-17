@@ -1,0 +1,343 @@
+{
+  "book": "jam",
+  "bookName": "James",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 10,
+    "entryStrings": 22,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "jam-1-10",
+    "jam-1-12",
+    "jam-2-8",
+    "jam-2-11",
+    "jam-2-23",
+    "jam-4-6",
+    "jam-5-3",
+    "jam-5-7",
+    "jam-5-11",
+    "jam-5-17"
+  ],
+  "fields": [
+    {
+      "entryId": "jam-5-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "James instructs believers to be patient until the coming of the Lord, watching how the farmer waits for the precious fruit of the earth until it receives the early and latter rain. The ripening of Christian character and the completion of the gospel mission require the final spiritual rain before the harvest of the earth (Rev 14:14-16). First principle: eschatological endurance is sustained by the promise of the Spirit's harvest rain.",
+      "density": 3.7536,
+      "words": 71,
+      "sentences": 3,
+      "maxSentenceWords": 32,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 14:14"
+        ]
+      }
+    },
+    {
+      "entryId": "jam-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The same Speaker wrote both commands — so the law is seamless. First principle: the Giver unifies the law; break one point and the whole Speaker is offended — the law is a single fabric.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "More grace — but only downhill. First principle: the grace-gradient is vertical: pride resists it, humility receives it; Proverbs 3 and 1 Peter 5 bracket the same slope.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-5-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The end of the Lord shows pitifulness and mercy. First principle: endurance is read backward — Job's end doubled his estate; the Lord's tender mercy is seen in the outcome.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-1-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The tried receive the crown of life, promised to lovers of God. First principle: endurance is the trial's appointed outcome — love of God is the motive, the crown the promised award.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-5-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heaped treasure testifies in the last days. First principle: hoarded wealth is stored prosecution — rust eats flesh like fire; the last days have their own audit.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-5-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Elijah prayed, and the sky closed three and a half years. First principle: passionate men pray powerful prayers — the prophet's nature was ours; the difference was the praying.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Leviticus law is royal in this reading. First principle: the law has a king-command — loving the neighbor is royalty behavior; partiality breaks the crown-law.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 15:6 fulfilled, and the friend-title conferred. First principle: imputation and intimacy arrive together — righteousness counted, friendship named; faith works because it knows.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 15:6"
+        ]
+      }
+    },
+    {
+      "entryId": "jam-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The brother of low degree glories in exaltation; the rich in humiliation. First principle: Isaiah 40's grass-logic levels economics — both brothers glory, but in opposite directions.",
+      "density": 1.5321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jam-5-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "James 5:7 directly preserves the Hebrew agricultural type (yoreh and malqosh) for the second advent.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "early and latter rain",
+        "original": "πρόϊμον καὶ ὄψιμον",
+        "translit": "proïmon kai opsimon",
+        "strongs": null,
+        "gloss": "early and late rain",
+        "note": "James 5:7 directly preserves the Hebrew agricultural type (yoreh and malqosh) for the second advent.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jam-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Said, Do Not Commit Adultery, Said Also, Do Not Kill",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-5-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Elias Was a Man Subject to Like Passions as We Are",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Rich... as the Flower of the Grass He Shall Pass Away",
+      "density": 0.8714,
+      "words": 12,
+      "sentences": 2,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Resisteth the Proud, but Giveth Grace unto the Humble",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Abraham Believed God... and He Was Called the Friend of God",
+      "density": 0.7321,
+      "words": 11,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Ye Fulfil the Royal Law... Thou Shalt Love Thy Neighbour as Thyself",
+      "density": 0.725,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-5-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Have Heard of the Patience of Job",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-5-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Patience Until the Early and Latter Rain",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-1-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Is the Man That Endureth Temptation",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-5-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Your Gold and Silver Is Cankered",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jam-5-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "early and late rain",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "early and latter rain",
+        "original": "πρόϊμον καὶ ὄψιμον",
+        "translit": "proïmon kai opsimon",
+        "strongs": null,
+        "gloss": "early and late rain",
+        "note": "James 5:7 directly preserves the Hebrew agricultural type (yoreh and malqosh) for the second advent.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

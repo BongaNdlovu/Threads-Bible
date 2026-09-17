@@ -1,0 +1,184 @@
+{
+  "book": "lam",
+  "bookName": "Lamentations",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 6,
+    "entryStrings": 12,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "lam-1-12",
+    "lam-2-11",
+    "lam-3-22",
+    "lam-3-31",
+    "lam-3-40",
+    "lam-5-19"
+  ],
+  "fields": [
+    {
+      "entryId": "lam-1-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The passing crowd summoned to behold. First principle: the daughter of Zion's day-of-anger sorrow is the portrait Jerusalem's greater Son reenacted — a sorrow without equal.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The weeping prophet's insides poured out for destroyed children. First principle: prophetic grief bodily — Jeremiah's tears over the city prefigure the Man of sorrows weeping over Jerusalem.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-3-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Turning again to the LORD. First principle: the examined life is the returned life — searching ways precedes the turn; hearts lifted with hands.",
+      "density": 1.6857,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-3-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Though He cause grief, He will have compassion. First principle: grief has a boundary in His character — the cast-off is temporary by His own nature.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-5-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne from generation to generation. First principle: the unchanging throne amid the changing ruins — the lament ends on permanence, not loss.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-3-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Compassions that fail not; new every morning. First principle: the survival-theology verse — non-consumption is mercy's daily freshness, not Israel's merit.",
+      "density": 1.475,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lam-1-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, and See If There Be Any Sorrow Like unto My Sorrow",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lam-3-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "It Is of the LORD'S Mercies That We Are Not Consumed",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lam-3-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "For the Lord Will Not Cast Off for Ever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lam-3-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Us Search and Try Our Ways",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lam-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Mine Eyes Do Fail with Tears",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lam-5-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou, O LORD, Remainest for Ever",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

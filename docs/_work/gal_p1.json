@@ -1,0 +1,667 @@
+{
+  "book": "gal",
+  "bookName": "Galatians",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 20,
+    "entryStrings": 44,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "gal-1-8",
+    "gal-3-6",
+    "gal-3-8",
+    "gal-3-10",
+    "gal-3-11",
+    "gal-3-12",
+    "gal-3-13",
+    "gal-3-16",
+    "gal-3-17",
+    "gal-3-19",
+    "gal-3-22",
+    "gal-3-28",
+    "gal-3-29",
+    "gal-4-4",
+    "gal-4-5",
+    "gal-4-22",
+    "gal-4-27",
+    "gal-4-30",
+    "gal-6-2",
+    "gal-6-16"
+  ],
+  "fields": [
+    {
+      "entryId": "gal-3-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Belonging to Christ makes heirs of the promise. First principle: the seed promise funnels through the Seed — being in Him is being in Abraham's covenant; the land of the promise is the world to inherit.",
+      "density": 2.5,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All one in Christ Jesus. First principle: the oneness is baptismal and covenantal — everyone who calls on the name of the Lord is one heir; the walls fell in the water.",
+      "density": 2.3429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-6-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The rule of new creation carries peace and mercy to the true Israel. First principle: the Israel of God are the crested new-creation walkers — mercy sought for a people defined by the cross, not the flesh.",
+      "density": 2.2964,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In thee shall all nations be blessed — the gospel four hundred years early. First principle: Scripture foresaw; Scripture preached — the justification of the heathen by faith was announced to the father of the faithful himself.",
+      "density": 2.2393,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The promise to Abraham culminates in one Seed — Christ. First principle: Paul argues from a singular noun; the promises made to Abraham's seed were made to the Person who is the Seed.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-1-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The anathema guards the gospel from heaven's own messengers. First principle: the gospel is fixed once delivered — revelation's closed core outranks any later angelic revision, as Moses and John both warn.",
+      "density": 2.1143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Law-keepers are under the law's curse for one lapse. First principle: the curse is total in demand and universal in reach — Deuteronomy's amen-line indicts every continuant who has ever stopped.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 15:6 is the Galatian argument's foundation stone. First principle: righteousness by believing precedes law, circumcision, and works — the counting of faith as righteousness is the oldest gospel text.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 15:6"
+        ]
+      }
+    },
+    {
+      "entryId": "gal-6-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mutual bearing fulfills the law of Christ. First principle: the new law has a new verb — bear; the strong carrying the fallen is Christ's own load-bearing love continued.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The confirmed covenant outranks the later law. First principle: chronology is theology — the promise is older, confirmed in Christ, and no later administration can cancel it.",
+      "density": 1.9679,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-4-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "When the fullness of time came, God sent forth His Son, made of a woman, made under the law. First principle: incarnation is timed, gendered, and legal — for redemption of those under law.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Added because of transgressions, till the Seed should come, ordained by angels through a mediator. First principle: the law was a temporary tutor with a retirement date — the Seed's arrival ended its custodianship.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The universal shut-up has one purpose: the promise given to believers. First principle: the conclusion is custody, not condemnation alone — all under sin so the faith-promise has no rival door.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Habakkuk 2:4 is the verse that splits law from life. First principle: three apostles quote it — Romans doctrinally, Galatians polemically, Hebrews pastorally — life by faith, never by performance.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Habakkuk 2:4"
+        ]
+      }
+    },
+    {
+      "entryId": "gal-4-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sarah's demand becomes Scripture's verdict: the bondman shall not inherit. First principle: law-born and promise-born cannot co-inherit; the household of faith is fenced by the Word, not by sentiment.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-4-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The fullness-of-time Son redeems law-dwellers into sonship. First principle: adoption is the purchase — redemption from under the law is the door to crying, Abba, Father.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ has redeemed us from the curse of the law, being made a curse for us. First principle: the cross absorbs covenant curse so blessing can reach the nations.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-4-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 54 quoted for the freewoman's many children. First principle: the desolate Jerusalem-above has more children than the enslaved — grace's family outgrows the flesh's.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-4-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One by a bondmaid, one by a freewoman — the two-covenant allegory begins. First principle: the two sons map two covenants; the birth of each decides its household.",
+      "density": 1.5571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "gal-3-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Leviticus 18:5 states the law's own terms — doing, not believing. First principle: the law is not of faith by design; its engine is doing. Mixing the engines wrecks both.",
+      "density": 1.55,
+      "words": 30,
+      "sentences": 3,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Leviticus 18:5"
+        ]
+      }
+    },
+    {
+      "entryId": "gal-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Saith Not, And to Seeds, as of Many; but as of One, Thy Seed",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Law, Which Was Four Hundred and Thirty Years After, Cannot Disannul",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Deut 21:23 — hanged on a tree is under God's curse.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "curse",
+        "original": "κατάρα",
+        "translit": "katara",
+        "strongs": null,
+        "gloss": "curse, execration",
+        "note": "Deut 21:23 — hanged on a tree is under God's curse.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "gal-1-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Though We, or an Angel from Heaven, Preach Any Other Gospel",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Cursed Is Every One That Continueth Not in All Things",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Neither Jew nor Greek, Bond nor Free, Male nor Female",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Echo of Gen 3:15 — seed of the woman.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made of a woman",
+        "original": "γενόμενον ἐκ γυναικός",
+        "translit": "genomenon ek gynaikos",
+        "strongs": null,
+        "gloss": "born of a woman",
+        "note": "Echo of Gen 3:15 — seed of the woman.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "gal-3-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Abraham Believed God, and It Was Accounted for Righteousness",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Man That Doeth Them Shall Live in Them",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Ye Be Christ's, Then Are Ye Abraham's Seed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-6-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Peace on Them, and upon the Israel of God",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Scripture Preached Before the Gospel unto Abraham",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Redeem Them That Were under the Law",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Born of a Woman, Under the Law",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Scripture Hath Concluded All under Sin",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Cast Out the Bondwoman and Her Son",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Just Shall Live by Faith",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rejoice, Thou Barren That Bearest Not",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made a Curse for Us",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Wherefore Then Serveth the Law?",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-6-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Bear Ye One Another's Burdens",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "born of a woman",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made of a woman",
+        "original": "γενόμενον ἐκ γυναικός",
+        "translit": "genomenon ek gynaikos",
+        "strongs": null,
+        "gloss": "born of a woman",
+        "note": "Echo of Gen 3:15 — seed of the woman.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "gal-4-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Abraham Had Two Sons",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "gal-3-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "curse, execration",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "curse",
+        "original": "κατάρα",
+        "translit": "katara",
+        "strongs": null,
+        "gloss": "curse, execration",
+        "note": "Deut 21:23 — hanged on a tree is under God's curse.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

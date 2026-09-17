@@ -1,0 +1,2259 @@
+{
+  "book": "heb",
+  "bookName": "Hebrews",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 46,
+    "entryStrings": 104,
+    "chainStrings": 41,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "heb-1-1",
+    "heb-1-10",
+    "heb-1-13",
+    "heb-1-2",
+    "heb-1-3",
+    "heb-1-5",
+    "heb-1-6",
+    "heb-1-8",
+    "heb-10-16",
+    "heb-10-30",
+    "heb-10-37",
+    "heb-10-38",
+    "heb-10-5",
+    "heb-11-11",
+    "heb-11-12",
+    "heb-11-17",
+    "heb-11-18",
+    "heb-11-5",
+    "heb-11-7",
+    "heb-11-8",
+    "heb-12-2",
+    "heb-12-20",
+    "heb-12-26",
+    "heb-12-29",
+    "heb-12-5",
+    "heb-13-11",
+    "heb-13-12",
+    "heb-13-5",
+    "heb-13-6",
+    "heb-2-12",
+    "heb-2-13",
+    "heb-2-6",
+    "heb-3-11",
+    "heb-3-7",
+    "heb-4-4",
+    "heb-4-7",
+    "heb-5-5",
+    "heb-5-6",
+    "heb-6-14",
+    "heb-7-1",
+    "heb-7-17",
+    "heb-8-12",
+    "heb-8-5",
+    "heb-8-8",
+    "heb-9-20",
+    "heb-9-23"
+  ],
+  "fields": [
+    {
+      "entryId": "heb-8-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel. Textual proof: Jeremiah 31:31-34 quoted at length in Hebrews 8:8-12 and 10:16-17; Jesus names the new covenant in His blood (Luke 22:20; 1 Cor 11:25).",
+      "density": 2.5286,
+      "words": 44,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Jeremiah 31:31",
+          "Hebrews 8:8",
+          "Luke 22:20",
+          "1 Corinthians 11:25"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-8-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who serve unto the example and shadow of heavenly things, as Moses was admonished… See that thou make all things according to the pattern. Textual proof: Exodus 25:40 quoted; Hebrews 9:11-12, 23-24 — Christ ministers in the greater, more perfect tabernacle, not made with hands.",
+      "density": 2.4964,
+      "words": 45,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Exodus 25:40",
+          "Hebrews 9:11"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-4-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He spake in a certain place of the seventh day on this wise: And God did rest the seventh day from all his works. Textual proof: Hebrews 4:4 quotes Genesis 2:2; 4:9 — there remains a Sabbath rest (σαββατισμός) to the people of God.",
+      "density": 2.4714,
+      "words": 44,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hebrews 4:4",
+          "Genesis 2:2"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-10-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Song of Moses warns apostates: the Lord shall judge His people. First principle: the same covenant God who avenges His people judges those who trample His Son — fear and comfort are two sides of one oath.",
+      "density": 2.4357,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The brightness of God's glory, upholding all things, purged our sins by Himself and sat down on the right hand of the Majesty on high. First principle: priest, sacrifice, and throne unite in one Person — purification finished, session begun.",
+      "density": 2.4286,
+      "words": 40,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-9-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "It was necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices. Textual proof: Leviticus 16 blood-rite as pattern; Christ's once-for-all offering in the true sanctuary (Heb 9:11-12, 24-26).",
+      "density": 2.3964,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hebrews 9:11"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-12-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "For the joy set before Him, Jesus endured the cross, despised the shame, and sat down at the throne. First principle: Psalm 22's suffering and Psalm 110's session are one arc — endure by looking at the end from the beginning.",
+      "density": 2.2821,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 2 and Nathan's word to David are quoted to rank the Son above angels. First principle: sonship by decree and dynasty — I will be to him a Father — is higher than any angelic office.",
+      "density": 2.1821,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-13-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The atonement pattern lands on Golgotha: sanctifying blood shed outside Jerusalem. First principle: the exile of the sin-offering is the address of the cross — let us go forth to Him without the camp.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-7-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The oath of Psalm 110:4 is repeated to nail down the eternal priesthood. First principle: another priest arises after the similitude of Melchisedec — the law's Aaronic line was never the end of the story.",
+      "density": 2.1321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The God who spoke in fragments to the fathers has spoken finally in His Son. First principle: the prophets are real revelation in portions; the Son is the whole — every thread converges on His speech.",
+      "density": 2.1,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-2-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The crucified Psalm 22 ends in congregation-song: I will declare thy name unto my brethren. First principle: the Sufferer of Psalm 22 becomes the worship leader of His brothers — the cross births the church's praise.",
+      "density": 2.1,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 8 is expounded of Jesus — made a little lower than the angels for suffering, now crowned. First principle: the son-of-man question finds its answer in the One now crowned with glory, all things under His feet.",
+      "density": 2.0929,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "From one as good as dead sprang the star-and-sand multitude. First principle: the promises of Genesis 15 and 22 outgrew their hearer — life from the dead is the seed's origin story.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God has spoken by His Son, by whom also He made the worlds. Textual proof: John 1:3 — all things made by Him; Col 1:16 — by Him all things created. Son as agent of creation and final revealer.",
+      "density": 2.0036,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "John 1:3",
+          "Colossians 1:16"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-5-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 110:4 gives the Son a priesthood older than Aaron's. First principle: royal priesthood — king on the throne and priest at the altar — is Christ's by oath, not genealogy.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "When the First-begotten comes into the world, heaven's order commands angels to worship. First principle: the Son receives the worship Deuteronomy 32 reserves for God — His deity is the letter's first argument.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 102 — a prayer to the unchanging Creator — is addressed to the Son. First principle: the One who laid earth's foundations is the same yesterday, today, and forever; creation names Him Lord.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-12-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Haggai's shaking is escalated: the final quake removes what is shakeable. First principle: created things tremble so the unshakeable kingdom may stand — Haggai's promise reaches past Sinai to the end.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-3-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 95 is quoted as the Holy Ghost's present warning: harden not your hearts. First principle: the gospel has a Today attached — Israel's Kadesh failure is the standing caution for every generation.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-10-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 40 is placed in the mouth of the incarnate Son: Lo, I come to do thy will. First principle: the Incarnation is the answer to sacrifice's insufficiency — a body prepared for total obedience.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-13-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Contentment leans on God's presence-promise from Moses and Joshua. First principle: the antidote to covetousness is a promise of company — He is with us, so He is enough.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The offering contradicted the covenant word — yet Abraham accounted God faithful. First principle: when sacrifice seems to erase the promise, faith holds both: God keeps His word through the knife.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-2-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah's trusting remnant becomes the Son's own confession, with the children God gave Him. First principle: the Messiah lived by faith among His own — sanctified companionship with the children of promise.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-5-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Priesthood came by the Father's decree: Thou art my Son. First principle: every office of Christ is conferred, not seized — glory by appointment, in God's time and voice.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-12-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sinai's boundary of death is recalled before Zion's open invitation. First principle: the old mountain's terror measures the new mountain's grace — both are real; approach God His way.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-13-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 118 becomes bold speech against the fear of man. First principle: confidence against man rests on the Lord as helper — the Stone-casting psalm frees us from dread.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-6-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The doubled oath to Abraham makes God's promise immutable. First principle: God swore by Himself because none was greater — the multiplied seed rests on an unchangeable oath.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The barren mother judged Him faithful who had promised. First principle: faith laughs at impossibility after it judges the Promiser — strength came because the Word was believed.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-4-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A rest remains because David, long after Joshua, still says Today. First principle: the psalm reopens the offer — the Sabbath-rest of God outlasts Canaan and stands open now.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-9-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Exodus 24's Sinai sprinkling is quoted to explain a better blood. First principle: every covenant runs on blood — the old with animals, the new with the Testator Himself.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Enoch walked with God and was not, for God took him. First principle: before the law, a man pleased God and skipped death — the firstfruits of translation hope.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The trial of Moriah: the only begotten offered, the promises believed. First principle: Abraham reasoned that God could raise the dead — promise and sacrifice met on one altar.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-8-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The new covenant's climax is divine forgetting. First principle: forgiveness under the new covenant is not amnesia's accident but mercy's decision — sins remembered no more.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-10-37",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Yet a little while, and he that shall come will come, and will not tarry. Textual proof: Habakkuk 2:3-4 quoted; same just-shall-live-by-faith chain as Rom 1:17 and Gal 3:11. Patient waiting on the coming One.",
+      "density": 1.7321,
+      "words": 35,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Habakkuk 2:3",
+          "Romans 1:17",
+          "Galatians 3:11"
+        ]
+      }
+    },
+    {
+      "entryId": "heb-7-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Genesis 14's king of Salem blessed Abraham returning from war. First principle: the type appears suddenly — no lineage, no ending — because it pictures an endless priesthood.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Father addresses the Son as God, enthroned with a sceptre of righteousness. First principle: Psalm 45's wedding hymn is God's own testimony to the Son's deity and just reign.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-10-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Habakkuk's line becomes the letter's watchword: if any draw back, my soul shall have no pleasure. First principle: life is by believing endurance — the vision tarries, but the just keep trusting.",
+      "density": 1.7143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-10-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jeremiah 31's internal law is quoted as the covenant's present reality. First principle: the law moves from stone to heart — obedience becomes the Spirit's work inside us.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-3-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God's oath barred that generation from Canaan-rest. First principle: unbelief forfeits the promised rest — the oath is as real as the promise it vetoed.",
+      "density": 1.6536,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-12-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The flame on Sinai and over Egypt is our God. First principle: the fire that consumes sacrifice consumes refusal — worship acceptably, with reverence and godly fear.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-12-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Proverbs 3 is quoted to reframe suffering as sonship. First principle: chastening is proof of love, not evidence of rejection — scourging marks every legitimate child.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-1-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No angel ever heard Psalm 110's invitation. First principle: the enthroned Man waits in majesty — the footstool promise belongs to the Son alone.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Unique NT word — points to the people of God's remaining rest (Heb 4:9), grounded in creation rest (4:4).",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "a Sabbath rest",
+        "original": "σαββατισμὸς",
+        "translit": "sabbatismos",
+        "strongs": null,
+        "gloss": "a sabbath-keeping / sabbath rest",
+        "note": "Unique NT word — points to the people of God's remaining rest (Heb 4:9), grounded in creation rest (4:4).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-11-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Noah acted on things not seen as yet and condemned the world. First principle: faith builds before the rain — obedience to warning is righteousness inherited.",
+      "density": 1.45,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-13-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Day-of-atonement carcasses were carried outside. First principle: sin-bearing blood required removal from the holy — preparing the geography for the cross.",
+      "density": 1.4393,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-11-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Abraham obeyed the call to an unseen inheritance. First principle: faith is obedience without a map — the promise is the destination enough.",
+      "density": 1.4321,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "heb-10-37",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hab 2:3 LXX — vision appointed for the end and will not lie; wait for it.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "will come",
+        "original": "ἥξει",
+        "translit": "hēxei",
+        "strongs": null,
+        "gloss": "he will come",
+        "note": "Hab 2:3 LXX — vision appointed for the end and will not lie; wait for it.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-8-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exod 25:40 — earthly system as copy of heavenly reality fulfilled in Christ.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shadow / pattern",
+        "original": "σκιᾷ / τύπος",
+        "translit": "skia / typos",
+        "strongs": null,
+        "gloss": "shadow / pattern, model",
+        "note": "Exod 25:40 — earthly system as copy of heavenly reality fulfilled in Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-8-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jer 31:31 — internalized law, forgiveness, knowledge of God; inaugurated at the cross.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "new covenant",
+        "note": "Jer 31:31 — internalized law, forgiveness, knowledge of God; inaugurated at the cross.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-9-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Singular substance in plural excellence — Christ's one offering exceeds the Levitical system.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "better sacrifices",
+        "original": "κρείττοσιν θυσίαις",
+        "translit": "kreittosin thysiais",
+        "strongs": null,
+        "gloss": "better sacrifices",
+        "note": "Singular substance in plural excellence — Christ's one offering exceeds the Levitical system.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-12-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet Once More I Shake Not the Earth Only, but Also Heaven",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto Which of the Angels Said He, Thou Art My Son?",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Heb 11:3 — worlds framed by the word of God.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "worlds",
+        "original": "αἰῶνας",
+        "translit": "aiōnas",
+        "strongs": null,
+        "gloss": "ages / worlds",
+        "note": "Heb 11:3 — worlds framed by the word of God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-2-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Midst of the Church Will I Sing Praise",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Noah Prepared an Ark to the Saving of His House",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-13-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Bodies of Those Beasts Are Burned Without the Camp",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Who Spake at Sundry Times by the Prophets",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Throne, O God, Is for Ever and Ever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou, Lord, in the Beginning Hast Laid the Foundation",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What Is Man, That Thou Art Mindful of Him?",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-5-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ Glorified Not Himself to Be Made High Priest",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-5-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Priest for Ever After the Order of Melchisedec",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-8-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Sins and Iniquities Will I Remember No More",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Enoch Was Translated That He Should Not See Death",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Had Received the Promises Offered Up Isaac",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-12-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If So Much as a Beast Touch the Mountain",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-13-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Is My Helper; I Will Not Fear",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let All the Angels of God Worship Him",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Sit on My Right Hand Until Thine Enemies",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-3-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Day If Ye Will Hear His Voice",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-4-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Limiteth a Certain Day, Saying in David",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-10-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Put My Laws into Their Hearts",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Went Out, Not Knowing Whither He Went",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As the Stars of the Sky in Multitude",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-12-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Despise Not Thou the Chastening of the Lord",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-13-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Never Leave Thee, nor Forsake Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By Whom Also He Made the Worlds",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-2-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Put My Trust in Him",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-3-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Not Enter into My Rest",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-7-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Melchisedec, Priest of the Most High God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-9-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is the Blood of the Testament",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Isaac Shall Thy Seed Be Called",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-12-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Author and Finisher of Our Faith",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-8-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Pattern and Shadow of Heavenly Things",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-9-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Purged with Blood — Heavenly Things",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-10-37",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Shall Come Will Come",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Express Image of His Person",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-6-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Surely Blessing I Will Bless Thee",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-7-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art a Priest for Ever",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-10-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Body Hast Thou Prepared Me",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-10-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Just Shall Live by Faith",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-11-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Sara Received Strength to Conceive Seed",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-12-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Our God Is a Consuming Fire",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-4-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Rested the Seventh Day",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-4-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "a sabbath-keeping / sabbath rest",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "a Sabbath rest",
+        "original": "σαββατισμὸς",
+        "translit": "sabbatismos",
+        "strongs": null,
+        "gloss": "a sabbath-keeping / sabbath rest",
+        "note": "Unique NT word — points to the people of God's remaining rest (Heb 4:9), grounded in creation rest (4:4).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-13-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Jesus Suffered Without the Gate",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-8-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "shadow / pattern, model",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shadow / pattern",
+        "original": "σκιᾷ / τύπος",
+        "translit": "skia / typos",
+        "strongs": null,
+        "gloss": "shadow / pattern, model",
+        "note": "Exod 25:40 — earthly system as copy of heavenly reality fulfilled in Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-10-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Vengeance Belongeth unto Me",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-1-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "ages / worlds",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "worlds",
+        "original": "αἰῶνας",
+        "translit": "aiōnas",
+        "strongs": null,
+        "gloss": "ages / worlds",
+        "note": "Heb 11:3 — worlds framed by the word of God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-8-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A New Covenant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "heb-10-37",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "he will come",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "will come",
+        "original": "ἥξει",
+        "translit": "hēxei",
+        "strongs": null,
+        "gloss": "he will come",
+        "note": "Hab 2:3 LXX — vision appointed for the end and will not lie; wait for it.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-8-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "new covenant",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "new covenant",
+        "note": "Jer 31:31 — internalized law, forgiveness, knowledge of God; inaugurated at the cross.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "heb-9-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "better sacrifices",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "better sacrifices",
+        "original": "κρείττοσιν θυσίαις",
+        "translit": "kreittosin thysiais",
+        "strongs": null,
+        "gloss": "better sacrifices",
+        "note": "Singular substance in plural excellence — Christ's one offering exceeds the Levitical system.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT prophetic continuity: Jesus instructs disciples to guard Sabbath sanctity far past the Cross into 70 AD and end-times.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Moral and prophetic consistency: if doctrine contradicts God's law or prophetic word, there is no light in it.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 8:20",
+        "verseId": "isa-8-20",
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Apostolic theology: the weekly rest remains a living obligation and spiritual rest for God's people.",
+      "density": 1.3821,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Canonical harmony: no prophecy is of private interpretation; established by the consensus of the whole canon.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 1:20-21",
+        "verseId": null,
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Sinai moral law: written by the finger of God in the heart of the Decalogue.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Christological focus: every prophetic time-period centers on Christ's sacrifice, priesthood, and return.",
+      "density": 1.1357,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Prophetic covenant: the Sabbath identifies the true Creator who makes His people holy.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eternal consummation: Sabbath remains the perpetual rhythm of worship in the restored cosmos.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest origin: seventh-day rest instituted in Eden before the entrance of sin.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT example: Jesus Christ observed the seventh-day Sabbath throughout His earthly incarnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "End-time restoration: Third Angel quotes Exodus 20:11, restoring Creator-worship before judgment.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Creation Sabbath: God rested, blessed, and sanctified the seventh day",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Final call: Worship Him that made heaven, earth, and sea",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Earth: From one Sabbath to another all flesh worships",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Perpetual sign of sanctification between God and His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Pray that your flight be not on the Sabbath",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Test 1: To the Law and to the Testimony",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 8:20",
+        "verseId": "isa-8-20",
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary",
+      "density": 0.6821,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Christ's custom: synagogue worship on the Sabbath day",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Safeguard Against Strange Doctrines: The Three Biblical Tests",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "3. The Sabbath: Creation to the New Earth",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Test 2: Sola Scriptura / Analogia Scripturae",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 1:20-21",
+        "verseId": null,
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Fourth Commandment: Perpetual memorial of Creation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "There remaineth therefore a Sabbath-keeping (sabbatismos)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Test 3: Christ-Centered Sanctuary Baseline",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+      }
+    }
+  ]
+}

@@ -1,0 +1,532 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group A)",
+  "drafts": [
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].connection",
+      "after": "Moral and prophetic consistency: every doctrine must agree with God's law and with what the prophets said. A teaching that contradicts either one has no light in it.",
+      "reason": "DRAFT (gate PASS: 2 sentences, longest 12 words, was 1 sentence of 18). V2: the abstract opener \"Moral and prophetic consistency\" is glossed in place rather than left as a label the reader has to cash out, and the single long sentence becomes two, one idea each. V3: the passive subjunctive \"if doctrine contradicts God's law or prophetic word\" is said in plain order with an actor (a teaching) and the concrete pairs named (God's law / what the prophets said). New-word share 51.7%. Every claim is kept: doctrine is tested against the law and the prophets, and a contradiction means no light. The \"Test N:\" opener set and the Isa 8:20 reference are untouched."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].connection",
+      "after": "Canonical harmony: the whole Bible must agree. No prophecy \"is of private interpretation\"; the rest of Scripture settles what it means.",
+      "reason": "DRAFT (gate PASS: 3 sentences, longest 11 words, was 1 sentence of 16; the quotation is stripped before counting). V2: the semicolon chain is broken, one idea per sentence. V3: the decode compound \"Canonical harmony\" is said plainly as the whole Bible must agree, and \"consensus of the whole canon\" becomes the rest of Scripture settles what it means. I1: the KJV clause \"is of private interpretation\" (2 Pet 1:20, which reads \"no prophecy of the scripture is of any private interpretation\") is now inside quotation marks with not one word inside them changed, and the plain gloss sits outside. Both claims are kept: no prophecy is privately interpreted, and the whole canon establishes the meaning. New-word share 42.9%."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].connection",
+      "after": "Every prophetic time-period points to Jesus. It centers on His sacrifice, His priesthood, and His return.",
+      "reason": "DRAFT (gate PASS: 2 sentences, longest 11 words, was 1 sentence of 12). V1/V2: the single sentence becomes two, one idea each, with the subject named (every prophetic time-period) instead of left to the opener. V3: the abstraction \"Christological focus\" (the never-write form of the frozen glossary term Christology, CP-01 §3) is replaced by what the glossary says it means — what the passage shows about Jesus — and the three items are carried with every word unchanged. Every claim is kept: every prophetic time-period, Christ's sacrifice, His priesthood and His return. New-word share 20.0%. FLAGGED FOR THE OPERATOR: \"Christological\" survives only in the step title \"Test 3: Christ-Centered Sanctuary Baseline\", which is left verify-only because \"Test 3:\" is the app's own step label and I1 forbids renaming a label."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY: 21 words, 1 sentence of 21, gate PASS. One idea (the earliest clear hope of seeing God in the body), everyday words, active with a named actor (a person), no term needing a gloss. No defect to fix and no rewrite would add meaning."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 7 words, one clause, drawn from Job 19:26. Nothing to decode and every word is everyday English. QUOTE-REVIEW: the served KJV has \"yet in my flesh shall I see God\" where this title has \"In my flesh I shall see God\"; the title is a one-word reordering of the KJV clause, so it is NOT a byte-identical quotation. Under I1 the words are carried byte-identical to the existing app text and no restoration to canon is attempted or claimed; logged for the operator's Scripture-integrity decision."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY: 10 words, 1 sentence of 10, gate PASS. The \"Same-OT:\" label is kept verbatim and the claim after it has a subject (David), a verb (prophesied) and an object (that the grave would not keep him). Plain already."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 8 words, one clause. Every word is everyday English and the line is the app's own rendering of the psalm's line about the grave. QUOTE-REVIEW: the served KJV of Ps 16:10 has \"hell\" where this title has \"Sheol\"; the words are carried byte-identical under I1 and no restoration to canon is claimed or attempted — logged for the operator."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY: 10 words, 1 sentence of 10, gate PASS. Subject (the earth), verb (gives up), object (its dead) and the plain phrase \"in the resurrection\". One idea, nothing to decode."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 8 words, one clause. It is the KJV wording of Isaiah 26:19 (\"Awake and sing, ye that dwell in dust\"), verbatim, so I1 governs it. Nothing to change."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY: 13 words, 1 sentence of 13, gate PASS. Actor (a vision of the Spirit), verb (raising), object (the dead out of their graves) — one idea, plain word order, no term needing a gloss."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY: 9 words, one title. The KJV clause \"I will open your graves\" (Ezek 37:12) is carried word for word and the em-dash only joins it to the plain image \"dry bones live\" from the same vision. Both halves are one idea (the graves opened and the bones living), the words inside the KJV clause are untouchable under I1, and the string is short enough that splitting it would add nothing."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. Subject (the resurrection), verb (runs), and the two outcomes named in plain words (everlasting life / shame). One idea, no gloss needed."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY: 6 words, one clause drawn from Daniel 12:2 (\"many of them that sleep in the dust of the earth shall awake\"). Short, concrete, one idea; too brief to improve without padding. QUOTE-REVIEW: the title is a compression, not a quotation — the served KJV has \"sleep in the dust of the earth\" and \"shall awake\", so a reader should not take it as verbatim. The words are carried byte-identical under I1 and nothing is restored."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY: 16 words, 1 sentence of 16, gate PASS. Active voice with YHWH named as the actor, the price-paying image is concrete, and the subject-predicate-object order is plain. YHWH is the app's own rendering of the divine name used throughout threadDetails.ts, not a term this string introduces."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY: 7 words. It is the KJV wording of Hosea 13:14 (\"O death, I will be thy plagues\"), verbatim, so I1 forbids rewording it. Left byte-identical; also duplicated in the corpus, see the note on steps[9].title."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. The \"NT:\" label is kept verbatim, the KJV clause \"His voice\" is carried as the source has it, and the actor (Jesus) and the two outcomes (life or condemnation) are named. One idea."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY: 10 words, one clause, the KJV wording of John 5:28 (\"all that are in the graves shall hear his voice\") with only the pronoun capitalised as the app styles it. I1 governs every word. Nothing to decode."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. Active with both actors named (Jesus / he raises Lazarus), one idea, everyday words. No defect."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY: 7 words. It is the KJV wording of John 11:25 (\"I am the resurrection, and the life\") with the app's capitalisation; I1 forbids any change. Too short to improve."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].connection",
+      "reason": "VERIFY-ONLY: 8 words, 1 sentence of 8, gate PASS. Subject (Psalm 16), verb (was fulfilled), and the place (Christ's empty tomb) all named. One idea, plain."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY: 6 words, one title stating what the apostles preached. Concrete, one idea, the citation abbreviations are the app's own and are not expanded (I1). QUOTE-REVIEW: the title compresses Acts 2:31 and 13:37 (\"neither his flesh did see corruption\") into \"without corruption\", so it is a summary rather than a quotation; words carried byte-identical and nothing restored."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. Subject (Paul), verb (quotes), the two citations and the purpose (to prove the bodily resurrection) all in plain order. Citations Isa 25:8 and Hosea 13:14 are carried byte-identical."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 6 words, \"Bodily Resurrection: Awakening from the Dust\". This is the chain's navigation label; it is concrete (body, dust, awakening), states the doctrine without jargon, and §1.12 requires a chain name to stay verify-only unless it is genuinely unclear. It is not."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].title",
+      "reason": "VERIFY-ONLY: 6 words. \"Christ the firstfruits\" is the KJV wording of 1 Cor 15:20-23 and \"death swallowed up\" the KJV wording of 1 Cor 15:54 / Isa 25:8; both are carried verbatim under I1 and the semicolon joins two halves of one event. Also duplicated elsewhere in the corpus, which the applier rejects as ambiguous, so no draft is possible for it anyway."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].title",
+      "reason": "VERIFY-ONLY: 7 words. It is the KJV wording of 1 Thess 4:16 (\"the dead in Christ shall rise first\"), verbatim, so I1 governs it. One idea, nothing to decode."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].connection",
+      "reason": "VERIFY-ONLY: 14 words, 1 sentence of 14, gate PASS. Actor (the Lord), event (His descent), result (believers are raised in the body) and witness (everyone sees it) — one idea, plain order."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].title",
+      "reason": "VERIFY-ONLY: 9 words. \"First resurrection\" is the KJV phrase of Rev 20:5-6 and \"lake of fire\" the KJV phrase of Rev 20:14; the semicolon joins the two halves of one event. Words unchanged under I1; short enough that splitting adds nothing."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].connection",
+      "reason": "VERIFY-ONLY: 9 words, 1 sentence of 9, gate PASS. Two short active clauses with clear subjects (Death is conquered / the body is vindicated), one idea, everyday words."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY: 9 words, 1 sentence of 9, gate PASS. The em-dash joins the noun phrase \"Earliest Joseph cycle\" to the three-word description of it, which is one idea rather than two claims, and the string is far below the length at which §1.7 asks for a split. The system's own resegmentation test only treats a separator as pressure when the sentence runs past 18 words; this one runs 9."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 5 words, an app title summarising Gen 37:2-11 (beloved son, dreams, brothers' envy). One idea, everyday words, no Scriptural wording to preserve or decode."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY: 6 words, 1 sentence of 6, gate PASS. The \"Same-OT:\" label is verbatim and the claim names both acts plainly (betrayal and sale into Egypt). Too short to improve."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 5 words, an app title listing three concrete acts from Gen 37:23-28 (stripped, pit, sold for silver). One idea, no decode."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 7 words, one title. \"God with him\" is the plain sense of Gen 39:21 and the em-dash only joins the situation (favor in prison) to that fact; both halves are one idea. Short, concrete, plain."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY: 4 words, 1 sentence of 4, gate PASS. The \"Same-OT:\" label plus one noun phrase naming what the step shows. Far too short to need splitting."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY: 4 words, drawn from Gen 41:41 (\"I have set thee over all the land of Egypt\"). One idea, concrete, no decode."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY: 4 words, 1 sentence of 4, gate PASS. The \"Same-OT:\" label plus the two-stage summary \"humiliation → enthronement\", which is the step's own before-and-after in two everyday words. Four words sit far below the 18-word pressure line, so splitting it would convert one glanceable phrase into two fragments."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY: 7 words, 1 sentence of 7, gate PASS. The \"Same-OT:\" label plus one claim with a verb (ordered) and a purpose (for salvation of many). Short and plain."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY: 6 words. KJV wording from Gen 45:5 (\"God did send me before you to preserve life\") shortened to one clause with the words verbatim, so I1 governs it."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY: 6 words, the app's own summary of Gen 50:20 in two balanced halves. One idea (the same act had two intentions), concrete, no decode. QUOTE-REVIEW: the served KJV reads \"ye thought evil against me; but God meant it unto good\", so the title is a compression and not a quotation; the words are carried byte-identical under I1, no restoration attempted, and it stays unquoted so no quotation is presented as Scripture."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY: 6 words, 1 sentence of 6, gate PASS. The \"Same-OT:\" label plus one four-word claim naming both actors (sovereign good / human evil). Nothing needs decoding."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY: 6 words, 1 sentence of 6, gate PASS. The \"Same-OT:\" label plus one claim that says what Psalm 105 is (an inspired retelling of the cycle). One idea, plain."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY: 5 words, the app's summary of Psalm 105:16-22 (tried, then made lord). One idea in two concrete stages, and \"lord\" is the psalm's own word for Joseph's rank. Too short to improve."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY: 8 words, 1 sentence of 8, gate PASS. The \"NT:\" label plus one claim with a subject (sermon), verb (retells) and object (the type in salvation history). Plain."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY: 3 words, drawn from Acts 7:10 (\"he made him governor over Egypt\"). Concrete, one idea, no decode."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY: 6 words, the KJV wording of Rom 8:28 (\"all things work together for good\") with the app's own capitalisation. I1 forbids rewording it. One idea, plain."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].connection",
+      "reason": "VERIFY-ONLY: 6 words, 1 sentence of 6, gate PASS. The \"NT:\" label plus the compact phrase \"cross-shaped providence from Joseph's confession\", which names both what the providence looks like and where the claim comes from. Its length is far below the point where a split would help."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 4 words, \"Joseph — Rejected Deliverer\". This is the chain's navigation label; it names the person and the role in everyday words and is not unclear, so §1.12 keeps it."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY: 17 words, 1 sentence of 17, gate PASS. The \"Torah type:\" opener is the app's own label and is kept verbatim; the claim itself names the actors (the Jubilee gave back / set free), the year, and both effects in everyday words. One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 12 words, one title stating the Jubilee and its two effects from Lev 25:10 (liberty proclaimed / land returned). Concrete, everyday words, one idea."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY: 17 words, 1 sentence of 17, gate PASS. The \"Prophetic vision:\" opener is the app's label and stays verbatim. The Hebrew phrase \"tohu va-bohu\" is a transliteration, untouchable under I1, and it is glossed in place as \"chaotic abyss\"; the actor (the Lord) and the picture (earth returned, cities in ruins) are plain. One idea."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 6 words, the app's summary of Jer 4:23-26 (earth desolated, no inhabitant, during judgment). One idea, concrete, no decode."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY: 14 words, 1 sentence of 14, gate PASS. The \"Millennial imprisonment:\" opener is the app's label; the claim names the actors (demonic powers and wicked rulers), the place (the pit) and the duration. One idea, everyday words."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 11 words, one title from Isa 24:21 (\"the host of the high ones that are on high, and the kings of the earth\"). \"High ones\" and \"visited\" are the KJV words for the angelic powers and for God's judgment, and I1 forbids modernising them; the title is short and gives the reader the prison, the gathering and the after-many-days visit. No safe rewrite exists. QUOTE-REVIEW: \"in prison, visited after many days\" compresses Isa 24:22 (\"shall be shut up in the prison, and after many days shall they be visited\"), so it is a summary and not a verbatim quotation; carried byte-identical, not restored."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY: 14 words, 1 sentence of 14, gate PASS. The \"Heavenly review:\" opener is the app's label; the claim names the actor (redeemed believers), the period, the action (examine records) and the outcome (affirm divine justice). One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY: 8 words. Both halves are KJV wording from 1 Cor 6:2-3 (\"the saints shall judge the world\", \"judge angels\"), carried verbatim with the semicolon the KJV itself uses between the two. One idea, and I1 governs every word."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY: 13 words, 1 sentence of 13, gate PASS. The \"Millennium in heaven:\" opener is the app's label; both halves name their actor (the righteous / Satan) and the semicolon separates two short parallel clauses rather than chaining one long idea. Plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY: 8 words. \"First resurrection\" and \"reign with Christ\" are KJV wording from Rev 20:4-6 and \"1,000 years\" is the app's numeral style used across the chain. Words unchanged under I1; one idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. The \"Consummation:\" opener is the app's label and the two claims after it are short, active and name their subjects (the wicked are raised / the lake of fire consumes). One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY: 7 words, one title from Rev 20:7-15 (the second resurrection and the final rebellion destroyed by fire). Concrete, one idea, no decode."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY: 11 words, 1 sentence of 11, gate PASS. The \"Cosmic purification:\" opener is the app's label; the claim has an actor (fire), a verb (purges) and a purpose (making way for eternal recreation). One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY: 10 words. It is 2 Pet 3:13 KJV wording (\"the elements shall melt\", \"new heavens and a new earth, wherein dwelleth righteousness\") carried verbatim with the app's own semicolon. I1 forbids changing the archaic \"dwelleth\"; short and one idea."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY: 9 words, 1 sentence of 9, gate PASS. The \"Eden restored:\" opener is the app's label; the claim names the three things that end (death, sorrow, crying) in everyday words. One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY: 7 words, one title from Rev 21:1-5. \"New Jerusalem\" and \"tabernacles\" are the app's and the KJV's words for the city and for God dwelling with people; the colon joins the descent to its meaning and the whole is one idea. Short, concrete, no safe rewrite."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].title",
+      "reason": "VERIFY-ONLY: 12 words. \"River of life\", \"tree of life\" and \"They shall see His face\" are the KJV wording of Rev 22:1-5, carried verbatim; the colon joins the two images to the promise that follows and the whole is one idea of eternal life with God. I1 governs the words."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].connection",
+      "reason": "VERIFY-ONLY: 11 words, 1 sentence of 11, gate PASS. The \"Eternal communion:\" opener is the app's label; the claim says plainly what the fellowship is, with whom, and for how long. One idea, plain."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 8 words, \"8. The Millennium & The Earth Made New\". This is the chain's navigation label and carries the app's own master-pillar numbering (it is pillar 8 of the numbered set, not a sentence with a stray numeral); §1.12 keeps a chain name unless it is genuinely unclear, and this one names both halves of the subject in everyday words."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY: 19 words, 1 sentence of 19, gate PASS. The colon introduces a definition rather than chaining two claims: the first half names the law and the second says what the law did, with an actor (a close relative) and both objects (land and freedom). First occurrence of a term in the string, so \"the first redemption law in the Torah\" is glossed in place by the clause that follows it. Plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 11 words. The Hebrew transliteration Go'el is untouchable under I1 and is defined both here (in the chain's own name and in the connection that follows) and in the step's term note. The em-dash joins the law to what the kinsman did, which is one idea; the string is short and concrete. No safe rewrite."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. The \"Same-OT:\" label is verbatim, both actors are named (Boaz / Ruth), and \"covenant line\" uses the frozen glossary sense of covenant as God's binding promise in the app's own established phrase. One idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 4 words naming Boaz and his role. Concrete, one idea, no decode, and far too short to rewrite."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY: 10 words, 1 sentence of 10, gate PASS. The \"Same-OT:\" label is verbatim and the claim names the actors (women), the verb (bless God) and the object (the redeemer who fathers Obed). One idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 5 words drawn from Ruth 4:14, where the women say the kinsman will restore Naomi's life. Concrete, one idea, nothing to decode."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY: 11 words, 1 sentence of 11, gate PASS. The \"Same-OT:\" label is verbatim; Job is named as the actor, the transliteration Go'el is the app's own term for the redeemer already introduced by this chain, and the claim (he will stand on the earth) is plain. One idea."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY: 6 words. It is the KJV wording of Job 19:25 (\"I know that my redeemer liveth\") with the app's own present-tense \"lives\"; the sentence of the verse and every word of it are otherwise carried as the source has them under I1. One idea, nothing to decode."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY: 7 words, 1 sentence of 7, gate PASS. The \"Same-OT:\" label is verbatim and the claim names the actor (YHWH, the app's rendering of the divine name) and what He comes as. Too short to improve."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY: 6 words, the KJV wording of Isaiah 59:20 (\"the Redeemer shall come to Zion\"), verbatim, so I1 governs it. One idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. The \"NT:\" label is verbatim; the claim names the actor (Christ), the means (becomes our near kin in the flesh) and the purpose (to accomplish redemption), and \"redemption\" is the frozen glossary sense, buying a person back at a price. One idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY: 10 words. It follows Gal 4:4-5 (\"made of a woman, made under the law, To redeem them that were under the law\") in plain present-day wording with no citation added or dropped; every word is everyday English and the purpose clause carries the single idea. QUOTE-REVIEW: not a verbatim KJV quotation (the KJV has \"made of a woman\", not \"born of a woman\"), carried byte-identical under I1 and left unquoted, so nothing is presented as Scripture that is not."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY: 12 words, 1 sentence of 12, gate PASS. The \"NT:\" label is verbatim; the claim names the means (by sharing our blood) and the two effects (breaks death / frees the enslaved) with \"He\" as the actor. One idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY: 6 words, the KJV wording of Heb 2:11 (\"he is not ashamed to call them brethren\") shortened to the clause with every word verbatim. I1 forbids rewording it and the archaic \"brethren\" is Scripture."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY: 10 words, 1 sentence of 10, gate PASS. The \"NT:\" label is verbatim; the actor (the slain Redeemer), the action (opens) and the object (the seven-sealed scroll of redemption) are all named in plain order. \"Redemption\" carries the frozen glossary sense, buying a person back at a price, and the seven-sealed scroll is the app's own image for the book of Rev 5."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY: 9 words. \"Worthy is the Lamb\" is the KJV wording of Rev 5:9 (\"Thou art worthy ... thou wast slain\") and \"title deed\" is the app's own established rendering of the seven-sealed scroll, used in tier4MasterChains.ts and already kept verify-only in the Genesis sweep. Words unchanged under I1; one idea, plain."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 3 words, \"The Kinsman-Redeemer (Go'el)\". This is the chain's navigation label, and the parenthetical already glosses the Hebrew term for the reader; the name is not unclear, so §1.12 keeps it. It is also duplicated elsewhere in the corpus, which the applier refuses as ambiguous, so no draft is possible for it."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 6 words, the app's summary of Gen 1:1-3 (God spoke, light shone in the darkness). The semicolon joins two halves of one act of creation and the words are not a quotation, so nothing is modernised or preserved; one idea, plain."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].connection",
+      "reason": "VERIFY-ONLY: 5 words, 1 sentence of 5, gate PASS. It names the step's subject (creative speech and light) in two everyday words. Far too short to need a split."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].connection",
+      "reason": "VERIFY-ONLY: 6 words, 1 sentence of 6, gate PASS. The \"Same-OT:\" label is verbatim and the claim says what happened to light (ordered into the cosmos) in one clause. Plain."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 5 words, the app's summary of Gen 1:14-18 (lights for signs, day and night ruled). The slash is a compact pair, not two claims, and the whole is one idea. Too short to improve."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 6 words, the KJV wording of Psalm 19:1 (\"The heavens declare the glory of God\"); the app drops only the article. I1 forbids rewording it, and the sentence is already plain."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].connection",
+      "reason": "VERIFY-ONLY: 4 words, 1 sentence of 4, gate PASS. The \"Same-OT:\" label is verbatim and the claim is a four-word phrase naming the step's theme (creation as speech and witness). Below the length at which a split would help."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].title",
+      "reason": "VERIFY-ONLY: 8 words drawn from Psalm 119:105 and 130 (\"Thy word is a lamp unto my feet\", \"The entrance of thy words giveth light\"). Both phrases are KJV wording with the app's own compression, the semicolon joins the two halves of one claim about the word, and I1 governs the words. No safe rewrite."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].connection",
+      "reason": "VERIFY-ONLY: 4 words, 1 sentence of 4, gate PASS. The \"Same-OT:\" label is verbatim and \"Torah as light\" uses the app's own word for the law, which the chain's own step reference (Psalm 119) supplies. Too short to improve."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].title",
+      "reason": "VERIFY-ONLY: 7 words, the KJV wording of Isaiah 9:2 (\"The people that walked in darkness have seen a great light\") compressed to one clause with every word verbatim. I1 forbids rewording it."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].connection",
+      "reason": "VERIFY-ONLY: 5 words, 1 sentence of 5, gate PASS. The \"Same-OT:\" label is verbatim and \"messianic light in Galilee\" names the fulfilment and the place. Too short to need splitting."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].connection",
+      "reason": "VERIFY-ONLY: 5 words, 1 sentence of 5, gate PASS. The \"Same-OT:\" label is verbatim; \"servant as covenant light\" is compact but names the figure (the servant) and the role, and \"covenant\" carries the frozen glossary sense. Too short to improve."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].title",
+      "reason": "VERIFY-ONLY: 4 words, the app's summary of Isaiah 42:6 and 49:6 (\"a light of the Gentiles\"). Concrete, one idea, far too short to rewrite."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].title",
+      "reason": "VERIFY-ONLY: 7 words. \"Word\", \"true Light\" and \"coming into the world\" are the KJV wording of John 1:1-9 carried verbatim, so I1 forbids rewording; the semicolon joins the two names of the same person, which is one idea. Nothing to decode."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].connection",
+      "reason": "VERIFY-ONLY: 7 words, 1 sentence of 7, gate PASS. The \"NT:\" label is verbatim and the claim says what the step shows, that the Word and the Light are a person. Plain and short."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].title",
+      "reason": "VERIFY-ONLY: 8 words, the app's compression of 2 Cor 4:6. Not inside quotation marks, so nothing is presented as a quotation; the words are carried byte-identical under I1 and the phrase names one idea, the knowledge of God in Christ. QUOTE-REVIEW: the served KJV runs \"the light of the knowledge of the glory of God in the face of Jesus Christ\", so this title shortens it to \"of God in Christ\"; recorded for the operator and not restored."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].connection",
+      "reason": "VERIFY-ONLY: 7 words, 1 sentence of 7, gate PASS. The \"NT:\" label is verbatim; the actor (Paul), the act (quotes creation-light) and the purpose (for gospel illumination) are all named. One idea, plain."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 4 words, \"Light and the Word\". This is the chain's navigation label; it names both motifs of the chain in everyday words, is not unclear, and §1.12 keeps it."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].title",
+      "reason": "VERIFY-ONLY: 9 words. \"Test 1:\" is the app's own labelled step opener, of the same family as the \"Test 2:\" and \"Test 3:\" openers, and I1 forbids dropping or renaming a label; \"To the Law and to the Testimony\" is the KJV wording of Isaiah 8:20 (\"To the law and to the testimony\") with the app's capitalisation. One idea, nothing to decode."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].title",
+      "reason": "VERIFY-ONLY: 7 words. \"Test 2:\" is the app's labelled step opener and must stay verbatim under I1; the Latin pair \"Sola Scriptura / Analogia Scripturae\" is the historic name of the test the step is about, and the connection rewritten in this set now says in plain words what it means. The label is a proper name, not explanatory prose, so the glossary never-write rule does not reach it."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].title",
+      "reason": "VERIFY-ONLY: 5 words. \"Test 3:\" is the app's labelled step opener and must stay verbatim under I1; the remaining words name the baseline the test applies (the sanctuary service, which the frozen glossary renders as the temple service that pointed to him, and which the step's own reference Heb 8:1-2 supplies). The title is 5 words and not unclear, so no rewrite is made and the label is not renamed. FLAGGED FOR THE OPERATOR: \"Christ-Centered\" carries \"Christ\", which is not on the never-write list, and the frozen glossary term Christology is left to the connection, which this set rewrites."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "name",
+      "reason": "VERIFY-ONLY: 8 words, \"Safeguard Against Strange Doctrines: The Three Biblical Tests\". This is the chain's navigation label; it names the subject and the structure in everyday words and tells the reader there are three tests, which the steps then number. Not unclear, so §1.12 keeps it."
+    }
+  ],
+  "equivalent": []
+}

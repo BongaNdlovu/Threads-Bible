@@ -1,0 +1,572 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group E)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 112
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].connection",
+      "text": "Earliest naming of the royal tribe in praise."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].title",
+      "text": "Judah named — praise"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].connection",
+      "text": "Same-OT: messianic genealogy continues through scandal and grace."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].title",
+      "text": "Tamar and Perez — line preserved"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].connection",
+      "text": "Same-OT: tribal blessing becomes royal messianic prophecy."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].title",
+      "text": "Lion of Judah; scepter to Shiloh"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].connection",
+      "text": "Same-OT: genealogy to King David."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].title",
+      "text": "David from Judah's line"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].connection",
+      "text": "Same-OT: eternal dynasty promised to David."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].title",
+      "text": "Throne established forever"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].connection",
+      "text": "Same-OT: steadfast love sworn to the anointed."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].title",
+      "text": "Covenant with David's seed"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].title",
+      "text": "Child born; government on His shoulder"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].connection",
+      "text": "Same-OT: Davidic son as everlasting ruler."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].title",
+      "text": "Until He comes whose right it is"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].connection",
+      "text": "Same-OT: scepter withheld until the rightful one."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].connection",
+      "text": "NT genealogy ties Abraham → Judah → David → Jesus."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].title",
+      "text": "Jesus Christ, son of David, son of Abraham"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].connection",
+      "text": "NT: annunciation fulfills the royal chain."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "name",
+      "text": "Judah — Lion and Scepter"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].title",
+      "text": "Throne of his father David"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].title",
+      "text": "Lion of the tribe of Judah has prevailed"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].connection",
+      "text": "NT: the conquering Lion opens the scroll."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].connection",
+      "text": "Earliest explicit grace before judgment."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].title",
+      "text": "Noah found grace"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].connection",
+      "text": "Same-OT: justification pattern before circumcision and law."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].title",
+      "text": "Believed → counted righteousness"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].connection",
+      "text": "Same-OT: unilateral covenant of promise."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].title",
+      "text": "Covenant made with Abram"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].connection",
+      "text": "Same-OT: promise sealed with a sign, not earned by law."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].title",
+      "text": "Everlasting covenant + sign"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].connection",
+      "text": "Same-OT: law given to a people already redeemed."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].title",
+      "text": "Covenant at Sinai after grace from Egypt"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].title",
+      "text": "Blessed whose transgression is forgiven"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].connection",
+      "text": "Same-OT: David confesses imputed righteousness."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].title",
+      "text": "New covenant; law written on hearts"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].connection",
+      "text": "Same-OT: promise of internalized forgiveness."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].connection",
+      "text": "NT: Paul argues from Gen 15 against law-justification."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].title",
+      "text": "Faith vs. works of the law"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].connection",
+      "text": "NT: same-OT foundation applied to Jew and Gentile."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].title",
+      "text": "Abraham justified by faith"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].connection",
+      "text": "NT: Jeremiah 31 fulfilled at the table and cross."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].title",
+      "text": "New covenant in Christ's blood"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "name",
+      "text": "Covenant of Grace vs. Human Works"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].title",
+      "text": "Abel keeper of sheep; Jabal father of herdsmen"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].connection",
+      "text": "Earliest shepherding vocation in the fallen world."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].title",
+      "text": "God who fed me all my life"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Jacob confesses God as personal Shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].title",
+      "text": "The LORD is my shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].connection",
+      "text": "Same-OT: shepherd-psalm of covenant care."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].title",
+      "text": "You who lead Joseph like a flock"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].connection",
+      "text": "Same-OT: shepherd-God of the tribes."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].title",
+      "text": "I myself will be their shepherd; my servant David"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].connection",
+      "text": "Same-OT: divine shepherd raising Davidic shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].title",
+      "text": "He shall feed his flock like a shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].connection",
+      "text": "Same-OT: arm of the LORD gathers lambs."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].title",
+      "text": "I am the good shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus fulfills divine-shepherd prophecy."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].connection",
+      "text": "NT: raised Shepherd of the new covenant."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].title",
+      "text": "Great Shepherd of the sheep"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].connection",
+      "text": "NT: shepherds under the Chief Shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "name",
+      "text": "Shepherd and Provision"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].title",
+      "text": "Chief Shepherd appears"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].connection",
+      "text": "Earliest prophetic herald clearing a highway for YHWH."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].title",
+      "text": "Voice crying in the wilderness"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].connection",
+      "text": "Same-OT: messenger prepares the way before the Lord visits His temple."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].title",
+      "text": "My messenger to prepare the way"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].connection",
+      "text": "Same-OT: Elijah's spirit of reformation turning hearts before judgment."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].title",
+      "text": "Elijah sent before the great and dreadful day"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].connection",
+      "text": "NT: angel Gabriel applies Malachi 4:6 to John the Baptist."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].title",
+      "text": "In the spirit and power of Elijah"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus declares John is the promised Elijah of the first advent."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].title",
+      "text": "If you will receive it, this is Elijah"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].connection",
+      "text": "NT: dual fulfillment — John came as forerunner; restoration precedes the second advent."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].title",
+      "text": "Elijah truly shall come and restore all things"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].connection",
+      "text": "NT: John quotes Isaiah 40:3 for his mission."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].connection",
+      "text": "NT: the end-time message of reformation and judgment calling the world back to true Creator-worship."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "name",
+      "text": "The Elijah Messenger and the Forerunner"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].title",
+      "text": "Voice crying in the wilderness"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].title",
+      "text": "Three Angels' Messages: Final Elijah proclamation"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].connection",
+      "text": "Earliest gospel promise: war between seeds, victory through wound."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].title",
+      "text": "Protoevangelium — Seed crushes serpent's head"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].connection",
+      "text": "Same-OT: the seed is narrowed to one family line for the nations' blessing."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].title",
+      "text": "All families blessed in Abram"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].connection",
+      "text": "Same-OT: after Isaac's near-offering, seed = singular heir of promise."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].title",
+      "text": "In your seed all nations bless themselves"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].connection",
+      "text": "Same-OT: seed-line becomes royal — Judah's scepter until Shiloh."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].title",
+      "text": "Shiloh / scepter of Judah"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].connection",
+      "text": "Same-OT: royal seed given an eternal dynasty."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].title",
+      "text": "Davidic throne forever"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].connection",
+      "text": "Same-OT: Davidic seed as Spirit-anointed shoot."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].title",
+      "text": "Branch from Jesse"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].connection",
+      "text": "NT names the singular Seed of the Abrahamic promise."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].title",
+      "text": "The Seed is Christ"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].connection",
+      "text": "NT applies the head-crush to the church in Christ."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].title",
+      "text": "God crushes Satan under your feet"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "name",
+      "text": "Seed of the Woman"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].connection",
+      "text": "Divine rule: significant redemptive actions are always preceded by prophetic revelation."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].title",
+      "text": "God reveals His secret to His servants the prophets"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].connection",
+      "text": "A rule in Scripture: God speaks to true prophets this way, under inspired guidance."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].title",
+      "text": "Prophetic criteria: visions and dreams"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].connection",
+      "text": "End-time promise: prophetic gift active right up to the great day of the LORD."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].title",
+      "text": "Latter-day outpouring of the prophetic Spirit"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].connection",
+      "text": "Apostolic order: spiritual gifts remain active until the church reaches mature unity in faith."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].title",
+      "text": "Prophets placed permanently in the body of Christ"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].connection",
+      "text": "Identifying mark: end-time believers preserve obedience and the living prophetic testimony."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].title",
+      "text": "Remnant identified: has the testimony of Jesus Christ"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].connection",
+      "text": "John's definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].title",
+      "text": "The testimony of Jesus is the Spirit of Prophecy"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].connection",
+      "text": "A parallel in Scripture: the angel equates \"the testimony of Jesus\" with \"thy brethren the prophets.\""
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "name",
+      "text": "7. The Spirit of Prophecy & The Remnant"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].title",
+      "text": "Fellowservant of thy brethren the prophets"
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "book": "luk",
+  "bookName": "Luke",
+  "drafts": [
+    {
+      "entryId": "luk-2-23",
+      "field": "principle",
+      "after": "The presentation obeyed the law of the LORD: “Every male that openeth the womb shall be called holy.” First principle: the Redeemer lived under the law he himself gave. Exodus 13 claims every firstborn, and that claim was kept to the letter when Jesus was presented.",
+      "reason": "The KJV clause the source left unquoted is now a direct quotation, byte-identical to Luke 2:23 as far as the source carries it (the verse continues 'to the Lord'), and 'the Redeemer lives under the law He gave' becomes 'the Redeemer lived under the law he himself gave'. The em-dash tag 'Exodus 13's claim on the firstborn kept to the letter in His own presentation' becomes a sentence with a subject and a verb. Citation Exodus 13 carried byte-identical. Claims kept: the presentation obeys the law of the LORD; every male that openeth the womb shall be called holy; the Redeemer lives under the law he gave; Exodus 13's claim on the firstborn was kept to the letter in his own presentation."
+    },
+    {
+      "entryId": "luk-18-31",
+      "field": "principle",
+      "after": "Going up to Jerusalem, Jesus said that everything written by the prophets concerning the Son of man shall be accomplished. He named what would happen: betrayal, mocking, scourging, death, and resurrection. First principle: the week of his suffering is the most predicted week in history.",
+      "reason": "The participle 'says' becomes 'said that', which gives the sentence its own verb, and the compressed list 'betrayal, mock, scourge, death, resurrection' becomes a sentence with a verb and everyday nouns. 'the Passion week' becomes 'the week of his suffering', which needs no decoding. QUOTE-REVIEW: the source's span 'everything written by the prophets concerning the Son of man shall be accomplished' is a shortened form of Luke 18:31 ('all things that are written by the prophets concerning the Son of man shall be accomplished'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: going up to Jerusalem; everything written by the prophets concerning the Son of man shall be accomplished; betrayal, mocking, scourging, death and resurrection; the Passion week is the most predicted week in history."
+    },
+    {
+      "entryId": "luk-1-32",
+      "field": "principle",
+      "after": "Gabriel announced that the Son of the Highest would receive David's throne. First principle: Gabriel joined 2 Samuel 7 and Isaiah 9 in one announcement. The Son of God's binding promise is both God's Son and David's heir.",
+      "reason": "The participle 'announces the Son of the Highest receiving David's throne' becomes a clause with its own verb, 'fuses ... into one announcement' becomes 'joined ... in one announcement', and the frozen glossary rendering replaces 'the covenant Son' with 'the Son of God's binding promise'. Citations 2 Samuel 7 and Isaiah 9 carried byte-identical. Claims kept: Gabriel announces the Son of the Highest receiving David's throne; Gabriel fuses 2 Samuel 7 and Isaiah 9 into one announcement; the covenant Son is both God's Son and David's heir."
+    },
+    {
+      "entryId": "luk-24-44",
+      "field": "principle",
+      "after": "The risen Lord divided the whole of Scripture into three parts: the law of Moses, the prophets, and the psalms. All of it, he said, was written concerning Him. First principle: every section of the Old Testament is about Christ.",
+      "reason": "The jargon 'the whole canon' becomes 'the whole of Scripture', the em-dash list becomes a plain list, and 'carries the thread of Christ' becomes 'is about Christ'. The source's words 'the law of Moses, the prophets, and the psalms' and 'written concerning Him' are carried byte-identical from Luke 24:44, where the KJV reads 'in the law of Moses, and in the prophets, and in the psalms, concerning me'. Claims kept: the risen Lord divides the whole canon, the law of Moses, the prophets and the psalms, as written concerning him; every section of the Old Testament carries the thread of Christ."
+    },
+    {
+      "entryId": "luk-21-27",
+      "field": "principle",
+      "after": "Nations will be in distress. Then the sign appears: “the Son of man coming in a cloud with power and great glory.” First principle: at the end, Daniel 7's Son of man receives his kingdom in full public view. Then “redemption draweth nigh.”",
+      "reason": "The fragment 'After distress of nations, the Sign appears' becomes a sentence with a subject and a verb, the KJV clause is now a direct quotation, byte-identical to Luke 21:27, and 'receives the kingdom publicly at the end' becomes 'receives his kingdom in full public view'. The second KJV clause, 'redemption draweth nigh', is quoted byte-identical as far as the source carries it (Luke 21:28 reads 'your redemption draweth nigh'). Citation Daniel 7 carried byte-identical. Claims kept: after distress of nations the sign appears; the Son of man coming in a cloud with power and great glory; Daniel 7's Son of man receives the kingdom publicly at the end; redemption draweth nigh."
+    },
+    {
+      "entryId": "luk-4-12",
+      "field": "principle",
+      "after": "The third wilderness test — throw Yourself down — was refused with Deuteronomy 6:16. First principle: the Messiah would not force proof that he was the Son. Israel tested God at Massah. The true Israel would not do that.",
+      "reason": "'manufacture proof of Sonship' becomes 'force proof that he was the Son', and the semicolon chain 'Israel tested God at Massah, and the true Israel would not' becomes two sentences. Citation Deuteronomy 6:16 carried byte-identical. QUOTE-REVIEW: the source's phrase 'throw Yourself down' is not the KJV wording of Luke 4:9 ('cast thyself down'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: the third wilderness test is throw Yourself down; it is refused with Deuteronomy 6:16; the Messiah will not manufacture proof of Sonship; Israel tested God at Massah; the true Israel would not."
+    },
+    {
+      "entryId": "luk-18-8",
+      "field": "principle",
+      "after": "God will avenge His elect speedily. Yet the Son of man asks whether faith will remain. First principle: the question for the last days is not whether God will act. It is whether anyone is still praying when he comes.",
+      "reason": "The em-dash clause becomes its own sentence, and 'the end-time question' becomes 'the question for the last days', the glossary rendering for the end of the story. 'when He does' becomes 'when he comes', the word Luke uses for the Son of man's arrival. QUOTE-REVIEW: the source's 'God will avenge His elect speedily' blends Luke 18:7 ('shall not God avenge his own elect') with Luke 18:8 ('he will avenge them speedily'), and 'the Son of man asks whether faith will remain' renders Luke 18:8's 'shall he find faith on the earth?'; both are carried byte-identical and left unquoted exactly as they stand. Claims kept: God will avenge his elect speedily; the Son of man asks whether faith will remain; the end-time question is not whether God will act but whether anyone is still praying when he does."
+    },
+    {
+      "entryId": "luk-2-32",
+      "field": "principle",
+      "after": "Simeon held the infant and quoted Isaiah: “a light to lighten the Gentiles, and the glory of thy people Israel.” First principle: God had prepared this salvation before the face of all people. Simeon now carried it in his two arms.",
+      "reason": "The KJV clause the source left unquoted is now a direct quotation, byte-identical to Luke 2:32, and 'salvation prepared before the face of all people is now carried in two arms' becomes two sentences that name God as the one who prepared it and Simeon as the one who carried it. Claims kept: Simeon holds the infant; he quotes Isaiah; a light to lighten the Gentiles and the glory of thy people Israel; salvation prepared before the face of all people is carried in two arms."
+    },
+    {
+      "entryId": "luk-4-8",
+      "field": "principle",
+      "after": "Jesus refused the kingdoms of the world with Deuteronomy 6:13. First principle: worship belongs to God alone. Christ will take the kingdoms, but he will take them by the cross, never by the devil's shortcut.",
+      "reason": "The passive 'are refused' now names Jesus as the one who refused, 'worship is God's alone' becomes 'worship belongs to God alone', and the em-dash clause becomes a sentence with a subject and a verb. Citation Deuteronomy 6:13 carried byte-identical. Claims kept: the kingdoms of the world are refused with Deuteronomy 6:13; worship is God's alone; Christ will take the kingdoms by the cross, never by the devil's shortcut."
+    },
+    {
+      "entryId": "luk-7-27",
+      "field": "principle",
+      "after": "Jesus told John's disciples who he was by what he did. Then he told the crowd who John was: Malachi 3:1's messenger. First principle: the man who goes first identifies the one who comes after him.",
+      "reason": "'tells ... by deeds' becomes 'told ... by what he did', and the abstract stack 'the forerunner's identity certifies the identity of the One preceded' becomes 'the man who goes first identifies the one who comes after him', which says the same thing with actors and verbs. Citation Malachi 3:1 carried byte-identical. Claims kept: Jesus tells John's disciples who he is by deeds; he tells the crowd who John is, Malachi 3:1's messenger; the forerunner's identity certifies the identity of the One preceded."
+    },
+    {
+      "entryId": "luk-22-37",
+      "field": "principle",
+      "after": "Jesus said that Isaiah 53:12 must be accomplished in him. He was numbered with criminals, yet he brought the law's rule to its end. First principle: Christ died among the guilty, just as Scripture said. “The things concerning me have an end.”",
+      "reason": "'yet ending the law's regime' becomes a sentence with a subject and a verb, the 'and' chain in the principle is split, and 'the things concerning me have an end' is quoted byte-identical from Luke 22:37 as its own sentence. The source's pronoun 'Me' follows into indirect speech as 'him'; no other word of that sentence changed. Citation Isaiah 53:12 carried byte-identical. QUOTE-REVIEW: the source's phrase 'numbered with criminals' is not the KJV wording of Luke 22:37 / Isaiah 53:12 ('he was reckoned among the transgressors'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: Isaiah 53:12 must be accomplished in him; he is numbered with criminals; the law's regime ends; Christ dies among the guilty as Scripture said; the things concerning him have an end."
+    },
+    {
+      "entryId": "luk-1-76",
+      "field": "principle",
+      "after": "Zacharias named his son the prophet of the Highest, the one going before the Lord to prepare His ways. First principle: Malachi's messenger stands in the birth story itself. John is written prophecy that became a crying infant.",
+      "reason": "'names' becomes 'named', 'the birth narrative' becomes 'the birth story', and the compressed tag 'John is written prophecy made a crying infant' gets the verb it was missing. QUOTE-REVIEW: the source's clause 'going before the Lord to prepare His ways' is not the KJV wording of Luke 1:76 ('thou shalt go before the face of the Lord to prepare his ways'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: Zacharias names his son the prophet of the Highest; he goes before the Lord to prepare His ways; Malachi's messenger stands in the birth narrative; John is written prophecy made a crying infant."
+    },
+    {
+      "entryId": "luk-1-33",
+      "field": "principle",
+      "after": "“He shall reign over the house of Jacob for ever.” First principle: David's kingdom was cut down like a stump. In the Son of Mary it grows into a kingdom that never ends.",
+      "reason": "The KJV sentence the source left unquoted is now a direct quotation, byte-identical to Luke 1:33, and the participial phrase 'cut down like a stump, grows into an everlasting dominion in the Son of Mary' becomes two sentences with a verb in each. 'the Davidic kingdom' becomes 'David's kingdom', and 'an everlasting dominion' becomes 'a kingdom that never ends'. Claims kept: he shall reign over the house of Jacob for ever; the Davidic kingdom was cut down like a stump; it grows into an everlasting dominion in the Son of Mary."
+    },
+    {
+      "entryId": "luk-3-4",
+      "field": "principle",
+      "after": "Luke applied Isaiah 40:3 to John's ministry: “make his paths straight.” First principle: John the forerunner was written about before he was born. The wilderness voice was on the page seven centuries earlier.",
+      "reason": "'quotes ... over John's ministry' becomes 'applied ... to John's ministry', 'the forerunner is literature before he is a man' becomes 'John the forerunner was written about before he was born', and the em-dash tag becomes its own sentence. The KJV clause 'make his paths straight' is carried byte-identical from Luke 3:4, and only quotation marks were added around it. Citation Isaiah 40:3 carried byte-identical. Claims kept: Luke quotes Isaiah 40:3 over John's ministry; make his paths straight; the forerunner is literature before he is a man; the wilderness voice was written seven centuries earlier."
+    },
+    {
+      "entryId": "luk-8-10",
+      "field": "principle",
+      "after": "Parables both reveal and conceal. That is the blindness Isaiah 6 described, and here it comes true. First principle: the same word softens the willing and hardens the unwilling. The difference is the heart that hears.",
+      "reason": "The em-dash tag 'Isaiah 6's judicial blindness fulfilled' becomes its own sentence and drops the jargon word 'judicial', and the semicolon chain in the principle becomes two sentences. Citation Isaiah 6 carried byte-identical. Claims kept: parables both reveal and conceal; Isaiah 6's judicial blindness is fulfilled; the same word softens the willing and hardens the unwilling; the difference is the heart that hears."
+    },
+    {
+      "entryId": "luk-24-46",
+      "field": "principle",
+      "after": "“Thus it is written,” Jesus said: he would suffer, he would rise the third day, and repentance and remission would be preached among all nations. First principle: the gospel pattern itself fulfills Scripture. Death, resurrection, and worldwide preaching were all written ahead of time.",
+      "reason": "The compressed list 'suffer, rise the third day, and repentance and remission preached among all nations' gains the subjects and verbs it was missing, and 'the gospel pattern ... is itself the fulfillment of Scripture' becomes two sentences with an actor. QUOTE-REVIEW: the source's list is a compression of Luke 24:46-47 ('thus it behoved Christ to suffer, and to rise from the dead the third day: And that repentance and remission of sins should be preached in his name among all nations'); the words the source carries ('Thus it is written', 'the third day', 'repentance and remission', 'preached among all nations') are byte-identical and are left unquoted exactly as they stand. Claims kept: thus it is written; suffering; rising the third day; repentance and remission preached among all nations; the gospel pattern is itself the fulfillment of Scripture."
+    },
+    {
+      "entryId": "luk-1-69",
+      "field": "principle",
+      "after": "Zacharias blessed God for raising up an horn of salvation in the house of his servant David. First principle: Hannah's words about the horn of His anointed and God's binding promise to David came together in the newborn Christ.",
+      "reason": "'Hannah's horn of His anointed' becomes 'Hannah's words about the horn of His anointed', so the reference to her song is clear, and the frozen glossary rendering replaces 'the Davidic covenant' with 'God's binding promise to David'. QUOTE-REVIEW: the source's clause 'an horn of salvation in the house of his servant David' is not the KJV wording of Luke 1:69 ('an horn of salvation for us in the house of his servant David'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: Zacharias blesses God for raising up an horn of salvation in the house of his servant David; Hannah's horn of His anointed and the Davidic covenant meet in the newborn Christ."
+    },
+    {
+      "entryId": "luk-4-18",
+      "field": "principle",
+      "after": "In Nazareth Jesus read Isaiah 61 and sat down: “This day is this scripture fulfilled.” First principle: no other place in Scripture shows Jesus declaring his own fulfillment so clearly. Anointing, gospel, healing, and liberty all appear in one sentence.",
+      "reason": "The KJV clause is now a direct quotation, byte-identical to Luke 4:21 as far as the source carries it (the verse continues 'in your ears'), and 'the clearest self-declared fulfillment in Scripture' becomes 'no other place in Scripture shows Jesus declaring his own fulfillment so clearly'. The list of four becomes its own sentence with a verb. Citation Isaiah 61 carried byte-identical. Claims kept: in Nazareth Jesus reads Isaiah 61 and sits down; This day is this scripture fulfilled; the clearest self-declared fulfillment in Scripture; anointing, gospel, healing and liberty all in one sentence."
+    },
+    {
+      "entryId": "luk-24-27",
+      "field": "principle",
+      "after": "From Moses through all the prophets, Christ explained the things concerning Himself. First principle: the whole Old Testament is about Jesus. He is its subject, not an appendix to it.",
+      "reason": "The never-write term 'Christological' is replaced by the plain claim it stands for, 'the whole Old Testament is about Jesus', and 'expounds' becomes 'explained'. The source's words 'the things concerning Himself' are carried byte-identical from Luke 24:27. Claims kept: from Moses through all the prophets Christ expounds the things concerning Himself; the whole Old Testament is about Christ; he is its subject, not its appendix."
+    },
+    {
+      "entryId": "luk-20-17",
+      "field": "principle",
+      "after": "Jesus used Psalm 118 to answer the chief priests. First principle: the rejected Stone becomes the head of the corner, the stone the whole building rests on. Rejection was the road that led to exaltation.",
+      "reason": "'quotes Psalm 118 against' becomes 'used Psalm 118 to answer', the em-dash clause 'rejection is the very road to exaltation' becomes its own sentence with a verb, and 'the head of the corner' is glossed in the same sentence as the stone the whole building rests on. Citation Psalm 118 carried byte-identical. QUOTE-REVIEW: the source's rendering 'the rejected Stone becomes the head of the corner' is not the KJV wording of Luke 20:17 ('The stone which the builders rejected, the same is become the head of the corner', where 'the head of the corner' is the KJV phrase itself); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: Jesus quotes Psalm 118 against the chief priests; the rejected Stone becomes the head of the corner; rejection is the very road to exaltation."
+    },
+    {
+      "entryId": "luk-20-42",
+      "field": "principle",
+      "after": "David in the Psalms calls his own descendant Lord. First principle: Psalm 110 left the scribes with nothing to say. The Christ is greater than David: David's Son, and David's Lord.",
+      "reason": "The archaic tag 'Son yet Sovereign' becomes 'David's Son, and David's Lord', which is the point the verse makes, and 'leaves the scribes speechless' becomes 'left the scribes with nothing to say'. Citation Psalm 110 carried byte-identical. Claims kept: David in the Psalms calls his descendant Lord; Psalm 110 leaves the scribes speechless; the Christ is greater than David; he is Son yet Sovereign."
+    },
+    {
+      "entryId": "luk-4-21",
+      "field": "principle",
+      "after": "Everyone in the synagogue watched Jesus as he closed the book. First principle: the fulfillment was not merely on its way. It stood in the room that day.",
+      "reason": "The passive 'The eyes of all in the synagogue are fastened on Him' becomes 'Everyone in the synagogue watched Jesus', 'not merely coming' becomes 'not merely on its way', and the em-dash clause becomes its own sentence. Claims kept: the eyes of all in the synagogue are fastened on him as he closes the book; fulfillment is not merely coming; it stands in the room, today."
+    },
+    {
+      "entryId": "luk-4-4",
+      "field": "principle",
+      "after": "Christ answered the tempter from Deuteronomy: man lives by every word of God. First principle: Israel failed in the wilderness. Jesus, the true Israel, won there by the word that was written.",
+      "reason": "The semicolon chain 'Israel failed in the wilderness; the true Israel wins there by the written Word' becomes two sentences, and 'the written Word' becomes 'the word that was written'. QUOTE-REVIEW: the source's clause 'man lives by every word of God' is not the KJV wording of Luke 4:4 ('man shall not live by bread alone, but by every word of God'); it is carried byte-identical and left unquoted exactly as it stands. Claims kept: Christ answers the tempter from Deuteronomy; man lives by every word of God; Israel failed in the wilderness; the true Israel wins there by the written Word."
+    },
+    {
+      "entryId": "luk-24-26",
+      "field": "principle",
+      "after": "The risen Christ taught that he had to suffer before he could enter his glory. First principle: the cross was not an accident of politics. Scripture said it ought to happen.",
+      "reason": "'suffering was the required road to glory' becomes 'he had to suffer before he could enter his glory', which uses the words of the verse itself, and 'an ought of prophecy', the densest phrase in the string, becomes 'Scripture said it ought to happen'. Claims kept: the risen Christ teaches that suffering was the required road to glory; the cross was not an accident of politics; it was an ought of prophecy."
+    },
+    {
+      "entryId": "luk-21-24",
+      "field": "principle",
+      "after": "Jesus foretold destruction and captivity, and he set a limit on how long it would last: “until the times of the Gentiles be fulfilled.” First principle: even Jerusalem's humiliation has a date when it ends.",
+      "reason": "The fragment 'Destruction, captivity, and a bounded timespan' gains a subject and a verb, 'a bounded timespan' becomes 'a limit on how long it would last', and the KJV clause is now a direct quotation, byte-identical to Luke 21:24. 'prophecy gives even Jerusalem's humiliation an expiration date' becomes one plain sentence without the modern idiom. Claims kept: destruction; captivity; a bounded timespan until the times of the Gentiles be fulfilled; prophecy gives even Jerusalem's humiliation an expiration date."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "luk-21-27",
+      "field": "title",
+      "reason": "10 words, one sentence, one idea — Luke 21:27's KJV clause with the source's own trimming (the verse reads 'the Son of man coming in a cloud with power and great glory'); capitalisation aside, every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-1-69",
+      "field": "title",
+      "reason": "9 words, one sentence, one idea — Luke 1:69's KJV phrase with the source's own trimming of 'for us' and 'his servant'; every word kept is KJV and byte-identical; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-8-10",
+      "field": "title",
+      "reason": "9 words, one sentence, one idea — Luke 8:10's KJV words ('Unto you it is given to know the mysteries of the kingdom of God') with the source's own trimming; capitalisation aside, every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-21-24",
+      "field": "title",
+      "reason": "9 words, one sentence, one idea — Luke 21:24's KJV words ('Jerusalem shall be trodden down of the Gentiles, until the times of the Gentiles be fulfilled') with the source's own trimming; every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-24-46",
+      "field": "title",
+      "reason": "9 words, one sentence, one idea — Luke 24:46's KJV words ('Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day') with the source's own trimming; the archaism 'behoved' is Scripture and stays under I1; gate PASS."
+    },
+    {
+      "entryId": "luk-1-33",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 1:33's KJV clause ('of his kingdom there shall be no end') carried byte-identical, capitalisation aside; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-1-76",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 1:76's KJV words ('the prophet of the Highest', 'to prepare his ways') carried byte-identical, capitalisation and the source's own participle aside; gate PASS."
+    },
+    {
+      "entryId": "luk-4-8",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 4:8's KJV words ('Thou shalt worship the Lord thy God', 'him only') carried byte-identical with the source's own joining of 'only'; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-4-12",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 4:12's KJV clause ('Thou shalt not tempt the Lord thy God') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-4-18",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 4:18's KJV clause ('The Spirit of the Lord is upon me') carried byte-identical, capitalisation aside; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-18-31",
+      "field": "title",
+      "reason": "8 words, one sentence, one idea — Luke 18:31's KJV words ('all things that are written by the prophets concerning the Son of man') with the source's own trimming; every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-24-26",
+      "field": "title",
+      "reason": "8 words, one question, one idea — Luke 24:26's KJV words ('Ought not Christ to have suffered these things?') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-4-4",
+      "field": "title",
+      "reason": "7 words, one sentence, one idea — Luke 4:4's KJV clause ('man shall not live by bread alone') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-7-27",
+      "field": "title",
+      "reason": "7 words, one sentence, one idea — Luke 7:27's KJV clause ('I send my messenger before thy face') carried byte-identical, capitalisation aside (the verse opens 'Behold', which the source title already dropped); gate PASS."
+    },
+    {
+      "entryId": "luk-18-8",
+      "field": "title",
+      "reason": "7 words, one question, one idea — Luke 18:8's KJV words ('shall he find faith on the earth?') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-24-27",
+      "field": "title",
+      "reason": "7 words, one sentence, one idea — Luke 24:27's KJV words ('beginning at Moses', 'he expounded', 'concerning himself') with the source's own trimming of 'and all the prophets'; every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-1-32",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 1:32's KJV clause ('the throne of his father David') carried byte-identical, capitalisation aside; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-2-23",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 2:23's KJV clause ('Every male that openeth the womb') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-2-32",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 2:32's KJV clause ('A light to lighten the Gentiles') carried byte-identical, capitalisation aside; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-3-4",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 3:4's KJV words ('The voice of one crying in the wilderness') with the source's own trimming of 'of one'; every word kept is KJV and byte-identical; gate PASS."
+    },
+    {
+      "entryId": "luk-4-21",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 4:21's KJV words ('This day is this scripture fulfilled') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-20-17",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 20:17's KJV words ('The stone which the builders rejected') carried byte-identical, capitalisation aside; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "luk-20-42",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 20:42's KJV clause ('The LORD said unto my Lord') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-22-37",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 22:37's KJV clause ('he was reckoned among the transgressors') carried byte-identical, capitalisation aside; gate PASS."
+    },
+    {
+      "entryId": "luk-24-44",
+      "field": "title",
+      "reason": "6 words, one sentence, one idea — Luke 24:44's KJV words ('in the law of Moses, and in the prophets, and in the psalms, concerning me') with the source's own trimming of the prepositions; every word kept is KJV and byte-identical; gate PASS."
+    }
+  ],
+  "equivalent": []
+}

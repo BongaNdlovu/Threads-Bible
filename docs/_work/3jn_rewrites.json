@@ -1,0 +1,20 @@
+{
+  "book": "3jn",
+  "bookName": "3 John",
+  "drafts": [
+    {
+      "entryId": "3jn-1-11",
+      "field": "principle",
+      "after": "The command is, \"follow not that which is evil, but that which is good.\" The person who does good is of God. The person who does evil has not seen Him. First principle: we copy what we have seen. Seeing God is the root of doing good, and Diotrephes had not seen.",
+      "reason": "The KJV clause 'follow not that which is evil, but that which is good' (canon 3 John 1:11) is carried byte-identical, including the source's lower-case 'follow not', and is now quoted with the app's own words outside the quotation; it sits after an introductory phrase so no letter inside it had to be capitalised. The semicolon chain becomes three sentences with named subjects, so 'the doer of good is of God' and 'the evildoer has not seen Him' each stand alone. The dash clause 'imitation follows vision — seeing God is the root of doing good' is split so each idea has its own sentence, and Diotrephes is kept."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "3jn-1-11",
+      "field": "title",
+      "reason": "7 words, KJV wording from 3 John 1:11 in plain order, one idea; nothing to change"
+    }
+  ],
+  "equivalent": []
+}

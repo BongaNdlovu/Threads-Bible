@@ -1,0 +1,212 @@
+{
+  "book": "hab",
+  "bookName": "Habakkuk",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 14,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "hab-2-14",
+    "hab-2-20",
+    "hab-2-3",
+    "hab-2-4",
+    "hab-3-17",
+    "hab-3-18",
+    "hab-3-2"
+  ],
+  "fields": [
+    {
+      "entryId": "hab-2-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "It speaks at the end and will not lie; though it tarry, wait. First principle: prophecy has a schedule and a patience-command — it will surely come, and the tarrying is part of the coming.",
+      "density": 2.1321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-3-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joy in the God of salvation with nothing else joying. First principle: rejoicing without produce — the God of my salvation is the joy when every field fails; Paul's rejoice-always inherits it.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-2-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Silence commanded before the enthroned One. First principle: the answer to idol-noise is universal hush — the LORD present in His holy temple ends all chatter.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-2-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The lifted-up soul is not upright; the faith-soul lives. First principle: the Reformation verse — Romans, Galatians, and Hebrews each take a clause; life is faith-lived, not pride-earned.",
+      "density": 1.7857,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Total agricultural collapse listed: fig, vine, olive, field, flock, herd. First principle: the worst-case inventory is the prelude to joy — the list exists to be survived.",
+      "density": 1.6464,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-3-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Speech heard, fear felt, revival prayed; in wrath remember mercy. First principle: the revival-prayer between fear and faith — wrath remembered-with-mercy is the requested lens.",
+      "density": 1.4821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-2-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As waters cover the sea. First principle: the covering standard — sea-coverage is total; the knowledge-goal of history is glory-knowledge everywhere.",
+      "density": 1.4393,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "hab-2-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Earth Shall Be Filled with the Knowledge of the Glory of the LORD",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-2-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is in His Holy Temple: Let All the Earth Keep Silence",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-3-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O LORD, Revive Thy Work in the Midst of the Years",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-2-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Vision Is Yet for an Appointed Time",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-2-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Just Shall Live by His Faith",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Although the Fig Tree Shall Not Blossom",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "hab-3-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet I Will Rejoice in the LORD",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,552 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group B)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 108
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "text": "Earliest cry of the righteous sufferer quoted by Jesus on the cross."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "text": "My God, why hast Thou forsaken Me?"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].connection",
+      "text": "Same-OT: a specific prophecy that his body would be pierced and his clothes divided."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "text": "They pierced My hands and feet; cast lots for garments"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the righteous one suffers and is offered a bitter drink."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "text": "Gall for food, vinegar for thirst"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "text": "I gave my back to the smiters, my cheeks to those plucking the beard"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "text": "Same-OT: he chose to submit to public shame and violence."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the Servant bears sin in the place of others."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "text": "Wounded for our transgressions, healed by His stripes"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "text": "Same-OT: divine Speaker pierced; mourning as for an only son."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "text": "Look on Me whom they have pierced"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].connection",
+      "text": "Same-OT: the Shepherd, who is YHWH's close Companion, is struck down."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].connection",
+      "text": "NT: crucifixion fulfills Ps 22, Ps 69, Isa 50, and Isa 53 in detail."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "text": "NT: John cites Zechariah 12:10 and Exodus 12:46."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "text": "NT: apostolic proclamation centers on the sheep led to slaughter."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "text": "The Suffering Servant and Pierced Messiah"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "text": "Awake, O sword, against My Shepherd"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "text": "The cross of Jesus Christ"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "text": "Soldier pierces His side"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "text": "Philip preaches Jesus from Isaiah 53"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "text": "His own self bare our sins on the tree"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "text": "Peter applies Isaiah 53 to what Christ did in our place."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "text": "Every eye shall see Him, and they who pierced Him"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].connection",
+      "text": "The pierced King appears at the end of the story."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].title",
+      "text": "Tree of life in Eden's midst"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].connection",
+      "text": "Earliest gift of life-access."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].title",
+      "text": "Way barred by cherubim and sword"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].connection",
+      "text": "Same-OT: access cut off after sin."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].connection",
+      "text": "Same-OT: holy place limited; veil keeps God's presence veiled."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].title",
+      "text": "Cherubim on the mercy seat and veil"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].connection",
+      "text": "Same-OT: blood opens limited access once a year."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].title",
+      "text": "Day of Atonement access"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].title",
+      "text": "Who may ascend the hill of the LORD?"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].connection",
+      "text": "Same-OT: moral qualification for nearness."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].connection",
+      "text": "Same-OT: eschatological access for the ransomed."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].title",
+      "text": "Highway of holiness; redeemed walk it"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].title",
+      "text": "Trees for food, leaves for healing"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].connection",
+      "text": "Same-OT: river-and-tree vision of renewed life."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].connection",
+      "text": "NT: veil — His flesh — torn; access by blood."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].title",
+      "text": "New and living way through the veil"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].connection",
+      "text": "NT: the barred way is a Person."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].title",
+      "text": "Tree of life in the city; right to the tree"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "name",
+      "text": "Tree of Life and Access to God"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].title",
+      "text": "I am the way"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].connection",
+      "text": "NT: Eden access restored to the washed."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].connection",
+      "text": "The earliest promise that God will work inside a person, in place of outward failure."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].title",
+      "text": "The LORD will circumcise your heart"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God plainly promises a new covenant — God's binding promise — with sins forgiven for good."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].title",
+      "text": "The New Covenant — law written on the heart"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].connection",
+      "text": "Same-OT: God takes away the heart of stone and gives a heart of flesh."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].title",
+      "text": "A new heart and the Spirit within"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].connection",
+      "text": "NT: at the Last Supper Jesus begins the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].title",
+      "text": "This cup is the New Covenant in My blood"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].connection",
+      "text": "NT: the church of the apostles keeps remembering the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].title",
+      "text": "The New Covenant remembered at the Lord's Supper"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].connection",
+      "text": "NT: written on fleshy tables of the heart, not stone."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].title",
+      "text": "Ministers of the New Covenant in the Spirit"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].connection",
+      "text": "NT: the Spirit, not an outward sign, defines who you are inside. This fulfills Deut 30:6."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].title",
+      "text": "Circumcision is of the heart, in the spirit"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].title",
+      "text": "Christ stands between God and us in a better covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].connection",
+      "text": "NT: this passage quotes Jeremiah 31 in full. Then it explains what the words mean."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].connection",
+      "text": "NT: Christ's sacrifice is final. It completes the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].title",
+      "text": "Their sins and iniquities I will remember no more"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "name",
+      "text": "Circumcision of Heart and the New Covenant"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].connection",
+      "text": "Earliest human mandate and identity."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].title",
+      "text": "Image, likeness, dominion"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].connection",
+      "text": "Same-OT: image transmitted after the fall (marred, not erased)."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].title",
+      "text": "Adam's line in God's likeness"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].connection",
+      "text": "Same-OT: capital justice grounded in the image of God."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].title",
+      "text": "Whoever sheds man's blood"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].connection",
+      "text": "Same-OT: dominion praised and questioned — \"what is man?\""
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].title",
+      "text": "Man crowned with glory and honor"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].connection",
+      "text": "Same-OT: dominion enthroned in the Lord at YHWH's right."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].title",
+      "text": "Sit at my right hand"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].connection",
+      "text": "NT: Ps 8 fulfilled in Jesus, not yet fully visible in fallen man."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].title",
+      "text": "All things under His feet"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].connection",
+      "text": "NT: the true Image is the Creator-Son."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].connection",
+      "text": "NT: believers re-imaged in the Messiah."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "name",
+      "text": "Image of God and Dominion"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].title",
+      "text": "Image of the invisible God"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].title",
+      "text": "Renewed in the image"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].title",
+      "text": "Woman from the man; one flesh"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].connection",
+      "text": "Earliest marriage ordinance and type."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].connection",
+      "text": "Same-OT: bride secured by sending and willing heart."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].title",
+      "text": "Servant seeks a bride for Isaac"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].connection",
+      "text": "Same-OT: YHWH as Husband of Israel."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].title",
+      "text": "Your Maker is your Husband"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].title",
+      "text": "I will betroth you in righteousness"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].connection",
+      "text": "Same-OT: covenant marriage after unfaithfulness."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].title",
+      "text": "I entered into covenant with you"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].connection",
+      "text": "Same-OT: marriage-covenant theology."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].connection",
+      "text": "NT: Jesus re-grounds marriage in creation."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].title",
+      "text": "What God has joined"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].connection",
+      "text": "NT: the great mystery of one flesh."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].title",
+      "text": "Christ and the church"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].connection",
+      "text": "NT: eschatological wedding of Messiah and people."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].title",
+      "text": "Marriage of the Lamb; bride prepared"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "name",
+      "text": "One Flesh and the Bride"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].title",
+      "text": "Melchizedek blesses Abram with bread and wine"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].connection",
+      "text": "Earliest priest-king outside Levi; Abram pays tithe."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].title",
+      "text": "You are a priest forever after the order of Melchizedek"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Davidic Lord appointed eternal priest — not Aaronic."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].connection",
+      "text": "NT applies Ps 110 to Jesus' priesthood."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].title",
+      "text": "Christ called as High Priest"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].connection",
+      "text": "NT unfolds Melchizedek as superior, deathless, and perfecting."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].title",
+      "text": "Better priesthood, better covenant"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "name",
+      "text": "Melchizedek Priesthood"
+    }
+  ]
+}
