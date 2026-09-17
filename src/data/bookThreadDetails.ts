@@ -8597,41 +8597,41 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
 
   // ── Hand-written expansion: 2 Kings ─────────────────────────────────────
   '2ki-2-11': {
-    title: 'A Chariot of Fire... and Elijah Went Up',
+    title: '"A chariot of fire... and Elijah went up" — the whirlwind carried him to heaven.',
     principle:
-      'Fire-horses part the two; a whirlwind receives the prophet. First principle: one man in Scripture skipped death — the translation that John the Baptist\'s spirit- predecessor shares with Enoch\'s hope.',
+      'The fire-horses separated the two men. Then the whirlwind carried the prophet up, and Elijah was gone. First principle: one man in Scripture skipped death. Elijah shares that translation with Enoch\'s hope. John the Baptist came before Christ in the same spirit that Elijah had.',
     sourceKeywords: ['a chariot of fire, and horses of fire', 'parted them both asunder', 'Elijah went up by a whirlwind'],
     fulfillmentKeywords: ['They also which saw him... shall so come in like manner'],
     terms: [],
   },
   '2ki-4-42': {
-    title: 'Bread of the Firstfruits: Twenty Loaves of Barley',
+    title: '"Bread of the firstfruits: twenty loaves of barley" — what the man brought to Elisha.',
     principle:
-      'A hundred men eat and leave over, per the word of the LORD. First principle: the multiplying man of God feeds a hundred with firstfruits — Elisha\'s loaves prefigure the Lord\'s five-loaves feeding.',
+      'A hundred men ate, and they had food left over, just as the word of the LORD had said. First principle: the man of God fed a hundred men with the firstfruits, and the food multiplied in his hands. Elisha\'s loaves pointed forward to the Lord\'s feeding of the five thousand.',
     sourceKeywords: ['bread of the firstfruits', 'twenty loaves of barley', 'Give unto the people, that they may eat'],
     fulfillmentKeywords: ['There is a lad here, which hath five barley loaves'],
     terms: [],
   },
   '2ki-13-21': {
-    title: 'When the Man Touched the Bones of Elisha, He Revived',
+    title: '"When the man touched the bones of Elisha, he revived" — the dead man came back to life.',
     principle:
-      'A dead man revived by contact with a dead prophet\'s bones. First principle: the God of resurrection can use a sepulchre — even the buried saints carry life in their remains.',
+      'Workers were burying a man when they saw a band of raiders. They threw the body into Elisha\'s tomb. The dead man touched Elisha\'s bones, and he came back to life. First principle: the God of resurrection can use a tomb. Even the buried saints carry life in their remains.',
     sourceKeywords: ['touched the bones of Elisha'],
     fulfillmentKeywords: ['many bodies of the saints which slept arose'],
     terms: [],
   },
   '2ki-17-13': {
-    title: 'The LORD Testified against Israel by All the Prophets',
+    title: '"The LORD testified against Israel by all the prophets" — and Israel would not turn back.',
     principle:
-      'Turn ye from your evil ways — testimony by every seer, refused. First principle: the prophets\' refrain was long and patient; judgment arrives only after the testified return was refused.',
+      '"Turn ye from your evil ways," the prophets said to Israel. First principle: the LORD testified against Israel by every prophet and every seer, and they all said the same thing. Israel refused to turn back. Judgment came only after that refusal.',
     sourceKeywords: ['testified against Israel, and against Judah', 'by all the prophets, and by all the seers', 'Turn ye from your evil ways'],
     fulfillmentKeywords: [],
     terms: [],
   },
   '2ki-18-4': {
-    title: 'He Brake in Pieces the Brasen Serpent',
+    title: '"He brake in pieces the brasen serpent" — Hezekiah smashed the idol it had become.',
     principle:
-      'Hezekiah destroys the good thing become an idol, calling it Nehushtan. First principle: even God-given symbols become idols when trusted — the bronze serpent of John 3 had to be shattered.',
+      'Hezekiah destroyed a good thing that had become an idol. He called it Nehushtan. First principle: even a symbol God gives can become an idol once people trust it. The bronze serpent had to be shattered, the same serpent that John 3 lifts up.',
     sourceKeywords: ['brake in pieces the brasen serpent', 'burn incense to it', 'called it Nehushtan'],
     fulfillmentKeywords: ['as Moses lifted up the serpent'],
     terms: [],
@@ -8639,15 +8639,15 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ki-20-5': {
     title: 'I Have Heard Thy Prayer, I Have Seen Thy Tears',
     principle:
-      'Hezekiah healed on the third day. First principle: prayer-plus-tears gets a dated answer — the third-day rising to the house of the LORD preaches resurrection rhythm.',
+      'God healed Hezekiah on the third day. First principle: God answered a prayer that came with tears, and he gave a date for it. Hezekiah went up to the house of the LORD on the third day. That third day carries the rhythm of the resurrection.',
     sourceKeywords: ['I have heard thy prayer', 'I have seen thy tears', 'on the third day thou shalt go up'],
     fulfillmentKeywords: [],
     terms: [],
   },
   '2ki-25-27': {
-    title: 'Evilmerodach Did Lift Up the Head of Jehoiachin out of Prison',
+    title: '"Evilmerodach did lift up the head of Jehoiachin out of prison" — the KJV words for his release.',
     principle:
-      'Thirty-seven years of captivity end in a change of garments and a seat at the king\'s table. First principle: the line of David survives the fall of Jerusalem in a pardoned prisoner eating at a foreign king\'s table.',
+      'Jehoiachin\'s captivity lasted thirty-seven years. Then he changed his prison clothes for new ones and sat down at the king\'s table. First principle: the line of David survived the fall of Jerusalem in one prisoner who was pardoned. That prisoner ate at the table of a foreign king.',
     sourceKeywords: ['lift up the head of Jehoiachin', 'out of prison', 'seven and thirtieth year'],
     fulfillmentKeywords: [],
     terms: [],
