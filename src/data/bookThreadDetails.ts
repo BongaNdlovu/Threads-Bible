@@ -6979,7 +6979,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-11': {
     title: 'Every Tongue Should Confess That Jesus Christ Is Lord',
     principle:
-      'Every tongue will confess to the glory of the Father. First principle: Isaiah 45\'s oath, that every tongue will swear, is handed to Jesus. Lord is the covenant name, and it is confessed in the covenant oath.',
+      'Every tongue will confess to the glory of the Father. First principle: Isaiah 45\'s oath, that every tongue will swear, is handed to Jesus. Lord is the name of God\'s binding promise, and every tongue confesses the oath of that promise.',
     sourceKeywords: ['every tongue should confess', 'Jesus Christ is Lord', 'to the glory of God the Father'],
     fulfillmentKeywords: ['unto me every knee shall bow, every tongue shall swear'],
     terms: [],
