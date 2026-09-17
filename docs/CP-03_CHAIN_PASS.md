@@ -12,8 +12,22 @@ book's apply would change prose belonging to other books, which is what the appl
 guard exists to catch.
 
 So per-book passes handled **entry strings only**, and the applier enforced that: in book mode it counts
-chain drafts, reports them, and never writes them. All chain prose therefore reached the end of Stage A
-at its pre-sweep wording.
+chain drafts, reports them, and never writes them. That exclusion was not in place from the first
+commit, though. Between the pre-Stage-A base and the end of Stage A, `src/data/threadDetails.ts` shows
+20 changed lines — chain prose that the earliest book passes did write, in the chains those books carry
+(the Prophet-like-Moses and New-Covenant-Heart chains among them). The rule settled quickly, and every
+later book pass reports `chain drafts: 0` and `changed lines inside threadChains: 0`, but the fact
+matters twice:
+
+- the chain pass must **re-baseline from the working tree**, not from the pre-sweep text, because for a
+  few chains the "before" is already a rewritten string. §1.12 says exactly this, and it is why the
+  inventory below was re-derived from a fresh extraction rather than from stored worklists;
+- the seven chain drafts still sitting in `docs/_work/mal_rewrites.json`
+  (`chain:elijah-forerunner` steps[0], [2], [3], [4], [5], [7] connections and its `name`) are
+  **superseded** by the chain pass. They were never applied — `threadDetails.ts` holds the baseline text
+  — and the chain pass owns those strings now. Nothing re-applies a book file, and the correction tool
+  used for the label repair deliberately ignores chain rows, so the conflict is latent rather than live;
+  it is recorded here so that no future re-apply of Malachi can silently overwrite the chain pass.
 
 ## Inventory, re-derived from the tree
 
