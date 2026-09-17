@@ -251,6 +251,16 @@ Five chain strings have a literal that appears twice in the corpus, so the appli
 unambiguously; they are verify-only by force, not by judgement. The same constraint had already applied
 to 62 entry strings during Stage A.
 
+**One regression the chain pass introduced, and its repair.** Eight of the 36 chain names carry a
+leading ordinal and form a deliberate `1.`–`8.` numbered series. Two writers filed `name` drafts despite
+being told that a chain's name is a navigation label to leave alone, and the apply took them: the series
+lost its numbers, and the Sabbath chain also lost the `the` in "Creation to the New Earth". The names
+were restored to their pre-pass text in commit `a83d656`, verified with the chain-scope verifier
+(`OVERALL: PASS`, `1356 verse entries … 0 change(s) outside the pillar chains`), and all eight now read
+with their ordinal in both places the name appears. `docs/CP-02_CHAINS_DRAFT.md` was generated before
+the repair and still shows the ordinal-less names in its eight `name` rows; the detail is in
+`docs/CP-03_CHAIN_PASS.md`.
+
 ## 8 · Stage B — CP-04 and CP-05
 
 CP-04 is complete: `docs/CP-04_FULL_REGRESSION.md` records all four gates green (type, 146 tests, data
