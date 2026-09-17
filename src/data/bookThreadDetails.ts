@@ -598,21 +598,21 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-2-5': {
     title: 'One Mediator Between God and Men',
     principle:
-      'There is one God and one Mediator between God and men, the man Christ Jesus. First principle: mediation is exclusive, incarnate, and sufficient.',
+      'There is one God and one Mediator between God and men, the man Christ Jesus. First principle: Jesus is the only one who stands between God and us. He is a real man. He is enough.',
     sourceKeywords: ['one God', 'one Mediator', 'God', 'men', 'man', 'Christ Jesus'],
     fulfillmentKeywords: ['no man cometh', 'Father', 'by me', 'mediator', 'new testament'],
     terms: [
-      { term: 'Mediator', original: 'μεσίτης', translit: 'mesitēs', gloss: 'mediator, go-between, arbitrator', note: 'Heb 8:6; 9:15 — Christ as mediator of the new covenant.' },
+      { term: 'Mediator', original: 'μεσίτης', translit: 'mesitēs', gloss: 'mediator, go-between, arbitrator', note: 'Heb 8:6; 9:15 — Christ stands between God and us in God\'s new binding promise.' },
     ],
   },
   '1ti-3-16': {
     title: 'God Manifest in the Flesh',
     principle:
-      'God was manifest in the flesh, justified in the Spirit, seen of angels, preached to the Gentiles. First principle: incarnation, vindication, and mission are one mystery of godliness.',
+      'God was manifest in the flesh, justified in the Spirit, seen of angels, preached to the Gentiles. First principle: the mystery of godliness is one story. God came in human flesh. The Spirit proved Him right. Angels saw Him. The Gentiles heard Him preached.',
     sourceKeywords: ['mystery of godliness', 'God', 'manifest', 'flesh', 'justified', 'Spirit', 'seen', 'angels', 'preached', 'Gentiles', 'believed', 'world', 'received up', 'glory'],
     fulfillmentKeywords: ['Word', 'flesh', 'dwelt', 'glory', 'only begotten'],
     terms: [
-      { term: 'manifest in the flesh', original: 'ἐφανερώθη ἐν σαρκί', translit: 'ephanerōthē en sarki', gloss: 'He was revealed in flesh', note: 'John 1:14 parallel — the Word tabernacled among us.' },
+      { term: 'manifest in the flesh', original: 'ἐφανερώθη ἐν σαρκί', translit: 'ephanerōthē en sarki', gloss: 'He was revealed in flesh', note: 'John 1:14 says the same thing: the Word made His dwelling among us.' },
     ],
   },
   '2ti-3-16': {
@@ -1352,11 +1352,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-6-16': {
     title: 'God Alone Hath Immortality — Conditional Gift in Christ',
     principle:
-      'The King of kings and Lord of lords "who only hath immortality, dwelling in the light which no man can approach unto." Scripture never speaks of an immortal human soul. Man was created conditionally immortal (Gen 2:16-17), lost access to the tree of life through sin (Gen 3:22-24), and receives immortality only through the gospel and the bodily resurrection at the last trumpet (2 Tim 1:10; 1 Cor 15:53-54). First principle: life is in the Son; he that hath not the Son hath not life (1 John 5:12).',
+      'The King of kings and Lord of lords "who only hath immortality, dwelling in the light which no man can approach unto." Scripture never speaks of an immortal human soul. God made the first man able to live for ever, but only on a condition (Gen 2:16-17). He lost access to the tree of life when he sinned (Gen 3:22-24). He receives immortality only through the gospel and the resurrection of his body at the last trumpet (2 Tim 1:10; 1 Cor 15:53-54). First principle: life is in the Son; he that hath not the Son hath not life (1 John 5:12).',
     sourceKeywords: ['only hath immortality', 'dwelling in the light', 'King of kings', 'Lord of lords'],
     fulfillmentKeywords: ['this mortal must put on immortality', 'resurrection of life', 'gift of God is eternal life', 'tree of life'],
     terms: [
-      { term: 'immortality', original: 'ἀθανασίαν', translit: 'athanasian', gloss: 'deathlessness, immortality', note: 'Used only of God inherently, and of redeemed saints after the resurrection (1 Cor 15:53).' },
+      { term: 'immortality', original: 'ἀθανασίαν', translit: 'athanasian', gloss: 'deathlessness, immortality', note: 'Scripture uses this word only of God himself, who has life in himself. It is used again of God\'s redeemed people after the resurrection (1 Cor 15:53).' },
     ],
   },
   'rev-14-6': {
@@ -7330,7 +7330,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-1-15': {
     title: 'Christ Jesus Came into the World to Save Sinners',
     principle:
-      'The faithful saying with the chief of sinners as exhibit A. First principle: the mission statement is personal — came, save, sinners; and the worst sinner saved is the pattern for all who believe.',
+      'The faithful saying comes with the chief of sinners as its example. First principle: the mission statement is personal. Christ came to save sinners. The worst sinner saved becomes the pattern for everyone who believes.',
     sourceKeywords: ['Christ Jesus came into the world to save sinners', 'of whom I am chief'],
     fulfillmentKeywords: ['he was numbered with the transgressors', 'the Son of man is come to seek and to save'],
     terms: [],
@@ -7338,7 +7338,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-1-17': {
     title: 'The King Eternal, Immortal, Invisible',
     principle:
-      'The doxology to the only wise God. First principle: the invisible immortal King receives honor — the God no man has seen or can see is made known in the visible Son.',
+      'Paul gives praise to the only wise God. First principle: the King who is invisible and immortal receives honor. The God no man has seen or can see makes Himself known in the visible Son.',
     sourceKeywords: ['King eternal, immortal, invisible', 'the only wise God', 'honour and glory for ever'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7346,7 +7346,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-2-6': {
     title: 'Who Gave Himself a Ransom for All',
     principle:
-      'The ransom testified in due time. First principle: the giving was the price — Isaiah\'s poured-out soul and Mark\'s many are the same ransom, universal in offer, testified in time.',
+      'The ransom testified in due time. First principle: the giving of His life was the price. Isaiah\'s poured-out soul and Mark\'s many are the same ransom. God offers it to everyone. He testified of it at the right time.',
     sourceKeywords: ['gave himself a ransom for all', 'to be testified in due time'],
     fulfillmentKeywords: ['poured out his soul unto death', 'the Son of man came... to give his life a ransom for many'],
     terms: [],
@@ -7354,7 +7354,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-2-7': {
     title: 'I Am Ordained a Preacher, an Apostle, a Teacher of the Gentiles',
     principle:
-      'The triple office in faith and verity. First principle: Paul\'s commission is sworn and specific — a teacher of the Gentiles; the Gentile thread runs through apostolic identity itself.',
+      'Paul holds a triple office in faith and verity. He is a preacher, an apostle, and a teacher of the Gentiles. First principle: Paul\'s commission is sworn and specific. The Gentile thread runs through the office of apostle itself.',
     sourceKeywords: ['ordained a preacher, and an apostle', 'a teacher of the Gentiles in faith and verity'],
     fulfillmentKeywords: ['he is a chosen vessel unto me, to bear my name before the Gentiles'],
     terms: [],
@@ -7362,7 +7362,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-4-1': {
     title: 'In the Latter Times Some Shall Depart from the Faith',
     principle:
-      'The Spirit\'s explicit forecast: seducing spirits, doctrines of devils. First principle: apostasy is Spirit-foretold, not Spirit-caused — the departures are scheduled with named mechanisms.',
+      'The Spirit gives an explicit forecast: seducing spirits and doctrines of devils. First principle: the Spirit told us in advance that people would depart from the faith. He did not cause those departures. The departures were scheduled, and the ways they happen are named.',
     sourceKeywords: ['the Spirit speaketh expressly', 'in the latter times some shall depart', 'doctrines of devils'],
     fulfillmentKeywords: ['many false prophets shall rise, and shall deceive many'],
     terms: [],
@@ -7370,7 +7370,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-4-10': {
     title: 'We Trust in the Living God, Who Is the Saviour of All Men',
     principle:
-      'Labor and reproach rest on the living Savior — specially of believers. First principle: the Savior-of-all claim is distributionally qualified — universal preservation, special salvation.',
+      'Paul labors and takes reproach because he trusts the living Savior, who is specially the Savior of believers. First principle: the claim that He is the Savior of all men has two sides. He keeps every person alive. He saves those who believe.',
     sourceKeywords: ['we trust in the living God', 'the Saviour of all men', 'specially of those that believe'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7378,7 +7378,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-6-13': {
     title: 'Before Pontius Pilate Witnessed a Good Confession',
     principle:
-      'The charge is given in the sight of the quickening God and the confessing Christ. First principle: Christ\'s trial confession is the model charge — witness is expected before power, not after vindication.',
+      'Paul gives the charge in the sight of the God who gives life and the Christ who confessed. First principle: Christ\'s confession at His trial is the model for this charge. Witness is expected before power, not after God proves His servant right.',
     sourceKeywords: ['who quickeneth all things', 'before Pontius Pilate', 'witnessed a good confession'],
     fulfillmentKeywords: ['To this end was I born... that I should bear witness unto the truth'],
     terms: [],
@@ -7386,7 +7386,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ti-6-15': {
     title: 'The Blessed and Only Potentate, the King of Kings',
     principle:
-      'He shall show the title in His times. First principle: the King of kings title is scheduled for display — Daniel\'s God of gods and Revelation\'s Rider converge on the same throne.',
+      'He shall show the title in His times. First principle: God has set a time to show the title King of kings. Daniel\'s God of gods and Revelation\'s Rider meet on the same throne.',
     sourceKeywords: ['in his times he shall shew', 'the blessed and only Potentate', 'King of kings, and Lord of lords'],
     fulfillmentKeywords: ['KING OF KINGS, AND LORD OF LORDS'],
     terms: [],
