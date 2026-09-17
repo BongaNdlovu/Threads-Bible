@@ -214,10 +214,41 @@ and the CP-05 read, not on one model's memory of an earlier book.
 
 ## 7 · Stage A.5 — the pillar-chain pass
 
-See `docs/CP-03_CHAIN_PASS.md` for the inventory derivation, the two constraints found before writing
-(5 chain strings whose literal is duplicated and therefore unaddressable, and 0 baseline gate failures
-so the pass is quality-driven throughout), and the six writer groups. Result appended below when the
-last group lands.
+See `docs/CP-03_CHAIN_PASS.md` for the inventory derivation, the constraints found before writing, and
+the six writer groups. Result:
+
+| Measure | Value |
+|---|---:|
+| Chains | 36 |
+| Strings re-derived from the tree | 658 (36 names + 311 titles + 311 connections) |
+| Rewritten | 175 |
+| Verify-only | 483 |
+| EQUIVALENT | 0 |
+| Chains carrying at least one rewrite | 30 of 36 |
+| Files written | `src/data/threadDetails.ts` only — 0 verse entries changed |
+| Verifier (`--chains-only`, 7 checks) | PASS (exit 0): 4,324 prose leaves compared, 658 chain strings gated, 0 new gate failures, 12 citations unchanged |
+
+The plan's §1.12 figure of 622 is the titles plus the connections; the 36 `name` strings are additional,
+so the true inventory is 658. Three facts about this pass are worth the operator's attention:
+
+1. **It re-baselined from the tree, and that mattered.** Twenty lines of chain prose had already been
+   written by the earliest book passes before the per-book exclusion was enforced, so for a few chains
+   the "before" was itself a rewritten string. Re-deriving the worklist from a fresh extraction — rather
+   than trusting stored worklists — is what made the pass correct; the first attempt, built from stored
+   worklists, saw only 20 chains and 368 strings and reported conflicting text for shared strings.
+2. **483 of 658 strings were left alone, deliberately.** No chain string failed the clarity gate at
+   baseline, so nothing forced a rewrite, and §1.11 forbids rewriting what already meets the standard.
+   Chain titles are 4–10 word KJV-derived thumbnails; resegmenting a six-word thumbnail is exactly the
+   theatre the quality metric exists to catch, and several writers proved that by running the metric
+   rather than assuming it.
+3. **Seven under-share drafts are disclosed rather than hidden.** Five are punctuation-only
+   resegmentations with a 0.0% new-word share (em-dash or semicolon joins becoming full stops on 9–16
+   word clauses); the other two add a real word each. The five are kept and reported as the CP-02 §5
+   class the operator ruled on.
+
+Five chain strings have a literal that appears twice in the corpus, so the applier cannot address them
+unambiguously; they are verify-only by force, not by judgement. The same constraint had already applied
+to 62 entry strings during Stage A.
 
 ## 8 · Stage B — CP-04 and CP-05
 

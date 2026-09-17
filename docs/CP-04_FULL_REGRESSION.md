@@ -102,3 +102,32 @@ All four gates green (type, tests, audit, build), the whole canon passes the cla
 time, and every book passes seven structural checks against its own pre-apply commit. No book is
 reverted, none is blocked, and nothing outside `src/data/threadDetails.ts` and
 `src/data/bookThreadDetails.ts` was changed by the sweep.
+
+## Addendum — re-run after the Stage A.5 chain pass
+
+The chain pass wrote `src/data/threadDetails.ts` (175 strings across 30 of the 36 chains), so the four
+gates were run again on the final tree:
+
+```
+canon-wide gate:  totals {"entries":1580,"strings":4324,"words":84337,"gateFails":0}
+                  books with failures: 0
+npm test:         Test Files 13 passed (13) · Tests 146 passed (146)
+npm run audit:data: SUCCESS: All 4 Tiers audited and 100% validated!
+npm run build:    ✓ built in 7.78s
+npm run lint:sweep: exit 0
+```
+
+The chain scope was verified separately with `npx tsx scripts/cp03StructuralVerify.ts --chains-only`,
+which compares the entire prose corpus of both data files against HEAD and scopes its checks to the
+chain group:
+
+```
+coverage: 0 entries across 0 book group(s) + 36 pillar chain(s) ·
+          13,755 structural leaves + 4,324 prose leaves compared ·
+          658 prose strings gated · 12 book-qualified citations
+OVERALL: PASS (exit 0)
+```
+
+and the applier's post-flight reported `verse entries git reports: 0` — the chain pass changed 30 chain
+entries and no verse entry at all. Since the only file it wrote was `threadDetails.ts` and the verifier
+compared every prose leaf in both files, the earlier 63-of-63 per-book result still stands unchanged.
