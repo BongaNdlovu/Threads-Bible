@@ -820,7 +820,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-14': {
     title: 'The Word Became Flesh',
     principle:
-      '"The Word was made flesh and dwelt among us." Textual proof: John 1:1 identifies the Word with God and as the agent of creation (1:3). Verse 14 says the Word dwelt among us. John uses the Greek word σκηνόω, the same root as the Old Testament tabernacle. Col 2:9 says that in Him all the fullness of the Godhead dwells bodily.',
+      '"The Word was made flesh and dwelt among us." Textual proof: John 1:1 identifies the Word with God and as the agent of creation (1:3). Verse 14 says the Word dwelt among us. John uses the Greek word σκηνόω, the same root as OT tabernacle. Col 2:9 says that in Him all the fullness of the Godhead dwells bodily.',
     sourceKeywords: ['Word', 'was made flesh', 'dwelt', 'among us', 'glory', 'only begotten', 'Father', 'grace', 'truth'],
     fulfillmentKeywords: ['tabernacle', 'dwell', 'among them', 'glory'],
     terms: [
