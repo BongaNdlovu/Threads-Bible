@@ -162,16 +162,12 @@ function main() {
     before.set(`${f.entryId}|${f.field}`, f.text);
   }
 
-  console.log(`=== apply ${set.bookName ?? set.book} · ${rewritesPath} ===`);
-  console.log(`drafts: ${set.drafts?.length ?? 0} · verify-only: ${set.verifyOnly?.length ?? 0} · equivalent: ${set.equivalent?.length ?? 0}`);
-  console.log(`worklist strings: ${before.size} · mode: ${apply ? 'APPLY' : 'DRY RUN'}\n`);
-
   // ---- RULE 1: pre-flight (checked against git, not memory) ----
-  // A sweep applies books one after another, so the tree legitimately holds the
-  // PREVIOUS books' applies. What must never happen is building on top of an
-  // UNRELATED edit. The rule therefore is: every dirty entry must belong to a book
-  // that already has a docs/CP-03_<BOOK>_APPLY.md record — work this plan did.
-  // Skipped in --verify mode, whose whole purpose is to audit an applied tree.
+  // Runs BEFORE chain filtering, because it needs set.book. A sweep applies books one
+  // after another, so the tree legitimately holds PREVIOUS books' applies plus this book's
+  // own uncommitted work. What must never happen is building on top of an UNRELATED edit.
+  // The rule: every dirty entry must belong to a book that already has a
+  // docs/CP-03_<BOOK>_APPLY.md record, or to the book being applied right now.
   const dirty = verifyOnlyMode ? [] : dirtyDataFiles();
   let unrecognised: string[] = [];
   if (dirty.length > 0) {
@@ -184,7 +180,7 @@ function main() {
     for (const [, loc] of changedLocations()) {
       for (const id of loc.ids) dirtyBooks.add(id.split('-')[0]);
     }
-    unrecognised = [...dirtyBooks].filter(b => !booksWithApplyDocs.has(b));
+    unrecognised = [...dirtyBooks].filter(b => !booksWithApplyDocs.has(b) && b !== set.book);
   }
   const preflightBlocked = unrecognised.length > 0;
   if (preflightBlocked) {
@@ -194,8 +190,37 @@ function main() {
     console.log('    git checkout -- src/data/threadDetails.ts src/data/bookThreadDetails.ts');
   } else if (dirty.length > 0) {
     console.log('--- pre-flight ---');
-    console.log(`  tree already holds a previous apply (${dirty.length} file(s)) and every changed entry belongs to a book with an apply record — OK`);
+    console.log(`  tree holds a previous apply or this book's own work (${dirty.length} file(s)) — no foreign book is dirty. OK`);
   }
+
+  // Plan §1.12: chain prose is SHARED across books and is swept in its own pass, so a
+  // per-book apply confines itself to ENTRY strings. Without this, a book's apply would
+  // rewrite prose belonging to other books, and the chain pass would then overwrite it the
+  // other way. Chain verdicts are counted and reported but never applied here, and they are
+  // excluded from the accounting requirement for the same reason.
+  const allDrafts = set.drafts ?? [];
+  const chainDrafts = allDrafts.filter(d => d.entryId.startsWith('chain:'));
+  const chainVerify = (set.verifyOnly ?? []).filter(v => v.entryId.startsWith('chain:'));
+  const chainEquivalent = (set.equivalent ?? []).filter(v => v.entryId.startsWith('chain:'));
+  if (chainDrafts.length || chainVerify.length || chainEquivalent.length) {
+    console.log(
+      `§1.12: chain prose excluded from this per-book apply — ` +
+        `${chainDrafts.length} chain draft(s), ${chainVerify.length} chain verify-only, ${chainEquivalent.length} chain equivalent. ` +
+        `They belong to the dedicated chain pass.`
+    );
+  }
+  set.drafts = allDrafts.filter(d => !d.entryId.startsWith('chain:'));
+  set.verifyOnly = (set.verifyOnly ?? []).filter(v => !v.entryId.startsWith('chain:'));
+  set.equivalent = (set.equivalent ?? []).filter(v => !v.entryId.startsWith('chain:'));
+  for (const key of [...before.keys()]) {
+    if (key.startsWith('chain:')) before.delete(key);
+  }
+
+  console.log(`=== apply ${set.bookName ?? set.book} · ${rewritesPath} ===`);
+  console.log(`drafts: ${set.drafts?.length ?? 0} · verify-only: ${set.verifyOnly?.length ?? 0} · equivalent: ${set.equivalent?.length ?? 0}`);
+  console.log(`worklist strings: ${before.size} · mode: ${apply ? 'APPLY' : 'DRY RUN'}\n`);
+
+  // ---- RULE 1 already ran above (it needs set.book, so it sits before chain filtering). ----
 
   const sources = DATA_FILES.map(p => ({ path: p as string, text: readFileSync(p, 'utf8') }));
   const snapshot = new Map(sources.map(s => [s.path, s.text]));
