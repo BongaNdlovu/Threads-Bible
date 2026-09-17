@@ -980,7 +980,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-14': {
     title: 'Behold, the Lord Cometh',
     principle:
-      'Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints. Textual proof: Genesis 5:18-24 — Enoch walked with God and was translated; Hebrews 11:5; the prophetic word is second-coming language consistent with Zech 14:5 and 2 Thess 1:7.',
+      '"Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints." Textual proof: Genesis 5:18-24 shows Enoch walking with God and being translated, and Hebrews 11:5 says the same. This prophetic word speaks of the second coming, and it agrees with Zech 14:5 and 2 Thess 1:7.',
     sourceKeywords: ['Enoch', 'seventh from Adam', 'prophesied', 'Lord cometh', 'ten thousands', 'saints'],
     fulfillmentKeywords: ['Enoch', 'translated', 'pleased God', 'come'],
     terms: [
@@ -7932,7 +7932,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-5': {
     title: 'The Lord, Having Saved the People out of Egypt, Destroyed the Unbelieving',
     principle:
-      'The saved-out generation died in the wilderness for unbelief. First principle: past salvation does not immunize against future judgment — the exodus ended at Kadesh for the faithless.',
+      'The people the Lord brought out of Egypt died in the wilderness because they did not believe. First principle: being saved in the past is no protection from judgment later. The exodus journey ended at Kadesh for the faithless.',
     sourceKeywords: ['having saved the people out of the land of Egypt', 'afterward destroyed them that believed not'],
     fulfillmentKeywords: ['they shall not enter into my rest'],
     terms: [],
@@ -7940,7 +7940,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-6': {
     title: 'The Angels Which Kept Not Their First Estate',
     principle:
-      'Fallen angels reserved in everlasting chains to the great day. First principle: abandonment of station has a reservation — the darkness-chains hold until judgment; the same fate is warned against the false teachers.',
+      'God has reserved the fallen angels in "everlasting chains" for the great day. First principle: when an angel abandons the place God gave him, that abandonment carries a sentence. The chains of darkness hold until judgment comes, and the false teachers are warned of the same fate.',
     sourceKeywords: ['kept not their first estate', 'left their own habitation', 'everlasting chains under darkness'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7948,7 +7948,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-7': {
     title: 'Sodom and Gomorrha... Suffering the Vengeance of Eternal Fire',
     principle:
-      'Strange flesh and eternal fire — an example set forth. First principle: the ash-cities are a standing exhibition — eternal fire already visibly burned once as a preview.',
+      'They went after strange flesh, and eternal fire punished them. First principle: the burnt cities are a standing example. Eternal fire already burned visibly once, as a preview.',
     sourceKeywords: ['Sodom and Gomorrha', 'going after strange flesh', 'the vengeance of eternal fire'],
     fulfillmentKeywords: ['the LORD rained upon Sodom and upon Gomorrah brimstone and fire'],
     terms: [],
@@ -7956,7 +7956,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-9': {
     title: 'Michael... Durst Not Bring a Railing Accusation',
     principle:
-      'The archangel disputes with the devil but says only, The Lord rebuke thee. First principle: even angelic conflict is conducted in deference — the rebuke belongs to the LORD; Zechariah 3 shows the same scene over Joshua.',
+      'The archangel Michael disputed with the devil, yet he said only, "The Lord rebuke thee." First principle: even a conflict between angels is carried on with deference. The rebuke belongs to the Lord, and Zechariah 3 shows the same scene over Joshua.',
     sourceKeywords: ['Michael the archangel', 'disputed about the body of Moses', 'The Lord rebuke thee'],
     fulfillmentKeywords: ['The LORD rebuke thee, O Satan'],
     terms: [],
@@ -7964,7 +7964,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-11': {
     title: 'The Way of Cain, the Error of Balaam, the Gainsaying of Core',
     principle:
-      'Three Old Testament rebels map three New Testament sins. First principle: the old rebels are type-men — envy, greed, and usurpation have canonical case studies and one Woe.',
+      'Three rebels from the Old Testament show us three ways people sin now. First principle: each one is an earlier picture. Envy, greed, and the grabbing of what God has not given all have their case studies, and one Woe is pronounced over them.',
     sourceKeywords: ['the way of Cain', 'the error of Balaam for reward', 'the gainsaying of Core'],
     fulfillmentKeywords: ['And Core... gathered themselves together against Moses'],
     terms: [],
@@ -7972,7 +7972,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jud-1-24': {
     title: 'Unto Him That Is Able to Keep You from Falling',
     principle:
-      'The keeping God presents the faultless before glory with joy. First principle: the doxology is soteriology — kept, presented, joyous; the One who saves is the One who finishes.',
+      'The God who keeps us will present us faultless before His glory with joy. First principle: this closing praise is about how God saves people. He keeps them, presents them, and rejoices. The One who saves is the One who finishes.',
     sourceKeywords: ['able to keep you from falling', 'present you faultless', 'before the presence of his glory'],
     fulfillmentKeywords: [],
     terms: [],
