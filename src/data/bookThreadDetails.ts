@@ -8259,7 +8259,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-1-5': {
     title: 'As I Was with Moses, So I Will Be with Thee',
     principle:
-      'No man stands before Joshua; no failing, no forsaking. First principle: leadership succession rides on presence-promise — Hebrews passes the same promise to every believer.',
+      'No man shall be able to stand before thee all the days of thy life; God will not fail Joshua and will not leave him. First principle: the promise of God\'s presence carries Joshua into his new place as leader. Hebrews hands the same promise to every believer.',
     sourceKeywords: ['As I was with Moses, so I will be with thee', 'I will not fail thee, nor forsake thee'],
     fulfillmentKeywords: ['I will never leave thee, nor forsake thee'],
     terms: [],
@@ -8267,7 +8267,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-1-9': {
     title: 'Be Strong and of a Good Courage',
     principle:
-      'The commanded courage grounded on whithersoever-thou-goest presence. First principle: courage is not self-generated but presence-derived — the LORD thy God is with thee whithersoever.',
+      'God commanded Joshua to be strong and brave. He gave one reason: the LORD your God is with you. First principle: courage does not come from inside you. It comes from God being with you. He promises to be with you wherever you go.',
     sourceKeywords: ['Be strong and of a good courage', 'be not afraid, neither be thou dismayed', 'with thee whithersoever thou goest'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8275,7 +8275,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-8-34': {
     title: 'He Read All the Words of the Law',
     principle:
-      'Blessings and cursings read to all the assembly, women and little ones included. First principle: covenant renewal is public reading — every soul hears both the blessing and the curse.',
+      'Joshua read the blessings and the curses to the whole assembly, and the women and the little ones were there too. First principle: covenant renewal is public reading. Every person hears the blessing and the curse.',
     sourceKeywords: ['he read all the words of the law', 'the blessings and cursings', 'all that is written in the book of the law'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8283,7 +8283,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-10-13': {
     title: 'The Sun Stood Still in the Midst of Heaven',
     principle:
-      'A whole day of held light for a won battle, written in the book of Jasher. First principle: the Creator can pause His clock for His people\'s victory — time is His servant.',
+      'God held the sun still for a whole day so Israel could win the battle. The book of Jasher wrote the day down. First principle: the Creator can stop time for his people to win. Time serves him.',
     sourceKeywords: ['the sun stood still', 'the moon stayed', 'hasted not to go down about a whole day'],
     fulfillmentKeywords: ['So the sun returned ten degrees'],
     terms: [],
@@ -8291,7 +8291,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-21-45': {
     title: 'There Failed Not Ought of Any Good Thing',
     principle:
-      'All came to pass of what the LORD spoke to Israel. First principle: the promise-audit at chapter\'s end — nothing failed; Solomon and Hebrews both inherit the sentence.',
+      'Everything the LORD spoke to Israel came to pass. First principle: Joshua 21 ends by checking God\'s promises one by one. Not one of them failed. Solomon and Hebrews both take up the same sentence later.',
     sourceKeywords: ['There failed not ought', 'any good thing which the LORD had spoken', 'all came to pass'],
     fulfillmentKeywords: ['there hath not failed one word of all his good promise'],
     terms: [],
@@ -8299,7 +8299,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-24-2': {
     title: 'Your Fathers Dwelt on the Other Side of the Flood',
     principle:
-      'The covenant history begins with idolatrous Terah. First principle: the nation\'s story opens in a house of other gods — grace chose a family that worshipped wrong.',
+      'The story of God\'s covenant starts with Terah, a man who worshipped other gods. First principle: Israel\'s family story opens in a house full of other gods. God\'s grace chose a family that worshipped the wrong way.',
     sourceKeywords: ['dwelt on the other side of the flood', 'Terah, the father of Abraham', 'they served other gods'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8307,7 +8307,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-24-15': {
     title: 'Choose You This Day Whom Ye Will Serve',
     principle:
-      'The choice framed and decided personally: as for me and my house. First principle: neutrality is impossibility — serve the fathers\' gods or the LORD; Joshua\'s household decides first.',
+      'Joshua put the choice in front of the people and settled it for himself: as for me and my house. First principle: you cannot stay neutral. You serve the gods your fathers served, or you serve the LORD. Joshua\'s own household decides first.',
     sourceKeywords: ['choose you this day whom ye will serve', 'as for me and my house', 'we will serve the LORD'],
     fulfillmentKeywords: ['No man can serve two masters'],
     terms: [],
@@ -8315,7 +8315,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-24-19': {
     title: 'Ye Cannot Serve the LORD: for He Is an Holy God',
     principle:
-      'Joshua blocks cheap commitment — a jealous God will not forgive presumptive covenant. First principle: the LORD wants informed covenant, not enthusiast vows; holiness makes service impossible to the self-confident.',
+      'Joshua stops anyone who would promise cheaply. He says a jealous God will not forgive a promise made lightly. First principle: the LORD wants you to know what you are agreeing to. He does not want a vow made on a wave of feeling. His holiness makes service impossible for the person who trusts himself.',
     sourceKeywords: ['Ye cannot serve the LORD', 'he is an holy God', 'he is a jealous God'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8323,7 +8323,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jos-24-32': {
     title: 'The Bones of Joseph, Which the Children of Israel Brought Up',
     principle:
-      'Joseph\'s coffin from Exodus 13 is buried in Shechem\'s purchased field. First principle: a four-hundred-year-old promise made the pilgrimage carry bones — faith in resurrection-land down to the funeral.',
+      'Israel buried Joseph\'s coffin in the field at Shechem that Jacob had bought. First principle: God had made the promise four hundred years earlier. Because of that promise, Israel carried Joseph\'s bones all the way through the wilderness to the funeral.',
     sourceKeywords: ['the bones of Joseph', 'brought up out of Egypt', 'buried they in Shechem'],
     fulfillmentKeywords: ['And Joseph took an oath of the children of Israel'],
     terms: [],
