@@ -123,7 +123,7 @@ single source of truth for progress and resumption.
 | Lamentations | 12 | 5 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 16 |
 | Ecclesiastes | 37 | 23 | 14 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 17 (15 chain drafts + 6 chain verify-only deferred) |
 | Song of Solomon | 14 | 7 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 18 |
-| Proverbs | 48 | 15 | 33 | 0 | **REVERTED — 1 new gate failure, writer fixing** | FAIL (exit 1) before revert | REVERTED, awaiting corrected draft |
+| Proverbs | 48 | 15 | 33 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 19 (after one revert; see below) |
 
 Rows are in the order the books were applied, which is also canonical order within Stage A.
 Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because

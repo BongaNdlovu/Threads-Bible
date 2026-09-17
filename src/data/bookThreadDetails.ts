@@ -8956,7 +8956,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-3-5': {
     title: 'Trust in the LORD with All Thine Heart',
     principle:
-      'Lean not on your own understanding. First principle: the heart-lean is the whole matter — trust is total or it is not trust; self-understanding is the rival crutch.',
+      'Do not lean on your own understanding. First principle: the lean of your heart is the whole matter — you trust God with all your weight or you do not trust him at all. Your own understanding is the other crutch you want to lean on.',
     sourceKeywords: ['Trust in the LORD with all thine heart', 'lean not unto thine own understanding'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8964,7 +8964,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-3-11': {
     title: 'My Son, Despise Not the Chastening of the LORD',
     principle:
-      'Correction is sonship-proof; weariness is forbidden. First principle: Hebrews quotes this twice to reframe suffering — the chastened child is the legitimate child.',
+      'Correction proves that you are a son, and giving up in weariness is forbidden. First principle: Hebrews quotes this proverb twice to change how we see suffering, and the child who is corrected is the child who truly belongs.',
     sourceKeywords: ['despise not the chastening of the LORD', 'neither be weary of his correction'],
     fulfillmentKeywords: ['For whom the Lord loveth he chasteneth'],
     terms: [],
@@ -8972,7 +8972,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-3-34': {
     title: 'He Giveth Grace unto the Lowly',
     principle:
-      'Scorners scorned; lowly graced. First principle: the grace-gradient proverb — James and Peter both quote it verbatim to install humility as the grace-receiver.',
+      'God scorns the scorners, and he gives grace to the lowly. First principle: James and Peter both quote this proverb word for word to show that the humble are the ones who receive grace.',
     sourceKeywords: ['he scorneth the scorners', 'giveth grace unto the lowly'],
     fulfillmentKeywords: ['God resisteth the proud, but giveth grace unto the humble'],
     terms: [],
@@ -8980,7 +8980,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-8-22': {
     title: 'The LORD Possessed Me in the Beginning of His Way',
     principle:
-      'Wisdom speaks as preexistent to creation. First principle: the personified Wisdom of Proverbs 8 is the background music of John 1 and Colossians 1 — the Son is the wisdom by whom all was made.',
+      'Wisdom speaks as one who already existed before creation. First principle: Proverbs 8 pictures Wisdom as a person, and John 1 and Colossians 1 are the background music of that chapter — the Son is the Wisdom by whom God made everything.',
     sourceKeywords: ['possessed me in the beginning', 'before his works of old'],
     fulfillmentKeywords: ['All things were made by him', 'by him all things consist'],
     terms: [],
@@ -8988,7 +8988,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-8-23': {
     title: 'I Was Set Up from Everlasting',
     principle:
-      'Wisdom antedates the earth. First principle: from everlasting — the attribute of God alone, here the speech of Wisdom; the fathers read it of the Son\'s eternal generation.',
+      'Wisdom already existed before the earth did. First principle: living forever belongs to God alone, yet here Wisdom says it about herself. The early teachers of the church read this as the Son\'s eternal generation, which means the Son has always existed with the Father.',
     sourceKeywords: ['set up from everlasting', 'or ever the earth was'],
     fulfillmentKeywords: ['In the beginning was the Word'],
     terms: [],
@@ -9004,7 +9004,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-11-31': {
     title: 'The Righteous Shall Be Recompensed in the Earth',
     principle:
-      'If the righteous are recompensed here, how much more the wicked. First principle: judgment begins with the house — Peter quotes the much-more logic of the sinner\'s fate.',
+      'If God repays the righteous here on earth, what will he do to the wicked? First principle: God\'s judgment starts with his own people, and Peter quotes this same argument when he speaks of where the sinner will end up.',
     sourceKeywords: ['the righteous shall be recompensed in the earth', 'much more the wicked and the sinner'],
     fulfillmentKeywords: ['if the righteous scarcely be saved, where shall the ungodly appear'],
     terms: [],
@@ -9012,7 +9012,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-15-3': {
     title: 'The Eyes of the LORD Are in Every Place',
     principle:
-      'Beholding evil and good alike. First principle: total surveillance is God\'s attribute — no deed escapes the watching eyes that Hebrews says are open before Him with whom we have to do.',
+      'God sees evil and good alike. First principle: God sees everything — no deed escapes the eyes that Hebrews says are open before the One with whom we have to do, the God we must answer to.',
     sourceKeywords: ['The eyes of the LORD are in every place', 'beholding the evil and the good'],
     fulfillmentKeywords: ['all things are naked and opened unto the eyes of him'],
     terms: [],
@@ -9036,7 +9036,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-20-9': {
     title: 'Who Can Say, I Have Made My Heart Clean?',
     principle:
-      'The rhetorical impossibility of self-purification. First principle: no one can say it — the heart-cleaning requires a Heart-maker; 1 John names the self-deceiver.',
+      'No one can say he has made his own heart clean. First principle: this question has only one answer, because cleaning a heart takes the One who made the heart. John names the man who claims he has done it as the one who deceives himself.',
     sourceKeywords: ['I have made my heart clean', 'I am pure from my sin'],
     fulfillmentKeywords: ['If we say that we have no sin, we deceive ourselves'],
     terms: [],
@@ -9044,7 +9044,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-20-20': {
     title: 'Whoso Curseth His Father or His Mother',
     principle:
-      'The lamp extinguished in obscure darkness. First principle: parental contempt extinguishes light — Exodus\' death-penalty command becomes the lamp-out image.',
+      'The lamp of the man who curses his parents goes out in thick darkness. First principle: when a child despises his father or mother, his light is put out. Exodus commands death for that sin, and this proverb turns the command into the picture of a snuffed lamp.',
     sourceKeywords: ['Whoso curseth his father or his mother', 'his lamp shall be put out in obscure darkness'],
     fulfillmentKeywords: ['Honour thy father and mother'],
     terms: [],
@@ -9060,7 +9060,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-21-3': {
     title: 'To Do Justice and Judgment Is More Acceptable than Sacrifice',
     principle:
-      'Justice outweighs altar-traffic. First principle: the mercy-over-sacrifice proverb — Samuel, Isaiah, Hosea, and Jesus all carry the same scale.',
+      'Doing justice matters more to God than the offerings you bring to his altar. First principle: Samuel, Isaiah, Hosea and Jesus all teach that mercy pleases God more than sacrifice.',
     sourceKeywords: ['To do justice and judgment', 'more acceptable to the LORD than sacrifice'],
     fulfillmentKeywords: ['I will have mercy, and not sacrifice'],
     terms: [],
@@ -9076,7 +9076,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-24-24': {
     title: 'He That Saith unto the Wicked, Thou Art Righteous',
     principle:
-      'The people curse the moral flip. First principle: calling wickedness righteous draws national curse — the proverb is the public\'s own verdict on verdict-benders.',
+      'The people curse the judge who calls the wicked righteous. First principle: a court that calls wickedness righteous brings a curse on the nation, and this proverb is the people\'s own verdict on judges who bend the law.',
     sourceKeywords: ['He that saith unto the wicked, Thou art righteous', 'him shall the people curse'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9092,7 +9092,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-26-11': {
     title: 'As a Dog Returneth to His Vomit',
     principle:
-      'The fool\'s folly-repeat. First principle: relapse without re-creation is the warning — Peter quotes the dog and adds the washed sow; nature, not habit, is the problem.',
+      'The fool repeats his folly. First principle: the warning here is a man who goes back to his old sin and is never made new. Peter quotes the dog, and he adds the washed sow, so the problem is the nature and not the habit.',
     sourceKeywords: ['a dog returneth to his vomit', 'a fool returneth to his folly'],
     fulfillmentKeywords: ['The dog is turned to his own vomit again'],
     terms: [],
@@ -9100,7 +9100,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-27-19': {
     title: 'As in Water Face Answereth to Face',
     principle:
-      'The heart reflects the heart. First principle: self-knowledge is mirror-knowledge — what you see in others is your own heart\'s reflection; the proverb is a standing audit.',
+      'Your heart shows itself in how you see others. First principle: you come to know your own heart by looking at how you see other people, and this proverb keeps testing you.',
     sourceKeywords: ['as in water face answereth to face', 'so the heart of man to man'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9108,7 +9108,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-29-18': {
     title: 'Where There Is No Vision, the People Perish',
     principle:
-      'Law-keeping is the happy alternative to unrestraint. First principle: without revealed vision, self-rule kills — Judges\' refrain and Isaiah\'s sheep-stray are the same diagnosis.',
+      'The person who keeps God\'s law is happy, and that is the other road, the one that leads away from chaos. First principle: without a vision God has given, a people who rule themselves fall apart, and the book of Judges and Isaiah\'s straying sheep give the same diagnosis.',
     sourceKeywords: ['Where there is no vision, the people perish', 'he that keepeth the law, happy is he'],
     fulfillmentKeywords: ['All we like sheep have gone astray'],
     terms: [],
@@ -9132,7 +9132,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'pro-31-6': {
     title: 'Give Strong Drink unto Him That Is Ready to Perish',
     principle:
-      'Wine for the heavy-hearted dying — a mercy-analgesic, not a lifestyle. First principle: the proverb prescribes numbness only for the perishing, implicitly forbidding it for judges and kings.',
+      'Wine is for the person who is dying and for the one whose heart is heavy; it is a mercy, not a way of life. First principle: this proverb gives strong drink only to the perishing, so it quietly forbids it for judges and kings.',
     sourceKeywords: ['Give strong drink unto him that is ready to perish', 'wine unto those that be of heavy hearts'],
     fulfillmentKeywords: [],
     terms: [],
