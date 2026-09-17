@@ -1331,11 +1331,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-9-5': {
     title: 'The State of the Dead — The Dead Know Not Anything',
     principle:
-      'The living know that they shall die, but the dead know not anything, neither have they any more a portion in anything done under the sun. Together with Psalm 146:4 ("his breath goeth forth... in that very day his thoughts perish"), Scripture reveals that death is an unconscious sleep (nephesh dissolution) awaiting the physical resurrection at Christ\'s return. First principle: conditional immortality; the lie of the serpent ("Ye shall not surely die") is refuted by the harmonious testimony of the entire canon.',
+      'First principle: conditional immortality. The endless life is a gift God gives. We do not have it by ourselves. The living know that they shall die. The dead know not anything. They have no more a portion in anything done under the sun. Psalm 146:4 agrees: "his breath goeth forth... in that very day his thoughts perish". So death is an unconscious sleep. The word nephesh means the whole living person. That person comes apart at death. The dead wait asleep for the physical resurrection at Christ\'s return. The serpent said, "Ye shall not surely die". The whole Bible proves that lie false.',
     sourceKeywords: ['living know that they shall die', 'dead know not anything', 'neither have they any more a reward', 'memory of them is forgotten'],
     fulfillmentKeywords: ['sleep', 'resurrection of the dead', 'awake', 'mortal put on immortality', 'second death'],
     terms: [
-      { term: 'know not anything', original: 'אֵינָם יוֹדְעִים מְאוּמָה', translit: 'ʾeinam yodeʿim meʾumah', gloss: 'they do not know anything at all', note: 'Absolute unconsciousness; complete cessation of mental existence until resurrection.' },
+      { term: 'know not anything', original: 'אֵינָם יוֹדְעִים מְאוּמָה', translit: 'ʾeinam yodeʿim meʾumah', gloss: 'they do not know anything at all', note: 'A dead person knows nothing at all. Every thought stops until the resurrection.' },
     ],
   },
   'psa-146-4': {
@@ -9150,7 +9150,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-3-17': {
     title: 'God Shall Judge the Righteous and the Wicked',
     principle:
-      'A time for every purpose — including judgment. First principle: the Preacher\'s consolation under injustice: the schedule includes a courtroom; every work has its time there.',
+      'God shall judge the righteous and the wicked. First principle: there is a time for every purpose and for every work. The Preacher saw injustice all around him. He held on to this promise. God\'s courtroom is still coming.',
     sourceKeywords: ['God shall judge the righteous and the wicked', 'a time there for every purpose'],
     fulfillmentKeywords: ['he hath appointed a day, in the which he will judge the world'],
     terms: [],
@@ -9158,7 +9158,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-7-20': {
     title: 'There Is Not a Just Man upon Earth',
     principle:
-      'Who doeth good and sinneth not. First principle: the universal-sin text of the wisdom canon — Romans 3 builds its none-righteous catena partly on this line.',
+      'There is not a just man upon earth, that doeth good, and sinneth not. First principle: nobody on earth does good all the time. That is the wisdom book\'s plain word on sin. Romans 3 builds a chain of verses that say no one is righteous. This line is part of that chain.',
     sourceKeywords: ['not a just man upon earth', 'that doeth good, and sinneth not'],
     fulfillmentKeywords: ['There is none righteous, no, not one'],
     terms: [],
@@ -9166,7 +9166,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-9-10': {
     title: 'Whatsoever Thy Hand Findeth to Do, Do It with Thy Might',
     principle:
-      'No work or knowledge in the grave whither thou goest. First principle: the grave\'s silence is the urgency of diligence — work is for the living day, not the dark hereafter.',
+      'You are going to the grave. In that place there is no work and no knowledge. First principle: the grave is silent. Do your work while you are alive. Work belongs to the daylight. It does not belong to the dark place after death.',
     sourceKeywords: ['Whatsoever thy hand findeth to do', 'do it with thy might', 'in the grave, whither thou goest'],
     fulfillmentKeywords: ['I must work the works of him that sent me, while it is day'],
     terms: [],
@@ -9174,7 +9174,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-12-7': {
     title: 'Then Shall the Dust Return to the Earth',
     principle:
-      'Dust to dust; the spirit to God who gave it. First principle: the twofold destiny of man at death — body to soil, spirit to the Giver; Genesis 2:7 in reverse.',
+      'Dust to dust. First principle: at death a man goes two ways. His body goes back to the soil. His spirit goes back to God who gave it. This is Genesis 2:7 in reverse.',
     sourceKeywords: ['the dust return to the earth', 'the spirit shall return unto God who gave it'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9182,7 +9182,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-12-13': {
     title: 'Fear God, and Keep His Commandments',
     principle:
-      'The whole duty of man — the conclusion of the whole matter. First principle: after all is vanity, two things remain standing: reverent fear and obedient keeping.',
+      'Fear God, and keep his commandments. First principle: this is the whole duty of man. Everything here passes like a breath. Two things still stand. We are to fear God. We are to obey him.',
     sourceKeywords: ['the conclusion of the whole matter', 'Fear God, and keep his commandments', 'the whole duty of man'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9190,7 +9190,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ecc-12-14': {
     title: 'God Shall Bring Every Work into Judgment',
     principle:
-      'Every secret thing, good or evil. First principle: the judgment includes the secret — no classified compartment escapes; Paul and John quote the same audit.',
+      'God will bring every work into judgment, including every secret thing, good or evil. First principle: nothing hidden escapes that day. Paul and John both say the same thing about it.',
     sourceKeywords: ['every work into judgment', 'with every secret thing', 'whether it be good, or whether it be evil'],
     fulfillmentKeywords: ['God shall bring every work into judgment'],
     terms: [],
