@@ -618,21 +618,21 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-3-16': {
     title: 'All Scripture God-Breathed',
     principle:
-      'All Scripture is given by inspiration of God and is profitable. First principle: the written Word is the Spirit\'s breath — authoritative, sufficient, and equipping.',
+      'All Scripture is given by inspiration of God and is profitable. First principle: the written Word is the Spirit\'s breath. That makes it authoritative, enough, and able to equip.',
     sourceKeywords: ['All scripture', 'given by inspiration of God', 'profitable', 'doctrine', 'reproof', 'correction', 'instruction', 'righteousness'],
     fulfillmentKeywords: ['holy men', 'God', 'spake', 'moved', 'Holy Ghost'],
     terms: [
-      { term: 'inspiration', original: 'θεόπνευστος', translit: 'theopneustos', gloss: 'God-breathed / breathed out by God', note: 'Unique NT word; root pneuma — Spirit.' },
+      { term: 'inspiration', original: 'θεόπνευστος', translit: 'theopneustos', gloss: 'God-breathed / breathed out by God', note: 'This word is used only once in the NT. Its root is pneuma — Spirit.' },
     ],
   },
   '2ti-4-1': {
     title: 'Judge the Quick and the Dead',
     principle:
-      'I charge you before God and Christ Jesus who shall judge the quick and the dead at His appearing. First principle: ministry is accountable to the returning Judge.',
+      'I charge you before God and Christ Jesus who shall judge the quick and the dead at His appearing. First principle: the returning Judge will ask His servants to give an account of their work.',
     sourceKeywords: ['charge', 'God', 'Christ Jesus', 'judge', 'quick', 'dead', 'appearing', 'kingdom'],
     fulfillmentKeywords: ['judge', 'quick', 'dead', 'appearing', 'kingdom'],
     terms: [
-      { term: 'quick and the dead', original: 'ζώντων καὶ νεκρῶν', translit: 'zōntōn kai nekrōn', gloss: 'the living and the dead', note: 'Acts 10:42; 1 Pet 4:5 — universal judicial authority of Christ.' },
+      { term: 'quick and the dead', original: 'ζώντων καὶ νεκρῶν', translit: 'zōntōn kai nekrōn', gloss: 'the living and the dead', note: 'Acts 10:42; 1 Pet 4:5 — Christ will judge every person.' },
     ],
   },
   'tit-2-13': {
@@ -7396,7 +7396,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-1-9': {
     title: 'Called with an Holy Calling, Given Us in Christ Before the World Began',
     principle:
-      'Saved by purpose and grace, not works — the grace predates time. First principle: pre-creation grace in Christ Jesus is the ground of the present holy calling; Ephesians 1 and 2 Timothy 1 handshake across the canon.',
+      'God saved us by His own purpose and grace, not by our works. That grace was given before time began. First principle: God gave us grace in Christ Jesus before the world was made. That grace is the basis of the holy calling we have now. Ephesians 1 and 2 Timothy 1 say the same thing.',
     sourceKeywords: ['called us with an holy calling', 'not according to our works', 'before the world began'],
     fulfillmentKeywords: ['chosen us in him before the foundation of the world'],
     terms: [],
@@ -7404,7 +7404,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-1-10': {
     title: 'Who Hath Abolished Death, and Brought Life and Immortality to Light',
     principle:
-      'The appearing of the Savior illuminated the abolished death. First principle: the gospel switches the light on immortality — Isaiah\'s swallowed-up death is now an abolished one, revealed.',
+      'When the Savior appeared, He showed that death is abolished. First principle: the gospel turns the light on immortality. Isaiah said death would be swallowed up. That death is now abolished. The gospel makes it known.',
     sourceKeywords: ['made manifest by the appearing', 'hath abolished death', 'life and immortality to light through the gospel'],
     fulfillmentKeywords: ['He will swallow up death in victory'],
     terms: [],
@@ -7412,7 +7412,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-1-12': {
     title: 'I Know Whom I Have Believed',
     principle:
-      'Persuaded He can keep the deposit against that day. First principle: assurance is personal — not what I believe but whom; the deposit is kept by the Keeper against the Day.',
+      'Paul is persuaded that He can keep the deposit, all that Paul has committed to Him, against that day. First principle: assurance is personal. It rests not on what I believe, but on whom I believe. The Keeper keeps the deposit safe until that Day.',
     sourceKeywords: ['I am not ashamed', 'I know whom I have believed', 'he is able to keep that which I have committed'],
     fulfillmentKeywords: ['I know that my Redeemer liveth'],
     terms: [],
@@ -7420,7 +7420,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-2-8': {
     title: 'Jesus Christ of the Seed of David Was Raised from the Dead',
     principle:
-      'The gospel in one line: Davidic Seed, risen. First principle: the resurrection proves the royal line kept its promise — Romans 1\'s thesis compressed for a suffering missionary.',
+      'Paul\'s gospel in one line: Jesus Christ came from David\'s family line and rose from the dead. First principle: the resurrection proves that the royal line kept its promise. Paul compresses the whole argument of Romans 1 into one line for a suffering missionary.',
     sourceKeywords: ['Jesus Christ of the seed of David', 'was raised from the dead', 'according to my gospel'],
     fulfillmentKeywords: ['I will raise up thy seed after thee', 'Thy seed will I establish for ever'],
     terms: [],
@@ -7428,7 +7428,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-2-12': {
     title: 'If We Suffer, We Shall Also Reign with Him',
     principle:
-      'Suffering-reign and denial-denial are twin laws. First principle: the throne has an entry exam written in endurance; denial has its own symmetry, but the faithful Lord is faithful still.',
+      'If we suffer with Him, we shall also reign with Him. If we deny Him, He will deny us. First principle: these twin laws match each other. Endurance is the test that opens the way to the throne. Denial comes back on the one who denies, but the faithful Lord stays faithful.',
     sourceKeywords: ['If we suffer, we shall also reign with him', 'if we deny him', 'he also will deny us'],
     fulfillmentKeywords: ['To him that overcometh will I grant to sit with me in my throne'],
     terms: [],
@@ -7436,7 +7436,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-2-19': {
     title: 'The Foundation of God Standeth Sure, Having This Seal',
     principle:
-      'The double seal: the Lord knows His own; namers of the name depart from iniquity. First principle: election and ethics are sealed together — known by God, departing from sin; Numbers\' rebellion is the backdrop.',
+      'God\'s foundation carries a double seal. The Lord knows His own. Everyone who names the name departs from iniquity. First principle: being chosen by God and living a holy life are sealed together. God knows His people, and they turn away from sin. Numbers\' rebellion is the backdrop.',
     sourceKeywords: ['the foundation of God standeth sure', 'The Lord knoweth them that are his', 'depart from iniquity'],
     fulfillmentKeywords: ['Declare them apart... that they may be consumed'],
     terms: [],
@@ -7444,7 +7444,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-3-1': {
     title: 'In the Last Days Perilous Times Shall Come',
     principle:
-      'The Spirit\'s forecast of savage seasons. First principle: perilous times are listed, not lamented — nineteen traits follow, and the forecast is itself the comfort that none of it is off-script.',
+      'The Spirit forecast savage seasons. First principle: Paul lists these perilous times. He does not lament them. Nineteen traits follow. The forecast itself is a comfort: none of this takes God by surprise.',
     sourceKeywords: ['in the last days perilous times shall come'],
     fulfillmentKeywords: ['many false prophets shall rise'],
     terms: [],
@@ -7452,7 +7452,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-3-8': {
     title: 'Now as Jannes and Jambres Withstood Moses',
     principle:
-      'The unnamed Egyptian magicians are named here — counterfeit workers resist truth. First principle: Moses had his magicians; the last days have theirs — corrupt minds replicate the opposition pattern.',
+      'The Egyptian magicians were unnamed until Paul named them here. They were counterfeit workers who resisted the truth. First principle: Moses had his magicians, and the last days have theirs. Men with corrupt minds oppose the truth in the same way.',
     sourceKeywords: ['Jannes and Jambres withstood Moses', 'resist the truth', 'reprobate concerning the faith'],
     fulfillmentKeywords: ['the magicians of Egypt did so with their enchantments'],
     terms: [],
@@ -7460,7 +7460,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-3-12': {
     title: 'All That Will Live Godly Shall Suffer Persecution',
     principle:
-      'The universal suffering law of godliness. First principle: persecution is not an exception clause — it is the promised climate; Jesus told His own the world hated Him first.',
+      'Everyone who wants to live a godly life in Christ Jesus will be persecuted. First principle: persecution is not an exception. It is the promised climate. Jesus told His own that the world hated Him first.',
     sourceKeywords: ['all that will live godly in Christ Jesus', 'shall suffer persecution'],
     fulfillmentKeywords: ['If they have persecuted me, they will also persecute you'],
     terms: [],
@@ -7468,7 +7468,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-3-15': {
     title: 'The Holy Scriptures, Which Are Able to Make Thee Wise unto Salvation',
     principle:
-      'Childhood scripture knowledge aims at salvation through faith. First principle: the Scriptures are salvifically sufficient as far as Christ — the sacred letters point to the faith that saves.',
+      'Timothy knew the holy Scriptures from childhood. Those Scriptures can lead a person to salvation through faith in Christ Jesus. First principle: the Scriptures are enough to bring you to Christ. The sacred letters point to the faith that saves.',
     sourceKeywords: ['from a child thou hast known the holy scriptures', 'wise unto salvation', 'faith which is in Christ Jesus'],
     fulfillmentKeywords: ['Search the scriptures... they are they which testify of me'],
     terms: [],
@@ -7476,7 +7476,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-4-8': {
     title: 'A Crown of Righteousness Laid Up for Me',
     principle:
-      'The righteous Judge gives the crown to all who love His appearing. First principle: the crown is laid up, not won — given at that day by the righteous Judge to appearing-lovers everywhere.',
+      'The righteous Judge gives the crown to all who love His appearing. First principle: the crown is stored up for you. You do not win it. He gives it at that day to everyone who loves His appearing, everywhere.',
     sourceKeywords: ['a crown of righteousness', 'the righteous judge', 'unto all them also that love his appearing'],
     fulfillmentKeywords: ['be thou faithful unto death, and I will give thee a crown of life'],
     terms: [],
@@ -7484,7 +7484,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ti-4-18': {
     title: 'The Lord Shall Preserve Me unto His Heavenly Kingdom',
     principle:
-      'Deliverance from every evil work, preservation to the kingdom, glory forever. First principle: the final rescue is preservation through, not exemption from — unto the heavenly kingdom is the destination of the delivered.',
+      'The Lord delivers me from every evil work and brings me safe into His heavenly kingdom. Glory belongs to Him forever. First principle: the final rescue carries us through trouble. It does not take us out of it. The heavenly kingdom is where the delivered arrive.',
     sourceKeywords: ['deliver me from every evil work', 'preserve me unto his heavenly kingdom', 'to whom be glory for ever'],
     fulfillmentKeywords: ['the LORD shall preserve thee from all evil'],
     terms: [],
