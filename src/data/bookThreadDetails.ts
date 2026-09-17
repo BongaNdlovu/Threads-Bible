@@ -780,41 +780,41 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-1-23': {
     title: 'Emmanuel — God With Us',
     principle:
-      'Matthew quotes Isaiah 7:14: a virgin shall bear a son, and they shall call his name Emmanuel. Textual proof: direct OT quotation; Isaiah 8:8, 10 also use the name. The evangelist identifies Jesus as that child.',
+      'Matthew quotes Isaiah 7:14: a virgin shall bear a son, and they shall call his name Emmanuel. Textual proof: this is a direct quotation of the OT, and Isaiah 8:8, 10 also use the name. Matthew is the one who tells us that Jesus is that child.',
     sourceKeywords: ['virgin', 'shall bring forth', 'son', 'call his name', 'Emmanuel', 'God with us'],
     fulfillmentKeywords: ['virgin', 'Emmanuel', 'God with us'],
     terms: [
-      { term: 'Emmanuel', original: 'עִמָּנוּ אֵל', translit: 'Immanuʾel', gloss: 'with-us God', note: 'Isa 7:14 LXX παρθένος — Matthew applies the same text to Jesus\' birth.' },
+      { term: 'Emmanuel', original: 'עִמָּנוּ אֵל', translit: 'Immanuʾel', gloss: 'with-us God', note: 'Isa 7:14 in the LXX has παρθένος. Matthew applies the same text to the birth of Jesus.' },
     ],
   },
   'mat-2-6': {
     title: 'Out of Bethlehem Shall Come a Governor',
     principle:
-      'The chief priests cite Micah 5:2 for the Messiah\'s birthplace. Textual proof: Matthew 2:5-6 quotes Micah; Micah 5:2 itself promises a ruler from Bethlehem whose goings forth are from everlasting.',
+      'The chief priests cite Micah 5:2 to answer where the Messiah would be born. Textual proof: Matthew 2:5-6 quotes Micah. Micah 5:2 itself promises a ruler from Bethlehem whose goings forth are from everlasting.',
     sourceKeywords: ['Bethlehem', 'land of Juda', 'not the least', 'governor', 'rule', 'people Israel'],
     fulfillmentKeywords: ['Bethlehem', 'Ephratah', 'ruler', 'Israel', 'everlasting'],
     terms: [
-      { term: 'Bethlehem Ephratah', original: 'בֵּית לֶחֶם אֶפְרָתָה', translit: 'Beit Lechem Ephratah', gloss: 'house of bread, Ephrathah', note: 'Mic 5:2 — little among the thousands of Judah, yet source of ruler.' },
+      { term: 'Bethlehem Ephratah', original: 'בֵּית לֶחֶם אֶפְרָתָה', translit: 'Beit Lechem Ephratah', gloss: 'house of bread, Ephrathah', note: 'Mic 5:2 calls it little among the thousands of Judah. It is still the source of a ruler.' },
     ],
   },
   'mat-4-4': {
     title: 'It Is Written',
     principle:
-      'Jesus answers temptation with Deuteronomy 8:3. Textual proof: each wilderness answer quotes Torah (Deut 8:3; 6:16; 6:13). Scripture is the sufficient authority against the tempter.',
+      'Jesus answers temptation with Deuteronomy 8:3. Textual proof: each answer in the wilderness quotes Torah (Deut 8:3; 6:16; 6:13). Scripture has all the authority needed to answer the tempter.',
     sourceKeywords: ['It is written', 'Man shall not live', 'bread alone', 'every word', 'proceedeth', 'mouth of God'],
     fulfillmentKeywords: ['Deuteronomy', 'word of God', 'bread'],
     terms: [
-      { term: 'It is written', original: 'γέγραπται', translit: 'gegraptai', gloss: 'it has been written (perfect)', note: 'Settled, standing OT text — Jesus\' pattern of proof.' },
+      { term: 'It is written', original: 'γέγραπται', translit: 'gegraptai', gloss: 'it has been written (perfect)', note: 'This phrase is settled OT text that still stands. Jesus used it as His pattern of proof.' },
     ],
   },
   'mat-24-30': {
     title: 'Son of Man Coming in the Clouds',
     principle:
-      'They shall see the Son of man coming in the clouds of heaven with power and great glory. Textual proof: direct use of Daniel 7:13-14; echoed in Mark 13:26, Luke 21:27, Rev 1:7, 14:14. Public, visible, glorious — one coming.',
+      '"They shall see the Son of man coming in the clouds of heaven with power and great glory." Textual proof: Jesus takes Daniel 7:13-14 as His own words. Mark 13:26, Luke 21:27, Rev 1:7, 14:14 echo it. The coming is public, visible and glorious. It is one coming.',
     sourceKeywords: ['Son of man', 'clouds of heaven', 'power', 'great glory', 'tribes of the earth', 'mourn'],
     fulfillmentKeywords: ['one like the Son of man', 'clouds of heaven', 'Ancient of days', 'dominion'],
     terms: [
-      { term: 'coming in the clouds', original: 'ἐρχόμενον ἐπὶ τῶν νεφελῶν', translit: 'erchomenon epi tōn nephelōn', gloss: 'coming upon the clouds', note: 'Dan 7:13 LXX — same cloud-coming; universal visibility (Matt 24:27).' },
+      { term: 'coming in the clouds', original: 'ἐρχόμενον ἐπὶ τῶν νεφελῶν', translit: 'erchomenon epi tōn nephelōn', gloss: 'coming upon the clouds', note: 'Dan 7:13 LXX — the same coming on the clouds, and everyone will see it (Matt 24:27).' },
     ],
   },
   'joh-1-14': {
@@ -1569,12 +1569,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-16-18': {
     title: 'Upon This Rock I Will Build My Church (Petra & Ekklēsia)',
     principle:
-      'Thou art Peter (petros, a loose stone), and upon this rock (petra, the massive bedrock of Peter\'s confession: "Thou art the Christ, the Son of the living God") I will build My church; and the gates of hell shall not prevail against it. Christ Himself is the sole Foundation and Cornerstone of the church. The assembly of believers is called out from worldly allegiance to be His royal priesthood.',
+      'Jesus said to Peter, "Thou art Peter (petros, a loose stone), and upon this rock (petra, the massive bedrock of Peter\'s confession: "Thou art the Christ, the Son of the living God") I will build My church; and the gates of hell shall not prevail against it." Jesus Christ Himself is the only Foundation and Cornerstone. He builds His church on Himself, not on the man. God calls His people out of the world\'s service. He makes them His royal priests.',
     sourceKeywords: ['upon this rock', 'build my church', 'gates of hell shall not prevail'],
     fulfillmentKeywords: ['chief cornerstone', 'spiritual house', 'royal priesthood', 'body of Christ'],
     terms: [
-      { term: 'bedrock / rock', original: 'πέτρᾳ', translit: 'petra', gloss: 'massive living bedrock / foundation cliff', note: 'Distinct from petros (a movable pebble/fragment). Christ and His divinity is the rock.' },
-      { term: 'church / called-out assembly', original: 'ἐκκλησία', translit: 'ekklēsia', gloss: 'called out citizens / covenant assembly', note: 'Continuity with the Qahal of Israel in the Old Testament.' },
+      { term: 'bedrock / rock', original: 'πέτρᾳ', translit: 'petra', gloss: 'massive living bedrock / foundation cliff', note: 'Distinct from petros (a movable pebble/fragment). Christ is the rock, and He is divine.' },
+      { term: 'church / called-out assembly', original: 'ἐκκλησία', translit: 'ekklēsia', gloss: 'called out citizens / covenant assembly', note: 'It carries on the Qahal, the assembly of Israel in the Old Testament.' },
     ],
   },
   'joh-17-21': {
@@ -3008,7 +3008,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-1-1': {
     title: 'The Son of David, the Son of Abraham',
     principle:
-      'Matthew\'s first line indexes the whole book: Jesus Christ is David\'s royal heir and Abraham\'s promised Seed. First principle: the two great covenant threads — kingship and worldwide blessing — open the genealogy.',
+      'Matthew\'s first line points to the whole book. Jesus Christ is David\'s royal heir and Abraham\'s promised Seed. First principle: two great threads of God\'s binding promise open the genealogy. They are kingship and worldwide blessing.',
     sourceKeywords: ['generation of Jesus Christ', 'son of David', 'son of Abraham'],
     fulfillmentKeywords: ['thy seed', 'I will establish the throne'],
     terms: [],
@@ -3016,7 +3016,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-2-2': {
     title: 'Where Is He That Is Born King of the Jews?',
     principle:
-      'Magi follow His star from the east to worship the newborn King. First principle: Balaam\'s Star out of Jacob and Isaiah\'s nations coming to His light begin their fulfillment with Gentile pilgrims and a celestial sign.',
+      'Wise men from the east follow His star to worship the newborn King. First principle: Balaam\'s Star out of Jacob and Isaiah\'s nations coming to His light begin to come true here. Gentile pilgrims and a sign in the sky are the first part of that fulfillment.',
     sourceKeywords: ['born King of the Jews', 'seen his star in the east', 'worship him'],
     fulfillmentKeywords: ['a Star out of Jacob', 'nations shall come to thy light'],
     terms: [],
@@ -3024,7 +3024,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-2-15': {
     title: 'Out of Egypt Have I Called My Son',
     principle:
-      'The flight and return fulfill Hosea 11:1. First principle: Israel\'s history is prophetic pattern — the Son relives the nation\'s exodus, embodying what Israel could only foreshadow.',
+      'The flight and the return fulfill Hosea 11:1. First principle: Israel\'s history is a pattern that points forward. The Son lives through the nation\'s exodus and becomes what Israel could only picture in advance.',
     sourceKeywords: ['that it might be fulfilled', 'Out of Egypt have I called my son'],
     fulfillmentKeywords: ['called my son out of Egypt'],
     terms: [],
@@ -3032,7 +3032,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-2-18': {
     title: 'Rachel Weeping for Her Children',
     principle:
-      'Herod\'s massacre fulfills Jeremiah 31:15 at Ramah\'s border. First principle: even the grief of Bethlehem was written — and the same chapter that weeps promises the new covenant.',
+      'Herod\'s massacre fulfills Jeremiah 31:15 at Ramah\'s border. First principle: even the grief of Bethlehem was written down. The same chapter that weeps also holds out God\'s new binding promise.',
     sourceKeywords: ['lamentation, and weeping', 'Rachel weeping for her children', 'would not be comforted'],
     fulfillmentKeywords: ['Rahel weeping for her children', 'refused to be comforted'],
     terms: [],
@@ -3040,7 +3040,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-2-23': {
     title: 'He Shall Be Called a Nazarene',
     principle:
-      'Settling in Nazareth fulfills the prophets\' pattern of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner — contempt of Nazareth is itself consonant with prophecy.',
+      'Settling in Nazareth fulfills the pattern the prophets gave of the despised Branch (netser) from humble places. First principle: the Messiah comes from the rejected corner. Even the contempt for Nazareth fits what the prophets said.',
     sourceKeywords: ['dwelt in a city called Nazareth', 'spoken by the prophets', 'a Nazarene'],
     fulfillmentKeywords: ['a Branch grow out of his roots'],
     terms: [],
@@ -3048,7 +3048,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-3-3': {
     title: 'The Voice of One Crying in the Wilderness',
     principle:
-      'John is Isaiah 40:3 in person — the preparer of the Lord\'s way. First principle: before the King comes, the road is preached; repentance is the leveling of valleys.',
+      'John is Isaiah 40:3 in person, the one who prepares the Lord\'s way. First principle: the forerunner preaches the road before the King comes. Repentance levels the valleys.',
     sourceKeywords: ['spoken of by the prophet Esaias', 'voice of one crying in the wilderness', 'make his paths straight'],
     fulfillmentKeywords: ['prepare ye the way of the LORD'],
     terms: [],
@@ -3056,7 +3056,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-3-17': {
     title: 'This Is My Beloved Son',
     principle:
-      'The Father\'s voice joins Psalm 2\'s decree to Isaiah 42\'s delight in the Servant. First principle: Son and Servant are one Person — crowned King and gentle Redeemer in a single sentence from heaven.',
+      'The Father\'s voice joins Psalm 2\'s decree to Isaiah 42\'s delight in the Servant. First principle: the Son and the Servant are one Person. God crowns Him King and makes Him the gentle Redeemer. He says it all in one sentence from heaven.',
     sourceKeywords: ['a voice from heaven', 'This is my beloved Son', 'in whom I am well pleased'],
     fulfillmentKeywords: ['Thou art my Son', 'Behold my servant'],
     terms: [],
@@ -3064,7 +3064,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-4-6': {
     title: 'He Shall Give His Angels Charge Concerning Thee',
     principle:
-      'Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture — but omits to tempt the Lord thy God; promise twisted becomes presumption.',
+      'Satan quotes Psalm 91 to provoke a leap from the temple. First principle: the devil can quote Scripture, but he leaves out the words Thou shalt not tempt the Lord thy God. A promise twisted becomes presumption.',
     sourceKeywords: ['If thou be the Son of God', 'He shall give his angels charge', 'bear thee up'],
     fulfillmentKeywords: ['he shall give his angels charge over thee'],
     terms: [],
@@ -3072,7 +3072,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-4-7': {
     title: 'Thou Shalt Not Tempt the Lord Thy God',
     principle:
-      'Jesus answers the second temptation with Deuteronomy 6:16 — It is written again. First principle: Scripture balances Scripture; faith trusts God without forcing Him to prove Himself.',
+      'Jesus answers the second temptation with Deuteronomy 6:16, saying, It is written again. First principle: one Scripture answers another. Faith trusts God and does not demand that He prove Himself.',
     sourceKeywords: ['It is written again', 'Thou shalt not tempt the Lord thy God'],
     fulfillmentKeywords: ['Ye shall not tempt the LORD your God'],
     terms: [],
@@ -3080,7 +3080,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-4-10': {
     title: 'Thou Shalt Worship the Lord Thy God Only',
     principle:
-      'The kingdoms-for-worship trade is refused with Deuteronomy 6:13. First principle: God alone receives worship — Christ wins the kingdoms legally at Calvary instead of illegally at the mountain.',
+      'Jesus turns down the offer of the kingdoms in exchange for worship, and answers with Deuteronomy 6:13. First principle: God alone receives worship. Christ wins the kingdoms legally at Calvary, not illegally at the mountain.',
     sourceKeywords: ['Get thee hence, Satan', 'worship the Lord thy God', 'him only shalt thou serve'],
     fulfillmentKeywords: ['him shalt thou serve'],
     terms: [],
@@ -3088,7 +3088,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-4-14': {
     title: 'That It Might Be Fulfilled by Esaias',
     principle:
-      'Matthew marks the move to Capernaum as Isaiah 9 underway. First principle: geography is prophecy — where the Light chooses to shine was written before the move.',
+      'Matthew marks the move to Capernaum, where Isaiah 9 begins to come true. First principle: even the geography was prophesied. Where the Light would shine was written down before the move.',
     sourceKeywords: ['that it might be fulfilled', 'Esaias the prophet', 'Galilee'],
     fulfillmentKeywords: ['the land of Zebulun', 'way of the sea'],
     terms: [],
@@ -3096,7 +3096,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-4-16': {
     title: 'The People Which Sat in Darkness Saw Great Light',
     principle:
-      'Isaiah 9:2 fulfilled over Galilee: light sprung up in death\'s shadow. First principle: dawn begins where darkness sat longest — and from that light the kingdom is preached.',
+      'Isaiah 9:2 is fulfilled over Galilee, where light sprung up in death\'s shadow. First principle: the dawn starts where darkness sat longest. Jesus preaches the kingdom from that light onward.',
     sourceKeywords: ['sat in darkness', 'saw great light', 'light is sprung up'],
     fulfillmentKeywords: ['the people that walked in darkness', 'seen a great light'],
     terms: [],
@@ -3104,7 +3104,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-3': {
     title: 'Blessed Are the Poor in Spirit',
     principle:
-      'The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes are Isaiah 61\'s good-news-to-the-meek restated as covenant blessings — the anointed One now preaches His own charter.',
+      'The kingdom of heaven belongs to the spiritually poor. First principle: the Beatitudes restate Isaiah 61\'s good news to the meek. They are blessings of God\'s binding promise. The anointed One now preaches His own charter.',
     sourceKeywords: ['Blessed are the poor in spirit', 'kingdom of heaven'],
     fulfillmentKeywords: ['preach good tidings unto the meek', 'bind up the brokenhearted'],
     terms: [],
@@ -3112,7 +3112,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-5': {
     title: 'Blessed Are the Meek, for They Inherit the Earth',
     principle:
-      'Psalm 37:11 is folded into the Beatitudes verbatim. First principle: the earth is inherited not by grasp but by meekness — the psalm\'s order of the kingdom, kept by the meek King.',
+      'Jesus folds Psalm 37:11 into the Beatitudes word for word. First principle: meekness, not force, inherits the earth. That is the order of the kingdom in the psalm. The meek King keeps it.',
     sourceKeywords: ['Blessed are the meek', 'inherit the earth'],
     fulfillmentKeywords: ['the meek shall inherit the earth', 'delight thyself in the LORD'],
     terms: [],
@@ -3120,7 +3120,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-8': {
     title: 'Blessed Are the Pure in Heart, for They Shall See God',
     principle:
-      'Psalm 24\'s ascent question — who shall ascend into the hill of the LORD? — answered in beatitude form. First principle: the clean hands and pure heart that see God are given, not earned; Christ is the open vision.',
+      'Psalm 24\'s ascent question — who shall ascend into the hill of the LORD? — Jesus answers it in the form of a beatitude. First principle: God gives the clean hands and pure heart that see God. No one earns that sight. Christ is the open vision.',
     sourceKeywords: ['Blessed are the pure in heart', 'they shall see God'],
     fulfillmentKeywords: ['pure heart', 'who shall ascend into the hill'],
     terms: [],
@@ -3128,7 +3128,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-17': {
     title: 'I Am Not Come to Destroy, but to Fulfil',
     principle:
-      'The law and prophets stand until all is fulfilled — in Him. First principle: Christ is the law\'s goal, not its opponent; every jot and tittle finds its meaning in His obedience and teaching.',
+      'The law and the prophets stand until everything is fulfilled in Christ. First principle: Christ is the goal of the law, not its enemy. Every jot and tittle — the smallest letter and stroke — finds its meaning in what He did and taught.',
     sourceKeywords: ['destroy the law, or the prophets', 'but to fulfil', 'one jot or one tittle'],
     fulfillmentKeywords: ['I delight to do thy will', 'the law is in his heart'],
     terms: [],
@@ -3136,7 +3136,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-21': {
     title: 'Ye Have Heard... Thou Shalt Not Kill',
     principle:
-      'The sixth commandment is deepened to include causeless anger. First principle: the law written on stone Christ writes on the heart — obedience becomes a matter of the temper, not merely the act.',
+      'Jesus deepens the sixth commandment to cover anger without a cause. First principle: Christ writes the law on the heart. He first wrote that law on stone. Obedience now reaches the temper, not only the act.',
     sourceKeywords: ['said of them of old time', 'Thou shalt not kill', 'without a cause'],
     fulfillmentKeywords: ['Thou shalt not kill'],
     terms: [],
@@ -3144,7 +3144,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-27': {
     title: 'Thou Shalt Not Commit Adultery',
     principle:
-      'The seventh commandment reaches the look of lust. First principle: the covenant law governs the inner man; purity of heart is the truest chastity.',
+      'The seventh commandment reaches as far as a lustful look. First principle: God\'s binding promise governs the inner man. Purity of heart is the truest chastity.',
     sourceKeywords: ['Thou shalt not commit adultery', 'looketh on a woman'],
     fulfillmentKeywords: ['Thou shalt not commit adultery'],
     terms: [],
@@ -3152,7 +3152,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-33': {
     title: 'Thou Shalt Not Forswear Thyself',
     principle:
-      'Oath-law from Leviticus and Numbers is restored to simplicity: yes and no. First principle: truthfulness needs no sworn scaffolding — the law\'s aim is a heart whose word is always true.',
+      'Jesus brings the law about oaths in Leviticus and Numbers back to plain yes and no. First principle: truthfulness needs no sworn scaffolding. The law\'s aim is a heart whose word is always true.',
     sourceKeywords: ['Thou shalt not forswear thyself', 'perform unto the Lord thine oaths'],
     fulfillmentKeywords: ['thou shalt not take the name of the LORD in vain'],
     terms: [],
@@ -3160,7 +3160,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-38': {
     title: 'An Eye for an Eye, and a Tooth for a Tooth',
     principle:
-      'The lex talionis was a judge\'s limit on vengeance; Jesus turns the other cheek. First principle: civil justice restrains evil, but the disciple\'s personal rule is grace that absorbs wrong.',
+      'The lex talionis, the law of an eye for an eye, set a judge\'s limit on vengeance. Jesus tells the disciple to turn the other cheek. First principle: the courts restrain evil, but the disciple\'s own rule is grace that absorbs wrong.',
     sourceKeywords: ['An eye for an eye', 'a tooth for a tooth'],
     fulfillmentKeywords: ['eye for an eye', 'life for life'],
     terms: [],
@@ -3168,7 +3168,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-5-43': {
     title: 'Love Thy Neighbour — and Hate Thine Enemy',
     principle:
-      'Leviticus 19:18 stands; the appended hatred was never written. First principle: the law\'s love was always meant to reach the enemy — love for neighbour is defined by God, not by proximity.',
+      'Leviticus 19:18 stands. No one ever wrote the added words about hatred. First principle: the law\'s love was always meant to reach the enemy. God decides who counts as your neighbour, not how near that person lives.',
     sourceKeywords: ['Thou shalt love thy neighbour', 'hate thine enemy'],
     fulfillmentKeywords: ['thou shalt love thy neighbour as thyself'],
     terms: [],
@@ -3176,7 +3176,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-8-17': {
     title: 'Himself Took Our Infirmities',
     principle:
-      'Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the atonement\'s compassion touches body as well as soul; the Sin-Bearer carries the whole burden of the fall.',
+      'Healing the sick fulfills Isaiah 53:4 — He bore our sicknesses. First principle: the price paid so sin can be forgiven shows compassion that reaches the body as well as the soul. The Sin-Bearer carries the whole burden of the fall.',
     sourceKeywords: ['that it might be fulfilled', 'took our infirmities', 'bare our sicknesses'],
     fulfillmentKeywords: ['bare our sicknesses', 'carried our sorrows'],
     terms: [],
@@ -3184,7 +3184,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-9-13': {
     title: 'I Will Have Mercy, and Not Sacrifice',
     principle:
-      'Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the law\'s own heart — God\'s priority is covenant love, and He extends it to sinners at table.',
+      'Jesus sends the critics to school with Hosea 6:6. First principle: ritual without mercy misses the heart of the law. God\'s first concern is His binding promise of love. He extends that love to sinners at His table.',
     sourceKeywords: ['go ye and learn what that meaneth', 'I will have mercy, and not sacrifice'],
     fulfillmentKeywords: ['I desired mercy, and not sacrifice', 'knowledge of God more than burnt offerings'],
     terms: [],
@@ -3192,7 +3192,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-11-10': {
     title: 'Behold, I Send My Messenger Before Thy Face',
     principle:
-      'John is Malachi 3:1\'s messenger, identified by Jesus Himself. First principle: the forerunner prophecy anchors the Messiah\'s arrival in history — two figures, one written plan.',
+      'John is Malachi 3:1\'s messenger, and Jesus Himself says so. First principle: the prophecy about the forerunner puts the Messiah\'s arrival in history. Two figures, one written plan.',
     sourceKeywords: ['of whom it is written', 'I send my messenger before thy face', 'prepare thy way'],
     fulfillmentKeywords: ['Behold, I will send my messenger'],
     terms: [],
@@ -3200,7 +3200,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-12-7': {
     title: 'If Ye Had Known What This Meaneth',
     principle:
-      'Mercy over sacrifice, again from Hosea — the guiltless are condemned by ritualists. First principle: Sabbath and sacrament serve mercy; the Lord of the Sabbath defines the weightier matter.',
+      'Mercy over sacrifice, again from Hosea. The guiltless are condemned by men who love ritual. First principle: the Sabbath and sacrament serve mercy. The Lord of the Sabbath shows which matter weighs more.',
     sourceKeywords: ['if ye had known what this meaneth', 'I will have mercy, and not sacrifice', 'the guiltless'],
     fulfillmentKeywords: ['I desired mercy, and not sacrifice'],
     terms: [],
@@ -3208,7 +3208,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-12-17': {
     title: 'That It Might Be Fulfilled by Esaias the Prophet',
     principle:
-      'Matthew quotes the Servant Song as the key to Christ\'s withdrawn, gentle ministry. First principle: Messiah\'s manner — no striving, no breaking bruised reeds — was as prophesied as His miracles.',
+      'Matthew quotes the Servant Song as the key that unlocks Christ\'s quiet, gentle ministry. First principle: the promised King\'s manner was as prophesied as His miracles. He did not strive, and He did not break bruised reeds.',
     sourceKeywords: ['that it might be fulfilled', 'Esaias the prophet'],
     fulfillmentKeywords: ['Behold my servant', 'a bruised reed shall he not break'],
     terms: [],
@@ -3216,7 +3216,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-12-18': {
     title: 'Behold My Servant, Whom I Have Chosen',
     principle:
-      'Isaiah 42:1 quoted nearly verbatim: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the Baptism voice and the Servant Song are the same appointment.',
+      'Isaiah 42:1 is quoted here almost word for word: My beloved, in whom My soul is well pleased; He shall shew judgment to the Gentiles. First principle: the voice at the Baptism and the Servant Song appoint the same Servant.',
     sourceKeywords: ['Behold my servant, whom I have chosen', 'judgment to the Gentiles', 'well pleased'],
     fulfillmentKeywords: ['Behold my servant, whom I uphold', 'mine elect'],
     terms: [],
@@ -3224,7 +3224,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-12-40': {
     title: 'As Jonas Was Three Days and Three Nights',
     principle:
-      'The sign of Jonah: entombment and emergence after three days. First principle: the resurrection was given as the standing sign to a doubting generation — and it is still the only sign that matters.',
+      'The sign of Jonah: three days in the tomb, then coming out alive. First principle: the resurrection was the sign Jesus gave to a generation that kept asking for one. It is still the only sign that matters.',
     sourceKeywords: ['as Jonas was three days', 'in the whale\'s belly', 'so shall the Son of man be'],
     fulfillmentKeywords: ['in the belly of the fish', 'three days and three nights'],
     terms: [],
@@ -3232,7 +3232,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-13-14': {
     title: 'In Them Is Fulfilled the Prophecy of Esaias',
     principle:
-      'Isaiah 6\'s hardening is fulfilled in parable-hearing Israel. First principle: revelation resisted becomes judicial dullness — hearing without understanding is a judgment, not an accident.',
+      'Isaiah 6 foretold a people who would hear the parables and stay hard. First principle: when a person keeps refusing the light God gives, that refusal becomes a judgment. Hearing without understanding is not an accident.',
     sourceKeywords: ['in them is fulfilled', 'By hearing ye shall hear', 'shall not understand'],
     fulfillmentKeywords: ['Go, and tell this people', 'hear ye indeed'],
     terms: [],
@@ -3240,7 +3240,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-13-35': {
     title: 'I Will Open My Mouth in Parables',
     principle:
-      'Psalm 78\'s Asaph is quoted of Jesus\' parabolic teaching — secrets kept from the foundation of the world now uttered in stories. First principle: the parables are themselves prophecy fulfilled — old words finding final voice.',
+      'Jesus\' teaching in parables quotes Psalm 78. First principle: the parables are prophecy fulfilled. Secrets hidden from the world\'s foundation are now told in stories, and ancient words find their final voice.',
     sourceKeywords: ['that it might be fulfilled', 'I will open my mouth in parables', 'kept secret from the foundation'],
     fulfillmentKeywords: ['I will open my mouth in a parable', 'dark sayings of old'],
     terms: [],
@@ -3248,7 +3248,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-15-4': {
     title: 'For God Commanded, Honour Thy Father and Mother',
     principle:
-      'The fifth commandment is set against corban tradition. First principle: God\'s commandment, not human convention, defines honor — and tradition that cancels it is null.',
+      'Jesus sets the fifth commandment against the corban tradition. First principle: God\'s commandment defines honor, not human tradition. Any tradition that cancels the commandment is worthless.',
     sourceKeywords: ['For God commanded', 'Honour thy father and mother', 'let him die the death'],
     fulfillmentKeywords: ['Honour thy father and thy mother'],
     terms: [],
@@ -3256,7 +3256,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-15-8': {
     title: 'This People Draweth Nigh unto Me with Their Mouth',
     principle:
-      'Isaiah 29:13 again: lips close, heart far; doctrine taught as the commandments of men. First principle: proximity of vocabulary is not nearness of heart — vain worship can quote Scripture fluently.',
+      'Isaiah 29:13 is quoted again here: lips come close while the heart stays far. Men teach their own rules as if they were God\'s commandments. First principle: lips that say the right words prove nothing about the heart. Worship that is empty can quote Scripture well.',
     sourceKeywords: ['draweth nigh unto me with their mouth', 'honoureth me with their lips', 'heart is far from me'],
     fulfillmentKeywords: ['draw near with their mouth', 'removed their heart far from me'],
     terms: [],
@@ -3264,7 +3264,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-17-5': {
     title: 'Hear Ye Him',
     principle:
-      'On the mount of transfiguration the Father repeats the Baptism formula and adds the Deuteronomic command: hear ye Him. First principle: the Prophet like Moses is present — hear Him above Moses and Elijah themselves.',
+      'On the mount of transfiguration the Father repeats the words from the Baptism. He adds the command Moses gave: "hear ye Him." First principle: the Prophet like Moses is here. Hear Him above Moses and Elijah themselves.',
     sourceKeywords: ['a voice out of the cloud', 'This is my beloved Son', 'hear ye him'],
     fulfillmentKeywords: ['Unto him ye shall hearken', 'Thou art my Son'],
     terms: [],
@@ -3272,7 +3272,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-19-4': {
     title: 'He Which Made Them at the Beginning',
     principle:
-      'On divorce, Jesus appeals to creation order — male and female from the beginning. First principle: Genesis is the standing authority for marriage; the Creator\'s original design settles the question.',
+      'Jesus answers the question about divorce by going back to creation. He points to male and female from the beginning. First principle: Genesis settles what marriage is. The way the Creator first made us settles the question.',
     sourceKeywords: ['Have ye not read', 'made them at the beginning', 'male and female'],
     fulfillmentKeywords: ['male and female created he them'],
     terms: [],
@@ -3280,7 +3280,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-19-5': {
     title: 'They Twain Shall Be One Flesh',
     principle:
-      'Genesis 2:24 is quoted as God\'s own speech about marriage. First principle: the one-flesh bond is a creation ordinance — what God joined, no committee or custom may sever.',
+      'Matthew quotes Genesis 2:24 as God\'s own words about marriage. First principle: the one-flesh bond goes back to creation. God joined the two, and no council or custom of men may put them apart.',
     sourceKeywords: ['leave father and mother', 'one flesh'],
     fulfillmentKeywords: ['they shall be one flesh'],
     terms: [],
@@ -3288,7 +3288,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-19-18': {
     title: 'Thou Shalt Do No Murder',
     principle:
-      'To the rich young ruler Jesus cites the Decalogue\'s table of love. First principle: the law was never a ladder to heaven but a mirror for the neighbor — and its full weight is love.',
+      'Jesus repeats the commandments to the rich young ruler. First principle: the law was never a stairway into heaven. It was a mirror held up to the neighbor. Its whole weight is love.',
     sourceKeywords: ['Thou shalt do no murder', 'Thou shalt not steal', 'bear false witness'],
     fulfillmentKeywords: ['Thou shalt not kill', 'Thou shalt not steal'],
     terms: [],
@@ -3296,7 +3296,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-21-5': {
     title: 'Thy King Cometh unto Thee, Meek',
     principle:
-      'Zechariah 9:9 and Isaiah 62:11 are joined at the triumphal entry. First principle: salvation comes riding a donkey — meekness is not the absence of majesty but its manner.',
+      'Zechariah 9:9 and Isaiah 62:11 meet at the triumphal entry. First principle: salvation comes riding on a donkey. Meekness is not the absence of majesty. It is the way majesty shows itself.',
     sourceKeywords: ['Tell ye the daughter of Sion', 'thy King cometh unto thee', 'sitting upon an ass'],
     fulfillmentKeywords: ['riding upon an ass', 'thy salvation cometh'],
     terms: [],
@@ -3304,7 +3304,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-21-13': {
     title: 'My House Shall Be Called the House of Prayer',
     principle:
-      'Isaiah 56 for all nations versus Jeremiah 7\'s den of thieves. First principle: the temple\'s purpose is prayer for the nations — commerce that excludes them makes it a robbers\' cave.',
+      'Isaiah 56 opens the temple to all nations. Jeremiah 7 calls it a den of thieves. First principle: God\'s house is meant to be a house of prayer for the nations. Trade that shuts them out turns it into a robbers\' cave.',
     sourceKeywords: ['It is written', 'house of prayer', 'den of thieves'],
     fulfillmentKeywords: ['house of prayer for all people', 'den of robbers'],
     terms: [],
@@ -3312,7 +3312,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-21-16': {
     title: 'Out of the Mouth of Babes and Sucklings',
     principle:
-      'Children\'s Hosannas fulfill Psalm 8:2 — perfected praise. First principle: God ordains praise from the least; when critics object, the psalm answers.',
+      'The children\'s Hosannas answer Psalm 8:2, and that psalm calls their praise perfected. First principle: God appoints praise from the least likely mouths. When the critics object, the psalm answers them.',
     sourceKeywords: ['Out of the mouth of babes', 'thou hast perfected praise'],
     fulfillmentKeywords: ['out of the mouth of babes', 'hast thou ordained strength'],
     terms: [],
@@ -3320,7 +3320,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-21-42': {
     title: 'Did Ye Never Read in the Scriptures?',
     principle:
-      'Psalm 118 and Isaiah 28 converge on the rejected Stone. First principle: the kingdom is taken from those who will not build on God\'s Stone and given to a nation bringing forth fruit.',
+      'Psalm 118 and Isaiah 28 meet at the rejected Stone. First principle: God takes the kingdom away from those who refuse to build on His Stone. He gives it to a people who bring Him fruit.',
     sourceKeywords: ['Did ye never read in the scriptures', 'the builders rejected', 'head of the corner'],
     fulfillmentKeywords: ['the stone which the builders refused', 'a sure foundation'],
     terms: [],
@@ -3328,7 +3328,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-22-32': {
     title: 'God Is Not the God of the Dead, but of the Living',
     principle:
-      'I AM the God of Abraham — covenant grammar implies resurrection. First principle: God\'s relationship to His saints cannot terminate in the grave; the patriarchs live to Him.',
+      '"I AM the God of Abraham" carries a promise that outlives the grave. First principle: God\'s promise to be the God of His people cannot end at a tomb. The patriarchs are alive to Him.',
     sourceKeywords: ['I am the God of Abraham', 'not the God of the dead', 'but of the living'],
     fulfillmentKeywords: ['I am the God of thy father', 'I AM THAT I AM'],
     terms: [],
@@ -3336,7 +3336,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-22-37': {
     title: 'Thou Shalt Love the Lord Thy God',
     principle:
-      'The Shema plus Leviticus 19:18 hang all the law and prophets. First principle: love for God and neighbor is the law distilled — not a replacement of commandments but their heart.',
+      'The Shema and Leviticus 19:18 hold up the whole law and the prophets. First principle: love for God and love for neighbor is the law in one word. It is not a replacement for the commandments. It is their heart.',
     sourceKeywords: ['love the Lord thy God', 'all thy heart', 'all the law and the prophets'],
     fulfillmentKeywords: ['thou shalt love the LORD thy God', 'with all thine heart'],
     terms: [],
@@ -3344,7 +3344,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-22-44': {
     title: 'The LORD Said unto My Lord',
     principle:
-      'Psalm 110 silences the Sadducees and scribes: David\'s Lord sits at God\'s right hand. First principle: Christ\'s lordship over David is the key to His person — Son by birth, Lord by throne.',
+      'Psalm 110 stops the mouths of the Sadducees and the scribes. David calls the Messiah his Lord, and that Lord sits at God\'s right hand. First principle: Christ is David\'s Lord, and that is who He is. He is Son by birth and Lord by throne.',
     sourceKeywords: ['The LORD said unto my Lord', 'Sit thou on my right hand', 'footstool'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'until I make thine enemies'],
     terms: [],
@@ -3352,7 +3352,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-24-15': {
     title: 'The Abomination of Desolation, Spoken of by Daniel',
     principle:
-      'Jesus names Daniel as the read-ahead for the temple\'s desolation. First principle: apocalyptic reading is Jesus\' own preparation plan — whoso readeth, let him understand.',
+      'Jesus names Daniel as the prophet to read ahead of time for the desolation of the temple. First principle: "whoso readeth, let him understand." Reading the prophets was part of Jesus\' own preparation for His disciples.',
     sourceKeywords: ['abomination of desolation', 'spoken of by Daniel the prophet', 'stand in the holy place'],
     fulfillmentKeywords: ['abomination that maketh desolate', 'take away the daily sacrifice'],
     terms: [],
@@ -3360,7 +3360,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-24-21': {
     title: 'Great Tribulation, Such as Was Not Since the Beginning',
     principle:
-      'Daniel 12\'s unparalleled time of trouble is quoted for the coming climax. First principle: the tribulation has a named intensity and a named limit — for the elect\'s sake those days are shortened.',
+      'Daniel 12 is quoted for the worst time of trouble there has ever been. First principle: that trouble has a stated intensity and a stated limit. God shortens those days for the sake of His chosen people.',
     sourceKeywords: ['great tribulation', 'such as was not since the beginning', 'should be shortened'],
     fulfillmentKeywords: ['a time of trouble', 'such as never was since there was a nation'],
     terms: [],
@@ -3368,7 +3368,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-24-31': {
     title: 'His Angels with a Great Sound of a Trumpet',
     principle:
-      'The elect are gathered from the four winds — Isaiah 27\'s trumpet and Deuteronomy 30\'s regathering. First principle: the same trumpet that scattered Israel\'s promises gathers Christ\'s elect; no elect one is left behind.',
+      'The chosen are gathered from the four winds. The trumpet comes from Isaiah 27, and the regathering comes from Deuteronomy 30. First principle: God once scattered Israel with a trumpet, and He gathers Christ\'s chosen with the same trumpet. No one He has chosen is left out.',
     sourceKeywords: ['great sound of a trumpet', 'gather together his elect', 'from the four winds'],
     fulfillmentKeywords: ['shall be gathered', 'from the uttermost part of the earth'],
     terms: [],
@@ -3376,7 +3376,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-26-28': {
     title: 'This Is My Blood of the New Testament',
     principle:
-      'The cup quotes Jeremiah 31 and applies Exodus 24: blood-sealed covenant, remission of sins. First principle: the new covenant is not inked but bled — and the Supper is its ongoing memorial.',
+      'The cup quotes Jeremiah 31 and applies Exodus 24. The covenant is sealed with blood, and sins are forgiven. First principle: the new covenant is not written in ink but paid in blood. The Supper is the meal that keeps its memory.',
     sourceKeywords: ['my blood of the new testament', 'shed for many', 'remission of sins'],
     fulfillmentKeywords: ['I will make a new covenant', 'I will forgive their iniquity'],
     terms: [],
@@ -3384,7 +3384,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-26-31': {
     title: 'I Will Smite the Shepherd, and the Sheep Scatter',
     principle:
-      'Zechariah 13:7 quoted over Gethsemane\'s night. First principle: the sword of the LORD wakes against the Shepherd who is God\'s equal — the scattering proves who He is even as it wounds them.',
+      'Zechariah 13:7 is quoted over the night in Gethsemane. First principle: the sword of the LORD wakes against the Shepherd who is God\'s equal. The scattering itself shows who He is, even while it wounds them.',
     sourceKeywords: ['All ye shall be offended', 'it is written', 'I will smite the shepherd'],
     fulfillmentKeywords: ['smite the shepherd', 'sheep shall be scattered'],
     terms: [],
@@ -3392,7 +3392,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-26-56': {
     title: 'All This Was Done, That the Scriptures Might Be Fulfilled',
     principle:
-      'Arrest, abandonment, flight — all within the writings of the prophets. First principle: the disciples\' desertion does not derail the plan; even desertion fulfills it.',
+      'They arrested Him, they left Him, they ran. Every part of it stands inside the writings of the prophets. First principle: the disciples\' desertion does not push God\'s plan off its course. Even their desertion carries it out.',
     sourceKeywords: ['all this was done', 'the scriptures of the prophets might be fulfilled', 'forsook him, and fled'],
     fulfillmentKeywords: [],
     terms: [],
@@ -3400,7 +3400,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-27-9': {
     title: 'They Took the Thirty Pieces of Silver',
     principle:
-      'Zechariah 11 and Jeremiah 32-33 converge on the potter\'s-field price. First principle: the composite quotation is exact in substance — betrayal money buys a burial ground for strangers.',
+      'Zechariah 11 and Jeremiah 32-33 meet at the price of the potter\'s field. First principle: the quotation is exact in what it claims. The money from the betrayal buys a burial ground for strangers.',
     sourceKeywords: ['Then was fulfilled', 'thirty pieces of silver', 'potter'],
     fulfillmentKeywords: ['thirty pieces of silver', 'cast them to the potter'],
     terms: [],
@@ -3408,7 +3408,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-27-35': {
     title: 'They Parted His Garments, Casting Lots',
     principle:
-      'The crucifixion proceeds as Psalm 22:18 wrote it. First principle: at the cross, the soldiers fulfill Scripture involuntarily — the plan needs no conscious cooperation.',
+      'The soldiers carry out the crucifixion just as Psalm 22:18 had written it. First principle: at the cross the soldiers fulfilled Scripture without knowing it. God\'s plan needed no willing help from them.',
     sourceKeywords: ['parted his garments', 'casting lots', 'that it might be fulfilled'],
     fulfillmentKeywords: ['parted my raiment', 'did cast lots'],
     terms: [],
@@ -3416,7 +3416,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-27-46': {
     title: 'Eli, Eli, Lama Sabachthani?',
     principle:
-      'Psalm 22:1 cried at the ninth hour in Hebrew. First principle: the crucified One prays the psalm that maps His own agony — forsaken that we might be received.',
+      'At the ninth hour Jesus cries the words of Psalm 22:1. He cries them in Hebrew. First principle: the crucified One prays the psalm that traces His own agony. He was forsaken so that we might be received.',
     sourceKeywords: ['ninth hour', 'My God, my God', 'why hast thou forsaken me'],
     fulfillmentKeywords: ['My God, my God, why hast thou forsaken me'],
     terms: [],
@@ -3424,7 +3424,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-27-48': {
     title: 'Vinegar on a Reed',
     principle:
-      'The sponge of vinegar answers Psalm 69:21. First principle: the last act of the Passion was hospitality twisted into mockery — and written beforehand.',
+      'The sponge of vinegar answers Psalm 69:21. First principle: the last act of the Passion was kindness turned into mockery. It had been written down long before.',
     sourceKeywords: ['took a spunge', 'filled it with vinegar', 'gave him to drink'],
     fulfillmentKeywords: ['in my thirst', 'gave me vinegar to drink'],
     terms: [],
@@ -3432,7 +3432,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-28-18': {
     title: 'All Power Is Given unto Me',
     principle:
-      'The risen Christ receives Daniel 7\'s dominion and Psalm 2\'s possession. First principle: the Great Commission rests on universal authority — mission is the announcement of a throne, not a request.',
+      'The risen Christ receives the dominion of Daniel 7 and the possession of Psalm 2. First principle: the Great Commission rests on all authority. The mission announces a throne. It does not ask a favor.',
     sourceKeywords: ['All power is given unto me', 'in heaven and in earth', 'Go ye therefore'],
     fulfillmentKeywords: ['dominion and glory, and a kingdom', 'I shall give thee the uttermost parts'],
     terms: [],
@@ -3440,7 +3440,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mat-28-20': {
     title: 'Lo, I Am with You Alway',
     principle:
-      'To the end of the world, the Immanuel of chapter 1 remains. First principle: the book that opened with God-with-us closes with God-with-always — the promise that outlasts every generation.',
+      'The promise runs to the end of the world. The Immanuel of chapter 1 is still with His people. First principle: the book that opens with God with us closes with God with you always. That promise outlasts every generation.',
     sourceKeywords: ['I am with you alway', 'even unto the end of the world'],
     fulfillmentKeywords: ['I will strengthen thee', 'I will help thee'],
     terms: [],
