@@ -7248,7 +7248,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-1-7': {
     title: 'Rest with Us, When the Lord Jesus Shall Be Revealed',
     principle:
-      'Tribulated believers receive rest at the revealed-from-heaven appearing. First principle: rest is timed to revelation — the relief of the troubled arrives with the mighty-angel display.',
+      'Believers who are troubled receive rest when the Lord Jesus is revealed from heaven. First principle: the rest is timed to that revealing. Relief for the troubled arrives with the display of mighty angels.',
     sourceKeywords: ['rest with us', 'the Lord Jesus shall be revealed', 'with his mighty angels'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7256,7 +7256,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-1-8': {
     title: 'In Flaming Fire Taking Vengeance',
     principle:
-      'Revelation includes fiery vengeance on the ignorant and the disobedient. First principle: the Isaiah 11 mouth-sword and the flaming judgment belong to the same returning Lord who saved.',
+      'When the Lord is revealed, he brings fiery vengeance on those who do not know God and do not obey the gospel. First principle: the sword from the mouth in Isaiah 11 and the flaming judgment belong to the same returning Lord who saved.',
     sourceKeywords: ['In flaming fire', 'taking vengeance', 'obey not the gospel'],
     fulfillmentKeywords: ['with the breath of his lips shall he slay the wicked'],
     terms: [],
@@ -7264,7 +7264,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-1-10': {
     title: 'When He Shall Come to Be Glorified in His Saints',
     principle:
-      'The admired-in-believers day. First principle: Christ\'s glory at the coming is displayed in the saints He glorified — the believed testimony becomes visible admiration.',
+      'This is the day when Christ is admired in those who believe. First principle: at the coming, Christ\'s glory is displayed in the saints he has glorified. The testimony they believed becomes visible admiration.',
     sourceKeywords: ['glorified in his saints', 'admired in all them that believe', 'in that day'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7272,7 +7272,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-3': {
     title: 'That Day Shall Not Come, Except There Come a Falling Away First',
     principle:
-      'The apostasy and the man of sin precede the Day. First principle: the end has asequence — falling away first, lawless one revealed; Daniel 7\'s little power and Jesus\' deception warnings converge.',
+      'The falling away and the man of sin come before the Day of the Lord. First principle: the end follows an order. The falling away comes first, and then the lawless one is revealed. Daniel 7\'s little power and Jesus\' warnings about deception meet here.',
     sourceKeywords: ['a falling away first', 'that man of sin be revealed', 'the son of perdition'],
     fulfillmentKeywords: ['he shall speak great words against the most High'],
     terms: [],
@@ -7280,7 +7280,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-4': {
     title: 'He as God Sitteth in the Temple of God',
     principle:
-      'The self-deifying exhibition in the temple. First principle: Daniel 11\'s exalting king and Ezekiel\'s prince-tyrant are the lineage of this seated blasphemy — the abomination takes a chair.',
+      'The man of sin puts himself on display in the temple and claims to be God. First principle: Daniel 11\'s exalting king and Ezekiel\'s prince-tyrant are the family line of this seated blasphemy. The abomination takes a chair.',
     sourceKeywords: ['opposeth and exalteth himself', 'sitteth in the temple of God', 'shewing himself that he is God'],
     fulfillmentKeywords: ['he shall exalt himself, and magnify himself above every god'],
     terms: [],
@@ -7288,7 +7288,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-8': {
     title: 'The Lord Shall Consume Him with the Spirit of His Mouth',
     principle:
-      'The Wicked is revealed — and destroyed by the breath of His coming. First principle: Isaiah 11\'s breath-of-lips slaying is the mechanism of the anti-christ\'s end; a word kills the warrior.',
+      'The Wicked is revealed. The breath of His coming destroys him. First principle: Isaiah 11\'s slaying by the breath of his lips is how the anti-christ meets his end. A word kills the warrior.',
     sourceKeywords: ['that Wicked be revealed', 'consume with the spirit of his mouth', 'the brightness of his coming'],
     fulfillmentKeywords: ['with the breath of his lips shall he slay the wicked'],
     terms: [],
@@ -7296,7 +7296,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-9': {
     title: 'Whose Coming Is After the Working of Satan',
     principle:
-      'Counterfeit power, signs, and lying wonders. First principle: the lawless one photocopies Pentecost — power and signs without truth; Jesus warned of great signs that deceive the very elect.',
+      'The lawless one comes with counterfeit power, signs, and lying wonders. First principle: he makes a copy of Pentecost. He shows power and signs, but he has no truth. Jesus warned that great signs would deceive even the elect.',
     sourceKeywords: ['after the working of Satan', 'all power and signs', 'lying wonders'],
     fulfillmentKeywords: ['shall shew great signs and wonders'],
     terms: [],
@@ -7304,7 +7304,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-2-11': {
     title: 'God Shall Send Them Strong Delusion',
     principle:
-      'The judicial lie for those who refused the truth. First principle: delusion is judgment — when truth is resisted, a believed lie becomes God\'s sentence, as Ahab\'s lying spirit prefigured.',
+      'God sends a lie as judgment on those who refused the truth. First principle: the delusion is itself the sentence. When a person resists the truth, a lie he believes becomes God\'s judgment on him. Ahab\'s lying spirit was the earlier picture of this.',
     sourceKeywords: ['God shall send them strong delusion', 'that they should believe a lie'],
     fulfillmentKeywords: ['the LORD hath put a lying spirit in the mouth of all these thy prophets'],
     terms: [],
@@ -7312,7 +7312,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-3-3': {
     title: 'The Lord Is Faithful, Who Shall Stablish You',
     principle:
-      'Establishment and keeping from evil rest on His faithfulness. First principle: the believer\'s stability is not self-generated — the Faithful One establishes and guards against the evil one.',
+      'God establishes you and keeps you from evil, and he does it because he is faithful. First principle: a believer\'s stability does not come from himself. The Faithful One makes him stand and guards him against the evil one.',
     sourceKeywords: ['the Lord is faithful', 'stablish you', 'keep you from evil'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7320,7 +7320,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2th-3-17': {
     title: 'The Salutation of Paul with Mine Own Hand',
     principle:
-      'The handwritten token authenticates every epistle. First principle: in an age of forged letters, authenticity is personal — the apostle\'s signature is the church\'s security feature.',
+      'Paul writes the greeting with his own hand, and that proves the letter is genuine. First principle: forged letters were a real danger in that age. Proof of the letter\'s authenticity came down to a person. The apostle\'s signature was the church\'s security feature.',
     sourceKeywords: ['The salutation of Paul with mine own hand', 'the token in every epistle'],
     fulfillmentKeywords: [],
     terms: [],
