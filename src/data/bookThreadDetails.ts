@@ -2483,7 +2483,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-1-32': {
     title: 'The Throne of His Father David',
     principle:
-      'Gabriel announces the Son of the Highest receiving David\'s throne. First principle: Gabriel fuses 2 Samuel 7 and Isaiah 9 into one announcement — the covenant Son is both God\'s Son and David\'s heir.',
+      'Gabriel announced that the Son of the Highest would receive David\'s throne. First principle: Gabriel joined 2 Samuel 7 and Isaiah 9 in one announcement. The Son of God\'s binding promise is both God\'s Son and David\'s heir.',
     sourceKeywords: ['Son of the Highest', 'throne of his father David'],
     fulfillmentKeywords: ['thy throne shall be established', 'unto us a child is born'],
     terms: [],
@@ -2491,7 +2491,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-1-33': {
     title: 'Of His Kingdom There Shall Be No End',
     principle:
-      'He shall reign over the house of Jacob for ever. First principle: the Davidic kingdom, cut down like a stump, grows into an everlasting dominion in the Son of Mary.',
+      '“He shall reign over the house of Jacob for ever.” First principle: David\'s kingdom was cut down like a stump. In the Son of Mary it grows into a kingdom that never ends.',
     sourceKeywords: ['reign over the house of Jacob', 'no end'],
     fulfillmentKeywords: ['he shall reign for ever', 'increase of his government'],
     terms: [],
@@ -2499,7 +2499,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-1-69': {
     title: 'An Horn of Salvation in the House of David',
     principle:
-      'Zacharias blesses God for raising up an horn of salvation in the house of his servant David. First principle: Hannah\'s horn of His anointed and the Davidic covenant meet in the newborn Christ.',
+      'Zacharias blessed God for raising up an horn of salvation in the house of his servant David. First principle: Hannah\'s words about the horn of His anointed and God\'s binding promise to David came together in the newborn Christ.',
     sourceKeywords: ['horn of salvation', 'house of his servant David'],
     fulfillmentKeywords: ['exalt the horn of his anointed', 'strength unto his king'],
     terms: [],
@@ -2507,7 +2507,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-1-76': {
     title: 'The Prophet of the Highest Preparing His Ways',
     principle:
-      'Zacharias names his son the prophet of the Highest, going before the Lord to prepare His ways. First principle: Malachi\'s messenger stands in the birth narrative — John is written prophecy made a crying infant.',
+      'Zacharias named his son the prophet of the Highest, the one going before the Lord to prepare His ways. First principle: Malachi\'s messenger stands in the birth story itself. John is written prophecy that became a crying infant.',
     sourceKeywords: ['prophet of the Highest', 'go before the face of the Lord', 'prepare his ways'],
     fulfillmentKeywords: ['I send my messenger', 'before thee'],
     terms: [],
@@ -2515,7 +2515,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-2-23': {
     title: 'Every Male That Openeth the Womb',
     principle:
-      'The presentation obeys the law of the LORD: Every male that openeth the womb shall be called holy. First principle: the Redeemer lives under the law He gave — Exodus 13\'s claim on the firstborn kept to the letter in His own presentation.',
+      'The presentation obeyed the law of the LORD: “Every male that openeth the womb shall be called holy.” First principle: the Redeemer lived under the law he himself gave. Exodus 13 claims every firstborn, and that claim was kept to the letter when Jesus was presented.',
     sourceKeywords: ['As it is written in the law', 'openeth the womb', 'holy to the Lord'],
     fulfillmentKeywords: ['Sanctify unto me all the firstborn'],
     terms: [],
@@ -2523,7 +2523,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-2-32': {
     title: 'A Light to Lighten the Gentiles',
     principle:
-      'Simeon holds the infant and quotes Isaiah: a light to lighten the Gentiles, and the glory of thy people Israel. First principle: salvation prepared before the face of all people is now carried in two arms.',
+      'Simeon held the infant and quoted Isaiah: “a light to lighten the Gentiles, and the glory of thy people Israel.” First principle: God had prepared this salvation before the face of all people. Simeon now carried it in his two arms.',
     sourceKeywords: ['A light to lighten the Gentiles', 'glory of thy people Israel'],
     fulfillmentKeywords: ['a light of the Gentiles', 'my salvation'],
     terms: [],
@@ -2531,7 +2531,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-3-4': {
     title: 'The Voice Crying in the Wilderness',
     principle:
-      'Luke quotes Isaiah 40:3 over John\'s ministry: make his paths straight. First principle: the forerunner is literature before he is a man — the wilderness voice written seven centuries earlier.',
+      'Luke applied Isaiah 40:3 to John\'s ministry: “make his paths straight.” First principle: John the forerunner was written about before he was born. The wilderness voice was on the page seven centuries earlier.',
     sourceKeywords: ['Esaias the prophet', 'voice of one crying in the wilderness', 'make his paths straight'],
     fulfillmentKeywords: ['prepare ye the way of the LORD', 'every valley shall be exalted'],
     terms: [],
@@ -2539,7 +2539,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-4-4': {
     title: 'Man Shall Not Live by Bread Alone',
     principle:
-      'Christ answers the tempter from Deuteronomy: man lives by every word of God. First principle: Israel failed in the wilderness; the true Israel wins there by the written Word.',
+      'Christ answered the tempter from Deuteronomy: man lives by every word of God. First principle: Israel failed in the wilderness. Jesus, the true Israel, won there by the word that was written.',
     sourceKeywords: ['It is written', 'not live by bread alone', 'every word of God'],
     fulfillmentKeywords: ['by every word that proceedeth out of the mouth'],
     terms: [],
@@ -2547,7 +2547,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-4-8': {
     title: 'Thou Shalt Worship the Lord Thy God Only',
     principle:
-      'The kingdoms of the world are refused with Deuteronomy 6:13. First principle: worship is God\'s alone — Christ will take the kingdoms, but by the cross, never by the devil\'s shortcut.',
+      'Jesus refused the kingdoms of the world with Deuteronomy 6:13. First principle: worship belongs to God alone. Christ will take the kingdoms, but he will take them by the cross, never by the devil\'s shortcut.',
     sourceKeywords: ['Get thee behind me, Satan', 'worship the Lord thy God', 'him only shalt thou serve'],
     fulfillmentKeywords: ['thou shalt fear the LORD thy God', 'serve him'],
     terms: [],
@@ -2555,7 +2555,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-4-12': {
     title: 'Thou Shalt Not Tempt the Lord Thy God',
     principle:
-      'The third wilderness test — throw Yourself down — is refused with Deuteronomy 6:16. First principle: the Messiah will not manufacture proof of Sonship; Israel tested God at Massah, and the true Israel would not.',
+      'The third wilderness test — throw Yourself down — was refused with Deuteronomy 6:16. First principle: the Messiah would not force proof that he was the Son. Israel tested God at Massah. The true Israel would not do that.',
     sourceKeywords: ['It is said', 'Thou shalt not tempt the Lord thy God'],
     fulfillmentKeywords: ['Ye shall not tempt the LORD your God', 'as ye tempted him in Massah'],
     terms: [],
@@ -2563,7 +2563,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-4-18': {
     title: 'The Spirit of the Lord Is upon Me',
     principle:
-      'In Nazareth Jesus reads Isaiah 61 and sits down: This day is this scripture fulfilled. First principle: the clearest self-declared fulfillment in Scripture — anointing, gospel, healing, liberty, all in one sentence.',
+      'In Nazareth Jesus read Isaiah 61 and sat down: “This day is this scripture fulfilled.” First principle: no other place in Scripture shows Jesus declaring his own fulfillment so clearly. Anointing, gospel, healing, and liberty all appear in one sentence.',
     sourceKeywords: ['The Spirit of the Lord is upon me', 'anointed me to preach the gospel', 'liberty them that are bruised'],
     fulfillmentKeywords: ['anointed me to preach good tidings', 'proclaim liberty to the captives'],
     terms: [],
@@ -2571,7 +2571,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-4-21': {
     title: 'This Day Is This Scripture Fulfilled',
     principle:
-      'The eyes of all in the synagogue are fastened on Him as He closes the book. First principle: fulfillment is not merely coming — it stands in the room, today.',
+      'Everyone in the synagogue watched Jesus as he closed the book. First principle: the fulfillment was not merely on its way. It stood in the room that day.',
     sourceKeywords: ['This day is this scripture fulfilled', 'in your ears'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2579,7 +2579,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-7-27': {
     title: 'I Send My Messenger Before Thy Face',
     principle:
-      'Jesus tells John\'s disciples who He is by deeds, then tells the crowd who John is — Malachi 3:1\'s messenger. First principle: the forerunner\'s identity certifies the identity of the One preceded.',
+      'Jesus told John\'s disciples who he was by what he did. Then he told the crowd who John was: Malachi 3:1\'s messenger. First principle: the man who goes first identifies the one who comes after him.',
     sourceKeywords: ['of whom it is written', 'I send my messenger', 'prepare thy way before thee'],
     fulfillmentKeywords: ['the messenger of the covenant', 'suddenly come to his temple'],
     terms: [],
@@ -2587,7 +2587,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-8-10': {
     title: 'Unto You It Is Given to Know the Mysteries',
     principle:
-      'Parables both reveal and conceal — Isaiah 6\'s judicial blindness fulfilled. First principle: the same word softens the willing and hardens the unwilling; the difference is the heart that hears.',
+      'Parables both reveal and conceal. That is the blindness Isaiah 6 described, and here it comes true. First principle: the same word softens the willing and hardens the unwilling. The difference is the heart that hears.',
     sourceKeywords: ['mysteries of the kingdom of God', 'seeing they might not see'],
     fulfillmentKeywords: ['hear indeed, but understand not', 'make the heart fat'],
     terms: [],
@@ -2595,7 +2595,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-18-8': {
     title: 'Shall He Find Faith on the Earth?',
     principle:
-      'God will avenge His elect speedily — yet the Son of man asks whether faith will remain. First principle: the end-time question is not whether God will act, but whether anyone is still praying when He does.',
+      'God will avenge His elect speedily. Yet the Son of man asks whether faith will remain. First principle: the question for the last days is not whether God will act. It is whether anyone is still praying when he comes.',
     sourceKeywords: ['avenge them speedily', 'the Son of man cometh', 'find faith'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2603,7 +2603,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-18-31': {
     title: 'All Things Written Concerning the Son of Man',
     principle:
-      'Going up to Jerusalem, Jesus says everything written by the prophets concerning the Son of man shall be accomplished — betrayal, mock, scourge, death, resurrection. First principle: the Passion week is the most predicted week in history.',
+      'Going up to Jerusalem, Jesus said that everything written by the prophets concerning the Son of man shall be accomplished. He named what would happen: betrayal, mocking, scourging, death, and resurrection. First principle: the week of his suffering is the most predicted week in history.',
     sourceKeywords: ['written by the prophets', 'shall be accomplished', 'Son of man'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2611,7 +2611,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-20-17': {
     title: 'The Stone Which the Builders Rejected',
     principle:
-      'Jesus quotes Psalm 118 against the chief priests. First principle: the rejected Stone becomes the head of the corner — rejection is the very road to exaltation.',
+      'Jesus used Psalm 118 to answer the chief priests. First principle: the rejected Stone becomes the head of the corner, the stone the whole building rests on. Rejection was the road that led to exaltation.',
     sourceKeywords: ['that is written', 'the builders rejected', 'head of the corner'],
     fulfillmentKeywords: ['the stone which the builders refused'],
     terms: [],
@@ -2619,7 +2619,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-20-42': {
     title: 'The LORD Said unto My Lord',
     principle:
-      'David in the Psalms calls his descendant Lord. First principle: Psalm 110 leaves the scribes speechless — the Christ is greater than David, Son yet Sovereign.',
+      'David in the Psalms calls his own descendant Lord. First principle: Psalm 110 left the scribes with nothing to say. The Christ is greater than David: David\'s Son, and David\'s Lord.',
     sourceKeywords: ['David himself saith', 'The LORD said unto my Lord', 'Sit thou on my right hand'],
     fulfillmentKeywords: ['The LORD said unto my Lord', 'Sit thou at my right hand'],
     terms: [],
@@ -2627,7 +2627,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-21-24': {
     title: 'Jerusalem Trodden Down Until the Times of the Gentiles',
     principle:
-      'Destruction, captivity, and a bounded timespan: until the times of the Gentiles be fulfilled. First principle: prophecy gives even Jerusalem\'s humiliation an expiration date.',
+      'Jesus foretold destruction and captivity, and he set a limit on how long it would last: “until the times of the Gentiles be fulfilled.” First principle: even Jerusalem\'s humiliation has a date when it ends.',
     sourceKeywords: ['led away captive', 'trodden down of the Gentiles', 'times of the Gentiles'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2635,7 +2635,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-21-27': {
     title: 'The Son of Man Coming in a Cloud with Power',
     principle:
-      'After distress of nations, the Sign appears: the Son of man coming in a cloud with power and great glory. First principle: Daniel 7\'s Son of man receives the kingdom publicly at the end — redemption draweth nigh.',
+      'Nations will be in distress. Then the sign appears: “the Son of man coming in a cloud with power and great glory.” First principle: at the end, Daniel 7\'s Son of man receives his kingdom in full public view. Then “redemption draweth nigh.”',
     sourceKeywords: ['Son of man coming in a cloud', 'power and great glory', 'redemption draweth nigh'],
     fulfillmentKeywords: ['one like the Son of man came with the clouds'],
     terms: [],
@@ -2643,7 +2643,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-22-37': {
     title: 'He Was Reckoned Among the Transgressors',
     principle:
-      'Isaiah 53:12 must be accomplished in Me, says Jesus — numbered with criminals, yet ending the law\'s regime. First principle: Christ dies among the guilty as Scripture said, and the things concerning me have an end.',
+      'Jesus said that Isaiah 53:12 must be accomplished in him. He was numbered with criminals, yet he brought the law\'s rule to its end. First principle: Christ died among the guilty, just as Scripture said. “The things concerning me have an end.”',
     sourceKeywords: ['this that is written', 'reckoned among the transgressors', 'have an end'],
     fulfillmentKeywords: ['numbered with the transgressors', 'bare the sin of many'],
     terms: [],
@@ -2651,7 +2651,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-24-26': {
     title: 'Ought Not Christ to Have Suffered These Things?',
     principle:
-      'The risen Christ teaches that suffering was the required road to glory. First principle: the cross was not an accident of politics but an ought of prophecy.',
+      'The risen Christ taught that he had to suffer before he could enter his glory. First principle: the cross was not an accident of politics. Scripture said it ought to happen.',
     sourceKeywords: ['Ought not Christ to have suffered', 'enter into his glory'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2659,7 +2659,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-24-27': {
     title: 'Beginning at Moses He Expounded Concerning Himself',
     principle:
-      'From Moses through all the prophets, Christ expounds the things concerning Himself. First principle: the whole Old Testament is Christological — He is its subject, not its appendix.',
+      'From Moses through all the prophets, Christ explained the things concerning Himself. First principle: the whole Old Testament is about Jesus. He is its subject, not an appendix to it.',
     sourceKeywords: ['beginning at Moses', 'all the prophets', 'the things concerning himself'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2667,7 +2667,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-24-44': {
     title: 'Law, Prophets, and Psalms Concerning Me',
     principle:
-      'The risen Lord divides the whole canon — the law of Moses, the prophets, and the psalms — as written concerning Him. First principle: every section of the Old Testament carries the thread of Christ.',
+      'The risen Lord divided the whole of Scripture into three parts: the law of Moses, the prophets, and the psalms. All of it, he said, was written concerning Him. First principle: every section of the Old Testament is about Christ.',
     sourceKeywords: ['all things must be fulfilled', 'law of Moses', 'psalms, concerning me'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2675,7 +2675,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'luk-24-46': {
     title: 'Thus It Behoved Christ to Suffer and to Rise',
     principle:
-      'Thus it is written: suffer, rise the third day, and repentance and remission preached among all nations. First principle: the gospel pattern — death, resurrection, worldwide preaching — is itself the fulfillment of Scripture.',
+      '“Thus it is written,” Jesus said: he would suffer, he would rise the third day, and repentance and remission would be preached among all nations. First principle: the gospel pattern itself fulfills Scripture. Death, resurrection, and worldwide preaching were all written ahead of time.',
     sourceKeywords: ['Thus it is written', 'to suffer, and to rise', 'the third day'],
     fulfillmentKeywords: [],
     terms: [],
