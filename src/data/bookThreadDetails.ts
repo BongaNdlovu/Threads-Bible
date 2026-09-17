@@ -477,7 +477,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-4-4': {
     title: 'Born of a Woman, Under the Law',
     principle:
-      'When the fullness of time came, God sent forth His Son, made of a woman, made under the law. First principle: incarnation is timed, gendered, and legal — for redemption of those under law.',
+      'When the fullness of time came, God sent forth His Son, made of a woman, made under the law. First principle: God timed the incarnation, gave it a mother, and placed it under the law. He did it to redeem those under the law.',
     sourceKeywords: ['fulness of the time', 'God sent forth', 'his Son', 'made of a woman', 'under the law'],
     fulfillmentKeywords: ['seed', 'woman', 'bruise', 'son', 'born', 'virgin'],
     terms: [
@@ -6647,7 +6647,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-1-8': {
     title: 'Though We, or an Angel from Heaven, Preach Any Other Gospel',
     principle:
-      'The anathema guards the gospel from heaven\'s own messengers. First principle: the gospel is fixed once delivered — revelation\'s closed core outranks any later angelic revision, as Moses and John both warn.',
+      'The curse guards the gospel even from heaven\'s own messengers. First principle: God delivered the gospel once, so no later angel can change it. Both Moses and John warn against adding to God\'s word or taking from it.',
     sourceKeywords: ['an angel from heaven', 'preach any other gospel', 'let him be accursed'],
     fulfillmentKeywords: ['If any man shall add unto these things'],
     terms: [],
@@ -6655,7 +6655,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-6': {
     title: 'Abraham Believed God, and It Was Accounted for Righteousness',
     principle:
-      'Genesis 15:6 is the Galatian argument\'s foundation stone. First principle: righteousness by believing precedes law, circumcision, and works — the counting of faith as righteousness is the oldest gospel text.',
+      'Genesis 15:6 is the foundation stone of Paul\'s argument here. First principle: God credited righteousness to Abraham because Abraham believed. That came before the law, before circumcision and before works. This is the oldest gospel text.',
     sourceKeywords: ['Abraham believed God', 'accounted to him for righteousness'],
     fulfillmentKeywords: ['he believed in the LORD; and he counted it to him for righteousness'],
     terms: [],
@@ -6663,7 +6663,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-8': {
     title: 'The Scripture Preached Before the Gospel unto Abraham',
     principle:
-      'In thee shall all nations be blessed — the gospel four hundred years early. First principle: Scripture foresaw; Scripture preached — the justification of the heathen by faith was announced to the father of the faithful himself.',
+      'Scripture announced the gospel to Abraham in advance: In thee shall all nations be blessed. First principle: Scripture both saw ahead and preached. It told Abraham himself that God would justify the Gentiles by faith.',
     sourceKeywords: ['the scripture, foreseeing', 'preached before the gospel unto Abraham', 'In thee shall all nations be blessed'],
     fulfillmentKeywords: ['in thy seed shall all the nations of the earth be blessed'],
     terms: [],
@@ -6671,7 +6671,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-10': {
     title: 'Cursed Is Every One That Continueth Not in All Things',
     principle:
-      'Law-keepers are under the law\'s curse for one lapse. First principle: the curse is total in demand and universal in reach — Deuteronomy\'s amen-line indicts every continuant who has ever stopped.',
+      'Law-keepers fall under the law\'s curse for a single lapse. First principle: the law demands everything and its curse reaches everyone. Deuteronomy\'s curse falls on all who have ever stopped keeping the whole law.',
     sourceKeywords: ['under the curse', 'Cursed is every one', 'continueth not in all things'],
     fulfillmentKeywords: ['Cursed be he that confirmeth not all the words of this law'],
     terms: [],
@@ -6679,7 +6679,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-11': {
     title: 'The Just Shall Live by Faith',
     principle:
-      'Habakkuk 2:4 is the verse that splits law from life. First principle: three apostles quote it — Romans doctrinally, Galatians polemically, Hebrews pastorally — life by faith, never by performance.',
+      'Habakkuk 2:4 is the verse that divides law from life. First principle: three apostles quote it. Romans uses it to teach, Galatians uses it to argue, Hebrews uses it to comfort. Life comes by faith, never by performance.',
     sourceKeywords: ['no man is justified by the law', 'The just shall live by faith'],
     fulfillmentKeywords: ['the just shall live by his faith'],
     terms: [],
@@ -6695,7 +6695,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-16': {
     title: 'He Saith Not, And to Seeds, as of Many; but as of One, Thy Seed',
     principle:
-      'The promise to Abraham culminates in one Seed — Christ. First principle: Paul argues from a singular noun; the promises made to Abraham\'s seed were made to the Person who is the Seed.',
+      'The promise to Abraham comes down to one Seed, who is Christ. First principle: Paul argues from a singular noun. God made those promises to one Person, and that Person is the Seed.',
     sourceKeywords: ['to Abraham and his seed were the promises', 'as of one, And to thy seed, which is Christ'],
     fulfillmentKeywords: ['in thy seed shall all the nations of the earth be blessed'],
     terms: [],
@@ -6703,7 +6703,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-17': {
     title: 'The Law, Which Was Four Hundred and Thirty Years After, Cannot Disannul',
     principle:
-      'The confirmed covenant outranks the later law. First principle: chronology is theology — the promise is older, confirmed in Christ, and no later administration can cancel it.',
+      'The confirmed covenant outranks the later law. First principle: chronology carries the argument here — the promise is older, confirmed in Christ, and no later administration can cancel it.',
     sourceKeywords: ['the covenant... confirmed before of God in Christ', 'four hundred and thirty years after', 'cannot disannul'],
     fulfillmentKeywords: ['in the same day the LORD made a covenant with Abram'],
     terms: [],
@@ -6711,7 +6711,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-19': {
     title: 'Wherefore Then Serveth the Law?',
     principle:
-      'Added because of transgressions, till the Seed should come, ordained by angels through a mediator. First principle: the law was a temporary tutor with a retirement date — the Seed\'s arrival ended its custodianship.',
+      'Added because of transgressions, till the Seed should come, ordained by angels through a mediator. First principle: the law was a temporary tutor with a fixed end. When the Seed arrived, its guardianship ended.',
     sourceKeywords: ['Wherefore then serveth the law', 'added because of transgressions', 'till the seed should come'],
     fulfillmentKeywords: [],
     terms: [],
@@ -6719,7 +6719,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-22': {
     title: 'The Scripture Hath Concluded All under Sin',
     principle:
-      'The universal shut-up has one purpose: the promise given to believers. First principle: the conclusion is custody, not condemnation alone — all under sin so the faith-promise has no rival door.',
+      'Scripture shut everything up under sin for one purpose: the promise given to believers. First principle: the conclusion is custody, not condemnation alone. All are under sin so that the promise by faith has no rival door.',
     sourceKeywords: ['concluded all under sin', 'the promise by faith of Jesus Christ', 'given to them that believe'],
     fulfillmentKeywords: ['there is none righteous, no, not one'],
     terms: [],
@@ -6727,7 +6727,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-28': {
     title: 'Neither Jew nor Greek, Bond nor Free, Male nor Female',
     principle:
-      'All one in Christ Jesus. First principle: the oneness is baptismal and covenantal — everyone who calls on the name of the Lord is one heir; the walls fell in the water.',
+      'All one in Christ Jesus. First principle: that oneness is baptismal and covenantal. Every believer is one heir, and the old walls came down in the water.',
     sourceKeywords: ['neither Jew nor Greek', 'bond nor free', 'all one in Christ Jesus'],
     fulfillmentKeywords: ['whosoever shall call on the name of the LORD'],
     terms: [],
@@ -6735,7 +6735,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-3-29': {
     title: 'If Ye Be Christ\'s, Then Are Ye Abraham\'s Seed',
     principle:
-      'Belonging to Christ makes heirs of the promise. First principle: the seed promise funnels through the Seed — being in Him is being in Abraham\'s covenant; the land of the promise is the world to inherit.',
+      'Being Christ\'s makes a person an heir of the promise. First principle: the promise about the seed runs through the Seed. To be in Him is to be inside God\'s binding promise to Abraham. The land promised to Abraham is the world the heirs receive.',
     sourceKeywords: ['if ye be Christ\'s', 'Abraham\'s seed', 'heirs according to the promise'],
     fulfillmentKeywords: ['in thy seed shall all nations be blessed'],
     terms: [],
@@ -6743,7 +6743,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-4-5': {
     title: 'To Redeem Them That Were under the Law',
     principle:
-      'The fullness-of-time Son redeems law-dwellers into sonship. First principle: adoption is the purchase — redemption from under the law is the door to crying, Abba, Father.',
+      'God sent His Son in the fullness of time to buy freedom for those under the law. First principle: adoption is the purchase. To be bought out of the law\'s reach is the door to crying, Abba, Father.',
     sourceKeywords: ['To redeem them that were under the law', 'that we might receive the adoption of sons'],
     fulfillmentKeywords: ['he shall justify many', 'I have called thee by thy name; thou art mine'],
     terms: [],
@@ -6751,7 +6751,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-4-22': {
     title: 'Abraham Had Two Sons',
     principle:
-      'One by a bondmaid, one by a freewoman — the two-covenant allegory begins. First principle: the two sons map two covenants; the birth of each decides its household.',
+      'One by a bondmaid and one by a freewoman: here the two-covenant picture begins. First principle: the two sons stand for two covenants, and the birth of each son decides which household he belongs to.',
     sourceKeywords: ['Abraham had two sons', 'one by a bondmaid', 'the other by a freewoman'],
     fulfillmentKeywords: [],
     terms: [],
@@ -6759,7 +6759,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-4-27': {
     title: 'Rejoice, Thou Barren That Bearest Not',
     principle:
-      'Isaiah 54 quoted for the freewoman\'s many children. First principle: the desolate Jerusalem-above has more children than the enslaved — grace\'s family outgrows the flesh\'s.',
+      'Isaiah 54 is quoted here for the freewoman\'s many children. First principle: Jerusalem above is desolate and has more children than the enslaved city. Grace\'s family outgrows the family of the flesh.',
     sourceKeywords: ['Rejoice, thou barren that bearest not', 'the desolate hath many more children'],
     fulfillmentKeywords: ['Sing, O barren, thou that didst not bear'],
     terms: [],
@@ -6767,7 +6767,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-4-30': {
     title: 'Cast Out the Bondwoman and Her Son',
     principle:
-      'Sarah\'s demand becomes Scripture\'s verdict: the bondman shall not inherit. First principle: law-born and promise-born cannot co-inherit; the household of faith is fenced by the Word, not by sentiment.',
+      'Sarah\'s demand becomes Scripture\'s verdict: the bondman shall not inherit. First principle: the son born of law and the son born of promise cannot inherit together. God\'s word fences the household of faith, not sentiment.',
     sourceKeywords: ['Cast out the bondwoman and her son', 'shall not be heir with the son of the freewoman'],
     fulfillmentKeywords: ['cast out this bondwoman and her son'],
     terms: [],
@@ -6775,7 +6775,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-6-2': {
     title: 'Bear Ye One Another\'s Burdens',
     principle:
-      'Mutual bearing fulfills the law of Christ. First principle: the new law has a new verb — bear; the strong carrying the fallen is Christ\'s own load-bearing love continued.',
+      'Christians who carry each other\'s loads fulfil the law of Christ. First principle: the new law has a new verb, and that verb is bear. When the strong carry the fallen, Christ\'s own love keeps carrying its load.',
     sourceKeywords: ['Bear ye one another\'s burdens', 'fulfil the law of Christ'],
     fulfillmentKeywords: [],
     terms: [],
@@ -6783,7 +6783,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'gal-6-16': {
     title: 'Peace on Them, and upon the Israel of God',
     principle:
-      'The rule of new creation carries peace and mercy to the true Israel. First principle: the Israel of God are the crested new-creation walkers — mercy sought for a people defined by the cross, not the flesh.',
+      'The rule of the new creation carries peace and mercy to the true Israel. First principle: the Israel of God are those who walk in the new creation. Mercy is asked for a people the cross defines, not the flesh.',
     sourceKeywords: ['walk according to this rule', 'peace be on them', 'upon the Israel of God'],
     fulfillmentKeywords: [],
     terms: [],
