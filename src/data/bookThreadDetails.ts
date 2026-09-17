@@ -1014,7 +1014,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-21-9': {
     title: 'The Bronze Serpent Lifted Up',
     principle:
-      'Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turned the sign of the curse into the means of life for everyone who looks to it in faith.',
+      'Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life.  God turned the sign of the curse into the means of life for everyone who looks to it in faith.',
     sourceKeywords: ['serpent of brass', 'pole', 'bitten', 'beheld', 'lived'],
     fulfillmentKeywords: ['lifted up', 'serpent', 'wilderness', 'Son of man', 'believe', 'eternal life', 'cross'],
     terms: [
@@ -7772,9 +7772,9 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
 
   // ── Hand-written expansion: 2 Peter ─────────────────────────────────────
   '2pe-1-19': {
-    title: 'We Have Also a More Sure Word of Prophecy',
+    title: 'We Have the Word of Prophecy Made More Sure',
     principle:
-      'Prophecy is the lamp in the dark place until the Day dawns. First principle: the transfigured Mount certifies the written word — the shining day-star is the goal the lamp serves until morning.',
+      'The word of prophecy is the lamp that burns in the dark place until the Day dawns. First principle: the glory on the mount confirms the written word. The day-star is the goal, and the lamp serves until morning comes.',
     sourceKeywords: ['a more sure word of prophecy', 'a light that shineth in a dark place', 'until the day dawn'],
     fulfillmentKeywords: ['there shall come a Star out of Jacob'],
     terms: [],
@@ -7782,7 +7782,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-1-21': {
     title: 'Holy Men of God Spake as They Were Moved by the Holy Ghost',
     principle:
-      'Prophecy\'s origin is divine motion, not human will. First principle: the authorship doctrine in one sentence — carried men spoke; the wind of God moved the sails of the writers.',
+      '"holy men of God spake as they were moved by the Holy Ghost." First principle: God\'s Spirit moved the writers, so what they spoke came from God and not from a man\'s own will. The wind of God filled the sails of the writers.',
     sourceKeywords: ['the prophecy came not in old time by the will of man', 'holy men of God spake', 'moved by the Holy Ghost'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7790,7 +7790,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-2-6': {
     title: 'Turning the Cities of Sodom and Gomorrha into Ashes',
     principle:
-      'The overthrow is an ensample for the ungodly-to-come. First principle: Sodom is exhibit A of coming judgment — ash-cities preach to later generations that the Lord knows how to rescue and to reserve.',
+      '"And turning the cities of Sodom and Gomorrha into ashes condemned them with an overthrow, making them an ensample unto those that after should live ungodly." First principle: God made Sodom the standing example of the judgment that is coming. The burnt cities still warn every later generation. They show that the Lord knows how to rescue his people and how to hold the wicked for judgment.',
     sourceKeywords: ['Sodom and Gomorrha into ashes', 'condemned them with an overthrow', 'an ensample'],
     fulfillmentKeywords: ['the LORD rained upon Sodom and upon Gomorrah brimstone and fire'],
     terms: [],
@@ -7798,7 +7798,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-2-22': {
     title: 'The Dog Is Turned to His Own Vomit Again',
     principle:
-      'The true proverb judges false teachers\' relapse. First principle: nature reverts where nature is unchanged — washing the outside of the sow does not re-create the sow.',
+      'The true proverb shows how the false teachers fell back into their old ways. First principle: a nature that has not changed will go back to what it was. Washing the outside of a sow does not make it a new creature.',
     sourceKeywords: ['The dog is turned to his own vomit', 'the sow that was washed to her wallowing'],
     fulfillmentKeywords: ['As a dog returneth to his vomit'],
     terms: [],
@@ -7806,7 +7806,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-3-8': {
     title: 'One Day Is with the Lord as a Thousand Years',
     principle:
-      'The beloved are corrected on chronology. First principle: divine timekeeping dilutes impatience — the thousand-years/day symmetry makes delay impossible to measure by clocks.',
+      'Peter corrects the people he loves about how God counts time. First principle: God does not keep time the way we do. One day with the Lord can be a thousand years, and a thousand years can be one day, so no clock can measure whether he is late.',
     sourceKeywords: ['one day is with the Lord as a thousand years', 'a thousand years as one day'],
     fulfillmentKeywords: ['a thousand years in thy sight are but as yesterday'],
     terms: [],
@@ -7814,7 +7814,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-3-10': {
     title: 'The Day of the Lord Will Come as a Thief',
     principle:
-      'Heavens pass with noise; elements melt; earth burned. First principle: the thief-day ends in cosmic renovation — the works in it are the fuel, the promise is the new earth.',
+      '"But the day of the Lord will come as a thief in the night; in the which the heavens shall pass away with a great noise, and the elements shall melt with fervent heat, the earth also and the works that are therein shall be burned up." First principle: the Day of the Lord comes suddenly, like a thief, and God remakes the whole creation. Fire burns up everything in it, and God\'s promise is a new earth.',
     sourceKeywords: ['the day of the Lord will come as a thief', 'the heavens shall pass away with a great noise', 'burned up'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7822,7 +7822,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2pe-3-13': {
     title: 'We Look for New Heavens and a New Earth, Wherein Dwelleth Righteousness',
     principle:
-      'The promise-anchored expectation. First principle: looking is the discipline — Isaiah 65\'s creation promise is the horizon; righteousness is the resident of the new world.',
+      'We wait for what God has promised. First principle: looking for it is the discipline. Isaiah 65\'s promise of a new creation is the horizon ahead of us, and righteousness is the citizen of that new world.',
     sourceKeywords: ['we, according to his promise, look for', 'new heavens and a new earth', 'wherein dwelleth righteousness'],
     fulfillmentKeywords: ['I create new heavens and a new earth'],
     terms: [],
