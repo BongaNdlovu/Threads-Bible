@@ -117,7 +117,7 @@ The universal confession to the glory of the Father. First principle: Isaiah 45'
 **AFTER**
 
 ```text
-Every tongue will confess to the glory of the Father. First principle: Isaiah 45's oath, that every tongue will swear, is handed to Jesus. Lord is the covenant name, and it is confessed in the covenant oath.
+Every tongue will confess to the glory of the Father. First principle: Isaiah 45's oath, that every tongue will swear, is handed to Jesus. Lord is the name of God's binding promise, and every tongue confesses the oath of that promise.
 ```
 
 **Why:** V3: 'the every-tongue oath' was a noun stack and 'transferred' was passive with an unnamed actor; Isaiah is now named as the one who wrote it, and the oath's own words are given. V2: the em-dash sentence is now two sentences. 'covenant' is kept, since the sentence is about the name itself. I1: the KJV phrase 'to the glory of God the Father' is reflected in the opening sentence and the words 'every tongue' are carried as they stand. Claims kept: the universal confession; the glory of the Father; Isaiah 45's oath; it is transferred to Jesus; Lord is the covenant name confessed in the covenant oath.

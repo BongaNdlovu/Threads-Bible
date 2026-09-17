@@ -3,8 +3,9 @@
 Plan: `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md`
 Branch: `cursor/plain-lang-cp01-cp02-genesis-ebb9`
 Date: 2026-09-17
-Status: Stage A complete, Stage A.5 in progress, Stage B closeout in progress. Two sections at the end
-of this document are appended when their passes finish.
+Status: **Stage A complete (60 books + the Stage A.5 chain pass), Stage B closeout complete except the
+operator's sign-off.** CP-04 regression, CP-05 triage and consistency read, and this report are all
+delivered; §9 lists what remains for the operator.
 
 ## 1 · What was asked, and what was delivered
 
@@ -255,12 +256,57 @@ to 62 entry strings during Stage A.
 CP-04 is complete: `docs/CP-04_FULL_REGRESSION.md` records all four gates green (type, 146 tests, data
 audit, production build), the whole-canon clarity gate at **4,324 strings and 0 failures** against 22 at
 baseline, and **63 of 63 books** passing seven structural checks against their own pre-apply commits.
+The four gates were re-run after the chain pass and are green again, with the chain scope verified
+separately.
 
-CP-05's rollup is complete (`docs/CP-05_TRIAGE_QUEUE.md`). The consistency read — at least 8 strings per
-book across all 66 books, checking glossary compliance and cross-book rendering consistency — is the
-last analytical step. Its result is appended below.
+CP-05 is complete. The rollup is `docs/CP-05_TRIAGE_QUEUE.md`; the cross-book consistency read is
+`docs/CP-05_CONSISTENCY_READ.md`.
 
-## 9 · Operator sign-off
+**Sample.** 1,518 strings read across all 66 books — nearly three times the plan's floor of 528, with
+every book read at least eight strings and the densest books read in full (Genesis 60, Deuteronomy 59,
+Psalms 118, Isaiah 139, Revelation 112). The read also verified that the delivered draft JSON and the
+generated `CP-02_*_DRAFT.md` appendices are the same artifact, so the sample size stands for both.
+
+**What it found, and what was done.**
+
+| Severity | Found | Action |
+|---|---:|---|
+| `citation` | 0 | nothing moved: no citation token, quoted span, Hebrew/Greek run, transliteration, Strong's token or structural label was changed by the sweep in the sample |
+| `wording` — frozen-rendering divergence | 2 fixable | fixed: `1ch-16-22` ("covenant family" → the frozen rendering) and `php-2-11` ("covenant name/oath"), both re-applied to the data and re-verified (commits `a95eb64`, `1dc4591`) |
+| `wording` — needing an operator ruling | 6 classes | listed in the read's §2 and §4; the most substantial is 31 bare-`covenant` strings |
+| `blocking-claim` | 2 | neither is a sweep defect — see below |
+
+**The two blocking-claim findings are both pre-existing, and both are the operator's call.**
+
+`B1` is the register discontinuity the calibration predicted: the three books this plan never swept
+(Genesis, Exodus, Leviticus) still carry the pre-sweep voice, including the glossary's never-write
+words — "Christological", "eschatological", bare "type" and "antitype" — in `gen-1-1`, `gen-2-3`,
+`gen-49-1`, `exo-12-46`, `exo-20-8` and several chains. These are the same 28 hits the calibration's
+drift census recorded and queued for this report. The read recommends no edit, and this report agrees:
+§1.11 forbids rewriting those strings in this sweep, and the golden samples `gen-1-1`, `exo-12-46` and
+`zec-9-9` are verify-only by design. The operator's choice is between a scoped exemption in the
+never-write column for already-signed-off prose and a follow-up pass over the three books.
+
+`B2` is a punctuation defect in Exodus that no check can see: 35 of Exodus's 118 live strings read
+`First principle.` with a period where every swept book reads `First principle:` with a colon.
+`LABEL_FIXITY` passes it because the label count is unchanged from base, and invariant I1 protects the
+label from a unilateral fix, so it is triage rather than repair. If the operator confirms the colon is
+intended, it is a 35-string correction in one book.
+
+## 9 · What remains for the operator
+
+1. **Sign off** the sweep in §10 below, or return it with what to change.
+2. **Triage the review queue** — 76 `QUOTE-REVIEW` and 1 `THEOLOGY-REVIEW` findings in the swept books
+   (per-book table in §4), plus the 27 pre-existing markers in `docs/CP-05_TRIAGE_QUEUE.md`.
+3. **Rule on the six wording classes** the consistency read flagged but did not fix.
+4. **Decide the two blocking-claim items**: the never-write words in Genesis, Exodus and Leviticus, and
+   Exodus's `First principle.` punctuation.
+5. **Widen the `sanctification` glossary row** so an inflected rendering (`makes them holy`) counts —
+   otherwise that row reads 0 glossed against 12 bare no matter how good the prose is.
+6. **Decide whether the abbreviation census becomes a check.** It is not one today; 45 drafts change an
+   abbreviation token count and all but two are mandated by the glossary or the voice rules.
+
+## 10 · Operator sign-off
 
 - Decision text: _awaiting operator_
 - Signer: _awaiting operator_
