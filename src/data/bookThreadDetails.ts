@@ -9919,7 +9919,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-1-7': {
     title: 'Hold Thy Peace at the Presence of the Lord GOD',
     principle:
-      'Zephaniah pictures the day of the LORD as a sacrifice already prepared and guests already invited. God invites the guests, yet they are the ones killed. So the only fitting response is to be silent before the Lord GOD.',
+      'Zephaniah pictures the day of the LORD as a sacrifice already prepared and guests already invited. First principle: God invites the guests, yet they are the ones killed. So the only fitting response is to be silent before the Lord GOD.',
     sourceKeywords: ['Hold thy peace at the presence of the Lord GOD', 'the day of the LORD is at hand', 'he hath bid his guests'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9927,7 +9927,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-1-14': {
     title: 'The Great Day of the LORD Is Near, It Hasteth Greatly',
     principle:
-      'The great day of the LORD is near, and it comes fast. That day has a voice of its own that goes ahead of it. Even strong men cry out in pain.',
+      'First principle: the great day of the LORD is near, and it comes fast. That day has a voice of its own that goes ahead of it. Even strong men cry out in pain.',
     sourceKeywords: ['The great day of the LORD is near', 'it hasteth greatly', 'the mighty man shall cry there bitterly'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9935,7 +9935,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-2-3': {
     title: 'Seek Ye the LORD, All Ye Meek of the Earth',
     principle:
-      'The meek of the earth will seek the LORD, and they will seek righteousness and meekness. God may hide them on the day his anger comes. So judgment has a refuge for the humble.',
+      'The meek of the earth will seek the LORD, and they will seek righteousness and meekness. First principle: God may hide them on the day his anger comes. So judgment has a refuge for the humble.',
     sourceKeywords: ['Seek ye the LORD, all ye meek of the earth', 'seek righteousness, seek meekness', 'hid in the day of the LORD\'S anger'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9943,7 +9943,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-3-8': {
     title: 'Wait Ye upon Me, until the Day That I Rise Up to the Prey',
     principle:
-      'Wait for me, God says, until the day I rise up to the prey. He has determined to gather the nations and assemble the kingdoms. He will pour out his indignation, all his fierce anger. Then the fire of his jealousy will devour the whole earth.',
+      'Wait for me, God says, until the day I rise up to the prey. First principle: he has determined to gather the nations and assemble the kingdoms. He will pour out his indignation, all his fierce anger. Then the fire of his jealousy will devour the whole earth.',
     sourceKeywords: ['until the day that I rise up to the prey'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9951,7 +9951,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-3-9': {
     title: 'Then Will I Turn to the People a Pure Language',
     principle:
-      'Everyone will call on the name of the LORD with pure speech. God\'s scattered peoples will serve him shoulder to shoulder. That undoes Babel, where the one language was scattered.',
+      'Everyone will call on the name of the LORD with pure speech. God\'s scattered peoples will serve him shoulder to shoulder. First principle: that undoes Babel, where the one language was scattered.',
     sourceKeywords: ['turn to the people a pure language', 'call upon the name of the LORD', 'serve him with one consent'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9959,7 +9959,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-3-12': {
     title: 'I Will Leave in the Midst of Thee an Afflicted and Poor People',
     principle:
-      'The people left in Jerusalem will be afflicted and poor, and they will trust in the name of the LORD. They come out of trouble, and they depend on God. They are not powerful, and they are not proud.',
+      'The people left in Jerusalem will be afflicted and poor, and they will trust in the name of the LORD. First principle: they come out of trouble, and they depend on God. They are not powerful, and they are not proud.',
     sourceKeywords: ['an afflicted and poor people', 'they shall trust in the name of the LORD'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9967,7 +9967,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-3-17': {
     title: 'The LORD Thy God in the Midst of Thee Is Mighty',
     principle:
-      'God is in the middle of his people, and he is mighty. He will save them. He will rest in his love. He will rejoice over them with joy, and he will sing over them out loud.',
+      'God is in the middle of his people, and he is mighty. He will save them. First principle: he will rest in his love. He will rejoice over them with joy, and he will sing over them out loud.',
     sourceKeywords: ['in the midst of thee is mighty', 'he will rejoice over thee with joy', 'he will joy over thee with singing'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9975,7 +9975,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zep-3-20': {
     title: 'I Will Make You a Name and a Praise among All People',
     principle:
-      'At that time God will gather his people and turn back their captivity before their eyes. He will make them a name and a praise among all the peoples of the earth.',
+      'At that time God will gather his people and turn back their captivity before their eyes. First principle: he will make them a name and a praise among all the peoples of the earth.',
     sourceKeywords: ['a name and a praise among all people', 'when I turn back your captivity before your eyes'],
     fulfillmentKeywords: [],
     terms: [],
