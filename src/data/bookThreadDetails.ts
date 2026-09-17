@@ -551,27 +551,27 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['image', 'invisible God', 'firstborn', 'every creature'],
     fulfillmentKeywords: ['image', 'God', 'likeness', 'brightness', 'express image'],
     terms: [
-      { term: 'image', original: 'εἰκών', translit: 'eikōn', gloss: 'image, likeness, representation', note: 'Gen 1:26 fulfilled in the Son who images the Father perfectly.' },
+      { term: 'image', original: 'εἰκών', translit: 'eikōn', gloss: 'image, likeness, representation', note: 'Gen 1:26 is fulfilled in the Son. He is the exact image of the Father.' },
     ],
   },
   'col-1-16': {
     title: 'All Things Created by Him',
     principle:
-      'By Him all things were created — visible and invisible. First principle: the Son is agent of creation, not its first creature.',
+      'By Him all things were created — visible and invisible. First principle: the Son made everything. He is not the first thing God created.',
     sourceKeywords: ['by him', 'created', 'all things', 'heaven', 'earth', 'visible', 'invisible', 'thrones', 'dominions'],
     fulfillmentKeywords: ['made', 'worlds', 'all things', 'by him'],
     terms: [
-      { term: 'by Him', original: 'ἐν αὐτῷ', translit: 'en autō', gloss: 'in Him / by Him', note: 'John 1:3 — all things were made through Him.' },
+      { term: 'by Him', original: 'ἐν αὐτῷ', translit: 'en autō', gloss: 'in Him / by Him', note: 'John 1:3 makes the same point. All things were made through Him.' },
     ],
   },
   'col-2-15': {
     title: 'Principalities Spoiled',
     principle:
-      'He spoiled principalities and powers, making a show of them openly, triumphing over them in it. First principle: the cross is a public victory parade over demonic powers.',
+      'He spoiled principalities and powers, making a show of them openly, triumphing over them in it. First principle: the cross is a public victory parade over demonic powers. Christ stripped those rulers of their authority and put them on open display as defeated.',
     sourceKeywords: ['principalities', 'powers', 'spoiled', 'open show', 'triumphing', 'cross'],
     fulfillmentKeywords: ['bruise', 'head', 'destroy', 'works', 'devil', 'cast out'],
     terms: [
-      { term: 'triumphing', original: 'θριαμβεύσας', translit: 'thriambeusas', gloss: 'leading in triumphal procession', note: 'Roman victory parade imagery — the cross as conquest.' },
+      { term: 'triumphing', original: 'θριαμβεύσας', translit: 'thriambeusas', gloss: 'leading in triumphal procession', note: 'The picture is a Roman victory parade. The cross is that conquest.' },
     ],
   },
   '1th-4-16': {
@@ -1558,12 +1558,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-6': {
     title: 'Rooted and Built Up in Christ — Walking in Spiritual Maturity',
     principle:
-      'As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. Christian discipleship begins with receiving Christ by faith and progresses by living in unbroken dependence upon Him through prayer, Word study, and active service, putting on the whole armor of God against demonic deception.',
+      'As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. First principle: following Christ begins when a person receives Him by faith. It grows as that person lives in unbroken dependence on Him. Prayer, the Word, and active service are how that dependence works out. The whole armor of God guards him against demonic deception.',
     sourceKeywords: ['received Christ Jesus', 'walk ye in Him', 'rooted and built up in Him', 'stablished in the faith'],
     fulfillmentKeywords: ['grow in grace', 'armor of God', 'fruit of the Spirit', 'abide in Me'],
     terms: [
-      { term: 'rooted', original: 'ἐρριζωμένοι', translit: 'errizōmenoi', gloss: 'having been firmly rooted / anchored', note: 'Perfect passive participle: once planted by faith in Christ, continually drawing life.' },
-      { term: 'built up', original: 'ἐποικοδομούμενοι', translit: 'epoikodomoumenoi', gloss: 'being progressively constructed upon', note: 'Present passive participle: continuous spiritual architecture in Christ.' },
+      { term: 'rooted', original: 'ἐρριζωμένοι', translit: 'errizōmenoi', gloss: 'having been firmly rooted / anchored', note: 'The verb is passive and describes an act already finished, with results that continue. The person has been rooted in Christ by faith, and he keeps drawing life.' },
+      { term: 'built up', original: 'ἐποικοδομούμενοι', translit: 'epoikodomoumenoi', gloss: 'being progressively constructed upon', note: 'The verb is passive and describes work still going on. This person is being built up in Christ, stage by stage.' },
     ],
   },
   'mat-16-18': {
@@ -7053,7 +7053,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-13': {
     title: 'Delivered from the Power of Darkness, Translated into the Kingdom',
     principle:
-      'Rescue and relocation — the kingdom of the dear Son. First principle: conversion is a transfer of jurisdictions; darkness\'s authority ends where the Son\'s kingdom begins.',
+      'God rescued us and carried us into the kingdom of the dear Son. First principle: when a person turns to Christ, he changes kingdoms. The authority of darkness ends where the Son\'s kingdom begins.',
     sourceKeywords: ['delivered us from the power of darkness', 'translated us into the kingdom of his dear Son'],
     fulfillmentKeywords: ['delivered thee from the power of darkness', 'to open their eyes'],
     terms: [],
@@ -7061,7 +7061,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-17': {
     title: 'He Is Before All Things, and by Him All Things Consist',
     principle:
-      'Preexistence and coherence — the Son holds the cosmos together. First principle: consistency is personal; every atom\'s persistence is the Word\'s ongoing work — the Wisdom of Proverbs 8 named.',
+      'The Son existed before everything, and he holds everything together. First principle: what keeps the universe steady is a person, not a force. Every atom stays in place because the Word keeps working. This is the Wisdom that Proverbs 8 names.',
     sourceKeywords: ['He is before all things', 'by him all things consist'],
     fulfillmentKeywords: ['The LORD possessed me in the beginning of his way'],
     terms: [],
@@ -7069,7 +7069,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-18': {
     title: 'He Is the Head of the Body, the Firstborn from the Dead',
     principle:
-      'Beginning and firstborn, so that in all things He has preeminence. First principle: headship and resurrection-prime join — the church\'s Head is death\'s Firstborn, and preeminence is His in everything.',
+      'Beginning and firstborn, so that in all things He has preeminence. That means Christ holds first place in everything. First principle: headship and the first resurrection meet in him. The church\'s Head is death\'s Firstborn. Preeminence is his in everything.',
     sourceKeywords: ['the head of the body, the church', 'the firstborn from the dead', 'the preeminence'],
     fulfillmentKeywords: ['the firstborn of every creature', 'the first that should rise from the dead'],
     terms: [],
@@ -7077,7 +7077,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-20': {
     title: 'Having Made Peace Through the Blood of His Cross',
     principle:
-      'Reconciliation spans earth and heaven. First principle: the cross\'s peace is cosmic in scale and personal in application — the Prince of Peace purchased the reconciliation His name promised.',
+      'God brings everything back to himself, both in heaven and on earth. First principle: the peace Jesus bought on the cross reaches the whole universe. It also reaches one person at a time. The Prince of Peace paid for the reconciliation his name promised.',
     sourceKeywords: ['made peace through the blood of his cross', 'reconcile all things unto himself', 'things in earth, or things in heaven'],
     fulfillmentKeywords: ['Prince of Peace', 'He is our peace'],
     terms: [],
@@ -7085,7 +7085,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-26': {
     title: 'The Mystery Hid from Ages, Now Made Manifest',
     principle:
-      'The hidden mystery is revealed to saints. First principle: Romans 16 and Colossians 1 open the same sealed book — the mystery is Christ\'s indwelling plan, timed for the apostolic age.',
+      'What was hidden is now shown to God\'s people. First principle: Romans 16 and Colossians 1 open the same sealed book. The mystery is God\'s plan to live inside Christ\'s people, and God timed its revealing for the age of the apostles.',
     sourceKeywords: ['the mystery which hath been hid from ages', 'made manifest to his saints'],
     fulfillmentKeywords: ['the revelation of the mystery, which was kept secret'],
     terms: [],
@@ -7093,7 +7093,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-1-27': {
     title: 'Christ in You, the Hope of Glory',
     principle:
-      'The glory-riches mystery is Gentile-located. First principle: the hope is not Christ coming back alone but Christ dwelling within — Immanuel internalized among the nations.',
+      'This rich and glorious mystery is for the Gentiles. First principle: the hope is not only that Christ will come back. It is that Christ now lives inside a person. Immanuel — God with us — is at work among the nations.',
     sourceKeywords: ['the riches of the glory of this mystery', 'among the Gentiles', 'Christ in you, the hope of glory'],
     fulfillmentKeywords: ['they shall call his name Immanuel... God with us'],
     terms: [],
@@ -7101,7 +7101,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-3': {
     title: 'In Whom Are Hid All the Treasures of Wisdom and Knowledge',
     principle:
-      'The treasure vault is a Person. First principle: Proverbs\' wisdom-cry and Isaiah\'s Spirit-of-wisdom find their treasury in Christ — knowledge is hidden in Him, not in systems.',
+      'The treasure vault is a person, not a place. First principle: Proverbs\' cry for wisdom and Isaiah\'s Spirit of wisdom both find their treasure in Christ. Real knowledge is hidden in him, not in human systems.',
     sourceKeywords: ['hid all the treasures', 'wisdom and knowledge'],
     fulfillmentKeywords: ['the spirit of wisdom and understanding', 'the LORD giveth wisdom'],
     terms: [],
@@ -7109,7 +7109,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-9': {
     title: 'In Him Dwelleth All the Fulness of the Godhead Bodily',
     principle:
-      'The totality of deity in a body. First principle: Isaiah\'s Mighty God and John\'s Word-made-flesh conclude here — fullness bodily, not metaphorically; the incarnation is theodicy and theology at once.',
+      'The whole fullness of God lives in a body. First principle: Isaiah\'s Mighty God and John\'s Word-made-flesh meet here. Christ is fully God in a real human body, not a picture or a symbol. The incarnation — God coming in human flesh — answers the charge that God is unjust and shows us who God is.',
     sourceKeywords: ['all the fulness of the Godhead', 'bodily'],
     fulfillmentKeywords: ['Unto us a child is born... The mighty God', 'the Word was made flesh'],
     terms: [],
@@ -7117,7 +7117,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-11': {
     title: 'Circumcised with the Circumcision Made Without Hands',
     principle:
-      'The putting off of the body of sins by Christ\'s circumcision. First principle: the heart-circumcision of Deuteronomy is performed without hands — the flesh-cutting is flesh-removal.',
+      'The putting off of the body of sins by Christ\'s circumcision. Christ\'s circumcision strips the body of sins away. First principle: Deuteronomy told Israel to circumcise their hearts. God does that work without hands. Cutting away flesh pictures the removal of sin.',
     sourceKeywords: ['circumcision made without hands', 'putting off the body of the sins', 'the circumcision of Christ'],
     fulfillmentKeywords: ['circumcise the foreskin of thy heart'],
     terms: [],
@@ -7125,7 +7125,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-12': {
     title: 'Buried with Him in Baptism, Wherein Also Ye Are Risen',
     principle:
-      'Baptism joins the burial and the rising through faith in God\'s operation. First principle: the ordinance reenacts the gospel sequence — buried with, raised with; the power is God\'s, the faith is ours.',
+      'Baptism joins a believer to the burial and the rising. That joining happens through faith in God\'s operation, which is God raising Jesus from the dead. First principle: baptism acts out the gospel in order. We are buried with Christ, and we are raised with Christ. The power is God\'s, and the faith is ours.',
     sourceKeywords: ['buried with him in baptism', 'ye are risen with him', 'the operation of God, who hath raised him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7133,7 +7133,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-14': {
     title: 'Blotting Out the Handwriting of Ordinances, Nailing It to His Cross',
     principle:
-      'The contrary record is erased and nailed up as cancelled. First principle: the debt-document is killed at the scene of the payment — Isaiah\'s blotting and David\'s blessed covering happened at Golgotha.',
+      'The record that stood against us is wiped out and nailed to the cross as cancelled. First principle: the debt document was destroyed where the payment was made. Isaiah\'s blotting out and David\'s blessed covering both happened at Golgotha.',
     sourceKeywords: ['Blotting out the handwriting of ordinances', 'which was contrary to us', 'nailing it to his cross'],
     fulfillmentKeywords: ['blotteth out thy transgressions', 'Blessed is he whose transgression is covered'],
     terms: [],
@@ -7141,7 +7141,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-17': {
     title: 'Which Are a Shadow of Things to Come; the Body Is of Christ',
     principle:
-      'Shadows precede substance. First principle: the sanctuary system was a silhouette — Hebrews\' shadow-language and the tabernacle pattern find their casting body in Christ.',
+      'Shadows precede substance. First principle: the temple service that pointed to him was a silhouette. Hebrews uses the same shadow language, and the tabernacle pattern finds its body in Christ.',
     sourceKeywords: ['a shadow of things to come', 'the body is of Christ'],
     fulfillmentKeywords: ['who serve unto the example and shadow of heavenly things'],
     terms: [],
@@ -7149,7 +7149,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-3-1': {
     title: 'If Ye Then Be Risen with Christ, Seek Those Things Which Are Above',
     principle:
-      'The risen life seeks the seated Christ. First principle: ascension is the church\'s orientation — the right-hand session of Psalm 110 is where the affections live.',
+      'The life raised with Christ looks for Christ where he sits. First principle: Jesus\' return to heaven sets the church\'s direction. Psalm 110 puts Christ at God\'s right hand. That is where a believer\'s heart belongs.',
     sourceKeywords: ['risen with Christ', 'seek those things which are above', 'where Christ sitteth on the right hand of God'],
     fulfillmentKeywords: ['Sit thou at my right hand'],
     terms: [],
@@ -7157,7 +7157,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-3-4': {
     title: 'When Christ, Who Is Our Life, Shall Appear',
     principle:
-      'The appearing reveals the hidden life — saints appear with Him in glory. First principle: Christ as life makes His appearing ours; the hidden-with-Christ reality becomes visible glory.',
+      'When Christ appears, the hidden life is revealed. The saints appear with Him in glory. First principle: because Christ is our life, his appearing is ours too. What was hidden with Christ then becomes visible glory.',
     sourceKeywords: ['Christ, who is our life', 'shall appear', 'appear with him in glory'],
     fulfillmentKeywords: ['we shall be like him; for we shall see him as he is'],
     terms: [],
@@ -7165,7 +7165,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-3-11': {
     title: 'Neither Greek nor Jew... but Christ Is All, and in All',
     principle:
-      'Barbarian and Scythian dissolve in the new man. First principle: Galatians\' oneness is extended to the empire\'s extremes — Christ is the all in all, so ethnicity is not a rank.',
+      'Barbarian and Scythian disappear in the new man. First principle: the oneness Galatians describes reaches the farthest edges of the empire. Christ is the all in all. A person\'s ethnic group does not set his rank.',
     sourceKeywords: ['neither Greek nor Jew', 'Barbarian, Scythian', 'Christ is all, and in all'],
     fulfillmentKeywords: ['there is neither Jew nor Greek'],
     terms: [],
