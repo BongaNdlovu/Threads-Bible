@@ -561,7 +561,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['by him', 'created', 'all things', 'heaven', 'earth', 'visible', 'invisible', 'thrones', 'dominions'],
     fulfillmentKeywords: ['made', 'worlds', 'all things', 'by him'],
     terms: [
-      { term: 'by Him', original: 'ἐν αὐτῷ', translit: 'en autō', gloss: 'in Him / by Him', note: 'John 1:3 makes the same point. All things were made through Him.' },
+      { term: 'by Him', original: 'ἐν αὐτῷ', translit: 'en autō', gloss: 'in Him / by Him', note: 'John 1:3 makes the same point: all things were made through Him.' },
     ],
   },
   'col-2-15': {
@@ -1558,7 +1558,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'col-2-6': {
     title: 'Rooted and Built Up in Christ — Walking in Spiritual Maturity',
     principle:
-      'As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. First principle: following Christ begins when a person receives Him by faith. It grows as that person lives in unbroken dependence on Him. Prayer, the Word, and active service are how that dependence works out. The whole armor of God guards him against demonic deception.',
+      'As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. Following Christ begins when a person receives Him by faith. It grows as that person lives in unbroken dependence on Him. Prayer, the Word, and active service are how that dependence works out. The whole armor of God guards him against demonic deception.',
     sourceKeywords: ['received Christ Jesus', 'walk ye in Him', 'rooted and built up in Him', 'stablished in the faith'],
     fulfillmentKeywords: ['grow in grace', 'armor of God', 'fruit of the Spirit', 'abide in Me'],
     terms: [
