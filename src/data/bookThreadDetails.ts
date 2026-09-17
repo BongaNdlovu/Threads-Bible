@@ -8657,7 +8657,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-16-22': {
     title: 'Touch Not Mine Anointed, and Do My Prophets No Harm',
     principle:
-      'These words stand in the psalm of thanks that David gave the people. First principle: the covenant family and the men who speak for God rest under God\'s own protection. What God said to the patriarchs is a treasure Israel passed down.',
+      'These words stand in the psalm of thanks that David gave the people. First principle: the family joined to God by his binding promise. The men who speak for God rest under God\'s own protection. What God said to the patriarchs is a treasure Israel passed down.',
     sourceKeywords: ['Touch not mine anointed', 'do my prophets no harm'],
     fulfillmentKeywords: [],
     terms: [],
