@@ -487,7 +487,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-20': {
     title: 'Seated at God\'s Right Hand',
     principle:
-      'God raised Christ and seated Him at His right hand in heavenly places. First principle: resurrection is followed by enthronement above every name.',
+      'God raised Christ and seated him at his right hand in heavenly places. First principle: God enthroned him after he raised him, and that throne is above every name.',
     sourceKeywords: ['raised', 'seated', 'right hand', 'heavenly places', 'far above'],
     fulfillmentKeywords: ['sit', 'right hand', 'until', 'enemies', 'footstool'],
     terms: [
@@ -497,7 +497,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-2-20': {
     title: 'Built on Apostles and Prophets',
     principle:
-      'Built on the foundation of the apostles and prophets, Christ Jesus Himself being the chief corner stone. First principle: church structure is christologically centered, not merely institutional.',
+      'The church is built "on the foundation of the apostles and prophets," with Christ Jesus Himself as the chief corner stone. First principle: the church rests on Christ at the centre, and not on an institution. That cornerstone is what holds the whole building together.',
     sourceKeywords: ['foundation', 'apostles', 'prophets', 'Christ Jesus', 'chief corner stone'],
     fulfillmentKeywords: ['stone', 'builders', 'refused', 'head', 'corner'],
     terms: [
@@ -507,7 +507,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-5-25': {
     title: 'Christ Loved the Church and Gave Himself',
     principle:
-      'Husbands love your wives as Christ loved the church and gave Himself for it. First principle: marriage is patterned on self-giving atonement, not mutual utility alone.',
+      'Husbands, love your wives as Christ loved the church and gave himself for it. First principle: marriage follows the pattern of self-giving atonement, and that is more than mutual usefulness.',
     sourceKeywords: ['loved the church', 'gave himself', 'sanctify', 'cleanse', 'washing', 'water', 'word'],
     fulfillmentKeywords: ['love one another', 'laid down', 'life', 'friends'],
     terms: [
@@ -6793,7 +6793,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-4': {
     title: 'Chosen in Him Before the Foundation of the World',
     principle:
-      'Election is in Christ and aims at holiness in love. First principle: the choice predates creation and its purpose is character — holy and blameless before Him, not merely selected by Him.',
+      'God chose us in Christ, and he chose us to be holy in love. First principle: God made that choice before he made the world. Its purpose is character, not selection. He means us to stand holy and blameless before him.',
     sourceKeywords: ['chosen us in him', 'before the foundation of the world', 'holy and without blame'],
     fulfillmentKeywords: [],
     terms: [],
@@ -6801,7 +6801,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-7': {
     title: 'In Whom We Have Redemption Through His Blood',
     principle:
-      'Forgiveness according to the riches of His grace. First principle: redemption is present possession — the blood-price was paid once, and the forgiveness it bought is held, not hoped for.',
+      'God forgives us according to the riches of his grace. First principle: redemption is something we hold now. The blood-price was paid once, and the forgiveness it bought is ours today rather than a hope for later.',
     sourceKeywords: ['redemption through his blood', 'the forgiveness of sins', 'riches of his grace'],
     fulfillmentKeywords: ['he was wounded for our transgressions', 'every one that thirsteth, come'],
     terms: [],
@@ -6809,7 +6809,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-10': {
     title: 'He Might Gather Together in One All Things in Christ',
     principle:
-      'The fullness of times gathers heaven and earth into one Head. First principle: history has a unification plan — dispensational fullness, cosmic regathering, all things in Christ.',
+      'The fullness of times gathers heaven and earth under one Head. First principle: history has a plan to unite everything, and God\'s plan is not an idea. All things, in heaven and on earth, are gathered up in Christ.',
     sourceKeywords: ['dispensation of the fulness of times', 'gather together in one all things in Christ', 'which are in heaven, and which are on earth'],
     fulfillmentKeywords: ['the government shall be upon his shoulder', 'shall never be destroyed'],
     terms: [],
@@ -6817,7 +6817,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-21': {
     title: 'Far above All Principality, and Power',
     principle:
-      'Every named power in this age and the next is beneath the seated Christ. First principle: the ranking list is exhaustive — the name above every name outranks every throne the cosmic or political orders can produce.',
+      'Every power that has a name, in this age and the next, sits beneath the seated Christ. First principle: that list of powers leaves nothing out. The name above every name outranks every throne that rulers and spirits can produce.',
     sourceKeywords: ['Far above all principality', 'every name that is named', 'in that which is to come'],
     fulfillmentKeywords: ['I will make him my firstborn, higher than the kings'],
     terms: [],
@@ -6825,7 +6825,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-1-22': {
     title: 'Hath Put All Things under His Feet, Head over All to the Church',
     principle:
-      'Psalm 8\'s footstool is given as headship over the body. First principle: the universe\'s subjection has a home address — the Head who fills all things exercises it first for the church.',
+      'Psalm 8\'s footstool is given as authority over the body. First principle: the subjection of the universe has a home address. The Head who fills all things uses that authority first for his church.',
     sourceKeywords: ['all things under his feet', 'the head over all things to the church'],
     fulfillmentKeywords: ['madest him to have dominion', 'all things under his feet'],
     terms: [],
@@ -6833,7 +6833,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-2-8': {
     title: 'By Grace Are Ye Saved Through Faith',
     principle:
-      'Salvation is gift, not wage — not of works. First principle: grace through faith excludes boasting at the root — the chain is God\'s mercy, faith\'s hand, God\'s gift; Jonah\'s fish-story agrees: salvation is of the LORD.',
+      'Salvation is a gift and not a wage. God does not save anyone by works. First principle: grace works through faith and shuts boasting out at the root. The chain runs from God\'s mercy, to faith\'s open hand, to God\'s gift. Jonah\'s fish-story agrees: salvation is of the LORD.',
     sourceKeywords: ['by grace are ye saved through faith', 'not of yourselves', 'the gift of God'],
     fulfillmentKeywords: ['Salvation is of the LORD'],
     terms: [],
@@ -6841,7 +6841,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-2-13': {
     title: 'Ye Who Sometimes Were Far Off Are Made Nigh by the Blood',
     principle:
-      'Distance is overcome by blood, not by geography. First principle: the far-off Gentiles are brought near — Isaiah\'s peace to far and near is preached by the Peacemaker Himself.',
+      'The blood of Christ closes the distance, and geography never could. First principle: the Gentiles who were far off are brought near. Isaiah\'s peace for those far off and those near is preached by the Peacemaker himself.',
     sourceKeywords: ['sometimes were far off', 'made nigh by the blood of Christ'],
     fulfillmentKeywords: ['Peace, peace to him that is far off, and to him that is near'],
     terms: [],
@@ -6849,7 +6849,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-2-14': {
     title: 'He Is Our Peace, Who Hath Made Both One',
     principle:
-      'The middle wall of partition is broken down. First principle: Christ does not make peace between Jew and Gentile — He is it; the dividing wall is demolished in His own body.',
+      'The middle wall of partition is broken down. First principle: Christ does not merely make peace between Jew and Gentile. He himself is our peace. He broke down the dividing wall in his own body.',
     sourceKeywords: ['He is our peace', 'made both one', 'broken down the middle wall of partition'],
     fulfillmentKeywords: ['The Prince of Peace'],
     terms: [],
@@ -6857,7 +6857,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-2-17': {
     title: 'Came and Preached Peace to You Which Were Far Off',
     principle:
-      'The exalted Christ preaches through the preachers — far and near in one sentence. First principle: Isaiah\'s messengers ran with peace; the Lord of the messengers delivers it Himself through them.',
+      'The exalted Christ preaches through the men he sends, and he reaches the far and the near in one sentence. First principle: Isaiah\'s messengers ran with peace. The Lord of those messengers delivers it himself through them.',
     sourceKeywords: ['preached peace', 'far off', 'them that were nigh'],
     fulfillmentKeywords: ['How beautiful... the feet of him that bringeth good tidings'],
     terms: [],
@@ -6865,7 +6865,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-4-8': {
     title: 'When He Ascended up on High, He Led Captivity Captive',
     principle:
-      'Psalm 68\'s victory parade becomes the gift-dispensing ascension. First principle: the Conqueror shares the spoils — apostles, prophets, evangelists, pastors, teachers are the gifts He gave.',
+      'Psalm 68\'s victory parade becomes the ascension that gives gifts. First principle: the Conqueror shares what he took. Apostles, prophets, evangelists, pastors and teachers are the gifts he gave.',
     sourceKeywords: ['ascended up on high', 'led captivity captive', 'gave gifts unto men'],
     fulfillmentKeywords: ['thou hast ascended on high', 'received gifts for men'],
     terms: [],
@@ -6873,7 +6873,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-4-9': {
     title: 'That He Also Descended First into the Lower Parts',
     principle:
-      'Ascension implies a prior descent. First principle: the ascent to the throne required the descent to the lower earth — the psalm\'s logic holds the incarnation and the grave together.',
+      'Ascension implies a prior descent. First principle: the ascent to the throne required the descent to the lower earth. With that argument the psalm holds the incarnation and the grave together in one picture.',
     sourceKeywords: ['Now that he ascended', 'he also descended first', 'the lower parts of the earth'],
     fulfillmentKeywords: ['thou hast ascended on high'],
     terms: [],
@@ -6881,7 +6881,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-4-25': {
     title: 'Speak Every Man Truth with His Neighbour',
     principle:
-      'Lying is put off because members belong to one another. First principle: Zechariah\'s true-speaking peace is communal — truth is the joint-fluid of the body.',
+      'Lying is put off because members belong to one another. First principle: Zechariah\'s peace through true speaking is shared life, and truth is what holds the body\'s joints together.',
     sourceKeywords: ['putting away lying', 'speak every man truth with his neighbour', 'members one of another'],
     fulfillmentKeywords: ['speak ye every man the truth to his neighbour'],
     terms: [],
@@ -6889,7 +6889,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-4-26': {
     title: 'Be Ye Angry, and Sin Not',
     principle:
-      'Psalm 4\'s evening rule for anger: felt, limited, sun-set. First principle: anger itself is permitted; its lodging overnight is not — do not give the devil a furnished room.',
+      'Psalm 4\'s evening rule for anger: felt, limited, sun-set. First principle: anger itself is permitted, but it may not stay overnight. Do not give the devil a furnished room.',
     sourceKeywords: ['Be ye angry, and sin not', 'let not the sun go down upon your wrath'],
     fulfillmentKeywords: ['stand in awe, and sin not', 'commune with your own heart upon your bed'],
     terms: [],
@@ -6897,7 +6897,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-5-2': {
     title: 'An Offering and a Sacrifice to God for a Sweetsmelling Savour',
     principle:
-      'Walk in love as Christ gave Himself. First principle: the Levitical sweet-savour vocabulary is applied to the cross — self-giving love is the smell God loves.',
+      'Walk in love, as Christ gave himself for us. First principle: Paul applies the Levitical sweet-savour vocabulary to the cross. Self-giving love is the smell God loves.',
     sourceKeywords: ['walk in love', 'given himself for us', 'a sweetsmelling savour'],
     fulfillmentKeywords: ['a sweet savour unto the LORD'],
     terms: [],
@@ -6905,7 +6905,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-5-27': {
     title: 'A Glorious Church, Not Having Spot or Wrinkle',
     principle:
-      'The presenting goal: holy, unblemished. First principle: the church\'s final form is ceremonial perfection — Psalm 45\'s bridal radiance granted, not grown.',
+      'The goal set before Christ is a church that is holy and without blemish. First principle: the church\'s final form is ceremonial perfection. Psalm 45\'s bridal radiance is granted, not grown.',
     sourceKeywords: ['a glorious church', 'not having spot, or wrinkle', 'holy and without blemish'],
     fulfillmentKeywords: ['the king\'s daughter is all glorious within'],
     terms: [],
@@ -6913,7 +6913,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-5-31': {
     title: 'They Two Shall Be One Flesh',
     principle:
-      'Genesis 2:24 quoted in the marriage section. First principle: marriage is the standing parable; the union of husband and wife preaches Christ and the church every day.',
+      'Genesis 2:24 is quoted in the marriage section. First principle: God made marriage a living picture. He made it his chosen picture of Christ and the church, and he means every husband and wife to show it.',
     sourceKeywords: ['leave his father and mother', 'joined unto his wife', 'one flesh'],
     fulfillmentKeywords: ['they shall be one flesh'],
     terms: [],
@@ -6921,7 +6921,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-5-32': {
     title: 'I Speak Concerning Christ and the Church',
     principle:
-      'The mystery named: marriage was prophecy. First principle: Hosea\'s bridegroom God, Isaiah\'s Maker-Husband, and Genesis\'s one flesh all aimed here — Christ and His church.',
+      'The mystery is named here: marriage was prophecy. First principle: Hosea\'s God who betroths his bride, Isaiah\'s Maker-Husband, and Genesis\'s one flesh all aimed at this. They all pointed to Christ and his church.',
     sourceKeywords: ['This is a great mystery', 'concerning Christ and the church'],
     fulfillmentKeywords: ['I will betroth thee unto me for ever'],
     terms: [],
@@ -6929,7 +6929,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-6-10': {
     title: 'Be Strong in the Lord, and in the Power of His Might',
     principle:
-      'The armor section opens with borrowed strength. First principle: Joel\'s beat-swords-into-armies call is inverted for the church — strength is received from the Lord, not mustered.',
+      'The armor section opens with borrowed strength. First principle: the church\'s strength is received from the Lord, not mustered. God\'s own strength is what we put on, and our own is not enough.',
     sourceKeywords: ['be strong in the Lord', 'the power of his might'],
     fulfillmentKeywords: ['be ye strong', 'the strength of the LORD'],
     terms: [],
@@ -6937,7 +6937,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-6-14': {
     title: 'Having Your Loins Girt about with Truth',
     principle:
-      'The first armor piece is truth-girt loins, breastplate of righteousness. First principle: Isaiah 59\'s divine Warrior dresses; the church borrows His wardrobe — truth and righteousness as defensive gear.',
+      'The first piece of armor is a belt of truth, with the breastplate of righteousness over it. First principle: Isaiah 59 shows the divine Warrior dressing for war. The church borrows his wardrobe, and truth and righteousness are its defensive gear.',
     sourceKeywords: ['loins girt about with truth', 'breastplate of righteousness'],
     fulfillmentKeywords: ['righteousness as the breastplate', 'faithfulness the girdle of his loins'],
     terms: [],
@@ -6945,7 +6945,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'eph-6-17': {
     title: 'The Sword of the Spirit, Which Is the Word of God',
     principle:
-      'Helmet of salvation, sword of the Spirit. First principle: the Spirit\'s sword is the spoken Word — Isaiah\'s mouth-sword and Isaiah\'s helmet are handed to the believer.',
+      'Helmet of salvation, sword of the Spirit. First principle: the Spirit\'s sword is the spoken Word. Isaiah\'s mouth-sword and Isaiah\'s helmet are handed to the believer.',
     sourceKeywords: ['helmet of salvation', 'the sword of the Spirit', 'the word of God'],
     fulfillmentKeywords: ['the word of the LORD is quick, and powerful', 'salvation for an helmet'],
     terms: [],
