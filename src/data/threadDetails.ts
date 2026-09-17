@@ -1983,7 +1983,7 @@ export const threadChains: ThreadChain[] = [
       { ref: 'Exodus 31:17', testament: 'OT', title: 'Sign of covenant forever', connection: 'Same-OT: God gave the Sabbath to Israel as a sign of His covenant.' },
       { ref: 'Isaiah 58:13-14', testament: 'OT', title: 'Delight in the holy day', connection: 'Same-OT: the day becomes a delight, not just a day without work.' },
       { ref: 'Psalm 95:11', testament: 'OT', title: 'They shall not enter my rest', connection: 'Same-OT: rest refused to unbelief in the wilderness.' },
-      { ref: 'Hebrews 3:7-4:11', testament: 'NT', title: 'A Sabbath rest remains for the people of God', connection: 'NT reads creation + wilderness rest as eschatological rest in Christ.' },
+      { ref: 'Hebrews 3:7-4:11', testament: 'NT', title: 'A Sabbath rest remains for the people of God', connection: 'NT reads creation + wilderness rest as rest in Christ at the end of the story.' },
     ],
   },
   {
