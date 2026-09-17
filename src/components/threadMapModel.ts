@@ -37,7 +37,8 @@ import {
   compareCanonicalRefs,
   type ConnectionInterrogation,
 } from '../data/connectionInterrogation';
-import { expandVerseRange } from '../data/refParser';
+import { expandVerseRange, parseRef } from '../data/refParser';
+import { BOOK_BY_NAME } from '../data/bookRegistry';
 import type { OriginalLanguageTerm } from '../data/threadDetails';
 
 export interface MapEdge {
@@ -92,6 +93,22 @@ export function snippet(text: string, max = 120): string {
   const clean = text.replace(/\[[^\]]*\]/g, ' ').replace(/\s+/g, ' ').trim();
   if (clean.length <= max) return clean;
   return clean.slice(0, max).replace(/\s+\S*$/, '') + '…';
+}
+
+/**
+ * Normalises whatever a map control hands to the reader into a verse id.
+ * Accepts an id ("gen-1-1") or a display reference ("Genesis 1:1"), so the
+ * fallback card and the card footer can share one reader entry point.
+ */
+export function normalizeReaderRef(ref?: string): string | undefined {
+  if (!ref) return undefined;
+  const trimmed = ref.trim();
+  if (!trimmed) return undefined;
+  if (/^[a-z0-9]+-\d+-\d+$/i.test(trimmed)) return trimmed;
+  const parsed = parseRef(trimmed);
+  const meta = parsed ? BOOK_BY_NAME[parsed.book] : undefined;
+  if (parsed && meta) return `${meta.slug}-${parsed.chapter}-${parsed.startVerse}`;
+  return trimmed;
 }
 
 /** Group resolved verses by the reference they belong to. */
@@ -314,6 +331,20 @@ export interface LayoutOptions {
 }
 
 /**
+ * Card-to-card gaps per spacing mode, in graph units (px at scale 1).
+ *
+ * The previous `normal` gap (v 38 / h 120) left fulfilment cards touching and
+ * produced arrow stubs as short as 22px (defect F). Edges are drawn between
+ * measured node anchors, so widening the gaps lengthens the real arrows rather
+ * than any cosmetic path.
+ */
+export const MAP_GAPS: Record<MapSpacingMode, { v: number; h: number }> = {
+  compact: { v: 32, h: 96 },
+  normal: { v: 56, h: 140 },
+  relaxed: { v: 76, h: 180 },
+};
+
+/**
  * Computes collision-free positions for all nodes in the thread graph.
  * Dynamically accounts for measured node dimensions and card expansion.
  */
@@ -331,15 +362,7 @@ export function computeThreadLayout(
   const defaultH = options?.defaultNodeHeight ?? 240;
 
   // Spacing gaps based on mode
-  let vGap = 38;
-  let hGap = 120;
-  if (spacing === 'compact') {
-    vGap = 24;
-    hGap = 85;
-  } else if (spacing === 'relaxed') {
-    vGap = 64;
-    hGap = 160;
-  }
+  const { v: vGap, h: hGap } = MAP_GAPS[spacing] ?? MAP_GAPS.normal;
 
   const sourceNode = graph.nodes[0];
   const fulfillmentNodes = graph.nodes.slice(1);

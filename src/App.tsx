@@ -90,7 +90,7 @@ export default function App() {
   );
 
   const readingPane = (
-    <div className="relative h-full min-h-0 flex flex-col bg-background">
+    <div className="page relative h-full min-h-0 flex flex-col" data-page="reading">
       <PaneChrome
         paneId="reading"
         title="Reading"
