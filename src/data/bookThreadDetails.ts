@@ -517,7 +517,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-6': {
     title: 'Emptied Himself',
     principle:
-      'Who being in the form of God, emptied Himself, taking the form of a servant. First principle: kenosis is not loss of deity but voluntary self-limitation for incarnation and cross.',
+      'Who being in the form of God, emptied Himself, taking the form of a servant. First principle: when Christ emptied himself he did not lose his deity. He chose to limit himself in order to take flesh and go to the cross.',
     sourceKeywords: ['being', 'form of God', 'thought it not robbery', 'equal with God', 'made himself of no reputation', 'form of a servant'],
     fulfillmentKeywords: ['Word', 'God', 'flesh', 'dwelt', 'servant'],
     terms: [
@@ -527,7 +527,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-8': {
     title: 'Obedient to Death, Even the Cross',
     principle:
-      'He humbled Himself and became obedient to death, even the death of the cross. First principle: the lowest point of humiliation is the highest act of love — and the path to exaltation.',
+      'He humbled Himself and became obedient to death, even the death of the cross. First principle: the lowest point of his humiliation is the highest act of his love. It is also the road to his exaltation.',
     sourceKeywords: ['humbled', 'obedient', 'death', 'cross'],
     fulfillmentKeywords: ['obedient', 'death', 'cross', 'crucified'],
     terms: [
@@ -537,7 +537,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-10': {
     title: 'Every Knee Shall Bow',
     principle:
-      'At the name of Jesus every knee should bow. First principle: Isaiah\'s YHWH-claim is applied to Jesus — the most concentrated christological quotation in Paul.',
+      'At the name of Jesus every knee should bow. First principle: Paul takes Isaiah\'s claim about the LORD and applies it to Jesus. It is the strongest thing Paul ever says about who Jesus is.',
     sourceKeywords: ['name', 'Jesus', 'every knee', 'bow', 'things in heaven', 'earth', 'under the earth'],
     fulfillmentKeywords: ['every knee', 'bow', 'every tongue', 'swear', 'Lord', 'God'],
     terms: [
@@ -6955,7 +6955,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-1-19': {
     title: 'The Supply of the Spirit of Jesus Christ',
     principle:
-      'Imprisonment turns to salvation through prayer and Spirit-supply. First principle: Job\'s hope — I know I shall be justified — is Paul\'s prison-hope; the Spirit\'s supply is the deliverance mechanism.',
+      'Paul\'s imprisonment turns out for salvation through prayer and the Spirit\'s supply. First principle: Job\'s hope was this, I know I shall be justified, and it is Paul\'s hope in prison too. The Spirit\'s supply is how the deliverance comes.',
     sourceKeywords: ['this shall turn to my salvation', 'through your prayer', 'the supply of the Spirit'],
     fulfillmentKeywords: ['he also shall be my salvation', 'I shall not be moved'],
     terms: [],
@@ -6963,7 +6963,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-7': {
     title: 'Made Himself of No Reputation',
     principle:
-      'The form of a servant, the likeness of men. First principle: kenosis is voluntary descent — the Servant Song\'s no-form-nor-comeliness and no-place-to-lay-head compressed into one self-emptying.',
+      'He took the form of a servant and the likeness of men. First principle: he emptied himself by choice and went down. Isaiah\'s Servant had no form nor comeliness, and the Servant had nowhere to lay his head. Both are pressed into this one self-emptying.',
     sourceKeywords: ['made himself of no reputation', 'the form of a servant', 'the likeness of men'],
     fulfillmentKeywords: ['he hath no form nor comeliness', 'the foxes have holes'],
     terms: [],
@@ -6971,7 +6971,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-9': {
     title: 'Wherefore God Also Hath Highly Exalted Him',
     principle:
-      'The name above every name is given after the obedience unto death. First principle: Isaiah 52\'s very high and Psalm 2\'s decree meet in the wherefore — exaltation is the Father\'s verdict on the cross.',
+      'The name above every name is given after the obedience unto death. First principle: Isaiah 52 promises that the Servant will be exalted, and Psalm 2 gives the decree. Both meet in Paul\'s word wherefore. Exaltation is the Father\'s verdict on the cross.',
     sourceKeywords: ['God also hath highly exalted him', 'a name which is above every name'],
     fulfillmentKeywords: ['he shall be exalted and extolled, and be very high'],
     terms: [],
@@ -6979,7 +6979,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-11': {
     title: 'Every Tongue Should Confess That Jesus Christ Is Lord',
     principle:
-      'The universal confession to the glory of the Father. First principle: Isaiah 45\'s every-tongue oath is transferred to Jesus — Lord is the covenant name confessed in the covenant oath.',
+      'Every tongue will confess to the glory of the Father. First principle: Isaiah 45\'s oath, that every tongue will swear, is handed to Jesus. Lord is the covenant name, and it is confessed in the covenant oath.',
     sourceKeywords: ['every tongue should confess', 'Jesus Christ is Lord', 'to the glory of God the Father'],
     fulfillmentKeywords: ['unto me every knee shall bow, every tongue shall swear'],
     terms: [],
@@ -6987,7 +6987,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-2-15': {
     title: 'Ye Shine as Lights in the World',
     principle:
-      'Blameless sons of God in a crooked nation. First principle: Deuteronomy 32\'s crooked generation and Daniel 12\'s shining wise converge — the church is the light-bearing remnant in the perversity.',
+      'Blameless sons of God in a crooked nation. First principle: Deuteronomy 32\'s crooked generation and Daniel 12\'s shining wise meet in this verse. The church is the faithful few who carry light in the middle of the perversity.',
     sourceKeywords: ['blameless and harmless', 'a crooked and perverse nation', 'shine as lights in the world'],
     fulfillmentKeywords: ['they that be wise shall shine as the brightness'],
     terms: [],
@@ -6995,7 +6995,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-3-3': {
     title: 'We Are the Circumcision, Which Worship God in the Spirit',
     principle:
-      'True circumcision is Spirit-worship, Christ-rejoicing, no flesh-confidence. First principle: the uncircumcised heart of Deuteronomy is the true cut — worship in spirit is the covenant\'s real mark.',
+      'True circumcision is worship in the Spirit, rejoicing in Christ, and no confidence in the flesh. First principle: Deuteronomy\'s call to circumcise the heart describes the true cut. Worship in the spirit is the real mark of God\'s binding promise.',
     sourceKeywords: ['we are the circumcision', 'worship God in the spirit', 'no confidence in the flesh'],
     fulfillmentKeywords: ['circumcise the foreskin of your heart'],
     terms: [],
@@ -7003,7 +7003,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-3-9': {
     title: 'Not Having Mine Own Righteousness, Which Is of the Law',
     principle:
-      'Righteousness through the faith of Christ, by God. First principle: the two righteousnesses are exclusive — Isaiah\'s robe is given where law-currency is refused; Paul counts his pedigree as loss for the robe.',
+      'Righteousness through the faith of Christ, by God. First principle: a person cannot hold both kinds of righteousness at once. Isaiah\'s robe is given where law-currency is refused, and Paul counts his whole pedigree as loss so that he may have the robe.',
     sourceKeywords: ['mine own righteousness', 'of the law', 'the righteousness which is of God by faith'],
     fulfillmentKeywords: ['he hath clothed me with the garments of salvation'],
     terms: [],
@@ -7011,7 +7011,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-3-20': {
     title: 'Our Conversation Is in Heaven; from Whence We Look for the Saviour',
     principle:
-      'Citizenship in heaven; a Savior awaited. First principle: the colony waits for the Emperor — the Savior from heaven is the coming Lord, and the waiting is civic identity.',
+      'Our citizenship is in heaven, and we await a Savior. First principle: the colony waits for the Emperor. The Savior from heaven is the coming Lord, and that waiting is part of who we are.',
     sourceKeywords: ['our conversation is in heaven', 'from whence also we look for the Saviour'],
     fulfillmentKeywords: ['This same Jesus shall so come in like manner'],
     terms: [],
@@ -7019,7 +7019,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-3-21': {
     title: 'Who Shall Change Our Vile Body, Like unto His Glorious Body',
     principle:
-      'The subduing power that raises is the power that rules all things. First principle: resurrection bodies are fashioned like His — the working of enthronement power is aimed at our dust.',
+      'The power that raises us is the power that rules all things. First principle: God shapes our resurrection bodies like Christ\'s own. The power that enthroned him is aimed at our dust.',
     sourceKeywords: ['change our vile body', 'fashioned like unto his glorious body', 'subdue all things unto himself'],
     fulfillmentKeywords: ['fashioned like unto him'],
     terms: [],
@@ -7027,7 +7027,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-4-7': {
     title: 'The Peace of God, Which Passeth All Understanding',
     principle:
-      'Prayer-peace garrisons hearts and minds in Christ. First principle: the garrison is a sentry of peace — Isaiah\'s kept-in-perfect-peace mind stands armed at the door of anxiety.',
+      'Prayer and the peace of God stand guard over heart and mind in Christ. First principle: that guard is peace on sentry duty. Isaiah\'s mind kept in perfect peace stands armed at the door of anxiety.',
     sourceKeywords: ['the peace of God', 'passeth all understanding', 'keep your hearts and minds'],
     fulfillmentKeywords: ['thou wilt keep him in perfect peace, whose mind is stayed on thee'],
     terms: [],
@@ -7035,7 +7035,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-4-18': {
     title: 'An Odour of a Sweet Smell, a Sacrifice Acceptable',
     principle:
-      'The Philippians\' gift is levitical incense. First principle: giving is sacrifice — the aroma vocabulary of the altar applies to the wallet; well-pleasing gifts smell like the altar.',
+      'The Philippians\' gift is incense on the altar. First principle: giving is sacrifice. At the altar the smell of a gift mattered, and the same words apply to the wallet. Gifts that please God smell like the altar.',
     sourceKeywords: ['an odour of a sweet smell', 'a sacrifice acceptable', 'wellpleasing to God'],
     fulfillmentKeywords: ['a sweet savour unto the LORD'],
     terms: [],
@@ -7043,7 +7043,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'php-4-19': {
     title: 'My God Shall Supply All Your Need',
     principle:
-      'Glory-riches in Christ Jesus fund the givers. First principle: the supply follows the sacrifice — the Shepherd-psalm\'s I shall not want becomes the apostolic promise to a generous church.',
+      'God will meet all the needs of the givers out of his riches in glory in Christ Jesus. First principle: the supply follows the sacrifice. The Shepherd-psalm\'s I shall not want becomes the apostolic promise to a generous church.',
     sourceKeywords: ['my God shall supply all your need', 'according to his riches in glory by Christ Jesus'],
     fulfillmentKeywords: ['I shall not want'],
     terms: [],
