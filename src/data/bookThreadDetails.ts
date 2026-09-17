@@ -970,7 +970,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-3-8': {
     title: 'Destroy the Works of the Devil',
     principle:
-      'For this purpose the Son of God was manifested, that he might destroy the works of the devil. Textual proof: Genesis 3:15 — seed of the woman crushes the serpent; Col 2:15; Heb 2:14 — destroy him that had the power of death.',
+      '"For this purpose the Son of God was manifested, that he might destroy the works of the devil." Textual proof: Genesis 3:15 shows the seed of the woman crushing the serpent. Col 2:15 and Heb 2:14 show Christ destroying him that had the power of death.',
     sourceKeywords: ['Son of God', 'manifested', 'destroy', 'works', 'devil'],
     fulfillmentKeywords: ['bruise', 'head', 'serpent', 'destroy', 'power of death'],
     terms: [
@@ -7832,7 +7832,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-1-1': {
     title: 'That Which Was from the Beginning... Which We Have Handled',
     principle:
-      'The Word of life — heard, seen, looked upon, handled. First principle: the incarnation is forensic — apostolic senses are the witnesses; the eternal Word became touchable.',
+      'The Word of life was heard, seen, looked upon and handled. First principle: the apostles are the witnesses. They testify that the eternal Word became touchable.',
     sourceKeywords: ['that which was from the beginning', 'our hands have handled', 'the Word of life'],
     fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
     terms: [],
@@ -7840,7 +7840,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-2-1': {
     title: 'We Have an Advocate with the Father, Jesus Christ the Righteous',
     principle:
-      'Sin-not writing with a sin-answer. First principle: the Advocate is the Righteous One pleading — the courtroom of heaven has a defense attorney whose argument is His own righteousness.',
+      '"Sin not" is the instruction. Writing it does not leave sin unanswered. First principle: Jesus Christ the Righteous One pleads for us before the Father. He is our defense attorney, and His own righteousness is His argument.',
     sourceKeywords: ['that ye sin not', 'we have an advocate with the Father', 'Jesus Christ the righteous'],
     fulfillmentKeywords: ['by his knowledge shall my righteous servant justify many'],
     terms: [],
@@ -7848,7 +7848,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-2-2': {
     title: 'He Is the Propitiation for Our Sins, and for the Whole World',
     principle:
-      'Propitiation beyond the letter\'s readers. First principle: the wrath-removing sacrifice is sufficient for the world — the mercy-seat term (hilasmos) from Leviticus 16 applied to the cross.',
+      'This sacrifice reaches further than the letter\'s first readers. First principle: the sacrifice that turns God\'s wrath away is enough for the whole world. That word for the mercy seat comes from Leviticus 16, and here it is applied to the cross.',
     sourceKeywords: ['the propitiation for our sins', 'not for ours only', 'the sins of the whole world'],
     fulfillmentKeywords: ['he shall make an atonement for the holy place', 'bare the sin of many'],
     terms: [],
@@ -7856,7 +7856,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-3-2': {
     title: 'We Shall Be Like Him; for We Shall See Him as He Is',
     principle:
-      'Now sons; then like Him at the appearing. First principle: vision transforms — the sight of Him as He is is the mechanism of likeness; hope purifies in the meantime.',
+      'Scripture says, "now are we the sons of God." One day we will be like Christ, because we will see Him as He is. First principle: seeing Him is what makes us like Him. Until then, hope makes us pure.',
     sourceKeywords: ['now are we the sons of God', 'when he shall appear', 'we shall be like him'],
     fulfillmentKeywords: ['I shall behold thy face in righteousness', 'I shall be satisfied'],
     terms: [],
@@ -7864,7 +7864,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-3-12': {
     title: 'Not as Cain, Who Was of That Wicked One',
     principle:
-      'Cain\'s murder explained: evil works, righteous brother. First principle: the first murder was worship-envy — the wicked one\'s children still hate righteousness\'s presence.',
+      'Cain murdered his brother because Cain\'s own works were evil and his brother\'s were righteous. First principle: the first murder grew out of worship-envy. The children of the wicked one still hate it when righteousness is present.',
     sourceKeywords: ['Not as Cain', 'of that wicked one', 'slew his brother'],
     fulfillmentKeywords: ['Cain rose up against Abel his brother, and slew him'],
     terms: [],
@@ -7872,7 +7872,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-4-9': {
     title: 'God Sent His Only Begotten Son into the World',
     principle:
-      'Manifested love so we might live through Him. First principle: love is measured by the gift\'s cost and the recipient\'s death — sent Son, living receivers.',
+      'God showed His love among us when He sent His only begotten Son into the world, "that we might live through him." First principle: the cost of the gift shows how great God\'s love is. The Son was sent, and the receivers were dead and now live.',
     sourceKeywords: ['manifested the love of God toward us', 'God sent his only begotten Son', 'that we might live through him'],
     fulfillmentKeywords: ['For God so loved the world'],
     terms: [],
@@ -7880,7 +7880,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-4-10': {
     title: 'He Loved Us, and Sent His Son to Be the Propitiation for Our Sins',
     principle:
-      'Love defined from God\'s side. First principle: love is not our initiative but His sending — propitiation is the definition of divine love, not an aftermath of it.',
+      'Here is love as God defines it. First principle: loving God was not our idea. God took the first step and sent His Son. That sacrifice was not an afterthought; it is what God\'s love is.',
     sourceKeywords: ['Herein is love', 'not that we loved God', 'he loved us, and sent his Son'],
     fulfillmentKeywords: ['For God so loved the world', 'he was wounded for our transgressions'],
     terms: [],
@@ -7888,7 +7888,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-5-6': {
     title: 'This Is He That Came by Water and Blood',
     principle:
-      'Not water only — water and blood, with the Spirit witnessing. First principle: the double testimony answers the docetic denial — the Son came through real baptism and real blood.',
+      'He came not by water only, but by water and blood, and the Spirit also bears witness. First principle: this double testimony answers the claim that Jesus only seemed to have a body. The Son came through a real baptism and real blood.',
     sourceKeywords: ['came by water and blood', 'not by water only', 'the Spirit that beareth witness'],
     fulfillmentKeywords: ['one of the soldiers with a spear pierced his side'],
     terms: [],
@@ -7896,7 +7896,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1jn-5-8': {
     title: 'There Are Three That Bear Witness in Earth',
     principle:
-      'Spirit, water, blood — agreeing in one. First principle: the legal standard of two-or-three witnesses is met by a triple testimony; heaven\'s case is established on earth.',
+      'The Spirit, the water and the blood all agree. First principle: the law required two or three witnesses, and here three testify. That agreement settles heaven\'s case here on earth.',
     sourceKeywords: ['three that bear witness in earth', 'the Spirit, and the water, and the blood', 'these three agree in one'],
     fulfillmentKeywords: ['at the mouth of two witnesses, or at the mouth of three witnesses'],
     terms: [],
