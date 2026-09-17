@@ -88,3 +88,60 @@ drafts are the ones written, verse-entry drafts are excluded, and the post-fligh
 line to lie inside the `threadChains` array. The companion verification mode scopes the structural
 verifier to the whole chain group and skips the per-book groups, so the same seven checks prove that the
 chain pass touched chain prose and nothing else.
+
+## Result
+
+```
+  worklist strings:      658
+  rewritten:             175
+  verify-only:           483
+  equivalent:            0
+  unaccounted:           0     unknown keys: 0     in two verdicts: 0
+  chains carrying at least one rewrite: 30 of 36
+  files written:         src/data/threadDetails.ts (175 strings)
+                         src/data/bookThreadDetails.ts (0 — no verse entry changed)
+  verifier (--chains-only): OVERALL PASS (exit 0)
+        36 pillar chains · 13,755 structural leaves + 4,324 prose leaves compared
+        658 prose strings gated · 0 new clarity-gate failures
+        12 book-qualified citations, 0 added, 0 dropped
+  quality classifier:    168 rewritten · 0 resegmented · 7 under-share
+  gates:                 npm test 146/146 · audit:data SUCCESS · lint:sweep exit 0
+```
+
+Artifacts: `docs/CP-02_CHAINS_DRAFT.md`, `docs/CP-02_CHAINS_SUMMARY.md`,
+`docs/CP-03_CHAINS_APPLY.md` (the applier's pre-flight, accounting and post-flight output pasted
+verbatim).
+
+**Read the verify-only share as the result, not as a shortfall.** 483 of 658 strings were left
+byte-identical with a per-string reason. Two forces drive that number and both are deliberate: no chain
+string failed the clarity gate at baseline, so nothing forced a rewrite, and §1.11 forbids rewriting a
+string that already meets the standard. Chain titles in particular are 4–10 word KJV-derived
+thumbnails — "The Passover lamb without blemish", "humiliation → enthronement" — and the writers
+correctly refused to resegment a six-word thumbnail, because the system's own quality metric classifies
+a punctuation-only split of a short string as theatre. Several writers proved that by running the metric
+rather than assuming it.
+
+**The seven under-share drafts, disclosed in full.** Five are punctuation-only resegmentations with a
+0.0% new-word share: `chain:sanctuary-judgment` steps[4].title and steps[7].title,
+`chain:sanctuary-2300-days` steps[3].title and steps[7].title, and `chain:bronze-serpent`
+steps[1].connection. The quality classifier calls them theatre because its resegmentation test only
+fires when the original sentence exceeded 18 words, and these clauses run 9–16. They are kept and
+reported rather than silently dropped, which is exactly the CP-02 §5 class the operator ruled on: an
+em-dash or semicolon join becomes a full stop, no wording changes. The remaining two add real words —
+`chain:former-latter-rain` steps[6].connection adds "takes" and `chain:bronze-serpent`
+steps[2].connection adds "which" — and are ordinary decodes on short strings.
+
+**QUOTE-REVIEW.** The chain writers recorded their own findings in the drafts' reasons and changed no
+quotation: the most consequential is `chain:resurrection-remnant` steps[0].title, "In my flesh I shall
+see God", against Job 19:26 KJV "yet in my flesh shall I see God" — a one-word reorder that a reader
+could mistake for verbatim. Others include Ps 16:10 ("in Sheol" where KJV reads "in hell"), 2 Cor 4:6,
+and a family of unquoted renderings that differ from the served canon by capitalising divine pronouns
+or modernising an archaic form. All are carried byte-identical, per invariant I1, and none is described
+as "restored". The operator should read them in `docs/CP-02_CHAINS_DRAFT.md`.
+
+**One draft was corrected before the apply.** `chain:melchizedek-priesthood` steps[3].connection
+originally opened on the app's bare `NT` abbreviation, and the draft had expanded it to "The New
+Testament writers". Invariant I1 says abbreviations stay abbreviations, so the string was corrected to
+`NT shows Melchizedek as greater, as never dying, and as one who makes people perfect.` — the
+abbreviation verbatim, the rest plain. A census across all six groups then confirmed that no chain draft
+adds, drops or renames a colon-terminated opener.

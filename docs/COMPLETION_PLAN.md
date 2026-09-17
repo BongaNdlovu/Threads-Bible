@@ -224,6 +224,31 @@ hand gives 20 chains and 368 unique strings rather than 36 and 622, and the same
 between some books' worklists — both facts mean the plan's chain inventory needs re-deriving from the
 tree after the last book rather than trusting the numbers in §1.12. That is the first task of Stage A.5.
 
+## Stage A.5 complete — the pillar-chain pass
+
+| Measure | Value |
+|---|---:|
+| Chains | 36 |
+| Strings re-derived from the tree | 658 (36 names + 311 titles + 311 connections) |
+| Strings rewritten | 175 |
+| Strings verify-only | 483 |
+| EQUIVALENT | 0 |
+| Chains carrying at least one rewrite | 30 of 36 |
+| Files written | `src/data/threadDetails.ts` only; 0 verse entries changed |
+| Verifier (`--chains-only`, 7 checks) | PASS (exit 0) — 658 prose strings gated, 0 new gate failures, 12 citations unchanged |
+| Under-share drafts | 7 (5 punctuation-only resegmentations kept and reported, 2 real decodes) |
+| Chains whose literal is duplicated and therefore unaddressable | 5 (verify-only by force) |
+
+Full record: `docs/CP-03_CHAIN_PASS.md`; artifacts `docs/CP-02_CHAINS_DRAFT.md`,
+`docs/CP-02_CHAINS_SUMMARY.md`, `docs/CP-03_CHAINS_APPLY.md`.
+
+The plan's §1.12 figure of 622 is the titles plus the connections; the 36 `name` strings are additional,
+which is why the true inventory is 658. The pass re-baselined from the working tree as §1.12 requires,
+and that mattered: 20 lines of chain prose had already been written by the earliest book passes before
+the per-book exclusion was enforced, so for a few chains the "before" was already a rewritten string.
+
+Stage A is therefore complete in full: 60 books plus the chain pass.
+
 Rows 42–57 were applied in the order shown, which is canonical except in one stretch: James (48) was
 applied before the Pastoral Epistles (49–52) because its rewrite set finished first. Two books are
 still outstanding at the time of writing: 1 Peter and Hebrews, whose delivered drafts carry a defect
