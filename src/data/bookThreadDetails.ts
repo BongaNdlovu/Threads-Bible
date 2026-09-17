@@ -1124,7 +1124,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['circumcise', 'heart', 'seed', 'love the LORD thy God', 'all thine heart', 'live'],
     fulfillmentKeywords: ['circumcision', 'heart', 'spirit', 'new creature', 'put off'],
     terms: [
-      { term: 'circumcise the heart', original: 'וּמָל יְהוָה אֶת־לְבָבְךָ', translit: 'umāl YHWH ʾet-levavekha', gloss: 'and YHWH will circumcise your heart, as the KJV has it (NTS, ot)', note: 'Rom 2:29; Col 2:11 — circumcision made without hands in putting off the body of sins.' },
+      { term: 'circumcise the heart', original: 'וּמָל יְהוָה אֶת־לְבָבְךָ', translit: 'umāl YHWH ʾet-levavekha', gloss: 'and YHWH will circumcise your heart', note: 'Rom 2:29; Col 2:11 — circumcision made without hands in putting off the body of sins.' },
     ],
   },
   'jer-31-31': {
