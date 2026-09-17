@@ -106,3 +106,4 @@ single source of truth for progress and resumption.
 | Romans | 179 | 86 | 93 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
 | Psalms | 291 | 118 | 171 | 2 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
 | Joshua | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
+| Judges | 6 | 3 | 3 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |

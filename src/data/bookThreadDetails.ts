@@ -8333,7 +8333,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jdg-2-16': {
     title: 'Nevertheless the LORD Raised Up Judges',
     principle:
-      'The rescue-cycle: spoiled, then delivered. First principle: the judges are grace\'s repeated answer to repeated apostasy — deliverers raised, not kings elected.',
+      'The pattern keeps repeating: Israel is plundered, then rescued. First principle: Israel turned away from God again and again. God answered with grace every time. He raised up deliverers for them. The people never chose a king to save them.',
     sourceKeywords: ['the LORD raised up judges', 'delivered them out of the hand'],
     fulfillmentKeywords: ['raised up unto them deliverers'],
     terms: [],
@@ -8341,7 +8341,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jdg-13-5': {
     title: 'The Child Shall Be a Nazarite unto God from the Womb',
     principle:
-      'Samson\'s prenatal vow: no razor, begun-to-deliver. First principle: the Nazarite-from-womb pattern is the forerunner pattern — John the Baptist inherits it in Luke 1, and the Nazarene word echoes to Matthew 2.',
+      'Samson was promised before he was born: no razor was to touch him, and he would begin to deliver Israel. First principle: a deliverer set apart to God from the womb is the pattern of the one who comes first and prepares the way. John the Baptist was set apart the same way in Luke 1. The word Nazarene then echoes on to Matthew 2.',
     sourceKeywords: ['shalt conceive, and bear a son', 'no razor shall come on his head', 'a Nazarite unto God from the womb'],
     fulfillmentKeywords: ['he shall be called a Nazarene', 'he shall be great unto the Lord'],
     terms: [],
@@ -8349,7 +8349,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jdg-21-25': {
     title: 'In Those Days There Was No King in Israel',
     principle:
-      'Every man right in his own eyes. First principle: the book\'s last verse diagnoses its own chaos — the absence of king and vision makes each man his own law, straight into Isaiah\'s sheep-stray.',
+      'In those days there was no king in Israel, and every man did what was right in his own eyes. First principle: the last verse of Judges tells you why the whole book fell apart. Israel had no king and no vision from God. So each man became a law to himself. Isaiah says people like that are sheep that have gone astray.',
     sourceKeywords: ['there was no king in Israel', 'every man did that which was right in his own eyes'],
     fulfillmentKeywords: ['All we like sheep have gone astray'],
     terms: [],
