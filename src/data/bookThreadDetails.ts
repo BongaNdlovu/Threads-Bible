@@ -1124,7 +1124,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['circumcise', 'heart', 'seed', 'love the LORD thy God', 'all thine heart', 'live'],
     fulfillmentKeywords: ['circumcision', 'heart', 'spirit', 'new creature', 'put off'],
     terms: [
-      { term: 'circumcise the heart', original: 'וּמָל יְהוָה אֶת־לְבָבְךָ', translit: 'umāl YHWH ʾet-levavekha', gloss: 'and YHWH will circumcise your heart', note: 'Rom 2:29; Col 2:11 — circumcision made without hands in putting off the body of sins.' },
+      { term: 'circumcise the heart', original: 'וּמָל יְהוָה אֶת־לְבָבְךָ', translit: 'umāl YHWH ʾet-levavekha', gloss: 'and YHWH will circumcise your heart, as the KJV has it (NTS, ot)', note: 'Rom 2:29; Col 2:11 — circumcision made without hands in putting off the body of sins.' },
     ],
   },
   'jer-31-31': {
@@ -2314,7 +2314,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['his feet shall stand', 'mount of Olives', 'the LORD my God shall come', 'the LORD shall be king over all the earth'],
     fulfillmentKeywords: ['this same Jesus', 'come in like manner', 'as ye have seen him go', 'behold, he cometh with clouds'],
     terms: [
-      { term: 'shall cleave', original: 'וְנִבְקַע', translit: 'venivqa\'', gloss: 'shall be split, rift open', note: 'The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.' },
+      { term: 'shall cleave', original: 'וְנִבְקַע', translit: 'venivqa\'', gloss: 'shall be split, rift open', note: 'The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to the end of the story.' },
     ],
   },
   // ── Hand-written expansion: John ────────────────────────────────────────
