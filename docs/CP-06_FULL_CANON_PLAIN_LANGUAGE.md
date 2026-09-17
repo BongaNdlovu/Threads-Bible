@@ -251,15 +251,16 @@ Five chain strings have a literal that appears twice in the corpus, so the appli
 unambiguously; they are verify-only by force, not by judgement. The same constraint had already applied
 to 62 entry strings during Stage A.
 
-**One regression the chain pass introduced, and its repair.** Eight of the 36 chain names carry a
-leading ordinal and form a deliberate `1.`–`8.` numbered series. Two writers filed `name` drafts despite
-being told that a chain's name is a navigation label to leave alone, and the apply took them: the series
-lost its numbers, and the Sabbath chain also lost the `the` in "Creation to the New Earth". The names
-were restored to their pre-pass text in commit `a83d656`, verified with the chain-scope verifier
-(`OVERALL: PASS`, `1356 verse entries … 0 change(s) outside the pillar chains`), and all eight now read
-with their ordinal in both places the name appears. `docs/CP-02_CHAINS_DRAFT.md` was generated before
-the repair and still shows the ordinal-less names in its eight `name` rows; the detail is in
-`docs/CP-03_CHAIN_PASS.md`.
+**One false alarm, recorded rather than deleted.** I reported that the chain pass had stripped the eight
+leading ordinals from the numbered chain names and "repaired" them. That was wrong. The file holds two
+name-bearing structures — `threadChains` and, lower down, `MASTER_PILLAR_CHAINS` — and my audit script
+sliced from `threadChains` to end-of-file, so the master-pillar names overwrote the chain names in the
+comparison. The eight ordinals belong to `threadChains` and were present before the chain pass, after
+it, and now; my "repair" instead added ordinals to the eight master-pillar names, which had never had
+them. Reverted in `a059d30`, with both structures now byte-identical to their pre-chain-pass text and
+`docs/CP-02_CHAINS_DRAFT.md` regenerated afterwards. The failure mode is worth naming: a false positive
+that fits a known defect pattern is more dangerous than no check, because it produces confident action.
+Full account in `docs/CP-03_CHAIN_PASS.md`.
 
 ## 8 · Stage B — CP-04 and CP-05
 

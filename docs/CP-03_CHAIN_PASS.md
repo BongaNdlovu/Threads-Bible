@@ -146,35 +146,41 @@ Testament writers". Invariant I1 says abbreviations stay abbreviations, so the s
 abbreviation verbatim, the rest plain. A census across all six groups then confirmed that no chain draft
 adds, drops or renames a colon-terminated opener.
 
-## Repair after the fact: the numbered chain names
+## A false alarm I raised, and the damage it did before I checked it properly
 
-Every one of the eight chains whose name carries a leading ordinal lost it in the applied pass, and one
-also lost a definite article:
+This section exists because I got something wrong and it cost a commit and a working-tree edit. It is
+recorded in full rather than quietly deleted.
+
+In `src/data/threadDetails.ts` there are **two** name-bearing structures: `export const threadChains`
+(the 36 pillar chains this pass owns) and, further down the file, `export const MASTER_PILLAR_CHAINS`
+(eight master pillars). Eight of the 36 `threadChains` names carry a leading ordinal and form a
+`1.`–`8.` series; none of the eight `MASTER_PILLAR_CHAINS` names does.
+
+My audit script for "did the chain pass change a chain name?" sliced the file from `export const
+threadChains` **to the end of the file**, so it captured both structures into one map keyed by chain id.
+Because `MASTER_PILLAR_CHAINS` comes later, its names overwrote the `threadChains` ones. Comparing that
+map against the pre-pass baseline produced eight confident "NAME CHANGED" rows — and the repair script
+then prefixed ordinals onto the **master-pillar** names, which had never had them. Nothing was wrong
+with `threadChains`: its eight ordinals were present before the chain pass, after it, and still.
+
+Verified and reverted in commits `a059d30` (the revert) and `1e690b6` (a separate pollution fix), with
+both structures now byte-identical to the pre-chain-pass text:
 
 ```
-  was                                         now (as applied)                         restored to
-  1. The 2,300 Days & Cleansing of the …      The 2,300 Days & Cleansing of the …      1. …
-  2. The 70 Weeks: Dating the Messiah         The 70 Weeks: Dating the Messiah         2. …
-  3. The Sabbath: Creation to the New Earth   The Sabbath: Creation to New Earth       3. … to the New Earth
-  4. The State of the Dead (…)                The State of the Dead (…)                4. …
-  5. The Three Angels' Messages & The Seal…   The Three Angels' Messages & The Seal…   5. …
-  6. The Great Controversy Cosmic Arc         The Great Controversy Cosmic Arc         6. …
-  7. The Spirit of Prophecy & The Remnant     The Spirit of Prophecy & The Remnant     7. …
-  8. The Millennium & The Earth Made New      The Millennium & The Earth Made New      8. …
+  threadChains      names 36 · ordinaled 8   (unchanged at every revision: 9b6b2a8^, 9b6b2a8, HEAD)
+  MASTER_PILLAR     names  8 · ordinaled 0   (my repair had added eight; reverted)
 ```
 
-Those eight names are a deliberate `1.`–`8.` numbered series — they are the only eight of the 36 chain
-names that carry an ordinal, and they number consecutively — so stripping them breaks the series and
-changes what the app shows in chain navigation. Two writers drafted `name` fields despite being told
-that a chain's name is a navigation label to be left alone unless it is genuinely unclear, and the
-apply took them.
+Two lessons, both already learned once in this sweep and both worth repeating:
 
-Repaired by restoring all eight names to their pre-pass text, including `the` before `New Earth` in the
-Sabbath chain, which the applied draft had also dropped. Verified with
-`npx tsx scripts/cp03StructuralVerify.ts --chains-only` against HEAD: `OVERALL: PASS (exit 0)`,
-`658 prose strings gated`, `1356 verse entries … 0 change(s) outside the pillar chains`, so the repair
-is confined to chain prose. `docs/CP-02_CHAINS_DRAFT.md` was generated before the repair and still shows
-the ordinal-less names in its eight `name` rows.
+1. **Scope an audit to the structure you mean.** A slice from an export to end-of-file is not that
+   structure. The verifier avoids this by parsing the AST; my throwaway script did not.
+2. **A false positive that produces a plausible-looking defect is worse than no check.** "The applied
+   drafts stripped eight navigation labels" fitted the known failure mode so well that I acted on it
+   without asking what `MASTER_PILLAR_CHAINS` was. The evidence that should have stopped me was one
+   command away: eight ordinaled names existed in the baseline the whole time.
+
+`docs/CP-02_CHAINS_DRAFT.md` was regenerated after the revert and is accurate.
 
 **Reconciliation note on the group files.** `docs/_work/chains_gF_rewrites.json` was rewritten by its
 writer *after* the apply, so it now records all 114 of its strings as `verifyOnly` with the ~20 that the
