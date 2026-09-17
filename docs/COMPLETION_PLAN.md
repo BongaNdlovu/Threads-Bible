@@ -138,6 +138,36 @@ single source of truth for progress and resumption.
 | Zephaniah | 16 | 8 | 8 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 31 |
 | Haggai | 12 | 6 | 6 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 32 (1 QUOTE-REVIEW) |
 | Malachi | 70 | 19 | 51 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 33 (38 chain strings deferred; 1 QUOTE-REVIEW) |
+| Matthew | 132 | 66 | 66 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 34 (2 chunks; 34 chain strings deferred; 6 QUOTE-REVIEW; 1 THEOLOGY-REVIEW) |
+| Mark | 32 | 16 | 16 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 35 (8 QUOTE-REVIEW) |
+| Luke | 50 | 25 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 36 (34 chain strings deferred; 9 QUOTE-REVIEW) |
+| John | 70 | 14 | 56 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 37 (21 chain strings deferred; 1 QUOTE-REVIEW) |
+| Acts | 56 | 9 | 47 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 38 (17 chain strings deferred; 1 QUOTE-REVIEW; 1 resegmentation kept) |
+| 1 Corinthians | 90 | 44 | 46 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 39 (55 chain strings deferred; 1 QUOTE-REVIEW) |
+| 2 Corinthians | 34 | 17 | 17 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 40 |
+| Zechariah | 148 | 39 | 109 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 41 (83 entry + 65 chain strings; 2 chain QUOTE-REVIEW deferred to the chain pass) |
+
+Three notes on rows 33–41.
+
+**Order deviation.** Zechariah's row is numbered 41 although canonically the book sits between Haggai
+(32) and Malachi (33). Its rewrite set was the last Old Testament set to be delivered, and the pass
+applies a book only from a completed writer file, so Zechariah waited rather than blocking the queue.
+Every other book in rows 23–41 was applied in canonical order.
+
+**A citation defect the structural verifier caught, and what it cost.** The Matthew part 2 draft for
+`mat-24-30` principle rewrote the citation list `Mark 13:26, Luke 21:27, Rev 1:7, 14:14` into
+`… Rev 1:7 and Rev 14:14`. The reference is the same verse, but the change drops a bare citation token
+and introduces a qualified one, which `CITATION_FIXITY` forbids: it reported `1 added, 0 dropped,
+0 new bare, 1 dropped bare` and failed the book. The data files were reverted to HEAD, the draft was
+corrected to keep `14:14` bare, and Matthew was re-applied and re-verified clean. This is the second
+time the verifier has caught a real defect that no gate would have seen (the first was Proverbs'
+`NO_BANNED` failure). Both times the rule that saved the commit was a shape check, not a prose check.
+
+**Duplicate strings cannot be drafted.** `mat-21-16` title and `mat-22-44` title each occur twice in
+the data corpus, so the applier would refuse them as ambiguous (`BEFORE` literal appears twice). Both
+are recorded as verify-only with that reason. The corpus therefore contains at least two duplicated
+prose strings whose twins live in other books; CP-05 should inventory them, because a single-string
+rewrite cannot reach both copies.
 
 Convention note on the "In-scope strings" column, because rows 1–33 are not all measuring the same
 thing. The column counts the strings that book's pass actually classified. Books swept through
