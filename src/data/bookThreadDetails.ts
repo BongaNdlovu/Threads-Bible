@@ -9725,7 +9725,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'oba-1-15': {
     title: 'The Day of the LORD Is near upon All the Heathen',
     principle:
-      'As thou hast done, it shall be done unto thee. First principle: the retribution measure — Edom\'s betrayal is the case study; the day is near upon all the heathen, reward on their own head.',
+      '"As thou hast done, it shall be done unto thee." First principle: this is how God repays people. Edom betrayed his brother, and that betrayal is the case in point. The day is near upon all the heathen, and the reward falls on their own head.',
     sourceKeywords: ['the day of the LORD is near upon all the heathen', 'as thou hast done, it shall be done unto thee', 'upon thine own head'],
     fulfillmentKeywords: [],
     terms: [],
