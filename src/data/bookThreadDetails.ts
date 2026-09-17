@@ -1058,7 +1058,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-4-14': {
     title: 'A Redeemer to Restore Life',
     principle:
-      'The women bless the LORD who has not left Naomi without a redeemer, who shall be a restorer of life. Boaz\'s redemption of Ruth brings forth Obed, the grandfather of David, pointing directly to Jesus Christ the Redeemer of the world. First principle: God uses redemption to graft Gentiles into the messianic line and bring life out of bereavement.',
+      'The women blessed the LORD, because he had not left Naomi without a redeemer. That redeemer would give her life back. Boaz redeemed Ruth, and she bore Obed, the grandfather of David. First principle: God brings Gentiles into the family line of the promised King, Jesus, and he brings life out of grief.',
     sourceKeywords: ['blessed be the LORD', 'kinsman', 'restorer of thy life', 'nourisher', 'famous in Israel'],
     fulfillmentKeywords: ['redeemer', 'redeemed', 'life', 'David', 'Jesus Christ'],
     terms: [
@@ -8359,7 +8359,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-1-16': {
     title: 'Whither Thou Goest, I Will Go',
     principle:
-      'Ruth\'s covenant speech: thy people, thy God. First principle: the Moabite widow\'s cleaving is conversion — the Gentile graft into Israel begins with a love-oath on a road.',
+      'Ruth\'s words were a promise: thy people, thy God. First principle: the Moabite widow joined Israel\'s people and Israel\'s God. Her promise of love on the road was how God grafted a Gentile into his people.',
     sourceKeywords: ['Intreat me not to leave thee', 'thy people shall be my people', 'thy God my God'],
     fulfillmentKeywords: ['Ruth the Moabitess... of whom came Boaz'],
     terms: [],
@@ -8367,7 +8367,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-4-17': {
     title: 'There Is a Son Born to Naomi... the Father of Jesse, the Father of David',
     principle:
-      'Obed born to Naomi — Jesse and David in the lineage. First principle: the Moabite convert\'s grandson is David — the genealogy that runs to the Messiah includes Ruth by name.',
+      'Obed was born into Naomi\'s family. He became the father of Jesse and the grandfather of David. First principle: Ruth was a Moabite who left Moab for Israel. Her grandson was David. The family line that runs to the promised King, Jesus, names Ruth. So the promised King\'s line includes Ruth by name.',
     sourceKeywords: ['a son born to Naomi', 'he is the father of Jesse, the father of David'],
     fulfillmentKeywords: ['Salmon begat Booz of Rachab; and Booz begat Obed of Ruth'],
     terms: [],
@@ -8375,7 +8375,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-4-18': {
     title: 'Now These Are the Generations of Pharez',
     principle:
-      'Pharez to Hezron — the messianic genealogy line opened. First principle: the book ends where Matthew begins — the toledoth of the royal line from Perez through Obed to David to Christ.',
+      'Pharez to Hezron: the family record opens the line of the promised King. First principle: the book of Ruth ends where Matthew begins. Both give the family record of the royal line. That line runs from Perez through Obed to David to Jesus Christ.',
     sourceKeywords: ['the generations of Pharez', 'Pharez begat Hezron'],
     fulfillmentKeywords: ['and Phares and Zara of Thamar; and Phares begat Esrom'],
     terms: [],
