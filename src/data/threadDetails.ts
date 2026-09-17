@@ -175,7 +175,7 @@ export const threadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['blessed', 'seventh day', 'sanctified', 'rested'],
     fulfillmentKeywords: ['seventh day', 'rest', 'sabbath'],
     terms: [
-      { term: 'sanctified', original: 'קָדַשׁ', translit: 'qadash', gloss: 'to set apart as holy', note: 'Hebrews re-reads this as eschatological rest, not only weekly observance.' },
+      { term: 'sanctified', original: 'קָדַשׁ', translit: 'qadash', gloss: 'to set apart as holy', note: 'Hebrews re-reads this as the rest at the end of the story, not only weekly observance.' },
     ],
   },
   'gen-2-7': {
@@ -1672,7 +1672,7 @@ export const threadDetails: Record<string, ThreadDetail> = {
   'gen-49-1': {
     title: 'Last Days — Jacob Prophesies',
     principle:
-      'Jacob calls his sons to hear what shall befall them in the last days. Hebrews: God speaks in these last days by His Son. First principle: patriarchal prophecy points forward to an eschatological climax.',
+      'Jacob calls his sons to hear what shall befall them in the last days. Hebrews: God speaks in these last days by His Son. First principle: patriarchal prophecy points forward to the end of the story.',
     sourceKeywords: ['gather yourselves', 'hear', 'sons of Jacob', 'hearken', 'Israel', 'last days'],
     fulfillmentKeywords: ['last days', 'Son', 'prophets', 'latter days'],
     terms: [
