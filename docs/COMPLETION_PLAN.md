@@ -129,3 +129,62 @@ single source of truth for progress and resumption.
 Rows are in the order the books were applied, which is also canonical order within Stage A.
 Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because
 2 Kings and Nehemiah had to be finished to clear the applier's foreign-dirt guard).
+
+## Mid-pass status block — after Isaiah
+
+Required by `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` §1.6 once the pass
+reaches the plan's 21st remaining book. This run's Stage A is the 60 books from Deuteronomy to
+Revelation (Genesis, Exodus, Leviticus were completed before the plan; Numbers, Psalms and Romans are
+the Stage 0 calibration set), so the milestone falls at the end of Isaiah. This is a progress proof,
+not a halt: the pass continues into Ezekiel.
+
+| Measure | Value |
+|---|---:|
+| Stage A books complete | 20 of 60 (Deuteronomy → Isaiah, canonical order) |
+| Stage A entries complete | 293 of 969 |
+| Stage A entry strings complete | 686 of 2,357 (29%) |
+| Calibration books complete | 3 of 3 (Numbers, Romans, Psalms) |
+| Strings rewritten | 415 |
+| Strings verify-only | 446 |
+| EQUIVALENT | 0 |
+| THEOLOGY-REVIEW (QUOTE-REVIEW findings) | 7 |
+| Pre-existing gate failures resolved | 4 of 20 |
+| Structural verifier | PASS (exit 0) on all 20 books |
+| Reverts | 1 (Proverbs, one entry, re-applied) |
+
+Drift notes — whole-sweep, not per book:
+
+1. **Canon-divergence findings.** Seven `QUOTE-REVIEW:` findings across Deuteronomy (1), 1 Kings (1),
+   Nehemiah (1), Job (1), Ecclesiastes (1) and Isaiah (2) mark places where the existing text's
+   quotation does not match the KJV. Under invariant I1 the quotation was left byte-identical and the
+   divergence logged rather than "restored". All seven carry forward to CP-06.
+2. **Chain prose is still outstanding.** 361 chain strings were in scope across these 20 books and are
+   deferred to the Stage A.5 chain pass (§1.12). Some early books' rewrite files did contain chain
+   drafts; Stage A.5 will re-baseline from the working tree after the last book so that each of the 36
+   chains has exactly one owner and one writer, and will record every already-plain chain string as
+   verify-only. Across all 60 Stage A books, chain strings appear 1,188 times per book but collapse to
+   622 unique strings over 36 chains.
+3. **Gate failures.** Twenty pre-existing clarity-gate failures were in scope across Stage A; four are
+   resolved — `deu-11-14`, `jer-31-31`, `isa-9-6`, `isa-42-6`. Sixteen remain, all in books not yet
+   swept: `ezk-36-26`, `dan-9-24`, `hos-6-3`, `jol-2-23`, `jol-3-16`, `mic-5-2`, `nam-1-9`,
+   `joh-1-14`, `1co-11-23`, `1th-4-16`, `1ti-6-16`, `rev-7-2`, `rev-14-7`, `rev-14-14`, `rev-20-4`,
+   `rev-22-11`. No book was committed with a gate failure introduced by this sweep; the structural
+   verifier's NO_BANNED check is what caught the one attempt (Proverbs).
+4. **Verify-only share.** 446 of 861 accounted strings (51.8%) were already plain. That is the expected
+   shape of a whole-canon sweep: the density score aims effort at the densest strings, and §1.11
+   forbids rewriting prose that already meets the standard. A sweep whose rewrite share approached
+   100% would be punctuation theatre.
+5. **Punctuation-only class.** No draft in books 1–20 was punctuation-only; the one string where
+   punctuation was the only available change (`1sa-15-22` principle) is recorded as verify-only with
+   that reason stated. The class itself remains valid per CP-02 §5 and is reported per book wherever
+   it occurs.
+6. **Model pin deviation.** The plan pins Cursor `grok-4.6` at `effort: xhigh`. This run executes on
+   DeepSeek Harness with subagent writers. Recorded in CP-00 and carried to CP-06.
+7. **Commit messages.** Rows 1–20 use `CP-03 <BOOK>: plain-language rewrite (<drafts> rewrites /
+   <verify-only> verify-only of <n> strings)`. This keeps the plan's `CP-03 · book · plain-language
+   rewrite · counts` shape and adds the verify-only split, which the plan's template omits even though
+   §1.11 makes it the sweep's central distinction. EQUIVALENT and THEOLOGY-REVIEW counts are appended
+   when non-zero.
+
+Remaining after this block: 40 books (Ezekiel → Revelation), 676 entries, 1,671 entry strings, 16 open
+gate failures, then the Stage A.5 chain pass and Stage B closeout.
