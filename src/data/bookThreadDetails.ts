@@ -7552,7 +7552,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-6': {
     title: 'The Communication of Thy Faith May Become Effectual',
     principle:
-      'Effective faith acknowledges every good thing in us in Christ. First principle: faith communicates by acknowledging — the recognition of what is in Christ energizes the sharing.',
+      'Your faith becomes effective when you acknowledge every good thing that is in us in Christ. First principle: faith is shared when a person names what is in Christ. That is what gives the sharing its power.',
     sourceKeywords: ['the communication of thy faith', 'effectual', 'every good thing which is in you in Christ Jesus'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7560,7 +7560,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-9': {
     title: 'Paul the Aged, and Now Also a Prisoner of Jesus Christ',
     principle:
-      'Love\'s appeal from an old prisoner. First principle: authority is laid down for love\'s sake — the apostle beseeches rather than commands, and the prisoner\'s chains are his credential.',
+      'Paul appeals out of love. He writes as an old prisoner. First principle: for love\'s sake he sets his authority aside. The apostle pleads rather than commands, and his chains as a prisoner are the claim he brings.',
     sourceKeywords: ['for love\'s sake I rather beseech thee', 'Paul the aged', 'a prisoner of Jesus Christ'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7568,7 +7568,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-10': {
     title: 'I Beseech Thee for My Son Onesimus',
     principle:
-      'The runaway begotten in bonds. First principle: providence writes conversion stories in prison cells — the useless made useful by the chained apostle.',
+      'Paul led the runaway to new birth while he himself was in chains. First principle: God writes conversion stories in prison cells. The man who was useless became useful through the chained apostle.',
     sourceKeywords: ['my son Onesimus', 'whom I have begotten in my bonds'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7576,7 +7576,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-15': {
     title: 'He Therefore Departed for a Season',
     principle:
-      'Perhaps — that thou shouldest receive him for ever. First principle: providence reads departures as returns — the forever-reception reframes the season of loss.',
+      'Perhaps he departed for a season so that thou shouldest receive him for ever. First principle: God looks at a departure and sees a return. Receiving him for ever changes how you see the season you lost.',
     sourceKeywords: ['perhaps he therefore departed for a season', 'that thou shouldest receive him for ever'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7584,7 +7584,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-18': {
     title: 'If He Hath Wronged Thee, Put That on Mine Account',
     principle:
-      'The imputation sentence in a postcard. First principle: the gospel in miniature — debts transferred to the intercessor; Christ\'s account absorbs ours, and Paul practices it.',
+      'This is the sentence where Paul puts the debt on his own account. First principle: the whole gospel in one line. The debt is moved to the one who pleads for the debtor. Christ\'s account covers ours. Paul does the same thing here.',
     sourceKeywords: ['If he hath wronged thee', 'put that on mine account'],
     fulfillmentKeywords: ['the LORD hath laid on him the iniquity of us all'],
     terms: [],
@@ -7592,7 +7592,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'phm-1-25': {
     title: 'The Grace of Our Lord Jesus Christ Be with Your Spirit',
     principle:
-      'The grace-benediction closes the shortest letter. First principle: grace with the spirit is the lasting need — every wrong righted begins and ends in grace to the inner man.',
+      'The shortest letter closes with a blessing of grace. First principle: what the spirit needs most is grace. Every wrong that is put right begins and ends with grace for the inner person.',
     sourceKeywords: ['The grace of our Lord Jesus Christ', 'be with your spirit'],
     fulfillmentKeywords: [],
     terms: [],
