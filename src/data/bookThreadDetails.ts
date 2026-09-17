@@ -1170,7 +1170,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-2-28': {
     title: 'Pour Out My Spirit on All Flesh',
     principle:
-      'The LORD promises that in the last days He will pour out His Spirit upon all flesh: sons and daughters will prophesy, old men dream dreams, and young men see visions. Peter quotes this verbatim at Pentecost as fulfilled in the resurrected and exalted Christ pouring out the Holy Spirit. First principle: the Spirit is no longer limited to prophets, priests, or kings, but indwells the entire covenant community.',
+      'The LORD promises that in the last days He will pour out His Spirit on all people. Sons and daughters will prophesy, old men will dream dreams, and young men will see visions. Peter quotes this at Pentecost and says it came true. The risen and exalted Christ poured out the Holy Spirit. First principle: the Spirit is no longer limited to prophets, priests, or kings. He now lives inside the whole community that God has joined to Himself.',
     sourceKeywords: ['pour out my spirit', 'all flesh', 'sons and daughters prophesy', 'dreams', 'visions', 'servants and handmaids'],
     fulfillmentKeywords: ['poured forth', 'Holy Ghost', 'prophesy', 'tongues', 'last days'],
     terms: [
@@ -1180,7 +1180,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-2-32': {
     title: 'Whosoever Calls on the Name of the LORD',
     principle:
-      'Joel proclaims that whoever calls on the name of the LORD shall be delivered/saved, for in Mount Zion and Jerusalem there shall be deliverance. Both Peter in Acts 2 and Paul in Romans 10 quote this exact verse to proclaim salvation through calling on Jesus as Lord. First principle: salvation is universal to all who invoke the Name in faith.',
+      'Joel says that everyone who calls on the name of the LORD will be saved. He says deliverance will be in Mount Zion and in Jerusalem. Peter in Acts 2 and Paul in Romans 10 both quote this verse. They use it to proclaim salvation through calling on Jesus as Lord. First principle: God saves everyone who calls on Him in faith.',
     sourceKeywords: ['whosoever', 'call on the name of the LORD', 'delivered', 'mount Zion', 'Jerusalem', 'remnant'],
     fulfillmentKeywords: ['call upon the name of the Lord', 'saved', 'no difference', 'Jew nor Greek'],
     terms: [
@@ -1245,7 +1245,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-2-23': {
     title: 'The Former and Latter Rain for Zion',
     principle:
-      'Zion is commanded to rejoice in the LORD who gives the former rain faithfully and causes both the former and latter rain to pour down, directly introducing the promise of the Spirit poured out upon all flesh (Joel 2:28). First principle: physical restoration of the harvest prefigures the eschatological outpouring of the Holy Spirit.',
+      'Zion is commanded to rejoice in the LORD. He gives the former rain faithfully, and He sends both the former and the latter rain. This leads straight into the promise that God pours out His Spirit on all flesh (Joel 2:28). First principle: the restored harvest on earth pictures the last-days outpouring of the Holy Spirit.',
     sourceKeywords: ['children of Zion', 'rejoice in the LORD', 'former rain moderately', 'former rain and the latter rain', 'first month'],
     fulfillmentKeywords: ['pour out my spirit', 'harvest', 'rain', 'Pentecost', 'glory'],
     terms: [
@@ -1714,7 +1714,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-3-16': {
     title: 'The Lord Roars Out of Zion — The Voice of God Delivers',
     principle:
-      'The LORD also shall roar out of Zion, and utter His voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of His people, and the strength of the children of Israel. At the darkest midnight hour of the death decree, God speaks with a voice that shakes the planet, proclaiming the day and hour of Jesus\' coming.',
+      '"The LORD also shall roar out of Zion, and utter His voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of His people, and the strength of the children of Israel." That promise comes true. From the darkness of the death decree God speaks, and His voice shakes the planet. He announces the day and the hour Jesus comes.',
     sourceKeywords: ['LORD shall roar out of Zion', 'utter His voice from Jerusalem', 'heavens and earth shall shake', 'LORD hope of His people'],
     fulfillmentKeywords: ['voice of God', 'deliverance', 'It is done', 'midnight deliverance'],
     terms: [
@@ -9681,7 +9681,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-2-2': {
     title: 'A Day of Darkness and of Gloominess',
     principle:
-      'The unprecedented army-day, morning spread on mountains. First principle: Joel\'s locust-day is template for the great and terrible day — Matthew 24\'s tribulation echoes the like-never-never language.',
+      '"A day of darkness and of gloominess, a day of clouds and of thick darkness, as the morning spread upon the mountains: a great people and a strong; there hath not been ever the like, neither shall be any more after it, even to the years of many generations." First principle: that locust day is the pattern for the great and terrible day of the LORD. Jesus draws on the same words for the tribulation in Matthew 24. He says nothing like it has ever happened.',
     sourceKeywords: ['a day of darkness and of gloominess', 'a great people and a strong', 'there hath not been ever the like'],
     fulfillmentKeywords: ['then shall be great tribulation, such as was not'],
     terms: [],
@@ -9689,7 +9689,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jol-3-10': {
     title: 'Beat Your Plowshares into Swords',
     principle:
-      'The reverse-industry of holy war: the weak commanded to say, I am strong. First principle: Isaiah\'s peace-visions run one way, Joel\'s war-call the other — the same prophet-era holds both harvest and battle endings.',
+      '"Let the weak say, I am strong." God turns the tools of farming into weapons of war, and He tells the weakest person to speak with courage. First principle: Joel and Isaiah run in opposite directions. Isaiah pictures nations beating swords into plowshares for peace. Joel calls the nations to beat plowshares into swords for battle. The same prophet era holds both endings, the harvest and the war.',
     sourceKeywords: ['Beat your plowshares into swords', 'your pruninghooks into spears', 'let the weak say, I am strong'],
     fulfillmentKeywords: ['they shall beat their swords into plowshares'],
     terms: [],
