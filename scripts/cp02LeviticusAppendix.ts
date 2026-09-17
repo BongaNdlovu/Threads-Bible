@@ -323,6 +323,8 @@ function main() {
   const verifyOnly = rows.filter(r => !r.changed);
 
   let appendix = '# CP-02 · Leviticus Draft Rewrites (AI-DRAFT — NOT APPLIED)\n\n';
+  appendix += 'Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT ' +
+    'satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.\n\n';
   appendix += '> Every in-scope prose field for the Leviticus entries in `bookThreadDetails.ts` (plus the ' +
     'pillar-chain fields that carry Leviticus 25:25) with BEFORE and hand-authored §1.7 AFTER. ' +
     'No source file is modified by this checkpoint — apply waits for operator sign-off (CP-03).\n\n';
@@ -350,6 +352,8 @@ function main() {
   writeFileSync('docs/CP-02_LEVITICUS_DRAFT.md', appendix, 'utf8');
 
   let summary = '# CP-02 · Leviticus Summary (AI-DRAFT — NOT APPLIED, awaiting theology sign-off)\n\n';
+  summary += 'Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT ' +
+    'satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.\n\n';
   summary += `- Entries: ${entryIds.length}\n`;
   summary += `- Pillar-chain groups carrying Leviticus steps: ${ids.filter(id => id.startsWith('chain:')).length}\n`;
   summary += `- Fields (total considered): ${rows.length}\n`;

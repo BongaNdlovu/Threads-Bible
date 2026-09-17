@@ -1,5 +1,7 @@
 # CP-02 · Leviticus Draft Rewrites (AI-DRAFT — NOT APPLIED)
 
+Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.
+
 > Every in-scope prose field for the Leviticus entries in `bookThreadDetails.ts` (plus the pillar-chain fields that carry Leviticus 25:25) with BEFORE and hand-authored §1.7 AFTER. No source file is modified by this checkpoint — apply waits for operator sign-off (CP-03).
 
 Total Leviticus entries: 10

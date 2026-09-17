@@ -1,5 +1,7 @@
 # CP-02 · Leviticus Summary (AI-DRAFT — NOT APPLIED, awaiting theology sign-off)
 
+Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.
+
 - Entries: 10
 - Pillar-chain groups carrying Leviticus steps: 3
 - Fields (total considered): 41

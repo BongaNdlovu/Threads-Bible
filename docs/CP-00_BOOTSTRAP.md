@@ -50,7 +50,7 @@ git status -sb
 ```
 
 (Local branch is level with its remote tip; the four `??` entries are this session's CP-02 artifacts —
-see §5 for the post-commit state.)
+see §6 for the post-commit state.)
 
 ```bash
 git rev-parse HEAD
