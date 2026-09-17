@@ -820,7 +820,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-14': {
     title: 'The Word Became Flesh',
     principle:
-      'The Word was made flesh and dwelt among us. Textual proof: John 1:1 identifies the Word with God and as agent of creation (1:3); 1:14 tabernacles among us (σκηνόω, same root as OT tabernacle); Col 2:9 — in Him dwells all the fullness of the Godhead bodily.',
+      '"The Word was made flesh and dwelt among us." First principle: John 1:1 identifies the Word with God and as the agent of creation (1:3). Verse 14 says the Word dwelt among us. John uses the Greek word σκηνόω, the same root as the Old Testament tabernacle. Col 2:9 says that in Him all the fullness of the Godhead dwells bodily.',
     sourceKeywords: ['Word', 'was made flesh', 'dwelt', 'among us', 'glory', 'only begotten', 'Father', 'grace', 'truth'],
     fulfillmentKeywords: ['tabernacle', 'dwell', 'among them', 'glory'],
     terms: [
@@ -830,7 +830,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-3-14': {
     title: 'As Moses Lifted Up the Serpent',
     principle:
-      'As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up. Textual proof: Jesus explicitly types Numbers 21:9 to His cross — looking at the raised sign is the means of life.',
+      '"As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up." First principle: Jesus points to the bronze serpent of Numbers 21:9 to explain His own death on the cross. The raised sign became the means of life for everyone who looks in faith.',
     sourceKeywords: ['Moses lifted up', 'serpent', 'wilderness', 'Son of man', 'lifted up', 'whosoever believeth'],
     fulfillmentKeywords: ['serpent', 'brass', 'look', 'live'],
     terms: [
@@ -1580,7 +1580,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-17-21': {
     title: 'Unity in Christ — The High-Priestly Prayer of Jesus',
     principle:
-      'That they all may be one; as Thou, Father, art in Me, and I in Thee, that they also may be one in Us: that the world may believe that Thou hast sent Me. The spiritual and doctrinal unity of believers across all racial, national, social, and gender boundaries is the crowning proof of Christ\'s divine mission. It is grounded in shared truth and unselfish agape love.',
+      '"That they all may be one; as Thou, Father, art in Me, and I in Thee, that they also may be one in Us". First principle: the unity of believers is the proof Christ\'s mission came from God. That unity crosses every racial, national, social, and gender boundary. It rests on shared truth and on unselfish agape love.',
     sourceKeywords: ['that they all may be one', 'as Thou Father art in Me', 'that the world may believe'],
     fulfillmentKeywords: ['one body and one Spirit', 'neither Jew nor Greek', 'perfected into one'],
     terms: [
@@ -2321,7 +2321,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-1': {
     title: 'In the Beginning Was the Word',
     principle:
-      'The Word was with God, and the Word was God; without him was not any thing made that was made. First principle: the Christ at the center of every thread is the divine Creator, so promise-and-fulfillment runs from the Author of Genesis to the flesh He took on.',
+      '"The Word was with God, and the Word was God"; "without him was not any thing made that was made." First principle: at the center of every thread stands the Christ who made everything. Every promise and every fulfillment runs from the Creator at the start of Genesis to the flesh He took on in Bethlehem.',
     sourceKeywords: ['the Word was God', 'with God', 'was made by him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2329,7 +2329,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-3': {
     title: 'All Things Were Made by Him',
     principle:
-      'Without Him was not any thing made that was made. First principle: the Agent of creation is the same Son who redeems — Colossians joins the two: by Him were all things created, and by His blood we have redemption.',
+      '"Without Him was not any thing made that was made." First principle: the very One who made all things is also the Son who paid to set us free. Colossians teaches the very same thing: "by Him were all things created, and by His blood we have redemption."',
     sourceKeywords: ['All things were made by him', 'not any thing made'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2337,7 +2337,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-29': {
     title: 'Behold the Lamb of God',
     principle:
-      'John names Jesus the Lamb of God, which taketh away the sin of the world. First principle: the whole sacrificial system — Passover lamb, daily lamb, Isaiah 53\'s silent lamb — converges on this one Man.',
+      'John calls Jesus "the Lamb of God" and "which taketh away the sin of the world." First principle: the whole sacrificial system converges on this one Man. That includes the Passover lamb, the daily lamb, and Isaiah 53\'s silent lamb.',
     sourceKeywords: ['Lamb of God', 'taketh away the sin', 'the world'],
     fulfillmentKeywords: ['lamb without blemish', 'Christ our passover'],
     terms: [],
@@ -2345,7 +2345,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-1-45': {
     title: 'We Have Found Him of Whom Moses Wrote',
     principle:
-      'Philip tells Nathanael that Jesus of Nazareth is Him of whom Moses in the law and the prophets did write. First principle: the Old Testament is a written expectation that the apostles claim is met in one Person.',
+      'Philip tells Nathanael that Jesus of Nazareth is the One Moses in the law and the prophets did write about. First principle: the Old Testament is a written looking forward. The apostles say that one Person answers it.',
     sourceKeywords: ['found him', 'Moses in the law', 'Jesus of Nazareth'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2353,7 +2353,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-2-17': {
     title: 'The Zeal of Thine House Hath Eaten Me Up',
     principle:
-      'At the temple cleansing the disciples remember Psalm 69:9. First principle: Christ\'s consuming devotion to His Father\'s house was prophecy in motion — and the reproaches of God fell on Him.',
+      'At the temple cleansing the disciples remember Psalm 69:9. First principle: Christ\'s consuming devotion to His Father\'s house was already written prophecy. The insults aimed at God fell on Him.',
     sourceKeywords: ['zeal of thine house', 'hath eaten me up', 'it was written'],
     fulfillmentKeywords: ['zeal of thine house', 'reproaches of them'],
     terms: [],
@@ -2361,7 +2361,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-3-16': {
     title: 'For God So Loved the World',
     principle:
-      'God gave His only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. First principle: the gospel in one verse — divine love expressed as a gift, faith as the receiving hand, eternal life as the result.',
+      '"God gave His only begotten Son, that whosoever believeth in him should not perish, but have everlasting life." First principle: this one verse holds the whole gospel. God\'s love gives a gift. Faith is the hand that receives it. Eternal life is the result.',
     sourceKeywords: ['God so loved the world', 'only begotten Son', 'everlasting life', 'believeth in him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2385,7 +2385,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-10-34': {
     title: 'I Said, Ye Are Gods',
     principle:
-      'Jesus defends His unity with the Father from Psalm 82\'s Ye are gods — lesser judges called gods in the law. First principle: if Scripture could so name men, how could it be blasphemy for the Sent One to say I am the Son of God?',
+      'Jesus defends His unity with the Father from Psalm 82\'s "Ye are gods", where the law calls lesser judges gods. First principle: if Scripture could name men that way, the Sent One cannot be guilty of blasphemy for saying "I am the Son of God".',
     sourceKeywords: ['Is it not written in your law', 'Ye are gods', 'scripture cannot be broken'],
     fulfillmentKeywords: [],
     terms: [],
@@ -2393,7 +2393,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-12-15': {
     title: 'Thy King Cometh, Sitting on an Ass\'s Colt',
     principle:
-      'John quotes Zechariah 9:9 at the triumphal entry: Fear not, daughter of Sion. First principle: the King arrives in humility exactly as written — the colt is the credential.',
+      'John quotes Zechariah 9:9 at the triumphal entry: "Fear not, daughter of Sion." First principle: the King comes in humility, exactly as the prophet wrote it. The colt is the proof that this is the King.',
     sourceKeywords: ['daughter of Sion', 'thy King cometh', 'ass\'s colt'],
     fulfillmentKeywords: ['riding upon an ass', 'lowly', 'having salvation'],
     terms: [],
@@ -2401,7 +2401,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-12-38': {
     title: 'Who Hath Believed Our Report?',
     principle:
-      'John ties Israel\'s unbelief to Isaiah 53:1 — Lord, who hath believed our report? First principle: rejection of Christ was itself foretold; even unbelief fulfills the arm-of-the-LORD prophecy.',
+      'John ties Israel\'s unbelief to Isaiah 53:1: "Lord, who hath believed our report?" First principle: God announced the rejection of Christ ahead of time. Even unbelief fulfils what the prophet said about the arm of the LORD.',
     sourceKeywords: ['Esaias the prophet', 'who hath believed our report', 'the arm of the Lord'],
     fulfillmentKeywords: ['who hath believed our report', 'to whom is the arm revealed'],
     terms: [],
@@ -2441,7 +2441,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-19-24': {
     title: 'They Cast Lots for My Vesture',
     principle:
-      'The soldiers gamble for the seamless coat — Psalm 22:18 to the letter. First principle: prophecy runs to the smallest detail of the cross, down to a dice game at the foot of it.',
+      'The soldiers gamble for the seamless coat. First principle: Psalm 22:18 is fulfilled down to the last detail. Prophecy reaches even to a dice game at the foot of the cross.',
     sourceKeywords: ['cast lots', 'that the scripture might be fulfilled', 'parted my raiment'],
     fulfillmentKeywords: ['parted my raiment', 'did cast lots'],
     terms: [],
@@ -2473,7 +2473,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'joh-20-9': {
     title: 'He Must Rise Again from the Dead',
     principle:
-      'The empty tomb stuns the disciples because as yet they knew not the scripture that He must rise. First principle: the third day was written — Psalm 16, Hosea 6, Jonah — before anyone believed it.',
+      'The empty tomb stuns the disciples, because they did not yet understand the scripture that He must rise. First principle: the third day stood written in Scripture before anyone believed it. Psalm 16, Hosea 6 and Jonah all said it.',
     sourceKeywords: ['knew not the scripture', 'must rise again from the dead'],
     fulfillmentKeywords: [],
     terms: [],
