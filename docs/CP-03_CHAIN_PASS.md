@@ -145,3 +145,42 @@ Testament writers". Invariant I1 says abbreviations stay abbreviations, so the s
 `NT shows Melchizedek as greater, as never dying, and as one who makes people perfect.` — the
 abbreviation verbatim, the rest plain. A census across all six groups then confirmed that no chain draft
 adds, drops or renames a colon-terminated opener.
+
+## Repair after the fact: the numbered chain names
+
+Every one of the eight chains whose name carries a leading ordinal lost it in the applied pass, and one
+also lost a definite article:
+
+```
+  was                                         now (as applied)                         restored to
+  1. The 2,300 Days & Cleansing of the …      The 2,300 Days & Cleansing of the …      1. …
+  2. The 70 Weeks: Dating the Messiah         The 70 Weeks: Dating the Messiah         2. …
+  3. The Sabbath: Creation to the New Earth   The Sabbath: Creation to New Earth       3. … to the New Earth
+  4. The State of the Dead (…)                The State of the Dead (…)                4. …
+  5. The Three Angels' Messages & The Seal…   The Three Angels' Messages & The Seal…   5. …
+  6. The Great Controversy Cosmic Arc         The Great Controversy Cosmic Arc         6. …
+  7. The Spirit of Prophecy & The Remnant     The Spirit of Prophecy & The Remnant     7. …
+  8. The Millennium & The Earth Made New      The Millennium & The Earth Made New      8. …
+```
+
+Those eight names are a deliberate `1.`–`8.` numbered series — they are the only eight of the 36 chain
+names that carry an ordinal, and they number consecutively — so stripping them breaks the series and
+changes what the app shows in chain navigation. Two writers drafted `name` fields despite being told
+that a chain's name is a navigation label to be left alone unless it is genuinely unclear, and the
+apply took them.
+
+Repaired by restoring all eight names to their pre-pass text, including `the` before `New Earth` in the
+Sabbath chain, which the applied draft had also dropped. Verified with
+`npx tsx scripts/cp03StructuralVerify.ts --chains-only` against HEAD: `OVERALL: PASS (exit 0)`,
+`658 prose strings gated`, `1356 verse entries … 0 change(s) outside the pillar chains`, so the repair
+is confined to chain prose. `docs/CP-02_CHAINS_DRAFT.md` was generated before the repair and still shows
+the ordinal-less names in its eight `name` rows.
+
+**Reconciliation note on the group files.** `docs/_work/chains_gF_rewrites.json` was rewritten by its
+writer *after* the apply, so it now records all 114 of its strings as `verifyOnly` with the ~20 that the
+apply had already rewritten marked "ALREADY-COMMITTED REWRITE". That is accurate as a post-apply
+statement and misleading as a pre-apply one: those strings *were* drafted and applied from the earlier
+revision of the same file. The writer independently re-derived its rewrites from the pre-pass text and
+reported them byte-identical to what is committed, which is a useful corroboration; the committed
+`docs/CP-02_CHAINS_DRAFT.md` and `docs/CP-03_CHAINS_APPLY.md` remain the record of what was actually
+applied.

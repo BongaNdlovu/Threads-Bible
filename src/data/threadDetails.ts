@@ -2465,7 +2465,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'sanctuary-2300-days',
     number: 1,
-    name: 'The 2,300 Days & Cleansing of the Sanctuary',
+    name: '1. The 2,300 Days & Cleansing of the Sanctuary',
     primaryAnchor: 'Daniel 8:14; Leviticus 16:16-19; Exodus 25:8, 40',
     primaryAnchorVerseId: 'dan-8-14',
     fulfillmentSummary: 'Hebrews 8:1-2; Hebrews 9:23-24; Revelation 11:19; Revelation 14:7 (The pre-advent investigative judgment inaugurating the cleansing of the heavenly sanctuary).',
@@ -2474,7 +2474,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'seventy-weeks-messiah',
     number: 2,
-    name: 'The 70 Weeks: Dating the Messiah',
+    name: '2. The 70 Weeks: Dating the Messiah',
     primaryAnchor: 'Daniel 9:24-27; Ezra 7:11-26 (457 BC decree)',
     primaryAnchorVerseId: 'dan-9-25',
     fulfillmentSummary: 'Luke 3:1, 21-23 (27 AD baptism / Anointed); Matthew 27:51 (31 AD crucifixion ending sacrifices); Acts 7:54-60 (34 AD gospel to Gentiles).',
@@ -2483,7 +2483,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'sabbath-creation-new-earth',
     number: 3,
-    name: 'The Sabbath: Creation to New Earth',
+    name: '3. The Sabbath: Creation to the New Earth',
     primaryAnchor: 'Genesis 2:1-3; Exodus 20:8-11; Ezekiel 20:12, 20',
     primaryAnchorVerseId: 'gen-2-2',
     fulfillmentSummary: 'Luke 4:16; Matthew 24:20; Hebrews 4:4, 9; Isaiah 66:22-23; Revelation 14:7 (Sabbath as the perpetual sign of Creator-worship).',
@@ -2492,7 +2492,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'state-of-dead-immortality',
     number: 4,
-    name: 'The State of the Dead (Conditional Immortality)',
+    name: '4. The State of the Dead (Conditional Immortality)',
     primaryAnchor: 'Genesis 2:7; 3:19; Ecclesiastes 9:5-6, 10; Psalm 146:4',
     primaryAnchorVerseId: 'gen-2-7',
     fulfillmentSummary: 'John 11:11-14 ("Lazarus sleepeth"); 1 Timothy 6:16 (God alone has immortality); 1 Corinthians 15:51-54; 1 Thessalonians 4:13-17; Malachi 4:1-3; Revelation 20:14 (Second death / total eradication of sin).',
@@ -2501,7 +2501,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'three-angels-seal-mark',
     number: 5,
-    name: 'The Three Angels\' Messages & The Seal vs. Mark',
+    name: '5. The Three Angels\' Messages & The Seal vs. Mark',
     primaryAnchor: 'Revelation 14:6-12; Exodus 20:11; Daniel 7:25',
     primaryAnchorVerseId: 'rev-14-6',
     fulfillmentSummary: 'Revelation 7:2-3; Revelation 12:17; Revelation 18:1-4 (Final proclamation: Creator-worship, fall of Babylon, warning against beast\'s mark, remnant keeping commandments and faith of Jesus).',
@@ -2510,7 +2510,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'great-controversy-arc',
     number: 6,
-    name: 'The Great Controversy Cosmic Arc',
+    name: '6. The Great Controversy Cosmic Arc',
     primaryAnchor: 'Isaiah 14:12-15; Ezekiel 28:12-19; Genesis 3:15',
     primaryAnchorVerseId: 'isa-14-12',
     fulfillmentSummary: 'Revelation 12:7-9; Colossians 2:15; Romans 16:20; Revelation 20:10; Nahum 1:9 ("Affliction shall not rise up the second time").',
@@ -2519,7 +2519,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'spirit-of-prophecy-remnant',
     number: 7,
-    name: 'The Spirit of Prophecy & The Remnant',
+    name: '7. The Spirit of Prophecy & The Remnant',
     primaryAnchor: 'Amos 3:7; Numbers 12:6; Joel 2:28',
     primaryAnchorVerseId: 'amo-3-7',
     fulfillmentSummary: '1 Corinthians 12:28; Revelation 12:17; Revelation 19:10 ("The testimony of Jesus is the spirit of prophecy"); Revelation 22:9.',
@@ -2528,7 +2528,7 @@ export const MASTER_PILLAR_CHAINS: MasterPillarInfo[] = [
   {
     id: 'millennium-earth-made-new',
     number: 8,
-    name: 'The Millennium & The Earth Made New',
+    name: '8. The Millennium & The Earth Made New',
     primaryAnchor: 'Leviticus 25:10 (Jubilee); Jeremiah 4:23-26; Isaiah 24:21-22',
     primaryAnchorVerseId: 'lev-25-10',
     fulfillmentSummary: '1 Corinthians 6:2-3 (Saints judge angels); Revelation 20:1-15; 2 Peter 3:10-13; Revelation 21:1-5; Revelation 22:1-5.',
