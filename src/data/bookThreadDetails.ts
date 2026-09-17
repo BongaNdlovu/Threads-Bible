@@ -1100,7 +1100,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-12-10': {
     title: 'They Shall Look on Me Whom They Pierced',
     principle:
-      'YHWH declares that He will pour out the Spirit of grace and supplication on Jerusalem, and they will look on Me whom they pierced, mourning as for an only son. John cites this at the cross and Revelation declares every eye shall see Him at His coming. First principle: the pierced One is divine, and His piercing leads both to salvation and to eschatological vindication.',
+      '"And I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced, and they shall mourn for him, as one mourneth for his only son." John shows this verse coming true at the cross. Revelation shows every eye seeing him when he comes. The One they pierced is God himself. His piercing brings salvation, and it will also be seen by all at the end of the story.',
     sourceKeywords: ['pour', 'spirit of grace', 'supplications', 'look upon me whom they have pierced', 'mourn', 'only son'],
     fulfillmentKeywords: ['pierced', 'see him', 'mourn', 'clouds', 'side'],
     terms: [
@@ -1110,7 +1110,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-13-7': {
     title: 'Smite the Shepherd',
     principle:
-      'The LORD commands the sword to awake against "My Shepherd, against the Man who is My Companion" and smite the Shepherd so the sheep will be scattered. Jesus explicitly applies this prophecy to Himself and the dispersal of His disciples on the night of Gethsemane. First principle: the Shepherd is YHWH\'s equal/companion, struck in accordance with divine purpose.',
+      'The LORD tells the sword to wake up and strike "My Shepherd, against the Man who is My Companion," and the sheep will be scattered. Jesus applied this prophecy to himself on the night of Gethsemane. He also applied it to his disciples, who ran away. The Shepherd is God\'s equal and companion, and he was struck because God willed it.',
     sourceKeywords: ['sword', 'shepherd', 'man that is my fellow', 'smite the shepherd', 'sheep scattered'],
     fulfillmentKeywords: ['smite the shepherd', 'sheep', 'scattered', 'all ye shall be offended'],
     terms: [
@@ -1255,7 +1255,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-10-1': {
     title: 'Ask Rain in the Time of the Latter Rain',
     principle:
-      'The prophet commands the people of God to ask the LORD for rain in the time of the latter rain, promising that the LORD will make bright storm clouds and give showers of rain. Jesus and the apostles teach that the Holy Spirit must be sought through persistent prayer to prepare the church for the final harvest. First principle: promised divine power does not replace prayer; it demands it.',
+      'God\'s people must ask him for rain in the season of the latter rain. He answers with bright storm clouds and showers that fall on every field. Jesus and the apostles teach that the church must ask for the Holy Spirit in the same persistent way. That prayer prepares the church for the final harvest. God\'s promise of power does not remove the need to pray; it creates it.',
     sourceKeywords: ['Ask ye of the LORD rain', 'time of the latter rain', 'bright clouds', 'showers of rain'],
     fulfillmentKeywords: ['ask', 'Holy Spirit', 'Father in heaven', 'latter rain', 'fruit'],
     terms: [
@@ -1807,7 +1807,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-2-10': {
     title: 'Lo, I Come, and I Will Dwell in the Midst of Thee',
     principle:
-      'Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD. The One speaking is Yahweh Himself, yet He comes — incarnation foretold. First principle: God\'s dwelling with man is not a metaphor but a Person tabernacling among us.',
+      '"Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD." The One who speaks here is Yahweh himself, and he says he is coming. That is the incarnation announced ahead of time. God living with people is not a picture of speech; it is a person who came and lived among us.',
     sourceKeywords: ['Sing and rejoice', 'daughter of Zion', 'I come, and I will dwell in the midst of thee', 'many nations shall be joined to the LORD'],
     fulfillmentKeywords: ['Word was made flesh', 'dwelt among us', 'tabernacle of God is with men'],
     terms: [
@@ -1907,7 +1907,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-3-8': {
     title: 'I Will Bring Forth My Servant the BRANCH',
     principle:
-      'Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH. The cleansing of the high priest with filthy garments taken away previews what the Branch accomplishes. First principle: God answers iniquity with a Person — a Servant-King who removes sin in one day.',
+      '"Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH." The vision shows Joshua\'s filthy garments being taken away. That pictures ahead of time what the Branch will do. God meets guilt with a person, a Servant-King who takes sin away in one day.',
     sourceKeywords: ['Joshua the high priest', 'men wondered at', 'my servant the BRANCH', 'I will remove the iniquity of that land in one day'],
     fulfillmentKeywords: ['took upon him the form of a servant', 'obedient unto death', 'minister unto you'],
     terms: [
@@ -1957,7 +1957,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-11-12': {
     title: 'Thirty Pieces of Silver Cast to the Potter',
     principle:
-      'So they weighed for my price thirty pieces of silver... a goodly price that I was prised at of them! And I took the thirty pieces of silver, and cast them to the potter in the house of the LORD. The Shepherd of Israel is valued at a slave-price and the money ends in potter\'s-field soil. First principle: rejecting the Shepherd has a price tag — and it buys a graveyard.',
+      'So they weighed for my price thirty pieces of silver... a goodly price that I was prised at of them! And I took the thirty pieces of silver, and cast them to the potter in the house of the LORD. Israel priced its Shepherd at what a slave was worth. The money he was paid ended up buying ground for burials.',
     sourceKeywords: ['weighed for my price thirty pieces of silver', 'cast them to the potter', 'in the house of the LORD', 'my shepherd'],
     fulfillmentKeywords: ['thirty pieces of silver', 'valued him whom I have prised', 'potter\'s field', 'the price of him that was valued'],
     terms: [
@@ -2100,7 +2100,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-13-1': {
     title: 'A Fountain Opened for Sin and Uncleanness',
     principle:
-      'In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness. The same prophecy that names the pierced Shepherd names this fountain. First principle: cleansing comes from an opened wound — blood and water testify together.',
+      '"In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness." The same prophecy that names the pierced Shepherd also names this fountain. The fountain washes sin away, and it comes from a wound that was opened. Blood and water both speak of it.',
     sourceKeywords: ['a fountain opened', 'house of David', 'for sin and for uncleanness', 'the idols shall utterly pass away'],
     fulfillmentKeywords: ['blood and water came out', 'cleanse us from all sin', 'washed their robes', 'fountain of the water of life'],
     terms: [
@@ -2180,7 +2180,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-6-12': {
     title: 'The Man Whose Name Is the BRANCH — Priest on His Throne',
     principle:
-      'Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD... and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne. First principle: in one Person the offices split since Saul and Uzziah reunite — King and Priest crowned together, the counsel of peace between them both.',
+      '"Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD... and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne." The crown is set on Joshua\'s head, yet the promise is about a man named the Branch. He is the one who will build the LORD\'s temple.',
     sourceKeywords: ['Behold the man whose name is The BRANCH', 'build the temple of the LORD', 'bear the glory', 'a priest upon his throne'],
     fulfillmentKeywords: ['Apostle and High Priest', 'builded the house', 'sat down on the right hand of the Majesty', 'we have such an high priest'],
     terms: [
@@ -2310,7 +2310,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-14-4': {
     title: 'His Feet Shall Stand upon the Mount of Olives',
     principle:
-      'And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east... and the mount of Olives shall cleave in the midst thereof. The LORD becomes King over all the earth, and His name one. First principle: the place of the ascension is the place of return — the Olivet descent of Acts 1 completes the Zechariah schedule.',
+      '"And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east... and the mount of Olives shall cleave in the midst thereof." God will be King over all the earth, and his name will be one. The place where Jesus went up is the place where he will come back down. Acts 1 shows the angels pointing the disciples to that same mountain.',
     sourceKeywords: ['his feet shall stand', 'mount of Olives', 'the LORD my God shall come', 'the LORD shall be king over all the earth'],
     fulfillmentKeywords: ['this same Jesus', 'come in like manner', 'as ye have seen him go', 'behold, he cometh with clouds'],
     terms: [
@@ -10019,7 +10019,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-3-1': {
     title: 'Joshua the High Priest and Satan at His Right Hand',
     principle:
-      'The resistant accuser stands beside the serving priest. First principle: the courtroom scene opens the cleansing chapter — the accuser\'s place is at the hand, the LORD\'s rebuke is stronger.',
+      'The vision opens with a courtroom. Satan stands at Joshua\'s right hand to oppose him, while the priest stands there to serve. The LORD\'s rebuke is stronger than the accuser\'s resistance.',
     sourceKeywords: ['Joshua the high priest', 'Satan standing at his right hand to resist him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10027,7 +10027,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-3-9': {
     title: 'The Stone Laid before Joshua, Seven Eyes',
     principle:
-      'One stone, engraved, iniquity removed in one day. First principle: the Branch-stone has seven eyes and a one-day removal — foundation, omniscience, and instant pardon engraved together.',
+      'God showed Joshua one stone, and it has seven eyes carved on it. In one day God will remove the guilt of that land. So the stone is God\'s foundation, the seven eyes are his knowledge of all things, and the pardon he gives is not delayed.',
     sourceKeywords: ['the stone that I have laid before Joshua', 'upon one stone shall be seven eyes', 'remove the iniquity of that land in one day'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10035,7 +10035,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-4-6': {
     title: 'Not by Might, nor by Power, but by My Spirit',
     principle:
-      'The word to Zerubbabel at the lampstand. First principle: rebuilding runs on Spirit-oil, not muscle — the mountain becomes a plain before the grace-supplied builder.',
+      'This is the word the LORD gave Zerubbabel at the lampstand. God\'s Spirit does the work of rebuilding, and human muscle does not. The mountain in the way becomes a plain in front of the builder God supplies with grace.',
     sourceKeywords: ['Not by might, nor by power', 'but by my spirit, saith the LORD of hosts'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10043,7 +10043,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-4-10': {
     title: 'Who Hath Despised the Day of Small Things?',
     principle:
-      'The plummet in Zerubbabel\'s hand with the seven eyes of the LORD. First principle: small beginnings are despised by sight and rejoiced in by heaven — the LORD\'s eyes run the whole earth over plumb-lines.',
+      'The vision shows the plummet in Zerubbabel\'s hand. It also shows the seven eyes of the LORD. People may look down on small beginnings, but heaven rejoices in them, because the LORD keeps watch over the whole earth.',
     sourceKeywords: ['Who hath despised the day of small things', 'the plummet in the hand of Zerubbabel', 'the eyes of the LORD'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10051,7 +10051,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-6-13': {
     title: 'He Shall Bear the Glory, and Shall Sit and Rule upon His Throne',
     principle:
-      'The Branch builds, bears glory, and is priest on His throne — counsel of peace between both offices. First principle: throne-priest union is the Branch\'s distinct glory; the counsel of peace is between them both.',
+      'The Branch builds the temple and receives the glory. He sits and rules on his throne, and he serves as priest on that same throne. God\'s purpose of peace joins the two offices together.',
     sourceKeywords: ['build the temple of the LORD', 'bear the glory', 'a priest upon his throne'],
     fulfillmentKeywords: ['We have such an high priest, who is set on the right hand of the throne'],
     terms: [],
@@ -10059,7 +10059,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-8-16': {
     title: 'Speak Ye Every Man the Truth to His Neighbour',
     principle:
-      'Judgment of truth and peace executed in the gates. First principle: the restored-city ethic — truth-speech and gate-judgment of peace are the things to do.',
+      '"Speak ye every man the truth to his neighbour; execute the judgment of truth and peace in your gates." That is the way God\'s restored city is meant to live. Truthful speech and fair judgments at the gate are what God tells his people to do.',
     sourceKeywords: ['Speak ye every man the truth to his neighbour', 'execute the judgment of truth and peace in your gates'],
     fulfillmentKeywords: ['putting away lying, speak every man truth'],
     terms: [],
@@ -10067,7 +10067,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-9-10': {
     title: 'He Shall Speak Peace unto the Heathen',
     principle:
-      'Chariots cut off; dominion sea-to-sea, river to earth\'s ends. First principle: the peace-speaking King\'s dominion measurement — from the entry-city to the ends, war-horses removed.',
+      '"And I will cut off the chariot from Ephraim, and the horse from Jerusalem, and the battle bow shall be cut off: and he shall speak peace unto the heathen." The King\'s rule reaches from the city where he entered all the way to the ends of the earth. He governs the nations, and he does it without war-horses.',
     sourceKeywords: ['cut off the chariot from Ephraim', 'speak peace unto the heathen', 'his dominion shall be from sea even to sea'],
     fulfillmentKeywords: ['He shall have dominion also from sea to sea'],
     terms: [],
@@ -10075,7 +10075,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-11-13': {
     title: 'Cast It unto the Potter: a Goodly Price',
     principle:
-      'Thirty silver pieces thrown in the LORD\'s house to the potter. First principle: the first-person prophecy — the Shepherds\' own words about His price, fulfilled at the chief priests\' decision.',
+      'The prophet throws the thirty silver pieces into the LORD\'s house, and they go to the potter. Zechariah speaks these words in God\'s own voice about his own price. The chief priests made that price real when they decided what to pay for Jesus.',
     sourceKeywords: ['Cast it unto the potter', 'a goodly price that I was prised at of them', 'in the house of the LORD'],
     fulfillmentKeywords: ['And the chief priests took the silver pieces, and said'],
     terms: [],
@@ -10083,7 +10083,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-12-11': {
     title: 'A Great Mourning in Jerusalem, as the Mourning of Hadadrimmon',
     principle:
-      'The Megiddon-scale mourning in that day. First principle: the mourning is as deep as Josiah\'s death-lament — pierced-Shepherd grief becomes the city\'s great mourning.',
+      'God says that day will bring a great mourning in Jerusalem. It will be as deep as the mourning for King Josiah, who died at Megiddo. So the grief over the pierced Shepherd becomes the grief of the whole city.',
     sourceKeywords: ['a great mourning in Jerusalem', 'the mourning of Hadadrimmon', 'the valley of Megiddon'],
     fulfillmentKeywords: [],
     terms: [],
@@ -10091,7 +10091,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-14-5': {
     title: 'The LORD My God Shall Come, and All the Saints with Thee',
     principle:
-      'Flight to the valley as the LORD comes with His saints. First principle: the coming includes the saints — the fled-through valley is the arrival route of the coming One and His holy company.',
+      'The people will run for the valley as the LORD arrives with all his saints. The saints come with him, so the valley they run through is the road he comes by. His holy ones arrive with him.',
     sourceKeywords: ['the LORD my God shall come', 'all the saints with thee', 'the valley of the mountains'],
     fulfillmentKeywords: ['the Lord cometh with ten thousands of his saints'],
     terms: [],
@@ -10099,7 +10099,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-14-8': {
     title: 'Living Waters Shall Go Out from Jerusalem',
     principle:
-      'Half toward the former sea, half toward the hinder — summer and winter. First principle: the city becomes the spring-head — seasonal interruption abolished in the living waters.',
+      'Living waters will flow out from Jerusalem. Half of them run toward the eastern sea, and half run toward the western sea. The water flows in summer and in winter, so nothing interrupts it. The city becomes the place the water comes from, and it never stops.',
     sourceKeywords: ['living waters shall go out from Jerusalem'],
     fulfillmentKeywords: ['He that believeth on me... out of his belly shall flow rivers of living water'],
     terms: [],
@@ -10107,7 +10107,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-14-9': {
     title: 'The LORD Shall Be King over All the Earth',
     principle:
-      'One LORD, His name one, in that day. First principle: the unity climax — one King, one name, all the earth; the plural idols and divided loyalties end in the singular reign.',
+      'In that day there will be one LORD and one name over the whole earth. The many idols and the divided loyalties come to an end, and one King rules alone.',
     sourceKeywords: ['the LORD shall be king over all the earth', 'one LORD, and his name one'],
     fulfillmentKeywords: ['The kingdoms of this world are become the kingdoms of our Lord'],
     terms: [],
@@ -10115,7 +10115,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'zec-14-16': {
     title: 'Every One That Is Left... Shall Go Up to Worship the King',
     principle:
-      'Year-by-year feast-of-tabernacles worship by the surviving nations. First principle: even the surviving attackers worship annually — the feast of tabernacles becomes the nations\' required pilgrimage.',
+      'The nations that attacked Jerusalem and survived will still be there. Every year they will go up to worship the King, the LORD of hosts, and to keep the feast of tabernacles. Even the attackers who live through it will come and worship.',
     sourceKeywords: ['go up from year to year to worship the King'],
     fulfillmentKeywords: [],
     terms: [],
