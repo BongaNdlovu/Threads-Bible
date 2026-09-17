@@ -7922,7 +7922,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '3jn-1-11': {
     title: 'He That Doeth Good Is of God',
     principle:
-      'Follow not evil; the doer of good is of God, the evildoer has not seen Him. First principle: imitation follows vision — seeing God is the root of doing good; Diotrephes had not seen.',
+      'The command is, "follow not that which is evil, but that which is good." The person who does good is of God. The person who does evil has not seen Him. First principle: we copy what we have seen. Seeing God is the root of doing good, and Diotrephes had not seen.',
     sourceKeywords: ['follow not that which is evil', 'he that doeth good is of God', 'hath not seen God'],
     fulfillmentKeywords: [],
     terms: [],
