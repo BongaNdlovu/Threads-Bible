@@ -4,8 +4,9 @@ Plan v2.0 · Stage B · Date: 2026-09-18 · **Read-only except this file.** Noth
 `src/` or any other document was modified. No `git` command was run.
 
 Scope: every finding the sweep recorded in a draft's `reason` field with the `QUOTE-REVIEW` or
-`THEOLOGY-REVIEW` marker, across the 63 delivered book rewrite files and the 36 pillar-chain rewrite
-files. Evidence read: `docs/_work/*_rewrites.json` (all 78 files), `docs/CP-05_CONSISTENCY_READ.md`
+`THEOLOGY-REVIEW` marker, across the **71 delivered book rewrite files** (63 swept books; six of them
+chunked into `_p1`/`_p2`/`_p3`) and the **7 chain rewrite files** (36 pillar chains). Evidence read:
+`docs/_work/*_rewrites.json` (all 78 files), `docs/CP-05_CONSISTENCY_READ.md`
 (so as not to duplicate its work), `docs/CP-01_FULL_CANON_BASELINE_V2.md` §3/§5/§6 (frozen glossary,
 invariant I1, the deferred operator decision), `docs/COMPLETION_PLAN.md` (Stage A ledger),
 `docs/CP-05_TRIAGE_QUEUE.md`, plan v2.0 §1.10/§1.11/§1.13, and the served KJV in
@@ -406,7 +407,8 @@ run-on verse quotations, which no class supplies.
 | Mentions counted **separately** (not classified) | 8 negated records · 18 unmarked canon-difference records · 1 ledger-only record (`num-11-31`, present in `COMPLETION_PLAN.md` and in no `reason` field) |
 
 **Method notes.** The KJV column was taken verbatim from the writer's `reason` where the writer quoted
-it, and spot-checked against the served canon in `public/books/*.json` for 110 verses, including every
+it, and spot-checked against the served canon in `public/books/*.json` for 116 distinct verses
+(117 lookups), including every
 finding where the reason does not print the KJV (John 17:21, Rom 3:21-22, Ezek 28:13-14, Ezek 37:14,
 Hag 2:6-7, Rev 14:7, Rev 20:5, Heb 11:5, Heb 13:6, Matt 1:23, Acts 4:26, 2 Tim 4:7, Micah 6:8,
 Job 19:25-26, Ps 146:4, Acts 2:16, 1 Tim 6:16, 1 John 5:12, and the chain titles' verses). One writer
