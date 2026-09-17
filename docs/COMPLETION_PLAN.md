@@ -28,7 +28,7 @@ vehicle for every thread and every connection.
 | **Prophecy page** | LDE timeline + symbols + types folded into one header-reachable page | ✅ |
 | **Threads-first UI** | Verse click → scripture-only split + "Study on the Map"; explanation pane retired; single Study affordance per verse; blue brand everywhere (gold removed) | ✅ |
 | **Plain-language gate** | `scripts/checkReadability.ts` + Vitest gate over runtime prose templates, golden details, and Life Threads firstPrinciples | ✅ |
-| **Plain-language sweep** | Rewrite remaining ~1,180 hand-written detail entries per book (THREADS_BIBLE_PLAIN_LANGUAGE_SWEEP_PLAN_v1.4.md) | 🕓 |
+| **Plain-language sweep** | Rewrite the remaining hand-written detail entries per book (`THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v1.4.md`); 3 of 66 books APPLIED (Genesis, Exodus, Leviticus) — see the sweep log below | 🔄 |
 
 ## 2 · Phase A — Ordo mindmap viewer (assimilation of the design)
 
@@ -91,3 +91,4 @@ nodes, gradient edges with animated reveal, step playback, edge `why` fields).
 |---|---:|---|---|---|---|---|
 | Genesis | 173 | 2026-09-17 | PASS (AFTER) | 2 sentence-splits under gen-1-1; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
 | Exodus | 39 | 2026-09-17 | PASS (AFTER) | Sentence-split rewrites across 63 fields; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |
+| Leviticus | 10 (+ 3 pillar-chain steps) | 2026-09-17 | PASS (AFTER) | 23 hand-authored §1.7 rewrites across 20 source lines (17 fields in bookThreadDetails, 6 chain fields in threadDetails); doctrinal paraphrase watchlist reviewed; approved | Bonga Ndlovu (SIGNED-OFF) | APPLIED |

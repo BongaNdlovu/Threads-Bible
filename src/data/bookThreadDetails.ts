@@ -1047,11 +1047,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-25-25': {
     title: 'The Kinsman-Redeemer (Go\'el)',
     principle:
-      'The Torah establishes the right of redemption: if a brother becomes impoverished, his near kinsman (go\'el) has the duty to redeem the sold inheritance. Jesus became our near kinsman in the flesh to buy back our alienated inheritance and redeem us from the slavery of sin. First principle: redemption requires near kinship, willingness, and the full payment of the price.',
+      'God gave Israel a law of redemption. If a brother grew poor and sold the land he had inherited, his nearest relative — the go\'el, the kinsman-redeemer — had the duty to buy it back. Jesus became our near kinsman in the flesh. He bought back the inheritance we had lost and freed us from slavery to sin. First principle: redemption needs a close relative, a willing heart, and the full price paid.',
     sourceKeywords: ['waxen poor', 'sold away', 'kin', 'redeem', 'brother'],
     fulfillmentKeywords: ['redeem', 'brethren', 'flesh and blood', 'inheritance', 'purchased'],
     terms: [
-      { term: 'kinsman / redeemer', original: 'גֹּאֵל', translit: 'goʾel', gloss: 'redeemer, near kinsman, vindicator', note: 'From ga\'al (to redeem/buy back). Boaz in Ruth 3-4; Christ in Gal 4:4-5 and Heb 2:14-15.' },
+      { term: 'kinsman / redeemer', original: 'גֹּאֵל', translit: 'goʾel', gloss: 'redeemer, near kinsman, vindicator', note: 'The word comes from ga\'al — to redeem, to buy back. Boaz is the go\'el in Ruth 3-4. Christ is our go\'el in Gal 4:4-5 and Heb 2:14-15.' },
       { term: 'redeem', original: 'גָּאַל', translit: 'gaʾal', gloss: 'to buy back, deliver, reclaim', note: 'Greek ἐξαγοράζω (exagorazō) in Gal 3:13; 4:5.' },
     ],
   },
@@ -1287,14 +1287,14 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'lev-16-16': {
-    title: 'Cleansing the Holy Place — Day of Atonement (Yom Kippur)',
+    title: 'Cleansing the Holy Place on the Day of Atonement (Yom Kippur)',
     principle:
-      'The high priest makes atonement for the holy place because of the uncleanness of the children of Israel and their transgressions. Hebrews 9:23 declares that the patterns of things in the heavens were purified with these, but the heavenly things themselves with better sacrifices. Daniel 8:14 points to this very sanctuary cleansing at the end of 2,300 days. First principle: sin confessed throughout the year is typologically removed on the Day of Atonement, pointing to Christ\'s pre-advent investigative judgment.',
+      'The high priest made atonement for the holy place because of the uncleanness of the children of Israel and their transgressions. Hebrews 9:23 says the patterns of things in the heavens were purified with these sacrifices. The heavenly things themselves needed better sacrifices. Daniel 8:14 points to this same cleansing of the sanctuary at the end of the 2,300 days. First principle: the sins confessed through the year were removed from the sanctuary on the Day of Atonement. That day points to the work Christ does as our judge before He comes.',
     sourceKeywords: ['atonement for the holy place', 'uncleanness', 'transgressions', 'tabernacle of the congregation'],
     fulfillmentKeywords: ['heavenly things', 'cleansed', 'purified', 'better sacrifices', 'true tabernacle', 'sanctuary'],
     terms: [
       { term: 'atonement', original: 'וְכִפֶּר', translit: 've-khipper', gloss: 'and he shall make atonement / purge / cleanse', note: 'The ultimate cleansing of the sanctuary from all recorded sin.' },
-      { term: 'uncleanness', original: 'טֻמְאֹת', translit: 'tumʾot', gloss: 'impurities / defilements', note: 'The transferred sin contaminating the sanctuary removed by blood.' },
+      { term: 'uncleanness', original: 'טֻמְאֹת', translit: 'tumʾot', gloss: 'impurities / defilements', note: 'Sin was transferred to the sanctuary and made it unclean. The blood removed that uncleanness.' },
     ],
   },
   'ezr-7-11': {
@@ -1469,14 +1469,14 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'lev-25-10': {
-    title: 'The Jubilee — Proclaiming Universal Liberty and Restitution',
+    title: 'The Jubilee — Liberty for All and the Return of Lost Inheritance',
     principle:
-      'And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubilee unto you; and ye shall return every man unto his possession. The Jubilee is the grand Old Testament type of the final redemption: lost inheritance (Eden) is restored, all debts are forgiven, and captive slaves are set free at the blast of the trumpet. First principle: redemption is full restitution of all that was lost in Adam.',
+      'God said: “And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession…” The Jubilee is the great Old Testament type — God\'s advance picture of the final redemption. Lost inheritance came back, and that points to Eden restored. Debts were cancelled, and captive slaves walked free at the sound of the trumpet. First principle: redemption gives back everything that was lost in Adam.',
     sourceKeywords: ['hallow the fiftieth year', 'proclaim liberty', 'jubilee', 'return every man unto his possession'],
     fulfillmentKeywords: ['liberty to the captives', 'acceptable year of the Lord', 'inheritance of the saints', 'earth made new'],
     terms: [
-      { term: 'jubilee', original: 'יוֹבֵל', translit: 'yovel', gloss: 'ram\'s horn / jubilee season of release', note: 'Trumpet sounding freedom and restoration of lost ancestral lands.' },
-      { term: 'proclaim liberty', original: 'קְרָאתֶם דְּרוֹר', translit: 'qerathem deror', gloss: 'proclaim emancipation / freedom', note: 'Quoted by Jesus in Luke 4:18-19 for messianic deliverance.' },
+      { term: 'jubilee', original: 'יוֹבֵל', translit: 'yovel', gloss: 'ram\'s horn / jubilee season of release', note: 'The trumpet announced freedom and the return of land that had belonged to a family.' },
+      { term: 'proclaim liberty', original: 'קְרָאתֶם דְּרוֹר', translit: 'qerathem deror', gloss: 'proclaim emancipation / freedom', note: 'Jesus read this verse in Luke 4:18-19 and applied it to His own mission.' },
     ],
   },
   'jer-4-23': {
@@ -7979,9 +7979,9 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   },
   // ── Hand-written expansion: Leviticus ───────────────────────────────────
   'lev-16-15': {
-    title: 'The Goat of the Sin Offering, His Blood within the Vail',
+    title: 'The Sin-Offering Goat — His Blood Taken inside the Vail',
     principle:
-      'The Day of Atonement goat dies; its blood sprinkled on and before the mercy seat. First principle: atonement is by entered blood — not shed at the altar only, but presented before God in the holiest.',
+      'On the Day of Atonement the goat for the sin offering was killed. The high priest carried its blood inside the vail and sprinkled it on the mercy seat and in front of it. First principle: atonement needs blood brought in, not only blood shed at the altar. The blood had to be presented before God in the Most Holy Place.',
     sourceKeywords: ['the goat of the sin offering', 'bring his blood within the vail', 'sprinkle it upon the mercy seat'],
     fulfillmentKeywords: ['not without blood', 'by his own blood he entered in once'],
     terms: [],
@@ -7989,7 +7989,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-16-22': {
     title: 'The Goat Shall Bear upon Him All Their Iniquities',
     principle:
-      'The scapegoat carries iniquities to a land not inhabited. First principle: two goats, one atonement — blood within, sins without; Isaiah 53\'s burden-bearing walks this ritual out.',
+      'The scapegoat carried the people\'s sins away to a land where no one lived. First principle: the two goats together make one atonement. The first goat\'s blood went inside the sanctuary, and the second goat carried the sins outside. Isaiah 53 shows the same picture: one Servant carries the burden of sin.',
     sourceKeywords: ['the goat shall bear upon him', 'all their iniquities', 'a land not inhabited'],
     fulfillmentKeywords: ['the LORD hath laid on him the iniquity of us all'],
     terms: [],
@@ -7997,7 +7997,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-16-30': {
     title: 'On That Day Shall the Priest Make Atonement for You',
     principle:
-      'Cleansed from all sins before the LORD in one day. First principle: the annual day cleansed once a year; the one day it pointed to cleanses once for all.',
+      'On that one day the people were cleansed from all their sins before the LORD. First principle: the yearly ritual cleansed the people once a year. The day it pointed to cleanses once and for all.',
     sourceKeywords: ['on that day shall the priest make an atonement'],
     fulfillmentKeywords: ['once in the end of the world'],
     terms: [],
@@ -8005,7 +8005,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-17-11': {
     title: 'The Life of the Flesh Is in the Blood',
     principle:
-      'God gave the blood upon the altar for atonement. First principle: blood is life given back to the Life-giver — and the New Testament names it the purchased-atonement medium in Christ.',
+      'God gave the blood on the altar to make atonement. First principle: blood is life handed back to the One who gives life. The New Testament names the blood of Christ as the price that bought our atonement.',
     sourceKeywords: ['the life of the flesh is in the blood', 'given it to you upon the altar', 'maketh an atonement for the soul'],
     fulfillmentKeywords: ['without shedding of blood is no remission', 'this is my blood of the new testament'],
     terms: [],
@@ -8013,7 +8013,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-19-18': {
     title: 'Thou Shalt Love Thy Neighbour as Thyself',
     principle:
-      'No vengeance, no grudge — love as self. First principle: the second-table summary is born here; Jesus, Paul, James, and the Shema all build on this one command.',
+      'God\'s law forbids revenge and forbids holding a grudge. It tells each of us to love our neighbour as we love ourselves. First principle: the summary of the second table of the law begins here. The second table covers how we treat other people. Jesus, Paul, James, and the Shema prayer all build on this one command.',
     sourceKeywords: ['not avenge', 'bear any grudge', 'love thy neighbour as thyself'],
     fulfillmentKeywords: ['the second is like unto it'],
     terms: [],
@@ -8021,7 +8021,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-24-16': {
     title: 'He That Blasphemeth the Name of the LORD Shall Surely Die',
     principle:
-      'Blasphemy carries the congregation\'s stoning, stranger and native alike. First principle: the Name\'s sanctity was capital law — the law Jesus fulfilled by dying under Israel\'s charge of blasphemy.',
+      'A man who blasphemed was stoned by the whole congregation. The same law applied to the stranger and to the man born in Israel. First principle: the holiness of the LORD\'s Name was protected by a death sentence. Jesus fulfilled that law by dying under Israel\'s charge of blasphemy.',
     sourceKeywords: ['blasphemeth the name of the LORD', 'surely be put to death', 'stone him'],
     fulfillmentKeywords: ['we have a law, and by our law he ought to die', 'because he made himself the Son of God'],
     terms: [],
@@ -8029,7 +8029,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lev-26-12': {
     title: 'I Will Walk Among You, and Will Be Your God',
     principle:
-      'The covenant-walk promise. First principle: God\'s presence-walk among a people is the covenant\'s summit — Paul and John both quote it of the redeemed dwelling.',
+      'This is the covenant promise that God will walk with His people. First principle: God walking among His people is the highest point of the covenant. Paul and John both quote this promise about the redeemed dwelling with God.',
     sourceKeywords: ['I will walk among you', 'will be your God', 'ye shall be my people'],
     fulfillmentKeywords: ['the tabernacle of God is with men'],
     terms: [],

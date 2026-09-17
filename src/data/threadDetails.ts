@@ -2167,7 +2167,7 @@ export const threadChains: ThreadChain[] = [
     name: 'The Kinsman-Redeemer (Go\'el)',
     origin: 'Leviticus 25:25',
     steps: [
-      { ref: 'Leviticus 25:25, 47-49', verseId: 'lev-25-25', testament: 'OT', title: 'Law of the Go\'el — redeeming land and kin', connection: 'Earliest Torah ordinance: near kin buys back lost inheritance and liberty.' },
+      { ref: 'Leviticus 25:25, 47-49', verseId: 'lev-25-25', testament: 'OT', title: 'The law of the Go\'el — buying back land and family', connection: 'The first redemption law in the Torah: a close relative buys back land and freedom that a family lost.' },
       { ref: 'Ruth 3:9; 4:1-10', testament: 'OT', title: 'Boaz the faithful kinsman-redeemer', connection: 'Same-OT: Boaz redeems the field and takes Ruth into the covenant line.' },
       { ref: 'Ruth 4:14', verseId: 'rut-4-14', testament: 'OT', title: 'A redeemer to restore life', connection: 'Same-OT: women bless God for the redeemer who fathers Obed.' },
       { ref: 'Job 19:25', verseId: 'job-19-25', testament: 'OT', title: 'I know that my Redeemer lives', connection: 'Same-OT: Job confesses his living Go\'el will stand on the earth.' },
@@ -2286,7 +2286,7 @@ export const threadChains: ThreadChain[] = [
     origin: 'Daniel 8:14',
     steps: [
       { ref: 'Exodus 25:8, 40', verseId: 'exo-25-40', testament: 'OT', title: 'Pattern of the Sanctuary: God dwells with His people', connection: 'Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses.' },
-      { ref: 'Leviticus 16:16-19', verseId: 'lev-16-16', testament: 'OT', title: 'Yom Kippur: Annual cleansing of the sanctuary by blood', connection: 'Same-OT: annual Day of Atonement purges accumulated sin and cleanses the holy places.' },
+      { ref: 'Leviticus 16:16-19', verseId: 'lev-16-16', testament: 'OT', title: 'Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood', connection: 'Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places.' },
       { ref: 'Daniel 7:9-10, 22', verseId: 'dan-7-9', testament: 'OT', title: 'Heavenly court seated and books opened', connection: 'Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints.' },
       { ref: 'Daniel 8:14', verseId: 'dan-8-14', testament: 'OT', title: 'Unto 2,300 days; then shall the sanctuary be cleansed', connection: 'Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary.' },
       { ref: 'Hebrews 8:1-2', verseId: 'heb-8-1', testament: 'NT', title: 'Christ High Priest of the true tabernacle', connection: 'NT: Christ ministers in heaven itself, which the Lord pitched and not man.' },
@@ -2392,7 +2392,7 @@ export const threadChains: ThreadChain[] = [
     name: '8. The Millennium & The Earth Made New',
     origin: 'Leviticus 25:10',
     steps: [
-      { ref: 'Leviticus 25:10', verseId: 'lev-25-10', testament: 'OT', title: 'The Jubilee: Proclaim liberty and restore inheritance', connection: 'Torah type: 50th year Jubilee restores lost possessions and emancipates captive slaves.' },
+      { ref: 'Leviticus 25:10', verseId: 'lev-25-10', testament: 'OT', title: 'The Jubilee: Israel proclaims liberty and every family gets its land back', connection: 'Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free.' },
       { ref: 'Jeremiah 4:23-26', verseId: 'jer-4-23', testament: 'OT', title: 'Earth desolated without inhabitant during judgment', connection: 'Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord.' },
       { ref: 'Isaiah 24:21-22', verseId: 'isa-24-21', testament: 'OT', title: 'High ones and kings gathered in prison, visited after many days', connection: 'Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years.' },
       { ref: '1 Corinthians 6:2-3', verseId: '1co-6-2', testament: 'NT', title: 'Saints shall judge the world and judge angels', connection: 'Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice.' },

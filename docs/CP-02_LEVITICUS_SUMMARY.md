@@ -1,6 +1,13 @@
-# CP-02 · Leviticus Summary (AI-DRAFT — NOT APPLIED, awaiting theology sign-off)
+# CP-02 · Leviticus Summary — SIGNED-OFF
 
-Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.
+Operator theology sign-off (Leviticus only): ACCEPTED
+- Decision text: “Theology sign-off: accept Leviticus CP-02 draft and apply CP-03”
+- Signer: Bonga Ndlovu (operator)
+- Date: 2026-09-17 (Africa/Johannesburg)
+- Reference: PR #4 (branch `cursor/plain-lang-cp01-cp02-genesis-ebb9`)
+- Apply evidence: `docs/CP-03_LEVITICUS_APPLY.md`
+
+Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: **ACCEPTED 2026-09-17** (see sign-off block above).
 
 - Entries: 10
 - Pillar-chain groups carrying Leviticus steps: 3

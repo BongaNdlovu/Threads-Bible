@@ -19,7 +19,8 @@
  *
  * Verify inventory only:  npx tsx scripts/cp02LeviticusAppendix.ts --inventory
  */
-import { writeFileSync } from 'node:fs';
+import { existsSync, readFileSync, writeFileSync } from 'node:fs';
+import { pathToFileURL } from 'node:url';
 import { bookThreadDetails } from '../src/data/bookThreadDetails';
 import { threadChains } from '../src/data/threadDetails';
 import type { ThreadDetail } from '../src/data/threadDetails';
@@ -302,6 +303,38 @@ function main() {
     return;
   }
 
+  if (process.argv.includes('--check-applied')) {
+    const fields = collectLeviticusFields();
+    const current = new Map(fields.map(f => [`${f.id}|${f.fieldPath}`, f.before]));
+    const approved: string[] = [];
+    const mismatches: string[] = [];
+    for (const [id, map] of Object.entries(LEVITICUS_REWRITES)) {
+      for (const [fieldPath, after] of Object.entries(map)) {
+        approved.push(`${id}|${fieldPath}`);
+        const live = current.get(`${id}|${fieldPath}`);
+        if (live === undefined) mismatches.push(`${id} → ${fieldPath} (field not found in data)`);
+        else if (live.trim() !== after.trim()) mismatches.push(`${id} → ${fieldPath} (live text differs from the approved AFTER)`);
+      }
+    }
+    console.log('=== CP-03 · VERIFY APPLIED LEVITICUS REWRITES (no files written) ===');
+    console.log(
+      JSON.stringify(
+        {
+          approvedRewrites: approved.length,
+          dataMatchesApprovedAfter: approved.length - mismatches.length,
+          mismatches: mismatches.length,
+        },
+        null,
+        2,
+      ),
+    );
+    if (mismatches.length > 0) {
+      console.error(mismatches.join('\n'));
+      process.exit(1);
+    }
+    process.exit(0);
+  }
+
   const failingAfter = rows.filter(r => r.violations.length > 0);
   const rewrittenEqualBefore = rows.filter(r => r.changed && r.after.trim() === r.before.trim());
 
@@ -315,6 +348,15 @@ function main() {
         failingAfter.map(r => `${r.id} ${r.fieldPath}: ${r.violations.map(v => v.detail).join('; ')}`).join('\n'),
     );
     process.exit(1);
+  }
+
+  // Never overwrite a checkpoint doc that already carries the operator sign-off.
+  const SIGNED_MARKER = 'Operator theology sign-off';
+  for (const target of ['docs/CP-02_LEVITICUS_DRAFT.md', 'docs/CP-02_LEVITICUS_SUMMARY.md']) {
+    if (existsSync(target) && readFileSync(target, 'utf8').includes(SIGNED_MARKER) && !process.argv.includes('--force')) {
+      console.error(`REFUSING TO OVERWRITE signed checkpoint doc ${target} — pass --force to regenerate.`);
+      process.exit(1);
+    }
   }
 
   const ids = [...new Set(rows.map(r => r.id))];
@@ -396,4 +438,7 @@ function main() {
   );
 }
 
-main();
+// Only run the generator when this file is executed directly. CP-03 imports
+// LEVITICUS_REWRITES (and collectLeviticusFields) from here and must never
+// trigger doc regeneration — that would wipe the operator sign-off headers.
+if (import.meta.url === pathToFileURL(process.argv[1] ?? '').href) main();

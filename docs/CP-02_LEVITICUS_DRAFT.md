@@ -1,6 +1,13 @@
-# CP-02 · Leviticus Draft Rewrites (AI-DRAFT — NOT APPLIED)
+# CP-02 · Leviticus Draft Rewrites — SIGNED-OFF
 
-Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: pending.
+Operator theology sign-off (Leviticus only): ACCEPTED
+- Decision text: “Theology sign-off: accept Leviticus CP-02 draft and apply CP-03”
+- Signer: Bonga Ndlovu (operator)
+- Date: 2026-09-17 (Africa/Johannesburg)
+- Reference: PR #4 (branch `cursor/plain-lang-cp01-cp02-genesis-ebb9`)
+- Apply: `docs/CP-03_LEVITICUS_APPLY.md` (23 of 41 fields applied; 18 VERIFY-ONLY unchanged)
+
+Drafted by: Cline (local agent harness) — the plan pin `grok-4.6` + `effort: xhigh` is NOT satisfied for this session; see `docs/CP-00_BOOTSTRAP.md` §1. Operator theology review: **ACCEPTED 2026-09-17** (see sign-off block above).
 
 > Every in-scope prose field for the Leviticus entries in `bookThreadDetails.ts` (plus the pillar-chain fields that carry Leviticus 25:25) with BEFORE and hand-authored §1.7 AFTER. No source file is modified by this checkpoint — apply waits for operator sign-off (CP-03).
 
