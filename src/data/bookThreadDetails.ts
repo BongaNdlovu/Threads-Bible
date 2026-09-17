@@ -1777,11 +1777,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-5-2': {
     title: 'Bethlehem — Goings Forth from Everlasting',
     principle:
-      'But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting. First principle: the Ruler has a birthplace in time and an origin in eternity — uncreated, yet born of a woman.',
+      '"But thou, Bethlehem Ephratah, though thou be little among the thousands of Judah, yet out of thee shall he come forth unto me that is to be ruler in Israel; whose goings forth have been from of old, from everlasting." First principle: the Ruler has a birthplace in time. He also has an origin in eternity. No one created Him. Yet a woman gave birth to Him.',
     sourceKeywords: ['Bethlehem Ephratah', 'little among the thousands of Judah', 'ruler in Israel', 'from everlasting'],
     fulfillmentKeywords: ['Bethlehem of Judaea', 'shepherds', 'born in Bethlehem', 'not least among the princes of Judah'],
     terms: [
-      { term: 'goings forth', original: 'מוֹצָאוֹת', translit: 'motza\'ot', gloss: 'origins, outgoings, springs', note: 'Plural of ongoing emergence — the preexistent One whose Bethlehem appearing was one going-forth of many.' },
+      { term: 'goings forth', original: 'מוֹצָאוֹת', translit: 'motza\'ot', gloss: 'origins, outgoings, springs', note: 'The Hebrew word is plural, so it speaks of outgoings that keep going out. The One who appeared in Bethlehem already existed. That birth was one going-forth among many.' },
     ],
   },
   'hos-11-1': {
@@ -9769,7 +9769,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-4-1': {
     title: 'The Mountain of the House of the LORD Established',
     principle:
-      'People flow to the exalted mountain in the last days. First principle: the twin-verse of Isaiah 2 — the pilgrimage mountain is the shared vision of two prophets of one Spirit.',
+      'In the last days, people flow to the LORD\'s exalted mountain. First principle: this is the twin verse of Isaiah 2. The same pilgrimage mountain fills the vision of two prophets. One Spirit gave both men that vision.',
     sourceKeywords: ['in the last days', 'the mountain of the house of the LORD', 'people shall flow unto it'],
     fulfillmentKeywords: ['it shall come to pass in the last days'],
     terms: [],
@@ -9777,7 +9777,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-4-3': {
     title: 'Nation Shall Not Lift Up a Sword against Nation',
     principle:
-      'Strong nations rebuked afar off; swords to plowshares. First principle: judgment is the peace-industry\'s founder — war unlearned under the word from Jerusalem.',
+      'God rebukes strong nations far away. Their swords become plowshares. First principle: God\'s judgment starts the peace industry. Under the word from Jerusalem, nations stop learning war.',
     sourceKeywords: ['he shall judge among many people', 'beat their swords into plowshares', 'neither shall they learn war any more'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9785,7 +9785,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-5-1': {
     title: 'They Shall Smite the Judge of Israel with a Rod upon the Cheek',
     principle:
-      'Besieged, the Judge of Israel struck on the cheek. First principle: the smitten Judge is the siege\'s center — the ruler whose origin is everlasting is first struck in humiliation.',
+      'Israel is besieged. The Judge of Israel is struck on the cheek. First principle: the smitten Judge stands at the center of the siege. The ruler whose origin is everlasting is the first to be struck in humiliation.',
     sourceKeywords: ['he hath laid siege against us', 'smite the judge of Israel', 'with a rod upon the cheek'],
     fulfillmentKeywords: ['and when they had platted a crown of thorns... smote him on the head'],
     terms: [],
@@ -9793,7 +9793,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-6-6': {
     title: 'Wherewith Shall I Come before the LORD?',
     principle:
-      'The approach-question asks for offerings. First principle: the question is right, the suggested currency wrong — calves and rivers of oil cannot pay; the answer follows in verse 8.',
+      'This question asks how a man may come before the LORD. It brings a list of offerings. First principle: the question is right, but the currency he suggests is wrong. Calves and rivers of oil cannot pay. The answer follows in verse 8.',
     sourceKeywords: ['Wherewith shall I come before the LORD', 'burnt offerings, with calves of a year old'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9801,7 +9801,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-6-8': {
     title: 'What Doth the LORD Require of Thee?',
     principle:
-      'Do justly, love mercy, walk humbly with thy God. First principle: the three-verb religion — justice done, mercy loved, humility walked; the answer to every ritual economy.',
+      'Do justly, love mercy, walk humbly with thy God. First principle: here is true religion in three verbs. The person who follows God does what is just, loves mercy, and walks humbly. That is the answer to every ritual economy.',
     sourceKeywords: ['what doth the LORD require of thee', 'to do justly, and to love mercy', 'walk humbly with thy God'],
     fulfillmentKeywords: ['I will have mercy, and not sacrifice'],
     terms: [],
@@ -9809,7 +9809,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-7-6': {
     title: 'A Man\'s Enemies Are the Men of His Own House',
     principle:
-      'Family dissolved against family in God\'sjudgment-era. First principle: the household-enmity saying is quoted by Jesus for the sword He brings — division inside the closest circles.',
+      'In God\'s judgment era, family turns against family. First principle: Jesus quotes this household-enmity saying for the sword He brings. The division cuts inside the closest circles.',
     sourceKeywords: ['the son dishonoureth the father', 'a man\'s enemies are the men of his own house'],
     fulfillmentKeywords: ['the father shall be divided against the son'],
     terms: [],
@@ -9817,7 +9817,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-7-7': {
     title: 'Therefore I Will Look unto the LORD',
     principle:
-      'Watch and wait for the God of salvation, who will hear. First principle: the remnant\'s posture amid family-collapse — looking, waiting, hearing promised.',
+      'The faithful few who are left watch and wait for the God of salvation. He will hear them. First principle: looking and waiting is their posture while families collapse. God promises to hear.',
     sourceKeywords: ['I will look unto the LORD', 'I will wait for the God of my salvation', 'my God will hear me'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9825,7 +9825,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'mic-7-19': {
     title: 'Thou Wilt Cast All Their Sins into the Depths of the Sea',
     principle:
-      'Compassion returns; iniquities subdued; sins sea-dumped. First principle: pardon pictured in geography — the depths of the sea as God\'s sin-landfill, never dredged.',
+      'God shows compassion again. He subdues our iniquities. He casts their sins into the depths of the sea. First principle: God pictures pardon in a place on the map. The depths of the sea are His landfill for sin. Nobody ever dredges it.',
     sourceKeywords: ['he will have compassion upon us', 'subdue our iniquities', 'cast all their sins into the depths of the sea'],
     fulfillmentKeywords: [],
     terms: [],
