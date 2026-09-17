@@ -1,0 +1,3300 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains",
+  "drafts": [
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].connection",
+      "after": "NT reads creation + wilderness rest as rest in Christ at the end of the story.",
+      "reason": "OPERATOR-RULED REPAIR (2026-09-18): the frozen glossary bans this abstraction and prescribes the rendering now used. Nothing else in the string changed."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].connection",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "name",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].title",
+      "reason": "unchanged by the ruled repair"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].connection",
+      "reason": "unchanged by the ruled repair"
+    }
+  ],
+  "equivalent": []
+}

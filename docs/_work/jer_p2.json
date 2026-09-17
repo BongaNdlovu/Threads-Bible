@@ -1,0 +1,383 @@
+{
+  "book": "jer",
+  "bookName": "Jeremiah",
+  "part": 2,
+  "parts": 2,
+  "counts": {
+    "entries": 10,
+    "entryStrings": 24,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "jer-31-15",
+    "jer-31-31",
+    "jer-31-33",
+    "jer-31-34",
+    "jer-32-38",
+    "jer-32-40",
+    "jer-33-14",
+    "jer-44-4",
+    "jer-50-20",
+    "jer-51-7"
+  ],
+  "fields": [
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He will put His law in their inward parts, write it on their hearts, be their God, and remember their sins no more. Jesus inaugurates this covenant in His blood, and Hebrews quotes this entire text as the foundation of the Christian dispensation. First principle: the new covenant internalizes God's law, grants universal intimate knowledge of God, and secures absolute forgiveness.",
+      "density": 4.1536,
+      "words": 77,
+      "sentences": 3,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not. Matthew's link to the Bethlehem massacre is no license for despair: the same chapter promises a new covenant and that Rachel shall return. First principle: sorrow in God's plan is never the last word.",
+      "density": 2.9857,
+      "words": 60,
+      "sentences": 3,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-32-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant formula for the reunited land. First principle: the promise formula stands at the heart of the redemption chapters — quoted by Paul of the temple-church and by John of the new earth.",
+      "density": 2.3929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-51-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The nations drunk mad on her wine. First principle: Babylon is both God's instrument and the world's intoxication — Revelation 14 and 18 pick up the cup for the final fall.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-32-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Never turned away to do them good; fear placed in hearts so they never depart. First principle: the everlasting covenant is God-sided perseverance — the fear He puts keeps the people He keeps.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-50-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sins unfound; the reserved pardoned. First principle: the search that finds nothing — pardon so total the investigation comes up empty for the preserved remnant.",
+      "density": 1.7679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No more neighbor-teaching; universal knowledge, forgiven sin. First principle: the covenant's knowledge is direct and its forgiveness total — the least to the greatest, remembered never.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-44-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophets sent rising early, pleading against the abomination. First principle: idolatry is the hated abomination, pleaded against persistently — and the pleaders were ignored to exile.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-33-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The days come for the promised performance to Israel and Judah. First principle: the good thing is dated — the Branch-ruler of the preceding verses is the performance.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The new covenant written in hearts; God theirs, they His. First principle: the covenant moves inside — Hebrews quotes this as the better covenant's very charter.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamentation",
+        "original": "בְּכִי תַמְרוּרִים",
+        "translit": "vekhi tamrurim",
+        "strongs": null,
+        "gloss": "weeping of bitternesses",
+        "note": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-50-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Iniquity of Israel Shall Be Sought for, and There Shall Be None",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "a new covenant",
+        "note": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-32-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Be My People, and I Will Be Their God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-33-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Perform That Good Thing Which I Have Promised",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-51-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Babylon Hath Been a Golden Cup in the LORD'S Hand",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Put My Law in Their Inward Parts",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-44-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Oh, Do Not This Abominable Thing That I Hate",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall All Know Me... I Will Remember Their Sin No More",
+      "density": 0.7,
+      "words": 12,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-32-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make an Everlasting Covenant with Them",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rachel Weeping for Her Children",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The New Covenant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "a new covenant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "a new covenant",
+        "note": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "weeping of bitternesses",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamentation",
+        "original": "בְּכִי תַמְרוּרִים",
+        "translit": "vekhi tamrurim",
+        "strongs": null,
+        "gloss": "weeping of bitternesses",
+        "note": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

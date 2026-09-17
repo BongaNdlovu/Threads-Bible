@@ -1,0 +1,4613 @@
+{
+  "book": "psa",
+  "bookName": "Psalms",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 87,
+    "entryStrings": 220,
+    "chainStrings": 71,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "psa-102-25",
+    "psa-103-8",
+    "psa-104-4",
+    "psa-105-15",
+    "psa-105-17",
+    "psa-105-19",
+    "psa-106-6",
+    "psa-109-25",
+    "psa-109-8",
+    "psa-110-1",
+    "psa-110-4",
+    "psa-112-9",
+    "psa-115-1",
+    "psa-117-1",
+    "psa-118-22",
+    "psa-118-25",
+    "psa-118-26",
+    "psa-118-6",
+    "psa-119-105",
+    "psa-119-160",
+    "psa-132-11",
+    "psa-132-17",
+    "psa-135-13",
+    "psa-139-7",
+    "psa-140-3",
+    "psa-146-4",
+    "psa-146-6",
+    "psa-147-4",
+    "psa-148-13",
+    "psa-16-10",
+    "psa-16-8",
+    "psa-18-2",
+    "psa-18-49",
+    "psa-19-4",
+    "psa-2-1",
+    "psa-2-12",
+    "psa-2-2",
+    "psa-2-6",
+    "psa-2-7",
+    "psa-2-9",
+    "psa-22-1",
+    "psa-22-16",
+    "psa-22-18",
+    "psa-22-22",
+    "psa-22-7",
+    "psa-22-8",
+    "psa-23-1",
+    "psa-24-1",
+    "psa-24-3",
+    "psa-24-7",
+    "psa-31-5",
+    "psa-32-1",
+    "psa-34-20",
+    "psa-34-8",
+    "psa-35-11",
+    "psa-35-19",
+    "psa-37-11",
+    "psa-40-6",
+    "psa-41-9",
+    "psa-45-6",
+    "psa-45-7",
+    "psa-50-12",
+    "psa-53-1",
+    "psa-68-18",
+    "psa-69-21",
+    "psa-69-22",
+    "psa-69-25",
+    "psa-69-4",
+    "psa-69-9",
+    "psa-72-8",
+    "psa-78-2",
+    "psa-78-24",
+    "psa-79-9",
+    "psa-8-2",
+    "psa-8-4",
+    "psa-8-6",
+    "psa-82-6",
+    "psa-89-27",
+    "psa-89-3",
+    "psa-89-34",
+    "psa-89-36",
+    "psa-89-4",
+    "psa-90-2",
+    "psa-91-11",
+    "psa-95-11",
+    "psa-95-7",
+    "psa-97-7"
+  ],
+  "fields": [
+    {
+      "entryId": "psa-40-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt offering and sin offering hast thou not required. Then said I, Lo, I come: in the volume of the book it is written of me, I delight to do thy will, O my God. First principle: obedience from a prepared heart outweighs the whole sacrificial system — and Hebrews puts the words in the mouth of the Son entering the world.",
+      "density": 3.3929,
+      "words": 74,
+      "sentences": 3,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "When man dies, his breath (ruach) departs, he returns to his earth, and in that very day his thoughts perish. Immortality belongs to God alone (1 Tim 6:16) and is bestowed on the righteous solely as a gift at the second coming of Christ (1 Cor 15:51-54). First principle: man is a psychosomatic unity (Gen 2:7); without the breath of life, there is no disembodied soul floating in conscious bliss or torment.",
+      "density": 3.3429,
+      "words": 72,
+      "sentences": 3,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-68-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thou hast ascended on high, thou hast led captivity captive: thou hast received gifts for men; yea, for the rebellious also, that the LORD God might dwell among them. The conquest parade climbs to the sanctuary and showers the conquered with gifts. First principle: Christ's ascension is a victory procession in which the spoils — the Spirit and offices — are given to rebels made friends.",
+      "density": 3.3071,
+      "words": 66,
+      "sentences": 3,
+      "maxSentenceWords": 29,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-8-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "What is man, that thou art mindful of him? and the son of man, that thou visitest him? For thou hast made him a little lower than the angels, and hast crowned him with glory and honour. First principle: humanity's intended dominion, lost by Adam, is seen fulfilled in Jesus — made lower for a little while, now crowned, all things under His feet.",
+      "density": 3.1429,
+      "words": 64,
+      "sentences": 4,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Why do the heathen rage, and the people imagine a vain thing? The kings of the earth set themselves, and the rulers take counsel together, against the LORD, and against his anointed... Yet have I set my king upon my holy hill of Zion. First principle: human conspiracy against God is real but doomed; the decree stands — Thou art my Son; this day have I begotten thee.",
+      "density": 3.0714,
+      "words": 68,
+      "sentences": 4,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-35-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "False witnesses did rise up; they laid to my charge things that I knew not. They rewarded me evil for good to the spoiling of my soul. The righteous sufferer is tried by perjury. First principle: when truth is on trial, God Himself is the advocate — and the innocence of the Sufferer is the point of the charge being false.",
+      "density": 3.0679,
+      "words": 61,
+      "sentences": 4,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-132-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD hath sworn in truth unto David; he will not turn from it; Of the fruit of thy body will I set upon thy throne. The ark's journey to Zion recalls the oath that outlives the exile. First principle: God swears what He will not revoke — a physical descendant reigns, and Peter preached the oath fulfilled in the resurrection (Acts 2:30-31).",
+      "density": 3.0607,
+      "words": 63,
+      "sentences": 3,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Acts 2:30-31"
+        ]
+      }
+    },
+    {
+      "entryId": "psa-69-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "They that hate me without a cause are more than the hairs of mine head... For the zeal of thine house hath eaten me up; and the reproaches of them that reproached thee are fallen upon me. First principle: the Sufferer is hated innocently and consumed devotionally — both halves fulfilled by Christ, in the temple courts and at the cross.",
+      "density": 2.8964,
+      "words": 61,
+      "sentences": 3,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-16-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I have set the LORD always before me... Therefore my heart is glad, and my glory rejoiceth: my flesh also shall rest in hope. For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption. First principle: the Holy One passes through the grave without decay — Peter and Paul both preach the resurrection from this verse.",
+      "density": 2.8821,
+      "words": 65,
+      "sentences": 4,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-24-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Lift up your heads, O ye gates; and be ye lift up, ye everlasting doors; and the King of glory shall come in. Who is this King of glory? The LORD strong and mighty. The victory procession of a warrior-King entering His citadel. First principle: after the battle comes the triumphal entry — heaven's gates open for the victorious Christ.",
+      "density": 2.8143,
+      "words": 60,
+      "sentences": 5,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-45-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thou lovest righteousness, and hatest wickedness: therefore God, thy God, hath anointed thee with the oil of gladness above thy fellows. The Psalm addresses the King as God (thy throne, O God, is for ever) and then distinguishes Him from God His God. First principle: the anointed One is divine yet anointed — the Spirit-rested Son, glad beyond all companions.",
+      "density": 2.7571,
+      "words": 60,
+      "sentences": 3,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-118-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Save now, I beseech thee: O LORD, I beseech thee, send now prosperity. Blessed be he that cometh in the name of the LORD. The Hallel psalm sung at every feast became the street acclamation when the King rode into Jerusalem. First principle: the psalms of Israel put the words of welcome on the lips of the people before the King appears.",
+      "density": 2.75,
+      "words": 62,
+      "sentences": 4,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-110-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD said unto my Lord, Sit thou at my right hand, until I make thine enemies thy footstool. David calls his descendant my Lord — a Son greater than David. First principle: the Messiah is enthroned at God's right hand as both King and Priest (after Melchizedek), while enemies become a footstool in time.",
+      "density": 2.7464,
+      "words": 55,
+      "sentences": 3,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-41-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Yea, mine own familiar friend, in whom I trusted, which did eat of my bread, hath lifted up his heel against me. Betrayal comes not from a stranger but from table fellowship. First principle: the deepest wound of the righteous sufferer is treachery at the table — and Jesus applies the verse to Judas Himself.",
+      "density": 2.6893,
+      "words": 55,
+      "sentences": 3,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-22-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David opens Psalm 22 with the cry of the righteous sufferer abandoned to judgment. Jesus quotes this exact line from the cross. The psalm moves from excruciating suffering to universal worship of all nations. First principle: the cross is the substitutionary bearing of the curse of forsakenness so that the nations may be gathered to God.",
+      "density": 2.6571,
+      "words": 56,
+      "sentences": 4,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-89-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Also I will make him my firstborn, higher than the kings of the earth. My covenant will I not break, nor alter the thing that is gone out of my lips. David's seed is divinely adopted into firstborn rank. First principle: the oath to David is unbreakable; the firstborn is preeminent — heir of everything, King above every king.",
+      "density": 2.6179,
+      "words": 59,
+      "sentences": 4,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-82-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Earthly judges are called gods as children of the Most High. First principle: Jesus uses the psalm's logic — if Scripture dignified failing judges, the Sanctified and Sent One cannot be a blasphemer for saying He is the Son.",
+      "density": 2.575,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-31-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Into thine hand I commend my spirit: thou hast redeemed me, O LORD God of truth. The evening prayer of trusting surrender becomes the dying word of the Christ. First principle: the righteous commit spirit, times, and enemies into God's hand — and redemption is confessed at the moment of release.",
+      "density": 2.5321,
+      "words": 51,
+      "sentences": 3,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-89-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne is built to all generations. First principle: the seed here is singular in destination and plural in blessing — Gabriel quotes the effect to Mary: of His kingdom there shall be no end.",
+      "density": 2.475,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-69-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Reproach hath broken my heart; and I am full of heaviness... They gave me also gall for my meat; and in my thirst they gave me vinegar to drink. Every kindness refused to the righteous sufferer becomes a registered detail of the Passion. First principle: the cross fulfilled scripture down to the drink offered and refused.",
+      "density": 2.4286,
+      "words": 56,
+      "sentences": 4,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-89-36",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne lasting as the sun before God. First principle: the people asked whether Christ is David's son — the psalm answers that the throne outlasts the sun, and Hebrews hands it to the Son.",
+      "density": 2.4179,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-109-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I became also a reproach unto them: when they looked upon me they shaked their heads. The scorned sufferer becomes a byword among mockers. First principle: ridicule is a predicted instrument of the Passion — even the gesture of the head is scripted before Golgotha.",
+      "density": 2.325,
+      "words": 45,
+      "sentences": 3,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-22-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalmist foresees dogs encircling the sufferer, the assembly of the wicked enclosing Him, and His hands and feet pierced. Written centuries before crucifixion was invented, this depicts the exact physical trauma of Roman execution. First principle: prophetic specificity establishes the divine plan of the crucifixion.",
+      "density": 2.2929,
+      "words": 46,
+      "sentences": 3,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-95-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The rest-forfeiting oath. First principle: the oath cuts both ways — the promise stands for believers, and the exclusion stands for unbelief; the rest remains for the people of God.",
+      "density": 2.2929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-115-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Glory refused to self, assigned to mercy and truth. First principle: the engine of all witness — the name gets the credit; Jesus refused glory that belonged to the Father in the same spirit.",
+      "density": 2.2786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-117-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Bible's shortest psalm is its widest invitation. First principle: two verses make the Gentiles a choir — Paul strings it into the Romans 15 chain proving Gentile praise was always the plan.",
+      "density": 2.2536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-78-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Corn of heaven in the wilderness. First principle: the psalm feeds the crowd's question to Jesus — and His answer: Moses gave not the bread; my Father gives the true bread.",
+      "density": 2.2036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-34-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Many are the afflictions of the righteous: but the LORD delivereth him out of them all. He keepeth all his bones: not one of them is broken. The righteous sufferer passes through affliction with an unbroken body — the Passover-lamb pattern. First principle: God preserves His sacrifice whole even in death.",
+      "density": 2.1893,
+      "words": 51,
+      "sentences": 4,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The decree is declared to the Son Himself. First principle: begotten is a status decree, not a birthday — Paul and Hebrews apply it to the resurrection and the eternal generation alike.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-24-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The world and its dwellers belong to God. First principle: ownership grounds worship and ethics alike — Paul quotes it against idol-food fears; the earth is the Father's, governed by the Son.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-45-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The King is addressed as God with an eternal right sceptre. First principle: the Father Himself addresses the Son as God — Hebrews reads the psalm as direct divine speech about the Son's throne.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-35-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Wrongful enemies must not win the day. First principle: John binds the phrase to the world's hatred of Christ — the causeless hatred of the Righteous One was prophesied twice over.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-16-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalm of the Holy One's confidence: at my right hand, I shall not be moved. First principle: Peter preaches this as Christ's own settled trust — the resurrection certainty of the One at God's right hand.",
+      "density": 2.125,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-118-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The stone which the builders refused is become the head stone of the corner. This is the LORD's doing; it is marvellous in our eyes. Rejection by the professionals becomes God's appointment. First principle: exaltation follows rejection — the crucified One is the foundation of all God's building.",
+      "density": 2.1143,
+      "words": 48,
+      "sentences": 4,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-8-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Adamic dominion is the psalm's theme; Hebrews finds it exhausted in Christ. First principle: the dominion Adam lost is visible again in the crowned Son — all things under feet, not yet all seen.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-53-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalm twin of Psalm 14: corruption and none that doeth good. First principle: practical atheism is the universal diagnosis Paul cites — the denial is in the heart before it is in words.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The rulers take counsel against the LORD and against His anointed. First principle: the conspiracy of Psalm 2 convened at Calvary — Herod, Pilate, and the nations did exactly this, exactly as foretold.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-139-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heaven, hell, the dawn, the sea — the Spirit is there. First principle: omnipresence is both comfort and inescapability — nowhere is God absent, and that is good news for the pursued believer.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-22-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The mockers quote the Sufferer's own faith back at Him. First principle: the taunt at the cross — He trusted in God; let Him deliver Him now — is a line-for-line fulfillment.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-119-105",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Word lights each next step on a dark road. First principle: guidance is incremental — a lamp, not a floodlight; Peter anchors prophecy as the surer light in the same image.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Son's inheritance includes shattering rebel powers like pottery. First principle: the same rod promised to Messiah is delegated to overcomers — iron rule belongs to the faithful, not the faithless.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-105-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The patriarchs are God-protected sojourners. First principle: the covenant line is guarded through danger — the anointed and the prophets carry a promise the nations learned to fear.",
+      "density": 2.0143,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-91-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Guardian angels bear up the trusting one in all his ways. First principle: Satan quoted this at the temptation — the promise is for the path of obedience, never for testing God.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-118-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Hallel cry for salvation and prosperity. First principle: Hosanna on Palm Sunday is this verse on people's lips — the request became an acclamation of the coming King.",
+      "density": 1.9821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-22-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalm of forsakenness pivots to congregation praise among brethren. First principle: the cross flows into family — the forsaken One becomes the confessing Brother in the midst of the church.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-72-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Solomon's greater Son rules to the ends of the earth. First principle: the royal psalm reaches past any Israelite king — the kingdom that fills the earth is the Son's, forever.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Man's rage does not cancel God's decree: My King is installed on Zion. First principle: the decree stands over the conspiracy — the cross that men meant as rejection God meant as enthronement.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-147-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He names every star — great power, understanding infinite. First principle: the counter of stars is the healer of the brokenhearted — the same power that orders skies binds wounds.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-19-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sun-pavilion preaches day and night to the ends of the world. First principle: creation's voice is universal and wordless — Paul adopts it as the pattern of the gospel's worldwide sound.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-23-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Green pastures, still waters, the valley, the table — the Shepherd psalm. First principle: the LORD who shepherds is the Lamb who feeds — Christ claims the psalm and heaven fulfills it.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-135-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The memorial-name spans all generations. First principle: the name revealed at the bush is the name remembered at every altar — permanence is part of the promise.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-146-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Maker keeps truth forever. First principle: trust belongs to the Creator, not princes — the psalm grounds hope in the making power Paul preaches to idolaters.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-89-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The oath out of God's lips is unalterable. First principle: even covenant failure in David's line cannot void the word — the promise survives to be fulfilled in Christ.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-34-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Experience is invited: taste and see; blessed is the trusting man. First principle: Peter applies the tasting to the Lord Himself — newborn babes desire the milk because they have tasted.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-102-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The perishing heavens versus the enduring Creator. First principle: Hebrews addresses the Son with this psalm — creation's Maker is the unchanging Person whose years have no end.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-8-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God ordains strength from infant lips to still the enemy. First principle: perfected praise comes from the least — the children shouting Hosanna quoted this psalm back at the establishment.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-24-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The ascent question demands clean hands and a pure heart. First principle: only purity sees God — the beatitude and the epistle both answer the question with Christ's own holiness.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-69-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Devouring zeal and fallen reproaches — both quoted of Christ. First principle: the cleansing of the temple and the insults of the cross are the same psalm, the same Man.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-40-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Of a bored-open ear marking willing servanthood (Exod 21:6); Hebrews reads it as a body prepared for the will of God (Heb 10:5).",
+      "density": 1.8893,
+      "words": 23,
+      "sentences": 1,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "opened",
+        "original": "כָּרִיתָ",
+        "translit": "karita",
+        "strongs": null,
+        "gloss": "you have dug out, bored open",
+        "note": "Of a bored-open ear marking willing servanthood (Exod 21:6); Hebrews reads it as a body prepared for the will of God (Heb 10:5).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-18-49",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David confesses God among the nations. First principle: Paul quotes this to prove the plan always included Gentile praise — the Davidic victory song was mission prophecy.",
+      "density": 1.875,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-106-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The confession joins generations in guilt. First principle: shared history means shared accountability — the prayer that names ancestral sin honestly is the prayer that finds mercy.",
+      "density": 1.875,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-78-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Asaph's dark sayings of old are Jesus' teaching method. First principle: the parables are not a plan B — they are the psalm's own program for revealing and concealing.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-118-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Man can do nothing ultimate against the LORD-sided soul. First principle: courage is arithmetic — the greater Helper outweighs every human threat; Hebrews makes it the antidote to covetousness.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-132-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A lamp ordained for the anointed; David's horn sprouts. First principle: the chosen resting-place grows a light — Zacharias' horn of salvation and the house-of-David dawn both sprout here.",
+      "density": 1.8679,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-50-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God needs nothing from sacrificial hands — the world is already His. First principle: thanksgiving, not feeding heaven, is the sacrifice God wants; the animals on a thousand hills are His.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-148-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Earth and heaven are summoned to a name above the terrain. First principle: the universal praise of Psalm 148 is the rehearsal of the final doxology to the enthroned Lamb.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-89-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The chosen-covenant oath is struck with David. First principle: every throne promise in the New Testament leans on this sworn covenant — sworn mercy is unbreakable mercy.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-32-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covered-sin psalm of forgiven David. First principle: Paul's proof-text for imputed righteousness — blessedness comes not from works but from the Lord not imputing iniquity.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-18-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David's deliverance song stacks the titles: rock, fortress, deliverer, horn of salvation. First principle: every rescue-name David used is fulfilled in the greater Son — the horn exalted for us.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-119-160",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Every righteous judgment endures forever. First principle: the whole corpus is trustworthy at once — Jesus prays Thy word is truth over the entire witness.",
+      "density": 1.7679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-2-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Homage or wrath — Blessed are all they that put their trust in him. First principle: the psalm ends in gospel invitation; the angry Lamb is also the trusting soul's refuge.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-140-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Adder-poison under the lips. First principle: the anatomy of evil speech in the psalms becomes Paul's courtroom exhibit — the mouth convicts the race.",
+      "density": 1.7429,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-69-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The deserted dwelling and another taking office. First principle: Peter joins this to Judas — the field and the forfeited office both fulfill the imprecation psalm.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-90-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Before mountains were born, God was God. First principle: eternity precedes creation — Hebrews applies the unchanging-Creator psalm to the Son, the same yesterday and today.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-104-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Angels are winds and flaming fire — servants by nature. First principle: Hebrews uses the psalm to rank angels as ministering spirits under the Son, the worshipped Lord.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-8-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hebrews 2:9 reads both dimensions: lacking-by-a-little in rank and for-a-little-while in time — the incarnation and the cross in one word.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "a little lower",
+        "original": "מְעַט",
+        "translit": "me'at",
+        "strongs": null,
+        "gloss": "a little, briefly, for a little while",
+        "note": "Hebrews 2:9 reads both dimensions: lacking-by-a-little in rank and for-a-little-while in time — the incarnation and the cross in one word.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-132-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Paul's word in Acts 13:23: of this man's seed hath God according to his promise raised unto Israel a Saviour, Jesus.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hath sworn",
+        "original": "נִשְׁבַּע",
+        "translit": "nishba'",
+        "strongs": null,
+        "gloss": "has sworn an oath",
+        "note": "Paul's word in Acts 13:23: of this man's seed hath God according to his promise raised unto Israel a Saviour, Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-79-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Deliverance sought for the glory of the name — purge away our sins. First principle: the psalm binds rescue and pardon: for thy name's sake is the ground of both.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-105-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joseph sold as a servant, positioned ahead of famine. First principle: providence precedes — God sends the savior into Egypt before the family knows it needs one.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-109-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The betrayer's days are few and his office forfeited. First principle: Peter quotes it for the twelfth witness — prophecy governs even the apostolic succession after betrayal.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-105-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The word of the LORD tried Joseph until it proved him out. First principle: tested promises have an appointed release — the dream fulfilled at the exact prison-door moment.",
+      "density": 1.6964,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-69-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The imprecation of the Sufferer: welfare turned trap. First principle: Paul applies the table-snare to unbelieving Israel — safety itself becomes judgment where Messiah is refused.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-110-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD's unrepented oath installs the eternal priest. First principle: the oath outlasts Aaron — Hebrews builds its entire priesthood argument on this single unchangeable line.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-22-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Clothes divided, lots cast — written a millennium before the soldiers. First principle: the gambling squad at the cross did not know they were actors in Psalm 22.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-95-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sheep of His hand are summoned: To day if ye will hear his voice. First principle: the flock has a Shepherd and a Today — hearing delayed is heart hardened.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-97-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Idol-boasters are confounded while heaven's order worships the true One. First principle: Hebrews quotes it of the Son's advent — the first-begotten receives what idol-worshipers lose.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-109-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Matthew uses the same gesture of the passers-by at the cross (Matt 27:39) — mockery with a Hebrew posture.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shaked their heads",
+        "original": "יְנִידוּ רֹאשׁ",
+        "translit": "yenidu rosh",
+        "strongs": null,
+        "gloss": "wagged, moved to and fro the head",
+        "note": "Matthew uses the same gesture of the passers-by at the cross (Matt 27:39) — mockery with a Hebrew posture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-24-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah; the entry is His heavenly reception, not an earthly parade.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "King of glory",
+        "original": "מֶלֶךְ הַכָּבוֹד",
+        "translit": "melekh hakavod",
+        "strongs": null,
+        "gloss": "King of glory, weightiness of splendor",
+        "note": "Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah; the entry is His heavenly reception, not an earthly parade.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34); John records the hyssop-borne vinegar.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "gall",
+        "original": "רֹאשׁ",
+        "translit": "rosh",
+        "strongs": null,
+        "gloss": "gall, poison, bitter herb",
+        "note": "Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34); John records the hyssop-borne vinegar.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-31-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Stephen dies with the same entrusting on his lips (Acts 7:59) — the prayer became a Christian death-song.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I commend",
+        "original": "פָּקַדְתִּי",
+        "translit": "paqadti",
+        "strongs": null,
+        "gloss": "I entrust, commit for safekeeping",
+        "note": "Stephen dies with the same entrusting on his lips (Acts 7:59) — the prayer became a Christian death-song.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-2-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The Jerusalem church quotes the psalm as fulfilled in Herod, Pilate, and the nations against Jesus (Acts 4:25-27).",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "rage",
+        "original": "רָגַשׁ",
+        "translit": "ragash",
+        "strongs": null,
+        "gloss": "to throng, assemble tumultuously",
+        "note": "The Jerusalem church quotes the psalm as fulfilled in Herod, Pilate, and the nations against Jesus (Acts 4:25-27).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-22-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The mocked Sufferer foresees the lip-shooting crowd at Golgotha. First principle: mockery is part of the Passion script — rulers sneering is prophecy performed.",
+      "density": 1.4571,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-112-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The righteous giver's righteousness endures; his horn is exalted. First principle: Paul quotes it for cheerful giving — scattered seed is righteousness enduring forever.",
+      "density": 1.4571,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-103-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The character-proclamation of Exodus 34 in psalm form. First principle: plenteous mercy is God's self-description — repeated across Scripture and embodied in Christ.",
+      "density": 1.4321,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Eccl 12:7 — spirit returns to God who gave it; the animating principle, not an independent ghost.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "breath / spirit",
+        "original": "רוּחוֹ",
+        "translit": "rucho",
+        "strongs": null,
+        "gloss": "his breath / life-animating power from God",
+        "note": "Eccl 12:7 — spirit returns to God who gave it; the animating principle, not an independent ghost.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-34-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 19:36 joins this verse with Exodus 12:46 at the cross: that the scripture should be fulfilled.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keepeth",
+        "original": "שֹׁמֵר",
+        "translit": "shomer",
+        "strongs": null,
+        "gloss": "one keeping, guarding",
+        "note": "John 19:36 joins this verse with Exodus 12:46 at the cross: that the scripture should be fulfilled.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-118-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus quotes it against the chief priests (Matt 21:42); Peter preaches it before the Sanhedrin (Acts 4:11).",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "head of the corner",
+        "original": "רֹאשׁ פִּנָּה",
+        "translit": "rosh pinnah",
+        "strongs": null,
+        "gloss": "head of the corner, capstone/cornerstone",
+        "note": "Jesus quotes it against the chief priests (Matt 21:42); Peter preaches it before the Sanhedrin (Acts 4:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-110-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus builds His whole argument on this single word (Matt 22:44-45): How then is he his son?",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my Lord",
+        "original": "לַאדֹנִי",
+        "translit": "la'adhoni",
+        "strongs": null,
+        "gloss": "to my Lord (Adonai)",
+        "note": "Jesus builds His whole argument on this single word (Matt 22:44-45): How then is he his son?",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-22-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Aramaic in Matt 27:46: Eli, Eli, lama sabachthani — Christ's loud cry at the ninth hour.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "why hast thou forsaken me",
+        "original": "לָמָה עֲזַבְתָּנִי",
+        "translit": "lamah ʿazavtani",
+        "strongs": null,
+        "gloss": "why have you forsaken / left me?",
+        "note": "Aramaic in Matt 27:46: Eli, Eli, lama sabachthani — Christ's loud cry at the ninth hour.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-41-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus quotes the verse in the upper room: that the scripture may be fulfilled (John 13:18).",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hath lifted up his heel",
+        "original": "הִגְדִּיל עָקֵב",
+        "translit": "higdil aqev",
+        "strongs": null,
+        "gloss": "has made great the heel against me",
+        "note": "Jesus quotes the verse in the upper room: that the scripture may be fulfilled (John 13:18).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-35-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The Sanhedrin sought such testimony against Jesus, and the law required two agreeing witnesses (Matt 26:59-61).",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "false witnesses",
+        "original": "עֵדֵי חָמָס",
+        "translit": "'edei khamas",
+        "strongs": null,
+        "gloss": "witnesses of violence, malicious testimony",
+        "note": "The Sanhedrin sought such testimony against Jesus, and the law required two agreeing witnesses (Matt 26:59-61).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus uses the identical word of the world's hatred of Himself and the Father (John 15:24-25).",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without a cause",
+        "original": "חִנָּם",
+        "translit": "khinnam",
+        "strongs": null,
+        "gloss": "gratis, for nothing, causelessly",
+        "note": "Jesus uses the identical word of the world's hatred of Himself and the Father (John 15:24-25).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-16-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Acts 2:31 renders it hades and insists David's tomb still holds him while Christ's does not.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hell",
+        "original": "שְׁאוֹל",
+        "translit": "she'ol",
+        "strongs": null,
+        "gloss": "the grave, realm of the dead",
+        "note": "Acts 2:31 renders it hades and insists David's tomb still holds him while Christ's does not.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-89-27",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Paul and John apply the rank to Christ (Col 1:18; Rev 1:5): preeminence, not a beginning.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "firstborn",
+        "original": "בְּכוֹר",
+        "translit": "bekhor",
+        "strongs": null,
+        "gloss": "firstborn — rank and heirship, not origin",
+        "note": "Paul and John apply the rank to Christ (Col 1:18; Rev 1:5): preeminence, not a beginning.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-37-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Delight in the LORD ends in abundance of peace. First principle: the second-beatitude source — meekness inherits; grasping loses. Christ blesses the very people the world overlooks.",
+      "density": 1.2464,
+      "words": 27,
+      "sentences": 3,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "psa-118-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hebrew hoshi'ah na is exactly what the crowds shouted — Hosanna (Matt 21:9; John 12:13).",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Save now",
+        "original": "הוֹשִׁיעָה נָּא",
+        "translit": "hoshi'ah na",
+        "strongs": null,
+        "gloss": "save, we pray, now!",
+        "note": "Hebrew hoshi'ah na is exactly what the crowds shouted — Hosanna (Matt 21:9; John 12:13).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-68-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ephesians 4:8-11 quotes the verse and names the gifts: apostles, prophets, evangelists, pastors, teachers.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "ascended on high",
+        "original": "עָלִיתָ מָרוֹם",
+        "translit": "'alita marom",
+        "strongs": null,
+        "gloss": "you have gone up to the height",
+        "note": "Ephesians 4:8-11 quotes the verse and names the gifts: apostles, prophets, evangelists, pastors, teachers.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-45-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Root of Mashiach/Messiah; Hebrews 1:9 applies the verse directly to the Son.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed",
+        "original": "מָשַׁחְתָּ",
+        "translit": "mashakhta",
+        "strongs": null,
+        "gloss": "you have smeared with oil, consecrated",
+        "note": "Root of Mashiach/Messiah; Hebrews 1:9 applies the verse directly to the Son.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-110-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Said unto My Lord, Sit Thou at My Right Hand",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-132-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Of the Fruit of Thy Body Will I Set upon Thy Throne",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "LXX ὤρυξαν (ōryxan — they pierced/dug through); John 20:25; Luke 24:39-40.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pierced",
+        "original": "כָּאֲרוּ / כָּאֲרִי",
+        "translit": "kaʾaru",
+        "strongs": null,
+        "gloss": "they pierced / gouged",
+        "note": "LXX ὤρυξαν (ōryxan — they pierced/dug through); John 20:25; Luke 24:39-40.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-118-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Is He That Cometh in the Name of the LORD",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-53-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Fool Hath Said in His Heart, There Is No God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Breath Goeth Forth — Thoughts Perish in That Day",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-69-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Hate Me Without a Cause; Zeal Eats Me Up",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-118-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Stone the Builders Refused Is Head of the Corner",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-8-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made a Little Lower Than the Angels, Crowned with Glory",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-2-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet Have I Set My King upon My Holy Hill",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art My Son; This Day Have I Begotten Thee",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-35-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Not Them That Hate Me Without a Cause Rejoice",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-102-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Of Old Hast Thou Laid the Foundation of the Earth",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-105-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Touch Not Mine Anointed, and Do My Prophets No Harm",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-118-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is on My Side; I Will Not Fear",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My God, My God, Why Hast Thou Forsaken Me",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-40-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Mine Ears Hast Thou Opened — Lo, I Come",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-45-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Anointed with the Oil of Gladness Above Thy Fellows",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-34-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Keepeth All His Bones: Not One Is Broken",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-41-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Mine Own Familiar Friend Hath Lifted Up His Heel",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-89-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Firstborn, Higher Than the Kings of the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Break Them with a Rod of Iron",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-18-49",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Give Thanks unto Thee among the Heathen",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-19-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Their Line Is Gone Out through All the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Him Deliver Him, Seeing He Delighted in Him",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-23-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is My Shepherd; I Shall Not Want",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-24-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Earth Is the LORD'S, and the Fulness Thereof",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-24-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Shall Ascend into the Hill of the LORD?",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-34-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O Taste and See That the LORD Is Good",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-45-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Throne, O God, Is for Ever and Ever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-50-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If I Were Hungry, I Would Not Tell Thee",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-69-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Zeal of Thine House Hath Eaten Me Up",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-95-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Sware in My Wrath, They Shall Not Enter",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-103-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is Merciful and Gracious, Slow to Anger",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-110-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Priest for Ever After the Order of Melchizedek",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-112-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Hath Dispersed, He Hath Given to the Poor",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-115-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Not unto Us, but unto Thy Name Give Glory",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-132-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make the Horn of David to Bud",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-16-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Wilt Not Leave My Soul in Hell",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-68-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Hast Ascended on High, Led Captivity Captive",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-2-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Why Do the Heathen Rage Against the Anointed?",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-8-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Out of the Mouth of Babes and Sucklings",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-8-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Hast Put All Things under His Feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-16-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Set the LORD Always Before Me",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-18-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is My Rock and My Fortress",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They That See Me Laugh Me to Scorn",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Declare Thy Name unto My Brethren",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-78-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Open My Mouth in a Parable",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-78-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Had Rained Down Manna upon Them to Eat",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-91-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Give His Angels Charge over Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-105-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Sent a Man Before Them, Even Joseph",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-119-105",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Word Is a Lamp unto My Feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-140-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Have Sharpened Their Tongues Like a Serpent",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-146-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Which Made Heaven, and Earth, and the Sea",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "why have you forsaken / left me?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "why hast thou forsaken me",
+        "original": "לָמָה עֲזַבְתָּנִי",
+        "translit": "lamah ʿazavtani",
+        "strongs": null,
+        "gloss": "why have you forsaken / left me?",
+        "note": "Aramaic in Matt 27:46: Eli, Eli, lama sabachthani — Christ's loud cry at the ninth hour.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-22-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Pierced My Hands and My Feet",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "his breath / life-animating power from God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "breath / spirit",
+        "original": "רוּחוֹ",
+        "translit": "rucho",
+        "strongs": null,
+        "gloss": "his breath / life-animating power from God",
+        "note": "Eccl 12:7 — spirit returns to God who gave it; the animating principle, not an independent ghost.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-41-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "has made great the heel against me",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hath lifted up his heel",
+        "original": "הִגְדִּיל עָקֵב",
+        "translit": "higdil aqev",
+        "strongs": null,
+        "gloss": "has made great the heel against me",
+        "note": "Jesus quotes the verse in the upper room: that the scripture may be fulfilled (John 13:18).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-31-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Into Thine Hand I Commend My Spirit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-109-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "wagged, moved to and fro the head",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shaked their heads",
+        "original": "יְנִידוּ רֹאשׁ",
+        "translit": "yenidu rosh",
+        "strongs": null,
+        "gloss": "wagged, moved to and fro the head",
+        "note": "Matthew uses the same gesture of the passers-by at the cross (Matt 27:39) — mockery with a Hebrew posture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-24-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lift Up Your Heads, O Ye Gates",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-68-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "you have gone up to the height",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "ascended on high",
+        "original": "עָלִיתָ מָרוֹם",
+        "translit": "'alita marom",
+        "strongs": null,
+        "gloss": "you have gone up to the height",
+        "note": "Ephesians 4:8-11 quotes the verse and names the gifts: apostles, prophets, evangelists, pastors, teachers.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-8-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "a little, briefly, for a little while",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "a little lower",
+        "original": "מְעַט",
+        "translit": "me'at",
+        "strongs": null,
+        "gloss": "a little, briefly, for a little while",
+        "note": "Hebrews 2:9 reads both dimensions: lacking-by-a-little in rank and for-a-little-while in time — the incarnation and the cross in one word.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-89-27",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "firstborn — rank and heirship, not origin",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "firstborn",
+        "original": "בְּכוֹר",
+        "translit": "bekhor",
+        "strongs": null,
+        "gloss": "firstborn — rank and heirship, not origin",
+        "note": "Paul and John apply the rank to Christ (Col 1:18; Rev 1:5): preeminence, not a beginning.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-2-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Kiss the Son, Lest He Be Angry",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-32-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Is He Whose Transgression Is Forgiven",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-79-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Help Us, O God of Our Salvation",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-89-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Sworn unto David My Servant",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-89-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Seed Will I Establish for Ever",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-90-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "From Everlasting to Everlasting, Thou Art God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-95-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Are the People of His Pasture",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-105-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Until the Time That His Word Came",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-117-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O Praise the LORD, All Ye Nations",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-118-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Save Now, I Beseech Thee, O LORD",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-119-160",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Word Is True from the Beginning",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-135-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Name, O LORD, Endureth for Ever",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-139-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whither Shall I Flee from Thy Presence?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-147-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Telleth the Number of the Stars",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-40-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "you have dug out, bored open",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "opened",
+        "original": "כָּרִיתָ",
+        "translit": "karita",
+        "strongs": null,
+        "gloss": "you have dug out, bored open",
+        "note": "Of a bored-open ear marking willing servanthood (Exod 21:6); Hebrews reads it as a body prepared for the will of God (Heb 10:5).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-45-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "you have smeared with oil, consecrated",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "anointed",
+        "original": "מָשַׁחְתָּ",
+        "translit": "mashakhta",
+        "strongs": null,
+        "gloss": "you have smeared with oil, consecrated",
+        "note": "Root of Mashiach/Messiah; Hebrews 1:9 applies the verse directly to the Son.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Gall for Meat; Vinegar for Thirst",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-109-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shake Their Heads at Me",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-16-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the grave, realm of the dead",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hell",
+        "original": "שְׁאוֹל",
+        "translit": "she'ol",
+        "strongs": null,
+        "gloss": "the grave, realm of the dead",
+        "note": "Acts 2:31 renders it hades and insists David's tomb still holds him while Christ's does not.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-24-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "King of glory, weightiness of splendor",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "King of glory",
+        "original": "מֶלֶךְ הַכָּבוֹד",
+        "translit": "melekh hakavod",
+        "strongs": null,
+        "gloss": "King of glory, weightiness of splendor",
+        "note": "Rabbinic sources (Shemoth Rabba) apply the psalm to Messiah; the entry is His heavenly reception, not an earthly parade.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-2-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Kings Set Themselves Against His Anointed",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Part My Garments Among Them",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-37-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Meek Shall Inherit the Earth",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-69-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Their Table Become a Snare",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-82-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Said, Ye Are Gods",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-89-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Covenant Will I Not Break",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-89-36",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Seed Shall Endure for Ever",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-106-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Have Sinned with Our Fathers",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "his thoughts, plans, mental operations",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "his thoughts",
+        "original": "עֶשְׁתֹּנֹתָיו",
+        "translit": "ʿeshtonotav",
+        "strongs": null,
+        "gloss": "his thoughts, plans, mental operations",
+        "note": "Total cessation of cognitive consciousness.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-146-4",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Total cessation of cognitive consciousness.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "his thoughts",
+        "original": "עֶשְׁתֹּנֹתָיו",
+        "translit": "ʿeshtonotav",
+        "strongs": null,
+        "gloss": "his thoughts, plans, mental operations",
+        "note": "Total cessation of cognitive consciousness.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-31-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I entrust, commit for safekeeping",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I commend",
+        "original": "פָּקַדְתִּי",
+        "translit": "paqadti",
+        "strongs": null,
+        "gloss": "I entrust, commit for safekeeping",
+        "note": "Stephen dies with the same entrusting on his lips (Acts 7:59) — the prayer became a Christian death-song.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-35-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "False Witnesses Did Rise Up",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-35-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "witnesses of violence, malicious testimony",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "false witnesses",
+        "original": "עֵדֵי חָמָס",
+        "translit": "'edei khamas",
+        "strongs": null,
+        "gloss": "witnesses of violence, malicious testimony",
+        "note": "The Sanhedrin sought such testimony against Jesus, and the law required two agreeing witnesses (Matt 26:59-61).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-118-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "head of the corner, capstone/cornerstone",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "head of the corner",
+        "original": "רֹאשׁ פִּנָּה",
+        "translit": "rosh pinnah",
+        "strongs": null,
+        "gloss": "head of the corner, capstone/cornerstone",
+        "note": "Jesus quotes it against the chief priests (Matt 21:42); Peter preaches it before the Sanhedrin (Acts 4:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Their Habitation Be Desolate",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-72-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Dominion from Sea to Sea",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-97-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Worship Him, All Ye Gods",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-104-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Maketh His Angels Spirits",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-109-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Another Take His Office",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-148-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Name Alone Is Excellent",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "psa-22-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they pierced / gouged",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pierced",
+        "original": "כָּאֲרוּ / כָּאֲרִי",
+        "translit": "kaʾaru",
+        "strongs": null,
+        "gloss": "they pierced / gouged",
+        "note": "LXX ὤρυξαν (ōryxan — they pierced/dug through); John 20:25; Luke 24:39-40.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "gall, poison, bitter herb",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "gall",
+        "original": "רֹאשׁ",
+        "translit": "rosh",
+        "strongs": null,
+        "gloss": "gall, poison, bitter herb",
+        "note": "Here it is bitterness pressed to the lips of the Sufferer (Matt 27:34); John records the hyssop-borne vinegar.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-118-26",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "save, we pray, now!",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Save now",
+        "original": "הוֹשִׁיעָה נָּא",
+        "translit": "hoshi'ah na",
+        "strongs": null,
+        "gloss": "save, we pray, now!",
+        "note": "Hebrew hoshi'ah na is exactly what the crowds shouted — Hosanna (Matt 21:9; John 12:13).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-69-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "gratis, for nothing, causelessly",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without a cause",
+        "original": "חִנָּם",
+        "translit": "khinnam",
+        "strongs": null,
+        "gloss": "gratis, for nothing, causelessly",
+        "note": "Jesus uses the identical word of the world's hatred of Himself and the Father (John 15:24-25).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-110-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to my Lord (Adonai)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my Lord",
+        "original": "לַאדֹנִי",
+        "translit": "la'adhoni",
+        "strongs": null,
+        "gloss": "to my Lord (Adonai)",
+        "note": "Jesus builds His whole argument on this single word (Matt 22:44-45): How then is he his son?",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-2-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to throng, assemble tumultuously",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "rage",
+        "original": "רָגַשׁ",
+        "translit": "ragash",
+        "strongs": null,
+        "gloss": "to throng, assemble tumultuously",
+        "note": "The Jerusalem church quotes the psalm as fulfilled in Herod, Pilate, and the nations against Jesus (Acts 4:25-27).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-132-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "has sworn an oath",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "hath sworn",
+        "original": "נִשְׁבַּע",
+        "translit": "nishba'",
+        "strongs": null,
+        "gloss": "has sworn an oath",
+        "note": "Paul's word in Acts 13:23: of this man's seed hath God according to his promise raised unto Israel a Saviour, Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "psa-34-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "one keeping, guarding",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keepeth",
+        "original": "שֹׁמֵר",
+        "translit": "shomer",
+        "strongs": null,
+        "gloss": "one keeping, guarding",
+        "note": "John 19:36 joins this verse with Exodus 12:46 at the cross: that the scripture should be fulfilled.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Fall reality: death is the return of the physical body to dust and breath to God.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Creation formula: man does not possess an independent immortal soul; man became a living soul.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: crucifixion fulfills Ps 22, Ps 69, Isa 50, and Isa 53 in detail.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:34-46",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Apostolic hope: believers are awakened from sleep together at the audible, visible second coming.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Canonical consensus: no awareness, praise, or communication exists in the state of death.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Theological baseline: immortality belongs exclusively to God; human immortality is conditional.",
+      "density": 1.0536,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest cry of the righteous sufferer quoted by Jesus on the cross.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:1",
+        "verseId": "psa-22-1",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus declares His voice raises the dead to life or condemnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into lake of fire — the second death",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "Cosmic cleansing: the final destruction of sin, death, and the grave forever.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest explicit hope of bodily vision of God after physical dissolution.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: Paul quotes Isaiah 25:8 and Hosea 13:14 for bodily resurrection.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Total unconsciousness: complete cessation of mental activity and consciousness at death.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Transformation: physical incorruptibility is bestowed at the resurrection, not at death.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Complete eradication: wicked destroyed completely in final fire, not tortured eternally.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "They pierced My hands and feet; cast lots for garments",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:16-18",
+        "verseId": "psa-22-16",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: divine Speaker pierced; mourning as for an only son.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 12:10",
+        "verseId": "zec-12-10",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: apostolic proclamation centers on the sheep led to slaughter.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 8:32-35",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[11].title",
+      "text": "Every eye shall see Him, and they who pierced Him",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 1:7",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "All that are in the graves shall hear His voice",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: specific prophecy of physical piercing and garment division.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:16-18",
+        "verseId": "psa-22-16",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: suffering of the righteous one offered bitter drink.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 69:21",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "His own self bare our sins on the tree",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Peter 2:21-25",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "NT: Peter applies Isaiah 53 to Christ's substitutionary work.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Peter 2:21-25",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the earth casting forth its dead in resurrection.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I will open your graves — dry bones live",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: YHWH ransoming from the power of the grave.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].title",
+      "text": "First resurrection; death cast into the lake of fire",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[11].connection",
+      "text": "NT: eschatological manifestation of the pierced King.",
+      "density": 0.725,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 1:7",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Back to smiters, cheeks to those plucking beard",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 50:6",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: voluntary submission to public shame and violence.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 50:6",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Wounded for our transgressions, healed by His stripes",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 53:4-6",
+        "verseId": "isa-53-5",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Same-OT: the Shepherd who is YHWH's Companion struck.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 13:7",
+        "verseId": "zec-13-7",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: John cites Zechariah 12:10 and Exodus 12:46.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 19:34-37",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Thou wilt not leave my soul in Sheol",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Awake and sing, ye that dwell in dust",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: two-fold resurrection to everlasting life or shame.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: Psalm 16 fulfilled in Christ's empty tomb.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "NT: public bodily resurrection at the Lord's descent.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].connection",
+      "text": "NT: final conquest of death and bodily vindication.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "My God, why hast Thou forsaken Me?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:1",
+        "verseId": "psa-22-1",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Look on Me whom they have pierced",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 12:10",
+        "verseId": "zec-12-10",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "In my flesh I shall see God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David's prophecy of preservation from corruption.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: vision of the Spirit raising graves.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "O death, I will be thy plagues",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "I am the Resurrection and the Life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: Jesus demonstrates resurrection authority in Lazarus.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "The dead in Christ shall rise first",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Suffering Servant and Pierced Messiah",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Gall for food, vinegar for thirst",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 69:21",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Awake, O sword, against My Shepherd",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 13:7",
+        "verseId": "zec-13-7",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Philip preaches Jesus from Isaiah 53",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 8:32-35",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Bodily Resurrection: Awakening from the Dust",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "They that sleep in dust awake",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Apostles preach Christ risen without corruption",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Christ the firstfruits; death swallowed up",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "The cross of Jesus Christ",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:34-46",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Christ's doctrine: \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "density": 0.3964,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary sin-bearing Servant.",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 53:4-6",
+        "verseId": "isa-53-5",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Soldier pierces His side",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 19:34-37",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    }
+  ]
+}

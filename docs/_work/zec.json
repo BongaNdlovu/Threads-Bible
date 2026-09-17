@@ -1,0 +1,2438 @@
+{
+  "book": "zec",
+  "bookName": "Zechariah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 23,
+    "entryStrings": 83,
+    "chainStrings": 65,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "zec-10-1",
+    "zec-11-12",
+    "zec-11-13",
+    "zec-12-10",
+    "zec-12-11",
+    "zec-13-1",
+    "zec-13-7",
+    "zec-14-16",
+    "zec-14-4",
+    "zec-14-5",
+    "zec-14-8",
+    "zec-14-9",
+    "zec-2-10",
+    "zec-3-1",
+    "zec-3-8",
+    "zec-3-9",
+    "zec-4-10",
+    "zec-4-6",
+    "zec-6-12",
+    "zec-6-13",
+    "zec-8-16",
+    "zec-9-10",
+    "zec-9-9"
+  ],
+  "fields": [
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "who",
+      "text": "Authorship & Context: The prophet Zechariah wrote in post-exilic Jerusalem (c. 520–480 BC) to a remnant rebuilding temple and hope under Persian rule. Identified Characters: Daughter of Zion / daughter of Jerusalem (the covenant people); the coming King who is just, having salvation, lowly, riding on a donkey. Singular or Many: Singular King, many hearers. The royal subject is one person — Zion's King — while the daughters of Zion and Jerusalem are the many commanded to rejoice. Christological Subject & Referent: Jesus of Nazareth, the lowly messianic King who entered Jerusalem on a colt in the week of His passion. Redemptive Purpose: To show that world-conquering justice arrives unarmed; salvation comes by the humble King, not by cavalry.",
+      "density": 4.5536,
+      "words": 119,
+      "sentences": 7,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"Luke 19:38\"]",
+      "text": "Authorship & Context: Zechariah promised Zion's King; Luke the Evangelist (c. AD 60–62) records the crowd's royal acclamation as Jesus descends the Mount of Olives. Identified Characters: The King; the multitude of disciples; peace in heaven and glory in the highest. Singular or Many: Singular King, many acclaiming. One is named King; the multitude blesses Him. Christological Subject & Referent: Jesus as ὁ βασιλεύς — the King who comes in the name of the Lord. Redemptive Purpose: Luke lets the people say out loud what Zechariah already wrote: this humble rider is Zion's King, and His coming is peace, not cavalry conquest.",
+      "density": 4.2429,
+      "words": 102,
+      "sentences": 7,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"Mark 11:7\"]",
+      "text": "Authorship & Context: Zechariah named the lowly mount; John Mark, writing in Rome (c. AD 55–65), records the acted detail without the citation formula. Identified Characters: Jesus; the colt; those who cast garments on it; the two disciples sent to loose it. Singular or Many: Singular rider, many who serve. One man sits on the colt; several hands prepare the mount. Christological Subject & Referent: Jesus Himself sitting on the colt — the prophecy's “riding” made visible. Redemptive Purpose: Mark shows the oracle happening in the street before any later interpretive caption, so the King's lowliness is historical, not literary.",
+      "density": 3.9643,
+      "words": 100,
+      "sentences": 8,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"Matthew 21:5\"]",
+      "text": "Authorship & Context: Zechariah prophesied to the Persian-era remnant; Matthew wrote for Jewish-Christian readers (c. AD 60–68) to prove Jesus fulfills Israel's Scriptures. Identified Characters: Daughter of Zion; the King sitting on a donkey and a colt; the disciples fetching the animals; the Jerusalem crowds. Singular or Many: Singular King, many witnesses. One King comes; many in Zion are commanded to behold Him. Christological Subject & Referent: Jesus, the Son of David, entering Jerusalem as the prophesied meek King. Redemptive Purpose: Matthew cites the prophet so the church sees the triumphal entry as Scripture kept, not political accident.",
+      "density": 3.8571,
+      "words": 98,
+      "sentences": 7,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].exposition",
+      "text": "Zechariah 9:9 calls the coming King עָנִי — not merely “modest in personality” but poor, afflicted, and low in station. The same root describes those crushed under oppression and, in Isaiah, the Servant who is afflicted. Verse 10 immediately cuts off chariot, horse, and battle-bow, so עָנִי is the opposite of military pomp: Zion's King comes as a sufferer-savior. Matthew renders the term πραΰς (praus, meek) in 21:5, placing the oracle on Jesus' lips-by-action as He sits on the donkey. In this thread עָנִי is why the Gospels insist on the colt: the King’s identity is lowliness unto salvation, not cavalry.",
+      "density": 3.8393,
+      "words": 101,
+      "sentences": 6,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lowly",
+        "original": "עָנִי",
+        "translit": "'ani",
+        "strongs": "H6041",
+        "gloss": "afflicted, humble, poor",
+        "note": "The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King's uniform.",
+        "exposition": "Zechariah 9:9 calls the coming King עָנִי — not merely “modest in personality” but poor, afflicted, and low in station. The same root describes those crushed under oppression and, in Isaiah, the Servant who is afflicted. Verse 10 immediately cuts off chariot, horse, and battle-bow, so עָנִי is the opposite of military pomp: Zion's King comes as a sufferer-savior. Matthew renders the term πραΰς (praus, meek) in 21:5, placing the oracle on Jesus' lips-by-action as He sits on the donkey. In this thread עָנִי is why the Gospels insist on the colt: the King’s identity is lowliness unto salvation, not cavalry."
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].exposition",
+      "text": "Matthew 21:5 quotes Zechariah with πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον — meek and mounted on a donkey. πραΰς is Matthew's word for the same King who said “I am meek and lowly in heart” (Matt 11:29). In the entry narrative it is not a private temperament; it is the public manner of messianic arrival. John 12:15 cites the same oracle as consolation (“Fear not”); Mark 11:7 and Luke 19:38 show the mount and the royal cry. The Greek meekness and the Hebrew ʿani name one person: Jesus riding into Jerusalem to suffer, not to seize the city by force.",
+      "density": 3.7893,
+      "words": 99,
+      "sentences": 7,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "meek",
+        "original": "πραΰς",
+        "translit": "praus",
+        "strongs": "G4239",
+        "gloss": "meek, gentle",
+        "note": "Matthew 21:5's Greek for Zechariah's ʿani.",
+        "exposition": "Matthew 21:5 quotes Zechariah with πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον — meek and mounted on a donkey. πραΰς is Matthew's word for the same King who said “I am meek and lowly in heart” (Matt 11:29). In the entry narrative it is not a private temperament; it is the public manner of messianic arrival. John 12:15 cites the same oracle as consolation (“Fear not”); Mark 11:7 and Luke 19:38 show the mount and the royal cry. The Greek meekness and the Hebrew ʿani name one person: Jesus riding into Jerusalem to suffer, not to seize the city by force."
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"John 12:15\"]",
+      "text": "Authorship & Context: Zechariah wrote the Zion-oracle; John, eyewitness of the entry, wrote from Ephesus (c. AD 85–95). Identified Characters: Daughter of Sion; the King sitting on an ass's colt; the crowd that had been with Him from Lazarus's raising. Singular or Many: Singular King, many who need not fear. John's citation adds “Fear not” — one King, a people told not to be afraid. Christological Subject & Referent: Jesus, whose humble advent is comfort rather than terror. Redemptive Purpose: To interpret the donkey-entry as consolation for Zion, not as a failed revolt.",
+      "density": 3.7321,
+      "words": 93,
+      "sentences": 8,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-10-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophet commands the people of God to ask the LORD for rain in the time of the latter rain, promising that the LORD will make bright storm clouds and give showers of rain. Jesus and the apostles teach that the Holy Spirit must be sought through persistent prayer to prepare the church for the final harvest. First principle: promised divine power does not replace prayer; it demands it.",
+      "density": 3.6679,
+      "words": 69,
+      "sentences": 3,
+      "maxSentenceWords": 34,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-12-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "YHWH declares that He will pour out the Spirit of grace and supplication on Jerusalem, and they will look on Me whom they pierced, mourning as for an only son. John cites this at the cross and Revelation declares every eye shall see Him at His coming. First principle: the pierced One is divine, and His piercing leads both to salvation and to eschatological vindication.",
+      "density": 3.4893,
+      "words": 65,
+      "sentences": 3,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hear now, O Joshua the high priest, thou, and thy fellows that sit before thee: for they are men wondered at: for, behold, I will bring forth my servant the BRANCH. The cleansing of the high priest with filthy garments taken away previews what the Branch accomplishes. First principle: God answers iniquity with a Person — a Servant-King who removes sin in one day.",
+      "density": 3.3714,
+      "words": 64,
+      "sentences": 3,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-6-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold the man whose name is The BRANCH; and he shall grow up out of his place, and he shall build the temple of the LORD... and he shall bear the glory, and shall sit and rule upon his throne; and he shall be a priest upon his throne. First principle: in one Person the offices split since Saul and Uzziah reunite — King and Priest crowned together, the counsel of peace between them both.",
+      "density": 3.3607,
+      "words": 75,
+      "sentences": 3,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[3]",
+      "text": "Step 4 (Zechariah 9:9 → Matthew 21:5 → John 12:15 → Mark 11:7): Mark does not quote Zechariah — he simply shows the colt and sets Jesus on it. The whole chain makes one point: the King actually rides. Why this step matters: the citation and the street-level story agree. Where the thread ends: the lowly mount is the manner of His coming, not decoration.",
+      "density": 3.2821,
+      "words": 65,
+      "sentences": 4,
+      "maxSentenceWords": 29,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[4]",
+      "text": "Step 5 (Zechariah 9:9 → Matthew 21:5 → John 12:15 → Mark 11:7 → Luke 19:38): Luke records the crowd’s cry, “Blessed be the King.” The whole chain makes one point: Zechariah’s King is just, saving, and lowly, and four Gospels show Him entering Jerusalem that way. Why this step matters: royal praise and donkey-lowliness are one event. Where the thread ends: the King of the passion week is already Zechariah’s King — salvation arrives without a war-horse.",
+      "density": 3.2071,
+      "words": 78,
+      "sentences": 4,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[1]",
+      "text": "Step 2 of the thread (Zechariah 9:9 → Matthew 21:5): Both verses share the daughter of Zion, a King who comes, and a donkey. The link: Matthew’s own words — “this was done that it might be fulfilled” — tie the prophecy to the colt at Bethphage. Why God says it twice: the King’s greatness is His meekness, and the church must not rewrite Him as a war-horse Messiah.",
+      "density": 3.0964,
+      "words": 69,
+      "sentences": 4,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[2].exposition",
+      "text": "Mark 11:7 records καὶ ἐκάθισεν ἐπ’ αὐτόν — they bring the πῶλος and He sits on it. Zechariah had specified עַיִר בֶּן־אֲתֹנוֹת (a colt, son of she-asses). Mark does not quote the prophet; he narrates the colt so the acted fulfillment is visible. Luke 19:38 then lets the crowd name the rider King. In this path πῶλος is the physical hinge between oracle and acclamation: without the colt, “lowly” stays an adjective; with it, the King of Zechariah 9:9 is in the street.",
+      "density": 3.0464,
+      "words": 83,
+      "sentences": 6,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "colt",
+        "original": "πῶλος",
+        "translit": "pōlos",
+        "strongs": "G4454",
+        "gloss": "colt, young animal",
+        "note": "Mark 11:7: they set Jesus on the colt.",
+        "exposition": "Mark 11:7 records καὶ ἐκάθισεν ἐπ’ αὐτόν — they bring the πῶλος and He sits on it. Zechariah had specified עַיִר בֶּן־אֲתֹנוֹת (a colt, son of she-asses). Mark does not quote the prophet; he narrates the colt so the acted fulfillment is visible. Luke 19:38 then lets the crowd name the rider King. In this path πῶλος is the physical hinge between oracle and acclamation: without the colt, “lowly” stays an adjective; with it, the King of Zechariah 9:9 is in the street."
+      }
+    },
+    {
+      "entryId": "zec-14-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And his feet shall stand in that day upon the mount of Olives, which is before Jerusalem on the east... and the mount of Olives shall cleave in the midst thereof. The LORD becomes King over all the earth, and His name one. First principle: the place of the ascension is the place of return — the Olivet descent of Acts 1 completes the Zechariah schedule.",
+      "density": 2.9643,
+      "words": 66,
+      "sentences": 4,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-11-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "So they weighed for my price thirty pieces of silver... a goodly price that I was prised at of them! And I took the thirty pieces of silver, and cast them to the potter in the house of the LORD. The Shepherd of Israel is valued at a slave-price and the money ends in potter's-field soil. First principle: rejecting the Shepherd has a price tag — and it buys a graveyard.",
+      "density": 2.9179,
+      "words": 71,
+      "sentences": 5,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[2]",
+      "text": "Step 3 (Zechariah 9:9 → Matthew 21:5 → John 12:15): Two Gospel writers quote the same oracle on their own. John adds “Fear not, daughter of Sion.” All three carry one King, one mount, and one city told to behold Him. How the story moves forward: from prophecy, to Matthew’s fulfillment citation, to John’s word of comfort. Where it leads: the humble King is good news for Zion, not a threat.",
+      "density": 2.9179,
+      "words": 71,
+      "sentences": 5,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-13-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In that day there shall be a fountain opened to the house of David and to the inhabitants of Jerusalem for sin and for uncleanness. The same prophecy that names the pierced Shepherd names this fountain. First principle: cleansing comes from an opened wound — blood and water testify together.",
+      "density": 2.6786,
+      "words": 50,
+      "sentences": 3,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-2-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sing and rejoice, O daughter of Zion: for, lo, I come, and I will dwell in the midst of thee, saith the LORD. The One speaking is Yahweh Himself, yet He comes — incarnation foretold. First principle: God's dwelling with man is not a metaphor but a Person tabernacling among us.",
+      "density": 2.5893,
+      "words": 51,
+      "sentences": 3,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-13-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD commands the sword to awake against \"My Shepherd, against the Man who is My Companion\" and smite the Shepherd so the sheep will be scattered. Jesus explicitly applies this prophecy to Himself and the dispersal of His disciples on the night of Gethsemane. First principle: the Shepherd is YHWH's equal/companion, struck in accordance with divine purpose.",
+      "density": 2.4786,
+      "words": 58,
+      "sentences": 4,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "“Rejoice greatly, O daughter of Zion; shout, O daughter of Jerusalem: behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass, and upon a colt the foal of an ass.” The world-conquering King arrives unarmed and humble — justice and salvation, not cavalry. First principle: the King wins by meekness.",
+      "density": 2.1929,
+      "words": 58,
+      "sentences": 3,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-4-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The plummet in Zerubbabel's hand with the seven eyes of the LORD. First principle: small beginnings are despised by sight and rejoiced in by heaven — the LORD's eyes run the whole earth over plumb-lines.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-14-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One LORD, His name one, in that day. First principle: the unity climax — one King, one name, all the earth; the plural idols and divided loyalties end in the singular reign.",
+      "density": 2.1714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-14-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Flight to the valley as the LORD comes with His saints. First principle: the coming includes the saints — the fled-through valley is the arrival route of the coming One and His holy company.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-3-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The resistant accuser stands beside the serving priest. First principle: the courtroom scene opens the cleansing chapter — the accuser's place is at the hand, the LORD's rebuke is stronger.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-6-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Branch builds, bears glory, and is priest on His throne — counsel of peace between both offices. First principle: throne-priest union is the Branch's distinct glory; the counsel of peace is between them both.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[0]",
+      "text": "The thread begins at Zechariah 9:9: The world-conquering King arrives unarmed and humble — justice and salvation, not cavalry. Zion is told to rejoice because her King comes riding on a donkey.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-11-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Thirty silver pieces thrown in the LORD's house to the potter. First principle: the first-person prophecy — the Shepherds' own words about His price, fulfilled at the chief priests' decision.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-3-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One stone, engraved, iniquity removed in one day. First principle: the Branch-stone has seven eyes and a one-day removal — foundation, omniscience, and instant pardon engraved together.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The word to Zerubbabel at the lampstand. First principle: rebuilding runs on Spirit-oil, not muscle — the mountain becomes a plain before the grace-supplied builder.",
+      "density": 1.6536,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-14-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Year-by-year feast-of-tabernacles worship by the surviving nations. First principle: even the surviving attackers worship annually — the feast of tabernacles becomes the nations' required pilgrimage.",
+      "density": 1.6536,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-12-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Megiddon-scale mourning in that day. First principle: the mourning is as deep as Josiah's death-lament — pierced-Shepherd grief becomes the city's great mourning.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King's uniform.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lowly",
+        "original": "עָנִי",
+        "translit": "'ani",
+        "strongs": "H6041",
+        "gloss": "afflicted, humble, poor",
+        "note": "The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King's uniform.",
+        "exposition": "Zechariah 9:9 calls the coming King עָנִי — not merely “modest in personality” but poor, afflicted, and low in station. The same root describes those crushed under oppression and, in Isaiah, the Servant who is afflicted. Verse 10 immediately cuts off chariot, horse, and battle-bow, so עָנִי is the opposite of military pomp: Zion's King comes as a sufferer-savior. Matthew renders the term πραΰς (praus, meek) in 21:5, placing the oracle on Jesus' lips-by-action as He sits on the donkey. In this thread עָנִי is why the Gospels insist on the colt: the King’s identity is lowliness unto salvation, not cavalry."
+      }
+    },
+    {
+      "entryId": "zec-6-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hebrews crowns the two offices in one: our High Priest sits — a Priest upon a throne (Heb 8:1).",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the counsel of peace",
+        "original": "עֲצַת שָׁלוֹם",
+        "translit": "'atzat shalom",
+        "strongs": null,
+        "gloss": "counsel of peace, harmonious design",
+        "note": "Hebrews crowns the two offices in one: our High Priest sits — a Priest upon a throne (Heb 8:1).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-14-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Half toward the former sea, half toward the hinder — summer and winter. First principle: the city becomes the spring-head — seasonal interruption abolished in the living waters.",
+      "density": 1.5571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-8-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Judgment of truth and peace executed in the gates. First principle: the restored-city ethic — truth-speech and gate-judgment of peace are the things to do.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-9-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Chariots cut off; dominion sea-to-sea, river to earth's ends. First principle: the peace-speaking King's dominion measurement — from the entry-city to the ends, war-horses removed.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "zec-13-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 19:34 places the opening at the pierced side; 1 John 1:7 names the blood that keeps cleansing.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "fountain",
+        "original": "מָקוֹר",
+        "translit": "maqor",
+        "strongs": null,
+        "gloss": "spring, fountain, source",
+        "note": "John 19:34 places the opening at the pierced side; 1 John 1:7 names the blood that keeps cleansing.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-14-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall cleave",
+        "original": "וְנִבְקַע",
+        "translit": "venivqa'",
+        "strongs": null,
+        "gloss": "shall be split, rift open",
+        "note": "The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Root of mishkan (tabernacle); John 1:14 uses eskēnōsen — tabernacled — of the Word made flesh.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dwell",
+        "original": "שָׁכַנְתִּי",
+        "translit": "shakhanti",
+        "strongs": null,
+        "gloss": "I have tabernacled, taken up residence",
+        "note": "Root of mishkan (tabernacle); John 1:14 uses eskēnōsen — tabernacled — of the Word made flesh.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-11-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The legal price of a gored slave (Exod 21:32); Judas negotiated exactly this sum (Matt 26:15).",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "thirty pieces of silver",
+        "original": "שְׁלֹשִׁים כָּסֶף",
+        "translit": "sheloshim kesef",
+        "strongs": null,
+        "gloss": "thirty of silver (shekels)",
+        "note": "The legal price of a gored slave (Exod 21:32); Judas negotiated exactly this sum (Matt 26:15).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Targum Jonathan inserts the name directly: I will bring forth My servant the Messiah.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the BRANCH",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth",
+        "note": "Targum Jonathan inserts the name directly: I will bring forth My servant the Messiah.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-6-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Bear the Glory, and Shall Sit and Rule upon His Throne",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-2-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lo, I Come, and I Will Dwell in the Midst of Thee",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-6-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Man Whose Name Is the BRANCH — Priest on His Throne",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-14-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD My God Shall Come, and All the Saints with Thee",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-12-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 19:37; Rev 1:7 ἐξεκέντησαν — same Hebrew and Greek verb.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "they pierced",
+        "original": "דָּקָרוּ",
+        "translit": "daqaru",
+        "strongs": null,
+        "gloss": "they pierced through / thrust through",
+        "note": "John 19:37; Rev 1:7 ἐξεκέντησαν — same Hebrew and Greek verb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-10-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Prophetic imperative to pray for the Spirit's final ripening power.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in the time of the latter rain",
+        "original": "בְּעֵת מַלְקוֹשׁ",
+        "translit": "be-ʿet malqosh",
+        "strongs": null,
+        "gloss": "in the season of the latter rain",
+        "note": "Prophetic imperative to pray for the Spirit's final ripening power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-3-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Joshua the High Priest and Satan at His Right Hand",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Not by Might, nor by Power, but by My Spirit",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-12-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Great Mourning in Jerusalem, as the Mourning of Hadadrimmon",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-10-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ask Rain in the Time of the Latter Rain",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-14-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Feet Shall Stand upon the Mount of Olives",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-8-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Speak Ye Every Man the Truth to His Neighbour",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-14-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Shall Be King over All the Earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-14-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every One That Is Left... Shall Go Up to Worship the King",
+      "density": 0.7,
+      "words": 12,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-12-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Look on Me Whom They Pierced",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-13-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Strong term for kinship/equality with YHWH; Matt 26:31.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "My Companion",
+        "original": "עֲמִיתִי",
+        "translit": "ʿamiti",
+        "strongs": null,
+        "gloss": "my associate, equal, near fellow",
+        "note": "Strong term for kinship/equality with YHWH; Matt 26:31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Bring Forth My Servant the BRANCH",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-11-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thirty Pieces of Silver Cast to the Potter",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy King Cometh, Lowly, Riding upon an Ass",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[2].note",
+      "text": "Mark 11:7: they set Jesus on the colt.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "colt",
+        "original": "πῶλος",
+        "translit": "pōlos",
+        "strongs": "G4454",
+        "gloss": "colt, young animal",
+        "note": "Mark 11:7: they set Jesus on the colt.",
+        "exposition": "Mark 11:7 records καὶ ἐκάθισεν ἐπ’ αὐτόν — they bring the πῶλος and He sits on it. Zechariah had specified עַיִר בֶּן־אֲתֹנוֹת (a colt, son of she-asses). Mark does not quote the prophet; he narrates the colt so the acted fulfillment is visible. Luke 19:38 then lets the crowd name the rider King. In this path πῶλος is the physical hinge between oracle and acclamation: without the colt, “lowly” stays an adjective; with it, the King of Zechariah 9:9 is in the street."
+      }
+    },
+    {
+      "entryId": "zec-4-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Hath Despised the Day of Small Things?",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-11-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Cast It unto the Potter: a Goodly Price",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-10-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "in the season of the latter rain",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in the time of the latter rain",
+        "original": "בְּעֵת מַלְקוֹשׁ",
+        "translit": "be-ʿet malqosh",
+        "strongs": null,
+        "gloss": "in the season of the latter rain",
+        "note": "Prophetic imperative to pray for the Spirit's final ripening power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-13-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Fountain Opened for Sin and Uncleanness",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-3-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Stone Laid before Joshua, Seven Eyes",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Speak Peace unto the Heathen",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-14-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Living Waters Shall Go Out from Jerusalem",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-12-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they pierced through / thrust through",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "they pierced",
+        "original": "דָּקָרוּ",
+        "translit": "daqaru",
+        "strongs": null,
+        "gloss": "they pierced through / thrust through",
+        "note": "John 19:37; Rev 1:7 ἐξεκέντησαν — same Hebrew and Greek verb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I have tabernacled, taken up residence",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dwell",
+        "original": "שָׁכַנְתִּי",
+        "translit": "shakhanti",
+        "strongs": null,
+        "gloss": "I have tabernacled, taken up residence",
+        "note": "Root of mishkan (tabernacle); John 1:14 uses eskēnōsen — tabernacled — of the Word made flesh.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Matthew 21:5's Greek for Zechariah's ʿani.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "meek",
+        "original": "πραΰς",
+        "translit": "praus",
+        "strongs": "G4239",
+        "gloss": "meek, gentle",
+        "note": "Matthew 21:5's Greek for Zechariah's ʿani.",
+        "exposition": "Matthew 21:5 quotes Zechariah with πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον — meek and mounted on a donkey. πραΰς is Matthew's word for the same King who said “I am meek and lowly in heart” (Matt 11:29). In the entry narrative it is not a private temperament; it is the public manner of messianic arrival. John 12:15 cites the same oracle as consolation (“Fear not”); Mark 11:7 and Luke 19:38 show the mount and the royal cry. The Greek meekness and the Hebrew ʿani name one person: Jesus riding into Jerusalem to suffer, not to seize the city by force."
+      }
+    },
+    {
+      "entryId": "zec-13-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "my associate, equal, near fellow",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "My Companion",
+        "original": "עֲמִיתִי",
+        "translit": "ʿamiti",
+        "strongs": null,
+        "gloss": "my associate, equal, near fellow",
+        "note": "Strong term for kinship/equality with YHWH; Matt 26:31.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-6-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "counsel of peace, harmonious design",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the counsel of peace",
+        "original": "עֲצַת שָׁלוֹם",
+        "translit": "'atzat shalom",
+        "strongs": null,
+        "gloss": "counsel of peace, harmonious design",
+        "note": "Hebrews crowns the two offices in one: our High Priest sits — a Priest upon a throne (Heb 8:1).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-14-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "shall be split, rift open",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall cleave",
+        "original": "וְנִבְקַע",
+        "translit": "venivqa'",
+        "strongs": null,
+        "gloss": "shall be split, rift open",
+        "note": "The angels point the disciples back to this very mount (Acts 1:11-12) — geography pinned to eschatology.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-11-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "thirty of silver (shekels)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "thirty pieces of silver",
+        "original": "שְׁלֹשִׁים כָּסֶף",
+        "translit": "sheloshim kesef",
+        "strongs": null,
+        "gloss": "thirty of silver (shekels)",
+        "note": "The legal price of a gored slave (Exod 21:32); Judas negotiated exactly this sum (Matt 26:15).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-13-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Smite the Shepherd",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "afflicted, humble, poor",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lowly",
+        "original": "עָנִי",
+        "translit": "'ani",
+        "strongs": "H6041",
+        "gloss": "afflicted, humble, poor",
+        "note": "The same word describes the Suffering Servant led as a lamb to slaughter — humility is the King's uniform.",
+        "exposition": "Zechariah 9:9 calls the coming King עָנִי — not merely “modest in personality” but poor, afflicted, and low in station. The same root describes those crushed under oppression and, in Isaiah, the Servant who is afflicted. Verse 10 immediately cuts off chariot, horse, and battle-bow, so עָנִי is the opposite of military pomp: Zion's King comes as a sufferer-savior. Matthew renders the term πραΰς (praus, meek) in 21:5, placing the oracle on Jesus' lips-by-action as He sits on the donkey. In this thread עָנִי is why the Gospels insist on the colt: the King’s identity is lowliness unto salvation, not cavalry."
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[2].gloss",
+      "text": "colt, young animal",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "colt",
+        "original": "πῶλος",
+        "translit": "pōlos",
+        "strongs": "G4454",
+        "gloss": "colt, young animal",
+        "note": "Mark 11:7: they set Jesus on the colt.",
+        "exposition": "Mark 11:7 records καὶ ἐκάθισεν ἐπ’ αὐτόν — they bring the πῶλος and He sits on it. Zechariah had specified עַיִר בֶּן־אֲתֹנוֹת (a colt, son of she-asses). Mark does not quote the prophet; he narrates the colt so the acted fulfillment is visible. Luke 19:38 then lets the crowd name the rider King. In this path πῶλος is the physical hinge between oracle and acclamation: without the colt, “lowly” stays an adjective; with it, the King of Zechariah 9:9 is in the street."
+      }
+    },
+    {
+      "entryId": "zec-13-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "spring, fountain, source",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "fountain",
+        "original": "מָקוֹר",
+        "translit": "maqor",
+        "strongs": null,
+        "gloss": "spring, fountain, source",
+        "note": "John 19:34 places the opening at the pierced side; 1 John 1:7 names the blood that keeps cleansing.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "sprout, growth",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the BRANCH",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth",
+        "note": "Targum Jonathan inserts the name directly: I will bring forth My servant the Messiah.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "zec-9-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "meek, gentle",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "meek",
+        "original": "πραΰς",
+        "translit": "praus",
+        "strongs": "G4239",
+        "gloss": "meek, gentle",
+        "note": "Matthew 21:5's Greek for Zechariah's ʿani.",
+        "exposition": "Matthew 21:5 quotes Zechariah with πραΰς καὶ ἐπιβεβηκὼς ἐπὶ ὄνον — meek and mounted on a donkey. πραΰς is Matthew's word for the same King who said “I am meek and lowly in heart” (Matt 11:29). In the entry narrative it is not a private temperament; it is the public manner of messianic arrival. John 12:15 cites the same oracle as consolation (“Fear not”); Mark 11:7 and Luke 19:38 show the mount and the royal cry. The Greek meekness and the Hebrew ʿani name one person: Jesus riding into Jerusalem to suffer, not to seize the city by force."
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "In the New Testament Zechariah praises the sunrise that visits us from on high, and he uses the same word for the Branch.",
+      "density": 1.8893,
+      "words": 23,
+      "sentences": 1,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "In the same Old Testament David speaks his last words, and he looks forward to God making his salvation branch forth.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "In the same Old Testament the Branch builds the LORD's temple, and he is both priest and king on his throne.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "In the same Old Testament God binds himself to David with a promise, and he will not take it back.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "In the same Old Testament Isaiah gives the Branch this name on the day God cleanses his people.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "In the same Old Testament a king rules with wisdom, and he does what is just and right.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "God's binding promise starts here with rain at the right time for sowing and for harvesting the grain.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "In the same Old Testament God's Spirit rests on this ruler, who will rule over the nations.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "In the same Old Testament, after the exile, God confirms the promise of the Branch again.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "In the New Testament Paul quotes Isaiah 11:10 to show that the Gentiles also have hope.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: James uses this picture from farming to call for patient waiting until the Lord comes.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the final outpouring of the Holy Spirit (latter rain) illuminating the earth before the harvest.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "This is the earliest promise of a royal family line: God will establish David's descendant.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: God commands his people to pray for the last rain that ripens the crop.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: a specific prophecy that his body would be pierced and his clothes divided.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:16-18",
+        "verseId": "psa-22-16",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I gave my back to the smiters, my cheeks to those plucking the beard",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 50:6",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: crucifixion fulfills Ps 22, Ps 69, Isa 50, and Isa 53 in detail.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:34-46",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: rain falling on the ground is a picture of the Spirit poured out.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: the promise of the Holy Spirit on young and old, servants and handmaids.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "In the New Testament Jesus is the triumphant Lion and the morning star.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest cry of the righteous sufferer quoted by Jesus on the cross.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:1",
+        "verseId": "psa-22-1",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "God's binding promise to David: a house and a throne forever",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the righteous one suffers and is offered a bitter drink.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 69:21",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Same-OT: the Shepherd, who is YHWH's close Companion, is struck down.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 13:7",
+        "verseId": "zec-13-7",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "Peter applies Isaiah 53 to what Christ did in our place.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Peter 2:21-25",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God promises his presence and new life, pictured as rain.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Peter cites Joel 2. The early rain makes the crop sprout. It gives the early church power.",
+      "density": 0.85,
+      "words": 18,
+      "sentences": 3,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Shoot from the stem of Jesse, Branch from his roots",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "They pierced My hands and feet; cast lots for garments",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:16-18",
+        "verseId": "psa-22-16",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: he chose to submit to public shame and violence.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 50:6",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the Servant bears sin in the place of others.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 53:4-6",
+        "verseId": "isa-53-5",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: divine Speaker pierced; mourning as for an only son.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 12:10",
+        "verseId": "zec-12-10",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: apostolic proclamation centers on the sheep led to slaughter.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 8:32-35",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[11].title",
+      "text": "Every eye shall see Him, and they who pierced Him",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 1:7",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[11].connection",
+      "text": "The pierced King appears at the end of the story.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 1:7",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "God's binding promise to make it branch forth forever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "His own self bare our sins on the tree",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Peter 2:21-25",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "He shall come as the rain to the earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Former rain and latter rain in the first month",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Ask rain in the time of the latter rain",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "The Branch of righteousness growing up for David",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Wounded for our transgressions, healed by His stripes",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 53:4-6",
+        "verseId": "isa-53-5",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: John cites Zechariah 12:10 and Exodus 12:46.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 19:34-37",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Early and Latter Rain of the Spirit",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Be patient until the early and latter rain",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Branch (Tsemach) and the Davidic Throne",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Branch of the LORD beautiful and glorious",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The Righteous Branch, the LORD Our Righteousness",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Dayspring from on high (Anatolē / Tsemach)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "My God, why hast Thou forsaken Me?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 22:1",
+        "verseId": "psa-22-1",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Look on Me whom they have pierced",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 12:10",
+        "verseId": "zec-12-10",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Pour out My Spirit on all flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Pentecost: The Early Rain of the Spirit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Earth lightened with His glory (Loud Cry)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Root of Jesse reigning over Gentiles",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Suffering Servant and Pierced Messiah",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Gall for food, vinegar for thirst",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 69:21",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Awake, O sword, against My Shepherd",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 13:7",
+        "verseId": "zec-13-7",
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Philip preaches Jesus from Isaiah 53",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 8:32-35",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "First rain and latter rain promised",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "Root and Offspring of David",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "The cross of Jesus Christ",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 27:34-46",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "My Servant the BRANCH",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Priest-King on His throne",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Soldier pierces His side",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 19:34-37",
+        "verseId": null,
+        "chainName": "The Suffering Servant and Pierced Messiah"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1438 @@
+{
+  "book": "lev",
+  "bookName": "Leviticus",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 10,
+    "entryStrings": 32,
+    "chainStrings": 53,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "lev-16-15",
+    "lev-16-16",
+    "lev-16-22",
+    "lev-16-30",
+    "lev-17-11",
+    "lev-19-18",
+    "lev-24-16",
+    "lev-25-10",
+    "lev-25-25",
+    "lev-26-12"
+  ],
+  "fields": [
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The high priest made atonement for the holy place because of the uncleanness of the children of Israel and their transgressions. Hebrews 9:23 says the patterns of things in the heavens were purified with these sacrifices. The heavenly things themselves needed better sacrifices. Daniel 8:14 points to this same cleansing of the sanctuary at the end of the 2,300 days. First principle: the sins confessed through the year were removed from the sanctuary on the Day of Atonement. That day points to the work Christ does as our judge before He comes.",
+      "density": 3.5,
+      "words": 92,
+      "sentences": 6,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hebrews 9:23",
+          "Daniel 8:14"
+        ]
+      }
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God gave Israel a law of redemption. If a brother grew poor and sold the land he had inherited, his nearest relative — the go'el, the kinsman-redeemer — had the duty to buy it back. Jesus became our near kinsman in the flesh. He bought back the inheritance we had lost and freed us from slavery to sin. First principle: redemption needs a close relative, a willing heart, and the full price paid.",
+      "density": 3.425,
+      "words": 73,
+      "sentences": 5,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God said: “And ye shall hallow the fiftieth year, and proclaim liberty throughout all the land unto all the inhabitants thereof: it shall be a jubile unto you; and ye shall return every man unto his possession…” The Jubilee is the great Old Testament type — God's advance picture of the final redemption. Lost inheritance came back, and that points to Eden restored. Debts were cancelled, and captive slaves walked free at the sound of the trumpet. First principle: redemption gives back everything that was lost in Adam.",
+      "density": 3.1143,
+      "words": 88,
+      "sentences": 5,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-16-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "On the Day of Atonement the goat for the sin offering was killed. The high priest carried its blood inside the vail and sprinkled it on the mercy seat and in front of it. First principle: atonement needs blood brought in, not only blood shed at the altar. The blood had to be presented before God in the Most Holy Place.",
+      "density": 2.725,
+      "words": 61,
+      "sentences": 4,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-16-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The scapegoat carried the people's sins away to a land where no one lived. First principle: the two goats together make one atonement. The first goat's blood went inside the sanctuary, and the second goat carried the sins outside. Isaiah 53 shows the same picture: one Servant carries the burden of sin.",
+      "density": 2.2143,
+      "words": 52,
+      "sentences": 4,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-19-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God's law forbids revenge and forbids holding a grudge. It tells each of us to love our neighbour as we love ourselves. First principle: the summary of the second table of the law begins here. The second table covers how we treat other people. Jesus, Paul, James, and the Shema prayer all build on this one command.",
+      "density": 2.1679,
+      "words": 57,
+      "sentences": 5,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-24-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A man who blasphemed was stoned by the whole congregation. The same law applied to the stranger and to the man born in Israel. First principle: the holiness of the LORD's Name was protected by a death sentence. Jesus fulfilled that law by dying under Israel's charge of blasphemy.",
+      "density": 2.025,
+      "words": 49,
+      "sentences": 4,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-17-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God gave the blood on the altar to make atonement. First principle: blood is life handed back to the One who gives life. The New Testament names the blood of Christ as the price that bought our atonement.",
+      "density": 1.8071,
+      "words": 38,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-26-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "This is the covenant promise that God will walk with His people. First principle: God walking among His people is the highest point of the covenant. Paul and John both quote this promise about the redeemed dwelling with God.",
+      "density": 1.775,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-16-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "On that one day the people were cleansed from all their sins before the LORD. First principle: the yearly ritual cleansed the people once a year. The day it pointed to cleanses once and for all.",
+      "density": 1.7571,
+      "words": 36,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The word comes from ga'al — to redeem, to buy back. Boaz is the go'el in Ruth 3-4. Christ is our go'el in Gal 4:4-5 and Heb 2:14-15.",
+      "density": 1.3286,
+      "words": 28,
+      "sentences": 3,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kinsman / redeemer",
+        "original": "גֹּאֵל",
+        "translit": "goʾel",
+        "strongs": null,
+        "gloss": "redeemer, near kinsman, vindicator",
+        "note": "The word comes from ga'al — to redeem, to buy back. Boaz is the go'el in Ruth 3-4. Christ is our go'el in Gal 4:4-5 and Heb 2:14-15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The trumpet announced freedom and the return of land that had belonged to a family.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "jubilee",
+        "original": "יוֹבֵל",
+        "translit": "yovel",
+        "strongs": null,
+        "gloss": "ram's horn / jubilee season of release",
+        "note": "The trumpet announced freedom and the return of land that had belonged to a family.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Jesus read this verse in Luke 4:18-19 and applied it to His own mission.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "proclaim liberty",
+        "original": "קְרָאתֶם דְּרוֹר",
+        "translit": "qerathem deror",
+        "strongs": null,
+        "gloss": "proclaim emancipation / freedom",
+        "note": "Jesus read this verse in Luke 4:18-19 and applied it to His own mission.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Jubilee — Liberty for All and the Return of Lost Inheritance",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Sin was transferred to the sanctuary and made it unclean. The blood removed that uncleanness.",
+      "density": 0.9464,
+      "words": 15,
+      "sentences": 2,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "uncleanness",
+        "original": "טֻמְאֹת",
+        "translit": "tumʾot",
+        "strongs": null,
+        "gloss": "impurities / defilements",
+        "note": "Sin was transferred to the sanctuary and made it unclean. The blood removed that uncleanness.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Cleansing the Holy Place on the Day of Atonement (Yom Kippur)",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-24-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Blasphemeth the Name of the LORD Shall Surely Die",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The ultimate cleansing of the sanctuary from all recorded sin.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "atonement",
+        "original": "וְכִפֶּר",
+        "translit": "ve-khipper",
+        "strongs": null,
+        "gloss": "and he shall make atonement / purge / cleanse",
+        "note": "The ultimate cleansing of the sanctuary from all recorded sin.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-16-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sin-Offering Goat — His Blood Taken inside the Vail",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-16-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "On That Day Shall the Priest Make Atonement for You",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-26-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Walk Among You, and Will Be Your God",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "and he shall make atonement / purge / cleanse",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "atonement",
+        "original": "וְכִפֶּר",
+        "translit": "ve-khipper",
+        "strongs": null,
+        "gloss": "and he shall make atonement / purge / cleanse",
+        "note": "The ultimate cleansing of the sanctuary from all recorded sin.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-16-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Goat Shall Bear upon Him All Their Iniquities",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-17-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Life of the Flesh Is in the Blood",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Greek ἐξαγοράζω (exagorazō) in Gal 3:13; 4:5.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "redeem",
+        "original": "גָּאַל",
+        "translit": "gaʾal",
+        "strongs": null,
+        "gloss": "to buy back, deliver, reclaim",
+        "note": "Greek ἐξαγοράζω (exagorazō) in Gal 3:13; 4:5.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "ram's horn / jubilee season of release",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "jubilee",
+        "original": "יוֹבֵל",
+        "translit": "yovel",
+        "strongs": null,
+        "gloss": "ram's horn / jubilee season of release",
+        "note": "The trumpet announced freedom and the return of land that had belonged to a family.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-19-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Love Thy Neighbour as Thyself",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "to buy back, deliver, reclaim",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "redeem",
+        "original": "גָּאַל",
+        "translit": "gaʾal",
+        "strongs": null,
+        "gloss": "to buy back, deliver, reclaim",
+        "note": "Greek ἐξαγοράζω (exagorazō) in Gal 3:13; 4:5.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "redeemer, near kinsman, vindicator",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kinsman / redeemer",
+        "original": "גֹּאֵל",
+        "translit": "goʾel",
+        "strongs": null,
+        "gloss": "redeemer, near kinsman, vindicator",
+        "note": "The word comes from ga'al — to redeem, to buy back. Boaz is the go'el in Ruth 3-4. Christ is our go'el in Gal 4:4-5 and Heb 2:14-15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-10",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "proclaim emancipation / freedom",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "proclaim liberty",
+        "original": "קְרָאתֶם דְּרוֹר",
+        "translit": "qerathem deror",
+        "strongs": null,
+        "gloss": "proclaim emancipation / freedom",
+        "note": "Jesus read this verse in Luke 4:18-19 and applied it to His own mission.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "lev-25-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Kinsman-Redeemer (Go'el)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "lev-16-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "impurities / defilements",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "uncleanness",
+        "original": "טֻמְאֹת",
+        "translit": "tumʾot",
+        "strongs": null,
+        "gloss": "impurities / defilements",
+        "note": "Sin was transferred to the sanctuary and made it unclean. The blood removed that uncleanness.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The first redemption law in the Torah: a close relative buys back land and freedom that a family lost.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Millennium in heaven: righteous raised at second coming; Satan bound to desolate earth.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Boaz redeems the field and takes Ruth into the covenant line.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Christ becomes our near kin in the flesh to accomplish redemption.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: by sharing our blood He breaks death and frees the enslaved.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The Jubilee: Israel proclaims liberty and every family gets its land back",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Consummation: wicked raised after 1,000 years; lake of fire consumes evil permanently.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "River of life and tree of life: They shall see His face",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The law of the Go'el — buying back land and family",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Job confesses his living Go'el will stand on the earth.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "High ones and kings gathered in prison, visited after many days",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Cosmic purification: fire purges the planet, making way for eternal recreation.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Eternal communion: unbroken fellowship with God and the Lamb throughout eternity.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: women bless God for the redeemer who fathers Obed.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Born of a woman to redeem those under the law",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the slain Redeemer opens the seven-sealed scroll of redemption.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Elements melt; new heavens and new earth wherein dwelleth righteousness",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Worthy is the Lamb to take the title deed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eden restored: death, sorrow, and crying passed away forever.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary",
+      "density": 0.6821,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Saints shall judge the world and judge angels",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "First resurrection: Saints reign with Christ 1,000 years",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "8. The Millennium & The Earth Made New",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: YHWH Himself comes as Israel's Redeemer.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Second resurrection: Final rebellion devoured by fire",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Jerusalem descends: God tabernacles with men",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I know that my Redeemer lives",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The Redeemer shall come to Zion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Not ashamed to call them brethren",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Earth desolated without inhabitant during judgment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "A redeemer to restore life",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Boaz the faithful kinsman-redeemer",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Kinsman-Redeemer (Go'el)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    }
+  ]
+}

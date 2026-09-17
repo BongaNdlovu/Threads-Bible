@@ -1,0 +1,1279 @@
+{
+  "book": "jol",
+  "bookName": "Joel",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 6,
+    "entryStrings": 20,
+    "chainStrings": 55,
+    "gateFails": 2
+  },
+  "entryIds": [
+    "jol-2-2",
+    "jol-2-23",
+    "jol-2-28",
+    "jol-2-32",
+    "jol-3-10",
+    "jol-3-16"
+  ],
+  "fields": [
+    {
+      "entryId": "jol-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD also shall roar out of Zion, and utter His voice from Jerusalem; and the heavens and the earth shall shake: but the LORD will be the hope of His people, and the strength of the children of Israel. At the darkest midnight hour of the death decree, God speaks with a voice that shakes the planet, proclaiming the day and hour of Jesus' coming.",
+      "density": 3.9357,
+      "words": 66,
+      "sentences": 2,
+      "maxSentenceWords": 40,
+      "gate": "FAIL",
+      "violations": [
+        "40 words (max 35): \"The LORD also shall roar out of Zion, and utter His voice from Jerusalem; and the heavens …\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jol-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Zion is commanded to rejoice in the LORD who gives the former rain faithfully and causes both the former and latter rain to pour down, directly introducing the promise of the Spirit poured out upon all flesh (Joel 2:28). First principle: physical restoration of the harvest prefigures the eschatological outpouring of the Holy Spirit.",
+      "density": 3.7286,
+      "words": 54,
+      "sentences": 2,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"Zion is commanded to rejoice in the LORD who gives the former rain faithfully and causes b…\""
+      ],
+      "context": {
+        "citations": [
+          "Joel 2:28"
+        ]
+      }
+    },
+    {
+      "entryId": "jol-2-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD promises that in the last days He will pour out His Spirit upon all flesh: sons and daughters will prophesy, old men dream dreams, and young men see visions. Peter quotes this verbatim at Pentecost as fulfilled in the resurrected and exalted Christ pouring out the Holy Spirit. First principle: the Spirit is no longer limited to prophets, priests, or kings, but indwells the entire covenant community.",
+      "density": 3.4964,
+      "words": 69,
+      "sentences": 3,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jol-2-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joel proclaims that whoever calls on the name of the LORD shall be delivered/saved, for in Mount Zion and Jerusalem there shall be deliverance. Both Peter in Acts 2 and Paul in Romans 10 quote this exact verse to proclaim salvation through calling on Jesus as Lord. First principle: salvation is universal to all who invoke the Name in faith.",
+      "density": 2.8714,
+      "words": 60,
+      "sentences": 3,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jol-3-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The reverse-industry of holy war: the weak commanded to say, I am strong. First principle: Isaiah's peace-visions run one way, Joel's war-call the other — the same prophet-era holds both harvest and battle endings.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jol-2-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The unprecedented army-day, morning spread on mountains. First principle: Joel's locust-day is template for the great and terrible day — Matthew 24's tribulation echoes the like-never-never language.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jol-2-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Dual Hebrew meaning: both teacher of righteousness and early rain, linking truth-teaching with the Spirit's power.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "former rain faithfully",
+        "original": "הַמּוֹרֶה לִצְדָקָה",
+        "translit": "ham-moreh litsdaqah",
+        "strongs": null,
+        "gloss": "the teacher of righteousness / the rain in measure of righteousness",
+        "note": "Dual Hebrew meaning: both teacher of righteousness and early rain, linking truth-teaching with the Spirit's power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-2-32",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Rom 10:13; Acts 2:21 — apostolic application of the divine name to Jesus.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "call on the name",
+        "original": "יִקְרָא בְּשֵׁם יְהוָה",
+        "translit": "yiqra be-shem YHWH",
+        "strongs": null,
+        "gloss": "calls in the name of YHWH",
+        "note": "Rom 10:13; Acts 2:21 — apostolic application of the divine name to Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Roars Out of Zion — The Voice of God Delivers",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jol-2-28",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Acts 2:17-18 ἐκχεῶ ἀπὸ τοῦ πνεύματός μου — Peter's Pentecost text.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pour out my spirit",
+        "original": "אֶשְׁפּוֹךְ אֶת־רוּחִי",
+        "translit": "ʾeshpokh ʾet-ruchi",
+        "strongs": null,
+        "gloss": "I will pour out my Spirit",
+        "note": "Acts 2:17-18 ἐκχεῶ ἀπὸ τοῦ πνεύματός μου — Peter's Pentecost text.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-2-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the teacher of righteousness / the rain in measure of righteousness",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "former rain faithfully",
+        "original": "הַמּוֹרֶה לִצְדָקָה",
+        "translit": "ham-moreh litsdaqah",
+        "strongs": null,
+        "gloss": "the teacher of righteousness / the rain in measure of righteousness",
+        "note": "Dual Hebrew meaning: both teacher of righteousness and early rain, linking truth-teaching with the Spirit's power.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The sovereign majesty of God intervening on behalf of His saints.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall roar",
+        "original": "יִשְׁאָג",
+        "translit": "yishʾag",
+        "strongs": null,
+        "gloss": "shall roar like a mighty lion",
+        "note": "The sovereign majesty of God intervening on behalf of His saints.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-2-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Whosoever Calls on the Name of the LORD",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jol-2-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Pour Out My Spirit on All Flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jol-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Former and Latter Rain for Zion",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jol-2-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Day of Darkness and of Gloominess",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jol-2-28",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I will pour out my Spirit",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pour out my spirit",
+        "original": "אֶשְׁפּוֹךְ אֶת־רוּחִי",
+        "translit": "ʾeshpokh ʾet-ruchi",
+        "strongs": null,
+        "gloss": "I will pour out my Spirit",
+        "note": "Acts 2:17-18 ἐκχεῶ ἀπὸ τοῦ πνεύματός μου — Peter's Pentecost text.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-2-32",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "calls in the name of YHWH",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "call on the name",
+        "original": "יִקְרָא בְּשֵׁם יְהוָה",
+        "translit": "yiqra be-shem YHWH",
+        "strongs": null,
+        "gloss": "calls in the name of YHWH",
+        "note": "Rom 10:13; Acts 2:21 — apostolic application of the divine name to Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-3-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "shall roar like a mighty lion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall roar",
+        "original": "יִשְׁאָג",
+        "translit": "yishʾag",
+        "strongs": null,
+        "gloss": "shall roar like a mighty lion",
+        "note": "The sovereign majesty of God intervening on behalf of His saints.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jol-3-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Beat Your Plowshares into Swords",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "God's binding promise starts here with rain at the right time for sowing and for harvesting the grain.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: James uses this picture from farming to call for patient waiting until the Lord comes.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the final outpouring of the Holy Spirit (latter rain) illuminating the earth before the harvest.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: God commands his people to pray for the last rain that ripens the crop.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "John's definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 19:10",
+        "verseId": "rev-19-10",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: rain falling on the ground is a picture of the Spirit poured out.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: the promise of the Holy Spirit on young and old, servants and handmaids.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "A rule in Scripture: God speaks to true prophets this way, under inspired guidance.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 12:6",
+        "verseId": "num-12-6",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "End-time promise: prophetic gift active right up to the great day of the LORD.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Apostolic order: spiritual gifts remain active until the church reaches mature unity in faith.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 12:28",
+        "verseId": "1co-12-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: cosmic portents preceding the great and terrible day of the LORD.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:30-32",
+        "verseId": "jol-2-32",
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Whosoever shall call upon the name of the Lord shall be saved",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 10:13",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: Jesus uses Joel's darkened sun and moon for His second coming.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:29-31",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Day of the LORD and the Outpouring of the Spirit",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "The Day of the Lord as a thief in the night",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 5:1-4",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "NT: the kings cry to mountains; the King of kings triumphs.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 6:16-17; 19:11-21",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God promises his presence and new life, pictured as rain.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Divine rule: significant redemptive actions are always preceded by prophetic revelation.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 3:7",
+        "verseId": "amo-3-7",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Identifying mark: end-time believers preserve obedience and the living prophetic testimony.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "A parallel in Scripture: the angel equates \"the testimony of Jesus\" with \"thy brethren the prophets.\"",
+      "density": 0.8571,
+      "words": 16,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:9",
+        "verseId": "rev-22-9",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Peter cites Joel 2. The early rain makes the crop sprout. It gives the early church power.",
+      "density": 0.85,
+      "words": 18,
+      "sentences": 3,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The great day of the LORD is near and hastens",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zephaniah 1:14-18",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: oven of judgment for proud, healing dawn for faithful.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-5",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "I will pour out My Spirit on all flesh",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest universal promise of Spirit-outpouring in the last days.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Signs in heaven; whosoever calls on the LORD saved",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:30-32",
+        "verseId": "jol-2-32",
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "The day of the LORD is darkness, not light",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 5:18-20",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Sun of Righteousness arises with healing in His wings",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-5",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Paul applies Joel 2:32 to calling on Jesus.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 10:13",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: unexpected advent for darkness, watchful hope for believers.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 5:1-4",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "New heavens and new earth in which righteousness dwells",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: elements melt with fervent heat; eternal new creation.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "He shall come as the rain to the earth",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 6:3",
+        "verseId": "hos-6-3",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Former rain and latter rain in the first month",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:23",
+        "verseId": "jol-2-23",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Ask rain in the time of the latter rain",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 10:1",
+        "verseId": "zec-10-1",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "God reveals His secret to His servants the prophets",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 3:7",
+        "verseId": "amo-3-7",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "The testimony of Jesus is the Spirit of Prophecy",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 19:10",
+        "verseId": "rev-19-10",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Cosmic signs before the Son of Man arrives",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:29-31",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "The great day of His wrath has come",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 6:16-17; 19:11-21",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Early and Latter Rain of the Spirit",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Be patient until the early and latter rain",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "James 5:7",
+        "verseId": "jam-5-7",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Prophets placed permanently in the body of Christ",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 12:28",
+        "verseId": "1co-12-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Remnant identified: has the testimony of Jesus Christ",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "7. The Spirit of Prophecy & The Remnant",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Spirit-outpouring explicitly identified as Joel's prophecy.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:16-21",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Pour out My Spirit on all flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Pentecost: The Early Rain of the Spirit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:1-4, 16-21",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Earth lightened with His glory (Loud Cry)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1",
+        "verseId": null,
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: universal urgency of divine reckoning.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zephaniah 1:14-18",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "First rain and latter rain promised",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 11:14",
+        "verseId": "deu-11-14",
+        "chainName": "The Early and Latter Rain of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Latter-day outpouring of the prophetic Spirit",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Joel 2:28-29",
+        "verseId": "jol-2-28",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Fellowservant of thy brethren the prophets",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:9",
+        "verseId": "rev-22-9",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Peter at Pentecost: \"This is that spoken by Joel\"",
+      "density": 0.4536,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:16-21",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: judgment upon hypocritical externalism.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Amos 5:18-20",
+        "verseId": null,
+        "chainName": "The Day of the LORD and the Outpouring of the Spirit"
+      }
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Prophetic criteria: visions and dreams",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 12:6",
+        "verseId": "num-12-6",
+        "chainName": "7. The Spirit of Prophecy & The Remnant"
+      }
+    }
+  ]
+}

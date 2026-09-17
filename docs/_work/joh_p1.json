@@ -1,0 +1,1131 @@
+{
+  "book": "joh",
+  "bookName": "John",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 27,
+    "entryStrings": 70,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "joh-1-1",
+    "joh-1-3",
+    "joh-1-14",
+    "joh-1-29",
+    "joh-1-45",
+    "joh-2-17",
+    "joh-3-14",
+    "joh-3-16",
+    "joh-5-39",
+    "joh-6-31",
+    "joh-6-45",
+    "joh-8-58",
+    "joh-10-11",
+    "joh-10-34",
+    "joh-12-15",
+    "joh-12-38",
+    "joh-12-40",
+    "joh-13-18",
+    "joh-14-16",
+    "joh-15-25",
+    "joh-17-12",
+    "joh-17-21",
+    "joh-19-24",
+    "joh-19-28",
+    "joh-19-36",
+    "joh-19-37",
+    "joh-20-9"
+  ],
+  "fields": [
+    {
+      "entryId": "joh-17-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "That they all may be one; as Thou, Father, art in Me, and I in Thee, that they also may be one in Us: that the world may believe that Thou hast sent Me. The spiritual and doctrinal unity of believers across all racial, national, social, and gender boundaries is the crowning proof of Christ's divine mission. It is grounded in shared truth and unselfish agape love.",
+      "density": 3.6179,
+      "words": 67,
+      "sentences": 3,
+      "maxSentenceWords": 34,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-1-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Word was made flesh and dwelt among us. Textual proof: John 1:1 identifies the Word with God and as agent of creation (1:3); 1:14 tabernacles among us (σκηνόω, same root as OT tabernacle); Col 2:9 — in Him dwells all the fullness of the Godhead bodily.",
+      "density": 3.3464,
+      "words": 47,
+      "sentences": 2,
+      "maxSentenceWords": 38,
+      "gate": "FAIL",
+      "violations": [
+        "38 words (max 35): \"Textual proof: John 1:1 identifies the Word with God and as agent of creation (1:3); 1:14 …\""
+      ],
+      "context": {
+        "citations": [
+          "John 1:1",
+          "Colossians 2:9"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I will pray the Father, and He shall give you another Comforter, that He may abide with you for ever; even the Spirit of truth. Jesus promises \"another\" (allon — of the same kind) Comforter to represent Him in every believer across all space and time. The Holy Spirit is a distinct divine Person who convicts, regenerates, guides, and seals believers until redemption.",
+      "density": 3.0857,
+      "words": 64,
+      "sentences": 4,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-1-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Word was with God, and the Word was God; without him was not any thing made that was made. First principle: the Christ at the center of every thread is the divine Creator, so promise-and-fulfillment runs from the Author of Genesis to the flesh He took on.",
+      "density": 2.8,
+      "words": 48,
+      "sentences": 2,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Without Him was not any thing made that was made. First principle: the Agent of creation is the same Son who redeems — Colossians joins the two: by Him were all things created, and by His blood we have redemption.",
+      "density": 2.7143,
+      "words": 40,
+      "sentences": 2,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-10-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus defends His unity with the Father from Psalm 82's Ye are gods — lesser judges called gods in the law. First principle: if Scripture could so name men, how could it be blasphemy for the Sent One to say I am the Son of God?",
+      "density": 2.5786,
+      "words": 46,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-3-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God gave His only begotten Son, that whosoever believeth in him should not perish, but have everlasting life. First principle: the gospel in one verse — divine love expressed as a gift, faith as the receiving hand, eternal life as the result.",
+      "density": 2.4214,
+      "words": 42,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-6-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus quotes Isaiah's promise that all shall be taught of God: every one that hath heard and learned of the Father cometh unto me. First principle: coming to Christ is the Father's own teaching fulfilled.",
+      "density": 2.2464,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-6-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Our fathers did eat manna in the desert; as it is written, He gave them bread from heaven to eat. Textual proof: Jesus cites the Exodus 16 manna narrative and applies it to Himself as the true bread (John 6:32-35, 48-51).",
+      "density": 2.225,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "John 6:32"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-3-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up. Textual proof: Jesus explicitly types Numbers 21:9 to His cross — looking at the raised sign is the means of life.",
+      "density": 2.2,
+      "words": 40,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Numbers 21:9"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-15-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The world's causeless hatred of Christ fulfills Psalm 69:4. First principle: the sinlessness of the Sufferer is proved by the causelessness of the hatred — hatred without charge, foretold in their own law.",
+      "density": 2.1964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-19-37",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John cites Zechariah 12:10 of the spear-thrust. First principle: the pierced One is the LORD Himself in the prophecy — and one day every eye shall look on Him and mourn.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Zechariah 12:10"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-5-39",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Search the scriptures… they are they which testify of me. Textual proof: Jesus claims the entire OT as witness to Himself; Luke 24:27, 44 — He expounded Moses, prophets, and Psalms concerning Himself.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Luke 24:27"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-1-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John names Jesus the Lamb of God, which taketh away the sin of the world. First principle: the whole sacrificial system — Passover lamb, daily lamb, Isaiah 53's silent lamb — converges on this one Man.",
+      "density": 2.1,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-1-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Philip tells Nathanael that Jesus of Nazareth is Him of whom Moses in the law and the prophets did write. First principle: the Old Testament is a written expectation that the apostles claim is met in one Person.",
+      "density": 2.0929,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-19-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The soldiers gamble for the seamless coat — Psalm 22:18 to the letter. First principle: prophecy runs to the smallest detail of the cross, down to a dice game at the foot of it.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-2-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "At the temple cleansing the disciples remember Psalm 69:9. First principle: Christ's consuming devotion to His Father's house was prophecy in motion — and the reproaches of God fell on Him.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-10-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The good shepherd giveth his life for the sheep. First principle: Ezekiel 34's promise that God Himself would shepherd His scattered flock is answered by Christ laying down His life.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-20-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The empty tomb stuns the disciples because as yet they knew not the scripture that He must rise. First principle: the third day was written — Psalm 16, Hosea 6, Jonah — before anyone believed it.",
+      "density": 1.9286,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-12-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Judicial hardening: Isaiah 6 saw this day — eyes that will not see, hearts that will not be converted. First principle: persistent refusal becomes settled blindness; the rejected Light finally seals the choice.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-8-58",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus answers: Before Abraham was, I AM. Textual proof: Exodus 3:14 — I AM THAT I AM; Isaiah 43:10 — I am He. The present claim outranks Abraham's past existence; the hearers take it as blasphemy (v59).",
+      "density": 1.8393,
+      "words": 37,
+      "sentences": 3,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Exodus 3:14",
+          "Isaiah 43:10"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-17-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ kept all the Father gave Him except Judas — that the scripture might be fulfilled. First principle: preserving grace is personal and complete; even the apostasy inside the Twelve served written prophecy.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-19-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Knowing all things were now accomplished, Jesus says I thirst — that scripture might be fulfilled. First principle: even the thirst of the cross was written; He asks, receives vinegar, and finishes.",
+      "density": 1.7143,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-13-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "At the Last Supper Jesus applies Psalm 41:9 to His betrayer. First principle: treachery at the table was scripted centuries ahead — nothing in the Passion was improvised.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "joh-19-36",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The soldiers break the thieves' legs but not Christ's — Exodus 12:46 and Psalm 34:20 fulfilled. First principle: the Passover Lamb dies whole; God preserves the integrity of His sacrifice.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Exodus 12:46"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-12-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John quotes Zechariah 9:9 at the triumphal entry: Fear not, daughter of Sion. First principle: the King arrives in humility exactly as written — the colt is the credential.",
+      "density": 1.6393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Zechariah 9:9"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-12-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John ties Israel's unbelief to Isaiah 53:1 — Lord, who hath believed our report? First principle: rejection of Christ was itself foretold; even unbelief fulfills the arm-of-the-LORD prophecy.",
+      "density": 1.5,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 53:1"
+        ]
+      }
+    },
+    {
+      "entryId": "joh-1-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exod 25:8 / 40:34 — God dwelling among His people; fulfilled in incarnate Christ.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dwelt",
+        "original": "ἐσκήνωσεν",
+        "translit": "eskēnōsen",
+        "strongs": null,
+        "gloss": "tabernacled / pitched His tent",
+        "note": "Exod 25:8 / 40:34 — God dwelling among His people; fulfilled in incarnate Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-3-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John uses this for crucifixion (3:14; 8:28; 12:32-34) — cross as the raised serpent.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lifted up",
+        "original": "ὑψωθῆναι",
+        "translit": "hypsōthēnai",
+        "strongs": null,
+        "gloss": "to be lifted up / exalted",
+        "note": "John uses this for crucifixion (3:14; 8:28; 12:32-34) — cross as the raised serpent.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-6-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exod 16:4, 15 — manna as type; Jesus is the greater gift.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bread from heaven",
+        "original": "ἄρτον ἐκ τοῦ οὐρανοῦ",
+        "translit": "arton ek tou ouranou",
+        "strongs": null,
+        "gloss": "bread out of heaven",
+        "note": "Exod 16:4, 15 — manna as type; Jesus is the greater gift.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not heteron (another of a different kind). The Spirit is fully co-equal and divine like Jesus.",
+      "density": 0.9143,
+      "words": 16,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "another (of same kind)",
+        "original": "ἄλλον",
+        "translit": "allon",
+        "strongs": null,
+        "gloss": "another of the same nature / equal",
+        "note": "Not heteron (another of a different kind). The Spirit is fully co-equal and divine like Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-8-58",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Divine self-identification; same as Exod 3:14 LXX ἐγώ εἰμι ὁ ὤν.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I AM",
+        "original": "ἐγώ εἰμι",
+        "translit": "egō eimi",
+        "strongs": null,
+        "gloss": "I am / I am He",
+        "note": "Divine self-identification; same as Exod 3:14 LXX ἐγώ εἰμι ὁ ὤν.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-13-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Eateth Bread with Me Hath Lifted Up His Heel",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-17-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Unity of essence, purpose, mind, and love like the Godhead.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "one",
+        "original": "ἕν",
+        "translit": "hen",
+        "strongs": null,
+        "gloss": "one (neuter) / single organic entity",
+        "note": "Unity of essence, purpose, mind, and love like the Godhead.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-17-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "None of Them Is Lost, but the Son of Perdition",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Comforter — The Holy Spirit as Personal Helper",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-17-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unity in Christ — The High-Priestly Prayer of Jesus",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-2-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Zeal of Thine House Hath Eaten Me Up",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-5-39",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ongoing witness of the written word to Christ.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "testify",
+        "original": "μαρτυροῦσαι",
+        "translit": "marturousai",
+        "strongs": null,
+        "gloss": "they bear witness (present)",
+        "note": "Ongoing witness of the written word to Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "called alongside to help / advocate / helper",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Comforter / Advocate",
+        "original": "παράκλητος",
+        "translit": "paraklētos",
+        "strongs": null,
+        "gloss": "called alongside to help / advocate / helper",
+        "note": "Intercessor, comforter, legal counselor, and strengthener.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-1-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Have Found Him of Whom Moses Wrote",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-12-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy King Cometh, Sitting on an Ass's Colt",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-19-36",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Bone of Him Shall Not Be Broken",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-19-37",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Look on Him Whom They Pierced",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "another of the same nature / equal",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "another (of same kind)",
+        "original": "ἄλλον",
+        "translit": "allon",
+        "strongs": null,
+        "gloss": "another of the same nature / equal",
+        "note": "Not heteron (another of a different kind). The Spirit is fully co-equal and divine like Jesus.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-6-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Be All Taught of God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-20-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Must Rise Again from the Dead",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-3-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As Moses Lifted Up the Serpent",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-3-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to be lifted up / exalted",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lifted up",
+        "original": "ὑψωθῆναι",
+        "translit": "hypsōthēnai",
+        "strongs": null,
+        "gloss": "to be lifted up / exalted",
+        "note": "John uses this for crucifixion (3:14; 8:28; 12:32-34) — cross as the raised serpent.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-8-58",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I am / I am He",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I AM",
+        "original": "ἐγώ εἰμι",
+        "translit": "egō eimi",
+        "strongs": null,
+        "gloss": "I am / I am He",
+        "note": "Divine self-identification; same as Exod 3:14 LXX ἐγώ εἰμι ὁ ὤν.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-14-16",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Intercessor, comforter, legal counselor, and strengthener.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Comforter / Advocate",
+        "original": "παράκλητος",
+        "translit": "paraklētos",
+        "strongs": null,
+        "gloss": "called alongside to help / advocate / helper",
+        "note": "Intercessor, comforter, legal counselor, and strengthener.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-17-21",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "one (neuter) / single organic entity",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "one",
+        "original": "ἕν",
+        "translit": "hen",
+        "strongs": null,
+        "gloss": "one (neuter) / single organic entity",
+        "note": "Unity of essence, purpose, mind, and love like the Godhead.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-1-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In the Beginning Was the Word",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Things Were Made by Him",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-3-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "For God So Loved the World",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-15-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Hated Me Without a Cause",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-19-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Cast Lots for My Vesture",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-1-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "tabernacled / pitched His tent",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dwelt",
+        "original": "ἐσκήνωσεν",
+        "translit": "eskēnōsen",
+        "strongs": null,
+        "gloss": "tabernacled / pitched His tent",
+        "note": "Exod 25:8 / 40:34 — God dwelling among His people; fulfilled in incarnate Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-5-39",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Scriptures Testify of Me",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-8-58",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Before Abraham Was, I AM",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-1-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold the Lamb of God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-10-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am the Good Shepherd",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-10-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Said, Ye Are Gods",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-12-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Hath Believed Our Report?",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-12-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Hath Blinded Their Eyes",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-1-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Word Became Flesh",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-5-39",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they bear witness (present)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "testify",
+        "original": "μαρτυροῦσαι",
+        "translit": "marturousai",
+        "strongs": null,
+        "gloss": "they bear witness (present)",
+        "note": "Ongoing witness of the written word to Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-6-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "bread out of heaven",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bread from heaven",
+        "original": "ἄρτον ἐκ τοῦ οὐρανοῦ",
+        "translit": "arton ek tou ouranou",
+        "strongs": null,
+        "gloss": "bread out of heaven",
+        "note": "Exod 16:4, 15 — manna as type; Jesus is the greater gift.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "joh-6-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Bread from Heaven",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "joh-19-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Thirst",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

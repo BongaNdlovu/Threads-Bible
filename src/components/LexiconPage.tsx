@@ -104,21 +104,21 @@ export function LexiconPage() {
   const greekCount = index.filter(e => e.language === 'greek').length;
 
   return (
-    <div className="fixed inset-0 z-[95] flex flex-col overflow-hidden select-text bg-background text-foreground">
+    <div data-page="lexicon" className="page fixed inset-0 z-[95] flex flex-col overflow-hidden select-text">
       {/* Header */}
-      <header className="flex items-center justify-between gap-4 px-6 py-3.5 border-b border-foreground/10 shrink-0 bg-background/95 backdrop-blur">
+      <header className="flex items-center justify-between gap-4 px-6 py-3.5 border-b shrink-0 backdrop-blur" style={{ borderColor: 'var(--page-border)', background: 'var(--page-header-bg)' }}>
         <div className="flex items-center gap-3 min-w-0">
-          <div className="h-9 w-9 rounded-xl flex items-center justify-center border border-accent/30 bg-accent/10 text-accent shrink-0">
+          <div className="h-9 w-9 rounded-xl flex items-center justify-center border shrink-0" style={{ borderColor: 'var(--page-border)', background: 'var(--page-accent-soft)', color: 'var(--page-accent)' }}>
             <BookMarked className="h-5 w-5" />
           </div>
           <div className="min-w-0">
             <div className="flex items-center gap-2">
               <h1 className="font-serif text-lg font-bold truncate">Hebrew &amp; Greek Lexicon</h1>
-              <span className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold bg-accent/10 text-accent">
+              <span className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold page-chip">
                 {index.length} terms
               </span>
             </div>
-            <p className="text-xs truncate text-foreground/60">
+            <p className="page-muted text-xs truncate">
               Every original word behind the threads — with its meaning in this Bible's own context
             </p>
           </div>
@@ -126,7 +126,7 @@ export function LexiconPage() {
         <button
           onClick={() => setLexiconOpen(false)}
           aria-label="Close lexicon"
-          className="h-8 px-3 rounded-full flex items-center gap-1.5 border border-foreground/15 text-xs font-semibold cursor-pointer transition-colors hover:bg-foreground/5 shrink-0"
+          className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-semibold cursor-pointer transition-colors hover:opacity-80 shrink-0" style={{ borderColor: 'var(--page-border)', color: 'var(--page-ink)' }}
         >
           <X className="h-4 w-4" />
           <span className="hidden sm:inline">Close</span>
@@ -135,19 +135,19 @@ export function LexiconPage() {
 
       {/* Search & filters */}
       <div className="px-4 sm:px-8 pt-5 pb-3 max-w-5xl mx-auto w-full space-y-3 shrink-0">
-        <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-foreground/15 bg-card text-sm">
-          <Search className="h-4 w-4 shrink-0 text-foreground/40" />
+        <div className="page-search flex items-center gap-2.5 px-4 py-2.5 rounded-xl text-sm">
+          <Search className="h-4 w-4 shrink-0" style={{ color: 'var(--page-accent)' }} />
           <input
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
             placeholder="Search a word, transliteration, Strong's number, or meaning…"
-            className="w-full bg-transparent outline-none placeholder:text-foreground/40"
+            className="page-input w-full outline-none"
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="text-xs px-2 py-0.5 rounded cursor-pointer text-foreground/50 hover:text-foreground"
+              className="page-muted text-xs px-2 py-0.5 rounded cursor-pointer hover:opacity-80"
             >
               Clear
             </button>
@@ -162,10 +162,10 @@ export function LexiconPage() {
             <button
               key={value}
               onClick={() => setLanguageFilter(value)}
-              className={`px-3 py-1 rounded-full transition-colors cursor-pointer ${
+              className={`page-pill px-3 py-1 rounded-full cursor-pointer ${
                 languageFilter === value
-                  ? 'bg-accent text-accent-foreground font-semibold'
-                  : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                  ? 'page-pill-active'
+                  : 'page-pill'
               }`}
             >
               {label}
@@ -178,13 +178,13 @@ export function LexiconPage() {
       <div className="flex-1 overflow-y-auto min-h-0 px-4 sm:px-8 pb-10">
         <div className="max-w-5xl mx-auto space-y-3">
           {!detailsReady ? (
-            <div className="py-16 text-center text-sm text-foreground/50 animate-pulse">
+            <div className="page-muted py-16 text-center text-sm animate-pulse">
               Loading the lexicon…
             </div>
           ) : filtered.length === 0 ? (
             <div className="py-16 text-center space-y-2">
               <h3 className="font-serif text-base font-bold">No matching words</h3>
-              <p className="text-xs text-foreground/50">
+              <p className="page-muted text-xs">
                 Try a shorter search, or clear the Hebrew/Greek filter.
               </p>
             </div>
@@ -192,30 +192,30 @@ export function LexiconPage() {
             filtered.map(e => (
               <article
                 key={e.key}
-                className="p-5 rounded-2xl border border-foreground/10 bg-card shadow-sm space-y-3"
+                className="page-card p-5 rounded-2xl space-y-3"
               >
                 <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                  <span className="text-[10px] uppercase tracking-widest font-bold text-accent">
+                  <span className="page-eyebrow text-[10px] uppercase font-bold">
                     {e.language === 'greek' ? 'Greek' : e.language === 'hebrew' ? 'Hebrew' : 'Term'}
                   </span>
                   <h3 className="font-serif text-lg font-bold">{e.term}</h3>
-                  <span className="font-serif text-xl text-accent">{e.original}</span>
-                  <span className="text-sm italic text-foreground/60">({e.translit})</span>
+                  <span className="page-accent font-serif text-xl">{e.original}</span>
+                  <span className="page-muted text-sm italic">({e.translit})</span>
                   {e.strongs && (
-                    <span className="font-mono text-[10px] uppercase tracking-wider text-foreground/40">
+                    <span className="page-muted font-mono text-[10px] uppercase tracking-wider">
                       Strong's {e.strongs}
                     </span>
                   )}
                 </div>
-                <p className="text-sm text-foreground/85 leading-relaxed">{e.gloss}</p>
+                <p className="text-sm leading-relaxed">{e.gloss}</p>
                 {e.exposition && (
-                  <p className="text-sm text-foreground/70 leading-relaxed border-l-2 border-accent/30 pl-3">
+                  <p className="text-sm leading-relaxed border-l-2 pl-3 opacity-85" style={{ borderColor: 'var(--page-rail)' }}>
                     {e.exposition}
                   </p>
                 )}
-                {e.note && <p className="text-xs text-foreground/50 leading-relaxed">{e.note}</p>}
-                <div className="pt-1 border-t border-foreground/5">
-                  <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/40 mb-1.5">
+                {e.note && <p className="page-muted text-xs leading-relaxed">{e.note}</p>}
+                <div className="pt-1 border-t" style={{ borderColor: 'var(--page-border)' }}>
+                  <div className="page-muted text-[10px] uppercase tracking-widest font-bold mb-1.5">
                     Where this word carries the thread
                   </div>
                   <div className="flex flex-wrap gap-1">
@@ -226,7 +226,7 @@ export function LexiconPage() {
                           void navigateToVerse(id);
                           setLexiconOpen(false);
                         }}
-                        className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                        className="page-pill px-2 py-0.5 rounded font-mono text-[10px] cursor-pointer"
                       >
                         {refLabel(id)}
                       </button>

@@ -1,0 +1,297 @@
+{
+  "book": "dan",
+  "bookName": "Daniel",
+  "part": 1,
+  "drafts": [
+    {
+      "entryId": "dan-7-9",
+      "field": "principle",
+      "after": "Daniel sees thrones set in place. The Ancient of Days takes His seat. The court sits, and the books are opened. Jesus, Paul, and Revelation all put judgment in God's court before the final kingdom. Textual proof: Dan 7:9-10 shows a courtroom in heaven. Dan 7:22 says judgment was given to the saints of the Most High. The verdict comes first, and then the saints take the kingdom.",
+      "reason": "V2: the three semicolon-joined clauses are now one idea per sentence, and the closing 'i.e.' legalese becomes a plain sentence. V3: 'issues a verdict' is now 'gives its verdict', 'is a heavenly judgment scene' becomes 'shows a courtroom in heaven', and 'a judicial verdict precedes their possession of the kingdom' becomes 'The verdict comes first, and then the saints take the kingdom'. Both citations (Dan 7:9-10, Dan 7:22), the phrase 'the saints of the Most High' and every claim (thrones set, the court sitting, the books opened, judgment placed in God's court before the final kingdom, the verdict before possession) are unchanged; no claim added or dropped."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "principle",
+      "after": "An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as a pattern of the heavenly sanctuary (Heb 8:1-2; 9:23-24). Leviticus 16 describes how the sanctuary was cleansed with blood each year. Textual proof: Daniel's time prophecy ends at a sanctuary event. Hebrews puts Christ's ministry in the true tabernacle. Leviticus defines what \"cleansed/right\" means in the priestly setting — the sin that piled up is taken out of the sanctuary.",
+      "reason": "V2: the five-clause 'Textual proof' chain is split into one idea per sentence. V3: 'locates ... in the true tabernacle' becomes 'puts', 'priestly context' becomes 'the priestly setting', 'annual cleansing' becomes 'how the sanctuary was cleansed with blood each year', and 'removal of accumulated sin' becomes 'the sin that piled up is taken out'. The 2,300 wording 'unto two thousand and three hundred days; then shall the sanctuary be made right' is byte-identical, as are Heb 8:1-2; 9:23-24, Leviticus 16 and the quoted \"cleansed/right\"."
+    },
+    {
+      "entryId": "dan-7-25",
+      "field": "principle",
+      "after": "The little power speaks against the Most High. It wears out the saints, and it rules for a time, times, and a dividing of time. First principle: that time has a limit. The wearing out of the saints comes to an end.",
+      "reason": "V2: the 24-word sentence that chained three actions is split into two, one action each. V3: 'holds sway' becomes 'rules', and 'prophetic time is bounded — the wear-out has a stopwatch on it' is said in everyday words. The KJV time phrase 'a time, times, and a dividing of time', the Most High, the saints and the label First principle: are byte-identical (I1)."
+    },
+    {
+      "entryId": "dan-7-22",
+      "field": "principle",
+      "after": "The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: the heavenly court in v9-10 gives its verdict, and then the saints receive dominion. Paul writes that the saints will judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones set up and judgment handed to those who reign with Christ.",
+      "reason": "V2: the missing article and the verbless clause are fixed, so 'heavenly court (v9-10) issues a verdict' now reads as plain subject-verb-object, and 'shall judge' becomes 'will judge'. V3: 'thrones and judgment given to those who reign with Christ' becomes 'thrones set up and judgment handed to those who reign with Christ'. v9-10, 1 Cor 6:2-3 and Revelation 20:4 are byte-identical, and every claim (the verdict, then dominion, the saints judging world and angels, thrones and judgment with Christ) stands."
+    },
+    {
+      "entryId": "dan-7-27",
+      "field": "principle",
+      "after": "Dominion under the whole heaven passes to the saints of the Most High. It is an everlasting kingdom, and all dominions serve Him. First principle: the story does not end with the beast's empire. It ends with the saints' inheritance under the Son of man.",
+      "reason": "V2: the em-dash apposition becomes two sentences, and the participle 'all dominions serving Him' takes a plain verb. V3: 'the end is not the beast's empire but the saints' inheritance' becomes 'the story does not end with the beast's empire. It ends with the saints' inheritance', so the contrast is spoken instead of implied. 'the saints of the Most High', the Son of man and the label are unchanged; no claim added or dropped."
+    },
+    {
+      "entryId": "dan-7-10",
+      "field": "principle",
+      "after": "The Ancient of Days sits. Thousand thousands serve Him, and the books open. First principle: the courtroom in heaven comes before the kingdom. The record is read before the verdict, and dominion is given to the Son.",
+      "reason": "V2: the colon chain is split into one idea per sentence. V3: 'minister' becomes 'serve' and 'precedes' becomes 'comes before'. The KJV number phrase 'thousand thousands' (Dan 7:10), the Ancient of Days, the books, the record read before the verdict and the dominion given to the Son are all unchanged."
+    },
+    {
+      "entryId": "dan-7-21",
+      "field": "principle",
+      "after": "The boastful horn wins against the saints, but only for a time. First principle: the war against the saints is real and violent, and it will end. It is written down so the suffering will not surprise us.",
+      "reason": "V2: the semicolon pair becomes two sentences. V3: 'prevails' becomes 'wins' and 'temporary' becomes 'it will end'. The boastful horn, the saints, the limited time and the claim that it is written so the suffering will not surprise us all stand."
+    },
+    {
+      "entryId": "dan-2-35",
+      "field": "principle",
+      "after": "The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue. God's kingdom is a mountain that grows. It was cut without hands, and nothing can stop it.",
+      "reason": "V2: the semicolon-joined pair becomes three sentences, one idea each. V3: 'unstoppable in growth' becomes 'nothing can stop it'. The image, the chaff, the stone that fills the earth, 'cut without hands' and the one statue are unchanged."
+    },
+    {
+      "entryId": "dan-7-13",
+      "field": "principle",
+      "after": "One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming for Himself, and Revelation tells the same cloud story. First principle: the authority of the promised King, Jesus, is handed to Him. Then He is shown openly in glory.",
+      "reason": "V3: 'messianic authority' carries the frozen glossary rendering, the authority of the promised King, Jesus. V2: the semicolon is split, 'Revelation repeats the cloud-coming' becomes 'Revelation tells the same cloud story', and 'given and then revealed in glory' becomes two short sentences ('is handed to Him. Then He is shown openly in glory'), so the giving and the revealing are not chained. 'One like a Son of Man', 'the clouds of heaven' and 'the Ancient of Days' stand; no claim added or softened."
+    },
+    {
+      "entryId": "dan-8-11",
+      "field": "principle",
+      "after": "The self-exalting power takes away the daily sacrifice and throws down the sanctuary. First principle: the war against God comes dressed as religion. The desecration of worship is the center of the prophecy.",
+      "reason": "V4/V2: the passive 'is taken away ... by the self-exalting power' becomes active with the power as subject, and the dash chain is split. V3: 'wears a religious face' becomes 'comes dressed as religion' and 'prophecy's center stage' becomes 'the center of the prophecy'. 'the daily sacrifice', 'the sanctuary' and 'the desecration of worship' are kept."
+    },
+    {
+      "entryId": "dan-2-45",
+      "field": "principle",
+      "after": "The interpretation is certain. God makes known what shall come hereafter. First principle: the kingdom is God's work, and it comes without hands. The dream is certain, so faith has something solid to stand on when empires boast.",
+      "reason": "V2: the colon and the double dash are split, and 'divine work — without hands' names the actor as God's work that comes without hands. V3: 'anchors faith against empire's confidence' becomes 'faith has something solid to stand on when empires boast'. 'God makes known what shall come hereafter' is byte-identical and the certainty of the dream is kept at full strength."
+    },
+    {
+      "entryId": "dan-8-17",
+      "field": "principle",
+      "after": "Gabriel lifts the fallen Daniel. The vision belongs to the time of the end. First principle: visions like this are given so we understand, not to entertain us. The appointed time makes sense of the symbols.",
+      "reason": "V3: 'apocalyptic vision' becomes 'visions like this'. V2: the colon is split and 'for understanding, not entertainment' becomes 'so we understand, not to entertain us'. Gabriel, the fallen Daniel, the time of the end and the appointed time are unchanged."
+    },
+    {
+      "entryId": "dan-2-34",
+      "field": "principle",
+      "after": "A stone cut without hands smashes the statue and becomes a great mountain. First principle: God's kingdom is not an empire built by men. God himself sets it up, and it fills the whole earth.",
+      "reason": "V2: the semicolon pair is split, and 'it arrives by divine act' says who acts: God himself sets it up. V3: 'a human empire' becomes 'an empire built by men', which is the same claim in concrete words, and 'fills the earth' takes the KJV 'whole'. 'A stone cut without hands', the statue and the great mountain are byte-identical."
+    },
+    {
+      "entryId": "dan-2-44",
+      "field": "principle",
+      "after": "In the days of those kings God sets up a kingdom that shall never be destroyed. Luke says of His kingdom there shall be no end. First principle: Christ's kingdom lasts longer than every earthly throne, and it absorbs them all.",
+      "reason": "V2: 'Luke:' takes a verb, so the citation reads as a sentence. V3: 'outlasts' becomes 'lasts longer than' and the second verb keeps its sense ('absorbs them all'). The kingdom that shall never be destroyed, the KJV clause about His kingdom having no end, and the label are unchanged."
+    },
+    {
+      "entryId": "dan-7-26",
+      "field": "principle",
+      "after": "The court sits, and the persecutor's dominion is consumed unto the end. First principle: every power that speaks against God has an end set for it. The same judgment that rules in favor of the saints removes the beasts.",
+      "reason": "V3: 'blasphemous' becomes 'speaks against God' (the same plain wording the book already uses of the little power), 'vindicates' becomes 'rules in favor of', and 'removes beasts' takes its article. V2: the dash chain is split. 'The court sits', 'consumed unto the end' and the removal of the beasts stand."
+    },
+    {
+      "entryId": "dan-7-14",
+      "field": "principle",
+      "after": "The Son of Man receives dominion, glory, and a kingdom. All peoples should serve Him. Matthew says He has all authority in heaven and earth. First principle: the Messiah is worshiped by all and rules over all.",
+      "reason": "V2: the 16-word sentence that packed the kingdom and the service of all peoples is split, and the verbless 'Matthew:' fragment takes a verb. V3: 'universal worship and rule belong to the Messiah' is said in plain word order. The Son of Man, dominion, glory, the kingdom, Matthew and the Messiah are unchanged."
+    },
+    {
+      "entryId": "dan-7-18",
+      "field": "principle",
+      "after": "The saints of the Most High possess the kingdom for ever. First principle: the persecution runs its course and ends in possession. The little horn loses, and the saints inherit.",
+      "reason": "V3: \"persecution's arc ends in possession\" becomes 'the persecution runs its course and ends in possession'. The saints of the Most High, the kingdom possessed for ever, the little horn and the inheritance are unchanged."
+    },
+    {
+      "entryId": "dan-7-9",
+      "field": "terms[0].note",
+      "after": "The Aramaic word din means a court proceeding, not just destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+      "reason": "V2: the em-dash fragment becomes a sentence with a verb. V3: 'not mere destruction' becomes 'not just destruction'. The transliteration din, the citation Dan 7:22 and the cross-reference 1 Cor 6:2-3 are byte-identical."
+    },
+    {
+      "entryId": "dan-7-9",
+      "field": "terms[1].note",
+      "after": "The same picture of books appears in Rev 20:12 at the final judgment. It also appears in Exod 32:32-33 and Ps 139:16.",
+      "reason": "V2: the semicolon list of references becomes two plain sentences, and 'book-image' becomes 'picture of books'. Rev 20:12, Exod 32:32-33 and Ps 139:16 are byte-identical, and the final judgment is unchanged."
+    },
+    {
+      "entryId": "dan-7-22",
+      "field": "terms[0].note",
+      "after": "The verb is passive, so God takes the initiative. The court's decision comes before the saints possess the kingdom.",
+      "reason": "V3: 'Passive — divine initiative' is grammar shorthand the reader has to decode; it now says in everyday words who acts and keeps the word 'initiative' in the form of a plain verb. V2: the semicolon is split, and 'the court's decision precedes possession of the kingdom' is reordered into plain subject-verb-object with the same claim."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "terms[1].note",
+      "after": "Cadaq is the same root as \"righteous.\" In the sanctuary setting, it means the sanctuary is purged and stands right before God.",
+      "reason": "V2: the colon fragment becomes a sentence. V3: 'in sanctuary context' becomes 'in the sanctuary setting'. The transliteration Cadaq and the quoted \"righteous.\" are byte-identical, and the sense (purged so it stands right before God) is unchanged."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "terms[0].note",
+      "after": "This Hebrew idiom matches Gen 1, and it is a day-count. The count ends at an event that cleanses the sanctuary (cf. Lev 16:16-19; Heb 9:22-24).",
+      "reason": "V2: the noun fragment 'Hebrew idiom matching Gen 1 — a day-count' becomes a sentence with a verb, and 'sanctuary-cleansing event' becomes 'an event that cleanses the sanctuary'. The day-count wording is kept as it stood. Gen 1, Lev 16:16-19 and Heb 9:22-24 are byte-identical."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "terms[1].gloss",
+      "after": "and it shall be declared to be in the right / cleared / made righteous",
+      "reason": "V3: 'justified' and 'vindicated' are words the reader has to decode, so they carry the frozen glossary rendering of justification (declared to be in the right) and the plain 'cleared'. 'and it shall be' and 'made righteous' are kept, so the gloss still covers the same three senses."
+    },
+    {
+      "entryId": "dan-2-34",
+      "field": "terms[0].note",
+      "after": "This is not human craftsmanship. It is God's kingdom (cf. Col 2:11).",
+      "reason": "V2: the em-dash fragment becomes two sentences. V3: 'divine kingdom' becomes 'God's kingdom'. The cross-reference Col 2:11 and the claim (not human craftsmanship) are unchanged."
+    },
+    {
+      "entryId": "dan-7-13",
+      "field": "terms[0].note",
+      "after": "This is the title Jesus used for Himself more than any other. It is also the title Ezekiel is given in his visions.",
+      "reason": "V2: the semicolon fragment becomes two sentences. V3: 'favorite self-title' and 'visionary title' are said in everyday words. Jesus and Ezekiel, and the claim that the title belongs to both, are unchanged."
+    },
+    {
+      "entryId": "dan-7-14",
+      "field": "terms[0].note",
+      "after": "The Greek words ἐξουσία and δόξα are used for this in the NT.",
+      "reason": "V2: the verbless Greek fragment becomes a sentence with a verb. The Greek words ἐξουσία and δόξα, the abbreviation NT and the claim (these are the words used in the New Testament) are byte-identical (I1)."
+    },
+    {
+      "entryId": "dan-2-34",
+      "field": "terms[0].gloss",
+      "after": "which is not by hands (Aramaic)",
+      "reason": "V2/V3: the literal gloss now reads as English, with the relative pronoun 'which is' instead of the bare 'that'. The sense of the Aramaic and the parenthetical (Aramaic) are unchanged."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "dan-7-26",
+      "field": "title",
+      "reason": "11 words, one KJV clause, plain order; title kept verbatim against Dan 7:26."
+    },
+    {
+      "entryId": "dan-8-17",
+      "field": "title",
+      "reason": "11 words, one idea, plain; an app title drawn from the words of Dan 8:17 and kept byte-identical (I1). Not inside quotation marks, so no QUOTE-REVIEW is raised."
+    },
+    {
+      "entryId": "dan-2-35",
+      "field": "title",
+      "reason": "10 words, one KJV clause (Dan 2:35), plain order; nothing to change."
+    },
+    {
+      "entryId": "dan-7-10",
+      "field": "title",
+      "reason": "9 words, one KJV clause (Dan 7:10); title kept verbatim, the judgment and the books unchanged."
+    },
+    {
+      "entryId": "dan-7-27",
+      "field": "title",
+      "reason": "9 words, one KJV clause (Dan 7:27); title kept verbatim."
+    },
+    {
+      "entryId": "dan-8-11",
+      "field": "title",
+      "reason": "9 words, one KJV clause (Dan 8:11); title kept verbatim, the prince of the host unchanged."
+    },
+    {
+      "entryId": "dan-2-44",
+      "field": "terms[0].note",
+      "reason": "8 words, one idea, plain; the Luke 1:33 citation is untouched."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "title",
+      "reason": "8 words in one dash-joined title, well under the 35-word limit; the numeral 2,300 and the Dan 8:14 wording are kept byte-identical."
+    },
+    {
+      "entryId": "dan-7-25",
+      "field": "title",
+      "reason": "8 words, one KJV clause (Dan 7:25); title kept verbatim."
+    },
+    {
+      "entryId": "dan-2-44",
+      "field": "terms[0].gloss",
+      "reason": "7 words, the literal Aramaic gloss of the term; nothing to decode."
+    },
+    {
+      "entryId": "dan-7-13",
+      "field": "terms[0].gloss",
+      "reason": "6 words, the literal Aramaic gloss of the term; plain."
+    },
+    {
+      "entryId": "dan-2-45",
+      "field": "title",
+      "reason": "6 words, one KJV clause (Dan 2:34); plain order, nothing to change."
+    },
+    {
+      "entryId": "dan-7-18",
+      "field": "title",
+      "reason": "6 words, one KJV clause (Dan 7:18); title kept verbatim."
+    },
+    {
+      "entryId": "dan-7-21",
+      "field": "title",
+      "reason": "7 words, one KJV clause (Dan 7:21); title kept verbatim."
+    },
+    {
+      "entryId": "dan-7-13",
+      "field": "title",
+      "reason": "6 words, KJV wording (Dan 7:13); title kept verbatim."
+    },
+    {
+      "entryId": "dan-7-9",
+      "field": "title",
+      "reason": "5 words, one idea, plain; an app title drawn from Dan 7:9, dash-joined but far under the 35-word limit."
+    },
+    {
+      "entryId": "dan-7-22",
+      "field": "title",
+      "reason": "5 words, one KJV clause (Dan 7:22); title kept verbatim."
+    },
+    {
+      "entryId": "dan-7-22",
+      "field": "terms[0].gloss",
+      "reason": "5 words, the KJV words of Dan 7:22; literal gloss, nothing to decode."
+    },
+    {
+      "entryId": "dan-2-34",
+      "field": "title",
+      "reason": "4 words, KJV wording (Dan 2:34); title kept verbatim."
+    },
+    {
+      "entryId": "dan-8-14",
+      "field": "terms[0].gloss",
+      "reason": "4 words, the literal gloss of the term '2,300 evenings and mornings', including the ≈ sign; nothing to decode."
+    },
+    {
+      "entryId": "dan-7-14",
+      "field": "title",
+      "reason": "3 words, one idea, plain (Dan 7:14); title kept verbatim."
+    },
+    {
+      "entryId": "dan-7-14",
+      "field": "terms[0].gloss",
+      "reason": "3 words, the literal Aramaic gloss of the term; plain."
+    },
+    {
+      "entryId": "dan-7-9",
+      "field": "terms[0].gloss",
+      "reason": "3 words, the literal gloss of the Aramaic term for judgment; plain."
+    },
+    {
+      "entryId": "dan-7-9",
+      "field": "terms[1].gloss",
+      "reason": "3 words, the KJV words of Dan 7:10; literal gloss, nothing to decode."
+    },
+    {
+      "entryId": "dan-2-44",
+      "field": "title",
+      "reason": "2 words, one idea, plain (Dan 7:14 and Dan 2:44); nothing to change."
+    }
+  ],
+  "equivalent": []
+}

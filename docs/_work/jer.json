@@ -1,0 +1,1839 @@
+{
+  "book": "jer",
+  "bookName": "Jeremiah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 21,
+    "entryStrings": 52,
+    "chainStrings": 61,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "jer-1-5",
+    "jer-17-9",
+    "jer-23-5",
+    "jer-23-6",
+    "jer-25-12",
+    "jer-29-10",
+    "jer-30-7",
+    "jer-31-15",
+    "jer-31-31",
+    "jer-31-33",
+    "jer-31-34",
+    "jer-31-9",
+    "jer-32-38",
+    "jer-32-40",
+    "jer-33-14",
+    "jer-4-23",
+    "jer-44-4",
+    "jer-50-20",
+    "jer-51-7",
+    "jer-7-11",
+    "jer-9-24"
+  ],
+  "fields": [
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He will put His law in their inward parts, write it on their hearts, be their God, and remember their sins no more. Jesus inaugurates this covenant in His blood, and Hebrews quotes this entire text as the foundation of the Christian dispensation. First principle: the new covenant internalizes God's law, grants universal intimate knowledge of God, and secures absolute forgiveness.",
+      "density": 4.1536,
+      "words": 77,
+      "sentences": 3,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jeremiah beholds the earth in prophetic vision: \"I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light... I beheld, and, lo, there was no man, and all the birds of the heavens were fled... the fruitful place was a wilderness, and all the cities thereof were broken down at the presence of the LORD.\" This vision describes the desolation of the earth during the 1,000 years of Revelation 20, while Satan is bound in the bottomless pit (abyss/tohu va-bohu). First principle: the earth rests in desolate stillness while the saints reign and judge with Christ in heaven.",
+      "density": 4.1036,
+      "words": 107,
+      "sentences": 3,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch, and a King shall reign and prosper, and shall execute judgment and justice in the earth... and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS. First principle: the King Himself is our righteousness — justification by a Person, not a performance.",
+      "density": 3.3786,
+      "words": 62,
+      "sentences": 3,
+      "maxSentenceWords": 32,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Alas! for that day is great, so that none is like it: it is even the time of Jacob's trouble; but he shall be saved out of it. Like Jacob wrestling at Jabbok in darkness, God's people undergo intense mental anguish under the death decree after probation closes. Holding fast to God's promises with unyielding faith, their deliverance is sealed.",
+      "density": 3.0429,
+      "words": 60,
+      "sentences": 4,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not. Matthew's link to the Bethlehem massacre is no license for despair: the same chapter promises a new covenant and that Rachel shall return. First principle: sorrow in God's plan is never the last word.",
+      "density": 2.9857,
+      "words": 60,
+      "sentences": 3,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-32-38",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant formula for the reunited land. First principle: the promise formula stands at the heart of the redemption chapters — quoted by Paul of the temple-church and by John of the new earth.",
+      "density": 2.3929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-51-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The nations drunk mad on her wine. First principle: Babylon is both God's instrument and the world's intoxication — Revelation 14 and 18 pick up the cup for the final fall.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-17-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Desperately wicked; who can know it? First principle: the heart deceives its own owner — only the searching LORD can know it; Jesus traces defilement from the same source.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-9-24",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Understanding and knowing the LORD who exercises lovingkindness, judgment, righteousness. First principle: the only permitted boast is knowing God's exercised character — Paul quotes it twice and grounds it in Christ.",
+      "density": 1.975,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-29-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I will visit you and perform my good word, causing your return. First principle: the good word performs itself — the visitation promise is dated, and the return is its performance.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-32-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Never turned away to do them good; fear placed in hearts so they never depart. First principle: the everlasting covenant is God-sided perseverance — the fear He puts keeps the people He keeps.",
+      "density": 1.8536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-23-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In His days Judah is saved and Israel dwells safely under the Branch's new name. First principle: the name is the gospel — the King Himself is the righteousness His people lack.",
+      "density": 1.7714,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-50-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sins unfound; the reserved pardoned. First principle: the search that finds nothing — pardon so total the investigation comes up empty for the preserved remnant.",
+      "density": 1.7679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No more neighbor-teaching; universal knowledge, forgiven sin. First principle: the covenant's knowledge is direct and its forgiveness total — the least to the greatest, remembered never.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-25-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Babylon punished after the numbered years. First principle: exile has an expiration date written before it begins — Daniel reads this very letter and prays.",
+      "density": 1.7107,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-44-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophets sent rising early, pleading against the abomination. First principle: idolatry is the hated abomination, pleaded against persistently — and the pleaders were ignored to exile.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-33-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The days come for the promised performance to Israel and Judah. First principle: the good thing is dated — the Branch-ruler of the preceding verses is the performance.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-7-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The named-house turned robbers' cave, seen by the LORD. First principle: Jeremiah's temple sermon is Jesus' cleansing text — trust in the building while practicing robbery.",
+      "density": 1.6214,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sanctified and ordained a prophet before birth. First principle: the prenatal call — Jeremiah, John the Baptist, and the Servant all carry womb-appointed commissions.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The new covenant written in hearts; God theirs, they His. First principle: the covenant moves inside — Hebrews quotes this as the better covenant's very charter.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-31-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Weeping led home by straight ways and rivers. First principle: the father-heart leads weepers; the firstborn title over Ephraim reverses the lost son's status.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without form and void",
+        "original": "תֹּהוּ וָבֹהוּ",
+        "translit": "tohu va-vohu",
+        "strongs": null,
+        "gloss": "unformed and empty / chaotic desolation",
+        "note": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Branch",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth of a plant",
+        "note": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamentation",
+        "original": "בְּכִי תַמְרוּרִים",
+        "translit": "vekhi tamrurim",
+        "strongs": null,
+        "gloss": "weeping of bitternesses",
+        "note": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-50-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Iniquity of Israel Shall Be Sought for, and There Shall Be None",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "a new covenant",
+        "note": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am a Father to Israel, and Ephraim Is My Firstborn",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-32-38",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Be My People, and I Will Be Their God",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Time of Jacob's Trouble — Saved Out of It",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Before I Formed Thee in the Belly I Knew Thee",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-33-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Perform That Good Thing Which I Have Promised",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-51-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Babylon Hath Been a Golden Cup in the LORD'S Hand",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Earth Desolated — Chaos During the Millennial Prison",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The ultimate crucible of faith before the clouds part.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trouble / distress",
+        "original": "צָרָה",
+        "translit": "tsarah",
+        "strongs": null,
+        "gloss": "dire distress, anguish, extremity",
+        "note": "The ultimate crucible of faith before the clouds part.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Put My Law in Their Inward Parts",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-44-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Oh, Do Not This Abominable Thing That I Hate",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall All Know Me... I Will Remember Their Sin No More",
+      "density": 0.7,
+      "words": 12,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Righteous Branch — The LORD Our Righteousness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-32-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Make an Everlasting Covenant with Them",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-9-24",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Him That Glorieth Glory in This",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-17-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Heart Is Deceitful Above All Things",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-29-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "After Seventy Years Be Accomplished at Babylon",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-4-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "unformed and empty / chaotic desolation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without form and void",
+        "original": "תֹּהוּ וָבֹהוּ",
+        "translit": "tohu va-vohu",
+        "strongs": null,
+        "gloss": "unformed and empty / chaotic desolation",
+        "note": "Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-7-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Is This House... Become a Den of Robbers?",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "sprout, growth of a plant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Branch",
+        "original": "צֶמַח",
+        "translit": "tsemach",
+        "strongs": null,
+        "gloss": "sprout, growth of a plant",
+        "note": "The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Rachel Weeping for Her Children",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-25-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "When Seventy Years Are Accomplished",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-30-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "dire distress, anguish, extremity",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "trouble / distress",
+        "original": "צָרָה",
+        "translit": "tsarah",
+        "strongs": null,
+        "gloss": "dire distress, anguish, extremity",
+        "note": "The ultimate crucible of faith before the clouds part.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-23-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "THE LORD OUR RIGHTEOUSNESS",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The New Covenant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "jer-31-31",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "a new covenant",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new covenant",
+        "original": "בְּרִית חֲדָשָׁה",
+        "translit": "berit chadashah",
+        "strongs": null,
+        "gloss": "a new covenant",
+        "note": "Greek διαθήκη καινή (diathēkē kainē) in Luke 22:20; Heb 8:8; 9:15.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "jer-31-15",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "weeping of bitternesses",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamentation",
+        "original": "בְּכִי תַמְרוּרִים",
+        "translit": "vekhi tamrurim",
+        "strongs": null,
+        "gloss": "weeping of bitternesses",
+        "note": "The plural intensity matches Matthew's great mourning in the region of Rachel's tomb.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "In the New Testament Zechariah praises the sunrise that visits us from on high, and he uses the same word for the Branch.",
+      "density": 1.8893,
+      "words": 23,
+      "sentences": 1,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "In the same Old Testament David speaks his last words, and he looks forward to God making his salvation branch forth.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "In the same Old Testament the Branch builds the LORD's temple, and he is both priest and king on his throne.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "In the same Old Testament God binds himself to David with a promise, and he will not take it back.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "In the same Old Testament Isaiah gives the Branch this name on the day God cleanses his people.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "In the same Old Testament a king rules with wisdom, and he does what is just and right.",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "In the same Old Testament God's Spirit rests on this ruler, who will rule over the nations.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God plainly promises a new covenant — God's binding promise — with sins forgiven for good.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 31:31-34",
+        "verseId": "jer-31-31",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "In the same Old Testament, after the exile, God confirms the promise of the Branch again.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "In the New Testament Paul quotes Isaiah 11:10 to show that the Gentiles also have hope.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "This is the earliest promise of a royal family line: God will establish David's descendant.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The earliest promise that God will work inside a person, in place of outward failure.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 30:6",
+        "verseId": "deu-30-6",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: God takes away the heart of stone and gives a heart of flesh.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 36:26-27",
+        "verseId": "ezk-36-26",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: the church of the apostles keeps remembering the new covenant, God's binding promise.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 11:25",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: the Spirit, not an outward sign, defines who you are inside. This fulfills Deut 30:6.",
+      "density": 1.0857,
+      "words": 16,
+      "sentences": 2,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 2:29",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "In the New Testament Jesus is the triumphant Lion and the morning star.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT: at the Last Supper Jesus begins the new covenant, God's binding promise.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 22:20",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Christ stands between God and us in a better covenant, God's binding promise.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:6-13",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Millennium in heaven: righteous raised at second coming; Satan bound to desolate earth.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The Jubilee: Israel proclaims liberty and every family gets its land back",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:10",
+        "verseId": "lev-25-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Consummation: wicked raised after 1,000 years; lake of fire consumes evil permanently.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "River of life and tree of life: They shall see His face",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "God's binding promise to David: a house and a throne forever",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "High ones and kings gathered in prison, visited after many days",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 24:21-22",
+        "verseId": "isa-24-21",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Cosmic purification: fire purges the planet, making way for eternal recreation.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Eternal communion: unbroken fellowship with God and the Lamb throughout eternity.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1-5",
+        "verseId": "rev-22-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: this passage quotes Jeremiah 31 in full. Then it explains what the words mean.",
+      "density": 0.8321,
+      "words": 15,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:6-13",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Shoot from the stem of Jesse, Branch from his roots",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: written on fleshy tables of the heart, not stone.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Corinthians 3:3-6",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Elements melt; new heavens and new earth wherein dwelleth righteousness",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Peter 3:10-13",
+        "verseId": "2pe-3-10",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: Christ's sacrifice is final. It completes the new covenant, God's binding promise.",
+      "density": 0.7821,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 10:15-18",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "God's binding promise to make it branch forth forever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "The New Covenant — law written on the heart",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 31:31-34",
+        "verseId": "jer-31-31",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "This cup is the New Covenant in My blood",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 22:20",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Their sins and iniquities I will remember no more",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 10:15-18",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eden restored: death, sorrow, and crying passed away forever.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "The Branch of righteousness growing up for David",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The New Covenant remembered at the Lord's Supper",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 11:25",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Ministers of the New Covenant in the Spirit",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Corinthians 3:3-6",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Circumcision is of the heart, in the spirit",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 2:29",
+        "verseId": null,
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Saints shall judge the world and judge angels",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 6:2-3",
+        "verseId": "1co-6-2",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "First resurrection: Saints reign with Christ 1,000 years",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:1-6",
+        "verseId": "rev-20-4",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "8. The Millennium & The Earth Made New",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Branch (Tsemach) and the Davidic Throne",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Branch of the LORD beautiful and glorious",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The Righteous Branch, the LORD Our Righteousness",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Dayspring from on high (Anatolē / Tsemach)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Circumcision of Heart and the New Covenant",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "A new heart and the Spirit within",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 36:26-27",
+        "verseId": "ezk-36-26",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Second resurrection: Final rebellion devoured by fire",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:7-15",
+        "verseId": "rev-20-14",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Jerusalem descends: God tabernacles with men",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 21:1-5",
+        "verseId": "rev-21-1",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Root of Jesse reigning over Gentiles",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The LORD will circumcise your heart",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 30:6",
+        "verseId": "deu-30-6",
+        "chainName": "Circumcision of Heart and the New Covenant"
+      }
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Earth desolated without inhabitant during judgment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 4:23-26",
+        "verseId": "jer-4-23",
+        "chainName": "8. The Millennium & The Earth Made New"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "Root and Offspring of David",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "My Servant the BRANCH",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Priest-King on His throne",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1540 @@
+{
+  "book": "rev",
+  "bookName": "Revelation",
+  "part": 2,
+  "parts": 3,
+  "counts": {
+    "entries": 28,
+    "entryStrings": 90,
+    "chainStrings": 0,
+    "gateFails": 2
+  },
+  "entryIds": [
+    "rev-11-15",
+    "rev-12-5",
+    "rev-12-9",
+    "rev-12-10",
+    "rev-12-11",
+    "rev-12-17",
+    "rev-13-11",
+    "rev-14-1",
+    "rev-14-4",
+    "rev-14-6",
+    "rev-14-7",
+    "rev-14-8",
+    "rev-14-9",
+    "rev-14-11",
+    "rev-14-12",
+    "rev-14-13",
+    "rev-14-14",
+    "rev-15-3",
+    "rev-15-4",
+    "rev-16-1",
+    "rev-18-1",
+    "rev-19-7",
+    "rev-19-10",
+    "rev-19-11",
+    "rev-19-13",
+    "rev-19-15",
+    "rev-19-16",
+    "rev-20-2"
+  ],
+  "fields": [
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The first angel proclaims with a loud voice: Fear God, and give glory to Him; for the hour of His judgment is come; worship Him that made heaven, and earth, and the sea, and the fountains of waters. Textual proof: (1) this is a pre-advent judgment message — \"the hour of His judgment is come\" precedes Christ's second coming in ch. 19; (2) the call to worship the Creator echoes the Sabbath commandment (Exod 20:11); (3) Ecclesiastes ends with: Fear God, and keep his commandments (Eccl 12:13); (4) Acts 17:30-31: God commands all men to repent because He has appointed a day of judgment by the man Christ Jesus.",
+      "density": 5.4679,
+      "words": 109,
+      "sentences": 4,
+      "maxSentenceWords": 48,
+      "gate": "FAIL",
+      "violations": [
+        "38 words (max 35): \"The first angel proclaims with a loud voice: Fear God, and give glory to Him; for the hour…\"",
+        "48 words (max 35): \"19; (2) the call to worship the Creator echoes the Sabbath commandment (Exod 20:11); (3) E…\""
+      ],
+      "context": {
+        "citations": [
+          "Exodus 20:11",
+          "Ecclesiastes 12:13",
+          "Acts 17:30"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-14-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A white cloud, and upon the cloud one sat like unto the Son of man, having on his head a golden crown. Textual proof: Daniel 7:13-14 — Son of Man coming with clouds to receive dominion; Matthew 24:30-31 — they shall see the Son of man coming in the clouds with power and great glory, and He gathers His elect with a great sound of a trumpet. This is the visible, glorious second coming — one public event, not a secret removal.",
+      "density": 4.6214,
+      "words": 82,
+      "sentences": 3,
+      "maxSentenceWords": 45,
+      "gate": "FAIL",
+      "violations": [
+        "45 words (max 35): \"Textual proof: Daniel 7:13-14 — Son of Man coming with clouds to receive dominion; Matthew…\""
+      ],
+      "context": {
+        "citations": [
+          "Daniel 7:13",
+          "Matthew 24:30"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dragon is wroth with the woman and goes to make war with the remnant of her seed, who keep the commandments of God and have the testimony of Jesus. Rev 14:12 defines the end-time saints the same way: patience of the saints, keep the commandments of God, and the faith of Jesus. Jesus: if you love me, keep my commandments (John 14:15). Textual proof: the remnant is identified by obedience to God's commandments joined to faith in Christ — not by ethnicity or mere profession.",
+      "density": 3.8643,
+      "words": 86,
+      "sentences": 4,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 14:12",
+          "John 14:15"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John sees an angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, kindred, tongue, and people. This gospel is not a new doctrine but the eternal covenant of grace centered on Christ's sacrifice and righteousness, proclaimed with urgent cosmic reach right before the harvest of the earth. First principle: end-time truth is the restoration of the everlasting gospel in its pristine purity.",
+      "density": 3.6964,
+      "words": 77,
+      "sentences": 3,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-13-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I beheld another beast coming up out of the earth; and he had two horns like a lamb, and he spake as a dragon. And he exerciseth all the power of the first beast before him, and causeth the earth and them which dwell therein to worship the first beast, whose deadly wound was healed. He causes all to receive a mark in their right hand or foreheads on pain of economic boycott and death.",
+      "density": 3.6714,
+      "words": 76,
+      "sentences": 3,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "When John falls down to worship the angel, the angel commands: \"See thou do it not: I am thy fellowservant, and of thy brethren that have the testimony of Jesus: worship God: for the testimony of Jesus is the spirit of prophecy.\" In Revelation 22:9, the angel parallelizes \"thy brethren that have the testimony of Jesus\" with \"thy brethren the prophets.\" First principle: the identifying hallmark of the end-time remnant church (Rev 12:17) is the living manifestation of the prophetic voice through the Holy Spirit.",
+      "density": 3.4964,
+      "words": 85,
+      "sentences": 4,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 22:9",
+          "Revelation 12:17"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Another angel follows, saying: \"Babylon is fallen, is fallen, that great city, because she made all nations drink of the wine of the wrath of her fornication.\" Babylon represents apostate religious systems that have departed from Sola Scriptura, uniting church and state and substituting human dogmas (Sunday sacredness, immortal soul, works-righteousness) for the Word of God. First principle: God calls His people to discern spiritual apostasy and separate from corrupt religious alliances.",
+      "density": 3.4571,
+      "words": 72,
+      "sentences": 3,
+      "maxSentenceWords": 29,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The third angel sounds with a loud voice, warning against worshiping the beast and his image and receiving his mark in forehead or hand. This is the most terrible warning in all of Scripture. The mark of the beast stands as the counterfeit seal of authority opposed to the seal of God (the Sabbath of the Creator). First principle: the final conflict is over worship—obedience to God's commandments versus submission to human religious legislation.",
+      "density": 3.2214,
+      "words": 74,
+      "sentences": 4,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-16-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth. The plagues are unmixed with mercy, falling exclusively upon those who have irrevocably chosen the beast's mark after probation closes, vindicating God's justice and delivering the remnant.",
+      "density": 3.2214,
+      "words": 58,
+      "sentences": 2,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-18-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John sees another angel come down from heaven having great power, and the earth was lightened with his glory. This represents the final outpouring of the Holy Spirit (the Latter Rain), empowering the Three Angels' Messages with a \"Loud Cry\" that summons every honest soul: \"Come out of her, My people, that ye be not partakers of her sins\" (Rev 18:4). First principle: God never brings judgment without first providing the fullest revelation of His character and truth.",
+      "density": 3.0929,
+      "words": 78,
+      "sentences": 5,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 18:4"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-14-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus. Textual proof: this defines the people of God in the hour of judgment (v7) and Babylon's fall (v8). They obey God's commandments and rest in Christ's faith/faithfulness — the same combination as Rev 12:17. Jesus: if you love me, keep my commandments (John 14:15).",
+      "density": 2.825,
+      "words": 65,
+      "sentences": 4,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 12:17",
+          "John 14:15"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-19-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A sword from His mouth smites nations; the winepress of God's wrath is trodden. First principle: Psalm 2 and Isaiah 63 converge on the day of the Lord — Shepherding and treading are the same scepter.",
+      "density": 2.1571,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Worship of the beast has unending consequence. First principle: the eternity of the warning is part of its mercy — Isaiah and Daniel's worm and fire frame the choice as ultimate.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-12-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The woman's child rules all nations with a rod of iron and is caught up to God's throne. First principle: Genesis 3:15's Seed and Psalm 2's Son are the same Man — born, caught up, destined to rule.",
+      "density": 2.0929,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 3:15"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-12-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dragon is unmasked: the ancient serpent of Genesis, the deceiver of the whole world, cast out with his angels. First principle: Revelation names the snake behind every deception — and announces his eviction.",
+      "density": 1.9929,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-19-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The vesture dipped in blood bears the oldest name of the Son. First principle: John's Gospel and John's apocalypse agree — the Rider is the preexistent Word, now revealed in war garb.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-15-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sea-of-glass victors sing both songs: great and marvellous are thy works. First principle: the two covenants sing one doxology — the exodus song and the redemption song are finally one hymn.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The redeemed are undefiled, firstfruits to God and the Lamb. First principle: the mark of the sealed is mobility — following the Lamb anywhere — and consecration, firstfruits for God.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-19-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Rider judges and makes war in righteousness. First principle: the Second Coming is not a repeat of Bethlehem — the faithful Witness returns as the righteous Warrior.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The old serpent is chained a thousand years. First principle: Genesis's head-crushing advances to a binding — deception of the nations suspended by an angelic key and chain.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-11-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The seventh trumpet announces the transfer: our Lord's and His Christ's, reigning for ever. First principle: the direction of history is announced, not negotiated — Daniel 2 and 7 arrive on schedule.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The sealed stand with the Lamb on Zion, His Father's name in their foreheads. First principle: the anti-mark — God's name where the beast writes his — marks the remnant as possession.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-12-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heaven voices the verdict: salvation, strength, kingdom, and the power of His Christ. First principle: the accuser's fall is the believer's assurance — the courtroom is won before the battle ends.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-19-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The name is written on vesture and thigh. First principle: every other crown in history is subordinate — the title is a verdict on all rival sovereignties.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit blesses the resting dead whose works follow. First principle: death in the Lord is not loss but rest with memory — labor ended, works accompanying.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Either His faithfulness or faith in Him — both biblical; either way, allegiance to Christ is required together with obedience.",
+      "density": 1.6429,
+      "words": 20,
+      "sentences": 1,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "faith of Jesus",
+        "original": "πίστιν Ἰησοῦ",
+        "translit": "pistin Iēsou",
+        "strongs": null,
+        "gloss": "faith / faithfulness of Jesus (Heb. genitive)",
+        "note": "Either His faithfulness or faith in Him — both biblical; either way, allegiance to Christ is required together with obedience.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-19-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Heaven rejoices: the Wife has made herself ready. First principle: redemption's finale is a wedding — the betrothed, granted fine linen, the righteousness of saints.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Fixed, appointed judgment-time — same language family as John 5:22-27 (Son given judgment) and Acts 17:31 (appointed day).",
+      "density": 1.4786,
+      "words": 18,
+      "sentences": 1,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the hour of His judgment",
+        "original": "ἡ ὥρα τῆς κρίσεως αὐτοῦ",
+        "translit": "hē hōra tēs kriseōs autou",
+        "strongs": null,
+        "gloss": "the hour of His judgment",
+        "note": "Fixed, appointed judgment-time — same language family as John 5:22-27 (Son given judgment) and Acts 17:31 (appointed day).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-15-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Who shall not fear? The holiness of the Lord draws the nations' worship. First principle: judgments are evangelistic — made manifest, they gather worshipers from every nation.",
+      "density": 1.475,
+      "words": 27,
+      "sentences": 3,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-12-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Victory over the dragon: the blood, the testimony, and lives not loved unto death. First principle: conquest is cruciform — blood applied, word spoken, life surrendered.",
+      "density": 1.45,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Same remnant idea as Isa 10:20-22; Rom 9:27 — a remaining people of God after apostasy.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "remnant",
+        "original": "λοιπόν",
+        "translit": "loipon",
+        "strongs": null,
+        "gloss": "the rest / remnant",
+        "note": "Same remnant idea as Isa 10:20-22; Rom 9:27 — a remaining people of God after apostasy.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Verbal chain: Dan 7:13 → Matt 24:30 → Rev 14:14 — the same glorious coming.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "one like the Son of man",
+        "original": "ὅμοιον υἱὸν ἀνθρώπου",
+        "translit": "homoion huion anthrōpou",
+        "strongs": null,
+        "gloss": "one like a son of man",
+        "note": "Verbal chain: Dan 7:13 → Matt 24:30 → Rev 14:14 — the same glorious coming.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Direct verbal echo of Exod 20:11 / Ps 146:6 — Creator-worship, not creature-worship.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made heaven and earth",
+        "original": "τὸν ποιήσαντα τὸν οὐρανὸν καὶ τὴν γῆν",
+        "translit": "ton poiēsanta ton ouranon kai tēn gēn",
+        "strongs": null,
+        "gloss": "the One who made heaven and earth",
+        "note": "Direct verbal echo of Exod 20:11 / Ps 146:6 — Creator-worship, not creature-worship.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Counterfeit sign of allegiance opposed to the seal (sphragis) of the living God.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "mark",
+        "original": "χάραγμα",
+        "translit": "charagma",
+        "strongs": null,
+        "gloss": "stamp, mark, impress, badge of servitude",
+        "note": "Counterfeit sign of allegiance opposed to the seal (sphragis) of the living God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "The seven last plagues poured out without mixture of mercy upon unrepentant rebellion.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wrath of God",
+        "original": "τοῦ θυμοῦ τοῦ θεοῦ",
+        "translit": "tou thymou tou theou",
+        "strongs": null,
+        "gloss": "the unmingled indignation of God",
+        "note": "The seven last plagues poured out without mixture of mercy upon unrepentant rebellion.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Genitive of source: the message Jesus Himself communicates to His people through prophets.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the testimony of Jesus",
+        "original": "ἡ μαρτυρία Ἰησοῦ",
+        "translit": "hē martyria Iēsou",
+        "strongs": null,
+        "gloss": "the testimony of Jesus / witness born by Jesus",
+        "note": "Genitive of source: the message Jesus Himself communicates to His people through prophets.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Third Angel's Message — Warning Against the Beast and His Mark",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The First Angel's Message — The Everlasting Gospel to All Nations",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Affirms the active continuation of the prophetic gift in the remnant.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "spirit of prophecy",
+        "original": "τὸ πνεῦμα τῆς προφητείας",
+        "translit": "to pneuma tēs prophēteias",
+        "strongs": null,
+        "gloss": "the Holy Spirit inspiring the prophetic gift",
+        "note": "Affirms the active continuation of the prophetic gift in the remnant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-13-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Enforced Sunday observance in homage to papal ecclesiastical authority over Scripture.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "mark / stamp",
+        "original": "χάραγμα",
+        "translit": "charagma",
+        "strongs": null,
+        "gloss": "imprint, stamp, mark of servitude / counterfeit seal",
+        "note": "Enforced Sunday observance in homage to papal ecclesiastical authority over Scripture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Unchanging message of redemption through Christ from Genesis to Revelation.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "everlasting gospel",
+        "original": "εὐαγγέλιον αἰώνιον",
+        "translit": "euangelion aiōnion",
+        "strongs": null,
+        "gloss": "eternal good news",
+        "note": "Unchanging message of redemption through Christ from Genesis to Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-18-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The final, worldwide revelation of God's loving and righteous character.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lightened with his glory",
+        "original": "ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ",
+        "translit": "ephōtisthē ek tēs doxēs autou",
+        "strongs": null,
+        "gloss": "was illuminated from His glory",
+        "note": "The final, worldwide revelation of God's loving and righteous character.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-12-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Now Is Come Salvation — the Accuser Is Cast Down",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-15-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Song of Moses and the Song of the Lamb",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "τηρέω — guard/keep as ongoing discipleship (John 14:15; 15:10).",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keep the commandments",
+        "original": "τηρούντων τὰς ἐντολὰς τοῦ θεοῦ",
+        "translit": "tērountōn tas entolas tou theou",
+        "strongs": null,
+        "gloss": "keeping the commandments of God",
+        "note": "τηρέω — guard/keep as ongoing discipleship (John 14:15; 15:10).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "One Like the Son of Man — Public Harvest",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Echoes Isaiah 21:9 and Jeremiah 51:8; progressive moral apostasy.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "is fallen, is fallen",
+        "original": "ἔπεσεν, ἔπεσεν",
+        "translit": "epesen, epesen",
+        "strongs": null,
+        "gloss": "fell, fell (prophetic aorist / certainty)",
+        "note": "Echoes Isaiah 21:9 and Jeremiah 51:8; progressive moral apostasy.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-18-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Loud Cry — Earth Lightened with His Glory",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Testimony of Jesus is the Spirit of Prophecy",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the testimony of Jesus / witness born by Jesus",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the testimony of Jesus",
+        "original": "ἡ μαρτυρία Ἰησοῦ",
+        "translit": "hē martyria Iēsou",
+        "strongs": null,
+        "gloss": "the testimony of Jesus / witness born by Jesus",
+        "note": "Genitive of source: the message Jesus Himself communicates to His people through prophets.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-16-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Corresponds to temple censers poured out when intercession ends.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "vials / golden bowls",
+        "original": "φιάλας",
+        "translit": "phialas",
+        "strongs": null,
+        "gloss": "broad shallow bowls / censers of judgment",
+        "note": "Corresponds to temple censers poured out when intercession ends.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-12-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Overcame Him by the Blood of the Lamb",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lamb on Mount Sion, 144,000 with His Name",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are the Dead Which Die in the Lord",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Heaven Opened: a White Horse, Called Faithful and True",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Rule Them with a Rod of Iron",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Laid Hold on the Dragon and Bound Him",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Fear God — The Hour of His Judgment",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Universal visibility and high authority of the proclamation.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "midst of heaven",
+        "original": "μεσουρανήματι",
+        "translit": "mesouranēmati",
+        "strongs": null,
+        "gloss": "mid-heaven, zenith",
+        "note": "Universal visibility and high authority of the proclamation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Second Angel's Message — Babylon is Fallen",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the wine of the passion/wrath of her unfaithfulness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wine of her fornication",
+        "original": "τοῦ οἴνου τοῦ θυמוῦ τῆς πορνείας",
+        "translit": "tou oinou tou thymou tēs porneias",
+        "strongs": null,
+        "gloss": "the wine of the passion/wrath of her unfaithfulness",
+        "note": "False doctrines intoxicating the nations.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-13-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Two-Horned Beast & The Coercive Mark (Charagma)",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-13-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "imprint, stamp, mark of servitude / counterfeit seal",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "mark / stamp",
+        "original": "χάραγμα",
+        "translit": "charagma",
+        "strongs": null,
+        "gloss": "imprint, stamp, mark of servitude / counterfeit seal",
+        "note": "Enforced Sunday observance in homage to papal ecclesiastical authority over Scripture.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-16-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Seven Last Plagues — Unmingled Divine Wrath",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-11-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Kingdoms of This World Are Become His",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Smoke of Their Torment Ascendeth for Ever",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-15-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Nations Shall Come and Worship Before Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "His Name Is Called The Word of God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the One who made heaven and earth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made heaven and earth",
+        "original": "τὸν ποιήσαντα τὸν οὐρανὸν καὶ τὴν γῆν",
+        "translit": "ton poiēsanta ton ouranon kai tēn gēn",
+        "strongs": null,
+        "gloss": "the One who made heaven and earth",
+        "note": "Direct verbal echo of Exod 20:11 / Ps 146:6 — Creator-worship, not creature-worship.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-19-10",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the Holy Spirit inspiring the prophetic gift",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "spirit of prophecy",
+        "original": "τὸ πνεῦμα τῆς προφητείας",
+        "translit": "to pneuma tēs prophēteias",
+        "strongs": null,
+        "gloss": "the Holy Spirit inspiring the prophetic gift",
+        "note": "Affirms the active continuation of the prophetic gift in the remnant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-16-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "broad shallow bowls / censers of judgment",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "vials / golden bowls",
+        "original": "φιάλας",
+        "translit": "phialas",
+        "strongs": null,
+        "gloss": "broad shallow bowls / censers of judgment",
+        "note": "Corresponds to temple censers poured out when intercession ends.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "These Follow the Lamb Whithersoever He Goeth",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Marriage of the Lamb Is Come",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-19-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "KING OF KINGS, AND LORD OF LORDS",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "faith / faithfulness of Jesus (Heb. genitive)",
+      "density": 0.5179,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "faith of Jesus",
+        "original": "πίστιν Ἰησοῦ",
+        "translit": "pistin Iēsou",
+        "strongs": null,
+        "gloss": "faith / faithfulness of Jesus (Heb. genitive)",
+        "note": "Either His faithfulness or faith in Him — both biblical; either way, allegiance to Christ is required together with obedience.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Patience, Commandments, and Faith of Jesus",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-14-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "one like a son of man",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "one like the Son of man",
+        "original": "ὅμοιον υἱὸν ἀνθρώπου",
+        "translit": "homoion huion anthrōpou",
+        "strongs": null,
+        "gloss": "one like a son of man",
+        "note": "Verbal chain: Dan 7:13 → Matt 24:30 → Rev 14:14 — the same glorious coming.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "fell, fell (prophetic aorist / certainty)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "is fallen, is fallen",
+        "original": "ἔπεσεν, ἔπεσεν",
+        "translit": "epesen, epesen",
+        "strongs": null,
+        "gloss": "fell, fell (prophetic aorist / certainty)",
+        "note": "Echoes Isaiah 21:9 and Jeremiah 51:8; progressive moral apostasy.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "stamp, mark, impress, badge of servitude",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "mark",
+        "original": "χάραγμα",
+        "translit": "charagma",
+        "strongs": null,
+        "gloss": "stamp, mark, impress, badge of servitude",
+        "note": "Counterfeit sign of allegiance opposed to the seal (sphragis) of the living God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-12-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "She Brought Forth a Man Child",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-12-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "That Old Serpent, Called the Devil",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Remnant Who Keep God's Commandments",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "keeping the commandments of God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keep the commandments",
+        "original": "τηρούντων τὰς ἐντολὰς τοῦ θεοῦ",
+        "translit": "tērountōn tas entolas tou theou",
+        "strongs": null,
+        "gloss": "keeping the commandments of God",
+        "note": "τηρέω — guard/keep as ongoing discipleship (John 14:15; 15:10).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the hour of His judgment",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the hour of His judgment",
+        "original": "ἡ ὥρα τῆς κρίσεως αὐτοῦ",
+        "translit": "hē hōra tēs kriseōs autou",
+        "strongs": null,
+        "gloss": "the hour of His judgment",
+        "note": "Fixed, appointed judgment-time — same language family as John 5:22-27 (Son given judgment) and Acts 17:31 (appointed day).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "False doctrines intoxicating the nations.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wine of her fornication",
+        "original": "τοῦ οἴνου τοῦ θυמוῦ τῆς πορνείας",
+        "translit": "tou oinou tou thymou tēs porneias",
+        "strongs": null,
+        "gloss": "the wine of the passion/wrath of her unfaithfulness",
+        "note": "False doctrines intoxicating the nations.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the unmingled indignation of God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wrath of God",
+        "original": "τοῦ θυμοῦ τοῦ θεοῦ",
+        "translit": "tou thymou tou theou",
+        "strongs": null,
+        "gloss": "the unmingled indignation of God",
+        "note": "The seven last plagues poured out without mixture of mercy upon unrepentant rebellion.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-18-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "was illuminated from His glory",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lightened with his glory",
+        "original": "ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ",
+        "translit": "ephōtisthē ek tēs doxēs autou",
+        "strongs": null,
+        "gloss": "was illuminated from His glory",
+        "note": "The final, worldwide revelation of God's loving and righteous character.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-12-17",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the rest / remnant",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "remnant",
+        "original": "λοιπόν",
+        "translit": "loipon",
+        "strongs": null,
+        "gloss": "the rest / remnant",
+        "note": "Same remnant idea as Isa 10:20-22; Rom 9:27 — a remaining people of God after apostasy.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "eternal good news",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "everlasting gospel",
+        "original": "εὐαγγέλιον αἰώνιον",
+        "translit": "euangelion aiōnion",
+        "strongs": null,
+        "gloss": "eternal good news",
+        "note": "Unchanging message of redemption through Christ from Genesis to Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-14-6",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "mid-heaven, zenith",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "midst of heaven",
+        "original": "μεσουρανήματι",
+        "translit": "mesouranēmati",
+        "strongs": null,
+        "gloss": "mid-heaven, zenith",
+        "note": "Universal visibility and high authority of the proclamation.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

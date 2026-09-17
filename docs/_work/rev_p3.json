@@ -1,0 +1,1325 @@
+{
+  "book": "rev",
+  "bookName": "Revelation",
+  "part": 3,
+  "parts": 3,
+  "counts": {
+    "entries": 28,
+    "entryStrings": 80,
+    "chainStrings": 0,
+    "gateFails": 2
+  },
+  "entryIds": [
+    "rev-20-4",
+    "rev-20-5",
+    "rev-20-6",
+    "rev-20-9",
+    "rev-20-11",
+    "rev-20-12",
+    "rev-20-14",
+    "rev-21-1",
+    "rev-21-2",
+    "rev-21-3",
+    "rev-21-4",
+    "rev-21-9",
+    "rev-21-14",
+    "rev-21-23",
+    "rev-21-27",
+    "rev-22-1",
+    "rev-22-2",
+    "rev-22-3",
+    "rev-22-4",
+    "rev-22-5",
+    "rev-22-11",
+    "rev-22-12",
+    "rev-22-13",
+    "rev-22-14",
+    "rev-22-16",
+    "rev-22-17",
+    "rev-22-18",
+    "rev-22-20"
+  ],
+  "fields": [
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John sees thrones; judgment is given to them; souls of the beheaded live and reign with Christ a thousand years. Textual proof: (1) judgment is given to saints (Dan 7:22; 1 Cor 6:2-3); (2) they live — resurrection, not disembodied bliss; (3) the rest of the dead live not again until the thousand years are finished (v5). Therefore the dead are dead until Christ raises them (Dan 12:2; John 5:28-29; 1 Thess 4:16). The righteous dead receive life at Christ's return; the wicked remain dead until the second resurrection after the thousand years.",
+      "density": 4.4393,
+      "words": 93,
+      "sentences": 4,
+      "maxSentenceWords": 37,
+      "gate": "FAIL",
+      "violations": [
+        "37 words (max 35): \"Textual proof: (1) judgment is given to saints (Dan 7:22; 1 Cor 6:2-3); (2) they live — re…\""
+      ],
+      "context": {
+        "citations": [
+          "Daniel 7:22",
+          "1 Corinthians 6:2",
+          "Daniel 12:2",
+          "John 5:28",
+          "1 Thessalonians 4:16"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-22-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still. And, behold, I come quickly; and My reward is with Me, to give every man according as his work shall be. Christ lays aside His priestly robes, ending mediation in the heavenly sanctuary.",
+      "density": 4.0286,
+      "words": 72,
+      "sentences": 3,
+      "maxSentenceWords": 39,
+      "gate": "FAIL",
+      "violations": [
+        "39 words (max 35): \"He that is unjust, let him be unjust still: and he which is filthy, let him be filthy stil…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea. The Holy City, New Jerusalem, descends from God out of heaven; God Himself will dwell with His people, wipe away all tears, and there shall be no more death, sorrow, crying, nor pain. First principle: God's original creation purpose is completely fulfilled; the earth is restored to its Edenic beauty for eternity.",
+      "density": 3.8607,
+      "words": 79,
+      "sentences": 3,
+      "maxSentenceWords": 33,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And they went up on the breadth of the earth, and compassed the camp of the saints about, and the beloved city: and fire came down from God out of heaven, and devoured them. At the close of the 1,000 years, the resurrected wicked under Satan attempt to conquer New Jerusalem. The Great White Throne appears; every knee bows, and divine purifying fire consumes sin and sinners into eternal non-existence.",
+      "density": 3.6929,
+      "words": 70,
+      "sentences": 3,
+      "maxSentenceWords": 34,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "This is the first resurrection. Blessed and holy is he that has part in the first resurrection; the second death has no power. But the rest of the dead lived not again until the thousand years were finished. Textual proof: the dead are unconscious until raised (Eccl 9:5; Ps 6:5; 146:4; Dan 12:2). There are two resurrections: of the just at Christ's return, of the unjust later (John 5:28-29; Acts 24:15). Immortality is a gift given at the resurrection, not an inherent property of the soul (1 Cor 15:51-54).",
+      "density": 3.2536,
+      "words": 89,
+      "sentences": 6,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Ecclesiastes 9:5",
+          "Psalms 6:5",
+          "Daniel 12:2",
+          "John 5:28",
+          "Acts 24:15",
+          "1 Corinthians 15:51"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And death and hell (hades/grave) were cast into the lake of fire. This is the second death. The fire that comes down from God out of heaven devours the wicked (Rev 20:9) and consumes them into ashes (Mal 4:1-3). Sin, Satan, death, and the grave are permanently eliminated from God's creation. First principle: God is a consuming fire to sin; the second death is the total extinction of evil, preserving the universe pure forever.",
+      "density": 3.1643,
+      "words": 74,
+      "sentences": 5,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Revelation 20:9",
+          "Malachi 4:1"
+        ]
+      }
+    },
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Bodily raising of the righteous at Christ's coming (John 5:28-29; 1 Cor 15:23). Rev 20:5-6: the rest of the dead live not until later — the dead do not go to heaven/hell at death.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "first resurrection",
+        "original": "ἡ ἀνάστασις ἡ πρώτη",
+        "translit": "hē anastasis hē prōtē",
+        "strongs": null,
+        "gloss": "the resurrection, the first",
+        "note": "Bodily raising of the righteous at Christ's coming (John 5:28-29; 1 Cor 15:23). Rev 20:5-6: the rest of the dead live not until later — the dead do not go to heaven/hell at death.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The title-bookends meet: the alphabet of creation is the punctuation of the end. First principle: the Lord of Isaiah 44 and 48 speaks in Revelation's last chapter — the book's claims are divine claims.",
+      "density": 2.05,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "His name is in their foreheads. First principle: the Moses-limit — no man can see My face — is lifted for the redeemed; the beatitude of purity becomes sight.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prophecy closes with a plenary guard: no adding, no subtracting. First principle: Deuteronomy's warning is renewed over the completed canon — the book is whole, and its words are weighty.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "From the throne of God and the Lamb flows a crystal river. First principle: Eden's rivers and Ezekiel's temple stream converge — life now flows from a throne, not a garden.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No death, sorrow, crying, or pain — former things passed away. First principle: Isaiah's swallow-up promise is personalized: tears are wiped by God's own hand, one grief at a time.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The tree returns, twelve fruits, leaves for the healing of nations. First principle: what was guarded is granted — the forbidden tree becomes the free tree, its leaves for healing.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Right to the tree of life and entry through the gates. First principle: obedience is the key-ring of the new Eden — doing His commandments and living by His tree.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The holy city descends from God, adorned for her husband. First principle: the end is not heaven going quiet but a city coming down — covenant union made municipal.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No candle, no sun — the Lord God gives light, and they reign. First principle: the light of the first creation week never needed a sunset; now it never sets again.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The curse of Eden is gone; the throne of God and the Lamb is in it. First principle: the Bible ends where it began, minus the curse — servants serve, faces are seen.",
+      "density": 1.7964,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Spirit and the bride say Come; Jesus: surely I come quickly. First principle: the church's final prayer is eschatological hope, and the promise is personal and near.",
+      "density": 1.7643,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The coming One brings recompense according to work. First principle: the return is a payroll event — reward carried personally by the Returning One, as Isaiah promised.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "First-resurrection saints escape the second death and reign a thousand years as priests. First principle: resurrection order decides destiny — the first is priestly reign; the second is judicial death.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Earth and heaven flee from the Judge's face; no place remains for them. First principle: the final judgment is a throne before it is a sentence — purity itself presides.",
+      "density": 1.7214,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The dead are judged by the books; the saved by the book of life. First principle: two registries — works recorded, names written — and the second decides the first.",
+      "density": 1.6643,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The angel offers to show a bride and shows a city. First principle: the church is architecture in the end — people made place, covenant made city.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus identifies Himself as the Root and Offspring of David and the bright Morning Star. First principle: He is both the source of David's line and its final heir.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-22-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Whosoever will may take the water of life freely. First principle: the prophecy ends with an invitation, not a threat — thirst, come, drink, freely.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The tabernacle of God is with men; He will dwell with them. First principle: exile from Eden ends — God Himself pitches His tent among redeemed humanity.",
+      "density": 1.5321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Often \"persons\" (Acts 2:41; 7:14) — here the martyrs themselves, who live by resurrection, not by already being in heaven.",
+      "density": 1.5286,
+      "words": 20,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "souls",
+        "original": "τὰς ψυχάς",
+        "translit": "tas psychas",
+        "strongs": null,
+        "gloss": "the souls / lives / persons",
+        "note": "Often \"persons\" (Acts 2:41; 7:14) — here the martyrs themselves, who live by resurrection, not by already being in heaven.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "No sun or moon is needed; God's glory lights the city. First principle: creation's lamps are retired — Isaiah 60 fulfilled in a Lamb-lit, ever-shining city.",
+      "density": 1.5071,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Only those written in the Lamb's book of life enter. First principle: the city's gate is a register — purity required, purity provided, names checked.",
+      "density": 1.4821,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The city wall rests on apostolic names. First principle: the church's foundation is historical — named men, once weak, now load-bearing forever.",
+      "density": 1.4071,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Kainos — renewed in quality and nature, cleansed from all curse and taint of sin.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new heaven and earth",
+        "original": "οὐρανὸν καινὸν καὶ γῆν καινήν",
+        "translit": "ouranon kainon kai gēn kainēn",
+        "strongs": null,
+        "gloss": "new / fresh / renewed heaven and earth",
+        "note": "Kainos — renewed in quality and nature, cleansed from all curse and taint of sin.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Explicit denial of intermediate conscious life for the wicked dead until the later resurrection.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lived not again",
+        "original": "οὐκ ἔζησαν",
+        "translit": "ouk ezēsan",
+        "strongs": null,
+        "gloss": "they did not live again",
+        "note": "Explicit denial of intermediate conscious life for the wicked dead until the later resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Irreversible extinction; contrast with the first death which is an unconscious sleep awaiting resurrection.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "second death",
+        "original": "ὁ δεύτερος θάνατος",
+        "translit": "ho deuteros thanatos",
+        "strongs": null,
+        "gloss": "the second / final death",
+        "note": "Irreversible extinction; contrast with the first death which is an unconscious sleep awaiting resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 11:1, 10 + Num 24:17 — both ends of the Davidic line.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Root and Offspring",
+        "original": "ἡ ῥίζα καὶ τὸ γένος",
+        "translit": "hē riza kai to genos",
+        "strongs": null,
+        "gloss": "the root and the descendant",
+        "note": "Isa 11:1, 10 + Num 24:17 — both ends of the Davidic line.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lake of Fire — The Second Death and End of Sin",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed and Holy Is He That Hath Part in the First Resurrection",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exod 25:8 / John 1:14 ἐσκήνωσεν — He tabernacled among us.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "tabernacle",
+        "original": "σκηνή",
+        "translit": "skēnē",
+        "strongs": null,
+        "gloss": "tent, dwelling, tabernacle",
+        "note": "Exod 25:8 / John 1:14 ἐσκήνωσεν — He tabernacled among us.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Total destruction leaving neither root nor branch; refutes eternal conscious torment.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "devoured them",
+        "original": "κατέφαγεν αὐτούς",
+        "translit": "katephagen autous",
+        "strongs": null,
+        "gloss": "consumed / devoured them completely",
+        "note": "Total destruction leaving neither root nor branch; refutes eternal conscious torment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Books Were Opened, and Another Book, the Book of Life",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Come Hither, I Will Shew Thee the Bride, the Lamb's Wife",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Aramaic Maranatha behind 1 Cor 16:22 — Our Lord, come.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Come",
+        "original": "ἔρχου",
+        "translit": "erchou",
+        "strongs": null,
+        "gloss": "come! (imperative)",
+        "note": "Aramaic Maranatha behind 1 Cor 16:22 — Our Lord, come.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "New Heavens and New Earth — All Things Made New",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Final Siege & Devouring Fire — The Second Death",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Great White Throne, and Him That Sat on It",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Shall in No Wise Enter Any Thing That Defileth",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Alpha and Omega, the First and the Last",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Symbol of division, chaos, and restless storms removed forever.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "no more sea",
+        "original": "ἡ θάλασσα οὐκ ἔστιν ἔτι",
+        "translit": "hē thalassa ouk estin eti",
+        "strongs": null,
+        "gloss": "the sea exists no longer",
+        "note": "Symbol of division, chaos, and restless storms removed forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Close of Probation — The Final Irrevocable Decree",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "No Night There; They Reign for Ever and Ever",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Come Quickly; and My Reward Is with Me",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Rest of the Dead Live Not Again",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "new / fresh / renewed heaven and earth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "new heaven and earth",
+        "original": "οὐρανὸν καινὸν καὶ γῆν καινήν",
+        "translit": "ouranon kainon kai gēn kainēn",
+        "strongs": null,
+        "gloss": "new / fresh / renewed heaven and earth",
+        "note": "Kainos — renewed in quality and nature, cleansed from all curse and taint of sin.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Characters are forever settled; probation has closed forever.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "still / permanently fixed",
+        "original": "ἔτι",
+        "translit": "eti",
+        "strongs": null,
+        "gloss": "still, further, yet (denoting permanent moral state)",
+        "note": "Characters are forever settled; probation has closed forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Tree of Life, Yielding Fruit Every Month",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If Any Man Shall Add unto These Things",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "lake of fire / divine purifying flame",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lake of fire",
+        "original": "λίמνην τοῦ πυρός",
+        "translit": "limnēn tou pyros",
+        "strongs": null,
+        "gloss": "lake of fire / divine purifying flame",
+        "note": "Consumes everything contrary to God's holiness.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "still, further, yet (denoting permanent moral state)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "still / permanently fixed",
+        "original": "ἔτι",
+        "translit": "eti",
+        "strongs": null,
+        "gloss": "still, further, yet (denoting permanent moral state)",
+        "note": "Characters are forever settled; probation has closed forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Twelve Foundations, the Apostles of the Lamb",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Pure River of Water of Life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blessed Are They That Do His Commandments",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Spirit and the Bride Say, Come",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thrones, Judgment, and the First Resurrection",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the souls / lives / persons",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "souls",
+        "original": "τὰς ψυχάς",
+        "translit": "tas psychas",
+        "strongs": null,
+        "gloss": "the souls / lives / persons",
+        "note": "Often \"persons\" (Acts 2:41; 7:14) — here the martyrs themselves, who live by resurrection, not by already being in heaven.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Consumes everything contrary to God's holiness.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lake of fire",
+        "original": "λίמνην τοῦ πυρός",
+        "translit": "limnēn tou pyros",
+        "strongs": null,
+        "gloss": "lake of fire / divine purifying flame",
+        "note": "Consumes everything contrary to God's holiness.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "New Jerusalem Prepared as a Bride",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "God Shall Wipe Away All Tears",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-21-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lamb Is the Light Thereof",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "There Shall Be No More Curse",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Root and Offspring of David",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-16",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the root and the descendant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Root and Offspring",
+        "original": "ἡ ῥίζα καὶ τὸ γένος",
+        "translit": "hē riza kai to genos",
+        "strongs": null,
+        "gloss": "the root and the descendant",
+        "note": "Isa 11:1, 10 + Num 24:17 — both ends of the Davidic line.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Behold, the Tabernacle of God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they did not live again",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lived not again",
+        "original": "οὐκ ἔζησαν",
+        "translit": "ouk ezēsan",
+        "strongs": null,
+        "gloss": "they did not live again",
+        "note": "Explicit denial of intermediate conscious life for the wicked dead until the later resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the second / final death",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "second death",
+        "original": "ὁ δεύτερος θάνατος",
+        "translit": "ho deuteros thanatos",
+        "strongs": null,
+        "gloss": "the second / final death",
+        "note": "Irreversible extinction; contrast with the first death which is an unconscious sleep awaiting resurrection.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-1",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the sea exists no longer",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "no more sea",
+        "original": "ἡ θάλασσα οὐκ ἔστιν ἔτι",
+        "translit": "hē thalassa ouk estin eti",
+        "strongs": null,
+        "gloss": "the sea exists no longer",
+        "note": "Symbol of division, chaos, and restless storms removed forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-20-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "consumed / devoured them completely",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "devoured them",
+        "original": "κατέφαγεν αὐτούς",
+        "translit": "katephagen autous",
+        "strongs": null,
+        "gloss": "consumed / devoured them completely",
+        "note": "Total destruction leaving neither root nor branch; refutes eternal conscious torment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall See His Face",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-22-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Surely I Come Quickly",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-20-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the resurrection, the first",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "first resurrection",
+        "original": "ἡ ἀνάστασις ἡ πρώτη",
+        "translit": "hē anastasis hē prōtē",
+        "strongs": null,
+        "gloss": "the resurrection, the first",
+        "note": "Bodily raising of the righteous at Christ's coming (John 5:28-29; 1 Cor 15:23). Rev 20:5-6: the rest of the dead live not until later — the dead do not go to heaven/hell at death.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-21-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "tent, dwelling, tabernacle",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "tabernacle",
+        "original": "σκηνή",
+        "translit": "skēnē",
+        "strongs": null,
+        "gloss": "tent, dwelling, tabernacle",
+        "note": "Exod 25:8 / John 1:14 ἐσκήνωσεν — He tabernacled among us.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-22-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "come! (imperative)",
+      "density": 0.1071,
+      "words": 2,
+      "sentences": 2,
+      "maxSentenceWords": 1,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Come",
+        "original": "ἔρχου",
+        "translit": "erchou",
+        "strongs": null,
+        "gloss": "come! (imperative)",
+        "note": "Aramaic Maranatha behind 1 Cor 16:22 — Our Lord, come.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

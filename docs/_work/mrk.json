@@ -1,0 +1,468 @@
+{
+  "book": "mrk",
+  "bookName": "Mark",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 16,
+    "entryStrings": 32,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "mrk-1-11",
+    "mrk-1-15",
+    "mrk-1-2",
+    "mrk-1-3",
+    "mrk-12-10",
+    "mrk-12-29",
+    "mrk-12-36",
+    "mrk-13-14",
+    "mrk-13-26",
+    "mrk-14-27",
+    "mrk-15-34",
+    "mrk-2-27",
+    "mrk-2-7",
+    "mrk-7-10",
+    "mrk-7-6",
+    "mrk-9-12"
+  ],
+  "fields": [
+    {
+      "entryId": "mrk-1-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The voice from heaven at the Jordan joins Psalm 2 and Isaiah 42: Thou art my beloved Son, in whom I am well pleased. First principle: the baptism is a coronation — the anointed Son presented by the Father's own word.",
+      "density": 2.3964,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-2-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Sabbath was made for man, and not man for the sabbath: therefore the Son of man is Lord also of it. First principle: the rest-day is a gift from creation week, and its Lord was there when it was made.",
+      "density": 2.2821,
+      "words": 41,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-12-29",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Asked for the first commandment, Jesus recites the Shema. First principle: undivided love for the one God — heart, soul, mind, strength — is the summary of all law, fulfilled in Christ's own devotion.",
+      "density": 2.2786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-1-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus preaches: The time is fulfilled, and the kingdom of God is at hand. First principle: Daniel's clock has run out — prophecy is not merely written, it has arrived, and the answer is repent and believe.",
+      "density": 2.2393,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-13-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Son of man appears as Daniel 7 saw Him — in the clouds with power and great glory, gathering His elect. First principle: the second coming is Daniel 7 with the sky torn open.",
+      "density": 2.1321,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah 40:3 is John's job description in the wilderness. First principle: the way prepared is the way of the LORD Himself — John baptizes the God whose road he levels.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Isaiah 40:3"
+        ]
+      }
+    },
+    {
+      "entryId": "mrk-15-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The ninth-hour cry opens Psalm 22 on the cross. First principle: the forsakenness is real and foretold — the righteous Sufferer bears abandonment so the forsaken need never be alone.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-9-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus holds two Scriptures together: Elijah restores first, and the Son of man suffers and is set at nought. First principle: glory and suffering are both written; the disciples kept only the glory part.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-13-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus points readers back to Daniel for the standing desecration in the holy place — then commands flight. First principle: Daniel 8–12 is Jesus' own reference library for the end; read it before you need it.",
+      "density": 1.9286,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-7-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus applies Isaiah 29 to the tradition-keepers: lips near, heart far. First principle: worship by ordinance while the heart is absent is the prophecy of vain religion, fulfilled in every generation.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-14-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "On the way to Gethsemane Jesus quotes Zechariah 13:7 — smite the shepherd, and the sheep scatter. First principle: even the disciples' panic was in the script; the smitten Shepherd is the LORD's own Fellow.",
+      "density": 1.9036,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Zechariah 13:7"
+        ]
+      }
+    },
+    {
+      "entryId": "mrk-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mark opens his gospel by quoting the promise of the messenger — Behold, I send my messenger before thy face. First principle: the good news begins with a prophecy kept.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-7-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Tradition that voids the fifth commandment meets the written law. First principle: the Word of God stands over custom — honour and care for parents is not negotiable by corban.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-12-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 118's rejected Stone is quoted in the temple courts. First principle: the leaders holding the building reject the cornerstone — and God builds on the Stone they refuse.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The scribes ask the right question about the wrong Man. First principle: the forgiveness Christ speaks is a divine prerogative — the healing proves the authority is real.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-12-36",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 110 is David's Spirit-inspired words about his Lord enthroned till enemies become a footstool. First principle: the Spirit authored prophecy — and it names David's Son as David's Lord.",
+      "density": 1.6071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mrk-9-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Elias Cometh First — and the Son of Man Must Suffer",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-12-29",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hear, O Israel; The Lord Our God Is One Lord",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-13-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Coming in the Clouds with Great Power and Glory",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-15-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My God, My God, Why Hast Thou Forsaken Me?",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As It Is Written in the Prophets",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Prepare Ye the Way of the Lord",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Can Forgive Sins but God Only?",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-7-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This People Honoureth Me with Their Lips",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-7-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Moses Said, Honour Thy Father and Mother",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-13-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Abomination of Desolation Spoken by Daniel",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-2-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sabbath Was Made for Man",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-12-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Have Ye Not Read This Scripture?",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-12-36",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "David Said by the Holy Ghost",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-1-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art My Beloved Son",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-14-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Smite the Shepherd",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mrk-1-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Time Is Fulfilled",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

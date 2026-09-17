@@ -1,0 +1,1099 @@
+{
+  "book": "job",
+  "bookName": "Job",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 12,
+    "entryStrings": 26,
+    "chainStrings": 42,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "job-1-21",
+    "job-14-4",
+    "job-16-19",
+    "job-19-25",
+    "job-19-26",
+    "job-2-10",
+    "job-33-23",
+    "job-38-1",
+    "job-42-5",
+    "job-5-13",
+    "job-9-33",
+    "job-9-8"
+  ],
+  "fields": [
+    {
+      "entryId": "job-19-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Amid intense agony and abandonment, Job makes the monumental confession: \"I know that my Redeemer lives, and He shall stand at the last upon the earth; and after my skin is destroyed, yet in my flesh I shall see God.\" First principle: bodily resurrection and personal vindication through an eternal Kinsman-Redeemer are anchored in the oldest poetry of Scripture.",
+      "density": 2.5607,
+      "words": 59,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-1-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Naked in, naked out; the name of the LORD blessed anyway. First principle: stewardship of loss — the Giver's rights are acknowledged at the moment of the taking; sin stayed away from the lips.",
+      "density": 2.1643,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-33-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The interpreter to show man his uprightness. First principle: Elihu names the need — one among a thousand to mediate and interpret; the rarity finds its supply in the one Mediator.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-19-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Worms destroy the body; the eyes see God in flesh. First principle: the resurrection hope is declared from suffering's floor — in my flesh, not as a ghost; Job foresees the renewed body.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-9-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Job wishes for an umpire laying a hand on both. First principle: the deepest Old Testament ache — a mediator who can touch God and man; the wish is answered at Calvary.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-42-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "But now mine eye seeth Thee — and Job repents in dust. First principle: hearing-of becomes seeing — the encounter with God converts theology into humility; the second-hand God becomes first-hand.",
+      "density": 2.0107,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-9-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And treadeth upon the waves of the sea. First principle: the Creator alone stretches skies — and the One walking on waves later wears this title in person on Galilee.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-14-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Not one — from the man of Uz. First principle: the inherited-uncleanness question is asked so the new birth can answer it: that which is born of flesh is flesh.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-5-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The froward counsel carried headlong. First principle: Eliphaz's true saying — even from a wrong friend — is Scripture twice over: Paul quotes it against worldly wisdom.",
+      "density": 1.9321,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-16-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Job's heaven-side witness while friends accuse. First principle: the earth's court is lost; heaven's record stands — the scintilla of the Advocate doctrine before the Incarnation.",
+      "density": 1.7929,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-2-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The second trial answered without lip-sin. First principle: Job refuses the transactional God — receiving both hands from heaven without charging Him foolishly.",
+      "density": 1.5464,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-38-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The answer comes from the storm, not the argument. First principle: after thirty-one chapters of human speech, God speaks from whirlwind — creation-questions replace creature-complaints.",
+      "density": 1.5393,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "job-33-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "If There Be a Messenger with Him, an Interpreter, One among a Thousand",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-2-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Shall We Receive Good at the Hand of God, and Not Evil?",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-16-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Witness Is in Heaven, and My Record Is on High",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-42-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Heard of Thee by the Hearing of the Ear",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-14-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Can Bring a Clean Thing out of an Unclean?",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-19-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Personal Go'el who avenges and restores; 1 Cor 15:20.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my Redeemer lives",
+        "original": "גֹּאֲלִי חָי",
+        "translit": "goʾali chay",
+        "strongs": null,
+        "gloss": "my living redeemer / vindicator",
+        "note": "Personal Go'el who avenges and restores; 1 Cor 15:20.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "job-1-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Gave, and the LORD Hath Taken Away",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-38-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Then the LORD Answered Job out of the Whirlwind",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-5-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Taketh the Wise in Their Own Craftiness",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-19-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Yet in My Flesh Shall I See God",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-9-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Neither Is There Any Daysman Betwixt Us",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-19-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Know That My Redeemer Liveth",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-9-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Which Alone Spreadeth Out the Heavens",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "job-19-25",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "my living redeemer / vindicator",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my Redeemer lives",
+        "original": "גֹּאֲלִי חָי",
+        "translit": "goʾali chay",
+        "strongs": null,
+        "gloss": "my living redeemer / vindicator",
+        "note": "Personal Go'el who avenges and restores; 1 Cor 15:20.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "This is the earliest clear hope that a person will see God in the body after the body has fallen apart.",
+      "density": 1.725,
+      "words": 21,
+      "sentences": 1,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The first redemption law in the Torah: a close relative buys back land and freedom that a family lost.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: YHWH pays the price to bring his people back from the power of the grave.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "At the Lord's descent, believers are raised in the body, and everyone sees it.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: a vision of the Spirit raising the dead out of their graves.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Boaz redeems the field and takes Ruth into the covenant line.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: Christ becomes our near kin in the flesh to accomplish redemption.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: by sharing our blood He breaks death and frees the enslaved.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the resurrection runs two ways, to everlasting life or to shame.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus declares His voice raises the dead to life or condemnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Jesus shows his authority to raise the dead when he raises Lazarus.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "Paul quotes Isaiah 25:8 and Hosea 13:14 to prove the bodily resurrection.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "The law of the Go'el — buying back land and family",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 25:25, 47-49",
+        "verseId": "lev-25-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Job confesses his living Go'el will stand on the earth.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: women bless God for the redeemer who fathers Obed.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Born of a woman to redeem those under the law",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Galatians 4:4-5",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the slain Redeemer opens the seven-sealed scroll of redemption.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David prophesied that the grave would not keep him.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the earth gives up its dead in the resurrection.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "All that are in the graves shall hear His voice",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 5:28-29",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Worthy is the Lamb to take the title deed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:1-9",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I will open your graves — dry bones live",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 37:1-14",
+        "verseId": "ezk-37-12",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].title",
+      "text": "First resurrection; death cast into the lake of fire",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[11].connection",
+      "text": "Death is finally conquered, and the body is vindicated.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6, 12-14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Thou wilt not leave my soul in Sheol",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 16:9-11",
+        "verseId": "psa-110-1",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Awake and sing, ye that dwell in dust",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 26:19",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Psalm 16 was fulfilled in Christ's empty tomb.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: YHWH Himself comes as Israel's Redeemer.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "In my flesh I shall see God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25-27",
+        "verseId": "job-19-25",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "O death, I will be thy plagues",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hosea 13:14",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "I am the Resurrection and the Life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:25-26",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "The dead in Christ shall rise first",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-18",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "I know that my Redeemer lives",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Job 19:25",
+        "verseId": "job-19-25",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "The Redeemer shall come to Zion",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 59:20",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Not ashamed to call them brethren",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 2:11-15",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Bodily Resurrection: Awakening from the Dust",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "They that sleep in dust awake",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 12:2-3",
+        "verseId": "dan-12-2",
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Apostles preach Christ risen without corruption",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Acts 2:27-31; 13:35-37",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Christ the firstfruits; death swallowed up",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:20-23, 51-55",
+        "verseId": null,
+        "chainName": "Bodily Resurrection: Awakening from the Dust"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "A redeemer to restore life",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 4:14",
+        "verseId": "rut-4-14",
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Boaz the faithful kinsman-redeemer",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ruth 3:9; 4:1-10",
+        "verseId": null,
+        "chainName": "The Kinsman-Redeemer (Go'el)"
+      }
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Kinsman-Redeemer (Go'el)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    }
+  ]
+}

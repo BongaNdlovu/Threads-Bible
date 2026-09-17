@@ -1,0 +1,310 @@
+{
+  "book": "1sa",
+  "bookName": "1 Samuel",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 9,
+    "entryStrings": 20,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "1sa-15-22",
+    "1sa-16-1",
+    "1sa-16-13",
+    "1sa-17-45",
+    "1sa-17-47",
+    "1sa-2-1",
+    "1sa-2-10",
+    "1sa-2-35",
+    "1sa-8-7"
+  ],
+  "fields": [
+    {
+      "entryId": "1sa-2-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The adversaries of the LORD shall be broken to pieces; out of heaven shall he thunder upon them... and he shall give strength unto his king, and exalt the horn of his anointed. Hannah's song closes with the first occurrence of Mashiach in Scripture — centuries before a king exists in Israel. First principle: the anointed King is a promise before He is a person on a throne; broken adversaries and exalted strength converge on Christ.",
+      "density": 3.2714,
+      "words": 76,
+      "sentences": 4,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-16-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The anointing oil and the abiding Spirit. First principle: the anointing is real and retroactive to the tribe of Judah — the Spirit comes upon David and never recorded as departing till the sin with Bathsheba's prayer.",
+      "density": 2.6393,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-8-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne-rejection read as theocracy-rejection. First principle: asking for a king like the nations is a verdict on God's reign — and Hosea repeats the charge when Israel asks a king again.",
+      "density": 2.3429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-17-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Sword and spear versus the Name. First principle: the shepherd-boy's theology defeats the giant's arsenal — the battle is fought in a name, not in hardware.",
+      "density": 1.9429,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-2-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A priest after God's own heart, a sure house, walking before the anointed forever. First principle: Eli's house falls so the faithful-priest promise stands — fulfilled in Zadok and ultimately in the Son.",
+      "density": 1.9107,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-16-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mourning ends; the horn fills; Jesse of Bethlehem is named. First principle: God's provided king comes from Bethlehem before David is born there — the town is already messianic address.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-17-47",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The assembly learns salvation without sword or spear. First principle: ownership of the battle decides the outcome — the LORD gives into hands, and the assembly knows.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-2-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hannah's prayer of exultation in salvation. First principle: the barren woman's song becomes Mary's Magnificat template — horn exalted, mouth enlarged, rejoicing in salvation.",
+      "density": 1.6286,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "First Scripture use of the title Messiah; Mary and Zacharias echo Hannah's song almost clause for clause (Luke 1-2).",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "his anointed",
+        "original": "מְשִׁיחוֹ",
+        "translit": "meshikho",
+        "strongs": null,
+        "gloss": "his anointed one (Mashiach)",
+        "note": "First Scripture use of the title Messiah; Mary and Zacharias echo Hannah's song almost clause for clause (Luke 1-2).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1sa-15-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Samuel's rebuke of Saul's spared-sheep religion. First principle: obedience outranks ritual — the verse Jesus quotes twice when mercy outruns sacrifice.",
+      "density": 1.3821,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1sa-16-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Spirit of the LORD Came upon David from That Day Forward",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-17-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Come to Thee in the Name of the LORD of Hosts",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-2-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "My Heart Rejoiceth in the LORD; Mine Horn Is Exalted",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-8-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Have Not Rejected Thee, but They Have Rejected Me",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-16-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Provided Me a King Among His Sons",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-2-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Exalt the Horn of His Anointed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-2-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Raise Me Up a Faithful Priest",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-15-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Obey Is Better than Sacrifice",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-17-47",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Battle Is the LORD'S",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1sa-2-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "his anointed one (Mashiach)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "his anointed",
+        "original": "מְשִׁיחוֹ",
+        "translit": "meshikho",
+        "strongs": null,
+        "gloss": "his anointed one (Mashiach)",
+        "note": "First Scripture use of the title Messiah; Mary and Zacharias echo Hannah's song almost clause for clause (Luke 1-2).",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

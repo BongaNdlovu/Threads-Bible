@@ -1,0 +1,1170 @@
+{
+  "book": "exo",
+  "bookName": "Exodus",
+  "drafts": [
+    {
+      "entryId": "exo-20-8",
+      "field": "principle",
+      "after": "The Fourth Commandment: Remember the Sabbath day, to keep it holy. Grounded explicitly in the Creation Sabbath of Genesis 2:2-3 and sealed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath is proclaimed as a holy delight by Isaiah (Isa 58:13-14). Jesus declares Himself Lord of the Sabbath (Mark 2:27-28) customarily observes it (Luke 4:16) and Hebrews affirms a Sabbath-rest at the end of the story (sabbatismos) remaining for the people of God (Heb 4:9). First principle: the Sabbath is a moral, perpetual creation ordinance memorializing the Creator's rest and pointing forward to the finished rest of redemption.",
+      "reason": "OPERATOR-RULED REPAIR follow-up: the first attempt pushed this sentence to 36 words; this version keeps the frozen rendering and stays under the 35-word gate."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "exo-12-46",
+      "field": "who",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "whoByRef[\"John 19:36\"]",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "whoByRef[\"Numbers 9:12\"]",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[0].exposition",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[1].exposition",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "cumulativePrinciples[2]",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "cumulativePrinciples[1]",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-11",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-6",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-4-22",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-14-22",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-34",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-2",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-6",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-14",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-15-25",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-33-18",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-13",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-27",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "cumulativePrinciples[0]",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-6",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-40",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-35",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-40-34",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-5",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-4",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-6",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-30",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-29-45",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-31-18",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-33-19",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-12",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-8",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-28",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-13",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-21",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-10",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-28-36",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-6",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-14-21",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-14",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-15",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-5",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-3",
+      "field": "principle",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-14",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[1].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[2].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-8",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[3].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-15",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-14",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-33-19",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-6",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-2",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-6",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-6",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-30",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-31-18",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-34",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-11",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-10",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-27",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-5",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-3",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-29-45",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-40-34",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-4-22",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-21",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-14-22",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-12",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-28-36",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-33-18",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-28",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-14",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[1].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-5",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-15-25",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-35",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-34-6",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "terms[1].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[1].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-13",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-13",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-3-14",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[1].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-10",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-4",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-40",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "terms[1].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-13",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-13",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-6",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-6",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-40",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[2].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-14-21",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-6",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-11",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-3",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-4",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-17-6",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-19-6",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-25-40",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-30-10",
+      "field": "title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-8",
+      "field": "terms[3].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-12-46",
+      "field": "terms[0].note",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-16-4",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "exo-20-11",
+      "field": "terms[0].gloss",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].connection",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "name",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].title",
+      "reason": "already matches the current tree"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].title",
+      "reason": "already matches the current tree"
+    }
+  ],
+  "equivalent": []
+}

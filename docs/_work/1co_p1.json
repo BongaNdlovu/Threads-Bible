@@ -1,0 +1,1419 @@
+{
+  "book": "1co",
+  "bookName": "1 Corinthians",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 35,
+    "entryStrings": 90,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "1co-1-19",
+    "1co-1-30",
+    "1co-2-8",
+    "1co-2-9",
+    "1co-3-19",
+    "1co-3-20",
+    "1co-5-7",
+    "1co-6-16",
+    "1co-6-19",
+    "1co-9-9",
+    "1co-10-1",
+    "1co-10-2",
+    "1co-10-4",
+    "1co-10-7",
+    "1co-10-8",
+    "1co-10-9",
+    "1co-10-26",
+    "1co-11-23",
+    "1co-11-25",
+    "1co-12-27",
+    "1co-12-28",
+    "1co-15-3",
+    "1co-15-4",
+    "1co-15-15",
+    "1co-15-20",
+    "1co-15-21",
+    "1co-15-22",
+    "1co-15-25",
+    "1co-15-26",
+    "1co-15-27",
+    "1co-15-32",
+    "1co-15-45",
+    "1co-15-51",
+    "1co-15-54",
+    "1co-15-55"
+  ],
+  "fields": [
+    {
+      "entryId": "1co-11-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "For I have received of the Lord that which also I delivered unto you, that the Lord Jesus the same night in which He was betrayed took bread: and when He had given thanks, He brake it, and said, Take, eat: this is My body, which is broken for you: this do in remembrance of Me. The Lord's Supper and the ordinance of humility (foot washing) proclaim the Lord's death until He returns in glory.",
+      "density": 5.075,
+      "words": 75,
+      "sentences": 2,
+      "maxSentenceWords": 56,
+      "gate": "FAIL",
+      "violations": [
+        "56 words (max 35): \"For I have received of the Lord that which also I delivered unto you, that the Lord Jesus …\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own? For ye are bought with a price: therefore glorify God in your body, and in your spirit, which are God's. Christian lifestyle involves holistic sanctification: physical health, temperance, modesty, and abstaining from unclean meats (Lev 11) and harmful stimulants.",
+      "density": 3.3,
+      "words": 68,
+      "sentences": 4,
+      "maxSentenceWords": 28,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-12-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues. The Holy Spirit sovereignly endows believers with spiritual abilities to equip the saints and edify the body of Christ until unity in the faith and character perfection are achieved.",
+      "density": 3.0321,
+      "words": 55,
+      "sentences": 2,
+      "maxSentenceWords": 29,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 8 quoted with one exception noted — the Father who subjects all. First principle: the psalm's universal subjection has a grammatical exception that guards the Trinity — all under the Son, the Son under none but the Father.",
+      "density": 2.4607,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-6-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Union with a harlot makes one body — Genesis 2 governs the body's theology. First principle: the one-flesh bond is so real that its misuse is desecration; the member of Christ cannot be joined to a harlot.",
+      "density": 2.3893,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Buried, risen on the third day — according to the Scriptures. First principle: the resurrection is not an appendix to the gospel but a fulfilled prediction — Jonah, Psalm 16, and Hosea 6 all said so.",
+      "density": 2.3286,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-2-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The princes of this world missed who He was. First principle: the ignorance of the crucifiers was real — and their unwitting act fulfilled the hidden counsel of God against the Lord of glory.",
+      "density": 2.2786,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Two unions, two destinies. First principle: the all in Christ is as definite as the all in Adam — location, not lineage, decides life; in Him is the resurrection.",
+      "density": 2.1536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-55",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Hosea's taunt becomes the resurrection's victory cry. First principle: the sting was sin and the law gave it power — the cross removes the venom, and the grave loses its victory.",
+      "density": 2.1464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-51",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The mystery revealed: living saints changed with the sleeping raised. First principle: the last generation has an exemption — not sleep but change, in the twinkling of an eye, at the last trump.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The wilderness generation passed through the sea under the cloud. First principle: the exodus is the church's family album — Paul reads Israel's history as the Gentile church's own lineage of warning.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The enthroned Son reigns until the last enemy is footstooled. First principle: the kingdom is present in reign and future in completion — Psalm 110 describes the process, not just the seat.",
+      "density": 2.0571,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-1-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Isaiah's marvellous work levels intellectual pride. First principle: the cross is God's answer to wisdom-worship — understanding of the prudent is brought to nothing where a crucified Messiah saves.",
+      "density": 2.0393,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-1-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Of God, in Christ Jesus — four gifts in one Person. First principle: THE LORD OUR RIGHTEOUSNESS of Jeremiah is personalized: Christ Himself is each covenant gift, not merely its delivery system.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "If Christ is not raised, the apostolic testimony collapses into perjury. First principle: the resurrection is the fact on which every apostolic witness stands or falls — a truth-claim, not a metaphor.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 24 settles the marketplace question. First principle: the whole earth belongs to the Lord — meat bought in the shambles carries no intrinsic idolatry; ownership sanctifies inquiry.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-12-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Many members, one body — each with an office. First principle: the church is not like a body but is one; particularity of members is the design of the Head.",
+      "density": 1.95,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The wilderness grumblers tempted — and Paul names the tempted one Christ. First principle: the Rock followed them, and that Rock was Christ; testing God's patience with serpents has an eternal Addressee.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-9-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The treading ox lives from its labor — and the law was written for us. First principle: God's care for animals carries a human ethic; those who sow spiritual things may reap material support.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-3-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "He taketh the wise in their own craftiness. First principle: the snare of cleverness is itself — Job's friend knew the proverb before Paul weaponized it against Corinthian factions.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Fornication at Peor brought sudden plague. First principle: sin's judgment can be immediate and numerical — the register of Numbers 25 stands as a memorial of consequence.",
+      "density": 1.875,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-32",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Paul fights beasts at Ephesus — pointless if there is no resurrection. First principle: Isaiah 22's fatalistic feast is the logical life of unbelief; resurrection hope is what makes endurance rational.",
+      "density": 1.8607,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A baptism without water — cloud above, walls on either side. First principle: the crossing was an initiation into a deliverer; Christian baptism into Christ follows the same identification pattern.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ is risen from the dead and become the firstfruits of those who slept. First principle: resurrection is not unique to Jesus in kind — it is the first harvest of many.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Death entered by a man; resurrection enters by a Man. First principle: the parallelism is incarnational — the problem needed a human solution, and the second Adam is it.",
+      "density": 1.8107,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The golden-calf orgy is quoted as idolatry's liturgy. First principle: idolatry is feasting before a substitute god — Paul applies the Exodus scene to the Lord's-table context.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Death is the final casualty of Christ's reign. First principle: Isaiah's swallowed-up death and Revelation's lake of fire bracket the campaign — the ending is already written.",
+      "density": 1.7607,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-2-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The prepared things for those who love God outrun every sense. First principle: Isaiah 64's unperceived wonders are revealed by the Spirit — not to spectators, but to lovers.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-10-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "They drank of that spiritual Rock that followed them, and that Rock was Christ. First principle: the wilderness provision is typologically Christological.",
+      "density": 1.65,
+      "words": 22,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-3-20",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The thoughts of the wise are vain before Him who searches. First principle: knowing thoughts is God's prerogative — the psalm of judgment levels every boastful system.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The first man Adam became a living soul; the last Adam a life-giving spirit. First principle: resurrection life is greater than creation life — and it is in Christ.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-11-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The supper cup quotes Jeremiah 31 in blood. First principle: every Communion re-proclaims the new covenant's terms — remission by blood, remembrance by command.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-5-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Christ our Passover is sacrificed for us; therefore keep the feast. First principle: the Passover lamb's death is fulfilled in Christ, reshaping Christian worship and ethics.",
+      "density": 1.5071,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-54",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Death is swallowed up in victory. First principle: Isaiah 25 and Hosea 13 are fulfilled in the bodily resurrection of believers.",
+      "density": 1.3821,
+      "words": 21,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "I delivered: Christ died for our sins according to the Scriptures. First principle: atonement is substitutionary and scriptural — not a bare example.",
+      "density": 1.2607,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1co-15-45",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not merely a second Adam — the final representative head of the new humanity.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "last Adam",
+        "original": "ἔσχατος Ἀδάμ",
+        "translit": "eschatos Adam",
+        "strongs": null,
+        "gloss": "the last Adam",
+        "note": "Not merely a second Adam — the final representative head of the new humanity.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not hieron (general temple precincts), but naos: the sacred dwelling place of God's glory.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "inner sanctuary / temple",
+        "original": "ναὸς",
+        "translit": "naos",
+        "strongs": null,
+        "gloss": "holy sanctuary / shrine / Most Holy Place",
+        "note": "Not hieron (general temple precincts), but naos: the sacred dwelling place of God's glory.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-15-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "As in Adam All Die, Even So in Christ Shall All Be Made Alive",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Body as the Temple of the Holy Spirit — Health & Sanctification",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-2-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Had They Known It, They Would Not Have Crucified the Lord of Glory",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-10-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The People Sat Down to Eat and Drink, and Rose Up to Play",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Calvary purchase gives Christ complete ownership over our physical and mental faculties.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bought with a price",
+        "original": "ἠγοράσθητε τιμῆς",
+        "translit": "ēgorasthēte timēs",
+        "strongs": null,
+        "gloss": "ye were purchased with a price",
+        "note": "Calvary purchase gives Christ complete ownership over our physical and mental faculties.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-10-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Were Baptized unto Moses in the Cloud and in the Sea",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Must Reign, Till He Hath Put All Enemies under His Feet",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-11-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not a repeated physical sacrifice (transubstantiation), but an active, faith-filled memorial.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in remembrance / memorial",
+        "original": "εἰς τὴν ἐμὴν ἀνάμνησιν",
+        "translit": "eis tēn emēn anamnēsin",
+        "strongs": null,
+        "gloss": "unto My remembrance / living memorial",
+        "note": "Not a repeated physical sacrifice (transubstantiation), but an active, faith-filled memorial.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-15-51",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Shall Not All Sleep, but We Shall All Be Changed",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Agricultural type: guarantee of the full harvest (1 Cor 15:23).",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "firstfruits",
+        "original": "ἀπαρχή",
+        "translit": "aparchē",
+        "strongs": null,
+        "gloss": "first portion offered to God",
+        "note": "Agricultural type: guarantee of the full harvest (1 Cor 15:23).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-12-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Spiritual Gifts in the Church — Sovereign Holy Spirit Endowments",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-12-28",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Free divine gifts given for corporate building, not personal vanity.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "spiritual gifts",
+        "original": "χαρίσματα",
+        "translit": "charismata",
+        "strongs": null,
+        "gloss": "grace-endowments / spiritual gifts",
+        "note": "Free divine gifts given for corporate building, not personal vanity.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-12-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Are the Body of Christ, and Members in Particular",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Rose Again the Third Day According to the Scriptures",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Since by Man Came Death, by Man Came the Resurrection",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-32",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Us Eat and Drink; for to Morrow We Die",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 53:5-6 pattern — He bears what is ours.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "for our sins",
+        "original": "ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν",
+        "translit": "hyper tōn hamartiōn hēmōn",
+        "strongs": null,
+        "gloss": "on behalf of / for our sins",
+        "note": "Isa 53:5-6 pattern — He bears what is ours.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-11-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord's Supper — Remembrance Till He Come (Anamnēsis)",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-3-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Wisdom of This World Is Foolishness with God",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-9-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Not Muzzle the Mouth of the Ox",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-10-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Earth Is the Lord's, and the Fulness Thereof",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-11-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Cup Is the New Testament in My Blood",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Last Enemy That Shall Be Destroyed Is Death",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-54",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Isa 25:8 LXX — God swallows death forever.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "swallowed up",
+        "original": "κατεπόθη",
+        "translit": "katepothē",
+        "strongs": null,
+        "gloss": "was swallowed down / destroyed",
+        "note": "Isa 25:8 LXX — God swallows death forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "holy sanctuary / shrine / Most Holy Place",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "inner sanctuary / temple",
+        "original": "ναὸς",
+        "translit": "naos",
+        "strongs": null,
+        "gloss": "holy sanctuary / shrine / Most Holy Place",
+        "note": "Not hieron (general temple precincts), but naos: the sacred dwelling place of God's glory.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-1-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Destroy the Wisdom of the Wise",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-3-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lord Knoweth the Thoughts of the Wise",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Hath Put All Things under His Feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "on behalf of / for our sins",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "for our sins",
+        "original": "ὑπὲρ τῶν ἁμαρτιῶν ἡμῶν",
+        "translit": "hyper tōn hamartiōn hēmōn",
+        "strongs": null,
+        "gloss": "on behalf of / for our sins",
+        "note": "Isa 53:5-6 pattern — He bears what is ours.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-1-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Made unto Us Wisdom, Righteousness, Sanctification, Redemption",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-2-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Eye Hath Not Seen, Nor Ear Heard",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-6-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Two, Saith He, Shall Be One Flesh",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-10-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "All Our Fathers Were under the Cloud",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "We Are Found False Witnesses of God",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-10-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Explicit apostolic typology on Exod 17:6.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Rock",
+        "original": "πέτρα",
+        "translit": "petra",
+        "strongs": null,
+        "gloss": "rock, crag",
+        "note": "Explicit apostolic typology on Exod 17:6.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-11-23",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "unto My remembrance / living memorial",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "in remembrance / memorial",
+        "original": "εἰς τὴν ἐμὴν ἀνάμνησιν",
+        "translit": "eis tēn emēn anamnēsin",
+        "strongs": null,
+        "gloss": "unto My remembrance / living memorial",
+        "note": "Not a repeated physical sacrifice (transubstantiation), but an active, faith-filled memorial.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-6-19",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "ye were purchased with a price",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bought with a price",
+        "original": "ἠγοράσθητε τιμῆς",
+        "translit": "ēgorasthēte timēs",
+        "strongs": null,
+        "gloss": "ye were purchased with a price",
+        "note": "Calvary purchase gives Christ complete ownership over our physical and mental faculties.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-10-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Twenty-Three Thousand Fell in One Day",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-55",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O Death, Where Is Thy Sting?",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-5-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Exod 12 typology made explicit.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Passover",
+        "original": "τὸ πάσχα",
+        "translit": "to pascha",
+        "strongs": null,
+        "gloss": "the Passover (lamb)",
+        "note": "Exod 12 typology made explicit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-15-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ Died for Our Sins",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-20",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "first portion offered to God",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "firstfruits",
+        "original": "ἀπαρχή",
+        "translit": "aparchē",
+        "strongs": null,
+        "gloss": "first portion offered to God",
+        "note": "Agricultural type: guarantee of the full harvest (1 Cor 15:23).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-15-54",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Death Swallowed Up in Victory",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-54",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "was swallowed down / destroyed",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "swallowed up",
+        "original": "κατεπόθη",
+        "translit": "katepothē",
+        "strongs": null,
+        "gloss": "was swallowed down / destroyed",
+        "note": "Isa 25:8 LXX — God swallows death forever.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-10-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Neither Let Us Tempt Christ",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-10-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Rock Was Christ",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Last Adam Quickening Spirit",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-12-28",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "grace-endowments / spiritual gifts",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "spiritual gifts",
+        "original": "χαρίσματα",
+        "translit": "charismata",
+        "strongs": null,
+        "gloss": "grace-endowments / spiritual gifts",
+        "note": "Free divine gifts given for corporate building, not personal vanity.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-5-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ Our Passover",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-5-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the Passover (lamb)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Passover",
+        "original": "τὸ πάσχα",
+        "translit": "to pascha",
+        "strongs": null,
+        "gloss": "the Passover (lamb)",
+        "note": "Exod 12 typology made explicit.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-15-20",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Christ the Firstfruits",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1co-15-45",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the last Adam",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "last Adam",
+        "original": "ἔσχατος Ἀδάμ",
+        "translit": "eschatos Adam",
+        "strongs": null,
+        "gloss": "the last Adam",
+        "note": "Not merely a second Adam — the final representative head of the new humanity.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "1co-10-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "rock, crag",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Rock",
+        "original": "πέτρα",
+        "translit": "petra",
+        "strongs": null,
+        "gloss": "rock, crag",
+        "note": "Explicit apostolic typology on Exod 17:6.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

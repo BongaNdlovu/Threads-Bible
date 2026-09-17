@@ -1,0 +1,823 @@
+{
+  "book": "2sa",
+  "bookName": "2 Samuel",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 9,
+    "entryStrings": 26,
+    "chainStrings": 23,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2sa-12-13",
+    "2sa-22-2",
+    "2sa-22-50",
+    "2sa-23-5",
+    "2sa-24-17",
+    "2sa-7-12",
+    "2sa-7-13",
+    "2sa-7-14",
+    "2sa-7-16"
+  ],
+  "fields": [
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God covenants with David that his seed will build a house and his throne will be established forever. Luke records the angel Gabriel announcing that Jesus will receive the throne of His father David and of His kingdom there will be no end. First principle: the kingdom is guaranteed by unconditional divine covenant sworn to David.",
+      "density": 2.8286,
+      "words": 56,
+      "sentences": 3,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David's last prophetic words declare that God has made with him an everlasting covenant, ordered in all things and sure, and He will make all his salvation to branch forth. First principle: the messianic covenant outlives all earthly failure and blossoms in Christ.",
+      "density": 2.7893,
+      "words": 43,
+      "sentences": 2,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-7-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Father-son covenant with chastening rod included. First principle: the decree-sonship of Psalm 2 and the Davidic covenant are the same verse to Hebrews — and the chastening clause points to the cross.",
+      "density": 2.2857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-22-50",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The thanksgiving goes international. First principle: Romans 15 quotes David's resolve as proof of the Gentile plan — praise among the nations was the king's own mission statement.",
+      "density": 2.0714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-22-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The deliverance song David sings when the LORD delivered him from all enemies. First principle: the psalm of chapter 22 is Psalm 18 in place — the rescue-vocabulary of the king who trusted.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-12-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Confession one word long; pardon immediate. First principle: the psalms of forgiveness (32, 51) come out of this sentence — sin put away, death sentence lifted, consequences remaining.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-24-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David intercedes at the plague-angel's sight: the shepherd offers himself for the sheep. First principle: the king's substitution instinct points to the greater Shepherd-King who does not pray it but performs it.",
+      "density": 1.8857,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-7-16",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "House, kingdom, throne — forever before thee. First principle: the oath that outruns exile — Gabriel repeats it to Mary over the child in her womb.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-7-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The seed builds; the throne is established forever. First principle: Solomon builds the temple, but the verse outruns him — the forever-establishment is David's greater Son.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Acts 2:30; Rom 1:3 — Christ made of the seed of David according to the flesh.",
+      "density": 1.3143,
+      "words": 16,
+      "sentences": 1,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seed",
+        "original": "זַרְעֲךָ",
+        "translit": "zarʿakha",
+        "strongs": null,
+        "gloss": "your seed / offspring",
+        "note": "Acts 2:30; Rom 1:3 — Christ made of the seed of David according to the flesh.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Same root as Tsemach (the Branch) in Jer 23:5 and Zech 6:12.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "make it grow",
+        "original": "יַצְמִיחַ",
+        "translit": "yatsmiach",
+        "strongs": null,
+        "gloss": "He will cause to sprout / branch forth",
+        "note": "Same root as Tsemach (the Branch) in Jer 23:5 and Zech 6:12.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-12-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Also Hath Put Away Thy Sin; Thou Shalt Not Die",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-7-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Be His Father, and He Shall Be My Son",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-24-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Thine Hand Be Against Me, and Against My Father's House",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-22-50",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Give Thanks unto Thee among the Heathen",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Heb 13:20 — blood of the everlasting covenant.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "everlasting covenant",
+        "original": "בְּרִית עוֹלָם",
+        "translit": "berit ʿolam",
+        "strongs": null,
+        "gloss": "covenant of eternity",
+        "note": "Heb 13:20 — blood of the everlasting covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "He will cause to sprout / branch forth",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "make it grow",
+        "original": "יַצְמִיחַ",
+        "translit": "yatsmiach",
+        "strongs": null,
+        "gloss": "He will cause to sprout / branch forth",
+        "note": "Same root as Tsemach (the Branch) in Jer 23:5 and Zech 6:12.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-7-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Build an House for My Name",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-22-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Is My Rock, and My Fortress",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-7-16",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thy Throne Shall Be Established for Ever",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Luke 1:33 — \"and of his kingdom there shall be no end.\"",
+      "density": 0.5286,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "forever",
+        "original": "עַד־עוֹלָם",
+        "translit": "ʿad-ʿolam",
+        "strongs": null,
+        "gloss": "unto eternity",
+        "note": "Luke 1:33 — \"and of his kingdom there shall be no end.\"",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Davidic Seed — Everlasting Throne",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Everlasting Covenant — Branching Forth",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "your seed / offspring",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seed",
+        "original": "זַרְעֲךָ",
+        "translit": "zarʿakha",
+        "strongs": null,
+        "gloss": "your seed / offspring",
+        "note": "Acts 2:30; Rom 1:3 — Christ made of the seed of David according to the flesh.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-23-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "covenant of eternity",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "everlasting covenant",
+        "original": "בְּרִית עוֹלָם",
+        "translit": "berit ʿolam",
+        "strongs": null,
+        "gloss": "covenant of eternity",
+        "note": "Heb 13:20 — blood of the everlasting covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "2sa-7-12",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "unto eternity",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "forever",
+        "original": "עַד־עוֹלָם",
+        "translit": "ʿad-ʿolam",
+        "strongs": null,
+        "gloss": "unto eternity",
+        "note": "Luke 1:33 — \"and of his kingdom there shall be no end.\"",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Same-OT: the Branch builds the temple and unites priest and king.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Shoot from the stem of Jesse, Branch from his roots",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest royal dynasty promise: God will establish David's seed.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David's dying words anticipate his salvation branching forth.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the messianic Branch in the day of cleansing.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: Zechariah praises the sunrise/branch visiting from on high.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: King reigning wisely, executing justice and righteousness.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Branch of righteousness to grow up unto David",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: Paul cites Isaiah 11:10 for Gentile hope.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Branch (Tsemach) and the Davidic Throne",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Davidic covenant — house and throne forever",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 7:12-16",
+        "verseId": "2sa-7-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Branch of the LORD beautiful and glorious",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 4:2",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Dayspring from on high (Anatolē / Tsemach)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:78",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Righteous Branch — YHWH Our Righteousness",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 23:5-6",
+        "verseId": "jer-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Same-OT: post-exilic reaffirmation of the Branch.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Root of Jesse reigning over Gentiles",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Romans 15:12",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "NT: triumphant Lion and morning star.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Everlasting covenant to branch forth",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "2 Samuel 23:5",
+        "verseId": "2sa-23-5",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Spirit-anointed ruler over nations.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 11:1-2",
+        "verseId": "isa-11-1",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: irrevocable covenant with David.",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Jeremiah 33:15",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "Root and Offspring of David",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 5:5; 22:16",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "My Servant the BRANCH",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 3:8",
+        "verseId": null,
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Priest-King on His throne",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 6:12-13",
+        "verseId": "zec-6-12",
+        "chainName": "The Branch (Tsemach) and the Davidic Throne"
+      }
+    }
+  ]
+}

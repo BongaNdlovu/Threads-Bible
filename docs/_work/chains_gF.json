@@ -1,0 +1,582 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group F)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 114
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].connection",
+      "text": "This is the earliest promise of a royal family line: God will establish David's descendant."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "text": "God's binding promise to David: a house and a throne forever"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].connection",
+      "text": "In the same Old Testament David speaks his last words, and he looks forward to God making his salvation branch forth."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "text": "God's binding promise to make it branch forth forever"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "text": "In the same Old Testament Isaiah gives the Branch this name on the day God cleanses his people."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "text": "Branch of the LORD beautiful and glorious"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].connection",
+      "text": "In the same Old Testament God's Spirit rests on this ruler, who will rule over the nations."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "text": "Shoot from the stem of Jesse, Branch from his roots"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "text": "In the same Old Testament a king rules with wisdom, and he does what is just and right."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "text": "The Righteous Branch, the LORD Our Righteousness"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].connection",
+      "text": "In the same Old Testament God binds himself to David with a promise, and he will not take it back."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "text": "The Branch of righteousness growing up for David"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].connection",
+      "text": "In the same Old Testament, after the exile, God confirms the promise of the Branch again."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].connection",
+      "text": "In the same Old Testament the Branch builds the LORD's temple, and he is both priest and king on his throne."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "text": "In the New Testament Zechariah praises the sunrise that visits us from on high, and he uses the same word for the Branch."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].connection",
+      "text": "In the New Testament Paul quotes Isaiah 11:10 to show that the Gentiles also have hope."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "text": "The Branch (Tsemach) and the Davidic Throne"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "text": "My Servant the BRANCH"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "text": "Priest-King on His throne"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "text": "Dayspring from on high (Anatolē / Tsemach)"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "text": "Root of Jesse reigning over Gentiles"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "text": "Root and Offspring of David"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].connection",
+      "text": "In the New Testament Jesus is the triumphant Lion and the morning star."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].connection",
+      "text": "Earliest provision: water gushes from the struck rock in the desert."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].title",
+      "text": "Moses smites the rock at Horeb"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].connection",
+      "text": "Same-OT: second rock event where water quenches thirst."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].title",
+      "text": "Water from the rock at Meribah"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].connection",
+      "text": "Same-OT: psalm commemorates abundant streams from the rock."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].title",
+      "text": "He split the rocks in the wilderness"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].title",
+      "text": "Water flowed from the rock for them"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].connection",
+      "text": "Same-OT: prophetic remembrance of divine sustenance."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].connection",
+      "text": "Same-OT: water becomes the universal invitation to grace."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].title",
+      "text": "Come to the waters without money"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].connection",
+      "text": "Same-OT: vision of healing waters bringing life everywhere."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].title",
+      "text": "River flowing from the sanctuary"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].title",
+      "text": "Living waters go out from Jerusalem"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].connection",
+      "text": "Same-OT: eschatological living waters."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].connection",
+      "text": "NT: Paul identifies the smitten wilderness rock as Christ Himself."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].title",
+      "text": "That Rock was Christ"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].connection",
+      "text": "NT: Jesus offers the living water to the woman at the well."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].title",
+      "text": "Fountain of water springing into eternal life"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].connection",
+      "text": "NT: Jesus proclaims the living water at the Feast of Tabernacles."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].title",
+      "text": "Rivers of living water — the Spirit"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "name",
+      "text": "The Smitten Rock and Living Water"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].title",
+      "text": "River of the water of life"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].connection",
+      "text": "NT: crystal river from the throne of God and of the Lamb."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].connection",
+      "text": "Decalogue foundation: contains divine name (YHWH), office (Maker/Creator), and territory (heaven, earth, sea)."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].title",
+      "text": "Creator's Seal in the Fourth Commandment"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].connection",
+      "text": "Prophetic warning: apostate power attempts to alter God's Sabbath and law during historical supremacy."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].title",
+      "text": "Little horn thinks to change times and laws (1260 days)"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].connection",
+      "text": "End-time protection: settling into truth intellectually and spiritually before the winds blow."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].title",
+      "text": "Seal of the living God placed upon the servants' foreheads"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].connection",
+      "text": "Loyalty marker: faithful remnant withstands the dragon's final wrath through obedience and faith."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].title",
+      "text": "Remnant keeps commandments of God and testimony of Jesus"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].connection",
+      "text": "Proclamation: restoration of the true gospel and fourth-commandment Creator worship before judgment."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].title",
+      "text": "First Angel: Everlasting gospel, judgment hour, Creator-worship"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].connection",
+      "text": "Separation: moral fall of apostate religious systems rejecting biblical truth."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].title",
+      "text": "Second Angel: Babylon is fallen, is fallen"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].title",
+      "text": "Third Angel: Warning against the beast, image, and mark"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].connection",
+      "text": "Solemn warning: the danger of receiving counterfeit human-enforced worship."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].connection",
+      "text": "Remnant character: perseverance in keeping God's commandments through the faith of Jesus."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].title",
+      "text": "Patience of the saints: commandments of God and faith of Jesus"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].connection",
+      "text": "Universal summons: earth illuminated with divine glory before probation closes."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "name",
+      "text": "5. The Three Angels' Messages & The Seal vs. Mark"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].title",
+      "text": "The Loud Cry: \"Come out of her, My people\""
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].connection",
+      "text": "Earliest miraculous food in the wilderness."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].title",
+      "text": "Bread rained from heaven"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].connection",
+      "text": "Same-OT: manna teaches reliance on every word from God's mouth."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].title",
+      "text": "Man does not live by bread alone"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].title",
+      "text": "Bread of heaven — angels' food"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].connection",
+      "text": "Same-OT: poetic celebration of divine provision."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].connection",
+      "text": "NT: Jesus defeats Satan using the manna-principle in the wilderness."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].title",
+      "text": "Jesus quotes Deuteronomy 8"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus contrasts perishable manna with His living flesh for the world."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].title",
+      "text": "I am the Bread of Life"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].connection",
+      "text": "NT: whoever eats this bread shall live forever."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].title",
+      "text": "Living bread that came down from heaven"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].connection",
+      "text": "NT: the church participates in Christ through the broken bread."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].connection",
+      "text": "NT: eschatological feast promised to the faithful."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "name",
+      "text": "Manna and the True Bread of Life"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].title",
+      "text": "One bread, one body"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].title",
+      "text": "Hidden manna to the overcomer"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].connection",
+      "text": "Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].title",
+      "text": "Decree of Artaxerxes to restore Jerusalem (457 BC)"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].connection",
+      "text": "Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].title",
+      "text": "Seventy weeks determined upon thy people"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].connection",
+      "text": "Calculation: 457 BC + 483 years brings exactly to 27 AD."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].title",
+      "text": "Unto Messiah the Prince: 69 weeks (483 years)"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].connection",
+      "text": "NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].title",
+      "text": "27 AD: Jesus baptized and anointed with the Holy Spirit"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary death of the Anointed One foretold."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].title",
+      "text": "Messiah cut off, but not for Himself"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].connection",
+      "text": "Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].title",
+      "text": "Midst of the week: cause sacrifice and oblation to cease"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].connection",
+      "text": "NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].title",
+      "text": "31 AD: Temple veil rent in twain at crucifixion"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].connection",
+      "text": "NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].title",
+      "text": "34 AD: Stephen stoned; gospel sent to Gentiles"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "name",
+      "text": "2. The 70 Weeks: Dating the Messiah"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].title",
+      "text": "The serpent questions God's word"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].connection",
+      "text": "Earliest adversary character."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].connection",
+      "text": "Same-OT: doom of the serpent announced."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].title",
+      "text": "Enmity and crushed head"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].connection",
+      "text": "Same-OT: sin banished to the wilderness adversary."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].title",
+      "text": "Scapegoat for Azazel"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].connection",
+      "text": "Same-OT: adversary in the divine council."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].title",
+      "text": "The Satan as accuser"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].connection",
+      "text": "Same-OT: accusation countered by divine rebuke."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].title",
+      "text": "Satan standing to accuse"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].connection",
+      "text": "NT identifies the serpent of Eden as the cosmic dragon."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].title",
+      "text": "That old serpent, Devil and Satan"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].connection",
+      "text": "NT: head-crush progressed to binding and lake of fire."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].title",
+      "text": "Bound a thousand years"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "name",
+      "text": "Serpent to Dragon"
+    }
+  ]
+}

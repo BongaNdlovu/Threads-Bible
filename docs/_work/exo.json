@@ -1,0 +1,3814 @@
+{
+  "book": "exo",
+  "bookName": "Exodus",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 39,
+    "entryStrings": 118,
+    "chainStrings": 114,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "exo-12-13",
+    "exo-12-21",
+    "exo-12-27",
+    "exo-12-3",
+    "exo-12-46",
+    "exo-12-5",
+    "exo-12-6",
+    "exo-14-21",
+    "exo-14-22",
+    "exo-15-25",
+    "exo-16-14",
+    "exo-16-35",
+    "exo-16-4",
+    "exo-17-12",
+    "exo-17-6",
+    "exo-19-5",
+    "exo-19-6",
+    "exo-20-11",
+    "exo-20-3",
+    "exo-20-8",
+    "exo-25-40",
+    "exo-25-8",
+    "exo-28-36",
+    "exo-29-45",
+    "exo-3-13",
+    "exo-3-14",
+    "exo-3-15",
+    "exo-3-2",
+    "exo-3-6",
+    "exo-30-10",
+    "exo-30-30",
+    "exo-31-18",
+    "exo-33-18",
+    "exo-33-19",
+    "exo-34-28",
+    "exo-34-34",
+    "exo-34-6",
+    "exo-4-22",
+    "exo-40-34"
+  ],
+  "fields": [
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "who",
+      "text": "Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance. the Hebrew household eating the lamb in one house. the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb. the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7) whose body was kept unbroken at the cross. Redemptive Purpose: The type specifies the integrity of the sacrifice. John shows the Father preserved that integrity in the Son so the antitype is recognizable.",
+      "density": 4.7857,
+      "words": 126,
+      "sentences": 11,
+      "maxSentenceWords": 26,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Fourth Commandment: Remember the Sabbath day, to keep it holy. Grounded explicitly in the Creation Sabbath of Genesis 2:2-3 and sealed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath is proclaimed as a holy delight by Isaiah (Isa 58:13-14). Jesus declares Himself Lord of the Sabbath (Mark 2:27-28) customarily observes it (Luke 4:16) and Hebrews affirms an eschatological Sabbath-rest (sabbatismos) remaining for the people of God (Heb 4:9). First principle. the Sabbath is a moral, perpetual creation ordinance memorializing the Creator's rest and pointing forward to the finished rest of redemption.",
+      "density": 4.2714,
+      "words": 94,
+      "sentences": 5,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Genesis 2:2",
+          "Exodus 31:16",
+          "Isaiah 58:13",
+          "Mark 2:27",
+          "Luke 4:16",
+          "Hebrews 4:9"
+        ]
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"John 19:36\"]",
+      "text": "Authorship & Context: Moses wrote the Passover bone-law in Exodus 12. The Apostle John, eyewitness at the cross (John 19:35) wrote from Ephesus (c. AD 85–95). Identified Characters: Yahweh. the paschal lamb. Roman soldiers performing crurifragium. the two thieves whose legs were broken. Jesus already dead. Singular or Many: Singular body, many executioners. One Lamb is kept whole. the soldiers and the two other crucified men are the many around that one body. Christological Subject & Referent: Jesus of Nazareth, whose legs were not broken in order that Scripture be fulfilled. Redemptive Purpose: To prove His death was not chaotic Roman procedure but the governed Passover antitype whose unbroken body shields from wrath.",
+      "density": 4.2321,
+      "words": 113,
+      "sentences": 13,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "whoByRef[\"Numbers 9:12\"]",
+      "text": "Authorship & Context: Moses restates the Passover ordinance for those keeping it in the second month in the wilderness. Identified Characters: Israel on the march. those unclean or on a journey who still must keep the feast. the lamb of the delayed Passover. Singular or Many: Singular lamb, many later keepers. The same one-body statute binds every subsequent generation. Christological Subject & Referent: The same paschal body later identified as Christ. the wilderness restatement is not a different lamb-theology but the standing Torah of the unbroken sacrifice. Redemptive Purpose: To show the bone-law is not a one-night Egyptian custom. it remains in force until the true Lamb's body is preserved at Golgotha.",
+      "density": 4.1857,
+      "words": 112,
+      "sentences": 10,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[0].exposition",
+      "text": "Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute. the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept.",
+      "density": 3.9714,
+      "words": 104,
+      "sentences": 9,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bone",
+        "original": "עֶצֶם",
+        "translit": "etsem",
+        "strongs": "H6106",
+        "gloss": "bone, substance, selfsame",
+        "note": "John 19:36. Scripture fulfilled.",
+        "exposition": "Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute. the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept."
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[1].exposition",
+      "text": "John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown. they did so to the two others. The passive in the Scripture-formula marks divine agency. the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ. what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners.",
+      "density": 3.3679,
+      "words": 89,
+      "sentences": 9,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall not be broken",
+        "original": "συντριβήσεται",
+        "translit": "syntribēsetai",
+        "strongs": "G4937",
+        "gloss": "shall be shattered / crushed",
+        "note": "John 19:36 passive. the Father withholds the fracture.",
+        "exposition": "John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown. they did so to the two others. The passive in the Scripture-formula marks divine agency. the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ. what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners."
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[2]",
+      "text": "Step 3 (Exodus 12:46 → Numbers 9:12 → John 19:36): John watches the soldiers break the thieves’ legs and stop at Jesus. All three verses agree. the lamb stays whole in Egypt, in the wilderness, and on the cross. How the story moves forward. law, repeated law, then the moment it comes true. Where it leads: Jesus is the true Passover Lamb, and His unbroken body says His offering is complete.",
+      "density": 3.0321,
+      "words": 71,
+      "sentences": 6,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[1]",
+      "text": "Step 2 of the thread (Exodus 12:46 → Numbers 9:12): Both verses repeat the same bone-law for later Passovers. The link: “nor break any bone of it” is standing law for every generation on the march, not just the night in Egypt. Why God says it twice. the lamb’s body must stay whole until the true Lamb is offered.",
+      "density": 2.5607,
+      "words": 59,
+      "sentences": 5,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Sabbath command is grounded in creation itself. in six days the LORD made heaven and earth and rested the seventh day. Ezekiel calls it also a sign between God and Israel (Ezek 20:12, 20). Hebrews 4:4 quotes Genesis 2:2 for the same rest. Textual proof: Sinai cites creation, not a later Israelite invention. the seventh day is named as the day God rested.",
+      "density": 2.4,
+      "words": 64,
+      "sentences": 6,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Ezekiel 20:12",
+          "Hebrews 4:4",
+          "Genesis 2:2"
+        ]
+      }
+    },
+    {
+      "entryId": "exo-4-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God names the nation His firstborn before Pharaoh. First principle. sonship is the ground of exodus demands. and the title, kept in Israel, finds its fullness in the only-begotten Son called out of Egypt.",
+      "density": 1.8214,
+      "words": 34,
+      "sentences": 4,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God names Himself by covenant generations. Moses hides his face. First principle. the God of the living patriarchs binds Himself to a family line that runs to Christ. and reverence is the first response.",
+      "density": 1.7643,
+      "words": 34,
+      "sentences": 5,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-14-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Israel walks through the sea on dry ground, walls of water on either side. First principle. baptism into the deliverer. Paul says they were baptized in the cloud and sea. is passage between held-back judgments.",
+      "density": 1.675,
+      "words": 35,
+      "sentences": 5,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Angel of the LORD appears in flame that does not devour. First principle: God dwells with the afflicted without being burned by their fire. the church's bush and the covenant's endurance are one picture.",
+      "density": 1.6179,
+      "words": 35,
+      "sentences": 3,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-17-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses strikes the rock and water comes out. Paul. they drank from the spiritual Rock that followed them, and the Rock was Christ. First principle: God quenches thirst. Christ is the source.",
+      "density": 1.6,
+      "words": 32,
+      "sentences": 5,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-15-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Bitter waters made sweet by a cast-in tree. a statute proved there. First principle. the tree turns Marah sweet. the first wilderness test answered by wood, the pattern of the cross's remedy.",
+      "density": 1.5429,
+      "words": 32,
+      "sentences": 5,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The memorial speech: He passed over the houses and delivered us. and the people bowed and worshipped. First principle. the passover is teaching by rehearsal. every generation tells the story of the blood that spared them.",
+      "density": 1.5286,
+      "words": 36,
+      "sentences": 5,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-34-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses unveils before the LORD, veils before the people. First principle. the ministry of the fading glory gives way to the Spirit's lasting glory. in Christ the vail is done away.",
+      "density": 1.5179,
+      "words": 31,
+      "sentences": 4,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek σάββατον in NT. same seventh-day institution from creation (Gen 2:2-3. Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.",
+      "density": 1.5071,
+      "words": 26,
+      "sentences": 3,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Sabbath",
+        "original": "שַׁבָּת",
+        "translit": "shabbat",
+        "strongs": null,
+        "gloss": "rest, sabbath (from shavat. cease).",
+        "note": "Greek σάββατον in NT. same seventh-day institution from creation (Gen 2:2-3. Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "cumulativePrinciples[0]",
+      "text": "The thread begins at Exodus 12:46: The Passover lamb’s bones must not be broken. One house, one lamb, one whole body. the sacrifice stays intact even in death.",
+      "density": 1.5,
+      "words": 28,
+      "sentences": 3,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-19-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Israel is to be a kingdom of priests and holy nation. 1 Peter applies this to the church. Revelation. made priests to God. First principle. the covenant people exist for priestly access and witness.",
+      "density": 1.4786,
+      "words": 34,
+      "sentences": 6,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God names Himself to Moses: I AM WHO I AM. Jesus applies the divine name. before Abraham was, I AM. First principle. covenant identity is grounded in self-existent being, not tribal history alone.",
+      "density": 1.4536,
+      "words": 33,
+      "sentences": 5,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-25-40",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God shows Moses the pattern to build after. Hebrews. earthly tabernacle is a copy and shadow of the heavenly things. First principle. worship order is revealed, not invented. Christ is the true meeting-place.",
+      "density": 1.4536,
+      "words": 33,
+      "sentences": 6,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-16-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The supply held until the borders of Canaan. First principle. grace is tested by duration. the bread never failed for four decades, until the promised land replaced it.",
+      "density": 1.4429,
+      "words": 28,
+      "sentences": 4,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-33-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses asks for more than mission. he asks for God. First principle. the greatest request a believer can make is to see glory. the answer is goodness proclaimed and a cleft-rock hiding.",
+      "density": 1.4286,
+      "words": 32,
+      "sentences": 5,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses asks for the Name. the answer is I AM THAT I AM. First principle. the self-existent God gives a name that outlasts every crisis. and Jesus claims it. before Abraham was, I AM.",
+      "density": 1.4214,
+      "words": 34,
+      "sentences": 6,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-19-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Obedience to the covenant voice makes Israel God's treasure above all people. First principle. the covenant formula. obey, belong. is transferred in Christ to a people bought with blood.",
+      "density": 1.4107,
+      "words": 29,
+      "sentences": 5,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Kept until the fourteenth day, slain by all Israel at evening. First principle. the lamb is examined, then slain by the congregation. and the hours match the cross to the minute.",
+      "density": 1.4036,
+      "words": 31,
+      "sentences": 4,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-30-30",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Oil consecrates the priesthood. First principle. ministry is by anointing, not appointment alone. the Spirit sets apart, as Christ was anointed to preach and to priest.",
+      "density": 1.3929,
+      "words": 26,
+      "sentences": 4,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-31-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The law comes from God's own finger on stone. First principle. the writing would move from stone to flesh. tablets of the heart by the Spirit, promised through the prophets.",
+      "density": 1.3786,
+      "words": 30,
+      "sentences": 4,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Passover lamb's bones are not broken. Numbers restates the same statute for later Passovers. John cites this at the cross. First principle. the type specifies integrity of the sacrifice even in death.",
+      "density": 1.3714,
+      "words": 32,
+      "sentences": 5,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-33-19",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Goodness passes by. grace and mercy are declared as God's sovereign character. First principle. the Name is preached before it is seen. and Paul quotes it to defend God's freedom in election.",
+      "density": 1.3714,
+      "words": 32,
+      "sentences": 5,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-17-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses' lifted hands are supported until sunset, and the battle is won. First principle. intercession is corporate. the war is carried by held-up hands, not solo heroics.",
+      "density": 1.3607,
+      "words": 27,
+      "sentences": 4,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Each household takes a lamb without blemish for Passover. John names Jesus the Lamb of God. Paul: Christ our Passover is sacrificed. First principle. substitutionary death of an unblemished substitute delivers from judgment.",
+      "density": 1.3393,
+      "words": 33,
+      "sentences": 5,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses commands each household to take the Passover lamb. First principle. deliverance is by applied sacrifice. a lamb taken, killed, and trusted in every home of faith.",
+      "density": 1.3036,
+      "words": 27,
+      "sentences": 4,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-40-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The cloud covers the finished tent. the glory fills it. First principle. when the dwelling is done as directed, the Presence moves in. obedience completes into Shekinah.",
+      "density": 1.3036,
+      "words": 27,
+      "sentences": 5,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-30-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The high priest makes atonement once a year with blood. Hebrews: Christ enters the greater holy place once for all. First principle. access to God is blood-bought and priestly.",
+      "density": 1.2964,
+      "words": 29,
+      "sentences": 4,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-34-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses fasts with the LORD and receives the covenant words. First principle. the lawgiver's fast foreshadows the greater Lawgiver's forty days. both sustained by the Word of the covenant.",
+      "density": 1.2964,
+      "words": 29,
+      "sentences": 4,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-16-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God rains bread from heaven for Israel. Jesus: I am the bread of life. the true bread is My flesh. First principle. divine provision is personal and sufficient for eternal life.",
+      "density": 1.2893,
+      "words": 31,
+      "sentences": 5,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-28-36",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The high priest wears the engraved plate on his forehead. First principle. the priest carries holiness visibly for the people. Christ the High Priest bears the name perfectly.",
+      "density": 1.2714,
+      "words": 28,
+      "sentences": 4,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-14-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Moses stretches out his hand. the east wind parts the sea all night. First principle. salvation's impossible moments are wind-and-obedience moments. God makes a road where there is no road.",
+      "density": 1.2643,
+      "words": 30,
+      "sentences": 5,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-29-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant summit: God dwelling with His redeemed. First principle. all the sacrifices and furnishings aim at one sentence. I will be their God. the tabernacle is friendship in architecture.",
+      "density": 1.2643,
+      "words": 30,
+      "sentences": 5,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-25-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The tabernacle is God's invitation to neighborhood. First principle. the sanctuary is not for God's benefit but for nearness. the type of the Word tabernacling among us.",
+      "density": 1.2464,
+      "words": 27,
+      "sentences": 4,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD sees the blood and passes over. Hebrews. without shedding of blood no remission. 1 Peter. redeemed with precious blood. First principle. atonement is by applied blood, not mere intention.",
+      "density": 1.2321,
+      "words": 31,
+      "sentences": 7,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-16-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Bread from heaven lies on the wilderness floor each morning. First principle. daily bread is heaven's humility. small, round, sufficient. Jesus calls Himself the true manna.",
+      "density": 1.2214,
+      "words": 26,
+      "sentences": 5,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-34-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The thirteen-attribute proclamation. compassionate, longsuffering, abundant in goodness and truth. First principle. this is the Bible's central self-portrait of God. repeated across Scripture and fulfilled in Christ's face.",
+      "density": 1.1571,
+      "words": 28,
+      "sentences": 5,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-12-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Passover lamb must be perfect, male, first-year. First principle. substitution requires spotlessness. the blood that saves is the blood of the unblemished.",
+      "density": 1.1464,
+      "words": 23,
+      "sentences": 4,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-15",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The LORD of the fathers is the perpetual memorial-name. First principle. deliverance comes in the name that never changes. the memorial every generation must remember.",
+      "density": 1.1393,
+      "words": 25,
+      "sentences": 4,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-20-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The first commandment stakes exclusive worship. First principle: God begins the law where idolatry begins. with rival trust. Christ answers Satan with this very word.",
+      "density": 1.1393,
+      "words": 25,
+      "sentences": 4,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "exo-3-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "I will be what I will be / I am who I am",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I AM WHO I AM",
+        "original": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+        "translit": "ʾehyeh ʾasher ʾehyeh",
+        "strongs": null,
+        "gloss": "I will be what I will be / I am who I am",
+        "note": "LXX ἐγώ εἰμι ὁ ὤν. John 8:58 claims this name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Same qadash root as God sanctifying the seventh day in Gen 2:3.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keep it holy",
+        "original": "לְקַדְּשׁוֹ",
+        "translit": "le-qaddesho",
+        "strongs": null,
+        "gloss": "to sanctify / set it apart",
+        "note": "Same qadash root as God sanctifying the seventh day in Gen 2:3.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[2].note",
+      "text": "Exod 31:16-17 seals the Sabbath as a perpetual covenant memorial of Creation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "perpetual covenant",
+        "original": "בְּרִית עוֹלָם",
+        "translit": "berit ʿolam",
+        "strongs": null,
+        "gloss": "everlasting covenant / sign",
+        "note": "Exod 31:16-17 seals the Sabbath as a perpetual covenant memorial of Creation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-25-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Them Make Me a Sanctuary, That I May Dwell Among Them",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[3].note",
+      "text": "Heb 4:9. there remains therefore a rest (sabbatismos) to the people of God.",
+      "density": 0.9536,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Sabbath-rest",
+        "original": "σαββατισμός",
+        "translit": "sabbatismos",
+        "strongs": null,
+        "gloss": "sabbath-rest / sabbath-keeping",
+        "note": "Heb 4:9. there remains therefore a rest (sabbatismos) to the people of God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-3-15",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is My Name for Ever, My Memorial to All Generations",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-16-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Small Round Thing, as Small as the Hoar Frost",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-33-19",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Proclaim the Name of the LORD Before Thee",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-17-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek πέτρα (petra) in 1 Cor 10:4. typological Christ.",
+      "density": 0.775,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "rock",
+        "original": "הַצּוּר",
+        "translit": "ha-tsur",
+        "strongs": null,
+        "gloss": "the rock, crag",
+        "note": "Greek πέτρα (petra) in 1 Cor 10:4. typological Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-3-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Bush Burned with Fire, and Was Not Consumed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-3-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am the God of Abraham, Isaac, and Jacob",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Whole Assembly Shall Kill It in the Evening",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-30-30",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Anoint Aaron and His Sons for the Priest's Office",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-31-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Tables of Stone, Written with the Finger of God",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-34-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Took the Vail Off Until He Came Out",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Ordinal is explicit. not \"a\" day but \"the\" seventh. Heb 4:4 preserves this creation logic.",
+      "density": 0.7179,
+      "words": 15,
+      "sentences": 5,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seventh day",
+        "original": "הַשְּׁבִיעִי",
+        "translit": "ha-sheviʿi",
+        "strongs": null,
+        "gloss": "the seventh",
+        "note": "Ordinal is explicit. not \"a\" day but \"the\" seventh. Heb 4:4 preserves this creation logic.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Remember the Sabbath Day. Grounded in Creation and Fulfilled in Christ.",
+      "density": 0.675,
+      "words": 11,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-30-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek καταλλάσσω / ἱλασμός in NT for reconciliation/propitiation.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "atonement",
+        "original": "כַּפֶּר",
+        "translit": "kapper",
+        "strongs": null,
+        "gloss": "to cover, purge, make atonement",
+        "note": "Greek καταλλάσσω / ἱλασμός in NT for reconciliation/propitiation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "It Is the Sacrifice of the LORD'S Passover",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-19-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Ye Shall Be a Peculiar Treasure unto Me",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Shalt Have No Other Gods Before Me",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-29-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Dwell Among the Children of Israel",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-40-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Glory of the LORD Filled the Tabernacle",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "head of small cattle (lamb / kid)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamb",
+        "original": "שֶׂה",
+        "translit": "seh",
+        "strongs": null,
+        "gloss": "head of small cattle (lamb / kid)",
+        "note": "Greek ἀμνός / ἀρνίον. John and Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-4-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Israel Is My Son, Even My Firstborn",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Draw Out and Take You a Lamb",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-14-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Waters Were a Wall unto Them",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-17-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Aaron and Hur Stayed Up His Hands",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-28-36",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "HOLINESS TO THE LORD Engraved on Gold",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-33-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Beseech Thee, Shew Me Thy Glory",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-34-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Forty Days and Forty Nights Without Bread",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-3-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "LXX ἐγώ εἰμι ὁ ὤν. John 8:58 claims this name.",
+      "density": 0.5357,
+      "words": 10,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "I AM WHO I AM",
+        "original": "אֶהְיֶה אֲשֶׁר אֶהְיֶה",
+        "translit": "ʾehyeh ʾasher ʾehyeh",
+        "strongs": null,
+        "gloss": "I will be what I will be / I am who I am",
+        "note": "LXX ἐγώ εἰμι ὁ ὤν. John 8:58 claims this name.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "to sanctify / set it apart",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "keep it holy",
+        "original": "לְקַדְּשׁוֹ",
+        "translit": "le-qaddesho",
+        "strongs": null,
+        "gloss": "to sanctify / set it apart",
+        "note": "Same qadash root as God sanctifying the seventh day in Gen 2:3.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Your Lamb Shall Be Without Blemish",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-15-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD Shewed Him a Tree",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-16-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Did Eat Manna Forty Years",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-34-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The LORD God, Merciful and Gracious",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "1 Pet 1:19. lamb without blemish and spot.",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without blemish",
+        "original": "תָּמִים",
+        "translit": "tamim",
+        "strongs": null,
+        "gloss": "complete, sound, without defect",
+        "note": "1 Pet 1:19. lamb without blemish and spot.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "John 19:36 passive. the Father withholds the fracture.",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall not be broken",
+        "original": "συντριβήσεται",
+        "translit": "syntribēsetai",
+        "strongs": "G4937",
+        "gloss": "shall be shattered / crushed",
+        "note": "John 19:36 passive. the Father withholds the fracture.",
+        "exposition": "John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown. they did so to the two others. The passive in the Scripture-formula marks divine agency. the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ. what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners."
+      }
+    },
+    {
+      "entryId": "exo-12-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Root of Pesach / Passover. sparing judgment.",
+      "density": 0.4607,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pass over",
+        "original": "פָּסַח",
+        "translit": "pasach",
+        "strongs": null,
+        "gloss": "to pass over, spare",
+        "note": "Root of Pesach / Passover. sparing judgment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-3-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What Is His Name? What Shall I Say?",
+      "density": 0.4286,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-3-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I AM THAT I AM",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "shall be shattered / crushed",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "shall not be broken",
+        "original": "συντριβήσεται",
+        "translit": "syntribēsetai",
+        "strongs": "G4937",
+        "gloss": "shall be shattered / crushed",
+        "note": "John 19:36 passive. the Father withholds the fracture.",
+        "exposition": "John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown. they did so to the two others. The passive in the Scripture-formula marks divine agency. the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ. what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners."
+      }
+    },
+    {
+      "entryId": "exo-30-10",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to cover, purge, make atonement",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "atonement",
+        "original": "כַּפֶּר",
+        "translit": "kapper",
+        "strongs": null,
+        "gloss": "to cover, purge, make atonement",
+        "note": "Greek καταλλάσσω / ἱλασμός in NT for reconciliation/propitiation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek ἀμνός / ἀρνίον. John and Revelation.",
+      "density": 0.4036,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "lamb",
+        "original": "שֶׂה",
+        "translit": "seh",
+        "strongs": null,
+        "gloss": "head of small cattle (lamb / kid)",
+        "note": "Greek ἀμνός / ἀρνίον. John and Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-16-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek ἄρτος. John 6 manna discourse.",
+      "density": 0.3786,
+      "words": 6,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bread",
+        "original": "לֶחֶם",
+        "translit": "lechem",
+        "strongs": null,
+        "gloss": "bread, food",
+        "note": "Greek ἄρτος. John 6 manna discourse.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-25-40",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Heb 8:5. ὑπόδειγμα / σκιά. copy and shadow.",
+      "density": 0.3714,
+      "words": 8,
+      "sentences": 3,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pattern",
+        "original": "תַּבְנִית",
+        "translit": "tavnit",
+        "strongs": null,
+        "gloss": "pattern, model, form",
+        "note": "Heb 8:5. ὑπόδειγμα / σκιά. copy and shadow.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "rest, sabbath (from shavat. cease).",
+      "density": 0.3536,
+      "words": 5,
+      "sentences": 2,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Sabbath",
+        "original": "שַׁבָּת",
+        "translit": "shabbat",
+        "strongs": null,
+        "gloss": "rest, sabbath (from shavat. cease).",
+        "note": "Greek σάββατον in NT. same seventh-day institution from creation (Gen 2:2-3. Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "complete, sound, without defect",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without blemish",
+        "original": "תָּמִים",
+        "translit": "tamim",
+        "strongs": null,
+        "gloss": "complete, sound, without defect",
+        "note": "1 Pet 1:19. lamb without blemish and spot.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Blood on the Doorposts",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "to pass over, spare",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pass over",
+        "original": "פָּסַח",
+        "translit": "pasach",
+        "strongs": null,
+        "gloss": "to pass over, spare",
+        "note": "Root of Pesach / Passover. sparing judgment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Not a Bone Broken",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-17-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Water from the Rock",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-19-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "a kingdom of priests",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kingdom of priests",
+        "original": "מַמְלֶכֶת כֹּהֲנִים",
+        "translit": "mamlekhet kohanim",
+        "strongs": null,
+        "gloss": "a kingdom of priests",
+        "note": "LXX βασίλειον ἱεράτευμα. 1 Pet 2:9.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-25-40",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Pattern of the Tabernacle",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[2].gloss",
+      "text": "everlasting covenant / sign",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "perpetual covenant",
+        "original": "בְּרִית עוֹלָם",
+        "translit": "berit ʿolam",
+        "strongs": null,
+        "gloss": "everlasting covenant / sign",
+        "note": "Exod 31:16-17 seals the Sabbath as a perpetual covenant memorial of Creation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-14-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Waters Were Divided",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-19-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "LXX βασίλειον ἱεράτευμα. 1 Pet 2:9.",
+      "density": 0.3214,
+      "words": 6,
+      "sentences": 2,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "kingdom of priests",
+        "original": "מַמְלֶכֶת כֹּהֲנִים",
+        "translit": "mamlekhet kohanim",
+        "strongs": null,
+        "gloss": "a kingdom of priests",
+        "note": "LXX βασίλειον ἱεράτευμα. 1 Pet 2:9.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Seventh Day. Pattern from Creation.",
+      "density": 0.2964,
+      "words": 5,
+      "sentences": 2,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lamb Without Blemish",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "bone, substance, selfsame",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bone",
+        "original": "עֶצֶם",
+        "translit": "etsem",
+        "strongs": "H6106",
+        "gloss": "bone, substance, selfsame",
+        "note": "John 19:36. Scripture fulfilled.",
+        "exposition": "Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute. the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept."
+      }
+    },
+    {
+      "entryId": "exo-16-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Bread from Heaven",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-17-6",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the rock, crag",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "rock",
+        "original": "הַצּוּר",
+        "translit": "ha-tsur",
+        "strongs": null,
+        "gloss": "the rock, crag",
+        "note": "Greek πέτρα (petra) in 1 Cor 10:4. typological Christ.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-19-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Kingdom of Priests",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-25-40",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "pattern, model, form",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pattern",
+        "original": "תַּבְנִית",
+        "translit": "tavnit",
+        "strongs": null,
+        "gloss": "pattern, model, form",
+        "note": "Heb 8:5. ὑπόδειγμα / σκιά. copy and shadow.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-30-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Day of Atonement",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "exo-20-8",
+      "file": "bookThreadDetails",
+      "field": "terms[3].gloss",
+      "text": "sabbath-rest / sabbath-keeping",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Sabbath-rest",
+        "original": "σαββατισμός",
+        "translit": "sabbatismos",
+        "strongs": null,
+        "gloss": "sabbath-rest / sabbath-keeping",
+        "note": "Heb 4:9. there remains therefore a rest (sabbatismos) to the people of God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-12-46",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "John 19:36. Scripture fulfilled.",
+      "density": 0.2143,
+      "words": 4,
+      "sentences": 2,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bone",
+        "original": "עֶצֶם",
+        "translit": "etsem",
+        "strongs": "H6106",
+        "gloss": "bone, substance, selfsame",
+        "note": "John 19:36. Scripture fulfilled.",
+        "exposition": "Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute. the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept."
+      }
+    },
+    {
+      "entryId": "exo-16-4",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "bread, food",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "bread",
+        "original": "לֶחֶם",
+        "translit": "lechem",
+        "strongs": null,
+        "gloss": "bread, food",
+        "note": "Greek ἄρτος. John 6 manna discourse.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "exo-20-11",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the seventh",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seventh day",
+        "original": "הַשְּׁבִיעִי",
+        "translit": "ha-sheviʿi",
+        "strongs": null,
+        "gloss": "the seventh",
+        "note": "Ordinal is explicit. not \"a\" day but \"the\" seventh. Heb 4:4 preserves this creation logic.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT prophetic continuity: Jesus instructs disciples to guard Sabbath sanctity far past the Cross into 70 AD and end-times.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Apostolic theology: the weekly rest remains a living obligation and spiritual rest for God's people.",
+      "density": 1.3821,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Sinai moral law: written by the finger of God in the heart of the Decalogue.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: bodily resurrection of the just at Christ's coming; the dead rest until raised.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6",
+        "verseId": "rev-20-4",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Leviticus 16:16-19",
+        "verseId": "lev-16-16",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Prophetic warning: apostate power attempts to alter God's Sabbath and law during historical supremacy.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:25",
+        "verseId": "dan-7-25",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Prophetic covenant: the Sabbath identifies the true Creator who makes His people holy.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Eternal consummation: Sabbath remains the perpetual rhythm of worship in the restored cosmos.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Decalogue foundation: contains divine name (YHWH), office (Maker/Creator), and territory (heaven, earth, sea).",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:11",
+        "verseId": "exo-20-11",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Loyalty marker: faithful remnant withstands the dragon's final wrath through obedience and faith.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: end-time call to Creator-worship in view of judgment (echoes Exod 20:11).",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-7",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: Jesus offers the living water to the woman at the well.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 4:13-14",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[10].connection",
+      "text": "NT: crystal river from the throne of God and of the Lamb.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1, 17",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus contrasts perishable manna with His living flesh for the world.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 6:31-35",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest origin: seventh-day rest instituted in Eden before the entrance of sin.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT example: Jesus Christ observed the seventh-day Sabbath throughout His earthly incarnation.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "End-time protection: settling into truth intellectually and spiritually before the winds blow.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 7:2-3",
+        "verseId": "rev-7-2",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Proclamation: restoration of the true gospel and fourth-commandment Creator worship before judgment.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-6",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "Remnant character: perseverance in keeping God's commandments through the faith of Jesus.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest sanctuary: God dwells among His people by a revealed pattern.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Remnant keep the commandments of God and the faith of Jesus",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17; 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "NT: God's end-time people identified by obedience + faith in Christ.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17; 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "First resurrection — the rest of the dead live not again",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:4-6",
+        "verseId": "rev-20-4",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest provision: water gushes from the struck rock in the desert.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 17:6",
+        "verseId": "exo-17-6",
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "NT: Jesus proclaims the living water at the Feast of Tabernacles.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 7:37-39",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 11:19",
+        "verseId": "rev-11-19",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "End-time restoration: Third Angel quotes Exodus 20:11, restoring Creator-worship before judgment.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Patience of the saints: commandments of God and faith of Jesus",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:12",
+        "verseId": "rev-14-12",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Unto 2,300 days — then the sanctuary is made right",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: earthly pattern fulfilled in Christ's high-priestly ministry in heaven.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2; 9:11-24",
+        "verseId": null,
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Fear God — the hour of His judgment is come",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-7",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: Paul identifies the smitten wilderness rock as Christ Himself.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 10:4",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: manna teaches reliance on every word from God's mouth.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 8:3",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT: Jesus defeats Satan using the manna-principle in the wilderness.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 4:4",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: the church participates in Christ through the broken bread.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 10:3, 16-17",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Creation Sabbath: God rested, blessed, and sanctified the seventh day",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:1-3",
+        "verseId": "gen-2-2",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Final call: Worship Him that made heaven, earth, and sea",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:7",
+        "verseId": "rev-14-7",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "New Earth: From one Sabbath to another all flesh worships",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 66:22-23",
+        "verseId": "isa-66-22",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Little horn thinks to change times and laws (1260 days)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:25",
+        "verseId": "dan-7-25",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Seal of the living God placed upon the servants' foreheads",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 7:2-3",
+        "verseId": "rev-7-2",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Separation: moral fall of apostate religious systems rejecting biblical truth.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:8",
+        "verseId": "rev-14-8",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "Universal summons: earth illuminated with divine glory before probation closes.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1-4",
+        "verseId": "rev-18-1",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: annual purging of accumulated sin from the sanctuary.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 30:10",
+        "verseId": "exo-30-10",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Seventy weeks — Messiah, cutting off, end of sacrifice",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24-27",
+        "verseId": "dan-9-24",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Perpetual sign of sanctification between God and His people",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 20:12, 20",
+        "verseId": "ezk-20-12",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Pray that your flight be not on the Sabbath",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 24:20",
+        "verseId": "mat-24-20",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Remnant keeps commandments of God and testimony of Jesus",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 12:17",
+        "verseId": "rev-12-17",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Third Angel: Warning against the beast, image, and mark",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:9-11",
+        "verseId": "rev-14-9",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Solemn warning: the danger of receiving counterfeit human-enforced worship.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:9-11",
+        "verseId": "rev-14-9",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: eschatological feast promised to the faithful.",
+      "density": 0.725,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 2:17",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "5. The Three Angels' Messages & The Seal vs. Mark",
+      "density": 0.7071,
+      "words": 10,
+      "sentences": 3,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary",
+      "density": 0.6821,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Day of Atonement — sanctuary cleansed by blood",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 30:10",
+        "verseId": "exo-30-10",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: judgment scene before the kingdom is possessed.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: time prophecy ending in a sanctuary-cleansing event.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 8:14",
+        "verseId": "dan-8-14",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: messianic mission within a fixed prophetic window.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 9:24-27",
+        "verseId": "dan-9-24",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: second rock event where water quenches thirst.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 20:8-11",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: psalm commemorates abundant streams from the rock.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 78:15-16",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "Same-OT: water becomes the universal invitation to grace.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 55:1",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Same-OT: vision of healing waters bringing life everywhere.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 47:1-12",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: whoever eats this bread shall live forever.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 6:48-51",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Christ's custom: synagogue worship on the Sabbath day",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 4:16",
+        "verseId": "luk-4-16",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "3. The Sabbath: Creation to the New Earth",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Heavenly court; judgment given to the saints",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "He split the rocks in the wilderness",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 78:15-16",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Water flowed from the rock for them",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 48:21",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Fountain of water springing into eternal life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 4:13-14",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Rivers of living water — the Spirit",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 7:37-39",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Manna and the True Bread of Life",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Man does not live by bread alone",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Deuteronomy 8:3",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Living bread that came down from heaven",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 6:48-51",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2",
+        "verseId": "heb-8-1",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "First Angel: Everlasting gospel, judgment hour, Creator-worship",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-7",
+        "verseId": "rev-14-6",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Second Angel: Babylon is fallen, is fallen",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:8",
+        "verseId": "rev-14-8",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: covenant identity marked by Creator-rest.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Christ minister of the true tabernacle",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 8:1-2; 9:11-24",
+        "verseId": null,
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Smitten Rock and Living Water",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Moses smites the rock at Horeb",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 17:6",
+        "verseId": "exo-17-6",
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Water from the rock at Meribah",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Numbers 20:8-11",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Same-OT: prophetic remembrance of divine sustenance.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 48:21",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "Come to the waters without money",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 55:1",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Living waters go out from Jerusalem",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 14:8",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[10].title",
+      "text": "River of the water of life",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 22:1, 17",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest miraculous food in the wilderness.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 16:4",
+        "verseId": "exo-16-4",
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Bread of heaven — angels' food",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 78:24-25",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: poetic celebration of divine provision.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 78:24-25",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "I am the Bread of Life",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 6:31-35",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Daniel 7:9-10, 22",
+        "verseId": "dan-7-9",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 9:23-24",
+        "verseId": "heb-9-23",
+        "chainName": "1. The 2,300 Days & Cleansing of the Sanctuary"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Fourth Commandment: Perpetual memorial of Creation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "There remaineth therefore a Sabbath-keeping (sabbatismos)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Hebrews 4:4, 9",
+        "verseId": "heb-4-9",
+        "chainName": "3. The Sabbath: Creation to the New Earth"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Creator's Seal in the Fourth Commandment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:11",
+        "verseId": "exo-20-11",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "Same-OT: eschatological living waters.",
+      "density": 0.4786,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Zechariah 14:8",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "The Loud Cry: \"Come out of her, My people\"",
+      "density": 0.4536,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 18:1-4",
+        "verseId": "rev-18-1",
+        "chainName": "5. The Three Angels' Messages & The Seal vs. Mark"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Tabernacle after the heavenly pattern",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 25:8, 40",
+        "verseId": "exo-25-40",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "River flowing from the sanctuary",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ezekiel 47:1-12",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Hidden manna to the overcomer",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 2:17",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "Sanctuary, Judgment, and Remnant",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Sabbath as creation memorial",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 20:8-11",
+        "verseId": "exo-20-8",
+        "chainName": "Sanctuary, Judgment, and Remnant"
+      }
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "That Rock was Christ",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 10:4",
+        "verseId": null,
+        "chainName": "The Smitten Rock and Living Water"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Bread rained from heaven",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Exodus 16:4",
+        "verseId": "exo-16-4",
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "Jesus quotes Deuteronomy 8",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 4:4",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "One bread, one body",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 10:3, 16-17",
+        "verseId": null,
+        "chainName": "Manna and the True Bread of Life"
+      }
+    }
+  ]
+}

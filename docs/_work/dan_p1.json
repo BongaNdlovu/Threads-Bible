@@ -1,0 +1,879 @@
+{
+  "book": "dan",
+  "bookName": "Daniel",
+  "part": 1,
+  "parts": 2,
+  "counts": {
+    "entries": 17,
+    "entryStrings": 52,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "dan-2-34",
+    "dan-2-35",
+    "dan-2-44",
+    "dan-2-45",
+    "dan-7-9",
+    "dan-7-10",
+    "dan-7-13",
+    "dan-7-14",
+    "dan-7-18",
+    "dan-7-21",
+    "dan-7-22",
+    "dan-7-25",
+    "dan-7-26",
+    "dan-7-27",
+    "dan-8-11",
+    "dan-8-14",
+    "dan-8-17"
+  ],
+  "fields": [
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Daniel sees thrones set in place; the Ancient of Days takes His seat; the court sits in judgment and books are opened. Jesus, Paul, and Revelation all place judgment in God's court before the final kingdom. Textual proof: Dan 7:9-10 is a heavenly judgment scene; Dan 7:22 says judgment was given to the saints of the Most High — i.e., a judicial verdict precedes their possession of the kingdom.",
+      "density": 3.6107,
+      "words": 69,
+      "sentences": 3,
+      "maxSentenceWords": 33,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Daniel 7:9",
+          "Daniel 7:22"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "An holy one answers: unto two thousand and three hundred days; then shall the sanctuary be made right. Hebrews shows the earthly sanctuary as pattern of the heavenly (Heb 8:1-2; 9:23-24). Leviticus 16 describes the annual cleansing of the sanctuary by blood. Textual proof: Daniel's time prophecy ends at a sanctuary event; Hebrews locates Christ's ministry in the true tabernacle; Leviticus defines what \"cleansed/right\" means in priestly context — removal of accumulated sin from the sanctuary.",
+      "density": 3.1571,
+      "words": 76,
+      "sentences": 5,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "Hebrews 8:1"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-7-25",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The little power speaks against the Most High, wears out the saints, and holds sway for a time, times, and a dividing of time. First principle: prophetic time is bounded — the wear-out has a stopwatch on it.",
+      "density": 2.3214,
+      "words": 38,
+      "sentences": 2,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The judgment came, and the saints of the Most High possessed the kingdom. Textual proof: heavenly court (v9-10) issues a verdict, then the saints receive dominion. Paul writes that the saints shall judge the world and even angels (1 Cor 6:2-3). Revelation 20:4 shows thrones and judgment given to those who reign with Christ.",
+      "density": 2.2071,
+      "words": 54,
+      "sentences": 4,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": [
+          "1 Corinthians 6:2",
+          "Revelation 20:4"
+        ]
+      }
+    },
+    {
+      "entryId": "dan-7-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Dominion under the whole heaven passes to the saints of the Most High — an everlasting kingdom, all dominions serving Him. First principle: the end is not the beast's empire but the saints' inheritance under the Son of man.",
+      "density": 2.175,
+      "words": 39,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Ancient of Days sits: thousand thousands minister, and the books open. First principle: heaven's courtroom precedes the kingdom — the record is read before the verdict and dominion are given to the Son.",
+      "density": 2.1071,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The boastful horn prevails against the saints — for a time. First principle: the war against the saints is real, violent, and temporary; it is written so the suffering will not surprise us.",
+      "density": 2.0821,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-35",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The image of empires falls to chaff while the stone fills the earth. First principle: human kingdoms are one statue; God's kingdom is a growing mountain — cut without hands, unstoppable in growth.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "One like a Son of Man comes with the clouds of heaven to the Ancient of Days. Jesus claims this title and this coming; Revelation repeats the cloud-coming. First principle: messianic authority is given and then revealed in glory.",
+      "density": 1.9464,
+      "words": 39,
+      "sentences": 3,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-8-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The daily sacrifice is taken away and the sanctuary cast down by the self-exalting power. First principle: the war against God wears a religious face — the desecration of worship is prophecy's center stage.",
+      "density": 1.9357,
+      "words": 34,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-45",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The interpretation is certain: God makes known what shall come hereafter. First principle: the kingdom is divine work — without hands — and the dream's certainty anchors faith against empire's confidence.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-8-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Gabriel lifts the fallen Daniel: the vision belongs to the time of the end. First principle: apocalyptic vision is for understanding, not entertainment — the appointed time makes sense of the symbols.",
+      "density": 1.8286,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "A stone cut without hands smashes the statue and becomes a great mountain. First principle: God's kingdom is not a human empire; it arrives by divine act and fills the earth.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In the days of those kings God sets up a kingdom that shall never be destroyed. Luke: of His kingdom there shall be no end. First principle: Christ's kingdom outlasts and absorbs all earthly thrones.",
+      "density": 1.7893,
+      "words": 35,
+      "sentences": 3,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-26",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The court sits; the persecutor's dominion is consumed unto the end. First principle: every blasphemous power has a scheduled end — the same judgment that vindicates saints removes beasts.",
+      "density": 1.7536,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Son of Man receives dominion, glory, and a kingdom that all peoples should serve Him. Matthew: all authority in heaven and earth. First principle: universal worship and rule belong to the Messiah.",
+      "density": 1.7393,
+      "words": 33,
+      "sentences": 3,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The saints of the Most High possess the kingdom for ever. First principle: persecution's arc ends in possession — the little horn loses, the saints inherit.",
+      "density": 1.5071,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+      "density": 1.2607,
+      "words": 23,
+      "sentences": 3,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "judgment",
+        "original": "דִּין",
+        "translit": "din",
+        "strongs": null,
+        "gloss": "judgment, legal case",
+        "note": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "books were opened",
+        "original": "סִפְרִין פְּתִיחוּ",
+        "translit": "sifrin peticḥu",
+        "strongs": null,
+        "gloss": "books were opened",
+        "note": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the judgment came",
+        "original": "וּדְיָנָא יְהִיבַת",
+        "translit": "u-deyana yehivat",
+        "strongs": null,
+        "gloss": "and the judgment was given",
+        "note": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+      "density": 0.9714,
+      "words": 16,
+      "sentences": 2,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made right / cleansed",
+        "original": "וְנִצְדַּק",
+        "translit": "ve-nitsdaq",
+        "strongs": null,
+        "gloss": "and it shall be justified / vindicated / made righteous",
+        "note": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+      "density": 0.9071,
+      "words": 18,
+      "sentences": 3,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "2,300 evenings and mornings",
+        "original": "עֶרֶב בֹּקֶר",
+        "translit": "erev voqer",
+        "strongs": null,
+        "gloss": "evening morning (≈ days)",
+        "note": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-26",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Judgment Shall Sit, and They Shall Take Away His Dominion",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Understand, O Son of Man: at the Time of the End",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "and it shall be justified / vindicated / made righteous",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "made right / cleansed",
+        "original": "וְנִצְדַּק",
+        "translit": "ve-nitsdaq",
+        "strongs": null,
+        "gloss": "and it shall be justified / vindicated / made righteous",
+        "note": "Cadaq — same root as \"righteous.\" In sanctuary context: purged so it stands right before God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-35",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Stone That Smote the Image Became a Great Mountain",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Judgment Was Set, and the Books Were Opened",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Kingdom Given to the People of the Saints",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Magnified Himself to the Prince of the Host",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Luke 1:33 — His kingdom has no end.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "never be destroyed",
+        "original": "לְעָלְמִין לָא תִתְחַבַּל",
+        "translit": "le-ʿalmin la titchabbal",
+        "strongs": null,
+        "gloss": "forever it shall not be destroyed (Aramaic)",
+        "note": "Luke 1:33 — His kingdom has no end.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Unto 2,300 Days — Then the Sanctuary Cleansed",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-25",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Think to Change Times and Laws",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+      "density": 0.625,
+      "words": 9,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without hands",
+        "original": "דִּי לָא בִידַיִן",
+        "translit": "di la bi-dayin",
+        "strongs": null,
+        "gloss": "that not by hands (Aramaic)",
+        "note": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "forever it shall not be destroyed (Aramaic)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "never be destroyed",
+        "original": "לְעָלְמִין לָא תִתְחַבַּל",
+        "translit": "le-ʿalmin la titchabbal",
+        "strongs": null,
+        "gloss": "forever it shall not be destroyed (Aramaic)",
+        "note": "Luke 1:33 — His kingdom has no end.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Son of Man",
+        "original": "כְּבַר אֱנָשׁ",
+        "translit": "ke-var enash",
+        "strongs": null,
+        "gloss": "like a son of man (Aramaic)",
+        "note": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Greek ἐξουσία / δόξα in NT applications.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dominion",
+        "original": "שָׁלְטָן",
+        "translit": "sholtan",
+        "strongs": null,
+        "gloss": "dominion, rule (Aramaic)",
+        "note": "Greek ἐξουσία / δόξα in NT applications.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Horn Made War with the Saints",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Son of Man Coming with Clouds",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "like a son of man (Aramaic)",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Son of Man",
+        "original": "כְּבַר אֱנָשׁ",
+        "translit": "ke-var enash",
+        "strongs": null,
+        "gloss": "like a son of man (Aramaic)",
+        "note": "Jesus' favorite self-title; also Ezekiel's visionary title.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-45",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Stone Cut Out Without Hands",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Saints Shall Take the Kingdom",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "that not by hands (Aramaic)",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "without hands",
+        "original": "דִּי לָא בִידַיִן",
+        "translit": "di la bi-dayin",
+        "strongs": null,
+        "gloss": "that not by hands (Aramaic)",
+        "note": "Not human craftsmanship — divine kingdom (cf. Col 2:11).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thrones Set — Judgment Court",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Judgment Given to the Saints",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-22",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "and the judgment was given",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the judgment came",
+        "original": "וּדְיָנָא יְהִיבַת",
+        "translit": "u-deyana yehivat",
+        "strongs": null,
+        "gloss": "and the judgment was given",
+        "note": "Passive — divine initiative; the court's decision precedes possession of the kingdom.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-34",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Stone Cut Without Hands",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-8-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "evening morning (≈ days)",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "2,300 evenings and mornings",
+        "original": "עֶרֶב בֹּקֶר",
+        "translit": "erev voqer",
+        "strongs": null,
+        "gloss": "evening morning (≈ days)",
+        "note": "Hebrew idiom matching Gen 1 — a day-count. Ends at a sanctuary-cleansing event (cf. Lev 16:16-19; Heb 9:22-24).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Dominion Given Forever",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "dan-7-14",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "dominion, rule (Aramaic)",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "dominion",
+        "original": "שָׁלְטָן",
+        "translit": "sholtan",
+        "strongs": null,
+        "gloss": "dominion, rule (Aramaic)",
+        "note": "Greek ἐξουσία / δόξα in NT applications.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "judgment, legal case",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "judgment",
+        "original": "דִּין",
+        "translit": "din",
+        "strongs": null,
+        "gloss": "judgment, legal case",
+        "note": "Aramaic din — court proceeding, not mere destruction. Dan 7:22 links this judgment to the saints receiving the kingdom (cf. 1 Cor 6:2-3).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-7-9",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "books were opened",
+      "density": 0.2464,
+      "words": 3,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "books were opened",
+        "original": "סִפְרִין פְּתִיחוּ",
+        "translit": "sifrin peticḥu",
+        "strongs": null,
+        "gloss": "books were opened",
+        "note": "Same book-image in Rev 20:12 at the final judgment; also Exod 32:32-33; Ps 139:16.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "dan-2-44",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Everlasting Kingdom",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

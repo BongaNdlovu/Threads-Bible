@@ -364,9 +364,7 @@ export function HistoricalContextPage() {
 
   if (!historicalContextOpen) return null;
 
-  const baseP = pageTheme === 'dark' ? DARK_PALETTE_BASE : LIGHT_PALETTE_BASE;
-  const accent = readCssVarHex('--accent', pageTheme === 'dark' ? '#60A5FA' : '#3B82F6');
-  const P = { ...baseP, gold: accent };
+  const P = pageTheme === 'dark' ? DARK_PALETTE : LIGHT_PALETTE;
 
   const handleOpenInMap = (conn: HistoricalConnectionItem) => {
     // Determine the source book and chapter
@@ -404,6 +402,7 @@ export function HistoricalContextPage() {
 
   return (
     <div
+      data-page="historical"
       className="fixed inset-0 z-[95] flex flex-col overflow-hidden select-text"
       style={{ background: P.bg, color: P.text }}
     >
@@ -872,40 +871,35 @@ export function HistoricalContextPage() {
   );
 }
 
-const DARK_PALETTE_BASE = {
-  bg: '#0B0B0D',
-  cardBg: '#131317',
-  innerBg: '#18181E',
-  headerBg: 'rgba(16,16,19,.96)',
-  border: 'rgba(234,230,218,.12)',
-  steel: '#9CA3AF',
-  text: '#EAE6DA',
-  dim: 'rgba(166,161,150,.85)',
-  mute: '#6E695F',
-  ctrlBorder: 'rgba(255,255,255,.16)',
+/**
+ * Historical Context identity (plan CP-04): archive/earth refinement of the
+ * palette this page already had — warm rule lines and a strong date rail, with
+ * the same layout tree, controls and spacing as before.
+ */
+const DARK_PALETTE = {
+  bg: '#100E0C',
+  cardBg: '#1A1714',
+  innerBg: '#211D18',
+  headerBg: 'rgba(14,12,10,.94)',
+  border: 'rgba(237,230,218,.16)',
+  gold: '#C08A52',
+  steel: '#9C9384',
+  text: '#EDE6DA',
+  dim: 'rgba(179,168,151,.88)',
+  mute: '#7C7266',
+  ctrlBorder: 'rgba(237,230,218,.20)',
 };
 
-const LIGHT_PALETTE_BASE = {
-  bg: '#FAF9F6',
-  cardBg: '#FFFFFF',
-  innerBg: '#F5F3EC',
-  headerBg: 'rgba(255,255,255,.96)',
-  border: 'rgba(44,44,44,.12)',
-  steel: '#6B7280',
-  text: '#2C2C2C',
-  dim: '#5A564E',
-  mute: '#8A857B',
-  ctrlBorder: 'rgba(44,44,44,.22)',
+const LIGHT_PALETTE = {
+  bg: '#F2EDE3',
+  cardBg: '#FBF8F1',
+  innerBg: '#F6F1E7',
+  headerBg: 'rgba(242,237,227,.94)',
+  border: 'rgba(42,38,34,.16)',
+  gold: '#9A6A3A',
+  steel: '#6B6259',
+  text: '#2A2622',
+  dim: '#6A6259',
+  mute: '#8A8076',
+  ctrlBorder: 'rgba(42,38,34,.24)',
 };
-
-type HistPalette = (typeof DARK_PALETTE_BASE) & { gold: string };
-
-function readCssVarHex(name: string, fallback: string): string {
-  try {
-    const raw = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-    if (!raw) return fallback;
-    return /^#([0-9a-f]{6}|[0-9a-f]{8})$/i.test(raw) ? raw : fallback;
-  } catch {
-    return fallback;
-  }
-}

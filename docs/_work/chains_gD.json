@@ -1,0 +1,562 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group D)",
+  "generatedFrom": "fresh extraction of all 66 books from the working tree",
+  "counts": {
+    "chains": 6,
+    "strings": 110
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].title",
+      "text": "I will pour out My Spirit on all flesh"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].connection",
+      "text": "Same-OT: cosmic portents preceding the great and terrible day of the LORD."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].title",
+      "text": "Whosoever shall call upon the name of the Lord shall be saved"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].connection",
+      "text": "NT: Jesus uses Joel's darkened sun and moon for His second coming."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "name",
+      "text": "The Day of the LORD and the Outpouring of the Spirit"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].connection",
+      "text": "Earliest universal promise of Spirit-outpouring in the last days."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].title",
+      "text": "Signs in heaven; whosoever calls on the LORD saved"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].title",
+      "text": "The day of the LORD is darkness, not light"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].connection",
+      "text": "Same-OT: judgment upon hypocritical externalism."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].title",
+      "text": "The great day of the LORD is near and hastens"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].connection",
+      "text": "Same-OT: universal urgency of divine reckoning."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].connection",
+      "text": "Same-OT: oven of judgment for proud, healing dawn for faithful."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].title",
+      "text": "Sun of Righteousness arises with healing in His wings"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].connection",
+      "text": "NT: Spirit-outpouring explicitly identified as Joel's prophecy."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].title",
+      "text": "Peter at Pentecost: \"This is that spoken by Joel\""
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].connection",
+      "text": "NT: Paul applies Joel 2:32 to calling on Jesus."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].title",
+      "text": "Cosmic signs before the Son of Man arrives"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].title",
+      "text": "The Day of the Lord as a thief in the night"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].connection",
+      "text": "NT: unexpected advent for darkness, watchful hope for believers."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].title",
+      "text": "New heavens and new earth in which righteousness dwells"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].connection",
+      "text": "NT: elements melt with fervent heat; eternal new creation."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].title",
+      "text": "The great day of His wrath has come"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].connection",
+      "text": "NT: the kings cry to mountains; the King of kings triumphs."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].connection",
+      "text": "Earliest sanctuary: God dwells among His people by a revealed pattern."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].title",
+      "text": "Tabernacle after the heavenly pattern"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].connection",
+      "text": "Same-OT: annual purging of accumulated sin from the sanctuary."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].title",
+      "text": "Day of Atonement — sanctuary cleansed by blood"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].connection",
+      "text": "Same-OT: covenant identity marked by Creator-rest."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].title",
+      "text": "Sabbath as creation memorial"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].connection",
+      "text": "Same-OT: judgment scene before the kingdom is possessed."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].title",
+      "text": "Heavenly court; judgment given to the saints"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].title",
+      "text": "Unto 2,300 days — then the sanctuary is made right"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].connection",
+      "text": "Same-OT: time prophecy ending in a sanctuary-cleansing event."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].title",
+      "text": "Seventy weeks — Messiah, cutting off, end of sacrifice"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].connection",
+      "text": "Same-OT: messianic mission within a fixed prophetic window."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].connection",
+      "text": "NT: earthly pattern fulfilled in Christ's high-priestly ministry in heaven."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].title",
+      "text": "Christ minister of the true tabernacle"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].connection",
+      "text": "NT: end-time call to Creator-worship in view of judgment (echoes Exod 20:11)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].title",
+      "text": "Fear God — the hour of His judgment is come"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].title",
+      "text": "Remnant keep the commandments of God and the faith of Jesus"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].connection",
+      "text": "NT: God's end-time people identified by obedience + faith in Christ."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].connection",
+      "text": "NT: bodily resurrection of the just at Christ's coming; the dead rest until raised."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].title",
+      "text": "First resurrection — the rest of the dead live not again"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "name",
+      "text": "Sanctuary, Judgment, and Remnant"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].title",
+      "text": "Coats of skins — God clothes by blood"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].connection",
+      "text": "Earliest covering requires death of an animal."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].connection",
+      "text": "Same-OT: acceptable sacrifice is firstborn/blood-shaped."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].title",
+      "text": "Abel's firstlings accepted"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].connection",
+      "text": "Same-OT: sacrifice turns judgment into covenant mercy."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].title",
+      "text": "Noah's burnt offering — sweet savour"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].connection",
+      "text": "Same-OT: substitutionary animal in place of the only son on Moriah."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].title",
+      "text": "God will provide Himself the lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].connection",
+      "text": "Same-OT: blood on doorposts averts death."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].title",
+      "text": "Passover lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].connection",
+      "text": "Same-OT: the servant bears sins; the LORD lays on Him iniquity."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].title",
+      "text": "Servant as sacrificial lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].connection",
+      "text": "NT names Jesus as the provided Lamb who takes away sin."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].title",
+      "text": "Behold the Lamb of God"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].title",
+      "text": "He did not spare His own Son"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].connection",
+      "text": "NT: Father's gift echoes Isaac's near-offering."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "name",
+      "text": "Provided Lamb / Substitution"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].title",
+      "text": "Lamb without blemish, foreknown"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].connection",
+      "text": "NT: unblemished sacrifice foreordained."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].connection",
+      "text": "God's binding promise starts here with rain at the right time for sowing and for harvesting the grain."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].title",
+      "text": "First rain and latter rain promised"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God promises his presence and new life, pictured as rain."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].title",
+      "text": "He shall come as the rain to the earth"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].connection",
+      "text": "Same-OT: rain falling on the ground is a picture of the Spirit poured out."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].title",
+      "text": "Former rain and latter rain in the first month"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].connection",
+      "text": "Same-OT: the promise of the Holy Spirit on young and old, servants and handmaids."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].title",
+      "text": "Pour out My Spirit on all flesh"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].connection",
+      "text": "Same-OT: God commands his people to pray for the last rain that ripens the crop."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].title",
+      "text": "Ask rain in the time of the latter rain"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].connection",
+      "text": "NT: Peter cites Joel 2. The early rain makes the crop sprout. It gives the early church power."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].title",
+      "text": "Pentecost: The Early Rain of the Spirit"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].connection",
+      "text": "NT: James uses this picture from farming to call for patient waiting until the Lord comes."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].connection",
+      "text": "NT: the final outpouring of the Holy Spirit (latter rain) illuminating the earth before the harvest."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "name",
+      "text": "The Early and Latter Rain of the Spirit"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].title",
+      "text": "Be patient until the early and latter rain"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].title",
+      "text": "Earth lightened with His glory (Loud Cry)"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].connection",
+      "text": "Earliest type: to look at the sign of judgment brought healing."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].title",
+      "text": "Bronze serpent set upon a pole"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].connection",
+      "text": "Same-OT: the sign became an idol, and the bronze itself had no power to save anyone."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].title",
+      "text": "Nehushtan broken in pieces"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].connection",
+      "text": "NT: Jesus used the serpent on the pole to point to His own crucifixion, and to the eternal life it brings."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].title",
+      "text": "Even so must the Son of Man be lifted up"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].connection",
+      "text": "NT: lifting up on the cross reveals His divine identity."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].title",
+      "text": "When you lift up the Son of Man"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].title",
+      "text": "Lifted up from the earth to draw all"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].connection",
+      "text": "NT: crucifixion draws all peoples to Himself."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].connection",
+      "text": "NT: Christ became sin for us, so that we might become righteous in Him."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "name",
+      "text": "The Bronze Serpent and the Cross"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].title",
+      "text": "Made sin for us"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "book": "heb",
+  "bookName": "Hebrews",
+  "drafts": [
+    {
+      "entryId": "heb-8-8",
+      "field": "principle",
+      "after": "“Behold, the days come, saith the Lord, when I will make a new covenant with the house of Israel.” Textual proof: the writer gives that promise its own paragraph when he quotes Jeremiah 31:31-34 at length in Hebrews 8:8-12 and 10:16-17. Jesus names the new covenant as His own blood (Luke 22:20; 1 Cor 11:25).",
+      "reason": "Two sentences became three so each carries one idea: the Jeremiah quotation, the long quotation in Hebrews, and the words of Jesus. The KJV clause is now in quotation marks with not one word changed. \"Textual proof:\" became plain subject-verb prose and the semicolon became a full stop. Citations Jeremiah 31:31-34, Hebrews 8:8-12, Hebrews 10:16-17, Luke 22:20 and 1 Cor 11:25 are all carried. REPAIR NOTE: this string’s structural label was restored after the first pass, and in heb-4-4 and 1pe-2-6 a dropped citation token was restored with it; the reason text above describes the pre-repair draft. See docs/CP-03_LABEL_REPAIR.md."
+    },
+    {
+      "entryId": "heb-8-5",
+      "field": "principle",
+      "after": "“Who serve unto the example and shadow of heavenly things, as Moses was admonished.” God told Moses to see that he make all things after the pattern shown him. Textual proof: the writer quotes Exodus 25:40, then argues in Hebrews 9:11-12, 23-24 that Christ serves in the greater, more perfect tabernacle, not made with hands.",
+      "reason": "The unquoted KJV clause is now quoted with every word unchanged, and the elision \"…\" became a full stop so the two ideas no longer run together. \"Textual proof:\" was replaced by the writer-and-argument subjects, and the em-dash clause became its own sentence naming Christ as the actor. Citations Exodus 25:40 and Hebrews 9:11-12, 23-24 are carried. REPAIR NOTE: this string’s structural label was restored after the first pass, and in heb-4-4 and 1pe-2-6 a dropped citation token was restored with it; the reason text above describes the pre-repair draft. See docs/CP-03_LABEL_REPAIR.md."
+    },
+    {
+      "entryId": "heb-4-4",
+      "field": "principle",
+      "after": "“He spake in a certain place of the seventh day on this wise: And God did rest the seventh day from all his works.” Textual proof: Hebrews 4:4 quotes Genesis 2:2. Then the writer draws the conclusion in 4:9: a Sabbath rest (σαββατισμός) still remains for the people of God.",
+      "reason": "The 24-word sentence with its internal colon became a quotation plus two short sentences, so no reader has to hold two quotations in one breath. The bare \"4:9\" is now the full citation Hebrews 4:9, the Greek σαββατισμός is retyped byte-identical, and \"there remains\" became \"still remains\". REPAIR NOTE: this string’s structural label was restored after the first pass, and in heb-4-4 and 1pe-2-6 a dropped citation token was restored with it; the reason text above describes the pre-repair draft. See docs/CP-03_LABEL_REPAIR.md."
+    },
+    {
+      "entryId": "heb-4-4",
+      "field": "terms[0].note",
+      "after": "This word appears only here in the NT. It names the rest still waiting for the people of God (Heb 4:9), the rest God himself took at creation (4:4).",
+      "reason": "\"Unique NT word\" and the noun stack \"the people of God's remaining rest\" were decoded into a named actor and two full sentences. Both citations, Heb 4:9 and the bare 4:4, are carried byte-identical. The Greek term itself is untouched. ABBREV FIXED: the draft had expanded the app abbreviation, which invariant I1 forbids; the abbreviation is restored verbatim and nothing else changed."
+    },
+    {
+      "entryId": "heb-10-30",
+      "field": "principle",
+      "after": "“The Lord shall judge his people.” The Song of Moses warned covenant-breakers with those words. First principle: the same God who avenges His people judges those who trample His Son. Fear and comfort are two sides of one oath.",
+      "reason": "The unquoted Scripture is now quoted with no word changed, and the 26-word sentence that held two ideas was split. \"apostates\" became the concrete \"covenant-breakers\" so the reader is told who is warned, and \"First principle:\" prose became three plain sentences. REPAIR NOTE: this string’s structural label was restored after the first pass, and in heb-4-4 and 1pe-2-6 a dropped citation token was restored with it; the reason text above describes the pre-repair draft. See docs/CP-03_LABEL_REPAIR.md."
+    },
+    {
+      "entryId": "heb-1-3",
+      "field": "principle",
+      "after": "He is the brightness of God's glory and the express image of His person. He upholds all things, and He purged our sins by Himself. Then He sat down on the right hand of the Majesty on high. First principle: priest, sacrifice and throne meet in one Person. His cleansing work is finished, and His reign has begun.",
+      "reason": "One 25-word sentence carrying four claims became five sentences, each with a named subject and one idea. \"purification finished, session begun\" became everyday words without weakening the claim. The KJV terms \"brightness\", \"express image\", \"purged\" and \"the right hand of the Majesty on high\" are carried as they stand."
+    },
+    {
+      "entryId": "heb-9-23",
+      "field": "principle",
+      "after": "“It was necessary that the patterns of things in the heavens should be purified with these; but the heavenly things themselves with better sacrifices.” Textual proof: the writer quotes the Leviticus 16 blood-rite as the pattern in view. Christ offered up Himself once for all in the true sanctuary (Heb 9:11-12, 24-26).",
+      "reason": "The unquoted KJV sentence is now quoted word for word, and the app's own prose follows in two short sentences. \"the Leviticus 16 blood-rite as pattern\" became a clause with a subject and verb, and \"Christ's once-for-all offering\" became \"Christ offered up Himself once for all\" so the actor and the act are named. The Greek κρείττοσιν θυσίαις and both citations are untouched."
+    },
+    {
+      "entryId": "heb-12-2",
+      "field": "principle",
+      "after": "For the joy set before Him, Jesus endured the cross and despised the shame of it. Then He sat down on the throne, at the place of highest honour. First principle: Psalm 22's suffering and Psalm 110's session are one arc. So endure by looking at the end from the beginning.",
+      "reason": "The 22-word sentence that joined three verbs with \"and\" was split so the endurance and the enthronement read as two steps, and \"sat down at the throne\" now reads \"sat down on the throne\" as the psalm language has it. \"the throne\" is glossed as \"the place of highest honour\", and the abstract imperative at the end became a sentence with \"you\" understood as the actor. Both psalms' claims are carried unchanged."
+    },
+    {
+      "entryId": "heb-1-5",
+      "field": "principle",
+      "after": "The writer quotes Psalm 2 and Nathan's word to David to rank the Son above angels. First principle: “I will be to him a Father” is a decree and a dynasty. God says that to His Son, and that rank is higher than any angel's office.",
+      "reason": "The KJV clause is now quoted with every word unchanged, and the noun stack \"sonship by decree and dynasty\" became a plain statement, with God named as the one who speaks the decree. \"any angelic office\" became \"any angel's office\"."
+    },
+    {
+      "entryId": "heb-13-12",
+      "field": "principle",
+      "after": "The sin offering was burned outside the camp, and the blood that sanctifies was shed outside Jerusalem. First principle: the cross stands where the sin offering was carried, outside the gate. So let us go out to Him, outside the camp, and share His shame.",
+      "reason": "\"The atonement pattern lands on Golgotha\" named no actor; the rewrite names the sin offering, the blood and the cross. One 23-word sentence became three, and \"sanctifying blood\" became \"the blood that sanctifies\" so the reader meets a verb instead of a stacked adjective."
+    },
+    {
+      "entryId": "heb-7-17",
+      "field": "principle",
+      "after": "The writer repeats the oath of Psalm 110:4 to nail down the eternal priesthood. First principle: “Thou art a priest for ever after the order of Melchisedec.” The oath itself, not the law, is what makes the priesthood permanent.",
+      "reason": "The unquoted KJV clause is now quoted with every word unchanged, including the spelling Melchisedec. \"the law's Aaronic line was never the end of the story\" became a direct statement of what makes the priesthood permanent, so the reader is told the reason instead of a metaphor."
+    },
+    {
+      "entryId": "heb-1-1",
+      "field": "principle",
+      "after": "The God who spoke in fragments to the fathers has spoken finally in His Son. First principle: the prophets brought real revelation, but they brought it in portions. The Son is the whole, and every thread comes together in His speech.",
+      "reason": "The balanced clause \"the prophets are real revelation in portions; the Son is the whole — every thread converges on His speech\" was split into three sentences and the em-dash clause became a statement with a verb. The claim that the Son completes what the prophets began is carried unchanged."
+    },
+    {
+      "entryId": "heb-2-12",
+      "field": "principle",
+      "after": "The crucified Sufferer of Psalm 22 ends in a song among His brothers: “I will declare thy name unto my brethren.” First principle: the One who suffered becomes the worship leader of His brothers. The cross starts the church's praise.",
+      "reason": "The KJV clause is now quoted with every word unchanged. \"ends in congregation-song\" became \"ends in a song among His brothers\", and the abstract \"births\" became the concrete \"starts\". The two claims are carried in three sentences."
+    },
+    {
+      "entryId": "heb-2-6",
+      "field": "principle",
+      "after": "The writer applies Psalm 8 to Jesus. He was made a little lower than the angels so that He could suffer, and now He is crowned. First principle: the son-of-man question is answered in the One now crowned with glory, with all things under His feet.",
+      "reason": "The 20-word opening that packed quotation, explanation and application into one em-dash sentence became three sentences with named actors. \"is expounded of Jesus\" became \"applies Psalm 8 to Jesus\", and \"finds its answer in\" became \"is answered in\"."
+    },
+    {
+      "entryId": "heb-11-12",
+      "field": "principle",
+      "after": "From one man as good as dead came descendants as many as the stars of the sky. First principle: the promises of Genesis 15 and Genesis 22 outgrew the man who heard them. Life from the dead is where the seed line starts.",
+      "reason": "\"sprang the star-and-sand multitude\" was a compressed image the reader had to unpack, so the descendants are now named and the second half of the image follows from the KJV itself. \"the seed's origin story\" became \"where the seed line starts\". Genesis 22 is spelled out where the bare \"22\" stood."
+    },
+    {
+      "entryId": "heb-1-2",
+      "field": "principle",
+      "after": "“God hath spoken unto us by his Son, by whom also he made the worlds.” Textual proof: John 1:3 says all things were made by Him, and Col 1:16 says by Him all things were created. So God made the worlds through His Son, and He speaks to us through that same Son.",
+      "reason": "The unquoted KJV sentence is now quoted with every word unchanged, and the fragment \"Son as agent of creation and final revealer\" became a full sentence naming God as the actor and the Son as His agent. The two supporting citations are carried with their wording attached to the right verses."
+    },
+    {
+      "entryId": "heb-5-6",
+      "field": "principle",
+      "after": "Psalm 110:4 gives the Son a priesthood older than Aaron's. First principle: Christ is king on the throne and priest at the altar. He holds both by God's oath, not by family line.",
+      "reason": "\"royal priesthood ... is Christ's by oath, not genealogy\" rested on two abstractions; the rewrite names Christ as the actor and says plainly what He holds and how. \"genealogy\" became \"family line\"."
+    },
+    {
+      "entryId": "heb-1-10",
+      "field": "principle",
+      "after": "The writer takes Psalm 102, a prayer to the unchanging Creator, and addresses it to the Son. First principle: the One who laid earth's foundations is the same yesterday, today, and for ever. The psalm itself addresses Him as Lord, and it says that He remains.",
+      "reason": "The 19-word sentence built on an em-dash became a sentence with a subject and two verbs, and \"creation names Him Lord\" became \"The psalm itself addresses Him as Lord\" so the reader knows who is speaking. A second clause names what the psalm says about Him, since \"unchanging\" was otherwise left to carry the whole idea. The psalm-and-Son identification is carried unchanged."
+    },
+    {
+      "entryId": "heb-12-26",
+      "field": "principle",
+      "after": "Haggai's shaking grows larger: the final quake removes what can be shaken. First principle: created things tremble so that the kingdom which cannot be shaken may stand. Haggai's promise reaches past Sinai to the end.",
+      "reason": "Only the two decodings changed: \"is escalated\" became \"grows larger\", and \"shakeable\" became \"what can be shaken\" and \"which cannot be shaken\". Two sentences and both claims are carried as they stand."
+    },
+    {
+      "entryId": "heb-3-7",
+      "field": "principle",
+      "after": "Psalm 95 is quoted as the Holy Ghost's warning for today: “Harden not your hearts.” First principle: the gospel always carries a Today with it. Israel's failure at Kadesh is the standing warning for every generation.",
+      "reason": "The KJV clause is now quoted with every word unchanged, and \"has a Today attached\" became \"always carries a Today with it\". The Kadesh reference, which the reader was left to supply, is now named."
+    },
+    {
+      "entryId": "heb-10-5",
+      "field": "principle",
+      "after": "The writer puts Psalm 40 in the mouth of the incarnate Son: “a body hast thou prepared me.” First principle: the Incarnation answers the insufficiency of sacrifice. God prepared a body for total obedience.",
+      "reason": "The quoted words are the KJV of Hebrews 10:5 itself, carried byte-identical; only the quotation marks are new. \"sacrifice's insufficiency\" became \"the insufficiency of sacrifice\" so the reader meets the noun before the abstraction."
+    },
+    {
+      "entryId": "heb-13-5",
+      "field": "principle",
+      "after": "Contentment rests on God's promise to stay with His people, given through Moses and Joshua: “I will never leave thee, nor forsake thee.” First principle: the cure for covetousness is a promise of company. He is with us, so He is enough.",
+      "reason": "\"presence-promise from Moses and Joshua\" was a compound label; the promise is now quoted word for word and credited to the two men who spoke it. \"antidote\" became \"cure\"."
+    },
+    {
+      "entryId": "heb-11-18",
+      "field": "principle",
+      "after": "The command to offer Isaac seemed to cancel the promise of a seed. Yet Abraham counted God faithful. First principle: faith holds both words together when they appear to clash. God keeps His word even through the knife.",
+      "reason": "\"The offering contradicted the covenant word\" and \"faith holds both\" asked the reader to supply the two things held; the rewrite names the command and the promise. \"when sacrifice seems to erase the promise\" became the plainer \"when they appear to clash\"."
+    },
+    {
+      "entryId": "heb-2-13",
+      "field": "principle",
+      "after": "Isaiah's trusting remnant becomes the Son's own confession: “I will put my trust in him.” First principle: the Messiah lived by faith among His own. The children God gave Him are set apart with Him.",
+      "reason": "The KJV clause is now quoted with every word unchanged. \"sanctified companionship with the children of promise\" was a noun stack; it became a sentence that names the children God gave Him and says what is true of them."
+    },
+    {
+      "entryId": "heb-12-20",
+      "field": "principle",
+      "after": "The writer recalls Sinai's deadly boundary before he opens Zion's invitation. First principle: the terror of the old mountain shows how great the grace of the new mountain is. Both mountains are real, so come to God His way.",
+      "reason": "The clipped \"Sinai's boundary of death is recalled before Zion's open invitation\" became a sentence with a subject and verb, \"measures\" became \"shows how great ... is\", and the semicolon in \"both are real; approach God His way\" became a comma and a \"so\"."
+    },
+    {
+      "entryId": "heb-13-6",
+      "field": "principle",
+      "after": "The psalmist turns Psalm 118 into bold speech against the fear of man: “The Lord is my helper, and I will not fear.” First principle: confidence against man rests on the Lord as helper. The psalm that points to the Stone frees us from dread.",
+      "reason": "The clipped opening became a sentence with the psalmist as actor, and \"the Stone-casting psalm\" became \"The psalm that points to the Stone\". The quotation is carried byte-identical and the note now sits outside the quotation marks, in the same string. QUOTE-REVIEW: the quoted span mixes Hebrews 13:6 (“The Lord is my helper”) with Psalm 118:6 (“I will not fear”), while canon Psalm 118:6 reads “The LORD is on my side; I will not fear”. The words are carried exactly as they stand and nothing was restored."
+    },
+    {
+      "entryId": "heb-6-14",
+      "field": "principle",
+      "after": "God doubled His oath to Abraham, and that makes His promise unchangeable. First principle: God swore by Himself because no one greater existed. The multiplied seed rests on that unchangeable oath.",
+      "reason": "The passive \"The doubled oath to Abraham makes God's promise immutable\" now names God as the one who swore and doubled the oath, and \"none was greater\" became \"no one greater existed\"."
+    },
+    {
+      "entryId": "heb-11-11",
+      "field": "principle",
+      "after": "Sarah was barren, yet she judged Him faithful who had promised. First principle: faith first trusts the One who made the promise, then laughs at what looks impossible. She received strength because she believed the word.",
+      "reason": "The abstract \"faith laughs at impossibility after it judges the Promiser\" became two plain steps in the right order, and the subject \"faith\" became Sarah, so the reader sees who trusted. The KJV phrase \"judged him faithful who had promised\" is carried, and the name is spelled Sarah."
+    },
+    {
+      "entryId": "heb-9-20",
+      "field": "principle",
+      "after": "The writer quotes the sprinkling at Sinai in Exodus 24 to explain a better blood. First principle: “This is the blood of the testament.” Every covenant runs on blood, the old on animals and the new on the Testator Himself.",
+      "reason": "The KJV clause is now quoted with every word unchanged. The third sentence names the two covenants it compares instead of leaving \"the old\" and \"the new\" to stand alone, and \"Testator\" is kept because it is the KJV word the letter argues from."
+    },
+    {
+      "entryId": "heb-11-5",
+      "field": "principle",
+      "after": "“Enoch walked with God, and he was not; for God took him.” First principle: before the law was given, one man pleased God and did not see death. He is the first picture of the resurrection hope.",
+      "reason": "The unquoted rendering of Genesis 5:24 is now quoted, and it is carried exactly as it stood. \"the firstfruits of translation hope\" became a sentence naming the man and the hope, so the reader no longer has to decode \"firstfruits\" and \"translation\". QUOTE-REVIEW: the quoted span does not match the served KJV of Genesis 5:24 — the source reads “Enoch walked with God and was not, for God took him” where canon reads “And Enoch walked with God: and he was not; for God took him”, and Heb 11:5 itself says “was translated that he should not see death”. The wording is carried exactly as it stands and nothing was restored."
+    },
+    {
+      "entryId": "heb-11-17",
+      "field": "principle",
+      "after": "At Moriah Abraham offered his only begotten son, and he still believed the promises. First principle: Abraham reasoned that God could raise the dead. Promise and sacrifice met on one altar.",
+      "reason": "\"The trial of Moriah: the only begotten offered, the promises believed\" was a label without a verb; it is now a sentence with Abraham as the actor. The KJV term \"only begotten\" is kept."
+    },
+    {
+      "entryId": "heb-8-12",
+      "field": "principle",
+      "after": "The new covenant reaches its climax when God chooses to forget. First principle: “their sins and their iniquities will I remember no more.” Under the new covenant, forgiveness is not a lapse of memory. It is mercy's deliberate decision.",
+      "reason": "The KJV clause is now quoted with every word unchanged. \"divine forgetting\" became \"God chooses to forget\", and \"not amnesia's accident but mercy's decision\" became the last two sentences, which say the same thing in everyday words."
+    },
+    {
+      "entryId": "heb-10-37",
+      "field": "principle",
+      "after": "“Yet a little while, and he that shall come will come, and will not tarry.” Textual proof: the writer is quoting Habakkuk 2:3-4. He puts the coming One on the same just-shall-live-by-faith chain as Rom 1:17 and Gal 3:11. So wait patiently for the One who is coming.",
+      "reason": "The unquoted KJV sentence is now quoted with every word unchanged, and the trailing fragment \"Patient waiting on the coming One\" became a sentence. The abbreviations Rom 1:17 and Gal 3:11 are carried exactly as abbreviations."
+    },
+    {
+      "entryId": "heb-10-37",
+      "field": "terms[0].note",
+      "after": "Hab 2:3 LXX — the vision is set for the appointed end and will not lie, so wait for it.",
+      "reason": "The 16-word telegraphic note became one plain sentence with a \"so\" that shows why waiting follows. The abbreviation Hab 2:3 and the label LXX are carried byte-identical, and the Greek ἥξει sits outside this field, untouched."
+    },
+    {
+      "entryId": "heb-7-1",
+      "field": "principle",
+      "after": "In Genesis 14 the king of Salem blessed Abraham as he returned from the war against the kings. First principle: the type appears suddenly, with no lineage and no recorded ending. That is how he pictures an endless priesthood.",
+      "reason": "\"Genesis 14's king of Salem blessed Abraham returning from war\" was one compressed phrase; it is now a sentence with the king as subject and the return spelled out. \"the type\" is the frozen glossary rendering for the earlier picture and is left in place, glossed by the clause that follows."
+    },
+    {
+      "entryId": "heb-1-8",
+      "field": "principle",
+      "after": "The Father addresses the Son as God and gives Him a sceptre of righteousness. First principle: Psalm 45 is a wedding hymn. God uses it as His own testimony to the Son's deity and to His just reign.",
+      "reason": "The 17-word opening that stacked address, throne and sceptre became two short sentences, and the abstract \"is God's own testimony\" now names God as the one who speaks. The KJV term \"sceptre\" is carried."
+    },
+    {
+      "entryId": "heb-10-38",
+      "field": "principle",
+      "after": "“Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him.” The letter takes Habakkuk's line as its watchword. First principle: life comes by believing endurance. The vision tarries, but the just keep trusting.",
+      "reason": "The unquoted KJV sentence is now quoted with every word unchanged. \"life is by believing endurance\" became \"life comes by believing endurance\" so the sentence has a verb."
+    },
+    {
+      "entryId": "heb-10-16",
+      "field": "principle",
+      "after": "The writer quotes Jeremiah 31 as the covenant's present reality: “I will put my laws into their hearts.” First principle: the law moves from stone to heart. Obedience becomes the Spirit's work inside us.",
+      "reason": "The KJV clause is now quoted with every word unchanged. Both sentences already carried one idea each, so only the quotation marks and the punctuation joining the quotation to the app's prose changed."
+    },
+    {
+      "entryId": "heb-3-11",
+      "field": "principle",
+      "after": "God's oath kept that whole generation out of the rest in Canaan. First principle: unbelief forfeits the promised rest. The oath is as real as the promise it cancelled.",
+      "reason": "\"barred that generation from Canaan-rest\" became \"kept that whole generation out of the rest in Canaan\" so the reader does not have to decode a compound noun. \"vetoed\" was replaced by the everyday \"cancelled\"."
+    },
+    {
+      "entryId": "heb-12-29",
+      "field": "principle",
+      "after": "The fire that burned on Sinai and over Egypt is our God. First principle: the fire that consumes the sacrifice burned, and it also burns against the refusal. So worship God acceptably, with reverence and godly fear.",
+      "reason": "\"the fire that consumes sacrifice consumes refusal\" left both objects abstract and gave the sentence no tense; the rewrite supplies \"the sacrifice\", \"the refusal\" and a verb. \"worship acceptably\" now begins with \"So\" so the conclusion reads as a conclusion."
+    },
+    {
+      "entryId": "heb-12-5",
+      "field": "principle",
+      "after": "The writer quotes Proverbs 3 to reframe suffering as sonship. First principle: chastening proves God's love, and it is not evidence that God has rejected you. Every legitimate child receives the scourging.",
+      "reason": "The abstract \"chastening is proof of love\" became \"chastening proves God's love\", \"evidence of rejection\" now says who is doing the rejecting, and \"scourging marks every legitimate child\" became a sentence with the child as subject. Both claims are carried, as is the KJV word \"chastening\"."
+    },
+    {
+      "entryId": "heb-1-13",
+      "field": "principle",
+      "after": "No angel ever heard Psalm 110's invitation. First principle: the enthroned Man waits in majesty, and He will not be moved. The footstool promise belongs to the Son alone.",
+      "reason": "The em-dash clause became a comma clause joined by \"and\", so the reader no longer meets the second claim as an afterthought, and \"He will not be moved\" states plainly what \"waits in majesty\" only implied. No KJV word was touched: \"the enthroned Man\", \"the footstool promise\" and \"the Son\" are carried."
+    },
+    {
+      "entryId": "heb-11-7",
+      "field": "principle",
+      "after": "Noah acted on things not seen as yet, and he condemned the world. First principle: faith builds before the rain falls, and the warning comes before the flood. Obedience to that warning becomes righteousness that is inherited.",
+      "reason": "The clipped \"faith builds before the rain\" now has a verb in \"before the rain falls\", and a second clause says what the warning came before. \"righteousness inherited\" became \"righteousness that is inherited\" so the reader meets a verb. The KJV phrase \"things not seen as yet\" is carried."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "heb-8-8",
+      "field": "title",
+      "reason": "3 words, one sentence, 3: the KJV label \"A New Covenant\" is the entry's own verse phrase and is carried byte-identical; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "heb-8-8",
+      "field": "terms[0].gloss",
+      "reason": "2 words, one phrase: the glossary rendering for the Hebrew בְּרִית חֲדָשָׁה is already \"new covenant\", which matches the frozen row; gate PASS, and any rewording would invent a rival rendering."
+    },
+    {
+      "entryId": "heb-8-8",
+      "field": "terms[0].note",
+      "reason": "13 words, one sentence, 13: \"internalized law, forgiveness, knowledge of God\" is a tight list of three nouns, but each is an everyday word and the clause has a subject (\"Jer 31:31\") and a verb (\"inaugurated\"); citation Jer 31:31 and the Hebrew original are intact; gate PASS."
+    },
+    {
+      "entryId": "heb-8-5",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: the title is the verse's own phrase \"Pattern and Shadow of Heavenly Things\"; gate PASS, already plain."
+    },
+    {
+      "entryId": "heb-8-5",
+      "field": "terms[0].gloss",
+      "reason": "4 words, one phrase: \"shadow / pattern, model\" is a dictionary-style gloss for the lemma and reads as plain words; changing it would alter how the term is defined, not how clearly it is said; gate PASS."
+    },
+    {
+      "entryId": "heb-8-5",
+      "field": "terms[0].note",
+      "reason": "13 words, one sentence, 13: abbreviation Exod 25:40 is carried byte-identical as an abbreviation; \"earthly system as copy of heavenly reality fulfilled in Christ\" is compressed but every word is everyday and the meaning is single; gate PASS."
+    },
+    {
+      "entryId": "heb-4-4",
+      "field": "title",
+      "reason": "5 words, one sentence, 5: \"God Rested the Seventh Day\" is the KJV clause the entry hangs on; gate PASS, nothing to decode."
+    },
+    {
+      "entryId": "heb-4-4",
+      "field": "terms[0].gloss",
+      "reason": "5 words, one phrase: \"a sabbath-keeping / sabbath rest\" defines σαββατισμός in everyday words, so the reader meets the idea before the label; the Greek original and transliteration are outside this field and untouched; gate PASS."
+    },
+    {
+      "entryId": "heb-10-30",
+      "field": "title",
+      "reason": "4 words, one sentence, 4: \"Vengeance Belongeth unto Me\" is the KJV clause itself and must stay; gate PASS."
+    },
+    {
+      "entryId": "heb-1-3",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"The Express Image of His Person\" is the KJV phrase the entry rests on; gate PASS."
+    },
+    {
+      "entryId": "heb-9-23",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"Purged with Blood — Heavenly Things\" is the verse's own wording; gate PASS, the em-dash joins a label and its object, not two ideas."
+    },
+    {
+      "entryId": "heb-9-23",
+      "field": "terms[0].gloss",
+      "reason": "2 words, one phrase: \"better sacrifices\" is the exact KJV wording of Heb 9:23 and the frozen row's rendering; changing it would break invariant I1's term handling; gate PASS."
+    },
+    {
+      "entryId": "heb-9-23",
+      "field": "terms[0].note",
+      "reason": "13 words, one sentence, 13: \"Singular substance in plural excellence\" is a wordplay on singular/plural, and the second half names Christ and the Levitical system plainly; the Greek κρείττοσιν θυσίαις is outside this field; gate PASS."
+    },
+    {
+      "entryId": "heb-12-2",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"The Author and Finisher of Our Faith\" is the KJV wording of Heb 12:2; gate PASS."
+    },
+    {
+      "entryId": "heb-1-5",
+      "field": "title",
+      "reason": "11 words, one sentence, 11: \"Unto Which of the Angels Said He, Thou Art My Son?\" is the KJV question itself; gate PASS."
+    },
+    {
+      "entryId": "heb-13-12",
+      "field": "title",
+      "reason": "5 words, one sentence, 5: \"Jesus Suffered Without the Gate\" states the actor and the act; gate PASS."
+    },
+    {
+      "entryId": "heb-7-17",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"Thou Art a Priest for Ever\" is the KJV clause of Psalm 110:4 quoted at Heb 7:17; gate PASS."
+    },
+    {
+      "entryId": "heb-1-1",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"God Who Spake at Sundry Times by the Prophets\" is the KJV clause of Heb 1:1; gate PASS."
+    },
+    {
+      "entryId": "heb-2-12",
+      "field": "title",
+      "reason": "10 words, one sentence, 10: \"In the Midst of the Church Will I Sing Praise\" is the KJV wording of Heb 2:12; gate PASS."
+    },
+    {
+      "entryId": "heb-2-6",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"What Is Man, That Thou Art Mindful of Him?\" is the KJV question of Psalm 8:4 / Heb 2:6; gate PASS."
+    },
+    {
+      "entryId": "heb-11-12",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"As the Stars of the Sky in Multitude\" is the KJV phrase from Heb 11:12; gate PASS."
+    },
+    {
+      "entryId": "heb-1-2",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"By Whom Also He Made the Worlds\" is the KJV clause of Heb 1:2; gate PASS."
+    },
+    {
+      "entryId": "heb-1-2",
+      "field": "terms[0].gloss",
+      "reason": "3 words, one phrase: \"ages / worlds\" gives both senses of the Greek αἰῶνας in everyday words; the Greek original and transliteration sit outside this field; gate PASS."
+    },
+    {
+      "entryId": "heb-1-2",
+      "field": "terms[0].note",
+      "reason": "10 words, one sentence, 10: abbreviation Heb 11:3 is carried byte-identical and the clause \"worlds framed by the word of God\" names an actor and an act; gate PASS."
+    },
+    {
+      "entryId": "heb-5-6",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"A Priest for Ever After the Order of Melchisedec\" is the KJV clause, spelling included; gate PASS."
+    },
+    {
+      "entryId": "heb-1-6",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"Let All the Angels of God Worship Him\" is the KJV clause of Heb 1:6 / Deut 32:43; gate PASS."
+    },
+    {
+      "entryId": "heb-1-10",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"Thou, Lord, in the Beginning Hast Laid the Foundation\" is the KJV clause of Heb 1:10; gate PASS."
+    },
+    {
+      "entryId": "heb-12-26",
+      "field": "title",
+      "reason": "12 words, one sentence, 12: \"Yet Once More I Shake Not the Earth Only, but Also Heaven\" is the KJV clause of Heb 12:26; gate PASS."
+    },
+    {
+      "entryId": "heb-3-7",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"To Day If Ye Will Hear His Voice\" is the KJV wording of Psalm 95:7 quoted at Heb 3:7; gate PASS."
+    },
+    {
+      "entryId": "heb-10-5",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"A Body Hast Thou Prepared Me\" is the KJV clause of Heb 10:5; gate PASS."
+    },
+    {
+      "entryId": "heb-13-5",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"I Will Never Leave Thee, nor Forsake Thee\" is the KJV promise itself; gate PASS."
+    },
+    {
+      "entryId": "heb-11-18",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"In Isaac Shall Thy Seed Be Called\" is the KJV clause of Gen 21:12 quoted at Heb 11:18; gate PASS."
+    },
+    {
+      "entryId": "heb-2-13",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"I Will Put My Trust in Him\" is the KJV clause of Heb 2:13; gate PASS."
+    },
+    {
+      "entryId": "heb-5-5",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"Christ Glorified Not Himself to Be Made High Priest\" is the KJV wording of Heb 5:5; gate PASS."
+    },
+    {
+      "entryId": "heb-12-20",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"If So Much as a Beast Touch the Mountain\" is the KJV clause of Heb 12:20; gate PASS."
+    },
+    {
+      "entryId": "heb-13-6",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"The Lord Is My Helper; I Will Not Fear\" is the quoted wording of Heb 13:6; the semicolon holds two parallel clauses of one quotation, and gate passes; left byte-identical because I1 governs it."
+    },
+    {
+      "entryId": "heb-6-14",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"Surely Blessing I Will Bless Thee\" is the KJV clause of Heb 6:14 / Gen 22:17; gate PASS."
+    },
+    {
+      "entryId": "heb-11-11",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"Sara Received Strength to Conceive Seed\" is the KJV wording of Heb 11:11; gate PASS."
+    },
+    {
+      "entryId": "heb-4-7",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"He Limiteth a Certain Day, Saying in David\" is the KJV wording of Heb 4:7; gate PASS."
+    },
+    {
+      "entryId": "heb-9-20",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"This Is the Blood of the Testament\" is the KJV clause of Heb 9:20; gate PASS."
+    },
+    {
+      "entryId": "heb-11-5",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"Enoch Was Translated That He Should Not See Death\" is the KJV wording of Heb 11:5; gate PASS."
+    },
+    {
+      "entryId": "heb-11-17",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"He That Had Received the Promises Offered Up Isaac\" is the KJV wording of Heb 11:17; gate PASS."
+    },
+    {
+      "entryId": "heb-8-12",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"Their Sins and Iniquities Will I Remember No More\" is the KJV clause of Heb 8:12; gate PASS."
+    },
+    {
+      "entryId": "heb-10-37",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"He That Shall Come Will Come\" is the KJV clause of Heb 10:37; gate PASS."
+    },
+    {
+      "entryId": "heb-10-37",
+      "field": "terms[0].gloss",
+      "reason": "3 words, one phrase: \"he will come\" is the plain rendering of the Greek ἥξει, which is not repeated here; gate PASS."
+    },
+    {
+      "entryId": "heb-7-1",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"Melchisedec, Priest of the Most High God\" is the KJV wording of Heb 7:1, spelling included; gate PASS."
+    },
+    {
+      "entryId": "heb-1-8",
+      "field": "title",
+      "reason": "9 words, one sentence, 9: \"Thy Throne, O God, Is for Ever and Ever\" is the KJV clause of Psalm 45:6 / Heb 1:8; gate PASS."
+    },
+    {
+      "entryId": "heb-10-38",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"The Just Shall Live by Faith\" is the KJV clause of Heb 10:38 / Hab 2:4; gate PASS."
+    },
+    {
+      "entryId": "heb-10-16",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"I Will Put My Laws into Their Hearts\" is the KJV clause of Heb 10:16 / Jer 31:33; gate PASS."
+    },
+    {
+      "entryId": "heb-3-11",
+      "field": "title",
+      "reason": "7 words, one sentence, 7: \"They Shall Not Enter into My Rest\" is the KJV clause of Psalm 95:11 quoted at Heb 3:11; gate PASS."
+    },
+    {
+      "entryId": "heb-12-29",
+      "field": "title",
+      "reason": "6 words, one sentence, 6: \"Our God Is a Consuming Fire\" is the KJV clause of Heb 12:29 / Deut 4:24; gate PASS."
+    },
+    {
+      "entryId": "heb-12-5",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"Despise Not Thou the Chastening of the Lord\" is the KJV wording of Prov 3:11 quoted at Heb 12:5; gate PASS."
+    },
+    {
+      "entryId": "heb-1-13",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"Sit on My Right Hand Until Thine Enemies\" is the KJV clause of Psalm 110:1 / Heb 1:13; gate PASS."
+    },
+    {
+      "entryId": "heb-11-7",
+      "field": "title",
+      "reason": "10 words, one sentence, 10: \"Noah Prepared an Ark to the Saving of His House\" is the KJV wording of Heb 11:7; gate PASS."
+    },
+    {
+      "entryId": "heb-13-11",
+      "field": "title",
+      "reason": "10 words, one sentence, 10: \"The Bodies of Those Beasts Are Burned Without the Camp\" is the KJV wording of Heb 13:11; gate PASS."
+    },
+    {
+      "entryId": "heb-11-8",
+      "field": "title",
+      "reason": "8 words, one sentence, 8: \"He Went Out, Not Knowing Whither He Went\" is the KJV wording of Heb 11:8; gate PASS."
+    },
+    {
+      "entryId": "heb-11-8",
+      "field": "principle",
+      "reason": "23 words, 2 sentences, longest 15: both sentences carry one idea in plain order with Abraham as the named actor, \"First principle:\" is kept verbatim and \"an unseen inheritance\" is the only mild abstraction, already glossed by \"without a map\"; gate PASS."
+    },
+    {
+      "entryId": "heb-13-11",
+      "field": "principle",
+      "reason": "21 words, 2 sentences, longest 16: \"Day-of-atonement carcasses were carried outside\" names the act and the first principle explains the reason, with 0 abstract markers of note; gate PASS."
+    },
+    {
+      "entryId": "heb-4-7",
+      "field": "principle",
+      "reason": "29 words, 2 sentences, longest 18: David and Joshua are named actors, \"Today\" is the psalm's own word and \"Sabbath-rest\" is the glossary term already glossed in this book; gate PASS."
+    },
+    {
+      "entryId": "heb-1-6",
+      "field": "principle",
+      "reason": "33 words, 2 sentences, longest 20: sentence 1 names the Son and the angels, sentence 2 explains the Deuteronomy 32 link in the same words as before; the only technical word is \"deity\", which the sentence itself defines by its context; gate PASS."
+    },
+    {
+      "entryId": "heb-5-5",
+      "field": "principle",
+      "reason": "29 words, 2 sentences, longest 19: sentence 1 names the Father as the one who decreed the priesthood and keeps the KJV fragment \"Thou art my Son\" verbatim, sentence 2 names Christ and says what was conferred and by whom; \"glory by appointment\" is the only compressed phrase and the same sentence glosses it with \"in God's time and voice\"; gate PASS."
+    }
+  ],
+  "equivalent": []
+}

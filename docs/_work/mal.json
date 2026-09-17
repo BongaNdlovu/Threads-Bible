@@ -1,0 +1,1199 @@
+{
+  "book": "mal",
+  "bookName": "Malachi",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 9,
+    "entryStrings": 32,
+    "chainStrings": 38,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "mal-1-2",
+    "mal-1-3",
+    "mal-3-1",
+    "mal-3-17",
+    "mal-3-6",
+    "mal-3-8",
+    "mal-4-2",
+    "mal-4-5",
+    "mal-4-6"
+  ],
+  "fields": [
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God promises to send Elijah the prophet before the coming of the great and dreadful day of the LORD to turn the hearts of fathers to children and children to fathers. Gabriel announces that John the Baptist will minister \"in the spirit and power of Elijah,\" and Jesus explicitly confirms John was the Elijah of the first advent. In biblical and historicist prophecy, an Elijah-message of reformation also precedes the second advent. First principle: reformational preaching must restore covenant fidelity and family order before divine judgment.",
+      "density": 3.9214,
+      "words": 86,
+      "sentences": 5,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-4-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "But unto you that fear my name shall the Sun of righteousness arise with healing in his wings; and ye shall go forth, and grow up as calves of the stall. For the wicked the day burns; for the fearing it dawns. First principle: the same coming is noon-darkness to one and sunrise to the other — the dividing line is the fear of His name.",
+      "density": 3.4214,
+      "words": 66,
+      "sentences": 3,
+      "maxSentenceWords": 31,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God promises to send His messenger to prepare the way before Him, and the Lord whom they seek will suddenly come to His temple, even the Messenger of the Covenant. Jesus identifies John the Baptist as this messenger, and Himself as the Lord visiting His temple. First principle: divine visitation is preceded by a purifying prophetic message calling the covenant people to repentance.",
+      "density": 3.2893,
+      "words": 63,
+      "sentences": 3,
+      "maxSentenceWords": 30,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Will a man rob God? Yet ye have robbed Me. But ye say, Wherein have we robbed Thee? In tithes and offerings. God claims the tithe (ten percent of increase) as holy unto Himself. Returning tithes and offerings into the storehouse acknowledges God as the true Owner of all creation and funds the worldwide proclamation of the gospel without worldly commercialism.",
+      "density": 3.0679,
+      "words": 61,
+      "sentences": 6,
+      "maxSentenceWords": 27,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-3-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jewels made up; spared as a father spares a serving son. First principle: the making-up of jewels is a day-event — the spared are named as a father spares his serving son.",
+      "density": 2,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-4-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "The woman who touched the border (kenaf) of His garment was healed — the sunrise ray from the hem of the Sun (Luke 8:43-48).",
+      "density": 1.9714,
+      "words": 24,
+      "sentences": 1,
+      "maxSentenceWords": 24,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wings",
+        "original": "כְּנָפַיִם",
+        "translit": "kenafayim",
+        "strongs": null,
+        "gloss": "wings, extremities, corners of a garment",
+        "note": "The woman who touched the border (kenaf) of His garment was healed — the sunrise ray from the hem of the Sun (Luke 8:43-48).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The love-question answered by Jacob-over-Esau election. First principle: the book opens with doubted love and an election proof — the controversy is settled by covenant choice, not circumstance.",
+      "density": 1.9571,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-4-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The turning hearts, lest the earth be smitten with a curse. First principle: the book's last promise is family-turning or curse — the forerunner's ministry is the choice-point of the ages.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Esau's heritage dragon-wilderness. First principle: the hated line's wasteland is the visible underside of chosen love — Edom's ruins preach the election of Jacob.",
+      "density": 1.8,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-3-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The unchanging God is why Jacob's sons are not consumed. First principle: non-immutability would end Israel — the covenant survives on the immutability of the Covenant-maker.",
+      "density": 1.5643,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Luke 1:17; Matt 17:11-13 — prophetic office characterized by confrontation of apostasy and calling to worship the true God.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Elijah the prophet",
+        "original": "אֵלִיָּה הַנָּבִיא",
+        "translit": "Eliyyah ha-navi",
+        "strongs": null,
+        "gloss": "Elijah the prophet (Yah is my God)",
+        "note": "Luke 1:17; Matt 17:11-13 — prophetic office characterized by confrontation of apostasy and calling to worship the true God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Christ Himself, the divine Angel of YHWH who brings and establishes the new covenant.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Messenger of the Covenant",
+        "original": "מַלְאַךְ הַבְּרִית",
+        "translit": "malʾakh ha-berit",
+        "strongs": null,
+        "gloss": "the angel / messenger of the covenant",
+        "note": "Christ Himself, the divine Angel of YHWH who brings and establishes the new covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Matt 11:10; Mark 1:2 — τὸν ἄγγελόν μου applied to John the Baptist.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my messenger",
+        "original": "מַלְאָכִי",
+        "translit": "malʾakhi",
+        "strongs": null,
+        "gloss": "my messenger / angel (wordplay on Malachi)",
+        "note": "Matt 11:10; Mark 1:2 — τὸν ἄγγελόν μου applied to John the Baptist.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Pre-dates the Levitical law (Abraham gave tithes to Melchizedek in Gen 14:20).",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the tithe / tenth",
+        "original": "הַמַּעֲשֵׂר",
+        "translit": "ham-maʿaser",
+        "strongs": null,
+        "gloss": "the tenth part / tithe",
+        "note": "Pre-dates the Levitical law (Abraham gave tithes to Melchizedek in Gen 14:20).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-4-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Turn the Heart of the Fathers to the Children",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "and he will turn back / restore the heart",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "turn the heart",
+        "original": "וְהֵשִׁיב לֵב",
+        "translit": "ve-heshiv lev",
+        "strongs": null,
+        "gloss": "and he will turn back / restore the heart",
+        "note": "LXX ἐπιστρέψαι καρδίας — repentance and moral turning.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-4-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Sun of Righteousness with Healing in His Wings",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "And I Hated Esau, and Laid His Mountains Waste",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-3-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "They Shall Be Mine, Saith the LORD of Hosts",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "LXX ἐπιστρέψαι καρδίας — repentance and moral turning.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "turn the heart",
+        "original": "וְהֵשִׁיב לֵב",
+        "translit": "ve-heshiv lev",
+        "strongs": null,
+        "gloss": "and he will turn back / restore the heart",
+        "note": "LXX ἐπιστρέψαι καρδίας — repentance and moral turning.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Stewardship & The Tithe — Acknowledging Divine Sovereignty",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-3-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "For I Am the LORD, I Change Not",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "my messenger / angel (wordplay on Malachi)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "my messenger",
+        "original": "מַלְאָכִי",
+        "translit": "malʾakhi",
+        "strongs": null,
+        "gloss": "my messenger / angel (wordplay on Malachi)",
+        "note": "Matt 11:10; Mark 1:2 — τὸν ἄγγελόν μου applied to John the Baptist.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "the angel / messenger of the covenant",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Messenger of the Covenant",
+        "original": "מַלְאַךְ הַבְּרִית",
+        "translit": "malʾakh ha-berit",
+        "strongs": null,
+        "gloss": "the angel / messenger of the covenant",
+        "note": "Christ Himself, the divine Angel of YHWH who brings and establishes the new covenant.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Elijah the Prophet Before the Great Day",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-4-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "Elijah the prophet (Yah is my God)",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Elijah the prophet",
+        "original": "אֵלִיָּה הַנָּבִיא",
+        "translit": "Eliyyah ha-navi",
+        "strongs": null,
+        "gloss": "Elijah the prophet (Yah is my God)",
+        "note": "Luke 1:17; Matt 17:11-13 — prophetic office characterized by confrontation of apostasy and calling to worship the true God.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "The dedicated administrative fund for gospel ministry.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "storehouse",
+        "original": "בֵּית הָאוֹצָר",
+        "translit": "beit ha-ʾotsar",
+        "strongs": null,
+        "gloss": "treasury / central storehouse",
+        "note": "The dedicated administrative fund for gospel ministry.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Have Loved You, Saith the LORD",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-4-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "wings, extremities, corners of a garment",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "wings",
+        "original": "כְּנָפַיִם",
+        "translit": "kenafayim",
+        "strongs": null,
+        "gloss": "wings, extremities, corners of a garment",
+        "note": "The woman who touched the border (kenaf) of His garment was healed — the sunrise ray from the hem of the Sun (Luke 8:43-48).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-1",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Messenger of the Covenant",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "the tenth part / tithe",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "the tithe / tenth",
+        "original": "הַמַּעֲשֵׂר",
+        "translit": "ham-maʿaser",
+        "strongs": null,
+        "gloss": "the tenth part / tithe",
+        "note": "Pre-dates the Levitical law (Abraham gave tithes to Melchizedek in Gen 14:20).",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "mal-3-8",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "treasury / central storehouse",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "storehouse",
+        "original": "בֵּית הָאוֹצָר",
+        "translit": "beit ha-ʾotsar",
+        "strongs": null,
+        "gloss": "treasury / central storehouse",
+        "note": "The dedicated administrative fund for gospel ministry.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": [
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together.",
+      "density": 1.5607,
+      "words": 19,
+      "sentences": 1,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God.",
+      "density": 1.3964,
+      "words": 17,
+      "sentences": 1,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul.",
+      "density": 1.275,
+      "words": 19,
+      "sentences": 2,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "NT: the end-time message of reformation and judgment calling the world back to true Creator-worship.",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-12",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "NT: dual fulfillment — John came as forerunner; restoration precedes the second advent.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 17:10-13",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death.",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 20:14",
+        "verseId": "rev-20-14",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus declares John is the promised Elijah of the first advent.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 11:10, 14",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[1].connection",
+      "text": "Same-OT: messenger prepares the way before the Lord visits His temple.",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 3:1",
+        "verseId": "mal-3-1",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Thessalonians 4:13-17",
+        "verseId": "1th-4-13",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever.",
+      "density": 0.8643,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[3].connection",
+      "text": "NT: angel Gabriel applies Malachi 4:6 to John the Baptist.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:17",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 2:7",
+        "verseId": "gen-2-7",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Ecclesiastes 9:5-6, 10",
+        "verseId": "ecc-9-5",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional.",
+      "density": 0.8071,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death.",
+      "density": 0.75,
+      "words": 14,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Psalm 146:4",
+        "verseId": "psa-146-4",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[2].connection",
+      "text": "Same-OT: Elijah's spirit of reformation turning hearts before judgment.",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:5-6",
+        "verseId": "mal-4-5",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Genesis 3:19",
+        "verseId": "gen-3-19",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[0].connection",
+      "text": "Earliest prophetic herald clearing a highway for YHWH.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 40:3",
+        "verseId": "isa-40-3",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[2].title",
+      "text": "Elijah sent before the great and dreadful day",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:5-6",
+        "verseId": "mal-4-5",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "If you will receive it, this is Elijah",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 11:10, 14",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Elijah truly shall come and restore all things",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Matthew 17:10-13",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[6].connection",
+      "text": "NT: John quotes Isaiah 40:3 for his mission.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 1:23",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Corinthians 15:51-54",
+        "verseId": "1co-15-51",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 4:1-3",
+        "verseId": "mal-4-1",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)",
+      "density": 0.6,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[3].title",
+      "text": "In the spirit and power of Elijah",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Luke 1:17",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "name",
+      "text": "The Elijah Messenger and the Forerunner",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[1].title",
+      "text": "My messenger to prepare the way",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Malachi 3:1",
+        "verseId": "mal-3-1",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[7].title",
+      "text": "Three Angels' Messages: Final Elijah proclamation",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Revelation 14:6-12",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[0].title",
+      "text": "Voice crying in the wilderness",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "Isaiah 40:3",
+        "verseId": "isa-40-3",
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "file": "threadDetails",
+      "field": "steps[6].title",
+      "text": "Voice crying in the wilderness",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 1:23",
+        "verseId": null,
+        "chainName": "The Elijah Messenger and the Forerunner"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\"",
+      "density": 0.3964,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 3,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "John 11:11-14",
+        "verseId": "joh-11-11",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "file": "threadDetails",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "ref": "1 Timothy 6:16",
+        "verseId": "1ti-6-16",
+        "chainName": "4. The State of the Dead (Conditional Immortality)"
+      }
+    }
+  ]
+}

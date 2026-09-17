@@ -1,0 +1,72 @@
+{
+  "book": "2jn",
+  "bookName": "2 John",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 2,
+    "entryStrings": 4,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "2jn-1-6",
+    "2jn-1-7"
+  ],
+  "fields": [
+    {
+      "entryId": "2jn-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The flesh-denial marks the deceiver and the antichrist. First principle: the incarnation is the test of orthodoxy — a Christ without flesh is the spirit of antichrist already in the world.",
+      "density": 2.0893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2jn-1-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Love defined as commandment-walking, from the beginning. First principle: love and commandment are not rivals — the original message is the walk itself.",
+      "density": 1.4893,
+      "words": 23,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "2jn-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Many Deceivers... Who Confess Not That Jesus Christ Is Come in the Flesh",
+      "density": 0.9536,
+      "words": 13,
+      "sentences": 2,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "2jn-1-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "This Is Love, That We Walk After His Commandments",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

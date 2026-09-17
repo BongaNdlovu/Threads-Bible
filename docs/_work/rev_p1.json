@@ -1,0 +1,1013 @@
+{
+  "book": "rev",
+  "bookName": "Revelation",
+  "part": 1,
+  "parts": 3,
+  "counts": {
+    "entries": 28,
+    "entryStrings": 66,
+    "chainStrings": 0,
+    "gateFails": 1
+  },
+  "entryIds": [
+    "rev-1-5",
+    "rev-1-6",
+    "rev-1-7",
+    "rev-1-8",
+    "rev-1-11",
+    "rev-1-13",
+    "rev-1-17",
+    "rev-1-18",
+    "rev-2-7",
+    "rev-2-17",
+    "rev-2-23",
+    "rev-2-27",
+    "rev-2-28",
+    "rev-3-5",
+    "rev-3-7",
+    "rev-3-18",
+    "rev-3-21",
+    "rev-4-8",
+    "rev-5-5",
+    "rev-5-6",
+    "rev-5-9",
+    "rev-5-10",
+    "rev-5-12",
+    "rev-5-13",
+    "rev-7-2",
+    "rev-7-9",
+    "rev-7-14",
+    "rev-7-17"
+  ],
+  "fields": [
+    {
+      "entryId": "rev-7-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "And I saw another angel ascending from the east, having the seal of the living God: and he cried with a loud voice to the four angels, to whom it was given to hurt the earth and the sea, Saying, Hurt not the earth, neither the sea, nor the trees, till we have sealed the servants of our God in their foreheads. The seal of God designates character maturity and loyalty to the Fourth Commandment Creator-worship.",
+      "density": 5.4429,
+      "words": 76,
+      "sentences": 2,
+      "maxSentenceWords": 62,
+      "gate": "FAIL",
+      "violations": [
+        "62 words (max 35): \"And I saw another angel ascending from the east, having the seal of the living God: and he…\""
+      ],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Jesus is named faithful witness, first-begotten from the dead, prince of earth's kings — loving us and washing us in His own blood. First principle: three titles, one Person — prophet, risen firstfruits, sovereign heir.",
+      "density": 2.1893,
+      "words": 35,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-3-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "White raiment, an unblotted name, and confession before the Father. First principle: the Lamb keeps a book and speaks names aloud in heaven — the register is as personal as it is permanent.",
+      "density": 2.1393,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 23,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "John falls as dead; the glorified Christ lays a right hand on him and speaks Isaiah's self-title. First principle: the same hand that touched Daniel and the disciples touches the seer — divine identity plus personal tenderness.",
+      "density": 2.0679,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Among the candlesticks walks a Son-of-man figure in priestly garment and golden girdle — Daniel 7 and Ezekiel 1 fused. First principle: the glorified Christ is both Priest tending lamps and Judge walking among His churches.",
+      "density": 2.0429,
+      "words": 36,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-3-21",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "As Christ overcame and sat with the Father, overcomers sit with Him. First principle: the throne is shared the way the suffering was shared — the overcomer's seat is purchased by the Overcomer.",
+      "density": 2.025,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Lord who is, was, and is to come names Himself the alphabet and the end of all things. First principle: the God of Isaiah's titles is the speaker here — beginning and ending are His alone.",
+      "density": 2.0107,
+      "words": 37,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The washing Lamb makes a kingdom of priests to His God and Father. First principle: Exodus 19's covenant vocation transfers to the church — a blood-bought people given both throne and altar roles.",
+      "density": 1.9679,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The voice commands the writing and names the seven churches of Asia. First principle: revelation is entrusted to writing and to churches — the canon cycle begins and ends with a book.",
+      "density": 1.9429,
+      "words": 32,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-7-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The great-tribulation multitude comes out with white robes. First principle: stain removal is by blood, not by suffering — tribulation marks the path, the Lamb's blood does the washing.",
+      "density": 1.925,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-7-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The throne-Lamb shepherds to living fountains, and God wipes away tears. First principle: the Shepherd of Psalm 23 is the Lamb on the throne — every tear has an appointed end.",
+      "density": 1.9179,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The redeemed are made a reigning priesthood. First principle: Eden's commission and Sinai's calling conclude in earth-reign — not escape from the world but lordship restored in it.",
+      "density": 1.9,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 21,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-3-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The holy and true One holds Eliakim's key — open, and none shut. First principle: the door of the kingdom answers to David's throne; Christ opens what no opposition can close.",
+      "density": 1.8036,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-2-27",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Psalm 2's iron scepter is delegated to the overcomer — even as I received of my Father. First principle: messianic dominion is shared with the faithful; the Son's inheritance includes co-regents.",
+      "density": 1.7464,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-2-28",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Balaam's star out of Jacob is Christ's gift to victors. First principle: the Star promised over Israel becomes the dawn-pledge given to every overcomer — He gives Himself.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-3-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Laodicea is counselled to real wealth, white raiment, and eyesalve. First principle: the self-rich church needs purchased grace — garments for shame, sight for blindness, gold for poverty.",
+      "density": 1.7286,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The new song names the purchase: slain, redeeming out of every kindred, tongue, people, and nation. First principle: the worthiness of the Lamb is a redemption song with a global roster.",
+      "density": 1.6893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-7-9",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The uncountable multitude — every nation, kindred, people, tongue — stands before the throne with palms. First principle: Abraham's stars-and-sand promise fills a throne room; the covenant reached the whole world.",
+      "density": 1.6893,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-2-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Eden tree, guarded since the fall, is promised to overcomers. First principle: the church's promises are Genesis promises — paradise regained by the Conqueror for the conquering.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-2-23",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Son claims the searcher-of-hearts title and repays according to works. First principle: God's incommunicable knowledge of hearts belongs to Jesus — the churches are searched, not surveyed.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "All creation joins the doxology to the Enthroned and the Lamb. First principle: the end of prophecy is universal worship — Philippians 2's every-tongue confession in apocalyptic panorama.",
+      "density": 1.6714,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-4-8",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The four living creatures rest not day and night, chanting Isaiah's trisagion. First principle: heaven's liturgy is timeless and triple-holy — the which-was-and-is-and-is-to-come God of Exodus and Isaiah.",
+      "density": 1.6143,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-2-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Overcomers eat from the hidden store and receive a private name. First principle: wilderness bread preserved in heaven, and an identity known between God and the receiver.",
+      "density": 1.5893,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "In the throne's midst stands a slain Lamb with seven horns and seven eyes. First principle: the throne's center is a sacrifice — omnipotence and offering are one sight.",
+      "density": 1.5821,
+      "words": 29,
+      "sentences": 2,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Lion of Judah, Root of David, has prevailed to open the scroll. First principle: only the conquering Messiah unlocks God's plan for the end.",
+      "density": 1.3679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-5-12",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Seven-fold praise answers the slain Lamb: power, riches, wisdom, strength, honour, glory, blessing. First principle: heaven's arithmetic — the Lamb who lost everything receives everything.",
+      "density": 1.3679,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Behold, He comes with clouds; every eye shall see Him. This echoes Daniel 7 and the ascension-angel promise. First principle: the second coming is public, visible, and universally witnessed.",
+      "density": 1.3536,
+      "words": 29,
+      "sentences": 3,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-1-18",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The risen Christ holds the keys of death and of Hades. First principle: resurrection is not escape but conquest — Jesus administers death itself.",
+      "density": 1.3429,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "rev-7-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Contains divine name, office (Creator), and territory (heaven and earth) found in Fourth Commandment.",
+      "density": 1.15,
+      "words": 14,
+      "sentences": 1,
+      "maxSentenceWords": 14,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seal / signet",
+        "original": "σφραγῖδα",
+        "translit": "sphragida",
+        "strongs": null,
+        "gloss": "seal, stamp of ownership and authentication",
+        "note": "Contains divine name, office (Creator), and territory (heaven and earth) found in Fourth Commandment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-3-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Not Blot Out His Name out of the Book of Life",
+      "density": 1.0679,
+      "words": 13,
+      "sentences": 1,
+      "maxSentenceWords": 13,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Zech 12:10 — they shall look on me whom they have pierced.",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pierced",
+        "original": "ἐξεκέντησαν",
+        "translit": "exekentēsan",
+        "strongs": null,
+        "gloss": "they pierced / thrust through",
+        "note": "Zech 12:10 — they shall look on me whom they have pierced.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-7-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Seal of the Living God — Settling Into Truth (Sphragis)",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-2-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "To Him That Overcometh Will I Give the Tree of Life",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-2-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Hidden Manna and a White Stone with a New Name",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-3-21",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Grant to Sit with Me in My Throne",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Kings and Priests, and We Shall Reign on the Earth",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Fear Not; I Am the First and the Last",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-2-23",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am He Which Searcheth the Reins and Hearts",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-2-27",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Rule Them with a Rod of Iron",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Hast Redeemed Us to God by Thy Blood",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-7-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Washed Their Robes in the Blood of the Lamb",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Gen 49:9 — Judah is a lion's whelp.",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Lion",
+        "original": "λέων",
+        "translit": "leōn",
+        "strongs": null,
+        "gloss": "lion",
+        "note": "Gen 49:9 — Judah is a lion's whelp.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Faithful Witness, First Begotten of the Dead",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-2-28",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "And I Will Give Him the Morning Star",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-3-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Buy of Me Gold Tried in the Fire",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "OT Sheol; conquered by the risen Lord.",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Hades",
+        "original": "ᾅδης",
+        "translit": "hadēs",
+        "strongs": null,
+        "gloss": "realm of the dead",
+        "note": "OT Sheol; conquered by the risen Lord.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-1-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Am Alpha and Omega, the Almighty",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "What Thou Seest, Write in a Book",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "One Like unto the Son of Man",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-3-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He That Hath the Key of David",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Lamb as It Had Been Slain",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-12",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Worthy Is the Lamb That Was Slain",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Lion of the Tribe of Judah",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].note",
+      "text": "Nikao — victory theme of Revelation.",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "prevailed",
+        "original": "ἐνίκησεν",
+        "translit": "enikēsen",
+        "strongs": null,
+        "gloss": "he conquered / overcame",
+        "note": "Nikao — victory theme of Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-7-2",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "seal, stamp of ownership and authentication",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "seal / signet",
+        "original": "σφραγῖδα",
+        "translit": "sphragida",
+        "strongs": null,
+        "gloss": "seal, stamp of ownership and authentication",
+        "note": "Contains divine name, office (Creator), and territory (heaven and earth) found in Fourth Commandment.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-1-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hath Made Us Kings and Priests",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-4-8",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Holy, Holy, Holy, Lord God Almighty",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-7-9",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "A Great Multitude of All Nations",
+      "density": 0.4929,
+      "words": 6,
+      "sentences": 1,
+      "maxSentenceWords": 6,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-5-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Every Creature... Blessing, and Honour, and Glory",
+      "density": 0.4607,
+      "words": 7,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-7",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "they pierced / thrust through",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "pierced",
+        "original": "ἐξεκέντησαν",
+        "translit": "exekentēsan",
+        "strongs": null,
+        "gloss": "they pierced / thrust through",
+        "note": "Zech 12:10 — they shall look on me whom they have pierced.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-1-18",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Keys of Death and Hell",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-7-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Lamb Shall Feed Them",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Comes with Clouds",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "rev-1-18",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "realm of the dead",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Hades",
+        "original": "ᾅδης",
+        "translit": "hadēs",
+        "strongs": null,
+        "gloss": "realm of the dead",
+        "note": "OT Sheol; conquered by the risen Lord.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "terms[1].gloss",
+      "text": "he conquered / overcame",
+      "density": 0.3286,
+      "words": 4,
+      "sentences": 1,
+      "maxSentenceWords": 4,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "prevailed",
+        "original": "ἐνίκησεν",
+        "translit": "enikēsen",
+        "strongs": null,
+        "gloss": "he conquered / overcame",
+        "note": "Nikao — victory theme of Revelation.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "rev-5-5",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "lion",
+      "density": 0.0821,
+      "words": 1,
+      "sentences": 1,
+      "maxSentenceWords": 1,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "Lion",
+        "original": "λέων",
+        "translit": "leōn",
+        "strongs": null,
+        "gloss": "lion",
+        "note": "Gen 49:9 — Judah is a lion's whelp.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

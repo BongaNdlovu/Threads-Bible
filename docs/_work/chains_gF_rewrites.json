@@ -1,0 +1,578 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains (group F)",
+  "drafts": [],
+  "verifyOnly": [
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].connection",
+      "reason": "V1-V4 pass: 15 words, 1 sentence, no banned phrase, no decode word. Names God as the one who establishes the descendant and calls the line royal, which is the 2 Samuel 7:12 claim."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 11 words, 1 sentence, plain words. 'God's binding promise' is the frozen glossary rendering of covenant (CP-01 §3), so the title already speaks the locked vocabulary; the 2 Samuel 7:12-16 claim (house and throne forever) is carried as written. Nothing to change."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].connection",
+      "reason": "V2-V4 pass: 21 words, 1 sentence. Subject (David), verbs (speaks, looks forward) and the 2 Samuel 23:5 claim are explicit, and 'branch forth' follows that verse's own verb. Rewriting would only shuffle words."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 9 words, 1 sentence, and 'God's binding promise' is the frozen glossary rendering of covenant. Nothing to decode; the 2 Samuel 23:5 claim is intact."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "reason": "V2-V4 pass: 18 words, 1 sentence, active and concrete ('Isaiah gives the Branch this name'). The Isaiah 4:2 claim is unchanged. For the record only: this unquoted rendering does not print the KJV's 'the branch of the LORD' or 'in that day', it is marked as a quotation nowhere in the corpus, so I1 does not bite; carried byte-identical."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 7 words and the KJV terms of Isaiah 4:2 ('the branch of the LORD be beautiful and glorious') in title case. The case difference is typographic, not a change of wording; carried byte-identical and reported rather than 'restored'. No gate problem."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].connection",
+      "reason": "V2-V4 pass: 17 words, 1 sentence, subject and verb both present (God's Spirit rests; who will rule). The Isaiah 11:1-2 claim is carried and 'the nations' matches the KJV of Isaiah 11:10, so no modernisation was applied."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 10 words, a noun title in the KJV words of Isaiah 11:1 ('a rod out of the stem of Jesse, and a Branch shall grow out of his roots'). No length or decode problem; carried byte-identical."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "reason": "V2-V4 pass: 18 words, 1 sentence, active with a named subject (a king rules, he does). The Jeremiah 23:5 claim (wisdom, justice, righteousness) is unchanged and 'just and right' echoes that verse. It is the app's own prose, not a quotation, so the KJV's 'shall execute judgment and justice' needs no restoration."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "reason": "QUOTE-REVIEW — DECISION: verify-only, and NOT restored. The words are already the KJV words of Jeremiah 23:6 and are carried byte-identical; the only difference from the served canon is editorial capitalisation, so this is not a wording defect and I1 forbids a writer from silently 'restoring' it (CP-02 §6). Evidence: public/books/jer.json prints 'THE LORD OUR RIGHTEOUSNESS' in full capitals; this title prints 'the LORD Our Righteousness', and the chain's sibling title 'My Servant the BRANCH' (steps[6].title) title-cases the KJV's 'the BRANCH' the same way, so changing one would make the chain inconsistent. 7 words, 1 sentence, gate clean. Operator decision for a separate Scripture-integrity pass: keep the app's title casing, or restore KJV capitals in both titles."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 20 words, 1 sentence, with 'God binds himself to David with a promise' as the frozen glossary rendering of covenant used as a verb. The Jeremiah 33:15 claim (the promise is not taken back) is carried; nothing to decode."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 8 words, the KJV words of Jeremiah 33:15 ('the Branch of righteousness ... unto David') in title case with the article trimmed for a title. Not a quotation, so carried byte-identical rather than 'restored'."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].connection",
+      "reason": "V2-V4 pass: 16 words, 1 sentence, with subject (God) and verb (confirms). The Zechariah 3:8 claim after the exile is unchanged, and 'the Branch' is that verse's own word."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].connection",
+      "reason": "V2-V4 pass: 21 words, 1 sentence, naming both roles and the throne plainly. 'LORD's temple' matches the KJV 'the temple of the LORD' in Zechariah 6:12-13, so no modernisation was applied and both claims (builds the temple; priest and king on his throne) are carried."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "reason": "QUOTE-REVIEW — DECISION: verify-only, and NOT modernised. 'sunrise' is the app's gloss on the KJV noun carried in this step's own title, and the served canon reads 'the dayspring from on high hath visited us' with a lower-case 'dayspring' (public/books/luk.json, Luke 1:78). Because the KJV span was never placed inside quotation marks, I1 gives no licence to substitute the KJV word: that would silently 'restore' a quotation, which CP-02 §6 forbids. The claim is intact (Zechariah praises the visiting light; he uses the same word for the Branch, which the title gives as Anatolē / Tsemach), and the string passes the gate (23 words, 1 sentence). Recorded for the operator, not changed."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].connection",
+      "reason": "V2-V4 pass: 16 words, 1 sentence, subject and verb present (Paul quotes ... to show). 'Isaiah 11:10' stays in the data file's abbreviation form and is not expanded; the Romans 15:12 claim (the Gentiles also have hope) is carried."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (7 words, 1 sentence); gate clean. It is clear: 'The Branch (Tsemach) and the Davidic Throne' names the chain's two subjects and gives the Hebrew term with its transliteration, in the app's chain-label style. Distinct from every other chain name in threadChains; no rename proposed."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "reason": "QUOTE-REVIEW — same class as steps[4].title, and the same decision: verify-only. public/books/zec.json prints 'my servant the BRANCH'; this title prints 'My Servant the BRANCH' with the same words. Capitalisation only, not inside quotation marks, so no writer may change it and this sweep makes no change. 4 words, 1 sentence, gate clean. Recorded for the operator's Scripture-integrity decision alongside steps[4].title."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "reason": "V1-V4 pass: 4 words, the KJV sense of Zechariah 6:13 ('he shall be a priest upon his throne'). No decode word and no length problem; carried byte-identical."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "reason": "V1-V4 pass: 7 words plus the transliteration '(Anatolē / Tsemach)', which is untouchable under I1. 'Dayspring' is the KJV reading of Luke 1:78 and 'Tsemach' is the Hebrew for Branch; the transliteration and its diacritics are unchanged."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "reason": "V1-V4 pass: 6 words, the KJV wording of Romans 15:12 ('There shall be a root of Jesse ... to reign over the Gentiles') and Isaiah 11:10. 'Gentiles' is the KJV word itself, so no modernisation; carried byte-identical."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "reason": "AMBIGUOUS-IN-CORPUS (structural, not a wording verdict): 'Root and Offspring of David' occurs three times in the corpus — this chain step title at src/data/threadDetails.ts:2162, the rev-5-5 entry title at src/data/bookThreadDetails.ts:256, and a fulfillmentKeywords string in the same file at line 1762. The applier addresses a string by its exact literal and refuses any BEFORE that is not unique, so no draft could ever be applied here. MUST be verify-only for that reason. The text is unchanged in the tree, is the KJV wording of Revelation 22:16 in title case, and passes the gate (5 words, 1 sentence)."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].connection",
+      "reason": "V2-V4 pass: 13 words, 1 sentence, concrete images (Lion, morning star) rather than abstractions. The Revelation 5:5 and 22:16 claims are carried, and 'morning star' is the KJV phrase of Rev 22:16."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The old opener 'Earliest provision:' over a subjectless clause is now 'The earliest picture of God's provision:' with the provider (God), the action (makes water gush) and the rock Moses struck (Exodus 17:6) all named. The opener was reworded, not dropped: no protected label was involved. 18 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 6 words, a plain event title with subject and verb (Moses smites the rock at Horeb). 'Horeb' is the KJV place name and is untouchable; nothing to decode."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].connection",
+      "reason": "V2-V4 pass: 8 words, 1 sentence, concrete (second rock event, water quenches thirst). The Numbers 20:8-11 claim is carried; 'Same-OT:' untouched."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 6 words, a plain place-and-event title. 'Meribah' is the KJV place name (Numbers 20:13) and is untouchable; no decode word, no long sentence."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].connection",
+      "reason": "V2-V4 pass: 8 words, 1 sentence, subject (psalm) and object (abundant streams from the rock) explicit. The Psalm 78:15-16 claim is carried; 'Same-OT:' verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 7 words and the KJV words of Psalm 78:15 ('He clave the rocks in the wilderness') in the app's title case. Not a quotation, so carried byte-identical; no gate issue."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 7 words, the KJV wording of Isaiah 48:21 ('he caused the waters to flow out of the rock for them') trimmed to a title. Carried byte-identical."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].connection",
+      "reason": "V2-V4 pass: 6 words, 1 sentence. 'divine sustenance' is a mild abstraction, but the subject (prophetic remembrance) and its object are named, and the Isaiah 48:21 claim is unambiguous at six words. Rewriting a six-word label would be punctuation theatre."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].connection",
+      "reason": "V2-V4 pass: 8 words, 1 sentence, concrete (water becomes an invitation; grace named). The Isaiah 55:1 claim is carried; 'Same-OT:' verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].title",
+      "reason": "V1-V4 pass: 6 words, the KJV words of Isaiah 55:1 ('come ye to the waters ... without money') in the app's title case. Carried byte-identical; no modernisation applied."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 8 words, 1 sentence, naming what the vision is of (healing waters) and what they do (bring life everywhere). The Ezekiel 47:1-12 claim is carried; 'Same-OT:' verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 5 words, a concrete image. 'sanctuary' is used as a place word, not as an explanatory abstraction, so the frozen glossary row calls for no gloss; the Ezekiel 47:1 claim is unchanged."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].title",
+      "reason": "V1-V4 pass: 6 words and the KJV words of Zechariah 14:8 ('living waters shall go out from Jerusalem'). Not a quotation (no marks in the baseline), so carried byte-identical rather than 'restored'."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'eschatological living waters' — a decode phrase, and 'eschatological' is on the frozen never-write list (CP-01 §3) — is now 'water that gives life flows out from Jerusalem', the plain sense of Zechariah 14:8. 'Same-OT:' verbatim; 9 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, active with named agents (Paul identifies the rock as Christ). The 1 Corinthians 10:4 claim is carried; 'NT:' is a protected label and stays verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].title",
+      "reason": "V1-V4 pass: 4 words and the exact KJV clause of 1 Corinthians 10:4 ('that Rock was Christ'). Re-casing or expanding it would break I1, so it is carried byte-identical."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].connection",
+      "reason": "V2-V4 pass: 12 words, 1 sentence, active with agent (Jesus) and setting (the woman at the well). The John 4:13-14 claim is carried; 'NT:' verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].title",
+      "reason": "V1-V4 pass: 7 words. Reported, not changed: the title renders John 4:14 ('a well of water springing up into everlasting life') as 'Fountain of water springing into eternal life'. It is not inside quotation marks, so under the sweep rule it is carried byte-identical rather than 'restored' — the same class as the 7 unquoted renderings listed in CP-02 §6 and part of the operator's Scripture-integrity decision. No gate problem."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].connection",
+      "reason": "V2-V4 pass: 11 words, 1 sentence, subject and setting explicit (Jesus, the Feast of Tabernacles). The John 7:37-39 claim is carried; 'NT:' verbatim."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].title",
+      "reason": "V1-V4 pass: 7 words. The em-dash adds the Spirit as John 7:39 explains, and 'Rivers of living water' follows the KJV wording of John 7:38 in the app's title case; both halves are named, so no resegmenting is needed."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (6 words, 1 sentence); gate clean. It is clear — it names both halves of the chain (the rock that was struck, the water that gives life) — and matches the app's chain-name style; distinct from every other chain name. No rename proposed."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].title",
+      "reason": "V1-V4 pass: 6 words and the KJV words of Revelation 22:1 ('a pure river of water of life') trimmed for a title. Not quoted, so carried byte-identical."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].connection",
+      "reason": "V2-V4 pass: 12 words, 1 sentence, and the source is named (the throne of God and of the Lamb) exactly as Revelation 22:1 has it. 'NT:' is kept verbatim."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The old opener 'Decalogue foundation:' plus the verbless stack 'contains divine name (YHWH), office (Maker/Creator), and territory (heaven, earth, sea)' is now a sentence with a subject (the fourth commandment) and a verb (carries), and it says what a seal is. Claim unchanged: the fourth commandment carries the Creator's name, office and territory (Exodus 20:11). Gate clean at 23 words, 1 sentence; YHWH byte-identical; no protected label and no citation moved. Nothing left to change, so verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 6 words, a plain possessive title ('Creator's Seal in the Fourth Commandment'). 'Seal' and 'Fourth Commandment' are the chain's own vocabulary, not decode words here; the Exodus 20:11 claim is unchanged."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The agentless 'apostate power attempts to alter ... during historical supremacy' now reads with a subject and a plain verb ('an apostate power tries to change ... while it holds supremacy'). Daniel 7:25 claim unchanged; 'Prophetic warning:' is verbatim. 17 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 10 words plus the parenthetical '(1260 days)'. The claim is Daniel 7:25's own words in the app's title case ('think to change times and laws') and 1260 days is the chain's prophetic figure; the parenthesis keeps the number without altering a word."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The agentless 'settling into truth intellectually and spiritually' now names who seals (God), where (on their foreheads) and when (before the winds blow), which is Revelation 7:2-3. 'End-time protection:' verbatim; 21 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 10 words and the KJV words of Revelation 7:3 ('till we have sealed the servants of our God in their foreheads') trimmed to a title. Carried byte-identical; the baseline has no quotation marks, so nothing to preserve or restore."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'faithful remnant' now carries the frozen glossary rendering 'the faithful few who are left' (CP-01 §3). Revelation 12:17 claim unchanged; 'Loyalty marker:' verbatim; 17 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 9 words. The KJV of Revelation 12:17 has 'the testimony of Jesus Christ'; this title says 'testimony of Jesus' in the app's title case and is not marked as a quotation anywhere in the corpus. Carried byte-identical and reported rather than 'restored'."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The verbless stack 'restoration of the true gospel and fourth-commandment Creator worship before judgment' now names the agent (the angel of Revelation 14:6-7), the acts (announces, calls back) and the timing; all four claims survive. 'Proclamation:' verbatim; 24 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].title",
+      "reason": "V1-V4 pass: 10 words plus commas (one sentence by the gate's rule). Each item is a named claim about Revelation 14:6-7 (everlasting gospel, judgment hour, Creator-worship); there is no decode word, and splitting a navigation title into sentences would not change what the reader understands."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence. 'apostate religious systems' is the same actor the chain names a step earlier, and the Revelation 14:8 claim (the moral fall of Babylon) is unambiguous at ten words."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 7 words, the KJV words of Revelation 14:8 ('Babylon is fallen, is fallen'). Carried byte-identical; the capital B is title case on a proper name, not a change of wording."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].title",
+      "reason": "V1-V4 pass: 9 words, a plain list of what the third angel warns against (beast, image, mark) from Revelation 14:9-11. No decode word and no long sentence; carried byte-identical."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].connection",
+      "reason": "V2-V4 pass: 9 words, 1 sentence, naming the danger (receiving counterfeit human-enforced worship). The Revelation 14:9-11 claim is carried without softening the warning."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The verbless 'perseverance in keeping God's commandments through the faith of Jesus' is now two plain clauses, and 'remnant' carries its glossary rendering 'the faithful few who are left'. Revelation 14:12 claim unchanged; 'Remnant character:' verbatim; 21 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].title",
+      "reason": "V1-V4 pass: 11 words. The KJV of Revelation 14:12 has 'the patience of the saints ... the faith of Jesus'; this title keeps both phrases in the app's title case and is not quoted, so it is carried byte-identical. 'Patience' is the KJV word for endurance and is the chain's own vocabulary."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, with both facts concrete (the earth is lit by God's glory; the summons comes before probation closes). The Revelation 18:1-4 claim is carried; 'probation' is the chain's own standing term for the close of the testing time."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (10 words, 3 sentences); gate clean. It is clear: the leading '5.' matches its sibling pillar labels (1-8) in threadChains, and the rest names both halves of the chain (the three angels' messages, the seal against the mark). Distinct from every other chain name; no rename proposed."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].title",
+      "reason": "QUOTE-REVIEW: this is the only string in group F that carries quotation marks. The span \"Come out of her, My people\" is carried byte-identical and unchanged, and the string is unchanged in the tree. Against the served canon it is one capital away from Revelation 18:4, which reads 'Come out of her, my people' with a lower-case 'my' (public/books/rev.json). I1 forbids modernising it and equally forbids silently 'restoring' it, so it is verify-only and reported. 9 words, 1 sentence, gate clean. Operator decision for the Scripture-integrity pass: leave the capital, or match the canon."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The noun stack 'Earliest miraculous food in the wilderness' is now a sentence naming who fed them (God), how (food he gave from the sky) and where (in the desert), which is Exodus 16:4. 17 words, 1 sentence, gate clean; no citation added or dropped. Verify-only."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 4 words and the KJV words of Exodus 16:4 ('I will rain bread from heaven'). The KJV is future tense and the title is a past-tense navigation label; it is not quoted, so it is carried byte-identical rather than 'restored'."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, subject (manna) and verb (teaches) present, and it names what is relied on (every word from God's mouth), which is the Deuteronomy 8:3 claim. 'Same-OT:' verbatim."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 7 words, the KJV words of Deuteronomy 8:3 ('man doth not live by bread only') in the app's title case. Not quoted, so carried byte-identical rather than 'restored'."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 6 words (one sentence by the gate's rule). The em-dash attaches the second name the psalm gives the same food, so the title carries one idea with a synonym, not two claims; both 'Bread of heaven' and 'angels' food' come from Psalm 78:24-25. Not quoted, so carried byte-identical."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The agentless 'poetic celebration of divine provision' now has a subject (the psalm) and a verb (celebrates) and names the provider (God). Psalm 78:24-25 claim unchanged; 'Same-OT:' verbatim; 8 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, agent named (Jesus), action named (defeats Satan), method named (the manna lesson). The Matthew 4:4 claim is carried; 'NT:' is verbatim."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 4 words, a plain statement of what Matthew 4:4 records. 'Deuteronomy 8' is a chapter reference, not a quotation, so it stays a chapter reference — the ban on expanding an abbreviation does not license adding a verse number."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'perishable manna' and the compressed 'His living flesh for the world' are decoded into 'the manna that perishes' and 'his own living flesh, given for the world', which is the contrast of John 6:48-51. 'NT:' is verbatim (no colon added); 16 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].title",
+      "reason": "V1-V4 pass: 6 words and the KJV words of John 6:35 ('I am the bread of life') in the app's title case. Not inside quotation marks, so carried byte-identical rather than 'restored'; no gate problem."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 8 words, 1 sentence, stating the promise plainly (whoever eats this bread shall live forever), which is the John 6:51 claim. 'NT:' verbatim."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 7 words and the KJV words of John 6:51 ('I am the living bread which came down from heaven') trimmed for a title. Carried byte-identical; no decode word."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, subject (the church), verb (participates), means (the broken bread). The 1 Corinthians 10:16-17 claim is carried; 'NT:' verbatim."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'eschatological feast' now follows the frozen glossary ('eschatology → the last days / the end of the story') as 'the feast at the end of the story'. Revelation 2:17 promise unchanged; 'NT:' verbatim; 14 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (7 words, 1 sentence); gate clean. It is clear — it names the type (manna) and the fulfilment (the true Bread of Life) — and follows the pattern of the other chain names; distinct from every other chain name. No rename proposed."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].title",
+      "reason": "V1-V4 pass: 4 words and the KJV words of 1 Corinthians 10:17 ('we being many are one bread, and one body'). Carried byte-identical; too short for any structural problem."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].title",
+      "reason": "V1-V4 pass: 5 words and the KJV words of Revelation 2:17 ('to eat of the hidden manna ... To him that overcometh'). 'Overcomer' is that KJV verb turned into a noun for a title and is the chain's own term; carried byte-identical."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'gives full legal autonomy to rebuild city' dropped the agent and the object; the text now names Artaxerxes I, his seventh year and who received the authority, and keeps both counts. 'Historical datum:' verbatim; Ezra 7:11-26 claim unchanged; 24 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 8 words plus the date '(457 BC)'. The claim and the date are both concrete and the parenthesis keeps the figure without adding a word; no decode term."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'covenant probation and messianic atonement' packed two abstractions, and 'Messianic' needed the frozen rendering 'about the promised King, Jesus'; the live text says 'for his covenant people' and 'the promised King makes the atonement for sin'. The figure 70 sevens = 490 years and the Daniel 9:24 claims survive; 'Prophetic timeline:' verbatim; 27 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 6 words. It is the KJV words of Daniel 9:24 ('Seventy weeks are determined upon thy people') trimmed for a title, and the connection step glosses the figure as 490 years. Not quoted, so carried byte-identical."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].connection",
+      "reason": "V2-V4 pass: 11 words, 1 sentence, a calculation with both operands and the result named (457 BC, 483 years, 27 AD). Nothing to decode; no citation to add or drop."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 8 words. It carries the KJV phrase of Daniel 9:25 ('unto the Messiah the Prince') plus the chain's own count (69 weeks, 483 years); every figure is concrete, and the colon separates a title from its figure rather than two ideas."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The parenthetical '(Messiah / Christ)' is decoded into 'Jesus is anointed the Messiah, that is, the Christ'; the fifteenth year of Tiberius Caesar and the Luke 3:1, 21-23 claim are untouched, and 'NT fulfillment:' is verbatim. 21 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 10 words plus the date. It states the date, the event and the anointing in plain words; the Luke 3:1 detail (the fifteenth year of Tiberius) belongs to the connection step, which is untouched."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The decode word 'substitutionary' is gone, and the live text states the Daniel 9:26 claim directly ('cut off in a violent death, and not for himself') without softening it. 'Same-OT:' verbatim; 15 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].title",
+      "reason": "V1-V4 pass: 7 words and the KJV words of Daniel 9:26 ('shall Messiah be cut off, but not for himself'). Carried byte-identical; the second half is the verse's own wording and stays."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 19 words, 1 sentence. The dates and the arithmetic are named (middle of the 70th week, 3.5 years of ministry, spring 31 AD) and the Daniel 9:27 claim is explicit. The only term needing prior knowledge, 'the 70th week', was explained by the previous step's 70 sevens = 490 years."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 10 words and the KJV words of Daniel 9:27 ('in the midst of the week he shall cause the sacrifice and the oblation to cease') trimmed for a title. Carried byte-identical; the baseline carries no quotation marks here."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'type meets antitype' now carries the frozen glossary rendering ('the person or event the earlier picture pointed to'), type stays 'the earlier picture', and 'the animal sacrificial system terminates' becomes 'the animal sacrifices come to an end'. All three claims survive; 'NT fulfillment:' verbatim; 23 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].title",
+      "reason": "V1-V4 pass: 9 words. Reported, not changed: the KJV of Matthew 27:51 reads 'the veil of the temple was rent in twain' and this title drops 'of the temple' in a nine-word navigation label. It is not quoted, so it is carried byte-identical."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].connection",
+      "reason": "V2-V4 pass: 15 words, 1 sentence, naming the end of the period and the transition plainly. The Acts 7:54-60 claim is carried; 'NT fulfillment:' is verbatim."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].title",
+      "reason": "V1-V4 pass: 8 words plus the date. 'Stephen stoned; gospel sent to Gentiles' is two short parallel statements whose referents are both named, and 'Gentiles' is the KJV word. Rewriting an eight-word title would be punctuation theatre."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (7 words, 2 sentences); gate clean. It is clear: the leading '2.' matches its sibling pillar labels in threadChains and 'The 70 Weeks: Dating the Messiah' says what the chain does. Distinct from every other chain name; no rename proposed."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].title",
+      "reason": "V1-V4 pass: 5 words, subject and verb both present (the serpent questions God's word), and it is the Genesis 3:1 claim in plain words."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].connection",
+      "reason": "V2-V4 pass: 3 words. This is the chain's origin marker ('Earliest adversary character'): a label, not a sentence, and every word is concrete. Expanding it would add words a reader does not need."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].connection",
+      "reason": "V2-V4 pass: 6 words, 1 sentence, subject (doom of the serpent) and verb (announced) present. The Genesis 3:15 claim is carried; 'Same-OT:' is a protected label and is verbatim."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].title",
+      "reason": "V1-V4 pass: 4 words and the KJV sense of Genesis 3:15 ('it shall bruise thy head'). 'Enmity' is that verse's own word, and four words carry no structural problem."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The actorless 'sin banished to the wilderness adversary' is now the Leviticus 16:8-10 action with its actor ('the second goat carries the people's sin away from the camp into the wilderness'). 'Same-OT:' verbatim; 15 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].title",
+      "reason": "V1-V4 pass: 3 words. 'Scapegoat' is the KJV word of Leviticus 16:8 and 'Azazel' is the Hebrew name that verse carries, so both are untouchable under I1; a two-word label has nothing to decode and no sentence to resegment."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. The verbless 'adversary in the divine council' now says where he stands and with whom ('among the sons of God in the heavenly court', Job 1-2), and keeps 'the adversary' as the plain sense of 'the Satan'. 'Same-OT:' verbatim; 13 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].title",
+      "reason": "V1-V4 pass: 4 words, subject and predicate present (The Satan as accuser). 'The Satan' is the Hebrew title as the KJV keeps it in Job 1-2 ('Satan came also among them'), so it is not modernised here even though the connection step names him 'the adversary' in English."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].connection",
+      "reason": "V2-V4 pass: 6 words, 1 sentence, naming what is countered (the accusation) and by whom (divine rebuke). The Zechariah 3:1-2 claim is carried; 'Same-OT:' verbatim."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].title",
+      "reason": "V1-V4 pass: 4 words and the KJV scene of Zechariah 3:1 ('Satan standing at his right hand to resist him'). Carried byte-identical; no decode word."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].connection",
+      "reason": "V2-V4 pass: 10 words, 1 sentence, with a named subject (the serpent of Eden) and verb (identifies). The Revelation 12:9-10 claim is carried; 'NT' is kept exactly as the baseline writes it, without a colon added."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].title",
+      "reason": "V1-V4 pass: 6 words and the KJV words of Revelation 12:9 ('that old serpent, called the Devil, and Satan') and 20:2, in the app's title case. Carried byte-identical rather than 'restored'."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].connection",
+      "reason": "ALREADY-COMMITTED REWRITE (commit 9b6b2a8), re-checked and correct. 'head-crush progressed to binding and lake of fire' is now a sentence whose subject is the promised crushing and whose end is the dragon bound and thrown into the lake of fire (Revelation 20). 'NT:' verbatim, and the live text adds no citation token; 25 words, 1 sentence, gate clean. Verify-only."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].title",
+      "reason": "V1-V4 pass: 4 words and the KJV fact of Revelation 20:2 ('bound him a thousand years'). Carried byte-identical; no decode word."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "name",
+      "reason": "Navigation label, left alone per the group brief (3 words, 1 sentence); gate clean. It is clear and is the shortest accurate summary of the chain (the serpent of Eden shown at the end as the dragon); distinct from every other chain name. No rename proposed."
+    }
+  ],
+  "equivalent": []
+}

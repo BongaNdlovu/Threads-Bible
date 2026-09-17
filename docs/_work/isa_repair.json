@@ -1,0 +1,1995 @@
+{
+  "book": "isa",
+  "bookName": "Isaiah",
+  "drafts": [
+    {
+      "entryId": "isa-42-6",
+      "field": "principle",
+      "after": "“I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison…” First principle: the Servant does more than carry light. He is himself the covenant — God's binding promise in a person.",
+      "reason": "OPERATOR-RULED (CP-05 triage, punctuation class, ruling (b)): the quotation stops at \"from the prison\" where the canon continues \"and them that sit in darkness out of the prison house\", and the trim was not marked. An ellipsis now marks it. No word inside the quotation changed — only the omission is marked, which is what §1.10 C3 requires. This is the only string where that gap could be closed by punctuation alone."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "isa-24-21",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-22",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-25-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-16",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-50-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-20",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-3",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-64-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-44-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-48-12",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-9",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-44-3",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-21",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-7-14",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-1-18",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-41-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-15",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-56-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-21",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-3",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-19",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-24",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-62-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-41-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-20",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-22",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-9",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-12",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-17",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-14",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-3",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-1",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-9",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-6-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-6-9",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-26",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-51-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-3",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-57-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-20",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-7",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-27-9",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-26",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-14",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-51-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-14",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-1",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-25-8",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-25",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-22",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-12",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-5-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-8",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-5",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-50-6",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-26-19",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-6",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-2-2",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-6",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-5",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-2-4",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-1",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-23",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-1",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-48-12",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-16",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-27-13",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-7-14",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-11",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-4",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-10",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-5",
+      "field": "principle",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-44-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-1",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-6",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "terms[1].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-20",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[1].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-6",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-3",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-24-21",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-22",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-22",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-24-21",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-24-21",
+      "field": "terms[1].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-24-21",
+      "field": "terms[1].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-1",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-41-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-12",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-9",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-56-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-21",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "terms[1].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-26",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-21",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-26",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-24",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-1",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-2-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-20",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-43-25",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-23",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-9",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-57-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-64-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[2].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-16",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-6-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-27-9",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-5",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-45-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-22",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-51-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-19",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-61-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-62-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-2",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-22",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "terms[1].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-24-21",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-6-9",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-14",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-14",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-5",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-41-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-44-3",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-3",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-14",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-65-17",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-3",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-66-22",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-35-4",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-50-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-25-8",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-1-18",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-2-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-12",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-29-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-55-10",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-60-3",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-9",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "terms[0].note",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[2].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-14-12",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-7-14",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-49-6",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-20",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-63-1",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-27-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-11",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-51-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-52-15",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-4",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-3",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-8-20",
+      "field": "terms[1].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-7-14",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-11-1",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-6",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-28-16",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-5-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-26-19",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-1",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-3",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-54-5",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-58-13",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-59-7",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-6",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-50-6",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-25-8",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-40-6",
+      "field": "title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-53-5",
+      "field": "terms[1].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-42-1",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "isa-9-1",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "reason": "unchanged by this repair"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "reason": "unchanged by this repair"
+    }
+  ],
+  "equivalent": []
+}

@@ -1,0 +1,230 @@
+{
+  "book": "gal",
+  "bookName": "Galatians",
+  "drafts": [
+    {
+      "entryId": "gal-3-28",
+      "field": "principle",
+      "after": "All one in Christ Jesus. First principle: that oneness is baptismal and rests on God's binding promise. Every believer is one heir, and the old walls came down in the water.",
+      "reason": "STYLE REPAIR: the glossary rendering was inserted with a typographic apostrophe (U+2019), which was the only such occurrence in 57 uses of \"God's binding promise\" across both data files. Normalised to the straight apostrophe every other occurrence uses. One character, no wording change."
+    }
+  ],
+  "verifyOnly": [
+    {
+      "entryId": "gal-4-4",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-22",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-17",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-5",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-29",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-11",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-6-16",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-30",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-1-8",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-6-2",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-8",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-22",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-19",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-27",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-10",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-16",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-12",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-6",
+      "field": "principle",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-16",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-17",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "terms[0].note",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-1-8",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-10",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-28",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "terms[0].note",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-6",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-12",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-29",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-6-16",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-8",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-5",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-22",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-30",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-11",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-27",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-19",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-6-2",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-4",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-4-22",
+      "field": "title",
+      "reason": "unchanged by the style repair"
+    },
+    {
+      "entryId": "gal-3-13",
+      "field": "terms[0].gloss",
+      "reason": "unchanged by the style repair"
+    }
+  ],
+  "equivalent": []
+}

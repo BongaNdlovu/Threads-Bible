@@ -1,0 +1,283 @@
+{
+  "book": "tit",
+  "bookName": "Titus",
+  "part": 1,
+  "parts": 1,
+  "counts": {
+    "entries": 8,
+    "entryStrings": 18,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "tit-1-2",
+    "tit-1-3",
+    "tit-2-11",
+    "tit-2-13",
+    "tit-2-14",
+    "tit-3-4",
+    "tit-3-5",
+    "tit-3-7"
+  ],
+  "fields": [
+    {
+      "entryId": "tit-1-2",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The unlying God promised eternal life before time. First principle: hope has an antiquity older than the world and a Promise-maker who cannot lie — the two stable facts of the Christian life.",
+      "density": 2.2536,
+      "words": 33,
+      "sentences": 2,
+      "maxSentenceWords": 25,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-3-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Saved by mercy through washing and renewal — not works. First principle: Ezekiel's clean-water promise is the engine of rebirth — the Spirit washes, renews, and is poured out richly.",
+      "density": 1.8929,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-2-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Looking for that blessed hope and the glorious appearing of the great God and our Saviour Jesus Christ. First principle: Christian ethics are sustained by eschatological hope.",
+      "density": 1.8536,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-2-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Grace appeared to all men, and it teaches. First principle: grace is pedagogical — the appearing One trains denial, sobriety, and righteousness while we await the blessed hope.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-2-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Redemption from iniquity into a zealous purified people. First principle: the self-gift purifies and possesses — Exodus 19's peculiar treasure is bought back by Isaiah 53's bleeding Servant.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-3-4",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The appearing of kindness is the turning point of the saved. First principle: salvation's origin is God's kindness appearing, not human goodness preceding — not by works, according to mercy.",
+      "density": 1.8357,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-3-7",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Justified grace-people are made heirs of eternal-life hope. First principle: justification is adoption-adjacent — heirs according to hope; the courtroom verdict ends in an inheritance.",
+      "density": 1.5964,
+      "words": 25,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-1-3",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The pre-time promise meets the due-time preaching. First principle: manifestation is scheduled — the word hidden in ages is unveiled through the commanded commission.",
+      "density": 1.5714,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 17,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "tit-3-4",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Kindness and Love of God Our Saviour Toward Man Appeared",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-3-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "By the Washing of Regeneration, and Renewing of the Holy Ghost",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-2-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].note",
+      "text": "Same word for first (2 Tim 1:10) and second coming.",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "appearing",
+        "original": "ἐπιφάνειαν",
+        "translit": "epiphaneian",
+        "strongs": null,
+        "gloss": "appearing, manifestation",
+        "note": "Same word for first (2 Tim 1:10) and second coming.",
+        "exposition": null
+      }
+    },
+    {
+      "entryId": "tit-3-7",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Being Justified by His Grace, We Should Be Made Heirs",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-1-3",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Hath in Due Times Manifested His Word Through Preaching",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-2-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "The Grace of God That Bringeth Salvation Hath Appeared",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-1-2",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "In Hope of Eternal Life, Which God... Promised Before the World Began",
+      "density": 0.7,
+      "words": 12,
+      "sentences": 2,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-2-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Gave Himself for Us... a Peculiar People",
+      "density": 0.4857,
+      "words": 8,
+      "sentences": 2,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-2-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Looking for That Blessed Hope",
+      "density": 0.4107,
+      "words": 5,
+      "sentences": 1,
+      "maxSentenceWords": 5,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "tit-2-13",
+      "file": "bookThreadDetails",
+      "field": "terms[0].gloss",
+      "text": "appearing, manifestation",
+      "density": 0.1643,
+      "words": 2,
+      "sentences": 1,
+      "maxSentenceWords": 2,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "term": "appearing",
+        "original": "ἐπιφάνειαν",
+        "translit": "epiphaneian",
+        "strongs": null,
+        "gloss": "appearing, manifestation",
+        "note": "Same word for first (2 Tim 1:10) and second coming.",
+        "exposition": null
+      }
+    }
+  ],
+  "chains": []
+}

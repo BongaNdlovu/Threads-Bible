@@ -1,0 +1,410 @@
+# CP-02 · Colossians — plain-language draft appendix (AI-drafted, NOT applied by this doc)
+
+Plan: `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` (one-pass protocol) · Date: 2026-09-17
+Book: `col` · in-scope strings: 48 · **rewritten 23 · VERIFY-ONLY 25 · EQUIVALENT 0**
+
+Rules applied: master-plan §1.7 voice; invariant I1 (quoted Scripture never modernised,
+abbreviations never expanded, Hebrew/Greek script + transliteration + Strong's untouchable);
+frozen glossary; per-string meaning checklist. VERIFY-ONLY means the string already met
+the standard — it is a verdict, not a shortfall.
+
+## 1 · Rewritten strings (BEFORE → AFTER)
+
+### `col-2-6` · `principle`
+
+**BEFORE**
+
+```text
+As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. Christian discipleship begins with receiving Christ by faith and progresses by living in unbroken dependence upon Him through prayer, Word study, and active service, putting on the whole armor of God against demonic deception.
+```
+
+**AFTER**
+
+```text
+As ye have therefore received Christ Jesus the Lord, so walk ye in Him: rooted and built up in Him, and stablished in the faith. First principle: following Christ begins when a person receives Him by faith. It grows as that person lives in unbroken dependence on Him. Prayer, the Word, and active service are how that dependence works out. The whole armor of God guards him against demonic deception.
+```
+
+**Why:** the KJV sentence (Col 2:6-7) is carried byte-identical; the single 34-word app sentence becomes four sentences of 14, 10, 13 and 11 words, one idea each. 'Christian discipleship' becomes 'following Christ', 'progresses by living in unbroken dependence' becomes 'grows as that person lives in unbroken dependence', and 'putting on the whole armor of God' gets its own sentence. All four claims survive: begins by receiving Christ by faith; grows by dependence on Him; prayer, the Word, and service; the armor of God against demonic deception.
+
+### `col-2-9` · `principle`
+
+**BEFORE**
+
+```text
+The totality of deity in a body. First principle: Isaiah's Mighty God and John's Word-made-flesh conclude here — fullness bodily, not metaphorically; the incarnation is theodicy and theology at once.
+```
+
+**AFTER**
+
+```text
+The whole fullness of God lives in a body. First principle: Isaiah's Mighty God and John's Word-made-flesh meet here. Christ is fully God in a real human body, not a picture or a symbol. The incarnation — God coming in human flesh — answers the charge that God is unjust and shows us who God is.
+```
+
+**Why:** 'The totality of deity in a body' becomes 'the whole fullness of God lives in a body'; 'fullness bodily, not metaphorically' becomes 'fully God in a real human body, not a picture or a symbol'; and the two abstract labels are defined in the same sentence — 'theodicy' as answering the charge that God is unjust, 'theology' as showing us who God is. Claims kept: all deity dwells in a body; Isaiah's Mighty God and John's Word-made-flesh meet here; the fullness is real, not figurative; the incarnation both answers the charge against God and reveals Him.
+
+### `col-1-26` · `principle`
+
+**BEFORE**
+
+```text
+The hidden mystery is revealed to saints. First principle: Romans 16 and Colossians 1 open the same sealed book — the mystery is Christ's indwelling plan, timed for the apostolic age.
+```
+
+**AFTER**
+
+```text
+What was hidden is now shown to God's people. First principle: Romans 16 and Colossians 1 open the same sealed book. The mystery is God's plan to live inside Christ's people, and God timed its revealing for the age of the apostles.
+```
+
+**Why:** the opening app sentence is split so each idea stands alone, 'saints' becomes 'God's people', and the mystery is named for what it is — God's plan to live inside Christ's people — with the timing kept. Claims kept: the hidden mystery is now shown; Romans 16 and Colossians 1 open the same sealed book; the mystery is Christ's indwelling plan, timed for the age of the apostles.
+
+### `col-1-20` · `principle`
+
+**BEFORE**
+
+```text
+Reconciliation spans earth and heaven. First principle: the cross's peace is cosmic in scale and personal in application — the Prince of Peace purchased the reconciliation His name promised.
+```
+
+**AFTER**
+
+```text
+God brings everything back to himself, both in heaven and on earth. First principle: the peace Jesus bought on the cross reaches the whole universe. It also reaches one person at a time. The Prince of Peace paid for the reconciliation his name promised.
+```
+
+**Why:** the em-dash sentence becomes three plain sentences: peace bought on the cross, its reach across the universe, and its reach into one person at a time. 'Cosmic in scale' becomes 'reaches the whole universe', 'personal in application' becomes 'reaches one person at a time', and 'the Prince of Peace' is carried as the title it is. Claims kept: reconciliation spans earth and heaven; the cross's peace is universal and personal; the Prince of Peace bought the reconciliation His name promised.
+
+### `col-3-11` · `principle`
+
+**BEFORE**
+
+```text
+Barbarian and Scythian dissolve in the new man. First principle: Galatians' oneness is extended to the empire's extremes — Christ is the all in all, so ethnicity is not a rank.
+```
+
+**AFTER**
+
+```text
+Barbarian and Scythian disappear in the new man. First principle: the oneness Galatians describes reaches the farthest edges of the empire. Christ is the all in all. A person's ethnic group does not set his rank.
+```
+
+**Why:** the noun stacks are replaced by actors and verbs, and the final 'so' clause becomes its own sentence. QUOTE-REVIEW: the unquoted rendering 'Christ is the all in all' differs from the served KJV ('but Christ is all, and in all', Col 3:11); it is carried byte-identical, not modernised and not 'restored'. Claims kept: Barbarian and Scythian dissolve in the new man; Galatians' oneness reaches the empire's extremes; Christ is the all in all; ethnicity is not a rank.
+
+### `col-2-14` · `principle`
+
+**BEFORE**
+
+```text
+The contrary record is erased and nailed up as cancelled. First principle: the debt-document is killed at the scene of the payment — Isaiah's blotting and David's blessed covering happened at Golgotha.
+```
+
+**AFTER**
+
+```text
+The record that stood against us is wiped out and nailed to the cross as cancelled. First principle: the debt document was destroyed where the payment was made. Isaiah's blotting out and David's blessed covering both happened at Golgotha.
+```
+
+**Why:** 'The contrary record' is named as the record that stood against us, 'erased and nailed up as cancelled' becomes wiped out and nailed to the cross, and 'the debt-document is killed at the scene of the payment' becomes its own sentence. Isaiah's blotting, David's blessed covering and Golgotha are kept. Claims kept: the record against us is cancelled; the debt document was destroyed where the payment was made; both Old Testament pictures met at Golgotha.
+
+### `col-2-12` · `principle`
+
+**BEFORE**
+
+```text
+Baptism joins the burial and the rising through faith in God's operation. First principle: the ordinance reenacts the gospel sequence — buried with, raised with; the power is God's, the faith is ours.
+```
+
+**AFTER**
+
+```text
+Baptism joins a believer to the burial and the rising. That joining happens through faith in God's operation, which is God raising Jesus from the dead. First principle: baptism acts out the gospel in order. We are buried with Christ, and we are raised with Christ. The power is God's, and the faith is ours.
+```
+
+**Why:** 'the ordinance' is named as baptism, 'reenacts the gospel sequence' becomes 'acts out the gospel in order', and burial and rising get a clause each. 'God's operation' is carried byte-identical and glossed as God raising Jesus from the dead, which is what Col 2:12 says. QUOTE-REVIEW: the unquoted phrase 'faith in God's operation' renders the KJV 'the faith of the operation of God'; carried byte-identical. Claims kept: baptism joins the burial and the rising; it works through faith in God's operation; buried with and raised with; the power is God's and the faith is ours.
+
+### `col-1-17` · `principle`
+
+**BEFORE**
+
+```text
+Preexistence and coherence — the Son holds the cosmos together. First principle: consistency is personal; every atom's persistence is the Word's ongoing work — the Wisdom of Proverbs 8 named.
+```
+
+**AFTER**
+
+```text
+The Son existed before everything, and he holds everything together. First principle: what keeps the universe steady is a person, not a force. Every atom stays in place because the Word keeps working. This is the Wisdom that Proverbs 8 names.
+```
+
+**Why:** the abstract pair 'Preexistence and coherence' is written out as the Son existing before everything and holding everything together; 'consistency is personal' becomes 'what keeps the universe steady is a person, not a force'; and 'every atom's persistence is the Word's ongoing work' becomes its own sentence. Claims kept: preexistence; the Son holds the cosmos together; consistency is personal; every atom persists by the Word's ongoing work; this is the Wisdom Proverbs 8 names.
+
+### `col-2-3` · `principle`
+
+**BEFORE**
+
+```text
+The treasure vault is a Person. First principle: Proverbs' wisdom-cry and Isaiah's Spirit-of-wisdom find their treasury in Christ — knowledge is hidden in Him, not in systems.
+```
+
+**AFTER**
+
+```text
+The treasure vault is a person, not a place. First principle: Proverbs' cry for wisdom and Isaiah's Spirit of wisdom both find their treasure in Christ. Real knowledge is hidden in him, not in human systems.
+```
+
+**Why:** 'The treasure vault is a Person' becomes a person rather than a place, the two Old Testament allusions gain verbs ('cry for wisdom', 'Spirit of wisdom'), and 'not in systems' becomes 'not in human systems'. Claims kept: the treasure is a person; Proverbs' wisdom-cry and Isaiah's Spirit of wisdom find their treasury in Christ; knowledge is hidden in Him, not in systems.
+
+### `col-1-18` · `principle`
+
+**BEFORE**
+
+```text
+Beginning and firstborn, so that in all things He has preeminence. First principle: headship and resurrection-prime join — the church's Head is death's Firstborn, and preeminence is His in everything.
+```
+
+**AFTER**
+
+```text
+Beginning and firstborn, so that in all things He has preeminence. That means Christ holds first place in everything. First principle: headship and the first resurrection meet in him. The church's Head is death's Firstborn. Preeminence is his in everything.
+```
+
+**Why:** the KJV-style opening is carried byte-identical and glossed outside it, where 'preeminence' is said as holding first place in everything; the run of compounds after the label is split into one-idea sentences. QUOTE-REVIEW: the unquoted rendering 'Beginning and firstborn, so that in all things He has preeminence' differs from the served KJV ('who is the beginning, the firstborn from the dead; that in all things he might have the preeminence', Col 1:18); carried byte-identical. Claims kept: he is beginning and firstborn; headship and resurrection-prime join in him; the church's Head is death's Firstborn; preeminence is His in everything.
+
+### `col-2-17` · `principle`
+
+**BEFORE**
+
+```text
+Shadows precede substance. First principle: the sanctuary system was a silhouette — Hebrews' shadow-language and the tabernacle pattern find their casting body in Christ.
+```
+
+**AFTER**
+
+```text
+Shadows precede substance. First principle: the temple service that pointed to him was a silhouette. Hebrews uses the same shadow language, and the tabernacle pattern finds its body in Christ.
+```
+
+**Why:** 'the sanctuary system' carries the frozen glossary rendering 'the temple service that pointed to him', and the em-dash sentence becomes two sentences with a subject and a verb. Claims kept: shadows precede substance; the sanctuary system was a silhouette; Hebrews' shadow language and the tabernacle pattern find their casting body in Christ.
+
+### `col-1-27` · `principle`
+
+**BEFORE**
+
+```text
+The glory-riches mystery is Gentile-located. First principle: the hope is not Christ coming back alone but Christ dwelling within — Immanuel internalized among the nations.
+```
+
+**AFTER**
+
+```text
+This rich and glorious mystery is for the Gentiles. First principle: the hope is not only that Christ will come back. It is that Christ now lives inside a person. Immanuel — God with us — is at work among the nations.
+```
+
+**Why:** 'Gentile-located' becomes 'for the Gentiles'; the contrast 'not Christ coming back alone but Christ dwelling within' is split into its two halves; and 'Immanuel internalized' is explained by the name itself, God with us, with the claim kept as his work among the nations. Claims kept: the glory-riches mystery is for the Gentiles; the hope is Christ dwelling within, not only his return; Immanuel among the nations.
+
+### `col-3-1` · `principle`
+
+**BEFORE**
+
+```text
+The risen life seeks the seated Christ. First principle: ascension is the church's orientation — the right-hand session of Psalm 110 is where the affections live.
+```
+
+**AFTER**
+
+```text
+The life raised with Christ looks for Christ where he sits. First principle: Jesus' return to heaven sets the church's direction. Psalm 110 puts Christ at God's right hand. That is where a believer's heart belongs.
+```
+
+**Why:** the compressed aphorism gains its subject and verb; 'ascension is the church's orientation' becomes Jesus' return to heaven setting the church's direction; and the right-hand session of Psalm 110 is stated plainly, with the affections named as the heart. Claims kept: the risen life seeks the seated Christ; the ascension orients the church; Psalm 110's right hand is where the affections live.
+
+### `col-2-15` · `principle`
+
+**BEFORE**
+
+```text
+He spoiled principalities and powers, making a show of them openly, triumphing over them in it. First principle: the cross is a public victory parade over demonic powers.
+```
+
+**AFTER**
+
+```text
+He spoiled principalities and powers, making a show of them openly, triumphing over them in it. First principle: the cross is a public victory parade over demonic powers. Christ stripped those rulers of their authority and put them on open display as defeated.
+```
+
+**Why:** the KJV-style sentence (15 words) is carried byte-identical, and the gloss outside it decodes 'spoiled' as stripped of authority and 'triumphing' as put on open display as defeated. QUOTE-REVIEW: the unquoted rendering differs from the served KJV ('And having spoiled principalities and powers, he made a shew of them openly, triumphing over them in it', Col 2:15) in 'He spoiled ... making a show'; carried byte-identical. Claims kept: the cross is a public victory parade over demonic powers; those rulers were stripped and openly displayed.
+
+### `col-1-13` · `principle`
+
+**BEFORE**
+
+```text
+Rescue and relocation — the kingdom of the dear Son. First principle: conversion is a transfer of jurisdictions; darkness's authority ends where the Son's kingdom begins.
+```
+
+**AFTER**
+
+```text
+God rescued us and carried us into the kingdom of the dear Son. First principle: when a person turns to Christ, he changes kingdoms. The authority of darkness ends where the Son's kingdom begins.
+```
+
+**Why:** 'Rescue and relocation' becomes rescued and carried, 'the kingdom of the dear Son' is carried as it stands, and 'a transfer of jurisdictions' becomes a change of kingdoms with the actor named — the person who turns to Christ. Claims kept: rescue and relocation into the Son's kingdom; conversion is a transfer of jurisdictions; darkness's authority ends where the Son's kingdom begins.
+
+### `col-3-4` · `principle`
+
+**BEFORE**
+
+```text
+The appearing reveals the hidden life — saints appear with Him in glory. First principle: Christ as life makes His appearing ours; the hidden-with-Christ reality becomes visible glory.
+```
+
+**AFTER**
+
+```text
+When Christ appears, the hidden life is revealed. The saints appear with Him in glory. First principle: because Christ is our life, his appearing is ours too. What was hidden with Christ then becomes visible glory.
+```
+
+**Why:** the em-dash sentence is split; 'Christ as life makes His appearing ours' becomes 'because Christ is our life, his appearing is ours too'; and 'the hidden-with-Christ reality becomes visible glory' is written out with a verb. QUOTE-REVIEW: the unquoted rendering 'saints appear with Him in glory' renders the KJV 'then shall ye also appear with him in glory' (Col 3:4); carried byte-identical. Claims kept: the appearing reveals the hidden life; the saints appear with Him in glory; his appearing is ours; hidden glory becomes visible.
+
+### `col-2-11` · `principle`
+
+**BEFORE**
+
+```text
+The putting off of the body of sins by Christ's circumcision. First principle: the heart-circumcision of Deuteronomy is performed without hands — the flesh-cutting is flesh-removal.
+```
+
+**AFTER**
+
+```text
+The putting off of the body of sins by Christ's circumcision. Christ's circumcision strips the body of sins away. First principle: Deuteronomy told Israel to circumcise their hearts. God does that work without hands. Cutting away flesh pictures the removal of sin.
+```
+
+**Why:** the KJV-style opening is carried byte-identical and glossed as Christ's circumcision stripping the body of sins away; the app sentence is split so heart-circumcision, the work done without hands, and flesh-cutting as flesh-removal each get a sentence. QUOTE-REVIEW: the unquoted rendering 'The putting off of the body of sins by Christ's circumcision' drops 'of the flesh' from the served KJV ('in putting off the body of the sins of the flesh by the circumcision of Christ', Col 2:11); carried byte-identical. Claims kept: the body of sins is put off by Christ's circumcision; Deuteronomy's heart-circumcision; done without hands; flesh-cutting is flesh-removal.
+
+### `col-1-16` · `principle`
+
+**BEFORE**
+
+```text
+By Him all things were created — visible and invisible. First principle: the Son is agent of creation, not its first creature.
+```
+
+**AFTER**
+
+```text
+By Him all things were created — visible and invisible. First principle: the Son made everything. He is not the first thing God created.
+```
+
+**Why:** the opening KJV-style sentence is carried byte-identical; 'the Son is agent of creation, not its first creature' becomes two short sentences — he made everything, and he is not the first thing God created. QUOTE-REVIEW: the unquoted rendering 'By Him all things were created' differs in word order from the served KJV ('For by him were all things created', Col 1:16); carried byte-identical. Claims kept: all things were created by Him, visible and invisible; the Son is the agent of creation, not its first creature.
+
+### `col-2-6` · `terms[0].note`
+
+**BEFORE**
+
+```text
+Perfect passive participle: once planted by faith in Christ, continually drawing life.
+```
+
+**AFTER**
+
+```text
+The verb is passive and describes an act already finished, with results that continue. The person has been rooted in Christ by faith, and he keeps drawing life.
+```
+
+**Why:** the grammar label 'Perfect passive participle' is explained in plain words — a passive verb naming an act already finished with results that continue — and 'once planted by faith in Christ, continually drawing life' becomes a sentence with a subject. Claims kept: the act is finished; the person is rooted in Christ by faith; the life keeps coming.
+
+### `col-1-15` · `terms[0].note`
+
+**BEFORE**
+
+```text
+Gen 1:26 fulfilled in the Son who images the Father perfectly.
+```
+
+**AFTER**
+
+```text
+Gen 1:26 is fulfilled in the Son. He is the exact image of the Father.
+```
+
+**Why:** 'fulfilled in the Son who images the Father perfectly' becomes two plain sentences, with 'image' kept as the term's own word. The citation Gen 1:26 is carried byte-identical and the abbreviation is untouched.
+
+### `col-1-16` · `terms[0].note`
+
+**BEFORE**
+
+```text
+John 1:3 — all things were made through Him.
+```
+
+**AFTER**
+
+```text
+John 1:3 makes the same point. All things were made through Him.
+```
+
+**Why:** the em-dash fragment becomes two sentences with a subject and a verb; the clause 'all things were made through Him' is carried byte-identical and the citation John 1:3 is unchanged.
+
+### `col-2-15` · `terms[0].note`
+
+**BEFORE**
+
+```text
+Roman victory parade imagery — the cross as conquest.
+```
+
+**AFTER**
+
+```text
+The picture is a Roman victory parade. The cross is that conquest.
+```
+
+**Why:** the verbless note becomes two sentences with a subject and a verb: the picture is a Roman victory parade, and the cross is that conquest. Both halves of the claim are kept and no citation is added or dropped.
+
+### `col-2-6` · `terms[1].note`
+
+**BEFORE**
+
+```text
+Present passive participle: continuous spiritual architecture in Christ.
+```
+
+**AFTER**
+
+```text
+The verb is passive and describes work still going on. This person is being built up in Christ, stage by stage.
+```
+
+**Why:** the grammar label 'Present passive participle' is explained in plain words — a passive verb naming work still going on — and 'continuous spiritual architecture in Christ' becomes 'being built up in Christ, stage by stage', keeping the term's own word 'built up'. Claims kept: the work is present and continuous; the building up is in Christ.
+
+## 2 · VERIFY-ONLY strings (already at standard, unchanged)
+
+| entry | field | reason |
+|---|---|---|
+| `col-1-15` | `principle` | 26 words, 2 sentences, longest 13 words. The KJV sentence from Col 1:15 is carried byte-identical and the app sentence 'Christ reveals the invisible God and has priority over all creation' already carries one idea in plain word order with everyday words. Gate PASS; no change needed. |
+| `col-2-17` | `title` | 13 words, one clause (longest 13). KJV title wording from Col 2:17 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-3-1` | `title` | 13 words, one clause (longest 13). KJV title wording from Col 3:1 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-18` | `title` | 12 words, one clause (longest 12). KJV title wording from Col 1:18 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-6` | `title` | 11 words, one clause (longest 11): the KJV phrase 'Rooted and Built Up in Christ' plus the app's own plain phrase 'Walking in Spiritual Maturity'. Everyday words, no decode needed; heading kept verbatim, gate PASS. |
+| `col-1-17` | `title` | 11 words, one clause (longest 11). KJV title wording from Col 1:17 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-3` | `title` | 11 words, one clause (longest 11). KJV title wording from Col 2:3 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-14` | `title` | 11 words, one clause (longest 11). KJV title wording from Col 2:14 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-13` | `title` | 10 words, one clause (longest 10). KJV title wording from Col 1:13 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-9` | `title` | 10 words, one clause (longest 10). KJV title wording from Col 2:9 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-12` | `title` | 10 words, one clause (longest 10). KJV title wording from Col 2:12 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-20` | `title` | 9 words, one clause (longest 9). KJV title wording from Col 1:20 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-3-11` | `title` | 11 words in 2 clauses (longest 7): the KJV wording from Col 3:11 with its ellipsis carried byte-identical. Each clause carries one idea in plain order; heading kept verbatim, gate PASS. |
+| `col-1-26` | `title` | 8 words, one clause (longest 8). KJV title wording from Col 1:26 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-3-4` | `title` | 8 words, one clause (longest 8). KJV title wording from Col 3:4 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-27` | `title` | 7 words, one clause (longest 7). KJV title wording from Col 1:27 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-11` | `title` | 7 words, one clause (longest 7). KJV title wording from Col 2:11 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-15` | `title` | 5 words, one clause (longest 5). KJV phrase from Col 1:15 carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-1-16` | `title` | 5 words, one clause (longest 5). KJV phrase carried byte-identical; heading kept verbatim, gate PASS. |
+| `col-2-6` | `terms[0].gloss` | 6-word literal gloss of the Greek lemma behind the term 'rooted'. A lemma gloss rather than explanatory prose, as on the calibration books, so it is carried byte-identical; gate PASS. |
+| `col-1-16` | `terms[0].gloss` | 5-word literal gloss of the Greek phrase behind the term 'by Him'. A lemma gloss rather than explanatory prose, carried byte-identical; gate PASS. |
+| `col-2-15` | `terms[0].gloss` | 4-word literal gloss of the Greek participle behind the term 'triumphing'. A lemma gloss rather than explanatory prose, carried byte-identical; gate PASS. |
+| `col-2-6` | `terms[1].gloss` | 4-word literal gloss of the Greek participle behind the term 'built up'. A lemma gloss rather than explanatory prose, carried byte-identical; gate PASS. |
+| `col-1-15` | `terms[0].gloss` | 3-word literal gloss of the Greek lemma behind the term 'image'. A lemma gloss rather than explanatory prose, carried byte-identical; gate PASS. |
+| `col-2-15` | `title` | 2 words, one KJV phrase ('spoiled principalities', Col 2:15). Carried byte-identical; heading kept verbatim, gate PASS. |
+

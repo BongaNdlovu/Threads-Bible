@@ -37,6 +37,8 @@ import {
   computeThreadLayout,
 } from './threadMapModel';
 import { cn } from '@/lib/utils';
+import { paragraphBlocks } from './dossierText';
+import { DRAG_THRESHOLD_PX, isInteractiveTarget } from './pointerGuards';
 import { parsePersonalRelevance, parseWho, WhoFacetsGrid } from './HistoricalContextPage';
 import { ThreadMapFallbackCard } from './ThreadMapFallbackCard';
 import {
@@ -131,6 +133,7 @@ const BASE_PALETTES: Record<MapTheme, Omit<Palette, 'gold' | 'goldBright'>> = {
 
 const NODE_W = 250;
 
+
 function strandColor(strand: MapNode['strand'], P: Palette): string {
   return strand === 'gold' ? P.gold : P.steel;
 }
@@ -147,6 +150,41 @@ function readCssVarHex(name: string, fallback: string): string {
   }
 }
 
+/**
+ * Dossier body with one paragraph per idea (display-only spacing, defect G).
+ * The authored wording is passed through untouched; only the block boundaries
+ * and the vertical rhythm between them change.
+ */
+function DossierBlocks({
+  blocks,
+  typing,
+  className,
+  textClassName,
+  style,
+  caretColor,
+}: {
+  blocks: string[];
+  typing: boolean;
+  className?: string;
+  textClassName?: string;
+  style?: React.CSSProperties;
+  caretColor?: string;
+}) {
+  if (blocks.length === 0) return null;
+  return (
+    <div className={cn('space-y-2.5', className)}>
+      {blocks.map((block, i) => (
+        <p key={i} className={textClassName} style={style}>
+          {block}
+          {typing && i === blocks.length - 1 && (
+            <span className="ordo-caret" style={{ color: caretColor }}>▍</span>
+          )}
+        </p>
+      ))}
+    </div>
+  );
+}
+
 export interface OrdoSettings {
   narration: boolean;
   camera: boolean;
@@ -158,8 +196,11 @@ export interface OrdoSettings {
   dossierCollapsed: boolean;
 }
 
-const ORDO_KEY = 'threads-bible-ordo-v2';
-const ORDO_DEFAULTS: OrdoSettings = {
+export const ORDO_KEY = 'threads-bible-ordo-v2';
+/** Legacy key from the pre-v2 viewer; deleted on reset as one-line cleanup. */
+export const ORDO_LEGACY_KEY = 'ordo-viewer-settings-v1';
+
+export const ORDO_DEFAULTS: OrdoSettings = {
   narration: true,
   camera: true,
   autoplay: true,
@@ -169,6 +210,21 @@ const ORDO_DEFAULTS: OrdoSettings = {
   showMinimap: true,
   dossierCollapsed: false,
 };
+
+/**
+ * Drops the persisted Ordo settings so the next mount reads ORDO_DEFAULTS.
+ * Shared by the in-map reset and the fallback card's "Reset Map View" — the
+ * fallback previously deleted a key nothing reads, so it could not reset
+ * anything (defect B0).
+ */
+export function clearOrdoSettings(): void {
+  try {
+    localStorage.removeItem(ORDO_KEY);
+    localStorage.removeItem(ORDO_LEGACY_KEY);
+  } catch {
+    // storage unavailable — in-memory defaults still apply on remount
+  }
+}
 
 function loadOrdoSettings(): OrdoSettings {
   try {
@@ -405,6 +461,8 @@ export function ThreadMap({
   }, [scholarlyModalOpen, isSearchOpen, layoutMenuOpen]);
 
   const dragRef = useRef<{ sx: number; sy: number; ox: number; oy: number } | null>(null);
+  /** Press that has not yet travelled DRAG_THRESHOLD_PX — pan is not committed. */
+  const pendingDragRef = useRef<{ sx: number; sy: number; ox: number; oy: number; pointerId: number } | null>(null);
   const activePointers = useRef(new Map<number, { x: number; y: number }>());
   const pinchStartDist = useRef<number | null>(null);
   const pinchStartScale = useRef<number>(1);
@@ -851,19 +909,33 @@ export function ThreadMap({
     return () => el.removeEventListener('wheel', onWheelNative);
   }, []);
 
-  // Multi-touch drag & pinch-to-zoom
+  // Multi-touch drag & pinch-to-zoom.
+  //
+  // A press that starts on an interactive control (card buttons, edge labels,
+  // links) must never become a pan: capturing the pointer at press time
+  // retargets `pointerup` to this layer, so the browser never dispatches a
+  // `click` on the control and every card action looks dead. Panning is
+  // therefore armed lazily and only commits — pointer capture included — once
+  // the pointer has travelled past DRAG_THRESHOLD_PX.
   const onPointerDown = (e: React.PointerEvent) => {
     cancelGlide();
+    if (isInteractiveTarget(e.target)) {
+      activePointers.current.delete(e.pointerId);
+      dragRef.current = null;
+      pendingDragRef.current = null;
+      return;
+    }
     activePointers.current.set(e.pointerId, { x: e.clientX, y: e.clientY });
     if (activePointers.current.size === 1) {
-      dragRef.current = { sx: e.clientX, sy: e.clientY, ox: view.x, oy: view.y };
+      dragRef.current = null;
+      pendingDragRef.current = { sx: e.clientX, sy: e.clientY, ox: view.x, oy: view.y, pointerId: e.pointerId };
     } else if (activePointers.current.size === 2) {
       dragRef.current = null;
+      pendingDragRef.current = null;
       const pts = Array.from(activePointers.current.values());
       pinchStartDist.current = Math.hypot(pts[0].x - pts[1].x, pts[0].y - pts[1].y);
       pinchStartScale.current = view.scale;
     }
-    (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
   };
 
   const onPointerMove = (e: React.PointerEvent) => {
@@ -876,20 +948,37 @@ export function ThreadMap({
       setView(v => ({ ...v, scale: targetScale }));
       return;
     }
-    const d = dragRef.current;
-    if (!d || activePointers.current.size !== 1) return;
+    if (activePointers.current.size !== 1) return;
+
+    // Below the threshold the view stays still, so a shaky click still lands.
+    let d = dragRef.current;
+    if (!d) {
+      const pending = pendingDragRef.current;
+      if (!pending || pending.pointerId !== e.pointerId) return;
+      if (Math.hypot(e.clientX - pending.sx, e.clientY - pending.sy) < DRAG_THRESHOLD_PX) return;
+      d = { sx: pending.sx, sy: pending.sy, ox: pending.ox, oy: pending.oy };
+      dragRef.current = d;
+      pendingDragRef.current = null;
+      (e.currentTarget as HTMLElement).setPointerCapture?.(e.pointerId);
+    }
     setView(v => ({ ...v, x: d.ox + (e.clientX - d.sx), y: d.oy + (e.clientY - d.sy) }));
   };
 
   const onPointerUp = (e: React.PointerEvent) => {
     activePointers.current.delete(e.pointerId);
+    if (pendingDragRef.current?.pointerId === e.pointerId) pendingDragRef.current = null;
     if (activePointers.current.size < 2) pinchStartDist.current = null;
     if (activePointers.current.size === 1) {
       const remaining = Array.from(activePointers.current.values())[0];
-      dragRef.current = { sx: remaining.x, sy: remaining.y, ox: view.x, oy: view.y };
+      dragRef.current = null;
+      pendingDragRef.current = { sx: remaining.x, sy: remaining.y, ox: view.x, oy: view.y, pointerId: e.pointerId };
     } else {
       dragRef.current = null;
     }
+  };
+
+  const onPointerCancel = (e: React.PointerEvent) => {
+    onPointerUp(e);
   };
 
   // Edge geometry adapting dynamically to node positions
@@ -1102,6 +1191,11 @@ export function ThreadMap({
   const typed = narratedText.slice(0, typedCount);
   const typing = typedCount < narratedText.length;
 
+  /* Dossier idea separation (display only): authored wording is never altered,
+     it is only rendered as one block per idea so the copy stops reading as a
+     single crammed paragraph. */
+  const typedBlocks = useMemo(() => paragraphBlocks(typed), [typed]);
+
   /* Overview Minimap Bounds */
   const world = useMemo(() => {
     if (graph.nodes.length === 0) return null;
@@ -1163,8 +1257,9 @@ export function ThreadMap({
     setThreadMapOpen(false);
   };
 
+  /** In-map reset: restore every persisted setting to its default and reframe. */
   const handleResetMapView = () => {
-    updateSettings({ layoutMode: 'column', spacingMode: 'normal' });
+    updateSettings({ ...ORDO_DEFAULTS });
     setView({ x: 0, y: 0, scale: 1 });
     setStep(1);
   };
@@ -1252,9 +1347,19 @@ export function ThreadMap({
       {/* Main Interactive Pan / Zoom Canvas */}
       <div
         className="absolute inset-0 cursor-grab active:cursor-grabbing touch-none"
+        // Capture phase: stop a press that began on a control from ever reaching
+        // the pan handlers, so the pointer is never captured and the browser
+        // still dispatches `click` on the control (defect A).
+        onPointerDownCapture={e => {
+          if (isInteractiveTarget(e.target)) e.stopPropagation();
+        }}
+        onPointerMoveCapture={e => {
+          if (isInteractiveTarget(e.target)) e.stopPropagation();
+        }}
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={onPointerUp}
+        onPointerCancel={onPointerCancel}
         onPointerLeave={onPointerUp}
       >
         <div
@@ -1340,6 +1445,7 @@ export function ThreadMap({
                     strokeWidth={24}
                     className="cursor-pointer"
                     pointerEvents="stroke"
+                    data-ordo-interactive
                     onClick={() => goToStep(g.edge.step)}
                     onPointerEnter={() => setHoveredEdge(g.edge.id)}
                     onPointerLeave={() => setHoveredEdge(h => (h === g.edge.id ? null : h))}
@@ -2212,10 +2318,13 @@ export function ThreadMap({
                           ? 'Foundational Thread Principle'
                           : `Cumulative Principle · Step ${currentNode.step} (${currentNode.step} Verses in Common)`}
                       </div>
-                      <p className="font-serif text-[13px] font-medium leading-relaxed select-text" style={{ color: P.text }}>
-                        {typed}
-                        {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                      </p>
+                      <DossierBlocks
+                        blocks={typedBlocks}
+                        typing={typing}
+                        caretColor={P.gold}
+                        textClassName="font-serif text-[13px] font-medium leading-relaxed select-text"
+                        style={{ color: P.text }}
+                      />
                     </div>
                   </div>
                 ) : dossierTab === 'ultimate' ? (
@@ -2229,10 +2338,14 @@ export function ThreadMap({
                     title={typing ? "Click to reveal complete text immediately" : undefined}
                   >
                     <Sparkles className="h-4 w-4 shrink-0 mt-0.5" style={{ color: P.gold }} />
-                    <p className="font-serif text-[13.5px] font-medium leading-relaxed" style={{ color: P.text }}>
-                      {typed}
-                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                    </p>
+                    <DossierBlocks
+                      blocks={typedBlocks}
+                      typing={typing}
+                      caretColor={P.gold}
+                      className="flex-1 min-w-0"
+                      textClassName="font-serif text-[13.5px] font-medium leading-relaxed"
+                      style={{ color: P.text }}
+                    />
                   </div>
                 ) : dossierTab === 'personal' ? (
                   (() => {
@@ -2280,10 +2393,13 @@ export function ThreadMap({
                               </div>
                             </div>
                           ) : (
-                            <p className="font-serif text-[13px] font-medium leading-relaxed" style={{ color: P.text }}>
-                              {typed}
-                              {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                            </p>
+                            <DossierBlocks
+                              blocks={typedBlocks}
+                              typing={typing}
+                              caretColor={P.gold}
+                              textClassName="font-serif text-[13px] font-medium leading-relaxed"
+                              style={{ color: P.text }}
+                            />
                           )}
                         </div>
                       </div>
@@ -2305,10 +2421,13 @@ export function ThreadMap({
                         {parsedWho ? (
                           <WhoFacetsGrid facets={parsedWho} gold={P.gold} text={P.text} compact />
                         ) : (
-                          <p className="text-[12.5px] leading-relaxed select-text" style={{ color: P.text }}>
-                            {typed}
-                            {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                          </p>
+                          <DossierBlocks
+                            blocks={typedBlocks}
+                            typing={typing}
+                            caretColor={P.gold}
+                            textClassName="text-[12.5px] leading-relaxed select-text"
+                            style={{ color: P.text }}
+                          />
                         )}
                       </div>
                     );
@@ -2322,10 +2441,13 @@ export function ThreadMap({
                     <div className="font-mono text-[9px] uppercase tracking-wider mb-0.5 font-semibold" style={{ color: P.mute }}>
                       How they connect
                     </div>
-                    <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
-                      {typed}
-                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                    </p>
+                    <DossierBlocks
+                      blocks={typedBlocks}
+                      typing={typing}
+                      caretColor={P.gold}
+                      textClassName="text-[12.5px] leading-relaxed"
+                      style={{ color: P.text }}
+                    />
                     {!typing && graph.terms && graph.terms.some(t => t.exposition) && (
                       <ul className="mt-3 space-y-2">
                         {graph.terms.filter(t => t.exposition).map((t, i) => (
@@ -2363,10 +2485,13 @@ export function ThreadMap({
                       {dossierTab === 'when' && 'When it happened'}
                       {dossierTab === 'why' && 'Why God repeats it'}
                     </div>
-                    <p className="text-[12.5px] leading-relaxed" style={{ color: P.text }}>
-                      {typed}
-                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                    </p>
+                    <DossierBlocks
+                      blocks={typedBlocks}
+                      typing={typing}
+                      caretColor={P.gold}
+                      textClassName="text-[12.5px] leading-relaxed"
+                      style={{ color: P.text }}
+                    />
                   </div>
                 )}
               </div>
@@ -2431,10 +2556,14 @@ export function ThreadMap({
                   return parsedSourceWho ? (
                     <WhoFacetsGrid facets={parsedSourceWho} gold={P.gold} text={P.text} compact />
                   ) : (
-                    <p className="font-serif text-[13px] leading-relaxed min-h-[2.8em] select-text" style={{ color: P.text }}>
-                      {typed}
-                      {typing && <span className="ordo-caret" style={{ color: P.gold }}>▍</span>}
-                    </p>
+                    <DossierBlocks
+                      blocks={typedBlocks}
+                      typing={typing}
+                      caretColor={P.gold}
+                      className="min-h-[2.8em]"
+                      textClassName="font-serif text-[13px] leading-relaxed select-text"
+                      style={{ color: P.text }}
+                    />
                   );
                 })()}
               </div>

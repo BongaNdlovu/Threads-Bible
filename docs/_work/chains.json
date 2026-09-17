@@ -1,0 +1,3305 @@
+{
+  "book": "chains",
+  "bookName": "Pillar chains",
+  "generatedFrom": "union of the 66 per-book worklists, deduplicated",
+  "counts": {
+    "chains": 36,
+    "strings": 658,
+    "name": 36,
+    "title": 311,
+    "connection": 311
+  },
+  "fields": [],
+  "chains": [
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].title",
+      "text": "Call of Abram — blessing to all families"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[0].connection",
+      "text": "Earliest explicit nation-blessing promise."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].connection",
+      "text": "Same-OT: land + multitude expands the blessing frame."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[1].title",
+      "text": "Land forever, dust-like seed"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].connection",
+      "text": "Same-OT: how the blessing is received — faith counted as righteousness."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[2].title",
+      "text": "Stars counted; believed → righteousness"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].connection",
+      "text": "Same-OT: name change and covenant seal (circumcision)."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[3].title",
+      "text": "Abraham, many nations, everlasting covenant"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].connection",
+      "text": "Same-OT: purpose restated — nations, not only Israel."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[4].title",
+      "text": "All nations blessed in him"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].connection",
+      "text": "Same-OT: covenant transmitted without renegotiation."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[5].title",
+      "text": "Promise confirmed to Isaac"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].title",
+      "text": "All families of the earth blessed in Jacob"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[6].connection",
+      "text": "Same-OT: third patriarchal restatement."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].connection",
+      "text": "Same-OT: Israel as mediating people among nations."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[7].title",
+      "text": "Kingdom of priests"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].connection",
+      "text": "Same-OT: worship goal of the blessing."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[8].title",
+      "text": "Nations praise God"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].connection",
+      "text": "NT: blessing arrives in Christ to those who believe."
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[9].title",
+      "text": "Gospel preached to Abraham; heirs by faith"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "name",
+      "text": "Abrahamic Blessing to the Nations"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].title",
+      "text": "You are children of the covenant"
+    },
+    {
+      "entryId": "chain:abrahamic-blessing",
+      "field": "steps[10].connection",
+      "text": "NT: apostolic preaching from this Abrahamic thread."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].connection",
+      "text": "Earliest miraculous food in the wilderness."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[0].title",
+      "text": "Bread rained from heaven"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].connection",
+      "text": "Same-OT: manna teaches reliance on every word from God's mouth."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[1].title",
+      "text": "Man does not live by bread alone"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].title",
+      "text": "Bread of heaven — angels' food"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[2].connection",
+      "text": "Same-OT: poetic celebration of divine provision."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].connection",
+      "text": "NT: Jesus defeats Satan using the manna-principle in the wilderness."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[3].title",
+      "text": "Jesus quotes Deuteronomy 8"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus contrasts perishable manna with His living flesh for the world."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[4].title",
+      "text": "I am the Bread of Life"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].connection",
+      "text": "NT: whoever eats this bread shall live forever."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[5].title",
+      "text": "Living bread that came down from heaven"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].connection",
+      "text": "NT: the church participates in Christ through the broken bread."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].connection",
+      "text": "NT: eschatological feast promised to the faithful."
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "name",
+      "text": "Manna and the True Bread of Life"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[6].title",
+      "text": "One bread, one body"
+    },
+    {
+      "entryId": "chain:bread-from-heaven",
+      "field": "steps[7].title",
+      "text": "Hidden manna to the overcomer"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].connection",
+      "text": "Earliest type: to look at the sign of judgment brought healing."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].title",
+      "text": "Bronze serpent set upon a pole"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].connection",
+      "text": "Same-OT: the sign became an idol, and the bronze itself had no power to save anyone."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].title",
+      "text": "Nehushtan broken in pieces"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].connection",
+      "text": "NT: Jesus used the serpent on the pole to point to His own crucifixion, and to the eternal life it brings."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].title",
+      "text": "Even so must the Son of Man be lifted up"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].connection",
+      "text": "NT: lifting up on the cross reveals His divine identity."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[3].title",
+      "text": "When you lift up the Son of Man"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].title",
+      "text": "Lifted up from the earth to draw all"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[4].connection",
+      "text": "NT: crucifixion draws all peoples to Himself."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].connection",
+      "text": "NT: Christ became sin for us, so that we might become righteous in Him."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "name",
+      "text": "The Bronze Serpent and the Cross"
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].title",
+      "text": "Made sin for us"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].connection",
+      "text": "Earliest explicit grace before judgment."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[0].title",
+      "text": "Noah found grace"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].connection",
+      "text": "Same-OT: justification pattern before circumcision and law."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[1].title",
+      "text": "Believed → counted righteousness"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].connection",
+      "text": "Same-OT: unilateral covenant of promise."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[2].title",
+      "text": "Covenant made with Abram"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].connection",
+      "text": "Same-OT: promise sealed with a sign, not earned by law."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[3].title",
+      "text": "Everlasting covenant + sign"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].connection",
+      "text": "Same-OT: law given to a people already redeemed."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[4].title",
+      "text": "Covenant at Sinai after grace from Egypt"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].title",
+      "text": "Blessed whose transgression is forgiven"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[5].connection",
+      "text": "Same-OT: David confesses imputed righteousness."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].title",
+      "text": "New covenant; law written on hearts"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[6].connection",
+      "text": "Same-OT: promise of internalized forgiveness."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].connection",
+      "text": "NT: Paul argues from Gen 15 against law-justification."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[7].title",
+      "text": "Faith vs. works of the law"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].connection",
+      "text": "NT: same-OT foundation applied to Jew and Gentile."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[8].title",
+      "text": "Abraham justified by faith"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].connection",
+      "text": "NT: Jeremiah 31 fulfilled at the table and cross."
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "steps[9].title",
+      "text": "New covenant in Christ's blood"
+    },
+    {
+      "entryId": "chain:covenant-grace",
+      "field": "name",
+      "text": "Covenant of Grace vs. Human Works"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].title",
+      "text": "I will pour out My Spirit on all flesh"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].connection",
+      "text": "Same-OT: cosmic portents preceding the great and terrible day of the LORD."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].title",
+      "text": "Whosoever shall call upon the name of the Lord shall be saved"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].connection",
+      "text": "NT: Jesus uses Joel's darkened sun and moon for His second coming."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "name",
+      "text": "The Day of the LORD and the Outpouring of the Spirit"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[0].connection",
+      "text": "Earliest universal promise of Spirit-outpouring in the last days."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[1].title",
+      "text": "Signs in heaven; whosoever calls on the LORD saved"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].title",
+      "text": "The day of the LORD is darkness, not light"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[2].connection",
+      "text": "Same-OT: judgment upon hypocritical externalism."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].title",
+      "text": "The great day of the LORD is near and hastens"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[3].connection",
+      "text": "Same-OT: universal urgency of divine reckoning."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].connection",
+      "text": "Same-OT: oven of judgment for proud, healing dawn for faithful."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[4].title",
+      "text": "Sun of Righteousness arises with healing in His wings"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].connection",
+      "text": "NT: Spirit-outpouring explicitly identified as Joel's prophecy."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[5].title",
+      "text": "Peter at Pentecost: \"This is that spoken by Joel\""
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[6].connection",
+      "text": "NT: Paul applies Joel 2:32 to calling on Jesus."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[7].title",
+      "text": "Cosmic signs before the Son of Man arrives"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].title",
+      "text": "The Day of the Lord as a thief in the night"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[8].connection",
+      "text": "NT: unexpected advent for darkness, watchful hope for believers."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].title",
+      "text": "New heavens and new earth in which righteousness dwells"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[9].connection",
+      "text": "NT: elements melt with fervent heat; eternal new creation."
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].title",
+      "text": "The great day of His wrath has come"
+    },
+    {
+      "entryId": "chain:day-of-the-lord",
+      "field": "steps[10].connection",
+      "text": "NT: the kings cry to mountains; the King of kings triumphs."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].connection",
+      "text": "Earliest prophetic herald clearing a highway for YHWH."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[0].title",
+      "text": "Voice crying in the wilderness"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].connection",
+      "text": "Same-OT: messenger prepares the way before the Lord visits His temple."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[1].title",
+      "text": "My messenger to prepare the way"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].connection",
+      "text": "Same-OT: Elijah's spirit of reformation turning hearts before judgment."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[2].title",
+      "text": "Elijah sent before the great and dreadful day"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].connection",
+      "text": "NT: angel Gabriel applies Malachi 4:6 to John the Baptist."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[3].title",
+      "text": "In the spirit and power of Elijah"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus declares John is the promised Elijah of the first advent."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[4].title",
+      "text": "If you will receive it, this is Elijah"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].connection",
+      "text": "NT: dual fulfillment — John came as forerunner; restoration precedes the second advent."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[5].title",
+      "text": "Elijah truly shall come and restore all things"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].connection",
+      "text": "NT: John quotes Isaiah 40:3 for his mission."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].connection",
+      "text": "NT: the end-time message of reformation and judgment calling the world back to true Creator-worship."
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "name",
+      "text": "The Elijah Messenger and the Forerunner"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[6].title",
+      "text": "Voice crying in the wilderness"
+    },
+    {
+      "entryId": "chain:elijah-forerunner",
+      "field": "steps[7].title",
+      "text": "Three Angels' Messages: Final Elijah proclamation"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].connection",
+      "text": "God's binding promise starts here with rain at the right time for sowing and for harvesting the grain."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[0].title",
+      "text": "First rain and latter rain promised"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God promises his presence and new life, pictured as rain."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[1].title",
+      "text": "He shall come as the rain to the earth"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].connection",
+      "text": "Same-OT: rain falling on the ground is a picture of the Spirit poured out."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[2].title",
+      "text": "Former rain and latter rain in the first month"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].connection",
+      "text": "Same-OT: the promise of the Holy Spirit on young and old, servants and handmaids."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[3].title",
+      "text": "Pour out My Spirit on all flesh"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].connection",
+      "text": "Same-OT: God commands his people to pray for the last rain that ripens the crop."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[4].title",
+      "text": "Ask rain in the time of the latter rain"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].connection",
+      "text": "NT: Peter cites Joel 2. The early rain makes the crop sprout. It gives the early church power."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[5].title",
+      "text": "Pentecost: The Early Rain of the Spirit"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].connection",
+      "text": "NT: James uses this picture from farming to call for patient waiting until the Lord comes."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].connection",
+      "text": "NT: the final outpouring of the Holy Spirit (latter rain) illuminating the earth before the harvest."
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "name",
+      "text": "The Early and Latter Rain of the Spirit"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[6].title",
+      "text": "Be patient until the early and latter rain"
+    },
+    {
+      "entryId": "chain:former-latter-rain",
+      "field": "steps[7].title",
+      "text": "Earth lightened with His glory (Loud Cry)"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].connection",
+      "text": "Origin of evil: \"I will ascend above the stars... I will be like the most High.\""
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[0].title",
+      "text": "Lucifer's pride and desire for self-exaltation"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].connection",
+      "text": "Heavenly tragedy: highest created angel corrupts his wisdom through pride."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[1].title",
+      "text": "Anointed covering cherub falls through iniquity"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].title",
+      "text": "Protoevangelium: the first gospel promise — enmity, and the serpent's head crushed."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[2].connection",
+      "text": "Cosmic battle on earth: Seed of woman conquers through sacrifice."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].connection",
+      "text": "Decisive expulsion: Satan and the fallen angels were cast down to the earth."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[3].title",
+      "text": "War in heaven: Michael and His angels cast out the dragon"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].connection",
+      "text": "Calvary victory: the cross forever answered and disarmed Satan's accusations against God's character."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[4].title",
+      "text": "Christ spoils principalities and powers on the Cross"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].connection",
+      "text": "Apostolic promise: believers triumph over the adversary through the living Christ."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[5].title",
+      "text": "God of peace will bruise Satan under your feet shortly"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].connection",
+      "text": "Final execution: the originator of sin is destroyed forever."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[6].title",
+      "text": "The devil cast into the lake of fire"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].connection",
+      "text": "Eternal security: God's love and justice are settled everywhere, so sin will never rise again."
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "steps[7].title",
+      "text": "Utter end: Affliction shall not rise up the second time"
+    },
+    {
+      "entryId": "chain:great-controversy-arc",
+      "field": "name",
+      "text": "6. The Great Controversy Cosmic Arc"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].connection",
+      "text": "Earliest human mandate and identity."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[0].title",
+      "text": "Image, likeness, dominion"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].connection",
+      "text": "Same-OT: image transmitted after the fall (marred, not erased)."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[1].title",
+      "text": "Adam's line in God's likeness"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].connection",
+      "text": "Same-OT: capital justice grounded in the image of God."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[2].title",
+      "text": "Whoever sheds man's blood"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].connection",
+      "text": "Same-OT: dominion praised and questioned — \"what is man?\""
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[3].title",
+      "text": "Man crowned with glory and honor"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].connection",
+      "text": "Same-OT: dominion enthroned in the Lord at YHWH's right."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[4].title",
+      "text": "Sit at my right hand"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].connection",
+      "text": "NT: Ps 8 fulfilled in Jesus, not yet fully visible in fallen man."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[5].title",
+      "text": "All things under His feet"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].connection",
+      "text": "NT: the true Image is the Creator-Son."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].connection",
+      "text": "NT: believers re-imaged in the Messiah."
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "name",
+      "text": "Image of God and Dominion"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[6].title",
+      "text": "Image of the invisible God"
+    },
+    {
+      "entryId": "chain:image-dominion",
+      "field": "steps[7].title",
+      "text": "Renewed in the image"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].connection",
+      "text": "Earliest Joseph cycle — chosen, envied, destined for honor."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[0].title",
+      "text": "Beloved son dreams; brothers envy"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].connection",
+      "text": "Same-OT: betrayal and sale into Egypt."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[1].title",
+      "text": "Stripped, pit, sold for silver"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].title",
+      "text": "Favor in prison — God with him"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[2].connection",
+      "text": "Same-OT: presence under suffering."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].title",
+      "text": "Set over all Egypt"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[3].connection",
+      "text": "Same-OT: humiliation → enthronement."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].connection",
+      "text": "Same-OT: rejection ordered for salvation of many."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[4].title",
+      "text": "God sent me to preserve life"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].title",
+      "text": "You meant evil; God meant good"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[5].connection",
+      "text": "Same-OT: sovereign good over human evil."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].connection",
+      "text": "Same-OT: inspired retelling of the cycle."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[6].title",
+      "text": "Joseph tried, then made lord"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].connection",
+      "text": "NT sermon retells the type in salvation history."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[7].title",
+      "text": "Joseph made governor"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].title",
+      "text": "All things work together for good"
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "steps[8].connection",
+      "text": "NT: cross-shaped providence from Joseph's confession."
+    },
+    {
+      "entryId": "chain:joseph-type",
+      "field": "name",
+      "text": "Joseph — Rejected Deliverer"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].connection",
+      "text": "Earliest naming of the royal tribe in praise."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[0].title",
+      "text": "Judah named — praise"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].connection",
+      "text": "Same-OT: messianic genealogy continues through scandal and grace."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[1].title",
+      "text": "Tamar and Perez — line preserved"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].connection",
+      "text": "Same-OT: tribal blessing becomes royal messianic prophecy."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[2].title",
+      "text": "Lion of Judah; scepter to Shiloh"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].connection",
+      "text": "Same-OT: genealogy to King David."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[3].title",
+      "text": "David from Judah's line"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].connection",
+      "text": "Same-OT: eternal dynasty promised to David."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[4].title",
+      "text": "Throne established forever"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].connection",
+      "text": "Same-OT: steadfast love sworn to the anointed."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[5].title",
+      "text": "Covenant with David's seed"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].title",
+      "text": "Child born; government on His shoulder"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[6].connection",
+      "text": "Same-OT: Davidic son as everlasting ruler."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].title",
+      "text": "Until He comes whose right it is"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[7].connection",
+      "text": "Same-OT: scepter withheld until the rightful one."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].connection",
+      "text": "NT genealogy ties Abraham → Judah → David → Jesus."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[8].title",
+      "text": "Jesus Christ, son of David, son of Abraham"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].connection",
+      "text": "NT: annunciation fulfills the royal chain."
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "name",
+      "text": "Judah — Lion and Scepter"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[9].title",
+      "text": "Throne of his father David"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].title",
+      "text": "Lion of the tribe of Judah has prevailed"
+    },
+    {
+      "entryId": "chain:judah-royal-scepter",
+      "field": "steps[10].connection",
+      "text": "NT: the conquering Lion opens the scroll."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].connection",
+      "text": "The first redemption law in the Torah: a close relative buys back land and freedom that a family lost."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[0].title",
+      "text": "The law of the Go'el — buying back land and family"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Boaz redeems the field and takes Ruth into the covenant line."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[1].title",
+      "text": "Boaz the faithful kinsman-redeemer"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].connection",
+      "text": "Same-OT: women bless God for the redeemer who fathers Obed."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[2].title",
+      "text": "A redeemer to restore life"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Job confesses his living Go'el will stand on the earth."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[3].title",
+      "text": "I know that my Redeemer lives"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].connection",
+      "text": "Same-OT: YHWH Himself comes as Israel's Redeemer."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[4].title",
+      "text": "The Redeemer shall come to Zion"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].connection",
+      "text": "NT: Christ becomes our near kin in the flesh to accomplish redemption."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[5].title",
+      "text": "Born of a woman to redeem those under the law"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].connection",
+      "text": "NT: by sharing our blood He breaks death and frees the enslaved."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[6].title",
+      "text": "Not ashamed to call them brethren"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].connection",
+      "text": "NT: the slain Redeemer opens the seven-sealed scroll of redemption."
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "steps[7].title",
+      "text": "Worthy is the Lamb to take the title deed"
+    },
+    {
+      "entryId": "chain:kinsman-redeemer",
+      "field": "name",
+      "text": "The Kinsman-Redeemer (Go'el)"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].title",
+      "text": "God said; light shines in darkness"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[0].connection",
+      "text": "Earliest creative speech and light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].connection",
+      "text": "Same-OT: light ordered into the cosmos."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[1].title",
+      "text": "Lights for signs; day/night ruled"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].title",
+      "text": "Heavens declare the glory of God"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[2].connection",
+      "text": "Same-OT: creation as speech/witness."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].title",
+      "text": "Word a lamp; entrance of words gives light"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[3].connection",
+      "text": "Same-OT: Torah as light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].title",
+      "text": "People in darkness see a great light"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[4].connection",
+      "text": "Same-OT: messianic light in Galilee."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].connection",
+      "text": "Same-OT: servant as covenant light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[5].title",
+      "text": "Light to the nations"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].title",
+      "text": "Word; true Light coming into the world"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[6].connection",
+      "text": "NT: person of the Word and Light."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].title",
+      "text": "Light of the knowledge of God in Christ"
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "steps[7].connection",
+      "text": "NT: Paul quotes creation-light for gospel illumination."
+    },
+    {
+      "entryId": "chain:light-word",
+      "field": "name",
+      "text": "Light and the Word"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].title",
+      "text": "Melchizedek blesses Abram with bread and wine"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[0].connection",
+      "text": "Earliest priest-king outside Levi; Abram pays tithe."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].title",
+      "text": "You are a priest forever after the order of Melchizedek"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Davidic Lord appointed eternal priest — not Aaronic."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].connection",
+      "text": "NT applies Ps 110 to Jesus' priesthood."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[2].title",
+      "text": "Christ called as High Priest"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].connection",
+      "text": "NT unfolds Melchizedek as superior, deathless, and perfecting."
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "steps[3].title",
+      "text": "Better priesthood, better covenant"
+    },
+    {
+      "entryId": "chain:melchizedek-priesthood",
+      "field": "name",
+      "text": "Melchizedek Priesthood"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].connection",
+      "text": "Torah type: in the 50th year the Jubilee gave back lost property and set captive slaves free."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[0].title",
+      "text": "The Jubilee: Israel proclaims liberty and every family gets its land back"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].connection",
+      "text": "Prophetic vision: earth returned to chaotic abyss (tohu va-bohu) while cities lie in ruins before the Lord."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[1].title",
+      "text": "Earth desolated without inhabitant during judgment"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].connection",
+      "text": "Millennial imprisonment: demonic powers and wicked rulers locked in the pit for 1,000 years."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[2].title",
+      "text": "High ones and kings gathered in prison, visited after many days"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].connection",
+      "text": "Heavenly review: redeemed believers during the 1,000 years examine records and affirm divine justice."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[3].title",
+      "text": "Saints shall judge the world and judge angels"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].connection",
+      "text": "Millennium in heaven: righteous raised at second coming; Satan bound to desolate earth."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[4].title",
+      "text": "First resurrection: Saints reign with Christ 1,000 years"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].connection",
+      "text": "Consummation: wicked raised after 1,000 years; lake of fire consumes evil permanently."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[5].title",
+      "text": "Second resurrection: Final rebellion devoured by fire"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].connection",
+      "text": "Cosmic purification: fire purges the planet, making way for eternal recreation."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[6].title",
+      "text": "Elements melt; new heavens and new earth wherein dwelleth righteousness"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].connection",
+      "text": "Eden restored: death, sorrow, and crying passed away forever."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[7].title",
+      "text": "New Jerusalem descends: God tabernacles with men"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].title",
+      "text": "River of life and tree of life: They shall see His face"
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "steps[8].connection",
+      "text": "Eternal communion: unbroken fellowship with God and the Lamb throughout eternity."
+    },
+    {
+      "entryId": "chain:millennium-earth-made-new",
+      "field": "name",
+      "text": "8. The Millennium & The Earth Made New"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].connection",
+      "text": "The earliest promise that God will work inside a person, in place of outward failure."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[0].title",
+      "text": "The LORD will circumcise your heart"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].connection",
+      "text": "Same-OT: God plainly promises a new covenant — God's binding promise — with sins forgiven for good."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[1].title",
+      "text": "The New Covenant — law written on the heart"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].connection",
+      "text": "Same-OT: God takes away the heart of stone and gives a heart of flesh."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[2].title",
+      "text": "A new heart and the Spirit within"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].connection",
+      "text": "NT: at the Last Supper Jesus begins the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[3].title",
+      "text": "This cup is the New Covenant in My blood"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].connection",
+      "text": "NT: the church of the apostles keeps remembering the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[4].title",
+      "text": "The New Covenant remembered at the Lord's Supper"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].connection",
+      "text": "NT: written on fleshy tables of the heart, not stone."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[5].title",
+      "text": "Ministers of the New Covenant in the Spirit"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].connection",
+      "text": "NT: the Spirit, not an outward sign, defines who you are inside. This fulfills Deut 30:6."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[6].title",
+      "text": "Circumcision is of the heart, in the spirit"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].title",
+      "text": "Christ stands between God and us in a better covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[7].connection",
+      "text": "NT: this passage quotes Jeremiah 31 in full. Then it explains what the words mean."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].connection",
+      "text": "NT: Christ's sacrifice is final. It completes the new covenant, God's binding promise."
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "steps[8].title",
+      "text": "Their sins and iniquities I will remember no more"
+    },
+    {
+      "entryId": "chain:new-covenant-heart",
+      "field": "name",
+      "text": "Circumcision of Heart and the New Covenant"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].connection",
+      "text": "Moral and prophetic consistency: if doctrine contradicts God's law or prophetic word, there is no light in it."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[0].title",
+      "text": "Test 1: To the Law and to the Testimony"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].connection",
+      "text": "Canonical harmony: no prophecy is of private interpretation; established by the consensus of the whole canon."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].connection",
+      "text": "Christological focus: every prophetic time-period centers on Christ's sacrifice, priesthood, and return."
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "name",
+      "text": "Safeguard Against Strange Doctrines: The Three Biblical Tests"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[1].title",
+      "text": "Test 2: Sola Scriptura / Analogia Scripturae"
+    },
+    {
+      "entryId": "chain:no-strange-doctrines",
+      "field": "steps[2].title",
+      "text": "Test 3: Christ-Centered Sanctuary Baseline"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].title",
+      "text": "Woman from the man; one flesh"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[0].connection",
+      "text": "Earliest marriage ordinance and type."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].connection",
+      "text": "Same-OT: bride secured by sending and willing heart."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[1].title",
+      "text": "Servant seeks a bride for Isaac"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].connection",
+      "text": "Same-OT: YHWH as Husband of Israel."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[2].title",
+      "text": "Your Maker is your Husband"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].title",
+      "text": "I will betroth you in righteousness"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[3].connection",
+      "text": "Same-OT: covenant marriage after unfaithfulness."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].title",
+      "text": "I entered into covenant with you"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[4].connection",
+      "text": "Same-OT: marriage-covenant theology."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].connection",
+      "text": "NT: Jesus re-grounds marriage in creation."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[5].title",
+      "text": "What God has joined"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].connection",
+      "text": "NT: the great mystery of one flesh."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[6].title",
+      "text": "Christ and the church"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].connection",
+      "text": "NT: eschatological wedding of Messiah and people."
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "steps[7].title",
+      "text": "Marriage of the Lamb; bride prepared"
+    },
+    {
+      "entryId": "chain:one-flesh-bride",
+      "field": "name",
+      "text": "One Flesh and the Bride"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].connection",
+      "text": "The earliest promise of a final prophet from among Israel, one who stands between God and the people."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[0].title",
+      "text": "The LORD will raise up a Prophet like me"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].connection",
+      "text": "Same-OT: this prophet speaks God's own commands, with authority that must be obeyed."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[1].title",
+      "text": "Words put in His mouth"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].connection",
+      "text": "Same-OT: this verse is a marker in the Bible. It shows Joshua and the prophets were not the promised One."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[2].title",
+      "text": "No prophet since like Moses"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].connection",
+      "text": "NT: the disciples recognize Jesus as the Prophet like Moses."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[3].title",
+      "text": "Found Him of whom Moses wrote"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].connection",
+      "text": "NT: Jesus testifies that Moses' writings pointed to Him."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[4].title",
+      "text": "Moses wrote of Me"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].connection",
+      "text": "NT: the Father speaks from the cloud citing the command of Deut 18:15."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[5].title",
+      "text": "Hear Him — Transfiguration"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].connection",
+      "text": "NT: the apostles preach that Jesus is the Prophet everyone must obey."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[6].title",
+      "text": "Peter cites Deuteronomy 18"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].connection",
+      "text": "NT: Stephen identifies Jesus as the Prophet like Moses."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[7].title",
+      "text": "Stephen before the Sanhedrin"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].connection",
+      "text": "NT: Moses was faithful as a servant. Christ is the Son over the house."
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "steps[8].title",
+      "text": "Jesus counted worthy of more glory than Moses"
+    },
+    {
+      "entryId": "chain:prophet-like-moses",
+      "field": "name",
+      "text": "The Prophet Like Unto Moses"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].title",
+      "text": "Coats of skins — God clothes by blood"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[0].connection",
+      "text": "Earliest covering requires death of an animal."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].connection",
+      "text": "Same-OT: acceptable sacrifice is firstborn/blood-shaped."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[1].title",
+      "text": "Abel's firstlings accepted"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].connection",
+      "text": "Same-OT: sacrifice turns judgment into covenant mercy."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[2].title",
+      "text": "Noah's burnt offering — sweet savour"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].connection",
+      "text": "Same-OT: substitutionary animal in place of the only son on Moriah."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[3].title",
+      "text": "God will provide Himself the lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].connection",
+      "text": "Same-OT: blood on doorposts averts death."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[4].title",
+      "text": "Passover lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].connection",
+      "text": "Same-OT: the servant bears sins; the LORD lays on Him iniquity."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[5].title",
+      "text": "Servant as sacrificial lamb"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].connection",
+      "text": "NT names Jesus as the provided Lamb who takes away sin."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[6].title",
+      "text": "Behold the Lamb of God"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].title",
+      "text": "He did not spare His own Son"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[7].connection",
+      "text": "NT: Father's gift echoes Isaac's near-offering."
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "name",
+      "text": "Provided Lamb / Substitution"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].title",
+      "text": "Lamb without blemish, foreknown"
+    },
+    {
+      "entryId": "chain:provided-lamb",
+      "field": "steps[8].connection",
+      "text": "NT: unblemished sacrifice foreordained."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].title",
+      "text": "God rested and sanctified the seventh day"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[0].connection",
+      "text": "Earliest rest — cessation and blessing."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Sinai rest-law cites Gen 2."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[1].title",
+      "text": "Sabbath command grounded in creation"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].connection",
+      "text": "Same-OT: Sabbath as covenant sign to Israel."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[2].title",
+      "text": "Sign of covenant forever"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].connection",
+      "text": "Same-OT: rest becomes delight, not mere non-work."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[3].title",
+      "text": "Delight in the holy day"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].connection",
+      "text": "Same-OT: rest refused to unbelief in the wilderness."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[4].title",
+      "text": "They shall not enter my rest"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].connection",
+      "text": "NT reads creation + wilderness rest as eschatological rest in Christ."
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "steps[5].title",
+      "text": "A Sabbath rest remains for the people of God"
+    },
+    {
+      "entryId": "chain:rest-sabbath",
+      "field": "name",
+      "text": "Sabbath Rest Remaining"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].connection",
+      "text": "This is the earliest clear hope that a person will see God in the body after the body has fallen apart."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[0].title",
+      "text": "In my flesh I shall see God"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].connection",
+      "text": "Same-OT: David prophesied that the grave would not keep him."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[1].title",
+      "text": "Thou wilt not leave my soul in Sheol"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the earth gives up its dead in the resurrection."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[2].title",
+      "text": "Awake and sing, ye that dwell in dust"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].connection",
+      "text": "Same-OT: a vision of the Spirit raising the dead out of their graves."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[3].title",
+      "text": "I will open your graves — dry bones live"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the resurrection runs two ways, to everlasting life or to shame."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[4].title",
+      "text": "They that sleep in dust awake"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].connection",
+      "text": "Same-OT: YHWH pays the price to bring his people back from the power of the grave."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[5].title",
+      "text": "O death, I will be thy plagues"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus declares His voice raises the dead to life or condemnation."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[6].title",
+      "text": "All that are in the graves shall hear His voice"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].connection",
+      "text": "Jesus shows his authority to raise the dead when he raises Lazarus."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[7].title",
+      "text": "I am the Resurrection and the Life"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].connection",
+      "text": "Psalm 16 was fulfilled in Christ's empty tomb."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[8].title",
+      "text": "Apostles preach Christ risen without corruption"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].connection",
+      "text": "Paul quotes Isaiah 25:8 and Hosea 13:14 to prove the bodily resurrection."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "name",
+      "text": "Bodily Resurrection: Awakening from the Dust"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[9].title",
+      "text": "Christ the firstfruits; death swallowed up"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].title",
+      "text": "The dead in Christ shall rise first"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[10].connection",
+      "text": "At the Lord's descent, believers are raised in the body, and everyone sees it."
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].title",
+      "text": "First resurrection; death cast into the lake of fire"
+    },
+    {
+      "entryId": "chain:resurrection-remnant",
+      "field": "steps[11].connection",
+      "text": "Death is finally conquered, and the body is vindicated."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].connection",
+      "text": "This is the earliest promise of a royal family line: God will establish David's descendant."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[0].title",
+      "text": "God's binding promise to David: a house and a throne forever"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].connection",
+      "text": "In the same Old Testament David speaks his last words, and he looks forward to God making his salvation branch forth."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[1].title",
+      "text": "God's binding promise to make it branch forth forever"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].connection",
+      "text": "In the same Old Testament Isaiah gives the Branch this name on the day God cleanses his people."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[2].title",
+      "text": "Branch of the LORD beautiful and glorious"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].connection",
+      "text": "In the same Old Testament God's Spirit rests on this ruler, who will rule over the nations."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[3].title",
+      "text": "Shoot from the stem of Jesse, Branch from his roots"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].connection",
+      "text": "In the same Old Testament a king rules with wisdom, and he does what is just and right."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[4].title",
+      "text": "The Righteous Branch, the LORD Our Righteousness"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].connection",
+      "text": "In the same Old Testament God binds himself to David with a promise, and he will not take it back."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[5].title",
+      "text": "The Branch of righteousness growing up for David"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].connection",
+      "text": "In the same Old Testament, after the exile, God confirms the promise of the Branch again."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].connection",
+      "text": "In the same Old Testament the Branch builds the LORD's temple, and he is both priest and king on his throne."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].connection",
+      "text": "In the New Testament Zechariah praises the sunrise that visits us from on high, and he uses the same word for the Branch."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].connection",
+      "text": "In the New Testament Paul quotes Isaiah 11:10 to show that the Gentiles also have hope."
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "name",
+      "text": "The Branch (Tsemach) and the Davidic Throne"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[6].title",
+      "text": "My Servant the BRANCH"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[7].title",
+      "text": "Priest-King on His throne"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[8].title",
+      "text": "Dayspring from on high (Anatolē / Tsemach)"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[9].title",
+      "text": "Root of Jesse reigning over Gentiles"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].title",
+      "text": "Root and Offspring of David"
+    },
+    {
+      "entryId": "chain:righteous-branch",
+      "field": "steps[10].connection",
+      "text": "In the New Testament Jesus is the triumphant Lion and the morning star."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].connection",
+      "text": "Earliest origin: seventh-day rest instituted in Eden before the entrance of sin."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[0].title",
+      "text": "Creation Sabbath: God rested, blessed, and sanctified the seventh day"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].connection",
+      "text": "Sinai moral law: written by the finger of God in the heart of the Decalogue."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[1].title",
+      "text": "Fourth Commandment: Perpetual memorial of Creation"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].connection",
+      "text": "Prophetic covenant: the Sabbath identifies the true Creator who makes His people holy."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[2].title",
+      "text": "Perpetual sign of sanctification between God and His people"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].connection",
+      "text": "NT example: Jesus Christ observed the seventh-day Sabbath throughout His earthly incarnation."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[3].title",
+      "text": "Christ's custom: synagogue worship on the Sabbath day"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].connection",
+      "text": "NT prophetic continuity: Jesus instructs disciples to guard Sabbath sanctity far past the Cross into 70 AD and end-times."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[4].title",
+      "text": "Pray that your flight be not on the Sabbath"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].connection",
+      "text": "Apostolic theology: the weekly rest remains a living obligation and spiritual rest for God's people."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[5].title",
+      "text": "There remaineth therefore a Sabbath-keeping (sabbatismos)"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].connection",
+      "text": "End-time restoration: Third Angel quotes Exodus 20:11, restoring Creator-worship before judgment."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[6].title",
+      "text": "Final call: Worship Him that made heaven, earth, and sea"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].connection",
+      "text": "Eternal consummation: Sabbath remains the perpetual rhythm of worship in the restored cosmos."
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "steps[7].title",
+      "text": "New Earth: From one Sabbath to another all flesh worships"
+    },
+    {
+      "entryId": "chain:sabbath-creation-new-earth",
+      "field": "name",
+      "text": "3. The Sabbath: Creation to the New Earth"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].connection",
+      "text": "Earliest blueprint: earthly tabernacle modeled after the heavenly reality shown to Moses."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[0].title",
+      "text": "Pattern of the Sanctuary: God dwells with His people"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].connection",
+      "text": "Same-OT: each year the Day of Atonement purged the sin that had piled up and cleansed the holy places."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[1].title",
+      "text": "Yom Kippur, the Day of Atonement — the sanctuary cleansed every year by blood"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].connection",
+      "text": "Same-OT: pre-advent judgment scene before the Ancient of Days vindicates the saints."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[2].title",
+      "text": "Heavenly court seated and books opened"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].connection",
+      "text": "Anchor prophecy: 2,300 prophetic day-years culminating in the restoration/vindication (nitsdaq) of the heavenly sanctuary."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[3].title",
+      "text": "Unto 2,300 days; then shall the sanctuary be cleansed"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].connection",
+      "text": "NT: Christ ministers in heaven itself, which the Lord pitched and not man."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[4].title",
+      "text": "Christ High Priest of the true tabernacle"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].connection",
+      "text": "NT: earthly sanctuary purified with animal blood; heavenly sanctuary entered by Christ's own blood."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[5].title",
+      "text": "Heavenly patterns purified with better sacrifices"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].connection",
+      "text": "NT: Most Holy Place opened at the sounding of the seventh trumpet."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[6].title",
+      "text": "Temple of God opened in heaven; ark of His testament seen"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].connection",
+      "text": "NT: pre-advent investigative judgment inaugurating the final cleansing before the second coming."
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "steps[7].title",
+      "text": "Hour of His judgment is come — worship the Creator"
+    },
+    {
+      "entryId": "chain:sanctuary-2300-days",
+      "field": "name",
+      "text": "1. The 2,300 Days & Cleansing of the Sanctuary"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].connection",
+      "text": "Earliest sanctuary: God dwells among His people by a revealed pattern."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[0].title",
+      "text": "Tabernacle after the heavenly pattern"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].connection",
+      "text": "Same-OT: annual purging of accumulated sin from the sanctuary."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[1].title",
+      "text": "Day of Atonement — sanctuary cleansed by blood"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].connection",
+      "text": "Same-OT: covenant identity marked by Creator-rest."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[2].title",
+      "text": "Sabbath as creation memorial"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].connection",
+      "text": "Same-OT: judgment scene before the kingdom is possessed."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[3].title",
+      "text": "Heavenly court; judgment given to the saints"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].title",
+      "text": "Unto 2,300 days — then the sanctuary is made right"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[4].connection",
+      "text": "Same-OT: time prophecy ending in a sanctuary-cleansing event."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].title",
+      "text": "Seventy weeks — Messiah, cutting off, end of sacrifice"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[5].connection",
+      "text": "Same-OT: messianic mission within a fixed prophetic window."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].connection",
+      "text": "NT: earthly pattern fulfilled in Christ's high-priestly ministry in heaven."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[6].title",
+      "text": "Christ minister of the true tabernacle"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].connection",
+      "text": "NT: end-time call to Creator-worship in view of judgment (echoes Exod 20:11)."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[7].title",
+      "text": "Fear God — the hour of His judgment is come"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].title",
+      "text": "Remnant keep the commandments of God and the faith of Jesus"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[8].connection",
+      "text": "NT: God's end-time people identified by obedience + faith in Christ."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].connection",
+      "text": "NT: bodily resurrection of the just at Christ's coming; the dead rest until raised."
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "steps[9].title",
+      "text": "First resurrection — the rest of the dead live not again"
+    },
+    {
+      "entryId": "chain:sanctuary-judgment",
+      "field": "name",
+      "text": "Sanctuary, Judgment, and Remnant"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].connection",
+      "text": "Earliest gospel promise: war between seeds, victory through wound."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[0].title",
+      "text": "Protoevangelium — Seed crushes serpent's head"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].connection",
+      "text": "Same-OT: the seed is narrowed to one family line for the nations' blessing."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[1].title",
+      "text": "All families blessed in Abram"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].connection",
+      "text": "Same-OT: after Isaac's near-offering, seed = singular heir of promise."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[2].title",
+      "text": "In your seed all nations bless themselves"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].connection",
+      "text": "Same-OT: seed-line becomes royal — Judah's scepter until Shiloh."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[3].title",
+      "text": "Shiloh / scepter of Judah"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].connection",
+      "text": "Same-OT: royal seed given an eternal dynasty."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[4].title",
+      "text": "Davidic throne forever"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].connection",
+      "text": "Same-OT: Davidic seed as Spirit-anointed shoot."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[5].title",
+      "text": "Branch from Jesse"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].connection",
+      "text": "NT names the singular Seed of the Abrahamic promise."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[6].title",
+      "text": "The Seed is Christ"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].connection",
+      "text": "NT applies the head-crush to the church in Christ."
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "steps[7].title",
+      "text": "God crushes Satan under your feet"
+    },
+    {
+      "entryId": "chain:seed-of-woman",
+      "field": "name",
+      "text": "Seed of the Woman"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].title",
+      "text": "The serpent questions God's word"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[0].connection",
+      "text": "Earliest adversary character."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].connection",
+      "text": "Same-OT: doom of the serpent announced."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[1].title",
+      "text": "Enmity and crushed head"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].connection",
+      "text": "Same-OT: sin banished to the wilderness adversary."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[2].title",
+      "text": "Scapegoat for Azazel"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].connection",
+      "text": "Same-OT: adversary in the divine council."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[3].title",
+      "text": "The Satan as accuser"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].connection",
+      "text": "Same-OT: accusation countered by divine rebuke."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[4].title",
+      "text": "Satan standing to accuse"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].connection",
+      "text": "NT identifies the serpent of Eden as the cosmic dragon."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[5].title",
+      "text": "That old serpent, Devil and Satan"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].connection",
+      "text": "NT: head-crush progressed to binding and lake of fire."
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "steps[6].title",
+      "text": "Bound a thousand years"
+    },
+    {
+      "entryId": "chain:serpent-dragon",
+      "field": "name",
+      "text": "Serpent to Dragon"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].connection",
+      "text": "Historical datum: 7th year of Artaxerxes I gives full legal autonomy to rebuild city, starting the 70-week and 2,300-day counts."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[0].title",
+      "text": "Decree of Artaxerxes to restore Jerusalem (457 BC)"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].connection",
+      "text": "Prophetic timeline: 70 sevens (490 years) cut off for covenant probation and messianic atonement."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[1].title",
+      "text": "Seventy weeks determined upon thy people"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].connection",
+      "text": "Calculation: 457 BC + 483 years brings exactly to 27 AD."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[2].title",
+      "text": "Unto Messiah the Prince: 69 weeks (483 years)"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].connection",
+      "text": "NT fulfillment: 15th year of Tiberius Caesar; Jesus is anointed (Messiah / Christ) at His baptism."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[3].title",
+      "text": "27 AD: Jesus baptized and anointed with the Holy Spirit"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].connection",
+      "text": "Same-OT: substitutionary death of the Anointed One foretold."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[4].title",
+      "text": "Messiah cut off, but not for Himself"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].connection",
+      "text": "Prophecy: in the middle of the 70th week (after 3.5 years of ministry, spring 31 AD), sacrifices are ended."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[5].title",
+      "text": "Midst of the week: cause sacrifice and oblation to cease"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].connection",
+      "text": "NT fulfillment: Christ dies at Passover; type meets antitype; the animal sacrificial system terminates."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[6].title",
+      "text": "31 AD: Temple veil rent in twain at crucifixion"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].connection",
+      "text": "NT fulfillment: end of the 70 weeks (490 years); gospel proclamation transitions to the Gentiles."
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "steps[7].title",
+      "text": "34 AD: Stephen stoned; gospel sent to Gentiles"
+    },
+    {
+      "entryId": "chain:seventy-weeks-messiah",
+      "field": "name",
+      "text": "2. The 70 Weeks: Dating the Messiah"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].title",
+      "text": "Abel keeper of sheep; Jabal father of herdsmen"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[0].connection",
+      "text": "Earliest shepherding vocation in the fallen world."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].title",
+      "text": "God who fed me all my life"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[1].connection",
+      "text": "Same-OT: Jacob confesses God as personal Shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].title",
+      "text": "The LORD is my shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[2].connection",
+      "text": "Same-OT: shepherd-psalm of covenant care."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].title",
+      "text": "You who lead Joseph like a flock"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[3].connection",
+      "text": "Same-OT: shepherd-God of the tribes."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].title",
+      "text": "I myself will be their shepherd; my servant David"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[4].connection",
+      "text": "Same-OT: divine shepherd raising Davidic shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].title",
+      "text": "He shall feed his flock like a shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[5].connection",
+      "text": "Same-OT: arm of the LORD gathers lambs."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].title",
+      "text": "I am the good shepherd"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[6].connection",
+      "text": "NT: Jesus fulfills divine-shepherd prophecy."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].connection",
+      "text": "NT: raised Shepherd of the new covenant."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[7].title",
+      "text": "Great Shepherd of the sheep"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].connection",
+      "text": "NT: shepherds under the Chief Shepherd."
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "name",
+      "text": "Shepherd and Provision"
+    },
+    {
+      "entryId": "chain:shepherd-provision",
+      "field": "steps[8].title",
+      "text": "Chief Shepherd appears"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].connection",
+      "text": "Earliest provision: water gushes from the struck rock in the desert."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[0].title",
+      "text": "Moses smites the rock at Horeb"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].connection",
+      "text": "Same-OT: second rock event where water quenches thirst."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[1].title",
+      "text": "Water from the rock at Meribah"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].connection",
+      "text": "Same-OT: psalm commemorates abundant streams from the rock."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[2].title",
+      "text": "He split the rocks in the wilderness"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].title",
+      "text": "Water flowed from the rock for them"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[3].connection",
+      "text": "Same-OT: prophetic remembrance of divine sustenance."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].connection",
+      "text": "Same-OT: water becomes the universal invitation to grace."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[4].title",
+      "text": "Come to the waters without money"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].connection",
+      "text": "Same-OT: vision of healing waters bringing life everywhere."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[5].title",
+      "text": "River flowing from the sanctuary"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].title",
+      "text": "Living waters go out from Jerusalem"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[6].connection",
+      "text": "Same-OT: eschatological living waters."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].connection",
+      "text": "NT: Paul identifies the smitten wilderness rock as Christ Himself."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[7].title",
+      "text": "That Rock was Christ"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].connection",
+      "text": "NT: Jesus offers the living water to the woman at the well."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[8].title",
+      "text": "Fountain of water springing into eternal life"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].connection",
+      "text": "NT: Jesus proclaims the living water at the Feast of Tabernacles."
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[9].title",
+      "text": "Rivers of living water — the Spirit"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "name",
+      "text": "The Smitten Rock and Living Water"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].title",
+      "text": "River of the water of life"
+    },
+    {
+      "entryId": "chain:smitten-rock-water",
+      "field": "steps[10].connection",
+      "text": "NT: crystal river from the throne of God and of the Lamb."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].connection",
+      "text": "Divine rule: significant redemptive actions are always preceded by prophetic revelation."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[0].title",
+      "text": "God reveals His secret to His servants the prophets"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].connection",
+      "text": "A rule in Scripture: God speaks to true prophets this way, under inspired guidance."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].title",
+      "text": "Prophetic criteria: visions and dreams"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].connection",
+      "text": "End-time promise: prophetic gift active right up to the great day of the LORD."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[2].title",
+      "text": "Latter-day outpouring of the prophetic Spirit"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].connection",
+      "text": "Apostolic order: spiritual gifts remain active until the church reaches mature unity in faith."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[3].title",
+      "text": "Prophets placed permanently in the body of Christ"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].connection",
+      "text": "Identifying mark: end-time believers preserve obedience and the living prophetic testimony."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[4].title",
+      "text": "Remnant identified: has the testimony of Jesus Christ"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].connection",
+      "text": "John's definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].title",
+      "text": "The testimony of Jesus is the Spirit of Prophecy"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].connection",
+      "text": "A parallel in Scripture: the angel equates \"the testimony of Jesus\" with \"thy brethren the prophets.\""
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "name",
+      "text": "7. The Spirit of Prophecy & The Remnant"
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].title",
+      "text": "Fellowservant of thy brethren the prophets"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].connection",
+      "text": "The creation formula: man does not have a soul that lives on by itself. Man became a living soul."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[0].title",
+      "text": "Dust + breath of life = living soul (nephesh chayah)"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].connection",
+      "text": "The fall: at death the body goes back to dust and the breath goes back to God."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[1].title",
+      "text": "Dust thou art, and unto dust shalt thou return"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].title",
+      "text": "Breath goeth forth; in that very day his thoughts perish"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[2].connection",
+      "text": "The dead are not conscious at all. Thinking and awareness stop completely at death."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].connection",
+      "text": "Scripture agrees: in death there is no awareness, no praise, and no communication."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[3].title",
+      "text": "The dead know not anything; no device in the grave"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].connection",
+      "text": "The starting point: immortality belongs to God alone. For human beings it is conditional."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[4].title",
+      "text": "God alone possesses immortality"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].title",
+      "text": "Jesus defines death as an unconscious sleep"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[5].connection",
+      "text": "Christ's teaching: \"Our friend Lazarus sleepeth... Lazarus is dead.\""
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].connection",
+      "text": "The apostolic hope: at the second coming, which is heard and seen, believers are woken from sleep, all together."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[6].title",
+      "text": "The dead in Christ shall rise first at the Lord's descent"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].connection",
+      "text": "The change: the body is made incorruptible at the resurrection, not at death."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[7].title",
+      "text": "Mortal puts on immortality at the last trump"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].connection",
+      "text": "God destroys the wicked completely in the final fire. They are not tortured forever."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[8].title",
+      "text": "Wicked burned to stubble; become ashes under feet"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].connection",
+      "text": "God cleans up the whole universe: sin, death, and the grave are destroyed forever."
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "steps[9].title",
+      "text": "Death and hell cast into the lake of fire — the second death"
+    },
+    {
+      "entryId": "chain:state-of-dead-immortality",
+      "field": "name",
+      "text": "4. The State of the Dead (Conditional Immortality)"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].connection",
+      "text": "Earliest cry of the righteous sufferer quoted by Jesus on the cross."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[0].title",
+      "text": "My God, why hast Thou forsaken Me?"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].connection",
+      "text": "Same-OT: a specific prophecy that his body would be pierced and his clothes divided."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[1].title",
+      "text": "They pierced My hands and feet; cast lots for garments"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].connection",
+      "text": "Same-OT: the righteous one suffers and is offered a bitter drink."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[2].title",
+      "text": "Gall for food, vinegar for thirst"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].title",
+      "text": "I gave my back to the smiters, my cheeks to those plucking the beard"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[3].connection",
+      "text": "Same-OT: he chose to submit to public shame and violence."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].connection",
+      "text": "Same-OT: the Servant bears sin in the place of others."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[4].title",
+      "text": "Wounded for our transgressions, healed by His stripes"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].connection",
+      "text": "Same-OT: divine Speaker pierced; mourning as for an only son."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[5].title",
+      "text": "Look on Me whom they have pierced"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].connection",
+      "text": "Same-OT: the Shepherd, who is YHWH's close Companion, is struck down."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].connection",
+      "text": "NT: crucifixion fulfills Ps 22, Ps 69, Isa 50, and Isa 53 in detail."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].connection",
+      "text": "NT: John cites Zechariah 12:10 and Exodus 12:46."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].connection",
+      "text": "NT: apostolic proclamation centers on the sheep led to slaughter."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "name",
+      "text": "The Suffering Servant and Pierced Messiah"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[6].title",
+      "text": "Awake, O sword, against My Shepherd"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[7].title",
+      "text": "The cross of Jesus Christ"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[8].title",
+      "text": "Soldier pierces His side"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[9].title",
+      "text": "Philip preaches Jesus from Isaiah 53"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].title",
+      "text": "His own self bare our sins on the tree"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[10].connection",
+      "text": "Peter applies Isaiah 53 to what Christ did in our place."
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].title",
+      "text": "Every eye shall see Him, and they who pierced Him"
+    },
+    {
+      "entryId": "chain:suffering-servant-pierced",
+      "field": "steps[11].connection",
+      "text": "The pierced King appears at the end of the story."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].connection",
+      "text": "Decalogue foundation: contains divine name (YHWH), office (Maker/Creator), and territory (heaven, earth, sea)."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[0].title",
+      "text": "Creator's Seal in the Fourth Commandment"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].connection",
+      "text": "Prophetic warning: apostate power attempts to alter God's Sabbath and law during historical supremacy."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[1].title",
+      "text": "Little horn thinks to change times and laws (1260 days)"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].connection",
+      "text": "End-time protection: settling into truth intellectually and spiritually before the winds blow."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[2].title",
+      "text": "Seal of the living God placed upon the servants' foreheads"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].connection",
+      "text": "Loyalty marker: faithful remnant withstands the dragon's final wrath through obedience and faith."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[3].title",
+      "text": "Remnant keeps commandments of God and testimony of Jesus"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].connection",
+      "text": "Proclamation: restoration of the true gospel and fourth-commandment Creator worship before judgment."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[4].title",
+      "text": "First Angel: Everlasting gospel, judgment hour, Creator-worship"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].connection",
+      "text": "Separation: moral fall of apostate religious systems rejecting biblical truth."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[5].title",
+      "text": "Second Angel: Babylon is fallen, is fallen"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].title",
+      "text": "Third Angel: Warning against the beast, image, and mark"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[6].connection",
+      "text": "Solemn warning: the danger of receiving counterfeit human-enforced worship."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].connection",
+      "text": "Remnant character: perseverance in keeping God's commandments through the faith of Jesus."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[7].title",
+      "text": "Patience of the saints: commandments of God and faith of Jesus"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].connection",
+      "text": "Universal summons: earth illuminated with divine glory before probation closes."
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "name",
+      "text": "5. The Three Angels' Messages & The Seal vs. Mark"
+    },
+    {
+      "entryId": "chain:three-angels-seal-mark",
+      "field": "steps[8].title",
+      "text": "The Loud Cry: \"Come out of her, My people\""
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].title",
+      "text": "Tree of life in Eden's midst"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[0].connection",
+      "text": "Earliest gift of life-access."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].title",
+      "text": "Way barred by cherubim and sword"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[1].connection",
+      "text": "Same-OT: access cut off after sin."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].connection",
+      "text": "Same-OT: holy place limited; veil keeps God's presence veiled."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[2].title",
+      "text": "Cherubim on the mercy seat and veil"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].connection",
+      "text": "Same-OT: blood opens limited access once a year."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[3].title",
+      "text": "Day of Atonement access"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].title",
+      "text": "Who may ascend the hill of the LORD?"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[4].connection",
+      "text": "Same-OT: moral qualification for nearness."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].connection",
+      "text": "Same-OT: eschatological access for the ransomed."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[5].title",
+      "text": "Highway of holiness; redeemed walk it"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].title",
+      "text": "Trees for food, leaves for healing"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[6].connection",
+      "text": "Same-OT: river-and-tree vision of renewed life."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].connection",
+      "text": "NT: veil — His flesh — torn; access by blood."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[7].title",
+      "text": "New and living way through the veil"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].connection",
+      "text": "NT: the barred way is a Person."
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].title",
+      "text": "Tree of life in the city; right to the tree"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "name",
+      "text": "Tree of Life and Access to God"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[8].title",
+      "text": "I am the way"
+    },
+    {
+      "entryId": "chain:tree-life-access",
+      "field": "steps[9].connection",
+      "text": "NT: Eden access restored to the washed."
+    }
+  ]
+}

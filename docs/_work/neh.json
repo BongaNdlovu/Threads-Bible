@@ -1,0 +1,100 @@
+{
+  "book": "neh",
+  "bookName": "Nehemiah",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 3,
+    "entryStrings": 6,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "neh-1-5",
+    "neh-9-17",
+    "neh-9-33"
+  ],
+  "fields": [
+    {
+      "entryId": "neh-9-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Levites' confession: hardened necks, yet a pardoning God who forsook not. First principle: the history-chapter of Nehemiah 9 is one long proof that God's readiness to pardon outruns rebellion.",
+      "density": 1.7786,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "neh-1-5",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The covenant-keeping, mercy-showing God addressed for Jerusalem's ruins. First principle: Nehemiah's prayer begins where all intercession begins — greatness, terror, and covenant-mercy for lovers and keepers.",
+      "density": 1.6786,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "neh-9-33",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "God right, people wicked — the covenant-lawsuit settled. First principle: the confession concedes the case: justice vindicated, wickedness owned; Daniel prays the same way.",
+      "density": 1.5143,
+      "words": 24,
+      "sentences": 2,
+      "maxSentenceWords": 16,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "neh-1-5",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "O LORD God of Heaven, the Great and Terrible God",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "neh-9-33",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art Just in All That Is Brought upon Us",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "neh-9-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thou Art a God Ready to Pardon",
+      "density": 0.575,
+      "words": 7,
+      "sentences": 1,
+      "maxSentenceWords": 7,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

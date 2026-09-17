@@ -125,21 +125,33 @@ export function ProphecyPage() {
   if (!prophecyOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-[95] flex flex-col overflow-hidden select-text bg-background text-foreground">
-      {/* Header */}
-      <header className="flex items-center justify-between gap-4 px-6 py-3.5 border-b border-foreground/10 shrink-0 bg-background/95 backdrop-blur">
+    <div
+      data-page="prophecy"
+      className="page fixed inset-0 z-[95] flex flex-col overflow-hidden select-text"
+    >
+      {/* Header — same chrome as every study page, cinematic surface */}
+      <header
+        className="flex items-center justify-between gap-4 px-6 py-3.5 border-b shrink-0 backdrop-blur"
+        style={{ borderColor: 'var(--page-border)', background: 'var(--page-header-bg)' }}
+      >
         <div className="flex items-center gap-3 min-w-0">
-          <div className="h-9 w-9 rounded-xl flex items-center justify-center border border-accent/30 bg-accent/10 text-accent shrink-0">
+          <div
+            className="page-ember h-9 w-9 rounded-xl flex items-center justify-center border shrink-0"
+            style={{ borderColor: 'var(--page-border)', background: 'var(--page-accent-soft)', color: 'var(--page-accent)' }}
+          >
             <Clock className="h-5 w-5" />
           </div>
           <div className="min-w-0">
             <div className="flex items-center gap-2">
               <h1 className="font-serif text-lg font-bold truncate">Prophecy &amp; Last-Day Events</h1>
-              <span className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold bg-accent/10 text-accent">
+              <span
+                className="font-mono text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider font-semibold"
+                style={{ background: 'var(--page-chip)', color: 'var(--page-accent-ink)' }}
+              >
                 Timeline · Symbols · Types
               </span>
             </div>
-            <p className="text-xs truncate text-foreground/60">
+            <p className="text-xs truncate" style={{ color: 'var(--page-dim)' }}>
               The prophetic thread from the Shaking to the Earth Made New — with the symbols Scripture itself defines
             </p>
           </div>
@@ -147,7 +159,8 @@ export function ProphecyPage() {
         <button
           onClick={() => setProphecyOpen(false)}
           aria-label="Close prophecy page"
-          className="h-8 px-3 rounded-full flex items-center gap-1.5 border border-foreground/15 text-xs font-semibold cursor-pointer transition-colors hover:bg-foreground/5 shrink-0"
+          className="h-8 px-3 rounded-full flex items-center gap-1.5 border text-xs font-semibold cursor-pointer transition-colors hover:opacity-80 shrink-0"
+          style={{ borderColor: 'var(--page-border)', color: 'var(--page-ink)' }}
         >
           <X className="h-4 w-4" />
           <span className="hidden sm:inline">Close</span>
@@ -156,19 +169,24 @@ export function ProphecyPage() {
 
       {/* Search & filters */}
       <div className="px-4 sm:px-8 pt-5 pb-3 max-w-5xl mx-auto w-full space-y-3 shrink-0">
-        <div className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-foreground/15 bg-card text-sm">
-          <Search className="h-4 w-4 shrink-0 text-foreground/40" />
+        <div
+          className="flex items-center gap-2.5 px-4 py-2.5 rounded-xl border text-sm"
+          style={{ borderColor: 'var(--page-border)', background: 'var(--page-surface)' }}
+        >
+          <Search className="h-4 w-4 shrink-0" style={{ color: 'var(--page-accent)' }} />
           <input
             type="text"
             value={query}
             onChange={e => setQuery(e.target.value)}
             placeholder="Search events, symbols, types, or references…"
-            className="w-full bg-transparent outline-none placeholder:text-foreground/40"
+            className="w-full bg-transparent outline-none"
+            style={{ color: 'var(--page-ink)' }}
           />
           {query && (
             <button
               onClick={() => setQuery('')}
-              className="text-xs px-2 py-0.5 rounded cursor-pointer text-foreground/50 hover:text-foreground"
+              className="text-xs px-2 py-0.5 rounded cursor-pointer hover:opacity-80"
+              style={{ color: 'var(--page-dim)' }}
             >
               Clear
             </button>
@@ -178,10 +196,10 @@ export function ProphecyPage() {
           <button
             onClick={() => setEra('All')}
             className={cn(
-              'px-3 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap',
+              'page-pill px-3 py-1 rounded-full cursor-pointer whitespace-nowrap text-[11px]',
               era === 'All'
-                ? 'bg-accent text-accent-foreground font-semibold'
-                : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                ? 'page-pill-active'
+                : 'page-pill'
             )}
           >
             All Eras ({ldeEras.length})
@@ -191,10 +209,10 @@ export function ProphecyPage() {
               key={e}
               onClick={() => setEra(e)}
               className={cn(
-                'px-3 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap',
+                'page-pill px-3 py-1 rounded-full cursor-pointer whitespace-nowrap text-[11px]',
                 era === e
-                  ? 'bg-accent text-accent-foreground font-semibold'
-                  : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                  ? 'page-pill-active'
+                  : 'page-pill'
               )}
             >
               {e}
@@ -205,10 +223,10 @@ export function ProphecyPage() {
           <button
             onClick={() => setCategory('All')}
             className={cn(
-              'px-3 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap',
+              'page-pill px-3 py-1 rounded-full cursor-pointer whitespace-nowrap text-[11px]',
               category === 'All'
-                ? 'bg-accent text-accent-foreground font-semibold'
-                : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                ? 'page-pill-active'
+                : 'page-pill'
             )}
           >
             All Symbols &amp; Types ({symbols.length + types.length})
@@ -218,10 +236,10 @@ export function ProphecyPage() {
               key={c}
               onClick={() => setCategory(c)}
               className={cn(
-                'px-3 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap',
+                'page-pill px-3 py-1 rounded-full cursor-pointer whitespace-nowrap text-[11px]',
                 category === c
-                  ? 'bg-accent text-accent-foreground font-semibold'
-                  : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                  ? 'page-pill-active'
+                  : 'page-pill'
               )}
             >
               {c}
@@ -232,10 +250,10 @@ export function ProphecyPage() {
               key={c}
               onClick={() => setCategory(c)}
               className={cn(
-                'px-3 py-1 rounded-full transition-colors cursor-pointer whitespace-nowrap',
+                'page-pill px-3 py-1 rounded-full cursor-pointer whitespace-nowrap text-[11px]',
                 category === c
-                  ? 'bg-accent text-accent-foreground font-semibold'
-                  : 'bg-foreground/5 text-foreground/70 hover:bg-foreground/10'
+                  ? 'page-pill-active'
+                  : 'page-pill'
               )}
             >
               {c}
@@ -249,10 +267,10 @@ export function ProphecyPage() {
         <div className="max-w-5xl mx-auto space-y-8">
           {/* Timeline */}
           <section className="space-y-3">
-            <div className="flex items-center gap-2 border-b border-foreground/10 pb-2">
-              <Clock className="h-4 w-4 text-accent" />
+            <div className="flex items-center gap-2 border-b pb-2" style={{ borderColor: 'var(--page-border)' }}>
+              <Clock className="h-4 w-4 page-accent" />
               <h2 className="font-serif text-base font-bold">The Great Controversy Timeline</h2>
-              <span className="text-[11px] text-foreground/50">{filteredEvents.length} phases</span>
+              <span className="page-muted text-[11px]">{filteredEvents.length} phases</span>
             </div>
 
             {ldeError ? (
@@ -263,17 +281,17 @@ export function ProphecyPage() {
                 onRetry={retryLde}
               />
             ) : !ldeData ? (
-              <div className="py-8 text-center text-xs text-foreground/50 animate-pulse">Loading timeline…</div>
+              <div className="page-muted py-8 text-center text-xs animate-pulse">Loading timeline…</div>
             ) : filteredEvents.length === 0 ? (
-              <p className="py-8 text-center text-xs text-foreground/50">No phases match this search or era.</p>
+              <p className="page-muted py-8 text-center text-xs">No phases match this search or era.</p>
             ) : (
               filteredEvents.map(ev => (
                 <article
                   key={ev.id}
-                  className="p-5 rounded-2xl border border-foreground/10 bg-card shadow-sm space-y-3"
+                  className="page-card p-5 rounded-2xl space-y-3"
                 >
                   <div className="flex flex-wrap items-center justify-between gap-2">
-                    <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                    <span className="text-[10px] font-bold uppercase tracking-wider page-chip px-2 py-0.5">
                       Phase {ev.phase} · {ev.era}
                     </span>
                     <button
@@ -281,23 +299,26 @@ export function ProphecyPage() {
                         void navigateToVerse(ev.primaryAnchorVerseId);
                         setProphecyOpen(false);
                       }}
-                      className="text-[11px] text-accent hover:underline inline-flex items-center gap-1 font-mono cursor-pointer"
+                      className="page-accent text-[11px] hover:underline inline-flex items-center gap-1 font-mono cursor-pointer"
                     >
                       <span>{ev.primaryAnchorVerseId}</span>
                       <ArrowUpRight className="h-3 w-3" />
                     </button>
                   </div>
                   <h3 className="font-serif text-lg font-bold">{ev.title}</h3>
-                  <p className="text-xs font-medium text-foreground/60">{ev.subtitle}</p>
-                  <p className="text-sm text-foreground/80 leading-relaxed">{ev.biblicalSummary}</p>
-                  <div className="p-3 rounded-xl bg-accent/[0.06] border border-accent/20 text-sm text-foreground/80 leading-relaxed">
-                    <span className="text-[10px] uppercase tracking-widest font-bold text-accent block mb-1">
+                  <p className="page-muted text-xs font-medium">{ev.subtitle}</p>
+                  <p className="text-sm leading-relaxed opacity-90">{ev.biblicalSummary}</p>
+                  <div
+                    className="p-3 rounded-xl border text-sm leading-relaxed opacity-90"
+                    style={{ borderColor: 'var(--page-border)', background: 'var(--page-accent-soft)' }}
+                  >
+                    <span className="page-accent text-[10px] uppercase tracking-widest font-bold block mb-1">
                       What it means
                     </span>
                     {ev.theologicalSignificance}
                   </div>
                   <div>
-                    <div className="text-[10px] uppercase tracking-widest font-bold text-foreground/40 mb-1.5">
+                    <div className="page-muted text-[10px] uppercase tracking-widest font-bold mb-1.5">
                       Scripture sequence
                     </div>
                     <div className="flex flex-wrap gap-1">
@@ -306,7 +327,7 @@ export function ProphecyPage() {
                           key={i}
                           onClick={() => (seq.verseId ? navigateRef(seq.ref) : navigateRef(seq.ref))}
                           title={seq.title}
-                          className="px-2 py-0.5 rounded bg-foreground/5 hover:bg-accent hover:text-accent-foreground font-mono text-[10px] transition-colors cursor-pointer"
+                          className="page-pill px-2 py-0.5 rounded font-mono text-[10px] cursor-pointer"
                         >
                           {seq.ref}
                         </button>
@@ -320,10 +341,10 @@ export function ProphecyPage() {
 
           {/* Symbols & Types */}
           <section className="space-y-3">
-            <div className="flex items-center gap-2 border-b border-foreground/10 pb-2">
-              <ScrollText className="h-4 w-4 text-accent" />
+            <div className="flex items-center gap-2 border-b pb-2" style={{ borderColor: 'var(--page-border)' }}>
+              <ScrollText className="h-4 w-4 page-accent" />
               <h2 className="font-serif text-base font-bold">Prophetic Symbols &amp; Types</h2>
-              <span className="text-[11px] text-foreground/50">
+              <span className="page-muted text-[11px]">
                 {filteredSymbols.length} symbols · {filteredTypes.length} types
               </span>
             </div>
@@ -336,33 +357,33 @@ export function ProphecyPage() {
                 onRetry={retrySymbols}
               />
             ) : !symbolsData ? (
-              <div className="py-8 text-center text-xs text-foreground/50 animate-pulse">Loading symbols &amp; types…</div>
+              <div className="page-muted py-8 text-center text-xs animate-pulse">Loading symbols &amp; types…</div>
             ) : null}
 
             {filteredSymbols.map(s => (
               <article
                 key={s.id}
-                className="p-5 rounded-2xl border border-foreground/10 bg-card shadow-sm space-y-2"
+                className="page-card p-5 rounded-2xl space-y-2"
               >
                 <div className="flex flex-wrap items-center justify-between gap-2">
-                  <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                  <span className="text-[10px] font-bold uppercase tracking-wider page-chip px-2 py-0.5">
                     {s.category}
                   </span>
                   {s.scriptureInterpretation && (
-                    <span className="text-[9px] uppercase tracking-wider text-foreground/40">Scripture-defined</span>
+                    <span className="page-muted text-[9px] uppercase tracking-wider">Scripture-defined</span>
                   )}
                 </div>
                 <h3 className="font-serif text-base font-bold">{s.symbol}</h3>
-                <p className="text-sm text-foreground/80 leading-relaxed">{s.meaning}</p>
+                <p className="text-sm leading-relaxed opacity-90">{s.meaning}</p>
                 {s.scriptureInterpretation && (
-                  <div className="text-xs text-accent/90 italic">Defined: {s.scriptureInterpretation}</div>
+                  <div className="text-xs page-accent/90 italic">Defined: {s.scriptureInterpretation}</div>
                 )}
                 <div className="flex flex-wrap gap-1">
                   {s.proofRefs.map((ref, i) => (
                     <button
                       key={i}
                       onClick={() => navigateRef(ref)}
-                      className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                      className="page-pill px-2 py-0.5 rounded font-mono text-[10px] cursor-pointer"
                     >
                       {ref}
                     </button>
@@ -374,21 +395,21 @@ export function ProphecyPage() {
             {filteredTypes.map(t => (
               <article
                 key={t.id}
-                className="p-5 rounded-2xl border border-foreground/10 bg-card shadow-sm space-y-2"
+                className="page-card p-5 rounded-2xl space-y-2"
               >
-                <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-full bg-accent/15 text-accent">
+                <span className="text-[10px] font-bold uppercase tracking-wider page-chip px-2 py-0.5">
                   {t.category}
                 </span>
                 <h3 className="font-serif text-base font-bold">
-                  {t.type} <span className="text-accent">→</span> <span className="text-accent/90">{t.antitype}</span>
+                  {t.type} <span className="page-accent">→</span> <span className="page-accent/90">{t.antitype}</span>
                 </h3>
-                <p className="text-sm text-foreground/80 leading-relaxed">{t.meaning}</p>
+                <p className="text-sm leading-relaxed opacity-90">{t.meaning}</p>
                 <div className="flex flex-wrap gap-1">
                   {t.typeRefs.map((ref, i) => (
                     <button
                       key={`t-${i}`}
                       onClick={() => navigateRef(ref)}
-                      className="px-2 py-0.5 rounded bg-accent/10 hover:bg-accent hover:text-accent-foreground text-accent font-mono text-[10px] transition-colors cursor-pointer"
+                      className="page-pill px-2 py-0.5 rounded font-mono text-[10px] cursor-pointer"
                     >
                       {ref}
                     </button>
@@ -397,7 +418,7 @@ export function ProphecyPage() {
                     <button
                       key={`f-${i}`}
                       onClick={() => navigateRef(ref)}
-                      className="px-2 py-0.5 rounded bg-foreground/5 hover:bg-accent hover:text-accent-foreground font-mono text-[10px] transition-colors cursor-pointer"
+                      className="page-pill px-2 py-0.5 rounded font-mono text-[10px] cursor-pointer"
                     >
                       {ref}
                     </button>

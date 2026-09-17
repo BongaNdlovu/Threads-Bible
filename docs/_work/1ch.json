@@ -1,0 +1,212 @@
+{
+  "book": "1ch",
+  "bookName": "1 Chronicles",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 7,
+    "entryStrings": 14,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "1ch-16-22",
+    "1ch-17-11",
+    "1ch-17-13",
+    "1ch-21-17",
+    "1ch-22-10",
+    "1ch-28-6",
+    "1ch-29-11"
+  ],
+  "fields": [
+    {
+      "entryId": "1ch-21-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "David's intercession at the plague: the sheep are innocent. First principle: the shepherd-king pleads substitution — the angel with the drawn sword stops at the threshingfloor where mercy meets the offering.",
+      "density": 2.0321,
+      "words": 31,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-17-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The Nathan-prophecy's seed raised after David, kingdom established. First principle: Chronicles re-preaches 2 Samuel 7 to the returned exiles — the throne-promise was still alive after the fall.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-22-10",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Solomon named son, throne established over Israel forever. First principle: the temple-builder and the throne-establisher are fused — pointing beyond Solomon to the Son who builds God's house.",
+      "density": 1.8429,
+      "words": 28,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-16-22",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The psalm-verse in David's psalm of thanks. First principle: the covenant family and its spokesmen are under God's personal protection — the patriarchs' testimony is Israel's inheritance.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-28-6",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The public announcement of the chosen builder-son. First principle: choice is announced before work begins — I will be his father is the warrant for the building.",
+      "density": 1.8179,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 20,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-17-13",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Mercy not taken away as from Saul. First principle: the father-son decree with mercy's permanence clause — Hebrews' angel-comparison rests on this promise to the Son.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-29-11",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "The assembly doxology: kingdom, head above all. First principle: David's prayer-model for the temple gifts — everything is Thine; the Lord's prayer's kingdom-glory line echoes this.",
+      "density": 1.7357,
+      "words": 26,
+      "sentences": 2,
+      "maxSentenceWords": 19,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "1ch-28-6",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Solomon Thy Son, He Shall Build My House; I Have Chosen Him",
+      "density": 0.9857,
+      "words": 12,
+      "sentences": 1,
+      "maxSentenceWords": 12,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-17-13",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Be His Father, and He Shall Be My Son",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-21-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Let Thine Hand Be on Me, and on My Father's House",
+      "density": 0.9036,
+      "words": 11,
+      "sentences": 1,
+      "maxSentenceWords": 11,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-16-22",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Touch Not Mine Anointed, and Do My Prophets No Harm",
+      "density": 0.8214,
+      "words": 10,
+      "sentences": 1,
+      "maxSentenceWords": 10,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-29-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Thine, O LORD, Is the Greatness, and the Power",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-17-11",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "I Will Raise Up Thy Seed after Thee",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "1ch-22-10",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "He Shall Build an House for My Name",
+      "density": 0.6571,
+      "words": 8,
+      "sentences": 1,
+      "maxSentenceWords": 8,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}

@@ -1,0 +1,169 @@
+{
+  "book": "num",
+  "bookName": "Numbers",
+  "drafts": [
+    {
+      "entryId": "num-21-9",
+      "field": "principle",
+      "after": "Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turned the sign of the curse into the means of life for everyone who looks to it in faith.",
+      "reason": "Two ideas were jammed into sentence 1 by 'and' ('makes... and sets', plus 'whoever is bitten and looks'); split into three. 'emblem' decoded to 'sign'; the passive 'when looked upon in faith' became the active 'for everyone who looks to it in faith'. The KJV clause after 'as Moses lifted up...' is kept verbatim as the Lord's own words."
+    },
+    {
+      "entryId": "num-21-8",
+      "field": "principle",
+      "after": "“Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.” The cure matched the plague. What had killed them became the means of life once it was lifted up. First principle: God saves by looking — faith fastened on the object he provides.",
+      "reason": "The opening KJV clause was sitting unquoted as the sentence's subject, so it is now quoted verbatim and the plain gloss follows outside the quotation. 'Remedy mirrors plague' became 'The cure matched the plague'; the abstract 'salvation is by looking' became 'God saves by looking'; 'God-provided object' became 'the object he provides'."
+    },
+    {
+      "entryId": "num-12-6",
+      "field": "principle",
+      "after": "The LORD himself set the test for true prophets: \"If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream.\" Two other verses draw the boundary. Isaiah 8:20 says a prophet must agree with God's law. Matthew 7:20 says, \"by their fruits ye shall know them.\" First principle: every true prophet stays inside the boundaries God set in Scripture. No prophet ever cancels what God has already written.",
+      "reason": "Sentence 3 fused two ideas with 'Together with' and a parenthesis; it is now three plain sentences. 'Scripture establishes objective, empirical tests' decoded to 'draw the boundary' and 'must agree with God's law'. 'prophetic manifestations operate under strict biblical boundaries' decoded to 'stays inside the boundaries God set in Scripture'; 'never overriding or contradicting the written canon' decoded to 'No prophet ever cancels what God has already written'. Both citations and the KJV quotation are untouched."
+    },
+    {
+      "entryId": "num-24-17",
+      "field": "principle",
+      "after": "Balaam was hired to curse Israel, but he could only bless. He said: I shall see him, but not now… there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel. First principle: God turns every curse of the enemy into a blessing. The King God promised comes at God's appointed time, and he is certain to come.",
+      "reason": "'Balaam, hired to curse Israel, can only bless' was a stacked clause with no subject at the front; it is now a plain subject-verb sentence. 'messianic blessing' decoded to 'a blessing' with the promised Ruler named plainly in the next sentence, since the clause already says 'a Star out of Jacob'. 'not nigh but certain' became 'at God's appointed time, and he is certain to come'."
+    },
+    {
+      "entryId": "num-35-30",
+      "field": "principle",
+      "after": "One witness cannot put a man to death. Two or three witnesses establish the matter. First principle: fair trial law is God's law. Jesus and Paul both used the rule of two or three witnesses, for the church and for judgment alike.",
+      "reason": "The KJV clause 'One witness cannot kill' is now a complete quoted-in-plain-form sentence with the object named; 'due process is divine law' decoded to 'fair trial law is God's law'; 'the two-or-three witness rule Jesus and Paul both invoke for church and judgment alike' became one sentence naming who used it and where. No citation was added: the source never numbered a verse, and neither does this."
+    },
+    {
+      "entryId": "num-21-8",
+      "field": "terms[0].note",
+      "after": "The Hebrew word nes is the same word for the pole God told Moses to set the serpent on. Nations gather to it as an ensign in Isa 11:10. Jesus uses hupsothen — lifted up — of His cross (John 3:14).",
+      "reason": "One 24-word semicolon sentence became three plain ones. 'the ensign to which nations gather' was an inverted clause; it is now subject-verb-object. 'The same word' needed its referent, so the note now names the Hebrew word nes from the term's own transliteration. Isa 11:10, John 3:14, the transliteration hupsothen and the gloss 'lifted up' are unchanged."
+    },
+    {
+      "entryId": "num-6-24",
+      "field": "principle",
+      "after": "The blessing Aaron spoke begins with keeping. First principle: the blessing speaks three times, and it ends with the Name placed on the people. Paul echoes that blessing in the grace that names the Father, the Son and the Holy Spirit.",
+      "reason": "'climaxes' decoded to 'ends with'; 'the benediction Paul echoes in the Trinitarian grace' was an abstract noun pile, so it became a sentence naming who echoes what, and 'Trinitarian' is explained by the three persons named. Every claim is kept: the opening word is keeping, the threefold structure, the Name placed on the people, and Paul's echo."
+    },
+    {
+      "entryId": "num-11-31",
+      "field": "principle",
+      "after": "The quails lay all around the camp, two cubits deep on the ground. First principle: the people craved meat, and God answered them. That same quail story is the backdrop of what Jesus said about the true bread in John 6.",
+      "reason": "'Quails by the camp's circumference' was a noun fragment with no verb, and 'two cubits high' sat as a dangling phrase; the first sentence now has a subject and a verb and keeps the measurement. 'high' became 'deep on the ground' because quails lying round about the camp covered the ground; no other number or detail changed. The 'and' chain in sentence 2 is split, and 'the true bread discourse' decoded to 'what Jesus said about the true bread'."
+    },
+    {
+      "entryId": "num-21-11",
+      "field": "principle",
+      "after": "The journey went on toward Moab, toward the sunrising. First principle: God had even Israel's marching orders written down. The itinerary ahead is the road-map the Lord Jesus walked in type.",
+      "reason": "The semicolon chain is split, and the source's garbled 'the itinerary itineraries are the road-map' was reduced to one clear noun phrase while keeping the one claim it carried. 'even Israel's marching orders are recorded' became active ('God had... written down'). 'in type' is kept as the project's term."
+    },
+    {
+      "entryId": "num-14-18",
+      "field": "principle",
+      "after": "The LORD forgives iniquity, and by no means clears the guilty. He visits iniquity to the fourth generation. First principle: this verse holds God's mercy and his justice in one proclamation. Scripture quotes it again and again.",
+      "reason": "Sentence 1 carried three stacked clauses around a semicolon, so it is now two sentences with the LORD named as the one who acts. 'the balance-verse of divine character' decoded to 'holds God's mercy and his justice in one proclamation'; 'quoted across Scripture' became 'Scripture quotes it again and again'. Every term of the verse is kept, including 'to the fourth generation' exactly as the source has it."
+    },
+    {
+      "entryId": "num-9-12",
+      "field": "principle",
+      "after": "God repeated the Passover law here: no bone broken, nothing left over. First principle: the second-chance Passover keeps the lamb-laws intact. The rules for the sacrifice never change.",
+      "reason": "'Passover law repeated:' was a telegraphic label with no actor, so God is now the subject. The abstract 'integrity of the sacrifice is perpetual law' decoded to 'The rules for the sacrifice never change', which keeps both halves of the claim. The three ideas are now three sentences."
+    },
+    {
+      "entryId": "num-21-9",
+      "field": "terms[0].note",
+      "after": "The Hebrew plays on two similar words: nachash, “serpent,” and nechoshet, “bronze.” The bronze serpent looked like the sin God judged, and Romans 8:3 says God sent his Son “in the likeness of sinful flesh.”",
+      "reason": "The semicolon is split, and 'type of sin judged' is decoded into what it means: the bronze serpent looked like the sin God judged. The KJV phrase 'in the likeness of sinful flesh' is now quoted from Rom 8:3. Both transliterations nachash and nechoshet survive, and the citation still points to the same verse (Rom 8:3, spelled out as Romans 8:3 to match this app's other full-name references)."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[1].connection",
+      "after": "Same-OT: the sign became an idol, and the bronze itself had no power to save anyone.",
+      "reason": "'the sign corrupted into an idol' was a compressed passive; it is now active ('became an idol'). 'the physical bronze has no saving power in itself' became 'the bronze itself had no power to save anyone' — the same claim, everyday words, in subject-verb-object order."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[2].connection",
+      "after": "NT: Jesus used the serpent on the pole to point to His own crucifixion, and to the eternal life it brings.",
+      "reason": "'applies... to' is an essay verb; 'used... to point to' says the same thing in everyday words. The two ideas held by 'for eternal life' are now joined to the verb that carries them, with no claim added, removed or strengthened."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[5].connection",
+      "after": "NT: Christ became sin for us, so that we might become righteous in Him.",
+      "reason": "The slash construction 'the cursed serpent/sin' forced the reader to decode two ideas at once; the sentence now says plainly that Christ became sin for us, which is the claim the step makes. The source's 'that we might become righteousness' keeps its sense in 'so that we might become righteous in Him' — righteous is the adjective Paul's noun needs in plain English, and 'in Him' is kept from the original."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[5].connection",
+      "after": "John's definition: John defines the testimony of Jesus as the Holy Spirit speaking through prophecy.",
+      "reason": "'Inspired definition:' is an abstract label that repeats what the sentence already says, so the label now names the writer. The claim is untouched and the repetition of 'John' mirrors the label-then-sentence shape of the original."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[1].connection",
+      "after": "A rule in Scripture: God speaks to true prophets this way, under inspired guidance.",
+      "reason": "'Biblical mechanism: how God speaks to true prophets' was a label plus a dependent clause with no verb; it is now one sentence with God as the subject and a verb. 'under inspired guidance' is kept word for word."
+    },
+    {
+      "entryId": "chain:spirit-of-prophecy-remnant",
+      "field": "steps[6].connection",
+      "after": "A parallel in Scripture: the angel equates \"the testimony of Jesus\" with \"thy brethren the prophets.\"",
+      "reason": "'Hermeneutical' is on the glossary's never-write list, so 'Hermeneutical parallel' became 'A parallel in Scripture'. The two KJV quotations are untouched and still carry the claim."
+    },
+    {
+      "entryId": "chain:bronze-serpent",
+      "field": "steps[0].connection",
+      "after": "Earliest type: to look at the sign of judgment brought healing.",
+      "reason": "'looking upon the emblem of judgment' was a gerund subject the reader has to unpack; it is now the plain infinitive 'to look at', with 'emblem' decoded to 'sign'. Nothing else changed."
+    }
+  ],
+  "verifyOnly": [
+    { "entryId": "num-35-30", "field": "title", "reason": "12 words, one idea, KJV wording in plain order; nothing to change" },
+    { "entryId": "num-12-6", "field": "terms[0].note", "reason": "11 words, one idea; the citation Dan 10:8, 17 is intact and nothing needs decoding" },
+    { "entryId": "num-12-6", "field": "title", "reason": "10 words, one idea, plain order; 'Divine Protocol for True Prophets' is concrete enough for a title" },
+    { "entryId": "num-24-17", "field": "title", "reason": "10 words, two parallel KJV phrases, one idea; nothing to change" },
+    { "entryId": "num-9-12", "field": "title", "reason": "9 words, one KJV clause, plain order; nothing to change" },
+    { "entryId": "num-11-31", "field": "title", "reason": "8 words, one KJV clause, plain order; nothing to change" },
+    { "entryId": "num-21-11", "field": "title", "reason": "8 words, one KJV clause, plain order; nothing to change" },
+    { "entryId": "num-6-24", "field": "title", "reason": "7 words, one KJV clause, plain order; nothing to change" },
+    { "entryId": "num-14-18", "field": "title", "reason": "7 words, one KJV clause, plain order; nothing to change" },
+    { "entryId": "num-21-9", "field": "terms[1].gloss", "reason": "6 words, but this is a gloss, not prose: it must stay paired with the Greek ὑψωθῆναι (hypsōthēnai); changing it would break the term record" },
+    { "entryId": "num-12-6", "field": "terms[0].gloss", "reason": "6 words, a gloss: it must stay paired with the Hebrew בַּמַּרְאָה and its transliteration bam-marʼah; nothing to decode" },
+    { "entryId": "num-12-6", "field": "terms[1].note", "reason": "6 words, one idea; a short note, plain enough for its six words" },
+    { "entryId": "num-21-8", "field": "title", "reason": "6 words, one idea, plain order; nothing to change" },
+    { "entryId": "num-21-9", "field": "title", "reason": "5 words, one idea, plain order; nothing to change" },
+    { "entryId": "num-21-9", "field": "terms[0].gloss", "reason": "5 words, a gloss for נְחַשׁ נְחֹשֶׁת; three synonyms are the point of a gloss and must stay paired with the script" },
+    { "entryId": "num-12-6", "field": "terms[1].gloss", "reason": "5 words, a gloss: it must stay paired with בַּחֲלוֹם and the transliteration ba-chalom" },
+    { "entryId": "num-21-8", "field": "terms[0].gloss", "reason": "4 words, a gloss: three synonyms for נֵס; nothing to decode" },
+    { "entryId": "num-24-17", "field": "terms[0].gloss", "reason": "3 words, a gloss for כּוֹכָב and the transliteration kokhab; nothing to decode" },
+    { "entryId": "num-21-9", "field": "terms[1].note", "reason": "15 words, one claim with a citation pair; the 'double meaning' is stated plainly and splitting it would add or drop a claim" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[2].connection", "reason": "14 words, one idea, plain order; the Joel 2:28-29 label and claim are already plain" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[3].connection", "reason": "14 words, one idea, active voice; 'mature unity in faith' is the source's own phrase and rewriting it would restate the claim" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[0].connection", "reason": "11 words, one idea, plain order; 'Divine rule:' is a short label, like the other chain labels, not an essay phrase" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[4].connection", "reason": "11 words, one idea, active voice; the remnant claim and Revelation 12:17 are intact" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[0].title", "reason": "6 words, one idea, plain order; nothing to change" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[2].title", "reason": "6 words, one idea; 'Latter-day outpouring' is only a hyphenation question, and the Joel 2 label is otherwise plain" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[6].title", "reason": "6 words, a KJV phrase from Revelation 22:9; nothing to change" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[1].title", "reason": "5 words, one idea, plain order; nothing to change" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[1].title", "reason": "4 words, the name Nehushtan from 2 Kings 18:4; too short to improve and the name is untouchable" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[5].title", "reason": "4 words, one idea, plain order; nothing to change" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[2].title", "reason": "10 words, the Lord's own KJV clause from John 3:14; Scripture and nothing else" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[3].connection", "reason": "10 words, one idea, plain order; the claim and John 8:28 are intact" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[0].title", "reason": "9 words, one KJV clause from Amos 3:7; nothing to change" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[5].title", "reason": "9 words, one KJV clause from Revelation 19:10; nothing to change" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[3].title", "reason": "8 words, the Lord's own KJV clause from John 8:28; nothing to change" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[4].title", "reason": "8 words, one KJV clause from John 12:32; nothing to change" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[3].title", "reason": "8 words, one idea, plain order; nothing to change" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "steps[4].title", "reason": "8 words, one idea; 'Remnant identified' is a short label followed by the mark itself" },
+    { "entryId": "chain:spirit-of-prophecy-remnant", "field": "name", "reason": "8 words, a numbered chain title; nothing to change" },
+    { "entryId": "chain:bronze-serpent", "field": "steps[4].connection", "reason": "7 words, one idea, active voice; the John 12:32-33 claim is intact" },
+    { "entryId": "chain:bronze-serpent", "field": "name", "reason": "6 words, a chain title; nothing to change" }
+  ],
+  "equivalent": [
+    {
+      "entryId": "num-24-17",
+      "field": "terms[0].note",
+      "reason": "already plain, short and concrete (two sentences, one idea each, 17 words); every rewrite attempt re-worded the claim without making it clearer, so the original stands"
+    }
+  ]
+}

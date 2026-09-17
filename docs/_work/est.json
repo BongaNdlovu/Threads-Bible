@@ -1,0 +1,72 @@
+{
+  "book": "est",
+  "bookName": "Esther",
+  "generatedFrom": "HEAD working tree",
+  "counts": {
+    "entries": 2,
+    "entryStrings": 4,
+    "chainStrings": 0,
+    "gateFails": 0
+  },
+  "entryIds": [
+    "est-4-14",
+    "est-8-17"
+  ],
+  "fields": [
+    {
+      "entryId": "est-8-17",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Joy, gladness, feast, and conversions across the empire. First principle: reversal day — the decree of doom became a day of fear-falling conversions; the Jewish feast drew the nations in.",
+      "density": 2.0071,
+      "words": 30,
+      "sentences": 2,
+      "maxSentenceWords": 22,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "est-4-14",
+      "file": "bookThreadDetails",
+      "field": "principle",
+      "text": "Silence would destroy; deliverance would arise from another place. First principle: providence positions — Mordecai's question makes fasting courage: perhaps the throne room is why you exist.",
+      "density": 1.7036,
+      "words": 27,
+      "sentences": 2,
+      "maxSentenceWords": 18,
+      "gate": "PASS",
+      "violations": [],
+      "context": {
+        "citations": []
+      }
+    },
+    {
+      "entryId": "est-4-14",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Who Knoweth Whether Thou Art Come to the Kingdom for Such a Time as This?",
+      "density": 1.2321,
+      "words": 15,
+      "sentences": 1,
+      "maxSentenceWords": 15,
+      "gate": "PASS",
+      "violations": []
+    },
+    {
+      "entryId": "est-8-17",
+      "file": "bookThreadDetails",
+      "field": "title",
+      "text": "Many of the People of the Land Became Jews",
+      "density": 0.7393,
+      "words": 9,
+      "sentences": 1,
+      "maxSentenceWords": 9,
+      "gate": "PASS",
+      "violations": []
+    }
+  ],
+  "chains": []
+}
