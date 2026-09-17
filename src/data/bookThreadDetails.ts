@@ -7906,7 +7906,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2jn-1-6': {
     title: 'This Is Love, That We Walk After His Commandments',
     principle:
-      'Love defined as commandment-walking, from the beginning. First principle: love and commandment are not rivals — the original message is the walk itself.',
+      'Love is defined here as walking in His commandments. That definition has been there from the beginning. First principle: love and commandment are not rivals. The message we heard at the start was about this walk itself.',
     sourceKeywords: ['this is love', 'walk after his commandments', 'as ye have heard from the beginning'],
     fulfillmentKeywords: ['If ye love me, keep my commandments'],
     terms: [],
@@ -7914,7 +7914,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2jn-1-7': {
     title: 'Many Deceivers... Who Confess Not That Jesus Christ Is Come in the Flesh',
     principle:
-      'The flesh-denial marks the deceiver and the antichrist. First principle: the incarnation is the test of orthodoxy — a Christ without flesh is the spirit of antichrist already in the world.',
+      'Anyone who denies that Jesus Christ is come in the flesh is a deceiver, and that denial marks him out as the antichrist. First principle: the incarnation is the test of right belief. A Christ without flesh is the spirit of antichrist, and that spirit is already in the world.',
     sourceKeywords: ['many deceivers are entered into the world', 'confess not that Jesus Christ is come in the flesh', 'a deceiver and an antichrist'],
     fulfillmentKeywords: [],
     terms: [],
