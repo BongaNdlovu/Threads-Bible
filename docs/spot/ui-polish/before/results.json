@@ -1,0 +1,248 @@
+{
+  "actions": [
+    {
+      "type": "clearStorage",
+      "label": "clean storage"
+    },
+    {
+      "type": "navigate",
+      "url": "http://127.0.0.1:3000/#gen-1",
+      "settle": 3000,
+      "label": "boot Genesis 1 reading"
+    },
+    {
+      "type": "waitFor",
+      "expression": "document.getElementById('verse-gen-1-1')",
+      "timeout": 30000,
+      "label": "verses rendered"
+    },
+    {
+      "type": "sleep",
+      "ms": 3000,
+      "label": "settle"
+    },
+    {
+      "type": "eval",
+      "awaitPromise": true,
+      "label": "E: navigate to rev-7-9 thread (first fulfillment ref = Genesis 12:3)",
+      "expression": "(async () => { const st=(await import('/src/store/useStore.ts')).useStore; await st.getState().navigateToVerse('rev-7-9'); await new Promise(r=>setTimeout(r,1500)); const s=st.getState(); return JSON.stringify({selectedThread: s.selectedThread? s.selectedThread.id : null, threadPaneOpen: s.threadPaneOpen, refs: s.selectedThread? s.selectedThread.fulfillmentRefs : null}); })()"
+    },
+    {
+      "type": "waitFor",
+      "expression": "!!document.querySelector('h1')",
+      "timeout": 25000,
+      "label": "thread pane rendered"
+    },
+    {
+      "type": "sleep",
+      "ms": 5000,
+      "label": "wait for fulfillment book loads"
+    },
+    {
+      "type": "shot",
+      "name": "07-fulfillment-multibook-before.png",
+      "label": "BEFORE: fulfillment pane for rev-7-9 (mixed books)"
+    },
+    {
+      "type": "eval",
+      "label": "E: fulfillment pane headings + single-paragraph proof",
+      "expression": "(() => { const h1s=[...document.querySelectorAll('h1')].map(h=>h.textContent.trim()); const label=[...document.querySelectorAll('span')].find(s=>s.textContent.trim()==='Fulfillment Reference'); const pane=label? label.closest('div').parentElement : null; const p=pane? pane.querySelector('p') : null; const ids=p? [...p.querySelectorAll('span[id^=\"verse-\"]')].map(s=>s.id) : []; const txt=p? p.innerText : ''; return JSON.stringify({ h1s, fulfillmentLabelFound: !!label, paragraphCount: pane? pane.querySelectorAll('p').length : null, verseSpanIds: ids, distinctBooks: [...new Set(ids.map(i=>i.split('-')[0]))], paragraphText: txt.replace(/\\s+/g,' ').slice(0,420) }); })()"
+    },
+    {
+      "type": "eval",
+      "awaitPromise": true,
+      "label": "B0: seed stale localStorage keys then open fallback",
+      "expression": "(async () => { localStorage.setItem('threads-bible-ordo-v2', JSON.stringify({layoutMode:'grid', spacingMode:'compact', camera:false, narration:false})); localStorage.setItem('ordo-viewer-settings-v1', JSON.stringify({legacy:true})); const st=(await import('/src/store/useStore.ts')).useStore; st.setState({selectedThread:null, threadPaneOpen:false}); st.getState().setThreadMapOpen(true); await new Promise(r=>setTimeout(r,1200)); return JSON.stringify({ ordoKey: localStorage.getItem('threads-bible-ordo-v2'), legacyKey: localStorage.getItem('ordo-viewer-settings-v1'), fallbackVisible: document.body.innerText.includes('Invalid Scripture Reference') || document.body.innerText.includes('Thread Error') }); })()"
+    },
+    {
+      "type": "waitFor",
+      "expression": "[...document.querySelectorAll('button')].some(b=>b.textContent.includes('Reset Map View'))",
+      "timeout": 20000,
+      "label": "fallback card with Reset Map View"
+    },
+    {
+      "type": "shot",
+      "name": "08-fallback-reset-before.png",
+      "label": "BEFORE: fallback card (Reset Map View)"
+    },
+    {
+      "type": "eval",
+      "label": "B0: keys before reset click",
+      "expression": "JSON.stringify({ordo: localStorage.getItem('threads-bible-ordo-v2'), legacy: localStorage.getItem('ordo-viewer-settings-v1')})"
+    },
+    {
+      "type": "clickText",
+      "text": "Reset Map View",
+      "settle": 1500,
+      "label": "B0: click Reset Map View"
+    },
+    {
+      "type": "eval",
+      "label": "B0: keys AFTER reset click (mismatch proof)",
+      "expression": "JSON.stringify({ordoAfterReset: localStorage.getItem('threads-bible-ordo-v2'), legacyAfterReset: localStorage.getItem('ordo-viewer-settings-v1')})"
+    },
+    {
+      "type": "shot",
+      "name": "09-fallback-after-reset.png",
+      "label": "B0: after Reset Map View"
+    },
+    {
+      "type": "console",
+      "label": "console + page errors"
+    }
+  ],
+  "results": [
+    {
+      "label": "clean storage",
+      "value": "cleared",
+      "atMs": 2061
+    },
+    {
+      "label": "boot Genesis 1 reading",
+      "value": {
+        "url": "http://127.0.0.1:3000/#gen-1",
+        "ready": true,
+        "title": "Threads Bible — Scripture Cross-References & Prophecy"
+      },
+      "atMs": 6291
+    },
+    {
+      "label": "verses rendered",
+      "value": {
+        "ok": true,
+        "ms": 1
+      },
+      "atMs": 6292
+    },
+    {
+      "label": "settle",
+      "value": 3000,
+      "atMs": 9302
+    },
+    {
+      "label": "E: navigate to rev-7-9 thread (first fulfillment ref = Genesis 12:3)",
+      "value": "{\"selectedThread\":\"rev-7-9\",\"threadPaneOpen\":true,\"refs\":[\"Genesis 12:3\",\"Genesis 22:18\",\"Isaiah 49:6\",\"Isaiah 56:6-8\",\"Galatians 3:8\"]}",
+      "atMs": 10969
+    },
+    {
+      "label": "thread pane rendered",
+      "value": {
+        "ok": true,
+        "ms": 1
+      },
+      "atMs": 10970
+    },
+    {
+      "label": "wait for fulfillment book loads",
+      "value": 5000,
+      "atMs": 15980
+    },
+    {
+      "label": "BEFORE: fulfillment pane for rev-7-9 (mixed books)",
+      "value": {
+        "file": "C:\\Users\\fanel\\Downloads\\Threads-Bible-main\\.kilo\\worktrees\\ui-polish\\docs\\spot\\ui-polish\\before\\07-fulfillment-multibook-before.png",
+        "bytes": 371464
+      },
+      "atMs": 16087
+    },
+    {
+      "label": "E: fulfillment pane headings + single-paragraph proof",
+      "value": "{\"h1s\":[\"Revelation 7\",\"Revelation 7\",\"Genesis 12:3\"],\"fulfillmentLabelFound\":true,\"paragraphCount\":1,\"verseSpanIds\":[\"verse-gen-12-3\",\"verse-gen-22-18\",\"verse-isa-49-6\",\"verse-isa-56-6\",\"verse-isa-56-7\",\"verse-isa-56-8\",\"verse-gal-3-8\"],\"distinctBooks\":[\"verse\"],\"paragraphText\":\"3And I will bless them that bless thee, and curse him that curseth thee: and in thee shall all families of the earth be blessed. 18And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice. 6And he said, It is a light thing that thou shouldest be my servant to raise up the tribes of Jacob, and to restore the preserved of Israel: I will also give thee for a light to the Gentiles,\"}",
+      "atMs": 16089
+    },
+    {
+      "label": "B0: seed stale localStorage keys then open fallback",
+      "value": "{\"ordoKey\":\"{\\\"layoutMode\\\":\\\"grid\\\",\\\"spacingMode\\\":\\\"compact\\\",\\\"camera\\\":false,\\\"narration\\\":false}\",\"legacyKey\":\"{\\\"legacy\\\":true}\",\"fallbackVisible\":true}",
+      "atMs": 17303
+    },
+    {
+      "label": "fallback card with Reset Map View",
+      "value": {
+        "ok": true,
+        "ms": 1
+      },
+      "atMs": 17304
+    },
+    {
+      "label": "BEFORE: fallback card (Reset Map View)",
+      "value": {
+        "file": "C:\\Users\\fanel\\Downloads\\Threads-Bible-main\\.kilo\\worktrees\\ui-polish\\docs\\spot\\ui-polish\\before\\08-fallback-reset-before.png",
+        "bytes": 110897
+      },
+      "atMs": 17398
+    },
+    {
+      "label": "B0: keys before reset click",
+      "value": "{\"ordo\":\"{\\\"layoutMode\\\":\\\"grid\\\",\\\"spacingMode\\\":\\\"compact\\\",\\\"camera\\\":false,\\\"narration\\\":false}\",\"legacy\":\"{\\\"legacy\\\":true}\"}",
+      "atMs": 17399
+    },
+    {
+      "label": "B0: click Reset Map View",
+      "value": {
+        "box": {
+          "x": 731.3515625,
+          "y": 508.5,
+          "w": 136.796875,
+          "h": 54,
+          "text": "Reset Map View",
+          "title": "Reset map zoom, layout mode, and coordinates to default",
+          "tag": "button"
+        },
+        "x": 731.3515625,
+        "y": 508.5,
+        "url": "http://127.0.0.1:3000/#rev-7"
+      },
+      "atMs": 19015
+    },
+    {
+      "label": "B0: keys AFTER reset click (mismatch proof)",
+      "value": "{\"ordoAfterReset\":\"{\\\"layoutMode\\\":\\\"grid\\\",\\\"spacingMode\\\":\\\"compact\\\",\\\"camera\\\":false,\\\"narration\\\":false}\",\"legacyAfterReset\":null}",
+      "atMs": 19015
+    },
+    {
+      "label": "B0: after Reset Map View",
+      "value": {
+        "file": "C:\\Users\\fanel\\Downloads\\Threads-Bible-main\\.kilo\\worktrees\\ui-polish\\docs\\spot\\ui-polish\\before\\09-fallback-after-reset.png",
+        "bytes": 111090
+      },
+      "atMs": 19109
+    },
+    {
+      "label": "console + page errors",
+      "value": {
+        "consoleLines": [
+          {
+            "type": "debug",
+            "text": "[vite] connecting..."
+          },
+          {
+            "type": "debug",
+            "text": "[vite] connected."
+          },
+          {
+            "type": "info",
+            "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+          }
+        ],
+        "pageErrors": []
+      },
+      "atMs": 19110
+    }
+  ],
+  "consoleLines": [
+    {
+      "type": "debug",
+      "text": "[vite] connecting..."
+    },
+    {
+      "type": "debug",
+      "text": "[vite] connected."
+    },
+    {
+      "type": "info",
+      "text": "%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": []
+}
