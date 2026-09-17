@@ -125,6 +125,7 @@ single source of truth for progress and resumption.
 | Song of Solomon | 14 | 7 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 18 |
 | Proverbs | 48 | 15 | 33 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 19 (after one revert; see below) |
 | Isaiah | 272 | 139 | 133 | 0 | PASS (0 violations, **2 pre-existing failures resolved**) | PASS (exit 0) | APPLIED — Stage A 20 (3 chunks; 125 chain strings deferred to the chain pass) |
+| Ezekiel | 74 | 31 | 43 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 21 (2 chunks; 78 chain strings deferred; 4 under-share drafts inspected and kept; 2 QUOTE-REVIEW) |
 
 Rows are in the order the books were applied, which is also canonical order within Stage A.
 Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because

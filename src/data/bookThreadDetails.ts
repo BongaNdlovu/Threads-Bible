@@ -1140,7 +1140,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-36-26': {
     title: 'A New Heart and a Heart of Flesh',
     principle:
-      'God promises to sprinkle clean water on His people, cleanse them from all idols, take away the stony heart, and give them a heart of flesh, putting His Spirit within them to cause them to walk in His statutes. First principle: regeneration by the Holy Spirit replaces spiritual deadness with responsive obedience.',
+      'God promises to sprinkle clean water on His people and wash them from all their idols. He takes away the stony heart and gives them a heart of flesh. He puts His Spirit within them, and the Spirit causes them to walk in His statutes. First principle: God\'s Spirit gives life where the spirit was dead, and that life shows up as willing obedience.',
     sourceKeywords: ['new heart', 'new spirit', 'take away the stony heart', 'heart of flesh', 'put my spirit within you'],
     fulfillmentKeywords: ['born of water and spirit', 'Spirit', 'fleshy tables of the heart', 'walk in the Spirit'],
     terms: [
@@ -1160,7 +1160,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-37-12': {
     title: 'Graves Opened — Dry Bones Revived',
     principle:
-      'The LORD commands Ezekiel to prophesy to the dry bones in the valley: "Behold, O My people, I will open your graves, and cause you to come up out of your graves... and put My Spirit in you, and you shall live." Jesus echoes this in John 5: all who are in the graves shall hear His voice and come forth. First principle: God\'s Spirit possesses life-giving power over physical death and national exile.',
+      'The LORD commands Ezekiel to prophesy to the dry bones in the valley: "Behold, O My people, I will open your graves, and cause you to come up out of your graves... and put My Spirit in you, and you shall live." Jesus echoes this in John 5: all who are in the graves shall hear His voice and come forth. First principle: God\'s Spirit has power over physical death and over the exile of a whole nation.',
     sourceKeywords: ['open your graves', 'cause you to come up', 'my people', 'land of Israel', 'spirit', 'live'],
     fulfillmentKeywords: ['graves', 'hear his voice', 'come forth', 'resurrection of life', 'raised'],
     terms: [
@@ -1310,7 +1310,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-20-12': {
     title: 'The Sabbath — Sign of Sanctification and Creator-Covenant',
     principle:
-      'God gives His Sabbaths to be a perpetual sign between Him and His covenant people, that they might know that He is the LORD who sanctifies them. Grounded in Genesis 2:1-3 and Exodus 20:8-11, the Sabbath remains the permanent identity marker distinguishing true worshipers of the Creator. First principle: sanctification is not self-righteous works; the Sabbath signifies resting from our own works in the finished work of the Creator and Redeemer.',
+      'God gives His Sabbaths as a lasting sign between Him and His people. The sign marks them as His own, so they know that He is the LORD who makes them holy. Genesis 2:1-3 and Exodus 20:8-11 stand behind this, and the Sabbath still marks out those who worship the Creator. First principle: sanctification is not self-righteous works; the Sabbath signifies resting from our own works in the finished work of the Creator and Redeemer, who makes them holy.',
     sourceKeywords: ['gave them my sabbaths', 'sign between me and them', 'know that I am the LORD that sanctify them'],
     fulfillmentKeywords: ['sabbath', 'sign', 'sanctify', 'Creator', 'worship him that made'],
     terms: [
@@ -1416,11 +1416,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-28-12': {
     title: 'The Covering Cherub — Perfection Corrupted by Iniquity',
     principle:
-      'The prophetic lamentation over the prince of Tyre pulls back the cosmic veil: "Thou sealest up the sum, full of wisdom, and perfect in beauty. Thou hast been in Eden the garden of God... Thou art the anointed cherub that covereth... Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee." First principle: God created Lucifer holy and free; moral freedom made love possible, but allowed the mystery of iniquity to arise.',
+      'The lament over the prince of Tyre shows what lies behind the visible world: "Thou sealest up the sum, full of wisdom, and perfect in beauty. Thou hast been in Eden the garden of God... Thou art the anointed cherub that covereth... Thou wast perfect in thy ways from the day that thou wast created, till iniquity was found in thee." First principle: God created Lucifer holy and free. That freedom made love possible, and it also let the mystery of iniquity arise.',
     sourceKeywords: ['sealest up the sum', 'full of wisdom', 'perfect in beauty', 'Eden the garden of God', 'anointed cherub that covereth', 'till iniquity was found in thee'],
     fulfillmentKeywords: ['war in heaven', 'cast down to the ground', 'destruction of Satan', 'affliction shall not rise again'],
     terms: [
-      { term: 'anointed cherub that covereth', original: 'כְּרוּב מִמְשַׁח הַסּוֹכֵךְ', translit: 'keruv mimshach has-sokhekh', gloss: 'the anointed guardian cherub', note: 'Positioned beside the very throne and mercy seat of God in the heavenly sanctuary.' },
+      { term: 'anointed cherub that covereth', original: 'כְּרוּב מִמְשַׁח הַסּוֹכֵךְ', translit: 'keruv mimshach has-sokhekh', gloss: 'the anointed guardian cherub', note: 'This cherub stood beside the very throne and mercy seat of God in the heavenly sanctuary — God\'s dwelling place.' },
       { term: 'iniquity was found in thee', original: 'נִמְצָא עַוְלָתָה בָּךְ', translit: 'nimtsa ʿavlah bakh', gloss: 'unrighteousness / perversity was found in you', note: 'Unprovoked, inexplicable rebellion against infinite divine love.' },
     ],
   },
@@ -2250,7 +2250,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-34-23': {
     title: 'One Shepherd: My Servant David over the Flock',
     principle:
-      'And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd. Spoken against the failed shepherds of Israel who fed themselves. First principle: God answers negligent leadership with a single faithful Shepherd of David\'s line — and the flock is known by name.',
+      'And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd. God spoke these words against the failed shepherds of Israel who fed themselves. First principle: God answers bad leaders with one faithful Shepherd from David\'s line. That Shepherd knows His flock by name.',
     sourceKeywords: ['set up one shepherd', 'my servant David', 'he shall feed them', 'I the LORD will be their God'],
     fulfillmentKeywords: ['I am the good shepherd', 'lay down my life for the sheep', 'other sheep I have', 'great shepherd of the sheep'],
     terms: [
@@ -9438,7 +9438,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-1-1': {
     title: 'The Heavens Were Opened, and I Saw Visions of God',
     principle:
-      'A captive by Chebar sees open heavens. First principle: revelation to the exiled — the visions come to a prisoner by a river, not to a priest in a temple.',
+      'A captive by Chebar sees open heavens. First principle: God speaks to His people in exile. He gives the visions to a prisoner beside a river, not to a priest in the temple.',
     sourceKeywords: ['among the captives by the river of Chebar', 'the heavens were opened', 'I saw visions of God'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9446,7 +9446,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-1-26': {
     title: 'The Likeness of a Throne... the Appearance of a Man above upon It',
     principle:
-      'Sapphire throne, man-like figure above it. First principle: the glory has a human appearance — Ezekiel\'s throne-man is Daniel\'s Son of man and Revelation\'s glorified Jesus.',
+      'Sapphire throne, man-like figure above it. First principle: the glory looks like a man. Ezekiel\'s throne-man is Daniel\'s Son of man and Revelation\'s glorified Jesus.',
     sourceKeywords: ['the likeness of a throne', 'as the appearance of a sapphire stone', 'the appearance of a man above upon it'],
     fulfillmentKeywords: ['one like unto the Son of man'],
     terms: [],
@@ -9454,7 +9454,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-3-17': {
     title: 'Son of Man, I Have Made Thee a Watchman',
     principle:
-      'Hear the word at my mouth; warn them from me. First principle: the watchman office — hearing first, warning second; blood-responsibility attached to silence.',
+      'Hear the word at my mouth; warn them from me. First principle: the watchman hears first, then warns. If he stays silent, the blood is on his head.',
     sourceKeywords: ['I have made thee a watchman', 'hear the word at my mouth', 'give them warning from me'],
     fulfillmentKeywords: ['I have not shunned to declare unto you all the counsel of God'],
     terms: [],
@@ -9462,7 +9462,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-11-19': {
     title: 'I Will Give Them One Heart, and a New Spirit',
     principle:
-      'Stony heart removed, heart of flesh given. First principle: the transplant surgery of the new covenant — one heart, new spirit, flesh for stone.',
+      'Stony heart removed, heart of flesh given. First principle: God promises a new heart under the new covenant — God\'s binding promise. He gives one heart and a new spirit, and He trades flesh for stone.',
     sourceKeywords: ['I will give them one heart', 'a new spirit within you', 'give them an heart of flesh'],
     fulfillmentKeywords: ['I will put my laws into their hearts'],
     terms: [],
@@ -9470,7 +9470,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-12-22': {
     title: 'The Days Are Prolonged, and Every Vision Faileth',
     principle:
-      'The scoffing proverb quoted for demolition. First principle: delayed vision tempts scoffers — Peter\'s latter-day mockers quote the same proverb until the flood-logic answers.',
+      'The scoffing proverb quoted for demolition. First principle: when the vision is slow to come, mockers rise. Peter\'s latter-day mockers quote the same proverb until the flood-logic answers them.',
     sourceKeywords: ['what is that proverb', 'The days are prolonged', 'every vision faileth'],
     fulfillmentKeywords: ['Where is the promise of his coming?'],
     terms: [],
@@ -9478,7 +9478,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-18-4': {
     title: 'The Soul That Sinneth, It Shall Die',
     principle:
-      'All souls are mine — father and son each their own. First principle: individual accountability under universal ownership — the soul\'s death is the soul\'s own sin.',
+      'All souls are mine — father and son each their own. First principle: God owns every soul, and each one answers for itself. A soul dies for its own sin.',
     sourceKeywords: ['all souls are mine', 'the soul that sinneth, it shall die'],
     fulfillmentKeywords: ['the wages of sin is death'],
     terms: [],
@@ -9486,7 +9486,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-18-20': {
     title: 'The Son Shall Not Bear the Iniquity of the Father',
     principle:
-      'Righteousness on the righteous, wickedness on the wicked. First principle: the fairness charter — no transferred guilt, no inherited innocence; each soul answers for itself.',
+      'Righteousness on the righteous, wickedness on the wicked. First principle: God is fair. Guilt does not pass to the son, and innocence is not inherited. Each soul answers for itself.',
     sourceKeywords: ['The son shall not bear the iniquity of the father', 'the righteousness of the righteous shall be upon him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9494,7 +9494,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-18-32': {
     title: 'I Have No Pleasure in the Death of Him That Dieth',
     principle:
-      'Turn yourselves, and live ye. First principle: God\'s pleasure is repentance-lived, not death-executed — the divine reluctance is the invitation\'s ground.',
+      'Turn yourselves, and live ye. First principle: God takes pleasure in a life that turns to Him, not in a death carried out. His reluctance is why He invites.',
     sourceKeywords: ['I have no pleasure in the death of him that dieth', 'wherefore turn yourselves, and live ye'],
     fulfillmentKeywords: ['who will have all men to be saved'],
     terms: [],
@@ -9502,7 +9502,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-20-20': {
     title: 'Hallow My Sabbaths; They Shall Be a Sign',
     principle:
-      'The sign that answers I am the LORD your God. First principle: the Sabbath is a covenant-sign — sanctified time as the knowing-marker between God and people.',
+      'The sign that answers I am the LORD your God. First principle: the Sabbath is the sign of the covenant — God\'s binding promise. God set apart a day of time, and by it His people know Him.',
     sourceKeywords: ['hallow my sabbaths'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9510,7 +9510,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-21-27': {
     title: 'I Will Overturn, Overturn, Overturn, Until He Come',
     principle:
-      'The throne overturned until the Rightful One arrives, and it is given Him. First principle: triple overturning is the interim government of Judah — the crown lies in wait for Shiloh.',
+      'The throne overturned until the Rightful One arrives, and it is given Him. First principle: God overturns the crown three times. That is how Judah is governed in the meantime, and the crown waits for Shiloh.',
     sourceKeywords: ['until he come whose right it is'],
     fulfillmentKeywords: ['The sceptre shall not depart from Judah... until Shiloh come'],
     terms: [],
@@ -9518,7 +9518,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-22-26': {
     title: 'Her Priests Have Put No Difference between the Holy and Profane',
     principle:
-      'Law violated, sabbaths hidden from eyes, God profaned. First principle: the priest\'s first duty is distinction — holy/profane, clean/unclean; erased distinctions profane the Name.',
+      'Law violated, sabbaths hidden from eyes, God profaned. First principle: the priest\'s first duty is to tell holy from profane and clean from unclean. When those lines are erased, the Name is profaned.',
     sourceKeywords: ['violated my law', 'no difference between the holy and profane', 'hid their eyes from my sabbaths'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9526,7 +9526,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-28-2': {
     title: 'Thou Hast Said, I Am a God, I Sit in the Seat of God',
     principle:
-      'The prince of Tyrus self-deifies; yet thou art a man. First principle: the man-god delusion is the oldest boast — Paul\'s man of sin seats himself the same way.',
+      'The prince of Tyrus makes himself a god; yet "thou art a man." First principle: the man-god delusion is the oldest boast. Paul\'s man of sin seats himself the same way.',
     sourceKeywords: ['thine heart is lifted up', 'I am a God, I sit in the seat of God', 'yet thou art a man, and not God'],
     fulfillmentKeywords: ['so that he as God sitteth in the temple of God'],
     terms: [],
@@ -9534,7 +9534,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-33-11': {
     title: 'I Have No Pleasure in the Death of the Wicked',
     principle:
-      'As I live — turn ye, turn ye; why will ye die? First principle: the oath-backed reluctance — God swears His non-pleasure in death and pleads the turn; the why is the invitation.',
+      'As I live — turn ye, turn ye; why will ye die? First principle: God swears an oath that He takes no pleasure in death, and He pleads with the sinner to turn. That question why is the invitation.',
     sourceKeywords: ['I have no pleasure in the death of the wicked'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9542,7 +9542,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-34-11': {
     title: 'Behold, I, Even I, Will Both Search My Sheep',
     principle:
-      'The doubled I — God Himself does the seeking the shepherds failed at. First principle: divine intervention replaces negligent leadership — the search is personal, pronoun-emphatic.',
+      'The doubled I — God Himself does the seeking the shepherds failed at. First principle: God steps in where the leaders failed. He says I, even I, and He searches for His sheep Himself.',
     sourceKeywords: ['I, even I, will both search my sheep'],
     fulfillmentKeywords: ['the Son of man is come to save that which was lost'],
     terms: [],
@@ -9550,7 +9550,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-34-24': {
     title: 'I the LORD Will Be Their God, and My Servant David a Prince',
     principle:
-      'God with them, David-prince among them — I the LORD have spoken it. First principle: the divine-shepherd and the David-prince co-reign without contradiction — one flock, both Sheep and Shepherd.',
+      'God with them, David-prince among them — I the LORD have spoken it. First principle: God the shepherd and David the prince rule together, and the two do not contradict. One flock has God as its shepherd and David as its prince.',
     sourceKeywords: ['I the LORD will be their God', 'my servant David a prince among them', 'I the LORD have spoken it'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9558,7 +9558,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-36-25': {
     title: 'Then Will I Sprinkle Clean Water upon You',
     principle:
-      'Cleansed from filthiness and idols. First principle: the sprinkling is cleansing, not ceremony — idols and filthiness named as what the water washes.',
+      'Cleansed from filthiness and idols. First principle: the sprinkling is a real cleansing, not a ceremony. God names idols and filthiness as the two things the water washes away.',
     sourceKeywords: ['sprinkle clean water upon you, and ye shall be clean', 'from all your filthiness, and from all your idols'],
     fulfillmentKeywords: ['let us draw near... our bodies washed with pure water'],
     terms: [],
@@ -9566,7 +9566,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-36-27': {
     title: 'I Will Put My Spirit Within You, and Cause You to Walk',
     principle:
-      'Statutes kept because the Spirit indwells. First principle: obedience has an internal engine — the cause-you-to-walk is the Spirit\'s causal presence in the new covenant.',
+      'Statutes kept because the Spirit indwells. First principle: obedience has a power inside it. The Spirit lives in a person, and His presence is what causes that person to walk in God\'s statutes.',
     sourceKeywords: ['I will put my spirit within you', 'cause you to walk in my statutes', 'ye shall keep my judgments, and do them'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9574,7 +9574,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-37-5': {
     title: 'Behold, I Will Cause Breath to Enter into You',
     principle:
-      'Dry bones hear the word and live. First principle: the valley-question answered — breath by word of command; the resurrection preached to an army of bones.',
+      'Dry bones hear the word and live. First principle: this answers the question asked in the valley. God gives breath by the word of His command, and He preaches resurrection to an army of bones.',
     sourceKeywords: ['I will cause breath to enter into you'],
     fulfillmentKeywords: ['all that are in the graves shall hear his voice, and shall come forth'],
     terms: [],
@@ -9582,7 +9582,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-37-24': {
     title: 'David My Servant Shall Be King over Them',
     principle:
-      'One shepherd, judgments walked, statutes done. First principle: the reunited kingdom under the one Shepherd-King — the David-title is the walking-statutes cause.',
+      'One shepherd, judgments walked, statutes done. First principle: one Shepherd-King rules the reunited kingdom. David\'s title is the reason the people walk in God\'s statutes.',
     sourceKeywords: ['David my servant shall be king over them', 'they all shall have one shepherd', 'walk in my judgments'],
     fulfillmentKeywords: ['other sheep I have... there shall be one fold, and one shepherd'],
     terms: [],
@@ -9590,7 +9590,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-37-27': {
     title: 'My Tabernacle Also Shall Be with Them',
     principle:
-      'The dwelling-promise renewed to resurrected Israel. First principle: tabernacle with them — the covenant formula carried into the valley\'s aftermath; Revelation quotes it for the redeemed.',
+      'The dwelling-promise renewed to resurrected Israel. First principle: God\'s dwelling place stands with them, and the same promise carries past the valley of dry bones. Revelation quotes it for the redeemed.',
     sourceKeywords: ['My tabernacle also shall be with them', 'I will be their God, and they shall be my people'],
     fulfillmentKeywords: ['Behold, the tabernacle of God is with men'],
     terms: [],
@@ -9598,7 +9598,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-40-1': {
     title: 'In the Visions of God Brought He Me into the Land of Israel',
     principle:
-      'Twenty-five years after captivity, the hand brings him to the city-smitten land. First principle: the vision-dated tour — the temple-measuring vision answers the glory-departing vision of chapters 10-11.',
+      'Twenty-five years after captivity, the hand brings him to the city that had been struck down. First principle: God dates this vision. The tour that measures the temple answers the vision of the glory leaving the temple in chapters 10-11.',
     sourceKeywords: ['the visions of God'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9606,7 +9606,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-43-2': {
     title: 'The Glory of the God of Israel Came from the Way of the East',
     principle:
-      'Many-waters voice; the earth shined with His glory. First principle: the glory returns by the east gate it left — the same way of departure is the way of return.',
+      'Many-waters voice; the earth shined with His glory. First principle: the glory comes back by the east gate. That is the same way it left, and it is the way it returns.',
     sourceKeywords: ['the glory of the God of Israel came from the way of the east', 'his voice was like a noise of many waters', 'the earth shined with his glory'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9614,7 +9614,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-43-7': {
     title: 'The Place of My Throne, and the Place of the Soles of My Feet',
     principle:
-      'Dwelling in the midst forever; the house no more defiled. First principle: throne and soles — sovereignty and nearness in one sentence; the defilement era ends by divine residence.',
+      'Dwelling in the midst forever; the house no more defiled. First principle: God\'s throne shows He rules, and the soles of His feet show He is near. He ends the years of defilement by coming to live there Himself.',
     sourceKeywords: ['the place of my throne', 'the place of the soles of my feet', 'I will dwell in the midst'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9622,7 +9622,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-47-1': {
     title: 'Waters Issued Out from under the Threshold of the House',
     principle:
-      'East-flowing water from the altar side. First principle: the temple leaks life — the trickle at the threshold becomes the knee-deep, hip-deep river of the vision.',
+      'East-flowing water from the altar side. First principle: life flows out of the temple. The trickle at the threshold becomes the knee-deep, hip-deep river of the vision.',
     sourceKeywords: ['waters issued out from under the threshold of the house'],
     fulfillmentKeywords: ['a pure river of water of life... proceeding out of the throne'],
     terms: [],
@@ -9630,7 +9630,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'ezk-47-12': {
     title: 'All Trees for Meat, Whose Leaf Shall Not Fade',
     principle:
-      'New fruit by his months; leaf for medicine. First principle: the sanctuary-fed trees never fade — Revelation\'s tree of life borrows the months and the medicinal leaves.',
+      'New fruit by his months; leaf for medicine. First principle: the trees fed by God\'s dwelling place never fade. Revelation\'s tree of life borrows the months and the healing leaves.',
     sourceKeywords: ['whose leaf shall not fade'],
     fulfillmentKeywords: ['the leaves of the tree were for the healing of the nations'],
     terms: [],
