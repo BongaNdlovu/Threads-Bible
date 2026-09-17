@@ -950,7 +950,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-6': {
     title: 'Chief Corner Stone, Elect, Precious',
     principle:
-      'Behold, I lay in Sion a chief corner stone, elect, precious. Textual proof: Isaiah 28:16 quoted; Psalm 118:22 in 1 Pet 2:7; same as Matt 21:42, Acts 4:11, Eph 2:20.',
+      '"Behold, I lay in Sion a chief corner stone, elect, precious." Textual proof: Peter says Isaiah 28:16 said this. He also points to Psalm 118:22 in 1 Pet 2:7, and to the same words in Matt 21:42, Acts 4:11 and Eph 2:20.',
     sourceKeywords: ['Sion', 'chief corner stone', 'elect', 'precious', 'believeth', 'confounded'],
     fulfillmentKeywords: ['stone', 'corner', 'elect', 'precious'],
     terms: [
@@ -960,7 +960,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-24': {
     title: 'His Own Self Bare Our Sins',
     principle:
-      'Who his own self bare our sins in his own body on the tree. Textual proof: Isaiah 53:4-6, 12 quoted and applied; 1 Pet 1:19 — precious blood of Christ as of a lamb without blemish (Exod 12:5).',
+      '"Who his own self bare our sins in his own body on the tree." Textual proof: Peter applies Isaiah 53:4-6 and 12 to Christ. In 1 Pet 1:19 he calls the blood of Christ precious, like the blood of a lamb without blemish. Those are the rules God gave for the Passover lamb in Exod 12:5.',
     sourceKeywords: ['his own self', 'bare', 'our sins', 'body', 'tree', 'dead to sins', 'stripes', 'healed'],
     fulfillmentKeywords: ['borne', 'griefs', 'carried', 'sorrows', 'wounded', 'iniquities', 'bruised'],
     terms: [
@@ -7676,15 +7676,15 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-1-16': {
     title: 'Be Ye Holy; for I Am Holy',
     principle:
-      'The holiness command quoted from Leviticus to the exiled church. First principle: holiness is imitative — the command\'s ground is God\'s own character, unchanged across covenants.',
+      'Peter quotes the holiness command from Leviticus to the church scattered far from home. First principle: God commands his people to be holy because he is holy — the ground of the command is God\'s own character, unchanged from one covenant to the next.',
     sourceKeywords: ['it is written, Be ye holy', 'for I am holy'],
     fulfillmentKeywords: ['ye shall be holy: for I the LORD your God am holy'],
     terms: [],
   },
   '1pe-1-19': {
-    title: 'With the Precious Blood of Christ, as of a Lamb Without Blemish',
+    title: 'Christ\'s Precious Blood, as of a Lamb Without Blemish',
     principle:
-      'Redemption priced in lamb-blood. First principle: the exodus lamb\'s inspection rules are applied to Christ — without blemish, without spot, precious beyond silver and gold.',
+      '"with the precious blood of Christ, as of a lamb without blemish and without spot." First principle: that is how God bought his people back — he paid a price, and the price was Christ\'s blood. God applied the rules for inspecting the exodus lamb to Christ. He was without blemish, without spot, and precious beyond silver and gold.',
     sourceKeywords: ['the precious blood of Christ', 'a lamb without blemish and without spot'],
     fulfillmentKeywords: ['Your lamb shall be without blemish'],
     terms: [],
@@ -7692,7 +7692,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-1-24': {
     title: 'All Flesh Is as Grass',
     principle:
-      'The withering grass and the enduring word. First principle: Isaiah 40 is quoted whole into the apostolic age — the word preached is the word that stands forever.',
+      'The withering grass and the enduring word. First principle: Peter quotes Isaiah 40 whole into the church age. The word preached is the word that stands forever.',
     sourceKeywords: ['all flesh is as grass', 'the flower of grass', 'the word of the Lord endureth for ever'],
     fulfillmentKeywords: ['the grass withereth, the flower fadeth'],
     terms: [],
@@ -7700,7 +7700,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-4': {
     title: 'To Whom Coming, as unto a Living Stone',
     principle:
-      'The disallowed, chosen, precious Stone. First principle: the Stone is alive — rejected by builders, chosen by God; coming to Him is the church\'s building activity.',
+      'This Stone is alive. First principle: the builders rejected the Stone, but God chose it and counts it precious. Coming to Him is the church\'s work of building.',
     sourceKeywords: ['a living stone', 'disallowed indeed of men', 'chosen of God, and precious'],
     fulfillmentKeywords: ['the stone which the builders refused', 'a tried stone, a precious corner stone'],
     terms: [],
@@ -7708,7 +7708,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-7': {
     title: 'Unto You Which Believe He Is Precious',
     principle:
-      'The Stone divides: precious to believers, the builders\' disallowance to the disobedient. First principle: the same stone generates opposite fates — honor for the believing, stumbling for the refusing.',
+      'The Stone divides people. Believers find it precious, but the disobedient stumble over it because the builders refused it. First principle: the same stone brings two opposite results — honour for the person who believes, and stumbling for the person who refuses.',
     sourceKeywords: ['unto you which believe he is precious', 'the stone which the builders disallowed', 'head of the corner'],
     fulfillmentKeywords: ['the stone which the builders refused is become the head stone'],
     terms: [],
@@ -7716,7 +7716,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-9': {
     title: 'A Chosen Generation, a Royal Priesthood, an Holy Nation',
     principle:
-      'Exodus 19\'s titles are granted to the called-out. First principle: the covenant vocation transfers to the church — darkness-exit into marvellous light for showing forth praises.',
+      '"a chosen generation, a royal priesthood, an holy nation." God gives these titles from Exodus 19 to the people he has called out. First principle: God\'s binding promise to his people passes to the church. He called them out of darkness into his marvellous light, and he did it so they would show his praises.',
     sourceKeywords: ['a chosen generation', 'a royal priesthood, an holy nation', 'a peculiar people', 'out of darkness into his marvellous light'],
     fulfillmentKeywords: ['ye shall be unto me a kingdom of priests, and an holy nation'],
     terms: [],
@@ -7724,7 +7724,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-2-22': {
     title: 'Who Did No Sin, Neither Was Guile Found in His Mouth',
     principle:
-      'The Servant\'s sinlessness quoted in the suffering-context. First principle: Isaiah 53:9 is Peter\'s own credential-check on Christ — the sinless mouth is the basis of the substitution that follows.',
+      'Peter quotes the Servant\'s sinlessness into a passage about suffering. First principle: Peter uses Isaiah 53:9 as his own check on Christ\'s credentials. Christ\'s mouth was without sin, and that is what makes it possible for him to take our place.',
     sourceKeywords: ['Who did no sin', 'neither was guile found in his mouth'],
     fulfillmentKeywords: ['because he had done no violence, neither was any deceit in his mouth'],
     terms: [],
@@ -7732,7 +7732,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-3-10': {
     title: 'He That Will Love Life... Refrain His Tongue from Evil',
     principle:
-      'Psalm 34\'s life-loving recipe. First principle: loving life begins with the tongue — refrained lips and departing-from-evil lips are the good-days precondition.',
+      'Psalm 34 is the recipe for a person who loves life. First principle: watching your tongue comes first. Refraining your lips and turning away from evil are the conditions for good days.',
     sourceKeywords: ['love life, and see good days', 'refrain his tongue from evil', 'lips that they speak no guile'],
     fulfillmentKeywords: ['keep thy tongue from evil, and thy lips from speaking guile'],
     terms: [],
@@ -7740,7 +7740,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-3-12': {
     title: 'The Eyes of the Lord Are over the Righteous',
     principle:
-      'Ears open to prayers; the face against evildoers. First principle: the watching face is dual — over the righteous, against the evil; the same eyes, two directions.',
+      '"The eyes of the Lord are over the righteous, and his ears are open unto their prayers." God watches over his people and he listens when they pray. But he sets his face against those who do evil. First principle: the same eyes look in two directions.',
     sourceKeywords: ['the eyes of the Lord are over the righteous', 'his ears are open unto their prayers', 'against them that do evil'],
     fulfillmentKeywords: ['The eyes of the LORD are upon the righteous'],
     terms: [],
@@ -7748,7 +7748,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-3-14': {
     title: 'If Ye Suffer for Righteousness\' Sake, Happy Are Ye',
     principle:
-      'Fearlessness commanded with Isaiah\'s sanctuary logic: sanctify the LORD in hearts. First principle: suffering for right is happiness\'s address — fear not their fear; the LORD of hosts is the sanctified dread.',
+      'God commands his people not to fear. Peter repeats Isaiah\'s words about the LORD: "Sanctify the LORD of hosts himself" in your hearts, and let him be the one you fear. First principle: suffering for doing right is where happiness is found. Do not be afraid of what they threaten, because the LORD of hosts is the holy one to be feared.',
     sourceKeywords: ['suffer for righteousness\' sake', 'happy are ye', 'be not afraid of their terror'],
     fulfillmentKeywords: ['Sanctify the LORD of hosts himself', 'let him be your fear'],
     terms: [],
@@ -7756,7 +7756,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-4-18': {
     title: 'If the Righteous Scarcely Be Saved, Where Shall the Ungodly Appear?',
     principle:
-      'Proverbs 11:31 quoted as judgment\'s starting-point logic. First principle: the judgment begins at God\'s house — if the righteous are saved through fire, the ungodly\'s appearing is hopeless.',
+      'Peter quotes Proverbs 11:31 to show where judgment starts. First principle: God\'s judgment starts at his own house. If even the righteous are barely saved, then the ungodly and the sinner have nowhere to stand.',
     sourceKeywords: ['if the righteous scarcely be saved', 'where shall the ungodly and the sinner appear'],
     fulfillmentKeywords: ['Behold, the righteous shall be recompensed in the earth'],
     terms: [],
@@ -7764,7 +7764,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1pe-5-5': {
     title: 'Be Clothed with Humility: God Resisteth the Proud',
     principle:
-      'Submission clothed in humility, grace to the lowly. First principle: humility is a garment and grace is the wage — the apron of the lowly is where God\'s favor lands.',
+      'Clothe yourselves with humility, and grace goes to the lowly. First principle: humility is the garment and grace is the wage. God gives his favour to the person who bows low, and he keeps it from the proud.',
     sourceKeywords: ['be clothed with humility', 'God resisteth the proud', 'giveth grace to the humble'],
     fulfillmentKeywords: ['surely he scorneth the scorners: but he giveth grace unto the lowly'],
     terms: [],
