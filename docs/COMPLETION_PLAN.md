@@ -162,6 +162,49 @@ single source of truth for progress and resumption.
 | 2 John | 4 | 2 | 2 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 55 |
 | 3 John | 2 | 1 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 56 |
 | Jude | 16 | 7 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 57 (1 QUOTE-REVIEW) |
+| Revelation | 236 | 112 | 124 | 0 | PASS (0 violations, **5 pre-existing failures resolved**) | PASS (exit 0) | APPLIED — Stage A 58 (3 chunks; 146 chain strings deferred) |
+| Hebrews | 104 | 43 | 61 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 59 (41 chain strings deferred; 2 QUOTE-REVIEW) |
+| 1 Peter | 32 | 15 | 17 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 60 (1 QUOTE-REVIEW) |
+
+## Stage A complete — 60 of 60 books
+
+| Measure | Value |
+|---|---:|
+| Stage A books applied | 60 of 60 (Deuteronomy → Revelation) |
+| Entries | 969 |
+| Entry strings | 2,357 |
+| Strings rewritten | 1,166 |
+| Strings verify-only | 1,573 |
+| EQUIVALENT | 0 |
+| QUOTE-REVIEW findings | 76 |
+| THEOLOGY-REVIEW findings | 1 |
+| Pre-existing clarity-gate failures resolved | 20 of 20 in scope |
+| Pre-existing clarity-gate failures in the canon, after | 0 (was 22) |
+| Per-book structural verify (7 checks) vs each book's pre-apply commit | 60 of 60 PASS |
+| Books reverted mid-pass | 1 (Proverbs, one entry, re-applied) |
+| Books corrected after commit | 13 (65 strings — see `docs/CP-03_LABEL_REPAIR.md`) |
+| Commits | 1 per book, plus one repair commit for each corrected book and two tooling commits |
+| Reverts of committed prose | 0 |
+
+The verify-only share is 57.4% of entry strings. That is the intended shape of the sweep, not a
+shortfall: §1.11 requires a string that already meets the standard to be recorded rather than
+rewritten, and the density ranking aimed the effort at the densest strings first. A sweep whose
+rewrite share approached 100% would be punctuation theatre.
+
+Three defects were caught by shape checks and none by a prose check: a clarity-gate failure introduced
+in Proverbs (`NO_BANNED`), a bare citation qualified in Matthew (`CITATION_FIXITY`), and 50 committed
+structural-label changes that required writing a seventh check (`LABEL_FIXITY`) before anything could
+see them. `docs/CP-03_LABEL_REPAIR.md` records the third in full, including the collateral damage done
+to `num-21-9` while that check was being falsification-tested and the fix for it. The lesson the sweep
+leaves behind is that every invariant needs a check that can fail on it, and every check needs to be
+falsified once before it is trusted.
+
+Outstanding after Stage A: the Stage A.5 chain pass (§1.12 — 36 chains, 622 unique strings, all chain
+prose still at its pre-sweep wording), then Stage B (CP-04 regression, CP-05 consistency read and
+triage queue, CP-06 whole-canon report). The chain worklist derived from the 63 per-book worklists on
+hand gives 20 chains and 368 unique strings rather than 36 and 622, and the same chain's text differs
+between some books' worklists — both facts mean the plan's chain inventory needs re-deriving from the
+tree after the last book rather than trusting the numbers in §1.12. That is the first task of Stage A.5.
 
 Rows 42–57 were applied in the order shown, which is canonical except in one stretch: James (48) was
 applied before the Pastoral Epistles (49–52) because its rewrite set finished first. Two books are
