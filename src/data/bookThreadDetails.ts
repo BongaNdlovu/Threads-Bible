@@ -1014,7 +1014,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'num-21-9': {
     title: 'The Bronze Serpent Lifted Up',
     principle:
-      'Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life.  God turned the sign of the curse into the means of life for everyone who looks to it in faith.',
+      'Moses made a bronze serpent and set it on a pole. Anyone who was bitten looked at it and lived. Jesus applied this to His own death: as Moses lifted up the serpent, so must the Son of Man be lifted up, that whoever believes in Him should not perish but have eternal life. First principle: God turned the sign of the curse into the means of life for everyone who looks to it in faith.',
     sourceKeywords: ['serpent of brass', 'pole', 'bitten', 'beheld', 'lived'],
     fulfillmentKeywords: ['lifted up', 'serpent', 'wilderness', 'Son of man', 'believe', 'eternal life', 'cross'],
     terms: [
