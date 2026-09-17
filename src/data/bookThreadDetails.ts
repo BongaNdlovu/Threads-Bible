@@ -8715,7 +8715,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-6-2': {
     title: 'I Have Built an House of Habitation for Thee',
     principle:
-      'Solomon\'s claim over the finished house. First principle: the claim is human, the answer divine — the cloud fills, and the question of 1 Kings 8:27 immediately follows the claim.',
+      'Solomon claimed the finished house as his own gift to God. First principle: a man makes the claim, and God gives the answer. The cloud fills the house, and 1 Kings 8:27 asks the question that follows the claim at once.',
     sourceKeywords: ['an house of habitation for thee'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8723,7 +8723,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-6-18': {
     title: 'Will God in Very Deed Dwell with Men on the Earth?',
     principle:
-      'The Chronicler\'s version of the temple-dedication question. First principle: the wonder-question stands until the Word dwelt among us — the true answer to Solomon\'s astonishment.',
+      'This is the Chronicler\'s version of the temple-dedication question. First principle: the question of wonder stands until the Word came and lived among us. That is the true answer to Solomon\'s astonishment.',
     sourceKeywords: ['Will God in very deed dwell with men on the earth', 'heaven and the heaven of heavens cannot contain thee'],
     fulfillmentKeywords: ['and dwelt among us (and we beheld his glory)'],
     terms: [],
@@ -8731,7 +8731,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-7-14': {
     title: 'If My People... Shall Humble Themselves, and Pray',
     principle:
-      'Humble, pray, seek, turn — heard from heaven, forgiven, healed. First principle: the four-step revival formula with a healing promise — given to Solomon for the temple\'s remedy role.',
+      'Humble, pray, seek, turn: God hears from heaven, forgives, and heals. First principle: four steps bring the people back to God, and the promise of healing goes with them. God gave this answer to Solomon for the temple, the place where the people would come to be made whole.',
     sourceKeywords: ['called by my name, shall humble themselves', 'seek my face', 'will forgive their sin, and will heal their land'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8739,7 +8739,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-7-16': {
     title: 'I Have Chosen and Sanctified This House',
     principle:
-      'Name, eyes, and heart perpetually there. First principle: the temple is chosen, sanctified, and watched — eyes and heart of God resident; a promise Jesus honors by cleansing what was profaned.',
+      '"My name may be there for ever": God\'s name, his eyes, and his heart stay in that house. First principle: God chose the temple and set it apart. He promised to watch over it always. The Gospels then tell how Jesus honored that promise by clearing out what men had made unclean.',
     sourceKeywords: ['I have chosen and sanctified this house', 'my name may be there for ever', 'mine eyes and mine heart shall be there'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8747,7 +8747,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-16-9': {
     title: 'The Eyes of the LORD Run to and Fro throughout the Whole Earth',
     principle:
-      'Seeking the perfect-hearted to show Himself strong. First principle: the searching eyes are partisan — strength shown to the fully-committed; Hanani\'s rebuke to Asa is a standing audit.',
+      'God looks to show himself strong for the whole-hearted. First principle: God\'s searching eyes take a side. He shows his strength to those who are fully committed to him. Hanani\'s rebuke to Asa still stands as a check on every later king.',
     sourceKeywords: ['the eyes of the LORD run to and fro', 'shew himself strong', 'heart is perfect toward him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8755,7 +8755,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-20-15': {
     title: 'The Battle Is Not Yours, but God\'s',
     principle:
-      'The vast multitude meets a preached non-fear. First principle: the war is the LORD\'s, so the posture is standing-still trust with singers in front of the army.',
+      'A huge enemy army came, and the people were told not to be afraid. First principle: the battle belongs to the LORD. So the people stood still and trusted him, and the singers walked in front of the army.',
     sourceKeywords: ['Be not afraid nor dismayed', 'this great multitude', 'the battle is not yours, but God\'s'],
     fulfillmentKeywords: ['the battle is the LORD\'S'],
     terms: [],
@@ -8763,7 +8763,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-20-20': {
     title: 'Believe in the LORD Your God, So Shall Ye Be Established',
     principle:
-      'Jehoshaphat\'s morning command: believe the LORD, believe His prophets. First principle: establishment by believing, prosperity by prophetic trust — the singers go before the spoil.',
+      'Jehoshaphat told the people in the morning to trust the LORD and to trust his prophets. First principle: believing is what makes you stand firm, and trusting the prophet\'s word is what makes you prosper. The singers go ahead of the spoil.',
     sourceKeywords: ['Believe in the LORD your God, so shall ye be established', 'believe his prophets, so shall ye prosper'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8771,7 +8771,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2ch-36-23': {
     title: 'Who Is There among You of All His People? Let Him Go Up',
     principle:
-      'Cyrus\'s decree closes the Chronicler\'s book with an open invitation. First principle: the Persian king\'s charge fulfills Jeremiah and Isaiah — the go-up call is the remnant\'s trumpet.',
+      'Cyrus\'s decree ends the Chronicler\'s book and leaves the invitation open. First principle: what the Persian king commanded was the fulfillment of Jeremiah and Isaiah. His call to go up is the trumpet for the remnant, the faithful few who are left.',
     sourceKeywords: ['Cyrus king of Persia', 'charged me to build him an house in Jerusalem', 'let him go up'],
     fulfillmentKeywords: ['that saith of Cyrus, He is my shepherd'],
     terms: [],
