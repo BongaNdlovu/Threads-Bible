@@ -904,7 +904,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['seventh day', 'God did rest', 'works'],
     fulfillmentKeywords: ['rested', 'seventh day', 'finished'],
     terms: [
-      { term: 'a Sabbath rest', original: 'σαββατισμὸς', translit: 'sabbatismos', gloss: 'a sabbath-keeping / sabbath rest', note: 'This word appears only here in the New Testament. It names the rest still waiting for the people of God (Heb 4:9), the rest God himself took at creation (4:4).' },
+      { term: 'a Sabbath rest', original: 'σαββατισμὸς', translit: 'sabbatismos', gloss: 'a sabbath-keeping / sabbath rest', note: 'This word appears only here in the NT. It names the rest still waiting for the people of God (Heb 4:9), the rest God himself took at creation (4:4).' },
     ],
   },
   'heb-8-5': {
