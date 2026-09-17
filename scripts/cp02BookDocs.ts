@@ -67,6 +67,10 @@ function main() {
   const applyDocPath = argValue(argv, '--apply-doc');
   const date = argValue(argv, '--date') ?? new Date().toISOString().slice(0, 10);
   const force = argv.includes('--force');
+  // Split books produce one doc set per chunk, so the artifact name carries the chunk
+  // suffix (CP-02_JER_P1_DRAFT.md vs CP-02_JER_P2_DRAFT.md) instead of the two chunks
+  // overwriting each other's appendix.
+  const suffix = argValue(argv, '--suffix') ?? '';
   if (!rewritesPath || !worklistPath) {
     console.error('usage: npx tsx scripts/cp02BookDocs.ts <rewrites.json> --worklist <worklist.json> [--apply-doc <proofs.txt>]');
     process.exit(2);
@@ -88,9 +92,9 @@ function main() {
   const total = before.size;
 
   const paths = {
-    draft: `docs/CP-02_${slug}_DRAFT.md`,
-    summary: `docs/CP-02_${slug}_SUMMARY.md`,
-    apply: `docs/CP-03_${slug}_APPLY.md`,
+    draft: `docs/CP-02_${slug}${suffix}_DRAFT.md`,
+    summary: `docs/CP-02_${slug}${suffix}_SUMMARY.md`,
+    apply: `docs/CP-03_${slug}${suffix}_APPLY.md`,
   };
 
   for (const p of [paths.draft, paths.summary, paths.apply]) {

@@ -173,7 +173,8 @@ function main() {
   if (dirty.length > 0) {
     const booksWithApplyDocs = new Set<string>();
     for (const entry of readdirSync('docs')) {
-      const m = /^CP-03_([A-Z0-9]+)_APPLY\.md$/.exec(entry);
+      // CP-03_JER_APPLY.md for a whole book, CP-03_JER_P1_APPLY.md for a split book's chunk.
+      const m = /^CP-03_([A-Z0-9]+?)(?:_P\d+)?_APPLY\.md$/.exec(entry);
       if (m) booksWithApplyDocs.add(m[1].toLowerCase());
     }
     const dirtyBooks = new Set<string>();
@@ -300,10 +301,34 @@ function main() {
     process.exit(1);
   }
 
+  // Split books arrive as several chunks (jer_p1, jer_p2, isa_p1..p3). By the time chunk 2 is
+  // applied, chunk 1's entries are already dirty in the tree, and a post-flight that only
+  // expects THIS chunk's entries reports its own sibling chunk as contamination. So collect
+  // what is already dirty for this book before writing, and pass it in.
+  const priorDirtyForBook = new Set<string>();
+  for (const [, loc] of changedLocations()) {
+    for (const id of loc.ids) {
+      if (id.startsWith(`${set.book}-`)) priorDirtyForBook.add(id);
+    }
+  }
+  // Also legitimate: any OTHER book that already has an apply record and is still dirty in
+  // this tree because it has not been committed yet. Without this, applying Lamentations
+  // after Jeremiah reports Jeremiah's own finished work as contamination.
+  const recognisedBooks = new Set<string>();
+  for (const entry of readdirSync('docs')) {
+    const m = /^CP-03_([A-Z0-9]+?)(?:_P\d+)?_APPLY\.md$/.exec(entry);
+    if (m) recognisedBooks.add(m[1].toLowerCase());
+  }
+  for (const [, loc] of changedLocations()) {
+    for (const id of loc.ids) {
+      if (recognisedBooks.has(id.split('-')[0])) priorDirtyForBook.add(id);
+    }
+  }
+
   if (!apply) {
     if (verifyOnlyMode) {
       console.log('\n--- verify mode: auditing the working tree against this draft set ---');
-      postFlight(set.book, changedKeys);
+      postFlight(set.book, changedKeys, priorDirtyForBook);
       return;
     }
     console.log('\nRESULT: DRY RUN OK — tree clean, every draft located uniquely, accounting complete.');
@@ -317,15 +342,18 @@ function main() {
     }
   }
 
-  postFlight(set.book, changedKeys);
+  postFlight(set.book, changedKeys, priorDirtyForBook);
 }
 
 /**
  * Post-flight: prove the working tree changed ONLY the entries this book's drafts
  * named. Runs against `git diff`, so it measures reality rather than intent.
+ * `priorDirtyForBook` carries a split book's earlier chunks, whose entries are
+ * legitimately already dirty because a sibling chunk applied them.
  */
-function postFlight(book: string, changedKeys: Set<string>): void {
+function postFlight(book: string, changedKeys: Set<string>, priorDirtyForBook?: Set<string>): void {
   const expectedIds = new Set([...changedKeys].map(k => k.split('|')[0]));
+  for (const id of priorDirtyForBook ?? []) expectedIds.add(id);
   const expectedChainDrafts = [...changedKeys].filter(k => k.split('|')[0].startsWith('chain:')).length;
   const actual = changedLocations();
   const unexpected: string[] = [];

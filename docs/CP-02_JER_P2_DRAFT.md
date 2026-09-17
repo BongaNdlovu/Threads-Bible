@@ -1,0 +1,191 @@
+# CP-02 · Jeremiah — plain-language draft appendix (AI-drafted, NOT applied by this doc)
+
+Plan: `THREADS_BIBLE_FULL_CANON_PLAIN_LANGUAGE_COMPLETION_PLAN_v2.0.md` (one-pass protocol) · Date: 2026-09-17
+Book: `jer` · in-scope strings: 24 · **rewritten 10 · VERIFY-ONLY 14 · EQUIVALENT 0**
+
+Rules applied: master-plan §1.7 voice; invariant I1 (quoted Scripture never modernised,
+abbreviations never expanded, Hebrew/Greek script + transliteration + Strong's untouchable);
+frozen glossary; per-string meaning checklist. VERIFY-ONLY means the string already met
+the standard — it is a verdict, not a shortfall.
+
+## 1 · Rewritten strings (BEFORE → AFTER)
+
+### `jer-31-31` · `principle`
+
+**BEFORE**
+
+```text
+The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He will put His law in their inward parts, write it on their hearts, be their God, and remember their sins no more. Jesus inaugurates this covenant in His blood, and Hebrews quotes this entire text as the foundation of the Christian dispensation. First principle: the new covenant internalizes God's law, grants universal intimate knowledge of God, and secures absolute forgiveness.
+```
+
+**AFTER**
+
+```text
+"Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah." This is God's binding promise, and it is a new one. It is not like the covenant He made with their fathers at Sinai. That one they broke. He will put His law in their inward parts. He will write it on their hearts. He will be their God, and they shall be my people. He will forgive their iniquity. He will remember their sin no more. Jesus begins this covenant in His blood. Hebrews quotes this entire text as the foundation of the Christian faith. First principle: the new covenant writes God's law on hearts. It gives everyone a direct knowledge of God. It secures a forgiveness that is complete.
+```
+
+**Why:** This is the gate failure: the opening sentence ran to 39 words and chained the new covenant, the Sinai covenant, the law, the heart, the God-and-people formula and the forgetting of sin through one colon and a run of ands. It is now broken into sentences that each carry one idea, from the KJV quotation to the fathers at Sinai, the broken covenant, the law within, the law on hearts, the people of God, forgiveness, and the forgetting of sin. The 39-word violation is gone, and the longest sentence in the string is now the 20-word KJV quotation, with the app's own prose no longer than 17 words. "inaugurates" became "begins", "internalizes" became "writes God's law on hearts", "intimate knowledge" became "a direct knowledge", and "dispensation" became "the Christian faith". Every quoted word is byte-identical to the KJV, and the house of Israel, the house of Judah, Sinai, Jesus, Hebrews and the whole quotation of Jeremiah 31:31-34 are all unchanged.
+
+### `jer-31-15` · `principle`
+
+**BEFORE**
+
+```text
+A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not. Matthew's link to the Bethlehem massacre is no license for despair: the same chapter promises a new covenant and that Rachel shall return. First principle: sorrow in God's plan is never the last word.
+```
+
+**AFTER**
+
+```text
+"A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not." First principle: sorrow in God's plan is never the last word. Matthew ties this to the Bethlehem massacre, and that is no reason to give up hope. The same chapter promises a new covenant, and it promises that Rachel shall return.
+```
+
+**Why:** The 26-word sentence carried two ideas, the link to Matthew and the promise that follows it, and "no license for despair" is not everyday speech. Now the hope is its own sentence, and the promise stands in a sentence of its own. The quoted Scripture is untouched, including the KJV spelling Rahel, and Matthew, Bethlehem, Rachel and the new covenant are all unchanged.
+
+### `jer-31-33` · `principle`
+
+**BEFORE**
+
+```text
+The new covenant written in hearts; God theirs, they His. First principle: the covenant moves inside — Hebrews quotes this as the better covenant's very charter.
+```
+
+**AFTER**
+
+```text
+The law of the new covenant is written on hearts. God is theirs, and they are His. First principle: the law is written on the hearts of God's people. Hebrews quotes this as the charter of the better covenant.
+```
+
+**Why:** "The new covenant written in hearts" had no verb, and "the covenant moves inside" left the reader to work out what moves. Now the law is what is written, and it is written on hearts in plain order, with the covenant named as the new one. God, Hebrews and the better covenant are unchanged.
+
+### `jer-32-38` · `principle`
+
+**BEFORE**
+
+```text
+The covenant formula for the reunited land. First principle: the promise formula stands at the heart of the redemption chapters — quoted by Paul of the temple-church and by John of the new earth.
+```
+
+**AFTER**
+
+```text
+God's binding promise is for the land when the people are brought back together. First principle: this promise stands at the heart of the chapters about the return. Paul quotes it of the temple, which is the church, and John quotes it of the new earth.
+```
+
+**Why:** "The covenant formula" filed the string under a technical label, and the second sentence ran 27 words with three ideas behind one em-dash. Now the promise is named in the glossary words God's binding promise, and Paul and John are each given their own clause and their own object. The temple, the church, the new earth and the reunion of the land are all unchanged.
+
+### `jer-31-34` · `principle`
+
+**BEFORE**
+
+```text
+No more neighbor-teaching; universal knowledge, forgiven sin. First principle: the covenant's knowledge is direct and its forgiveness total — the least to the greatest, remembered never.
+```
+
+**AFTER**
+
+```text
+No more neighbor-teaching; universal knowledge, forgiven sin. First principle: in this covenant the knowledge of God is direct, and the forgiveness is total. It reaches from the least to the greatest, and their sin is remembered never.
+```
+
+**Why:** The em-dash put a second idea into the sentence and "the covenant's knowledge" turned a plain claim into an abstract phrase. Now the knowledge of God and the total forgiveness are one short sentence, and the reach from the least to the greatest and the never-remembered sin follow in the verse's own order. Nothing is added: the "neighbor-teaching" label is kept, and the KJV wording of the verse is still exactly reflected.
+
+### `jer-32-40` · `principle`
+
+**BEFORE**
+
+```text
+Never turned away to do them good; fear placed in hearts so they never depart. First principle: the everlasting covenant is God-sided perseverance — the fear He puts keeps the people He keeps.
+```
+
+**AFTER**
+
+```text
+God will never turn away from doing them good, and He puts His fear in their hearts so that they will never depart from Him. First principle: in the everlasting covenant God does the keeping. The fear He places in them keeps the people He keeps.
+```
+
+**Why:** "God-sided perseverance" put a technical adjective in front of an abstract noun, and "the fear He puts keeps the people He keeps" had no object. Now God is the subject of both halves, and the second sentence says that God does the keeping. "turned away" and "depart" are kept as the verse's own words, and the everlasting covenant and His fear are unchanged.
+
+### `jer-51-7` · `principle`
+
+**BEFORE**
+
+```text
+The nations drunk mad on her wine. First principle: Babylon is both God's instrument and the world's intoxication — Revelation 14 and 18 pick up the cup for the final fall.
+```
+
+**AFTER**
+
+```text
+The nations are drunk and mad on her wine. First principle: Babylon is God's instrument. Babylon is also the drink that makes the world drunk. Revelation 14 and 18 take up the cup for the final fall.
+```
+
+**Why:** "the world's intoxication" was an abstract noun doing the work of a picture, and one line carried the two roles of Babylon joined by an em-dash. Now Babylon's two roles are two plain sentences, and the wine is the drink that makes the world drunk. Revelation 14 and Revelation 18 and the final fall are unchanged.
+
+### `jer-33-14` · `principle`
+
+**BEFORE**
+
+```text
+The days come for the promised performance to Israel and Judah. First principle: the good thing is dated — the Branch-ruler of the preceding verses is the performance.
+```
+
+**AFTER**
+
+```text
+The days come when the promise is performed for Israel and Judah. First principle: the good thing has a date on it. The Branch-ruler of the verses just before is the one who brings it about.
+```
+
+**Why:** "the promised performance" stacked two abstract nouns, and "the Branch-ruler of the preceding verses is the performance" called a person a performance. Now the promise is performed and the ruler brings it about, with the Branch-ruler still named. Israel and Judah are unchanged.
+
+### `jer-44-4` · `principle`
+
+**BEFORE**
+
+```text
+The prophets sent rising early, pleading against the abomination. First principle: idolatry is the hated abomination, pleaded against persistently — and the pleaders were ignored to exile.
+```
+
+**AFTER**
+
+```text
+The LORD sent the prophets, rising early to send them, and they pleaded against the abomination. First principle: idolatry is the abomination the LORD hates. He pleaded against it again and again, and the people ignored the ones He sent until they were carried into exile.
+```
+
+**Why:** "idolatry is the hated abomination" left out who hates it, and "the pleaders were ignored to exile" had no actor and no plain order. Now the LORD is the one who hates the abomination and who pleads, and the people are the ones who ignored His messengers. The rising early picture and the prophets are kept, and the exile is unchanged.
+
+### `jer-50-20` · `principle`
+
+**BEFORE**
+
+```text
+Sins unfound; the reserved pardoned. First principle: the search that finds nothing — pardon so total the investigation comes up empty for the preserved remnant.
+```
+
+**AFTER**
+
+```text
+Their sins are not found, and the ones kept safe are pardoned. First principle: the search finds nothing. The pardon is so complete that the search for the remnant's sin comes up empty.
+```
+
+**Why:** "Sins unfound; the reserved pardoned" was a verbless fragment, and "the search that finds nothing" was a phrase rather than a sentence. Now each half has a subject and a verb, and the remnant is named as the preserved remnant the source names. The pardon and the search are unchanged.
+
+## 2 · VERIFY-ONLY strings (already at standard, unchanged)
+
+| entry | field | reason |
+|---|---|---|
+| `jer-50-20` | `title` | 13 words, one idea, plain; the KJV wording of the verse kept whole, with Israel named exactly. |
+| `jer-32-38` | `title` | 11 words, one idea, plain; the KJV covenant wording kept whole, and God is named as the one who speaks. |
+| `jer-33-14` | `title` | 10 words, one idea, plain; KJV wording of the verse kept whole. |
+| `jer-51-7` | `title` | 10 words, one idea, plain; KJV wording of the verse kept whole, with Babylon and the LORD'S hand exact. |
+| `jer-31-33` | `title` | 9 words, one idea, plain; KJV wording of the verse kept whole. |
+| `jer-44-4` | `title` | 9 words, one idea, plain; KJV wording of the plea kept whole. |
+| `jer-32-40` | `title` | 8 words, one idea, plain; KJV wording of the promise kept whole, with the everlasting covenant exact. |
+| `jer-31-15` | `title` | 5 words, one idea, plain; it names Rachel and her children from the verse with no term to decode. |
+| `jer-31-31` | `title` | 3 words, one idea, plain; it is the KJV name of the promise and needs no decoding. |
+| `jer-31-31` | `terms[0].gloss` | 3 words, one idea, plain; it gives the everyday sense of the Hebrew berit chadashah, a new covenant, in the glossary wording. |
+| `jer-31-15` | `terms[0].gloss` | 3 words, one idea; it gives the plain sense of the Hebrew vekhi tamrurim, the weeping of bitternesses, without a term to decode. |
+| `jer-31-15` | `terms[0].note` | One sentence, 13 words, one idea, plain order; the plural intensity of the Hebrew is matched to Matthew's great mourning, and Rachel's tomb and Matthew are unchanged. |
+| `jer-31-34` | `title` | 12 words over two short fragments, 7 words at the longest, plain; both halves are the KJV words of the verse and the ellipsis marks omitted KJV words without changing any. |
+| `jer-31-31` | `terms[0].note` | One sentence, 11 words, one idea; it gives the Greek words with their transliteration and cites Luke 22:20; Heb 8:8; 9:15 as they stand, and no term is left for the reader to decode. |
+

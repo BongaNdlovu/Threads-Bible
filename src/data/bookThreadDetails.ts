@@ -1130,7 +1130,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-31-31': {
     title: 'The New Covenant',
     principle:
-      'The LORD promises a new covenant, not like the covenant made at Sinai which was broken: He will put His law in their inward parts, write it on their hearts, be their God, and remember their sins no more. Jesus inaugurates this covenant in His blood, and Hebrews quotes this entire text as the foundation of the Christian dispensation. First principle: the new covenant internalizes God\'s law, grants universal intimate knowledge of God, and secures absolute forgiveness.',
+      '"Behold, the days come, saith the LORD, that I will make a new covenant with the house of Israel, and with the house of Judah." This is God\'s binding promise, and it is a new one. It is not like the covenant He made with their fathers at Sinai. That one they broke. He will put His law in their inward parts. He will write it on their hearts. He will be their God, and they shall be my people. He will forgive their iniquity. He will remember their sin no more. Jesus begins this covenant in His blood. Hebrews quotes this entire text as the foundation of the Christian faith. First principle: the new covenant writes God\'s law on hearts. It gives everyone a direct knowledge of God. It secures a forgiveness that is complete.',
     sourceKeywords: ['new covenant', 'house of Israel', 'write it in their hearts', 'their God', 'forgive their iniquity', 'remember their sin no more'],
     fulfillmentKeywords: ['new covenant', 'blood', 'cup', 'law in hearts', 'sins remembered no more', 'better covenant'],
     terms: [
@@ -1480,13 +1480,13 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'jer-4-23': {
-    title: 'The Earth Desolated — Chaos During the Millennial Prison',
+    title: 'The Earth Desolated and Chaotic During the Millennial Prison',
     principle:
-      'Jeremiah beholds the earth in prophetic vision: "I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light... I beheld, and, lo, there was no man, and all the birds of the heavens were fled... the fruitful place was a wilderness, and all the cities thereof were broken down at the presence of the LORD." This vision describes the desolation of the earth during the 1,000 years of Revelation 20, while Satan is bound in the bottomless pit (abyss/tohu va-bohu). First principle: the earth rests in desolate stillness while the saints reign and judge with Christ in heaven.',
+      'Jeremiah sees the earth in a vision: "I beheld the earth, and, lo, it was without form, and void; and the heavens, and they had no light... I beheld, and, lo, there was no man, and all the birds of the heavens were fled... the fruitful place was a wilderness, and all the cities thereof were broken down at the presence of the LORD." The Hebrew words are tohu va-vohu. That same pair of words stands in the very first chapter of the Bible. So the vision pictures the earth empty and shapeless for the 1,000 years. That is the thousand-year period of Revelation 20. During that time Satan lies bound in the bottomless pit, the abyss, and the earth is as it was before it was formed.',
     sourceKeywords: ['without form and void', 'no light', 'no man', 'cities broken down', 'presence of the LORD'],
     fulfillmentKeywords: ['thousand years', 'bottomless pit', 'Satan bound', 'resurrection of the dead'],
     terms: [
-      { term: 'without form and void', original: 'תֹּהוּ וָבֹהוּ', translit: 'tohu va-vohu', gloss: 'unformed and empty / chaotic desolation', note: 'Exact phrase from Genesis 1:2; earth returned to chaotic emptiness during the 1,000 years.' },
+      { term: 'without form and void', original: 'תֹּהוּ וָבֹהוּ', translit: 'tohu va-vohu', gloss: 'unformed and empty / chaotic desolation', note: 'These are the exact words of Genesis 1:2. The earth goes back to that empty, shapeless state during the 1,000 years.' },
     ],
   },
   'isa-24-21': {
@@ -1702,13 +1702,13 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'jer-30-7': {
-    title: 'The Time of Jacob\'s Trouble — Saved Out of It',
+    title: 'The Time of Jacob\'s Trouble, and He Is Saved Out of It',
     principle:
-      'Alas! for that day is great, so that none is like it: it is even the time of Jacob\'s trouble; but he shall be saved out of it. Like Jacob wrestling at Jabbok in darkness, God\'s people undergo intense mental anguish under the death decree after probation closes. Holding fast to God\'s promises with unyielding faith, their deliverance is sealed.',
+      'Alas! for that day is great, so that none is like it: it is even the time of Jacob\'s trouble; but he shall be saved out of it. Jacob wrestled all night at Jabbok. In the same way, God\'s people pass through intense mental anguish under the death decree after probation closes. They hold fast to God\'s promises, and they will not let go. Their deliverance is sealed.',
     sourceKeywords: ['time of Jacob\'s trouble', 'none is like it', 'he shall be saved out of it'],
     fulfillmentKeywords: ['wrestling with angel', 'Daniel 12:1', 'time of trouble', 'deliverance of God\'s people'],
     terms: [
-      { term: 'trouble / distress', original: 'צָרָה', translit: 'tsarah', gloss: 'dire distress, anguish, extremity', note: 'The ultimate crucible of faith before the clouds part.' },
+      { term: 'trouble / distress', original: 'צָרָה', translit: 'tsarah', gloss: 'dire distress, anguish, extremity', note: 'The hardest test of faith, right before the clouds part. This is the trouble named after Jacob.' },
     ],
   },
   'jol-3-16': {
@@ -1767,11 +1767,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-23-5': {
     title: 'A Righteous Branch — The LORD Our Righteousness',
     principle:
-      'Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch, and a King shall reign and prosper, and shall execute judgment and justice in the earth... and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS. First principle: the King Himself is our righteousness — justification by a Person, not a performance.',
+      'The LORD said, "Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch, and a King shall reign and prosper, and shall execute judgment and justice in the earth... and this is his name whereby he shall be called, THE LORD OUR RIGHTEOUSNESS." First principle: the King Himself is our righteousness. God declares a guilty person to be in the right because of who Jesus is, not because of anything that person does.',
     sourceKeywords: ['righteous Branch', 'King shall reign and prosper', 'judgment and justice in the earth', 'THE LORD OUR RIGHTEOUSNESS'],
     fulfillmentKeywords: ['made unto us righteousness', 'wisdom, and righteousness', 'sanctification, and redemption'],
     terms: [
-      { term: 'Branch', original: 'צֶמַח', translit: 'tsemach', gloss: 'sprout, growth of a plant', note: 'The same title returns in Zechariah 3:8 and 6:12 — one Branch, one Name.' },
+      { term: 'Branch', original: 'צֶמַח', translit: 'tsemach', gloss: 'sprout, growth of a plant', note: 'The same title comes back in Zechariah 3:8 and 6:12. One Branch, one Name. The Hebrew word behind it is tsemach.' },
     ],
   },
   'mic-5-2': {
@@ -1797,7 +1797,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-31-15': {
     title: 'Rachel Weeping for Her Children',
     principle:
-      'A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not. Matthew\'s link to the Bethlehem massacre is no license for despair: the same chapter promises a new covenant and that Rachel shall return. First principle: sorrow in God\'s plan is never the last word.',
+      '"A voice was heard in Ramah, lamentation, and bitter weeping; Rahel weeping for her children refused to be comforted for her children, because they were not." First principle: sorrow in God\'s plan is never the last word. Matthew ties this to the Bethlehem massacre, and that is no reason to give up hope. The same chapter promises a new covenant, and it promises that Rachel shall return.',
     sourceKeywords: ['voice was heard in Ramah', 'bitter weeping', 'Rahel weeping for her children', 'refused to be comforted'],
     fulfillmentKeywords: ['Herod', 'slew all the children', 'lamentation', 'weeping, and great mourning'],
     terms: [
@@ -9258,7 +9258,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-1-5': {
     title: 'Before I Formed Thee in the Belly I Knew Thee',
     principle:
-      'Sanctified and ordained a prophet before birth. First principle: the prenatal call — Jeremiah, John the Baptist, and the Servant all carry womb-appointed commissions.',
+      'God set Jeremiah apart and appointed him a prophet before he was born. First principle: God gives the call before birth. Jeremiah, John the Baptist, and the Servant were each called before they were born.',
     sourceKeywords: ['Before I formed thee in the belly I knew thee', 'I sanctified thee', 'ordained thee a prophet unto the nations'],
     fulfillmentKeywords: ['he shall be filled with the Holy Ghost, even from his mother\'s womb'],
     terms: [],
@@ -9266,7 +9266,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-7-11': {
     title: 'Is This House... Become a Den of Robbers?',
     principle:
-      'The named-house turned robbers\' cave, seen by the LORD. First principle: Jeremiah\'s temple sermon is Jesus\' cleansing text — trust in the building while practicing robbery.',
+      'The house that carries the LORD\'s name has become a robbers\' cave, and the LORD sees it. First principle: Jeremiah\'s temple sermon is the text Jesus used when He cleansed the temple. The people trusted in the building while they practiced robbery.',
     sourceKeywords: ['Is this house, which is called by my name', 'a den of robbers in your eyes', 'even I have seen it'],
     fulfillmentKeywords: ['Ye have made it a den of thieves'],
     terms: [],
@@ -9290,7 +9290,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-23-6': {
     title: 'THE LORD OUR RIGHTEOUSNESS',
     principle:
-      'In His days Judah is saved and Israel dwells safely under the Branch\'s new name. First principle: the name is the gospel — the King Himself is the righteousness His people lack.',
+      'In His days Judah is saved and Israel dwells safely under the Branch\'s new name. First principle: the name tells us how God saves people. The King Himself is the righteousness His people do not have.',
     sourceKeywords: ['Judah shall be saved', 'Israel shall dwell safely', 'THE LORD OUR RIGHTEOUSNESS'],
     fulfillmentKeywords: ['who of God is made unto us... righteousness'],
     terms: [],
@@ -9298,7 +9298,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-25-12': {
     title: 'When Seventy Years Are Accomplished',
     principle:
-      'Babylon punished after the numbered years. First principle: exile has an expiration date written before it begins — Daniel reads this very letter and prays.',
+      'Babylon is punished after the numbered years. First principle: the exile has an end date. God wrote that date before the exile began. Daniel reads this very letter, and then he prays.',
     sourceKeywords: ['when seventy years are accomplished', 'I will punish the king of Babylon', 'perpetual desolations'],
     fulfillmentKeywords: ['I Daniel understood by books the number of the years'],
     terms: [],
@@ -9314,7 +9314,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-31-9': {
     title: 'I Am a Father to Israel, and Ephraim Is My Firstborn',
     principle:
-      'Weeping led home by straight ways and rivers. First principle: the father-heart leads weepers; the firstborn title over Ephraim reverses the lost son\'s status.',
+      'They come home weeping, and God leads them on straight ways beside rivers. First principle: the father\'s heart leads those who weep. The title of firstborn over Ephraim gives the lost son back his place.',
     sourceKeywords: ['with weeping, and with supplications', 'walk by the rivers of waters', 'Ephraim is my firstborn'],
     fulfillmentKeywords: ['Out of Egypt have I called my son'],
     terms: [],
@@ -9322,7 +9322,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-31-33': {
     title: 'I Will Put My Law in Their Inward Parts',
     principle:
-      'The new covenant written in hearts; God theirs, they His. First principle: the covenant moves inside — Hebrews quotes this as the better covenant\'s very charter.',
+      'The law of the new covenant is written on hearts. God is theirs, and they are His. First principle: the law is written on the hearts of God\'s people. Hebrews quotes this as the charter of the better covenant.',
     sourceKeywords: ['the covenant that I will make', 'I will put my law in their inward parts', 'write it in their hearts'],
     fulfillmentKeywords: ['I will put my laws into their hearts'],
     terms: [],
@@ -9330,7 +9330,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-31-34': {
     title: 'They Shall All Know Me... I Will Remember Their Sin No More',
     principle:
-      'No more neighbor-teaching; universal knowledge, forgiven sin. First principle: the covenant\'s knowledge is direct and its forgiveness total — the least to the greatest, remembered never.',
+      'No more neighbor-teaching; universal knowledge, forgiven sin. First principle: in this covenant the knowledge of God is direct, and the forgiveness is total. It reaches from the least to the greatest, and their sin is remembered never.',
     sourceKeywords: ['they shall all know me', 'from the least of them unto the greatest', 'I will remember their sin no more'],
     fulfillmentKeywords: ['All shall know me', 'their sins and their iniquities will I remember no more'],
     terms: [],
@@ -9338,7 +9338,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-32-38': {
     title: 'They Shall Be My People, and I Will Be Their God',
     principle:
-      'The covenant formula for the reunited land. First principle: the promise formula stands at the heart of the redemption chapters — quoted by Paul of the temple-church and by John of the new earth.',
+      'God\'s binding promise is for the land when the people are brought back together. First principle: this promise stands at the heart of the chapters about the return. Paul quotes it of the temple, which is the church, and John quotes it of the new earth.',
     sourceKeywords: ['they shall be my people', 'I will be their God'],
     fulfillmentKeywords: ['and they shall be my people'],
     terms: [],
@@ -9346,7 +9346,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-32-40': {
     title: 'I Will Make an Everlasting Covenant with Them',
     principle:
-      'Never turned away to do them good; fear placed in hearts so they never depart. First principle: the everlasting covenant is God-sided perseverance — the fear He puts keeps the people He keeps.',
+      'God will never turn away from doing them good, and He puts His fear in their hearts so that they will never depart from Him. First principle: in the everlasting covenant God does the keeping. The fear He places in them keeps the people He keeps.',
     sourceKeywords: ['an everlasting covenant', 'that I will not turn away from them, to do them good', 'they shall not depart from me'],
     fulfillmentKeywords: ['he shall... have made with them an everlasting covenant'],
     terms: [],
@@ -9354,7 +9354,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-33-14': {
     title: 'I Will Perform That Good Thing Which I Have Promised',
     principle:
-      'The days come for the promised performance to Israel and Judah. First principle: the good thing is dated — the Branch-ruler of the preceding verses is the performance.',
+      'The days come when the promise is performed for Israel and Judah. First principle: the good thing has a date on it. The Branch-ruler of the verses just before is the one who brings it about.',
     sourceKeywords: ['the days come', 'I will perform that good thing', 'promised unto the house of Israel and to the house of Judah'],
     fulfillmentKeywords: ['Behold, the days come, saith the LORD, that I will raise unto David a righteous Branch'],
     terms: [],
@@ -9362,7 +9362,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-44-4': {
     title: 'Oh, Do Not This Abominable Thing That I Hate',
     principle:
-      'The prophets sent rising early, pleading against the abomination. First principle: idolatry is the hated abomination, pleaded against persistently — and the pleaders were ignored to exile.',
+      'The LORD sent the prophets, rising early to send them, and they pleaded against the abomination. First principle: idolatry is the abomination the LORD hates. He pleaded against it again and again, and the people ignored the ones He sent until they were carried into exile.',
     sourceKeywords: ['I sent unto you all my servants the prophets', 'rising early and sending them', 'do not this abominable thing that I hate'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9370,7 +9370,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-50-20': {
     title: 'The Iniquity of Israel Shall Be Sought for, and There Shall Be None',
     principle:
-      'Sins unfound; the reserved pardoned. First principle: the search that finds nothing — pardon so total the investigation comes up empty for the preserved remnant.',
+      'Their sins are not found, and the ones kept safe are pardoned. First principle: the search finds nothing. The pardon is so complete that the search for the remnant\'s sin comes up empty.',
     sourceKeywords: ['the iniquity of Israel shall be sought for, and there shall be none', 'they shall not be found', 'I will pardon them whom I reserve'],
     fulfillmentKeywords: ['their sins and their iniquities will I remember no more'],
     terms: [],
@@ -9378,7 +9378,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jer-51-7': {
     title: 'Babylon Hath Been a Golden Cup in the LORD\'S Hand',
     principle:
-      'The nations drunk mad on her wine. First principle: Babylon is both God\'s instrument and the world\'s intoxication — Revelation 14 and 18 pick up the cup for the final fall.',
+      'The nations are drunk and mad on her wine. First principle: Babylon is God\'s instrument. Babylon is also the drink that makes the world drunk. Revelation 14 and 18 take up the cup for the final fall.',
     sourceKeywords: ['a golden cup in the LORD\'S hand', 'made all the earth drunken', 'the nations are mad'],
     fulfillmentKeywords: ['Babylon the great is fallen... the wine of the wrath of her fornication'],
     terms: [],
@@ -9388,7 +9388,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lam-1-12': {
     title: 'Behold, and See If There Be Any Sorrow Like unto My Sorrow',
     principle:
-      'The passing crowd summoned to behold. First principle: the daughter of Zion\'s day-of-anger sorrow is the portrait Jerusalem\'s greater Son reenacted — a sorrow without equal.',
+      'The crowd walking past is called to stop and look. First principle: the daughter of Zion grieves on the day of God\'s anger. No other sorrow is like hers. Jesus, Jerusalem\'s greater Son, walked through that same sorrow when He suffered.',
     sourceKeywords: ['any sorrow like unto my sorrow'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9396,7 +9396,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lam-2-11': {
     title: 'Mine Eyes Do Fail with Tears',
     principle:
-      'The weeping prophet\'s insides poured out for destroyed children. First principle: prophetic grief bodily — Jeremiah\'s tears over the city prefigure the Man of sorrows weeping over Jerusalem.',
+      'The weeping prophet pours out his heart for the children who were destroyed. First principle: his grief shows itself in his body. Jeremiah wept over the city, and the Man of sorrows wept over Jerusalem in the same way.',
     sourceKeywords: ['Mine eyes do fail with tears', 'my liver is poured upon the earth', 'the sucklings swoon in the streets'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9404,7 +9404,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lam-3-22': {
     title: 'It Is of the LORD\'S Mercies That We Are Not Consumed',
     principle:
-      'Compassions that fail not; new every morning. First principle: the survival-theology verse — non-consumption is mercy\'s daily freshness, not Israel\'s merit.',
+      'His compassions fail not; they are new every morning. First principle: we are not consumed because God is merciful. His mercy is fresh every day, and Israel did nothing to earn it.',
     sourceKeywords: ['It is of the LORD\'S mercies that we are not consumed', 'his compassions fail not'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9420,7 +9420,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lam-3-40': {
     title: 'Let Us Search and Try Our Ways',
     principle:
-      'Turning again to the LORD. First principle: the examined life is the returned life — searching ways precedes the turn; hearts lifted with hands.',
+      'They turn back to the LORD. First principle: first we search our ways, and then we turn. We lift our hearts up with our hands.',
     sourceKeywords: ['Let us search and try our ways', 'turn again to the LORD'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9428,7 +9428,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'lam-5-19': {
     title: 'Thou, O LORD, Remainest for Ever',
     principle:
-      'The throne from generation to generation. First principle: the unchanging throne amid the changing ruins — the lament ends on permanence, not loss.',
+      'The throne stands from generation to generation. First principle: God\'s throne stays the same while everything else falls apart. So the lament ends on what lasts, not on what was lost.',
     sourceKeywords: ['Thou, O LORD, remainest for ever', 'thy throne from generation to generation'],
     fulfillmentKeywords: [],
     terms: [],
