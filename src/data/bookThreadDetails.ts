@@ -992,19 +992,19 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-18-15': {
     title: 'A Prophet Like Unto Moses',
     principle:
-      'Moses foretells that the LORD will raise up a Prophet like him from among their brethren, whom Israel must hear. Peter, Stephen, and John explicitly identify Jesus as this Prophet. The Father at the Transfiguration confirms this by saying "Hear Him!" First principle: Christ is the ultimate Lawgiver, Mediator, and Spokesman of the Father.',
+      'Moses says the LORD will raise up a Prophet like him from among their brethren. Israel must hear that Prophet. Peter, Stephen, and John all say plainly that Jesus is this Prophet. At the Transfiguration the Father confirms it by saying "Hear Him!". First principle: Christ is the final Lawgiver. He stands between God and us. He speaks for the Father.',
     sourceKeywords: ['Prophet', 'raise up', 'unto me', 'brethren', 'hearken'],
     fulfillmentKeywords: ['Prophet', 'Moses', 'hearken', 'spake', 'hear', 'Beloved Son'],
     terms: [
-      { term: 'Prophet', original: 'נָבִיא', translit: 'navi', gloss: 'prophet, spokesman of God', note: 'Deut 18:15 — singular prophet like Moses.' },
-      { term: 'like unto me', original: 'כָּמֹנִי', translit: 'kamoni', gloss: 'like me', note: 'Mediator of a covenant, face-to-face access (Deut 34:10; Heb 3:1-6).' },
-      { term: 'Hear Him', original: 'ἀκούετε αὐτοῦ', translit: 'akouete autou', gloss: 'listen to Him!', note: 'Matt 17:5 — the Father commands the exact imperative from Deut 18:15 LXX.' },
+      { term: 'Prophet', original: 'נָבִיא', translit: 'navi', gloss: 'prophet, spokesman of God', note: 'Deut 18:15 — one prophet, like Moses.' },
+      { term: 'like unto me', original: 'כָּמֹנִי', translit: 'kamoni', gloss: 'like me', note: 'He stands between God and the people as mediator of a covenant, God\'s binding promise. He has face-to-face access to God (Deut 34:10; Heb 3:1-6).' },
+      { term: 'Hear Him', original: 'ἀκούετε αὐτοῦ', translit: 'akouete autou', gloss: 'listen to Him!', note: 'Matt 17:5 — the Father gives the same command found at Deut 18:15 LXX, the Greek Old Testament.' },
     ],
   },
   'deu-18-18': {
     title: 'Words Put in His Mouth',
     principle:
-      'God promises to put His words in the Prophet\'s mouth, and He shall speak all that God commands. Jesus repeatedly declares that His doctrine and words are not His own, but the Father\'s who sent Him. First principle: Christ is the infallible, final Word of God.',
+      'God promises to put His words in the Prophet\'s mouth. That Prophet will speak everything God commands. Jesus says again and again that his teaching and his words are not his own. They belong to the Father who sent him. First principle: Christ is God\'s Word. He is never wrong, and he speaks last.',
     sourceKeywords: ['raise them up a Prophet', 'put my words in his mouth', 'speak unto them', 'command'],
     fulfillmentKeywords: ['words', 'Father', 'commandment', 'speak', 'heard'],
     terms: [
@@ -1120,7 +1120,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-30-6': {
     title: 'Circumcision of the Heart',
     principle:
-      'God promises that after the exile and repentance, the LORD will circumcise the heart of His people to love Him with all their heart and soul. Paul explains that true circumcision is not external in the flesh, but of the heart, in the Spirit. First principle: true covenant obedience requires an internal divine work of regeneration.',
+      'God promises that after the exile and after his people turn back to him, the LORD will circumcise their hearts. Then they will love him with all their heart and soul. Paul explains that the circumcision that counts is not the outward mark in the flesh. It is the work of the Spirit in the heart. First principle: real obedience to the covenant, God\'s binding promise, requires God to work inside a person and make the heart new.',
     sourceKeywords: ['circumcise', 'heart', 'seed', 'love the LORD thy God', 'all thine heart', 'live'],
     fulfillmentKeywords: ['circumcision', 'heart', 'spirit', 'new creature', 'put off'],
     terms: [
@@ -1224,12 +1224,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-11-14': {
     title: 'The Early and Latter Rain',
     principle:
-      'God promises the rain of the land in its due season: the first/former rain (yoreh) to germinate the seed and the latter rain (malqosh) to ripen the harvest. In salvation history, this agricultural rhythm models the twofold work of the Holy Spirit: the early rain at Pentecost to sprout the Christian church, and the latter rain at the end of time to ripen the harvest of the earth for Christ\'s return. First principle: spiritual harvest depends entirely on the timed outpourings of divine grace.',
+      'God promises rain for the land at the right season. He sends the first rain, also called the former rain (yoreh), to start the seed growing. He sends the latter rain (malqosh) to bring the harvest to full ripeness. This farm rhythm shows how the Holy Spirit works in two outpourings. The early rain came at Pentecost and started the Christian church growing. The latter rain comes at the end of time to ripen the harvest of the earth for Christ\'s return. First principle: a spiritual harvest depends entirely on God pouring out his grace at the times he has set.',
     sourceKeywords: ['rain of your land', 'due season', 'first rain', 'latter rain', 'gather in thy corn'],
     fulfillmentKeywords: ['early and latter rain', 'husbandman', 'patience', 'precious fruit', 'coming of the Lord'],
     terms: [
-      { term: 'first / early rain', original: 'יוֹרֶה', translit: 'yoreh', gloss: 'early rain (autumn rain for sowing)', note: 'Type of the early outpouring of the Spirit (Acts 2).' },
-      { term: 'latter rain', original: 'מַלְקוֹשׁ', translit: 'malqosh', gloss: 'latter rain (spring rain for ripening)', note: 'Greek ὑετὸν ὄψιμον (hyeton opsimon) in James 5:7 — final ripening power before the harvest.' },
+      { term: 'first / early rain', original: 'יוֹרֶה', translit: 'yoreh', gloss: 'early rain (autumn rain for sowing)', note: 'A real earlier event that points forward to the early outpouring of the Spirit (Acts 2).' },
+      { term: 'latter rain', original: 'מַלְקוֹשׁ', translit: 'malqosh', gloss: 'latter rain (spring rain for ripening)', note: 'In James 5:7 the Greek reads ὑετὸν ὄψιμον (hyeton opsimon). This is the last rain that ripens the crop before harvest.' },
     ],
   },
   'hos-6-3': {
@@ -1525,12 +1525,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-6-4': {
     title: 'The Shema — The One True Triune God (Elohim Echad)',
     principle:
-      'Hear, O Israel: The LORD our God is one LORD. The foundational confession of biblical monotheism unites the plural title Elohim with the compound unity echad (used of husband and wife becoming "one flesh" in Genesis 2:24). It reveals the eternal, unbroken unity of Father, Son, and Holy Spirit in covenant love and redemptive purpose.',
+      'Hear, O Israel: The LORD our God is one LORD. This is the foundation confession that there is only one God. It holds together the plural title Elohim and the one word echad, which speaks of a unity of more than one. Genesis 2:24 uses that same word for husband and wife becoming "one flesh". So the one God is Father, Son, and Holy Spirit. They are one forever and never divided. They are joined in covenant love, the love of God\'s binding promise, and in his one purpose to save.',
     sourceKeywords: ['Hear O Israel', 'the LORD our God is one LORD', 'love the LORD thy God'],
     fulfillmentKeywords: ['one God and Father', 'in the name of the Father Son and Holy Ghost', 'grace of the Lord Jesus Christ and love of God'],
     terms: [
-      { term: 'one / compound unity', original: 'אֶחָד', translit: 'ʾechad', gloss: 'one, united, composite unity', note: 'Distinct from yachid (solitary one). Indicates harmonious multi-personal divine unity.' },
-      { term: 'God / plural majesty', original: 'אֱלֹהֵינוּ', translit: 'Eloheinu', gloss: 'our God (plural noun with possessive suffix)', note: 'Reflects the fullness of the Godhead acting as one.' },
+      { term: 'one / compound unity', original: 'אֶחָד', translit: 'ʾechad', gloss: 'one, united, a unity made of more than one', note: 'It is not the word yachid, which means a solitary one. It points to a unity of more than one person, living in harmony.' },
+      { term: 'God / plural majesty', original: 'אֱלֹהֵינוּ', translit: 'Eloheinu', gloss: 'our God (a plural noun, with our added on the end)', note: 'It shows the fullness of God, all that God is, acting as one.' },
     ],
   },
   'joh-14-16': {
@@ -1977,11 +1977,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-21-23': {
     title: 'Cursed Is Every One That Hangeth on a Tree',
     principle:
-      'His body shall not remain all night upon the tree... for he that is hanged is accursed of God. Paul reads the gallows-law as gospel: Christ hath redeemed us from the curse of the law, being made a curse for us. First principle: the Messiah takes the covenant curse onto Himself so the blessing of Abraham can flow to all nations.',
+      'His body shall not remain all night upon the tree... for he that is hanged is accursed of God. That is the law about the tree. Paul reads it as good news. He says, "Christ hath redeemed us from the curse of the law, being made a curse for us". First principle: the Messiah, the promised King, takes the curse of the covenant, God\'s binding promise, onto himself. Then the blessing of Abraham can flow out to all nations.',
     sourceKeywords: ['his body shall not remain all night', 'he that is hanged is accursed of God', 'thy land which the LORD thy God giveth thee'],
     fulfillmentKeywords: ['being made a curse for us', 'hanged on a tree', 'the blessing of Abraham', 'receive the promise of the Spirit'],
     terms: [
-      { term: 'accursed', original: 'קִלְלַת', translit: 'qilllat', gloss: 'curse of God', note: 'Galatians 3:13 quotes the verse verbatim — the pillars of Galatians rest on a Deuteronomy gallows-law.' },
+      { term: 'accursed', original: 'קִלְלַת', translit: 'qilllat', gloss: 'curse of God', note: 'Galatians 3:13 quotes the verse word for word. The pillars of Galatians rest on this law about the gallows in Deuteronomy.' },
     ],
   },
   'gen-49-11': {
@@ -8089,7 +8089,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-4-24': {
     title: 'The LORD Thy God Is a Consuming Fire',
     principle:
-      'Jealousy as fire. First principle: God\'s jealousy is covenant-love\'s flame — Hebrews ends its warning section with this verse unaltered.',
+      'God\'s jealousy is a fire. First principle: his jealousy is the flame of covenant love, the burning love that belongs to God\'s binding promise. Hebrews closes its warning section with this verse, unchanged.',
     sourceKeywords: ['a consuming fire', 'even a jealous God'],
     fulfillmentKeywords: ['our God is a consuming fire'],
     terms: [],
@@ -8097,7 +8097,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-5-12': {
     title: 'Keep the Sabbath Day to Sanctify It',
     principle:
-      'The Deuteronomic Sabbath command adds redemption-memory to creation-rest. First principle: the day is sanctified by command and by memory of deliverance — the rest remains for the people of God.',
+      'Deuteronomy\'s Sabbath command adds the memory of being bought back to the rest that began at creation. First principle: God sets the day apart by a command. He also sets it apart by the memory of how he rescued his people. That rest still waits for the people of God.',
     sourceKeywords: ['Keep the sabbath day to sanctify it', 'as the LORD thy God hath commanded thee'],
     fulfillmentKeywords: ['The sabbath was made for man', 'there remaineth therefore a rest'],
     terms: [],
@@ -8105,7 +8105,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-6-5': {
     title: 'Thou Shalt Love the LORD Thy God with All Thine Heart',
     principle:
-      'Heart, soul, might — total love. First principle: the Shema\'s love command is the greatest commandment by Jesus\' own ruling; all the law hangs on it.',
+      'Love God with your heart, your soul, and your might. That is total love. First principle: the love command in the Shema, Israel\'s daily confession of faith, is the greatest commandment, by Jesus\' own ruling. Everything in the law hangs on it.',
     sourceKeywords: ['love the LORD thy God', 'with all thine heart', 'with all thy might'],
     fulfillmentKeywords: ['Thou shalt love the Lord thy God with all thy heart'],
     terms: [],
@@ -8113,7 +8113,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-6-13': {
     title: 'Thou Shalt Fear the LORD Thy God, and Serve Him',
     principle:
-      'Fear, serve, swear by His name. First principle: the temptation-response verse — Christ answers Satan three times from this chapter\'s neighborhood.',
+      'Fear the LORD, serve him, and swear by his name. First principle: this is the verse Jesus used when Satan tempted him. Christ answers Satan three times from verses near this one.',
     sourceKeywords: ['fear the LORD thy God', 'serve him', 'swear by his name'],
     fulfillmentKeywords: ['him only shalt thou serve'],
     terms: [],
@@ -8121,7 +8121,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-6-16': {
     title: 'Ye Shall Not Tempt the LORD Your God',
     principle:
-      'Massah remembered as prohibition. First principle: testing God is forbidden because Massah\'s water-rock is Christ — the tempting is aimed at a Person.',
+      'At Massah the people tested God, and God turned it into a standing command. First principle: God forbids us to test him. The reason is that the rock which gave water at Massah was Christ. When you test God, you are testing a Person.',
     sourceKeywords: ['Ye shall not tempt the LORD your God', 'as ye tempted him in Massah'],
     fulfillmentKeywords: ['Thou shalt not tempt the Lord thy God'],
     terms: [],
@@ -8129,7 +8129,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-8-3': {
     title: 'Man Doth Not Live by Bread Only',
     principle:
-      'Hungered to learn: life is by every word of the LORD\'s mouth. First principle: the manna lesson is the temptation armor — Jesus wields it as the bread-refusal word.',
+      'God let his people go hungry to teach them something. Life comes by every word of the LORD\'s mouth. First principle: the manna lesson is armor for times of temptation. Jesus used it when he refused the bread.',
     sourceKeywords: ['fed thee with manna', 'not live by bread only', 'every word that proceedeth out of the mouth of the LORD'],
     fulfillmentKeywords: ['Man shall not live by bread alone, but by every word of God'],
     terms: [],
@@ -8137,7 +8137,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-10-20': {
     title: 'Thou Shalt Fear the LORD... Him Shalt Thou Cleave',
     principle:
-      'Fear, serve, cleave, swear. First principle: cleaving to God is marriage language for covenant loyalty — the four verbs of the committed life.',
+      'Fear, serve, cleave, swear. These four verbs describe a life committed to God. First principle: "cleave" is marriage language. It means you hold on to God and stay faithful to him in his binding promise.',
     sourceKeywords: ['fear the LORD thy God', 'him shalt thou serve', 'to him shalt thou cleave'],
     fulfillmentKeywords: ['him only shalt thou serve'],
     terms: [],
@@ -8145,7 +8145,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-13-1': {
     title: 'If There Arise Among You a Prophet... and Giveth Thee a Sign',
     principle:
-      'Signs from would-be prophets do not authenticate messages. First principle: wonder-working is the easy counterfeit — the test is the message\'s faithfulness, not the miracle\'s fire.',
+      'A sign from a would-be prophet does not prove his message is true. First principle: miracles are easy to fake. The test is whether the message is faithful, not whether the miracle is fiery.',
     sourceKeywords: ['a prophet, or a dreamer of dreams', 'giveth thee a sign or a wonder'],
     fulfillmentKeywords: ['shall shew great signs and wonders... deceive many'],
     terms: [],
@@ -8153,7 +8153,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-16-16': {
     title: 'Three Times in a Year Shall All Thy Males Appear',
     principle:
-      'Unleavened bread, weeks, tabernacles — and none empty. First principle: the pilgrimage feasts structure Israel\'s year; the fullness of time finds Jesus\' family keeping this law in Luke 2.',
+      'Israel kept three feasts each year: unleavened bread, weeks, and tabernacles. No one was to appear before the LORD empty. First principle: these pilgrimage feasts give shape to Israel\'s year. When the time was full, Jesus\' family kept this law, as Luke 2 records.',
     sourceKeywords: ['Three times in a year', 'feast of unleavened bread', 'they shall not appear before the LORD empty'],
     fulfillmentKeywords: ['they went up to Jerusalem after the custom of the feast'],
     terms: [],
@@ -8161,7 +8161,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-19-15': {
     title: 'At the Mouth of Two Witnesses Shall the Matter Be Established',
     principle:
-      'One witness cannot convict. First principle: due-process law becomes church discipline and the Spirit-water-blood triple testimony — establishment requires plurality.',
+      'One witness cannot convict a person. First principle: this law of fair process becomes the rule for church discipline. It also becomes the threefold testimony of the Spirit, the water, and the blood. To establish a matter, you need more than one witness.',
     sourceKeywords: ['One witness shall not rise up', 'two witnesses, or at the mouth of three witnesses', 'established'],
     fulfillmentKeywords: ['in the mouth of two or three witnesses every word may be established'],
     terms: [],
@@ -8169,7 +8169,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-24-1': {
     title: 'Then Let Him Write Her a Bill of Divorcement',
     principle:
-      'The divorce concession regulated, not celebrated. First principle: Jesus reads the clause through hardness of heart and returns to Genesis — the bill was a fence, never a license.',
+      'Moses allowed divorce, but he put limits on it. He never praised it. First principle: Jesus explains the clause by pointing to hard hearts. Then he goes back to Genesis. The bill was a fence, never a license.',
     sourceKeywords: ['a bill of divorcement', 'give it in her hand', 'send her out of his house'],
     fulfillmentKeywords: ['Moses because of the hardness of your hearts suffered you'],
     terms: [],
@@ -8177,7 +8177,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-25-4': {
     title: 'Thou Shalt Not Muzzle the Ox When He Treadeth',
     principle:
-      'The treading ox eats from the threshing floor. First principle: laborer-care is divine law — Paul and Timothy both insist the principle is about us, not oxen.',
+      'The ox that treads the grain eats from the threshing floor as it works. First principle: God\'s law cares for the worker. Paul and Timothy both insist the principle is about us, not about oxen.',
     sourceKeywords: ['not muzzle the ox', 'when he treadeth out the corn'],
     fulfillmentKeywords: ['Doth God take care for oxen?'],
     terms: [],
@@ -8185,7 +8185,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-27-26': {
     title: 'Cursed Be He That Confirmeth Not All the Words of This Law',
     principle:
-      'The twelve-fold curse ends with the totalizing one — and all the people say Amen. First principle: partial law-keeping is cursed law-keeping; the Amen-line is the indictment Paul quotes for universal guilt.',
+      'The twelve curses end with the one that covers everything. All the people say Amen. First principle: if you keep only part of the law, you are still under the curse. Paul quotes this Amen-line to show that every person is guilty.',
     sourceKeywords: ['Cursed be he that confirmeth not all the words of this law', 'all the people shall say, Amen'],
     fulfillmentKeywords: ['Cursed is every one that continueth not in all things'],
     terms: [],
@@ -8193,7 +8193,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-29-4': {
     title: 'The LORD Hath Not Given You an Heart to Perceive',
     principle:
-      'Unto this day — no perceiving heart, seeing eyes, hearing ears. First principle: perception is a gift, not a given — Paul quotes the not-yet-given heart over the synagogue\'s vail.',
+      'Moses said that, unto this day, the LORD had not given his people a heart to perceive, eyes to see, or ears to hear. First principle: understanding is a gift from God, not something you simply have. Paul quotes this word about the heart not yet given, over the veil that lies on the synagogue.',
     sourceKeywords: ['hath not given you an heart to perceive', 'eyes to see, and ears to hear', 'unto this day'],
     fulfillmentKeywords: ['the vail is upon their heart in the reading of the old testament'],
     terms: [],
@@ -8201,7 +8201,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-30-4': {
     title: 'From Thence Will the LORD Thy God Gather Thee',
     principle:
-      'Scattering to the far parts of heaven meets a fetching God. First principle: the extremity of exile is the address of regathering — Jesus cites it for the elect-gathering with the trumpet.',
+      'God\'s people may be scattered to the far parts of heaven, but God comes to bring them home. First principle: even the farthest place of exile is where God gathers his people back. Jesus cites this verse for the gathering of his chosen people with the trumpet.',
     sourceKeywords: ['driven out unto the outmost parts of heaven', 'from thence will the LORD thy God gather thee'],
     fulfillmentKeywords: ['gather together his elect from the four winds'],
     terms: [],
@@ -8209,7 +8209,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-30-12': {
     title: 'It Is Not in Heaven, That Thou Shouldest Say, Who Shall Go Up?',
     principle:
-      'The commandment is not beyond reach. First principle: Paul re-reads the not-in-heaven of the law as the not-to-bring-Christ-down of faith — the Word is near.',
+      'The commandment is not out of reach. First principle: the law says the commandment is not in heaven. Paul reads it again as the word of faith. Faith does not bring Christ down. The Word is near.',
     sourceKeywords: ['It is not in heaven', 'Who shall go up for us to heaven'],
     fulfillmentKeywords: ['Who shall ascend into heaven? that is, to bring Christ down'],
     terms: [],
@@ -8217,7 +8217,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-30-14': {
     title: 'But the Word Is Very Nigh unto Thee',
     principle:
-      'In mouth and heart, that thou mayest do it. First principle: the near-word is the faith-word Paul preaches — the confession of mouth and heart that saves.',
+      'In mouth and heart, that thou mayest do it. The word is near enough for you to speak and to do. First principle: the near word is the word of faith Paul preaches. It is the confession of mouth and heart that saves.',
     sourceKeywords: ['the word is very nigh unto thee', 'in thy mouth, and in thy heart'],
     fulfillmentKeywords: ['The word is nigh thee, even in thy mouth, and in thy heart'],
     terms: [],
@@ -8225,7 +8225,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-31-6': {
     title: 'He Will Not Fail Thee, Nor Forsake Thee',
     principle:
-      'Courage commanded on presence-promise. First principle: the succession sermon — Joshua receives what Moses received; Hebrews hands it to every believer against covetousness.',
+      'God commands courage. He grounds that command in his promise to be with his people. First principle: in this farewell sermon Moses hands his role to Joshua. Joshua receives what Moses received. Hebrews hands the same promise to every believer, as a weapon against greed.',
     sourceKeywords: ['Be strong and of a good courage', 'he doth go with thee', 'he will not fail thee, nor forsake thee'],
     fulfillmentKeywords: ['I will never leave thee, nor forsake thee'],
     terms: [],
@@ -8233,7 +8233,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-32-35': {
     title: 'To Me Belongeth Vengeance and Recompence',
     principle:
-      'The Song of Moses assigns repayment to God; sliding feet have a due time. First principle: vengeance delegated is vengeance certain — Hebrews quotes it to warn apostates, Romans to free forgivers.',
+      'In the Song of Moses, God keeps repayment in his own hands. Feet that slip have a day set for them. First principle: vengeance left in God\'s hands is vengeance you can be sure of. Hebrews quotes this verse to warn those who turn away from God. Romans quotes it to set forgivers free.',
     sourceKeywords: ['To me belongeth vengeance, and recompence', 'their foot shall slide in due time'],
     fulfillmentKeywords: ['Vengeance belongeth unto me, I will recompense'],
     terms: [],
@@ -8241,7 +8241,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-32-43': {
     title: 'Rejoice, O Ye Nations, with His People',
     principle:
-      'The Song\'s Gentile-joy coda, avenging blood and mercying land. First principle: the nations are summoned into Israel\'s joy — Hebrews quotes it of the first-begotten\'s worship, Romans of shared gladness.',
+      'The Song of Moses ends with joy for the Gentiles. God avenges blood. He shows mercy to his land. First principle: God calls the nations into Israel\'s joy. Hebrews quotes this verse about the worship of the first-begotten, that is, Jesus. Romans quotes it about shared gladness.',
     sourceKeywords: ['Rejoice, O ye nations, with his people', 'avenge the blood of his servants', 'merciful unto his land'],
     fulfillmentKeywords: ['Rejoice, ye Gentiles, with his people'],
     terms: [],
@@ -8249,7 +8249,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'deu-33-2': {
     title: 'The LORD Came from Sinai... with Ten Thousands of Saints',
     principle:
-      'The theophany poem: Sinai, Seir, Paran, fiery law from His right hand. First principle: the coming-Lord poetry underlies Jude and the angelic-law tradition — the LORD comes with holy myriads.',
+      'This poem shows God appearing: Sinai, Seir, Paran. A fiery law comes from His right hand. First principle: the poetry of the LORD\'s coming stands behind Jude and behind the teaching that angels gave the law. The LORD comes with holy myriads.',
     sourceKeywords: ['The LORD came from Sinai', 'he came with ten thousands of saints', 'a fiery law for them'],
     fulfillmentKeywords: ['the Lord cometh with ten thousands of his saints'],
     terms: [],
