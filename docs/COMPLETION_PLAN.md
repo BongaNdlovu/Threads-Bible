@@ -103,3 +103,4 @@ single source of truth for progress and resumption.
 | Book | In-scope strings | Rewritten | VERIFY-ONLY | EQUIVALENT | Gate | Structural verifier | Status |
 |---|---:|---:|---:|---:|---|---|---|
 | Numbers | 60 | 19 | 40 | 1 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
+| Romans | 179 | 86 | 93 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |

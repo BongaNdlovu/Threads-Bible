@@ -287,7 +287,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-1-3': {
     title: 'Seed of David According to the Flesh',
     principle:
-      'The gospel concerns God\'s Son, born of the seed of David. First principle: messiahship is historically rooted in the Davidic covenant, not invented in the apostolic age.',
+      'The gospel is about God\'s Son, born of the seed of David. First principle: Jesus is the promised King. That claim is rooted in history, in God\'s binding promise to David. No one invented it in the apostles\' day.',
     sourceKeywords: ['Son', 'seed', 'David', 'flesh'],
     fulfillmentKeywords: ['seed', 'David', 'Christ', 'throne', 'son of David'],
     terms: [
@@ -295,89 +295,89 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     ],
   },
   'rom-1-17': {
-    title: 'Justification by Faith from Habakkuk',
+    title: 'God Declares the Guilty in the Right by Faith — from Habakkuk',
     principle:
-      'The righteousness of God is revealed from faith to faith: the just shall live by faith. First principle: Habakkuk\'s word becomes the structural key of Romans.',
+      'The righteousness of God is revealed from faith to faith: the just shall live by faith. First principle: Habakkuk\'s word becomes the key that gives Romans its shape.',
     sourceKeywords: ['righteousness of God', 'revealed', 'faith', 'faith', 'just', 'live'],
     fulfillmentKeywords: ['just shall live', 'faith', 'Habakkuk'],
     terms: [
-      { term: 'just shall live by faith', original: 'ὁ δίκαιος ἐκ πίστεως ζήσεται', translit: 'ho dikaios ek pisteōs zēsetai', gloss: 'the righteous by faith shall live', note: 'Hab 2:4 quoted three times in the NT (Rom 1:17; Gal 3:11; Heb 10:38).' },
+      { term: 'just shall live by faith', original: 'ὁ δίκαιος ἐκ πίστεως ζήσεται', translit: 'ho dikaios ek pisteōs zēsetai', gloss: 'the righteous by faith shall live', note: 'The NT quotes Hab 2:4 three times (Rom 1:17; Gal 3:11; Heb 10:38).' },
     ],
   },
   'rom-3-25': {
-    title: 'Propitiation / Mercy Seat',
+    title: 'Mercy Seat — the Sacrifice That Turns God\'s Wrath Away',
     principle:
-      'Christ Jesus, whom God set forth as a propitiation through faith in His blood. First principle: the cross is the new mercy seat where God\'s justice and mercy meet.',
+      'God set forth Christ Jesus as the propitiation — the sacrifice that turns His wrath away — through faith in His blood. First principle: the cross is the new mercy seat, the place where God\'s justice and mercy meet.',
     sourceKeywords: ['propitiation', 'faith', 'blood', 'remission', 'sins'],
     fulfillmentKeywords: ['mercy seat', 'atonement', 'blood', 'hilasmos', 'hilasterion'],
     terms: [
-      { term: 'propitiation', original: 'ἱλαστήριον', translit: 'hilastērion', gloss: 'mercy seat / means of propitiation', note: 'LXX for the kapporet of Exod 25:17 — the ark\'s cover.' },
+      { term: 'propitiation', original: 'ἱλαστήριον', translit: 'hilastērion', gloss: 'mercy seat / the sacrifice that turns God\'s wrath away', note: 'This is the LXX word for the kapporet of Exod 25:17 — the ark\'s cover.' },
     ],
   },
   'rom-4-3': {
     title: 'Abraham Believed God',
     principle:
-      'Abraham believed God and it was counted to him for righteousness. First principle: justification precedes circumcision, law, and works — it is by faith.',
+      'Abraham believed God and it was counted to him for righteousness. First principle: God declared Abraham to be in the right before circumcision, before the law, and before any works. It is by faith.',
     sourceKeywords: ['Abraham believed', 'God', 'counted', 'righteousness'],
     fulfillmentKeywords: ['believed', 'counted', 'righteousness'],
     terms: [
-      { term: 'counted', original: 'ἐλογίσθη', translit: 'elogisthē', gloss: 'it was credited / reckoned', note: 'LXX Gen 15:6 — same verb as Genesis.' },
+      { term: 'counted', original: 'ἐλογίσθη', translit: 'elogisthē', gloss: 'it was credited / reckoned', note: 'LXX Gen 15:6 — Paul uses the same verb as Genesis.' },
     ],
   },
   'rom-5-12': {
     title: 'Sin Entered Through One Man',
     principle:
-      'By one man sin entered the world, and death by sin. First principle: Adam\'s fall is federal — death passes to all; Christ\'s obedience is likewise federal for the many.',
+      'By one man sin entered the world, and death by sin. First principle: Adam\'s fall was the act of a head over the whole human race. Death passes to all. Christ\'s obedience was the act of a head for the many.',
     sourceKeywords: ['one man', 'sin', 'entered', 'world', 'death', 'sin', 'death passed', 'all', 'sinned'],
     fulfillmentKeywords: ['one man', 'death', 'resurrection', 'Adam', 'Christ', 'made alive'],
     terms: [
-      { term: 'entered', original: 'εἰσῆλθεν', translit: 'eisēlthen', gloss: 'entered / came in', note: 'Parallel to 1 Cor 15:21-22 — Adam/Christ contrast.' },
+      { term: 'entered', original: 'εἰσῆλθεν', translit: 'eisēlthen', gloss: 'entered / came in', note: 'This is parallel to 1 Cor 15:21-22 — the Adam/Christ contrast.' },
     ],
   },
   'rom-8-3': {
     title: 'God Sent His Son in the Likeness of Sinful Flesh',
     principle:
-      'What the law could not do, God did by sending His own Son in the likeness of sinful flesh. First principle: the law diagnoses but cannot cure; the incarnate Son condemns sin in the flesh.',
+      'The law could not do it. God did. He sent His own Son in the likeness of sinful flesh. First principle: the law points out the sickness but cannot cure it. The Son who became man condemns sin in the flesh.',
     sourceKeywords: ['law', 'weak', 'flesh', 'God sending', 'his own Son', 'likeness', 'sinful flesh', 'condemned sin', 'flesh'],
     fulfillmentKeywords: ['Word', 'flesh', 'dwelt', 'likeness', 'sinful flesh'],
     terms: [
-      { term: 'likeness of sinful flesh', original: 'ἐν ὁμοιώματι σαρκὸς ἁμαρτίας', translit: 'en homoiōmati sarkos hamartias', gloss: 'in the likeness of flesh of sin', note: 'Real humanity without being under sin\'s mastery (cf. Phil 2:7).' },
+      { term: 'likeness of sinful flesh', original: 'ἐν ὁμοιώματι σαρκὸς ἁμαρτίας', translit: 'en homoiōmati sarkos hamartias', gloss: 'in the likeness of flesh of sin', note: 'He was truly human. Sin did not master him (cf. Phil 2:7).' },
     ],
   },
   'rom-8-32': {
     title: 'He Did Not Spare His Own Son',
     principle:
-      'He who did not spare His own Son, but delivered Him up for us all. First principle: the cross is the measure of God\'s generosity — if He gave the Son, He will freely give all things.',
+      'He who did not spare His own Son, but delivered Him up for us all. First principle: the cross shows how generous God is. If He gave the Son, He will freely give all things.',
     sourceKeywords: ['spared not', 'own Son', 'delivered him up', 'us all'],
     fulfillmentKeywords: ['only begotten', 'gave', 'world', 'offered', 'himself'],
     terms: [
-      { term: 'did not spare', original: 'οὐκ ἐφείσατο', translit: 'ouk epheisato', gloss: 'he did not spare', note: 'Deliberate echo of Gen 22:12 LXX — Abraham did not spare his son.' },
+      { term: 'did not spare', original: 'οὐκ ἐφείσατο', translit: 'ouk epheisato', gloss: 'he did not spare', note: 'Paul deliberately echoes Gen 22:12 LXX. There, Abraham did not spare his son.' },
     ],
   },
   'rom-9-33': {
     title: 'Stone of Stumbling',
     principle:
-      'Whoever believes on Him shall not be ashamed — but the stone of stumbling. First principle: Christ is either foundation or crusher; there is no neutral response.',
+      'Whoever believes on Him shall not be ashamed. But He is also the stone of stumbling. First principle: Christ is either foundation or crusher. There is no neutral response.',
     sourceKeywords: ['stone of stumbling', 'rock of offence', 'believeth', 'ashamed'],
     fulfillmentKeywords: ['stone', 'builders', 'refused', 'head', 'corner', 'stumbling'],
     terms: [
-      { term: 'stumbling stone', original: 'λίθος προσκόμματος', translit: 'lithos proskommatos', gloss: 'stone of stumbling', note: 'Isa 8:14; 28:16 combined; 1 Pet 2:6-8.' },
+      { term: 'stumbling stone', original: 'λίθος προσκόμματος', translit: 'lithos proskommatos', gloss: 'stone of stumbling', note: 'Isa 8:14 and 28:16 are combined here. See also 1 Pet 2:6-8.' },
     ],
   },
   'rom-10-13': {
     title: 'Whoever Calls on the Name',
     principle:
-      'Whoever shall call on the name of the Lord shall be saved. First principle: Joel\'s last-days promise is fulfilled in gospel proclamation.',
+      'Whoever shall call on the name of the Lord shall be saved. First principle: Joel\'s promise about the last days comes true when the gospel is preached.',
     sourceKeywords: ['call upon', 'name of the Lord', 'saved'],
     fulfillmentKeywords: ['call', 'name of the LORD', 'saved'],
     terms: [
-      { term: 'name of the Lord', original: 'ὄνομα κυρίου', translit: 'onoma kyriou', gloss: 'the name of the Lord (YHWH)', note: 'Joel 2:32 applied to Jesus in Acts 2:21, 16:31.' },
+      { term: 'name of the Lord', original: 'ὄνομα κυρίου', translit: 'onoma kyriou', gloss: 'the name of the Lord (YHWH)', note: 'The NT applies Joel 2:32 to Jesus in Acts 2:21, 16:31.' },
     ],
   },
   'rom-15-12': {
     title: 'Root of Jesse — In Him Gentiles Trust',
     principle:
-      'Isaiah: there shall be a root of Jesse, and He that shall rise to reign over the Gentiles; in Him shall the Gentiles trust. First principle: Gentile hope is Davidic and messianic.',
+      'Isaiah: there shall be a root of Jesse, and He that shall rise to reign over the Gentiles; in Him shall the Gentiles trust. First principle: Gentile hope comes from David\'s line. That hope is about the promised King, Jesus.',
     sourceKeywords: ['root', 'Jesse', 'rise', 'reign', 'Gentiles', 'trust'],
     fulfillmentKeywords: ['Root', 'Jesse', 'Branch', 'Gentiles', 'trust'],
     terms: [
@@ -1547,12 +1547,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-21': {
     title: 'The Righteousness of God Manifested Without the Law',
     principle:
-      'But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe. Justification is entirely a gift of divine grace through the redemption that is in Christ Jesus, received by faith and credited to the believer.',
+      '“But now the righteousness of God without the law is manifested, being witnessed by the law and the prophets; even the righteousness of God which is by faith of Jesus Christ unto all and upon all them that believe.” God declares a guilty person to be in the right. That verdict is a free gift of his grace. He gives it through the redemption that is in Christ Jesus — the price paid to buy people back. The believer receives it by faith. God credits it to him.',
     sourceKeywords: ['righteousness of God', 'without the law', 'witnessed by the law and the prophets', 'by faith of Jesus Christ'],
     fulfillmentKeywords: ['justified freely by his grace', 'redemption in Christ Jesus', 'propitiation through faith in his blood'],
     terms: [
-      { term: 'righteousness of God', original: 'δικαιοσύνη θεοῦ', translit: 'dikaiosynē theou', gloss: 'righteousness from God / divine vindication', note: 'Imputed and imparted status of right standing before God.' },
-      { term: 'justified freely', original: 'δικαιούμενοι δωρεάν', translit: 'dikaioumenoi dōrean', gloss: 'being declared righteous as a free gift / without cost', note: 'Reflects unmerited grace unearned by human works.' },
+      { term: 'righteousness of God', original: 'δικαιοσύνη θεοῦ', translit: 'dikaiosynē theou', gloss: 'righteousness from God / divine vindication', note: 'This right standing before God is credited to us. God also works it into us.' },
+      { term: 'justified freely', original: 'δικαιούμενοι δωρεάν', translit: 'dikaioumenoi dōrean', gloss: 'being declared righteous as a free gift / without cost', note: 'This shows grace that no human work can earn.' },
     ],
   },
   'col-2-6': {
@@ -1590,12 +1590,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-6-3': {
     title: 'Buried in Baptism — United with Christ in Resurrection',
     principle:
-      'Know ye not, that so many of us as were baptized into Jesus Christ were baptized into His death? Therefore we are buried with Him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life. Biblical baptism requires immersion in water, symbolizing death to the old life and resurrection into spiritual power.',
+      '“Know ye not, that so many of us as were baptized into Jesus Christ were baptized into His death? Therefore we are buried with Him by baptism into death: that like as Christ was raised up from the dead by the glory of the Father, even so we also should walk in newness of life.” Baptism in the Bible means going all the way under the water. It pictures death to the old life and rising again in spiritual power.',
     sourceKeywords: ['baptized into Jesus Christ', 'buried with Him by baptism into death', 'walk in newness of life'],
     fulfillmentKeywords: ['repent and be baptized', 'buried with him in baptism', 'put on Christ'],
     terms: [
-      { term: 'baptized / immersed', original: 'ἐβαπτίσθημεν', translit: 'ebaptisthēmen', gloss: 'we were submerged / immersed / plunged under', note: 'Requires full immersion in water to signify burial and resurrection.' },
-      { term: 'newness of life', original: 'καινότητι ζωῆς', translit: 'kainotēti zōēs', gloss: 'fresh quality of divine life', note: 'The resurrected life energized by the Holy Spirit.' },
+      { term: 'baptized / immersed', original: 'ἐβαπτίσθημεν', translit: 'ebaptisthēmen', gloss: 'we were submerged / immersed / plunged under', note: 'Baptism requires full immersion in water. That immersion pictures burial and resurrection.' },
+      { term: 'newness of life', original: 'καινότητι ζωῆς', translit: 'kainotēti zōēs', gloss: 'fresh quality of divine life', note: 'The Holy Spirit gives power to this risen life.' },
     ],
   },
   '1co-11-23': {
@@ -3450,7 +3450,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-1-2': {
     title: 'Promised Afore by His Prophets',
     principle:
-      'The gospel was promised before through the prophets in holy scriptures. First principle: the good news is not a new invention but an old promise — the Son announced in David\'s line and David\'s throne.',
+      'The gospel was promised before through the prophets in the holy scriptures. First principle: the good news is not a new invention. It is an old promise about the Son, announced in David\'s line and in David\'s throne.',
     sourceKeywords: ['promised afore', 'his prophets', 'holy scriptures'],
     fulfillmentKeywords: ['Thou art my Son', 'unto us a son is given'],
     terms: [],
@@ -3458,7 +3458,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-1-4': {
     title: 'Declared the Son of God by the Resurrection',
     principle:
-      'Raised from the dead, Jesus is marked out as Son with power — Psalm 2\'s decree enacted. First principle: the resurrection is the public investiture of the Son; the seed of David is demonstrated Lord.',
+      'God raised Jesus from the dead. He marked him out as Son with power. That enacted Psalm 2\'s decree. First principle: the resurrection is God publicly installing the Son. The seed of David is shown to be Lord.',
     sourceKeywords: ['declared to be the Son of God', 'by the resurrection from the dead', 'spirit of holiness'],
     fulfillmentKeywords: ['Thou art my Son', 'wilt not leave my soul in hell'],
     terms: [],
@@ -3466,7 +3466,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-1-16': {
     title: 'The Power of God unto Salvation',
     principle:
-      'The gospel saves every believer, Jew first and also Greek. First principle: Isaiah 49\'s light to the nations is the gospel\'s scope — power for anyone who believes, shame for no one who preaches it.',
+      'The gospel saves every believer, Jew first and also Greek. First principle: Isaiah 49 spoke of a light to the nations. That light shows how far the gospel reaches. It is power for anyone who believes. No one who preaches it needs to be ashamed.',
     sourceKeywords: ['not ashamed of the gospel', 'power of God unto salvation', 'Jew first, and also to the Greek'],
     fulfillmentKeywords: ['my salvation unto the end of the earth'],
     terms: [],
@@ -3474,7 +3474,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-1-20': {
     title: 'His Eternal Power and Godhead Are Clearly Seen',
     principle:
-      'Creation reveals the invisible God so that unbelief is without excuse. First principle: the heavens declare — general revelation leaves no atheist safe, and the written law leaves no conscience clean apart from Christ.',
+      'Creation reveals the invisible God. That leaves unbelief without excuse. First principle: the heavens declare. Creation itself speaks to every person. No atheist is safe. The written law leaves no conscience clean apart from Christ either.',
     sourceKeywords: ['clearly seen', 'things that are made', 'without excuse'],
     fulfillmentKeywords: ['the heavens declare the glory of God'],
     terms: [],
@@ -3482,7 +3482,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-10': {
     title: 'There Is None Righteous, No, Not One',
     principle:
-      'The psalmist\'s verdict is universalized: none righteous, none seeketh after God. First principle: the doctrine of universal sin is not Paul\'s opinion — it is a catena of Scripture gathered against the whole world.',
+      'The psalmist\'s verdict covers everyone: none righteous, none seeketh after God. First principle: the teaching that all people sin is not Paul\'s opinion. It is a chain of Scripture passages gathered against the whole world.',
     sourceKeywords: ['As it is written', 'none righteous', 'none that understandeth'],
     fulfillmentKeywords: ['there is none that doeth good', 'the fool hath said in his heart'],
     terms: [],
@@ -3490,7 +3490,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-13': {
     title: 'Their Throat Is an Open Sepulchre',
     principle:
-      'The Psalms catalogue sinful speech: deceitful tongues, asp poison, cursing lips. First principle: sin is most audible in the mouth — the anatomy of guilt is drawn from Israel\'s own hymnbook.',
+      'The Psalms list the ways we sin with our speech: deceitful tongues, asp poison, cursing lips. First principle: sin is heard most clearly in the mouth. The picture of our guilt comes from Israel\'s own songbook.',
     sourceKeywords: ['open sepulchre', 'used deceit', 'poison of asps'],
     fulfillmentKeywords: ['the poison of asps', 'speaketh lies'],
     terms: [],
@@ -3498,7 +3498,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-15': {
     title: 'Swift to Shed Blood',
     principle:
-      'Isaiah 59\'s indictment of feet running to evil is applied to all. First principle: violence is the visible fruit of inner ruin — the feet are swift because the heart is far.',
+      'Paul applies Isaiah 59 to everyone. The charge there is feet that run to evil. First principle: violence shows what is ruined inside. The feet are swift because the heart is far away.',
     sourceKeywords: ['swift to shed blood', 'destruction and misery'],
     fulfillmentKeywords: ['their feet run to evil', 'they are swift to shed innocent blood'],
     terms: [],
@@ -3506,7 +3506,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-18': {
     title: 'No Fear of God Before Their Eyes',
     principle:
-      'Psalm 36\'s final diagnosis: unbelief is not intellectual failure but moral rebellion. First principle: the root of sin is the absence of reverent fear — every other sin grows from this soil.',
+      'Psalm 36 gives the final diagnosis: unbelief is not a failure of the mind. It is moral rebellion. First principle: the root of sin is the absence of reverent fear. Every other sin grows from this soil.',
     sourceKeywords: ['no fear of God', 'before their eyes'],
     fulfillmentKeywords: ['there is no fear of God before his eyes'],
     terms: [],
@@ -3514,7 +3514,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-3-20': {
     title: 'By the Law Is the Knowledge of Sin',
     principle:
-      'No flesh is justified by deeds of the law — the law diagnoses, it does not cure. First principle: the law is a mirror, not a launderer; righteousness must come from another quarter entirely.',
+      'No flesh is justified by deeds of the law — no one is declared in the right by keeping the law. The law points out the disease. It does not cure it. First principle: the law is a mirror, not a cleaner. It shows you the stain, but it cannot wash it away. Right standing must come from somewhere else entirely.',
     sourceKeywords: ['deeds of the law', 'no flesh be justified', 'knowledge of sin'],
     fulfillmentKeywords: ['in thy sight shall no man living be justified'],
     terms: [],
@@ -3522,7 +3522,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-4-13': {
     title: 'Heir of the World Through the Righteousness of Faith',
     principle:
-      'Abraham\'s promise of world-inheritance came apart from law, through faith. First principle: the land promise was always a down payment on a worldwide inheritance — received by believing, not by lawkeeping.',
+      'Abraham\'s promise to inherit the world did not come through the law. It came through faith. First principle: the land promise was always a down payment on a worldwide inheritance. Abraham received it by believing, not by keeping the law.',
     sourceKeywords: ['heir of the world', 'through the righteousness of faith', 'not through the law'],
     fulfillmentKeywords: ['unto thy seed will I give this land'],
     terms: [],
@@ -3530,7 +3530,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-4-17': {
     title: 'A Father of Many Nations Have I Made Thee',
     principle:
-      'God calls things that are not as though they were — Abraham believed the Life-giver. First principle: faith trusts the finished speech of God; the title father of nations was given before the first child existed.',
+      'God calls things that are not as though they were. Abraham believed the God who gives life. First principle: faith trusts what God has already spoken. God gave Abraham the title father of nations before he had a single child.',
     sourceKeywords: ['father of many nations', 'quickeneth the dead', 'calleth those things which be not'],
     fulfillmentKeywords: ['a father of many nations have I made thee'],
     terms: [],
@@ -3538,7 +3538,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-4-18': {
     title: 'Against Hope Believed in Hope',
     principle:
-      'A hundred-year-old man embraces So shall thy seed be. First principle: hope against hope is still hope on the Word — the stars of Genesis 15 remain the measure of the promise.',
+      'A hundred-year-old man embraces “So shall thy seed be.” First principle: hoping against hope is still hope. It rests on God\'s word. The stars of Genesis 15 still measure the promise.',
     sourceKeywords: ['against hope believed in hope', 'So shall thy seed be'],
     fulfillmentKeywords: ['tell the stars', 'so shall thy seed be'],
     terms: [],
@@ -3546,7 +3546,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-4-25': {
     title: 'Delivered for Our Offences, Raised for Our Justification',
     principle:
-      'Isaiah 53\'s transactions are summarized in two clauses: delivered and raised. First principle: the cross pays the debt; the resurrection announces the receipt — justification is certified by an empty tomb.',
+      'Isaiah 53\'s two clauses sum it up: delivered and raised. First principle: the cross pays the debt. The resurrection announces the receipt. God declares a guilty person to be in the right. The empty tomb is the proof.',
     sourceKeywords: ['delivered for our offences', 'raised again for our justification'],
     fulfillmentKeywords: ['was wounded for our transgressions', 'shall justify many'],
     terms: [],
@@ -3554,7 +3554,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-5-14': {
     title: 'Adam Is the Figure of Him That Was to Come',
     principle:
-      'Death reigned from Adam, a pattern pointing forward to Christ. First principle: history splits into two headships — in Adam all die; the second Adam headships a race of life.',
+      'Death ruled from Adam\'s time onward. That was a pattern pointing forward to Christ. First principle: history divides under two heads. In Adam all die. The second Adam heads a race of life.',
     sourceKeywords: ['death reigned', 'the figure of him that was to come', 'Adam\'s transgression'],
     fulfillmentKeywords: ['in Adam all die', 'a living soul'],
     terms: [],
@@ -3562,7 +3562,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-5-15': {
     title: 'Much More the Grace of God Hath Abounded',
     principle:
-      'One offense brought death; one Man\'s gift abounds to many. First principle: grace is not symmetry but superabundance — what the fall lost, the gift outweighs.',
+      'One offense brought death. One Man\'s gift abounds to many. First principle: grace is not a matching amount. It overflows. What the fall lost, the gift outweighs.',
     sourceKeywords: ['the free gift', 'abounded unto many', 'grace of God'],
     fulfillmentKeywords: ['shall justify many', 'he shall see of the travail of his soul'],
     terms: [],
@@ -3570,7 +3570,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-5-19': {
     title: 'By the Obedience of One Shall Many Be Made Righteous',
     principle:
-      'Adam\'s disobedience versus Christ\'s obedience unto death. First principle: salvation is headship exchange — the many are counted righteous because the One was obedient in their place.',
+      'Adam disobeyed. Christ obeyed, all the way to death. First principle: salvation is a swap of heads. The many are counted righteous because the One obeyed in their place.',
     sourceKeywords: ['by one man\'s disobedience', 'the obedience of one', 'made righteous'],
     fulfillmentKeywords: ['by his knowledge shall my righteous servant justify many', 'obedient unto death'],
     terms: [],
@@ -3578,7 +3578,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-6-23': {
     title: 'The Wages of Sin Is Death',
     principle:
-      'Sin pays death; God gives eternal life through Christ. First principle: two economies — earned wages versus unearned gift — and the gift wins because another earned it for us.',
+      'Sin pays a wage. That wage is death. God gives eternal life through Christ. First principle: there are two ways to be paid. You earn wages. You do not earn a gift. Another earned the gift for us. That is why the gift wins.',
     sourceKeywords: ['wages of sin is death', 'the gift of God is eternal life'],
     fulfillmentKeywords: ['thou shalt surely die', 'the soul that sinneth, it shall die'],
     terms: [],
@@ -3586,7 +3586,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-8-11': {
     title: 'He That Raised Up Christ Shall Quicken Your Mortal Bodies',
     principle:
-      'The Spirit who raised Jesus will resurrect believers. First principle: Ezekiel\'s dry-bones question is answered by the indwelling Spirit — the same power that raised Christ will raise you.',
+      'The Spirit who raised Jesus will raise believers. First principle: the Spirit who lives inside you answers Ezekiel\'s dry-bones question. The same power that raised Christ will raise you.',
     sourceKeywords: ['raised up Jesus from the dead', 'quicken your mortal bodies', 'his Spirit that dwelleth in you'],
     fulfillmentKeywords: ['I will cause breath to enter into you', 'ye shall live'],
     terms: [],
@@ -3594,7 +3594,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-8-29': {
     title: 'Firstborn Among Many Brethren',
     principle:
-      'The predestined are conformed to the image of God\'s Son. First principle: Psalm 89\'s firstborn title belongs to Christ, and salvation\'s goal is family resemblance to Him.',
+      'God chose his people ahead of time. He shapes them to look like his Son. First principle: Psalm 89\'s firstborn title belongs to Christ. Salvation\'s goal is family resemblance to Him.',
     sourceKeywords: ['conformed to the image of his Son', 'firstborn among many brethren'],
     fulfillmentKeywords: ['I will make him my firstborn', 'higher than the kings'],
     terms: [],
@@ -3602,7 +3602,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-8-34': {
     title: 'Christ That Died, Yea Rather, That Is Risen Again',
     principle:
-      'No condemnation stands while the risen Christ intercedes at God\'s right hand. First principle: the defense in the courtroom of heaven is the Lamb who died — Psalm 110 enthroned, Isaiah 53 interceding.',
+      'The risen Christ pleads for us at God\'s right hand. No condemnation stands. First principle: the defense in heaven\'s courtroom is the Lamb who died. Psalm 110 shows him enthroned. Isaiah 53 shows him pleading for us.',
     sourceKeywords: ['It is Christ that died', 'risen again', 'maketh intercession for us'],
     fulfillmentKeywords: ['Sit thou at my right hand', 'made intercession for the transgressors'],
     terms: [],
@@ -3610,7 +3610,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-7': {
     title: 'In Isaac Shall Thy Seed Be Called',
     principle:
-      'Abraham\'s children are counted through promise, not merely flesh. First principle: the covenant line runs by election and faith — Isaac, not Ishmael, carries the seed of the world-blessing.',
+      'God counts Abraham\'s children through the promise, not merely through flesh. First principle: the line of God\'s binding promise runs by God\'s choice and by faith. Isaac carries the seed of the world-blessing, not Ishmael.',
     sourceKeywords: ['the seed of Abraham', 'In Isaac shall thy seed be called'],
     fulfillmentKeywords: ['in Isaac shall thy seed be called'],
     terms: [],
@@ -3618,7 +3618,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-9': {
     title: 'At This Time Will I Come, and Sara Shall Have a Son',
     principle:
-      'The word of promise came with a divine timetable. First principle: God\'s promises come with God\'s seasons — the impossible birth at the appointed time is the pattern of the Incarnation itself.',
+      'The word of promise came with a date God had set. First principle: God\'s promises come with God\'s seasons. The impossible birth at the appointed time is the pattern of the Incarnation itself — God becoming man.',
     sourceKeywords: ['the word of promise', 'At this time will I come', 'Sara shall have a son'],
     fulfillmentKeywords: ['At the time appointed', 'Sarah thy wife shall have a son'],
     terms: [],
@@ -3634,7 +3634,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-13': {
     title: 'Jacob Have I Loved, but Esau Have I Hated',
     principle:
-      'Malachi\'s later words are cited as God\'s settled choice across generations. First principle: election is God\'s love set before desert — Jacob\'s line carries the Messiah, whatever Esau\'s prosperity.',
+      'Paul cites Malachi\'s later words as God\'s settled choice across the generations. First principle: election means God\'s love comes before anything a person deserves. Jacob\'s line carries the Messiah, whatever prosperity Esau had.',
     sourceKeywords: ['Jacob have I loved', 'Esau have I hated', 'As it is written'],
     fulfillmentKeywords: ['Jacob have I loved', 'Esau have I hated'],
     terms: [],
@@ -3642,7 +3642,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-15': {
     title: 'I Will Have Mercy on Whom I Will Have Mercy',
     principle:
-      'Moses at the cleft learns God\'s sovereign compassion. First principle: mercy by definition cannot be owed — it is God\'s free self-disclosure, the glory He showed Moses and shows in Christ.',
+      'Moses stands in the cleft of the rock and learns that God\'s mercy is his own to give. First principle: mercy cannot be owed. Mercy is God freely showing who he is. He showed that glory to Moses. He shows it in Christ too.',
     sourceKeywords: ['I will have mercy on whom I will have mercy', 'compassion on whom I will have compassion'],
     fulfillmentKeywords: ['I will make all my goodness pass before thee', 'shew mercy'],
     terms: [],
@@ -3650,7 +3650,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-17': {
     title: 'Even for This Same Purpose Have I Raised Thee Up',
     principle:
-      'Pharaoh\'s hardened throne served the declaration of God\'s name in all the earth. First principle: even opposition is harnessed — God\'s power is displayed through the rulers who refuse Him.',
+      'God declared his name in all the earth through Pharaoh\'s hardened throne. First principle: God even turns opposition to his own use. He displays his power through rulers who refuse Him.',
     sourceKeywords: ['the scripture saith unto Pharaoh', 'I might shew my power in thee', 'declared throughout all the earth'],
     fulfillmentKeywords: ['for to shew in thee my power', 'my name may be declared'],
     terms: [],
@@ -3658,7 +3658,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-25': {
     title: 'I Will Call Them My People, Which Were Not My People',
     principle:
-      'Hosea\'s Lo-ammi reversal is quoted for Gentile grace. First principle: the God who renames the unloved is still renaming — not-my-people become sons of the living God.',
+      'Paul quotes Hosea\'s Lo-ammi reversal — the name means not my people — to make his point about Gentile grace. First principle: God renamed the unloved. He is still renaming. Not-my-people become sons of the living God.',
     sourceKeywords: ['in Osee', 'my people, which were not my people', 'beloved, which was not beloved'],
     fulfillmentKeywords: ['I will say to them which were not my people', 'Thou art my people'],
     terms: [],
@@ -3666,7 +3666,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-26': {
     title: 'Children of the Living God',
     principle:
-      'In the very place of rejection, adoption is proclaimed. First principle: Hosea\'s geography of grace — the same ground of unbelief becomes the ground of belonging.',
+      'God proclaims adoption in the very place where rejection happened. First principle: Hosea shows where grace does its work. The same ground of unbelief becomes the ground of belonging.',
     sourceKeywords: ['in the place where it was said', 'not my people', 'children of the living God'],
     fulfillmentKeywords: ['Ye are the sons of the living God'],
     terms: [],
@@ -3674,7 +3674,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-27': {
     title: 'A Remnant Shall Be Saved',
     principle:
-      'Isaiah\'s cry: though Israel be as the sand, only a remnant returns. First principle: salvation is never statistical — the promise survives in the remnant God keeps for Himself.',
+      'Isaiah cried out: though Israel be as the sand, only a remnant returns. First principle: salvation is never a matter of numbers. The promise survives in the remnant, the faithful few God keeps for Himself.',
     sourceKeywords: ['Esaias also crieth', 'a remnant shall be saved', 'as the sand of the sea'],
     fulfillmentKeywords: ['a remnant shall return', 'the remnant according to the election of grace'],
     terms: [],
@@ -3682,7 +3682,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-9-29': {
     title: 'Except the Lord of Sabaoth Had Left Us a Seed',
     principle:
-      'Without divine reserve, Israel would be as Sodom. First principle: a saved seed is mercy\'s evidence — what remains is what grace left, not what man preserved.',
+      'If God had not held back a few, Israel would have been as Sodom. First principle: the saved seed is the evidence of mercy. What remains is what grace left behind, not what man kept safe.',
     sourceKeywords: ['Lord of Sabaoth', 'left us a seed', 'as Sodoma'],
     fulfillmentKeywords: ['except the LORD of hosts had left'],
     terms: [],
@@ -3690,7 +3690,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-5': {
     title: 'The Man Which Doeth Those Things Shall Live by Them',
     principle:
-      'Moses describes law-righteousness: do and live. First principle: the law offers life to perfect performance — a standard that indicts, because none has performed.',
+      'Moses describes the righteousness that comes by the law: do these things and live. First principle: the law offers life to perfect performance. That standard condemns everyone, because no one has done it.',
     sourceKeywords: ['Moses describeth', 'the righteousness which is of the law', 'shall live by them'],
     fulfillmentKeywords: ['Ye shall therefore keep my statutes', 'which if a man do, he shall live'],
     terms: [],
@@ -3698,7 +3698,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-6': {
     title: 'Say Not in Thine Heart, Who Shall Ascend into Heaven?',
     principle:
-      'Deuteronomy 30\'s near word is read of Christ — no climb, no descent required. First principle: righteousness by faith is proximity, not pilgrimage; the Word is near, in mouth and heart.',
+      'Paul reads Deuteronomy 30\'s near word as being about Christ. No one has to climb up or go down. First principle: righteousness by faith is near, not a pilgrimage. The Word is near, in mouth and heart.',
     sourceKeywords: ['the righteousness which is of faith', 'Who shall ascend into heaven', 'bring Christ down'],
     fulfillmentKeywords: ['it is not in heaven', 'very nigh unto thee'],
     terms: [],
@@ -3706,7 +3706,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-11': {
     title: 'Whosoever Believeth on Him Shall Not Be Ashamed',
     principle:
-      'Isaiah 28\'s foundation Stone carries a promise: no shame for the believer. First principle: the Stone laid in Zion secures the unhurried — he that believeth shall not make haste, nor be put to flight.',
+      'Isaiah 28 lays a foundation Stone and ties a promise to it: the believer will not be put to shame. First principle: the Stone laid in Zion keeps the believer steady. As the prophet wrote, “he that believeth shall not make haste.” That person does not panic or run away.',
     sourceKeywords: ['the scripture saith', 'Whosoever believeth on him', 'shall not be ashamed'],
     fulfillmentKeywords: ['he that believeth shall not make haste', 'a tried stone'],
     terms: [],
@@ -3714,7 +3714,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-15': {
     title: 'How Beautiful Are the Feet of Them That Preach',
     principle:
-      'Isaiah 52\'s mountain-runner is the gospel preacher. First principle: glad tidings require sent feet — the beauty is in the message carried, not the messenger\'s merit.',
+      'Isaiah 52 pictures a messenger running over the mountains. That messenger is the gospel preacher. First principle: good news needs a messenger who is sent. The beauty is in the message carried, not in the messenger\'s merit.',
     sourceKeywords: ['except they be sent', 'beautiful are the feet', 'glad tidings of good things'],
     fulfillmentKeywords: ['How beautiful upon the mountains', 'that bringeth good tidings'],
     terms: [],
@@ -3722,7 +3722,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-16': {
     title: 'Lord, Who Hath Believed Our Report?',
     principle:
-      'Isaiah 53\'s opening lament is quoted of Israel\'s unbelief. First principle: the report has been published in every generation — and the arm of the LORD is revealed only to faith.',
+      'Isaiah 53 opens with a lament. Paul quotes it of Israel\'s unbelief. First principle: the report has gone out in every generation. Yet “the arm of the LORD” is revealed only to those who believe.',
     sourceKeywords: ['they have not all obeyed the gospel', 'Esaias saith', 'who hath believed our report'],
     fulfillmentKeywords: ['Who hath believed our report'],
     terms: [],
@@ -3730,7 +3730,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-18': {
     title: 'Their Sound Went into All the Earth',
     principle:
-      'Psalm 19\'s creation-sermon is applied to the gospel\'s reach. First principle: as the heavens needed no interpreter, so the gospel voice travels — the question is not hearing but heeding.',
+      'Paul applies Psalm 19 to the reach of the gospel. First principle: the heavens needed no interpreter. The voice of the gospel travels the same way. The question is not whether people hear. It is whether they listen.',
     sourceKeywords: ['Have they not heard', 'their sound went into all the earth', 'ends of the world'],
     fulfillmentKeywords: ['their line is gone out through all the earth'],
     terms: [],
@@ -3738,7 +3738,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-19': {
     title: 'I Will Provoke You to Jealousy by Them That Are No People',
     principle:
-      'Moses\' song warns Israel with a foolish nation\'s favor. First principle: jealousy-provoking grace is an old covenant tool — Gentile blessing is the sermon Israel was told to expect.',
+      'Moses\' song warns Israel about the favor shown to a foolish nation. First principle: grace that makes his people jealous is an old covenant tool. Gentile blessing is the sermon Israel was told to expect.',
     sourceKeywords: ['First Moses saith', 'provoke you to jealousy', 'a foolish nation'],
     fulfillmentKeywords: ['I will provoke them to jealousy', 'a foolish nation'],
     terms: [],
@@ -3746,7 +3746,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-20': {
     title: 'I Was Found of Them That Sought Me Not',
     principle:
-      'Isaiah 65\'s bold paradox: found by non-seekers, manifest to the unasking. First principle: grace initiates — the God found by Gentiles who never sought Him is the scandal and glory of the gospel.',
+      'Isaiah 65 states a bold paradox: God was found by people who were not looking for him. He showed himself to people who never asked. First principle: grace makes the first move. Gentiles who never sought Him found God. That is the scandal and the glory of the gospel.',
     sourceKeywords: ['Esaias is very bold', 'found of them that sought me not', 'asked not after me'],
     fulfillmentKeywords: ['I am sought of them that asked not for me', 'I am found of them'],
     terms: [],
@@ -3754,7 +3754,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-10-21': {
     title: 'All Day Long I Have Stretched Forth My Hands',
     principle:
-      'To Israel: outstretched hands met disobedience and contradiction. First principle: rejection is not the failure of God\'s patience but the abuse of it — the hands stayed open all day.',
+      'God stretched out his hands to Israel all day long. Israel answered with disobedience and arguing back. First principle: their refusal did not mean God\'s patience failed. It meant they abused his patience. His hands stayed open all day.',
     sourceKeywords: ['to Israel he saith', 'stretched forth my hands', 'disobedient and gainsaying people'],
     fulfillmentKeywords: ['I have spread out my hands all the day'],
     terms: [],
@@ -3762,7 +3762,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-3': {
     title: 'They Have Killed Thy Prophets; I Am Left Alone',
     principle:
-      'Elijah\'s complaint is quoted in Romans\' remnant argument. First principle: even when faith feels extinct, God keeps a reserve of seven thousand — despondency misreads the census.',
+      'In Romans, Paul quotes Elijah\'s complaint in his argument about the remnant — the faithful few who are left. First principle: even when faith feels extinct, God keeps seven thousand in reserve. Despair gets the count wrong.',
     sourceKeywords: ['killed thy prophets', 'digged down thine altars', 'I am left alone'],
     fulfillmentKeywords: ['I, even I only, am left', 'seven thousand that have not bowed'],
     terms: [],
@@ -3770,7 +3770,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-8': {
     title: 'God Hath Given Them the Spirit of Slumber',
     principle:
-      'Isaiah\'s judicial sleep and David\'s table-snare are joined. First principle: continued refusal invites given blindness — eyes that close themselves are finally closed for them.',
+      'Paul joins two passages: Isaiah\'s sleep sent in judgment and David\'s table that becomes a snare. First principle: refusing God again and again invites the blindness he gives. Eyes that close themselves are finally closed for them.',
     sourceKeywords: ['the spirit of slumber', 'eyes that they should not see', 'unto this day'],
     fulfillmentKeywords: ['the spirit of deep sleep', 'poured out upon you'],
     terms: [],
@@ -3778,7 +3778,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-9': {
     title: 'Let Their Table Be Made a Snare',
     principle:
-      'Psalm 69\'s imprecation lands on the rejectors of the Messiah. First principle: prosperity without faith becomes a trap — the table itself can catch the ungrateful.',
+      'Psalm 69\'s imprecation — its prayer for judgment — lands on those who rejected the Messiah. First principle: prosperity without faith becomes a trap. The table itself can catch the ungrateful.',
     sourceKeywords: ['David saith', 'their table be made a snare', 'a recompence unto them'],
     fulfillmentKeywords: ['let their table become a snare', 'a trap'],
     terms: [],
@@ -3786,7 +3786,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-10': {
     title: 'Let Their Eyes Be Darkened',
     principle:
-      'Psalm 69:23 continues: bowing backs and darkened eyes. First principle: the imprecation shows the cost of spurning the suffering King — spiritual sight is forfeited where He is refused.',
+      'Psalm 69:23 continues the picture: backs bent low and eyes gone dark. First principle: this prayer for judgment shows what it costs to reject the suffering King. When you refuse Him, you lose your spiritual sight.',
     sourceKeywords: ['Let their eyes be darkened', 'that they may not see', 'bow down their back'],
     fulfillmentKeywords: ['their eyes are darkened', 'that they see not'],
     terms: [],
@@ -3794,7 +3794,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-26': {
     title: 'There Shall Come out of Sion the Deliverer',
     principle:
-      'All Israel\'s salvation is anchored in the coming Redeemer who turns away ungodliness. First principle: the covenant\'s climax is not ethnicity but Deliverance personified — the go\'el from Zion, as Isaiah wrote.',
+      'The salvation of all Israel rests on the coming Redeemer. He turns away ungodliness. First principle: the climax of the covenant — God\'s binding promise — is not a family line. It is Deliverance in person. Isaiah wrote of the go\'el from Zion, the family redeemer who buys his people back.',
     sourceKeywords: ['all Israel shall be saved', 'out of Sion the Deliverer', 'turn away ungodliness from Jacob'],
     fulfillmentKeywords: ['the Redeemer shall come to Zion', 'turn from transgression in Jacob'],
     terms: [],
@@ -3802,7 +3802,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-11-27': {
     title: 'This Is My Covenant, When I Shall Take Away Their Sins',
     principle:
-      'Isaiah 59 and Jeremiah 31 are fused: covenant equals sin removed. First principle: the new covenant\'s charter is forgiveness written in hearts — the Deliverer\'s one achievement.',
+      'Paul brings Isaiah 59 and Jeremiah 31 together. In both, God\'s binding promise means one thing: sin taken away. First principle: the new covenant is defined by forgiveness written in hearts. That is the one thing the Deliverer accomplished.',
     sourceKeywords: ['this is my covenant unto them', 'take away their sins'],
     fulfillmentKeywords: ['this is my covenant with them', 'I will forgive their iniquity'],
     terms: [],
@@ -3810,7 +3810,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-12-19': {
     title: 'Vengeance Is Mine; I Will Repay',
     principle:
-      'Believers renounce self-vengeance and yield to God\'s written prerogative. First principle: justice delegated is justice secured — the Song of Moses assigns repayment to God alone.',
+      'Believers give up taking revenge. They leave revenge to God, as Scripture says. First principle: when we hand justice over to God, justice is certain to be done. The Song of Moses gives repayment to God alone.',
     sourceKeywords: ['avenge not yourselves', 'give place unto wrath', 'Vengeance is mine; I will repay'],
     fulfillmentKeywords: ['To me belongeth vengeance and recompence'],
     terms: [],
@@ -3818,7 +3818,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-14-11': {
     title: 'Every Knee Shall Bow, Every Tongue Shall Confess',
     principle:
-      'Isaiah 45\'s universal oath grounds mutual forbearance — we will all stand before God. First principle: the coming universal confession makes judging one another unnecessary; the Judge is certain.',
+      'Isaiah 45\'s universal oath is the reason we put up with one another. We will all stand before God. First principle: one day everyone will confess. That makes judging one another unnecessary. The Judge is certain.',
     sourceKeywords: ['As I live, saith the Lord', 'every knee shall bow to me', 'confess to God'],
     fulfillmentKeywords: ['unto me every knee shall bow', 'every tongue shall swear'],
     terms: [],
@@ -3826,7 +3826,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-15-3': {
     title: 'The Reproaches of Them That Reproached Thee Fell on Me',
     principle:
-      'Christ pleased not Himself — Psalm 69\'s insults land on the Servant. First principle: the self-pleasing One absorbed reproach for others; strong believers bear with the weak in the same pattern.',
+      'Christ pleased not Himself. Psalm 69\'s insults land on the Servant. First principle: the One who did not please Himself took the reproach meant for others. Strong believers bear with the weak in the same way.',
     sourceKeywords: ['Christ pleased not himself', 'as it is written', 'fell on me'],
     fulfillmentKeywords: ['the reproaches of them that reproached thee', 'fallen upon me'],
     terms: [],
@@ -3834,7 +3834,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-15-9': {
     title: 'I Will Confess to Thee among the Gentiles',
     principle:
-      'Psalm 18 is cited as Gentile praise foretold. First principle: the mercy shown to Israel was always designed for Gentile song — David\'s victory psalm becomes the nations\' doxology.',
+      'Paul cites Psalm 18 as Gentile praise foretold. First principle: the mercy God showed Israel was always meant to become Gentile song. David\'s victory psalm becomes the praise of the nations.',
     sourceKeywords: ['the Gentiles might glorify God for his mercy', 'I will confess to thee among the Gentiles'],
     fulfillmentKeywords: ['I will confess thee among the nations', 'sing unto thy name'],
     terms: [],
@@ -3842,7 +3842,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-15-10': {
     title: 'Rejoice, Ye Gentiles, with His People',
     principle:
-      'Moses\' final song commands Gentile joy alongside Israel. First principle: the Song of Moses already imagined Jew and Gentile rejoicing together — the church is that reunion.',
+      'Moses\' final song commands the Gentiles to rejoice together with Israel. First principle: the Song of Moses already pictured Jew and Gentile rejoicing together. The church is that reunion.',
     sourceKeywords: ['Rejoice, ye Gentiles, with his people'],
     fulfillmentKeywords: ['Rejoice, O ye nations, with his people'],
     terms: [],
@@ -3850,7 +3850,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-15-11': {
     title: 'Praise the Lord, All Ye Gentiles',
     principle:
-      'Psalm 117 — the shortest psalm, the widest invitation. First principle: two verses summon the whole world to praise; the mercy toward us is great, and it is universal in reach.',
+      'Psalm 117 is the shortest psalm. It also gives the widest invitation. First principle: two verses call the whole world to praise. God\'s mercy toward us is great. It reaches everyone.',
     sourceKeywords: ['Praise the Lord, all ye Gentiles', 'laud him, all ye people'],
     fulfillmentKeywords: ['O praise the LORD, all ye nations'],
     terms: [],
@@ -3858,7 +3858,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-15-21': {
     title: 'To Whom He Was Not Spoken of, They Shall See',
     principle:
-      'Isaiah 52:15 justifies Paul\'s pioneer preaching to unreached regions. First principle: mission strategy follows prophecy — the message moves toward those who have never heard His name.',
+      'Isaiah 52:15 explains why Paul preached where no one had gone before. First principle: Paul\'s mission followed prophecy. The message moves toward people who have never heard His name.',
     sourceKeywords: ['To whom he was not spoken of', 'they shall see', 'shall understand'],
     fulfillmentKeywords: ['so shall he sprinkle many nations', 'kings shall shut their mouths'],
     terms: [],
@@ -3866,7 +3866,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-16-20': {
     title: 'The God of Peace Shall Bruise Satan Under Your Feet',
     principle:
-      'Genesis 3:15 closes the epistle: the serpent-crushing promise turns to believers\' feet, shortly. First principle: the Seed\'s victory becomes the church\'s participation — peace with God ends in Satan underfoot.',
+      'Genesis 3:15 closes the letter. The promise that crushes the serpent now turns to the feet of believers, and soon. First principle: the church shares in the Seed\'s victory. Peace with God ends with Satan underfoot.',
     sourceKeywords: ['God of peace', 'bruise Satan under your feet', 'shortly'],
     fulfillmentKeywords: ['it shall bruise thy head'],
     terms: [],
@@ -3874,7 +3874,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-16-25': {
     title: 'The Revelation of the Mystery Kept Secret Since the World Began',
     principle:
-      'The doxology reveals a mystery long hidden — the preaching of Jesus Christ. First principle: the gospel is the unsealed secret; what the ages whispered in types is now announced plainly.',
+      'This doxology — a word of praise — reveals a mystery long hidden. The mystery is the preaching of Jesus Christ. First principle: the gospel is a secret now unsealed. What earlier generations whispered in pictures is now announced plainly.',
     sourceKeywords: ['the revelation of the mystery', 'kept secret since the world began', 'my gospel'],
     fulfillmentKeywords: [],
     terms: [],
@@ -3882,7 +3882,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rom-16-26': {
     title: 'Made Known to All Nations for the Obedience of Faith',
     principle:
-      'By prophetic scriptures the mystery goes to all nations. First principle: the promise to Abraham, the light of Isaiah, and the command of the everlasting God converge — one obedience of faith, worldwide.',
+      'God makes the mystery known through the prophetic scriptures. That message goes out to all nations. First principle: the promise to Abraham, the light of Isaiah, and the command of the everlasting God all meet here. The result is one obedience of faith, worldwide.',
     sourceKeywords: ['by the scriptures of the prophets', 'made known to all nations', 'obedience of faith'],
     fulfillmentKeywords: ['in thy seed shall all nations', 'my salvation unto the end'],
     terms: [],

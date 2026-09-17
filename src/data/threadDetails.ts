@@ -2365,12 +2365,12 @@ export const threadChains: ThreadChain[] = [
     steps: [
       { ref: 'Isaiah 14:12-15', verseId: 'isa-14-12', testament: 'OT', title: 'Lucifer\'s pride and desire for self-exaltation', connection: 'Origin of evil: "I will ascend above the stars... I will be like the most High."' },
       { ref: 'Ezekiel 28:12-19', verseId: 'ezk-28-12', testament: 'OT', title: 'Anointed covering cherub falls through iniquity', connection: 'Heavenly tragedy: highest created angel corrupts his wisdom through pride.' },
-      { ref: 'Genesis 3:15', verseId: 'gen-3-15', testament: 'OT', title: 'Protoevangelium: Enmity and serpent\'s head crushed', connection: 'Cosmic battle on earth: Seed of woman conquers through sacrifice.' },
-      { ref: 'Revelation 12:7-9', verseId: 'rev-12-7', testament: 'NT', title: 'War in heaven: Michael and His angels cast out the dragon', connection: 'Decisive expulsion: Satan and fallen angels cast down to the earth.' },
-      { ref: 'Colossians 2:15', verseId: 'col-2-15', testament: 'NT', title: 'Christ spoils principalities and powers on the Cross', connection: 'Calvary victory: Satan\'s accusations against God\'s character forever answered and disarmed.' },
+      { ref: 'Genesis 3:15', verseId: 'gen-3-15', testament: 'OT', title: 'Protoevangelium: the first gospel promise — enmity, and the serpent\'s head crushed.', connection: 'Cosmic battle on earth: Seed of woman conquers through sacrifice.' },
+      { ref: 'Revelation 12:7-9', verseId: 'rev-12-7', testament: 'NT', title: 'War in heaven: Michael and His angels cast out the dragon', connection: 'Decisive expulsion: Satan and the fallen angels were cast down to the earth.' },
+      { ref: 'Colossians 2:15', verseId: 'col-2-15', testament: 'NT', title: 'Christ spoils principalities and powers on the Cross', connection: 'Calvary victory: the cross forever answered and disarmed Satan\'s accusations against God\'s character.' },
       { ref: 'Romans 16:20', verseId: 'rom-16-20', testament: 'NT', title: 'God of peace will bruise Satan under your feet shortly', connection: 'Apostolic promise: believers triumph over the adversary through the living Christ.' },
-      { ref: 'Revelation 20:10', verseId: 'rev-20-10', testament: 'NT', title: 'The devil cast into the lake of fire', connection: 'Final execution: the originator of sin destroyed forever.' },
-      { ref: 'Nahum 1:9', verseId: 'nam-1-9', testament: 'OT', title: 'Utter end: Affliction shall not rise up the second time', connection: 'Eternal security: sin will never again arise because God\'s love and justice are universally established.' },
+      { ref: 'Revelation 20:10', verseId: 'rev-20-10', testament: 'NT', title: 'The devil cast into the lake of fire', connection: 'Final execution: the originator of sin is destroyed forever.' },
+      { ref: 'Nahum 1:9', verseId: 'nam-1-9', testament: 'OT', title: 'Utter end: Affliction shall not rise up the second time', connection: 'Eternal security: God\'s love and justice are settled everywhere, so sin will never rise again.' },
     ],
   },
   {
