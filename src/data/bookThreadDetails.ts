@@ -10,7 +10,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-14': {
     title: 'I AM THAT I AM',
     principle:
-      'God names Himself to Moses: I AM WHO I AM. Jesus applies the divine name. before Abraham was, I AM. First principle: covenant identity is grounded in self-existent being, not tribal history alone.',
+      'God names Himself to Moses: I AM WHO I AM. Jesus applies the divine name: before Abraham was, I AM. First principle: covenant identity is grounded in self-existent being, not tribal history alone.',
     sourceKeywords: ['I AM', 'THAT I AM', 'God', 'fathers', 'Abraham', 'Isaac', 'Jacob'],
     fulfillmentKeywords: ['Before Abraham was', 'I am', 'I AM', 'Alpha', 'Omega'],
     terms: [
@@ -31,26 +31,26 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-13': {
     title: 'Blood on the Doorposts',
     principle:
-      'The LORD sees the blood and passes over. Hebrews. without shedding of blood no remission. 1 Peter. redeemed with precious blood. First principle: atonement is by applied blood, not mere intention.',
+      'The LORD sees the blood and passes over. Hebrews: without shedding of blood no remission; 1 Peter: redeemed with precious blood. First principle: atonement is by applied blood, not mere intention.',
     sourceKeywords: ['blood', 'token', 'house', 'see the blood', 'pass over', 'plague', 'destroy'],
     fulfillmentKeywords: ['blood', 'remission', 'redeemed', 'precious blood', 'passover', 'plague'],
     terms: [
-      { term: 'pass over', original: 'פָּסַח', translit: 'pasach', gloss: 'to pass over, spare', note: 'Root of Pesach / Passover. sparing judgment.' },
+      { term: 'pass over', original: 'פָּסַח', translit: 'pasach', gloss: 'to pass over, spare', note: 'Root of Pesach / Passover; sparing judgment.' },
     ],
   },
   'exo-12-46': {
     title: 'Not a Bone Broken',
     principle:
       'Passover lamb\'s bones are not broken. Numbers restates the same statute for later Passovers. John cites this at the cross. First principle: the type specifies integrity of the sacrifice even in death.',
-    who: 'Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance. the Hebrew household eating the lamb in one house. the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb. the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7) whose body was kept unbroken at the cross. Redemptive Purpose: The earlier picture specifies the integrity of the sacrifice. John shows the Father preserved that integrity in the Son so the person it pointed to is recognizable.',
+    who: 'Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance; the Hebrew household eating the lamb in one house; the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb; the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7) whose body was kept unbroken at the cross. Redemptive Purpose: The earlier picture specifies the integrity of the sacrifice. John shows the Father preserved that integrity in the Son so the person it pointed to is recognizable.',
     whoByRef: {
       'John 19:36': 'Authorship & Context: Moses wrote the Passover bone-law in Exodus 12. The Apostle John, eyewitness at the cross (John 19:35) wrote from Ephesus (c. AD 85–95). Identified Characters: Yahweh. the paschal lamb. Roman soldiers performing crurifragium. the two thieves whose legs were broken. Jesus already dead. Singular or Many: Singular body, many executioners. One Lamb is kept whole. the soldiers and the two other crucified men are the many around that one body. Christological Subject & Referent: Jesus of Nazareth, whose legs were not broken in order that Scripture be fulfilled. Redemptive Purpose: To prove His death was not chaotic Roman procedure but the governed Passover antitype whose unbroken body shields from wrath.',
       'Numbers 9:12': 'Authorship & Context: Moses restates the Passover ordinance for those keeping it in the second month in the wilderness. Identified Characters: Israel on the march. those unclean or on a journey who still must keep the feast. the lamb of the delayed Passover. Singular or Many: Singular lamb, many later keepers. The same one-body statute binds every subsequent generation. Christological Subject & Referent: The same paschal body later identified as Christ. the wilderness restatement is not a different lamb-theology but the standing Torah of the unbroken sacrifice. Redemptive Purpose: To show the bone-law is not a one-night Egyptian custom. it remains in force until the true Lamb\'s body is preserved at Golgotha.',
     },
     cumulativePrinciples: [
       'The thread begins at Exodus 12:46: The Passover lamb’s bones must not be broken. One house, one lamb, one whole body. the sacrifice stays intact even in death.',
-      'Step 2 of the thread (Exodus 12:46 → Numbers 9:12): Both verses repeat the same bone-law for later Passovers. The link: “nor break any bone of it” is standing law for every generation on the march, not just the night in Egypt. Why God says it twice. the lamb’s body must stay whole until the true Lamb is offered.',
-      'Step 3 (Exodus 12:46 → Numbers 9:12 → John 19:36): John watches the soldiers break the thieves’ legs and stop at Jesus. All three verses agree. the lamb stays whole in Egypt, in the wilderness, and on the cross. How the story moves forward. law, repeated law, then the moment it comes true. Where it leads: Jesus is the true Passover Lamb, and His unbroken body says His offering is complete.',
+      'Step 2 of the thread (Exodus 12:46 → Numbers 9:12): Both verses repeat the same bone-law for later Passovers. The link: “nor break any bone of it” is standing law for every generation on the march, not just the night in Egypt. Why God says it twice: the lamb’s body must stay whole until the true Lamb is offered.',
+      'Step 3 (Exodus 12:46 → Numbers 9:12 → John 19:36): John watches the soldiers break the thieves’ legs and stop at Jesus. All three verses agree: the lamb stays whole in Egypt, in the wilderness, and on the cross. How the story moves forward: law, repeated law, then the moment it comes true. Where it leads: Jesus is the true Passover Lamb, and His unbroken body says His offering is complete.',
     ],
     sourceKeywords: ['break', 'bone', 'thereof'],
     fulfillmentKeywords: ['break', 'bone', 'not one', 'fulfilled'],
@@ -63,24 +63,24 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
         note: 'John 19:36. Scripture fulfilled.',
         strongs: 'H6106',
         exposition:
-          'Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute. the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept.',
+          'Exodus 12:46 commands וְעֶצֶם לֹא־תִשְׁבְּרוּ־בוֹ. “and a bone you shall not break in it.” עֶצֶם is the lamb’s physical frame, not a metaphor for “strength” in this statute: the sacrificial body must remain intact in the house. Numbers 9:12 repeats the prohibition for the second-month Passover, so the bone-law is standing Torah, not a one-night Egyptian custom. John 19:36 then cites the fulfillment when Roman crurifragium is withheld: Ὀστοῦν οὐ συντριβήσεται αὐτοῦ. a bone of Him shall not be shattered. The Hebrew etsem and the Greek ostoun name the same unfractured body, now the body of Jesus, so the type’s integrity is historically kept.',
       },
       {
         term: 'shall not be broken',
         original: 'συντριβήσεται',
         translit: 'syntribēsetai',
         gloss: 'shall be shattered / crushed',
-        note: 'John 19:36 passive. the Father withholds the fracture.',
+        note: 'John 19:36 passive: the Father withholds the fracture.',
         strongs: 'G4937',
         exposition:
-          'John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown. they did so to the two others. The passive in the Scripture-formula marks divine agency. the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ. what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners.',
+          'John’s citation uses the future passive συντριβήσεται (from συντρίβω, to shatter or crush to pieces). The soldiers had legal reason to break legs before sundown; they did so to the two others. The passive in the Scripture-formula marks divine agency: the Son’s bones are not “luckily” intact. they shall not be shattered, because the Exodus/Numbers statute must stand. In the thread this verb is the Greek counterpart of לֹא־תִשְׁבְּרוּ: what Israel was forbidden to do to the lamb, history is forbidden to do to Jesus, even by pagan executioners.',
       },
     ],
   },
   'exo-16-4': {
     title: 'Bread from Heaven',
     principle:
-      'God rains bread from heaven for Israel. Jesus: I am the bread of life. the true bread is My flesh. First principle: divine provision is personal and sufficient for eternal life.',
+      'God rains bread from heaven for Israel. Jesus: I am the bread of life; the true bread is My flesh. First principle: divine provision is personal and sufficient for eternal life.',
     sourceKeywords: ['rain bread from heaven', 'people', 'gather', 'day by day'],
     fulfillmentKeywords: ['bread of God', 'bread of life', 'came down from heaven', 'flesh', 'world', 'living'],
     terms: [
@@ -90,7 +90,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-17-6': {
     title: 'Water from the Rock',
     principle:
-      'Moses strikes the rock and water comes out. Paul. they drank from the spiritual Rock that followed them, and the Rock was Christ. First principle: God quenches thirst. Christ is the source.',
+      'Moses strikes the rock and water comes out. Paul: they drank from the spiritual Rock that followed them, and the Rock was Christ. First principle: God quenches thirst. Christ is the source.',
     sourceKeywords: ['rock', 'Horeb', 'smite', 'water', 'people drink'],
     fulfillmentKeywords: ['Rock', 'Christ', 'water', 'living water', 'thirst', 'drink'],
     terms: [
@@ -110,7 +110,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-25-40': {
     title: 'Pattern of the Tabernacle',
     principle:
-      'God shows Moses the pattern to build after. Hebrews. earthly tabernacle is a copy and shadow of the heavenly things. First principle: worship order is revealed, not invented. Christ is the true meeting-place.',
+      'God shows Moses the pattern to build after. Hebrews: earthly tabernacle is a copy and shadow of the heavenly things. First principle: worship order is revealed, not invented. Christ is the true meeting-place.',
     sourceKeywords: ['pattern', 'tabernacle', 'furniture', 'according to all', 'shewed'],
     fulfillmentKeywords: ['example', 'shadow', 'heavenly', 'greater', 'true tabernacle', 'minister'],
     terms: [
@@ -654,7 +654,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['Remember', 'sabbath day', 'keep it holy', 'seventh day', 'rest', 'labour', 'hallowed'],
     fulfillmentKeywords: ['creation', 'blessed', 'sanctified', 'perpetual covenant', 'sign', 'delight', 'Lord of the sabbath', 'custom', 'synagogue', 'rest remaineth', 'people of God', 'sabbatismos'],
     terms: [
-      { term: 'Sabbath', original: 'שַׁבָּת', translit: 'shabbat', gloss: 'rest, sabbath (from shavat. cease).', note: 'Greek σάββατον in NT. same seventh-day institution from creation (Gen 2:2-3. Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.' },
+      { term: 'Sabbath', original: 'שַׁבָּת', translit: 'shabbat', gloss: 'rest, sabbath (from shavat. cease).', note: 'Greek σάββατον in NT; same seventh-day institution from creation (Gen 2:2-3. Exod 20:11) through the covenant sign (Exod 31:16-17) and prophets (Isa 58:13-14) to Hebrews 4.' },
       { term: 'keep it holy', original: 'לְקַדְּשׁוֹ', translit: 'le-qaddesho', gloss: 'to sanctify / set it apart', note: 'Same qadash root as God sanctifying the seventh day in Gen 2:3.' },
       { term: 'perpetual covenant', original: 'בְּרִית עוֹלָם', translit: 'berit ʿolam', gloss: 'everlasting covenant / sign', note: 'Exod 31:16-17 seals the Sabbath as a perpetual covenant memorial of Creation.' },
       { term: 'Sabbath-rest', original: 'σαββατισμός', translit: 'sabbatismos', gloss: 'sabbath-rest / sabbath-keeping', note: 'Heb 4:9. there remains therefore a rest (sabbatismos) to the people of God.' },
@@ -663,7 +663,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-20-11': {
     title: 'Seventh Day. Pattern from Creation.',
     principle:
-      'The Sabbath command is grounded in creation itself. in six days the LORD made heaven and earth and rested the seventh day. Ezekiel calls it also a sign between God and Israel (Ezek 20:12, 20). Hebrews 4:4 quotes Genesis 2:2 for the same rest. Textual proof: Sinai cites creation, not a later Israelite invention. the seventh day is named as the day God rested.',
+      'The Sabbath command is grounded in creation itself: in six days the LORD made heaven and earth and rested the seventh day. Ezekiel calls it also a sign between God and Israel (Ezek 20:12, 20). Hebrews 4:4 quotes Genesis 2:2 for the same rest. Textual proof: Sinai cites creation, not a later Israelite invention; the seventh day is named as the day God rested.',
     sourceKeywords: ['six days', 'made', 'heaven', 'earth', 'sea', 'seventh day', 'rested', 'blessed', 'sabbath', 'hallowed'],
     fulfillmentKeywords: ['rested', 'seventh day', 'works were finished', 'God did rest'],
     terms: [
@@ -4391,7 +4391,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-13': {
     title: 'What Is His Name? What Shall I Say?',
     principle:
-      'Moses asks for the Name. the answer is I AM THAT I AM. First principle: the self-existent God gives a name that outlasts every crisis. and Jesus claims it. before Abraham was, I AM.',
+      'Moses asks for the Name; the answer is I AM THAT I AM. First principle: the self-existent God gives a name that outlasts every crisis. and Jesus claims it: before Abraham was, I AM.',
     sourceKeywords: ['What is his name', 'what shall I say unto them'],
     fulfillmentKeywords: ['I AM THAT I AM', 'before Abraham was, I am'],
     terms: [],
@@ -4447,7 +4447,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-14-21': {
     title: 'The Waters Were Divided',
     principle:
-      'Moses stretches out his hand. the east wind parts the sea all night. First principle: salvation\'s impossible moments are wind-and-obedience moments. God makes a road where there is no road.',
+      'Moses stretches out his hand; the east wind parts the sea all night. First principle: salvation\'s impossible moments are wind-and-obedience moments. God makes a road where there is no road.',
     sourceKeywords: ['stretched out his hand over the sea', 'a strong east wind', 'the waters were divided'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4463,7 +4463,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-15-25': {
     title: 'The LORD Shewed Him a Tree',
     principle:
-      'Bitter waters made sweet by a cast-in tree. a statute proved there. First principle: the tree turns Marah sweet. the first wilderness test answered by wood, the pattern of the cross\'s remedy.',
+      'Bitter waters made sweet by a cast-in tree; a statute proved there. First principle: the tree turns Marah sweet. the first wilderness test answered by wood, the pattern of the cross\'s remedy.',
     sourceKeywords: ['shewed him a tree', 'the waters were made sweet', 'there he proved them'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4527,7 +4527,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-29-45': {
     title: 'I Will Dwell Among the Children of Israel',
     principle:
-      'The covenant summit: God dwelling with His redeemed. First principle: all the sacrifices and furnishings aim at one sentence. I will be their God. the tabernacle is friendship in architecture.',
+      'The covenant summit: God dwelling with His redeemed. First principle: all the sacrifices and furnishings aim at one sentence. I will be their God; the tabernacle is friendship in architecture.',
     sourceKeywords: ['I will dwell among', 'and will be their God'],
     fulfillmentKeywords: ['God with them'],
     terms: [],
@@ -4551,7 +4551,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-33-18': {
     title: 'I Beseech Thee, Shew Me Thy Glory',
     principle:
-      'Moses asks for more than mission. he asks for God. First principle: the greatest request a believer can make is to see glory. the answer is goodness proclaimed and a cleft-rock hiding.',
+      'Moses asks for more than mission. he asks for God. First principle: the greatest request a believer can make is to see glory; the answer is goodness proclaimed and a cleft-rock hiding.',
     sourceKeywords: ['I beseech thee', 'shew me thy glory'],
     fulfillmentKeywords: ['we beheld his glory', 'the glory as of the only begotten'],
     terms: [],
@@ -4559,7 +4559,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-33-19': {
     title: 'I Will Proclaim the Name of the LORD Before Thee',
     principle:
-      'Goodness passes by. grace and mercy are declared as God\'s sovereign character. First principle: the Name is preached before it is seen. and Paul quotes it to defend God\'s freedom in election.',
+      'Goodness passes by; grace and mercy are declared as God\'s sovereign character. First principle: the Name is preached before it is seen. and Paul quotes it to defend God\'s freedom in election.',
     sourceKeywords: ['all my goodness pass before thee', 'proclaim the name of the LORD', 'shew mercy on whom I will shew mercy'],
     fulfillmentKeywords: ['I will have mercy on whom I will have mercy'],
     terms: [],
@@ -4567,7 +4567,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-34-6': {
     title: 'The LORD God, Merciful and Gracious',
     principle:
-      'The thirteen-attribute proclamation. compassionate, longsuffering, abundant in goodness and truth. First principle: this is the Bible\'s central self-portrait of God. repeated across Scripture and fulfilled in Christ\'s face.',
+      'The thirteen-attribute proclamation: compassionate, longsuffering, abundant in goodness and truth. First principle: this is the Bible\'s central self-portrait of God. repeated across Scripture and fulfilled in Christ\'s face.',
     sourceKeywords: ['The LORD, The LORD God', 'merciful and gracious', 'abundant in goodness and truth'],
     fulfillmentKeywords: ['the fullness of the Godhead bodily'],
     terms: [],
@@ -4591,7 +4591,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-40-34': {
     title: 'The Glory of the LORD Filled the Tabernacle',
     principle:
-      'The cloud covers the finished tent. the glory fills it. First principle: when the dwelling is done as directed, the Presence moves in. obedience completes into Shekinah.',
+      'The cloud covers the finished tent; the glory fills it. First principle: when the dwelling is done as directed, the Presence moves in. obedience completes into Shekinah.',
     sourceKeywords: ['a cloud covered the tent', 'the glory of the LORD filled the tabernacle'],
     fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
     terms: [],
