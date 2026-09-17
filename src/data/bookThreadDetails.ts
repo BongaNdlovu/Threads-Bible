@@ -2150,7 +2150,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jon-1-17': {
     title: 'Three Days and Three Nights in the Fish\'s Belly',
     principle:
-      'Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights. A divinely appointed descent and rescue — Jonah himself prays it: thou hadst cast me into the deep... yet hast thou brought up my life from corruption. First principle: God signs the resurrection with a type before He performs it in His Son.',
+      'Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights. God appointed both the descent into the fish and the rescue out of it. Jonah himself prays about it: "thou hadst cast me into the deep... yet hast thou brought up my life from corruption." First principle: God gave the resurrection a sign before He performed it. The earlier picture was Jonah. His Son was the fulfillment.',
     sourceKeywords: ['prepared a great fish', 'swallow up Jonah', 'three days and three nights', 'brought up my life from corruption'],
     fulfillmentKeywords: ['as Jonas was three days', 'in the whale\'s belly', 'so shall the Son of man be', 'the sign of the prophet Jonas'],
     terms: [
@@ -9735,7 +9735,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jon-2-1': {
     title: 'Then Jonah Prayed unto the LORD His God out of the Fish\'s Belly',
     principle:
-      'Prayer from the impossible address. First principle: the belly of the fish is a temple — the prophet prays toward the holy place from the deep, and is heard.',
+      'Jonah prayed from inside the fish. Nobody would call that an address for prayer. First principle: the belly of the fish was a temple. The prophet prayed toward the holy place from the deep. God heard him.',
     sourceKeywords: ['out of the fish\'s belly'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9743,7 +9743,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jon-3-4': {
     title: 'Yet Forty Days, and Nineveh Shall Be Overthrown',
     principle:
-      'The one-day walk, the five-word sermon. First principle: the shortest sermon with the longest reach — a Gentile capital repents at forty-days\' notice.',
+      'Jonah walked one day. His sermon was five words long. First principle: no sermon was shorter. None reached farther. A Gentile capital repented at forty days\' notice.',
     sourceKeywords: ['Yet forty days, and Nineveh shall be overthrown'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9751,7 +9751,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jon-4-2': {
     title: 'I Knew That Thou Art a Gracious God',
     principle:
-      'Jonah\'s complaint is God\'s character-statement: gracious, merciful, slow to anger, repenting of evil. First principle: the runaway ran because he believed the mercy — Exodus 34\'s portrait is the missionary\'s problem.',
+      'In his complaint Jonah repeats God\'s own description of Himself: gracious, merciful, slow to anger, repenting of evil. First principle: the runaway ran because he believed that mercy was real. Exodus 34 paints the same portrait. That portrait was the missionary\'s problem.',
     sourceKeywords: ['thou art a gracious God', 'merciful, slow to anger', 'repentest thee of the evil'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9759,7 +9759,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jon-4-11': {
     title: 'Should Not I Spare Nineveh... and Also Much Cattle?',
     principle:
-      'Sixscore thousand who cannot discern their right hand — plus cattle. First principle: the book ends on God\'s pity-question; compassion scales to the ignorant and even to the animals.',
+      'The city held Sixscore thousand people who cannot discern their right hand. It held much cattle too. First principle: the book ends on God\'s pity-question. God\'s compassion reaches people who do not know better. It reaches even the animals.',
     sourceKeywords: ['Should not I spare Nineveh', 'sixscore thousand persons', 'cannot discern between their right hand and their left hand'],
     fulfillmentKeywords: [],
     terms: [],
