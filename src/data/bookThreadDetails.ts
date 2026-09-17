@@ -638,11 +638,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-2-13': {
     title: 'Looking for That Blessed Hope',
     principle:
-      'Looking for that blessed hope and the glorious appearing of the great God and our Saviour Jesus Christ. First principle: Christian ethics are sustained by eschatological hope.',
+      'Looking for that blessed hope and the glorious appearing of the great God and our Saviour Jesus Christ. First principle: waiting for that blessed hope is what keeps a Christian living rightly.',
     sourceKeywords: ['blessed hope', 'glorious appearing', 'great God', 'Saviour', 'Jesus Christ'],
     fulfillmentKeywords: ['appear', 'second time', 'looking', 'Lord', 'come'],
     terms: [
-      { term: 'appearing', original: 'ἐπιφάνειαν', translit: 'epiphaneian', gloss: 'appearing, manifestation', note: 'Same word for first (2 Tim 1:10) and second coming.' },
+      { term: 'appearing', original: 'ἐπιφάνειαν', translit: 'epiphaneian', gloss: 'appearing, manifestation', note: 'The same word describes the first coming (2 Tim 1:10) and the second coming.' },
     ],
   },
 
@@ -7494,7 +7494,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-1-2': {
     title: 'In Hope of Eternal Life, Which God... Promised Before the World Began',
     principle:
-      'The unlying God promised eternal life before time. First principle: hope has an antiquity older than the world and a Promise-maker who cannot lie — the two stable facts of the Christian life.',
+      'God, who cannot lie, promised eternal life before time began. First principle: the hope we have is older than the world. The One who made the promise cannot lie. Those two facts never change. The Christian life stands on them.',
     sourceKeywords: ['In hope of eternal life', 'God, that cannot lie', 'promised before the world began'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7502,7 +7502,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-1-3': {
     title: 'Hath in Due Times Manifested His Word Through Preaching',
     principle:
-      'The pre-time promise meets the due-time preaching. First principle: manifestation is scheduled — the word hidden in ages is unveiled through the commanded commission.',
+      'God promised eternal life before time began. At the right time He showed that word through preaching. First principle: God keeps to His own timetable. The word that was hidden for ages appeared when God commanded it to be preached.',
     sourceKeywords: ['in due times manifested his word through preaching', 'committed unto me', 'the commandment of God our Saviour'],
     fulfillmentKeywords: [],
     terms: [],
@@ -7510,7 +7510,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-2-11': {
     title: 'The Grace of God That Bringeth Salvation Hath Appeared',
     principle:
-      'Grace appeared to all men, and it teaches. First principle: grace is pedagogical — the appearing One trains denial, sobriety, and righteousness while we await the blessed hope.',
+      'Grace appeared to all men, and it teaches. First principle: grace is a teacher. The One who appeared trains us to say no to sin, to live soberly, and to do right. He trains us this way while we wait for the blessed hope.',
     sourceKeywords: ['the grace of God that bringeth salvation', 'hath appeared to all men'],
     fulfillmentKeywords: ['the glory of the LORD shall be revealed, and all flesh shall see it'],
     terms: [],
@@ -7518,7 +7518,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-2-14': {
     title: 'Who Gave Himself for Us... a Peculiar People',
     principle:
-      'Redemption from iniquity into a zealous purified people. First principle: the self-gift purifies and possesses — Exodus 19\'s peculiar treasure is bought back by Isaiah 53\'s bleeding Servant.',
+      'Christ gave Himself to buy us back from all iniquity and to purify a people who are eager to do good. First principle: Jesus\' gift of Himself makes His people clean and makes them His own. Exodus 19 calls Israel God\'s peculiar treasure — His own treasured people — and Isaiah 53 shows the bleeding Servant who bought them back.',
     sourceKeywords: ['gave himself for us', 'redeem us from all iniquity', 'a peculiar people, zealous of good works'],
     fulfillmentKeywords: ['ye shall be a peculiar treasure unto me above all people'],
     terms: [],
@@ -7526,7 +7526,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-3-4': {
     title: 'The Kindness and Love of God Our Saviour Toward Man Appeared',
     principle:
-      'The appearing of kindness is the turning point of the saved. First principle: salvation\'s origin is God\'s kindness appearing, not human goodness preceding — not by works, according to mercy.',
+      'God\'s kindness appeared. That was the turning point for those who are saved. First principle: salvation begins with God\'s kindness, not with human goodness going first. God saves people not by works, but according to mercy.',
     sourceKeywords: ['the kindness and love of God our Saviour', 'toward man appeared'],
     fulfillmentKeywords: ['God so loved the world, that he gave his only begotten Son'],
     terms: [],
@@ -7534,7 +7534,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-3-5': {
     title: 'By the Washing of Regeneration, and Renewing of the Holy Ghost',
     principle:
-      'Saved by mercy through washing and renewal — not works. First principle: Ezekiel\'s clean-water promise is the engine of rebirth — the Spirit washes, renews, and is poured out richly.',
+      'God saved us because of His mercy, not because of works we had done. He saved us through the washing that gives new birth and through the Spirit making us new. First principle: Ezekiel\'s promise of clean water is what drives the new birth. The Spirit washes us, makes us new, and is poured out on us richly.',
     sourceKeywords: ['not by works of righteousness', 'according to his mercy he saved us', 'the washing of regeneration', 'renewing of the Holy Ghost'],
     fulfillmentKeywords: ['Then will I sprinkle clean water upon you', 'a new heart also will I give you'],
     terms: [],
@@ -7542,7 +7542,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'tit-3-7': {
     title: 'Being Justified by His Grace, We Should Be Made Heirs',
     principle:
-      'Justified grace-people are made heirs of eternal-life hope. First principle: justification is adoption-adjacent — heirs according to hope; the courtroom verdict ends in an inheritance.',
+      'God declares guilty people to be in the right by His grace. He makes them heirs. The inheritance we hope for is eternal life. First principle: being put right with God goes with being adopted into His family. The verdict in God\'s court ends in an inheritance.',
     sourceKeywords: ['being justified by his grace', 'made heirs according to the hope of eternal life'],
     fulfillmentKeywords: [],
     terms: [],
