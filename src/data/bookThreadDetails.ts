@@ -1427,7 +1427,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'nam-1-9': {
     title: 'Affliction Shall Not Rise Up the Second Time — Final Vindication',
     principle:
-      'What do ye imagine against the LORD? He will make an utter end: affliction shall not rise up the second time. At the end of the Great Controversy, when sin and sinners are completely consumed in the lake of fire (Mal 4:1-3; Rev 20:14), the universe will be eternally secured not by force, but because the justice, mercy, and law of God have been demonstrated before all created intelligences. First principle: eternal security; sin will never again arise because its true character has been exposed forever.',
+      'What do ye imagine against the LORD? He will make an utter end: affliction shall not rise up the second time. At the end of the Great Controversy, sin and sinners are completely consumed in the lake of fire (Mal 4:1-3; Rev 20:14). Then the universe will be eternally secured. God does not secure it by force. He secures it because He has shown His justice, His mercy, and His law to every created intelligence. First principle: eternal security. Sin will never again arise, because its true character has been exposed forever.',
     sourceKeywords: ['What do ye imagine against the LORD', 'utter end', 'affliction shall not rise up the second time'],
     fulfillmentKeywords: ['lake of fire', 'second death', 'new heavens and new earth', 'no more death neither sorrow', 'all things new'],
     terms: [
@@ -9835,7 +9835,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'nam-1-3': {
     title: 'The LORD Is Slow to Anger, and Great in Power',
     principle:
-      'Will not at all acquit the wicked; whirlwind His way, clouds His dust. First principle: the two-sided excellency — patience and non-acquittal held together; storm-walked majesty.',
+      'The LORD will not at all acquit the wicked. He makes the whirlwind His way. The clouds are the dust of His feet. First principle: the LORD is excellent in two ways at once. He is patient with sinners. He still will not acquit the wicked. His majesty walks in the storm.',
     sourceKeywords: ['slow to anger, and great in power', 'will not at all acquit the wicked', 'the clouds are the dust of his feet'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9843,7 +9843,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'nam-1-7': {
     title: 'The LORD Is Good, a Strong Hold in the Day of Trouble',
     principle:
-      'He knoweth them that trust in Him. First principle: the refuge promise inside the judgment book — knowing is mutual knowledge; the day of trouble has a strong hold.',
+      'He knoweth them that trust in Him. First principle: this is the refuge promise inside a book of judgment. God knows the people who trust Him. They know Him too. In the day of trouble there is a strong hold.',
     sourceKeywords: ['The LORD is good', 'a strong hold in the day of trouble', 'he knoweth them that trust in him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9851,7 +9851,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'nam-1-15': {
     title: 'Behold upon the Mountains the Feet of Him That Bringeth Good Tidings',
     principle:
-      'Peace published, feasts kept, wicked cut off. First principle: the twin of Isaiah 52:7 — the runner over the mountains announcing Nineveh\'s fall is the gospel-preacher figure Paul quotes.',
+      'The messenger publishes peace. Judah keeps her feasts. The wicked are cut off. First principle: this is the twin of Isaiah 52:7. A runner comes over the mountains with news that Nineveh has fallen. Paul quotes that runner as the picture of the gospel preacher.',
     sourceKeywords: ['the feet of him that bringeth good tidings', 'that publisheth peace', 'the wicked shall no more pass through thee'],
     fulfillmentKeywords: ['How beautiful are the feet of them that preach the gospel of peace'],
     terms: [],
