@@ -8341,7 +8341,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'jdg-13-5': {
     title: 'The Child Shall Be a Nazarite unto God from the Womb',
     principle:
-      'Samson was promised before he was born: no razor was to touch him, and he would begin to deliver Israel. First principle: a deliverer set apart to God from the womb is the pattern of the one who comes first and prepares the way. John the Baptist was set apart the same way in Luke 1. The word Nazarene then echoes on to Matthew 2.',
+      'Samson was promised before he was born: he would be a Nazarite, no razor was to touch his head, and he would begin to deliver Israel. First principle: a deliverer set apart to God from the womb is the pattern of the one who comes first and prepares the way. John the Baptist was set apart the same way in Luke 1. The word Nazarene then echoes on to Matthew 2.',
     sourceKeywords: ['shalt conceive, and bear a son', 'no razor shall come on his head', 'a Nazarite unto God from the womb'],
     fulfillmentKeywords: ['he shall be called a Nazarene', 'he shall be great unto the Lord'],
     terms: [],
