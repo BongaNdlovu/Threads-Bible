@@ -10,7 +10,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-14': {
     title: 'I AM THAT I AM',
     principle:
-      'God names Himself to Moses: I AM WHO I AM. Jesus applies the divine name. before Abraham was, I AM. First principle. covenant identity is grounded in self-existent being, not tribal history alone.',
+      'God names Himself to Moses: I AM WHO I AM. Jesus applies the divine name. before Abraham was, I AM. First principle: covenant identity is grounded in self-existent being, not tribal history alone.',
     sourceKeywords: ['I AM', 'THAT I AM', 'God', 'fathers', 'Abraham', 'Isaac', 'Jacob'],
     fulfillmentKeywords: ['Before Abraham was', 'I am', 'I AM', 'Alpha', 'Omega'],
     terms: [
@@ -20,7 +20,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-3': {
     title: 'Lamb Without Blemish',
     principle:
-      'Each household takes a lamb without blemish for Passover. John names Jesus the Lamb of God. Paul: Christ our Passover is sacrificed. First principle. substitutionary death of an unblemished substitute delivers from judgment.',
+      'Each household takes a lamb without blemish for Passover. John names Jesus the Lamb of God. Paul: Christ our Passover is sacrificed. First principle: substitutionary death of an unblemished substitute delivers from judgment.',
     sourceKeywords: ['lamb', 'house', 'lamb for an house', 'without blemish', 'male', 'first year'],
     fulfillmentKeywords: ['Lamb of God', 'sin', 'world', 'Christ our passover', 'sacrificed', 'lamb without blemish', 'precious blood'],
     terms: [
@@ -31,7 +31,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-13': {
     title: 'Blood on the Doorposts',
     principle:
-      'The LORD sees the blood and passes over. Hebrews. without shedding of blood no remission. 1 Peter. redeemed with precious blood. First principle. atonement is by applied blood, not mere intention.',
+      'The LORD sees the blood and passes over. Hebrews. without shedding of blood no remission. 1 Peter. redeemed with precious blood. First principle: atonement is by applied blood, not mere intention.',
     sourceKeywords: ['blood', 'token', 'house', 'see the blood', 'pass over', 'plague', 'destroy'],
     fulfillmentKeywords: ['blood', 'remission', 'redeemed', 'precious blood', 'passover', 'plague'],
     terms: [
@@ -41,8 +41,8 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-46': {
     title: 'Not a Bone Broken',
     principle:
-      'Passover lamb\'s bones are not broken. Numbers restates the same statute for later Passovers. John cites this at the cross. First principle. the type specifies integrity of the sacrifice even in death.',
-    who: 'Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance. the Hebrew household eating the lamb in one house. the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb. the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7) whose body was kept unbroken at the cross. Redemptive Purpose: The type specifies the integrity of the sacrifice. John shows the Father preserved that integrity in the Son so the antitype is recognizable.',
+      'Passover lamb\'s bones are not broken. Numbers restates the same statute for later Passovers. John cites this at the cross. First principle: the type specifies integrity of the sacrifice even in death.',
+    who: 'Authorship & Context: Moses recorded the Passover statute on the eve of the tenth plague in Egypt (c. 1446 BC) for Israel about to leave bondage. Identified Characters: Yahweh commanding the paschal ordinance. the Hebrew household eating the lamb in one house. the lamb whose bones must not be broken. Singular or Many: Singular lamb, many households. Each house eats one lamb. the statute concerns that one body remaining whole while many firstborn are sheltered. Christological Subject & Referent: Jesus Christ, the true Passover Lamb (τὸ πάσχα ἡμῶν ἐτύθη Χριστός, 1 Cor 5:7) whose body was kept unbroken at the cross. Redemptive Purpose: The earlier picture specifies the integrity of the sacrifice. John shows the Father preserved that integrity in the Son so the person it pointed to is recognizable.',
     whoByRef: {
       'John 19:36': 'Authorship & Context: Moses wrote the Passover bone-law in Exodus 12. The Apostle John, eyewitness at the cross (John 19:35) wrote from Ephesus (c. AD 85–95). Identified Characters: Yahweh. the paschal lamb. Roman soldiers performing crurifragium. the two thieves whose legs were broken. Jesus already dead. Singular or Many: Singular body, many executioners. One Lamb is kept whole. the soldiers and the two other crucified men are the many around that one body. Christological Subject & Referent: Jesus of Nazareth, whose legs were not broken in order that Scripture be fulfilled. Redemptive Purpose: To prove His death was not chaotic Roman procedure but the governed Passover antitype whose unbroken body shields from wrath.',
       'Numbers 9:12': 'Authorship & Context: Moses restates the Passover ordinance for those keeping it in the second month in the wilderness. Identified Characters: Israel on the march. those unclean or on a journey who still must keep the feast. the lamb of the delayed Passover. Singular or Many: Singular lamb, many later keepers. The same one-body statute binds every subsequent generation. Christological Subject & Referent: The same paschal body later identified as Christ. the wilderness restatement is not a different lamb-theology but the standing Torah of the unbroken sacrifice. Redemptive Purpose: To show the bone-law is not a one-night Egyptian custom. it remains in force until the true Lamb\'s body is preserved at Golgotha.',
@@ -80,7 +80,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-16-4': {
     title: 'Bread from Heaven',
     principle:
-      'God rains bread from heaven for Israel. Jesus: I am the bread of life. the true bread is My flesh. First principle. divine provision is personal and sufficient for eternal life.',
+      'God rains bread from heaven for Israel. Jesus: I am the bread of life. the true bread is My flesh. First principle: divine provision is personal and sufficient for eternal life.',
     sourceKeywords: ['rain bread from heaven', 'people', 'gather', 'day by day'],
     fulfillmentKeywords: ['bread of God', 'bread of life', 'came down from heaven', 'flesh', 'world', 'living'],
     terms: [
@@ -100,7 +100,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-19-6': {
     title: 'Kingdom of Priests',
     principle:
-      'Israel is to be a kingdom of priests and holy nation. 1 Peter applies this to the church. Revelation. made priests to God. First principle. the covenant people exist for priestly access and witness.',
+      'Israel is to be a kingdom of priests and holy nation. 1 Peter applies this to the church. Revelation. made priests to God. First principle: the covenant people exist for priestly access and witness.',
     sourceKeywords: ['kingdom of priests', 'holy nation'],
     fulfillmentKeywords: ['holy priesthood', 'royal priesthood', 'holy nation', 'kings and priests', 'priests unto God'],
     terms: [
@@ -110,7 +110,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-25-40': {
     title: 'Pattern of the Tabernacle',
     principle:
-      'God shows Moses the pattern to build after. Hebrews. earthly tabernacle is a copy and shadow of the heavenly things. First principle. worship order is revealed, not invented. Christ is the true meeting-place.',
+      'God shows Moses the pattern to build after. Hebrews. earthly tabernacle is a copy and shadow of the heavenly things. First principle: worship order is revealed, not invented. Christ is the true meeting-place.',
     sourceKeywords: ['pattern', 'tabernacle', 'furniture', 'according to all', 'shewed'],
     fulfillmentKeywords: ['example', 'shadow', 'heavenly', 'greater', 'true tabernacle', 'minister'],
     terms: [
@@ -120,7 +120,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-30-10': {
     title: 'Day of Atonement',
     principle:
-      'The high priest makes atonement once a year with blood. Hebrews: Christ enters the greater holy place once for all. First principle. access to God is blood-bought and priestly.',
+      'The high priest makes atonement once a year with blood. Hebrews: Christ enters the greater holy place once for all. First principle: access to God is blood-bought and priestly.',
     sourceKeywords: ['atonement', 'horns', 'year', 'once', 'blood', 'sin offering'],
     fulfillmentKeywords: ['once', 'year', 'holiest', 'blood', 'enter', 'atonement', 'offered himself'],
     terms: [
@@ -650,7 +650,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-20-8': {
     title: 'Remember the Sabbath Day. Grounded in Creation and Fulfilled in Christ.',
     principle:
-      'The Fourth Commandment: Remember the Sabbath day, to keep it holy. Grounded explicitly in the Creation Sabbath of Genesis 2:2-3 and sealed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath is proclaimed as a holy delight by Isaiah (Isa 58:13-14). Jesus declares Himself Lord of the Sabbath (Mark 2:27-28) customarily observes it (Luke 4:16) and Hebrews affirms an eschatological Sabbath-rest (sabbatismos) remaining for the people of God (Heb 4:9). First principle. the Sabbath is a moral, perpetual creation ordinance memorializing the Creator\'s rest and pointing forward to the finished rest of redemption.',
+      'The Fourth Commandment: Remember the Sabbath day, to keep it holy. Grounded explicitly in the Creation Sabbath of Genesis 2:2-3 and sealed as a perpetual covenant sign in Exodus 31:16-17, the Sabbath is proclaimed as a holy delight by Isaiah (Isa 58:13-14). Jesus declares Himself Lord of the Sabbath (Mark 2:27-28) customarily observes it (Luke 4:16) and Hebrews affirms a Sabbath-rest at the end of the story (sabbatismos) remaining for the people of God (Heb 4:9). First principle: the Sabbath is a moral, perpetual creation ordinance memorializing the Creator\'s rest and pointing forward to the finished rest of redemption.',
     sourceKeywords: ['Remember', 'sabbath day', 'keep it holy', 'seventh day', 'rest', 'labour', 'hallowed'],
     fulfillmentKeywords: ['creation', 'blessed', 'sanctified', 'perpetual covenant', 'sign', 'delight', 'Lord of the sabbath', 'custom', 'synagogue', 'rest remaineth', 'people of God', 'sabbatismos'],
     terms: [
@@ -4383,7 +4383,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-6': {
     title: 'I Am the God of Abraham, Isaac, and Jacob',
     principle:
-      'God names Himself by covenant generations. Moses hides his face. First principle. the God of the living patriarchs binds Himself to a family line that runs to Christ. and reverence is the first response.',
+      'God names Himself by covenant generations. Moses hides his face. First principle: the God of the living patriarchs binds Himself to a family line that runs to Christ. and reverence is the first response.',
     sourceKeywords: ['the God of thy father', 'God of Abraham', 'hid his face'],
     fulfillmentKeywords: ['I am the God of Abraham'],
     terms: [],
@@ -4391,7 +4391,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-13': {
     title: 'What Is His Name? What Shall I Say?',
     principle:
-      'Moses asks for the Name. the answer is I AM THAT I AM. First principle. the self-existent God gives a name that outlasts every crisis. and Jesus claims it. before Abraham was, I AM.',
+      'Moses asks for the Name. the answer is I AM THAT I AM. First principle: the self-existent God gives a name that outlasts every crisis. and Jesus claims it. before Abraham was, I AM.',
     sourceKeywords: ['What is his name', 'what shall I say unto them'],
     fulfillmentKeywords: ['I AM THAT I AM', 'before Abraham was, I am'],
     terms: [],
@@ -4399,7 +4399,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-3-15': {
     title: 'This Is My Name for Ever, My Memorial to All Generations',
     principle:
-      'The LORD of the fathers is the perpetual memorial-name. First principle. deliverance comes in the name that never changes. the memorial every generation must remember.',
+      'The LORD of the fathers is the perpetual memorial-name. First principle: deliverance comes in the name that never changes. the memorial every generation must remember.',
     sourceKeywords: ['this is my name for ever', 'my memorial unto all generations'],
     fulfillmentKeywords: ['this is my name for ever'],
     terms: [],
@@ -4407,7 +4407,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-4-22': {
     title: 'Israel Is My Son, Even My Firstborn',
     principle:
-      'God names the nation His firstborn before Pharaoh. First principle. sonship is the ground of exodus demands. and the title, kept in Israel, finds its fullness in the only-begotten Son called out of Egypt.',
+      'God names the nation His firstborn before Pharaoh. First principle: sonship is the ground of exodus demands. and the title, kept in Israel, finds its fullness in the only-begotten Son called out of Egypt.',
     sourceKeywords: ['Israel is my son', 'my firstborn', 'let my son go'],
     fulfillmentKeywords: ['Out of Egypt have I called my son'],
     terms: [],
@@ -4415,7 +4415,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-5': {
     title: 'Your Lamb Shall Be Without Blemish',
     principle:
-      'The Passover lamb must be perfect, male, first-year. First principle. substitution requires spotlessness. the blood that saves is the blood of the unblemished.',
+      'The Passover lamb must be perfect, male, first-year. First principle: substitution requires spotlessness. the blood that saves is the blood of the unblemished.',
     sourceKeywords: ['without blemish', 'a male of the first year', 'from the sheep, or from the goats'],
     fulfillmentKeywords: ['lamb without blemish and without spot'],
     terms: [],
@@ -4423,7 +4423,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-6': {
     title: 'The Whole Assembly Shall Kill It in the Evening',
     principle:
-      'Kept until the fourteenth day, slain by all Israel at evening. First principle. the lamb is examined, then slain by the congregation. and the hours match the cross to the minute.',
+      'Kept until the fourteenth day, slain by all Israel at evening. First principle: the lamb is examined, then slain by the congregation. and the hours match the cross to the minute.',
     sourceKeywords: ['until the fourteenth day', 'the whole assembly', 'kill it in the evening'],
     fulfillmentKeywords: ['the preparation of the passover'],
     terms: [],
@@ -4431,7 +4431,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-21': {
     title: 'Draw Out and Take You a Lamb',
     principle:
-      'Moses commands each household to take the Passover lamb. First principle. deliverance is by applied sacrifice. a lamb taken, killed, and trusted in every home of faith.',
+      'Moses commands each household to take the Passover lamb. First principle: deliverance is by applied sacrifice. a lamb taken, killed, and trusted in every home of faith.',
     sourceKeywords: ['Draw out and take you a lamb', 'kill the passover'],
     fulfillmentKeywords: ['Christ our passover is sacrificed for us'],
     terms: [],
@@ -4439,7 +4439,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-12-27': {
     title: 'It Is the Sacrifice of the LORD\'S Passover',
     principle:
-      'The memorial speech: He passed over the houses and delivered us. and the people bowed and worshipped. First principle. the passover is teaching by rehearsal. every generation tells the story of the blood that spared them.',
+      'The memorial speech: He passed over the houses and delivered us. and the people bowed and worshipped. First principle: the passover is teaching by rehearsal. every generation tells the story of the blood that spared them.',
     sourceKeywords: ['the sacrifice of the LORD\'S passover', 'he passed over the houses', 'bowed the head and worshipped'],
     fulfillmentKeywords: ['Christ our passover'],
     terms: [],
@@ -4447,7 +4447,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-14-21': {
     title: 'The Waters Were Divided',
     principle:
-      'Moses stretches out his hand. the east wind parts the sea all night. First principle. salvation\'s impossible moments are wind-and-obedience moments. God makes a road where there is no road.',
+      'Moses stretches out his hand. the east wind parts the sea all night. First principle: salvation\'s impossible moments are wind-and-obedience moments. God makes a road where there is no road.',
     sourceKeywords: ['stretched out his hand over the sea', 'a strong east wind', 'the waters were divided'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4455,7 +4455,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-14-22': {
     title: 'The Waters Were a Wall unto Them',
     principle:
-      'Israel walks through the sea on dry ground, walls of water on either side. First principle. baptism into the deliverer. Paul says they were baptized in the cloud and sea. is passage between held-back judgments.',
+      'Israel walks through the sea on dry ground, walls of water on either side. First principle: baptism into the deliverer. Paul says they were baptized in the cloud and sea. is passage between held-back judgments.',
     sourceKeywords: ['went into the midst of the sea', 'upon the dry ground', 'a wall unto them'],
     fulfillmentKeywords: ['baptized unto Moses in the cloud and in the sea'],
     terms: [],
@@ -4463,7 +4463,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-15-25': {
     title: 'The LORD Shewed Him a Tree',
     principle:
-      'Bitter waters made sweet by a cast-in tree. a statute proved there. First principle. the tree turns Marah sweet. the first wilderness test answered by wood, the pattern of the cross\'s remedy.',
+      'Bitter waters made sweet by a cast-in tree. a statute proved there. First principle: the tree turns Marah sweet. the first wilderness test answered by wood, the pattern of the cross\'s remedy.',
     sourceKeywords: ['shewed him a tree', 'the waters were made sweet', 'there he proved them'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4471,7 +4471,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-16-14': {
     title: 'A Small Round Thing, as Small as the Hoar Frost',
     principle:
-      'Bread from heaven lies on the wilderness floor each morning. First principle. daily bread is heaven\'s humility. small, round, sufficient. Jesus calls Himself the true manna.',
+      'Bread from heaven lies on the wilderness floor each morning. First principle: daily bread is heaven\'s humility. small, round, sufficient. Jesus calls Himself the true manna.',
     sourceKeywords: ['upon the face of the wilderness', 'a small round thing', 'hoar frost'],
     fulfillmentKeywords: ['He gave them bread from heaven'],
     terms: [],
@@ -4479,7 +4479,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-16-35': {
     title: 'They Did Eat Manna Forty Years',
     principle:
-      'The supply held until the borders of Canaan. First principle. grace is tested by duration. the bread never failed for four decades, until the promised land replaced it.',
+      'The supply held until the borders of Canaan. First principle: grace is tested by duration. the bread never failed for four decades, until the promised land replaced it.',
     sourceKeywords: ['did eat manna forty years', 'until they came unto the borders'],
     fulfillmentKeywords: ['and did eat manna', 'the true bread from heaven'],
     terms: [],
@@ -4487,7 +4487,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-17-12': {
     title: 'Aaron and Hur Stayed Up His Hands',
     principle:
-      'Moses\' lifted hands are supported until sunset, and the battle is won. First principle. intercession is corporate. the war is carried by held-up hands, not solo heroics.',
+      'Moses\' lifted hands are supported until sunset, and the battle is won. First principle: intercession is corporate. the war is carried by held-up hands, not solo heroics.',
     sourceKeywords: ['Moses\' hands were heavy', 'stayed up his hands', 'steady until the going down of the sun'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4495,7 +4495,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-19-5': {
     title: 'Ye Shall Be a Peculiar Treasure unto Me',
     principle:
-      'Obedience to the covenant voice makes Israel God\'s treasure above all people. First principle. the covenant formula. obey, belong. is transferred in Christ to a people bought with blood.',
+      'Obedience to the covenant voice makes Israel God\'s treasure above all people. First principle: the covenant formula. obey, belong. is transferred in Christ to a people bought with blood.',
     sourceKeywords: ['if ye will obey my voice', 'keep my covenant', 'a peculiar treasure unto me'],
     fulfillmentKeywords: ['a peculiar people'],
     terms: [],
@@ -4511,7 +4511,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-25-8': {
     title: 'Let Them Make Me a Sanctuary, That I May Dwell Among Them',
     principle:
-      'The tabernacle is God\'s invitation to neighborhood. First principle. the sanctuary is not for God\'s benefit but for nearness. the type of the Word tabernacling among us.',
+      'The tabernacle is God\'s invitation to neighborhood. First principle: the sanctuary is not for God\'s benefit but for nearness. the type of the Word tabernacling among us.',
     sourceKeywords: ['make me a sanctuary', 'that I may dwell among them'],
     fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
     terms: [],
@@ -4519,7 +4519,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-28-36': {
     title: 'HOLINESS TO THE LORD Engraved on Gold',
     principle:
-      'The high priest wears the engraved plate on his forehead. First principle. the priest carries holiness visibly for the people. Christ the High Priest bears the name perfectly.',
+      'The high priest wears the engraved plate on his forehead. First principle: the priest carries holiness visibly for the people. Christ the High Priest bears the name perfectly.',
     sourceKeywords: ['a plate of pure gold', 'like the engravings of a signet', 'HOLINESS TO THE LORD'],
     fulfillmentKeywords: ['holy, harmless, undefiled'],
     terms: [],
@@ -4527,7 +4527,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-29-45': {
     title: 'I Will Dwell Among the Children of Israel',
     principle:
-      'The covenant summit: God dwelling with His redeemed. First principle. all the sacrifices and furnishings aim at one sentence. I will be their God. the tabernacle is friendship in architecture.',
+      'The covenant summit: God dwelling with His redeemed. First principle: all the sacrifices and furnishings aim at one sentence. I will be their God. the tabernacle is friendship in architecture.',
     sourceKeywords: ['I will dwell among', 'and will be their God'],
     fulfillmentKeywords: ['God with them'],
     terms: [],
@@ -4535,7 +4535,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-30-30': {
     title: 'Anoint Aaron and His Sons for the Priest\'s Office',
     principle:
-      'Oil consecrates the priesthood. First principle. ministry is by anointing, not appointment alone. the Spirit sets apart, as Christ was anointed to preach and to priest.',
+      'Oil consecrates the priesthood. First principle: ministry is by anointing, not appointment alone. the Spirit sets apart, as Christ was anointed to preach and to priest.',
     sourceKeywords: ['anoint Aaron and his sons', 'consecrate them', 'the priest\'s office'],
     fulfillmentKeywords: ['The Spirit of the Lord is upon me'],
     terms: [],
@@ -4543,7 +4543,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-31-18': {
     title: 'Tables of Stone, Written with the Finger of God',
     principle:
-      'The law comes from God\'s own finger on stone. First principle. the writing would move from stone to flesh. tablets of the heart by the Spirit, promised through the prophets.',
+      'The law comes from God\'s own finger on stone. First principle: the writing would move from stone to flesh. tablets of the heart by the Spirit, promised through the prophets.',
     sourceKeywords: ['two tables of testimony', 'tables of stone', 'written with the finger of God'],
     fulfillmentKeywords: ['written not with ink, but with the Spirit'],
     terms: [],
@@ -4551,7 +4551,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-33-18': {
     title: 'I Beseech Thee, Shew Me Thy Glory',
     principle:
-      'Moses asks for more than mission. he asks for God. First principle. the greatest request a believer can make is to see glory. the answer is goodness proclaimed and a cleft-rock hiding.',
+      'Moses asks for more than mission. he asks for God. First principle: the greatest request a believer can make is to see glory. the answer is goodness proclaimed and a cleft-rock hiding.',
     sourceKeywords: ['I beseech thee', 'shew me thy glory'],
     fulfillmentKeywords: ['we beheld his glory', 'the glory as of the only begotten'],
     terms: [],
@@ -4559,7 +4559,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-33-19': {
     title: 'I Will Proclaim the Name of the LORD Before Thee',
     principle:
-      'Goodness passes by. grace and mercy are declared as God\'s sovereign character. First principle. the Name is preached before it is seen. and Paul quotes it to defend God\'s freedom in election.',
+      'Goodness passes by. grace and mercy are declared as God\'s sovereign character. First principle: the Name is preached before it is seen. and Paul quotes it to defend God\'s freedom in election.',
     sourceKeywords: ['all my goodness pass before thee', 'proclaim the name of the LORD', 'shew mercy on whom I will shew mercy'],
     fulfillmentKeywords: ['I will have mercy on whom I will have mercy'],
     terms: [],
@@ -4567,7 +4567,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-34-6': {
     title: 'The LORD God, Merciful and Gracious',
     principle:
-      'The thirteen-attribute proclamation. compassionate, longsuffering, abundant in goodness and truth. First principle. this is the Bible\'s central self-portrait of God. repeated across Scripture and fulfilled in Christ\'s face.',
+      'The thirteen-attribute proclamation. compassionate, longsuffering, abundant in goodness and truth. First principle: this is the Bible\'s central self-portrait of God. repeated across Scripture and fulfilled in Christ\'s face.',
     sourceKeywords: ['The LORD, The LORD God', 'merciful and gracious', 'abundant in goodness and truth'],
     fulfillmentKeywords: ['the fullness of the Godhead bodily'],
     terms: [],
@@ -4575,7 +4575,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-34-28': {
     title: 'Forty Days and Forty Nights Without Bread',
     principle:
-      'Moses fasts with the LORD and receives the covenant words. First principle. the lawgiver\'s fast foreshadows the greater Lawgiver\'s forty days. both sustained by the Word of the covenant.',
+      'Moses fasts with the LORD and receives the covenant words. First principle: the lawgiver\'s fast foreshadows the greater Lawgiver\'s forty days. both sustained by the Word of the covenant.',
     sourceKeywords: ['forty days and forty nights', 'neither eat bread', 'the ten commandments'],
     fulfillmentKeywords: ['fasted forty days and forty nights'],
     terms: [],
@@ -4583,7 +4583,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-34-34': {
     title: 'He Took the Vail Off Until He Came Out',
     principle:
-      'Moses unveils before the LORD, veils before the people. First principle. the ministry of the fading glory gives way to the Spirit\'s lasting glory. in Christ the vail is done away.',
+      'Moses unveils before the LORD, veils before the people. First principle: the ministry of the fading glory gives way to the Spirit\'s lasting glory. in Christ the vail is done away.',
     sourceKeywords: ['he took the vail off', 'spake unto the children of Israel', 'which he was commanded'],
     fulfillmentKeywords: ['the vail is done away in Christ'],
     terms: [],
@@ -4591,7 +4591,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'exo-40-34': {
     title: 'The Glory of the LORD Filled the Tabernacle',
     principle:
-      'The cloud covers the finished tent. the glory fills it. First principle. when the dwelling is done as directed, the Presence moves in. obedience completes into Shekinah.',
+      'The cloud covers the finished tent. the glory fills it. First principle: when the dwelling is done as directed, the Presence moves in. obedience completes into Shekinah.',
     sourceKeywords: ['a cloud covered the tent', 'the glory of the LORD filled the tabernacle'],
     fulfillmentKeywords: ['the Word was made flesh, and dwelt among us'],
     terms: [],
