@@ -1058,7 +1058,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-4-14': {
     title: 'A Redeemer to Restore Life',
     principle:
-      'The women blessed the LORD, because he had not left Naomi without a redeemer. That redeemer would give her life back. Boaz redeemed Ruth, and she bore Obed, the grandfather of David. First principle: God brings Gentiles into the family line of the promised King, Jesus, and he brings life out of grief.',
+      'The women blessed the LORD, because he had not left Naomi without a redeemer. That redeemer would give her life back. Then Boaz redeemed Ruth, and she bore Obed, the grandfather of David. First principle: God brings Gentiles into the family line of the promised King, Jesus Christ, the Redeemer of the world.',
     sourceKeywords: ['blessed be the LORD', 'kinsman', 'restorer of thy life', 'nourisher', 'famous in Israel'],
     fulfillmentKeywords: ['redeemer', 'redeemed', 'life', 'David', 'Jesus Christ'],
     terms: [
@@ -8367,7 +8367,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rut-4-17': {
     title: 'There Is a Son Born to Naomi... the Father of Jesse, the Father of David',
     principle:
-      'Obed was born into Naomi\'s family. He became the father of Jesse and the grandfather of David. First principle: Ruth was a Moabite who left Moab for Israel. Her grandson was David. The family line that runs to the promised King, Jesus, names Ruth. So the promised King\'s line includes Ruth by name.',
+      'Obed was born into Naomi\'s family. Obed became the father of Jesse, and Jesse was the father of David. First principle: Ruth was a Moabite, and her grandson was David. The promised King, Jesus Christ, is the Messiah, and the family line that runs to him names Ruth.',
     sourceKeywords: ['a son born to Naomi', 'he is the father of Jesse, the father of David'],
     fulfillmentKeywords: ['Salmon begat Booz of Rachab; and Booz begat Obed of Ruth'],
     terms: [],
