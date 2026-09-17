@@ -1877,7 +1877,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'isa-42-6': {
     title: 'A Covenant of the People, a Light of the Gentiles',
     principle:
-      '“I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison.” First principle: the Servant does more than carry light. He is himself the covenant — God\'s binding promise in a person.',
+      '“I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles; To open the blind eyes, to bring out the prisoners from the prison…” First principle: the Servant does more than carry light. He is himself the covenant — God\'s binding promise in a person.',
     sourceKeywords: ['called thee in righteousness', 'a covenant of the people', 'a light of the Gentiles', 'open the blind eyes'],
     fulfillmentKeywords: ['A light to lighten the Gentiles', 'glory of thy people Israel', 'turn them from darkness to light'],
     terms: [
