@@ -1438,11 +1438,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-3-7': {
     title: 'The Lord GOD Revealeth His Secret Unto the Prophets',
     principle:
-      'Surely the Lord GOD will do nothing, but He revealeth His secret unto His servants the prophets. In every critical transition of salvation history (the Flood, Exodus, First Advent, and the End Times), God guides and protects His covenant people through the prophetic gift. First principle: prophecy is God\'s chosen method of covenant warning and instruction.',
+      '"Surely the Lord GOD will do nothing, but He revealeth His secret unto His servants the prophets." God warns and protects His people through the prophets at every turning point: the Flood, the Exodus, the First Advent, and the End Times. First principle: prophecy is God\'s chosen way to warn and instruct His people under His binding promise.',
     sourceKeywords: ['Lord GOD will do nothing', 'revealeth his secret', 'unto his servants the prophets'],
     fulfillmentKeywords: ['spirit of prophecy', 'testimony of Jesus', 'gift of prophecy', 'Joel 2:28', 'Revelation 19:10'],
     terms: [
-      { term: 'His secret / counsel', original: 'סוֹדוֹ', translit: 'sodo', gloss: 'His secret counsel, intimate circle, divine decree', note: 'God shares His redemptive purposes with faithful prophetic couriers.' },
+      { term: 'His secret / counsel', original: 'סוֹדוֹ', translit: 'sodo', gloss: 'His secret counsel, intimate circle, divine decree', note: 'God shares His plans for saving people with the prophets who serve Him.' },
       { term: 'prophets', original: 'נְבִיאִים', translit: 'neviʾim', gloss: 'spokespersons, prophets', note: 'Authorized channels of divine revelation.' },
     ],
   },
@@ -1693,11 +1693,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-9-9': {
     title: 'The Sifting of the House of Israel — Not the Least Grain Lost',
     principle:
-      'For, lo, I will command, and I will sift the house of Israel among all nations, like as corn is sifted in a sieve, yet shall not the least grain fall upon the earth. The shaking in the remnant church tests every believer with trial, persecution, and deceptive winds of doctrine. Only genuine wheat remains in the sieve; chaff is blown away.',
+      'God will sift the house of Israel among all nations, like as corn is sifted in a sieve. Yet not one true grain will be lost. The shaking tests every believer with trial, persecution, and false teaching. Only the real wheat stays in the sieve. The chaff blows away.',
     sourceKeywords: ['sift the house of Israel', 'like as corn is sifted in a sieve', 'not the least grain fall upon the earth'],
     fulfillmentKeywords: ['shaking in the church', 'straight testimony', 'Laodicean message', 'gold tried in fire'],
     terms: [
-      { term: 'I will sift', original: 'הֲנִיעוֹתִי', translit: 'hanīʿoti', gloss: 'I will shake / agitate violently / sift', note: 'Divine shaking separates real faith from formal profession.' },
+      { term: 'I will sift', original: 'הֲנִיעוֹתִי', translit: 'hanīʿoti', gloss: 'I will shake / agitate violently / sift', note: 'God does the shaking, and it separates real faith from a faith that is only on the lips.' },
       { term: 'least grain / pebble', original: 'צְרוֹר', translit: 'tseror', gloss: 'kernel, grain, pebble', note: 'Every sincere believer is precious and preserved by God.' },
     ],
   },
@@ -2300,11 +2300,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-9-11': {
     title: 'I Will Raise Up the Tabernacle of David That Is Fallen',
     principle:
-      'In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof... that they may possess the remnant of Edom, and of all the heathen, which are called by my name. First principle: the dynasty reduced to a collapsed hut is rebuilt by God — and the rebuilt house is wide enough for the heathen to seek the LORD.',
+      '"In that day will I raise up the tabernacle of David that is fallen, and close up the breaches thereof... that they may possess the remnant of Edom, and of all the heathen, which are called by my name." First principle: God rebuilds the dynasty of David, which had fallen into a collapsed shelter. The rebuilt house is wide enough for the nations to seek the LORD.',
     sourceKeywords: ['raise up the tabernacle of David', 'close up the breaches', 'remnant of Edom', 'all the heathen, which are called by my name'],
     fulfillmentKeywords: ['James answered', 'to this agree the words of the prophets', 'God at the first did visit the Gentiles', 'known unto God are all his works'],
     terms: [
-      { term: 'tabernacle', original: 'סֻכַּת', translit: 'sukkat', gloss: 'booth, hut, shelter of branches', note: 'James cites Amos at the Jerusalem council as the prophetic warrant for Gentile inclusion (Acts 15:16-17).' },
+      { term: 'tabernacle', original: 'סֻכַּת', translit: 'sukkat', gloss: 'booth, hut, shelter of branches', note: 'At the Jerusalem council James quotes Amos to show that God had always planned to include the Gentiles (Acts 15:16-17).' },
     ],
   },
   'zec-14-4': {
@@ -9699,7 +9699,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-4-13': {
     title: 'He That Formeth the Mountains, and Createth the Wind',
     principle:
-      'The Creator declares man\'s thought, treads earth\'s high places. First principle: the doxological refrains of Amos arm the judgment — the God who forms and reveals is the God who punishing comes.',
+      'God declares to a person what he is thinking, and He walks on the high places of the earth. First principle: the hymns in Amos carry the judgment. The God who forms and reveals is the God who comes to punish.',
     sourceKeywords: ['he that formeth the mountains', 'createth the wind', 'declareth unto man what is his thought'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9707,7 +9707,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-5-8': {
     title: 'Seek Him That Maketh the Seven Stars and Orion',
     principle:
-      'The Pleiades-and-Orion Maker turns death-shadow to morning. First principle: the constellation-namer is the seekable God — cosmic power offered for turning darkness into morning.',
+      'God made the Pleiades and Orion. He turns the shadow of death into the morning. First principle: the One who named the constellations is the God you can seek. His power over the sky can turn your darkness into morning.',
     sourceKeywords: ['maketh the seven stars and Orion', 'turneth the shadow of death into the morning', 'The LORD is his name'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9715,7 +9715,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'amo-8-9': {
     title: 'I Will Cause the Sun to Go Down at Noon',
     principle:
-      'Noon-darkness on a clear day, in that day. First principle: the judgment-sign of a darkened noon was fulfilled at the sixth-to-ninth hour of the cross.',
+      'In that day the sun went down at noon, and the clear day turned dark. First principle: that sign came true at the cross. Darkness covered the land from the sixth hour to the ninth.',
     sourceKeywords: ['the sun to go down at noon'],
     fulfillmentKeywords: ['there was darkness over all the land unto the ninth hour'],
     terms: [],
