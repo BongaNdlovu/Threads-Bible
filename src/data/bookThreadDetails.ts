@@ -9861,7 +9861,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-2-3': {
     title: 'The Vision Is Yet for an Appointed Time',
     principle:
-      'It speaks at the end and will not lie; though it tarry, wait. First principle: prophecy has a schedule and a patience-command — it will surely come, and the tarrying is part of the coming.',
+      'The vision speaks at the end and will not lie. Though it tarry, wait. First principle: prophecy keeps a schedule. Prophecy also commands patience. The vision will surely come. The tarrying is part of the coming.',
     sourceKeywords: ['for an appointed time'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9869,7 +9869,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-2-4': {
     title: 'The Just Shall Live by His Faith',
     principle:
-      'The lifted-up soul is not upright; the faith-soul lives. First principle: the Reformation verse — Romans, Galatians, and Hebrews each take a clause; life is faith-lived, not pride-earned.',
+      'The soul that lifts itself up is not upright. The soul that has faith lives. First principle: this is the Reformation verse. Romans, Galatians, and Hebrews each take one clause of it. Life is lived by faith. It is not earned by pride.',
     sourceKeywords: ['his soul which is lifted up is not upright', 'the just shall live by his faith'],
     fulfillmentKeywords: ['the just shall live by faith'],
     terms: [],
@@ -9877,7 +9877,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-2-14': {
     title: 'The Earth Shall Be Filled with the Knowledge of the Glory of the LORD',
     principle:
-      'As waters cover the sea. First principle: the covering standard — sea-coverage is total; the knowledge-goal of history is glory-knowledge everywhere.',
+      'The waters cover the sea. First principle: that sets the standard for covering. Water covers the whole sea. History is moving toward one goal. Everywhere, people will know the glory of the LORD.',
     sourceKeywords: ['filled with the knowledge of the glory of the LORD', 'as the waters cover the sea'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9885,7 +9885,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-2-20': {
     title: 'The LORD Is in His Holy Temple: Let All the Earth Keep Silence',
     principle:
-      'Silence commanded before the enthroned One. First principle: the answer to idol-noise is universal hush — the LORD present in His holy temple ends all chatter.',
+      'God commands silence before the One who sits enthroned. First principle: idols make noise. The answer to that noise is a hush over all the earth. The LORD is present in His holy temple. He ends all chatter.',
     sourceKeywords: ['The LORD is in his holy temple', 'let all the earth keep silence before him'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9893,7 +9893,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-3-2': {
     title: 'O LORD, Revive Thy Work in the Midst of the Years',
     principle:
-      'Speech heard, fear felt, revival prayed; in wrath remember mercy. First principle: the revival-prayer between fear and faith — wrath remembered-with-mercy is the requested lens.',
+      'Habakkuk heard God\'s speech and was afraid. He prayed for revival. His plea was this: in wrath remember mercy. First principle: this revival-prayer stands between fear and faith. He asks God to remember mercy when He remembers wrath.',
     sourceKeywords: ['revive thy work in the midst of the years', 'in wrath remember mercy'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9901,7 +9901,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-3-17': {
     title: 'Although the Fig Tree Shall Not Blossom',
     principle:
-      'Total agricultural collapse listed: fig, vine, olive, field, flock, herd. First principle: the worst-case inventory is the prelude to joy — the list exists to be survived.',
+      'Habakkuk lists a total collapse of the farm. The fig tree fails. So do the vine, the olive, the field, the flock, and the herd. First principle: the worst-case inventory comes before the joy. The list exists to be survived.',
     sourceKeywords: ['the fig tree shall not blossom', 'no fruit be in the vines', 'the fields shall yield no meat'],
     fulfillmentKeywords: [],
     terms: [],
@@ -9909,7 +9909,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'hab-3-18': {
     title: 'Yet I Will Rejoice in the LORD',
     principle:
-      'Joy in the God of salvation with nothing else joying. First principle: rejoicing without produce — the God of my salvation is the joy when every field fails; Paul\'s rejoice-always inherits it.',
+      'Habakkuk rejoices in the God of salvation when nothing else gives him joy. First principle: he rejoices with no produce in the field. When every field fails, the God of my salvation is his joy. Paul\'s call to rejoice always inherits this.',
     sourceKeywords: ['Yet I will rejoice in the LORD', 'I will joy in the God of my salvation'],
     fulfillmentKeywords: ['Rejoice in the Lord alway: and again I say, Rejoice'],
     terms: [],
