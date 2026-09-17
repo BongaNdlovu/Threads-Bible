@@ -102,15 +102,20 @@ single source of truth for progress and resumption.
 
 | Book | In-scope strings | Rewritten | VERIFY-ONLY | EQUIVALENT | Gate | Structural verifier | Status |
 |---|---:|---:|---:|---:|---|---|---|
-| Numbers | 60 | 19 | 40 | 1 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
-| Romans | 179 | 86 | 93 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
-| Psalms | 291 | 118 | 171 | 2 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, awaiting voice lock |
-| 1 Samuel | 20 | 9 | 11 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| 1 Kings | 22 | 21 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| 2 Kings | 14 | 13 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| Nehemiah | 6 | 5 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| Joshua | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| Judges | 6 | 3 | 3 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| Ruth | 29 | 4 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| 2 Samuel | 49 | 26 | 23 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A |
-| Deuteronomy | 129 | 59 | 70 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A |
+| Numbers | 60 | 19 | 40 | 1 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, voice lock approved |
+| Romans | 179 | 86 | 93 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, voice lock approved |
+| Psalms | 291 | 118 | 171 | 2 | PASS (0 violations) | PASS (exit 0) | APPLIED — calibration, voice lock approved |
+| Deuteronomy | 129 | 59 | 70 | 0 | PASS (0 violations, **1 pre-existing failure resolved**) | PASS (exit 0) | APPLIED — Stage A 1 |
+| Joshua | 18 | 9 | 9 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 2 |
+| Judges | 6 | 3 | 3 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 3 |
+| Ruth | 29 | 4 | 25 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 4 |
+| 1 Samuel | 20 | 9 | 11 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 5 |
+| 2 Samuel | 49 | 26 | 23 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 6 |
+| 1 Kings | 22 | 21 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 7 |
+| 2 Kings | 14 | 13 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 8 |
+| 1 Chronicles | 14 | 7 | 7 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 9 |
+| Nehemiah | 6 | 5 | 1 | 0 | PASS (0 violations) | PASS (exit 0) | APPLIED — Stage A 10 |
+
+Rows are in the order the books were applied, which is also canonical order within Stage A.
+Nehemiah was applied after 1 Chronicles in this run (the 1 Chronicles apply came first because
+2 Kings and Nehemiah had to be finished to clear the applier's foreign-dirt guard).

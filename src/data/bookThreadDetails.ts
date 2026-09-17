@@ -8657,7 +8657,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-16-22': {
     title: 'Touch Not Mine Anointed, and Do My Prophets No Harm',
     principle:
-      'The psalm-verse in David\'s psalm of thanks. First principle: the covenant family and its spokesmen are under God\'s personal protection — the patriarchs\' testimony is Israel\'s inheritance.',
+      'These words stand in the psalm of thanks that David gave the people. First principle: the covenant family and the men who speak for God rest under God\'s own protection. What God said to the patriarchs is a treasure Israel passed down.',
     sourceKeywords: ['Touch not mine anointed', 'do my prophets no harm'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8665,7 +8665,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-17-11': {
     title: 'I Will Raise Up Thy Seed after Thee',
     principle:
-      'The Nathan-prophecy\'s seed raised after David, kingdom established. First principle: Chronicles re-preaches 2 Samuel 7 to the returned exiles — the throne-promise was still alive after the fall.',
+      'God gave Nathan the prophet a promise about David\'s son. God would raise up that son after David and establish his kingdom. First principle: Chronicles repeats 2 Samuel 7 to the people who came back from exile. The promise of a lasting throne was still alive after the fall of Jerusalem.',
     sourceKeywords: ['I will raise up thy seed after thee', 'which shall be of thy sons', 'I will establish his kingdom'],
     fulfillmentKeywords: ['the Lord God shall give unto him the throne of his father David'],
     terms: [],
@@ -8673,7 +8673,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-17-13': {
     title: 'I Will Be His Father, and He Shall Be My Son',
     principle:
-      'Mercy not taken away as from Saul. First principle: the father-son decree with mercy\'s permanence clause — Hebrews\' angel-comparison rests on this promise to the Son.',
+      'God would not take his mercy away from this son, as he had taken it from Saul. First principle: the father-and-son decree carries a clause that mercy stays. Hebrews leans on this promise to the Son when it compares Jesus with the angels.',
     sourceKeywords: ['I will be his father, and he shall be my son', 'I will not take my mercy away from him'],
     fulfillmentKeywords: ['For unto which of the angels said he... Thou art my Son'],
     terms: [],
@@ -8681,7 +8681,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-21-17': {
     title: 'Let Thine Hand Be on Me, and on My Father\'s House',
     principle:
-      'David\'s intercession at the plague: the sheep are innocent. First principle: the shepherd-king pleads substitution — the angel with the drawn sword stops at the threshingfloor where mercy meets the offering.',
+      'David spoke to God at the plague: the sheep are innocent. First principle: David asked God to punish him instead of his people. God\'s angel stood over Jerusalem with a sword in his hand ready to strike. The plague stopped at the threshingfloor, where David made his offering.',
     sourceKeywords: ['I it is that have sinned', 'these sheep, what have they done', 'be on me, and on my father\'s house'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8689,7 +8689,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-22-10': {
     title: 'He Shall Build an House for My Name',
     principle:
-      'Solomon named son, throne established over Israel forever. First principle: the temple-builder and the throne-establisher are fused — pointing beyond Solomon to the Son who builds God\'s house.',
+      'God named Solomon as the son whose throne he would establish over Israel forever. First principle: the same man builds the temple and establishes the throne. That joins the two tasks, and both point beyond Solomon to the Son who builds God\'s house.',
     sourceKeywords: ['He shall build an house for my name', 'he shall be my son, and I will be his father', 'establish the throne of his kingdom for ever'],
     fulfillmentKeywords: ['I will build my church'],
     terms: [],
@@ -8697,7 +8697,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-28-6': {
     title: 'Solomon Thy Son, He Shall Build My House; I Have Chosen Him',
     principle:
-      'The public announcement of the chosen builder-son. First principle: choice is announced before work begins — I will be his father is the warrant for the building.',
+      'God announced in public which son would build the temple. First principle: God told David his choice before any building started. "I will be his father" is the reason the son may build.',
     sourceKeywords: ['Solomon thy son', 'he shall build my house and my courts', 'I have chosen him to be my son'],
     fulfillmentKeywords: [],
     terms: [],
@@ -8705,7 +8705,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '1ch-29-11': {
     title: 'Thine, O LORD, Is the Greatness, and the Power',
     principle:
-      'The assembly doxology: kingdom, head above all. First principle: David\'s prayer-model for the temple gifts — everything is Thine; the Lord\'s prayer\'s kingdom-glory line echoes this.',
+      'The whole assembly gave this praise: the kingdom is the LORD\'s and he is head above all. First principle: David prayed this way over the gifts for the temple, and he said that everything belongs to God. The kingdom and glory words of the Lord\'s prayer echo this prayer.',
     sourceKeywords: ['Thine, O LORD, is the greatness', 'thine is the kingdom, O LORD', 'exalted as head above all'],
     fulfillmentKeywords: ['Thine is the kingdom, and the power, and the glory'],
     terms: [],
