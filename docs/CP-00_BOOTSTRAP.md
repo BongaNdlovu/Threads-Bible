@@ -111,3 +111,34 @@ Genesis/Exodus work is duplicated in this session.
 
 CP-00 complete with one open deviation (§1). Proceeding to CP-01 (baseline) and CP-02 (Leviticus
 draft) is permitted by the plan; CP-03 (apply) is not, and is not performed.
+
+## 6 · Post-checkpoint branch state (bookkeeping)
+
+Two commits this session, both pushed to the open sweep PR branch
+(`origin/cursor/plain-lang-cp01-cp02-genesis-ebb9` — the tip that PR #4 follows):
+
+```
+f9caae9  CP-00/CP-01: Bootstrap evidence + full-canon baseline (live per-book counts 173+1183=1356 keys;
+         golden verify; lint/vitest/audit green); add reusable per-book clarity scan helper
+75039ae  CP-02: Leviticus draft appendix (hand-authored 1.7 rewrites: 23 changed / 18 VERIFY-ONLY of 41
+         fields, 0 gate failures, no data mutations); theology watchlist + scope notes
+```
+
+Verification after push:
+
+```bash
+git rev-parse HEAD
+# 75039ae009f95c9fca2f46c53ee12df40ee9b779
+
+git ls-remote origin refs/heads/cursor/plain-lang-cp01-cp02-genesis-ebb9
+# 75039ae009f95c9fca2f46c53ee12df40ee9b779	refs/heads/cursor/plain-lang-cp01-cp02-genesis-ebb9
+
+git status -sb
+# ## cursor/plain-lang-cp01-cp02-genesis-ebb9...origin/cursor/plain-lang-cp01-cp02-genesis-ebb9
+
+git diff --stat 5537ba2 HEAD -- src/data
+# (empty output: no file under src/data changed by CP-00, CP-01 or CP-02)
+```
+
+The `docs/COMPLETION_PLAN.md` sweep log is deliberately NOT updated yet: per plan §2 CP-03 step 4 the
+Leviticus row is appended with status APPLIED only after the operator's sign-off line.
