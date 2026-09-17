@@ -447,21 +447,21 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-3-3': {
     title: 'Written on Hearts, Not Tables of Stone',
     principle:
-      'You are an epistle of Christ, written not with ink but with the Spirit of the living God, not in tables of stone but in fleshy tables of the heart. First principle: the new covenant is internal, not merely external law.',
+      'You are an epistle of Christ, written not with ink but with the Spirit of the living God, not in tables of stone but in fleshy tables of the heart. First principle: God\'s binding promise is written inside a person. It is not merely an outward law.',
     sourceKeywords: ['epistle of Christ', 'ministered', 'written', 'Spirit of the living God', 'tables of stone', 'fleshy tables', 'heart'],
     fulfillmentKeywords: ['law', 'heart', 'mind', 'write', 'new covenant'],
     terms: [
-      { term: 'fleshy tables of the heart', original: 'πλαξὶν καρδίας σαρκίναις', translit: 'plaxin kardias sarkinais', gloss: 'tablets of hearts of flesh', note: 'Jer 31:33 / Ezek 36:26 fulfilled in Spirit-wrought obedience.' },
+      { term: 'fleshy tables of the heart', original: 'πλαξὶν καρδίας σαρκίναις', translit: 'plaxin kardias sarkinais', gloss: 'tablets of hearts of flesh', note: 'Jer 31:33 / Ezek 36:26 find their fulfillment here. The Spirit makes people obey.' },
     ],
   },
   '2co-5-21': {
     title: 'Made Sin for Us',
     principle:
-      'God made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him. First principle: double imputation — our sin to Christ, His righteousness to us.',
+      'God made Him who knew no sin to be sin for us, that we might become the righteousness of God in Him. First principle: God put our sin on Christ, and he put Christ\'s righteousness on us.',
     sourceKeywords: ['knew no sin', 'made him', 'sin for us', 'righteousness of God', 'in him'],
     fulfillmentKeywords: ['healed', 'iniquities', 'righteousness', 'justified'],
     terms: [
-      { term: 'sin / righteousness', original: 'ἁμαρτίαν / δικαιοσύνη', translit: 'hamartian / dikaiosynē', gloss: 'sin / righteousness', note: 'Legal and covenantal exchange language of Isaiah 53.' },
+      { term: 'sin / righteousness', original: 'ἁμαρτίαν / δικαιοσύνη', translit: 'hamartian / dikaiosynē', gloss: 'sin / righteousness', note: 'Isaiah 53 uses legal words for an exchange in God\'s binding promise.' },
     ],
   },
   'gal-3-13': {
@@ -6541,7 +6541,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-3-7': {
     title: 'The Ministration of Death, Written and Engraven in Stones',
     principle:
-      'Moses\' face shone so bright the children could not behold it — and that glory was to be done away. First principle: even a fading glory terrified; the surpassing glory of the Spirit outlasts stone.',
+      'Moses\' face shone so brightly that the Israelites could not look at it. That glory was passing away. First principle: even a fading glory made them afraid. The greater glory of the Spirit outlasts the stone.',
     sourceKeywords: ['ministration of death', 'engraven in stones', 'could not stedfastly behold the face of Moses'],
     fulfillmentKeywords: ['shone from his face'],
     terms: [],
@@ -6549,7 +6549,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-3-13': {
     title: 'Not as Moses, Which Put a Vail over His Face',
     principle:
-      'Moses veiled the fading so Israel could not see the end of what was abolished. First principle: the vail was mercy over obsolescence — the old covenant\'s glory had an expiration Paul is not afraid to name.',
+      'Moses put a veil over the fading glory so Israel could not see the end of what was being taken away. First principle: that veil was mercy. It covered something that was passing away. The glory of God\'s old binding promise had an end, and Paul is not afraid to name it.',
     sourceKeywords: ['put a vail over his face', 'could not stedfastly look to the end', 'which is abolished'],
     fulfillmentKeywords: ['he took the vail off', 'spake unto the children of Israel'],
     terms: [],
@@ -6557,7 +6557,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-3-16': {
     title: 'When It Shall Turn to the Lord, the Vail Shall Be Taken Away',
     principle:
-      'The heart\'s turning lifts the covering. First principle: the vail is not on Moses\' face anymore but on the readers\' hearts — conversion to the Lord removes it in Christ.',
+      'When a heart turns to the Lord, the covering lifts. First principle: the veil no longer sits on Moses\' face. It lies on the hearts of the readers. When a person turns to the Lord, Christ takes it away.',
     sourceKeywords: ['when it shall turn to the Lord', 'the vail shall be taken away'],
     fulfillmentKeywords: ['he took the vail off until he came out'],
     terms: [],
@@ -6565,7 +6565,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-3-18': {
     title: 'Beholding as in a Glass the Glory of the Lord',
     principle:
-      'Open-faced reflection changes the beholder from glory to glory by the Spirit. First principle: sanctification is specular — we become what we behold; the unveiled mirror is the Spirit\'s instrument.',
+      'With an open face, we reflect the Lord\'s glory. The Spirit changes the beholder from glory to glory. First principle: God makes a person holy over time. We become what we behold. The Spirit uses the unveiled mirror to do it.',
     sourceKeywords: ['with open face beholding as in a glass', 'changed into the same image', 'from glory to glory'],
     fulfillmentKeywords: ['I shall behold thy face in righteousness', 'I shall be satisfied'],
     terms: [],
@@ -6573,7 +6573,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-4-6': {
     title: 'God Hath Shined in Our Hearts',
     principle:
-      'The creation command — light out of darkness — repeats in conversion. First principle: regeneration is a creation miracle in miniature; the face of Jesus Christ is the new light\'s location.',
+      'The command that made light out of darkness repeats when God saves a person. First principle: making a person new is a creation miracle in miniature. The new light shines in the face of Jesus Christ.',
     sourceKeywords: ['commanded the light to shine out of darkness', 'hath shined in our hearts', 'in the face of Jesus Christ'],
     fulfillmentKeywords: ['Let there be light: and there was light'],
     terms: [],
@@ -6581,7 +6581,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-6-2': {
     title: 'Behold, Now Is the Accepted Time',
     principle:
-      'Isaiah 49\'s accepted day is declared present. First principle: salvation has a season, and the season is now — the heard-and-helped Servant defines the open window.',
+      'Paul says the accepted day of Isaiah 49 is here. First principle: God saves people in a season. That season is now. God heard and helped his Servant. That is the open window.',
     sourceKeywords: ['I have heard thee in a time accepted', 'now is the accepted time', 'now is the day of salvation'],
     fulfillmentKeywords: ['In an acceptable time have I heard thee'],
     terms: [],
@@ -6589,7 +6589,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-6-16': {
     title: 'Ye Are the Temple of the Living God',
     principle:
-      'The dwelling promises of Exodus and Ezekiel are applied to believers. First principle: I will dwell in them moves from tent to persons — the sanctuary is a people, and idols have no lease there.',
+      'Exodus and Ezekiel promised that God would dwell with his people. That promise now applies to believers. First principle: God said, “I will dwell in them.” He moved from a tent to people. His dwelling place is now a people, and no idol has a place there.',
     sourceKeywords: ['ye are the temple of the living God', 'I will dwell in them, and walk in them', 'they shall be my people'],
     fulfillmentKeywords: ['let them make me a sanctuary; that I may dwell among them'],
     terms: [],
@@ -6597,7 +6597,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-6-17': {
     title: 'Come Out from Among Them, and Be Ye Separate',
     principle:
-      'The separation call with a reception promise: I will receive you. First principle: touch-not holiness is not isolationism but covenant identity — separation is the door to fatherhood.',
+      'God calls his people out, and he promises, “I will receive you.” First principle: holiness that refuses to touch what is unclean is not isolation. It is the mark of God\'s binding promise. Separation opens the door to God as Father.',
     sourceKeywords: ['come out from among them', 'be ye separate', 'touch not the unclean thing'],
     fulfillmentKeywords: ['Depart ye, depart ye; touch no unclean thing'],
     terms: [],
@@ -6605,7 +6605,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-6-18': {
     title: 'Ye Shall Be My Sons and Daughters',
     principle:
-      'The Almighty adopts. First principle: Nathan\'s word to David — I will be to him a Father — expands from the royal Son to all who are in Him; sonship is promised, performed, and permanent.',
+      'The Almighty adopts. First principle: God spoke through Nathan to David. He promised: I will be to him a Father. That promise stretched from the royal Son to everyone in Christ. God\'s sonship is promised, and he makes it real. He never takes it back.',
     sourceKeywords: ['a Father unto you', 'my sons and daughters', 'saith the Lord Almighty'],
     fulfillmentKeywords: ['I will be to him a Father', 'he shall be to me a Son'],
     terms: [],
@@ -6613,7 +6613,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-8-9': {
     title: 'Though He Was Rich, Yet for Your Sakes He Became Poor',
     principle:
-      'The incarnational economics of grace. First principle: Christ\'s poverty is the transfer mechanism — His emptied riches fund our funded eternity; giving follows the same pattern.',
+      'God became man — the incarnation — and grace works this way. Jesus became poor. First principle: Christ\'s poverty is how his riches reach us. He gave up what he had so that we could be rich forever. Our giving follows the same pattern.',
     sourceKeywords: ['though he was rich', 'he became poor', 'through his poverty might be rich'],
     fulfillmentKeywords: ['he hath not where to lay his head', 'made himself of no reputation'],
     terms: [],
@@ -6621,7 +6621,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-9-9': {
     title: 'He Hath Dispersed Abroad; He Hath Given to the Poor',
     principle:
-      'Psalm 112\'s giver quoted for the collection. First principle: dispersed charity is enduring righteousness — the scatterer keeps, the hoarder loses; giving is seed, not subtraction.',
+      'Paul quotes Psalm 112\'s giver for the collection. First principle: the one who scatters to the poor keeps a righteousness that lasts. The hoarder loses what he holds. Giving is seed, not subtraction.',
     sourceKeywords: ['He hath dispersed abroad', 'given to the poor', 'his righteousness remaineth for ever'],
     fulfillmentKeywords: ['his righteousness endureth for ever'],
     terms: [],
@@ -6629,7 +6629,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-10-17': {
     title: 'He That Glorieth, Let Him Glory in the Lord',
     principle:
-      'Jeremiah\'s rule for boasting. First principle: the only permissible boast is the Lord — knowing, understanding, and knowing Him that exercises lovingkindness, judgment, and righteousness.',
+      'Jeremiah gave the rule for boasting. First principle: a person may boast in one thing only, and that is the Lord Himself. It means knowing and understanding Him that exercises lovingkindness, judgment, and righteousness.',
     sourceKeywords: ['he that glorieth', 'let him glory in the Lord'],
     fulfillmentKeywords: ['let not the wise man glory in his wisdom', 'glorieth in this, that he understandeth and knoweth me'],
     terms: [],
@@ -6637,7 +6637,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   '2co-13-4': {
     title: 'He Was Crucified Through Weakness, Yet He Liveth',
     principle:
-      'Crucified in weakness, living by God\'s power — the pattern for Paul and the Corinthians. First principle: apparent weakness is not the refutation of divine life but its usual container.',
+      'Crucified in weakness, living by God\'s power: that is the pattern for Paul and the Corinthians. First principle: weakness does not prove that God\'s life is absent. God usually works through it.',
     sourceKeywords: ['crucified through weakness', 'yet he liveth by the power of God', 'we shall live with him'],
     fulfillmentKeywords: ['despised and rejected of men'],
     terms: [],
