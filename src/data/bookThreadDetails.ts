@@ -224,7 +224,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-7': {
     title: 'He Comes with Clouds',
     principle:
-      'Behold, He comes with clouds; every eye shall see Him. This echoes Daniel 7 and the ascension-angel promise. First principle: the second coming is public, visible, and universally witnessed.',
+      'Behold, He comes with clouds. Every eye shall see Him. This echoes Daniel 7 and the promise the angels gave at the ascension. First principle: the second coming is public, visible, and witnessed by everyone.',
     sourceKeywords: ['clouds', 'every eye', 'see him', 'pierced', 'kindreds', 'earth', 'wail'],
     fulfillmentKeywords: ['Son of man', 'clouds of heaven', 'power', 'great glory', 'coming', 'see the Son of man'],
     terms: [
@@ -234,11 +234,11 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-18': {
     title: 'Keys of Death and Hell',
     principle:
-      'The risen Christ holds the keys of death and of Hades. First principle: resurrection is not escape but conquest — Jesus administers death itself.',
+      'The risen Christ holds the keys of death and of Hades. First principle: resurrection is not escape. It is conquest, and Jesus is the one who governs death itself.',
     sourceKeywords: ['dead', 'alive', 'keys of hell', 'death', 'for evermore'],
     fulfillmentKeywords: ['All power', 'given', 'heaven', 'earth', 'destroy', 'death', 'swallowed up'],
     terms: [
-      { term: 'Hades', original: 'ᾅδης', translit: 'hadēs', gloss: 'realm of the dead', note: 'OT Sheol; conquered by the risen Lord.' },
+      { term: 'Hades', original: 'ᾅδης', translit: 'hadēs', gloss: 'realm of the dead', note: 'This is Sheol in the OT. The risen Lord conquered it.' },
     ],
   },
   'rev-5-5': {
@@ -259,27 +259,27 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
     sourceKeywords: ['root', 'offspring', 'David', 'bright', 'morning star'],
     fulfillmentKeywords: ['Root', 'Branch', 'Jesse', 'David', 'star', 'sceptre', 'Jacob'],
     terms: [
-      { term: 'Root and Offspring', original: 'ἡ ῥίζα καὶ τὸ γένος', translit: 'hē riza kai to genos', gloss: 'the root and the descendant', note: 'Isa 11:1, 10 + Num 24:17 — both ends of the Davidic line.' },
+      { term: 'Root and Offspring', original: 'ἡ ῥίζα καὶ τὸ γένος', translit: 'hē riza kai to genos', gloss: 'the root and the descendant', note: 'Isa 11:1, 10 and Num 24:17 both speak of this. He is at both ends of David\'s line.' },
     ],
   },
   'rev-21-3': {
     title: 'Behold, the Tabernacle of God',
     principle:
-      'The tabernacle of God is with men; He will dwell with them. First principle: exile from Eden ends — God Himself pitches His tent among redeemed humanity.',
+      'The tabernacle of God is with men; He will dwell with them. First principle: the exile from Eden ends. God Himself pitches His tent among the people he has bought back.',
     sourceKeywords: ['tabernacle of God', 'men', 'dwell', 'they shall be his people', 'God himself', 'with them'],
     fulfillmentKeywords: ['tabernacle', 'dwell', 'God with us', 'Emmanuel', 'I will be their God'],
     terms: [
-      { term: 'tabernacle', original: 'σκηνή', translit: 'skēnē', gloss: 'tent, dwelling, tabernacle', note: 'Exod 25:8 / John 1:14 ἐσκήνωσεν — He tabernacled among us.' },
+      { term: 'tabernacle', original: 'σκηνή', translit: 'skēnē', gloss: 'tent, dwelling, tabernacle', note: 'Exod 25:8 / John 1:14 ἐσκήνωσεν — literally, He pitched his tent among us.' },
     ],
   },
   'rev-22-20': {
     title: 'Surely I Come Quickly',
     principle:
-      'The Spirit and the bride say Come; Jesus: surely I come quickly. First principle: the church\'s final prayer is eschatological hope, and the promise is personal and near.',
+      'The Spirit and the bride say Come. Jesus says: surely I come quickly. First principle: the church\'s last prayer is a hope set on the end of the story. The promise is personal, and it is near.',
     sourceKeywords: ['surely', 'come quickly', 'Amen', 'Even so', 'come', 'Lord Jesus'],
     fulfillmentKeywords: ['come', 'receive you', 'appear', 'second time', 'looking for', 'Lord'],
     terms: [
-      { term: 'Come', original: 'ἔρχου', translit: 'erchou', gloss: 'come! (imperative)', note: 'Aramaic Maranatha behind 1 Cor 16:22 — Our Lord, come.' },
+      { term: 'Come', original: 'ἔρχου', translit: 'erchou', gloss: 'come! (imperative)', note: 'The Aramaic word Maranatha stands behind 1 Cor 16:22. It means, Our Lord, come.' },
     ],
   },
 
@@ -715,64 +715,64 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-12-17': {
     title: 'Remnant Who Keep God\'s Commandments',
     principle:
-      'The dragon is wroth with the woman and goes to make war with the remnant of her seed, who keep the commandments of God and have the testimony of Jesus. Rev 14:12 defines the end-time saints the same way: patience of the saints, keep the commandments of God, and the faith of Jesus. Jesus: if you love me, keep my commandments (John 14:15). Textual proof: the remnant is identified by obedience to God\'s commandments joined to faith in Christ — not by ethnicity or mere profession.',
+      'The dragon is wroth with the woman and goes to make war with the remnant of her seed, who keep the commandments of God and have the testimony of Jesus. Rev 14:12 defines the saints of the end time in the same way. It points to the patience of the saints, to those who keep the commandments of God, and to the faith of Jesus. Jesus said: if you love me, keep my commandments (John 14:15). Textual proof: what marks the remnant is obedience to God\'s commandments joined to faith in Christ. It is not a person\'s ethnic origin, and it is not a bare claim to belong to him.',
     sourceKeywords: ['remnant', 'seed', 'keep', 'commandments of God', 'testimony', 'Jesus'],
     fulfillmentKeywords: ['patience', 'saints', 'commandments of God', 'faith of Jesus', 'keep', 'commandments'],
     terms: [
-      { term: 'remnant', original: 'λοιπόν', translit: 'loipon', gloss: 'the rest / remnant', note: 'Same remnant idea as Isa 10:20-22; Rom 9:27 — a remaining people of God after apostasy.' },
-      { term: 'keep the commandments', original: 'τηρούντων τὰς ἐντολὰς τοῦ θεοῦ', translit: 'tērountōn tas entolas tou theou', gloss: 'keeping the commandments of God', note: 'τηρέω — guard/keep as ongoing discipleship (John 14:15; 15:10).' },
+      { term: 'remnant', original: 'λοιπόν', translit: 'loipon', gloss: 'the rest / remnant', note: 'The same idea of a remnant appears in Isa 10:20-22 and Rom 9:27. It means the faithful few who are left after a falling away.' },
+      { term: 'keep the commandments', original: 'τηρούντων τὰς ἐντολὰς τοῦ θεοῦ', translit: 'tērountōn tas entolas tou theou', gloss: 'keeping the commandments of God', note: 'τηρέω — to guard and to keep, as a disciple keeps on obeying (John 14:15; 15:10).' },
     ],
   },
   'rev-14-7': {
     title: 'Fear God — The Hour of His Judgment',
     principle:
-      'The first angel proclaims with a loud voice: Fear God, and give glory to Him; for the hour of His judgment is come; worship Him that made heaven, and earth, and the sea, and the fountains of waters. Textual proof: (1) this is a pre-advent judgment message — "the hour of His judgment is come" precedes Christ\'s second coming in ch. 19; (2) the call to worship the Creator echoes the Sabbath commandment (Exod 20:11); (3) Ecclesiastes ends with: Fear God, and keep his commandments (Eccl 12:13); (4) Acts 17:30-31: God commands all men to repent because He has appointed a day of judgment by the man Christ Jesus.',
+      'The first angel proclaims with a loud voice. Fear God, and give glory to Him; for the hour of His judgment is come; worship Him that made heaven, and earth, and the sea, and the fountains of waters. Textual proof: (1) this message announces a judgment that takes place before Jesus returns. "the hour of His judgment is come" precedes Christ\'s second coming in ch. 19. (2) The angel calls people to worship the Creator, and that echoes the Sabbath commandment (Exod 20:11). (3) Ecclesiastes closes with these words: Fear God, and keep his commandments (Eccl 12:13). (4) Acts 17:30-31: God commands all men to repent because he has fixed a day on which he will judge the world by the man Christ Jesus.',
     sourceKeywords: ['Fear God', 'give glory', 'hour of his judgment', 'is come', 'worship', 'made', 'heaven', 'earth', 'sea', 'fountains of waters'],
     fulfillmentKeywords: ['judge', 'quick', 'dead', 'appearing', 'day', 'judgment', 'Creator'],
     terms: [
-      { term: 'the hour of His judgment', original: 'ἡ ὥρα τῆς κρίσεως αὐτοῦ', translit: 'hē hōra tēs kriseōs autou', gloss: 'the hour of His judgment', note: 'Fixed, appointed judgment-time — same language family as John 5:22-27 (Son given judgment) and Acts 17:31 (appointed day).' },
-      { term: 'made heaven and earth', original: 'τὸν ποιήσαντα τὸν οὐρανὸν καὶ τὴν γῆν', translit: 'ton poiēsanta ton ouranon kai tēn gēn', gloss: 'the One who made heaven and earth', note: 'Direct verbal echo of Exod 20:11 / Ps 146:6 — Creator-worship, not creature-worship.' },
+      { term: 'the hour of His judgment', original: 'ἡ ὥρα τῆς κρίσεως αὐτοῦ', translit: 'hē hōra tēs kriseōs autou', gloss: 'the hour of His judgment', note: 'This is a fixed, appointed time of judgment. The same wording appears in John 5:22-27, where the Son is given judgment, and in Acts 17:31, where God appoints a day.' },
+      { term: 'made heaven and earth', original: 'τὸν ποιήσαντα τὸν οὐρανὸν καὶ τὴν γῆν', translit: 'ton poiēsanta ton ouranon kai tēn gēn', gloss: 'the One who made heaven and earth', note: 'These words echo Exod 20:11 and Ps 146:6. The Creator is worshiped, not the creature.' },
     ],
   },
   'rev-14-12': {
     title: 'Patience, Commandments, and Faith of Jesus',
     principle:
-      'Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus. Textual proof: this defines the people of God in the hour of judgment (v7) and Babylon\'s fall (v8). They obey God\'s commandments and rest in Christ\'s faith/faithfulness — the same combination as Rev 12:17. Jesus: if you love me, keep my commandments (John 14:15).',
+      '"Here is the patience of the saints: here are they that keep the commandments of God, and the faith of Jesus." Textual proof: these words describe God\'s own people at the hour of judgment (v7) and when Babylon falls (v8). They obey God\'s commandments and rest in the faith of Christ. Those are the same marks that appear again in Rev 12:17. Jesus himself said: if you love me, keep my commandments (John 14:15).',
     sourceKeywords: ['patience', 'saints', 'keep', 'commandments of God', 'faith of Jesus'],
     fulfillmentKeywords: ['keep', 'commandments', 'faith', 'Jesus', 'love me'],
     terms: [
-      { term: 'faith of Jesus', original: 'πίστιν Ἰησοῦ', translit: 'pistin Iēsou', gloss: 'faith / faithfulness of Jesus (Heb. genitive)', note: 'Either His faithfulness or faith in Him — both biblical; either way, allegiance to Christ is required together with obedience.' },
+      { term: 'faith of Jesus', original: 'πίστιν Ἰησοῦ', translit: 'pistin Iēsou', gloss: 'faith / faithfulness of Jesus (Heb. genitive)', note: 'This can mean His faithfulness or faith in Him. Both readings are biblical. Either way, a person must trust Christ and obey him.' },
     ],
   },
   'rev-20-4': {
     title: 'Thrones, Judgment, and the First Resurrection',
     principle:
-      'John sees thrones; judgment is given to them; souls of the beheaded live and reign with Christ a thousand years. Textual proof: (1) judgment is given to saints (Dan 7:22; 1 Cor 6:2-3); (2) they live — resurrection, not disembodied bliss; (3) the rest of the dead live not again until the thousand years are finished (v5). Therefore the dead are dead until Christ raises them (Dan 12:2; John 5:28-29; 1 Thess 4:16). The righteous dead receive life at Christ\'s return; the wicked remain dead until the second resurrection after the thousand years.',
+      'John sees thrones, and judgment is given to those who sit on them. The souls of the beheaded live and reign with Christ a thousand years. Textual proof: (1) judgment is given to saints (Dan 7:22; 1 Cor 6:2-3). (2) They live, and that means they are raised. They are not living on without a body. (3) The rest of the dead live not again until the thousand years are finished (v5). Therefore the dead are dead until Christ raises them (Dan 12:2; John 5:28-29; 1 Thess 4:16). The righteous dead receive life at Christ\'s return. The wicked stay dead until the second resurrection, after the thousand years.',
     sourceKeywords: ['thrones', 'judgment', 'souls', 'beheaded', 'witness of Jesus', 'word of God', 'live', 'reign', 'Christ', 'thousand years'],
     fulfillmentKeywords: ['dead in Christ', 'rise', 'resurrection', 'first', 'judgment'],
     terms: [
-      { term: 'first resurrection', original: 'ἡ ἀνάστασις ἡ πρώτη', translit: 'hē anastasis hē prōtē', gloss: 'the resurrection, the first', note: 'Bodily raising of the righteous at Christ\'s coming (John 5:28-29; 1 Cor 15:23). Rev 20:5-6: the rest of the dead live not until later — the dead do not go to heaven/hell at death.' },
-      { term: 'souls', original: 'τὰς ψυχάς', translit: 'tas psychas', gloss: 'the souls / lives / persons', note: 'Often "persons" (Acts 2:41; 7:14) — here the martyrs themselves, who live by resurrection, not by already being in heaven.' },
+      { term: 'first resurrection', original: 'ἡ ἀνάστασις ἡ πρώτη', translit: 'hē anastasis hē prōtē', gloss: 'the resurrection, the first', note: 'The righteous are raised bodily when Christ comes (John 5:28-29; 1 Cor 15:23). Rev 20:5-6 shows the rest of the dead stay dead until later. So the dead do not go to heaven or hell at death.' },
+      { term: 'souls', original: 'τὰς ψυχάς', translit: 'tas psychas', gloss: 'the souls / lives / persons', note: 'The word often means "persons" (Acts 2:41; 7:14). Here it means the martyrs themselves. They live by resurrection, not by already being in heaven.' },
     ],
   },
   'rev-20-5': {
     title: 'The Rest of the Dead Live Not Again',
     principle:
-      'This is the first resurrection. Blessed and holy is he that has part in the first resurrection; the second death has no power. But the rest of the dead lived not again until the thousand years were finished. Textual proof: the dead are unconscious until raised (Eccl 9:5; Ps 6:5; 146:4; Dan 12:2). There are two resurrections: of the just at Christ\'s return, of the unjust later (John 5:28-29; Acts 24:15). Immortality is a gift given at the resurrection, not an inherent property of the soul (1 Cor 15:51-54).',
+      'This is the first resurrection. Blessed and holy is he that has part in the first resurrection; the second death has no power over him. But the rest of the dead lived not again until the thousand years were finished. Textual proof: the dead are unconscious until they are raised (Eccl 9:5; Ps 6:5; 146:4; Dan 12:2). There are two resurrections. The just rise at Christ\'s return, and the unjust rise later (John 5:28-29; Acts 24:15). Immortality is a gift God gives at the resurrection. It is not something the soul has by nature (1 Cor 15:51-54).',
     sourceKeywords: ['first resurrection', 'rest of the dead', 'lived not again', 'thousand years', 'finished', 'blessed', 'holy', 'second death'],
     fulfillmentKeywords: ['resurrection of the dead', 'just', 'unjust', 'sleep', 'dust', 'awake'],
     terms: [
-      { term: 'lived not again', original: 'οὐκ ἔζησαν', translit: 'ouk ezēsan', gloss: 'they did not live again', note: 'Explicit denial of intermediate conscious life for the wicked dead until the later resurrection.' },
+      { term: 'lived not again', original: 'οὐκ ἔζησαν', translit: 'ouk ezēsan', gloss: 'they did not live again', note: 'This plainly denies that the wicked dead live on in some conscious state before the later resurrection.' },
     ],
   },
   'rev-14-14': {
     title: 'One Like the Son of Man — Public Harvest',
     principle:
-      'A white cloud, and upon the cloud one sat like unto the Son of man, having on his head a golden crown. Textual proof: Daniel 7:13-14 — Son of Man coming with clouds to receive dominion; Matthew 24:30-31 — they shall see the Son of man coming in the clouds with power and great glory, and He gathers His elect with a great sound of a trumpet. This is the visible, glorious second coming — one public event, not a secret removal.',
+      '"A white cloud, and upon the cloud one sat like unto the Son of man, having on his head a golden crown." Textual proof: Daniel 7:13-14 shows the Son of Man coming with clouds, and dominion is given to him. Matthew 24:30-31 says they shall see the Son of man coming in the clouds with power and great glory. He gathers His elect with a great sound of a trumpet. This is the second coming, and it is visible and glorious. It is one event that the whole world will see, not a secret removal.',
     sourceKeywords: ['white cloud', 'sat', 'like unto the Son of man', 'golden crown', 'sharp sickle', 'thrust in'],
     fulfillmentKeywords: ['Son of man', 'clouds of heaven', 'power', 'great glory', 'coming', 'gather', 'elect', 'trumpet'],
     terms: [
-      { term: 'one like the Son of man', original: 'ὅμοιον υἱὸν ἀνθρώπου', translit: 'homoion huion anthrōpou', gloss: 'one like a son of man', note: 'Verbal chain: Dan 7:13 → Matt 24:30 → Rev 14:14 — the same glorious coming.' },
+      { term: 'one like the Son of man', original: 'ὅμοιον υἱὸν ἀνθρώπου', translit: 'homoion huion anthrōpou', gloss: 'one like a son of man', note: 'The wording links Dan 7:13, Matt 24:30, and Rev 14:14. All three describe the same glorious coming.' },
     ],
   },
 
@@ -1362,44 +1362,44 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-14-6': {
     title: 'The First Angel\'s Message — The Everlasting Gospel to All Nations',
     principle:
-      'John sees an angel fly in the midst of heaven, having the everlasting gospel to preach unto them that dwell on the earth, and to every nation, kindred, tongue, and people. This gospel is not a new doctrine but the eternal covenant of grace centered on Christ\'s sacrifice and righteousness, proclaimed with urgent cosmic reach right before the harvest of the earth. First principle: end-time truth is the restoration of the everlasting gospel in its pristine purity.',
+      'John sees an angel fly in the midst of heaven. The angel has the everlasting gospel to preach unto them that dwell on the earth, and to every nation, kindred, tongue, and people. This gospel is not a new doctrine. It is God\'s eternal binding promise of grace, and it stands on the sacrifice and righteousness of Christ. It is proclaimed with urgency across the whole sky, right before the harvest of the earth. First principle: the truth for the end time restores the everlasting gospel to its first purity.',
     sourceKeywords: ['angel fly in the midst of heaven', 'everlasting gospel', 'preach unto them that dwell on the earth', 'every nation', 'kindred', 'tongue', 'people'],
     fulfillmentKeywords: ['gospel of the kingdom', 'all nations', 'then shall the end come', 'righteousness of faith'],
     terms: [
-      { term: 'everlasting gospel', original: 'εὐαγγέλιον αἰώνιον', translit: 'euangelion aiōnion', gloss: 'eternal good news', note: 'Unchanging message of redemption through Christ from Genesis to Revelation.' },
-      { term: 'midst of heaven', original: 'μεσουρανήματι', translit: 'mesouranēmati', gloss: 'mid-heaven, zenith', note: 'Universal visibility and high authority of the proclamation.' },
+      { term: 'everlasting gospel', original: 'εὐαγγέλιον αἰώνιον', translit: 'euangelion aiōnion', gloss: 'eternal good news', note: 'The message never changes. God buys people back through Christ, from Genesis to Revelation.' },
+      { term: 'midst of heaven', original: 'μεσουρανήματι', translit: 'mesouranēmati', gloss: 'mid-heaven, zenith', note: 'The whole world can see the angel, and the message carries great authority.' },
     ],
   },
   'rev-14-8': {
     title: 'The Second Angel\'s Message — Babylon is Fallen',
     principle:
-      'Another angel follows, saying: "Babylon is fallen, is fallen, that great city, because she made all nations drink of the wine of the wrath of her fornication." Babylon represents apostate religious systems that have departed from Sola Scriptura, uniting church and state and substituting human dogmas (Sunday sacredness, immortal soul, works-righteousness) for the Word of God. First principle: God calls His people to discern spiritual apostasy and separate from corrupt religious alliances.',
+      'Another angel follows, saying: "Babylon is fallen, is fallen, that great city, because she made all nations drink of the wine of the wrath of her fornication." Babylon stands for religious systems that have fallen away. They no longer hold that Scripture alone is the authority, they join church and state, and they put human teaching in the place of the Word of God. Those teachings include Sunday sacredness, the immortal soul, and works-righteousness. First principle: God calls His people to see spiritual apostasy for what it is and to separate from corrupt religious alliances.',
     sourceKeywords: ['Babylon is fallen', 'great city', 'wine of the wrath of her fornication', 'all nations'],
     fulfillmentKeywords: ['Come out of her my people', 'fall of Babylon', 'mother of harlots', 'abominations of the earth'],
     terms: [
-      { term: 'is fallen, is fallen', original: 'ἔπεσεν, ἔπεσεν', translit: 'epesen, epesen', gloss: 'fell, fell (prophetic aorist / certainty)', note: 'Echoes Isaiah 21:9 and Jeremiah 51:8; progressive moral apostasy.' },
+      { term: 'is fallen, is fallen', original: 'ἔπεσεν, ἔπεσεν', translit: 'epesen, epesen', gloss: 'fell, fell (prophetic aorist / certainty)', note: 'These words echo Isaiah 21:9 and Jeremiah 51:8. The falling away from God is moral, and it happens step by step.' },
       { term: 'wine of her fornication', original: 'τοῦ οἴνου τοῦ θυמוῦ τῆς πορνείας', translit: 'tou oinou tou thymou tēs porneias', gloss: 'the wine of the passion/wrath of her unfaithfulness', note: 'False doctrines intoxicating the nations.' },
     ],
   },
   'rev-14-9': {
     title: 'The Third Angel\'s Message — Warning Against the Beast and His Mark',
     principle:
-      'The third angel sounds with a loud voice, warning against worshiping the beast and his image and receiving his mark in forehead or hand. This is the most terrible warning in all of Scripture. The mark of the beast stands as the counterfeit seal of authority opposed to the seal of God (the Sabbath of the Creator). First principle: the final conflict is over worship—obedience to God\'s commandments versus submission to human religious legislation.',
+      'The third angel sounds with a loud voice. He warns against worshiping the beast and his image and against receiving his mark in forehead or hand. This is the most terrible warning in the whole of Scripture. The mark of the beast is a false seal of authority. It is set against the seal of God, and that seal is the Sabbath of the Creator. First principle: the last conflict is over worship. It is obedience to God\'s commandments against submission to human religious laws.',
     sourceKeywords: ['If any man worship the beast', 'his image', 'receive his mark in his forehead', 'in his hand', 'wine of the wrath of God'],
     fulfillmentKeywords: ['seal of God', 'mark of the beast', 'commandments of God', 'patience of the saints'],
     terms: [
-      { term: 'mark', original: 'χάραγμα', translit: 'charagma', gloss: 'stamp, mark, impress, badge of servitude', note: 'Counterfeit sign of allegiance opposed to the seal (sphragis) of the living God.' },
-      { term: 'wrath of God', original: 'τοῦ θυμοῦ τοῦ θεοῦ', translit: 'tou thymou tou theou', gloss: 'the unmingled indignation of God', note: 'The seven last plagues poured out without mixture of mercy upon unrepentant rebellion.' },
+      { term: 'mark', original: 'χάραγμα', translit: 'charagma', gloss: 'stamp, mark, impress, badge of servitude', note: 'A false sign of loyalty, set against the seal (sphragis) of the living God.' },
+      { term: 'wrath of God', original: 'τοῦ θυμοῦ τοῦ θεοῦ', translit: 'tou thymou tou theou', gloss: 'the unmingled indignation of God', note: 'The seven last plagues are poured out with no mercy mixed in. They fall on people who refuse to repent.' },
     ],
   },
   'rev-18-1': {
     title: 'The Loud Cry — Earth Lightened with His Glory',
     principle:
-      'John sees another angel come down from heaven having great power, and the earth was lightened with his glory. This represents the final outpouring of the Holy Spirit (the Latter Rain), empowering the Three Angels\' Messages with a "Loud Cry" that summons every honest soul: "Come out of her, My people, that ye be not partakers of her sins" (Rev 18:4). First principle: God never brings judgment without first providing the fullest revelation of His character and truth.',
+      'John sees another angel come down from heaven having great power, and the earth was lightened with his glory. This is the last great outpouring of the Holy Spirit, the Latter Rain. It gives the Three Angels\' Messages their "Loud Cry", and that cry calls every honest person: "Come out of her, My people, that ye be not partakers of her sins" (Rev 18:4). First principle: God never brings judgment without first showing his character and his truth as fully as they can be shown.',
     sourceKeywords: ['angel come down from heaven', 'great power', 'earth was lightened with his glory', 'Loud Cry', 'Come out of her my people'],
     fulfillmentKeywords: ['latter rain', 'Habakkuk 2:14', 'glory of the Lord', 'harvest of the earth'],
     terms: [
-      { term: 'lightened with his glory', original: 'ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ', translit: 'ephōtisthē ek tēs doxēs autou', gloss: 'was illuminated from His glory', note: 'The final, worldwide revelation of God\'s loving and righteous character.' },
+      { term: 'lightened with his glory', original: 'ἐφωτίσθη ἐκ τῆς δόξης αὐτοῦ', translit: 'ephōtisthē ek tēs doxēs autou', gloss: 'was illuminated from His glory', note: 'The last worldwide display of God\'s loving and righteous character.' },
     ],
   },
   'isa-14-12': {
@@ -1460,12 +1460,12 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-19-10': {
     title: 'The Testimony of Jesus is the Spirit of Prophecy',
     principle:
-      'When John falls down to worship the angel, the angel commands: "See thou do it not: I am thy fellowservant, and of thy brethren that have the testimony of Jesus: worship God: for the testimony of Jesus is the spirit of prophecy." In Revelation 22:9, the angel parallelizes "thy brethren that have the testimony of Jesus" with "thy brethren the prophets." First principle: the identifying hallmark of the end-time remnant church (Rev 12:17) is the living manifestation of the prophetic voice through the Holy Spirit.',
+      'John falls down to worship the angel, and the angel commands: "See thou do it not: I am thy fellowservant, and of thy brethren that have the testimony of Jesus: worship God: for the testimony of Jesus is the spirit of prophecy." In Revelation 22:9, the angel sets "thy brethren that have the testimony of Jesus" beside "thy brethren the prophets." First principle: this marks the church of the last days, the faithful few who are left (Rev 12:17). The prophetic voice speaks among them by the Holy Spirit, and that voice is alive.',
     sourceKeywords: ['worship God', 'testimony of Jesus', 'spirit of prophecy', 'fellowservant'],
     fulfillmentKeywords: ['remnant church', 'Revelation 12:17', 'Revelation 22:9', 'Amos 3:7', 'commandments of God'],
     terms: [
-      { term: 'the testimony of Jesus', original: 'ἡ μαρτυρία Ἰησοῦ', translit: 'hē martyria Iēsou', gloss: 'the testimony of Jesus / witness born by Jesus', note: 'Genitive of source: the message Jesus Himself communicates to His people through prophets.' },
-      { term: 'spirit of prophecy', original: 'τὸ πνεῦμα τῆς προφητείας', translit: 'to pneuma tēs prophēteias', gloss: 'the Holy Spirit inspiring the prophetic gift', note: 'Affirms the active continuation of the prophetic gift in the remnant.' },
+      { term: 'the testimony of Jesus', original: 'ἡ μαρτυρία Ἰησοῦ', translit: 'hē martyria Iēsou', gloss: 'the testimony of Jesus / the witness Jesus bears', note: 'The phrase means the message comes from Jesus. He gives it to His people through prophets.' },
+      { term: 'spirit of prophecy', original: 'τὸ πνεῦμα τῆς προφητείας', translit: 'to pneuma tēs prophēteias', gloss: 'the Holy Spirit inspiring the prophetic gift', note: 'This shows the prophetic gift is still at work among the faithful few who are left.' },
     ],
   },
   'lev-25-10': {
@@ -1503,23 +1503,23 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-20-14': {
     title: 'The Lake of Fire — The Second Death and End of Sin',
     principle:
-      'And death and hell (hades/grave) were cast into the lake of fire. This is the second death. The fire that comes down from God out of heaven devours the wicked (Rev 20:9) and consumes them into ashes (Mal 4:1-3). Sin, Satan, death, and the grave are permanently eliminated from God\'s creation. First principle: God is a consuming fire to sin; the second death is the total extinction of evil, preserving the universe pure forever.',
+      'And death and hell (hades/grave) were cast into the lake of fire. This is the second death. The fire that comes down from God out of heaven devours the wicked (Rev 20:9). It burns them to ashes (Mal 4:1-3). Sin, Satan, death, and the grave are taken out of God\'s creation for good. First principle: God is a consuming fire to sin. The second death wipes evil out completely, and the universe stays pure forever.',
     sourceKeywords: ['death and hell were cast into the lake of fire', 'second death', 'lake of fire'],
     fulfillmentKeywords: ['Malachi 4:1-3', 'ashes under the soles of feet', 'affliction shall not rise again', 'all things new'],
     terms: [
-      { term: 'second death', original: 'ὁ δεύτερος θάνατος', translit: 'ho deuteros thanatos', gloss: 'the second / final death', note: 'Irreversible extinction; contrast with the first death which is an unconscious sleep awaiting resurrection.' },
+      { term: 'second death', original: 'ὁ δεύτερος θάνατος', translit: 'ho deuteros thanatos', gloss: 'the second / final death', note: 'The end is final and cannot be undone. The first death is different. It is an unconscious sleep that waits for the resurrection.' },
       { term: 'lake of fire', original: 'λίמνην τοῦ πυρός', translit: 'limnēn tou pyros', gloss: 'lake of fire / divine purifying flame', note: 'Consumes everything contrary to God\'s holiness.' },
     ],
   },
   'rev-21-1': {
     title: 'New Heavens and New Earth — All Things Made New',
     principle:
-      'And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea. The Holy City, New Jerusalem, descends from God out of heaven; God Himself will dwell with His people, wipe away all tears, and there shall be no more death, sorrow, crying, nor pain. First principle: God\'s original creation purpose is completely fulfilled; the earth is restored to its Edenic beauty for eternity.',
+      '"And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea." The Holy City, New Jerusalem, descends from God out of heaven. God Himself will dwell with His people and wipe away all tears. Then there shall be no more death, sorrow, crying, nor pain. First principle: God finishes what he began at creation. The earth is made beautiful again, like Eden, and it stays that way forever.',
     sourceKeywords: ['new heaven and a new earth', 'first heaven and the first earth were passed away', 'no more sea', 'New Jerusalem', 'God shall wipe away all tears'],
     fulfillmentKeywords: ['Isaiah 65:17', '2 Peter 3:13', 'tabernacle of God is with men', 'no more death'],
     terms: [
-      { term: 'new heaven and earth', original: 'οὐρανὸν καινὸν καὶ γῆν καινήν', translit: 'ouranon kainon kai gēn kainēn', gloss: 'new / fresh / renewed heaven and earth', note: 'Kainos — renewed in quality and nature, cleansed from all curse and taint of sin.' },
-      { term: 'no more sea', original: 'ἡ θάλασσα οὐκ ἔστιν ἔτι', translit: 'hē thalassa ouk estin eti', gloss: 'the sea exists no longer', note: 'Symbol of division, chaos, and restless storms removed forever.' },
+      { term: 'new heaven and earth', original: 'οὐρανὸν καινὸν καὶ γῆν καινήν', translit: 'ouranon kainon kai gēn kainēn', gloss: 'new / fresh / renewed heaven and earth', note: 'Kainos — fresh and new in what it is, washed clean of every curse and every trace of sin.' },
+      { term: 'no more sea', original: 'ἡ θάλασσα οὐκ ἔστιν ἔτι', translit: 'hē thalassa ouk estin eti', gloss: 'the sea exists no longer', note: 'The sea stands for division, chaos, and restless storms. It is gone forever.' },
     ],
   },
   'deu-6-4': {
@@ -1643,51 +1643,51 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-7-2': {
     title: 'The Seal of the Living God — Settling Into Truth (Sphragis)',
     principle:
-      'And I saw another angel ascending from the east, having the seal of the living God: and he cried with a loud voice to the four angels, to whom it was given to hurt the earth and the sea, Saying, Hurt not the earth, neither the sea, nor the trees, till we have sealed the servants of our God in their foreheads. The seal of God designates character maturity and loyalty to the Fourth Commandment Creator-worship.',
+      '"And I saw another angel ascending from the east, having the seal of the living God: and he cried with a loud voice to the four angels, to whom it was given to hurt the earth and the sea, Saying, Hurt not the earth, neither the sea, nor the trees, till we have sealed the servants of our God in their foreheads." The seal of God shows that a person has grown into settled character. It also marks loyalty to the Creator honored in the Fourth Commandment.',
     sourceKeywords: ['seal of the living God', 'four winds held', 'sealed in their foreheads', 'servants of our God'],
     fulfillmentKeywords: ['144,000', 'Father\'s name in foreheads', 'mark on the foreheads', 'commandments of God'],
     terms: [
-      { term: 'seal / signet', original: 'σφραγῖδα', translit: 'sphragida', gloss: 'seal, stamp of ownership and authentication', note: 'Contains divine name, office (Creator), and territory (heaven and earth) found in Fourth Commandment.' },
+      { term: 'seal / signet', original: 'σφραγῖδα', translit: 'sphragida', gloss: 'seal, a stamp that shows who owns it and that it is genuine', note: 'The seal carries the divine name, the office of Creator, and the territory of heaven and earth. All three are found in the Fourth Commandment.' },
     ],
   },
   'rev-13-11': {
     title: 'The Two-Horned Beast & The Coercive Mark (Charagma)',
     principle:
-      'And I beheld another beast coming up out of the earth; and he had two horns like a lamb, and he spake as a dragon. And he exerciseth all the power of the first beast before him, and causeth the earth and them which dwell therein to worship the first beast, whose deadly wound was healed. He causes all to receive a mark in their right hand or foreheads on pain of economic boycott and death.',
+      '"And I beheld another beast coming up out of the earth; and he had two horns like a lamb, and he spake as a dragon." "And he exerciseth all the power of the first beast before him, and causeth the earth and them which dwell therein to worship the first beast, whose deadly wound was healed." He forces everyone to receive a mark in the right hand or on the forehead. Those who refuse face a trade boycott and death.',
     sourceKeywords: ['two horns like a lamb', 'spake as a dragon', 'mark of the beast', 'buy or sell', 'image to the beast'],
     fulfillmentKeywords: ['third angel warning', 'wrath of God', 'commandments of God and faith of Jesus'],
     terms: [
-      { term: 'mark / stamp', original: 'χάραγμα', translit: 'charagma', gloss: 'imprint, stamp, mark of servitude / counterfeit seal', note: 'Enforced Sunday observance in homage to papal ecclesiastical authority over Scripture.' },
+      { term: 'mark / stamp', original: 'χάραγμα', translit: 'charagma', gloss: 'imprint, stamp, mark of servitude / counterfeit seal', note: 'Sunday worship is enforced as homage to the papal church\'s authority over Scripture.' },
     ],
   },
   'rev-16-1': {
     title: 'The Seven Last Plagues — Unmingled Divine Wrath',
     principle:
-      'And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth. The plagues are unmixed with mercy, falling exclusively upon those who have irrevocably chosen the beast\'s mark after probation closes, vindicating God\'s justice and delivering the remnant.',
+      '"And I heard a great voice out of the temple saying to the seven angels, Go your ways, and pour out the vials of the wrath of God upon the earth." The plagues have no mercy mixed in. They fall only on those who have settled their choice for the beast\'s mark after probation closes. In that, God\'s justice is shown to be right, and the faithful few who are left are delivered.',
     sourceKeywords: ['pour out the vials of the wrath of God', 'grievous sore', 'sea became as blood', 'Euphrates dried up', 'It is done'],
     fulfillmentKeywords: ['time of trouble', 'deliverance of saints', 'plagues shall not come nigh thy dwelling'],
     terms: [
-      { term: 'vials / golden bowls', original: 'φιάλας', translit: 'phialas', gloss: 'broad shallow bowls / censers of judgment', note: 'Corresponds to temple censers poured out when intercession ends.' },
+      { term: 'vials / golden bowls', original: 'φιάλας', translit: 'phialas', gloss: 'broad shallow bowls / censers of judgment', note: 'These match the temple censers. They are poured out when Jesus finishes pleading for us before the Father.' },
     ],
   },
   'rev-20-9': {
     title: 'The Final Siege & Devouring Fire — The Second Death',
     principle:
-      'And they went up on the breadth of the earth, and compassed the camp of the saints about, and the beloved city: and fire came down from God out of heaven, and devoured them. At the close of the 1,000 years, the resurrected wicked under Satan attempt to conquer New Jerusalem. The Great White Throne appears; every knee bows, and divine purifying fire consumes sin and sinners into eternal non-existence.',
+      '"And they went up on the breadth of the earth, and compassed the camp of the saints about, and the beloved city: and fire came down from God out of heaven, and devoured them." At the close of the 1,000 years, the wicked are raised, and Satan leads them to attack New Jerusalem. The Great White Throne appears. Every knee bows. God\'s purifying fire burns up sin and sinners, and they are gone forever.',
     sourceKeywords: ['compassed the camp of the saints', 'the beloved city', 'fire came down from God', 'devoured them'],
     fulfillmentKeywords: ['Malachi 4:1-3', 'ashes under feet', 'lake of fire', 'second death'],
     terms: [
-      { term: 'devoured them', original: 'κατέφαγεν αὐτούς', translit: 'katephagen autous', gloss: 'consumed / devoured them completely', note: 'Total destruction leaving neither root nor branch; refutes eternal conscious torment.' },
+      { term: 'devoured them', original: 'κατέφαγεν αὐτούς', translit: 'katephagen autous', gloss: 'consumed / devoured them completely', note: 'This is total destruction: neither root nor branch is left. That rules out the teaching that the lost are tormented forever while conscious.' },
     ],
   },
   'rev-22-11': {
     title: 'The Close of Probation — The Final Irrevocable Decree',
     principle:
-      'He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still. And, behold, I come quickly; and My reward is with Me, to give every man according as his work shall be. Christ lays aside His priestly robes, ending mediation in the heavenly sanctuary.',
+      '"He that is unjust, let him be unjust still: and he which is filthy, let him be filthy still: and he that is righteous, let him be righteous still: and he that is holy, let him be holy still." "And, behold, I come quickly; and My reward is with Me, to give every man according as his work shall be." Christ lays aside His priestly robes, and his work of standing between God and us in the heavenly sanctuary now comes to an end.',
     sourceKeywords: ['unjust let him be unjust still', 'holy let him be holy still', 'behold I come quickly', 'my reward is with Me'],
     fulfillmentKeywords: ['Michael stands up', 'temple filled with smoke', 'door was shut'],
     terms: [
-      { term: 'still / permanently fixed', original: 'ἔτι', translit: 'eti', gloss: 'still, further, yet (denoting permanent moral state)', note: 'Characters are forever settled; probation has closed forever.' },
+      { term: 'still / permanently fixed', original: 'ἔτι', translit: 'eti', gloss: 'still, further, yet (denoting permanent moral state)', note: 'Each person\'s character is fixed for good. Probation has closed and will not open again.' },
     ],
   },
   'amo-9-9': {
@@ -4600,7 +4600,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-5': {
     title: 'The Faithful Witness, First Begotten of the Dead',
     principle:
-      'Jesus is named faithful witness, first-begotten from the dead, prince of earth\'s kings — loving us and washing us in His own blood. First principle: three titles, one Person — prophet, risen firstfruits, sovereign heir.',
+      'Jesus is named faithful witness, first-begotten from the dead, prince of earth\'s kings. He is the One who loves us and washes us in His own blood. First principle: three titles name one Person. He is prophet, risen firstfruits, and sovereign heir.',
     sourceKeywords: ['faithful witness', 'first begotten of the dead', 'prince of the kings', 'washed us from our sins'],
     fulfillmentKeywords: ['firstborn of every creature', 'the firstfruits of them that slept'],
     terms: [],
@@ -4608,7 +4608,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-6': {
     title: 'Hath Made Us Kings and Priests',
     principle:
-      'The washing Lamb makes a kingdom of priests to His God and Father. First principle: Exodus 19\'s covenant vocation transfers to the church — a blood-bought people given both throne and altar roles.',
+      'The Lamb washes us and makes us a kingdom of priests to His God and Father. First principle: at Exodus 19 God made a binding promise and gave Israel a calling. That calling now belongs to the church. Jesus bought this people with his own blood, and he gives them both a throne and an altar.',
     sourceKeywords: ['kings and priests unto God', 'to him be glory and dominion'],
     fulfillmentKeywords: ['a kingdom of priests, and an holy nation'],
     terms: [],
@@ -4616,7 +4616,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-8': {
     title: 'I Am Alpha and Omega, the Almighty',
     principle:
-      'The Lord who is, was, and is to come names Himself the alphabet and the end of all things. First principle: the God of Isaiah\'s titles is the speaker here — beginning and ending are His alone.',
+      'The Lord who is, was, and is to come names Himself the alphabet and the end of all things. First principle: this is the God whose titles Isaiah wrote down. Beginning and ending belong to him alone.',
     sourceKeywords: ['Alpha and Omega', 'the beginning and the ending', 'the Almighty'],
     fulfillmentKeywords: ['I the LORD, the first, and with the last'],
     terms: [],
@@ -4624,7 +4624,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-11': {
     title: 'What Thou Seest, Write in a Book',
     principle:
-      'The voice commands the writing and names the seven churches of Asia. First principle: revelation is entrusted to writing and to churches — the canon cycle begins and ends with a book.',
+      'The voice commands the writing and names the seven churches of Asia. First principle: God entrusts this revelation to a written book and to churches. The collection of Scripture begins with a book and ends with a book.',
     sourceKeywords: ['I am Alpha and Omega', 'write in a book', 'the seven churches'],
     fulfillmentKeywords: [],
     terms: [],
@@ -4632,7 +4632,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-13': {
     title: 'One Like unto the Son of Man',
     principle:
-      'Among the candlesticks walks a Son-of-man figure in priestly garment and golden girdle — Daniel 7 and Ezekiel 1 fused. First principle: the glorified Christ is both Priest tending lamps and Judge walking among His churches.',
+      'A figure like the Son of man walks among the candlesticks. He wears a priestly garment and a golden girdle. Daniel 7 and Ezekiel 1 are woven together in this picture. First principle: the glorified Christ is both the Priest who tends the lamps and the Judge who walks among His churches.',
     sourceKeywords: ['one like unto the Son of man', 'garment down to the foot', 'a golden girdle'],
     fulfillmentKeywords: ['one like the Son of man came with the clouds', 'his body also was like the beryl'],
     terms: [],
@@ -4640,7 +4640,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-1-17': {
     title: 'Fear Not; I Am the First and the Last',
     principle:
-      'John falls as dead; the glorified Christ lays a right hand on him and speaks Isaiah\'s self-title. First principle: the same hand that touched Daniel and the disciples touches the seer — divine identity plus personal tenderness.',
+      'John falls down as dead. The glorified Christ lays a right hand on him and speaks the title Isaiah used of God. First principle: the same hand that touched Daniel and the disciples touches John. The hand shows that he is God, and it shows kindness to one man.',
     sourceKeywords: ['I fell at his feet as dead', 'Fear not', 'I am the first and the last'],
     fulfillmentKeywords: ['Fear not, Daniel', 'I the LORD, the first'],
     terms: [],
@@ -4648,7 +4648,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-2-7': {
     title: 'To Him That Overcometh Will I Give the Tree of Life',
     principle:
-      'The Eden tree, guarded since the fall, is promised to overcomers. First principle: the church\'s promises are Genesis promises — paradise regained by the Conqueror for the conquering.',
+      'The tree in Eden, guarded since the fall, is promised to overcomers. First principle: the promises given to the church are the promises of Genesis. The Conqueror wins Paradise back for those who conquer.',
     sourceKeywords: ['he that hath an ear', 'to him that overcometh', 'the tree of life'],
     fulfillmentKeywords: ['the tree of life also in the midst of the garden', 'lest he put forth his hand'],
     terms: [],
@@ -4656,7 +4656,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-2-17': {
     title: 'The Hidden Manna and a White Stone with a New Name',
     principle:
-      'Overcomers eat from the hidden store and receive a private name. First principle: wilderness bread preserved in heaven, and an identity known between God and the receiver.',
+      'Overcomers eat from the hidden store and receive a private name. First principle: this is wilderness bread kept safe in heaven. It is also a name that only God and the one who receives it know.',
     sourceKeywords: ['the hidden manna', 'a white stone', 'a new name written'],
     fulfillmentKeywords: ['I will rain bread from heaven'],
     terms: [],
@@ -4664,7 +4664,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-2-23': {
     title: 'I Am He Which Searcheth the Reins and Hearts',
     principle:
-      'The Son claims the searcher-of-hearts title and repays according to works. First principle: God\'s incommunicable knowledge of hearts belongs to Jesus — the churches are searched, not surveyed.',
+      'The Son claims the title of the One who searches hearts, and he repays each person according to works. First principle: the knowledge of hearts that belongs to God alone belongs to Jesus. He searches the churches. He does not merely look them over.',
     sourceKeywords: ['searcheth the reins and hearts', 'give unto every one of you according to your works'],
     fulfillmentKeywords: ['I the LORD search the heart'],
     terms: [],
@@ -4672,7 +4672,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-2-27': {
     title: 'He Shall Rule Them with a Rod of Iron',
     principle:
-      'Psalm 2\'s iron scepter is delegated to the overcomer — even as I received of my Father. First principle: messianic dominion is shared with the faithful; the Son\'s inheritance includes co-regents.',
+      'Psalm 2\'s iron scepter is handed to the overcomer: "even as I received of my Father". First principle: the Messiah shares his rule with the faithful. The Son\'s inheritance includes people who rule with him.',
     sourceKeywords: ['rule them with a rod of iron', 'vessels of a potter', 'even as I received of my Father'],
     fulfillmentKeywords: ['thou shalt break them with a rod of iron'],
     terms: [],
@@ -4680,7 +4680,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-2-28': {
     title: 'And I Will Give Him the Morning Star',
     principle:
-      'Balaam\'s star out of Jacob is Christ\'s gift to victors. First principle: the Star promised over Israel becomes the dawn-pledge given to every overcomer — He gives Himself.',
+      'The star Balaam saw coming out of Jacob is Christ\'s gift to those who conquer. First principle: the Star promised over Israel becomes the gift of the morning star, given to every overcomer. He gives Himself.',
     sourceKeywords: ['I will give him the morning star'],
     fulfillmentKeywords: ['there shall come a Star out of Jacob', 'a light that shineth'],
     terms: [],
@@ -4688,7 +4688,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-3-5': {
     title: 'I Will Not Blot Out His Name out of the Book of Life',
     principle:
-      'White raiment, an unblotted name, and confession before the Father. First principle: the Lamb keeps a book and speaks names aloud in heaven — the register is as personal as it is permanent.',
+      'White raiment, an unblotted name, and confession before the Father. First principle: the Lamb keeps a book in heaven, and he reads the names aloud. That book is not a cold list. Every name in it matters, and every name stays.',
     sourceKeywords: ['clothed in white raiment', 'the book of life', 'I will confess his name'],
     fulfillmentKeywords: ['whosoever was not found written in the book of life'],
     terms: [],
@@ -4696,7 +4696,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-3-7': {
     title: 'He That Hath the Key of David',
     principle:
-      'The holy and true One holds Eliakim\'s key — open, and none shut. First principle: the door of the kingdom answers to David\'s throne; Christ opens what no opposition can close.',
+      'The holy and true One holds the key Eliakim was given. He opens, and no one shuts. First principle: this key belongs to David\'s throne. Christ opens what no opposition can close.',
     sourceKeywords: ['he that is holy, he that is true', 'the key of David', 'openeth, and no man shutteth'],
     fulfillmentKeywords: ['the key of the house of David'],
     terms: [],
@@ -4704,7 +4704,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-3-18': {
     title: 'Buy of Me Gold Tried in the Fire',
     principle:
-      'Laodicea is counselled to real wealth, white raiment, and eyesalve. First principle: the self-rich church needs purchased grace — garments for shame, sight for blindness, gold for poverty.',
+      'Laodicea is counselled to buy real wealth, white raiment, and eyesalve. First principle: the church that thinks it is rich needs grace that was bought for it. Christ offers garments for its shame, sight for its blindness, and gold for its poverty.',
     sourceKeywords: ['gold tried in the fire', 'white raiment', 'anoint thine eyes with eyesalve'],
     fulfillmentKeywords: ['he hath clothed me with the garments of salvation'],
     terms: [],
@@ -4712,7 +4712,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-3-21': {
     title: 'I Will Grant to Sit with Me in My Throne',
     principle:
-      'As Christ overcame and sat with the Father, overcomers sit with Him. First principle: the throne is shared the way the suffering was shared — the overcomer\'s seat is purchased by the Overcomer.',
+      'Christ overcame and sat down with the Father, and overcomers sit with Him. First principle: the throne is shared the way the suffering was shared. The Overcomer bought the seat, and he gives it to those who overcome.',
     sourceKeywords: ['to him that overcometh', 'sit with me in my throne', 'as I also overcame'],
     fulfillmentKeywords: ['Sit thou at my right hand'],
     terms: [],
@@ -4720,7 +4720,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-4-8': {
     title: 'Holy, Holy, Holy, Lord God Almighty',
     principle:
-      'The four living creatures rest not day and night, chanting Isaiah\'s trisagion. First principle: heaven\'s liturgy is timeless and triple-holy — the which-was-and-is-and-is-to-come God of Exodus and Isaiah.',
+      'The four living creatures rest not day and night, singing "Holy, holy, holy". First principle: heaven\'s worship never stops, and it calls God holy three times. He is the "which was, and is, and is to come" God of Exodus and Isaiah.',
     sourceKeywords: ['Holy, holy, holy', 'rest not day and night', 'which was, and is, and is to come'],
     fulfillmentKeywords: ['Holy, holy, holy, is the LORD of hosts'],
     terms: [],
@@ -4728,7 +4728,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-5-6': {
     title: 'A Lamb as It Had Been Slain',
     principle:
-      'In the throne\'s midst stands a slain Lamb with seven horns and seven eyes. First principle: the throne\'s center is a sacrifice — omnipotence and offering are one sight.',
+      'In the throne\'s midst stands a Lamb, slain, with seven horns and seven eyes. First principle: the center of the throne is a sacrifice. All power and a slain Lamb meet in one sight there.',
     sourceKeywords: ['a Lamb as it had been slain', 'seven horns', 'seven eyes'],
     fulfillmentKeywords: ['he is brought as a lamb to the slaughter'],
     terms: [],
@@ -4736,7 +4736,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-5-9': {
     title: 'Thou Hast Redeemed Us to God by Thy Blood',
     principle:
-      'The new song names the purchase: slain, redeeming out of every kindred, tongue, people, and nation. First principle: the worthiness of the Lamb is a redemption song with a global roster.',
+      'The new song names what was bought: slain, redeeming out of every kindred, tongue, people, and nation. First principle: the Lamb\'s worth is sung in a song about buying people back. The list of the bought reaches the whole world.',
     sourceKeywords: ['Thou art worthy', 'hast redeemed us to God by thy blood', 'every kindred, and tongue'],
     fulfillmentKeywords: ['he shall see of the travail', 'purchased with his own blood'],
     terms: [],
@@ -4744,7 +4744,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-5-10': {
     title: 'Kings and Priests, and We Shall Reign on the Earth',
     principle:
-      'The redeemed are made a reigning priesthood. First principle: Eden\'s commission and Sinai\'s calling conclude in earth-reign — not escape from the world but lordship restored in it.',
+      'The redeemed are made a reigning priesthood. First principle: the work God gave Adam in Eden and the calling he gave Israel at Sinai end in a reign on earth. The redeemed do not escape the world. They rule in it again.',
     sourceKeywords: ['made us unto our God kings and priests', 'we shall reign on the earth'],
     fulfillmentKeywords: ['a kingdom of priests, and an holy nation'],
     terms: [],
@@ -4752,7 +4752,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-5-12': {
     title: 'Worthy Is the Lamb That Was Slain',
     principle:
-      'Seven-fold praise answers the slain Lamb: power, riches, wisdom, strength, honour, glory, blessing. First principle: heaven\'s arithmetic — the Lamb who lost everything receives everything.',
+      'Seven-fold praise is given to the slain Lamb: power, riches, wisdom, strength, honour, glory, blessing. First principle: heaven counts differently from us. The Lamb who lost everything receives everything.',
     sourceKeywords: ['Worthy is the Lamb that was slain', 'power, and riches, and wisdom'],
     fulfillmentKeywords: ['Judah is a lion\'s whelp', 'he shall have dominion'],
     terms: [],
@@ -4760,7 +4760,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-5-13': {
     title: 'Every Creature... Blessing, and Honour, and Glory',
     principle:
-      'All creation joins the doxology to the Enthroned and the Lamb. First principle: the end of prophecy is universal worship — Philippians 2\'s every-tongue confession in apocalyptic panorama.',
+      'All creation joins the song of praise to the Enthroned One and the Lamb. First principle: prophecy ends in worship from every creature. Philippians 2\'s confession of every tongue is shown here in a vision of the last days.',
     sourceKeywords: ['every creature', 'Blessing, and honour, and glory, and power', 'unto the Lamb for ever'],
     fulfillmentKeywords: ['every thing that hath breath praise the LORD'],
     terms: [],
@@ -4768,7 +4768,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-7-9': {
     title: 'A Great Multitude of All Nations',
     principle:
-      'The uncountable multitude — every nation, kindred, people, tongue — stands before the throne with palms. First principle: Abraham\'s stars-and-sand promise fills a throne room; the covenant reached the whole world.',
+      'The uncountable multitude stands before the throne with palms. They come from every nation, kindred, people, and tongue. First principle: the promise of stars and sand made to Abraham fills a throne room. God\'s binding promise reached the whole world.',
     sourceKeywords: ['a great multitude, which no man could number', 'all nations, and kindreds', 'clothed with white robes'],
     fulfillmentKeywords: ['in thy seed shall all the nations', 'look toward heaven and tell the stars'],
     terms: [],
@@ -4776,7 +4776,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-7-14': {
     title: 'Washed Their Robes in the Blood of the Lamb',
     principle:
-      'The great-tribulation multitude comes out with white robes. First principle: stain removal is by blood, not by suffering — tribulation marks the path, the Lamb\'s blood does the washing.',
+      'The great-tribulation multitude comes out with white robes. First principle: stain removal is by blood, not by suffering. Tribulation marks the path, the Lamb\'s blood does the washing.',
     sourceKeywords: ['came out of great tribulation', 'washed their robes', 'made them white in the blood'],
     fulfillmentKeywords: ['though your sins be as scarlet', 'they shall be white as snow'],
     terms: [],
@@ -4784,7 +4784,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-7-17': {
     title: 'The Lamb Shall Feed Them',
     principle:
-      'The throne-Lamb shepherds to living fountains, and God wipes away tears. First principle: the Shepherd of Psalm 23 is the Lamb on the throne — every tear has an appointed end.',
+      'The Lamb on the throne leads his people to living fountains, and God wipes away tears. First principle: the Shepherd of Psalm 23 is the same person as the Lamb on the throne. Every tear has an appointed end.',
     sourceKeywords: ['the Lamb... shall feed them', 'living fountains of waters', 'wipe away all tears'],
     fulfillmentKeywords: ['He maketh me to lie down in green pastures', 'He will swallow up death in victory'],
     terms: [],
@@ -4792,7 +4792,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-11-15': {
     title: 'The Kingdoms of This World Are Become His',
     principle:
-      'The seventh trumpet announces the transfer: our Lord\'s and His Christ\'s, reigning for ever. First principle: the direction of history is announced, not negotiated — Daniel 2 and 7 arrive on schedule.',
+      'The seventh trumpet announces the transfer of rule. The kingdom now belongs to our Lord and to His Christ, and he reigns for ever. First principle: the direction of history is announced, not negotiated. Daniel 2 and 7 arrive on schedule.',
     sourceKeywords: ['the seventh angel sounded', 'kingdoms of this world are become', 'he shall reign for ever and ever'],
     fulfillmentKeywords: ['shall the God of heaven set up a kingdom', 'dominion... was given him'],
     terms: [],
@@ -4800,7 +4800,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-12-5': {
     title: 'She Brought Forth a Man Child',
     principle:
-      'The woman\'s child rules all nations with a rod of iron and is caught up to God\'s throne. First principle: Genesis 3:15\'s Seed and Psalm 2\'s Son are the same Man — born, caught up, destined to rule.',
+      'The woman\'s child rules all nations with a rod of iron, and he is caught up to God\'s throne. First principle: the Seed promised in Genesis 3:15 and the Son promised in Psalm 2 are the same Man. He is born, he is caught up, and he is destined to rule.',
     sourceKeywords: ['a man child', 'to rule all nations with a rod of iron', 'caught up unto God, and to his throne'],
     fulfillmentKeywords: ['it shall bruise thy head', 'thou shalt break them with a rod of iron'],
     terms: [],
@@ -4808,7 +4808,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-12-9': {
     title: 'That Old Serpent, Called the Devil',
     principle:
-      'The dragon is unmasked: the ancient serpent of Genesis, the deceiver of the whole world, cast out with his angels. First principle: Revelation names the snake behind every deception — and announces his eviction.',
+      'The dragon is named for what he is: the ancient serpent of Genesis, the deceiver of the whole world, and he is cast out with his angels. First principle: Revelation names the snake behind every deception. It also announces that he is thrown out.',
     sourceKeywords: ['that old serpent', 'the Devil, and Satan', 'deceiveth the whole world', 'cast out'],
     fulfillmentKeywords: ['the serpent was more subtil', 'It shall bruise thy head'],
     terms: [],
@@ -4816,7 +4816,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-12-10': {
     title: 'Now Is Come Salvation — the Accuser Is Cast Down',
     principle:
-      'Heaven voices the verdict: salvation, strength, kingdom, and the power of His Christ. First principle: the accuser\'s fall is the believer\'s assurance — the courtroom is won before the battle ends.',
+      'Heaven announces the verdict: salvation, strength, kingdom, and the power of His Christ. First principle: when the accuser falls, the believer is assured. The courtroom is won before the battle ends.',
     sourceKeywords: ['Now is come salvation', 'the power of his Christ', 'the accuser of our brethren is cast down'],
     fulfillmentKeywords: ['Satan also came among them', 'The LORD rebuke thee, O Satan'],
     terms: [],
@@ -4824,7 +4824,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-12-11': {
     title: 'They Overcame Him by the Blood of the Lamb',
     principle:
-      'Victory over the dragon: the blood, the testimony, and lives not loved unto death. First principle: conquest is cruciform — blood applied, word spoken, life surrendered.',
+      'They overcome the dragon by the blood, by the testimony, and by lives not loved unto death. First principle: this victory comes through the cross. The blood is applied, the word is spoken, and the life is surrendered.',
     sourceKeywords: ['overcame him by the blood of the Lamb', 'the word of their testimony', 'loved not their lives'],
     fulfillmentKeywords: ['in all these things we are more than conquerors'],
     terms: [],
@@ -4832,7 +4832,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-14-1': {
     title: 'The Lamb on Mount Sion, 144,000 with His Name',
     principle:
-      'The sealed stand with the Lamb on Zion, His Father\'s name in their foreheads. First principle: the anti-mark — God\'s name where the beast writes his — marks the remnant as possession.',
+      'The sealed stand with the Lamb on Zion, and His Father\'s name is in their foreheads. First principle: this is the anti-mark. God\'s name is written where the beast writes his, and that marks the faithful few who are left as his own possession.',
     sourceKeywords: ['a Lamb stood on the mount Sion', 'an hundred forty and four thousand', 'his Father\'s name written in their foreheads'],
     fulfillmentKeywords: ['set a mark upon their foreheads'],
     terms: [],
@@ -4840,7 +4840,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-14-4': {
     title: 'These Follow the Lamb Whithersoever He Goeth',
     principle:
-      'The redeemed are undefiled, firstfruits to God and the Lamb. First principle: the mark of the sealed is mobility — following the Lamb anywhere — and consecration, firstfruits for God.',
+      'The redeemed are undefiled, firstfruits to God and the Lamb. First principle: those who are sealed are marked by movement and by being set apart. They follow the Lamb anywhere, and they are firstfruits for God.',
     sourceKeywords: ['not defiled', 'follow the Lamb whithersoever he goeth', 'the firstfruits unto God'],
     fulfillmentKeywords: ['a chaste virgin unto Christ'],
     terms: [],
@@ -4848,7 +4848,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-14-11': {
     title: 'The Smoke of Their Torment Ascendeth for Ever',
     principle:
-      'Worship of the beast has unending consequence. First principle: the eternity of the warning is part of its mercy — Isaiah and Daniel\'s worm and fire frame the choice as ultimate.',
+      'Worship of the beast has an unending consequence. First principle: the warning never ends, and that is part of its mercy. Isaiah and Daniel point to the worm and the fire. That makes the choice final.',
     sourceKeywords: ['the smoke of their torment', 'for ever and ever', 'the mark of his name'],
     fulfillmentKeywords: ['their worm shall not die', 'some to shame and everlasting contempt'],
     terms: [],
@@ -4856,7 +4856,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-14-13': {
     title: 'Blessed Are the Dead Which Die in the Lord',
     principle:
-      'The Spirit blesses the resting dead whose works follow. First principle: death in the Lord is not loss but rest with memory — labor ended, works accompanying.',
+      'The Spirit blesses the dead who rest, and their works follow them. First principle: death in the Lord is not loss. It is rest with memory: the labor has ended, and the works go with them.',
     sourceKeywords: ['Write, Blessed are the dead', 'die in the Lord', 'their works do follow them'],
     fulfillmentKeywords: ['thou shalt rest, and stand in thy lot'],
     terms: [],
@@ -4864,7 +4864,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-15-3': {
     title: 'The Song of Moses and the Song of the Lamb',
     principle:
-      'Sea-of-glass victors sing both songs: great and marvellous are thy works. First principle: the two covenants sing one doxology — the exodus song and the redemption song are finally one hymn.',
+      'The victors who stand on the sea of glass sing both songs: "great and marvellous are thy works". First principle: the two covenants sing one song of praise. The song of Moses and the song of the Lamb are finally one hymn.',
     sourceKeywords: ['the song of Moses the servant of God', 'the song of the Lamb', 'King of saints'],
     fulfillmentKeywords: ['Then sang Moses and the children of Israel'],
     terms: [],
@@ -4872,7 +4872,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-15-4': {
     title: 'All Nations Shall Come and Worship Before Thee',
     principle:
-      'Who shall not fear? The holiness of the Lord draws the nations\' worship. First principle: judgments are evangelistic — made manifest, they gather worshipers from every nation.',
+      'Who shall not fear? The holiness of the Lord draws the nations to worship. First principle: God\'s judgments bring people in. When they are seen, they gather worshipers from every nation.',
     sourceKeywords: ['Who shall not fear thee', 'thou only art holy', 'all nations shall come and worship'],
     fulfillmentKeywords: ['all nations shall flow unto it'],
     terms: [],
@@ -4880,7 +4880,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-19-7': {
     title: 'The Marriage of the Lamb Is Come',
     principle:
-      'Heaven rejoices: the Wife has made herself ready. First principle: redemption\'s finale is a wedding — the betrothed, granted fine linen, the righteousness of saints.',
+      'Heaven rejoices: the Wife has made herself ready. First principle: God\'s work of buying his people back ends in a wedding. The bride is given fine linen, and that linen is the righteousness of saints.',
     sourceKeywords: ['the marriage of the Lamb is come', 'his wife hath made herself ready'],
     fulfillmentKeywords: ['as the bridegroom rejoiceth over the bride'],
     terms: [],
@@ -4896,7 +4896,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-19-13': {
     title: 'His Name Is Called The Word of God',
     principle:
-      'The vesture dipped in blood bears the oldest name of the Son. First principle: John\'s Gospel and John\'s apocalypse agree — the Rider is the preexistent Word, now revealed in war garb.',
+      'The vesture dipped in blood bears the oldest name of the Son. First principle: John\'s Gospel and John\'s apocalypse agree. The Rider is the Word who existed before all things, and now he is seen in the clothes of war.',
     sourceKeywords: ['vesture dipped in blood', 'his name is called The Word of God'],
     fulfillmentKeywords: ['In the beginning was the Word'],
     terms: [],
@@ -4904,7 +4904,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-19-15': {
     title: 'He Shall Rule Them with a Rod of Iron',
     principle:
-      'A sword from His mouth smites nations; the winepress of God\'s wrath is trodden. First principle: Psalm 2 and Isaiah 63 converge on the day of the Lord — Shepherding and treading are the same scepter.',
+      'A sword comes from His mouth and strikes the nations. The winepress of God\'s wrath is trodden. First principle: Psalm 2 and Isaiah 63 meet on the day of the Lord. The same scepter both shepherds and treads.',
     sourceKeywords: ['a sharp sword', 'smite the nations', 'rod of iron', 'treadeth the winepress'],
     fulfillmentKeywords: ['thou shalt break them with a rod of iron', 'I have trodden the winepress alone'],
     terms: [],
@@ -4912,7 +4912,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-19-16': {
     title: 'KING OF KINGS, AND LORD OF LORDS',
     principle:
-      'The name is written on vesture and thigh. First principle: every other crown in history is subordinate — the title is a verdict on all rival sovereignties.',
+      'The name is written on the vesture and on the thigh. First principle: every other crown in history ranks below this one. The title is a verdict on every rival claim to rule.',
     sourceKeywords: ['KING OF KINGS, AND LORD OF LORDS', 'on his vesture and on his thigh'],
     fulfillmentKeywords: ['THE LORD OUR RIGHTEOUSNESS', 'the blessed and only Potentate'],
     terms: [],
@@ -4920,7 +4920,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-20-2': {
     title: 'He Laid Hold on the Dragon and Bound Him',
     principle:
-      'The old serpent is chained a thousand years. First principle: Genesis\'s head-crushing advances to a binding — deception of the nations suspended by an angelic key and chain.',
+      'The old serpent is chained a thousand years. First principle: the crushing of the serpent\'s head promised in Genesis now becomes a binding. An angel\'s key and chain stop him from deceiving the nations.',
     sourceKeywords: ['laid hold on the dragon', 'that old serpent', 'bound him a thousand years'],
     fulfillmentKeywords: ['it shall bruise thy head'],
     terms: [],
@@ -4928,7 +4928,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-20-6': {
     title: 'Blessed and Holy Is He That Hath Part in the First Resurrection',
     principle:
-      'First-resurrection saints escape the second death and reign a thousand years as priests. First principle: resurrection order decides destiny — the first is priestly reign; the second is judicial death.',
+      'The saints of the first resurrection escape the second death and reign a thousand years as priests. First principle: the order of the resurrections decides the outcome. The first is a reign as priests, and the second is a death sentence.',
     sourceKeywords: ['the first resurrection', 'the second death hath no power', 'reign with him a thousand years'],
     fulfillmentKeywords: ['many of them that sleep in the dust shall awake'],
     terms: [],
@@ -4936,7 +4936,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-20-11': {
     title: 'A Great White Throne, and Him That Sat on It',
     principle:
-      'Earth and heaven flee from the Judge\'s face; no place remains for them. First principle: the final judgment is a throne before it is a sentence — purity itself presides.',
+      'Earth and heaven flee from the Judge\'s face. No place remains for them. First principle: the last judgment is a throne before it is a sentence. Purity itself is in charge there.',
     sourceKeywords: ['a great white throne', 'him that sat on it', 'the earth and the heaven fled away'],
     fulfillmentKeywords: ['the judgment was set, and the books were opened'],
     terms: [],
@@ -4944,7 +4944,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-20-12': {
     title: 'The Books Were Opened, and Another Book, the Book of Life',
     principle:
-      'The dead are judged by the books; the saved by the book of life. First principle: two registries — works recorded, names written — and the second decides the first.',
+      'The dead are judged by the books, and the saved are judged by the book of life. First principle: there are two records. The works are written down, and the names are written down. The book of life settles the case.',
     sourceKeywords: ['the books were opened', 'the book of life', 'judged out of those things written'],
     fulfillmentKeywords: ['the books were opened'],
     terms: [],
@@ -4952,7 +4952,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-2': {
     title: 'New Jerusalem Prepared as a Bride',
     principle:
-      'The holy city descends from God, adorned for her husband. First principle: the end is not heaven going quiet but a city coming down — covenant union made municipal.',
+      'The holy city descends from God, adorned for her husband. First principle: the end is not heaven going quiet. It is a city coming down. God\'s binding promise joins him to his people in a city.',
     sourceKeywords: ['the holy city, new Jerusalem', 'coming down from God out of heaven', 'a bride adorned for her husband'],
     fulfillmentKeywords: ['as the bridegroom rejoiceth over the bride', 'thou shalt be called Hephzibah'],
     terms: [],
@@ -4960,7 +4960,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-4': {
     title: 'God Shall Wipe Away All Tears',
     principle:
-      'No death, sorrow, crying, or pain — former things passed away. First principle: Isaiah\'s swallow-up promise is personalized: tears are wiped by God\'s own hand, one grief at a time.',
+      'No death, sorrow, crying, or pain. The former things passed away. First principle: the promise Isaiah gave of death being swallowed up comes true for each person. God\'s own hand wipes the tears, one grief at a time.',
     sourceKeywords: ['God shall wipe away all tears', 'no more death', 'former things are passed away'],
     fulfillmentKeywords: ['He will swallow up death in victory'],
     terms: [],
@@ -4968,7 +4968,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-9': {
     title: 'Come Hither, I Will Shew Thee the Bride, the Lamb\'s Wife',
     principle:
-      'The angel offers to show a bride and shows a city. First principle: the church is architecture in the end — people made place, covenant made city.',
+      'The angel offers to show a bride, and what he shows is a city. First principle: in the end the church is a building. People become a place, and God\'s binding promise becomes a city.',
     sourceKeywords: ['I will shew thee the bride', 'the Lamb\'s wife'],
     fulfillmentKeywords: ['thy Maker is thine husband'],
     terms: [],
@@ -4976,7 +4976,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-14': {
     title: 'Twelve Foundations, the Apostles of the Lamb',
     principle:
-      'The city wall rests on apostolic names. First principle: the church\'s foundation is historical — named men, once weak, now load-bearing forever.',
+      'The city wall rests on the names of the apostles. First principle: the foundation of the church is a matter of history. Named men, once weak, now carry the load forever.',
     sourceKeywords: ['twelve foundations', 'the names of the twelve apostles of the Lamb'],
     fulfillmentKeywords: ['built upon the foundation of the apostles and prophets'],
     terms: [],
@@ -4984,7 +4984,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-23': {
     title: 'The Lamb Is the Light Thereof',
     principle:
-      'No sun or moon is needed; God\'s glory lights the city. First principle: creation\'s lamps are retired — Isaiah 60 fulfilled in a Lamb-lit, ever-shining city.',
+      'No sun or moon is needed. God\'s glory lights the city. First principle: the lamps of creation are put away. Isaiah 60 is fulfilled in a city lit by the Lamb, a city that never stops shining.',
     sourceKeywords: ['no need of the sun', 'the glory of God did lighten it', 'the Lamb is the light thereof'],
     fulfillmentKeywords: ['the sun shall be no more thy light by day', 'the LORD shall be unto thee an everlasting light'],
     terms: [],
@@ -4992,7 +4992,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-21-27': {
     title: 'There Shall in No Wise Enter Any Thing That Defileth',
     principle:
-      'Only those written in the Lamb\'s book of life enter. First principle: the city\'s gate is a register — purity required, purity provided, names checked.',
+      'Only those written in the Lamb\'s book of life enter. First principle: the gate of the city works like a register. Purity has to be there, purity is given, and every name is checked.',
     sourceKeywords: ['in no wise enter', 'whatsoever worketh abomination', 'the Lamb\'s book of life'],
     fulfillmentKeywords: ['there shall no more come into thee the uncircumcised'],
     terms: [],
@@ -5000,7 +5000,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-1': {
     title: 'A Pure River of Water of Life',
     principle:
-      'From the throne of God and the Lamb flows a crystal river. First principle: Eden\'s rivers and Ezekiel\'s temple stream converge — life now flows from a throne, not a garden.',
+      'A crystal river flows out from the throne of God and the Lamb. First principle: the rivers of Eden and the temple stream of Ezekiel come together in this picture. Life now flows from a throne. It no longer flows from a garden.',
     sourceKeywords: ['a pure river of water of life', 'clear as crystal', 'out of the throne of God and of the Lamb'],
     fulfillmentKeywords: ['a river went out of Eden', 'waters of life'],
     terms: [],
@@ -5008,7 +5008,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-2': {
     title: 'The Tree of Life, Yielding Fruit Every Month',
     principle:
-      'The tree returns, twelve fruits, leaves for the healing of nations. First principle: what was guarded is granted — the forbidden tree becomes the free tree, its leaves for healing.',
+      'The tree returns, with twelve fruits and leaves for the healing of nations. First principle: what was guarded is now granted. The forbidden tree becomes the free tree, and its leaves are for healing.',
     sourceKeywords: ['the tree of life', 'twelve manner of fruits', 'leaves... for the healing of the nations'],
     fulfillmentKeywords: ['the tree of life also in the midst of the garden'],
     terms: [],
@@ -5016,7 +5016,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-3': {
     title: 'There Shall Be No More Curse',
     principle:
-      'The curse of Eden is gone; the throne of God and the Lamb is in it. First principle: the Bible ends where it began, minus the curse — servants serve, faces are seen.',
+      'The curse of Eden is gone, and the throne of God and the Lamb is in it. First principle: the Bible ends where it began, only now there is no curse. God\'s servants serve him, and they see his face.',
     sourceKeywords: ['no more curse', 'the throne of God and of the Lamb', 'his servants shall serve him'],
     fulfillmentKeywords: ['cursed is the ground for thy sake'],
     terms: [],
@@ -5024,7 +5024,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-4': {
     title: 'They Shall See His Face',
     principle:
-      'His name is in their foreheads. First principle: the Moses-limit — no man can see My face — is lifted for the redeemed; the beatitude of purity becomes sight.',
+      'His name is in their foreheads. First principle: Moses was told that no man can see My face. That limit is lifted for the redeemed. The blessing promised to the pure in heart now comes true. They see God.',
     sourceKeywords: ['they shall see his face', 'his name shall be in their foreheads'],
     fulfillmentKeywords: ['Thou canst not see my face', 'there shall no man see me and live'],
     terms: [],
@@ -5032,7 +5032,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-5': {
     title: 'No Night There; They Reign for Ever and Ever',
     principle:
-      'No candle, no sun — the Lord God gives light, and they reign. First principle: the light of the first creation week never needed a sunset; now it never sets again.',
+      'No candle is needed, and no sun. The Lord God gives the light, and they reign. First principle: the light that shone in the first creation week never needed a sunset. Now it never goes out again.',
     sourceKeywords: ['no night there', 'the Lord God giveth them light', 'reign for ever and ever'],
     fulfillmentKeywords: ['the LORD shall be unto thee an everlasting light'],
     terms: [],
@@ -5040,7 +5040,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-12': {
     title: 'I Come Quickly; and My Reward Is with Me',
     principle:
-      'The coming One brings recompense according to work. First principle: the return is a payroll event — reward carried personally by the Returning One, as Isaiah promised.',
+      'The coming One brings a reward for what each person has done. First principle: the return is a payday. The Returning One carries the reward himself, as Isaiah promised.',
     sourceKeywords: ['I come quickly', 'my reward is with me', 'according as his work shall be'],
     fulfillmentKeywords: ['behold, his reward is with him', 'his work before him'],
     terms: [],
@@ -5048,7 +5048,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-13': {
     title: 'I Am Alpha and Omega, the First and the Last',
     principle:
-      'The title-bookends meet: the alphabet of creation is the punctuation of the end. First principle: the Lord of Isaiah 44 and 48 speaks in Revelation\'s last chapter — the book\'s claims are divine claims.',
+      'The titles at the start of the book and at the end are the same. The Lord who made all things is also the Lord who ends them. First principle: the Lord of Isaiah 44 and 48 speaks in Revelation\'s last chapter. What the book claims for him are claims only God can make.',
     sourceKeywords: ['Alpha and Omega', 'the beginning and the end', 'the first and the last'],
     fulfillmentKeywords: ['I am the first, I also am the last'],
     terms: [],
@@ -5056,7 +5056,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-14': {
     title: 'Blessed Are They That Do His Commandments',
     principle:
-      'Right to the tree of life and entry through the gates. First principle: obedience is the key-ring of the new Eden — doing His commandments and living by His tree.',
+      'They have the right to the tree of life and entry through the gates. First principle: obedience is what unlocks the new Eden. It means doing His commandments and living by His tree.',
     sourceKeywords: ['do his commandments', 'right to the tree of life', 'enter in through the gates'],
     fulfillmentKeywords: ['to him that overcometh will I give to eat'],
     terms: [],
@@ -5064,7 +5064,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-17': {
     title: 'The Spirit and the Bride Say, Come',
     principle:
-      'Whosoever will may take the water of life freely. First principle: the prophecy ends with an invitation, not a threat — thirst, come, drink, freely.',
+      'Whosoever will may take the water of life freely. First principle: the prophecy ends with an invitation, not a threat. Anyone who is thirsty may come and drink freely.',
     sourceKeywords: ['the Spirit and the bride say, Come', 'whosoever will', 'the water of life freely'],
     fulfillmentKeywords: ['Ho, every one that thirsteth, come ye to the waters'],
     terms: [],
@@ -5072,7 +5072,7 @@ export const bookThreadDetails: Record<string, ThreadDetail> = {
   'rev-22-18': {
     title: 'If Any Man Shall Add unto These Things',
     principle:
-      'The prophecy closes with a plenary guard: no adding, no subtracting. First principle: Deuteronomy\'s warning is renewed over the completed canon — the book is whole, and its words are weighty.',
+      'The prophecy closes with a guard over the whole book: add nothing, take nothing away. First principle: the warning Moses gave in Deuteronomy is given again over the finished Scriptures. The book is complete, and its words carry weight.',
     sourceKeywords: ['If any man shall add', 'the plagues that are written in this book'],
     fulfillmentKeywords: ['Ye shall not add unto the word which I command you'],
     terms: [],
